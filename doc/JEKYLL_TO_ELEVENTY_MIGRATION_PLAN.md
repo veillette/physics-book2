@@ -1,5 +1,12 @@
 # Jekyll to Eleventy Migration Plan
 
+> **⚠️ SUPERSEDED (2026-07-06):** the implementation plan now lives in
+> [`/roadmap.md`](../roadmap.md), which targets **Eleventy v4** and is based on measured
+> repository state. This draft contains known errors (listed in roadmap.md §10:
+> `summary.chapters` vs top-level array, wrong pathPrefix, `markdownTemplateEngine: 'njk'`,
+> the `$$…$$ → \(…\)` conversion, implicit-figures plugin, server-side nav). Where the two
+> documents conflict, **roadmap.md wins**. Kept for historical reference only.
+
 ## Physics Textbook Static Site Migration
 
 **Current Stack:** Jekyll 4.4, Ruby, Kramdown
