@@ -44,6 +44,11 @@ exclude:
   - LICENSE.txt
   - "*.gemspec"
   - .gitignore
+  # Eleventy migration (migrate/eleventy branch) — keep Jekyll build unaffected
+  - src/
+  - eleventy.config.js
+  - lib/
+  - _site_jekyll_baseline/
 
 # Files to include (even if they start with a dot)
 include:
