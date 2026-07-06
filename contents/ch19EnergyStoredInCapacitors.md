@@ -11,7 +11,6 @@ chapterNumber: 19
 * Explain the function of a defibrillator.
 </div>
 
-<section data-depth="1"  markdown="1">
 Most of us have seen dramatizations in which medical personnel use a **defibrillator**{: class="term"} to pass an electric current through a patient’s heart to get it to beat normally. (Review [[Figure 1]](#Figure1).) Often realistic in detail, the person applying the shock directs another person to “make it 400 joules this time.” The energy delivered by the defibrillator is stored in a capacitor and can be adjusted to fit the situation. SI units of joules are often employed. Less dramatic is the use of capacitors in microelectronics, such as certain handheld calculators, to supply energy when batteries are charged. (See [[Figure 1]](#Figure1).) Capacitors are also used to supply energy for flash lamps on cameras.
 
 ![In an electronic calculator circuit the memory is preserved using large capacitors which store energy when the batteries are charged.](../resources/Figure_19_07_01.jpg 'Energy stored in the large capacitor is used to preserve the memory of an electronic calculator when its batteries are charged. (credit: Kucharek, Wikimedia Commons)')
@@ -93,7 +92,6 @@ Solving this expression for $$C $$ and entering the given values yields
 This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4} \text{V} $$.
 
 </div>
-</section>
 
 ### Section Summary
 

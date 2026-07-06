@@ -186,7 +186,7 @@ and pushed inside one another. The volume of the nucleus is the sum of the
 volumes of the nucleons in it, here shown in different colors to represent
 protons and neutrons.
 
-<div class="Example1" id="example1" markdown="1">
+<div class="example" id="example1" markdown="1">
 <div class="title">
 How Small and Dense Is a Nucleus?
 </div>

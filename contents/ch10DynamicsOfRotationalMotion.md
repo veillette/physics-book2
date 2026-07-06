@@ -900,7 +900,7 @@ I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<parameter name="problem" markdown="1">
+<div class="problem" markdown="1">
 
 Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
 $$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
