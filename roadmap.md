@@ -918,6 +918,59 @@ with this roadmap, **this roadmap wins**. Specifically, that draft:
   out of scope for parity;
 - targets Eleventy 3.x / Node 20 — this plan targets v4 / Node ≥22.15.
 
+## 10a. P0–P4 execution findings (2026-07-06) — corrections to THIS roadmap
+
+P0–P4 are implemented on `migrate/eleventy`. Building real pages and diffing against the
+frozen Jekyll baseline (P4.5) proved several assumptions in §2 and §4 wrong. Where this
+section conflicts with §4, **this section wins** — it is verified against kramdown 2.5.1
+source (in `vendor/bundle`) and against byte-parity on `ch10DynamicsOfRotationalMotion` and
+`ch19EnergyStoredInCapacitors`.
+
+- **Math is NOT verbatim passthrough (§4.1 was wrong).** With `math_engine: null` Kramdown
+  wraps math: inline `$$…$$` → `<span class="kdmath">$…$</span>` (single `$`, content
+  `.strip`ped) so MathJax renders it _inline_; a standalone block `$$…$$` →
+  `<div class="kdmath">$$\n…\n$$</div>`. Content is emitted **raw/unescaped** (the baseline
+  really contains raw `&` and `<` inside kdmath). Only `$$…$$` is math — single `$`, `\(`,
+  `\[` are **not** (Kramdown's escape set `[\\.*_+``<>()\[\]{}#!:|"'$=-]` collapses `\(`→`(`,
+  matching markdown-it's escape rule). `$$…$$` inside raw HTML (e.g. `<div class="equation">`)
+  stays verbatim because markdown-it's `html_block` claims it first. Implemented in
+  `lib/eleventy/markdown-it-kramdown-math.js` (replaces the deleted `…math-passthrough.js`);
+  the P0.4 comparator's math rule and the fixture tests assert this.
+- **Typography: drop markdown-it `replacements` (D7 refinement).** `typographer: true`
+  also does `(c)`→©, `(tm)`→™, `+-`→± which Kramdown never does (baseline: 0 `©`, 1549
+  literal `(c)`). Kramdown only substitutes `--- -- ... << >>`. `lib/eleventy/markdown-it-
+kramdown-typography.js` disables `replacements`, keeps `smartquotes`, and re-adds only
+  Kramdown's symbols.
+- **Kramdown slug (§4.2 snippet was wrong):** `basic_generate_id` strips leading non-letters
+  **first**, then substitutes **each** space with a dash (`tr`, not a collapsing `gsub`), so
+  `Problems & Exercises` → `problems--exercises` (double dash). Fixed in `kramdown-slugify.js`.
+- **markdown-it-anchor needs `tabIndex: false`** (Kramdown emits `id=` only, no `tabindex`).
+- **Image IALs must be LEFT UNFOLDED (§4.2 folding rule was wrong).** Kramdown binds the
+  next-line `{: #FigureN}` to the enclosing `<p>` (`<p id="Figure1"><img></p>`), and
+  markdown-it-attrs does the same when the IAL stays on its own line. Folding it onto the
+  `<img>` diverges from the baseline. (The runtime figure builder reads `img.getAttribute
+('id')`, so it currently gets null on figures — that is existing baseline behaviour we
+  preserve, not something to "fix" during the migration.)
+- **P5 converter — raw wrappers need blank lines.** A raw `<div class="exercise">` (no
+  `markdown="1"`) that wraps `::: problem`/`::: solution` containers must get a blank line
+  after the opening tag and before the closing `</div>`, or markdown-it's `html_block` rule
+  swallows the `:::` fences and renders them literally. Raw text wrappers (`<div class=
+"title">`, `<div class="equation">`) must instead stay contiguous (no inner blanks) but be
+  separated from following markdown by a blank line.
+- **Eleventy vs .gitignore:** `src/contents/` is gitignored (build artifact) but Eleventy
+  honours `.gitignore` for input, so it silently skipped every content page. Fixed with
+  `setUseGitIgnore(false)` + a `.eleventyignore`; `.gitignore` narrowed to
+  `/src/contents/*.md` so `contents.11tydata.js` stays tracked.
+- **HtmlBasePlugin vs `| url`:** using both double-prefixes URLs
+  (`/physics-book2/physics-book2/…`). Templates use PLAIN root-relative asset URLs (let
+  HtmlBasePlugin add the prefix); `| url` is kept only for the `window.Book` script-body
+  values, which HtmlBasePlugin does not touch (§3, P3.2).
+- **Three more `markdown="1"` outliers than §2.1 listed**, all fixed in P0.3 and captured by
+  `scripts/generate-census.js` → `migration-census.json`: `ch31` `class="Example1"` (mis-cased,
+  → `example`), plus a commented-out `<figure markdown="1">` in `ch28` (correctly ignored).
+  Real `markdown="1"` block count is **6938**; container allow-list is the 8 names in the
+  census JSON.
+
 ## 11. References
 
 - [Eleventy docs](https://www.11ty.dev/docs/) · [v4 release notes](https://github.com/11ty/eleventy/releases)
