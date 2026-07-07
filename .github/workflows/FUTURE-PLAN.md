@@ -25,7 +25,7 @@ Reduce repository size by excluding PDFs from git and generating them dynamicall
    - No git commit needed
 
 3. **Update GitHub Pages Deployment**
-   Modify `.github/workflows/jekyll-gh-pages.yml` to:
+   Modify `.github/workflows/deploy.yml` to:
    - Run PDF generation before deployment
    - Include PDFs in Pages artifact
    - Deploy both HTML and PDFs together

@@ -127,7 +127,7 @@ describe('OrphanFileFinder', () => {
       expect(finder.referencedPaths.size).toBe(0);
     });
 
-    it('should extract Jekyll/Liquid relative_url references', () => {
+    it('should extract legacy relative_url references', () => {
       finder.extractLinksFromContent("{{ '/assets/icon.png' | relative_url }}", 'test.md');
       expect(finder.referencedPaths.has('assets/icon.png')).toBe(true);
     });

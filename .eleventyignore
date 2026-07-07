@@ -3,9 +3,7 @@
 # Eleventy only processes templateFormats (md, njk); node_modules is always ignored.
 # Built/vendored trees
 _site
-_site_jekyll_baseline
 vendor
-.jekyll-cache
 pdf-output
 # Passthrough-copied (do not template-process; addPassthroughCopy still copies them)
 assets

@@ -8,15 +8,11 @@ export default [
     ignores: [
       'node_modules/**',
       '_site/**',
-      '.jekyll-cache/**',
       'vendor/**',
       'resources/**',
       'pdf-output/**',
       'package-lock.json',
       'summary.json',
-      // Jekyll-templated files: contain Liquid/front-matter that ESLint cannot parse
-      'sw.js',
-      'assets/pwa/register-sw.js',
       // Third-party bundle
       'assets/js/mathjax/**',
     ],

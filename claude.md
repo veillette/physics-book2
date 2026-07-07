@@ -25,7 +25,7 @@
 
 ## Project Overview
 
-This is an **open-source physics textbook** built with Eleventy (11ty) and deployed on Vercel and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable. (It was migrated from Jekyll/Kramdown to Eleventy/markdown-it; see `roadmap.md`.)
+This is an **open-source physics textbook** built with Eleventy (11ty) and deployed on Vercel and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable. See [`roadmap.md`](./roadmap.md) for build architecture and [`CHANGELOG.md`](./CHANGELOG.md) for migration history.
 
 - **Vercel Site (Primary)**: https://physics-book.vercel.app/
 - **GitHub Pages Site**: https://veillette.github.io/physics-book2/
@@ -90,7 +90,7 @@ Content is structured modularly in the `contents/` directory.
 
 ### Math and Templating
 
-Markdown bodies are rendered with **no template engine** (`markdownTemplateEngine: false` in `eleventy.config.js`), so Liquid/Nunjucks never touches math or `{{…}}` patterns. You can freely write `{{v}_{\text{...}}}` and other brace-heavy LaTeX; it is passed through verbatim to MathJax. (The old `{% raw %}` wrappers and the `fix-liquid-syntax` workflow were Jekyll/Liquid-specific and are no longer needed.)
+Markdown bodies are rendered with **no template engine** (`markdownTemplateEngine: false` in `eleventy.config.js`), so Liquid/Nunjucks never touches math or `{{…}}` patterns. You can freely write `{{v}_{\text{...}}}` and other brace-heavy LaTeX; it is passed through verbatim to MathJax.
 
 ## Development Workflow
 
@@ -168,7 +168,7 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 ### Navigation Links Broken on GitHub Pages
 
 - **Symptom**: Links work locally and on Vercel but are broken on GitHub Pages.
-- **Solution**: Use **root-relative** links/asset paths (e.g. `/contents/ch2Kinematics.md`, `/resources/x.png`). `eleventy.config.js` adds the `/physics-book2` prefix to single-slash root-relative `href`/`src` at build time for GitHub Pages, and drops it for Vercel (detected via the `VERCEL` env var). Don't hand-write the prefix — and don't use the old `{{ site.baseurl }}` (that was a Jekyll construct).
+- **Solution**: Use **root-relative** links/asset paths (e.g. `/contents/ch2Kinematics.md`, `/resources/x.png`). `eleventy.config.js` adds the `/physics-book2` prefix to single-slash root-relative `href`/`src` at build time for GitHub Pages, and drops it for Vercel (detected via the `VERCEL` env var). Don't hand-write the prefix.
 
 ### Service Worker Issues
 

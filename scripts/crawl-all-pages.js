@@ -2,7 +2,7 @@
 /**
  * Page Crawler - Navigate Through All Pages to Find Errors
  *
- * This script builds the Jekyll site and then navigates through every page
+ * Navigates through every page on the local Eleventy dev server
  * to detect errors such as:
  * - JavaScript errors (console errors)
  * - Failed resource loads (404s for CSS, JS, images)
@@ -108,7 +108,7 @@ class PageCrawler {
 
     // Check if site is built
     if (!fs.existsSync(siteDir)) {
-      console.log(chalk.red('❌ Jekyll site not built. Please run: bundle exec jekyll build\n'));
+      console.log(chalk.red('❌ Site not built. Please run: npm run build\n'));
       process.exit(1);
     }
 

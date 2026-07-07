@@ -56,7 +56,7 @@ class SearchIndexBuilder {
 
     if (!fs.existsSync(sitePath)) {
       console.error(`Error: Site directory not found: ${sitePath}`);
-      console.error('Run Jekyll build first: bundle exec jekyll build');
+      console.error('Run Eleventy build first: npm run build');
       this.stats.errors++;
       return false;
     }
@@ -205,7 +205,7 @@ runCli({
   description: `Creates a searchable index for the Physics Book PWA.
 
 Uses MiniSearch to generate a JSON index from all HTML files.
-Requires Jekyll to have built the site first.`,
+Requires Eleventy to have built the site first (npm run build).`,
   flags: {
     siteDir: {
       flag: '--site-dir',

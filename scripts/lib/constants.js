@@ -230,7 +230,7 @@ export const YAML_SCHEMA = {
  */
 export const DEFAULT_GLOB_PATTERNS = {
   markdown: '**/*.md',
-  ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'],
+  ignore: ['node_modules/**', '_site/**', 'scripts/**'],
 };
 
 /**

@@ -126,7 +126,7 @@ jobs:
 
       # Gate: the built HTML must contain no unconverted Kramdown/Liquid markers. HTML
       # comments are stripped first (an inert commented-out <figure markdown="1"> exists in
-      # ch28 and is present in the Jekyll baseline too).
+      # ch28 and is present in a commented-out HTML block in the source too).
       - name: Grep gates (no leftover markers in _site)
         run: |
           set -e

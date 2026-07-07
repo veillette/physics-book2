@@ -85,15 +85,7 @@ class LinkChecker {
     // Find all markdown files
     const markdownFiles = await glob('**/*.md', {
       cwd: this.baseDir,
-      ignore: [
-        'node_modules/**',
-        '_site/**',
-        '.jekyll-cache/**',
-        // Gitignored vendored/baseline dirs (see .gitignore) — keep them out of
-        // link checks so local runs don't scan thousands of gem/baseline links.
-        'vendor/**',
-        '_site_jekyll_baseline/**',
-      ],
+      ignore: ['node_modules/**', '_site/**', 'vendor/**'],
     });
 
     this.stats.totalFiles = markdownFiles.length;

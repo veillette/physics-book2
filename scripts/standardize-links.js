@@ -8,7 +8,7 @@
  * Converts old format: ../contents/filename.md
  * To new format: ./filename (no .md extension)
  *
- * This follows Jekyll/MyST conventions for extension-less links.
+ * This follows the project's convention for extension-less links.
  *
  * Usage:
  *   node scripts/standardize-links.js [options] [directory]
@@ -268,7 +268,7 @@ runCli({
   name: 'standardize-links',
   description: `Standardizes internal links in markdown files:
 - Converts ../contents/filename.md to ./filename
-- Removes .md extensions (Jekyll/MyST convention)
+- Removes .md extensions (project link convention)
 - Validates that link targets exist`,
   flags: {
     strict: STANDARD_FLAGS.strict,

@@ -5,13 +5,10 @@ vendor/
 
 # Build outputs
 _site/
-.jekyll-cache/
-.jekyll-metadata
 pdf-output/
 
 # Package files
 package-lock.json
-Gemfile.lock
 summary.json
 
 # Resources
@@ -23,11 +20,6 @@ assets/manifest/
 # Git
 .git/
 
-# Migration and archive docs (may have intentional formatting)
-doc/JEKYLL_TO_*.md
-doc/*_MIGRATION_*.md
-doc/KRAMDOWN_*.md
-
 # Legacy files
 *.old
 *.bak
@@ -35,9 +27,6 @@ doc/KRAMDOWN_*.md
 # Editor files
 .vscode/
 .idea/
-
-# Jekyll templates with front matter
-sw.js
 
 # Content markdown files - contains math equations sensitive to formatting
 contents/*.md

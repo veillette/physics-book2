@@ -20,12 +20,12 @@ The search feature provides a fast, offline-capable full-text search across all 
 
 ### 1. Build Script (`scripts/build-index.js`)
 
-Generates the search index from HTML files after Jekyll builds the site.
+Generates the search index from HTML files after Eleventy builds the site.
 
 **Usage:**
 
 ```bash
-npm run build-search-index
+npm run generate:search-index
 ```
 
 **What it does:**
@@ -37,7 +37,7 @@ npm run build-search-index
 
 **Requirements:**
 
-- Must be run AFTER Jekyll builds the site
+- Must be run AFTER Eleventy builds the site (`npm run build`)
 - Requires `_site` directory to exist with built HTML files
 
 ### 2. Search Module (`assets/js/search.js`)
@@ -96,19 +96,21 @@ The search index is cached using a "Cache First" strategy to ensure offline avai
 
 To integrate search into your build pipeline:
 
-1. **Build the Jekyll site:**
+1. **Build the Eleventy site:**
 
    ```bash
-   bundle exec jekyll build
+   npm run build
    ```
 
 2. **Generate the search index:**
 
    ```bash
-   npm run build-search-index
+   npm run generate:search-index
    ```
 
 3. **Deploy the `_site` directory** with the generated `search_index.json`
+
+The GitHub Pages deploy workflow (`.github/workflows/deploy.yml`) runs both steps automatically.
 
 ## Configuration
 
@@ -172,7 +174,7 @@ const htmlFiles = glob.sync(`${SITE_DIR}/**/*.html`, {
 ### No results found
 
 1. **Check index generation:**
-   - Run `npm run build-search-index`
+   - Run `npm run generate:search-index`
    - Check console output for errors
    - Verify HTML files exist in `_site`
 

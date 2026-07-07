@@ -2,7 +2,7 @@
 /**
  * PDF Generation Script for Physics Book
  *
- * Generates PDF files from the Jekyll-based physics textbook using Playwright.
+ * Generates PDF files from the Eleventy-built physics textbook using Playwright.
  * Supports generating individual chapters or the complete book.
  *
  * Usage:
@@ -15,7 +15,7 @@
  *   --book                Generate complete book PDF (all chapters)
  *   -u, --url <url>       Generate PDF from a specific URL
  *   -o, --output <name>   Output filename (for --url mode)
- *   -b, --base-url <url>  Base URL for Jekyll server
+ *   -b, --base-url <url>  Base URL for the local dev server
  *   --help                Show this help message
  */
 
@@ -90,8 +90,8 @@ class PDFGenerator {
     console.log(`Checking if server is running at ${this.baseUrl}...`);
     const serverRunning = await this.checkServer();
     if (!serverRunning) {
-      console.error(`\nError: Jekyll server not running at ${this.baseUrl}`);
-      console.error('Please start the server first: bundle exec jekyll serve');
+      console.error(`\nError: Dev server not running at ${this.baseUrl}`);
+      console.error('Please start the server first: npm run serve');
       return false;
     }
     console.log('Server is running!\n');
@@ -532,7 +532,7 @@ class PDFGenerator {
 // CLI Configuration
 runCli({
   name: 'generate-pdf',
-  description: `Generates PDF files from the Jekyll-based physics textbook using Playwright.
+  description: `Generates PDF files from the Eleventy-built physics textbook using Playwright.
 
 Modes:
 - --all: Generate separate PDFs for all chapters and sections
@@ -542,7 +542,7 @@ Modes:
 - --url: Generate PDF from a specific URL
 
 Prerequisites:
-- Jekyll server must be running: bundle exec jekyll serve
+- Eleventy dev server must be running: npm run serve
 - Playwright browsers installed: npx playwright install chromium`,
   flags: {
     chapter: {
@@ -577,7 +577,7 @@ Prerequisites:
     },
     baseUrl: {
       flag: ['-b', '--base-url'],
-      description: 'Base URL for Jekyll server (default: http://localhost:4000/physics-book2)',
+      description: 'Base URL for dev server (default: http://localhost:4000/physics-book2)',
       type: 'string',
       default: 'http://localhost:4000/physics-book2',
     },

@@ -113,13 +113,7 @@ class OrphanFileFinder {
     // (head.njk, index.njk, sw.njk, manifest.njk, etc.) and contain the
     // <link>/<script>/<img> references to favicons, scripts, and images.
     const patterns = ['**/*.md', '**/*.html', '**/*.njk', '**/*.json', '**/*.js', '**/*.css'];
-    const ignorePatterns = [
-      'node_modules/**',
-      '_site/**',
-      '_site_jekyll_baseline/**',
-      '.jekyll-cache/**',
-      'scripts/**',
-    ];
+    const ignorePatterns = ['node_modules/**', '_site/**', 'scripts/**'];
 
     for (const pattern of patterns) {
       const files = await glob(pattern, {

@@ -6,7 +6,7 @@ export const BookConfig = {
     selector: 'nav, ol, ul', // # picks the first one that matches
   },
   baseHref: null, //  # or '//archive.cnx.org/contents'
-  serverAddsTrailingSlash: false, //# Used because jekyll adds trailing slashes
+  serverAddsTrailingSlash: false,
   rootUrl: '',
   includes: {},
 };

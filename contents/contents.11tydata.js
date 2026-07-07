@@ -1,8 +1,7 @@
-// Directory data for src/contents/*.md — applies to every content page.
-// Enforces the D5 output-path contract: Jekyll maps contents/x.md -> contents/x.html,
-// but Eleventy's default would be contents/x/index.html. Overriding permalink to
-// `<filePathStem>.html` reproduces the Jekyll URL exactly. Every existing URL,
-// anchor, PDF link, and the search index depend on this mapping (roadmap section 2.4).
+// Directory data for contents/*.md — applies to every content page.
+// Enforces the output-path contract: contents/x.md -> contents/x.html
+// (not contents/x/index.html). Overriding permalink to `<filePathStem>.html` keeps
+// every existing URL, anchor, PDF link, and search index entry stable.
 export default {
   layout: 'page',
   eleventyComputed: {

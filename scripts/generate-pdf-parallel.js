@@ -277,7 +277,7 @@ class ParallelPDFGenerator {
     console.log(`Checking server at ${this.baseUrl}...`);
     if (!(await this.checkServer())) {
       console.error('\nError: Server not running!');
-      console.error('Please start: bundle exec jekyll serve');
+      console.error('Please start: npm run serve');
       return false;
     }
     console.log('✓ Server is running');

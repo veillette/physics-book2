@@ -26,10 +26,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
-- `lib/eleventy/` markdown-it plugin stack and `scripts/compare-builds.js` parity comparator (frozen Jekyll baseline vs Eleventy build) plus `scripts/generate-census.js` content census.
-- `tests/markdown-pipeline.test.js` fixture tests for the markdown pipeline.
+- `lib/eleventy/` markdown-it plugin stack and `tests/markdown-pipeline.test.js` fixture tests.
 
-See `roadmap.md` (especially §10a/§10b) for the full migration design, execution findings, and parity status.
+### Removed (post-migration cleanup)
+
+- Migration-only tooling: `scripts/compare-builds.js`, `scripts/generate-census.js`, `scripts/migration-census.json`, and `scripts/fix-liquid-syntax.js` (plus their npm scripts).
+- Historical migration planning docs under `doc/` (`JEKYLL_TO_*`, `KRAMDOWN_MIGRATION_REVIEW.md`).
+- `roadmap.md` rewritten as a post-migration build architecture reference.
+
+See `roadmap.md` for the current build architecture.
 
 ## [2025-12-31] - December 2025 Major Updates
 

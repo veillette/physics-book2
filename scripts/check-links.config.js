@@ -28,7 +28,6 @@ export const linkCheckConfig = {
   ignoreFiles: [
     '**/node_modules/**',
     '**/_site/**',
-    '**/.jekyll-cache/**',
     '**/dist/**',
     '**/build/**',
     '**/.git/**',

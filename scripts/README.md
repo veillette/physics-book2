@@ -17,7 +17,6 @@ Build and utility scripts for the Physics Book project.
 | check-structure         | `npm run check:structure`         | Validate document structure           |
 | check-cross-references  | `npm run check:cross-refs`        | Validate cross-references             |
 | lint-markdown           | `npm run lint:markdown`           | Lint markdown files                   |
-| fix-liquid-syntax       | `npm run fix:liquid`              | Fix Liquid syntax in math             |
 | standardize-links       | `npm run fix:links`               | Convert links to root-relative format |
 | generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters              |
 | generate-icons          | `npm run generate:icons`          | Generate PWA icons                    |
@@ -39,7 +38,7 @@ All scripts follow a consistent naming convention using colons as separators:
 | Prefix       | Purpose                   | Examples                               |
 | ------------ | ------------------------- | -------------------------------------- |
 | `check:*`    | Validation/quality checks | check:links, check:yaml, check:content |
-| `fix:*`      | Auto-fix issues           | fix:content, fix:equations, fix:liquid |
+| `fix:*`      | Auto-fix issues           | fix:content, fix:equations, fix:links |
 | `lint:*`     | Lint files                | lint:markdown                          |
 | `generate:*` | File/asset generation     | generate:pdf, generate:icons           |
 | `parse:*`    | Parse/extract data        | parse:summary                          |
@@ -51,7 +50,7 @@ All scripts follow a consistent naming convention using colons as separators:
 
 - `:strict` - Enable stricter validation (e.g., `check:content:strict`)
 - `:fix` - Apply fixes (e.g., `check:content:fix`)
-- `:apply` - Apply changes to files (e.g., `fix:liquid:apply`)
+- `:apply` - Apply changes to files (e.g., `fix:links:apply`)
 
 ---
 
@@ -227,15 +226,6 @@ npm run check:cross-refs:strict   # Strict mode
 ---
 
 ## Fix Scripts (`fix:*`)
-
-### fix-liquid-syntax.js
-
-Fixes Liquid syntax errors in LaTeX math expressions.
-
-```bash
-npm run fix:liquid              # Check for issues (dry run)
-npm run fix:liquid:apply        # Apply fixes to files
-```
 
 ### standardize-links.js
 
@@ -423,7 +413,7 @@ npm run crawl:verbose             # Show detailed output for every page
 
 **Prerequisites:**
 
-- Dev server must be running: `npm run serve`
+- Eleventy dev server must be running: `npm run serve`
 - Playwright browsers installed: `npx playwright install chromium`
 
 **Typical workflow:**

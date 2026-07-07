@@ -1,5 +1,4 @@
-// site.js — replaces the _config.yml `site.*` values that templates reference.
-// Kept in sync with _config.yml until the Jekyll config is removed at cutover (P10).
+// site.js — site metadata for Nunjucks templates (title, description, repository URL).
 export default {
   title: 'General Physics',
   tagline: 'An Open Textbook',
@@ -9,6 +8,6 @@ export default {
     'grasp key, fundamental physics concepts.',
   author: 'Martin Veillette',
   url: 'https://veillette.github.io',
-  // Replaces Jekyll's site.github.repository_url (jekyll-github-metadata).
+  // GitHub repository URL for footer links and metadata.
   repositoryUrl: 'https://github.com/veillette/physics-book2',
 };

@@ -52,7 +52,7 @@ PDFs are automatically generated weekly (every Sunday at 00:00 UTC) via GitHub A
 
 ### Manual Generation
 
-For local PDF generation with parallel processing, see [PDF Generation Documentation](./assets/pdf/README.md).
+For local PDF generation with parallel processing, see the [PDF generation section](./scripts/README.md#generate-pdf-paralleljs) in the scripts documentation.
 
 ```bash
 # Quick method (30 minutes for all PDFs)
@@ -94,8 +94,9 @@ cd physics-book2
 # 2. Install Node.js dependencies
 npm install
 
-# 3. Start the local dev server
+# 3. Start the local dev server (or build for production)
 npm run serve
+# npm run build
 
 # 4. View your local copy at http://localhost:4000/physics-book2/
 ```
@@ -105,6 +106,9 @@ npm run serve
 The project includes a suite of Node.js scripts for quality assurance and content management. All scripts use a shared utilities library (`scripts/lib/`) for consistent output formatting and CLI handling. See the [scripts README](./scripts/README.md) for full details.
 
 ```console
+# Build the site
+npm run build
+
 # Run a full audit (links, orphans, figures, YAML, accessibility, content)
 npm run audit
 
@@ -174,6 +178,15 @@ We welcome contributions from the physics education community! Your help makes t
 For detailed project conventions, see [`claude.md`](./claude.md).
 
 ## 🎉 Recent Improvements
+
+### July 2026 Updates
+
+**Eleventy Migration:**
+
+- Replaced Jekyll/Kramdown with Eleventy v4 and markdown-it
+- Node-only build (`npm run build` / `npm run serve`); Ruby/Bundler no longer required
+- Nunjucks templates replace Liquid layouts
+- Root-relative links replace `{{ site.baseurl }}` patterns
 
 ### December 2025 Updates
 
