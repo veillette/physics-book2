@@ -2,8 +2,20 @@ MathJax = {
   options: {
     // Skip processing elements with this class (for lazy loading)
     ignoreHtmlClass: 'mathjax-skip',
-    // Disable context menu to avoid ARIA issues with menu items
-    enableMenu: false,
+    enableMenu: true,
+    menuOptions: {
+      settings: {
+        enrich: true,
+        speech: true,
+        braille: true,
+        subtitles: true,
+        viewBraille: false,
+        help: true,
+        inTabOrder: true,
+        assistiveMml: false,
+        voicing: false,
+      },
+    },
   },
   tex: {
     inlineMath: [

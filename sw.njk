@@ -3,7 +3,7 @@ permalink: /sw.js
 eleventyExcludeFromCollections: true
 ---
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-31-fix-mathjax-config';
+const CACHE_VERSION = '2026-07-07-mathjax-a11y';
 const CACHE_NAME = `physics-book2-${CACHE_VERSION}`;
 const BASE_URL = '{{ "/" | url }}';
 
@@ -20,6 +20,9 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/js/book-viewer.js`,
   `${BASE_URL}assets/js/math-config.js`,
   `${BASE_URL}assets/js/mathjax/tex-chtml.js`,
+  `${BASE_URL}assets/js/mathjax/ui/menu.js`,
+  `${BASE_URL}assets/js/mathjax/a11y/explorer.js`,
+  `${BASE_URL}assets/js/mathjax/sre/speech-worker.js`,
   `${BASE_URL}assets/js/book-config.js`,
   `${BASE_URL}assets/js/util.js`,
   `${BASE_URL}assets/js/search.js`,
