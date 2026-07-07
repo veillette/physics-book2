@@ -169,15 +169,18 @@ function joinWrappedIALs(lines) {
   return out;
 }
 
-// step 3e: a handful of image titles contain a raw `<a href="#…">` — i.e. double quotes
-// INSIDE a double-quoted title. Kramdown reads the title to the last `"` before `)` and
-// escapes the inner tag; markdown-it stops at the first inner `"`, spilling a real <a> (a
-// spurious link). Switch the title delimiter to single quotes (these titles contain no `'`)
-// so markdown-it parses the whole title and escapes the inner `"` in the attribute.
-function fixNestedQuoteTitles(line) {
-  const m = line.match(/^(\s*!\[[^\]]*\]\([^\s)]+\s+)"(.*)"(\)\s*)$/);
-  if (m && m[2].includes('"') && !m[2].includes("'")) return `${m[1]}'${m[2]}'${m[3]}`;
-  return line;
+// step 3e: some image titles contain a raw `<a href="#…">` — i.e. double quotes INSIDE a
+// double-quoted title (and the title may wrap across lines). Kramdown reads the title to
+// the last `"` before `)` and escapes the inner tag; markdown-it stops at the first inner
+// `"`, which spills a real <a> (a spurious link) or fails the image entirely (literal
+// `![…]`). Switch the title delimiter to single quotes (these titles contain no `'`) so
+// markdown-it parses the whole title and escapes the inner `"` in the attribute. Body-level
+// so it also handles titles that span lines.
+const IMG_TITLE_RE = /(!\[[^\]]*\]\([^\s)]+[ \t\n]+)"((?:[^"]|"(?![ \t]*\)))*)"([ \t]*\))/g;
+function fixNestedQuoteTitles(body) {
+  return body.replace(IMG_TITLE_RE, (m, pre, title, post) =>
+    title.includes('"') && !title.includes("'") ? `${pre}'${title}'${post}` : m
+  );
 }
 
 // step 3d: an inline term IAL sometimes wraps to the next line AFTER its bold span:
@@ -415,8 +418,8 @@ function convert(text, { file, isSummary }) {
 
   // steps 3b (raw-table blanks), 3c (join wrapped IALs), 4 (fold list IALs), 4b (forward
   // IALs), then 5 (containers), then 6 (blanks).
+  b = fixNestedQuoteTitles(b);
   let lines = stripBlanksInRawTables(b.split('\n'));
-  lines = lines.map(fixNestedQuoteTitles);
   lines = joinWrappedIALs(lines);
   lines = joinEmphasisIALs(lines);
   lines = foldListItemIALs(lines);
