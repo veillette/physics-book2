@@ -232,6 +232,9 @@ function moveForwardIALs(lines) {
 // gets one more than its deepest descendant. Blank-line classification (step 6) accepts
 // fences of any length >= 3.
 const RAW_WRAPPER_OPEN = /^\s*<(?:div|section|figure)\b[^>]*[^/]>\s*$/;
+const MIDLINE_BLOCK_TAG = /<\/?(?:div|figure|section)\b[^>]*>/g;
+const escapeMidlineBlockTags = line =>
+  line.replace(MIDLINE_BLOCK_TAG, m => m.replace(/</g, '&lt;').replace(/>/g, '&gt;'));
 const indentOf = s => s.match(/^[ \t]*/)[0].length;
 const padTo = (s, n) => {
   const cur = indentOf(s);
@@ -303,7 +306,12 @@ function convertContainers(body, file) {
 
     // Any other line: re-indent into the enclosing raw wrapper, and track mid-line raw
     // div/figure nesting by substring count so container-close matching stays accurate.
-    ops.push(reindent(line));
+    // A block-level tag that appears MID-line (in a paragraph, not alone) is span-level
+    // context for Kramdown, which escapes it to text (`<div …>` -> `&lt;div …&gt;`) while
+    // rendering the $$…$$ around it inline. Escape those here so markdown-it (html:true)
+    // doesn't emit a real, unbalanced element. Depth is still counted from the raw line so
+    // it stays balanced with any matching alone `</div>` (which Kramdown keeps raw).
+    ops.push(escapeMidlineBlockTags(reindent(line)));
     depthDelta(line);
   });
 
