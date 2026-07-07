@@ -8,7 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { glob } from 'glob';
-import matter from 'gray-matter';
+import matter from '@11ty/gray-matter';
 import { DEFAULT_GLOB_PATTERNS } from './constants.js';
 
 /**

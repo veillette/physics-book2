@@ -19,7 +19,7 @@
  */
 
 import path from 'path';
-import matter from 'gray-matter';
+import matter from '@11ty/gray-matter';
 
 import { ContentParser } from './lib/parser.js';
 import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';

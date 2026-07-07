@@ -465,7 +465,7 @@ Scripts use these npm packages:
 - `chalk` - Terminal styling
 - `cheerio` - HTML parsing (for search index)
 - `glob` - File pattern matching
-- `gray-matter` - YAML front matter parsing
+- `@11ty/gray-matter` - YAML front matter parsing
 - `js-yaml` - YAML processing
 - `minisearch` - Full-text search indexing
 - `node-fetch` - HTTP requests
