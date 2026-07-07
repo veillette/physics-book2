@@ -133,8 +133,11 @@ jobs:
           fail=0
           # -I skips binary files (PDFs/JPEGs in _site/) whose noise bytes would
           # otherwise false-positive against these marker patterns.
+          # `|| true` prevents `set -e` from aborting when the inner `grep -q`
+          # (run after comment-stripping) finds no match on a file that the outer
+          # grep flagged only because of an inert commented-out markdown="1".
           leaks=$(for f in $(grep -rIl 'markdown="1"' _site 2>/dev/null); do \
-            perl -0777 -pe 's/<!--.*?-->//gs' "$f" | grep -q 'markdown="1"' && echo "$f"; done)
+            perl -0777 -pe 's/<!--.*?-->//gs' "$f" | grep -q 'markdown="1"' && echo "$f"; done || true)
           if [ -n "$leaks" ]; then echo "::error::leftover markdown=\"1\":"; echo "$leaks"; fail=1; fi
           if grep -rIEl '^\s*\{:' _site >/dev/null 2>&1; then \
             echo "::error::leftover line-initial {: IAL:"; grep -rIEl '^\s*\{:' _site; fail=1; fi
