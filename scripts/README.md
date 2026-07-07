@@ -468,7 +468,6 @@ Scripts use these npm packages:
 - `@11ty/gray-matter` - YAML front matter parsing
 - `js-yaml` - YAML processing
 - `minisearch` - Full-text search indexing
-- `node-fetch` - HTTP requests
 - `sharp` - Image processing
 - `simple-git` - Git operations
 - `@playwright/test` - PDF generation

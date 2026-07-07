@@ -22,7 +22,6 @@ import path from 'path';
 import { pathToFileURL } from 'url';
 import { execFileSync } from 'child_process';
 import { glob } from 'glob';
-import fetch from 'node-fetch';
 
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 
@@ -284,7 +283,12 @@ class LinkChecker {
       if (error.name === 'AbortError') {
         errorMessage = `Timeout after ${this.timeout}ms`;
         isNetworkError = true;
-      } else if (error.code?.includes('ENOTFOUND') || error.code?.includes('EAI_AGAIN')) {
+      } else if (
+        error.code?.includes('ENOTFOUND') ||
+        error.code?.includes('EAI_AGAIN') ||
+        error.cause?.code?.includes('ENOTFOUND') ||
+        error.cause?.code?.includes('EAI_AGAIN')
+      ) {
         errorMessage = `Network error: ${error.message}`;
         isNetworkError = true;
       }
