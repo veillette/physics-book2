@@ -2,6 +2,12 @@ import { HtmlBasePlugin } from '@11ty/eleventy';
 import { createMarkdown } from './lib/eleventy/markdown.js';
 
 export default function (eleventyConfig) {
+  // src/contents/ is a gitignored build artifact (D4) that the converter generates,
+  // but Eleventy must still build from it — so do NOT let .gitignore drive Eleventy's
+  // input ignores. Exclusions live in .eleventyignore instead. (Eleventy always
+  // ignores node_modules regardless.)
+  eleventyConfig.setUseGitIgnore(false);
+
   // Custom markdown-it stack (math passthrough, IAL attrs, Kramdown slugs,
   // containers, deflist, footnotes). Shared with the pipeline tests.
   eleventyConfig.setLibrary('md', createMarkdown());
