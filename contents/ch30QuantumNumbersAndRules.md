@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 8
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define quantum number.
 * Calculate angle of angular momentum vector with an axis.
 * Define spin quantum number.
-</div>
+
+:::
 
 Physical characteristics that are quantized—such as energy, charge, and angular
 momentum—are of such importance that names and symbols are given to them. The
@@ -98,10 +99,12 @@ illustrated in [[Figure 1]](#Figure1).
 ![The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.](../resources/Figure_30_08_01.jpg 'The component of a given angular momentum along the z-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for l=1, for which ( m_\\text{l}=-1, 0, \\text{ and } +1 ) . The direction of L is quantized in the sense that it can have only certain angles relative to the z-axis.')
 {: #Figure1}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Are the Allowed Directions?
 </div>
+
 Calculate the angles that the angular momentum vector  $$\vb{L} $$
   can make with the  $$z $$
 -axis for  $$l=1 $$ ,
@@ -125,6 +128,7 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
 <div class="equation" >
  $$L=\frac{\sqrt{l\left(l+1\right)}h}{2\pi }=\frac{\sqrt{2}h}{2\pi } $$
 </div>
+
  $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
@@ -135,6 +139,7 @@ $$L_{z}=m_{l}\frac{h}{2\pi }=\left\{
 \end{array}
 \right\}$$
 </div>
+
 As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
  and so for  $$ m_{l}=+1 $$ ,
  we have
@@ -142,27 +147,32 @@ As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
 <div class="equation" >
  $$\cos {\theta }_{1}=\frac{ L_{Z}}{L}=\frac{\frac{h}{2\pi }}{\frac{\sqrt{2}h}{2\pi }}=\frac{1}{\sqrt{2}}=0.707 \text{.} $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $${\theta }_{1}={\cos}^{-1}0.707= 45.0º. $$
 </div>
+
 Similarly, for  $${m}_{l}=0 $$ ,
  we find  $$\cos {\theta }_{2}=0 $$ ;  thus,
 
 <div class="equation" >
  $${\theta }_{2}={\cos}^{-1}0= 90.0º. $$
 </div>
+
 And for  $${m}_{l}=-1 $$ ,
 
 <div class="equation" >
  $$\cos {\theta }_{3}=\frac{ L_{Z} }{L}=\frac{-\frac{h}{2\pi } }{\frac{\sqrt{2}h}{2\pi } }=-\frac{1}{\sqrt{2}}=-0.707\text{,} $$
 </div>
+
 so that
 
 <div class="equation" >
  $${\theta }_{3}={\cos}^{-1}\left( -0.707\right)= 135.0º. $$
 </div>
+
 **Discussion**
 
 The angles are consistent with the figure. Only the angle relative to the $$z $$
@@ -176,6 +186,7 @@ namely $${m}_{l}=l $$ . For that smallest angle,
 <div class="equation" >
  $$\cos \theta =\frac{ L_{z} }{L}=\frac{l}{\sqrt{l\left(l+1\right)}}\text{,} $$
 </div>
+
 which approaches 1 as  $$l $$
  becomes very large. If  $$\cos \theta =1 $$ ,
  then $$\theta =0º $$ .
@@ -183,7 +194,7 @@ which approaches 1 as  $$l $$
  there are many values of  $${m}_{l} $$ ,
  so that all angles become possible as  $$l $$  gets very large.
 
-</div>
+:::
 
 ### Intrinsic Spin Angular Momentum Is Quantized in Magnitude and Direction
 
@@ -218,17 +229,19 @@ electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
 Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_{s}=-1/2 $$ is called _spin down_. These are illustrated
 in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Intrinsic Spin
 </div>
+
 In later chapters, we will see that intrinsic spin is a characteristic of all subatomic particles. For some particles  $$s $$
  is half-integral, whereas for others  $$s $$
  is integral—there are crucial differences between half-integral spin particles and integral spin particles. Protons and neutrons, like electrons, have  $$s=1/2 $$ ,
  whereas photons have  $$s=1 $$ ,
  and other particles called pions have  $$s=0 $$ ,  and so on.
 
-</div>
+:::
 
 To summarize, the state of a system, such as the precise nature of an electron
 in an atom, is determined by its particular quantum numbers. These are expressed
@@ -304,10 +317,12 @@ numbers, such as intrinsic spin, are related to fundamental classifications of
 subatomic particles, and they obey laws that will give us further insight into
 the substructure of matter and its interactions.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Stern-Gerlach Experiment
 </div>
+
 The classic Stern-Gerlach Experiment shows that atoms have a property called spin. Spin is a kind of intrinsic angular momentum, which has no classical counterpart. When the z-component of the spin is measured, one always gets one of two values: spin up or spin down.
 {: class="newline"}
 
@@ -316,7 +331,8 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/stern-gerlach/stern-gerlach_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -333,6 +349,7 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
   <div class="equation" >
    $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } \left(l=0, 1, 2, ..., n-1\right), $$
   </div>
+
      where
    $$l $$ is the angular momentum quantum number. The direction of angular momentum is quantized, in that its component along an axis defined by a magnetic field, called the
    $$z $$
@@ -340,6 +357,7 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
   <div class="equation" >
    $${L}_{z}={m}_{l}\frac{h}{2\pi } \left({m}_{l}=-l,-l+1, ..., -1, 0, 1, ... l-1, l\right)\text{,} $$
   </div>
+
      where
    $${L}_{z} $$ is the
    $$z $$
@@ -349,11 +367,13 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
   <div class="equation" >
    $$S=\sqrt{s\left(s+1\right)}\frac{h}{2\pi }  \left( s=1/2 \text{for electrons} \right) \text{.} $$
   </div>
+
   $$s $$ is defined to be the spin quantum number. Finally, the direction of the
   electron’s spin along the $$z $$ -axis is given by
   <div class="equation" >
    $${S}_{z}={m}_{s}\frac{h}{2\pi } \left({m}_{s}=-\frac{1}{2},+\frac{1}{2}\right)\text{,} $$
   </div>
+
      where
    $${S}_{z} $$ is the
    $$z $$
@@ -365,51 +385,66 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Define the quantum numbers  $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ ,
  and  $${m}_{s} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 For a given value of  $$n $$ ,
  what are the allowed values of  $$l $$ ?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 For a given value of  $$l $$ ,
  what are the allowed values of  $${m}_{l} $$ ?
  What are the allowed values of  $${m}_{l} $$
  for a given value of  $$n $$ ?
  Give an example in each case.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 List all the possible values of  $$s $$
  and  $${m}_{s} $$
  for an electron. Are there particles for which these values are different? The same?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If an atom has an electron in the  $$n=5 $$
  state with  $${m}_{l}=3 $$ ,
  what are the possible values of  $$l $$ ?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -443,17 +478,21 @@ If $$ l = 4 $$ (g-orbital), then $$ m_l $$ can be –4, –3, –2, –1, 0, +1,
 
 This problem demonstrates the hierarchical relationship between quantum numbers in atoms. The principal quantum number $$ n = 5 $$ places an upper limit on $$ l $$ ( $$ l \le 4 $$ ), while the value of $$ m_l = 3 $$ places a lower limit on $$ l $$ ( $$ l \ge 3 $$ ). The fact that $$ m_l = 3 $$ rules out $$ l = 0, 1, 2 $$ is physically reasonable: $$ m_l $$ represents the component of angular momentum along a specific axis, and this component cannot exceed the total angular momentum magnitude (which depends on $$ l $$ ). In spectroscopic notation, $$ l = 3 $$ corresponds to an f-orbital (named historically: s, p, d, f for $$ l = 0, 1, 2, 3 $$ ), and $$ l = 4 $$ corresponds to a g-orbital. These higher angular momentum states first appear in atoms with many electrons. For example, f-orbitals begin to fill in the lanthanide elements (starting with cerium, element 58), while g-orbitals are not occupied in the ground states of known elements but can be accessed in excited states. Understanding which quantum number combinations are allowed is crucial for predicting electron configurations, chemical bonding, and spectroscopic properties of atoms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An atom has an electron with  $${m}_{l}=2 $$ .
  What is the smallest value of  $$n $$
  for this electron?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -473,17 +512,21 @@ Therefore, the smallest value of $$ n $$ is **n = 3**.
 
 This problem illustrates the hierarchical relationship among the quantum numbers in atoms. The principal quantum number $$ n $$ determines the energy level and sets an upper limit on the angular momentum quantum number $$ l $$ . In turn, $$ l $$ determines the magnitude of the orbital angular momentum and sets limits on the possible values of $$ m_l $$ , which specifies the orientation of the angular momentum vector. For $$ n = 3 $$ , the allowed values of $$ l $$ are 0, 1, and 2. When $$ l = 2 $$ (called a d-orbital), $$ m_l $$ can take any of the five values: –2, –1, 0, +1, or +2. Each of these corresponds to a different orientation of the electron's orbital angular momentum relative to an external magnetic field. The fact that we need at least $$ n = 3 $$ for $$ m_l = 2 $$ explains why d-orbitals first appear in the third shell of atoms (the M shell), which is crucial for understanding the electron configurations of transition metals and their chemical properties.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the possible values of  $${m}_{l} $$
  for an electron in the  $$n=4 $$
  state?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -529,16 +572,20 @@ Or more compactly: **$$ m_l = 0, \pm 1, \pm 2, \pm 3 $$**
 
 This problem reveals an important feature of atomic structure: for a given principal quantum number $$ n $$ , there are multiple orbitals with different angular momentum properties. The $$ n = 4 $$ shell contains 4s (1 orbital), 4p (3 orbitals), 4d (5 orbitals), and 4f (7 orbitals), for a total of 16 orbitals. Since each orbital can hold two electrons (with opposite spins), the $$ n = 4 $$ shell can accommodate up to 32 electrons. The seven distinct values of $$ m_l $$ ( –3 to +3 ) represent different orientations of the orbital angular momentum vector relative to an external magnetic field (the $$ z $$ -axis). In the absence of an external field, orbitals with the same $$ n $$ and $$ l $$ but different $$ m_l $$ values have the same energy (they are "degenerate"). However, when an external magnetic field is applied, this degeneracy is broken—the Zeeman effect causes each $$ m_l $$ value to correspond to a slightly different energy. This is why spectral lines split in magnetic fields. The maximum value of $$ |m_l| $$ equals the maximum value of $$ l $$ for that shell, which is $$ n - 1 $$ . Understanding these relationships is essential for explaining atomic spectra, magnetic properties of atoms, and the structure of the periodic table.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What, if any, constraints does a value of  $${m}_{l}=1 $$
  place on the other quantum numbers for an electron in an atom?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -563,17 +610,21 @@ In summary:
 
 This problem demonstrates the interconnected nature of quantum numbers in atoms. The value of $$ m_l = 1 $$ tells us about the orientation of the electron's orbital angular momentum but doesn't uniquely specify the state of the electron. For example, the electron could be in a 2p orbital ( $$ n = 2, l = 1 $$ ), a 3p orbital ( $$ n = 3, l = 1 $$ ), a 3d orbital ( $$ n = 3, l = 2 $$ ), or many other possibilities. Each of these states would have different energies and different probability distributions for the electron's position. The fact that $$ m_l = 1 $$ excludes only s-orbitals ( $$ l = 0 $$ ) but allows all others shows that $$ m_l $$ specifies orientation rather than the magnitude of angular momentum. The independence of $$ m_s $$ reflects the fact that electron spin is an intrinsic property not related to orbital motion. Understanding these constraints is essential for writing electron configurations and predicting the chemical and spectroscopic properties of atoms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the magnitude of the angular momentum for an  $$l=1 $$
  electron. (b) Compare your answer to the value Bohr proposed for the  $$n=1 $$
  state.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -620,18 +671,22 @@ Most surprisingly, quantum mechanics reveals that the ground state of hydrogen (
 
 The $$ l = 1 $$ state we calculated represents a p-orbital, which has angular momentum and a more complex spatial structure. The factor $$ \sqrt{l(l+1)} $$ rather than just $$ l $$ appears because of the way angular momentum operators work in quantum mechanics—this same factor appears for all quantized angular momenta. The comparison shows that while Bohr's model was revolutionary and correct in predicting quantization, the details of quantum mechanics are more subtle and accurate. Nevertheless, Bohr's achievement in introducing quantization to atomic physics was a crucial step toward the modern theory.
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise7" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the magnitude of the angular momentum for an  $$l=1 $$
  electron?
 (b) Calculate the magnitude of the electron's spin angular momentum.
 (c) What is the ratio of these angular momenta?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -671,15 +726,19 @@ $$ \frac{L}{S} = \frac{\sqrt{2} \frac{h}{2\pi}}{\frac{\sqrt{3}}{2} \frac{h}{2\pi
 
 This calculation reveals several important aspects of atomic structure. First, both orbital and spin angular momenta are on the order of $$ 10^{-34} \text{ J·s} $$ , which is the same order as Planck's constant divided by $$ 2\pi $$ (often written as $$ \hbar $$ ). This demonstrates that atomic-scale angular momentum is quantized in units of $$ \hbar $$ . Second, the ratio of about 1.63 shows that for an $$ l = 1 $$ electron (a p-orbital), the orbital angular momentum is somewhat larger than the spin angular momentum, but they are of the same order of magnitude. This comparability is important because both contribute to the total angular momentum of the atom and both interact with external magnetic fields. The spin-orbit coupling—the interaction between the electron's orbital and spin magnetic moments—leads to fine structure in atomic spectra. For different values of $$ l $$ , this ratio changes: for $$ l = 3 $$ (next problem), the ratio is 4, showing that as $$ l $$ increases, orbital angular momentum dominates over spin. Understanding these relationships is crucial for explaining magnetic properties of atoms, spectroscopic splitting patterns, and the behavior of atoms in external magnetic fields.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [[the previous exercise]](#Exercise7) for  $$l=3 $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -723,17 +782,21 @@ The ratio is **4**.
 
 Comparing this result to Exercise 7 (where $$ l = 1 $$ gave a ratio of 1.63), we see that as $$ l $$ increases, the orbital angular momentum becomes much larger relative to the spin angular momentum. For $$ l = 3 $$ (an f-orbital), the orbital angular momentum is exactly 4 times the spin angular momentum, whereas for $$ l = 1 $$ (a p-orbital) it was only 1.63 times larger. This makes sense because orbital angular momentum scales as $$ \sqrt{l(l+1)} $$ , which grows roughly as $$ \sqrt{l^2} = l $$ for large $$ l $$ , while spin angular momentum is fixed at $$ \sqrt{3/4} \frac{h}{2\pi} $$ for all electrons. The $$ l = 3 $$ state corresponds to f-orbitals, which first appear in the fourth shell (n = 4) and are important in the chemistry of lanthanide and actinide elements. The large orbital angular momentum of f-electrons contributes significantly to the magnetic properties of these elements. Both orbital and spin angular momenta couple together to give the total angular momentum of the atom, and this coupling is responsible for fine structure in atomic spectra and for the magnetic moments of atoms. The fact that orbital angular momentum can vary widely (depending on $$ l $$ ) while spin is always the same ($$ s = 1/2 $$ for electrons) means that the relative importance of spin-orbit coupling varies greatly for different orbitals—it's more important for s and p electrons (low $$ l $$ ) than for d and f electrons (high $$ l $$ ) in terms of the fractional contribution.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How many angles can  $$L $$ make with the  $$z $$-axis for an  $$l=2 $$
  electron?
 (b) Calculate the value of the smallest angle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -774,16 +837,20 @@ The smallest angle is **35.3°** (or **0.616 radians**).
 
 This problem illustrates the concept of space quantization—the remarkable fact that the angular momentum vector can only point in certain discrete directions relative to an external reference direction (the $$ z $$ -axis, typically defined by an external magnetic field). For $$ l = 2 $$ (a d-orbital), the five allowed angles correspond to the five d-orbitals in chemistry ( $$ d_{z^2}, d_{xz}, d_{yz}, d_{xy}, d_{x^2-y^2} $$ ). The smallest angle of 35.3° represents the most closely aligned orientation—even at this "closest" alignment, the angular momentum vector cannot point directly along the $$ z $$ -axis. This is fundamentally different from classical physics, where a rotating object could have its angular momentum pointing in any direction. The fact that even the maximum value of $$ m_l = l $$ doesn't allow perfect alignment ( $$ \theta = 0° $$ ) is due to the quantum mechanical relationship $$ L = \sqrt{l(l+1)} \frac{h}{2\pi} $$ rather than $$ l\frac{h}{2\pi} $$ . This " $$ \sqrt{l(l+1)} $$ " factor, rather than just " $$ l $$ ," ensures that $$ L > L_z $$ for all states, preventing perfect alignment and reflecting the uncertainty principle's constraint on simultaneously knowing all components of angular momentum.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What angles can the spin  $$S $$ of an electron make with the  $$z $$
 -axis?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -831,21 +898,23 @@ The two angles are symmetric about 90°: one is 90° – 35.3° = 54.7°, and th
 
 Electron spin is fundamental to understanding: (1) the Pauli exclusion principle—two electrons in the same orbital must have opposite spins; (2) magnetic properties of materials—unpaired electron spins create magnetic moments; (3) fine structure in atomic spectra—spin-orbit coupling splits spectral lines; (4) modern technologies like MRI, which depends on nuclear spin (similar to electron spin but for protons), and spintronics, which exploits electron spin for information storage and processing.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The spin quantum
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The spin quantum
   number _s_ is usually not stated, since it is always 1/2 for electrons</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -872,4 +941,4 @@ magnitude of the intrinsic (internal) spin angular momentum
 z-component of the angular momentum
 : component of orbital angular momentum of electron along the $$z $$ -axis
 
-</div>
+:::

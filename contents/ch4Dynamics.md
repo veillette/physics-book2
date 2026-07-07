@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 4
 ---
-
 ![Two dolphins are shown in a pool at Lisbon Zoo. One is in the water, and the other is in the air diving back into water](../resources/Figure_04_00_01.jpg 'Newton’s laws of motion describe the motion of the dolphin’s path. (credit: Jin Jang)')
 {: #Figure1}
 
@@ -65,14 +64,18 @@ quantum theory. This theory does not have the constraints present in classical
 physics. All of the situations we consider in this chapter are in the realm of
 classical physics.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Past and Present Philosophy
 </div>
+
 *The importance of observation* and the concept of *cause and effect* were not always so entrenched in human thinking. This realization was a part of the evolution of modern physics from natural philosophy. The achievements of Galileo, Newton, Einstein, and others were key milestones in the history of scientific thought. Most of the scientific theories that are described in this book descended from the work of these scientists.
 
-</div>
+:::
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lCxxH8nQtZQ"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

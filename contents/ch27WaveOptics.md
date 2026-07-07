@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 27
 ---
-
 ![Katherine Burr Blodgett using equipment](../resources/Figure_27_00_01.jpg 'Katherine Burr Blodgett was a physicist
 and chemist who made significant advancements in the study of surfaces and thin films. Her invention of non-reflective glass has had massive impact in cinema, medical, and scientific research arenas.')
 {: #Figure1}

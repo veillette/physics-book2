@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 2
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Apply problem-solving steps and strategies to solve problems of one-dimensional kinematics.
 * Apply strategies to determine whether or not the result of a problem is reasonable, and if not, determine the cause.
 
-</div>
+:::
 
 ![Close-up photo of a hand writing in a notebook. On top of the notebook is a graphing calculator.](../resources/Figure_02_06_01.jpg 'Problem-solving skills are essential to your success in Physics. (credit: scui3asteveo, Flickr)')
 {: #Figure1}
@@ -176,15 +176,21 @@ for 100 s (almost two minutes).
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What information do you need in order to choose which equation or equations to use to solve a problem? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the last thing you should do when solving a problem? Explain.
 
-</div>
+:::
+
 </div>

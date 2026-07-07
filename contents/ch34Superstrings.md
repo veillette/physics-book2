@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define Superstring theory.
 * Explain the relationship between Superstring theory and the Big Bang.
-</div>
+
+:::
 
 Introduced earlier in [GUTS: The Unification of Forces](../contents/ch33GUTS) **Superstring
 theory** is an attempt to unify gravity with the other three forces and, thus,
@@ -58,7 +59,9 @@ discoveries.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The characteristic length of entities in Superstring theory is approximately  $$ 10^{-35} \text{m} $$.
 
 (a) Find the energy in GeV of a photon of this wavelength.
@@ -66,15 +69,19 @@ The characteristic length of entities in Superstring theory is approximately  $$
 (b) Compare this with the average particle energy of $$ 10^{19} \text{GeV} $$
 needed for unification of forces.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$1 \times 10^{20}  $$
 (b) 10 times greater
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -82,4 +89,4 @@ Superstring theory
 : a theory to unify gravity with the other three forces in which the fundamental
 particles are considered to act like one-dimensional vibrating strings
 
-</div>
+:::

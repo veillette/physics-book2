@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
 * Calculate the electrostatic force between two charged point forces, such as electrons or protons.
 * Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
-</div>
+
+:::
 
 ![Two spiral galaxies show the strong gravitational attraction between them as their arms appear to reach out toward one another.](../resources/Figure_18_03_01.jpg 'This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)')
 {: #Figure1}
@@ -21,22 +22,26 @@ force with distance—were eventually refined, and expressed as a mathematical
 formula. The mathematical formula for the electrostatic force is called **Coulomb’s law** after the French physicist Charles Coulomb (1736–1806), who
 performed experiments and first proposed a formula to calculate it.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Coulomb’s Law
 </div>
+
 <div class="equation" >
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}}. $$
 </div>
+
 Coulomb’s law calculates the *magnitude* of the force  $$F $$ between two point charges,  $${q}_{1} $$ and  $${q}_{2} $$, separated by a distance  $$r $$ .
  In SI units, the constant  $$k $$  is equal to
 
 <div class="equation" >
  $$k= 8.988 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}\approx  8.99 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}. $$
 </div>
+
 The electrostatic force is a vector quantity and is expressed in units of newtons. The force is understood to be along the line joining the two charges. (See [[Figure 2]](#Figure2).)
 
-</div>
+:::
 
 Although the formula for Coulomb’s law is simple, it was no mean task to prove
 it. The experiments Coulomb did, with the primitive equipment then available,
@@ -48,10 +53,12 @@ have ever been found, even at the small distances within the atom.
 ![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_18_03_02.jpg 'The magnitude of the electrostatic force ( F ) between point charges ( q_{1} ) and ( q_{2} ) separated by a distance ( r ) is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on ( q_{1} ) is equal in magnitude and opposite in direction to the force it exerts on ( q_{2} ) . (a) Like charges. (b) Unlike charges.')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 How Strong is the Coulomb Force Relative to the Gravitational Force?
 </div>
+
 Compare the electrostatic force between an electron and proton separated by  $$ 0.530 \times 10^{-10}  \text{m} $$
  with the gravitational force between them. This distance is their average separation in a hydrogen atom.
 
@@ -70,20 +77,24 @@ electron and proton into the expression of Coulomb’s law yields
 <div class="equation" >
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}} $$
 </div>
+
 <div class="equation" >
  $$\begin{array}{} F=\left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}/{\text{C}}^{2}\right)×\frac{\left(1.60 \times 10^{-19} \text{C}\right)\left(1.60 \times 10^{-19} \text{C}\right)}{ { \left(0.530 \times 10^{-10} \text{m}\right)}^{2}}\\ \end{array} $$ 
 </div>
+
 Thus the Coulomb force is
 
 <div class="equation" >
  $$F=8.19 \times 10^{-8} \text{N}. $$
 </div>
+
 The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of  $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
 (verification is left as an end-of-section problem). The magnitude of the gravitational force is given by Newton’s law of gravitation as:
 
 <div class="equation" >
  $${F}_{G}=G\frac{mM}{ {r}^{2}}, $$
 </div>
+
 where  $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $$ .
  Here  $$m $$  and  $$M $$
  represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
@@ -91,11 +102,13 @@ where  $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $
 <div class="equation" >
  $${F}_{G}=\left(6.67 \times 10^{-11} \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2}\right)×\frac{\left(9.11 \times 10^{-31} \text{kg}\right)\left(1.67 \times 10^{-27} \text{kg}\right)}{ {\left(0.530 \times 10^{-10} \text{m}\right)}^{2}}=3.61 \times 10^{-47} \text{N} $$
 </div>
+
 This is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,
 
 <div class="equation" >
  $$\frac{F}{ {F}_{G}}= 2.27  \times 10^{39}. $$
 </div>
+
 **Discussion**
 
 This is a remarkably large ratio! Note that this will be the ratio of
@@ -105,7 +118,7 @@ distance cancels). This ratio gives some indication of just how much larger the
 Coulomb force is than the gravitational force between two of the most common
 particles in nature.
 
-</div>
+:::
 
 As the example implies, gravitational force is completely negligible on a small
 scale, where the interactions of individual charged particles are important. On
@@ -139,37 +152,49 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\t
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 3](#Figure3) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
 
 ![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_18_03_03.jpg 'Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.')
 {: #Figure3 height="221"}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using [[Figure 3]](#Figure3), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[Figure 3]](#Figure3)) is attracted by both positive and negative charges.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Given the polar character of water molecules, explain how ions in the air form nucleation centers for rain droplets.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of  - 30.0 nC?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -209,17 +234,21 @@ Apply Coulomb's law:
 
 The repulsive force between the two pith balls is 1.26 × 10⁻³ N, or 1.26 millinewtons. This is a small force by everyday standards but is significant for lightweight pith balls. Since both charges are negative, the force is repulsive, pushing the balls apart. The magnitude of the force depends on the square of the distance, so doubling the separation would reduce the force to one-quarter of this value.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How strong is the attractive force between a glass rod with a  $$0.700 \mu \text{C} $$
  charge and a silk cloth with a  $$-0.600 \mu \text{C} $$
  charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -267,15 +296,19 @@ Part (a): The attractive force is 0.263 N, which is substantial—roughly equiva
 
 Part (b): The point charge approximation is valid when the separation distance is much larger than the size of the charged objects. When objects have finite size, induced polarization causes charge redistribution, with opposite charges concentrating on the near sides. This increases the force because these concentrated charges are closer together than the average separation distance would suggest. Real objects would therefore experience a somewhat stronger force than our point charge calculation predicts.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two point charges exert a 5.00 N force on each other. What will the force become if the distance between them is increased by a factor of three?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -317,15 +350,19 @@ Therefore:
 
 When the distance between the charges is tripled, the force decreases to one-ninth of its original value, becoming 0.556 N. This illustrates the inverse square law nature of Coulomb's force. The force decreases rapidly with increasing distance—tripling the distance reduces the force by a factor of 9, quadrupling the distance would reduce it by a factor of 16, and so on. This inverse square relationship is a fundamental characteristic shared by both electrostatic and gravitational forces.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two point charges are brought closer together, increasing the force between them by a factor of 25. By what factor was their separation decreased?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -371,15 +408,19 @@ Therefore:
 
 The separation decreased by a factor of 5. This result makes sense with the inverse square law: if the distance is reduced by a factor of 5, the force increases by a factor of 5² = 25. This demonstrates the sensitive dependence of electrostatic force on distance. Bringing charges closer together even slightly can dramatically increase the force between them, which is why static electricity can produce surprisingly strong effects when charged objects come into close proximity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How far apart must two point charges of 75.0 nC (typical of static electricity) be to have a force of 1.00 N between them?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -437,15 +478,19 @@ Substitute the values:
 
 The two charges must be separated by 7.11 mm to produce a force of 1.00 N. This is a remarkably small separation for such a large force. One newton is approximately the weight of a 100-gram object, which is substantial. This demonstrates that typical static electricity charges (nanocoulombs) can produce significant forces when objects are brought within millimeter distances of each other. This explains why static electricity can cause noticeable effects like sparks and attraction, and why we experience shocks when touching doorknobs after walking across a carpet.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If two equal charges each of 1 C each are separated in air by a distance of 1 km, what is the magnitude of the force acting between them? You will see that even at a distance as large as 1 km, the repulsive force is substantial because 1 C is a very significant amount of charge.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -491,19 +536,23 @@ The force between two 1-coulomb charges separated by 1 km is approximately 9000 
 
 In everyday static electricity, charges are typically measured in nanocoulombs (10⁻⁹ C) or microcoulombs (10⁻⁶ C)—millions or billions of times smaller than 1 coulomb. It would be essentially impossible to accumulate 1 coulomb of excess charge on an object because the repulsive forces would be so large that the charge would immediately dissipate through any available path, including ionizing the air itself to create a conducting path. This problem helps us appreciate why the coulomb is such a large unit for measuring static charge.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A test charge of  $$+2 \mu \text{C} $$
  is placed halfway between a charge of  $$+6 \mu \text{C} $$
  and another of  $$+4 \mu \text{C} $$
  separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the  $$+6 \mu \text{C} $$
  charge)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -563,15 +612,19 @@ Net force:
 
 The magnitude of the net force on the test charge is 14.4 N, directed away from the larger $$+6 \mu\text{C}$$ charge. This makes physical sense: both charges repel the positive test charge, but the stronger repulsion from the larger charge dominates. The test charge would be pushed toward the smaller charge side if released. This demonstrates how vector addition is crucial in electrostatics—we must account for both magnitude and direction of forces. If the test charge were not at the midpoint, the calculation would be more complex, but the principle remains the same.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Bare free charges do not remain stationary when close together. To illustrate this, calculate the acceleration of two isolated protons separated by 2.00 nm (a typical distance between gas atoms). Explicitly show how you follow the steps in the Problem-Solving Strategy for electrostatics.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -633,15 +686,19 @@ The acceleration of each proton is 3.45 × 10¹⁶ m/s², which is an extraordin
 
 This result helps explain several important phenomena: (1) why atoms need electrons to neutralize the positive charge of the nucleus, (2) why it's so difficult to confine charged particles at small distances (as in nuclear fusion), and (3) why electrostatic forces dominate at the atomic scale. The fact that atoms exist at all is remarkable given these enormous forces—they require the balancing effect of the attractive force between protons and electrons.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) By what factor must you change the distance between two point charges to change the force between them by a factor of 10? (b) Explain how the distance can either increase or decrease by this factor and still cause a factor of 10 change in the force.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -693,16 +750,20 @@ Part (a): The distance must change by a factor of 3.2 (or more precisely, $$\sqr
 
 Part (b): Whether the distance increases or decreases by a factor of 3.2, the force changes by a factor of 10—but in opposite directions. Increasing the distance weakens the force (decreases it by factor of 10), while decreasing the distance strengthens it (increases it by factor of 10). This symmetry is a consequence of the mathematical form of the inverse square law. The same proportional change in distance produces the same proportional change in force magnitude, regardless of whether we're moving charges closer or farther apart.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a total charge  $${q}_{\text{tot}} $$
  that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -760,15 +821,19 @@ To achieve the greatest force, split the charge equally: $$q_1 = q_2 = \frac{q_{
 
 For example, if $$q_{\text{tot}} = 10$$ nC, splitting it as 5 nC and 5 nC gives $$q_1 q_2 = 25$$, which is larger than any unequal split (like 4 and 6, giving 24, or 3 and 7, giving 21). This principle has practical applications: to maximize electrostatic forces with a fixed amount of charge, distribute it evenly between the two objects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Common transparent tape becomes charged when pulled from a dispenser. If one piece is placed above another, the repulsive force can be great enough to support the top piece's weight. Assuming equal point charges (only an approximation), calculate the magnitude of the charge if electrostatic force is great enough to support the weight of a 10.0 mg piece of tape held 1.00 cm above another. (b) Discuss whether the magnitude of this charge is consistent with what is typical of static electricity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -842,15 +907,19 @@ Part (a): Each piece of tape must have a charge of approximately 1.04 × 10⁻�
 
 Part (b): This charge magnitude is entirely consistent with static electricity observations. When you pull tape from a dispenser, friction transfers electrons between the tape and the dispenser (or between layers of tape), creating charges in the nanocoulomb range. This simple demonstration with tape beautifully illustrates both the quantitative predictions of Coulomb's law and the everyday manifestations of electrostatic forces. It also shows how remarkably sensitive electrostatic forces are—a tiny fraction of the electrons in the tape being redistributed is sufficient to create observable levitation effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the ratio of the electrostatic to gravitational force between two electrons. (b) What is this ratio for two protons? (c) Why is the ratio different for electrons and protons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -911,15 +980,19 @@ Part (b): For two protons, the ratio is about 1.24 × 10³⁶, which is still en
 
 Part (c): The different ratios arise because both forces have the same distance dependence ($$1/r^2$$), and both particles have the same magnitude of charge, but they have very different masses. The electron is about 1836 times lighter than the proton, so the gravitational force is about $$(1836)^2 \approx 3.4 \times 10^6$$ times weaker for electrons, making the ratio of electrostatic to gravitational force that much larger. This illustrates why electrostatic forces completely dominate over gravity at the atomic and subatomic scales, and why we can usually ignore gravity when studying atomic and molecular phenomena.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what distance is the electrostatic force between two protons equal to the weight of one proton?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -975,15 +1048,19 @@ The electrostatic force between two protons equals the weight of one proton when
 
 Consider what this means: at atomic scales (nanometers or angstroms), the electrostatic force between protons is enormously larger than their weight. Only when the protons are separated by over 10 centimeters—billions of times their diameter—does the electrostatic repulsion diminish enough to equal the tiny gravitational force on a single proton. This calculation reinforces why gravity is completely negligible in atomic and nuclear physics, and why electrostatic forces dominate the structure of atoms and molecules.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain five cent coin contains 5.00 g of nickel. What fraction of the nickel atoms' electrons, removed and placed 1.00 m above it, would support the weight of this coin? The atomic mass of nickel is 58.7, and each nickel atom contains 28 electrons and 28 protons.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1055,16 +1132,20 @@ Only about 1.02 × 10⁻¹¹ (or roughly one part in 100 billion) of the coin's 
 
 Even though we're only removing about 14.6 trillion electrons (which sounds like a lot), this represents an utterly negligible fraction of the approximately 1.44 × 10²⁴ electrons in the coin. This calculation illustrates why matter appears electrically neutral in everyday life—even the relatively large charges involved in static electricity represent only tiny imbalances in the number of electrons and protons in an object. It also shows why electrostatic forces can easily overcome gravity for charged objects, despite charges being such small fractions of the total charge in matter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Two point charges totaling  $$8.00 µ\text{C} $$
  exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1151,17 +1232,21 @@ Part (b): For an attractive force, the charges must have opposite signs. The cha
 
 This problem illustrates an important principle: given only the force, distance, and total charge, we can determine the individual charges, but we need additional information (whether the force is attractive or repulsive) to determine the signs. The quadratic nature of the problem arises from the product $$q_1 q_2$$ in Coulomb's law.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Point charges of  $$5.00 µ\text{C} $$
  and  $$-3.00 µ\text{C} $$
  are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1281,17 +1366,21 @@ Part (b): When both charges are positive (like charges), the equilibrium point i
 
 These problems demonstrate the principle of superposition—the net force is the vector sum of individual forces—and show how equilibrium positions depend on both the magnitudes and signs of the charges involved.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two point charges  $${q}_{1} $$  and  $${q}_{2} $$  are  $$3.00 \text{m} $$
  apart, and their total charge is  $$20 µ\text{C} $$ .
  (a) If the force of repulsion between them is 0.075N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1407,10 +1496,12 @@ Part (b): For an attractive force of 0.525 N (7 times stronger), the charges mus
 
 Notice that the attractive force case requires much larger individual charges than the repulsive case, even though the net charge is the same. This is because opposite signs allow charges to partially cancel in their sum while multiplying constructively in Coulomb's law. This problem beautifully illustrates how the force depends on the product of charges while the constraint involves their sum (or difference), leading to quadratic equations with physically meaningful solutions.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1424,4 +1515,4 @@ Coulomb force
 electrostatic force
 : the amount and direction of attraction or repulsion between two charged bodies
 
-</div>
+:::

@@ -2,7 +2,6 @@
 title: 'Glossary of Key Symbols and Notation'
 layout: page
 ---
-
 In this glossary, key symbols and notation are briefly defined.
 
 | Symbol                                    | Definition                                                                              |

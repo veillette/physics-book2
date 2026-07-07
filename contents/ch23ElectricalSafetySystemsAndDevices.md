@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain how various modern safety features in electric circuits work, with an emphasis on how induction is employed.
-</div>
+
+:::
 
 Electricity has two hazards. A **thermal hazard** occurs when there is
 electrical overheating. A **shock hazard** occurs when electric current passes
@@ -155,30 +156,41 @@ study.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does plastic insulation on live/hot wires prevent shock hazards, thermal hazards, or both?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are ordinary circuit breakers and fuses ineffective in preventing shocks?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A GFI may trip just because the live/hot and neutral wires connected to it are significantly different in length. Explain why.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A short circuit to the grounded metal case of an appliance occurs as shown
@@ -191,8 +203,10 @@ circuit if the resistance of the earth/ground wire is $$0.200 \text{Ω} $$ ?
 ![The figure describes an appliance connected to an AC source. One end of the AC circuit is connected to a circuit breaker. The other end of the circuit breaker is connected to an appliance. The appliance is shown as a resistance enclosed in a rectangular metal case known as the case of appliance. The other end of the resistance is connected back to the AC source through a connecting wire. The connecting wire and the A C source are grounded. The ground terminal at the appliance case is connected to a resistance R g equals zero point two ohms. A person is shown to hold one hand on the appliance case. Since the resistance of ground is not zero the voltage is shown to flow through the person to the ground.](../resources/Figure_23_08_09.jpg 'A person can be shocked even when the case of an appliance is grounded. The large short circuit current produces a voltage on the case of the appliance, since the resistance of the earth/ground wire is not zero. ')
 {: #Figure9}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem involves analyzing a dangerous situation where a short circuit creates a voltage on an appliance case despite the ground wire connection. We need to apply Ohm's law to find currents and voltages in parallel paths. For part (a), we use the person's resistance and the current through them to find the case voltage. For part (b), we recognize that this same voltage appears across the ground wire resistance, allowing us to find the short circuit current. For part (c), we compare the short circuit current to the circuit breaker rating.
@@ -257,10 +271,12 @@ This scenario is particularly dangerous because the person is wet, reducing thei
 
 (c) yes
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -274,4 +290,4 @@ three-wire system
 : the wiring system used at present for safety reasons, with live, neutral, and
 ground wires
 
-</div>
+:::

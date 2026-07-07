@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 15
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Identify probabilities in entropy.
 * Analyze statistical probabilities in entropic systems.
-</div>
+
+:::
 
 ![Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.](../resources/Figure_15_07_01.jpg 'When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn’t heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)')
 {: #Figure1}
@@ -302,10 +303,12 @@ extraordinarily larger number of microstates in systems with greater entropy.
 Entropy _can_ decrease, but for any macroscopic system, this outcome is so
 unlikely that it will never be observed.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Entropy Increases in a Coin Toss
 </div>
+
 Suppose you toss 100 coins starting with 60 heads and 40 tails, and you get the most likely result, 50 heads and 50 tails. What is the change in entropy?
 
 **Strategy**
@@ -321,12 +324,14 @@ The change in entropy is
 <div class="equation" >
  $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_{B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i},} $$
 </div>
+
 where the subscript i stands for the initial 60 heads and 40 tails state, and the subscript f for the final 50 heads and 50 tails state. Substituting the values for  $$W $$
  from [[Table 2]](#Table2) gives
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta S& =& \left( 1.38 \times 10^{-23} \text{J/K}\right)\left[ \ln \left( 1.0 \times 10^{29} \right)-\ln \left( 1.4 \times 10^{28} \right)\right]  \\ & =& 2.7 \times 10^{-23} \text{J/K}\end{array} $$
 </div>
+
 **Discussion**
 
 This increase in entropy means we have moved to a less orderly situation. It is
@@ -345,12 +350,14 @@ $$10^{3} \text{J/K} $$ )
 is an _utter_ impossibility. Even for a milligram of melted ice to spontaneously
 refreeze is impossible.
 
-</div>
+:::
 
-<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","id":"Note1","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategies for Entropy
 </div>
+
 1.   *Examine the situation to determine if entropy is involved.*
 2.   *Identify the system of interest and draw a labeled diagram of the system showing energy flow.*
 3.   *Identify exactly what needs to be determined in the problem (identify the unknowns).* A written list is useful.
@@ -359,7 +366,7 @@ Problem-Solving Strategies for Entropy
 6.   *Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.*
 7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -368,6 +375,7 @@ Problem-Solving Strategies for Entropy
   <div class="equation" >
    $$S=k_{B} \ln W, $$
   </div>
+
      where
    $$k_{B} =1.38 \times 10^{-23} \text{J/K} $$ is Boltzmann’s constant, and
    $$\ln W $$ is the natural logarithm of the number of microstates
@@ -376,34 +384,46 @@ Problem-Solving Strategies for Entropy
 ### Conceptual Questions
 
 <div class="exercise" >
-<div class="problem"  markdown="1">
+
+::: problem
+
 Explain why a building made of bricks has smaller entropy than the same bricks in a disorganized pile. Do this by considering the number of ways that each could be formed (the number of microstates in each macrostate).
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using [[Table 2]](#Table2), verify the contention that if you toss 100 coins each second, you can expect to get 100 heads or 100 tails once in  $$2 \times 10^{22} $$
  years; calculate the time to two-digit accuracy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 It should happen twice in every  $$ 1.27 \times 10^{30}  \text{s} $$
  or once in every  $$ 6.35 \times 10^{29}  \text{s} $$
   $$\begin{array}{ll}\left( 6.35 \times 10^{29}  \text{s}\right)\left(\frac{1 \text{h}}{3600 \text{s}}\right)& \left(\frac{1 \text{d}}{24 \text{h}}\right)\left(\frac{1 \text{y}}{365.25 \text{d}}\right)\\ =&  2.0 \times 10^{22}  \text{y}\end{array} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What percent of the time will you get something in the range from 60 heads and 40 tails through 40 heads and 60 tails when tossing 100 coins? The total number of microstates in that range is  $$ 1.22 \times 10^{30}  $$ .
  (Consult [[Table 2]](#Table2).)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -439,27 +459,36 @@ Converting to percentage:
 
 This remarkably high percentage (96.1%) demonstrates that the vast majority of outcomes cluster around the most probable macrostates near 50-50. Even though this range represents only a subset of all possible macrostates (21 out of 101 macrostates), it accounts for nearly all the microstates. The extreme macrostates like 100 heads or 0 heads contribute negligibly to the total probability. This is a powerful illustration of the statistical basis of the second law of thermodynamics: disordered states (those near 50-50) dominate overwhelmingly over ordered states.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If tossing 100 coins, how many ways (microstates) are there to get the three most likely macrostates of 49 heads and 51 tails, 50 heads and 50 tails, and 51 heads and 49 tails? (b) What percent of the total possibilities is this? (Consult [[Table 2]](#Table2).)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 3.0 \times 10^{29}  $$
 (b) 24%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the change in entropy if you start with 100 coins in the 45 heads and 55 tails macrostate, toss them, and get 51 heads and 49 tails? (b) What if you get 75 heads and 25 tails? (c) How much more likely is 51 heads and 49 tails than 75 heads and 25 tails? (d) Does either outcome violate the second law of thermodynamics?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -526,15 +555,20 @@ From Table 2:
 
 This problem beautifully illustrates the statistical nature of entropy. The 51H/49T outcome in part (a) represents a move toward greater disorder (higher entropy), which is far more likely. The 75H/25T outcome in part (b) represents a move toward greater order (lower entropy), which is possible but extraordinarily unlikely—about 410,000 times less probable. For macroscopic systems with vastly more particles than 100, such entropy decreases become effectively impossible. The second law is not an absolute prohibition but a statement about overwhelming probability. These small-scale examples help us understand why heat never spontaneously flows from cold to hot in real systems: the probability is vanishingly small.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the change in entropy if you start with 10 coins in the 5 heads and 5 tails macrostate, toss them, and get 2 heads and 8 tails? (b) How much more likely is 5 heads and 5 tails than 2 heads and 8 tails? (Take the ratio of the number of microstates to find out.) (c) If you were betting on 2 heads and 8 tails would you accept odds of 252 to 45? Explain why or why not.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ -2.38 \times 10^{-23} \text{J/K} $$
 (b) 5.6 times more likely
 
@@ -542,7 +576,8 @@ This problem beautifully illustrates the statistical nature of entropy. The 51H/
 252 to 45, so on average you would break even. So, no, you wouldn’t bet on odds
 of 252 to 45.
 
-</div>
+:::
+
 </div>
 
 <table id="Table3" aria-describedby="10-COIN TOSS"><caption><span class="title">10-Coin Toss</span></caption><thead><tr>
@@ -603,11 +638,14 @@ of 252 to 45.
           </tr></tbody></table>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If you toss 10 coins, what percent of the time will you get the three most likely macrostates (6 heads and 4 tails, 5 heads and 5 tails, 4 heads and 6 tails)? (b) You can realistically toss 10 coins and count the number of heads and tails about twice a minute. At that rate, how long will it take on average to get either 10 heads and 0 tails or 0 heads and 10 tails?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -669,15 +707,20 @@ Converting to hours:
 
 Part (a) shows that nearly two-thirds of all tosses produce one of the three most likely (most disordered) macrostates. This reinforces the statistical tendency toward disorder. Part (b) demonstrates that even with just 10 coins, the most ordered states (all heads or all tails) are rare enough that you'd need to toss for over 4 hours to see one. This illustrates how quickly improbability grows with the number of particles. For 100 coins, the wait time becomes trillions of times the age of the universe, and for macroscopic systems with $$ 10^{23} $$ particles, ordered states become utterly impossible. This is the foundation of the second law of thermodynamics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Construct a table showing the macrostates and all of the individual microstates for tossing 6 coins. (Use [[Table 3]](#Table3) as a guide.) (b) How many macrostates are there? (c) What is the total number of microstates? (d) What percent chance is there of tossing 5 heads and 1 tail? (e) How much more likely are you to toss 3 heads and 3 tails than 5 heads and 1 tail? (Take the ratio of the number of microstates to find out.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (b) 7
 
 (c) 64
@@ -686,15 +729,19 @@ Part (a) shows that nearly two-thirds of all tosses produce one of the three mos
 
 (e) 3.33 times more likely (20 to 6)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment in 1.00 h. (a) What mass of ice melting would involve the same heat transfer? (b) How many hours of operation would be equivalent to melting 900 kg of ice? (c) If ice costs 20 cents per kg, do you think the air conditioner could be operated more cheaply than by simply using ice? Describe in detail how you evaluate the relative costs.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -756,10 +803,12 @@ __The air conditioner would cost approximately $10 to operate for the same cooli
 
 This problem illustrates why mechanical refrigeration replaced ice-based cooling in the 20th century. Even accounting for the efficiency losses in the air conditioner (the electrical energy input is greater than the heat removed due to the second law of thermodynamics), the convenience and cost-effectiveness of air conditioning far exceeds using ice. The air conditioner removes 12.65 MJ of heat per hour while consuming perhaps 12.6 MJ of electrical energy (assuming a coefficient of performance around 3), making it highly economical compared to ice at 20 cents per kg. Additionally, the air conditioner provides continuous cooling without the logistical challenges of storing, transporting, and managing melting ice. The economic advantage would be even greater if ice required refrigeration for storage, creating a circular dependency. This cost analysis demonstrates a practical application of thermodynamics in everyday technology choices.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -772,4 +821,4 @@ microstate
 statistical analysis
 : using statistics to examine data, such as counting microstates and macrostates
 
-</div>
+:::

@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 7
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain how an object must be displaced for a force on it to do work.
 * Explain how relative directions of force and displacement determine whether the work done is positive, negative, or zero.
 
-</div>
+:::
 
 ### What It Means to Do Work
 
@@ -44,22 +44,25 @@ To find the work done on a system that undergoes motion that is not one-way or
 that is in two or three dimensions, we divide the motion into one-way
 one-dimensional segments and add up the work done over each segment.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 What is Work?
 </div>
+
 The work done on a system by a constant force is *the product of the component of the force in the direction of motion times the distance through which the force acts*. For one-way motion in one dimension, this is expressed in equation form as
 
 <div class="equation">
  $$W=F d \cos{\theta} ,$$
 </div>
+
 where$$W$$is work,
 $$F$$is the magnitude of the force on the system,
 $$d$$is the magnitude of the displacement of the system,
 and$$\theta$$is the angle between the force vector$$\vb{F}$$
 and the displacement vector$$\vb{d}$$.
 
-</div>
+:::
 
 ![Five drawings labeled a through e. In (a), person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta with the horizontal and displacement of the mower is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person W is equal to F d cosine theta. (b) A person is standing with a briefcase in his hand. The force F shown by a vector arrow pointing upwards starting from the handle of briefcase and the displacement d is equal to zero.
 (c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.](../resources/Figure_07_01_01.jpg 'Examples of work. (a) The work done by the force ( F ) on this lawn mower is ( F d \\cos{ \\theta} ) . Note that ( F \\cos{ \\theta} ) is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase.
@@ -98,10 +101,12 @@ measured in **newton-meters**. A newton-meter is given the special name
 large amount of energy; it would lift a small 100-gram apple a distance of about
 1 meter.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Work You Do to Push a Lawn Mower Across a Large Lawn
 </div>
+
 How much work is done on the lawn mower by the person in [Figure 1](#Figure1)
 (a) if he exerts a constant force of$$75.0\N$$at an angle$$35^\circ$$
 below the horizontal and pushes the mower$$25.0\m$$
@@ -124,6 +129,7 @@ The equation for the work is
 <div class="equation">
  $$W=F d \cos{\theta} .$$
 </div>
+
 Substituting the known values gives
 
 <div class="equation">
@@ -148,7 +154,7 @@ work. Even when we “work” all day long, less than 10% of our food energy int
 is used to do work and more than 90% is converted to thermal energy or stored as
 chemical energy in fat.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -171,38 +177,50 @@ chemical energy in fat.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of something we think of as work in everyday circumstances that
 is not work in the scientific sense. Is energy transferred or changed in form in
 your example? If so, explain how this is accomplished without doing work.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a situation in which there is a force and a displacement, but
 the force does no work. Explain why it does no work.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe a situation in which a force is exerted for a long time but does no work. Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How much work does a supermarket checkout attendant do on a can of soup
 he pushes 0.600 m horizontally with a force of 5.00 N? Express your answer in joules and kilocalories.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -233,16 +251,21 @@ The work done is 3.00 J, which is a very small amount of energy. To put this in 
 
 The checkout attendant does **3.00 J** of work on the can of soup, which is equivalent to **$$7.17 \times 10^{-4}$$kcal**.
 
+:::
+
 </div>
-</div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work done to accomplish this task.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -273,18 +296,22 @@ The work done to climb stairs is 1840 J, which represents the gravitational pote
 
 The work done to lift the person climbing stairs is **$$1.84 \times 10^{3}$$J** (or **1840 J**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the work done on a 1500-kg elevator car by its cable to lift it
 40.0 m at constant speed, assuming friction averages 100 N?
 (b) What is the work done on the elevator car by the gravitational force in this process?
 (c) What is the total work done on the elevator car?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -353,19 +380,23 @@ This problem illustrates that even though significant forces act and significant
 
 (c) The total work done on the elevator is **0 J** (consistent with constant speed motion).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline.
 Only 30% of the gasoline goes into useful work by the force that keeps the car
 moving at constant speed despite friction. (See  [Table 1 of Conservation Of Energy](./ch7ConservationOfEnergy#Table1) for the energy content of gasoline.)
 (a) What is the magnitude of the force exerted to keep the car moving at constant speed?
 (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -440,11 +471,14 @@ For part (b), driving at a slower speed (28.0 m/s instead of 30.0 m/s) reduces t
 
 (b) At the lower speed of 28.0 m/s, approximately **1.9 gallons** of gasoline will be used to drive 108 km.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a
 ramp that makes an angle of$$20.0^\circ$$with the horizontal.
 (See [Figure 2](#Figure2).) He exerts a force of 500 N
@@ -454,8 +488,9 @@ include the work he does on the crate *and* on his body to get up the ramp.
 ![A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.](../resources/Figure_07_01_02.jpg 'A man pushes a crate up a ramp.')
 {: #Figure2}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -502,20 +537,25 @@ This problem illustrates an important practical consideration: when moving heavy
 
 The man does a total of **3140 J** (or **$$3.14 \times 10^{3}$$J**) of work, consisting of 2000 J on the crate and 1140 J on his own body.
 
+:::
+
 </div>
-</div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How much work is done by the boy pulling his sister 30.0 m in a wagon as shown
 in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
 ![A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.](../resources/Figure_07_01_03.jpg 'The boy does work on the system of the wagon and the child when he pulls them as shown. ')
 {: #Figure3}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -544,11 +584,14 @@ This is a good example of how the angle of applied force affects work. If the bo
 
 The boy does **1300 J** (or **$$1.30 \times 10^{3}$$J**) of work pulling the wagon.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A shopper pushes a grocery cart 20.0 m at constant speed on level ground, against
 a 35.0 N frictional force. He pushes in a direction$$25.0^\circ$$
 below the horizontal.
@@ -558,8 +601,9 @@ below the horizontal.
 (d) Find the force the shopper exerts, using energy considerations.
 (e) What is the total work done on the cart?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -632,11 +676,14 @@ The energy transferred from the shopper (700 J) is completely dissipated by fric
 
 (e) The total work done on the cart is **0 J**, consistent with constant speed motion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose the ski patrol lowers a rescue sled and victim, having a total mass of
 90.0 kg, down a$$60.0^\circ$$slope at constant speed, as shown in [Figure 4](#Figure4). The
 coefficient of friction between the sled and the snow is 0.100.
@@ -648,8 +695,9 @@ coefficient of friction between the sled and the snow is 0.100.
 ![A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.](../resources/Figure_07_01_04.jpg 'A rescue sled and victim are lowered down a steep slope. ')
 {: #Figure4}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -736,10 +784,12 @@ The relatively small friction force (44.1 N compared to 765 N down the slope) sh
 
 (d) The total work done is **0 J**, consistent with the constant speed descent.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -754,4 +804,4 @@ the magnitude of the displacement
 joule
 : SI unit of work and energy, equal to one newton-meter
 
-</div>
+:::

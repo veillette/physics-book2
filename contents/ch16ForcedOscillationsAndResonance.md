@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 8
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Observe resonance of a paddle ball on a string.
 * Observe amplitude of a damped harmonic oscillator.
-</div>
+
+:::
 
 ![The figure shows the panel of the piano containing the strings, which are visibly in horizontal lines. Just below the strings is the wooden block of the piano containing the different type string handle bars and blocks.](../resources/Figure_16_08_01.jpg 'You can cause the strings in a piano to vibrate simply by producing sound waves from your voice. (credit: Matt Billings, Flickr)')
 {: #Figure1}
@@ -98,14 +99,19 @@ highly efficient.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A famous magic trick involves a performer singing a note toward a crystal glass until the glass shatters. Explain why the trick works in terms of resonance and natural frequency.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The performer must be singing a note that corresponds to the natural frequency of the glass. As the sound wave is directed at the glass, the glass responds by resonating at the same frequency as the sound wave. With enough energy introduced into the system, the glass begins to vibrate and eventually shatters.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -121,20 +127,27 @@ The performer must be singing a note that corresponds to the natural frequency o
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are soldiers in general ordered to “route step” (walk out of step) across a bridge?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How much energy must the shock absorbers of a 1200-kg car dissipate in order to damp a bounce that initially has a velocity of 0.800 m/s at the equilibrium position? Assume the car returns to its original vertical position.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The car is bouncing at the equilibrium position with an initial velocity of 0.800 m/s. All the energy at this point is kinetic energy. To damp the bounce completely, the shock absorbers must dissipate all this kinetic energy.
@@ -165,16 +178,21 @@ The shock absorbers must dissipate 384 J of energy to completely damp the bounce
 
 384 J
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
  how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The oscillation starts with maximum displacement, so all the energy is initially stored as elastic potential energy in the suspension. To dampen the oscillation completely (bring it to rest), the shocks must remove all this energy. We use $$\text{PE}_{\text{el}} = \frac{1}{2}kx^2$$.
@@ -199,15 +217,19 @@ The shocks must remove 141 J of energy to completely dampen the oscillation. Wit
 
 141 J
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much will a spring that has a force constant of 40.0 N/m be stretched by an object with a mass of 0.500 kg when hung motionless from the spring? (b) Calculate the decrease in gravitational potential energy of the 0.500-kg object when it descends this distance. (c) Part of this gravitational energy goes into the spring. Calculate the energy stored in the spring by this stretch, and compare it with the gravitational potential energy. Explain where the rest of the energy might go.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -264,17 +286,22 @@ The "missing" energy ($$kx^2 - \frac{1}{2}kx^2 = \frac{1}{2}kx^2$$) must have go
 
 In a real scenario where the mass is simply released, it would initially overshoot the equilibrium position, oscillate, and gradually settle as damping dissipates energy. The final state has 0.300 J in the spring and 0.300 J dissipated as heat during the oscillations.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction  $${\mu }_{\text{s}}=0.100 $$ .
  (a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is  $${\mu }_{\text{k}}=0.0850 $$ ,
  what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), the maximum stretch occurs when the spring force equals the maximum static friction force. For part (b), we use energy conservation: the initial elastic potential energy equals the work done by kinetic friction over the total distance traveled.
@@ -329,17 +356,22 @@ In part (a), the spring can only stretch about 5 mm before overcoming static fri
 
 (b) 11.5 mm or 0.0115 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Engineering Application: A suspension bridge oscillates with an effective force constant of  $$ 1.00 \times 10^{8}  \text{N/m} $$ .
  (a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart  $$ 1.00 \times 10^{4}  \text{J} $$
  of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), the energy in a harmonic oscillator at maximum displacement is purely elastic potential energy: $$E = \frac{1}{2}kx^2$$. For part (b), we first calculate the energy needed to increase amplitude from 0.100 m to 0.500 m, then divide by the power input to find the time required.
@@ -388,10 +420,12 @@ Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,00
 
 (b) $$1.20 \times 10^3$$ s
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -406,4 +440,4 @@ natural frequency
 resonate
 : a system being driven at its natural frequency
 
-</div>
+:::

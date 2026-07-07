@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 2
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Define and distinguish between instantaneous acceleration, average acceleration, and deceleration.
 * Calculate acceleration given initial time, initial velocity, final time, and final velocity.
 
-</div>
+::::
 
 ![An airplane flying very low to the ground, just above a beach full of onlookers, as it comes in for a landing.](../resources/Figure_02_04_01.jpg 'A plane decelerates, or slows down, as it comes in for landing in St. Maarten. Its acceleration is opposite in direction to its velocity. (credit: Steve Conry, Flickr)')
 {: #Figure1 width="20px"}
@@ -19,7 +19,8 @@ car can in fact cause it to speed up. The greater the **acceleration**, the
 greater the change in velocity over a given time. The formal definition of
 acceleration is consistent with these notions, but more inclusive.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Average Acceleration
 </div>
@@ -29,10 +30,11 @@ Average Acceleration
 <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}}, $$
 </div>
+
 where $$ \overline{a} $$ is average acceleration, $$ v $$ is velocity, and $$ t $$
  is time. (The bar over the $$ a $$ means *average* acceleration.)
 
-</div>
+::::
 
 Because acceleration is velocity in m/s divided by time in s, the SI units for
 acceleration are $$ \mss $$, meters per second squared or meters per second per
@@ -47,15 +49,17 @@ quicker you turn, the greater the acceleration. So there is an acceleration when
 velocity changes either in magnitude (an increase or decrease in speed)
 or in direction, or both.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Acceleration as a Vector
 </div>
+
 Acceleration is a vector in the same direction as the *change* in velocity, $$ \Delta v $$.
 Since velocity is a vector, it can change either in magnitude or in direction.
 Acceleration is therefore a change in either speed or direction, or both.
 
-</div>
+::::
 
 Keep in mind that although acceleration is in the direction of the _change_ in
 velocity, it is not always in the direction of _motion_. When an object slows
@@ -65,10 +69,12 @@ as **deceleration**.
 ![A subway train arriving at a station. A velocity vector arrow points along the track away from the train. An acceleration vector arrow points along the track toward the train.](../resources/Figure_02_04_02.jpg 'A subway train in Sao Paulo, Brazil, decelerates as it comes into a station. It is accelerating in a direction opposite to its direction of motion. (credit: Yusuke Kawasaki, Flickr)')
 {: #Figure2}
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Misconception Alert: Deceleration vs. Negative Acceleration
 </div>
+
 Deceleration always refers to acceleration in the direction opposite to the
 direction of the velocity. Deceleration always reduces speed. Negative acceleration,
 however, is acceleration *in the negative direction in the chosen coordinate
@@ -81,12 +87,14 @@ A car moving toward the right. A velocity vector arrow points toward the right. 
 This car is speeding up as it moves toward the left. It has negative acceleration because it is accelerating toward the left. However, because its acceleration is in the same direction as its motion, it is speeding up (not decelerating).')
 {: #Figure3}
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Acceleration: A Racehorse Leaves the Gate
 </div>
+
 A racehorse coming out of the gate accelerates from rest to a velocity of 15.0 m/s due west in 1.80 s. What is its average acceleration?
 
 ![Two racehorses running toward the left.](../resources/Figure_02_04_04.jpg '(credit: Jon Sullivan, PD Photo.org)')
@@ -127,7 +135,7 @@ acceleration, because the ride is not smooth. We shall see later that an
 acceleration of this magnitude would require the rider to hang on with a force
 nearly equal to his weight.
 
-</div>
+::::
 
 ### Instantaneous Acceleration
 
@@ -160,10 +168,12 @@ the reasoning that goes into solving problems.
 ![In part (a), a subway train moves from left to right from an initial position of x equals 4 point 7 kilometers to a final position of x equals 6 point 7 kilometers, with a displacement of 2 point 0 kilometers. In part (b), the train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_04_07.jpg "One-dimensional motion of a subway train. Here we have chosen the x-axis so that + means to the right and - means to the left for displacements, velocities, and accelerations. (a) The subway train moves to the right from (x_0) to ( x_f). Its displacement ( \\Delta x ) is +2.0 km. (b) The train moves to the left from ( x'_0 ) to ( x'_f ). Its displacement ( \\Delta x'=1.5 \\text{km} ). (Note that the prime symbol (') is used simply to distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
 {: #Figure7}
 
-<div class="example" id="example2" markdown="1">
+:::: example {"class":"example","id":"example2"}
+
 <div class="title">
 Calculating Displacement: A Subway Train
 </div>
+
 What are the magnitude and sign of displacements for the motions of the subway train shown in parts (a) and (b) of [Figure 7](#Figure7)?
 
 **Strategy**
@@ -184,6 +194,7 @@ and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75 \text{km
 <div class="equation">
  $$ \Delta x=x_{f}-x_{0}=6.70 \text{km}-4.70 \text{km}=+2.00 \text{km} $$
 </div>
+
 3\. Solve for displacement in part (b).
 
 <div class="equation">
@@ -196,12 +207,14 @@ The direction of the motion in (a) is to the right and therefore its
 displacement has a positive sign, whereas motion in (b) is to the left and thus
 has a negative sign.
 
-</div>
+::::
 
-<div class="example" id="exampleDistance" markdown="1">
+:::: example {"class":"example","id":"exampleDistance"}
+
 <div class="title">
 Comparing Distance Traveled with Displacement: A Subway Train
 </div>
+
 What are the distances traveled for the motions shown in parts (a) and (b) of the subway train in [Figure 7](#Figure7)?
 
 **Strategy**
@@ -229,12 +242,14 @@ traveled was 1.50 km.
 
 Distance is a scalar. It has magnitude but no sign to indicate direction.
 
-</div>
+::::
 
-<div class="example" id="example4" markdown="1">
+:::: example {"class":"example","id":"example4"}
+
 <div class="title">
 Calculating Acceleration: A Subway Train Speeding Up
 </div>
+
 Suppose the train in [Figure 7](#Figure7)(a) accelerates from rest to 30.0 km/h in the first 20.0 s of its motion. What is its average acceleration during that time interval?
 
 **Strategy**
@@ -262,6 +277,7 @@ to the right.
 <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
+
 4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI
 units of meters and seconds. (See [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits) for more guidance.)
 
@@ -276,12 +292,14 @@ because the train starts from rest and ends up with a velocity to the right (
 also positive). So acceleration is in the same direction as the _change_ in
 velocity, as is always the case.
 
-</div>
+::::
 
-<div class="example" id="example5" markdown="1">
+:::: example {"class":"example","id":"example5"}
+
 <div class="title">
 Calculate Acceleration: A Subway Train Slowing Down
 </div>
+
 Now suppose that at the end of its trip, the train in [Figure 7](#Figure7)(a) slows to a stop from a speed of 30.0 km/h in 8.00 s. What is its average acceleration while stopping?
 
 **Strategy**
@@ -303,11 +321,13 @@ velocity and the change in time and then solve for acceleration.
 <div class="equation">
  $$ \Delta v=v_{f}-v_{0}=0-30.0 \text{km/h}=-30.0 \text{km/h} $$
 </div>
+
 3\. Plug in the knowns, $$ \Delta v $$ and $$ \Delta t $$, and solve for $$ \overline{a} $$.
 
 <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{-30.0 \text{km/h}}{8.00 \s } $$
 </div>
+
 4\. Convert the units to meters and seconds.
 
 <div class="equation">
@@ -323,7 +343,7 @@ the same direction as the _change_ in velocity, which is negative here. This
 acceleration can be called a deceleration because it has a direction opposite to
 the velocity.
 
-</div>
+::::
 
 The graphs of position, velocity, and acceleration vs. time for the trains
 in [Example 4](#example4) and [Example 5](#example5) are
@@ -335,10 +355,12 @@ from 20 to 40 s, after which the train decelerates.)
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.')
 {: #Figure10 height="200"}
 
-<div class="example" id="exampleAverage" markdown="1">
+:::: example {"class":"example","id":"exampleAverage"}
+
 <div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
+
 What is the average velocity of the train in part b of [Example 2](#example2), and shown again below, if it takes 5.00 min to make its
 trip?
 
@@ -361,6 +383,7 @@ since the train moves to the left and has a negative displacement.
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x^{\prime} }{\Delta t}=\frac{-1.50 \text{km}}{5.00 \text{min}} $$
 </div>
+
 4\. Convert units.
 
 <div class="equation">
@@ -371,12 +394,14 @@ since the train moves to the left and has a negative displacement.
 
 The negative velocity indicates motion to the left.
 
-</div>
+::::
 
-<div class="example" id="exampleDecelerating" markdown="1">
+:::: example {"class":"example","id":"exampleDecelerating"}
+
 <div class="title">
 Calculating Deceleration: The Subway Train
 </div>
+
 Finally, suppose the train in [Figure 11](#Figure11) slows to a stop from a velocity of 20.0 km/h in 10.0 s. What is its average acceleration?
 
 **Strategy**
@@ -400,11 +425,13 @@ since
 <div class="equation">
  $$ \Delta v=v_{f}-v_{0}=0-\left(-20 \text{km/h}\right)= +20 \text{km/h}. $$
 </div>
+
 3\. Solve for $$ \overline{a} $$.
 
 <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+20.0 \text{km/h}}{10.0 \s } $$ 
 </div>
+
 4\. Convert units.
 
 <div class="equation">
@@ -421,7 +448,7 @@ velocity, which is positive here. As in [Example 5](#example5), this
 acceleration can be called a deceleration since it is in the direction opposite
 to the velocity.
 
-</div>
+::::
 
 ### Sign and Direction
 
@@ -444,31 +471,41 @@ opposite sign as the velocity, the object is slowing down.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 An airplane lands on a runway traveling east. Describe its acceleration.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 If we take east to be positive, then the airplane has negative acceleration, as it is accelerating toward the west. It is also decelerating: its acceleration is opposite in direction to its velocity.
 
-</div>
+::::
+
 </div>
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Moving Man Simulation
 </div>
+
 Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you.
 
-<figure markdown="1">
+::: figure {}
+
 <div class="figure">
 <iframe loading="lazy" src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Moving Man
 </figcaption>
 </div>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -490,48 +527,66 @@ Moving Man
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Is it possible for speed to be constant while acceleration is not zero? Give an example of such a situation.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Is it possible for velocity to be constant while acceleration is not zero? Explain.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Give an example in which velocity is zero yet acceleration is not.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If a subway train is moving to the left (has a negative velocity) and then comes to a stop, what is the direction of its acceleration? Is the acceleration positive or negative?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Plus and minus signs are used in one-dimensional motion to indicate direction. What is the sign of an acceleration that reduces the magnitude of a negative velocity? Of a positive velocity?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its acceleration?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -560,11 +615,13 @@ The cheetah's acceleration of 4.29 m/s² is impressive—it increases its speed 
 
 The cheetah's acceleration is $$ 4.29 \mss $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -574,8 +631,9 @@ rocket sled, accelerating from rest to a top speed of 282 m/s (1015 km/h) in
 5.00 s, and was brought jarringly back to rest in only 1.40 s! Calculate his (a)
 acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$ \left(9.80 \mss \right) $$ by taking its ratio to the acceleration of gravity.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -625,17 +683,21 @@ These accelerations are extreme. During acceleration, Dr. Stapp experienced abou
 
 (b) His deceleration was $$ 201 \mss $$, or $$ 20.5g $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss $$.
 (a) How long does it take her to reach a speed of 2.00 m/s?
 (b) If she then brakes to a stop in 0.800 s, what is her deceleration?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -680,15 +742,20 @@ The negative sign in part (b) indicates that the acceleration is in the opposite
 
 (b) Her deceleration while braking is $$ 2.50 \mss $$ (or $$ -2.50 \mss $$ if we consider the sign).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Assume that an intercontinental ballistic missile goes from rest to a suborbital speed of 6.50 km/s in 60.0 s (the actual speed and time are classified). What is its average acceleration in $$ \mss $$ and in multiples of $$ g $$
 $$ \left(9.80 \mss \right)? $$
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -717,10 +784,12 @@ This is an enormous acceleration—about 11 times the acceleration due to gravit
 
 The missile's average acceleration is $$ 108 \mss $$, which is equivalent to $$ 11.0g $$.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -737,4 +806,4 @@ deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
 in a decrease in velocity
 
-</div>
+::::

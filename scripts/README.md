@@ -4,32 +4,31 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script | Command | Description |
-| --- | --- | --- |
-| content | `npm run check:content` | Validate and fix content quality |
-| equations | `npm run check:equations` | Validate and fix equations |
-| check-links | `npm run check:links` | Validate internal/external links |
-| check-orphans | `npm run check:orphans` | Find unreferenced files |
-| check-figures | `npm run check:figures` | Validate figure references |
-| check-math | `npm run check:math` | Check LaTeX delimiter balance |
-| check-accessibility | `npm run check:accessibility` | Check alt text and accessibility |
-| check-yaml | `npm run check:yaml` | Validate YAML front matter |
-| check-structure | `npm run check:structure` | Validate document structure |
-| check-cross-references | `npm run check:cross-refs` | Validate cross-references |
-| lint-markdown | `npm run lint:markdown` | Lint markdown files |
-| fix-liquid-syntax | `npm run fix:liquid` | Fix Liquid syntax in math |
-| standardize-links | `npm run fix:links` | Convert links to Jekyll format |
-| generate-pdf | `npm run generate:pdf` | Generate PDF of chapters |
-| generate-icons | `npm run generate:icons` | Generate PWA icons |
-| build-index | `npm run generate:search-index` | Generate search index |
-| parse-summary | `npm run parse:summary` | Generate summary.json |
-| update-front-matter | `npm run update:front-matter` | Update YAML front matter |
-| rename-figures | `npm run update:figures` | Rename figures and update refs |
-| convert-webp | `npm run convert:webp` | Convert images to WebP |
-| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters |
-| sync-config | `npm run sync:config` | Sync package.json with \_config.yml |
-| validate-deploy | `npm run deploy:validate` | Validate deployment |
-| crawl-all-pages | `npm run crawl` | Navigate all pages to find errors |
+| Script                  | Command                           | Description                           |
+| ----------------------- | --------------------------------- | ------------------------------------- |
+| content                 | `npm run check:content`           | Validate and fix content quality      |
+| equations               | `npm run check:equations`         | Validate and fix equations            |
+| check-links             | `npm run check:links`             | Validate internal/external links      |
+| check-orphans           | `npm run check:orphans`           | Find unreferenced files               |
+| check-figures           | `npm run check:figures`           | Validate figure references            |
+| check-math              | `npm run check:math`              | Check LaTeX delimiter balance         |
+| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility      |
+| check-yaml              | `npm run check:yaml`              | Validate YAML front matter            |
+| check-structure         | `npm run check:structure`         | Validate document structure           |
+| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references             |
+| lint-markdown           | `npm run lint:markdown`           | Lint markdown files                   |
+| fix-liquid-syntax       | `npm run fix:liquid`              | Fix Liquid syntax in math             |
+| standardize-links       | `npm run fix:links`               | Convert links to root-relative format |
+| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters              |
+| generate-icons          | `npm run generate:icons`          | Generate PWA icons                    |
+| build-index             | `npm run generate:search-index`   | Generate search index                 |
+| parse-summary           | `npm run parse:summary`           | Generate summary.json                 |
+| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter              |
+| rename-figures          | `npm run update:figures`          | Rename figures and update refs        |
+| convert-webp            | `npm run convert:webp`            | Convert images to WebP                |
+| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters              |
+| validate-deploy         | `npm run deploy:validate`         | Validate deployment                   |
+| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors     |
 
 ---
 
@@ -37,17 +36,16 @@ Build and utility scripts for the Physics Book project.
 
 All scripts follow a consistent naming convention using colons as separators:
 
-| Prefix | Purpose | Examples |
-| --- | --- | --- |
-| `check:*` | Validation/quality checks | check:links, check:yaml, check:content |
-| `fix:*` | Auto-fix issues | fix:content, fix:equations, fix:liquid |
-| `lint:*` | Lint files | lint:markdown |
-| `generate:*` | File/asset generation | generate:pdf, generate:icons |
-| `parse:*` | Parse/extract data | parse:summary |
-| `update:*` | Update existing files | update:front-matter, update:figures |
-| `convert:*` | Format conversion | convert:webp |
-| `sync:*` | Synchronize data | sync:config |
-| `deploy:*` | Deployment operations | deploy:validate |
+| Prefix       | Purpose                   | Examples                               |
+| ------------ | ------------------------- | -------------------------------------- |
+| `check:*`    | Validation/quality checks | check:links, check:yaml, check:content |
+| `fix:*`      | Auto-fix issues           | fix:content, fix:equations, fix:liquid |
+| `lint:*`     | Lint files                | lint:markdown                          |
+| `generate:*` | File/asset generation     | generate:pdf, generate:icons           |
+| `parse:*`    | Parse/extract data        | parse:summary                          |
+| `update:*`   | Update existing files     | update:front-matter, update:figures    |
+| `convert:*`  | Format conversion         | convert:webp                           |
+| `deploy:*`   | Deployment operations     | deploy:validate                        |
 
 ### Common Modifiers
 
@@ -241,7 +239,7 @@ npm run fix:liquid:apply        # Apply fixes to files
 
 ### standardize-links.js
 
-Converts internal links to Jekyll/MyST convention.
+Converts internal links to root-relative convention.
 
 ```bash
 npm run fix:links               # Dry run
@@ -290,6 +288,7 @@ MAX_CONCURRENCY=8 node scripts/generate-pdf-parallel.js
 ```
 
 **Features:**
+
 - **Phase 1**: Section PDFs (241 items, 4 parallel) - ~683s
 - **Phase 2**: Chapter intro PDFs (34 items, 4 parallel) - ~32s
 - **Phase 3**: Combined chapter PDFs (34 items, 2 parallel) - ~1094s
@@ -298,6 +297,7 @@ MAX_CONCURRENCY=8 node scripts/generate-pdf-parallel.js
 - Total generation: ~30 minutes for 309 PDFs
 
 **Performance:**
+
 - 4x-8x faster than sequential generation
 - Memory-optimized with controlled concurrency
 - Reuses browser instances across batches
@@ -312,6 +312,7 @@ node scripts/regenerate-failed-pdfs.js
 ```
 
 **Features:**
+
 - Extended timeout (300s vs standard 180s)
 - No strict networkidle requirements for large content
 - Sequential processing to avoid resource contention
@@ -405,7 +406,7 @@ npm run deploy:validate:verbose   # Verbose output
 
 ### crawl-all-pages.js
 
-Navigates through all pages on local Jekyll server to detect errors during development.
+Navigates through all pages on the local dev server to detect errors during development.
 
 ```bash
 npm run crawl                     # Crawl all pages (quiet mode)
@@ -413,6 +414,7 @@ npm run crawl:verbose             # Show detailed output for every page
 ```
 
 **What it checks:**
+
 - JavaScript console errors
 - Failed resource loads (CSS, JS, images)
 - Unrendered MathJax equations ($$)
@@ -420,13 +422,15 @@ npm run crawl:verbose             # Show detailed output for every page
 - Page load failures
 
 **Prerequisites:**
-- Jekyll server must be running: `bundle exec jekyll serve`
+
+- Dev server must be running: `npm run serve`
 - Playwright browsers installed: `npx playwright install chromium`
 
 **Typical workflow:**
+
 ```bash
-# Terminal 1: Start Jekyll server
-bundle exec jekyll serve
+# Terminal 1: Start dev server
+npm run serve
 
 # Terminal 2: Crawl all pages
 npm run crawl

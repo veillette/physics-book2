@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 28
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State and explain both of Einstein’s postulates.
 * Explain what an inertial frame of reference is.
 * Describe one way the speed of light can be changed.
-</div>
+
+:::
 
 ![A calculator is placed on open math books and few papers. Problems on trigonometry are solved on one of the papers.](../resources/Figure_28_01_01.jpg 'Special relativity resembles trigonometry in that both are reliable because they are based on postulates that flow one from another in a logical way. (credit: Jon Oakley, Flickr)')
 {: #Figure1}
@@ -38,13 +39,15 @@ to the star it is orbiting around. The simplest frames of reference are those
 that are not accelerated and are not rotating. Newton’s first law, the law of
 inertia, holds exactly in such a frame.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Inertial Reference Frame
 </div>
+
 An **inertial frame of reference** is a reference frame in which a body at rest remains at rest and a body in motion moves at a constant speed in a straight line unless acted on by an outside force.
 
-</div>
+:::
 
 The laws of physics seem to be simplest in inertial frames. For example, when
 you are in a plane flying at a constant altitude and speed, physics seems to
@@ -58,13 +61,15 @@ they should be the same in all inertial frames, since there is no preferred
 frame and no absolute motion. Einstein incorporated these ideas into his **first
 postulate of special relativity**{: class="term"}.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 First Postulate of Special Relativity
 </div>
+
 The laws of physics are the same and can be stated in their simplest form in all inertial frames of reference.
 
-</div>
+:::
 
 As with many fundamental statements, there is more to this postulate than meets
 the eye. The laws of physics include only those that satisfy this postulate. We
@@ -103,13 +108,15 @@ to that medium. Starting in the mid-1880s, the American physicist A. A.
 Michelson, later aided by E. W. Morley, made a series of direct measurements of
 the speed of light. The results of their measurements were startling.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Michelson-Morley Experiment
 </div>
+
 The **Michelson-Morley experiment** demonstrated that the speed of light in a vacuum is independent of the motion of the Earth about the Sun.
 
-</div>
+:::
 
 The eventual conclusion derived from this result is that light, unlike
 mechanical waves such as sound, does not need a medium to carry it. Furthermore,
@@ -124,17 +131,18 @@ It was not until 1905, when Einstein published his first paper on special
 relativity, that the currently accepted conclusion was reached. Based mostly on
 his analysis that the laws of electricity and magnetism would not allow another
 speed for light, and only slightly aware of the Michelson-Morley experiment,
-Einstein detailed his **second postulate of special relativity**{: class="term"
-}.
+Einstein detailed his **second postulate of special relativity**{: class="term" }.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Second Postulate of Special Relativity
 </div>
+
 The speed of light  $$c $$
  is a constant, independent of the relative motion of the source.
 
-</div>
+:::
 
 Deceptively simple and counterintuitive, this and the first postulate leave all
 else open for change. Some fundamental concepts do change. Among the changes are
@@ -142,30 +150,38 @@ the loss of agreement on the elapsed time for an event, the variation of
 distance with speed, and the realization that matter and energy can be converted
 into one another. You will read about these concepts in the following sections.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: Constancy of the Speed of Light
 </div>
+
 The speed of light is a constant  $$c= 3.00 \times 10^{8}  \text{m/s} $$
  **in a vacuum**. If you remember the effect of the index of refraction from [The Law of Refraction](../contents/ch25TheLawOfRefraction), the speed of light is lower in matter.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how special relativity differs from general relativity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 <div class="title">
 Answer
 </div>
+
 Special relativity applies only to unaccelerated motion, but general relativity applies to accelerated motion.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -189,27 +205,37 @@ Special relativity applies only to unaccelerated motion, but general relativity 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which of Einstein’s postulates of special relativity includes a concept that does not fit with the ideas of classical physics? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is Earth an inertial frame of reference? Is the Sun? Justify your response.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When you are flying in a commercial jet, it may appear to you that the airplane is stationary and the Earth is moving beneath you. Is this point of view valid? Discuss briefly.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -236,4 +262,4 @@ Michelson-Morley experiment
 : an investigation performed in 1887 that proved that the speed of light in a
 vacuum is the same in all frames of reference from which it is viewed
 
-</div>
+:::

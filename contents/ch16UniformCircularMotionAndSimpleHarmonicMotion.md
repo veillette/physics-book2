@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Compare simple harmonic motion with uniform circular motion.
-</div>
+
+:::
 
 ![The figure shows a clock-wise rotating empty merry go round with iron bars holding the decorated wooden horse statues, four in each column.](../resources/Figure_16_06_01.jpg 'The horses on this merry-go-round exhibit uniform circular motion. (credit: Wonderlane, Flickr)')
 {: #Figure1}
@@ -135,14 +136,19 @@ It can, for example, help to analyze how waves add when they are superimposed.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify an object that undergoes uniform circular motion. Describe how you could trace the simple harmonic motion of this object as a wave.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 A record player undergoes uniform circular motion. You could attach dowel rod to one point on the outside edge of the turntable and attach a pen to the other end of the dowel. As the record player turns, the pen will move. You can drag a long piece of paper under the pen, capturing its motion as a wave.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -152,11 +158,15 @@ A projection of uniform circular motion undergoes simple harmonic oscillation.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a)What is the maximum velocity of an 85.0-kg person bouncing on a bathroom scale having a force constant of  $$ 1.50 \times 10^{6}  \text{N/m} $$, if the amplitude of the bounce is 0.200 cm? (b)What is the maximum energy stored in the spring?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 For part (a), we use the relationship between maximum velocity, amplitude, and the spring constant for simple harmonic motion: $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), the maximum energy stored in the spring occurs at maximum displacement and equals the elastic potential energy: $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2$$.
@@ -199,15 +209,20 @@ Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relative
 
 (b) 3.00 J
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A novelty clock has a 0.0100-kg mass object bouncing on a spring that has a force constant of 1.25 N/m. What is the maximum velocity of the object if the object bounces 3.00 cm above and below its equilibrium position? (b) How many joules of kinetic energy does the object have at its maximum velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X = 0.0300$$ m. For part (a), we use the relationship $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), we calculate the kinetic energy at maximum velocity using $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2$$.
@@ -242,29 +257,34 @@ The maximum velocity occurs as the object passes through the equilibrium positio
 
 (b) $$5.63 \times 10^{-4}$$ J or 0.000563 J
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what positions is the speed of a simple harmonic oscillator half its maximum? That is, what values of  $$x/X $$
  give  $$v=±{v}_{\text{max}}/2 $$, where  $$X $$  is the amplitude of the motion?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-We use the velocity equation for simple harmonic motion: {% raw %}$$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$${% endraw %}. Setting {% raw %}$$v = \frac{{v}_{\text{max}}}{2}$${% endraw %} and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
+We use the velocity equation for simple harmonic motion: $$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$. Setting $$v = \frac{{v}_{\text{max}}}{2}$$ and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
 
 **Solution**
 
-Start with the velocity equation and set {% raw %}$$v = \frac{{v}_{\text{max}}}{2}$${% endraw %}:
+Start with the velocity equation and set $$v = \frac{{v}_{\text{max}}}{2}$$:
 
 <div class="equation">
-{% raw %} $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$ {% endraw %}
+ $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$ 
 </div>
 
-Divide both sides by {% raw %}$${v}_{\text{max}}$${% endraw %}:
+Divide both sides by $${v}_{\text{max}}$$:
 
 <div class="equation">
  $$\frac{1}{2} = \sqrt{1 - \frac{x^2}{X^2}}$$
@@ -296,15 +316,20 @@ The speed is half the maximum at positions $$x = ±\frac{\sqrt{3}}{2}X$$, which 
 
 $$±\frac{\sqrt{3}}{2}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A ladybug sits 12.0 cm from the center of a Beatles music album spinning at 33.33 rpm. What is the maximum velocity of its shadow on the wall behind the turntable, if illuminated parallel to the record by the parallel rays of the setting Sun?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The shadow of the ladybug on the wall undergoes simple harmonic motion as the record spins. The maximum velocity of the shadow equals the tangential velocity of the ladybug's circular motion. We can find this using $$v = r\omega$$, where $$\omega$$ is the angular velocity in rad/s.
@@ -333,5 +358,6 @@ As the record spins, the ladybug moves in a circle. When illuminated by parallel
 
 0.419 m/s or 41.9 cm/s
 
-</div>
+:::
+
 </div>

@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 10
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Understand the analogy between angular momentum and linear momentum.
 * Observe the relationship between torque and angular momentum.
 * Apply the law of conservation of angular momentum.
 
-</div>
+:::
 
 Why does Earth keep on spinning? What started it spinning to begin with? And how
 does an ice skater manage to spin faster and faster simply by pulling her arms
@@ -33,15 +33,18 @@ large moment of inertia $$ I $$, such as Earth, has a very large angular
 momentum. An object that has a large angular velocity $$ \omega $$, such as a
 centrifuge, also has a rather large angular momentum.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections
 </div>
+
 Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Angular Momentum of the Earth
 </div>
@@ -56,11 +59,13 @@ the moment of inertia of a sphere is
 <div class="equation">
  $$ I=\frac{2 MR^{2}}{5} $$
 </div>
+
 so that
 
 <div class="equation">
  $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
+
 Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
 exactly one revolution per day, but we must covert $$ \omega $$ to radians per
 second to do the calculation in SI units.
@@ -75,6 +80,7 @@ L&=& 0.4\left(5.972 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \right
 L&=& 9.72 \times 10^{37}\kg \cdot \mm\cdot \text{rev/d}.
 \end{array} $$
 </div>
+
 Substituting $$ 2\pi $$ rad for $$ 1 $$ rev and $$ 8.64 \times 10^{4}\s $$ for 1 day gives
 
 <div class="equation">
@@ -90,7 +96,7 @@ This number is large, demonstrating that Earth, as expected, has a tremendous
 angular momentum. The answer is approximate, because we have assumed a constant
 density for Earth in order to estimate its moment of inertia.
 
-</div>
+:::
 
 When you push a merry-go-round, spin a bike wheel, or open a door, you exert a
 torque. If the torque you exert is greater than opposing torques, then the
@@ -106,10 +112,12 @@ This expression is exactly analogous to the relationship between force and
 linear momentum, $$ F=\Delta p/\Delta t $$. The equation $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It
 is, in fact, the rotational form of Newton’s second law.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 </div>
+
 [Figure 1](#Figure1) shows a Lazy Susan food tray being rotated by a person in quest of sustenance. Suppose the person exerts a 2.50 N force perpendicular to the lazy Susan’s 0.260-m radius for 0.150 s.
 (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible?
 (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
@@ -133,6 +141,7 @@ gives
 <div class="equation">
  $$ \Delta L=\left(\text{net}\text{τ}\right)\Delta t . $$
 </div>
+
 Because the force is perpendicular to $$ r $$,
 we see that $$ \text{net}\tau =rF $$, so that
 
@@ -151,12 +160,14 @@ momentum,
 <div class="equation">
  $$ L=I \omega. $$
 </div>
+
 Solving for $$ \omega $$ and substituting the formula
 for the moment of inertia of a disk into the resulting equation gives
 
 <div class="equation">
  $$ \omega =\frac{L}{I}=\frac{L}{\frac{1}{2}M R^{2}}. $$
 </div>
+
 And substituting known values into the preceding equation yields
 
 <div class="equation">
@@ -170,12 +181,14 @@ object but only on torque and time. The final angular velocity is equivalent to
 one revolution in 8.71 s (determination of the time period is left as an
 exercise for the reader), which is about right for a lazy Susan.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Torque in a Kick
 </div>
+
 The person whose leg is shown in [Figure 2](#Figure2) kicks his leg by exerting a 2000-N force with his upper leg muscle. The effective perpendicular lever arm is 2.20 cm.
 Given the moment of inertia of the lower leg is $$ 1.25 \kg\cdot \mm $$,
 (a) find the angular acceleration of the leg.
@@ -201,6 +214,7 @@ From the rotational analog to Newton’s second law, the angular acceleration $$
 <div class="equation">
  $$ \alpha =\frac{ \text{net}\tau }{I}. $$
 </div>
+
 Because the force and the perpendicular lever arm are given and the leg is vertical
 so that its weight does not create a torque, the net torque is thus
 
@@ -211,6 +225,7 @@ $$ \begin{array}{lll}
 \text{net}\tau &=& 44.0 \N \cdot \m .
 \end{array} $$
 </div>
+
 Substituting this value for the torque and the given value for the moment of inertia into the expression for $$ \alpha $$
 gives
 
@@ -225,16 +240,19 @@ The final angular velocity can be calculated from the kinematic expression
 <div class="equation">
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$
 </div>
+
 or
 
 <div class="equation">
  $$ \omega^{2}=2 \alpha \theta $$
 </div>
+
 because the initial angular velocity is zero. The kinetic energy of rotation is
 
 <div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} $$
 </div>
+
 so it is most convenient to use the value of $$ \omega^{2} $$ just
 found and the given value for the moment of inertia. The kinetic energy is
 then
@@ -258,18 +276,20 @@ lower leg as it rotates. The rotational kinetic energy given to the lower leg is
 enough that it could give a ball a significant velocity by transferring some of
 this energy in a kick.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Conservation Laws
 </div>
+
 Angular momentum, like energy and linear momentum, is conserved.
 This universally applicable law is another sign of underlying unity in physical laws.
 Angular momentum is conserved when net external torque is zero, just as linear
 momentum is conserved when the net external force is zero.
 
-</div>
+:::
 
 ### Conservation of Angular Momentum
 
@@ -343,10 +363,12 @@ constant. The change can be dramatic, as the following example shows.
 ![The image a shows an ice skater spinning on the tip of her skate with both her arms and one leg extended. The image b shows the ice skater spinning on the tip of one skate, with her arms crossed and one leg supported on another.](../resources/Figure_10_05_03.jpg '(a) An ice skater is spinning on the tip of her skate with her arms extended. Her angular momentum is conserved because the net torque on her is negligibly small. In the next image, her rate of spin increases greatly when she pulls in her arms, decreasing her moment of inertia. The work she does to pull in her arms results in an increase in rotational kinetic energy.')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Angular Momentum of a Spinning Skater
 </div>
+
 Suppose an ice skater, such as the one in [Figure 3](#Figure3), is spinning
 at 0.800 rev/ s with her arms extended. She has a moment of inertia of $$ 2.34\kg \cdot \mm $$
 with her arms extended and of $$ 0.363\kg \cdot \mm $$ with her
@@ -375,11 +397,13 @@ momentum given in $$ I\omega = I^{\prime} \omega^\prime $$ is applicable. Thus,
 <div class="equation">
  $$ L=L^{\prime} $$
 </div>
+
 or
 
 <div class="equation">
  $$ I\omega=I^{\prime} \omega^\prime $$
 </div>
+
 Solving for $$ \omega \prime $$ and substituting known values into the resulting equation gives
 
 <div class="equation">
@@ -398,6 +422,7 @@ Rotational kinetic energy is given by
 <div class="equation">
  $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2}. $$
 </div>
+
 The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s:
 
 <div class="equation">
@@ -406,11 +431,13 @@ $$ \begin{array}{lll}
 \KE_\text{rot} &=& 29.6 \J .
 \end{array} $$
 </div>
+
 The final rotational kinetic energy is
 
 <div class="equation">
  $$ \KE_{\text{rot}}\prime =\frac{1}{2}I^{\prime} {\omega \prime }^{2}. $$
 </div>
+
 Substituting known values into this equation gives
 
 <div class="equation">
@@ -429,7 +456,7 @@ initial kinetic energy. The increase in rotational kinetic energy comes from
 work done by the skater in pulling in her arms. This work is internal work that
 depletes some of the skater’s food energy.
 
-</div>
+:::
 
 There are several other examples of objects that increase their rate of spin
 because something reduced their moment of inertia. Tornadoes are one example.
@@ -455,14 +482,19 @@ about as long as they do not give themselves a push off the side of the vessel.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Is angular momentum completely analogous to linear momentum? What, if any, are their differences?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Yes, angular and linear momentums are completely analogous. While they are exact analogs they have different units and are not directly inter-convertible like forms of energy are.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -479,24 +511,32 @@ Yes, angular and linear momentums are completely analogous. While they are exact
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When you start the engine of your car with the transmission in neutral, you notice that the car rocks in the opposite sense of the engine’s rotation. Explain in terms of conservation of angular momentum. Is the angular momentum of the car conserved for long (for more than a few seconds)?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a child walks from the outer edge of a rotating merry-go round to the inside. Does the angular velocity of the merry-go-round increase, decrease, or remain the same? Explain your answer.
 
 ![In figure A, there is a merry go round. A child is jumping radially outward. In figure B, a child is jumping backward to the direction of motion of merry go round. In figure C, a child is jumping from it to hang from the branch of the tree. In figure D, a child is jumping from the merry go round tangentially to its circumference.](../resources/Figure_10_05_07.jpg 'A child may jump off a merry-go-round in a variety of directions.')
 {: #Figure5}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a child gets off a rotating merry-go-round. Does the angular velocity of the merry-go-round increase, decrease,
 or remain the same if:
 (a) He jumps off radially?
@@ -504,99 +544,133 @@ or remain the same if:
 (c) He jumps straight up and hangs onto an overhead tree branch?
 (d) He jumps off forward, tangential to the edge? Explain your answers. (Refer to [Figure 5](#Figure5)).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Helicopters have a small propeller on their tail to keep them from rotating in the opposite direction of their main lifting blades. Explain in terms of Newton’s third law why the helicopter body rotates in the opposite direction to the blades.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Whenever a helicopter has two sets of lifting blades, they rotate in opposite directions (and there will be no tail propeller). Explain why it is best to have the blades rotate in opposite directions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe how work is done by a skater pulling in her arms during a spin. In particular, identify the force she exerts on each arm to pull it in and the distance each moves, noting that a component of the force is in the direction moved. Why is angular momentum not increased by this action?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When there is a global heating trend on Earth, the atmosphere expands and the length of the day increases very slightly. Explain why the length of a day increases.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Nearly all conventional piston engines have flywheels on them to smooth out engine vibrations caused by the thrust of individual piston firings. Why does the flywheel have this effect?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Jet turbines spin rapidly. They are designed to fly apart if something makes them seize suddenly, rather than transfer angular momentum to the plane’s wing, possibly tearing it off. Explain how flying apart conserves angular momentum without transferring it to the wing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An astronaut tightens a bolt on a satellite in orbit. He rotates in a direction opposite to that of the bolt,
 and the satellite rotates in the same direction as the bolt. Explain why. If a handhold is available on the satellite,
 can this counter-rotation be prevented? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Competitive divers pull their limbs in and curl up their bodies when they do flips. Just before entering the water, they fully extend their limbs to enter straight down. Explain the effect of both actions on their angular velocities. Also explain the effect on their angular momenta.
 
 ![The given figure shows a diver who curls her body while flipping and then fully extends her limbs to enter straight down into water.](../resources/Figure_10_05_05.jpg 'The diver spins rapidly when curled up and slows when she extends her limbs before entering the water.')
 {: #Figure6 height="200"}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Draw a free body diagram to show how a diver gains angular momentum when leaving the diving board.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 In terms of angular momentum, what is the advantage of giving a football or a rifle bullet a spin when throwing or releasing it?
 
 ![View down the barrel of a cannon showing rifling grooves that cause projectiles to spin](../resources/Figure_10_05_06.jpg 'The image shows a view down the barrel of a cannon, emphasizing its rifling. Rifling in the barrel of a canon causes the projectile to spin just as is the case for rifles (hence the name for the grooves in the barrel). (credit: Elsie esq., Flickr)
   ')
 {: #Figure7}
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the angular momentum of the Earth in its orbit around the Sun.
 
 (b) Compare this angular momentum with the angular momentum of Earth on its
 axis.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -645,11 +719,14 @@ The enormous difference between orbital and rotational angular momentum reflects
 
 (b) This is about **3.77 million times larger** than Earth's rotational angular momentum, demonstrating that orbital motion dominates over spin for planetary bodies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the angular momentum of the Moon in its orbit around Earth?
 
 (b) How does this angular momentum compare with the angular momentum of the Moon
@@ -659,8 +736,9 @@ on its axis? Remember that the Moon keeps one side toward Earth at all times.
 the fact that tidal effects with Earth have caused the Moon to rotate with one
 side always facing Earth.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -722,15 +800,19 @@ The vast difference between the Moon's orbital and rotational angular momenta il
 
 (c) Yes, these values are consistent with tidal locking. The much smaller rotational angular momentum was more easily altered by Earth's tidal torques, while the dominant orbital angular momentum remained essentially constant.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you start an antique car by exerting a force of 300 N on its crank for 0.250 s. What angular momentum is given to the engine if the handle of the crank is 0.300 m from the pivot and the force is exerted to create maximum torque the entire time?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -758,15 +840,19 @@ The angular momentum imparted to the engine is 22.5 kg·m²/s. This angular mome
 
 The angular momentum given to the engine is **22.5 kg·m²/s**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A playground merry-go-round has a mass of 120 kg and a radius of 1.80 m and it is rotating with an angular velocity of 0.500 rev/s. What is its angular velocity after a 22.0-kg child gets onto it by grabbing its outer edge? The child is initially at rest.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -818,15 +904,19 @@ The merry-go-round slows from 0.500 rev/s to 0.366 rev/s when the child jumps on
 
 The new angular velocity is **0.366 rev/s** (or **2.30 rad/s**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Three children are riding on the edge of a merry-go-round that is 100 kg, has a 1.60-m radius, and is spinning at 20.0 rpm. The children have masses of 22.0, 28.0, and 33.0 kg. If the child who has a mass of 28.0 kg moves to the center of the merry-go-round, what is the new angular velocity in rpm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -882,11 +972,14 @@ When the 28.0-kg child moves to the center, the moment of inertia decreases from
 
 The new angular velocity is **25.3 rpm**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the angular momentum of an ice skater spinning at 6.00 rev/s given his moment of inertia is $$ 0.400\kg \cdot \mm $$.
 (b) He reduces his rate of spin (his angular velocity) by extending his arms
 and increasing his moment of inertia. Find the value of his moment of inertia if
@@ -894,8 +987,9 @@ his angular velocity decreases to 1.25 rev/s.
 (c) Suppose instead he keeps his arms in and allows friction of the ice to slow him to 3.00 rev/s. What average
 torque was exerted if this takes 15.0 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -969,20 +1063,25 @@ The magnitude is 0.504 N·m.
 
 (c) The average torque from friction is **−0.504 N·m** (magnitude 0.504 N·m).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="title">
 Construct Your Own Problem
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider the Earth-Moon system. Construct a problem in which you calculate the total angular momentum of the system including the spins of the Earth and the Moon on their axes and the orbital angular momentum of the Earth-Moon system in its nearly monthly rotation. Calculate what happens to the Moon’s orbital radius if the Earth’s rotation decreases due to tidal drag. Among the things to be considered are the amount by which the Earth’s rotation slows and the fact that the Moon will continue to have one side always facing the Earth.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -993,4 +1092,4 @@ law of conservation of angular momentum
 : angular momentum is conserved, i.e., the initial angular momentum is equal to
 the final angular momentum when no external torque is applied to the system
 
-</div>
+:::

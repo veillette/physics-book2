@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 15
 ---
-
 ![A steam engine and several passenger cars are shown traveling down a train track. The train has some people on board.](../resources/Figure_15_00_01.webp 'A steam engine uses heat transfer to do work. (credit: Gerald Friedrich, Pixabay)')
 {: #Figure1}
 

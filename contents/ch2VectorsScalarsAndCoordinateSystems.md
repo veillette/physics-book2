@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 2
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and distinguish between scalar and vector quantities.
 * Assign a coordinate system for a scenario involving one-dimensional motion.
 
-</div>
+:::
 
 ![A small jet airplane flying toward the left.](../resources/Figure_02_02_01.jpg 'The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the (x)-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)')
 {: #Figure1}
@@ -59,15 +59,20 @@ It is usually convenient to consider motion upward or to the right as positive (
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A person’s speed can stay the same as they round a corner and changes direction.
 Given this information, is speed a scalar or a vector quantity? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Speed is a scalar quantity. It does not change at all with direction changes; therefore, it has magnitude only. If it were a vector quantity, it would change as direction changes (even if its magnitude remained constant).
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -81,35 +86,52 @@ Speed is a scalar quantity. It does not change at all with direction changes; th
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A student writes, “*A bird that is diving for prey has a speed of*
 $$ -10  \ms $$.” What is wrong with the student’s statement?
 What has the student actually described? Explain.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the speed of the bird in the previous exercise?
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Acceleration is the change in velocity over time.
 Given this information, is acceleration a vector or a scalar quantity? Explain.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A weather forecast states that the temperature is predicted to be
 $$ -5^\circ \text{C} $$ the following day. Is this temperature a
 vector or a scalar quantity? Explain.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -119,4 +141,4 @@ scalar
 vector
 : a quantity that is described by both magnitude and direction
 
-</div>
+:::

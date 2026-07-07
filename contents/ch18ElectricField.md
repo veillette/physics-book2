@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe a force field and calculate the strength of an electric field due to a point charge.
 * Calculate the force exerted on a test charge by an electric field.
 * Explain the relationship between electrical force (F) on a test charge and electrical field strength (E).
-</div>
+
+:::
 
 Contact forces, such as between a baseball and a bat, are explained on the small
 scale by the interaction of the charges in atoms and molecules in close
@@ -78,10 +79,12 @@ Since the test charge cancels, we see that
 The electric field is thus seen to depend only on the charge $$Q $$ and the
 distance $$r $$ ; it is completely independent of the test charge $$q $$.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Electric Field of a Point Charge
 </div>
+
 Calculate the strength and direction of the electric field  $$E $$
  due to a point charge of 2.00 nC (nano-Coulombs) at a distance of 5.00 mm from the charge.
 
@@ -98,18 +101,21 @@ those values into the above equation gives
 <div class="equation" >
  $$\begin{array}{lll}E& =& k\frac{Q}{ {r}^{2}}\\ E & =& \left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)×\frac{\left( 2.00 \times 10^{-9} \text{C}\right)}{ { \left( 5.00 \times 10^{-3} \text{m} \right)}^{2}}\\ E & =& 7.19 \times 10^{5} \text{N/C} \text{.} \end{array} $$ 
 </div>
+
 **Discussion**
 
 This **electric field strength** is the same at any point 5.00 mm away from the
 charge $$Q $$ that creates the field. It is positive, meaning that it has a
 direction pointing away from the charge $$Q $$ .
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Force Exerted on a Point Charge by an Electric Field
 </div>
+
 What force does the electric field found in the previous example exert on a point charge of  $$-0.250 \mu \text{C} $$ ?
 
 **Strategy**
@@ -127,6 +133,7 @@ field of strength $$E= 7.20 \times 10^{5} $$ N/C is thus,
 <div class="equation" >
  $$\begin{array}{lll}F& =& -qE\\ & =& \left(0.250 \times 10^{-6} \text{C}\right)\left( 7.20 \times 10^{5} \text{N/C}\right)\\ F& =& 0.180 \text{N} \text{.} \end{array} $$ 
 </div>
+
 Because  $$q $$  is negative, the force is directed opposite to the direction of the field.
 
 **Discussion**
@@ -137,19 +144,22 @@ example are typical of common static electricity, and the modest attractive
 force obtained is similar to forces experienced in static cling and similar
 situations.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Electric Field of Dreams
 </div>
+
 Play ball! Add charges to the Field of Dreams and see how they react to the electric field. Turn on a background electric field and adjust the direction and magnitude.
 {: class="newline"}
 
 <div class="media"  data-alt="electric field">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/electric-field-of-dreams/#sim-electric-field-of-dreams"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -171,88 +181,122 @@ small positive test charge $$q $$ . $$\vb{E} $$ has units of N/C.
   <div class="equation" >
    $$|\vb{E}|=k\frac{\|Q\|}{ {r}^{2}}. $$
   </div>
+
   where  $$r $$ is the distance from $$Q $$. The electric field  $$\vb{E} $$
   is a vector and fields due to multiple charges add like vectors.
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why must the test charge  $$q $$
  in the definition of the electric field be vanishingly small?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Are the direction and magnitude of the Coulomb force unique at a given point in space? What about the electric field?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the magnitude and direction of an electric field that exerts a  $$ 2.00 \times 10^{-5}  \text{N} $$
  upward force on a  $$-1.75 \mu \text{C} $$
  charge?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the magnitude and direction of the force exerted on a  $$3.50 \mu \text{C} $$
  charge by a 250 N/C electric field that points due east?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 8.75 \times 10^{-4}  $$  N
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the magnitude of the electric field 2.00 m from a point charge of 5.00 mC (such as found on the terminal of a Van de Graaff).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What magnitude point charge creates a 10 000 N/C electric field at a distance of 0.250 m? (b) How large is the field at 10.0 m?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 6.94 \times 10^{-8}  \text{C} $$
 (b)  $$ 6.25 \text{N/C} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the initial (from rest) acceleration of a proton in a  $$ 5.00 \times 10^{6}  \text{N/C} $$
  electric field (such as created by a research Van de Graaff). Explicitly show how you follow the steps in the Problem-Solving Strategy for electrostatics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the magnitude and direction of an electric field that exerts a  $$ 4.80 \times 10^{-17}  \text{N} $$
  westward force on an electron. (b) What magnitude and direction force does this field exert on a proton?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$300 \text{N/C} \left(\text{east}\right) $$
 (b)  $$ 4.80 \times 10^{-17}  \text{N} \left(\text{east}\right) $$
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -267,4 +311,4 @@ test charge
 : A particle (designated $$q $$ ) with either a positive or negative charge
 set down within an electric field generated by a point charge
 
-</div>
+:::

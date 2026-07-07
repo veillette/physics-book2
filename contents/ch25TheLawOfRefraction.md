@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 25
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Determine the index of refraction, given the speed of light in a medium.
-</div>
+
+:::
 
 It is easy to notice some odd things when looking into a fish tank. For example,
 you may see the same fish appearing to be in two different places. (
@@ -18,23 +19,27 @@ loosely called bending) when it passes through variations in matter is called **
 phenomena, from the action of lenses to voice transmission through optical
 fibers.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Refraction
 </div>
+
 The changing of a light ray’s direction (loosely called bending) when it passes through variations in matter is called refraction.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Speed of Light
 </div>
+
 The speed of light  $$c $$
  not only affects refraction, it is one of the central concepts of Einstein’s theory of relativity. As the accuracy of the measurements of the speed of light were improved,  $$c $$
  was found not to depend on the velocity of the source or the observer. However, the speed of light does vary in a precise manner with the material it traverses. These facts have far-reaching implications, as we will see in [Special Relativity](./ch28SpecialRelativity). It makes connections between space and time and alters our expectations that all observers measure the same time for the same event, for example. The speed of light is so important that its value in a vacuum is one of the most fundamental constants in nature as well as being one of the four fundamental SI units.
 
-</div>
+:::
 
 ![A person looks at a fish tank and he sees the same fish in two different directions at the edge of the water tank facing him.](../resources/Figure_25_03_01.jpg 'Looking at the fish tank as shown, we can see the same fish in two different locations, because light changes directions when it passes from water to air. In this case, the light can reach the observer by two different paths, and so the fish seems to be in two different places. This bending of light is called refraction and is responsible for many optical phenomena.')
 {: #Figure1}
@@ -94,18 +99,22 @@ vacuum, the index of refraction is always greater than or equal to one.
 <div class="title">
 Value of the Speed of Light
 </div>
+
 <div class="equation" >
  $$c= 2.99792458 \times 10^{8}  \text{m/s}\approx  3.00 \times 10^{8}  \text{m/s} $$
 </div>
+
 </div>
 
 <div class="note" data-has-label="true"  data-label="">
 <div class="title">
 Index of Refraction
 </div>
+
 <div class="equation" >
  $$n=\frac{c}{v} $$
 </div>
+
 </div>
 
 That is, $$n\ge 1 $$ .
@@ -219,10 +228,12 @@ speed.
                             </tr>
                         </tbody></table>
 
-<div id="Example1" class="example"  markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Speed of Light in Matter
 </div>
+
 Calculate the speed of light in zircon, a material used in jewelry to imitate diamond.
 
 **Strategy**
@@ -238,12 +249,14 @@ to determine $$v $$ gives
 <div class="equation" >
  $$v=\frac{c}{n}. $$
 </div>
+
 The index of refraction for zircon is given as 1.923 in [[Table 1]](#Table1), and  $$c $$
  is given in the equation for speed of light. Entering these values in the last expression gives
 
 <div class="equation" >
  $$\begin{array}{ccc}v& =& \frac{ 3.00 \times 10^{8}  \text{m/s}}{ 1.923}\\ & =&  1.56 \times 10^{8}  \text{m/s}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This speed is slightly larger than half the speed of light in a vacuum and is
@@ -252,7 +265,7 @@ listed in [[Table 1]](#Table1) that has a greater index of refraction than
 zircon is diamond. We shall see later that the large index of refraction for
 zircon makes it sparkle more than glass, but less than diamond.
 
-</div>
+:::
 
 ### Law of Refraction
 
@@ -307,23 +320,29 @@ direction.
 <div class="title">
 The Law of Refraction
 </div>
+
 <div class="equation" >
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2} $$
 </div>
+
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: A Broken Pencil
 </div>
+
 A classic observation of refraction occurs when a pencil is placed in a glass half filled with water. Do this and observe the shape of the pencil when you look at the pencil sideways, that is, through air, glass, water. Explain your observations. Draw ray diagrams for the situation.
 
-</div>
+:::
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Determine the Index of Refraction from Refraction Data
 </div>
+
 Find the index of refraction for medium 2 in [[Figure 3]](#Figure3)(a), assuming medium 1 is air and given the incident angle is  $$ 30.0º $$
  and the angle of refraction is  $$ 22.0º $$.
 
@@ -342,16 +361,19 @@ Snell’s law is
 <div class="equation" >
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2}. $$
 </div>
+
 Rearranging to isolate  $${n}_{2} $$  gives
 
 <div class="equation" >
  $${n}_{2}={n}_{1}\frac{\sin {\theta }_{1}}{\sin {\theta }_{2}}. $$
 </div>
+
 Entering known values,
 
 <div class="equation">
  $$\begin{array}{ll}{n}_{2}& =&  1.00\frac{\sin  30.0º}{\sin  22.0º}=\frac{ 0.500}{ 0.375}\\ & =& 1.33.\end{array} $$
 </div>
+
 **Discussion**
 
 This is the index of refraction for water, and Snell could have determined it by
@@ -361,12 +383,14 @@ situations, such as when a ray passes from water to glass. Today we can verify
 that the index of refraction is related to the speed of light in a medium by
 measuring that speed directly.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 A Larger Change in Direction
 </div>
+
 Suppose that in a situation like that in [[Example 2]](#Example2), light goes from air to diamond and that the incident angle is  $$ 30.0º $$ .
  Calculate the angle of refraction  $${\theta }_{2} $$
  in the diamond.
@@ -385,16 +409,19 @@ Solving Snell’s law for $$\sin {\theta }_{2} $$ yields
 <div class="equation" >
  $$\sin {\theta }_{2}=\frac{ {n}_{1}}{ {n}_{2}}\sin {\theta }_{1}. $$
 </div>
+
 Entering known values,
 
 <div class="equation" >
  $$\sin {\theta }_{2}=\frac{ 1.00}{ 2.419}\sin  30.0º=\left( 0.413\right)\left( 0.500\right)= 0.207. $$
 </div>
+
 The angle is thus
 
 <div class="equation" >
  $${\theta }_{2}={\sin}^{-1} 0.207= 11.9º. $$
 </div>
+
 **Discussion**
 
 For the same $$30º $$ angle of incidence, the angle of refraction in diamond is
@@ -404,7 +431,7 @@ The cause of a large change in direction is a large change in the index of
 refraction (or speed). In general, the larger the change in speed, the greater
 the effect on the direction of the ray.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -418,72 +445,99 @@ the effect on the direction of the ray.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Diffusion by reflection from a rough surface is described in this chapter. Light can also be diffused by refraction. Describe how this occurs in a specific situation, such as light interacting with crushed ice.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is the index of refraction always greater than or equal to 1?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the fact that the light flash from lightning reaches you before its sound prove that the speed of light is extremely large or simply that it is greater than the speed of sound? Discuss how you could use this effect to get an estimate of the speed of light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Will light change direction toward or away from the perpendicular when it goes from air to water? Water to glass? Glass to air?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why an object in water always appears to be at a depth shallower than it actually is? Why do people sometimes sustain neck and spinal injuries when diving into unfamiliar ponds or waters?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why a person’s legs appear very short when wading in a pool. Justify your explanation with a ray diagram showing the path of rays from the feet to the eye of an observer who is out of the water.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is the front surface of a thermometer curved as shown?
 
 ![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_03_04.jpg 'The curved surface of the thermometer serves a purpose. ')
 {: #Figure4}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose light were incident from air onto a material that had a negative index of refraction, say –1.3; where does the refracted light ray go?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the speed of light in water? In glycerine?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -507,15 +561,19 @@ $$v_{\text{glycerine}} = \frac{c}{n_{\text{glycerine}}} = \frac{3.00 \times 10^{
 
 Light travels at about 75% of its vacuum speed in water and about 68% in glycerine. The higher index of refraction in glycerine means light interacts more strongly with the material and travels slower. This difference in speed is what causes refraction—when light enters these materials from air, it slows down and bends toward the normal. The larger the index of refraction, the more the light slows down and the more it bends.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the speed of light in air? In crown glass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -539,16 +597,20 @@ $$v_{\text{crown glass}} = \frac{c}{n_{\text{crown glass}}} = \frac{3.00 \times 
 
 The speed of light in air is only slightly less than the speed of light in vacuum (about 0.03% slower), which is why we often approximate $$n_{\text{air}} \approx 1.00$$ for most calculations. In crown glass, however, light travels at about 66% of its vacuum speed. This significant reduction in speed is what causes the bending of light (refraction) when it enters glass from air, which is the basis for lenses and many optical instruments.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Calculate the index of refraction for a medium in which the speed of light is  $$ 2.012 \times 10^{8}  \text{m/s} $$ ,
  and identify the most likely substance based on [[Table 1]](#Table1).
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -568,16 +630,20 @@ Comparing with [[Table 1]](#Table1), this value is very close to **polystyrene**
 
 Polystyrene is a common plastic used in many everyday items including disposable cups, packaging materials, and optical components. Its index of refraction (approximately 1.49) is similar to many other transparent plastics and glasses. The calculated value of 1.491 matches polystyrene within the precision of the measurement. In practice, the index of refraction can vary slightly depending on the exact composition and manufacturing process of the material, so small variations from the table value are expected.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In what substance in [[Table 1]](#Table1) is the speed of light <span> $$ 2.290 \times 10^{8}  \text{m/s} $$ ?
  </span>
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -597,16 +663,20 @@ Comparing with [[Table 1]](#Table1), we find that water (fresh) has $$n = 1.333$
 
 The slight difference between the index of refraction of water (1.333) and ice (1.309) is due to the different molecular structure. In ice, the water molecules are arranged in a crystalline lattice with more space between molecules than in liquid water, resulting in a slightly lower density and thus a slightly lower index of refraction. This allows light to travel slightly faster in ice than in liquid water.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There was a major collision of an asteroid with the Moon in medieval times. It was described by monks at Canterbury Cathedral in England as a red glow on and around the Moon. How long after the asteroid hit the Moon, which is  $$ 3.84 \times 10^{5}  \text{km} $$
  away, would the light first arrive on Earth?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -630,18 +700,22 @@ $$t = \frac{d}{c} = \frac{3.84 \times 10^{8} \text{ m}}{3.00 \times 10^{8} \text
 
 This remarkably short time—just over one second—shows how fast light travels. The Moon is Earth's closest celestial neighbor, and the short light-travel time means that when we look at the Moon, we're seeing it almost exactly as it is "now" (with only a 1.28-second delay). This historical observation by the Canterbury monks was likely of a major impact that created one of the Moon's craters. The event they described occurred in 1178 CE and has been suggested as possibly creating the crater Giordano Bruno, though this remains debated. The ability to see such an event from Earth demonstrates both the brightness of the impact and the short distance light must travel.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor's face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
 
 ![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver's feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg 'A scuba diver in a pool and his trainer look at each other. ')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -673,16 +747,20 @@ $$\theta_1 = \sin^{-1}(0.5634) = 34.3°$$
 
 Note that the angle in air (34.3°) is larger than the angle in water (25.0°). This is expected because light bends toward the normal when entering a denser medium. This refraction effect causes the instructor to appear higher to the diver than she actually is, and conversely, it makes the diver appear shallower to the instructor. This is why objects underwater always appear closer to the surface than they actually are—an important safety consideration for diving and swimming.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Components of some computers communicate with each other through optical fibers having an index of refraction  $$n= 1.55 $$ .
  What time in nanoseconds is required for a signal to travel 0.200 m through such a fiber?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -706,16 +784,20 @@ $$t = \frac{d}{v} = \frac{0.200 \text{ m}}{1.935 \times 10^{8} \text{ m/s}} = 1.
 
 Although this seems like an incredibly short time, it's significant in high-speed computing. Modern computer processors operate at gigahertz frequencies (billions of cycles per second), meaning each clock cycle lasts about 1 nanosecond. So this 1.03 ns delay represents roughly one clock cycle—enough to matter in computer design. This is why computer engineers carefully consider the length of connections and use optical fibers for longer distances within and between computers. The speed of light (even when slowed by the fiber's index of refraction) sets a fundamental limit on how fast signals can travel, affecting computer performance and design.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Given that the angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$ ,
  and using information in [[Figure 3]](#Figure3), find the height of the instructor's head above the water, noting that you will first have to calculate the angle of incidence. (b) Find the apparent depth of the diver's head below water as seen by the instructor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -752,17 +834,21 @@ $$d_{\text{apparent}} = 4.29/1.333 = 3.22 \text{ m}$$
 
 The instructor's head is 2.93 m above the water. The apparent depth effect makes underwater objects appear about 25% shallower than they actually are when viewed from air. This is why pools always look shallower than they really are.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Suppose you have an unknown clear substance immersed in water, and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an angle of  $$ 45.0º $$ ,
  and you observe the angle of refraction to be  $$ 40.3º $$ .
  What is the index of refraction of the substance and its likely identity?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -787,16 +873,20 @@ Comparing with [[Table 1]](#Table1), this matches **fused quartz** ($$n = 1.458$
 
 Fused quartz (also called fused silica) is a glass made by melting high-purity silica. It's commonly used in optical applications because of its excellent transparency, low thermal expansion, and resistance to thermal shock. The fact that the angle of refraction (40.3°) is less than the angle of incidence (45.0°) confirms that light is bending toward the normal, which is expected since the unknown substance has a higher index of refraction than water (1.458 > 1.333). This technique of measuring refraction angles to identify materials is used in gemology and materials science to distinguish between different transparent substances.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On the Moon's surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. What percent correction is needed to account for the delay in time due to the slowing of light in Earth's atmosphere? Assume the distance to the Moon is precisely  $$ 3.84 \times 10^{8}  \text{m} $$ ,
  and Earth's atmosphere (which varies in density with altitude) is equivalent to a layer 30.0 km thick with a constant index of refraction  $$n= 1.000293 $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -840,17 +930,21 @@ $$\frac{\Delta d}{2 \times 3.84 \times 10^{8} \text{ m}} \times 100\% = \frac{18
 
 Although this correction is extremely small (only about 18 meters out of 768 million meters), it must be accounted for in precise laser ranging measurements to the Moon. Modern laser ranging can measure the Earth-Moon distance to within a few centimeters, making this atmospheric correction significant for such high-precision work. The Moon is gradually moving away from Earth at about 3.8 cm per year, and these precise measurements help us track this motion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Suppose [[Figure 5]](#Figure5) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $$\Delta x $$ ),
 given that the incident angle is  $$ 40.0º $$
  and the glass is 1.00 cm thick.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -904,22 +998,28 @@ $$\Delta x = \frac{1.00 \text{ cm} \times 0.2588}{0.9063} = 0.285 \text{ cm} = 2
 
 The ray is displaced laterally by about 2.85 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 [[Figure 6]](#Figure6) shows a ray of light passing from one medium into a second and then a third. Show that  $${\theta }_{3} $$
  is the same as it would be if the second medium were not present (provided total internal reflection does not occur).
 
 ![The figure illustrates refraction occurring when light travels from medium n1 to n3 through an intermediate medium n2. The incident ray makes an angle theta 1 with a perpendicular drawn at the point of incidence. The light ray bends towards the perpendicular line making an angle theta 2 as it moves from n1 to n2. The refracted ray 1 becomes the incident ray for the second refraction at n3 and on falling on to the third medium makes an angle theta 2, and the refracted ray 2 moves away from a perpendicular drawn at the point of incidence on n3. The shift in the path of the incident ray is delta x.](../resources/Figure_25_03_06.jpg 'A ray of light passes from one medium to a third by traveling through a second. The final direction is the same as if the second medium were not present, but the ray is displaced by ( \\Delta x )  (shown exaggerated).')
 {: #Figure6}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Suppose light travels from water to another substance, with an angle of
@@ -928,19 +1028,24 @@ incidence of $$ 10.0º $$ and an angle of refraction of $$ 14.9º $$ .
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a) 0.898
 
 (b) Can’t have $$n< 1.00 $$ since this would imply a speed greater than $$c $$.
 
 (c) Refracted angle is too big relative to the angle of incidence.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider sunlight entering the Earth’s atmosphere at sunrise and sunset—that is,
@@ -953,28 +1058,35 @@ varying density. Your instructor may wish to guide you on the level of
 complexity to consider and on how the index of refraction varies with air
 density.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Light traveling from water to a gemstone strikes the surface at an angle of $$ 80.0º $$ and has an angle of refraction of $$ 15.2º $$ .
 (a) What is the speed of light in the gemstone? (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$\frac{c}{ 5.00} $$
 (b) Speed of light too slow, since index is much greater than that of diamond.
 
 (c) Angle of refraction is unreasonable relative to the angle of incidence.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -986,4 +1098,4 @@ index of refraction
 : for a material, the ratio of the speed of light in vacuum to that in the
 material
 
-</div>
+:::

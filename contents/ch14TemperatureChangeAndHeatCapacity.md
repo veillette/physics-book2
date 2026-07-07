@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 14
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Observe heat transfer and change in temperature and mass.
 * Calculate final temperature after heat transfer between two objects.
-</div>
+
+:::
 
 One of the major effects of heat transfer is temperature change: heating
 increases the temperature while cooling decreases it. We assume that there is no
@@ -30,15 +31,18 @@ for example, the heat necessary to raise the temperature is less for alcohol
 than for water. For the same substance, the transferred heat also depends on the
 phase (gas, liquid, or solid).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Heat Transfer and Temperature Change
 </div>
+
 The quantitative relationship between heat transfer and temperature change contains all three factors:
 
 <div class="equation" >
  $$Q=mc\Delta T, $$
 </div>
+
 where  $$Q $$  is the symbol for heat transfer,  $$m $$
  is the mass of the substance, and  $$\Delta T $$
  is the change in temperature. The symbol  $$c $$
@@ -48,7 +52,8 @@ where  $$Q $$  is the symbol for heat transfer,  $$m $$
  or  $$\text{J/}\left(\text{kg}\cdot ºC\right). $$
  Recall that the temperature change  $$\left(\Delta T\right) $$
  is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then *the unit of specific heat* is  $$\text{kcal/}\left(\text{kg}\cdot ºC\right). $$
-</div>
+
+:::
 
 Values of specific heat must generally be looked up in tables, because there is
 no simple way to calculate them. In general, the specific heat also depends on
@@ -62,10 +67,12 @@ raise the temperature of water as for iron. In fact, water has one of the
 largest specific heats of any material, which is important for sustaining life
 on Earth.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating the Required Heat: Heating Water in an Aluminum Pan
 </div>
+
 A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from  $$20.0 \text{ºC} $$
  to  $$80.0 \text{ºC} $$ .
  (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?
@@ -94,19 +101,19 @@ at the same temperature.
 3. Calculate the heat transferred to the water. Use the specific heat of water
    in [[Table 1]](#Table1)\:
    <div class="equation" >
- $${Q}_{w}={m}_{w}{c}_{w}\Delta T=\left( 0.250 \text{kg}\right)\left(4186 \text{J/kg}\text{ºC}\right)\left(60.0\text{ºC}\right)=62.8 kJ. $$ 
+   $${Q}_{w}={m}_{w}{c}_{w}\Delta T=\left( 0.250 \text{kg}\right)\left(4186 \text{J/kg}\text{ºC}\right)\left(60.0\text{ºC}\right)=62.8 kJ. $$ 
    </div>
 
 4. Calculate the heat transferred to the aluminum. Use the specific heat for
    aluminum in [[Table 1]](#Table1)\:
    <div class="equation" >
- $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$ 
+   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$ 
    </div>
 
 5. Compare the percentage of heat going into the pan versus that going into the
    water. First, find the total transferred heat:
    <div class="equation" >
- $${Q}_{\text{Total}}={Q}_{\text{W}}+{Q}_{\text{Al}}= 62.8 \text{kJ}+ 27.0 \text{kJ} = 89.8 \text{kJ} \text{.} $$ 
+   $${Q}_{\text{Total}}={Q}_{\text{W}}+{Q}_{\text{Al}}= 62.8 \text{kJ}+ 27.0 \text{kJ} = 89.8 \text{kJ} \text{.} $$ 
    </div>
 
 Thus, the amount of heat going into heating the pan is
@@ -114,11 +121,13 @@ Thus, the amount of heat going into heating the pan is
 <div class="equation" >
  $$\frac{ 27.0 \text{kJ}}{ 89.8 \text{kJ}}×100 \% =30.1 \text{\%,}  $$
 </div>
+
 and the amount going into heating the water is
 
 <div class="equation" >
  $$\frac{ 62.8 \text{kJ}}{ 89.8 \text{kJ}}×100 \% =69.9 \% \text{.} $$
 </div>
+
 **Discussion**
 
 In this example, the heat transferred to the container is a significant fraction
@@ -127,15 +136,17 @@ water, the specific heat of water is over four times greater than that of
 aluminum. Therefore, it takes a bit more than twice the heat to achieve the
 given temperature change for the water as compared to the aluminum pan.
 
-</div>
+:::
 
 ![The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.](../resources/Figure_14_02_02.jpg 'The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.')
 {: #Figure2}
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating the Temperature Increase from the Work Done on a Substance: Truck Brakes Overheat on Downhill Runs
 </div>
+
 Truck brakes used to control speed on a downhill run do work, converting gravitational potential energy into increased internal energy (higher temperature) of the brake material. This conversion prevents the gravitational potential energy from being converted into kinetic energy of the truck. The problem is that the mass of the truck is large compared with that of the brake material absorbing the energy, and the temperature increase may occur too fast for sufficient heat to transfer from the brakes to the environment.
 
 Calculate the temperature increase of 100 kg of brake material with an average
@@ -157,20 +168,21 @@ the brake material alone.
 1. Calculate the change in gravitational potential energy as the truck goes
    downhill
    <div class="equation" >
- $$\text{Mgh}=\left(10 000 \text{kg}\right)\left(9.80 \text{m}{\text{/s}}^{2}\right)\left(75.0 \text{m}\right)=7.35 \times 10^{6} \text{J} \text{.} $$ 
+   $$\text{Mgh}=\left(10 000 \text{kg}\right)\left(9.80 \text{m}{\text{/s}}^{2}\right)\left(75.0 \text{m}\right)=7.35 \times 10^{6} \text{J} \text{.} $$ 
    </div>
 
 2. Calculate the temperature from the heat transferred using $$Q=0.1\text{Mgh} $$
    <div class="equation" >
    $$\Delta T=\frac{Q}{mc}\text{,} $$
    </div>
+
    where $$m $$
    is the mass of the brake material. Since only 10% of the gravitational potential energy is retained as heat, $$Q = 0.1 \times 7.35 \times 10^{6} \text{J} = 7.35 \times 10^{5} \text{J} $$.
 
    Insert the values $$m=100 \text{kg} $$
    and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find
    <div class="equation" >
- $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100 \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$ 
+   $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100 \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$ 
    </div>
 
 **Discussion**
@@ -179,7 +191,7 @@ This same idea underlies the recent hybrid technology of cars, where mechanical
 energy (gravitational potential energy) is converted by the brakes into
 electrical energy (battery).
 
-</div>
+:::
 
 <table id="Table1" aria-describedby="Specific Heats of Various Substances"><caption><span class="title">Specific Heats<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup> of Various Substances</span></caption><thead><tr>
             <th data-align="center">
@@ -302,10 +314,12 @@ Note that [[Example 2]](#Example2) is an illustration of the mechanical
 equivalent of heat. Alternatively, the temperature increase could be produced by
 a blow torch instead of mechanically.
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan
 </div>
+
 Suppose you pour 0.250 kg of  $$20.0\text{ºC} $$
  water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of  $$150 \text{ºC} $$ .
  Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?
@@ -329,14 +343,14 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    the specific heat of aluminum, the initial temperature of the pan, and the
    final temperature:
    <div class="equation" >
- $${Q}_{\text{hot}}={m}_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC}\right)\text{.} $$ 
+   $${Q}_{\text{hot}}={m}_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC}\right)\text{.} $$ 
    </div>
 
 2. Express the heat gained by the water in terms of the mass of the water, the
    specific heat of water, the initial temperature of the water and the final
    temperature:
    <div class="equation" >
- $${Q}_{\text{cold}}={m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right) \text{.} $$ 
+   $${Q}_{\text{cold}}={m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right) \text{.} $$ 
    </div>
 
 3. Note that $${Q}_{\text{hot}}<0 $$  
@@ -344,7 +358,7 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    and that they must sum to zero because the heat lost by the hot pan must be
    the same as the heat gained by the cold water:
    <div class="equation" >
-$$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
+   $$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
    \text{,}\\ \hfill {Q}_{\text{cold}}& =& {-\text{Q}}_{\text{hot}},\\ {m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right)& =& -m_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC.}\right)\end{array} $$
    </div>
 
@@ -353,7 +367,7 @@ $$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
    on the left-hand side and all other terms on the right-hand side. Solve for
    $${T}\_{\text{f}} $$ ,
    <div class="equation" >
- $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150 \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_{\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$ 
+   $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150 \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_{\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$ 
    </div>
 
    and insert the numerical values:
@@ -375,12 +389,14 @@ temperature of a lake stays relatively constant during a day even when the
 temperature change of the air is large. However, the water temperature does
 change over longer times (e.g., summer to winter).
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Temperature Change of Land and Water
 </div>
+
 What heats faster, land or water?
 
 To study differences in heat capacity:
@@ -398,23 +414,28 @@ To study differences in heat capacity:
 Which sample cools off the fastest? This activity replicates the phenomena
 responsible for land breezes and sea breezes.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 If 25 kJ is necessary to raise the temperature of a block from  $$25 \text{ºC} $$
  to  $$30 \text{ºC} $$ ,
  how much heat is necessary to heat the block from  $$45 \text{ºC} $$
  to  $$50 \text{ºC} $$ ?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The heat transfer depends only on the temperature difference. Since the temperature differences are the same in both cases, the same 25 kJ is necessary in the second case.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -427,43 +448,57 @@ The heat transfer depends only on the temperature difference. Since the temperat
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What three factors affect the heat transfer that is necessary to change an object’s temperature?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The brakes in a car increase in temperature by  $$\Delta T $$
  when bringing the car to rest from a speed  $$v $$ .
  How much greater would  $$\Delta T $$
  be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On a hot day, the temperature of an 80 000-L swimming pool increases by  $$1.50\text{ºC} $$ .
  What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.
 
-</div>
+:::
+
 <div class="solution" data-element-type="problems-exercises">
 <div class="equation" >
  $$ 5.02 \times 10^{8}  \text{J} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that  $$1 \text{cal/g}\cdot \text{ºC}=1 \text{kcal/kg}\cdot \text{ºC} $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -491,17 +526,21 @@ This demonstrates that the two units are indeed equivalent. This is why the spec
 
 The two units are equivalent: $$1 \text{ cal/g}\cdot \text{ºC} = 1 \text{ kcal/kg}\cdot \text{ºC}$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To sterilize a 50.0-g glass baby bottle, we must raise its temperature from  $$ 22.0\text{ºC} $$
  to  $$ 95.0\text{ºC} $$ .
  How much heat transfer is required?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -541,16 +580,20 @@ In practice, when sterilizing in boiling water, you must also heat the water or 
 
 The heat transfer required to sterilize the glass baby bottle is **3.07 kJ** or **3.07 × 10³ J**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at  $$ 20.0\text{ºC} $$
 : (a) water; (b) concrete; (c) steel; and (d) mercury.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -616,15 +659,19 @@ The results clearly show that substances with lower specific heats experience la
 (c) Steel: $$T_f = 29.3\text{ºC}$$
 (d) Mercury: $$T_f = 50.1\text{ºC}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Rubbing your hands together warms them by converting work into thermal energy. If a woman rubs her hands back and forth for a total of 20 rubs, at a distance of 7.50 cm per rub, and with an average frictional force of 40.0 N, what is the temperature increase? The mass of tissues warmed is only 0.100 kg, mostly in the palms and fingers.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -680,17 +727,21 @@ This principle is used for survival: rubbing hands together or doing physical ex
 
 The temperature increase from rubbing hands together is **0.171°C**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.250-kg block of a pure material is heated from  $$ 20.0\text{ºC} $$
  to  $$ 65.0\text{ºC} $$
  by the addition of 4.35 kJ of energy. Calculate its specific heat and identify the substance of which it is most likely composed.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -723,15 +774,19 @@ The calculated specific heat of 387 J/kg·ºC matches exactly with the specific 
 
 The specific heat is $$c = 387 \text{ J/kg}\cdot\text{ºC}$$, and the substance is most likely **copper**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose identical amounts of heat transfer into different masses of copper and water, causing identical changes in temperature. What is the ratio of the mass of copper to water?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -789,16 +844,20 @@ Conversely, metals like copper heat up and cool down quickly, making them ideal 
 
 The ratio of the mass of copper to water is **10.8:1** or simply **10.8**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The number of kilocalories in food is determined by calorimetry techniques in which the food is burned and the amount of heat transfer is measured. How many kilocalories per gram are there in a 5.00-g peanut if the energy from burning it is transferred to 0.500 kg of water held in a 0.100-kg aluminum cup, causing a  $$ 54.9\text{ºC} $$
  temperature increase? (b) Compare your answer to labeling information found on a package of peanuts and comment on whether the values are consistent.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -847,17 +906,21 @@ The consistency with nutritional labeling validates both our calculation and the
 (a) The peanut contains **5.72 kcal/g** of energy.
 (b) This value is consistent with typical peanut labeling (5.5-6.0 kcal/g), confirming our calculation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Following vigorous exercise, the body temperature of an 80.0-kg person is  $$ 40.0\text{ºC} $$ .
  At what rate in watts must the person transfer thermal energy to reduce the body temperature to  $$ 37.0\text{ºC} $$
  in 30.0 min, assuming the body continues to produce energy at the rate of 150 W?  $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s} \right) $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -915,11 +978,14 @@ This calculation shows why it's important to cool down gradually after exercise 
 
 The person must transfer thermal energy at a rate of **617 W** to reduce body temperature from 40.0°C to 37.0°C in 30 minutes while metabolic processes continue.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails  $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt}\right) $$ .
  (a) Calculate the rate of temperature increase in degrees Celsius per second  $$\left(\text{ºC/s}\right) $$
  if the mass of the reactor core is  $$ 1.60 \times 10^{5}  \text{kg} $$
@@ -928,8 +994,9 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
  which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the  $$5 \times 10^{5} \text{-kg} $$
  steel containment vessel would also begin to heat up.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -977,33 +1044,33 @@ The decay heat typically decreases with time following shutdown, dropping to abo
 (a) The rate of temperature increase is **2.80ºC/s**.
 (b) It would take approximately **714 s** or **11.9 minutes** to reach a 2000ºC temperature increase.
 
-</div>
+:::
+
 </div>
 
 ![The figure shows a view from above of a radioactive spent fuel pool inside a nuclear power plant.](../resources/Figure_14_02_03.jpg 'Radioactive spent-fuel pool at a nuclear power plant. Spent fuel stays hot for a long time. (credit: U.S. Department of Energy)')
 {: #Figure3}
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The values for solids
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The values for solids
   and liquids are at constant volume and at $$25 \text{ºC} $$ , except as
-  noted.</span>
-- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">These values are
-  identical in units of $$\text{cal/g}\cdot ºC $$ .</span>
-- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"> $${c}_{\text{v}} $$ at
+  noted.</span> {: class="footnote-ref" #footnote1}
+- [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">These values are
+  identical in units of $$\text{cal/g}\cdot ºC $$ .</span> {: class="footnote-ref" #footnote2}
+- [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content"> $${c}_{\text{v}} $$ at
   constant volume and at $$ 20.0ºC $$ , except as noted, and at 1.00 atm average
   pressure. Values in parentheses are $${c}_{\text{p}} $$ at a constant pressure
   of 1.00 atm.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote3}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1011,4 +1078,4 @@ specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a
 substance by 1.00 ºC
 
-</div>
+:::

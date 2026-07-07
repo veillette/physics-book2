@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 25
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the phenomenon of total internal reflection.
 * Describe the workings and uses of fiber optics.
 * Analyze the reason for the sparkle of diamonds.
-</div>
+
+:::
 
 A good-quality mirror may reflect more than 90% of the light that falls on it,
 absorbing the rest. But it would be useful to have a mirror that reflects all of the light that falls on it. Interestingly, we can produce **total reflection** using an aspect of **refraction**.
@@ -30,11 +31,12 @@ incident angle $${\theta }_{1} $$ is greater than the critical angle, as shown
 in [[Figure 1]](#Figure1)(c), then all of the light is reflected back into
 medium 1, a condition called **total internal reflection**.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <span class="title">Critical Angle</span>The incident angle  $${\theta }_{1} $$
 ** that produces an angle of refraction of  $$90 ^\circ $$  is called the critical angle,  $${\theta }_{c} $$.
 
-</div>
+:::
 
 ![In the first figure, an incident ray at an angle theta 1 with a perpendicular line drawn at the point of incidence travels from n1 to n2. The incident ray suffers both refraction and reflection. The angle of refraction is theta 2. In the second figure, as theta 1 is increased, the angle of refraction theta 2 becomes 90 degrees and the angle of reflection corresponding to 90 degrees is theta c. In the third figure, theta c greater than theta i, total internal reflection takes place and instead of refraction, reflection takes place and the light ray travels back into medium n1.](../resources/Figure_25_04_01.jpg '(a) A ray of light crosses a boundary where the speed of light increases and the index of refraction decreases. That is, ( n_2 <  n_1 ) . The ray bends away from the perpendicular. (b) The critical angle ( \\theta _c ) is the one for which the angle of refraction is 90º. (c) Total internal reflection occurs when the incident angle is greater than the critical angle.')
 {: #Figure1}
@@ -66,10 +68,12 @@ has an index of refraction less than the first. Note the above equation is
 written for a light ray that travels in medium 1 and reflects from medium 2, as
 shown in the figure.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 How Big is the Critical Angle Here?
 </div>
+
 What is the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air?
 
 **Strategy**
@@ -89,11 +93,13 @@ The critical angle is given by
 <div class="equation" >
  $${\theta }_{c}={\sin}^{-1}\left({n}_{2}/{n}_{1}\right)\text{.} $$
 </div>
+
 Substituting the identified values gives
 
 <div class="equation" >
  $$\begin{array}{}{\theta }_{c}={\sin}^{-1}\left( 1.00/ 1.49\right)={\sin}^{-1}\left( 0.671\right)\\ 42.2 \text{º.}\end{array} $$
 </div>
+
 **Discussion**
 
 This means that any ray of light inside the plastic that strikes the surface at
@@ -110,7 +116,7 @@ water—since the condition that the second medium must have a smaller index of
 refraction is not satisfied. A number of interesting applications of total
 internal reflection follow.
 
-</div>
+:::
 
 ### Fiber Optics: Endoscopes to Telephones
 
@@ -167,13 +173,15 @@ fibers flexible and durable.
 ![The image shows a bundle fiber with a medium of refractive index n sub 1 inside surrounded by a medium n sub 2. Medium n sub 2 is made up of cladding material and n sub 1 is the core.](../resources/Figure_25_04_04.jpg 'Fibers in bundles are clad by a material that has a lower index of refraction than the core to ensure total internal reflection, even when fibers are in contact with one another. This shows a single fiber with its cladding.')
 {: #Figure4}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Cladding
 </div>
+
 The cladding prevents light from being transmitted between fibers in a bundle.
 
-</div>
+:::
 
 Special tiny lenses that can be attached to the ends of bundles of fibers are
 being designed and fabricated. Light emerging from a fiber bundle can be focused
@@ -250,10 +258,12 @@ central and southern Africa.
 ![A light ray falls onto one of the faces of a diamond, gets refracted, falls on another face and gets totally internally reflected, and this reflected ray further undergoes multiple reflections when it falls on other faces.](../resources/Figure_25_04_07.jpg 'Light cannot easily escape a diamond, because its critical angle with air is so small. Most reflections are total, and the facets are placed so that light can exit only in particular ways—thus concentrating the light and making the diamond sparkle.')
 {: #Figure7}
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Bending Light
 </div>
+
 Explore bending of light between two media with different indices of refraction. See how changing from air to water to glass changes the bending angle. Play with prisms of different shapes and make rainbows. 
 {: class="newline"}
 
@@ -262,7 +272,8 @@ Explore bending of light between two media with different indices of refraction.
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -283,45 +294,60 @@ Explore bending of light between two media with different indices of refraction.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A ring with a colorless gemstone is dropped into water. The gemstone becomes invisible when submerged. Can it be a diamond? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A high-quality diamond may be quite clear and colorless, transmitting all visible wavelengths with little absorption. Explain how it can sparkle with flashes of brilliant color when illuminated by white light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is it possible that total internal reflection plays a role in rainbows? Explain in terms of indices of refraction and angles, perhaps referring to [[Figure 8]](#Figure8). Some of us have seen the formation of a double rainbow. Is it physically possible to observe a triple rainbow?
 
 ![A double rainbow with spectacular bands of seven colors.](../resources/Figure_25_04_08.jpg 'Double rainbows are not a very common observance. (credit: InvictusOU812, Flickr)')
 {: #Figure8}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The most common type of mirage is an illusion that light from faraway objects is reflected by a pool of water that is not really there. Mirages are generally observed in deserts, when there is a hot layer of air near the ground. Given that the refractive index of air is lower for air at higher temperatures, explain how mirages can be formed.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that the critical angle for light going from water to air is  $$48.6 ^\circ $$ ,
  as discussed at the end of [[Example 1]](#Example1), regarding the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -341,16 +367,20 @@ $$\theta_c = \sin^{-1}(0.7502) = 48.6°$$
 
 This confirms that the critical angle for light going from water to air is $$48.6°$$. Any light ray in water striking the water-air interface at an angle greater than $$48.6°$$ from the normal will undergo total internal reflection. This phenomenon is why you can sometimes see a mirror-like reflection when looking up at the water surface from underwater—light hitting the surface at shallow angles (large angles from the normal) reflects back down instead of escaping into the air.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At the end of [[Example 1]](#Example1), it was stated that the critical angle for light going from diamond to air is  $$ 24.4º $$ .
  Verify this. (b) What is the critical angle for light going from zircon to air?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -374,25 +404,35 @@ $$\theta_c = \sin^{-1}\left(\frac{1.00}{1.923}\right) = \sin^{-1}(0.5200) = 31.3
 
 Diamond's very small critical angle (24.4°) is why it sparkles so brilliantly. Most light entering a well-cut diamond undergoes multiple total internal reflections before finding one of the few paths that allows it to exit. This concentrates the light and creates the characteristic sparkle. Zircon, with its larger critical angle of 31.3°, allows more light to escape and thus sparkles less than diamond, though more than most other gemstones. This is why the critical angle is an important factor in determining a gemstone's brilliance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An optical fiber uses flint glass clad with crown glass. What is the critical angle?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 66.3º $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what minimum angle will you get total internal reflection of light traveling in water and reflected from ice?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -414,27 +454,37 @@ $$\theta_c = \sin^{-1}(0.9820) = 79.1°$$
 
 This very large critical angle (close to 90°) means that light must be traveling almost parallel to the water-ice interface to achieve total internal reflection. This is because the indices of refraction of water and ice are very similar (differing by only about 2%). In practical situations, this means that most light can pass from water into ice without total internal reflection occurring. This is different from the water-air interface where the critical angle is only 48.6°, making total internal reflection much more common.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you are using total internal reflection to make an efficient corner reflector. If there is air outside and the incident angle is  $$ 45.0º $$ ,
  what must be the minimum index of refraction of the material from which the reflector is made?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$> 1.414 $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can determine the index of refraction of a substance by determining its critical angle. (a) What is the index of refraction of a substance that has a critical angle of  $$ 68.4º $$
  when submerged in water? What is the substance, based on [[Table 1]](../contents/ch25TheLawOfRefraction#Table1)? (b) What would the critical angle be for this substance in air?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -459,32 +509,41 @@ $$\theta_c = \sin^{-1}\left(\frac{1.00}{1.433}\right) = \sin^{-1}(0.6979) = 44.3
 
 The critical angle changes significantly depending on the surrounding medium. When fluorite is submerged in water, the critical angle is 68.4° (measured from the normal), but in air it's only 44.3°. This is because the difference in refractive indices is smaller between fluorite and water than between fluorite and air. This principle is important in fiber optics, where the cladding material is chosen to have an index of refraction slightly less than the core to ensure total internal reflection at reasonable angles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A ray of light, emitted beneath the surface of an unknown liquid with air above it, undergoes total internal reflection as shown in [[Figure 9]](#Figure9). What is the index of refraction for the liquid and its likely identification?
 
 ![A light ray travels from an object placed in a denser medium n1 at 15.0 centimeter from the boundary and on hitting the boundary gets totally internally reflected with theta c as critical angle. The horizontal distance between the object and the point of incidence is 13.4 centimeters.](../resources/Figure_25_04_09.jpg 'A light ray inside a liquid strikes the surface at the critical angle and undergoes total internal reflection.')
 {: #Figure9}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 1.50, benzene
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A light ray entering an optical fiber surrounded by air is first refracted and then reflected as shown in [[Figure 10]](#Figure10). Show that if the fiber is made from crown glass, any incident ray will be totally internally reflected.
 
 ![The figure shows light traveling from n1 to n2 is incident on a rectangular transparent object at an angle of incidence theta 1. The angle of refraction is theta 2. On refraction, the ray falls onto the long side and gets totally internally reflected with theta 3 as the angle of incidence.](../resources/Figure_25_04_10.jpg 'A light ray enters the end of a fiber, the surface of which is perpendicular to its sides. Examine the conditions under which it may be totally internally reflected.')
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -531,10 +590,12 @@ Since $$\theta_{3,\text{min}} = 48.9° > \theta_c = 41.1°$$, total internal ref
 
 This proof shows why crown glass optical fibers work effectively. Even light entering at the maximum possible angle (90° to the normal at the entrance) will still undergo total internal reflection when it hits the sides of the fiber. This ensures that light is guided along the fiber with minimal loss. In practice, fibers often use cladding with a slightly lower index of refraction rather than air, which further improves performance and protects the fiber surface.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -553,4 +614,4 @@ from which it came
 zircon
 : natural gemstone with a large index of refraction
 
-</div>
+:::

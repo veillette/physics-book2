@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Relate the linear momentum of a photon to its energy or wavelength, and apply linear momentum conservation to simple processes involving the emission, absorption, or reflection of photons.
 * Account qualitatively for the increase of photon wavelength that is observed, and explain the significance of the Compton wavelength.
-</div>
+
+:::
 
 ### Measuring Photon Momentum
 
@@ -38,13 +39,15 @@ in collisions. Gas atoms and molecules in the blue tail are most affected by
 other particles of radiation, such as protons and electrons emanating from the
 Sun, rather than by the momentum of photons.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Conservation of Momentum
 </div>
+
 Not only is momentum conserved in all realms of physics, but all types of particles are found to have momentum. We expect particles with mass to have momentum, but now we see that massless particles including photons also carry momentum.
 
-</div>
+:::
 
 Momentum is conserved in quantum mechanics just as it is in relativity and
 classical physics. Some of the earliest direct experimental evidence of this
@@ -76,10 +79,12 @@ perhaps in cartoons). Compton saw the effects of photon momentum because he was
 observing X-rays, which have a small wavelength and a relatively large momentum,
 interacting with the lightest of particles, the electron.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Electron and Photon Momentum Compared
 </div>
+
 (a) Calculate the momentum of a visible photon that has a wavelength of 500 nm. (b) Find the velocity of an electron having the same momentum. (c) What is the energy of the electron, and how does it compare with the energy of the photon?
 
 **Strategy**
@@ -96,11 +101,13 @@ Photon momentum is given by the equation:
 <div class="equation" >
  $$p=\frac{h}{\lambda }. $$
 </div>
+
 Entering the given photon wavelength yields
 
 <div class="equation" >
  $$p=\frac{ 6.63 \times 10^{-34} \text{J}\cdot \text{s}}{500 \times 10^{-9} \text{m}}= 1.33  \times 10^{-27} \text{kg}\cdot \text{m/s}. $$
 </div>
+
 **Solution for (b)**
 
 Since this momentum is indeed small, we will use the classical expression $$p=mv $$ to find the velocity of an electron with this momentum. Solving for $$v $$
@@ -109,6 +116,7 @@ and using the known value for the mass of an electron gives
 <div class="equation" >
  $$v=\frac{p}{m}=\frac{ 1.33 \times 10^{-27} \text{kg}\cdot \text{m/s}}{ 9.11 \times 10^{-31} \text{kg}}=1460 \text{m/s}\approx 1460 \text{m/s}. $$
 </div>
+
 **Solution for (c)**
 
 The electron has kinetic energy, which is classically given by
@@ -116,22 +124,26 @@ The electron has kinetic energy, which is classically given by
 <div class="equation" >
  $${\text{KE}}_{e}=\frac{1}{2}mv^{2}. $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $${\text{KE}}_{e}=\frac{1}{2}\left( 9.11 \times 10^{-3} \text{kg}\right) {\left(1455 \text{m/s} \right)}^{2}=9.64 \times 10^{-25} \text{J}. $$
 </div>
+
 Converting this to eV by multiplying by  $$\left(1 \text{eV}\right)/\left( 1.602 \times 10^{-19} \text{J}\right) $$
  yields
 
 <div class="equation" >
  $${\text{KE}}_{e}=6.02 \times 10^{-6} \text{eV}. $$
 </div>
+
 The photon energy  $$E $$  is
 
 <div class="equation" >
  $$E=\frac{hc}{\lambda }=\frac{1240 \text{eV}\cdot \text{nm}}{500 \text{nm}}=2.48 \text{eV}, $$
 </div>
+
 which is about five orders of magnitude greater.
 
 **Discussion**
@@ -150,7 +162,7 @@ low-mass mirrors (made of aluminized Mylar) to reflect sunlight. In the vacuum
 of space, the mirrors would gradually recoil and could actually take spacecraft
 from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
-</div>
+:::
 
 ![(a) A payload having an umbrella-shaped solar sail attached to it is shown. The direction of movement of payload and direction of incident photons are shown using arrows. (b) A photograph of the top view of a silvery space sail.](../resources/Figure_29_04_03.jpg '(a) Space sails have been proposed that use the momentum of sunlight reflecting from gigantic low-mass sails to propel spacecraft about the solar system. A Russian test model of this (the Cosmos 1) was launched in 2005, but did not make it into orbit due to a rocket failure. (b) A U.S. version of this, labeled LightSail-1, is scheduled for trial launches in the first part of this decade. It will have a 40-m2 sail. (credit: Kim Newton/NASA)')
 {: #Figure3}
@@ -159,7 +171,7 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 There is a relationship between photon momentum $$p $$ and photon energy $$E $$
 that is consistent with the relation given previously for the relativistic total
-energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes <div class="equation" > $$E=\text{pc}, $$
+energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes &lt;div class="equation" &gt; $$E=\text{pc}, $$
 </div>
 
 or
@@ -179,18 +191,22 @@ as determined experimentally and discussed above. Thus, $$p=E/c $$ is equivalent
 to Compton’s result $$p=h/\lambda $$ . For a further verification of the
 relationship between photon energy and momentum, see [[Example 2]](#Example2).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Photon Detectors
 </div>
+
 Almost all detection systems talked about thus far—eyes, photographic plates, photomultiplier tubes in microscopes, and CCD cameras—rely on particle-like properties of photons interacting with a sensitive area. A change is caused and either the change is cascaded or zillions of points are recorded to form an image we detect. These detectors are used in biomedical imaging systems, and there is ongoing research into improving the efficiency of receiving photons, particularly by cooling detection systems and reducing thermal effects.
 
-</div>
+:::
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Photon Energy and Momentum
 </div>
+
 Show that  $$p=E/c $$
  for the photon considered in the [[Example 1]](#Example1).
 
@@ -207,6 +223,7 @@ get
 <div class="equation" >
  $$p=\frac{E}{c}=\frac{\left(2.48 \text{eV}\right)\left( 1.60 \times 10^{-19} \text{J/eV}\right)}{ 3.00 \times 10^{8}  \text{m/s}}= 1.33  \times 10^{-27} \text{kg}\cdot \text{m/s}. $$
 </div>
+
 **Discussion**
 
 This value for momentum is the same as found before (note that unrounded values
@@ -215,17 +232,19 @@ verification of the relationship $$p=E/c $$ . This also means the relationship
 between energy, momentum, and mass given by $${E}^{2}={ \left(pc \right) }^{2}+{\left(mc^2 \right)}^{2} $$ applies to both matter and photons. Once
 again, note that $$p $$ is not zero, even when $$m $$ is.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Suggestion
 </div>
+
 Note that the forms of the constants  $$h= 4.14  \times 10^{-15} \text{eV}\cdot \text{s} $$
  and  $$hc=1240 \text{eV}\cdot \text{nm} $$
  may be particularly useful for this section’s Problems and Exercises.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -236,34 +255,46 @@ Note that the forms of the constants  $$h= 4.14  \times 10^{-15} \text{eV}\cdot 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which formula may be used for the momentum of all particles, with or without mass?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is there any measurable difference between the momentum of a photon and the momentum of matter?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why don’t we feel the momentum of sunlight when we are on the beach?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the momentum of a 4.00-cm-wavelength microwave photon. (b) Discuss why you expect the answer to (a) to be very small.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -286,15 +317,19 @@ This tiny momentum ($$1.66 \times 10^{-32}$$ kg·m/s) explains why radiation pre
 (a)  $$ 1.66 \times 10^{-32}  \text{kg}\cdot \text{m/s} $$
 (b) The wavelength of microwave photons is large, so the momentum they carry is very small.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the momentum of a 0.0100-nm-wavelength photon that could detect details of an atom? (b) What is its energy in MeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -330,16 +365,20 @@ This 0.0100-nm photon is in the X-ray range with energy of 124 keV. Such photons
 
 (b) 0.124 MeV or 124 keV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the wavelength of a photon that has a momentum of  $$ 5.00 \times 10^{-29}  \text{kg}\cdot \text{m/s} $$ ?
  (b) Find its energy in eV.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -371,17 +410,21 @@ This photon has a wavelength of 13.3 μm, placing it in the mid-infrared region 
 
 (b) $$ 9.38 \times 10^{-2} $$ eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A  $$\gamma  $$
 -ray photon has a momentum of  $$ 8.00 \times 10^{-21}  \text{kg}\cdot \text{m/s} $$ .
  What is its wavelength? (b) Calculate its energy in MeV.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -417,30 +460,39 @@ This is a high-energy gamma-ray photon with energy of 15.0 MeV and wavelength of
 
 (b) 15.0 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 (a) Calculate the momentum of a photon having a wavelength of  $$2.50 \text{μm} $$ .
  (b) Find the velocity of an electron having the same momentum. (c) What is the kinetic energy of the electron, and how does it compare with that of the photon?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 2.65 \times 10^{-28}  \text{kg}\cdot \text{m/s} $$
 (b) 291 m/s
 
 (c) electron $$ 3.86 \times 10^{-26} \text{J} $$ , photon $$ 7.96 \times 10^{-20} \text{J} $$ , ratio $$ 2.06 \times 10^{6} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the previous problem for a 10.0-nm-wavelength photon.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -479,7 +531,7 @@ Photon energy:
 Ratio:
 
 <div class="equation">
- {% raw %}$$\frac{E_{\text{photon}}}{{\text{KE}}_e} = \frac{1.99 \times 10^{-17} \text{ J}}{2.41 \times 10^{-21} \text{ J}} = 8.26 \times 10^{3}$${% endraw %}
+ $$\frac{E_{\text{photon}}}{{\text{KE}}_e} = \frac{1.99 \times 10^{-17} \text{ J}}{2.41 \times 10^{-21} \text{ J}} = 8.26 \times 10^{3}$$
 </div>
 
 **Discussion**
@@ -492,29 +544,38 @@ This 10-nm X-ray photon has momentum 250 times greater than the 2.50-μm IR phot
 
 (c) Electron: $$ 2.41 \times 10^{-21} \text{ J}$$, Photon: $$ 1.99 \times 10^{-17} \text{ J}$$, Ratio: $$ 8.26 \times 10^{3}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the wavelength of a photon that has the same momentum as a proton moving at 1.00% of the speed of light. (b) What is the energy of the photon in MeV? (c) What is the kinetic energy of the proton in MeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.32 \times 10^{-13}  \text{m} $$
 (b) 9.39 MeV
 
 (c) $$ 4.70 \times 10^{-2} \text{MeV} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the momentum of a 100-keV x-ray photon. (b) Find the equivalent velocity of a neutron with the same momentum. (c) What is the neutron's kinetic energy in keV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -560,23 +621,29 @@ A 100-keV X-ray photon has the same momentum as a neutron moving at only 31.8 km
 
 (c) 5.29 eV or 0.00529 keV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Take the ratio of relativistic rest energy,  $$E=\gamma mc^{2} $$ ,
  to relativistic momentum,  $$p=\gamma \text{mu} $$ ,
  and show that in the limit that mass approaches zero, you find  $$E/p=c $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$E=\gamma mc^{2} $$
  and  $$P=\gamma mu $$, so
 
 <div class="equation" >
  $$\frac{E}{P}=\frac{ \gamma mc }^{2}}{ \gamma mu}=\frac{ {\text{c}}^{2}}{u}. $$
 </div>
+
 As the mass of particle approaches zero, its velocity  $$u $$
  will approach  $$c $$ ,
  so that the ratio of energy to momentum in this limit is
@@ -584,13 +651,17 @@ As the mass of particle approaches zero, its velocity  $$u $$
 <div class="equation" >
  $${lim}_{m\to 0}\frac{E}{P}=\frac{ {c}^{2}}{c}=c $$
 </div>
+
 which is consistent with the equation for photon energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a space sail such as mentioned in [[Example 1]](#Example1). Construct a
@@ -601,11 +672,14 @@ Among the things to be considered are the intensity of sunlight, its average
 wavelength, the number of photons per square meter this implies, the area of the
 space sail, and the mass of the system being accelerated.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A car feels a small force due to the light it sends out from its headlights,
@@ -613,17 +687,21 @@ equal to the momentum of the light divided by the time in which it is emitted. (
 a) Calculate the power of each headlight, if they exert a total force of $$ 2.00 \times 10^{-2} \text{N} $$ backward on the car. (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 3.00 \times 10^{6}  \text{W} $$
 (b) Headlights are way too bright.
 
 (c) Force is too large.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -633,4 +711,4 @@ photon momentum
 Compton effect
 : the phenomenon whereby X-rays scattered from materials have decreased energy
 
-</div>
+:::

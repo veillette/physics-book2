@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 11
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the common phases of matter.
 * Explain the physical characteristics of solids, liquids, and gases.
 * Describe the arrangement of atoms in solids, liquids, and gases.
-</div>
+
+:::
 
 Matter most commonly exists as a solid, liquid, or gas; these states are known
 as the three common _phases of matter_. Solids have a definite shape and a
@@ -39,13 +40,15 @@ Under compression, the atoms would be forced into one another. Most of the
 examples we have studied so far have involved solid objects which deform very
 little when stressed.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Submicroscopic Explanation of Solids and Liquids
 </div>
+
 Atomic and molecular characteristics explain and underlie the macroscopic characteristics of solids and fluids. This submicroscopic explanation is one theme of this text and is highlighted in the Things Great and Small features in [Conservation of Momentum](./ch8ConservationOfMomentum). See, for example, microscopic description of collisions and momentum or microscopic description of pressure in a gas. This present section is devoted entirely to the submicroscopic explanation of solids and liquids.
 
-</div>
+:::
 
 In contrast, _liquids_ deform easily when stressed and do not spring back to
 their original shape once the force is removed because the atoms are free to
@@ -65,17 +68,20 @@ gases are easily compressed, whereas liquids are not. We shall generally refer
 to both gases and liquids simply as **fluids**, and make a distinction between
 them only when they behave differently.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: States of Matter—Basics
 </div>
+
 Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="states of matter">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -86,11 +92,15 @@ Heat, cool, and compress atoms and molecules and watch as they change between so
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What physical characteristic distinguishes a fluid from a solid?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 To distinguish fluids from solids, we must consider how each state of matter responds to applied forces, specifically shearing (sideways) forces.
 
@@ -104,15 +114,20 @@ At the molecular level, this difference arises from the bonding between atoms:
 **Discussion:**
 This distinction explains everyday observations: a block of ice maintains its shape under its own weight, but water takes the shape of its container. Similarly, honey flows slowly when tilted because it yields to shearing forces (though its high viscosity means it flows slowly). The ability to flow is the defining characteristic of fluids, which is why both liquids and gases are classified as fluids despite their other differences.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which of the following substances are fluids at room temperature: air, mercury, water, glass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 To identify fluids, we apply the defining characteristic: fluids are substances that yield to shearing forces and flow. We evaluate each substance at room temperature (approximately 20°C to 25°C).
 
@@ -128,15 +143,20 @@ Analysis of each substance:
 **Discussion:**
 A common misconception is that glass is a "very slow-flowing liquid" based on observations of old window panes being thicker at the bottom. However, this thickness variation is due to historical manufacturing processes, not flow. Glass at room temperature is many orders of magnitude more viscous than any practical fluid—it would take longer than the age of the universe for glass to noticeably flow at room temperature. Therefore, glass is properly classified as a solid.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are gases easier to compress than liquids and solids?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 To understand compressibility differences, we must examine the molecular structure and spacing in each phase of matter.
 
@@ -151,15 +171,20 @@ The molecular explanation:
 **Discussion:**
 This explains practical applications: air in a bicycle tire compresses easily when pumped, allowing more air molecules to fit in the same volume. Water in a hydraulic system, however, transmits pressure almost instantaneously because it barely compresses—this incompressibility is essential for hydraulic brakes and lifts. At standard temperature and pressure, air is about 20,000 times more compressible than water. The compressibility of gases also explains why scuba tanks can hold large volumes of breathing gas and why compressed natural gas vehicles store fuel at high pressures.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do gases differ from liquids?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Both gases and liquids are fluids (they flow under shearing forces), so we need to identify the key properties that distinguish them from each other.
 
@@ -182,14 +207,16 @@ These differences arise from molecular behavior:
 
 The high compressibility of gases versus the near-incompressibility of liquids is the most practically important distinction, enabling applications like pneumatic tools (which use compressible air) versus hydraulic systems (which use incompressible liquids for precise force transmission).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 fluids
 : liquids and gases; a fluid is a state of matter that yields to shearing forces
 
-</div>
+:::

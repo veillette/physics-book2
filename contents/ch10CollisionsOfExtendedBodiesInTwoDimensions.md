@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 10
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Observe collisions of extended bodies in two dimensions.
 * Examine collision at the point of percussion.
 
-</div>
+:::
 
 Bowling pins are sent flying and spinning when hit by a bowling ball—angular
 momentum as well as linear momentum and energy have been imparted to the pins. (
@@ -38,10 +38,12 @@ in [Example 1](#example1).
         (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.')
 {: #Figure2}
 
-<div class="example" id="example1" markdown="1">
+::: example {"class":"example","id":"example1"}
+
 <div class="title">
 Rotation in a Collision
 </div>
+
 Suppose the disk in [Figure 2](#Figure2) has a mass of 50.0 g and an initial velocity of 30.0 m/s when it strikes the stick that is 1.20 m long and 2.00 kg.
 
 (a) What is the angular velocity of the two after the collision?
@@ -63,11 +65,13 @@ Conservation of angular momentum states
 <div class="equation">
  $$ L=L^{\prime} , $$
 </div>
+
 where primed quantities stand for conditions after the collision and both momenta are calculated relative to the pivot point. The initial angular momentum of the system of stick-disk is that of the disk just before it strikes the stick. That is,
 
 <div class="equation">
  $$ L=I \omega, $$
 </div>
+
 where $$ I $$ is the moment of inertia of the disk and $$ \omega $$
 is its angular velocity around the pivot point. Now, $$ I=mr^{2} $$
 (taking the disk to be approximately a point mass) and $$ \omega =v/r $$, so that
@@ -75,22 +79,26 @@ is its angular velocity around the pivot point. Now, $$ I=mr^{2} $$
 <div class="equation">
  $$ L=m r^{2} \frac{v}{r}= mvr . $$
 </div>
+
 After the collision,
 
 <div class="equation">
  $$ L^{\prime} =I^{\prime} \omega^\prime . $$
 </div>
+
 It is $$ \omega^\prime $$ that we wish to find. Conservation of angular
 momentum gives
 
 <div class="equation">
  $$ I^{\prime} \omega^\prime = mvr . $$
 </div>
+
 Rearranging the equation yields
 
 <div class="equation">
  $$ \omega^\prime =\frac{ mvr }{I^{\prime} }, $$
 </div>
+
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
 of their individual moments of inertia about the
 nail. [Figure 3 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure3) gives the formula for a rod
@@ -99,11 +107,13 @@ rotating around one end to be $$ I=Mr^{2}/3 $$. Thus,
 <div class="equation">
  $$ I^{\prime} =m r^{2} +\frac{ Mr^{2}}{3}=\left(m+\frac{M}{3}\right){r}^{2}. $$
 </div>
+
 Entering known values in this equation yields,
 
 <div class="equation">
  $$ I^\prime =\left(0.0500\kg +0.667 \kg \right){\left(1.20\m \right) }^{2}=1.032\kg \cdot \mm. $$ 
 </div>
+
 The value of $$ I^{\prime} $$ is now entered into the expression for $$ \omega^\prime $$, which yields
 
 <div class="equation">
@@ -128,6 +138,7 @@ for the mass and speed of the incoming disk.
 <div class="equation">
  $$ \KE=\frac{1}{2}m v^{2}=\left(0.500\right)\left(0.0500\kg \right){\left(30.0 \ms \right)}^{2}=22.5 \J $$
 </div>
+
 After the collision, the rotational kinetic energy can be found because we now know the final angular velocity and the final moment of inertia. Thus, entering the values into the rotational kinetic energy equation gives
 
 <div class="equation">
@@ -152,6 +163,7 @@ Before the collision, then, linear momentum is
 <div class="equation">
  $$ p=mv =\left(0.0500\kg \right)\left(30.0 \ms \right)=1.50\kg \cdot \ms . $$
 </div>
+
 After the collision, the disk and the stick’s center of mass move in the same direction.
 The total linear momentum is that of the disk moving at a new
 velocity $$ v^{\prime} =r \omega^\prime $$ plus that of the stick’s center of mass,
@@ -160,16 +172,19 @@ which moves at half this speed because $$ v_{\text{CM}}=\left( \frac{r}{2} \righ
 <div class="equation">
  $$ p^{\prime} =mv^{\prime} +Mv_{\text{CM}}=mv^{\prime} +\frac{Mv^\prime }{2}. $$
 </div>
+
 Gathering similar terms in the equation yields,
 
 <div class="equation">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)v^{\prime} $$
 </div>
+
 so that
 
 <div class="equation">
  $$ p^{\prime} =\left(m+\frac{M}{2}\right)r \omega^\prime . $$
 </div>
+
 Substituting known values into the equation,
 
 <div class="equation">
@@ -187,7 +202,7 @@ The nail’s reaction (consistent with Newton’s third law) is to push forward 
 the stick, imparting momentum to it in the same direction in which the disk was
 initially moving, thereby increasing the momentum of the system.
 
-</div>
+:::
 
 The above example has other implications. For example, what would happen if the
 disk hit very close to the nail? Obviously, a force would be exerted on the nail
@@ -213,14 +228,19 @@ a tennis elbow. The same effect occurs for a baseball bat.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Is rotational kinetic energy a vector? Justify your answer.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 No, energy is always scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -233,34 +253,46 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe two different collisions—one in which angular momentum is conserved, and the other in which it is not. Which condition determines whether or not angular momentum is conserved in a collision?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and is free to move in any direction. Which quantities are likely to be conserved: angular momentum, linear momentum, or kinetic energy (assuming the puck and stick are very resilient)?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [Example 1](#example1) in which the disk strikes and adheres to the stick 0.100 m from the nail.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -330,15 +362,19 @@ Striking closer to the pivot produces dramatically different results than Exampl
 
 (c) Linear momentum changes from 1.50 kg·m/s to 0.188 kg·m/s, showing that momentum is not conserved when there's an external constraint (the nail).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [Example 1](#example1) in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -396,11 +432,14 @@ Even though the disk spins at 1000 rpm, its small radius means its spin angular 
 
 The final angular velocity is **1.74 rad/s**, essentially unchanged from Example 1. The disk's spin contributes only 0.03% to the total angular momentum, demonstrating that orbital motion dominates for small spinning objects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hands.
 (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be that of point masses at this radius.
 (b) Compare the initial kinetic energy and final kinetic energy.
@@ -408,8 +447,9 @@ Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hand
 ![Figure a shows two skaters from the top view approaching each other from opposite directions with velocity v. In figure b two skaters then lock their right hands and start to spin in the clockwise direction with angular velocity omega.](../resources/Figure_10_06_04.jpg 'Twin skaters approach each other with identical speeds. Then, the skaters lock hands and spin.')
 {: #Figure4}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -463,11 +503,14 @@ Remarkably, the kinetic energy is conserved in this collision! This is because t
 
 (b) Both initial and final kinetic energies are **438 J**, showing perfect energy conservation in this collision—a rare occurrence in real-world collisions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in [Figure 5](#Figure5).
 
 (a) Calculate the final linear velocity of the person, given his mass is 70.0
@@ -484,8 +527,9 @@ remains in his geometrical center.
 ![Figure a shows a skater through an overhead view with both his hands outstretched. A ball is seen approaching toward him in air with velocity v. Figure b shows that skater catching two balls in his left hand, and then, recoiling toward the left, in clockwise direction, with angular velocity omega and finally, the balls have velocity v prime.](../resources/Figure_10_06_05.jpg 'The figure shows the overhead view of a person standing motionless on ice about to catch a ball. Both arms are outstretched. After catching the ball, the skater recoils and rotates.')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -570,15 +614,19 @@ Most of the initial kinetic energy (28.1 - 1.57 = 26.5 J, or 94%) is lost in thi
 
 (c) Initial kinetic energy is 28.1 J; final kinetic energy is 1.57 J. About 94% of the energy is lost in this inelastic collision.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [Example 1](#example1) in which the stick is free to have translational motion as well as rotational motion.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -632,5 +680,6 @@ When the stick is free to move (unlike the nailed case in Example 1), linear mom
 
 (c) Linear momentum is conserved at **1.50 kg·m/s** (unlike the nailed case where external forces act).
 
-</div>
+:::
+
 </div>

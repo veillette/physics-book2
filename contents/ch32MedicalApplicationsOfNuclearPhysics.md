@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 0
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Provide examples of various nuclear physics applications.
-</div>
+
+:::
 
 ![The image shows a woman preparing for scanning of a child mummy with a cylindrical instrument.](../resources/Figure_32_00_01.jpg 'Tori Randall, Ph.D., curator for the Department of Physical Anthropology at the San Diego Museum of Man, prepares a 550-year-old Peruvian child mummy for a CT scan at Naval Medical Center San Diego. (credit: U.S. Navy photo by Mass Communication Specialist 3rd Class Samantha A. Lewis)')
 {: #Figure1}

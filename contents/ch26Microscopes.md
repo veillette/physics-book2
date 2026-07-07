@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Investigate different types of microscopes.
 * Learn how image is formed in a compound microscope.
-</div>
+
+:::
 
 Although the eye is marvelous in its ability to see objects large and small, it
 obviously has limitations to the smallest details it can detect. Human desire to
@@ -66,18 +67,22 @@ where $${m}_{\text{o}} $$ is the magnification of the objective and $${m}_{\text
 generalized for any combination of thin lenses and mirrors that obey the thin
 lens equations.
 
-<div class="note"  markdown="1">
+::: note
+
 <div class="title">
 Overall Magnification
 </div>
+
 The overall magnification of a multiple-element system is the product of the individual magnifications of its elements.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Microscope Magnification
 </div>
+
 Calculate the magnification of an object placed 6.20 mm from a compound microscope that has a 6.00 mm focal length objective and a 50.0 mm focal length eyepiece. The objective and eyepiece are separated by 23.0 cm.
 
 **Strategy and Concept**
@@ -93,6 +98,7 @@ The magnification of the objective lens is given as
 <div class="equation" >
  $${m}_{\text{o}}= -\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}\text{,} $$
 </div>
+
 where  $${d}_{\text{o}} $$
  and  $${d}_{\text{i}} $$
  are the object and image distances, respectively, for the objective lens as labeled in [[Figure 2]](#Figure2). The object distance is given to be  $${d}_{\text{o}}=6.20 \text{mm} $$ ,
@@ -103,29 +109,34 @@ where  $${d}_{\text{o}} $$
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{ {f}_{\text{o}}}-\frac{1}{ {d}_{\text{o}}}\text{,} $$
 </div>
+
 where  $${f}_{\text{o}} $$
  is the focal length of the objective lens. Substituting known values gives
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{6.00 \text{mm}}-\frac{1}{6.20 \text{mm}}=\frac{0.00538}{\text{mm}}\text{.} $$
 </div>
+
 We invert this to find  $${d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $${d}_{\text{i}}=186 \text{mm} \text{.}  $$
 </div>
+
 Substituting this into the expression for  $${m}_{\text{o}} $$
  gives
 
 <div class="equation" >
  $${m}_{\text{o}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{186 \text{mm}}{6.20 \text{mm}}=-30.0 \text{.} $$
 </div>
+
 Now we must find the magnification of the eyepiece, which is given by
 
 <div class="equation" >
  $${m}_{\text{e}}=-\frac{ {d}^\prime_{\text{i}} }{ {d}^\prime_{\text{o}} }\text{,} $$
 </div>
+
 where  $${d}^\prime_{\text{i}}  $$
  and  $${d}^\prime_{\text{o}}  $$
  are the image and object distances for the eyepiece (see [[Figure 2]](#Figure2)). The object distance is the distance of the first image from the eyepiece. Since the first image is 186 mm to the right of the objective and the eyepiece is 230 mm to the right of the objective, the object distance is  $${d}^\prime_{\text{o}} =230 \text{mm}-186 \text{mm}=44.0 \text{mm} $$ .
@@ -136,21 +147,25 @@ where  $${d}^\prime_{\text{i}}  $$
 <div class="equation" >
  $$\frac{1}{ {d}^\prime_{\text{i}} }=\frac{1}{ {f}_{\text{e}}}-\frac{1}{ {d}^\prime_{\text{o}} }=\frac{1}{50.0 \text{mm}}-\frac{1}{44.0 \text{mm}}=-\frac{0.00273}{\text{mm}}. $$
 </div>
+
 Inverting gives
 
 <div class="equation" >
  $${d}^\prime_{\text{i}} =-\frac{\text{mm}}{0.00273}=-367 \text{mm}. $$
 </div>
+
 The eyepiece’s magnification is thus
 
 <div class="equation" >
  $${m}_{\text{e}}=-\frac{ {d}^\prime_{\text{i}} }{ {d}^\prime_{\text{o}} }=-\frac{-367 \text{mm}}{44.0 \text{mm}}=8.33. $$
 </div>
+
 So the overall magnification is
 
 <div class="equation" >
  $$m={m}_{\text{o}}{m}_{\text{e}}=\left(-30.0\right)\left(8.33\right)=-250. $$
 </div>
+
 **Discussion**
 
 Both the objective and the eyepiece contribute to the overall magnification,
@@ -167,7 +182,7 @@ turn, with each forming an image that becomes the object for the next element.
 The process is not more difficult than for single lenses or mirrors, only
 lengthier.
 
-</div>
+:::
 
 Normal optical microscopes can magnify up to $$1500× $$ with a theoretical
 resolution of $$-0.2 \text{μm} $$ . The lenses can be quite complicated and are
@@ -273,20 +288,21 @@ images; rather images are recorded electronically and displayed on computers. In
 fact observing and saving images formed by optical microscopes on computers is
 now done routinely. Video recordings of what occurs in a microscope can be made for viewing by many people at later dates. Advances in this powerful technology continue. In the 1990s, Pratibha L. Gai invented the environmental transmission electron microscope (ETEM), which was the first device capable of observing individual atoms in chemical reactions.
 
-
 ![Image depicts a man using scanning electron microscope.](../resources/Figure_26_04_07.jpg "An electron microscope has the capability to image individual atoms on a material. The microscope uses vacuum technology, sophisticated detectors and state of the art image processing software. (credit: Dave Pape)")
 {: #Figure7}
 
 ![The figure gives an artist\'s view of different stages of meiosis.](../resources/Figure_26_04_08.jpg "The image shows a sequence of events that takes place during meiosis. (credit: Patr&#xED;ciaR, Wikimedia Commons; National Center for Biotechnology Information)")
 {: #Figure8}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Make a Lens
 </div>
+
 Look through a clear glass or plastic bottle and describe what you see. Now fill the bottle with water and describe what you see. Use the water bottle as a lens to produce the image of a bright object and estimate the focal length of the water bottle lens. How is the focal length a function of the depth of water in the bottle?
 
-</div>
+:::
 
 ### Section Summary
 
@@ -303,6 +319,7 @@ Look through a clear glass or plastic bottle and describe what you see. Now fill
   <div class="equation" >
    $$m={m}_{\text{o}}{m}_{\text{e}}\text{,} $$
   </div>
+
      where
    $${m}_{\text{o}} $$ is the magnification of the objective and
    $${m}_{\text{e}} $$ is the magnification of the eyepiece, such as for a microscope.
@@ -328,11 +345,14 @@ where $$n $$ is the refractive index and $$\alpha $$ the angle of acceptance.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Geometric optics describes the interaction of light with macroscopic objects. Why, then, is it correct to use geometric optics to analyse a microscope's image?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,15 +404,19 @@ The specimen itself may be microscopic (even comparable to or smaller than $$\la
 
 This is analogous to using geometric optics for telescope design: we use ray tracing to design the telescope even though we're observing objects (like distant stars) whose angular sizes may be diffraction-limited. The optical system itself is macroscopic, making geometric optics the appropriate tool for analyzing image formation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The image produced by the microscope in [[Figure 2]](#Figure2) cannot be projected. Could extra lenses or mirrors project it? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -464,15 +488,19 @@ Early photomicrography required photographers to modify the eyepiece position or
 
 The answer to the question is definitively **yes**—extra lenses (or repositioning the existing eyepiece) can convert the virtual final image into a real, projectable image. The standard configuration produces a virtual image by design for comfortable viewing, not because it's impossible to create a real image with the same optical components arranged differently.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why not have the objective of a microscope form a case 2 image with a large magnification? (Hint: Consider the location of that image and the difficulty that would pose for using the eyepiece as a magnifier.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -561,15 +589,19 @@ This two-stage design with case 1 followed by case 2 is fundamental to all compo
 
 The hint in the question points directly to the core problem: a case 2 image from the objective would be virtual and located where the eyepiece cannot access it, making it impossible for the eyepiece to function as a magnifier. The objective **must** create a real image that the eyepiece can then magnify.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What advantages do oil immersion objectives offer?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -691,16 +723,20 @@ Some advanced techniques use even higher refractive index immersion media:
 
 The oil immersion objective remains one of the most important innovations in microscopy history, enabling the visualization of structures at or near the diffraction limit of visible light. Without oil immersion, entire fields like bacteriology and cellular biology would have been severely limited in their development. The ability to achieve $$\text{NA} > 1.0$$ is physically impossible with air, making oil immersion not just an improvement but a necessity for maximum resolution microscopy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the  $$\text{NA} $$
  of a microscope compare with the  $$\text{NA} $$  of an optical fiber?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -792,6 +828,7 @@ From $$\text{NA} = n \sin \alpha$$ (with $$n=1$$ for air):
 <div class="equation">
 $$\alpha = \sin^{-1}(0.95) = 72°$$
 </div>
+
 Acceptance angle: $$\theta = 2\alpha = 144°$$
 
 **Microscope (oil immersion, NA = 1.4, n = 1.51):**
@@ -803,6 +840,7 @@ $$\alpha = \sin^{-1}(1.4/1.51) = 68°$$
 <div class="equation">
 $$\alpha = \sin^{-1}(0.24) = 14°$$
 </div>
+
 Acceptance angle: $$\theta = 2\alpha = 28°$$
 
 **Discussion**
@@ -846,17 +884,21 @@ Both technologies were developed in the 19th and 20th centuries, but with differ
 
 In summary: **Microscope objectives typically have higher NA values than optical fibers**, with high-end microscope objectives (especially oil immersion) achieving NA values of 1.25-1.4, while typical optical fibers have NA values of 0.10-0.29. The fundamental reason is different design objectives: microscopes maximize NA for resolution, while fibers control NA for signal integrity and single-mode operation.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A microscope with an overall magnification of 800 has an objective that magnifies by 200. (a) What is the magnification of the eyepiece? (b) If there are two other objectives that can be used, having magnifications of 100 and 400, what other total magnifications are possible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -911,16 +953,20 @@ This microscope setup provides excellent versatility. Users can:
 
 The 4× eyepiece is particularly useful because it provides a compromise between magnification and field of view, making specimen navigation easier than with higher power eyepieces.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What magnification is produced by a 0.150 cm focal length microscope objective that is 0.155 cm from the object being viewed? (b) What is the overall magnification if an  $$8× $$
  eyepiece (one that produces a magnification of 8.00) is used?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -965,17 +1011,21 @@ Part (a): The objective produces a magnification of -30.0, meaning the intermedi
 
 Part (b): The overall magnification of -240 is substantial and typical for compound microscopes. The negative sign indicates the final image is inverted relative to the object, which is expected since the objective creates an inverted image and the eyepiece (acting as a magnifier) preserves this orientation. This magnification would be suitable for viewing cellular structures and other microscopic details. The combination of a high-power objective (30×) with a moderate eyepiece (8×) provides good resolution and field of view for detailed microscopic examination.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Where does an object need to be placed relative to a microscope for its 0.500 cm focal length objective to produce a magnification of  $$-400 $$ ?
  (b) Where should the 5.00 cm focal length eyepiece be placed to produce a further fourfold (4.00) magnification?
  (c) Is this a realistic design for a microscope?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1063,17 +1113,21 @@ Part (b): The eyepiece should be 204 cm behind the objective lens. This large tu
 
 The total magnification is $$m = m_o \times m_e = 400 \times 4.00 = 1600×$$, which is near the practical limit for optical microscopy. This demonstrates why high-magnification microscopes are physically large—the tube length increases dramatically with magnification. Modern research microscopes use specialized optical designs to achieve high magnification in more compact form factors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You switch from a  $$1.40\text{NA} 60× $$
  oil immersion objective to a  $$0.35\text{NA} 20× $$
  oil immersion objective. What are the acceptance angles for each? Compare and comment on the values. Which would you use first to locate the target area on your specimen?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1142,15 +1196,19 @@ Once you've located and centered your target, switch to the 60× objective for d
 
 The 1.40 NA objective represents near the maximum achievable numerical aperture for optical microscopy, providing exceptional resolution for viewing fine cellular details, bacteria, and subcellular structures. Its extremely wide acceptance angle of 136° is only achievable through oil immersion, which minimizes refraction at the coverslip-objective interface. The 0.35 NA objective, with its more modest 26.8° acceptance angle, is better suited for initial specimen survey and target location.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 An amoeba is 0.305 cm away from the 0.300 cm focal length objective lens of a microscope. (a) Where is the image formed by the objective lens? (b) What is this image's magnification? (c) An eyepiece with a 2.00 cm focal length is placed 20.0 cm from the objective. Where is the final image? (d) What magnification is produced by the eyepiece? (e) What is the overall magnification? (See [[Figure 2]](#Figure2).)
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1240,17 +1298,21 @@ Part (e): The overall magnification of -400× is excellent for viewing cellular 
 
 This problem demonstrates the two-stage magnification in compound microscopes: the objective creates a magnified real image, which the eyepiece further magnifies. The total magnification is the product of both stages, allowing observation of single-celled organisms in great detail.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 You are using a standard microscope with a  $$0.10\text{NA} 4× $$
  objective and switch to a  $$0.65\text{NA} 40× $$
  objective. What are the acceptance angles for each? Compare and comment on the values. Which would you use first to locate the target area on of your specimen? (See [[Figure 3]](#Figure3).)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1304,11 +1366,14 @@ Once you've located and centered your target area with the 4× objective, you ca
 
 This progressive approach (low magnification → high magnification) is standard microscopy practice. Trying to locate a specimen at 40× magnification is like trying to find a house by looking through a telescope instead of using a map—you'll have great detail once you find it, but finding it in the first place is much harder!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Your friends show you an image through a microscope. They tell you that the
@@ -1316,8 +1381,9 @@ microscope has an objective with a 0.500 cm focal length and an eyepiece with a
 5.00 cm focal length. The resulting overall magnification is 250 000. Are these
 viable values for a microscope?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1370,10 +1436,12 @@ No, these are **not** viable values for a microscope. A magnification of 250,000
 
 The claim of 250,000× magnification suggests either a misunderstanding, a typo (perhaps meant 250×?), or confusion with electron microscopes, which *can* achieve such magnifications. For this magnification with optical systems, you would need an electron microscope, not a compound light microscope!
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1398,4 +1466,4 @@ detail in an object being observed. Derived by mathematical formula
 where $$n $$ is the refractive index of the medium between the lens and the
 specimen and $$\alpha =\theta /2 $$
 
-</div>
+:::

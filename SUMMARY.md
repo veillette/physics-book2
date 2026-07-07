@@ -1,325 +1,326 @@
 ---
 title: 'General Physics'
 layout: page
+permalink: /SUMMARY.html
 ---
 
 <div data-type="abstract">
 This introductory, algebra-based, college physics book is grounded with real-world examples, illustrations, and explanations to help students grasp key, fundamental physics concepts. This online, fully editable and customizable title includes learning objectives, concept questions, links to labs and simulations, and ample practice opportunities to solve traditional physics application problems.
 </div>
 
-1. {: .preface} [Preface](contents/preface.md)
+1. [Preface](contents/preface.md) {: .preface}
 
-2. {: .chapter} [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md)
-   1. {: .section} [Physics: An Introduction](contents/ch1PhysicsAnIntroduction.md)
-   2. {: .section} [Physical Quantities and Units](contents/ch1PhysicalQuantitiesAndUnits.md)
-   3. {: .section} [Accuracy, Precision, and Significant Figures](contents/ch1AccuracyPrecisionAndSignificantFigures.md)
-   4. {: .section} [Approximation](contents/ch1Approximation.md)
+2. [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md) {: .chapter}
+   1. [Physics: An Introduction](contents/ch1PhysicsAnIntroduction.md) {: .section}
+   2. [Physical Quantities and Units](contents/ch1PhysicalQuantitiesAndUnits.md) {: .section}
+   3. [Accuracy, Precision, and Significant Figures](contents/ch1AccuracyPrecisionAndSignificantFigures.md) {: .section}
+   4. [Approximation](contents/ch1Approximation.md) {: .section}
 
-3. {: .chapter} [Kinematics](contents/ch2Kinematics.md)
-   1. {: .section} [Displacement](contents/ch2Displacement.md)
-   2. {: .section} [Vectors, Scalars, and Coordinate Systems](contents/ch2VectorsScalarsAndCoordinateSystems.md)
-   3. {: .section} [Time, Velocity, and Speed](contents/ch2TimeVelocityAndSpeed.md)
-   4. {: .section} [Acceleration](contents/ch2Acceleration.md)
-   5. {: .section} [Motion Equations for Constant Acceleration in One Dimension](contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md)
-   6. {: .section} [Problem-Solving Basics for One-Dimensional Kinematics](contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md)
-   7. {: .section} [Falling Objects](contents/ch2FallingObjects.md)
-   8. {: .section} [Graphical Analysis of One-Dimensional Motion](contents/ch2GraphicalAnalysisOfOneDimensionalMotion.md)
+3. [Kinematics](contents/ch2Kinematics.md) {: .chapter}
+   1. [Displacement](contents/ch2Displacement.md) {: .section}
+   2. [Vectors, Scalars, and Coordinate Systems](contents/ch2VectorsScalarsAndCoordinateSystems.md) {: .section}
+   3. [Time, Velocity, and Speed](contents/ch2TimeVelocityAndSpeed.md) {: .section}
+   4. [Acceleration](contents/ch2Acceleration.md) {: .section}
+   5. [Motion Equations for Constant Acceleration in One Dimension](contents/ch2MotionEquationsForConstantAccelerationInOneDimension.md) {: .section}
+   6. [Problem-Solving Basics for One-Dimensional Kinematics](contents/ch2ProblemSolvingBasicsForOneDimensionalKinematics.md) {: .section}
+   7. [Falling Objects](contents/ch2FallingObjects.md) {: .section}
+   8. [Graphical Analysis of One-Dimensional Motion](contents/ch2GraphicalAnalysisOfOneDimensionalMotion.md) {: .section}
 
-4. {: .chapter} [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md)
-   1. {: .section} [Kinematics in Two Dimensions: An Introduction](contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
-   2. {: .section} [Vector Addition and Subtraction: Graphical Methods](contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
-   3. {: .section} [Vector Addition and Subtraction: Analytical Methods](contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
-   4. {: .section} [Projectile Motion](contents/ch3ProjectileMotion.md)
-   5. {: .section} [Addition of Velocities](contents/ch3AdditionOfVelocities.md)
+4. [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md) {: .chapter}
+   1. [Kinematics in Two Dimensions: An Introduction](contents/ch3KinematicsInTwoDimensionsAnIntroduction.md) {: .section}
+   2. [Vector Addition and Subtraction: Graphical Methods](contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md) {: .section}
+   3. [Vector Addition and Subtraction: Analytical Methods](contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md) {: .section}
+   4. [Projectile Motion](contents/ch3ProjectileMotion.md) {: .section}
+   5. [Addition of Velocities](contents/ch3AdditionOfVelocities.md) {: .section}
 
-5. {: .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md)
-   1. {: .section} [Development of Force Concept](contents/ch4DevelopmentOfForceConcept.md)
-   2. {: .section} [Newton’s First Law of Motion: Inertia](contents/ch4NewtonsFirstLawOfMotion.md)
-   3. {: .section} [Newton’s Second Law of Motion: Concept of a System](contents/ch4NewtonsSecondLawOfMotion.md)
-   4. {: .section} [Newton’s Third Law of Motion: Symmetry in Forces](contents/ch4NewtonsThirdLawOfMotion.md)
-   5. {: .section} [Normal, Tension, and Other Examples of Forces](contents/ch4NormalTensionAndOtherExamplesOfForces.md)
-   6. {: .section} [Problem-Solving Strategies](contents/ch4ProblemSolvingStrategies.md)
-   7. {: .section} [Further Applications of Newton’s Laws of Motion](contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md)
-   8. {: .section} [Extended Topic: The Four Basic Forces—An Introduction](contents/ch4ExtendedTopics.md)
+5. [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md) {: .chapter}
+   1. [Development of Force Concept](contents/ch4DevelopmentOfForceConcept.md) {: .section}
+   2. [Newton’s First Law of Motion: Inertia](contents/ch4NewtonsFirstLawOfMotion.md) {: .section}
+   3. [Newton’s Second Law of Motion: Concept of a System](contents/ch4NewtonsSecondLawOfMotion.md) {: .section}
+   4. [Newton’s Third Law of Motion: Symmetry in Forces](contents/ch4NewtonsThirdLawOfMotion.md) {: .section}
+   5. [Normal, Tension, and Other Examples of Forces](contents/ch4NormalTensionAndOtherExamplesOfForces.md) {: .section}
+   6. [Problem-Solving Strategies](contents/ch4ProblemSolvingStrategies.md) {: .section}
+   7. [Further Applications of Newton’s Laws of Motion](contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md) {: .section}
+   8. [Extended Topic: The Four Basic Forces—An Introduction](contents/ch4ExtendedTopics.md) {: .section}
 
-6. {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md)
-   1. {: .section} [Friction](contents/ch5Friction.md)
-   2. {: .section} [Drag Forces](contents/ch5DragForces.md)
-   3. {: .section} [Elasticity: Stress and Strain](contents/ch5Elasticity.md)
+6. [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md) {: .chapter}
+   1. [Friction](contents/ch5Friction.md) {: .section}
+   2. [Drag Forces](contents/ch5DragForces.md) {: .section}
+   3. [Elasticity: Stress and Strain](contents/ch5Elasticity.md) {: .section}
 
-7. {: .chapter} [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md)
-   1. {: .section} [Rotation Angle and Angular Velocity](contents/ch6RotationAngleAndAngularVelocity.md)
-   2. {: .section} [Centripetal Acceleration](contents/ch6CentripetalAcceleration.md)
-   3. {: .section} [Centripetal Force](contents/ch6CentripetalForce.md)
-   4. {: .section} [Fictitious Forces and Non-inertial Frames: The Coriolis Force](contents/ch6FictitiousForcesAndNonInertialFrames.md)
-   5. {: .section} [Newton’s Universal Law of Gravitation](contents/ch6NewtonsUniversalLawOfGravitation.md)
-   6. {: .section} [Satellites and Kepler’s Laws: An Argument for Simplicity](contents/ch6SatellitesAndKeplersLaws.md)
+7. [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md) {: .chapter}
+   1. [Rotation Angle and Angular Velocity](contents/ch6RotationAngleAndAngularVelocity.md) {: .section}
+   2. [Centripetal Acceleration](contents/ch6CentripetalAcceleration.md) {: .section}
+   3. [Centripetal Force](contents/ch6CentripetalForce.md) {: .section}
+   4. [Fictitious Forces and Non-inertial Frames: The Coriolis Force](contents/ch6FictitiousForcesAndNonInertialFrames.md) {: .section}
+   5. [Newton’s Universal Law of Gravitation](contents/ch6NewtonsUniversalLawOfGravitation.md) {: .section}
+   6. [Satellites and Kepler’s Laws: An Argument for Simplicity](contents/ch6SatellitesAndKeplersLaws.md) {: .section}
 
-8. {: .chapter} [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md)
-   1. {: .section} [Work: The Scientific Definition](contents/ch7WorkTheScientificDefinition.md)
-   2. {: .section} [Kinetic Energy and the Work-Energy Theorem](contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
-   3. {: .section} [Gravitational Potential Energy](contents/ch7GravitationalPotentialEnergy.md)
-   4. {: .section} [Conservative Forces and Potential Energy](contents/ch7ConservativeForcesAndPotentialEnergy.md)
-   5. {: .section} [Nonconservative Forces](contents/ch7NonconservativeForces.md)
-   6. {: .section} [Conservation of Energy](contents/ch7ConservationOfEnergy.md)
-   7. {: .section} [Power](contents/ch7Power.md)
-   8. {: .section} [Work, Energy, and Power in Humans](contents/ch7WorkEnergyAndPowerInHumans.md)
-   9. {: .section} [World Energy Use](contents/ch7WorldEnergyUse.md)
+8. [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md) {: .chapter}
+   1. [Work: The Scientific Definition](contents/ch7WorkTheScientificDefinition.md) {: .section}
+   2. [Kinetic Energy and the Work-Energy Theorem](contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md) {: .section}
+   3. [Gravitational Potential Energy](contents/ch7GravitationalPotentialEnergy.md) {: .section}
+   4. [Conservative Forces and Potential Energy](contents/ch7ConservativeForcesAndPotentialEnergy.md) {: .section}
+   5. [Nonconservative Forces](contents/ch7NonconservativeForces.md) {: .section}
+   6. [Conservation of Energy](contents/ch7ConservationOfEnergy.md) {: .section}
+   7. [Power](contents/ch7Power.md) {: .section}
+   8. [Work, Energy, and Power in Humans](contents/ch7WorkEnergyAndPowerInHumans.md) {: .section}
+   9. [World Energy Use](contents/ch7WorldEnergyUse.md) {: .section}
 
-9. {: .chapter} [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md)
-   1. {: .section} [Linear Momentum and Force](contents/ch8LinearMomentumAndForce.md)
-   2. {: .section} [Impulse](contents/ch8Impulse.md)
-   3. {: .section} [Conservation of Momentum](contents/ch8ConservationOfMomentum.md)
-   4. {: .section} [Elastic Collisions in One Dimension](contents/ch8ElasticCollisionsInOneDimension.md)
-   5. {: .section} [Inelastic Collisions in One Dimension](contents/ch8InelasticCollisionsInOneDimension.md)
-   6. {: .section} [Collisions of Point Masses in Two Dimensions](contents/ch8CollisionsOfPointMassesInTwoDimensions.md)
-   7. {: .section} [Introduction to Rocket Propulsion](contents/ch8IntroductionToRocketPropulsion.md)
+9. [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md) {: .chapter}
+   1. [Linear Momentum and Force](contents/ch8LinearMomentumAndForce.md) {: .section}
+   2. [Impulse](contents/ch8Impulse.md) {: .section}
+   3. [Conservation of Momentum](contents/ch8ConservationOfMomentum.md) {: .section}
+   4. [Elastic Collisions in One Dimension](contents/ch8ElasticCollisionsInOneDimension.md) {: .section}
+   5. [Inelastic Collisions in One Dimension](contents/ch8InelasticCollisionsInOneDimension.md) {: .section}
+   6. [Collisions of Point Masses in Two Dimensions](contents/ch8CollisionsOfPointMassesInTwoDimensions.md) {: .section}
+   7. [Introduction to Rocket Propulsion](contents/ch8IntroductionToRocketPropulsion.md) {: .section}
 
-10. {: .chapter} [Statics and Torque](contents/ch9StaticsAndTorque.md)
-    1. {: .section} [The First Condition for Equilibrium](contents/ch9TheFirstConditionForEquilibrium.md)
-    2. {: .section} [The Second Condition for Equilibrium](contents/ch9TheSecondConditionForEquilibrium.md)
-    3. {: .section} [Stability](contents/ch9Stability.md)
-    4. {: .section} [Applications of Statics, Including Problem-Solving Strategies](contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md)
-    5. {: .section} [Simple Machines](contents/ch9SimpleMachines.md)
-    6. {: .section} [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
+10. [Statics and Torque](contents/ch9StaticsAndTorque.md) {: .chapter}
+    1. [The First Condition for Equilibrium](contents/ch9TheFirstConditionForEquilibrium.md) {: .section}
+    2. [The Second Condition for Equilibrium](contents/ch9TheSecondConditionForEquilibrium.md) {: .section}
+    3. [Stability](contents/ch9Stability.md) {: .section}
+    4. [Applications of Statics, Including Problem-Solving Strategies](contents/ch9ApplicationsOfStaticsIncludingProblemSolvingStrategies.md) {: .section}
+    5. [Simple Machines](contents/ch9SimpleMachines.md) {: .section}
+    6. [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md) {: .section}
 
-11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
-    1. {: .section} [Angular Acceleration](contents/ch10AngularAcceleration.md)
-    2. {: .section} [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
-    3. {: .section} [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
-    4. {: .section} [Rotational Kinetic Energy: Work and Energy Revisited](contents/ch10RotationalKineticEnergy.md)
-    5. {: .section} [Angular Momentum and Its Conservation](contents/ch10AngularMomentumAndItsConservation.md)
-    6. {: .section} [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
-    7. {: .section} [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md)
+11. [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md) {: .chapter}
+    1. [Angular Acceleration](contents/ch10AngularAcceleration.md) {: .section}
+    2. [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md) {: .section}
+    3. [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md) {: .section}
+    4. [Rotational Kinetic Energy: Work and Energy Revisited](contents/ch10RotationalKineticEnergy.md) {: .section}
+    5. [Angular Momentum and Its Conservation](contents/ch10AngularMomentumAndItsConservation.md) {: .section}
+    6. [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md) {: .section}
+    7. [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md) {: .section}
 
-12. {: .chapter} [Fluid Statics](contents/ch11FluidStatics.md)
-    1. {: .section} [What Is a Fluid?](contents/ch11WhatIsAFluid.md)
-    2. {: .section} [Density](contents/ch11Density.md)
-    3. {: .section} [Pressure](contents/ch11Pressure.md)
-    4. {: .section} [Variation of Pressure with Depth in a Fluid](contents/ch11VariationOfPressure.md)
-    5. {: .section} [Pascal’s Principle](contents/ch11PascalsPrinciple.md)
-    6. {: .section} [Gauge Pressure, Absolute Pressure, and Pressure Measurement](contents/ch11GaugePressureAbsolutePressure.md)
-    7. {: .section} [Archimedes’ Principle](contents/ch11ArchimedesPrinciple.md)
-    8. {: .section} [Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action](contents/ch11CohesionAndAdhesionInLiquids.md)
-    9. {: .section} [Pressures in the Body](contents/ch11PressuresInTheBody.md)
+12. [Fluid Statics](contents/ch11FluidStatics.md) {: .chapter}
+    1. [What Is a Fluid?](contents/ch11WhatIsAFluid.md) {: .section}
+    2. [Density](contents/ch11Density.md) {: .section}
+    3. [Pressure](contents/ch11Pressure.md) {: .section}
+    4. [Variation of Pressure with Depth in a Fluid](contents/ch11VariationOfPressure.md) {: .section}
+    5. [Pascal’s Principle](contents/ch11PascalsPrinciple.md) {: .section}
+    6. [Gauge Pressure, Absolute Pressure, and Pressure Measurement](contents/ch11GaugePressureAbsolutePressure.md) {: .section}
+    7. [Archimedes’ Principle](contents/ch11ArchimedesPrinciple.md) {: .section}
+    8. [Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action](contents/ch11CohesionAndAdhesionInLiquids.md) {: .section}
+    9. [Pressures in the Body](contents/ch11PressuresInTheBody.md) {: .section}
 
-13. {: .chapter} [Fluid Dynamics](contents/ch12FluidDynamicsAndItsBiologicalApplications.md)
-    1. {: .section} [Flow Rate and Its Relation to Velocity](contents/ch12FlowRateAndItsRelationsToVelocity.md)
-    2. {: .section} [Bernoulli's Equation](contents/ch12BernoullisEquation.md)
-    3. {: .section} [The Most General Applications of Bernoulli's Equation](contents/ch12TheMostGeneralApplicationsOfBernouillisEquation.md)
-    4. {: .section} [Viscosity and Laminar Flow](contents/ch12ViscosityAndLaminarFlow.md)
-    5. {: .section} [The Onset of Turbulence](contents/ch12OnsetOfTurbulence.md)
-    6. {: .section} [Motion of an Object is a Viscous Fluid](contents/ch12MotionOfAnObjectInAViscousFluid.md)
-    7. {: .section} [Molecular Transport Phenomena](contents/ch12MolecularTransportPhenomena.md)
+13. [Fluid Dynamics](contents/ch12FluidDynamicsAndItsBiologicalApplications.md) {: .chapter}
+    1. [Flow Rate and Its Relation to Velocity](contents/ch12FlowRateAndItsRelationsToVelocity.md) {: .section}
+    2. [Bernoulli's Equation](contents/ch12BernoullisEquation.md) {: .section}
+    3. [The Most General Applications of Bernoulli's Equation](contents/ch12TheMostGeneralApplicationsOfBernouillisEquation.md) {: .section}
+    4. [Viscosity and Laminar Flow](contents/ch12ViscosityAndLaminarFlow.md) {: .section}
+    5. [The Onset of Turbulence](contents/ch12OnsetOfTurbulence.md) {: .section}
+    6. [Motion of an Object is a Viscous Fluid](contents/ch12MotionOfAnObjectInAViscousFluid.md) {: .section}
+    7. [Molecular Transport Phenomena](contents/ch12MolecularTransportPhenomena.md) {: .section}
 
-14. {: .chapter} [Temperature, Kinetic Theory, and the Gas Laws](contents/ch13TemperatureKineticTheoryAndTheGasLaws.md)
-    1. {: .section} [Temperature](contents/ch13Temperature.md)
-    2. {: .section} [Thermal Expansion of Solids and Liquids](contents/ch13ThermalExpansionOfSolidsAndLiquids.md)
-    3. {: .section} [The Ideal Gas Law](contents/ch13TheIdealGasLaws.md)
-    4. {: .section} [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](contents/ch13KineticTheory.md)
-    5. {: .section} [Phase Changes](contents/ch13PhaseChanges.md)
-    6. {: .section} [Humidity, Evaporation, and Boiling](contents/ch13HumidityEvaporationAndBoiling.md)
+14. [Temperature, Kinetic Theory, and the Gas Laws](contents/ch13TemperatureKineticTheoryAndTheGasLaws.md) {: .chapter}
+    1. [Temperature](contents/ch13Temperature.md) {: .section}
+    2. [Thermal Expansion of Solids and Liquids](contents/ch13ThermalExpansionOfSolidsAndLiquids.md) {: .section}
+    3. [The Ideal Gas Law](contents/ch13TheIdealGasLaws.md) {: .section}
+    4. [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](contents/ch13KineticTheory.md) {: .section}
+    5. [Phase Changes](contents/ch13PhaseChanges.md) {: .section}
+    6. [Humidity, Evaporation, and Boiling](contents/ch13HumidityEvaporationAndBoiling.md) {: .section}
 
-15. {: .chapter} [Heat and Heat Transfer Methods](contents/ch14HeatAndHeatTransfers.md)
-    1. {: .section} [Heat](contents/ch14Heat.md)
-    2. {: .section} [Temperature Change and Heat Capacity](contents/ch14TemperatureChangeAndHeatCapacity.md)
-    3. {: .section} [Phase Change and Latent Heat](contents/ch14PhaseChangeAndLatentHeat.md)
-    4. {: .section} [Heat Transfer Methods](contents/ch14HeatTransferMethods.md)
-    5. {: .section} [Conduction](contents/ch14Conduction.md)
-    6. {: .section} [Convection](contents/ch14Convection.md)
-    7. {: .section} [Radiation](contents/ch14Radiation.md)
+15. [Heat and Heat Transfer Methods](contents/ch14HeatAndHeatTransfers.md) {: .chapter}
+    1. [Heat](contents/ch14Heat.md) {: .section}
+    2. [Temperature Change and Heat Capacity](contents/ch14TemperatureChangeAndHeatCapacity.md) {: .section}
+    3. [Phase Change and Latent Heat](contents/ch14PhaseChangeAndLatentHeat.md) {: .section}
+    4. [Heat Transfer Methods](contents/ch14HeatTransferMethods.md) {: .section}
+    5. [Conduction](contents/ch14Conduction.md) {: .section}
+    6. [Convection](contents/ch14Convection.md) {: .section}
+    7. [Radiation](contents/ch14Radiation.md) {: .section}
 
-16. {: .chapter} [Thermodynamics](contents/ch15Thermodynamics.md)
-    1. {: .section} [The First Law of Thermodynamics](contents/ch15TheFirstLawOfThermodynamics.md)
-    2. {: .section} [The First Law of Thermodynamics and Some Simple Processes](contents/ch15TheFirstLawOfThermodynamicsAndSomeSimpleProcesses.md)
-    3. {: .section} [Introduction to the Second Law of Thermodynamics](contents/ch15IntroductionToTheSecondLawOfThermodynamics.md)
-    4. {: .section} [Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated](contents/ch15CarnotsPerfectHeatEngine.md)
-    5. {: .section} [Applications of Thermodynamics: Heat Pumps and Refrigerators](contents/ch15ApplicationsOfThermodynamics.md)
-    6. {: .section} [Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy](contents/ch15EntropyAndTheSecondLaw.md)
-    7. {: .section} [Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation](contents/ch15StatisticalInterpretationOfEntropy.md)
+16. [Thermodynamics](contents/ch15Thermodynamics.md) {: .chapter}
+    1. [The First Law of Thermodynamics](contents/ch15TheFirstLawOfThermodynamics.md) {: .section}
+    2. [The First Law of Thermodynamics and Some Simple Processes](contents/ch15TheFirstLawOfThermodynamicsAndSomeSimpleProcesses.md) {: .section}
+    3. [Introduction to the Second Law of Thermodynamics](contents/ch15IntroductionToTheSecondLawOfThermodynamics.md) {: .section}
+    4. [Carnot’s Perfect Heat Engine: The Second Law of Thermodynamics Restated](contents/ch15CarnotsPerfectHeatEngine.md) {: .section}
+    5. [Applications of Thermodynamics: Heat Pumps and Refrigerators](contents/ch15ApplicationsOfThermodynamics.md) {: .section}
+    6. [Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy](contents/ch15EntropyAndTheSecondLaw.md) {: .section}
+    7. [Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation](contents/ch15StatisticalInterpretationOfEntropy.md) {: .section}
 
-17. {: .chapter} [Oscillatory Motion and Waves](contents/ch16OscillatoryMotionAndWaves.md)
-    1. {: .section} [Hooke’s Law: Stress and Strain Revisited](contents/ch16HookesLaw.md)
-    2. {: .section} [Period and Frequency in Oscillations](contents/ch16PeriodAndFrequencyInOscillations.md)
-    3. {: .section} [Simple Harmonic Motion: A Special Periodic Motion](contents/ch16SimpleHarmonicMotion.md)
-    4. {: .section} [The Simple Pendulum](contents/ch16TheSimplePendulum.md)
-    5. {: .section} [Energy and the Simple Harmonic Oscillator](contents/ch16EnergyAndTheSimpleHarmonicOscillator.md)
-    6. {: .section} [Uniform Circular Motion and Simple Harmonic Motion](contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md)
-    7. {: .section} [Damped Harmonic Motion](contents/ch16DampedHarmonicOscillator.md)
-    8. {: .section} [Forced Oscillations and Resonance](contents/ch16ForcedOscillationsAndResonance.md)
-    9. {: .section} [Waves](contents/ch16Waves.md)
+17. [Oscillatory Motion and Waves](contents/ch16OscillatoryMotionAndWaves.md) {: .chapter}
+    1. [Hooke’s Law: Stress and Strain Revisited](contents/ch16HookesLaw.md) {: .section}
+    2. [Period and Frequency in Oscillations](contents/ch16PeriodAndFrequencyInOscillations.md) {: .section}
+    3. [Simple Harmonic Motion: A Special Periodic Motion](contents/ch16SimpleHarmonicMotion.md) {: .section}
+    4. [The Simple Pendulum](contents/ch16TheSimplePendulum.md) {: .section}
+    5. [Energy and the Simple Harmonic Oscillator](contents/ch16EnergyAndTheSimpleHarmonicOscillator.md) {: .section}
+    6. [Uniform Circular Motion and Simple Harmonic Motion](contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md) {: .section}
+    7. [Damped Harmonic Motion](contents/ch16DampedHarmonicOscillator.md) {: .section}
+    8. [Forced Oscillations and Resonance](contents/ch16ForcedOscillationsAndResonance.md) {: .section}
+    9. [Waves](contents/ch16Waves.md) {: .section}
     10. [Superposition and Interference](contents/ch16SuperpositionAndResonance.md)
-    11. {: .section} [Energy in Waves: Intensity](contents/ch16EnergyInWaves.md)
+    11. [Energy in Waves: Intensity](contents/ch16EnergyInWaves.md) {: .section}
 
-18. {: .chapter} [Physics of Hearing](contents/ch17PhysicsOfHearing.md)
-    1. {: .section} [Sound](contents/ch17Sound.md)
-    2. {: .section} [Speed of Sound, Frequency, and Wavelength](contents/ch17SpeedOfSoundFrequencyAndWavelength.md)
-    3. {: .section} [Sound Intensity and Sound Level](contents/ch17SoundIntensityAndSoundLevel.md)
-    4. {: .section} [Doppler Effect and Sonic Booms](contents/ch17DopplerEffectAndSonicBooms.md)
-    5. {: .section} [Sound Interference and Resonance: Standing Waves in Air Columns](contents/ch17SoundInterferenceAndResonance.md)
-    6. {: .section} [Hearing](contents/ch17Hearing.md)
-    7. {: .section} [Ultrasound](contents/ch17Ultrasound.md)
+18. [Physics of Hearing](contents/ch17PhysicsOfHearing.md) {: .chapter}
+    1. [Sound](contents/ch17Sound.md) {: .section}
+    2. [Speed of Sound, Frequency, and Wavelength](contents/ch17SpeedOfSoundFrequencyAndWavelength.md) {: .section}
+    3. [Sound Intensity and Sound Level](contents/ch17SoundIntensityAndSoundLevel.md) {: .section}
+    4. [Doppler Effect and Sonic Booms](contents/ch17DopplerEffectAndSonicBooms.md) {: .section}
+    5. [Sound Interference and Resonance: Standing Waves in Air Columns](contents/ch17SoundInterferenceAndResonance.md) {: .section}
+    6. [Hearing](contents/ch17Hearing.md) {: .section}
+    7. [Ultrasound](contents/ch17Ultrasound.md) {: .section}
 
-19. {: .chapter} [Electric Charge and Electric Field](contents/ch18ElectricChargeAndElectricField.md)
-    1. {: .section} [Static Electricity and Charge: Conservation of Charge](contents/ch18StaticElectricityAndCharge.md)
-    2. {: .section} [Conductors and Insulators](contents/ch18ConductorsAndInsulators.md)
-    3. {: .section} [Coulomb’s Law](contents/ch18CoulombsLaw.md)
-    4. {: .section} [Electric Field: Concept of a Field Revisited](contents/ch18ElectricField.md)
-    5. {: .section} [Electric Field Lines: Multiple Charges](contents/ch18ElectricFieldLines.md)
-    6. {: .section} [Electric Forces in Biology](contents/ch18ElectricForcesInBiology.md)
-    7. {: .section} [Conductors and Electric Fields in Static Equilibrium](contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md)
-    8. {: .section} [Applications of Electrostatics](contents/ch18ApplicationOfElectrostatics.md)
+19. [Electric Charge and Electric Field](contents/ch18ElectricChargeAndElectricField.md) {: .chapter}
+    1. [Static Electricity and Charge: Conservation of Charge](contents/ch18StaticElectricityAndCharge.md) {: .section}
+    2. [Conductors and Insulators](contents/ch18ConductorsAndInsulators.md) {: .section}
+    3. [Coulomb’s Law](contents/ch18CoulombsLaw.md) {: .section}
+    4. [Electric Field: Concept of a Field Revisited](contents/ch18ElectricField.md) {: .section}
+    5. [Electric Field Lines: Multiple Charges](contents/ch18ElectricFieldLines.md) {: .section}
+    6. [Electric Forces in Biology](contents/ch18ElectricForcesInBiology.md) {: .section}
+    7. [Conductors and Electric Fields in Static Equilibrium](contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md) {: .section}
+    8. [Applications of Electrostatics](contents/ch18ApplicationOfElectrostatics.md) {: .section}
 
-20. {: .chapter} [Electric Potential and Electric Field](contents/ch19ElectricPotentialAndElectricEnergy.md)
-    1. {: .section} [Electric Potential Energy: Potential Difference](contents/ch19ElectricPotentialEnergy.md)
-    2. {: .section} [Electric Potential in a Uniform Electric Field](contents/ch19ElectricPotentialInAUniformElectricField.md)
-    3. {: .section} [Electrical Potential Due to a Point Charge](contents/ch19ElectricPotentialDueToAPointCharge.md)
-    4. {: .section} [Equipotential Lines](contents/ch19EquipotentialLines.md)
-    5. {: .section} [Capacitors and Dielectrics](contents/ch19CapacitorsAndDielectrics.md)
-    6. {: .section} [Capacitors in Series and Parallel](contents/ch19CapacitorsInSeriesAndInParallel.md)
-    7. {: .section} [Energy Stored in Capacitors](contents/ch19EnergyStoredInCapacitors.md)
+20. [Electric Potential and Electric Field](contents/ch19ElectricPotentialAndElectricEnergy.md) {: .chapter}
+    1. [Electric Potential Energy: Potential Difference](contents/ch19ElectricPotentialEnergy.md) {: .section}
+    2. [Electric Potential in a Uniform Electric Field](contents/ch19ElectricPotentialInAUniformElectricField.md) {: .section}
+    3. [Electrical Potential Due to a Point Charge](contents/ch19ElectricPotentialDueToAPointCharge.md) {: .section}
+    4. [Equipotential Lines](contents/ch19EquipotentialLines.md) {: .section}
+    5. [Capacitors and Dielectrics](contents/ch19CapacitorsAndDielectrics.md) {: .section}
+    6. [Capacitors in Series and Parallel](contents/ch19CapacitorsInSeriesAndInParallel.md) {: .section}
+    7. [Energy Stored in Capacitors](contents/ch19EnergyStoredInCapacitors.md) {: .section}
 
-21. {: .chapter} [Electric Current, Resistance, and Ohm\'s Law](contents/ch20ElectricCurrentResistanceAndOhmsLaw.md)
-    1. {: .section} [Current](contents/ch20Current.md)
-    2. {: .section} [Ohm’s Law: Resistance and Simple Circuits](contents/ch20OhmsLaw.md)
-    3. {: .section} [Resistance and Resistivity](contents/ch20ResistanceAndResistivity.md)
-    4. {: .section} [Electric Power and Energy](contents/ch20ElectricPowerAndEnergy.md)
-    5. {: .section} [Alternating Current versus Direct Current](contents/ch20AlternatingCurrentVersusDirectCurrent.md)
-    6. {: .section} [Electric Hazards and the Human Body](contents/ch20ElectricHazardsAndTheHumanBody.md)
-    7. {: .section} [Nerve Conduction–Electrocardiograms](contents/ch20NerveConductionElectrocardiograms.md)
+21. [Electric Current, Resistance, and Ohm\'s Law](contents/ch20ElectricCurrentResistanceAndOhmsLaw.md) {: .chapter}
+    1. [Current](contents/ch20Current.md) {: .section}
+    2. [Ohm’s Law: Resistance and Simple Circuits](contents/ch20OhmsLaw.md) {: .section}
+    3. [Resistance and Resistivity](contents/ch20ResistanceAndResistivity.md) {: .section}
+    4. [Electric Power and Energy](contents/ch20ElectricPowerAndEnergy.md) {: .section}
+    5. [Alternating Current versus Direct Current](contents/ch20AlternatingCurrentVersusDirectCurrent.md) {: .section}
+    6. [Electric Hazards and the Human Body](contents/ch20ElectricHazardsAndTheHumanBody.md) {: .section}
+    7. [Nerve Conduction–Electrocardiograms](contents/ch20NerveConductionElectrocardiograms.md) {: .section}
 
-22. {: .chapter} [Circuits and DC Instruments](contents/ch21IntroductionToCircuitsAndDCInstruments.md)
-    1. {: .section} [Resistors in Series and Parallel](contents/ch21ResistorsInSeriesAndInParallel.md)
-    2. {: .section} [Electromotive Force: Terminal Voltage](contents/ch21ElectromotiveForce.md)
-    3. {: .section} [Kirchhoff’s Rules](contents/ch21KirchhoffsRules.md)
-    4. {: .section} [DC Voltmeters and Ammeters](contents/ch21DCVoltmetersAndAmmeters.md)
-    5. {: .section} [Null Measurements](contents/ch21NullMeasurements.md)
-    6. {: .section} [DC Circuits Containing Resistors and Capacitors](contents/ch21DCCircuitsContainingResistorsAndCapacitors.md)
+22. [Circuits and DC Instruments](contents/ch21IntroductionToCircuitsAndDCInstruments.md) {: .chapter}
+    1. [Resistors in Series and Parallel](contents/ch21ResistorsInSeriesAndInParallel.md) {: .section}
+    2. [Electromotive Force: Terminal Voltage](contents/ch21ElectromotiveForce.md) {: .section}
+    3. [Kirchhoff’s Rules](contents/ch21KirchhoffsRules.md) {: .section}
+    4. [DC Voltmeters and Ammeters](contents/ch21DCVoltmetersAndAmmeters.md) {: .section}
+    5. [Null Measurements](contents/ch21NullMeasurements.md) {: .section}
+    6. [DC Circuits Containing Resistors and Capacitors](contents/ch21DCCircuitsContainingResistorsAndCapacitors.md) {: .section}
 
-23. {: .chapter} [Magnetism](contents/ch22Magnetism.md)
-    1. {: .section} [Magnets](contents/ch22Magnets.md)
-    2. {: .section} [Ferromagnets and Electromagnets](contents/ch22FerromagnetsAndElectromagnets.md)
-    3. {: .section} [Magnetic Fields and Magnetic Field Lines](contents/ch22MagneticFieldsAndMagneticFieldLines.md)
-    4. {: .section} [Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field](contents/ch22MagneticFieldStrength.md)
-    5. {: .section} [Force on a Moving Charge in a Magnetic Field: Examples and Applications](contents/ch22ForceOnAMovingChargeInAMagneticField.md)
-    6. {: .section} [The Hall Effect](contents/ch22TheHallEffect.md)
-    7. {: .section} [Magnetic Force on a Current-Carrying Conductor](contents/ch22MagneticForceOnACurrentCarryingConductor.md)
-    8. {: .section} [Torque on a Current Loop: Motors and Meters](contents/ch22TorqueOnACurrentLoop.md)
-    9. {: .section} [Magnetic Fields Produced by Currents: Ampere’s Law](contents/ch22MagneticFieldsProducedByCurrents.md)
+23. [Magnetism](contents/ch22Magnetism.md) {: .chapter}
+    1. [Magnets](contents/ch22Magnets.md) {: .section}
+    2. [Ferromagnets and Electromagnets](contents/ch22FerromagnetsAndElectromagnets.md) {: .section}
+    3. [Magnetic Fields and Magnetic Field Lines](contents/ch22MagneticFieldsAndMagneticFieldLines.md) {: .section}
+    4. [Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field](contents/ch22MagneticFieldStrength.md) {: .section}
+    5. [Force on a Moving Charge in a Magnetic Field: Examples and Applications](contents/ch22ForceOnAMovingChargeInAMagneticField.md) {: .section}
+    6. [The Hall Effect](contents/ch22TheHallEffect.md) {: .section}
+    7. [Magnetic Force on a Current-Carrying Conductor](contents/ch22MagneticForceOnACurrentCarryingConductor.md) {: .section}
+    8. [Torque on a Current Loop: Motors and Meters](contents/ch22TorqueOnACurrentLoop.md) {: .section}
+    9. [Magnetic Fields Produced by Currents: Ampere’s Law](contents/ch22MagneticFieldsProducedByCurrents.md) {: .section}
     10. [Magnetic Force between Two Parallel Conductors](contents/ch22MagneticForceBetweenTwoParallelConductors.md)
-    11. {: .section} [More Applications of Magnetism](contents/ch22MoreApplicationsOfMagnetism.md)
+    11. [More Applications of Magnetism](contents/ch22MoreApplicationsOfMagnetism.md) {: .section}
 
-24. {: .chapter} [Electromagnetic Induction, AC Circuits, and Electrical Technologies](contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md)
-    1. {: .section} [Induced Emf and Magnetic Flux](contents/ch23InducedEmfAndMagneticFlux.md)
-    2. {: .section} [Faraday’s Law of Induction: Lenz’s Law](contents/ch23FaradaysLawOfInduction.md)
-    3. {: .section} [Motional Emf](contents/ch23MotionalEmf.md)
-    4. {: .section} [Eddy Currents and Magnetic Damping](contents/ch23EddyCurrentsAndMagneticDamping.md)
-    5. {: .section} [Electric Generators](contents/ch23ElectricGenerators.md)
-    6. {: .section} [Back Emf](contents/ch23BackEmf.md)
-    7. {: .section} [Transformers](contents/ch23Transformers.md)
-    8. {: .section} [Electrical Safety: Systems and Devices](contents/ch23ElectricalSafetySystemsAndDevices.md)
-    9. {: .section} [Inductance](contents/ch23Inductance.md)
+24. [Electromagnetic Induction, AC Circuits, and Electrical Technologies](contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md) {: .chapter}
+    1. [Induced Emf and Magnetic Flux](contents/ch23InducedEmfAndMagneticFlux.md) {: .section}
+    2. [Faraday’s Law of Induction: Lenz’s Law](contents/ch23FaradaysLawOfInduction.md) {: .section}
+    3. [Motional Emf](contents/ch23MotionalEmf.md) {: .section}
+    4. [Eddy Currents and Magnetic Damping](contents/ch23EddyCurrentsAndMagneticDamping.md) {: .section}
+    5. [Electric Generators](contents/ch23ElectricGenerators.md) {: .section}
+    6. [Back Emf](contents/ch23BackEmf.md) {: .section}
+    7. [Transformers](contents/ch23Transformers.md) {: .section}
+    8. [Electrical Safety: Systems and Devices](contents/ch23ElectricalSafetySystemsAndDevices.md) {: .section}
+    9. [Inductance](contents/ch23Inductance.md) {: .section}
     10. [RL Circuits](contents/ch23RLCircuits.md)
-    11. {: .section} [Reactance, Inductive and Capacitive](contents/ch23ReactanceInductiveAndCapacitive.md)
-    12. {: .section} [RLC Series AC Circuits](contents/ch23RLCSeriesACircuits.md)
+    11. [Reactance, Inductive and Capacitive](contents/ch23ReactanceInductiveAndCapacitive.md) {: .section}
+    12. [RLC Series AC Circuits](contents/ch23RLCSeriesACircuits.md) {: .section}
 
-25. {: .chapter} [Electromagnetic Waves](contents/ch24ElectromagneticWaves.md)
-    1. {: .section} [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](contents/ch24MaxwellsEquations.md)
-    2. {: .section} [Production of Electromagnetic Waves](contents/ch24ProductionOfElectromagneticWaves.md)
-    3. {: .section} [The Electromagnetic Spectrum](contents/ch24TheElectromagneticSpectrum.md)
-    4. {: .section} [Energy in Electromagnetic Waves](contents/ch24EnergyInElectromagneticWaves.md)
+25. [Electromagnetic Waves](contents/ch24ElectromagneticWaves.md) {: .chapter}
+    1. [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](contents/ch24MaxwellsEquations.md) {: .section}
+    2. [Production of Electromagnetic Waves](contents/ch24ProductionOfElectromagneticWaves.md) {: .section}
+    3. [The Electromagnetic Spectrum](contents/ch24TheElectromagneticSpectrum.md) {: .section}
+    4. [Energy in Electromagnetic Waves](contents/ch24EnergyInElectromagneticWaves.md) {: .section}
 
-26. {: .chapter} [Geometric Optics](contents/ch25GeometricOptics.md)
-    1. {: .section} [The Ray Aspect of Light](contents/ch25TheRayAspectOfLight.md)
-    2. {: .section} [The Law of Reflection](contents/ch25TheLawOfReflection.md)
-    3. {: .section} [The Law of Refraction](contents/ch25TheLawOfRefraction.md)
-    4. {: .section} [Total Internal Reflection](contents/ch25TotalInternalReflection.md)
-    5. {: .section} [Dispersion: The Rainbow and Prisms](contents/ch25Dispersion.md)
-    6. {: .section} [Image Formation by Lenses](contents/ch25ImageFormationByLenses.md)
-    7. {: .section} [Image Formation by Mirrors](contents/ch25ImageFormationByMirrors.md)
+26. [Geometric Optics](contents/ch25GeometricOptics.md) {: .chapter}
+    1. [The Ray Aspect of Light](contents/ch25TheRayAspectOfLight.md) {: .section}
+    2. [The Law of Reflection](contents/ch25TheLawOfReflection.md) {: .section}
+    3. [The Law of Refraction](contents/ch25TheLawOfRefraction.md) {: .section}
+    4. [Total Internal Reflection](contents/ch25TotalInternalReflection.md) {: .section}
+    5. [Dispersion: The Rainbow and Prisms](contents/ch25Dispersion.md) {: .section}
+    6. [Image Formation by Lenses](contents/ch25ImageFormationByLenses.md) {: .section}
+    7. [Image Formation by Mirrors](contents/ch25ImageFormationByMirrors.md) {: .section}
 
-27. {: .chapter} [Vision and Optical Instruments](contents/ch26VisionAndOpticalInstruments.md)
-    1. {: .section} [Physics of the Eye](contents/ch26PhysicsOfTheEye.md)
-    2. {: .section} [Vision Correction](contents/ch26VisionCorrection.md)
-    3. {: .section} [Color and Color Vision](contents/ch26ColorAndColorVision.md)
-    4. {: .section} [Microscopes](contents/ch26Microscopes.md)
-    5. {: .section} [Telescopes](contents/ch26Telescopes.md)
-    6. {: .section} [Aberrations](contents/ch26Aberrations.md)
+27. [Vision and Optical Instruments](contents/ch26VisionAndOpticalInstruments.md) {: .chapter}
+    1. [Physics of the Eye](contents/ch26PhysicsOfTheEye.md) {: .section}
+    2. [Vision Correction](contents/ch26VisionCorrection.md) {: .section}
+    3. [Color and Color Vision](contents/ch26ColorAndColorVision.md) {: .section}
+    4. [Microscopes](contents/ch26Microscopes.md) {: .section}
+    5. [Telescopes](contents/ch26Telescopes.md) {: .section}
+    6. [Aberrations](contents/ch26Aberrations.md) {: .section}
 
-28. {: .chapter} [Wave Optics](contents/ch27WaveOptics.md)
-    1. {: .section} [The Wave Aspect of Light: Interference](contents/ch27WaveAspectOfLight.md)
-    2. {: .section} [Huygens\'s Principle: Diffraction](contents/ch27HuygensPrinciple.md)
-    3. {: .section} [Young’s Double Slit Experiment](contents/ch27YoungsDoubleSlitExperiment.md)
-    4. {: .section} [Multiple Slit Diffraction](contents/ch27MultipleSlitDiffraction.md)
-    5. {: .section} [Single Slit Diffraction](contents/ch27SingleSlitDiffraction.md)
-    6. {: .section} [Limits of Resolution: The Rayleigh Criterion](contents/ch27LimitsOfResolution.md)
-    7. {: .section} [Thin Film Interference](contents/ch27ThinFilmInterference.md)
-    8. {: .section} [Polarization](contents/ch27Polarization.md)
-    9. {: .section} [\*Extended Topic\* Microscopy Enhanced by the Wave Characteristics of Light](contents/ch27MicroscopyEnhancedByTheWaveCharacteristicsOfLight.md)
+28. [Wave Optics](contents/ch27WaveOptics.md) {: .chapter}
+    1. [The Wave Aspect of Light: Interference](contents/ch27WaveAspectOfLight.md) {: .section}
+    2. [Huygens\'s Principle: Diffraction](contents/ch27HuygensPrinciple.md) {: .section}
+    3. [Young’s Double Slit Experiment](contents/ch27YoungsDoubleSlitExperiment.md) {: .section}
+    4. [Multiple Slit Diffraction](contents/ch27MultipleSlitDiffraction.md) {: .section}
+    5. [Single Slit Diffraction](contents/ch27SingleSlitDiffraction.md) {: .section}
+    6. [Limits of Resolution: The Rayleigh Criterion](contents/ch27LimitsOfResolution.md) {: .section}
+    7. [Thin Film Interference](contents/ch27ThinFilmInterference.md) {: .section}
+    8. [Polarization](contents/ch27Polarization.md) {: .section}
+    9. [\*Extended Topic\* Microscopy Enhanced by the Wave Characteristics of Light](contents/ch27MicroscopyEnhancedByTheWaveCharacteristicsOfLight.md) {: .section}
 
-29. {: .chapter} [Special Relativity](contents/ch28SpecialRelativity.md)
-    1. {: .section} [Einstein’s Postulates](contents/ch28EinsteinsPostulate.md)
-    2. {: .section} [Simultaneity And Time Dilation](contents/ch28SimultaneityAndTimeDilation.md)
-    3. {: .section} [Length Contraction](contents/ch28LengthContraction.md)
-    4. {: .section} [Relativistic Addition of Velocities](contents/ch28RelativisticAdditionOfVelocities.md)
-    5. {: .section} [Relativistic Momentum](contents/ch28RelativisticMomentum.md)
-    6. {: .section} [Relativistic Energy](contents/ch28RelativisticEnergy.md)
+29. [Special Relativity](contents/ch28SpecialRelativity.md) {: .chapter}
+    1. [Einstein’s Postulates](contents/ch28EinsteinsPostulate.md) {: .section}
+    2. [Simultaneity And Time Dilation](contents/ch28SimultaneityAndTimeDilation.md) {: .section}
+    3. [Length Contraction](contents/ch28LengthContraction.md) {: .section}
+    4. [Relativistic Addition of Velocities](contents/ch28RelativisticAdditionOfVelocities.md) {: .section}
+    5. [Relativistic Momentum](contents/ch28RelativisticMomentum.md) {: .section}
+    6. [Relativistic Energy](contents/ch28RelativisticEnergy.md) {: .section}
 
-30. {: .chapter} [Introduction to Quantum Physics](contents/ch29QuantumPhysics.md)
-    1. {: .section} [Quantization of Energy](contents/ch29QuantizationOfEnergy.md)
-    2. {: .section} [The Photoelectric Effect](contents/ch29ThePhotoelectricEffect.md)
-    3. {: .section} [Photon Energies and the Electromagnetic Spectrum](contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md)
-    4. {: .section} [Photon Momentum](contents/ch29PhotonMomentum.md)
-    5. {: .section} [The Particle-Wave Duality](contents/ch29TheParticleWaveDuality.md)
-    6. {: .section} [The Wave Nature of Matter](contents/ch29TheWaveNatureOfMatter.md)
-    7. {: .section} [Probability: The Heisenberg Uncertainty Principle](contents/ch29Probability.md)
-    8. {: .section} [The Particle-Wave Duality Reviewed](contents/ch29ParticleWaveDualityReviewed.md)
+30. [Introduction to Quantum Physics](contents/ch29QuantumPhysics.md) {: .chapter}
+    1. [Quantization of Energy](contents/ch29QuantizationOfEnergy.md) {: .section}
+    2. [The Photoelectric Effect](contents/ch29ThePhotoelectricEffect.md) {: .section}
+    3. [Photon Energies and the Electromagnetic Spectrum](contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md) {: .section}
+    4. [Photon Momentum](contents/ch29PhotonMomentum.md) {: .section}
+    5. [The Particle-Wave Duality](contents/ch29TheParticleWaveDuality.md) {: .section}
+    6. [The Wave Nature of Matter](contents/ch29TheWaveNatureOfMatter.md) {: .section}
+    7. [Probability: The Heisenberg Uncertainty Principle](contents/ch29Probability.md) {: .section}
+    8. [The Particle-Wave Duality Reviewed](contents/ch29ParticleWaveDualityReviewed.md) {: .section}
 
-31. {: .chapter} [Atomic Physics](contents/ch30AtomicPhysics.md)
-    1. {: .section} [Discovery of the Atom](contents/ch30DiscoveryOfTheAtom.md)
-    2. {: .section} [Discovery of the Parts of the Atom: Electrons and Nuclei](contents/ch30DiscoveryOfThePartsOfTheAtom.md)
-    3. {: .section} [Bohr’s Theory of the Hydrogen Atom](contents/ch30BohrsTheoryOfTheHydrogenAtom.md)
-    4. {: .section} [X-Rays: Atomic Origins and Applications](contents/ch30XRays.md)
-    5. {: .section} [Applications of Atomic Excitations and De-Excitations](contents/ch30ApplicationOfAtomicExcitationsAndDeexcitations.md)
-    6. {: .section} [The Wave Nature of Matter Causes Quantization](contents/ch30TheWaveNatureOfMatterCausesQuantization.md)
-    7. {: .section} [Patterns in Spectra Reveal More Quantization](contents/ch30PatternsInSpectraRevealMoreQuantization.md)
-    8. {: .section} [Quantum Numbers and Rules](contents/ch30QuantumNumbersAndRules.md)
-    9. {: .section} [The Pauli Exclusion Principle](contents/ch30ThePauliExclusionPrinciple.md)
+31. [Atomic Physics](contents/ch30AtomicPhysics.md) {: .chapter}
+    1. [Discovery of the Atom](contents/ch30DiscoveryOfTheAtom.md) {: .section}
+    2. [Discovery of the Parts of the Atom: Electrons and Nuclei](contents/ch30DiscoveryOfThePartsOfTheAtom.md) {: .section}
+    3. [Bohr’s Theory of the Hydrogen Atom](contents/ch30BohrsTheoryOfTheHydrogenAtom.md) {: .section}
+    4. [X-Rays: Atomic Origins and Applications](contents/ch30XRays.md) {: .section}
+    5. [Applications of Atomic Excitations and De-Excitations](contents/ch30ApplicationOfAtomicExcitationsAndDeexcitations.md) {: .section}
+    6. [The Wave Nature of Matter Causes Quantization](contents/ch30TheWaveNatureOfMatterCausesQuantization.md) {: .section}
+    7. [Patterns in Spectra Reveal More Quantization](contents/ch30PatternsInSpectraRevealMoreQuantization.md) {: .section}
+    8. [Quantum Numbers and Rules](contents/ch30QuantumNumbersAndRules.md) {: .section}
+    9. [The Pauli Exclusion Principle](contents/ch30ThePauliExclusionPrinciple.md) {: .section}
 
-32. {: .chapter} [Radioactivity and Nuclear Physics](contents/ch31RadioactivityAndNuclearPhysics.md)
-    1. {: .section} [Nuclear Radioactivity](contents/ch31NuclearRadioactivity.md)
-    2. {: .section} [Radiation Detection and Detectors](contents/ch31RadiationDetectionAndDetectors.md)
-    3. {: .section} [Substructure of the Nucleus](contents/ch31SubstructureOfTheNucleus.md)
-    4. {: .section} [Nuclear Decay and Conservation Laws](contents/ch31NuclearDecayAndConservationLaws.md)
-    5. {: .section} [Half-Life and Activity](contents/ch31HalfLifeAndActivity.md)
-    6. {: .section} [Binding Energy](contents/ch31BindingEnergy.md)
-    7. {: .section} [Tunneling](contents/ch31Tunneling.md)
+32. [Radioactivity and Nuclear Physics](contents/ch31RadioactivityAndNuclearPhysics.md) {: .chapter}
+    1. [Nuclear Radioactivity](contents/ch31NuclearRadioactivity.md) {: .section}
+    2. [Radiation Detection and Detectors](contents/ch31RadiationDetectionAndDetectors.md) {: .section}
+    3. [Substructure of the Nucleus](contents/ch31SubstructureOfTheNucleus.md) {: .section}
+    4. [Nuclear Decay and Conservation Laws](contents/ch31NuclearDecayAndConservationLaws.md) {: .section}
+    5. [Half-Life and Activity](contents/ch31HalfLifeAndActivity.md) {: .section}
+    6. [Binding Energy](contents/ch31BindingEnergy.md) {: .section}
+    7. [Tunneling](contents/ch31Tunneling.md) {: .section}
 
-33. {: .chapter} [Medical Applications of Nuclear Physics](contents/ch32MedicalApplicationsOfNuclearPhysics.md)
-    1. {: .section} [Medical Imaging and Diagnostics](contents/ch32MedicalImagingAndDiagnostics.md)
-    2. {: .section} [Biological Effects of Ionizing Radiation](contents/ch32BiologicalEffectsAndIonizingRadiation.md)
-    3. {: .section} [Therapeutic Uses of Ionizing Radiation](contents/ch32TherapeuticUsesOfIonizingRadiation.md)
-    4. {: .section} [Food Irradiation](contents/ch32FoodIrradiation.md)
-    5. {: .section} [Fusion](contents/ch32Fusion.md)
-    6. {: .section} [Fission](contents/ch32Fission.md)
-    7. {: .section} [Nuclear Weapons](contents/ch32NuclearWeapons.md)
+33. [Medical Applications of Nuclear Physics](contents/ch32MedicalApplicationsOfNuclearPhysics.md) {: .chapter}
+    1. [Medical Imaging and Diagnostics](contents/ch32MedicalImagingAndDiagnostics.md) {: .section}
+    2. [Biological Effects of Ionizing Radiation](contents/ch32BiologicalEffectsAndIonizingRadiation.md) {: .section}
+    3. [Therapeutic Uses of Ionizing Radiation](contents/ch32TherapeuticUsesOfIonizingRadiation.md) {: .section}
+    4. [Food Irradiation](contents/ch32FoodIrradiation.md) {: .section}
+    5. [Fusion](contents/ch32Fusion.md) {: .section}
+    6. [Fission](contents/ch32Fission.md) {: .section}
+    7. [Nuclear Weapons](contents/ch32NuclearWeapons.md) {: .section}
 
-34. {: .chapter} [Particle Physics](contents/ch33ParticlePhysics.md)
-    1. {: .section} [The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited](contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited.md)
-    2. {: .section} [The Four Basic Forces](contents/ch33TheFourBasicForces.md)
-    3. {: .section} [Accelerators Create Matter from Energy](contents/ch33AcceleratorsCreateMatterFromEnergy.md)
-    4. {: .section} [Particles, Patterns, and Conservation Laws](contents/ch33ParticlesPatternsAndConservationLaws.md)
-    5. {: .section} [Quarks: Is That All There Is?](contents/ch33Quarks.md)
-    6. {: .section} [GUTs: The Unification of Forces](contents/ch33GUTS.md)
+34. [Particle Physics](contents/ch33ParticlePhysics.md) {: .chapter}
+    1. [The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited](contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited.md) {: .section}
+    2. [The Four Basic Forces](contents/ch33TheFourBasicForces.md) {: .section}
+    3. [Accelerators Create Matter from Energy](contents/ch33AcceleratorsCreateMatterFromEnergy.md) {: .section}
+    4. [Particles, Patterns, and Conservation Laws](contents/ch33ParticlesPatternsAndConservationLaws.md) {: .section}
+    5. [Quarks: Is That All There Is?](contents/ch33Quarks.md) {: .section}
+    6. [GUTs: The Unification of Forces](contents/ch33GUTS.md) {: .section}
 
-35. {: .chapter} [Frontiers of Physics](contents/ch34FrontiersOfPhysics.md)
-    1. {: .section} [Cosmology and Particle Physics](contents/ch34CosmologyAndParticlePhysics.md)
-    2. {: .section} [General Relativity and Quantum Gravity](contents/ch34GeneralRelativityAndQuantumTheory.md)
-    3. {: .section} [Superstrings](contents/ch34Superstrings.md)
-    4. {: .section} [Dark Matter and Closure](contents/ch34DarkMatterAndClosure.md)
-    5. {: .section} [Complexity and Chaos](contents/ch34ComplexityAndChaos.md)
-    6. {: .section} [High-temperature Superconductors](contents/ch34HighTemperatureSuperconductors.md)
-    7. {: .section} [Some Questions We Know to Ask](contents/ch34SomeQuestionsWeKnowToAsk.md)
+35. [Frontiers of Physics](contents/ch34FrontiersOfPhysics.md) {: .chapter}
+    1. [Cosmology and Particle Physics](contents/ch34CosmologyAndParticlePhysics.md) {: .section}
+    2. [General Relativity and Quantum Gravity](contents/ch34GeneralRelativityAndQuantumTheory.md) {: .section}
+    3. [Superstrings](contents/ch34Superstrings.md) {: .section}
+    4. [Dark Matter and Closure](contents/ch34DarkMatterAndClosure.md) {: .section}
+    5. [Complexity and Chaos](contents/ch34ComplexityAndChaos.md) {: .section}
+    6. [High-temperature Superconductors](contents/ch34HighTemperatureSuperconductors.md) {: .section}
+    7. [Some Questions We Know to Ask](contents/ch34SomeQuestionsWeKnowToAsk.md) {: .section}
 
-36. {: .appendix} [Useful Information](contents/appendixA.md)
-37. {: .appendix} [Glossary of Key Symbols and Notation](contents/appendixB.md)
+36. [Useful Information](contents/appendixA.md) {: .appendix}
+37. [Glossary of Key Symbols and Notation](contents/appendixB.md) {: .appendix}

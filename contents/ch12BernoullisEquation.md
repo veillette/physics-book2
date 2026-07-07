@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 2
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the terms in Bernoulli’s equation.
 * Explain how Bernoulli’s equation is related to conservation of energy.
 * Explain how to derive Bernoulli’s principle from Bernoulli’s equation.
 * Calculate with Bernoulli’s principle.
 * List some applications of Bernoulli’s principle.
-</div>
+
+:::
 
 When a fluid flows into a narrower channel, its speed increases. That means its
 kinetic energy also increases. Where does that change in kinetic energy come
@@ -45,13 +46,15 @@ tipped precariously toward one another.
 ![An overhead view of a car passing by a truck on a highway toward left is shown. The air passing through the vehicles is shown using lines along the length of both the vehicles. The lines representing the air movement has a velocity v one outside the area between the vehicles and velocity v two between the vehicles. v two is shown to be greater than v one with the help of a longer arrow toward right. The pressure between the car and the truck is represented by P i and the pressure at the other ends of both the vehicles is represented as P zero. The pressure P i is shown to be less than P zero by shorter length of the arrow. The direction of P i is shown as pushing the car and truck apart, and the direction of P zero is shown as pushing the car and truck toward each other.](../resources/Figure_12_02_01.jpg 'An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase its speed (( v_{2} ) is greater than ( v_{1} ) ), causing the pressure between them to drop (( P_{i} ) is less than ( P_{o} )). Greater pressure on the outside pushes the car and truck together.')
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation with a Sheet of Paper
 </div>
+
 Hold the short edge of a sheet of paper parallel to your mouth with one hand on each side of your mouth. The page should slant downward over your hands. Blow over the top of the page. Describe what happens and explain the reason for this behavior.
 
-</div>
+:::
 
 ### Bernoulli’s Equation
 
@@ -99,15 +102,17 @@ $$\text{N}\cdot {\text{m/m}}^{3}={\text{J/m}}^{3} $$ , or energy per unit
 volume. Bernoulli’s equation is, in fact, just a convenient statement of
 conservation of energy for an incompressible fluid in the absence of friction.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Conservation of Energy
 </div>
+
 Conservation of energy applied to fluid flow produces Bernoulli’s equation. The net work done by the fluid’s pressure results in changes in the fluid’s  $$\text{KE} $$
  and  $${\text{PE}}_{\text{g}} $$
  per unit volume. If other forms of energy are involved in fluid flow, Bernoulli’s equation can be modified to take these forms into account. Such forms of energy include thermal energy dissipated because of fluid viscosity.
 
-</div>
+:::
 
 The general form of Bernoulli’s equation has three terms in it, and it is
 broadly applicable. To understand it better, we will look at a number of
@@ -161,10 +166,12 @@ principle. For example, if $${v}_{2} $$ is greater than $${v}_{1} $$ in the
 equation, then $${P}_{2} $$ must be less than $${P}_{1} $$ for the equality to
 hold.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Pressure: Pressure Drops as a Fluid Speeds Up
 </div>
+
 In [[Example 2]](../contents/ch12FlowRateAndItsRelationsToVelocity#Example2), we found that the speed of water in a hose increased from 1.96 m/s to 25.5 m/s going from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$
  (atmospheric, as it must be) and assuming level, frictionless flow.
 
@@ -181,6 +188,7 @@ Solving Bernoulli’s principle for $${P}_{1} $$ yields
 <div class="equation" >
  $${P}_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}-\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho \left({v}_{2}^{2}-{v}_{1}^{2}\right)\text{.} $$
 </div>
+
 Substituting known values,
 
 <div class="equation" >
@@ -190,6 +198,7 @@ $$\begin{array}{lll}
 \left[ {\left(25.5 \text{m/s}\right)}^{2}-{\left(1.96 \text{m/s}\right)}^{2}\right] \\ 
 {P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This absolute pressure in the hose is greater than in the nozzle, as expected
@@ -197,7 +206,7 @@ since $$v $$ is greater in the nozzle. The pressure $${P}_{2} $$ in the nozzle
 must be atmospheric since it emerges into the atmosphere without other changes
 in conditions.
 
-</div>
+:::
 
 ### Applications of Bernoulli’s Principle
 
@@ -232,13 +241,15 @@ $${P}_{\text{front}} $$ , is lower than the pressure on the back of the sail,
 $${P}\_{\text{back}} $$ . This results in a forward force and even allows you to
 sail into the wind.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation with Two Strips of Paper
 </div>
+
 For a good illustration of Bernoulli’s principle, make two strips of paper, each about 15 cm long and 4 cm wide. Hold the small end of one strip up to your lips and let it drape over your finger. Blow across the paper. What happens? Now hold two strips of paper up to your lips, separated by your fingers. Blow between the strips. What happens?
 
-</div>
+:::
 
 #### Velocity measurement
 
@@ -302,11 +313,15 @@ speed indicators in aircraft.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can squirt water a considerably greater distance by placing your thumb over the end of a garden hose and then releasing, than by leaving it completely uncovered. Explain how this works.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the continuity equation and Bernoulli's principle to understand how restricting the opening affects water velocity.
@@ -322,15 +337,21 @@ Additionally, Bernoulli's principle explains that the pressure inside the hose i
 **Discussion**
 
 This is a practical demonstration of the continuity equation. The same flow rate through a smaller area requires higher velocity. This principle is used in many applications, from spray nozzles to jet engines.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water is shot nearly vertically upward in a decorative fountain and the stream is observed to broaden as it rises. Conversely, a stream of water falling straight down from a faucet narrows. Explain why, and discuss whether surface tension enhances or reduces the effect in each case.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the continuity equation considering that gravity affects the water's velocity as it rises or falls.
@@ -348,17 +369,23 @@ We apply the continuity equation considering that gravity affects the water's ve
 **Discussion**
 
 This explains why falling water streams eventually break into droplets—the stream continues to narrow until surface tension forces cause instabilities that break the continuous stream into discrete drops (Rayleigh instability).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Look back to [[Figure 1]](#Figure1). Answer the following two questions. Why is  $${P}_{\text{o}} $$
  less than atmospheric? Why is  $${P}_{\text{o}} $$
  greater than  $${P}_{\text{i}} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle, which states that where fluid velocity is higher, pressure is lower.
@@ -376,15 +403,21 @@ This pressure difference creates a net inward force that pushes the vehicles tow
 **Discussion**
 
 This effect is why passing trucks on highways can be hazardous—the pressure difference can cause a car to veer toward the truck. The faster the vehicles travel and the closer they are, the more pronounced this effect becomes.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of entrainment not mentioned in the text.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We identify a device or phenomenon that uses the Bernoulli principle to draw one fluid into a moving stream of another fluid.
@@ -408,15 +441,21 @@ Examples of entrainment not explicitly mentioned in the text include:
 **Discussion**
 
 All these devices exploit the same principle: a high-velocity fluid stream creates a region of low pressure that draws in another fluid. This is a direct application of Bernoulli's principle.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Many entrainment devices have a constriction, called a Venturi, such as shown in [[Figure 5]](#Figure5). How does this bolster entrainment?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to analyze how a constriction affects pressure and thus entrainment efficiency.
@@ -436,18 +475,24 @@ A Venturi constriction bolsters entrainment by maximizing the pressure drop at t
 **Discussion**
 
 The Venturi design optimizes entrainment by creating the maximum possible pressure differential. This is why carburetors, aspirators, and many industrial mixing devices use this characteristic shape. The degree of constriction can be adjusted to control the entrainment rate.
-</div>
+
+:::
+
 </div>
 
 ![Figure shows a venturi tube, a cylindrical tube broader at both the ends and narrow in the middle. The narrow part is labeled as venturi constriction. The flow of fluid is shown as horizontal arrows along the length of the tube toward the right. The flow lines are closer in the center and spread apart at both the ends. There is an opening on the top portion of the narrow section for the entrained fluid to enter.](../resources/Figure_12_02_05.jpg "A tube with a narrow segment designed to enhance entrainment is called a Venturi. These are very commonly used in carburetors and aspirators.")
 {: #Figure5}
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Some chimney pipes have a T-shape, with a crosspiece on top that helps draw up gases whenever there is even a slight breeze. Explain how this works in terms of Bernoulli's principle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to understand how horizontal wind creates a pressure drop at the chimney top.
@@ -466,15 +511,21 @@ The T-shape is particularly effective because:
 **Discussion**
 
 This is an elegant passive ventilation solution. Similar principles are used in rotating turbine vents on rooftops and in the design of natural ventilation systems for buildings.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is there a limit to the height to which an entrainment device can raise a fluid? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider the maximum pressure difference that can be created by the Bernoulli effect and compare it to the hydrostatic pressure required to lift a fluid column.
@@ -497,15 +548,21 @@ This is why suction pumps cannot lift water more than about 10 meters, regardles
 **Discussion**
 
 This limit of approximately 10 m for water explains why deep wells require submersible pumps or jet pumps rather than suction pumps at the surface. For denser fluids like mercury, the limit is much lower (about 76 cm), while for less dense fluids like gasoline, it's somewhat higher.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is it preferable for airplanes to take off into the wind rather than with the wind?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider how airspeed (not ground speed) determines lift, and how a headwind affects the required ground speed for takeoff.
@@ -531,15 +588,21 @@ Additional benefits of taking off into the wind:
 **Discussion**
 
 This is why airports have runways oriented to align with prevailing winds, and why pilots pay close attention to wind direction and speed when planning takeoffs and landings.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Roofs are sometimes pushed off vertically during a tropical cyclone, and buildings sometimes explode outward when hit by a tornado. Use Bernoulli's principle to explain these phenomena.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to compare pressures inside and outside buildings during high-wind events.
@@ -565,15 +628,21 @@ This pressure difference pushes outward on all walls and the roof simultaneously
 **Discussion**
 
 This is why it was once (incorrectly) recommended to open windows during tornadoes—to equalize pressure. However, modern advice is to seek shelter immediately, as the primary danger is from flying debris, not pressure differences. Opening windows actually allows wind and debris to enter and can make structural damage worse.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does a sailboat need a keel?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the forces on a sailboat to understand why a keel is necessary for sailing, particularly when sailing at an angle to the wind.
@@ -597,15 +666,21 @@ The keel itself works somewhat like an underwater wing. When the boat moves forw
 **Discussion**
 
 This is why sailboats can sail "into the wind" (at an angle up to about 45° from the wind direction). The combination of the sail generating force from the wind and the keel preventing sideways slip allows the boat to convert wind energy into forward motion even when heading partially upwind.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 It is dangerous to stand close to railroad tracks when a rapidly moving commuter train passes. Explain why atmospheric pressure would push you toward the moving train.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to analyze the pressure difference created by the fast-moving air near the train.
@@ -627,15 +702,21 @@ For a person with a cross-sectional area of about 0.5 m², this creates a force 
 **Discussion**
 
 This effect is one reason why safety lines and barriers are placed at train platforms. The danger is particularly acute for lighter objects (children, luggage, newspapers) and increases dramatically with train speed since the force scales with $$v^2$$.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water pressure inside a hose nozzle can be less than atmospheric pressure due to the Bernoulli effect. Explain in terms of energy how the water can emerge from the nozzle against the opposing atmospheric pressure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply conservation of energy (Bernoulli's equation) to track how energy transforms as water moves through the system.
@@ -663,18 +744,24 @@ Think of it like a ball thrown upward: even though gravity opposes its motion, t
 **Discussion**
 
 This is why nozzles work so effectively—they convert pressure energy to kinetic energy. The water emerges at high speed with enough momentum to travel a significant distance through the air.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A perfume bottle or atomizer sprays a fluid that is in the bottle. ([[Figure 6]](#Figure6).) How does the fluid rise up in the vertical tube in the bottle?
 
 ![A perfume bottle with a spray cap.](../resources/Figure_12_02_06.jpg "Atomizer: perfume bottle with tube to carry perfume up through the bottle. (credit: Antonia Foy, Flickr)")
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to explain how the horizontal air flow creates suction that draws liquid up the tube.
@@ -702,15 +789,21 @@ This is a classic example of entrainment. The same principle is used in:
 - Carburetors (fuel atomization)
 - Medical nebulizers
 - Garden sprayers
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you lower the window on a car while moving, an empty plastic bag can sometimes fly out the window. Why does this happen?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to compare the pressure inside and outside the moving car.
@@ -734,17 +827,23 @@ This pressure difference pushes air (and light objects like plastic bags) from t
 **Discussion**
 
 This is why you feel air rushing out of a car when you first open a window at highway speeds—the higher inside pressure equalizes with the lower outside pressure. The same effect makes it harder to close a car door when a window on the opposite side is open.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that pressure has units of energy per unit volume.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the fundamental units of pressure and show they are equivalent to energy per unit volume through dimensional analysis.
@@ -766,15 +865,21 @@ $$[P] = \frac{\text{J}}{\text{m}^3} = \frac{\text{energy}}{\text{volume}}$$
 **Discussion**
 
 This result is important because it shows that each term in Bernoulli's equation ($$P$$, $$\frac{1}{2}\rho v^2$$, and $$\rho gh$$) has units of energy per unit volume, confirming that Bernoulli's equation is a statement of energy conservation. Pressure can be thought of as "pressure energy" per unit volume available to do work on the fluid.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a wind speed gauge like the pitot tube shown in [[Example 2]](../contents/ch12FlowRateAndItsRelationsToVelocity#Example2(b). By what factor must wind speed increase to double the value of $$h $$ in the manometer? Is this independent of the moving fluid and the fluid in the manometer?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship between manometer height $$h$$ and fluid velocity from Bernoulli's principle. The pressure difference measured by the manometer is proportional to $$v^2$$.
@@ -809,15 +914,21 @@ The factor $$\sqrt{2}$$ is independent of both the moving fluid density $$\rho$$
 **Discussion**
 
 The wind speed must increase by a factor of $$\sqrt{2} \approx 1.41$$ (about 41%) to double the manometer reading. This square-root relationship means that pitot tubes become less sensitive at higher speeds—small changes in $$h$$ correspond to larger changes in $$v$$.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the pressure reading of your pitot tube is 15.0 mm Hg at a speed of 200 km/h, what will it be at 700 km/h at the same altitude?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Since the pressure difference in a pitot tube is proportional to $$v^2$$, we can use the ratio of velocities squared to find the new pressure reading.
@@ -841,15 +952,21 @@ $$h_2 = 184 \text{ mm Hg}$$
 **Discussion**
 
 The pressure reading at 700 km/h is **184 mm Hg**. The velocity increased by a factor of 3.5, but the pressure reading increased by a factor of 12.25 (which is 3.5²). This illustrates the quadratic relationship between velocity and the dynamic pressure measured by a pitot tube. The new reading of 184 mm Hg is about 24.5 kPa, a substantial pressure that pilots and instrumentation must account for.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the maximum height to which water could be squirted with the hose in [[Example 2]](../contents/ch12FlowRateAndItsRelationsToVelocity#Example2) example if it: (a) Emerges from the nozzle. (b) Emerges with the nozzle removed, assuming the same flow rate.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use energy conservation (Bernoulli's equation). At the maximum height, all kinetic energy is converted to gravitational potential energy. From Example 2 in the previous section, the nozzle velocity is 25.5 m/s and the hose velocity is 1.96 m/s.
@@ -869,18 +986,24 @@ $$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84}{19.
 **Discussion**
 
 Water from the nozzle can reach a maximum height of **(a) 33.2 m** (about 109 feet), while without the nozzle it can only reach **(b) 0.20 m** (about 8 inches). The nozzle increases the exit velocity by a factor of 13, which increases the maximum height by a factor of 13² ≈ 169. This dramatic difference demonstrates why fire hoses use nozzles to reach upper floors of buildings.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Every few years, winds in Boulder, Colorado, attain sustained speeds of 45.0 m/s (about 100 mi/h) when the jet stream descends during early spring. Approximately what is the force due to the Bernoulli effect on a roof having an area of  $$220 {\text{m}}^{2} $$ ?
  Typical air density in Boulder is  $$1.14 {\text{kg/m}}^{3} $$ ,
  and the corresponding atmospheric pressure is  $$ 8.89 \times 10^{4}  {\text{N/m}}^{2} $$ .
  (Bernoulli's principle as stated in the text assumes laminar flow. Using the principle here produces only an approximate result, because there is significant turbulence.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle comparing the fast-moving air above the roof to the still air inside the building. The pressure difference creates an upward force on the roof.
@@ -903,16 +1026,22 @@ $$F = \Delta P \times A = (1154 \text{ N/m}^2)(220 \text{ m}^2) = 2.54 \times 10
 **Discussion**
 
 The force due to the Bernoulli effect on the roof is approximately **2.54 × 10⁵ N** (about 57,000 pounds or 28.5 tons). This enormous upward force explains why roofs can be lifted off buildings during high-wind events. Since this force exceeds the weight of many residential roofs, proper anchoring is essential in areas prone to severe winds. Note that this is an approximation since real wind flow involves significant turbulence.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the approximate force on a square meter of sail, given the horizontal velocity of the wind is 6.00 m/s parallel to its front surface and 3.50 m/s along its back surface. Take the density of air to be  $$1.29 \text{kg}{\text{/m}}^{3} $$ .
  (The calculation, based on Bernoulli's principle, is approximate due to the effects of turbulence.) (b) Discuss whether this force is great enough to be effective for propelling a sailboat.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle to find the pressure difference between the front and back surfaces of the sail, then calculate the resulting force.
@@ -946,15 +1075,21 @@ This force of about 300 N (68 pounds) is certainly sufficient to propel a small 
 **Discussion**
 
 The force on a square meter of sail is approximately **(a) 15.3 N**. **(b)** Yes, this force is effective for propelling a sailboat. A typical sail of 15-20 m² would experience about 230-310 N of force, which is adequate for moving a small boat efficiently through water where drag forces are relatively low.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the pressure drop due to the Bernoulli effect as water goes into a 3.00-cm-diameter nozzle from a 9.00-cm-diameter fire hose while carrying a flow of 40.0 L/s? (b) To what maximum height above the nozzle can this water rise? (The actual height will be significantly smaller due to air resistance.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We first calculate the velocities in the hose and nozzle using continuity, then apply Bernoulli's equation to find the pressure drop.
@@ -991,23 +1126,30 @@ $$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)
 **Discussion**
 
 The pressure drop is **(a) 1.58 × 10⁶ N/m²** (about 16 atmospheres), and the water can theoretically rise to **(b) 163 m** (535 feet). This remarkable height explains why fire hoses can reach the upper floors of tall buildings. In practice, air resistance significantly reduces this height, but the calculation shows the tremendous energy available from the high-pressure water supply.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using Bernoulli's equation, show that the measured fluid speed $$v $$ for a pitot tube, like the one in [[Figure 3]](#Figure3)(b), is given by
 
 <div class="equation" >
  $$v={\left(\frac{2\rho^{\prime} gh}{\rho }\right)}^{1/2}, $$
 </div>
+
 where  $$h $$
  is the height of the manometer fluid,  $$\rho^{\prime}  $$
  is the density of the manometer fluid,  $$\rho  $$
  is the density of the moving fluid, and   $$g $$ is the acceleration due to gravity. (Note that   $$v $$ is indeed proportional to the square root of   $$h $$, as stated in the text.) (b) Calculate  $$v $$  for moving air if a mercury manometer's  $$h $$  is 0.200 m.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We apply Bernoulli's equation at two points: one where flow is stagnant ($$v_1 = 0$$) and one where flow has velocity $$v$$. The pressure difference is measured by the manometer.
@@ -1055,10 +1197,13 @@ $$v = \sqrt{\frac{53,312}{1.29}} = \sqrt{41,327} = 203 \text{ m/s}$$
 **Discussion**
 
 **(a)** The derivation shows that velocity is proportional to $$\sqrt{h}$$, confirming the text's statement. **(b)** For a 0.200 m mercury column, the air velocity is approximately **203 m/s** (about 730 km/h or Mach 0.59). This high velocity is reasonable since mercury is very dense compared to air (ratio of about 10,500:1), so even a small column of mercury corresponds to a large dynamic pressure from high-speed air.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1071,4 +1216,4 @@ Bernoulli’s principle
 
 $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 
-</div>
+:::

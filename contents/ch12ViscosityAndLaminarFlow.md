@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 4
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define laminar flow and turbulent flow.
 * Explain what viscosity is.
 * Calculate flow and resistance with Poiseuille’s law.
 * Explain how pressure drops due to resistance.
-</div>
+
+:::
 
 ### Laminar Flow and Viscosity
 
@@ -50,13 +51,15 @@ section, leaving certain aspects of turbulence for later sections.
 ![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_12_04_02.jpg '(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment: Go Down to the River
 </div>
+
 Try dropping simultaneously two sticks into a flowing river, one near the edge of the river and one near the middle. Which one travels faster? Why?
 
-</div>
+:::
 
 [[Figure 3]](#Figure3) shows how viscosity is measured for a fluid. Two parallel
 plates have the specific fluid between them. The bottom plate is held fixed,
@@ -169,10 +172,12 @@ Taken together, $$Q=\frac{ {P}_{2}-{P}_{1}}{R} $$ and $$R=\frac{8\eta l}{\pi {r}
 This equation describes laminar flow through a tube. It is sometimes called
 Poiseuille’s law for laminar flow, or simply **Poiseuille’s law**.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Using Flow Rate: Plaque Deposits Reduce Blood Flow
 </div>
+
 Suppose the flow rate of blood in a coronary artery has been reduced to half its normal value by plaque deposits. By what factor has the radius of the artery been reduced, assuming no turbulence occurs?
 
 **Strategy**
@@ -182,6 +187,7 @@ Assuming laminar flow, Poiseuille's law states that
 <div class="equation">
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi r^{4}}{8\eta l}\text{.}$$
 </div>
+
 We need to compare the artery radius before and after the flow rate reduction.
 
 **Solution**
@@ -192,6 +198,7 @@ along the artery we have
 <div class="equation" >
  $$\frac{ {Q}_{1}}{ {r}_{1}^{4}}=\frac{ {Q}_{2}}{ {r}_{2}^{4}}\text{.}$$
 </div>
+
 So, given that  $${Q}_{2}= 0.5{Q}_{1} $$ ,
  we find that  $${r}_{2}^{4}=0.5r_{1}^{4} $$.
 
@@ -205,7 +212,7 @@ blood flow in spite of this buildup would require an increase in the pressure
 difference $$\left({P}_{2}-{P}_{1}\right) $$ of a factor of two, with subsequent
 strain on the heart.
 
-</div>
+:::
 
 <table id="Table1" aria-describedby="Coefficients of Viscosity of Various Fluids"><caption><span class="title">Coefficients of Viscosity of Various Fluids</span></caption><thead><tr>
             <th>Fluid</th>
@@ -354,10 +361,12 @@ greater to pump the same amount of cold oil.
 ![The figure shows a section of a cylindrical tube of length l. The two end cross section are shown to have pressure P two and P one respectively. The radius of the cylindrical tube is given by r. The direction of flow is shown by horizontal arrows toward right end of the tube. The flow rate is marked as Q.](../resources/Figure_12_04_05.jpg "Poiseuille&#x2019;s law applies to laminar flow of an incompressible fluid of viscosity \( \eta \) through a tube of length \( l \) and radius \( r \). The direction of flow is from greater to lower pressure. Flow rate \( Q \) is directly proportional to the pressure difference \( P_2-P_1 \) , and inversely proportional to the length \( l \) of the tube and viscosity \( \eta \) of the fluid. Flow rate increases with \( r^4 \), the fourth power of the radius.")
 {: #Figure5}
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 What Pressure Produces This Flow Rate?
 </div>
+
 An intravenous (IV) system is supplying saline solution to a patient at the rate of  $$ 0.120 {\text{cm}}^{3}\text{/s} $$
  through a needle of radius 0.150 mm and length 2.50 cm. What pressure is needed at the entrance of the needle to cause this flow, assuming the viscosity of the saline solution to be the same as that of water? The gauge pressure of the blood in the patient’s vein is 8.00 mm Hg. (Assume that the temperature is  $$20 \text{ºC} $$ .)
 
@@ -368,6 +377,7 @@ Assuming laminar flow, Poiseuille's law applies. This is given by
 <div class="equation" >
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi {r}^{4}}{8\eta l}\text{,}$$
 </div>
+
 where  $${P}_{2} $$
  is the pressure at the entrance of the needle and  $${P}_{1} $$
  is the pressure in the vein. The only unknown is  $${P}_{2} $$.
@@ -379,6 +389,7 @@ Solving for $${P}_{2} $$ yields
 <div class="equation" >
  $${P}_{2}=\frac{8\eta l}{ \pi r^{4}}Q+{P}_{1}\text{.}$$
 </div>
+
  $${P}_{1} $$
  is given as 8.00 mm Hg, which converts to  $$ 1.066 \times 10^{3}  {\text{N/m}}^{2} $$ .
  Substituting this and the other known values yields
@@ -387,6 +398,7 @@ Solving for $${P}_{2} $$ yields
  $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3} \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2} \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3} \text{m} \right)}^{4}}\right] \left( 1.20 \times 10^{-7} {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3} {\text{N/m}}^{2}\\ {P}_{2}& =& 1.62 \times 10^{4} {\text{N/m}}^{2}\text{.}\end{array}$$
 
 </div>
+
 **Discussion**
 
 This pressure could be supplied by an IV bottle with the surface of the saline
@@ -394,7 +406,7 @@ solution 1.61 m above the entrance to the needle (this is left for you to solve
 in this chapter’s Problems and Exercises), assuming that there is negligible
 pressure drop in the tubing leading to the needle.
 
-</div>
+:::
 
 ### Flow and Resistance as Causes of Pressure Drops
 
@@ -501,11 +513,15 @@ substances with the cells in the capillaries and alveoli in particular.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why the viscosity of a liquid decreases with temperature—that is, how might increased temperature reduce the effects of cohesive forces in a liquid? Also explain why the viscosity of a gas increases with temperature—that is, how does increased gas temperature create more collisions between atoms and molecules?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider the molecular mechanisms that cause viscosity in liquids versus gases, and how temperature affects these mechanisms differently.
@@ -529,15 +545,21 @@ In gases, molecules are far apart, so cohesive forces are negligible. Instead, v
 **Discussion**
 
 This opposite temperature dependence is a key distinction between liquids and gases. It has practical implications: motor oil thins when hot (problematic for lubrication), while hot exhaust gases are more viscous (affects engine performance).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When paddling a canoe upstream, it is wisest to travel as near to the shore as possible. When canoeing downstream, it may be best to stay near the middle. Explain why.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider how the velocity profile in a river varies from shore to center due to viscous drag on the riverbed and banks.
@@ -557,15 +579,21 @@ You want to maximize the current helping you. By staying in the middle where the
 **Discussion**
 
 This is a practical application of understanding the velocity profile in viscous flow. The same principle applies to swimmers, kayakers, and even fish—they instinctively use these patterns for efficient movement in rivers.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does flow decrease in your shower when someone flushes the toilet?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the relationship between pressure, flow rate, and resistance in a plumbing system where multiple fixtures share a common supply.
@@ -585,18 +613,24 @@ Additionally, if the toilet fills from a cold water line while the shower uses h
 **Discussion**
 
 This is why modern plumbing codes require larger supply pipes and pressure-balancing valves in showers. Pressure-balancing valves automatically adjust to maintain constant flow regardless of pressure fluctuations elsewhere in the system.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
 ![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider the physics of water hammer and how a compressible gas (air) can absorb pressure surges.
@@ -621,20 +655,26 @@ When a faucet is quickly closed, the moving water must stop abruptly. Water is n
 **Discussion**
 
 Air chambers are simple, passive devices that prevent water hammer without requiring any moving parts. However, over time, air can dissolve into the water, reducing effectiveness—this is why plumbers sometimes need to drain pipes to restore the air cushion, or install mechanical water hammer arrestors with sealed air chambers.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the retarding force due to the viscosity of the air layer between a cart and a level air track given the following information—air temperature is  $$20 \text{ºC} $$ ,
  the cart is moving at 0.400 m/s, its surface area is  $$ 2.50 \times 10^{-2}  {\text{m}}^{2} $$ ,
  and the thickness of the air layer is  $$ 6.00 \times 10^{-5}  \text{m} $$ .
  (b) What is the ratio of this force to the weight of the 0.300-kg cart?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ where $$\eta$$ is the viscosity of air at 20°C.
@@ -661,16 +701,22 @@ $$\text{Ratio} = \frac{F}{W} = \frac{3.02 \times 10^{-3} \text{ N}}{2.94 \text{ 
 **Discussion**
 
 The viscous retarding force is **(a) 3.02 × 10⁻³ N**, and the ratio to the cart's weight is **(b) 1.03 × 10⁻³** (about 0.1%). This very small ratio explains why air tracks are excellent for demonstrating nearly frictionless motion—the air cushion reduces friction by about three orders of magnitude compared to solid contact.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What force is needed to pull one microscope slide over another at a speed of 1.00 cm/s, if there is a 0.500-mm-thick layer of  $$20 \text{ºC} $$
  water between them and the contact area is  $$8.00 {\text{cm}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ with the viscosity of water at 20°C.
@@ -691,16 +737,22 @@ $$F = (1.002 \times 10^{-3}) \frac{8.00 \times 10^{-6}}{5.00 \times 10^{-4}} = (
 **Discussion**
 
 The force needed is approximately **1.60 × 10⁻⁵ N** (16 micronewtons). This very small force demonstrates why water is an effective lubricant for microscope slides—even a thin layer of water dramatically reduces the friction compared to dry sliding contact.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A glucose solution being administered with an IV has a flow rate of  $$ 4.00 {\text{cm}}^{3}\text{/min} $$ .
  What will the new flow rate be if the glucose is replaced by whole blood having the same density but a viscosity 2.50 times that of the glucose? All other factors remain constant.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, flow rate is inversely proportional to viscosity when all other factors are constant.
@@ -721,15 +773,21 @@ $$Q_2 = Q_1 \times \frac{\eta_1}{\eta_2} = Q_1 \times \frac{1}{2.50} = \frac{4.0
 **Discussion**
 
 The new flow rate is **1.60 cm³/min**. This illustrates why blood transfusions require careful attention to flow rates—blood's higher viscosity (about 3 times that of water) means it flows more slowly than other IV fluids under the same conditions. Higher pressure or larger needles may be needed to achieve adequate flow rates.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The pressure drop along a length of artery is 100 Pa, the radius is 10 mm, and the flow is laminar. The average speed of the blood is 15 mm/s. (a) What is the net force on the blood in this section of artery? (b) What is the power expended maintaining the flow?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) The net force equals the pressure difference times the cross-sectional area.
@@ -757,18 +815,24 @@ $$P = \Delta P \times Q = (100 \text{ Pa})(4.71 \times 10^{-6} \text{ m}^3/\text
 **Discussion**
 
 The net force on the blood is **(a) 3.14 × 10⁻² N** (about 31 millinewtons), and the power expended is **(b) 4.71 × 10⁻⁴ W** (about 0.47 milliwatts). These small values for a single artery segment multiply across the thousands of vessels in the body, explaining why the heart must continuously supply significant power to maintain blood circulation.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A small artery has a length of  $$ 1.1 \times 10^{-3}  \text{m} $$
  and a radius of  $$ 2.5 \times 10^{-5}  \text{m} $$ .
  If the pressure drop across the artery is 1.3 kPa, what is the flow rate through the artery? (Assume that the temperature is <span> $$37 \text{ºC} $$ .)
 </span>
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use Poiseuille's law to calculate the flow rate given the pressure drop, dimensions, and viscosity of blood at body temperature.
@@ -793,16 +857,22 @@ $$Q = 8.7 \times 10^{-11} \text{ m}^3/\text{s}$$
 **Discussion**
 
 The flow rate through this small artery is approximately **8.7 × 10⁻¹¹ m³/s** (0.087 nanoliters per second). This extremely small flow rate is typical for arterioles—individually they carry very little blood, but collectively the millions of small vessels distribute blood throughout the body's tissues.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Fluid originally flows through a tube at a rate of  $$100 {\text{cm}}^{3}\text{/s} $$ .
  To illustrate the sensitivity of flow rate to various factors, calculate the new flow rate for the following changes with all other factors remaining the same as in the original conditions. (a) Pressure difference increases by a factor of 1.50. (b) A new fluid with 3.00 times greater viscosity is substituted. (c) The tube is replaced by one having 4.00 times the length. (d) Another tube is used with a radius 0.100 times the original. (e) Yet another tube is substituted with a radius 0.100 times the original and half the length, *and* the pressure difference is increased by a factor of 1.50.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$, we analyze how $$Q$$ scales with each parameter.
@@ -831,15 +901,21 @@ $$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = 100 \times 0.000
 **Discussion**
 
 The new flow rates are **(a) 150**, **(b) 33.3**, **(c) 25.0**, **(d) 0.0100**, and **(e) 0.0300 cm³/s**. The dramatic effect of radius (fourth power!) is clearly shown in parts (d) and (e)—reducing the radius to 1/10 reduces flow by a factor of 10,000. This explains why even small changes in blood vessel diameter have profound effects on blood flow.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The arterioles (small arteries) leading to an organ, constrict in order to decrease flow to the organ. To shut down an organ, blood flow is reduced naturally to 1.00% of its original value. By what factor did the radii of the arterioles constrict? Penguins do this when they stand on ice to reduce the blood flow to their feet.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, flow rate is proportional to $$r^4$$. We find the radius ratio that reduces flow to 1% of original.
@@ -861,15 +937,21 @@ $$x = (0.0100)^{1/4} = (0.0100)^{0.25} = 0.316$$
 **Discussion**
 
 The radii constricted to **0.316** (or about 31.6%) of their original value. This means the arterioles narrowed to less than one-third of their normal diameter, which reduced flow to just 1% of normal. This remarkable ability to regulate blood flow is crucial for penguins and other animals that must conserve body heat while standing on ice—reducing blood flow to extremities prevents heat loss while keeping vital organs warm.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Angioplasty is a technique in which arteries partially blocked with plaque are dilated to increase blood flow. By what factor must the radius of an artery be increased in order to increase blood flow by a factor of 10?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, flow rate scales as $$r^4$$. We find the radius factor needed to increase flow by a factor of 10.
@@ -890,15 +972,21 @@ $$x = 10^{1/4} = 10^{0.25} = 1.78$$
 **Discussion**
 
 The radius must be increased by a factor of **1.78** (about 78% larger) to increase blood flow by a factor of 10. This demonstrates the power of the $$r^4$$ relationship—a relatively modest increase in radius produces a dramatic increase in flow. This is why angioplasty (which typically increases vessel diameter by inserting a balloon or stent) can be so effective at restoring blood flow even when it doesn't fully restore the original vessel size.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Suppose a blood vessel's radius is decreased to 90.0% of its original value by plaque deposits and the body compensates by increasing the pressure difference along the vessel to keep the flow rate constant. By what factor must the pressure difference increase? (b) If turbulence is created by the obstruction, what additional effect would it have on the flow rate?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) From Poiseuille's law, for constant Q with changed radius, we find how pressure must change.
@@ -925,23 +1013,30 @@ $$\frac{\Delta P_2}{\Delta P_1} = \frac{r_1^4}{r_2^4} = \frac{r_1^4}{(0.90 r_1)^
 **Discussion**
 
 The pressure difference must increase by a factor of **(a) 1.52** (a 52% increase). **(b)** Turbulence makes matters worse—it decreases flow efficiency and requires even higher pressure to maintain flow, creating a dangerous cycle that can lead to hypertension and increased cardiovascular risk.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A spherical particle falling at a terminal speed in a liquid must have the gravitational force balanced by the drag force and the buoyant force. The buoyant force is equal to the weight of the displaced fluid, while the drag force is assumed to be given by Stokes Law,  $${F}_{s}=6\pi r\eta v $$ .
  Show that the terminal speed is given by
 
 <div class="equation" >
  $$v=\frac{ {2R}^{2}g}{9\eta }\left({\rho }_{\text{s}}-{\rho }_{1}\right), $$
 </div>
+
 where  $$R $$  is the radius of the sphere,  $${\rho }_{\text{s}} $$
  is its density, and  $${\rho }_{1} $$
  is the density of the fluid and  $$\eta  $$  the coefficient of viscosity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 At terminal velocity, the net force on the sphere is zero. We set up the force balance equation with gravitational force (downward), buoyant force (upward), and Stokes drag force (upward), then solve for velocity.
@@ -978,15 +1073,21 @@ $$v = \frac{2R^2 g}{9\eta}(\rho_s - \rho_1)$$
 **Discussion**
 
 This elegant result shows that terminal velocity is proportional to the square of the particle radius ($$v \propto R^2$$), inversely proportional to viscosity, and directly proportional to the density difference. This explains why fine particles settle much more slowly than large ones—halving the radius reduces terminal velocity by a factor of four. The formula is widely used in sedimentation analysis, centrifuge calculations, and understanding atmospheric particle behavior.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the equation of the previous problem, find the viscosity of motor oil in which a steel ball of radius 0.8 mm falls with a terminal speed of 4.32 cm/s. The densities of the ball and the oil are 7.86 and 0.88 g/mL, respectively.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the terminal velocity formula derived in the previous problem and solve for viscosity $$\eta$$.
@@ -1019,17 +1120,23 @@ $$\eta = 225 \text{ mPa·s}$$
 **Discussion**
 
 The viscosity of this motor oil is approximately **225 mPa·s** (or 0.225 Pa·s). This is consistent with motor oil at around 30°C—comparing to Table 1, SAE 10 motor oil at 30°C has a viscosity of 200 mPa·s, so our calculated value is very reasonable. The experiment demonstrates how terminal velocity measurements can be used to determine viscosity, a technique commonly used in quality control for lubricants.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A skydiver will reach a terminal velocity when the air drag equals their weight. For a skydiver with high speed and a large body, turbulence is a factor. The drag force then is approximately proportional to the square of the velocity. Taking the drag force to be  $${F}_{\text{D}}=\frac{1}{2}\rho Av^{2} $$
  and setting this equal to the person's weight, find the terminal speed for a person falling "spread eagle." Find both a formula and a number for  $${v}_{\text{t}} $$ ,
  with assumptions as to size.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 At terminal velocity, the drag force equals the weight. We set $$F_D = mg$$ and solve for velocity, then estimate numerical values using reasonable assumptions about a person's mass and cross-sectional area.
@@ -1064,17 +1171,23 @@ $$v_t = 40.3 \text{ m/s} \approx 145 \text{ km/h or } 90 \text{ mph}$$
 **Discussion**
 
 The terminal velocity formula is $$v_t = \sqrt{\frac{2\text{ mg}}{\rho A}}$$, and for a typical skydiver in spread-eagle position, the terminal velocity is approximately **40\text{ m}/s** (about 90\text{ mph}). This matches real-world skydiving experience—skydivers falling belly-down reach terminal velocities of 50-60\text{ m}/s. By tucking into a pike position (head-first, arms at sides), a skydiver reduces $$A$$ to about 0.15\text{ m}², increasing terminal velocity to over 90\text{ m}/s (200\text{ mph}), which is why position control is crucial for skydiving. Note that $$v_t \propto \sqrt{m/A}$$, so heavier skydivers or those in more streamlined positions fall faster.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A layer of oil 1.50 mm thick is placed between two microscope slides. Researchers find that a force of  $$ 5.50 \times 10^{-4}  \text{N} $$
  is required to glide one over the other at a speed of 1.00 cm/s when their contact area is  $$ 6.00 {\text{cm}}^{2} $$ .
  What is the oil's viscosity? What type of oil might it be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ and solve for $$\eta$$, then compare to Table 1 to identify the oil type.
@@ -1107,15 +1220,21 @@ Comparing to Table 1, olive oil at 20°C has a viscosity of 138 mPa·s, which ma
 **Discussion**
 
 The oil's viscosity is **0.138 Pa·s (or 138 mPa·s)**, and it is most likely **olive oil**. The close match with tabulated values validates the experimental technique. This method of measuring viscosity by sliding surfaces is fundamental to tribology (the study of friction and lubrication). Olive oil's moderate viscosity makes it useful for both cooking and as a historical lubricant, though modern applications typically use specialized oils.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Verify that a 19.0% decrease in laminar flow through a tube is caused by a 5.00% decrease in radius, assuming that all other factors remain constant, as stated in the text. (b) What increase in flow is obtained from a 5.00% increase in radius, again assuming all other factors remain constant?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, flow rate is proportional to $$r^4$$ when all other factors are constant. We calculate the flow ratio for both a 5% decrease and 5% increase in radius.
@@ -1158,16 +1277,22 @@ $$\frac{\Delta Q}{Q_1} \times 100\% = 21.55\% \approx 21.6\%$$
 **Discussion**
 
 **(a)** A 5.00% decrease in radius causes a **19.0% decrease in flow**, confirming the text's statement. **(b)** A 5.00% increase in radius causes a **21.6% increase in flow**. Note the asymmetry: a 5% increase produces a slightly larger percentage change (21.6%) than a 5% decrease (19.0%). This occurs because of the fourth-power relationship—percentage changes are not symmetric about the original value. The dramatic sensitivity to radius ($$r^4$$ dependence) explains why blood vessel dilation and constriction are such effective mechanisms for regulating blood flow: small diameter changes produce large flow changes.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Example 2]](#Example2) dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of  $$ 1.62 \times 10^{4}  {\text{N/m}}^{2} $$
  is created at a depth of 1.61 m in a saline solution, assuming its density to be that of sea water. (b) Calculate the new flow rate if the height of the saline solution is decreased to 1.50 m. (c) At what height would the direction of flow be reversed? (This reversal can be a problem when patients stand up.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use the pressure-depth relationship $$P = \rho g h$$ for gauge pressure. (b) We use Poiseuille's law with the new pressure difference. (c) Flow reverses when the IV bag pressure equals the vein pressure.
@@ -1219,15 +1344,21 @@ $$h = 0.106 \text{ m} = 10.6 \text{ cm}$$
 **Discussion**
 
 **(a)** The pressure is confirmed as **1.62 × 10⁴ N/m²**. **(b)** Reducing the height to 1.50 m decreases flow to **0.111 cm³/s**, about 7.5% less than the original. **(c)** Flow reverses at a height of **10.6 cm**. This is clinically important: if an IV bag drops below 10.6 cm above the needle entry point, blood will flow backward into the IV line. This is why IV bags must be elevated properly and why patients sometimes experience problems when standing up—the relative height between the IV bag and the insertion point changes dramatically.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When physicians diagnose arterial blockages, they quote the reduction in flow rate. If the flow rate in an artery has been reduced to 10.0% of its normal value by a blood clot and the average pressure difference has increased by 20.0%, by what factor has the clot reduced the radius of the artery?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, $$Q \propto \frac{\Delta P \cdot r^4}{\eta l}$$. We use the relationship between flow, pressure, and radius to find the radius reduction factor.
@@ -1261,15 +1392,21 @@ $$r_2 = 0.537 r_1 \approx 0.54 r_1$$
 **Discussion**
 
 The clot has reduced the artery radius to approximately **0.54** (or 54%) of its normal value, a reduction of about **46%**. This severe constriction dramatically reduces blood flow to just 10% of normal despite the body's compensation through increased blood pressure (20% higher). This illustrates the extreme sensitivity of flow to radius—the $$r^4$$ relationship means that moderate arterial narrowing causes severe flow reduction. Such a blockage would typically require medical intervention like angioplasty or bypass surgery. The body's attempt to compensate by raising blood pressure can strain the heart and other vessels, creating a dangerous situation.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 During a marathon race, a runner's blood flow increases to 10.0 times her resting rate. Her blood's viscosity has dropped to 95.0% of its normal value, and the blood pressure difference across the circulatory system has increased by 50.0%. By what factor has the average radii of her blood vessels increased?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Poiseuille's law, $$Q \propto \frac{\Delta P \cdot r^4}{\eta}$$. We use the relationships between flow, pressure, viscosity, and radius to find the radius increase factor.
@@ -1304,17 +1441,23 @@ $$\frac{r_2}{r_1} = (6.33)^{1/4} = (6.33)^{0.25} = 1.59$$
 **Discussion**
 
 The average radii of the runner's blood vessels have increased by a factor of approximately **1.59** (or about 59% larger). This significant dilation, combined with increased blood pressure and decreased blood viscosity, allows blood flow to increase tenfold during vigorous exercise. The vasodilation is controlled by the autonomic nervous system and local chemical signals (like nitric oxide) that relax smooth muscle in vessel walls. This remarkable adaptation allows increased oxygen and nutrient delivery to working muscles while removing metabolic waste products. The $$r^4$$ relationship shows why vessel dilation is so effective—a 59% increase in radius produces a 6.33-fold increase in flow capacity, which combined with other factors yields the 10-fold total increase.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water supplied to a house by a water main has a pressure of  $$ 3.00 \times 10^{5}  {\text{N/m}}^{2} $$
  early on a summer day when neighborhood use is low. This pressure produces a flow of 20.0 L/min through a garden hose. Later in the day, pressure at the exit of the water main and entrance to the house drops, and a flow of only 8.00 L/min is obtained through the same hose. (a) What pressure is now being supplied to the house, assuming resistance is constant? (b) By what factor did the flow rate in the water main increase in order to cause this decrease in delivered pressure? The pressure at the entrance of the water main is  $$ 5.00 \times 10^{5}  {\text{N/m}}^{2} $$ ,
  and the original flow rate was 200 L/min. (c) How many more users are there, assuming each would consume 20.0 L/min in the morning?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Since resistance is constant, pressure is proportional to flow rate in the hose. (b) We use the pressure drop formula $$\Delta P = RQ$$ for the water main. (c) We calculate how many additional users would account for the increased flow.
@@ -1367,18 +1510,24 @@ $$\text{Number of additional users} = \frac{180 \text{ L/min}}{20.0 \text{ L/min
 **Discussion**
 
 **(a)** The afternoon pressure at the house is **1.20 × 10⁵ Pa**, a 60% reduction from morning levels. **(b)** The water main flow increased by a factor of **1.90**, nearly doubling. **(c)** There are approximately **9 additional users**, each consuming water at the same rate. This problem demonstrates how shared water systems experience pressure drops during peak usage times. The pressure drop in the main is proportional to flow ($$\Delta P = RQ$$), so increased demand causes lower delivery pressure to all users. This is why many people experience reduced water pressure during peak hours (morning showers, evening watering). Water utilities must size mains to handle peak loads while maintaining adequate pressure.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An oil gusher shoots crude oil 25.0 m into the air through a pipe with a 0.100-m diameter. Neglecting air resistance but not the resistance of the pipe, and assuming laminar flow, calculate the gauge pressure at the entrance of the 50.0-m-long vertical pipe. Take the density of the oil to be  $$900 {\text{kg/m}}^{3} $$
  and its viscosity to be  $$ 1.00 \left({\text{N/m}}^{2}\right)\cdot \text{s} $$
  (or  $$1.00 \text{Pa}\cdot \text{s} $$ ).
 Note that you must take into account the pressure due to the 50.0-m column of oil in the pipe.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the entrance pressure that: (1) lifts oil 50 m through the pipe, (2) overcomes viscous resistance in the pipe, and (3) gives oil enough velocity to shoot 25 m high. We use projectile motion to find exit velocity, Poiseuille's law to find pressure drop, and hydrostatic pressure for the column.
@@ -1438,16 +1587,22 @@ $$P_{entrance} = 2.95 \times 10^{6} \text{ Pa}$$
 **Discussion**
 
 The gauge pressure at the pipe entrance is approximately **2.95 × 10⁶ N/m²** (about 29 atmospheres). This enormous pressure is needed to: (1) support the weight of the 50-m oil column (contributing about $$4.4 \times 10^5$$ Pa, or 15% of total), (2) overcome viscous resistance in the pipe (the major contribution at about 85%), and (3) provide kinetic energy for the oil to shoot 25 m high after exiting. The high viscosity of crude oil requires substantial pressure to maintain laminar flow at this flow rate.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is  $$ 8.00 \times 10^{6}  {\text{N/m}}^{2} $$ .
  (a) Calculate the resistance of the hose. (b) What is the viscosity of the concrete, assuming the flow is laminar? (c) How much power is being supplied, assuming the point of use is at the same level as the pump? You may neglect the power supplied to increase the concrete's velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use $$R = \frac{\Delta P}{Q}$$ to find resistance. (b) We use Poiseuille's formula for resistance to solve for viscosity. (c) Power is $$P = \Delta P \times Q$$.
@@ -1492,42 +1647,50 @@ $$P = 26.7 \text{ kW} \times \frac{1 \text{ hp}}{0.746 \text{ kW}} = 35.8 \text{
 **Discussion**
 
 **(a)** The resistance of the hose is **2.40 × 10⁹ Pa·s/m³**. **(b)** The viscosity of the concrete is approximately **48 Pa·s**, which matches the value given in an earlier problem and is about 48,000 times greater than water. **(c)** The power being supplied is **26.7 kW** (about 36 hp). This substantial power requirement explains why concrete pumps use powerful diesel engines. The extremely high viscosity of concrete necessitates the high pressure (80 atmospheres) despite the relatively slow flow rate. This calculation confirms that concrete pumping is far more efficient than wheelbarrows for large construction projects, despite the significant power requirements.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a coronary artery constricted by arteriosclerosis. Construct a problem
 in which you calculate the amount by which the diameter of the artery is
 decreased, based on an assessment of the decrease in flow rate.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a river that spreads out in a delta region on its way to the sea. Construct a problem in which you calculate the average speed at which water moves in the delta region, based on the speed at which it was moving up river. Among the things to consider are the size and flow rate of the river before it spreads out and its size once it has spread out. You can construct the problem for the river spreading out into one large river or into multiple smaller rivers.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The ratios of the
-  viscosities of blood to water are nearly constant between 0ºC and 37ºC.</span>
-- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">See note on Whole
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The ratios of the
+  viscosities of blood to water are nearly constant between 0ºC and 37ºC.</span> {: class="footnote-ref" #footnote1}
+- [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">See note on Whole
   Blood.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote2}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1548,4 +1711,4 @@ Poiseuille’s law
 : the rate of laminar flow of an incompressible fluid in a tube: _Q = (P<sub>
 2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl_
 
-</div>
+:::

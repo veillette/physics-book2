@@ -16,6 +16,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import { glob } from 'glob';
 
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
@@ -280,16 +281,39 @@ class OrphanFileFinder {
 
   getFileSize(filePath) {
     try {
-      const stats = fs.statSync(filePath);
-      const bytes = stats.size;
-      if (bytes === 0) return '0 Bytes';
-      const k = 1024;
-      const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-      const i = Math.floor(Math.log(bytes) / Math.log(k));
-      return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
+      return this.formatBytes(fs.statSync(filePath).size);
     } catch {
       return 'Unknown';
     }
+  }
+
+  /** Human-readable byte size, e.g. 1536 -> "1.5 KB". */
+  formatBytes(bytes) {
+    if (!bytes) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
+  }
+
+  /** Categorise a file by its extension (for orphan reports). */
+  getFileType(filename) {
+    const ext = filename.split('.').pop().toLowerCase();
+    const map = {
+      jpg: 'Image',
+      jpeg: 'Image',
+      png: 'Image',
+      gif: 'Image',
+      webp: 'Image',
+      svg: 'Vector',
+      css: 'Stylesheet',
+      js: 'Script',
+      json: 'Data',
+      md: 'Markdown',
+      html: 'HTML',
+      htm: 'HTML',
+    };
+    return map[ext] || 'Unknown';
   }
 
   generateCleanupScript(outputPath = 'cleanup-orphans.sh') {
@@ -378,25 +402,27 @@ class OrphanFileFinder {
   }
 }
 
-// CLI Configuration
-runCli({
-  name: 'check-orphans',
-  description: `Finds files in assets/ and resources/ that are not referenced:
+// CLI Configuration — only run when executed directly, not when imported by tests.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain)
+  runCli({
+    name: 'check-orphans',
+    description: `Finds files in assets/ and resources/ that are not referenced:
 - Scans markdown, HTML, CSS, JS, and JSON files
 - Detects orphan assets and images
 - Optionally generates cleanup script`,
-  flags: {
-    generateCleanup: {
-      flag: '--generate-cleanup',
-      description: 'Generate a shell script to remove orphan files',
-      default: false,
+    flags: {
+      generateCleanup: {
+        flag: '--generate-cleanup',
+        description: 'Generate a shell script to remove orphan files',
+        default: false,
+      },
     },
-  },
-  examples: ['node scripts/check-orphans.js', 'node scripts/check-orphans.js --generate-cleanup'],
-  run: async options => {
-    const finder = new OrphanFileFinder(options);
-    return finder.run();
-  },
-});
+    examples: ['node scripts/check-orphans.js', 'node scripts/check-orphans.js --generate-cleanup'],
+    run: async options => {
+      const finder = new OrphanFileFinder(options);
+      return finder.run();
+    },
+  });
 
 export default OrphanFileFinder;

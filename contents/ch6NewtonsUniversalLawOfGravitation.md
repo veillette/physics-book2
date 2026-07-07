@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 5
 chapterNumber: 6
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Explain Earth’s gravitational force.
 * Describe the gravitational effect of the Moon on Earth.
 * Discuss weightlessness in space.
 * Examine the Cavendish experiment
 
-</div>
+::::
 
 What do aching feet, a falling apple, and the orbit of the Moon have in common?
 Each is caused by the gravitational force. Our feet are strained by supporting
@@ -42,14 +42,16 @@ and inversely proportional to the square of the distance between them.
 ![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg 'Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton’s third law.')
 {: #Figure2}
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Misconception Alert
 </div>
+
 The magnitude of the force on each object (one has larger mass than the other) is the same,
 consistent with Newton’s third law.
 
-</div>
+::::
 
 The bodies we are dealing with tend to be large. To simplify the situation we
 assume that the body acts as if its entire mass is concentrated at one specific
@@ -122,24 +124,28 @@ acceleration a step further, explaining the observation in terms of a force that
 causes objects to fall—in fact, in terms of a universally existing force of
 attraction between masses.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 Take a marble, a ball, and a spoon and drop them from the same height. Do they hit the floor at the same time? If you drop a piece of paper as well, does it behave like the other objects? Explain your observations.
 
-</div>
+::::
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections
 </div>
+
 Attempts are still being made to understand the gravitational force.
 Modern physics is exploring the connections of gravity to other forces,
 space, and time. General relativity alters our view of gravitation,
 leading us to think of gravitation as bending space and time.
 
-</div>
+::::
 
 In the following example, we make a comparison similar to one made by Newton
 himself. He noted that if the gravitational force caused the Moon to orbit
@@ -147,10 +153,12 @@ Earth, then the acceleration due to gravity should equal the centripetal
 acceleration of the Moon in its orbit. Newton found that the two accelerations
 agreed “pretty nearly.”
 
-<div class="example" id="example1" markdown="1">
+:::: example {"class":"example","id":"example1"}
+
 <div class="title">
 Earth’s Gravitational Force Is the Centripetal Force Making the Moon Move in a Curved Path
 </div>
+
 (a) Find the acceleration due to Earth’s gravity at the distance of the Moon.
 
 (b) Calculate the centripetal acceleration needed to keep the Moon in its
@@ -188,11 +196,13 @@ $$\left.
 \ac&=&r \omega^{2}
 \end{array}\right\}$$
 </div>
+
 We choose to use the second form:
 
 <div class="equation">
  $$ \ac =r \omega^{2}, $$
 </div>
+
 where $$ \omega $$ is the angular velocity of the Moon about Earth.
 
 **Solution for (b)**
@@ -203,11 +213,13 @@ Moon’s orbit is 27.3 days, (d) and using
 <div class="equation">
  $$ 1 d \times 24\frac{ \text{hr}}{\text{d}}\times 60\frac{min}{\text{hr}}\times 60\frac{s}{\text{min}}= 86 400 \s $$ 
 </div>
+
 we see that
 
 <div class="equation">
  $$ \omega =\frac{ \Delta \theta }{\Delta t}=\frac{2\pi \text{rad}}{\left(27.3 \text{d}\right) \left(86 400 \text{s/d}\right)}=2.66 \times 10^{-6}\frac{ \text{rad}}{\s}. $$ 
 </div>
+
 The centripetal acceleration is
 
 <div class="equation">
@@ -216,6 +228,7 @@ $$ \begin{array}{lll}
 \ac &=& 2.72\times 10^{-3} \mss .
 \end{array} $$
 </div>
+
 The direction of the acceleration is toward the center of the Earth.
 
 **Discussion**
@@ -227,7 +240,7 @@ stationary (rather the Earth-Moon system rotates about its center of mass, which
 is located some 1700 km below Earth’s surface). The clear implication is that
 Earth’s gravitational force causes the Moon to orbit Earth.
 
-</div>
+::::
 
 Why does Earth not remain stationary as the Moon orbits it? This is because, as
 expected from Newton’s third law, if Earth exerts a force on the Moon, then the
@@ -395,21 +408,25 @@ depart from the inverse square law? So far, no deviation has been observed.
 ![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_06_05_09.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres ( \( m \) ) and the two on the stand ( \( M \) ) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
 {: #Figure9}
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Gravity Force Lab
 </div>
+
 Visualize the gravitational force that two objects exert on each other. Change properties of the objects in
 order to  see how it changes the gravity force.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Gravity Force Lab
 </figcaption>
 
-</figure>
-</div>
+:::
+
+::::
 
 ### Section Summary
 
@@ -430,45 +447,60 @@ gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot \mm/kg^{2} $
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Action at a distance, such as is the case for gravity, was once thought to be illogical and therefore untrue. What is the ultimate determinant of the truth in physics, and why was this action ultimately accepted?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $$ 9.80 \mss $$. Who do you agree with and why?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Draw a free body diagram for a satellite in an elliptical orbit showing why its speed increases as it approaches its parent body and decreases as it moves away.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Newton’s laws of motion and gravity were among the first to convincingly demonstrate the underlying simplicity and unity in nature. Many other examples have since been discovered, and we now expect to find such underlying order in complex situations. Is there proof that such order will always be found in new explorations?
 
-</div>
+::::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $$ 9.807 \mss $$
 
 and the radius of the Earth is 6372 km from center to pole.
 
 (b) Compare this with the accepted value of $$ 5.972 \times 10^{24}\kg $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -513,11 +545,14 @@ The accepted value is $$ 5.972 \times 10^{24} $$ kg. Our calculated value of $$ 
 
 This problem demonstrates how Newton's law of universal gravitation can be used to determine the mass of Earth using only surface measurements. The fact that we can calculate Earth's mass so accurately from surface gravity and radius measurements is a powerful validation of Newton's gravitational theory. This same technique has been used to determine the masses of other planets, moons, and even the Sun, making universal gravitation one of the most important tools in astronomy and planetary science.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate the magnitude of the acceleration due to gravity on the surface of Earth due to the Moon.
 
 (b) Calculate the magnitude of the acceleration due to gravity at Earth due to
@@ -526,8 +561,9 @@ the Sun.
 (c) Take the ratio of the Moon's acceleration to the Sun's and comment on why
 the tides are predominantly due to the Moon in spite of this number.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -570,18 +606,22 @@ $$ \frac{a_{\text{Moon}}}{a_{\text{Sun}}} = \frac{3.33 \times 10^{-5}}{5.90 \tim
 
 The acceleration due to the Moon's gravity at Earth is $$ 3.33 \times 10^{-5} $$ m/s², while that due to the Sun is $$ 5.90 \times 10^{-3} $$ m/s². The Sun's gravitational acceleration on Earth is about 177 times stronger than the Moon's. However, tides are caused by the *gradient* (variation) in gravitational force across Earth's diameter, not the absolute magnitude. Because the Moon is much closer to Earth than the Sun, the difference in gravitational pull between the near and far sides of Earth is proportionally much greater for the Moon, making it the dominant cause of tides.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) What is the acceleration due to gravity on the surface of the Moon?
 
 (b) On the surface of Mars? The mass of Mars is $$ 6.418\times 10^{23}\kg $$ and
 its radius is $$ 3.38 \times 10^{6}\m $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -618,18 +658,22 @@ $$ g_{\text{Mars}} = \frac{4.28 \times 10^{13}}{1.14 \times 10^{13}} = 3.75\text
 
 The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The relatively low gravity on both bodies also explains why neither has been able to retain a substantial atmosphere—the escape velocity is lower, allowing atmospheric gases to more easily escape into space.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate the acceleration due to gravity on the surface of the Sun.
 
 (b) By what factor would your weight increase if you could stand on the Sun? (
 Never mind that you cannot.)
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -661,11 +705,14 @@ $$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{275\text{ m/s}^2}{9.80\text{ 
 
 The acceleration due to gravity on the Sun's surface is 275 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.1. This means that if you weigh 70 kg (about 154 lb) on Earth, you would weigh nearly 2000 kg (about 4300 lb) on the Sun - far too much for your body to support, even before considering the intense heat and radiation!
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The Moon and Earth rotate about their common center of mass, which is located about 4700 km from the center of Earth.
 (This is 1690 km below the surface.)
 (a) Calculate the magnitude of the acceleration due to the Moon’s gravity at
@@ -676,8 +723,9 @@ Earth as it rotates about that point once each lunar month (about 27.3 d) and
 compare it with the acceleration found in part (a). Comment on whether or not
 they are equal and why they should or should not be.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -735,15 +783,19 @@ The values are nearly identical (within 2.4%), which is expected.
 
 The gravitational acceleration due to the Moon ($$ 3.41 \times 10^{-5} $$ m/s²) and the centripetal acceleration of Earth's center ($$3.33 \times 10^{-5}$$ m/s²) are nearly equal, as they must be. At the center of mass, the gravitational attraction from the Moon provides exactly the centripetal force needed to keep Earth orbiting around that point. The small difference (about 2%) is due to rounding in our calculations and the approximation that the orbit is perfectly circular. This problem beautifully demonstrates that the Earth-Moon system is truly a binary system, with both bodies orbiting their common center of mass, rather than the Moon simply orbiting Earth. The center of mass lies inside Earth (about 1690 km below the surface) because Earth is much more massive than the Moon, but both objects orbit this point.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Solve part (b) of [Example 1](#example1) using $$ \ac =v^2/r $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -769,11 +821,14 @@ $$ a_c = \frac{v^2}{r} = \frac{(1.02 \times 10^{3}\text{ m/s})^2}{3.84 \times 10
 
 Using the alternative formula $$ a_c = \frac{v^2}{r} $$, we obtain $$ 2.71 \times 10^{-3} $$ m/s² for the Moon's centripetal acceleration, which matches (within rounding error) the value of $$ 2.72 \times 10^{-3} $$ m/s² found in Example 1 using $$ a_c = r\omega^2 $$. This confirms that both formulas for centripetal acceleration are equivalent and yield the same result, as expected.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Astrology, that unlikely and vague pseudoscience, makes much of the position of the planets at the moment of one’s birth. The only known force a planet exerts on Earth is gravitational.
 
 (a) Calculate the magnitude of the gravitational force exerted on a 4.20 kg baby
@@ -788,8 +843,9 @@ gravitational forces. (Of course, there could be an unknown force acting, but
 scientists first need to be convinced that there is even an effect, much less
 that an unknown force causes it.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -840,11 +896,14 @@ The father's gravitational pull on the baby ($$7.01 \times 10^{-7}$$ N) is about
 
 This calculation thoroughly debunks astrological claims about planetary influences at birth. If gravitational force were the mechanism by which planets influence people, then the father standing nearby would have nearly the same effect as Jupiter! Furthermore, the doctor, the hospital building, and even nearby furniture would exert comparable gravitational forces. Both forces are incredibly tiny anyway - about a millionth of a newton, which is completely negligible compared to other forces acting on the baby. This demonstrates that if planets do influence human affairs (which has never been scientifically demonstrated), it cannot be through gravitational force.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune's orbit. Pluto was subsequently discovered near its predicted position. But it now appears that the discovery was fortuitous, because Pluto is small and the irregularities in Neptune's orbit were not well known. To illustrate that Pluto has a minor effect on the orbit of Neptune compared with the closest planet to Neptune:
 
 (a) Calculate the acceleration due to gravity at Neptune due to Pluto when they
@@ -855,8 +914,9 @@ is $$ 1.4\times 10^{22}\kg $$.
 presently about $$ 2.50 \times 10^{12}\m $$ apart, and compare it with that due
 to Pluto. The mass of Uranus is $$ 8.62 \times 10^{25}\kg $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -894,11 +954,14 @@ $$ \frac{a_{\text{Uranus}}}{a_{\text{Pluto}}} = \frac{9.2 \times 10^{-10}}{4.6 \
 
 The acceleration due to gravity at Neptune caused by Pluto is $$ 4.6 \times 10^{-14} $$ m/s², while that caused by Uranus is $$ 9.2 \times 10^{-10} $$ m/s². Uranus produces an acceleration at Neptune that is about 20,000 times greater than that of Pluto. This demonstrates that Pluto's gravitational effect on Neptune is indeed negligible compared to Uranus. The discovery of Pluto near its predicted position was fortuitous, as the observed irregularities in Neptune's orbit could not have been caused primarily by such a small body.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) The Sun orbits the Milky Way galaxy once each $$ 2.60 \times 10^{8}\text{y} $$,
 with a roughly circular orbit averaging $$ 3.00 \times 10^{4} $$
 light years in radius. (A light year is the distance traveled by light in 1 y.)
@@ -909,8 +972,10 @@ be located at the Sun?
 (b) Calculate the average speed of the Sun in its galactic orbit. Does the
 answer surprise you?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 (a) Use the relationship for centripetal acceleration $$ a_c = \frac{v^2}{r} = \frac{4\pi^2 r}{T^2} $$, converting all units appropriately.
@@ -979,11 +1044,14 @@ The Sun's orbital speed might seem surprisingly high, but consider that at this 
 
 (b) The average speed of the Sun in its galactic orbit is $$ 2.17 \times 10^{5}\text{ m/s} = 217\text{ km/s} $$. This is surprisingly fast - about 0.07% of the speed of light!
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Unreasonable Result**
 
 A mountain 10.0 km from a person exerts a gravitational force on him equal to
@@ -999,8 +1067,9 @@ A mountain 10.0 km from a person exerts a gravitational force on him equal to
 gravitational measurements can easily detect the effect of nearby mountains and
 variations in local geology.)
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1062,10 +1131,12 @@ The unreasonable premise is that the mountain exerts a gravitational force equal
 
 This problem illustrates the importance of checking whether calculated results match physical reality. The enormous mass required for a mountain to exert 2.00% of a person's weight demonstrates that gravitational forces between everyday objects are extremely weak. Only objects with planetary masses create gravitational forces strong enough to dominate our daily experience. This is why we don't notice the gravitational attraction between people, buildings, or even mountains—these forces are millions of times weaker than Earth's gravitational pull.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1087,4 +1158,4 @@ along a line joining them; the force is directly proportional to the product of
 their masses and inversely proportional to the square of the distance between
 them
 
-</div>
+::::

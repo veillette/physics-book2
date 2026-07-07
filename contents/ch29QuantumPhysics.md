@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 29
 ---
-
 ![A magnified image of a black fly obtained from an electron microscope showing its antennae and tentacles.](../resources/Figure_29_00_01.jpg 'A black fly imaged by an electron microscope is as monstrous as any science-fiction creature. (credit: U.S. Department of Agriculture via Wikimedia Commons)')
 {: #Figure1}
 
@@ -31,14 +30,16 @@ so numerous in the macroscopic situations we sense directly.
 ![A model of an atom is shown. Atom is shown as a clump of small spherical balls at the center, representing the nucleus, surrounded by spherical and dumbbell-shaped electron clouds. A magnified view of the nucleus is shown as a bunch of small spherical balls.](../resources/Figure_29_00_02.jpg 'Atoms and their substructure are familiar examples of objects that require quantum mechanics to be fully explained. Certain of their characteristics, such as the discrete electron shells, are classical physics explanations. In quantum mechanics we conceptualize discrete “electron clouds” around the nucleus. ')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Realms of Physics
 </div>
+
 Classical physics is a good approximation of modern physics under conditions first discussed
 in the [The Nature of Science and Physics](../contents/ch1IntroductionTheNatureOfScienceAndPhysics). Quantum mechanics is valid in general, and it must be used rather than classical physics to describe small objects, such as atoms.
 
-</div>
+:::
 
 Atoms, molecules, and fundamental electron and proton charges are all examples
 of physical entities that are **quantized**—that is, they appear only in certain
@@ -56,7 +57,8 @@ mechanics and its description of the strange submicroscopic world. In later
 chapters, we will examine many areas, such as atomic and nuclear physics, in
 which quantum mechanics is crucial.
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -72,4 +74,4 @@ quantum mechanics
 : the branch of physics that deals with small objects and with the quantization
 of various entities, especially energy
 
-</div>
+:::

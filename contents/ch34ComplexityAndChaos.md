@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain complex systems.
 * Discuss chaotic behavior of different systems.
-</div>
+
+:::
 
 Much of what impresses us about physics is related to the underlying connections
 and basic simplicity of the laws we have discovered. The language of physics is
@@ -129,20 +130,27 @@ physics as well as on the other disciplines they relate to.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Must a complex system be adaptive to be of interest in the field of complexity? Give an example to support your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 State a necessary condition for a system to be chaotic.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -153,4 +161,4 @@ chaos
 : word used to describe systems the outcomes of which are extremely sensitive to
 initial conditions
 
-</div>
+:::

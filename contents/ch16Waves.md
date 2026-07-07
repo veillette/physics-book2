@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 9
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the characteristics of a wave.
 * Calculate the velocity of wave propagation.
-</div>
+
+:::
 
 ![There is a high tidal wave of about 10 feet high in a sea. Three boats carrying three four persons each are ahead of the wave, which is coming toward them.](../resources/Figure_16_09_01.jpg 'Waves in the ocean behave similarly to all other types of waves. (credit: Steve Jurveston, Flickr) ')
 {: #Figure1}
@@ -40,13 +41,15 @@ right, not the water itself (or the bird would move to the right). We define **w
 moves. Wave velocity is sometimes also called the _propagation velocity or propagation speed_, because the disturbance propagates from one
 location to another.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert
 </div>
+
 Many people think that water waves push water from one direction to another. In fact, in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.
 
-</div>
+:::
 
 ![The figure shows an idealized ocean wave with two crests and two troughs that passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength lambda which is the distance between adjacent identical parts of the wave. The height of a crest is equal to the depth of the trough that is X, therefore the total vertical distance between the top of a crest and the bottom of the trough is two-X.](../resources/Figure_16_09_02.jpg 'An idealized ocean wave passes under a sea gull that bobs up and down in simple harmonic motion. The wave has a wavelength ( \\lambda ), which is the distance between adjacent identical parts of the wave. The up and down disturbance of the surface propagates parallel to the surface at a speed ( v_\\text{W} ).')
 {: #Figure2}
@@ -71,18 +74,22 @@ This fundamental relationship holds for all types of waves. For water waves,
 $${v}_{\text{w} } $$ is the speed of a surface wave; for sound, $${v}_{\text{w} } $$ is the speed of sound; and for visible light, $${v}_{\text{w} } $$ is the
 speed of light, for example.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Waves in a Bowl
 </div>
+
 Fill a large bowl or basin with water and wait for the water to settle so there are no ripples. Gently drop a cork into the middle of the bowl. Estimate the wavelength and period of oscillation of the water wave that propagates away from the cork. Remove the cork from the bowl and wait for the water to settle again. Gently drop the cork at a height that is different from the first drop. Does the wavelength depend upon how high above the water the cork is dropped?
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate the Velocity of Wave Propagation: Gull in the Ocean
 </div>
+
 Calculate the wave velocity of the ocean wave in [[Figure 2]](#Figure2) if the distance between wave crests is 10.0 m and the time for a seagull to bob up and down is 5.00 s.
 
 **Strategy**
@@ -108,7 +115,7 @@ This slow speed seems reasonable for an ocean wave. Note that the wave moves to
 the right in the figure at this speed, not the varying speed at which the sea
 gull moves up and down.
 
-</div>
+:::
 
 ### Transverse and Longitudinal Waves
 
@@ -152,27 +159,35 @@ that are similar to surface waves on water.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is it important to differentiate between longitudinal and transverse waves?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 In the different types of waves, energy can propagate in a different direction relative to the motion of the wave. This is important to understand how different types of waves affect the materials around them.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Wave on a String
 </div>
+
 Watch a string vibrate in slow motion. Wiggle the end of the string and make waves, or adjust the frequency and amplitude of an oscillator. Adjust the damping and tension. The end can be fixed, loose, or open.
 {: class="newline"}
 
 <div class="media"  data-alt="wave on a string">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -190,27 +205,37 @@ Watch a string vibrate in slow motion. Wiggle the end of the string and make wav
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give one example of a transverse wave and another of a longitudinal wave, being careful to note the relative directions of the disturbance and wave propagation in each.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between propagation speed and the frequency of a wave? Does one or both affect wavelength? If so, how?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Storms in the South Pacific can create waves that travel all the way to the California coast, which are 12 000 km away. How long does it take them if they travel at 15.0 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the basic relationship between distance, speed, and time: $$t = \frac{d}{v_w}$$. After calculating the time in seconds, we'll convert to days for a more practical answer.
@@ -243,15 +268,20 @@ It takes over 9 days for waves generated by storms in the South Pacific to reach
 
 9.26 days
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Waves on a swimming pool propagate at 0.750 m/s. You splash the water at one end of the pool and observe the wave go to the opposite end, reflect, and return in 30.0 s. How far away is the other end of the pool?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The wave travels to the far end and back, so the total distance is twice the pool length. Using $$d = v_w t$$, we can find the total distance, then divide by 2.
@@ -278,15 +308,20 @@ The pool is 11.3 m (about 37 feet) long, which is reasonable for a swimming pool
 
 11.3 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Wind gusts create ripples on the ocean that have a wavelength of 5.00 cm and propagate at 2.00 m/s. What is their frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the wave equation $${v}_w = f\lambda$$ and solve for frequency: $$f = \frac{v_w}{\lambda}$$. First, we need to convert the wavelength to meters.
@@ -313,15 +348,20 @@ The ripples have a frequency of 40.0 Hz, meaning 40 wave crests pass a given poi
 
 40.0 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many times a minute does a boat bob up and down on ocean waves that have a wavelength of 40.0 m and a propagation speed of 5.00 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The frequency of bobbing equals the wave frequency. We use $$v_w = f\lambda$$ to find the frequency in Hz, then convert to bobs per minute.
@@ -346,15 +386,20 @@ The boat bobs up and down 7.50 times per minute, or about once every 8 seconds. 
 
 7.50 times per minute
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Scouts at a camp shake the rope bridge they have just crossed and observe the wave crests to be 8.00 m apart. If they shake the bridge twice per second, what is the propagation speed of the waves?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The scouts shake the bridge twice per second, which means the frequency is $$f = 2.00$$ Hz. The wavelength is the distance between wave crests, $$\lambda = 8.00$$ m. We use the wave equation $${v}_w = f\lambda$$ to find the propagation speed.
@@ -381,15 +426,20 @@ The waves propagate along the rope bridge at 16.0 m/s (about 58 km/h). This is a
 
 16.0 m/s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of the waves you create in a swimming pool if you splash your hand at a rate of 2.00 Hz and the waves propagate at 0.800 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The frequency of splashing determines the wave frequency. We use $$v_w = f\lambda$$ to find the wavelength.
@@ -408,15 +458,20 @@ When you splash at 2 Hz (twice per second), you create waves with a wavelength o
 
 0.400 m or 40.0 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of an earthquake that shakes you with a frequency of 10.0 Hz and gets to another city 84.0 km away in 12.0 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the wavelength, but we're given the frequency and information to calculate the wave speed. First, we find the wave speed from the distance and time, then use $${v}_w = f\lambda$$ to find the wavelength.
@@ -443,16 +498,21 @@ The earthquake waves have a wavelength of 700 m and travel at the impressive spe
 
 700 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Radio waves transmitted through space at  $$ 3.00 \times 10^{8}  \text{m/s} $$
  by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the wave equation $$v_w = f\lambda$$ with the speed of light (radio waves are electromagnetic waves).
@@ -471,15 +531,20 @@ The Voyager spacecraft transmits at 2.50 GHz, which is in the microwave region o
 
 $$2.50 \times 10^9$$ Hz or 2.50 GHz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Your ear is capable of differentiating sounds that arrive at the ear just 1.00 ms apart. What is the minimum distance between two speakers that produce sounds that arrive at noticeably different times on a day when the speed of sound is 340 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For the sounds to arrive at noticeably different times, the path difference must be at least equal to the distance sound travels in 1.00 ms. We use $$d = vt$$ where $$v$$ is the speed of sound and $$t$$ is the minimum time difference.
@@ -506,18 +571,23 @@ The minimum distance between two speakers for your ear to distinguish their soun
 
 34.0 cm or 0.340 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Seismographs measure the arrival times of earthquakes with a precision of 0.100 s. To get the distance to the epicenter of the quake, they compare the arrival times of S- and P-waves, which travel at different speeds. [[Figure 6]](#Figure6)) If S- and P-waves travel at 4.00 and 7.20 km/s, respectively, in the region considered, how precisely can the distance to the source of the earthquake be determined? (b) Seismic waves from underground detonations of nuclear bombs can be used to locate the test site and detect violations of test bans. Discuss whether your answer to (a) implies a serious limit to such detection. (Note also that the uncertainty is greater if there is an uncertainty in the propagation speeds of the S- and P-waves.)
 
 ![The figure shows a seismograph put on a wooden table. Its top is labeled as "Hands off glass, please". Below it there are some buttons are shown and a paper roller is fitted in the seismograph to print the observation by the machine. On the right and left of the roller, two vertical cable slots are given.](../resources/Figure_16_09_06.jpg 'A seismograph as described in above problem. (credit: Oleg Alexandrov)')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), the time difference between S- and P-wave arrivals depends on distance. We need to find how the uncertainty in time measurement (±0.100 s) translates to uncertainty in distance. For part (b), we evaluate whether this precision is adequate for detecting nuclear test ban violations.
@@ -566,10 +636,12 @@ However, this precision might be limiting if trying to distinguish between very 
 
 (b) This precision is generally adequate for detecting nuclear test ban violations, though uncertainties in wave speeds can further limit precision.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -587,4 +659,4 @@ or propagation speed
 wavelength
 : the distance between adjacent identical parts of a wave
 
-</div>
+:::

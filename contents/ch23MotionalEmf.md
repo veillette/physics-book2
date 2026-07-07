@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate emf, force, magnetic field, and work due to the motion of an object in a magnetic field.
-</div>
+
+:::
 
 As we have seen, any change in magnetic flux induces an emf opposing that
 change—a process known as induction. Motion is one of the major causes of
@@ -61,13 +62,15 @@ $$\text{emf}=B\ell v \left( B, \mathrm{\ell , and} v \text{perpendicular} \right
 is the motional emf. This is the same expression given for the Hall effect
 previously.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Unification of Forces
 </div>
+
 There are many connections between the electric force and the magnetic force. The fact that a moving electric field produces a magnetic field and, conversely, a moving magnetic field produces an electric field is part of why electric and magnetic forces are now considered to be different manifestations of the same force. This classic unification of electric and magnetic forces into what is called the electromagnetic force is the inspiration for contemporary efforts to unify other basic forces.
 
-</div>
+:::
 
 To find the direction of the induced field, the direction of the current, and
 the polarity of the induced emf, we apply Lenz’s law as explained
@@ -112,10 +115,12 @@ be extended a couple of hundred meters; in the second, the cable broke when
 almost fully extended. [[Example 1]](#Example1) indicates feasibility in
 principle.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating the Large Motional Emf of an Object in Orbit
 </div>
+
 ![Figure shows a tethered satellite in Earth orbit. The Earth magnetic field is given as B Earth directed toward the plane of the paper. A tether satellite is a satellite connected to another by a space tether. An aircraft is shown flying at distance l below the tethered satellite. A current path is shown from the aircraft flying in the ionosphere to the tethered satellite and back.](../resources/Figure_23_03_02.jpg "Motional emf as electrical power conversion for the space shuttle is the motivation for the Tethered Satellite experiment. A 5 kV emf was predicted to be induced in the 20 km long tether while moving at orbital speed in the Earth&#x2019;s magnetic field. The circuit is completed by a return path through the stationary ionosphere."){: #Figure2}
 
 Calculate the motional emf induced along a 20.0 km long conductor moving at an
@@ -133,6 +138,7 @@ Entering the given values into $$\text{emf}=B\ell v $$ gives
 <div class="equation">
 $$\begin{array}{lll}\text{emf}& =& B\ell v\\ & =& \left( 5.00 \times 10^{-5}  \text{T}\right)\left( 2.0 \times 10^{4}  \text{m}\right)\left( 7.80 \times 10^{3}  \text{m/s}\right)\\ & =&  7.80 \times 10^{3}  \text{V} \text{.} \end{array}$$
 </div>
+
 **Discussion**
 
 The value obtained is greater than the 5 kV measured voltage for the shuttle
@@ -140,15 +146,16 @@ experiment, since the actual orbital motion of the tether is not perpendicular
 to the Earth’s field. The 7.80 kV value is the maximum emf obtained when
 $$\theta =90 ^\circ $$ and $$\sin \theta =1$$.
 
-</div>
+:::
 
 ### Section Summary
 
 * An emf induced by motion relative to a magnetic field $$ B $$ is called a *motional emf* and is given by
 
   <div class="equation">
-$$\text{emf}=B\ell v  \left( B\text{,} \ell \text{, and} v \text{perpendicular} \right) ,$$
+  $$\text{emf}=B\ell v  \left( B\text{,} \ell \text{, and} v \text{perpendicular} \right) ,$$
   </div>
+
      where
 $$\ell $$ is the length of the object moving at speed
 $$ v $$ relative to the field.
@@ -156,41 +163,57 @@ $$ v $$ relative to the field.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why must part of the circuit be moving relative to other parts, to have usable motional emf? Consider, for example, that the rails in [[Figure 1]](#Figure1) are stationary relative to the magnetic field, while the rod moves.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A powerful induction cannon can be made by placing a metal cylinder inside a solenoid coil. The cylinder is forcefully expelled when solenoid current is turned on rapidly. Use Faraday’s and Lenz’s laws to explain how this works. Why might the cylinder get live/hot when the cannon is fired?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An induction stove heats a pot with a coil carrying an alternating current located beneath the pot (and without a hot surface). Can the stove surface be a conductor? Why won’t a coil carrying a direct current work?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how you could thaw out a frozen water pipe by wrapping a coil carrying an alternating current around it. Does it matter whether or not the pipe is a conductor? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use Faraday's law, Lenz's law, and RHR-1 to show that the magnetic force on the current in the moving rod in [[Figure 1]](#Figure1) is in the opposite direction of its velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We'll apply Faraday's law to find the induced emf, use Lenz's law to determine the direction of the induced current, and then apply RHR-1 to find the direction of the magnetic force on that current.
@@ -211,15 +234,20 @@ This result makes physical sense from energy conservation. The magnetic force op
 
 By Faraday's law, the moving rod induces an emf. By Lenz's law, the induced current flows upward through the rod (counterclockwise in the circuit). By RHR-1, a current flowing upward in a magnetic field directed into the page experiences a force to the left, opposite to the rod's rightward velocity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a current flows in the Satellite Tether shown in [[Figure 2]](#Figure2), use Faraday's law, Lenz's law, and RHR-1 to show that there is a magnetic force on the tether in the direction opposite to its velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We'll apply the same reasoning as in the previous problem: use Faraday's law for the induced emf, Lenz's law for the current direction, and RHR-1 for the force direction.
@@ -240,16 +268,21 @@ This magnetic drag force is what enables energy conversion in the Tethered Satel
 
 The moving tether induces an emf by Faraday's law. The resulting current (whose direction is determined by Lenz's law to oppose the motion) experiences a magnetic force by RHR-1 that is directed opposite to the satellite's velocity, providing magnetic drag.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A jet airplane with a 75.0 m wingspan is flying at 280 m/s. What emf is induced between wing tips if the vertical component of the Earth's field is $$ 3.00 \times 10^{-5}  \text{T}$$ ?
  (b) Is an emf of this magnitude likely to have any consequences? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the motional emf formula $$\text{emf}=B\ell v $$ where $$\ell $$ is the wingspan,$$ v $$ is the airplane's speed, and $$ B $$ is the vertical component of Earth's magnetic field.
@@ -278,15 +311,20 @@ While the induced emf exists, it's insignificant compared to the voltages used i
 
 (b) No, this is a very small emf compared to aircraft electrical system voltages and poses no practical consequences.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A nonferrous screwdriver is being used in a 2.00 T magnetic field. What maximum emf can be induced along its 12.0 cm length when it moves at 6.00 m/s? (b) Is it likely that this emf will have any consequences or even be noticed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $$\text{emf}=B\ell v $$ with maximum emf occurring when motion is perpendicular to the field.
@@ -314,15 +352,20 @@ This problem illustrates the practical safety of working near strong magnetic fi
 
 (a) 1.44 V; (b) No practical consequences—too small to notice.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what speed must the sliding rod in [[Figure 1]](#Figure1) move to produce an emf of 1.00 V in a 1.50 T field, given the rod's length is 30.0 cm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Rearrange $$\text{emf}=B\ell v $$ to solve for $$ v $$.
@@ -343,15 +386,20 @@ This is a moderate speed (about 8 km/h or 5 mph)—roughly walking pace. The rel
 
 2.22 m/s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The 12.0 cm long rod in [[Figure 1]](#Figure1) moves at 4.00 m/s. What is the strength of the magnetic field if a 95.0 V emf is induced?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Rearrange $$\text{emf}=B\ell v $$ to solve for $$ B $$.
@@ -372,11 +420,14 @@ This is an extremely strong magnetic field—about 4 million times stronger than
 
 198 T
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Prove that when $$ B $$ ,
 $$\ell $$ ,  and $$ v $$
  are not mutually perpendicular, motional emf is given by $$\text{emf}=B\ell v \sin \theta $$ .
@@ -386,8 +437,10 @@ $$\ell $$ ,  and $$ v $$
  If $$\ell $$  is perpendicular to $$ B $$ ,
  then $$\theta $$  is the angle between $$ v $$  and $$ B $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Start with Faraday's law and consider the component of either $$\ell $$ or $$ v $$ that is perpendicular to $$ B $$.
@@ -426,17 +479,22 @@ This proves that motional emf depends on the sine of the angle between the vecto
 
 Proven:$$\text{emf}=B\ell v \sin \theta $$ where $$\theta $$ is defined as stated depending on which pair of vectors are perpendicular.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In the August 1992 space shuttle flight, only 250 m of the conducting tether considered in [[Example 1]](#Example1) could be let out. A 40.0 V motional emf was generated in the Earth's $$ 5.00 \times 10^{-5}  \text{T}$$
  field, while moving at $$ 7.80 \times 10^{3}  \text{m/s}$$ .
  What was the angle between the shuttle's velocity and the Earth's field, assuming the conductor was perpendicular to the field?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$\text{emf}=B\ell v \sin \theta $$ and solve for $$\theta $$, where $$\theta $$ is the angle between $$ v $$ and $$ B $$.
@@ -465,11 +523,14 @@ The angle of 24.2° means the shuttle's velocity was not perpendicular to Earth'
 
 24.2°
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Derive an expression for the current in a system like that
@@ -480,8 +541,10 @@ between the rails is l, and the rod moves at constant speed $$ v $$ perpendicula
 to the uniform field $$ B $$ . At time zero, the moving rod is next to the
 resistance $$ R $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Find the total resistance of the circuit (including the rails and rod) and use Ohm's law with the motional emf.
@@ -518,11 +581,14 @@ The current decreases with time as the rod moves away from $$ R $$, increasing t
 
 $$ I=\frac{B\ell v}{R + \frac{2\rho vt + \rho \ell}{A}}$$ or equivalently $$ I=\frac{B\ell vA}{RA + 2\rho vt + \rho \ell}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The Tethered Satellite in [[Figure 2]](#Figure2) has a mass of 525 kg and is at
@@ -532,8 +598,10 @@ the satellite in? (Assume the satellite and shuttle are at the same altitude
 above the Earth.) (b) What is the effective force constant of the cable? (c) How
 much energy is stored in it when stretched by the 100 N force?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $$\Delta L=\frac{FL_0}{YA}$$ where $$ Y $$ is Young's modulus for steel ($$2.0 \times 10^{11} \text{ N/m}^2$$).
@@ -552,11 +620,11 @@ much energy is stored in it when stretched by the 100 N force?
 $$\Delta L=\frac{FL_0}{YA}=\frac{(100)(2.00 \times 10^4)}{(2.0 \times 10^{11})(4.91 \times 10^{-6})}=\frac{2.00 \times 10^6}{9.82 \times 10^5}=2.04 \text{ m}$$
 </div>
 
-**(b)** <div class="equation">
+**(b)** &lt;div class="equation"&gt;
 $$ k=\frac{F}{\Delta L}=\frac{100 \text{ N}}{2.04 \text{ m}}=49.0 \text{ N/m}$$
 </div>
 
-**(c)** <div class="equation">
+**(c)** &lt;div class="equation"&gt;
 $$ E=\frac{1}{2}k(\Delta L)^2=\frac{1}{2}(49.0)(2.04)^2=102 \text{ J}$$
 </div>
 
@@ -568,11 +636,14 @@ The 2.04 m stretch in a 20 km cable is only 0.01% elongation, typical for steel 
 
 (a) 2.04 m; (b) 49.0 N/m; (c) 102 J
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The Tethered Satellite discussed in this module is producing 5.00 kV, and a
@@ -584,8 +655,10 @@ kg? (d) Discuss the long term consequences (say, a week-long mission) on the
 space shuttle’s orbit, noting what effect a decrease in velocity has and
 assessing the magnitude of the effect.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) The magnetic drag force on a current-carrying conductor in a magnetic field is $$ F=I\ell B $$, where we need to determine $$\ell $$ from the emf and velocity.
@@ -682,5 +755,6 @@ This illustrates a fundamental trade-off: the tethered satellite can generate su
 
 (d) For a week-long mission,$$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
 
-</div>
+:::
+
 </div>

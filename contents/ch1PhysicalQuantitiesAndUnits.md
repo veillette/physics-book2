@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 1
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Perform unit conversions both in the SI and English units.
 * Explain the most common prefixes in the SI units and be able to write them in scientific notation.
-</div>
+
+:::
 
 ![A view of Earth from the Moon.](../resources/Figure_01_02_02.jpg 'The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)')
 {: #Figure1}
@@ -169,10 +170,12 @@ of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
 number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$ 450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
 the order of $$ 10^{9}\m $$.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 The Quest for Microscopic Standards for Basic Units
 </div>
+
 The fundamental units described in this chapter are those that produce the greatest accuracy and precision in measurement.
 There is a sense among physicists that, because there is an underlying microscopic substructure to matter,
 it would be most satisfying to base our standards of measurement on microscopic objects and fundamental physical
@@ -189,7 +192,7 @@ electrical phenomena on the small scale may someday allow us to base a unit of
 charge on the charge of electrons and protons, but at present current and charge
 are related to large-scale currents and forces between wires.
 
-</div>
+:::
 
 #### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
@@ -213,9 +216,7 @@ are related to large-scale currents and forces between wires.
 | femto  | f      | $$10^{-15} $$ | femtometer | fm  | $$10^{-15} $$ m | size of a proton                    |
 | atto   | a      | $$10^{-18} $$ | attosecond | as  | $$10^{-18} $$ s | time light crosses an atom          |
 
-{: #Table2}
-
-### Known Ranges of Length, Mass, and Time
+### Known Ranges of Length, Mass, and Time {: #Table2}
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
@@ -288,10 +289,12 @@ conversion factors.
 
 {: #Table3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Unit Conversions: A Short Drive Home
 </div>
+
 Suppose that you drive the 10.0 km from your university to home in 20.0 min. Calculate your average speed
 (a) in kilometers per hour (km/h) and
 (b) in meters per second (m/s).
@@ -313,11 +316,13 @@ motion concepts will be covered in a later module.) In equation form,
 <div class="equation">
   $$ \text{average speed =}\frac{ \text{distance}}{\text{time}}.  $$
 </div>
+
 (2) Substitute the given values for distance and time.
 
 <div class="equation">
   $$ \text{average speed} =\frac{10.0\text{km}}{20.0\text{min}}=0.500\frac{ \text{km}}{\text{min}}.  $$
 </div>
+
 (3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours.
 That conversion factor is  $$ 60 \text{min/hr}  $$. Thus,
 
@@ -338,6 +343,7 @@ follows:
 <div class="equation">
  $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}} =\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}}, $$ 
 </div>
+
 which are obviously not the desired units of km/h.
 
 (2) Check that the units of the final answer are the desired units. The problem
@@ -370,6 +376,7 @@ meters.
 <div class="equation">
   $$ \text{Average speed}=30.0\frac{ \text{km}}{\text{h}}×\frac{1\text{h}}{3 600 \s  }×\frac{1 000 \m }{1 \text{km}},  $$
 </div>
+
 <div class="equation">
   $$ \text{Average speed}=8.33\frac{ \m }{\s}.  $$
 </div>
@@ -386,12 +393,14 @@ calculator produces? The
 module [Accuracy, Precision, and Significant Figures](./ch1AccuracyPrecisionAndSignificantFigures)
 will help you answer these questions.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Nonstandard Units
 </div>
+
 While there are numerous types of units that we are all familiar with, there are
 others that are much more obscure. For example, a **firkin** is a unit of volume
 that was once used to measure beer. One firkin equals about 34 liters. To learn
@@ -399,40 +408,51 @@ more about nonstandard units, use a dictionary or encyclopedia to research diffe
 “weights and measures.” Take note of any unusual units, such as a barleycorn,
 that are not listed in the text.
 Think about how the unit is defined and state its relationship to SI units.
-</div>
+
+:::
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a
 hummingbird to beat its wings once. Which fundamental unit should the scientist use to describe the measurement?
 Which factor of 10 is the scientist likely to use to describe the motion precisely? Identify the metric prefix
 that corresponds to this factor of 10.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings
 beat so fast, the scientist will probably need to measure in milliseconds, or  $$ 10^{-3}  $$
 seconds. (50 beats per second corresponds to 20 milliseconds per beat.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a
 milliliter is dependent on the measure of a centimeter.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -457,22 +477,29 @@ milliliter is dependent on the measure of a centimeter.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify some advantages of metric units.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The speed limit on some interstate highways is roughly 100 km/h.
 (a) What is this in meters per second?
 (b) How many miles per hour is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use conversion factors to convert between units. Remember: 1 km = 1000 m, 1 hour = 3600 s, and 1 km = 0.6214 miles.
@@ -501,18 +528,23 @@ The conversion from km/h to m/s requires two conversion factors that work togeth
 
 (b) $$ 62.1 \text{mph} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A car is traveling at a speed of  $$ 33  \ms  $$.
 (a) What is its speed in kilometers per hour?
 (b) Is it exceeding the  $$ 90 \text{km/h}  $$
 speed limit?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert the speed from m/s to km/h using appropriate conversion factors, then compare with the speed limit.
@@ -545,15 +577,21 @@ This problem demonstrates the utility of the conversion factor 1.0 m/s = 3.6 km/
 
 (b) Yes, the car is exceeding the 90 km/h speed limit.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that  $$ 1.0  \ms =3.6 \text{km/h}  $$. Hint: Show the explicit
 steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
   $$ \frac{1.0 \m }{\s}= \frac{1.0 \m }{\s}× \frac{3600 \s  }{1\text{hr}}× \frac{1 \text{km}}{1000 \m }  $$
  $$ =3.6 \text{km/h}  $$.
 
@@ -561,15 +599,20 @@ steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 
 This conversion factor is particularly useful because it relates the SI unit of speed (m/s) to the more common everyday unit of km/h. The factor of 3.6 arises from the combination of 3600 seconds per hour and 1000 meters per kilometer (3600/1000 = 3.6). Memorizing this simple relationship allows for quick mental conversions between these common speed units.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert from yards to feet, then from feet to meters using the given conversion factor.
@@ -594,16 +637,21 @@ The result shows that an American football field is slightly less than 100 meter
 
 The football field is **91.4 m** long.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches?
 (Assume that 1 meter equals 3.281 feet.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert from meters to feet using the conversion factor 1 m = 3.281 ft, then convert feet to inches using 1 ft = 12 in.
@@ -640,15 +688,20 @@ Length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$
 
 Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First convert the total height to inches, then convert to meters using the given conversion factor.
@@ -673,16 +726,21 @@ A height of 1.85 m (or 185 cm) is reasonable for a person who is 6 ft 1 in. tall
 
 The person's height is **1.85 m**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its height in kilometers?
 (Assume that 1 kilometer equals 3 281 feet.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert from feet to kilometers using the given conversion factor: 1 km = 3281 ft.
@@ -701,16 +759,21 @@ Mount Everest's height of approximately 8.8 km helps put the mountain's scale in
 
 $$ 8.847 \text{km} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The speed of sound is measured to be  $$ 342  \ms  $$
 on a certain day. What is this in km/h?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert the speed from m/s to km/h using the conversion factors: 1 km = 1000 m and 1 h = 3600 s.
@@ -735,18 +798,23 @@ The speed of sound at approximately 1230 km/h is much faster than typical highwa
 
 The speed of sound is **1230 km/h** (or **1.23 × 10³ km/h** in scientific notation).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average
 speed of 4.0 cm/year.
 (a) What distance does it move in 1 s at this speed?
 (b) What is its speed in kilometers per million years?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Convert the speed of 4.0 cm/year to the requested units using appropriate conversion factors.
@@ -787,18 +855,23 @@ The extremely small distance of 1.3 × 10⁻⁹ m per second illustrates why tec
 
 (b) $$ 40 \text{km/My} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Refer to [Table 3](#Table3) to determine the average distance between
 the Earth and the Sun.
 Then calculate the average speed of the Earth in its orbit in kilometers per second.
 (b) What is this in meters per second?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Table 3, find the Earth-Sun distance. Calculate the circumference of Earth's orbit, divide by the time for one orbit (1 year), then convert to the requested units.
@@ -840,10 +913,12 @@ Earth's orbital speed of approximately 30 km/s (or 30,000 m/s) is remarkably fas
 
 (b) This is approximately **3.0 × 10⁴ m/s** (or 30,000 m/s).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -888,4 +963,4 @@ order of magnitude
 conversion factor
 : a ratio expressing how many of one unit are equal to another unit
 
-</div>
+:::

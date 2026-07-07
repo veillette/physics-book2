@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the total force (magnitude and direction) exerted on a test charge from more than one charge
 * Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge
 * Draw the electric field lines between two points of the same charge; between two points of opposite charge.
-</div>
+
+:::
 
 Drawings using lines to represent **electric fields** around charged objects are
 very useful in visualizing field strength and direction. Since the electric
@@ -45,10 +46,12 @@ In many situations, there are multiple charges. The total electric field created
 by multiple charges is the vector sum of the individual fields created by each
 charge. The following example shows how to add electric field vectors.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Adding Electric Fields
 </div>
+
 Find the magnitude and direction of the total electric field due to the two point charges,  $${q}_{1} $$
  and  $${q}_{2} $$ ,
  at the origin of the coordinate system as shown in [[Figure 3]](#Figure3).
@@ -74,11 +77,13 @@ The electric field strength at the origin due to $${q}_{1} $$ is labeled $${E}_{
 <div class="equation" >
  $$\begin{array}{}{E}_{1}=k\frac{ {q}_{1}}{ {r}_{1}^{2}}=\left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right) \frac{\left( 5.00 \times 10^{-9} \text{C}\right)}{ {\left( 2.00 \times 10^{-2} \text{m} \right)}^{2}}\\ {E}_{1}= 1.124 \times 10^{5} \text{N/C}.\end{array} $$ 
 </div>
+
 Similarly,  $${E}_{2} $$  is
 
 <div class="equation" >
  $$\begin{array}{}{E}_{2}=k\frac{ {q}_{2}}{ {r}_{2}^{2}}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)\frac{\left( 10.0 \times 10^{-9}  \text{C}\right)}{ {\left( 4.00 \times 10^{-2}  \text{m}\right)}^{2}}\\ {E}_{2}= 0.5619 \times 10^{5}  \text{N/C}.\end{array} $$
 </div>
+
 Four digits have been retained in this solution to illustrate that  $${E}_{1} $$
  is exactly twice the magnitude of  $${E}_{2} $$ .
  Now arrows are drawn to represent the magnitudes and directions of  $${\vb{E}}_{1} $$
@@ -94,11 +99,13 @@ $$\begin{array}{lll}
 {E}_{\text{tot}}& =& { \left\{ { \left(  1.124 \times 10^{5}  \text{N/C} \right) }^{2}+{\left( 0.5619 \times 10^{5}  \text{N/C} \right)}^{2} \right\} }^{1/2}\\
 {E}_{\text{tot}}& =&  1.26 \times 10^{5}  \text{N/C} \text{.} \end{array} $$
 </div>
+
 The direction is
 
 <div class="equation" >
  $$\begin{array}{lll}\theta & =& {\tan}^{-1}\left(\frac{ {E}_{1}}{ {E}_{2}}\right)\\ \theta & =& {\tan}^{-1}\left(\frac{ 1.124 \times 10^{5} \text{N/C}}{ 0.5619 \times 10^{5} \text{N/C}} \right)\\ \theta & =& 63.4º,\end{array} $$ 
 </div>
+
 or  $$63.4º $$ above the *x*-axis.
 
 **Discussion**
@@ -112,7 +119,7 @@ impossibly lengthy task (there are an infinite number of points in space) can be
 avoided by calculating the total field at representative points and using some
 of the unifying features noted next.
 
-</div>
+:::
 
 [[Figure 4]](#Figure4) shows how the electric field from two point charges can
 be drawn by finding the total field at representative points and drawing
@@ -160,16 +167,19 @@ The last property means that the field is unique at any point. The field line
 represents the direction of the field; so if they crossed, the field would have
 two directions at that location (an impossibility if the field is unique).
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Charges and Fields
 </div>
+
 Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It\'s colorful, it\'s dynamic, it\'s free.
 
 <div class="media"  data-alt="charges and fields">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -189,41 +199,55 @@ Move point charges around on the playing field and then view the electric field,
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Compare and contrast the Coulomb force field and the electric field. To do this, make a list of five properties for the Coulomb force field analogous to the five properties listed for electric field lines. Compare each item in your list of Coulomb force field properties with those of the electric field—are they the same or different? (For example, electric field lines cannot cross. Is the same true for Coulomb field lines?)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 6]](#Figure6) shows an electric field extending over three regions, labeled I, II, and III. Answer the following questions. (a) Are there any isolated charges? If so, in what region and what are their signs? (b) Where is the field strongest? (c) Where is it weakest? (d) Where is the field the most uniform?
 
 ![Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.](../resources/Figure_18_05_07.jpg ' ')
 {: #Figure6}
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Sketch the electric field lines near a point charge  $$+q $$ .
  (b) Do the same for a point charge  $$-3.00q $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the electric field lines a long distance from the charge distributions shown in [[Figure 4]](#Figure4) (a) and (b)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 7]](#Figure7) shows the electric field lines near two charges  $${q}_{1} $$
  and  $${q}_{2} $$ .
  What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.
@@ -231,17 +255,22 @@ Sketch the electric field lines a long distance from the charge distributions sh
 ![Field lines between a positive and a negative charge represented by curved lines is shown](../resources/Figure_18_05_08.jpg 'The electric field near two charges.')
 {: #Figure7}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the electric field lines in the vicinity of two opposite charges, where the negative charge is three times greater in magnitude than the positive. (See [[Figure 7]](#Figure7) for a similar situation).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -260,4 +289,4 @@ vector addition
 : mathematical combination of two or more vectors, including their magnitudes,
 directions, and positions
 
-</div>
+:::

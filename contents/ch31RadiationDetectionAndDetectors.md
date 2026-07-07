@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the working principle of a Geiger tube.
 * Define and discuss radiation detectors.
-</div>
+
+:::
 
 It is well known that ionizing radiation affects us but does not trigger nerve
 impulses. Newspapers carry stories about unsuspecting victims of radiation
@@ -96,10 +97,12 @@ high efficiency (since ionizing radiation is stopped in a shorter distance in
 solids fewer particles escape detection). As with scintillators, very
 sophisticated information can be obtained from solid-state detectors.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Radioactive Dating Game
 </div>
+
 Learn about different types of radiometric dating, such as carbon dating. Understand how decay and half life work to enable radiometric dating to work. Play a game that tests your ability to match the percentage of the dating element that remains to the age of the object.
 {: class="newline"}
 
@@ -108,7 +111,8 @@ Learn about different types of radiometric dating, such as carbon dating. Unders
 <div class="media" data-alt="">
 <iframe width="860" height="671.4" src="https://veillette.github.io/simulations/radioactive-dating-game/#sim-half-life"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -119,49 +123,68 @@ Learn about different types of radiometric dating, such as carbon dating. Unders
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The energy of 30.0  $$\text{eV} $$
  is required to ionize a molecule of the gas inside a Geiger tube, thereby producing an ion pair. Suppose a particle of ionizing radiation deposits 0.500 MeV of energy in this Geiger tube. What maximum number of ion pairs can it create?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 1.67 \times 10^{4}  $$
-</div>
+
+:::
+
 </div>
 
 <div id="exercise2" class="exercise" data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0  $$\text{eV} $$ is required to create each ion pair?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 (a) Repeat [[the previous exercise]](#exercise2), and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming  $$50.0 \text{c}{\text{m}}^{3} $$
  of ideal gas at 0.250-atm pressure? (The small answer is consistent with the fact that the energy is large on a quantum mechanical scale but small on a macroscopic scale.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The applied voltage sweeps the ions out of the gas in  $$1.00 \mu \text{s} $$ .
  What is the current? (b) This current is smaller than the actual current since the applied voltage in the Geiger tube accelerates the separated ions, which then create other ion pairs in subsequent collisions. What is the current if this last effect multiplies the number of ion pairs by 900?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -183,4 +206,4 @@ solid-state radiation detectors
 : semiconductors fabricated to directly convert incident radiation into
 electrical current
 
-</div>
+:::

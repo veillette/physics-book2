@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the existence of dark matter.
 * Explain neutrino oscillations and their consequences.
-</div>
+
+:::
 
 One of the most exciting problems in physics today is the fact that there is far
 more matter in the universe than we can see. The motion of stars in galaxies and
@@ -239,51 +240,70 @@ be not only the center of the universe, but also the reason for its existence.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss the possibility that star velocities at the edges of galaxies being greater than expected is due to unknown properties of gravity rather than to the existence of dark matter. Would this mean, for example, that gravity is greater or smaller than expected at large distances? Are there other tests that could be made of gravity at large distances, such as observing the motions of neighboring galaxies?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does relativistic time dilation prohibit neutrino oscillations if they are massless?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If neutrino oscillations do occur, will they violate conservation of the various lepton family numbers ( $${L}_{e} $$ ,
   $${L}_{\mu } $$ ,  and  $${L}_{\tau } $$ )  ? Will neutrino oscillations violate conservation of the total number of leptons?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Lacking direct evidence of WIMPs as dark matter, why must we eliminate all other possible explanations based on the known forms of matter before we invoke their existence?
 
-</div>
+:::
+
 </div>
 
 ### Problems Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the dark matter in the Milky Way were composed entirely of MACHOs (evidence shows it is not), approximately how many would there have to be? Assume the average mass of a MACHO is 1/1000 that of the Sun, and that dark matter has a mass 10 times that of the luminous Milky Way galaxy with its  $$ 10^{11} $$
  stars of average mass 1.5 times the Sun’s mass.
 
-</div>
+:::
+
 <div class="solution" data-element-type="problems-exercises">
 <div class="equation" >
  $$ 1.5 \times 10^{15} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The critical mass density needed to just halt the expansion of the universe is approximately  $$ 10^{-26} \text{kg}/{\text{m}}^{3} $$.
 
 (a) Convert this to $$\text{eV}/{c}^{2}\cdot {\text{m}}^{3} $$.
@@ -292,8 +312,9 @@ The critical mass density needed to just halt the expansion of the universe is a
 their average mass is $$7 \text{eV}/{c}^{2} $$ and they have negligible kinetic
 energies.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -335,23 +356,31 @@ $$ n = \frac{\rho_c}{m_\nu} = \frac{5.6 \times 10^9 \text{ eV}/(c^2 \cdot \text{
 
 However, modern measurements suggest that neutrino masses are too small (probably less than 1 eV/c² for the heaviest flavor) to account for all dark matter, though they contribute a small fraction. The neutrino oscillation experiments that confirmed neutrinos have mass represent one of the most important discoveries in particle physics, showing physics beyond the Standard Model. While neutrinos don't solve the dark matter mystery completely, they remain an important component of the universe's mass-energy budget.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assume the average density of the universe is 0.1 of the critical density needed for closure. What is the average number of protons per cubic meter, assuming the universe is composed mostly of hydrogen?
 
-</div>
+:::
+
 <div class="solution" data-element-type="problems-exercises">
 <div class="equation" >
  $$ 0.6{m}^{-3} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To get an idea of how empty deep space is on the average, perform the following calculations:
 
 (a) Find the volume our Sun would occupy if it had an average density equal to
@@ -366,8 +395,9 @@ is approximately $$5\% $$ that of the critical density?
 (d) Compare the radius found in part (c) with the 4-ly average separation of
 stars in the arms of the Milky Way.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -441,10 +471,12 @@ These calculations dramatically illustrate just how empty the universe is on ave
 
 This exercise helps us appreciate why cosmologists say the universe is "matter dominated" even though space is nearly empty. The critical density—the density needed to eventually halt cosmic expansion through gravity—is so low that it corresponds to only about 6 protons per cubic meter of space. By comparison, the air you're breathing contains about 10²⁵ molecules per cubic meter! Yet even this incredibly low critical density is higher than the density of luminous matter we actually observe, which is why dark matter is necessary to explain the universe's dynamics. The emptiness of space on cosmic scales is truly difficult for our everyday intuition to grasp.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -490,4 +522,4 @@ WIMPs
 : weakly interacting massive particles; chargeless leptons (non-baryonic matter)
 interacting negligibly with normal matter
 
-</div>
+:::

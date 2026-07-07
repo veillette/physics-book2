@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 19
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain point charges and express the equation for electric potential of a point charge.
 * Distinguish between electric potential and electric field.
 * Determine the electric potential of a point charge given charge and distance.
-</div>
+
+:::
 
 Point charges, such as electrons, are among the fundamental building blocks of
 matter. Furthermore, spherical charge distributions (like on a metal sphere)
@@ -26,16 +27,19 @@ can be shown that the _electric potential $$V $$ of a point charge_ is
 
 where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·} {\text{m}}^{2}\text{/}{\text{C}}^{2} $$.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Electric Potential  $$V $$ of a Point Charge
 </div>
+
 The electric potential  $$V $$  of a point charge is given by
 
 <div class="equation" >
  $$V=\frac{kQ}{r} \left(\text{Point Charge}\right). $$
 </div>
-</div>
+
+:::
 
 The potential at infinity is chosen to be zero. Thus $$V $$ for a point charge
 decreases with distance, whereas $$\vb{E} $$ for a point charge
@@ -53,10 +57,12 @@ as **vectors**, taking magnitude and direction into account. This is consistent
 with the fact that $$V $$ is closely associated with energy, a scalar, whereas
 $$\vb{E} $$ is closely associated with force, a vector.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Voltage Is Produced by a Small Charge on a Metal Sphere?
 </div>
+
 Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC}\right) $$
  to microcoulomb  $$\left(\text{µC}\right) $$
  range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a  $$-3.00 \text{nC} $$
@@ -78,18 +84,21 @@ we obtain
 <div class="equation" >
  $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ V & =& \left( 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ V & =& -539 \text{V} \text{.} \end{array} $$ 
 </div>
+
 **Discussion**
 
 The negative value for voltage means a positive charge would be attracted from a
 larger distance, since the potential is lower (more negative) than at larger
 distances. Conversely, a negative charge would be repelled, as expected.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Is the Excess Charge on a Van de Graaff Generator
 </div>
+
 A demonstration Van de Graaff generator has a 25.0 cm diameter metal sphere that produces a voltage of 100 kV near its surface. (See [[Figure 1]](#Figure1).) What excess charge resides on the sphere? (Assume that each numerical value here is shown with three significant figures.)
 
 ![The figure shows a Van de Graaff generator. The generator consists of a flat belt running over two metal pulleys. One pulley is positioned at the top and another at the bottom. The upper pulley is surrounded by an aluminum sphere. The aluminum sphere has a diameter of twenty five centimeters. Inside the sphere, the upper pulley is connected to a conductor which in turn is connected to a voltmeter for measuring the potential on the sphere. The lower pulley is connected to a motor. When the motor is switched on, the lower pulley begins turning the flat belt. The Van de Graaff generator with the above described setup produces a voltage of one hundred kilovolts. The potential on the surface of the sphere will be the same as that of a point charge at the center which is twelve point five centimeters away from the center. Thus the excess charge is calculated using the formula Q equals r times V divided by k.](../resources/Figure_19_03_01.jpg 'The voltage of this demonstration Van de Graaff generator is measured between the charged sphere and ground. Earth’s potential is taken to be zero as a reference. The potential of the charged conducting sphere is the same as that of an equal point charge at its center.')
@@ -104,6 +113,7 @@ can thus determine the excess charge using the equation
 <div class="equation" >
  $$V=\frac{kQ}{r}. $$
 </div>
+
 **Solution**
 
 Solving for $$Q $$ and entering known values gives
@@ -111,12 +121,13 @@ Solving for $$Q $$ and entering known values gives
 <div class="equation" >
  $$\begin{array}{lll}Q& =& \frac{r V}{k}\\ Q& =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3} \text{V}\right)}{ 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ Q & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$ 
 </div>
+
 **Discussion**
 
 This is a relatively small charge, but it produces a rather large voltage. We
 have another indication here that it is difficult to store isolated charges.
 
-</div>
+:::
 
 The voltages in both of these examples could be measured with a meter that
 compares the measured potential with ground potential. Ground potential is often
@@ -140,27 +151,37 @@ gravitational potential energy, $${\text{PE}}_{g}= mgh $$.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In what region of space is the potential due to a uniformly charged sphere the same as that of a point charge? In what region does it differ from that of a point charge?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can the potential of a non-uniformly charged sphere be the same as that of a point charge? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.500 cm diameter plastic sphere, used in a static electricity demonstration, has a uniformly distributed 40.0 pC charge on its surface. What is the potential near its surface?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a uniformly charged sphere, the electric potential at or outside its surface is the same as that of a point charge located at the center. We'll use $$V = kQ/r$$ where $$r$$ is the radius of the sphere.
@@ -184,16 +205,21 @@ This is a modest voltage that is easily achieved in static electricity demonstra
 
 **The potential near the surface is 144 V.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the potential  $$ 0.530 \times 10^{-10} \text{m} $$
  from a proton (the average distance between the proton and electron in a hydrogen atom)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the point charge potential formula $$V = kQ/r$$ with the proton charge and the given distance (which is the Bohr radius $$a_0$$).
@@ -215,15 +241,20 @@ The potential energy of the electron at this location is $$\text{PE} = qV = (-e)
 
 **The potential at the Bohr radius is 27.2 V.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A sphere has a surface uniformly charged with 1.00 C. At what distance from its center is the potential 5.00 MV? (b) What does your answer imply about the practical aspect of isolating such a large charge?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the point charge potential formula $$V = kQ/r$$ and solve for distance $$r$$. Then analyze the practical implications.
@@ -261,15 +292,21 @@ This problem illustrates why the coulomb is such a large unit of charge for elec
 
 **(b) Isolating 1.00 C of charge is impractical because it would require a sphere nearly 2 km in radius just to limit the potential to 5 MV. One coulomb is a vastly larger charge than can realistically be accumulated in static electricity situations.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How far from a  $$1.00 \text{µC} $$
  point charge will the potential be 100 V? At what distance will it be  $$ 2.00 \times 10^{2}  \text{V}$$ ?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$V = kQ/r$$ and solve for $$r$$ at each potential value.
@@ -298,16 +335,21 @@ Notice that doubling the potential halves the distance. This inverse relationshi
 
 **At 100 V, the distance is 89.9 m. At 200 V, the distance is 45.0 m.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the sign and magnitude of a point charge that produces a potential of  $$-2.00 \text{V} $$
  at a distance of 1.00 mm?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The negative potential indicates a negative charge. Use $$V = kQ/r$$ and solve for $$Q$$.
@@ -327,16 +369,21 @@ The charge is negative (as expected from the negative potential) and very small�
 
 **The charge is $$-2.22 \times 10^{-13}$$ C (negative, magnitude 0.222 pC).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the potential due to a point charge is  $$ 5.00 \times 10^{2}  \text{V} $$
  at a distance of 15.0 m, what are the sign and magnitude of the charge?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$V = kQ/r$$ and solve for $$Q$$. The positive potential indicates a positive charge.
@@ -358,16 +405,21 @@ The charge is positive (matching the positive potential) and is about 0.83 micro
 
 **The charge is $$+8.34 \times 10^{-7}$$ C or +0.834 µC.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In nuclear fission, a nucleus splits roughly in half. (a) What is the potential  $$ 2.00 \times 10^{-14} \text{m} $$
  from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The fission fragment with 46 protons has a charge of $$+46e$$. Use $$V = kQ/r$$ for part (a). For part (b), the potential energy of a second identically charged fragment at this location is $$\text{PE} = qV = 46eV$$.
@@ -402,15 +454,20 @@ This enormous potential energy (152 MeV) is the Coulomb repulsion energy between
 
 **(b) The potential energy is 152 MeV.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A research Van de Graaff generator has a 2.00-m-diameter metal sphere with a charge of 5.00 mC on it. (a) What is the potential near its surface? (b) At what distance from its center is the potential 1.00 MV? (c) An oxygen atom with three missing electrons is released near the Van de Graaff generator. What is its energy in MeV at this distance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$V = kQ/r$$ for a spherical charge distribution. The potential at the surface uses the sphere's radius. For part (b), solve for $$r$$ at the specified potential. For part (c), the ion with charge $$+3e$$ gains energy equal to $$3eV$$ as it moves from 1.00 MV to ground.
@@ -452,15 +509,20 @@ The 45 MV surface potential is extremely high—research Van de Graaff generator
 
 **(c) The O³⁺ ion has 3.00 MeV of energy at this distance (relative to ground).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An electrostatic paint sprayer has a 0.200-m-diameter metal sphere at a potential of 25.0 kV that repels paint droplets onto a grounded object. (a) What charge is on the sphere? (b) What charge must a 0.100-mg drop of paint have to arrive at the object with a speed of 10.0 m/s?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), use $$V = kQ/r$$ to find the charge on the sphere. For part (b), use energy conservation: the electrical potential energy of the charged droplet at the sphere converts to kinetic energy at the grounded object.
@@ -495,15 +557,20 @@ The sphere carries a positive charge that repels the positively charged paint dr
 
 **(b) The paint droplet must have a charge of $$2.00 \times 10^{-10}$$ C or 0.200 nC.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In one of the classic nuclear physics experiments at the beginning of the 20th century, an alpha particle was accelerated toward a gold nucleus, and its path was substantially deflected by the Coulomb interaction. If the energy of the doubly charged alpha nucleus was 5.00 MeV, how close to the gold nucleus (79 protons) could it come before being deflected?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is Rutherford's famous gold foil experiment. At the distance of closest approach, all of the alpha particle's kinetic energy has been converted to electrical potential energy. We use energy conservation: $$\text{KE}_{\text{initial}} = \text{PE}_{\text{final}} = \frac{kq_\alpha Q_{Au}}{r_{\text{min}}}$$.
@@ -529,16 +596,21 @@ This distance (about 45 femtometers) is larger than the gold nucleus radius (~7 
 
 **The alpha particle can approach to within $$4.55 \times 10^{-14}$$ m (45.5 fm) of the gold nucleus.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the potential between two points situated 10 cm and 20 cm from a  $$ 3.0 µC $$
  point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The potential difference between two points is $$\Delta V = V_1 - V_2 = kQ(1/r_1 - 1/r_2)$$. For part (b), we need to find the new position that doubles this difference.
@@ -586,11 +658,14 @@ The potential difference can be doubled by moving the outer point to infinity (o
 
 **(b) Moving the 20 cm point to infinity (or very far from the charge) will double the potential difference to 270 kV.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) What is the final speed of an electron accelerated from rest through a
@@ -600,8 +675,10 @@ voltage of 25.0 MV by a negatively charged Van de Graaff terminal?
 
 (c) Which assumptions are responsible?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "Unreasonable Results" problem. We'll perform the classical (non-relativistic) calculation and identify why the result is physically impossible.
@@ -650,5 +727,6 @@ This problem illustrates the importance of recognizing when relativistic mechani
 
 **(c) The assumption of classical mechanics fails here. Relativistic mechanics must be used when particles approach the speed of light. The 25 MeV kinetic energy far exceeds the electron's rest energy of 0.511 MeV.**
 
-</div>
+:::
+
 </div>

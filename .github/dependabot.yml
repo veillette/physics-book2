@@ -16,19 +16,6 @@ updates:
       - "dependencies"
       - "npm"
 
-  # Ruby Bundler dependencies
-  - package-ecosystem: "bundler"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-    open-pull-requests-limit: 5
-    commit-message:
-      prefix: "deps(bundler)"
-    labels:
-      - "dependencies"
-      - "ruby"
-
   # GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"

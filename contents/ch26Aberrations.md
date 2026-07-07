@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe optical aberration.
-</div>
+
+:::
 
 Real lenses behave somewhat differently from how they are modeled using the thin
 lens equations, producing **aberrations**. An aberration is a distortion in an
@@ -87,11 +88,14 @@ Photoshop.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 List the various types of aberrations. What causes them and how can each be reduced?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -177,13 +181,16 @@ Some practical examples of aberration correction include:
 
 The choice of correction method depends on application requirements, cost constraints, and acceptable performance trade-offs. Scientific instruments typically demand more comprehensive aberration correction than consumer devices.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) During laser vision correction, a brief burst of 193 nm ultraviolet light is
@@ -196,15 +203,19 @@ and evaporated without further temperature increase.
 (b) Does your answer imply that the shape of the cornea can be finely
 controlled?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$0.251 \text{μm} $$
 (b) Yes, this thickness implies that the shape of the cornea can be very finely controlled, producing normal distant vision in more than 90% of patients.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -212,4 +223,4 @@ aberration
 : failure of rays to converge at one focus because of limitations or defects in
 a lens or mirror
 
-</div>
+:::

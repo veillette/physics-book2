@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 10
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain standing waves.
 * Describe the mathematical representation of overtones and beat frequency.
-</div>
+
+:::
 
 ![Water surface of a river is shown, with mountains in the background. There are small ripples over the water surface.](../resources/Figure_16_10_01.jpg 'These waves result from the superposition of several waves from different sources, producing a complex pattern. (credit: waterborough, Wikimedia Commons)')
 {: #Figure1}
@@ -189,16 +190,18 @@ and down. The second cosine term is the wave with frequency $${f}\_{\text{ave}} 
 wave, providing the two frequencies are similar, then what we hear is an average
 frequency that gets louder and softer (or warbles) at the beat frequency.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Career Connections
 </div>
+
 Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a  $$256 \text{Hz} $$
  frequency and two beats per second are heard, then the other frequency is either  $$254 $$
  or  $$258 \text{Hz} $$ .
  Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.
 
-</div>
+:::
 
 While beats may sometimes be annoying in audible sounds, we will find that beats
 have many applications. Observing beats is a very useful way to compare similar
@@ -209,54 +212,72 @@ ultrasonic imaging and radar speed traps.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Imagine you are holding one end of a jump rope, and your friend holds the other. If your friend holds her end still, you can move your end up and down, creating a transverse wave. If your friend then begins to move her end up and down, generating a wave in the opposite direction, what resultant wave forms would you expect to see in the jump rope?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The rope would alternate between having waves with amplitudes two times the original amplitude and reaching equilibrium with no amplitude at all. The wavelengths will result in both constructive and destructive interference
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Define nodes and antinodes.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Nodes are areas of wave interference where there is no motion. Antinodes are areas of wave interference where the motion is at its maximum point.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 You hook up a stereo system. When you test the system, you notice that in one corner of the room, the sounds seem dull. In another area, the sounds seem excessively loud. Describe how the sound moving about the room could result in these effects.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 With multiple speakers putting out sounds into the room, and these sounds bouncing off walls, there is bound to be some wave interference. In the dull areas, the interference is probably mostly destructive. In the louder areas, the interference is probably mostly constructive.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Wave Interference
 </div>
+
 Make waves with a dripping faucet, audio speaker, or laser! Add a second source or a pair of slits to create an interference pattern.
 
 <div class="media" data-alt="wave interference">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -283,20 +304,27 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Speakers in stereo systems have two color-coded terminals to indicate how to hook up the wires. If the wires are reversed, the speaker moves in a direction opposite that of a properly connected speaker. Explain why it is important to have both speakers connected the same way.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A car has two horns, one emitting a frequency of 199 Hz and the other emitting a frequency of 203 Hz. What beat frequency do they produce?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The beat frequency is the absolute value of the difference between the two frequencies. We can use the formula $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$ where $${f}_{1}=199 \text{ Hz} $$ and $${f}_{2}=203 \text{ Hz} $$.
@@ -321,15 +349,19 @@ A beat frequency of 4 Hz means that the combined sound from the two horns will g
 
 $$f=4 \text{ Hz} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The middle-C hammer of a piano hits two strings, producing beats of 1.50 Hz. One of the strings is tuned to 260.00 Hz. What frequencies could the other string have?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -377,25 +409,30 @@ Both frequencies are physically possible and would produce the same beat frequen
 
 The beat frequency of 1.50 Hz would be easily noticeable—the sound would pulse or throb 1.5 times per second, creating an unpleasant warbling effect. Piano tuners adjust strings until the beat frequency disappears completely, indicating the two strings are perfectly matched. For middle C, having both strings at exactly 260.00 Hz produces a pure, stable tone without the interference pattern that creates beats.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two tuning forks having frequencies of 460 and 464 Hz are struck simultaneously. What average frequency will you hear, and what will the beat frequency be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is {% raw %}$${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $${% endraw %} and the beat frequency is {% raw %}$${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $${% endraw %}.
+When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $$ and the beat frequency is $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$.
 
 **Solution**
 
 Calculate the average frequency:
 
 <div class="equation">
-{% raw %} $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $${% endraw %}
+ $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $$
 </div>
 
 <div class="equation">
@@ -420,26 +457,30 @@ The average frequency of 462 Hz is exactly midway between the two individual fre
 
 462 Hz, 4 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Twin jet engines on an airplane are producing an average sound frequency of 4100 Hz with a beat frequency of 0.500 Hz. What are their individual frequencies?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
-We're given the average frequency {% raw %}$${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=4100$${% endraw %} Hz and the beat frequency $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|=0.500$$ Hz. We can use these two equations to solve for the two individual frequencies $${f}_{1}$$ and $${f}_{2}$$.
+We're given the average frequency $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=4100$$ Hz and the beat frequency $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|=0.500$$ Hz. We can use these two equations to solve for the two individual frequencies $${f}_{1}$$ and $${f}_{2}$$.
 
 **Solution**
 
 From the average frequency:
 
 <div class="equation">
- {% raw %}$$\frac{{f}_{1}+{f}_{2}}{2}=4100$${% endraw %}
+ $$\frac{{f}_{1}+{f}_{2}}{2}=4100$$
 </div>
 
 <div class="equation">
@@ -482,15 +523,20 @@ This beating effect would be audible to passengers and crew as a slow pulsing or
 
 The average frequency of 4100 Hz is in the upper range of human hearing and corresponds to a high-pitched whine characteristic of jet engines. The precision needed to match the two engines to better than 0.5 Hz at 4100 Hz demonstrates the remarkably uniform operating conditions modern jet engines can maintain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A wave traveling on a Slinky® that is stretched to 4 m takes 2.4 s to travel the length of the Slinky and back again. (a) What is the speed of the wave? (b) Using the same Slinky stretched to the same length, a standing wave is created which consists of three antinodes and four nodes. At what frequency must the Slinky be oscillating?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) The wave travels the length of the Slinky and back again in 2.4 s, so the total distance is $$2 \times 4 \text{ m}=8 \text{ m} $$. We can find the wave speed using $${v}_{\text{w}}=\frac{d}{t} $$.
@@ -524,7 +570,7 @@ Solve for the wavelength:
 Use the wave equation to find the frequency:
 
 <div class="equation">
-{% raw %} $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $${% endraw %}
+ $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $$
 </div>
 
 **Discussion**
@@ -537,15 +583,19 @@ The wave speed of 3.33 m/s is reasonable for a wave traveling on a stretched Sli
 
 (b) 1.25 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Three adjacent keys on a piano (F, F-sharp, and G) are struck simultaneously, producing frequencies of 349, 370, and 392 Hz. What beat frequencies are produced by this discordant combination?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -588,10 +638,12 @@ The term "discordant" in the problem statement is appropriate—these three note
 
 Musicians and piano tuners can hear these beats clearly when tuning adjacent notes, and the presence of strong beats indicates the piano needs adjustment.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -622,4 +674,4 @@ overtones
 superposition
 : the phenomenon that occurs when two or more waves arrive at the same point
 
-</div>
+:::

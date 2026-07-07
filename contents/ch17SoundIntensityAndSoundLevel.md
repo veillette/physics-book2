@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define intensity, sound intensity, and sound pressure level.
 * Calculate sound intensity levels in decibels (dB).
-</div>
+
+:::
 
 ![Photograph of a road jammed with traffic of all types of vehicles.](../resources/Figure_17_03_01.jpg 'Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)')
 {: #Figure1}
@@ -203,10 +204,12 @@ $$10^{3} $$ times) as intense. Another example is that if one sound is $$10^{7} 
             </td>
           </tr></tbody></table>
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Sound Intensity Levels: Sound Waves
 </div>
+
 Calculate the sound intensity level in decibels for a sound wave traveling in air at  $$0ºC $$
  and having a pressure amplitude of 0.656 Pa.
 
@@ -229,6 +232,7 @@ Air has a density of $$1.29 \text{kg/m}^{3} $$ at atmospheric pressure and $$0º
 <div class="equation" >
  $$I=\frac{ {\left(\Delta p\right)}^{2}}{2{\text{ρv}}_{w}}=\frac{ {\left(0.656 Pa\right)}^{2}}{2\left( 1.29 {\text{kg/m}}^{3}\right)\left(331 \text{m/s}\right)}= 5.04 \times 10^{-4}  {\text{W/m}}^{2}. $$
 </div>
+
 (3) Enter the value for  $$I $$
  and the known value for  $${I}_{0} $$
  into  $$\beta  \left(\text{dB}\right)=10 {\text{log}}_{10}\left(I/{I}_{0}\right) $$ .
@@ -237,6 +241,7 @@ Air has a density of $$1.29 \text{kg/m}^{3} $$ at atmospheric pressure and $$0º
 <div class="equation" >
  $$10 \log_{10}\left(5.04 \times 10^{8} \right)=10 \left(8.70\right) dB=87 dB. $$
 </div>
+
 **Discussion**
 
 This 87 dB sound has an intensity five times as great as an 80 dB sound. So a
@@ -244,12 +249,14 @@ factor of five in intensity corresponds to a difference of 7 dB in sound
 intensity level. This value is true for any intensities differing by a factor of
 five.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Change Intensity Levels of a Sound: What Happens to the Decibel Level?
 </div>
+
 Show that if one sound is twice as intense as another, it has a sound level about 3 dB higher.
 
 **Strategy**
@@ -267,27 +274,32 @@ The ratio of the two intensities is 2 to 1, or:
 <div class="equation" >
  $$\frac{ {I}_{2}}{ {I}_{1}}= 2.00. $$
 </div>
+
 We wish to show that the difference in sound levels is about 3 dB. That is, we want to show:
 
 <div class="equation" >
  $${\beta }_{2}-{\beta }_{1}=3 \text{dB}. $$
 </div>
+
 Note that:
 
 <div class="equation" >
  $${\text{log}}_{10}b-{\text{log}}_{10}a={\text{log}}_{10}\left(\frac{b}{a}\right)\text{.} $$
 </div>
+
 (2) Use the definition of  $$\beta  $$
  to get:
 
 <div class="equation" >
  $${\beta }_{2}-{\beta }_{1}={10 \text{log}}_{10}\left(\frac{ {I}_{2}}{ {I}_{1}}\right)=10 {\text{log}}_{10}2.00=10 \left( 0.301\right) \text{dB}. $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $${\beta }_{2}-{\beta }_{1}=3.01\text{ dB}. $$
 </div>
+
 **Discussion**
 
 This means that the two sound intensity levels differ by 3.01 dB, or about 3 dB,
@@ -296,7 +308,7 @@ and not the actual intensities), this result is true for any intensities that
 differ by a factor of two. For example, a 56.0 dB sound is twice as intense as a
 53.0 dB sound, a 97.0 dB sound is half as intense as a 100 dB sound, and so on.
 
-</div>
+:::
 
 It should be noted at this point that there is another decibel scale in use,
 called the **sound pressure level**, based on the ratio of the pressure
@@ -309,44 +321,56 @@ noise pollution produced by ships may be as great as 200 dB expressed in the
 sound pressure level, where the more familiar sound intensity level we use here
 would be something under 140 dB for the same sound.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Investigation: Feeling Sound
 </div>
+
 Find a CD player and a CD that has rock music. Place the player on a light table, insert the CD into the player, and start playing the CD. Place your hand gently on the table next to the speakers. Increase the volume and note the level when the table just begins to vibrate as the rock music plays. Increase the reading on the volume control until it doubles. What has happened to the vibrations?
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe how amplitude is related to the loudness of a sound.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Amplitude is directly proportional to the experience of loudness. As amplitude increases, loudness increases.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify common sounds at the levels of 10 dB, 50 dB, and 100 dB.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 10 dB: Running fingers through your hair.
 
 50 dB: Inside a quiet home with no television or radio.
 
 100 dB: Take-off of a jet plane.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -356,11 +380,12 @@ Identify common sounds at the levels of 10 dB, 50 dB, and 100 dB.
   <div class="equation" >
    $$I=\frac{P}{A}, $$
   </div>
+
      where  $$P $$
      is the power crossing area  $$A $$ .   The SI unit for  $$I $$
      is watts per meter squared. The intensity of a sound wave is also related to the pressure amplitude  $$\Delta p $$
     <div class="equation" >
-   $$I=\frac{ {\left(\Delta p\right)}^{2}}{2{\text{ρv}}_{w}}, $$
+    $$I=\frac{ {\left(\Delta p\right)}^{2}}{2{\text{ρv}}_{w}}, $$
   </div>
 
 where $$\rho $$ is the density of the medium in which the sound wave travels and
@@ -378,39 +403,53 @@ hearing.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Six members of a synchronized swim team wear earplugs to protect themselves against water pressure at depths, but they can still hear the music and perform the combinations in the water perfectly. One day, they were asked to leave the pool so the dive team could practice a few dives, and they tried to practice on a mat, but seemed to have a lot more difficulty. Why might this be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The swimmers can hear the music in the water due to **bone conduction**. Sound travels much more efficiently from water to the skull than from air to the skull. The sound waves from the underwater speakers travel through the water and are transmitted directly through the swimmers' skulls to the cochlea (inner ear), bypassing the ear canal and eardrum, which are blocked by their earplugs.
 
 On the mat, the sound must travel through the air. The earplugs block most of this airborne sound from entering the ear canal, making it very difficult for them to hear the music clearly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A community is concerned about a plan to bring train service to their downtown from the town’s outskirts. The current sound intensity level, even though the rail yard is blocks away, is 70 dB downtown. The mayor assures the public that there will be a difference of only 30 dB in sound in the downtown area. Should the townspeople be concerned? Why?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Yes, the townspeople should be very concerned. A 30 dB increase in sound level is not a small change. The decibel scale is logarithmic, and a 30 dB increase corresponds to a $$10^3$$, or **1000-fold**, increase in sound intensity.
 
 The new sound level would be $$70 \text{ dB} + 30 \text{ dB} = 100 \text{ dB}$$. This is a very loud noise, equivalent to a noisy factory or a siren at 30 m. According to [[Table 1]](#Table1), exposure to sounds at this level for 8 hours a day can cause hearing damage. The current 70 dB level is equivalent to busy traffic, but a 100 dB level is significantly more intrusive and potentially harmful.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the intensity in watts per meter squared of 85.0-dB sound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We are given the sound intensity level in decibels and need to find the intensity in W/m². We use the decibel formula $$\beta = 10\log_{10}(I/I_0)$$ and solve for $$I$$.
@@ -455,15 +494,20 @@ The intensity of $$3.16 \times 10^{-4}$$ W/m² is a relatively small amount of p
 
 The intensity of an 85.0-dB sound is $$3.16 \times 10^{-4}$$ W/m².
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The warning tag on a lawn mower states that it produces noise at a level of 91.0 dB. What is this in watts per meter squared?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We convert from decibels to intensity using the relationship $$I = I_0 \times 10^{\beta/10}$$, where $$I_0 = 10^{-12}$$ W/m².
@@ -494,16 +538,21 @@ A lawn mower producing 91 dB is quite loud—this level is in the range where pr
 
 The lawn mower produces sound with an intensity of $$1.26 \times 10^{-3}$$ W/m².
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A sound wave traveling in  $$20ºC $$
  air has a pressure amplitude of 0.5 Pa. What is the intensity of the wave?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We are given the pressure amplitude $$\Delta p$$ and need to find the intensity $$I$$. We use the relationship between intensity and pressure amplitude: $$I = \frac{(\Delta p)^2}{2\rho v_w}$$. For air at 20°C, we use $$\rho = 1.29$$ kg/m³ and $$v_w = 343$$ m/s.
@@ -549,15 +598,20 @@ The intensity of $$3.04 \times 10^{-4}$$ W/m² corresponds to a moderate sound l
 
 The intensity of the sound wave is $$3.04 \times 10^{-4}$$ W/m².
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What intensity level does the sound in the preceding problem correspond to?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We found in the previous problem that the intensity is $$I = 3.04 \times 10^{-4}$$ W/m². Now we need to convert this to a sound intensity level in decibels using the formula $$\beta = 10\log_{10}(I/I_0)$$, where $$I_0 = 10^{-12}$$ W/m² is the reference intensity (threshold of hearing).
@@ -602,15 +656,20 @@ Note that the intensity of $$3.04 \times 10^{-4}$$ W/m² is $$3.04 \times 10^{8}
 
 The sound intensity level is approximately 85 dB.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What sound intensity level in dB is produced by earphones that create an intensity of  $$4.00 \times 10^{\text{−2}} {\text{W/m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We are given the intensity and need to find the sound intensity level in decibels. We use the decibel formula $$\beta = 10\log_{10}(I/I_0)$$, where $$I_0 = 10^{-12}$$ W/m².
@@ -653,16 +712,21 @@ The fact that earphones can produce this intensity level is concerning—earphon
 
 The sound intensity level is 106 dB.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that an intensity of  $${10}^{-12} {W/m}^{2} $$
  is the same as  $${10}^{-16} {W/cm}^{2} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to convert between W/m² and W/cm² by converting the area unit from m² to cm². The key is to remember that 1 m = 100 cm, so $$1 \text{ m}^2 = (100 \text{ cm})^2 = 10{,}000 \text{ cm}^2 = 10^4 \text{ cm}^2$$.
@@ -705,15 +769,20 @@ At the threshold of hearing ($$10^{-12}$$ W/m² = $$10^{-16}$$ W/cm²), and with
 
 The general conversion factor is: $$1 \text{ W/m}^2 = 10^{-4} \text{ W/cm}^2$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the decibel level of a sound that is twice as intense as a 90.0-dB sound? (b) What is the decibel level of a sound that is one-fifth as intense as a 90.0-dB sound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For both parts, we need to understand how changes in intensity relate to changes in decibel level. We can use the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, which follows from the definition of decibels. In part (a), $$I_2/I_1 = 2$$, and in part (b), $$I_2/I_1 = 1/5 = 0.2$$.
@@ -783,17 +852,22 @@ An important observation: the new decibel level depends only on the ratio of int
 
 (b) The decibel level of a sound one-fifth as intense as 90.0 dB is 83.0 dB.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the intensity of a sound that has a level 7.00 dB lower than a  $$4.00 \times 10^{-9}  {W/m}^{2} $$
  sound? (b) What is the intensity of a sound that is 3.00 dB higher than a  $$4.00 \times 10^{-9}  {W/m}^{2} $$
  sound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to work backwards from decibel differences to intensity ratios. Using the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, we can solve for the intensity ratio: $$I_2/I_1 = 10^{(\beta_2-\beta_1)/10}$$. Then we multiply by the given intensity to find the new intensity.
@@ -870,15 +944,20 @@ The original intensity of $$4.00 \times 10^{-9}$$ W/m² corresponds to a very qu
 
 (b) The intensity of a sound 3.00 dB higher is $$8.00 \times 10^{-9}$$ W/m².
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much more intense is a sound that has a level 17.0 dB higher than another? (b) If one sound has a level 23.0 dB less than another, what is the ratio of their intensities?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Both parts ask us to find intensity ratios from decibel differences. We use the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, which we can rearrange to $$I_2/I_1 = 10^{(\beta_2-\beta_1)/10}$$.
@@ -939,16 +1018,21 @@ These large intensity ratios for relatively modest decibel differences illustrat
 
 (b) If one sound is 23.0 dB less than another, the intensity ratio is $$5.01 \times 10^{-3}$$ or $$1/200$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 People with good hearing can perceive sounds as low in level as  $$-8.00 \text{dB} $$
  at a frequency of 3000 Hz. What is the intensity of this sound in watts per meter squared?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We are given a sound intensity level in decibels (which is negative) and need to find the corresponding intensity. We use the formula $$\beta = 10\log_{10}(I/I_0)$$ and solve for $$I$$: $$I = I_0 \times 10^{\beta/10}$$, where $$I_0 = 10^{-12}$$ W/m².
@@ -1010,15 +1094,20 @@ This exceptional sensitivity at mid-frequencies (2000-4000 Hz) is why audiologis
 
 The intensity of a -8.00 dB sound is $$1.58 \times 10^{-13}$$ W/m².
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a large housefly 3.0 m away from you makes a noise of 40.0 dB, what is the noise level of 1000 flies at that distance, assuming interference has a negligible effect?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When multiple identical sound sources emit incoherently (with negligible interference), the total intensity is the sum of individual intensities. We first find the intensity of one fly, multiply by 1000 to get the total intensity, then convert back to decibels. The key insight is that intensities add, not decibel levels.
@@ -1080,15 +1169,20 @@ A sound level of 70 dB (equivalent to 1000 flies) is comparable to busy traffic 
 
 The noise level of 1000 flies is 70.0 dB.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Ten cars in a circle at a boom box competition produce a 120-dB sound intensity level at the center of the circle. What is the average sound intensity level produced there by each stereo, assuming interference effects can be neglected?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is the inverse of the previous problem. We know the total sound level from all sources and need to find the level of one source. We'll convert the total decibel level to intensity, divide by the number of sources to get the intensity per source, then convert back to decibels.
@@ -1149,15 +1243,20 @@ Both 110 dB and 120 dB are at the threshold of pain and can cause immediate hear
 
 Each stereo produces an average sound intensity level of 110 dB at the center of the circle.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The amplitude of a sound wave is measured in terms of its maximum gauge pressure. By what factor does the amplitude of a sound wave increase if the sound intensity level goes up by 40.0 dB?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to use the relationship between intensity and pressure amplitude: $$I \propto (\Delta p)^2$$, which comes from $$I = \frac{(\Delta p)^2}{2\rho v_w}$$. First, we'll find the factor by which intensity increases when the sound level increases by 40 dB. Then we'll use the square relationship to find how pressure amplitude changes.
@@ -1222,16 +1321,21 @@ The relationship also explains why it's much easier to damage hearing with loud 
 
 The pressure amplitude increases by a factor of 100.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a sound intensity level of 0 dB at 1000 Hz corresponds to a maximum gauge pressure (sound amplitude) of  $${10}^{-9} \text{atm} $$ ,
  what is the maximum gauge pressure in a 60-dB sound? What is the maximum gauge pressure in a 120-dB sound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship between pressure amplitude and intensity: $$\Delta p \propto \sqrt{I}$$. For each sound level, we'll find the intensity ratio relative to 0 dB, then use the square root of that ratio to find the pressure amplitude ratio. Since $$\Delta p_0 = 10^{-9}$$ atm at 0 dB, we multiply by the ratio to find the new pressure amplitude.
@@ -1307,15 +1411,20 @@ The maximum gauge pressure in a 60-dB sound is $$10^{-6}$$ atm.
 
 The maximum gauge pressure in a 120-dB sound is $$10^{-3}$$ atm.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An 8-hour exposure to a sound intensity level of 90.0 dB may cause hearing damage. What energy in joules falls on a 0.800-cm-diameter eardrum so exposed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Energy is related to power and time by $$E = Pt$$, and intensity is power per unit area: $$I = P/A$$. We'll first convert the decibel level to intensity, then calculate the area of the eardrum, use these to find the power reaching the eardrum, and finally multiply by time to get the total energy.
@@ -1390,17 +1499,22 @@ This illustrates several important points:
 
 The energy incident on the eardrum during an 8-hour exposure to 90.0 dB is $$1.45 \times 10^{-3}$$ J.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Ear trumpets were never very common, but they did aid people with hearing losses by gathering sound over a large area and concentrating it on the smaller area of the eardrum. What decibel increase does an ear trumpet produce if its sound gathering area is  $$900 \text{cm}^{2} $$
  and the area of the eardrum is  $$0.500 \text{cm}^{2} $$ ,
  but the trumpet only has an efficiency of 5.00% in transmitting the sound to the eardrum? (b) Comment on the usefulness of the decibel increase found in part (a).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The ear trumpet collects sound power over its large collecting area and delivers a fraction of it (determined by efficiency) to the smaller eardrum area. The intensity increase at the eardrum is the ratio of delivered power to eardrum area compared to the original intensity. We calculate the power gain, find the intensity ratio, then convert to decibels.
@@ -1484,17 +1598,22 @@ The ear trumpet demonstrates an important principle: you can increase sound inte
 
 (b) This is a significant and useful increase that would substantially help people with moderate hearing loss, though modern hearing aids provide superior performance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sound is more effectively transmitted into a stethoscope by direct contact than through the air, and it is further intensified by being concentrated on the smaller area of the eardrum. It is reasonable to assume that sound is transmitted into a stethoscope 100 times as effectively compared with transmission though the air. What, then, is the gain in decibels produced by a stethoscope that has a sound gathering area of  $$15.0 \text{cm}^{2} $$ ,
  and concentrates the sound onto two eardrums with a total area of  $$0.900 \text{cm}^{2} $$
  with an efficiency of 40.0%?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 The stethoscope provides amplification through three mechanisms: (1) enhanced transmission through direct contact (100× factor), (2) collecting sound over a larger area, and (3) concentrating it onto the smaller eardrum area with some efficiency. We calculate the total intensity gain by multiplying all these factors, then convert to decibels.
@@ -1561,15 +1680,20 @@ This is why stethoscopes are essential diagnostic tools—they make the differen
 
 The stethoscope produces a gain of 28.2 dB.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Loudspeakers can produce intense sounds with surprisingly small energy input in spite of their low efficiencies. Calculate the power input needed to produce a 90.0-dB sound intensity level for a 12.0-cm-diameter speaker that has an efficiency of 1.00%. (This value is the sound intensity level right at the speaker.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the electrical power input to the speaker. First, we convert the decibel level to intensity. Then we calculate the area of the speaker and find the acoustic power output. Since efficiency is the ratio of acoustic power output to electrical power input, we divide the acoustic power by the efficiency to find the required electrical input power.
@@ -1659,23 +1783,25 @@ This is why small battery-powered speakers and earbuds can operate for hours on 
 
 The power input needed is $$1.13 \times 10^{-3}$$ W or 1.13 mW.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"> Several government
+* [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content"> Several government
   agencies and health-related professional associations recommend that 85 dB not
   be exceeded for 8-hour daily exposures in the absence of hearing
   protection.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1689,4 +1815,4 @@ standard
 sound pressure level
 : the ratio of the pressure amplitude to a reference pressure
 
-</div>
+:::

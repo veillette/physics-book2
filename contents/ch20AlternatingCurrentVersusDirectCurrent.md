@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 20
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the differences and similarities between AC and DC current.
 * Calculate rms voltage, current, and average power.
 * Explain why AC current is used for power transmission.
-</div>
+
+:::
 
 ### Alternating Current
 
@@ -64,13 +65,15 @@ expressions for $$I $$ and $$V $$ above, we see that the time dependence of
 power is $$P={I}_{0}{V}_{0} {\sin}^{2} 2\pi \text{ft} $$ , as shown
 in [[Figure 3]](#Figure3).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment—AC/DC Lights
 </div>
+
 Wave your hand back and forth between your face and a fluorescent light bulb. Do you observe the same thing with the headlights on your car? Explain what you observe. *Warning: Do not look directly at very bright light*.
 
-</div>
+:::
 
 ![A graph showing the variation of power P with time t. The power is along the vertical axis and time is along the horizontal axis. The curve is a sine wave starting at the origin on the horizontal axis and having the crests and troughs both above the positive horizontal axis. The maximum value of power is given by the peak value, which is the product of I sub zero and V sub zero. The average power is indicated by a dotted line through the center of the wave parallel to the horizontal axis with a value half of the product of I sub zero and V sub zero.](../resources/Figure_20_05_03.jpg 'AC power as a function of time. Since the voltage and current are in phase here, their product is non-negative and fluctuates between zero and ( I_0 V_0 ) . Average power is ( 1/2 I_0 V_0 ).')
 {: #Figure3}
@@ -141,10 +144,12 @@ and
  $${P}_{\text{ave}}={I}_{\text{rms}}^{2}R. $$
 </div>
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Peak Voltage and Power for AC
 </div>
+
 (a) What is the value of the peak voltage for 120-V AC power? (b) What is the peak power consumption rate of a 60.0-W AC light bulb?
 
 **Strategy**
@@ -162,6 +167,7 @@ peak voltage $${V}_{0} $$ and substituting the known value for $${V}_{\text{rms}
 <div class="equation" >
  $${V}_{0}=\sqrt{2}{V}_{\text{rms}}= 1.414 \left(120 \text{V}\right)=170 \text{V}. $$
 </div>
+
 **Discussion for (a)**
 
 This means that the AC voltage swings from 170 V to $$-170 \text{V} $$ and back
@@ -174,17 +180,19 @@ Peak power is peak current times peak voltage. Thus,
 <div class="equation" >
  $${P}_{0}={I}_{0}{V}_{0}=2\left(\frac{1}{2}{I}_{0}{V}_{0}\right)=2{P}_{\text{ave}}. $$
 </div>
+
 We know the average power is 60.0 W, and so
 
 <div class="equation" >
  $${P}_{0}=2\left(60.0 \text{W}\right)=120 \text{W}. $$
 </div>
+
 **Discussion**
 
 So the power swings from zero to 120 W one hundred twenty times per second (
 twice each cycle), and the power averages 60 W.
 
-</div>
+:::
 
 ### Why Use AC for Power Distribution?
 
@@ -203,10 +211,12 @@ distribution systems.
 ![Photograph of transformers installed in transmission lines.](../resources/Figure_20_05_04.jpg 'Power is distributed over large distances at high voltage to reduce power loss in the transmission lines. The voltages generated at the power plant are stepped up by passive devices called transformers (see Transformers) to 330 000 volts (or more in some places worldwide). At the point of use, the transformers reduce the voltage transmitted for safe residential and commercial use. (Credit: GeorgHH, Wikimedia Commons)')
 {: #Figure4}
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Power Losses Are Less for High-Voltage Transmission
 </div>
+
 (a) What current is needed to transmit 100 MW of power at 200 kV? (b) What is the power dissipated by the transmission lines if they have a resistance of  $$ 1.00 \Omega  $$ ?
  (c) What percentage of the power is lost in the transmission lines?
 
@@ -224,6 +234,7 @@ To find the current, we rearrange the relationship $${P}_{\text{ave}}={I}_{\text
 <div class="equation" >
  $${I}_{\text{rms}}=\frac{ {P}_{\text{ave}}}{ {V}_{\text{rms}}}=\frac{100 \times 10^{6}  \text{W}}{200 \times 10^{3}  \text{V}}=500 \text{A}. $$
 </div>
+
 **Solution**
 
 Knowing the current and given the resistance of the lines, the power dissipated
@@ -233,6 +244,7 @@ the known values gives
 <div class="equation" >
  $${P}_{\text{ave}}={I}_{\text{rms}}^{2}R={\left( 500 \text{A} \right)}^{2}\left( 1.00 \Omega \right)=250 \text{kW}. $$
 </div>
+
 **Solution**
 
 The percent loss is the ratio of this lost power to the total or input power,
@@ -241,6 +253,7 @@ multiplied by 100:
 <div class="equation" >
  $$ \% \text{loss}=\frac{250 \text{kW}}{100 \text{MW}} \times 100=0.250\%. $$
 </div>
+
 **Discussion**
 
 One-fourth of a percent is an acceptable loss. Note that if 100 MW of power had
@@ -256,7 +269,7 @@ voltages are more economical for transmitting power, and AC voltage is much
 easier to raise and lower, so that AC is used in most large-scale power
 distribution systems.
 
-</div>
+:::
 
 It is widely recognized that high voltages pose greater hazards than low
 voltages. But, in fact, some high voltages, such as those associated with common
@@ -269,16 +282,19 @@ and Nikola Tesla, who were advocating the use of AC in early power-distribution
 systems. AC has prevailed largely due to transformers and lower power losses
 with high-voltage transmission.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Generator
 </div>
+
 Generate electricity with a bar magnet! Discover the physics behind the phenomena by exploring magnets and how you can use them to make a bulb light.
 
 <div class="media"  data-alt="generator">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/generator/#sim-generator"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -296,35 +312,48 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a use of AC power other than in the household. Similarly, give an example of a use of DC power other than that supplied by batteries.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why do voltage, current, and power go through zero 120 times per second for 60-Hz AC electricity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are riding in a train, gazing into the distance through its window. As close objects streak by, you notice that the nearby fluorescent lights make *dashed* streaks. Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the hot resistance of a 25-W light bulb that runs on 120-V AC? (b) If the bulb's operating temperature is  $$2700 \text{ºC} $$ ,
  what is its resistance at  $$2600 \text{ºC} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), use $$P = V_{\text{rms}}^{2}/R$$. For part (b), use the temperature dependence of resistance $$R = R_{0}(1 + \alpha \Delta T)$$ with the tungsten temperature coefficient.
@@ -353,26 +382,36 @@ The hot resistance is quite high (576 Ω). At 100°C lower temperature, the resi
 
 (a) The hot resistance is 576 Ω. (b) At 2600°C, the resistance is approximately 317 Ω.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Certain heavy industrial equipment uses AC power that has a peak voltage of 679 V. What is the rms voltage?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 480 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain circuit breaker trips when the rms current is 15.0 A. What is the corresponding peak current?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship between rms and peak current: $$I_{\text{rms}} = \frac{I_{0}}{\sqrt{2}}$$. Solving for the peak current $$I_{0}$$ will give us the maximum instantaneous current that flows through the circuit.
@@ -397,26 +436,36 @@ The peak current of 21.2 A is about 41% higher than the rms value of 15.0 A. Thi
 
 The corresponding peak current is 21.2 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Military aircraft use 400-Hz AC power, because it is possible to design lighter-weight equipment at this higher frequency. What is the time for one complete cycle of this power?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 2.50 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A North American tourist takes his 25.0-W, 120-V AC razor to Europe, finds a special adapter, and plugs it into 240 V AC. Assuming constant resistance, what power does the razor consume as it is ruined?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First, find the razor's resistance using its rated power and voltage with $$P = V^{2}/R$$. Then, use this resistance to calculate the power consumed when connected to the higher European voltage.
@@ -447,31 +496,41 @@ The razor consumes four times its rated power (100 W instead of 25 W). This exce
 
 The razor consumes 100 W when connected to 240 V AC, which is four times its rated power and will damage or destroy the device.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In this problem, you will verify statements made at the end of the power losses for [[Example 2]](#Example2). (a) What current is needed to transmit 100 MW of power at a voltage of 25.0 kV? (b) Find the power loss in a  $$1.00 \text{-} \Omega  $$
  transmission line. (c) What percent loss does this represent?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 4.00 kA
 
 (b) 16.0 MW
 
 (c) 16.0%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A small office-building air conditioner operates on 408-V AC and consumes 50.0 kW. (a) What is its effective resistance? (b) What is the cost of running the air conditioner during a hot summer month when it is on 8.00 h per day for 30 days and electricity costs  $$9.00 \text{cents/kW}\cdot \text{h} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), use the power equation $$P = V^{2}/R$$ to find the effective resistance. For part (b), calculate the total energy consumed in kW·h, then multiply by the cost per kW·h.
@@ -504,26 +563,36 @@ The monthly operating cost of \$1080 is significant but reasonable for a commerc
 
 (a) The effective resistance is 3.33 Ω. (b) The cost of running the air conditioner for the month is \$1080.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the peak power consumption of a 120-V AC microwave oven that draws 10.0 A?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 2.40 kW
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the peak current through a 500-W room heater that operates on 120-V AC power?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First, find the rms current using $$P_{\text{ave}} = I_{\text{rms}} V_{\text{rms}}$$. Then convert to peak current using $$I_{0} = \sqrt{2} \cdot I_{\text{rms}}$$.
@@ -548,32 +617,42 @@ The peak current of 5.89 A is the maximum instantaneous current flowing through 
 
 The peak current through the room heater is 5.89 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two different electrical devices have the same power consumption, but one is meant to be operated on 120-V AC and the other on 240-V AC. (a) What is the ratio of their resistances? (b) What is the ratio of their currents? (c) Assuming its resistance is unaffected, by what factor will the power increase if a 120-V AC device is connected to 240-V AC?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 4.0
 
 (b) 0.50
 
 (c) 4.0
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of  $$5.00{\text{mm}}^{2} $$ ,
  is needed if the operating temperature is  $$500 \text{ºC} $$ ?
  (c) What power will it draw when first switched on?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), use $$P = V^{2}/R$$ to find the required hot resistance. For part (b), use the resistivity formula $$R = \rho L/A$$ with the resistivity at the operating temperature. For part (c), find the cold resistance using the temperature coefficient and then calculate the power at room temperature.
@@ -620,35 +699,45 @@ The heater requires 60.5 m of Nichrome wire, which is typically wound into a com
 
 (a) The required resistance is 14.4 Ω. (b) The length of Nichrome wire needed is 60.5 m. (c) When first switched on, the heater draws 1.19 kW.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the time after  $$t=0 $$
  when the instantaneous voltage of 60-Hz AC first reaches the following values: (a)  $${V}_{0}/2 $$
  (b)  $${V}_{0} $$
  (c) 0.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 1.39 ms
 
 (b) 4.17 ms
 
 (c) 8.33 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what two times in the first period following  $$t=0 $$
  does the instantaneous voltage in 60-Hz AC equal  $${V}_{\text{rms}} $$ ?
  (b) $$-{V}_{\text{rms}} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the AC voltage equation $$V = V_{0} \sin(2\pi f t)$$ and the relationship $$V_{\text{rms}} = V_{0}/\sqrt{2}$$. Set the instantaneous voltage equal to $$\pm V_{\text{rms}}$$ and solve for time. For 60-Hz AC, the period is $$T = 1/f = 1/60$$ s = 16.67 ms.
@@ -709,10 +798,12 @@ These times divide the period into eight equal parts of 2.08 ms each. The rms vo
 
 (a) The voltage equals $$V_{\text{rms}}$$ at $$t = 2.08$$ ms and $$t = 6.25$$ ms. (b) The voltage equals $$-V_{\text{rms}}$$ at $$t = 10.4$$ ms and $$t = 14.6$$ ms.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -738,4 +829,4 @@ rms voltage
 : the root-mean-square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
 where $$V_0$$ is the peak voltage, in an AC system
 
-</div>
+:::

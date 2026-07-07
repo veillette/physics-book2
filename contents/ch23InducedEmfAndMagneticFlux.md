@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
  * Calculate the flux of a uniform magnetic field through a loop of arbitrary orientation.
  * Describe methods to produce an electromotive force (emf) with a magnetic field or magnet and a loop of wire.
-</div>
+
+:::
 
 The apparatus used by Faraday to demonstrate that magnetic fields can create
 currents is illustrated in [[Figure 1]](#Figure1). When the switch is closed, a
@@ -85,47 +86,63 @@ is made, as examined in the next section.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do the multiple-loop coils and iron ring in the version of Faraday’s apparatus shown in [[Figure 1]](#Figure1) enhance the observation of induced emf?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a magnet is thrust into a coil as in [[Figure 2]](#Figure2)(a), what is the direction of the force exerted by the coil on the magnet? Draw a diagram showing the direction of the current induced in the coil and the magnetic field it produces, to justify your response. How does the magnitude of the force depend on the resistance of the galvanometer?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how magnetic flux can be zero when the magnetic field is not zero.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is an emf induced in the coil in [[Figure 5]](#Figure5) when it is stretched? If so, state why and give the direction of the induced current.
 
 ![The first part of the figure shows a circular coil of wire held in a magnetic field. The magnetic field points into the paper. The coil is held using both the hands to stretch it. The second part of the figure shows the same circular coil of wire stretched in the magnetic field.](../resources/Figure_23_01_05.jpg "A circular coil of wire is stretched in a magnetic field.")
 {: #Figure5}
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the value of the magnetic flux at coil 2 in [[Figure 6]](#Figure6) due to coil 1?
 
 ![The first part of the figure shows two single loop coils. The coil one is held vertical with a current shown to flow in anti clockwise direction. The second coil, coil two is held horizontal. The two coils are shown to be held perpendicular to each other. The second image shows a wire held vertical carrying a current in upward direction. There is a single loop coil next to the wire held horizontal.](../resources/Figure_23_01_06.jpg "(a) The planes of the two coils are perpendicular. (b) The wire is perpendicular to the plane of the coil.")
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The two coils are perpendicular to each other. When coil 1 carries current, it produces a magnetic field perpendicular to its own plane. We need to determine the angle between this field and the normal to coil 2's area.
@@ -156,15 +173,20 @@ The perpendicular orientation of the coils is crucial. The magnetic field lines 
 
 The magnetic flux at coil 2 due to coil 1 is zero.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the value of the magnetic flux through the coil in [[Figure 6]](#Figure6)(b) due to the wire?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The wire is perpendicular to the plane of the coil. The magnetic field from the wire forms circles around it, and these field lines lie in the plane of the coil, not perpendicular to it.
@@ -187,10 +209,12 @@ No magnetic field lines pass through the area of the coil because they all lie i
 
 The magnetic flux through the coil is zero.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -202,4 +226,4 @@ an area $$A $$ at an angle $$\theta $$ with the perpendicular to the area
 electromagnetic induction
 : the process of inducing an emf (voltage) with a change in magnetic flux
 
-</div>
+:::

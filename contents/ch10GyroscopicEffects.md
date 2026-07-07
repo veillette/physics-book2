@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 10
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the right-hand rule to find the direction of angular velocity, momentum, and torque.
 * Explain the gyroscopic effect.
 * Study how Earth acts like a gigantic gyroscope.
 
-</div>
+:::
 
 Angular momentum is a vector and, therefore, _has direction as well as
 magnitude_. Torque affects both the direction and the magnitude of angular
@@ -85,14 +85,19 @@ nonspherical shape.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Rotational kinetic energy is associated with angular momentum? Does that mean that rotational kinetic energy is a vector?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 No, energy is always a scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -111,23 +116,30 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Gyroscopes used in guidance systems to indicate directions in space must have an angular momentum that does not change in direction. Yet they are often subjected to large forces and accelerations. How can the direction of their angular momentum be constant when they are accelerated?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -145,18 +157,22 @@ effective point on the equator, what would its magnitude be?
 ![In the figure, the Earth’s image is shown. There are two vectors inclined at an angle of twenty three point five degree to the vertical, starting from the centre of the Earth. At the heads of the two vectors there is a circular shape, directed in counter clockwise direction. An angular momentum vector, directed toward left, along its diameter, is shown. The plane of the Earth’s orbit is shown as a horizontal line through its center.](../resources/Figure_10_07_05.jpg 'The Earth’s axis slowly precesses, always making an angle of 23.5° with the direction perpendicular to the plane of Earth’s orbit. The change in angular momentum for the two shown positions is quite large, although the magnitude ( L ) is unchanged.')
 {: #Figure5 height="250"}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) $$ 5.64 \times 10^{33}\kg \cdot  \mms $$
 
 (b) $$ 1.39 \times 10^{22}\N \cdot \m $$
 
 (c) $$ 2.17 \times 10^{15}\N $$
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -165,4 +181,4 @@ right-hand rule
 your right hand points when you curl your fingers in the direction of the disk’s
 rotation
 
-</div>
+:::

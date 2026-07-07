@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the magnitude and direction of an induced eddy current, and the effect this will have on the object it is induced in.
 * Describe several applications of magnetic damping.
-</div>
+
+:::
 
 ### Eddy Currents and Magnetic Damping
 
@@ -120,27 +121,37 @@ ferromagnetic, iron or steel for induction to work.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why magnetic damping might not be effective on an object made of several thin conducting layers separated by insulation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how electromagnetic induction can be used to detect metals? This technique is particularly important in detecting buried landmines for disposal, geophysical prospecting and at airports.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving in the opposite direction. Then use Faraday's law, Lenz's law, and RHR-1 to show that magnetic force opposes motion.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the plate moving right-to-left, entering and exiting the magnetic field. We apply Faraday's law to find induced emf, Lenz's law for current direction, and RHR-1 for force direction.
@@ -171,11 +182,14 @@ In both cases—entering and exiting—the magnetic force opposes the plate's mo
 
 Drawing analysis shows that whether entering or exiting the field from the right, the magnetic force always points opposite to the velocity (rightward when moving leftward), opposing the motion as required by Lenz's law and energy conservation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 ![Figure shows the five stages of a single loop coil moved into and then out of a uniform magnetic field from left to right. It shows five stages a to d. The magnetic field B out is in a rectangular region and directed out of the paper. In stage a, the single loop coil is outside the magnetic field on the left side. In stage b, the single loop coil is partially inside the fields. In stage c, the single loop coil is fully inside the magnetic field. In stage d, the single loop coil is partially outside the magnetic field. In stage e, the single loop coil is fully outside the magnetic field now on the right.](../resources/Figure_23_04_08.jpg "A coil is moved into and out of a region of uniform magnetic field."){: #Figure8}
 
 A coil is moved through a magnetic field as shown in [[Figure 8]](#Figure8). The
@@ -183,8 +197,10 @@ field is uniform inside the rectangle and zero outside. What is the direction of
 the induced current and what is the direction of the magnetic force on the coil
 at each position shown?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Lenz's law to find the direction of induced current, and RHR-1 to find the force direction. The magnetic field points out of the page.
@@ -224,10 +240,12 @@ The pattern demonstrates magnetic damping: forces always oppose motion, requirin
 
 (a) No current, no force; (b) Clockwise current, force to left; (c) No current, no force; (d) Counterclockwise current, force to left; (e) No current, no force.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -237,4 +255,4 @@ eddy current
 magnetic damping
 : the drag produced by eddy currents
 
-</div>
+:::

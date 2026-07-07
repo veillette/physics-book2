@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the propagation of transverse waves.
 * Discuss Huygens’s principle.
 * Explain the bending of light.
 
-</div>
+:::
 
 [[Figure 1]](#Figure1) shows how a transverse wave looks as viewed from above
 and from the side. A light wave can be imagined to propagate like this, although
@@ -105,11 +105,14 @@ wave.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do wave effects depend on the size of the object with which the wave interacts? For example, why does sound bend around the corner of a building while light does not?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -125,15 +128,19 @@ In contrast, visible light has wavelengths in the range of 380-760 nm (about 10�
 
 This principle explains why we can hear someone talking around a corner but cannot see them. It also explains why larger obstacles are needed to observe diffraction effects with light - for example, narrow slits with widths on the order of micrometers are required to see significant diffraction patterns with visible light. The general rule is: diffraction effects are most noticeable when λ ≈ d, where d is the size of the obstacle or opening.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Under what conditions can light be modeled like a ray? Like a wave?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -159,15 +166,19 @@ The transition between these models is gradual. For objects with dimensions arou
 
 This dual nature reflects the wave-particle duality of light. The ray model (geometric optics) is simpler and adequate for many practical applications involving macroscopic optical devices. However, the wave model is fundamental and necessary for understanding the true nature of light and phenomena that the ray model cannot explain. In modern physics, we recognize that light always has wave properties, but these become negligible in certain macroscopic situations where the ray approximation works well.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Go outside in the sunlight and observe your shadow. It has fuzzy edges even if you do not. Is this a diffraction effect? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -193,15 +204,19 @@ There IS a small diffraction effect at the edges of shadows, but it is extremely
 
 You can test this by using different light sources. With a small, distant light source (like a streetlamp far away at night), your shadow edges will be much sharper, though still showing tiny diffraction fringes if examined carefully. With a large, nearby light source (like a lamp with a large bulb), your shadow edges will be very fuzzy. This confirms that the extended nature of the source, not diffraction, dominates the fuzzy-edge effect in everyday shadows.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does the wavelength of light decrease when it passes from vacuum into a medium? State which attributes change and which stay the same and, thus, require the wavelength to decrease.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -235,15 +250,19 @@ Therefore, λ_medium = λ_vacuum/n < λ_vacuum.
 
 This relationship is crucial for understanding phenomena like thin film interference, where we must use the wavelength in the medium (λ_n = λ/n) rather than the wavelength in vacuum. The physical reason for the speed decrease is that light interacts with the atoms in the medium - the oscillating electric field of the light wave causes electrons to oscillate, and these oscillating electrons re-radiate light that interferes with the original wave, effectively slowing its propagation through the medium. However, the frequency must match the driving frequency of the original source, so wavelength is the parameter that adjusts.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does Huygens's principle apply to all types of waves?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -280,10 +299,12 @@ The principle states that every point on a wavefront can be considered as a sour
 
 Huygens's principle is particularly powerful because it's a geometrical method that doesn't require detailed knowledge of the wave's physical mechanism. Whether we're dealing with vibrating water molecules, oscillating electromagnetic fields, or quantum probability amplitudes, the same principle applies. This universality is one reason why wave phenomena look similar across vastly different physical systems - from ripples in a pond to light diffracting through a slit to electron diffraction in a crystal. The principle does have some mathematical limitations (it doesn't fully account for the detailed amplitude and polarization in all cases without additional considerations), but its basic geometric approach to wave propagation is indeed universal.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -295,4 +316,4 @@ Huygens’s principle
 forward direction at the same speed as the wave itself. The new wavefront is a
 line tangent to all of the wavelets
 
-</div>
+:::

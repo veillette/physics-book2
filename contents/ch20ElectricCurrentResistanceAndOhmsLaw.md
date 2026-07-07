@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 20
 ---
-
 ![A large volume of water gushes out of the gates of a dam at a hydroelectric facility.](../resources/Figure_20_00_01.jpg 'Electric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge—that is, by electric current. (credit: Chintohere, Wikimedia Commons)')
 {: #Figure1}
 
@@ -21,6 +20,8 @@ devoted to electric and magnetic phenomena involving current. In addition to
 exploring applications of electricity, we shall gain new insights into nature—in
 particular, the fact that all magnetism results from electric current.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8blVnGZ6-rM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

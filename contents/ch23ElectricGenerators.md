@@ -4,21 +4,24 @@ layout: page
 sectionNumber: 5
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the emf induced in a generator.
 * Calculate the peak emf which can be induced in a particular generator system.
-</div>
+
+:::
 
 **Electric generators** induce an emf by rotating a coil in a magnetic field, as
 briefly discussed
 in [Induced Emf and Magnetic Flux](../contents/ch23InducedEmfAndMagneticFlux). We will now
 explore generators in more detail. Consider the following example.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating the Emf Induced in a Generator Coil
 </div>
+
 The generator coil shown in [[Figure 1]](#Figure1) is rotated through one-fourth of a revolution (from  $$\theta =0º $$
  to  $$\theta =90 ^\circ $$ )   in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?
 
@@ -33,6 +36,7 @@ $$\Delta t $$ \:
 <div class="equation" >
  $$\text{emf}=-N\frac{\Delta \Phi }{\Delta t}\text{.} $$
 </div>
+
 We know that  $$N=200 $$
  and  $$\Delta t= 15.0 \text{ms} $$ ,
  and so we must determine the change in flux  $$\Delta \Phi  $$
@@ -46,6 +50,7 @@ that
 <div class="equation" >
  $$\Delta \Phi =\Delta \left(BA \cos \theta \right)=AB\Delta \left(\cos \theta \right)\text{.} $$
 </div>
+
 Now,  $$\Delta \left(\cos \theta \right)= -1.0 $$ ,
  since it was given that  $$\theta  $$
  goes from  $$0 ^\circ $$
@@ -53,17 +58,19 @@ Now,  $$\Delta \left(\cos \theta \right)= -1.0 $$ ,
 <div class="equation" >
  $$\text{emf}=N\frac{AB}{\Delta t}. $$
 </div>
+
 The area of the loop is  $$A=\pi r^2=\left( 3.14\text{...}\right) {\left( 0.0500 \text{m}\right)}^{2}= 7.85 \times 10^{-3}  {\text{m}}^{2} $$ .
  Entering this value gives
 
 <div class="equation" >
  $$\text{emf}=200\frac{\left( 7.85 \times 10^{-3}  {\text{m}}^{2}\right)\left( 1.25 \text{T}\right)}{ 15.0 \times 10^{-3}  \text{s}}=131 \text{V} \text{.}  $$
 </div>
+
 **Discussion**
 
 This is a practical average value, similar to the 120 V used in household power.
 
-</div>
+:::
 
 The emf calculated in [Example 1](#Example1) is the average over
 one-fourth of a revolution. What is the emf at any given instant? It varies with
@@ -148,10 +155,12 @@ usually used to make ripple-free DC.
 ![The first part of the figure shows a schematic diagram of a single coil D C electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two sides of a split ring. The two conducting carbon brushes are kept pressed separately on both sides of the split rings. The loop is rotated in the field with an angular velocity w. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated as a function of time. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive and rectified sine wave with a time period T. The sine wave has only positive pulses. The crest maxima are at E zero.](../resources/Figure_23_05_04.jpg 'Split rings, called commutators, produce a pulsed DC emf output in this configuration.')
 {: #Figure4}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Maximum Emf of a Generator
 </div>
+
 Calculate the maximum emf,  $${\text{emf}}_{0} $$ ,
  of the generator that was the subject of [[Example 1]](#Example1).
 
@@ -167,24 +176,27 @@ Angular velocity is defined to be the change in angle per unit time:
 <div class="equation" >
  $$\omega =\frac{\Delta \theta }{\Delta t}\text{.} $$
 </div>
+
 One-fourth of a revolution is  $$\pi /2 $$
  radians, and the time is 0.0150 s; thus,
 
 <div class="equation" >
  $$\begin{array}{lll}\omega & =& \frac{\pi /2 \text{rad}}{0.0150 \text{s}}\\ & =& 104.7 \text{rad/s}\text{.}\end{array} $$
 </div>
+
 104.7 rad/s is exactly 1000 rpm. We substitute this value for  $$\omega  $$
  and the information from the previous example into  $${\text{emf}}_{0}=NAB\omega  $$, yielding
 
 <div class="equation" >
  $$\begin{array}{lll}{\text{emf}}_{0}& =& NAB\omega \\ & =& 200\left( 7.85 \times 10^{-3}  {\text{m}}^{2}\right)\left( 1.25 \text{T}\right)\left( 104.7 \text{rad/s}\right)\\ & =& 206 \text{V}\end{array}\text{.} $$
 </div>
+
 **Discussion**
 
 The maximum emf is greater than the average emf of 131 V found in the previous
 example, as it should be.
 
-</div>
+:::
 
 In real life, electric generators look a lot different than the figures in this
 section, but the principles are the same. The source of mechanical energy that
@@ -222,27 +234,37 @@ velocity $$\omega $$ in a uniform magnetic field $$B $$ .
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using RHR-1, show that the emfs in the sides of the generator loop in [[Figure 4]](#Figure4) are in the same sense and thus add.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The source of a generator’s electrical energy output is the work done to turn its coils. How is the work needed to turn the generator related to Lenz’s law?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the peak voltage of a generator that rotates its 200-turn, 0.100 m diameter coil at 3600 rpm in a 0.800 T field.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the peak emf formula $$\text{emf}_0 = NAB\omega$$. First, we need to find the area of the circular coil and convert the angular velocity from rpm to rad/s.
@@ -281,15 +303,20 @@ This is a substantial voltage, typical of industrial generators. The high rotati
 
 474 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angular velocity in rpm will the peak voltage of a generator be 480 V, if its 500-turn, 8.00 cm diameter coil rotates in a 0.250 T field?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\text{emf}_0 = NAB\omega$$ and solve for $$\omega$$, then convert from rad/s to rpm.
@@ -322,16 +349,21 @@ This is a very high rotation rate (over 7000 rpm), typical of some high-speed ge
 
 The required angular velocity is 7290 rpm or 7.29 × 10³ rpm.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the peak emf generated by rotating a 1000-turn, 20.0 cm diameter coil in the Earth's  $$ 5.00 \times 10^{-5}  \text{T} $$
  magnetic field, given the plane of the coil is originally perpendicular to the Earth's field and is rotated to be parallel to the field in 10.0 ms?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find $$\omega$$ from the rotation information (perpendicular to parallel in 10.0 ms is one-quarter revolution), then use $$\text{emf}_0 = NAB\omega$$.
@@ -370,15 +402,20 @@ The Earth's magnetic field is very weak compared to fields in typical generators
 
 0.247 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the peak emf generated by a 0.250 m radius, 500-turn coil is rotated one-fourth of a revolution in 4.17 ms, originally having its plane perpendicular to a uniform magnetic field. (This is 60 rev/s.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem refers to a coil setup from a previous problem in the Faraday's law chapter where a similar coil with B = 0.425 T was used. We'll use $$\text{emf}_0 = NAB\omega$$ with that field strength. First, we calculate the area and angular velocity.
@@ -411,15 +448,20 @@ This is a very high voltage, appropriate for power generation at 60 Hz. The peak
 
 15.7 kV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A bicycle generator rotates at 1875 rad/s, producing an 18.0 V peak emf. It has a 1.00 by 3.00 cm rectangular coil in a 0.640 T field. How many turns are in the coil? (b) Is this number of turns of wire practical for a 1.00 by 3.00 cm coil?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\text{emf}_0 = NAB\omega$$ and solve for N. The area of the rectangular coil is length times width.
@@ -466,11 +508,14 @@ Part (a) shows that 50 turns is needed to produce 18 V at this rotation rate. Pa
 
 (a) 50 turns; (b) Yes, this is practical for a compact bicycle generator.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 This problem refers to the bicycle generator considered in the previous problem.
@@ -481,8 +526,10 @@ bicycle moves at 10.0 m/s, noting that it was 18.0 V under the original
 conditions? (c) If the sophisticated generator can vary its own magnetic field,
 what field strength will it need at 5.00 m/s to produce a 9.00 V maximum emf?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The generator wheel rolls on the bicycle tire, so $$v = r\omega$$ where $$r$$ is the wheel radius. The emf is proportional to $$\omega$$, which is proportional to bicycle speed.
@@ -533,15 +580,20 @@ Part (a) shows the bicycle moves at 15.0 m/s (54 km/h) when the generator spins 
 
 (a) 15.0 m/s; (b) 12.0 V; (c) 0.960 T.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A car generator turns at 400 rpm when the engine is idling. Its 300-turn, 5.00 by 8.00 cm rectangular coil rotates in an adjustable magnetic field so that it can produce sufficient voltage even at low rpms. What is the field strength needed to produce a 24.0 V peak emf? (b) Discuss how this required field strength compares to those available in permanent and electromagnets.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\text{emf}_0 = NAB\omega$$ and solve for B. First, we need to convert rpm to rad/s and calculate the coil area.
@@ -582,16 +634,21 @@ The relatively low field strength needed (about 0.5 T) makes this practical for 
 
 (a) 0.477 T; (b) This field strength is readily achievable with either permanent magnets or electromagnets, making it practical for automotive generators.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that if a coil rotates at an angular velocity  $$\omega  $$ ,
  the period of its AC output is  $$2\pi /\omega  $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The emf varies as $$\text{emf} = \text{emf}_0 \sin(\omega t)$$. The period $$T$$ is the time for one complete cycle, when the argument of sine increases by $$2\pi$$.
@@ -634,15 +691,20 @@ This result connects angular velocity to period. Since frequency $$f = 1/T$$, we
 
 Proven: The period is $$T = 2\pi/\omega$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 75-turn, 10.0 cm diameter coil rotates at an angular velocity of 8.00 rad/s in a 1.25 T field, starting with the plane of the coil parallel to the field. (a) What is the peak emf? (b) At what time is the peak emf first reached? (c) At what time is the emf first at its most negative? (d) What is the period of the AC voltage output?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\text{emf}_0 = NAB\omega$$ for peak emf. The emf varies as $$\text{emf} = \text{emf}_0 \sin(\omega t)$$ when starting with the plane parallel to the field (maximum flux change rate at t = 0). The period is $$T = 2\pi/\omega$$.
@@ -691,17 +753,22 @@ Starting with the plane parallel to the field means maximum flux change rate at 
 
 (a) 5.89 V; (b) t = 0; (c) 0.393 s; (d) 0.785 s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If the emf of a coil rotating in a magnetic field is zero at  $$t=0 $$ ,
  and increases to its first peak at  $$t= 0.100 \text{ms} $$ ,
  what is the angular velocity of the coil? (b) At what time will its next maximum occur? (c) What is the period of the output? (d) When is the output first one-fourth of its maximum? (e) When is it next one-fourth of its maximum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The emf is $$\text{emf} = \text{emf}_0 \sin(\omega t)$$. Starting at zero, it reaches maximum when $$\sin(\omega t) = 1$$, which occurs when $$\omega t = \pi/2$$.
@@ -760,19 +827,24 @@ The coil rotates very rapidly at 15,700 rad/s (about 2500 Hz). The periodic natu
 
 (a) 1.57 × 10⁴ rad/s; (b) 0.500 ms; (c) 0.400 ms; (d) 16.1 μs; (e) 0.184 ms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A 500-turn coil with a $$ 0.250 {\text{m}}^{2} $$ area is spun in the Earth's $$ 5.00 \times 10^{-5} \text{T} $$ field, producing a 12.0 kV maximum emf. (a) At
 what angular velocity must the coil be spun? (b) What is unreasonable about this
 result? (c) Which assumption or premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\text{emf}_0 = NAB\omega$$ and solve for $$\omega$$. Then we evaluate whether this angular velocity is physically reasonable for a mechanical system.
@@ -817,10 +889,12 @@ This problem illustrates why practical generators use strong artificial magnetic
 
 (a) 1.92 × 10⁶ rad/s; (b) This is unreasonably high - over 18 million rpm, which would destroy any mechanical system and give rim speeds approaching the speed of light; (c) The assumption that 12.0 kV can be obtained from Earth's weak magnetic field is unreasonable.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -835,4 +909,4 @@ magnetic field $$B $$ , over a period of time $$t $$
 peak emf
 : $${\text{emf}}_{0}=NAB\omega $$
 
-</div>
+:::

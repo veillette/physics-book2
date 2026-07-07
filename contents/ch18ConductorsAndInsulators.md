@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define conductor and insulator, explain the difference, and give examples of each.
 * Describe three methods for charging an object.
 * Explain what happens to an electric force as you move farther from the source.
 * Define polarization.
-</div>
+
+:::
 
 ![This black power charging unit connects a laptop to an electrical outlet, allowing the laptop to be charged up.](../resources/Figure_18_02_01.jpg 'This power adapter uses metal wires and connectors to conduct electricity from the wall socket to a laptop computer. The conducting wires allow electrons to move freely through the cables, which are shielded by rubber and plastic. These materials act as insulators that don’t allow electric charge to escape outward. (credit: Evan-Amos, Wikimedia Commons)')
 {: #Figure1}
@@ -113,33 +114,42 @@ polarization effects than molecules with naturally uniform charge distributions.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Can you explain the attraction of water to the charged rod in [[Figure 6]](#Figure6) ?
 
 ![Water flowing out of a glass pipette changes its course when a charged rod is brought close to it.](../resources/Figure_18_02_06.jpg ' ')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 <div class="title">
 Answer
 </div>
+
 Water molecules are polarized, giving them slightly positive and slightly negative sides. This makes water even more susceptible to a charged rod’s attraction. As the water flows downward, due to the force of gravity, the charged conductor exerts a net attraction to the opposite charges in the stream of water, pulling it closer.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: John Travoltage
 </div>
+
 Make sparks fly with John Travoltage. Wiggle Johnnie\'s foot and he picks up charges from the carpet. Bring his hand close to the door knob and get rid of the excess charge.
 {: class="newline"}
 
 <div class="media"  data-alt="john travoltage">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -164,56 +174,77 @@ Make sparks fly with John Travoltage. Wiggle Johnnie\'s foot and he picks up cha
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An eccentric inventor attempts to levitate by first placing a large negative charge on himself and then putting a large positive charge on the ceiling of his workshop. Instead, while attempting to place a large negative charge on himself, his clothes fly off. Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you have charged an electroscope by contact with a positively charged object, describe how you could use it to determine the charge of other objects. Specifically, what would the leaves of the electroscope do if other charged objects were brought near its knob?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a glass rod is rubbed with silk, it becomes positive and the silk becomes negative—yet both attract dust. Does the dust have a third type of charge that is attracted to both positive and negative? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does a car always attract dust right after it is polished? (Note that car wax and car tires are insulators.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe how a positively charged object can be used to give another object a negative charge. What is the name of this process?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is grounding? What effect does it have on a charged conductor? On a charged insulator?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a speck of dust in an electrostatic precipitator has  $$ 1.0000 \times 10^{12}  $$
  protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -253,16 +284,20 @@ This problem illustrates several fundamental principles of charge and atomic str
 
 **Reasonableness Check:** The result shows that even though the dust speck has over a trillion of each type of charge carrier, only a 3% excess of electrons creates a "very large charge" as stated in the problem. This makes sense because even a small imbalance in the enormous numbers of subatomic particles in matter can create significant electric effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An amoeba has  $$1.00 \times 10^{16}  $$
  protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -296,16 +331,20 @@ This problem demonstrates the extreme degree of electrical neutrality in biologi
 
 **Reasonableness Check:** Part (b) shows that if you paired up electrons with protons, only about 2 electrons per 10 billion protons would be unpaired. This fraction of 1.88 × 10⁻¹⁰ is astonishingly small, confirming that living organisms operate in an essentially neutral electrical state despite containing enormous numbers of charged particles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 50.0 g ball of copper has a net charge of  $$2.00 µ\text{C} $$ .
  What fraction of the copper's electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -355,16 +394,20 @@ This problem illustrates the vast number of electrons in macroscopic objects and
 
 **Reasonableness Check:** Only 9.09 × 10⁻¹³ (less than one trillionth) of the copper's electrons were removed, yet this creates a significant charge. This makes sense because matter contains stupendous numbers of electrons—even a 50 g sample has over 10²⁵ electrons. The fact that removing "only" 12.5 trillion electrons (an enormous number by everyday standards) represents such a tiny fraction demonstrates the atomic-scale vastness of matter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What net charge would you place on a 100 g piece of sulfur if you put an extra electron on 1 in  $$ 10^{12} $$
  of its atoms? (Sulfur has an atomic mass of 32.1.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -408,15 +451,19 @@ This problem demonstrates how even a sparse distribution of excess charges creat
 
 **Reasonableness Check:** The problem asks us to add just one electron per trillion atoms, which seems very sparse. Yet this produces a substantial charge of −0.300 μC. This makes perfect sense: with nearly 2 × 10²⁴ atoms in the sample, even one electron per trillion atoms yields almost 2 trillion excess electrons. This illustrates how the enormous number of atoms in macroscopic objects means that even extremely dilute charge distributions create measurable electric effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 How many coulombs of positive charge are there in 4.00 kg of plutonium, given its atomic mass is 244 and that each plutonium atom has 94 protons?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -460,10 +507,12 @@ This problem reveals the staggering amount of charge contained in ordinary matte
 
 **Reasonableness Check:** This enormous charge seems surprising until you realize that it's completely balanced by an equal amount of negative charge from electrons. Every one of the 9.28 × 10²⁶ protons has a corresponding electron, achieving electrical neutrality. This perfect balance is why we can safely handle massive amounts of matter without experiencing devastating electrical forces. Even a tiny imbalance (say 0.001% more electrons than protons) would create a charge of about 10⁶ C, producing immense electrostatic forces. The fact that matter remains neutral to extraordinary precision is fundamental to the stability of our world.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -491,4 +540,4 @@ or molecule
 electrostatic repulsion
 : the phenomenon of two objects with like charges repelling each other
 
-</div>
+:::

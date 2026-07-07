@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 2
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define position, displacement, distance, and distance traveled.
 * Explain the relationship between position and displacement.
 * Distinguish between displacement and distance traveled.
 * Calculate displacement and distance given initial position, final position, and the path between the two.
 
-</div>
+:::
 
 ![Three people cycling along a canal. The blurred buildings in the background convey a sense of motion of the cyclists.](../resources/Figure_02_01_01.jpg 'These cyclists in Vietnam can be described by their position relative to buildings and a canal. Their motion can be described by their change in position, or displacement, in the frame of reference. (credit: Suzan Black, Fotopedia)')
 {: #Figure1}
@@ -40,17 +40,22 @@ rear of an airplane), then the object’s position changes. This change in
 position is known as **displacement**. The word “displacement” implies that an
 object has moved, or has been displaced.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Displacement
 </div>
+
 Displacement is the *change in position* of an object:
 <div class="equation">
 $$ \Delta x=x_{\text{f}}-x_{0},$$
 </div>
+
 where $$\Delta x$$ is displacement, $$x_{\text{f}}$$ is the final
 position, and $$x_{0} $$ is the initial position.
-</div>
+
+:::
+
 In this text the upper case Greek letter $$ \Delta  $$
 (delta) always means “change in” whatever quantity follows it; thus, $$ \Delta x $$
 means *change in position*. Always solve for displacement by subtracting initial
@@ -67,7 +72,7 @@ need to convert them into meters to complete the calculation.
 {: #Figure2}
 
 ![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_03.jpg
-"A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#Figure2">Figure 2</a>.")
+'A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#Figure2">Figure 2</a>.')
 {: #Figure3}
 
 Note that displacement has a direction as well as a magnitude. The professor’s
@@ -105,10 +110,12 @@ positions_. Distance has no direction and, thus, no sign. For example, the
 distance the professor walks is 2.0 m. The distance the airplane passenger walks
 is 4.0 m.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Misconception Alert: Distance Traveled vs. Magnitude of Displacement
 </div>
+
 It is important to note that the *distance traveled*,
 however, can be greater than the magnitude of the displacement
 (by magnitude, we mean just the size of the displacement without
@@ -126,20 +133,23 @@ the two marks and is independent
 of the path taken in traveling between the two marks. The distance traveled,
 however, is the total length of the path taken between the two marks.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A cyclist rides 3 km west and then turns around and rides 2 km east.
 (a) What is her displacement?
 (b) What distance does she ride?
 (c) What is the magnitude of her displacement?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 ![Two diagrams side by side. To the left is a horizontal line, or x axis, 
 with points for final position and initial position. Displacement 1, shown 
@@ -157,7 +167,8 @@ negative.)
 
 (c) The magnitude of the displacement is $$ 1 km $$.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -185,28 +196,37 @@ magnitude.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example in which there are clear distinctions among distance traveled, displacement, and magnitude of displacement. Specifically identify each quantity in your example.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Under what circumstances does distance traveled equal magnitude of displacement?
 What is the only case in which magnitude of displacement and displacement are exactly the same?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Bacteria move back and forth by using their flagella (structures that look like little tails).
 Speeds of up to $$ 50 \text{μm/s}\left(50 \times 10^{-6} \ms \right) $$
 have been observed. The total distance traveled by a bacterium is large for its
 size, while its displacement is small. Why is this?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -215,14 +235,18 @@ size, while its displacement is small. Why is this?
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the following for path A in the [Figure above](#Figure5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For path A, identify the starting and ending positions, then calculate distance traveled, magnitude of displacement, and displacement.
@@ -269,18 +293,23 @@ For straight-line motion without backtracking, the distance traveled equals the 
 
 (c) The displacement is +7 m.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the following for path B in the [Figure above](#Figure5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For path B, identify the starting and ending positions from the figure, then calculate distance traveled, magnitude of displacement, and displacement.
@@ -327,18 +356,23 @@ For straight-line motion without backtracking, the distance traveled and magnitu
 
 (c) The displacement is −5 m (or 5 m to the left).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the following for path C in the [Figure above](#Figure5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For path C, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
@@ -386,18 +420,23 @@ Path C demonstrates the important difference between distance traveled and displ
 
 (c) The displacement is +9 m.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the following for path D in the [Figure above](#Figure5):
 (a) The distance traveled.
 (b) The magnitude of the displacement from start to finish.
 (c) The displacement from start to finish.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For path D, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
@@ -448,10 +487,12 @@ Notice that the distance traveled (8 m) is greater than the magnitude of displac
 
 (c) The displacement is −4 m (or 4 m to the left).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -470,4 +511,4 @@ distance
 distance traveled
 : the total length of the path traveled between two positions
 
-</div>
+:::

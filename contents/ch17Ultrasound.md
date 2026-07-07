@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 7
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define acoustic impedance and intensity reflection coefficient.
 * Describe medical and other uses of ultrasound technology.
 * Calculate acoustic impedance using density values and the speed of ultrasound.
 * Calculate the velocity of a moving object using Doppler-shifted ultrasound.
-</div>
+
+:::
 
 ![An ultrasound image of a 21 week old fetus.](../resources/Figure_17_07_01.jpg 'Ultrasound is used in medicine to painlessly and noninvasively monitor patient health and diagnose a wide range of disorders. (credit: abbybatchelder, Flickr)')
 {: #Figure1}
@@ -25,13 +26,15 @@ objects to the guidance systems of bats. We begin our discussion of ultrasound
 with some of its applications in medicine, in which it is used extensively both
 for diagnosis and for therapy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Characteristics of Ultrasound
 </div>
+
 The characteristics of ultrasound, such as frequency and intensity, are wave properties common to all types of waves. Ultrasound also has a wavelength that limits the fineness of detail it can detect. This characteristic is true of all waves. We can never observe details significantly smaller than the wavelength of our probe; for example, we will never see individual atoms with visible light, because the atoms are so small compared with the wavelength of light.
 
-</div>
+:::
 
 ### Ultrasound in Medical Therapy
 
@@ -168,10 +171,12 @@ ultrasound is made by tracking reflections (as shown in [[Figure 3]](#Figure3))
 and mapping the intensity of the reflected sound waves in a two-dimensional
 plane.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate Acoustic Impedance and Intensity Reflection Coefficient: Ultrasound and Fat Tissue
 </div>
+
 (a) Using the values for density and the speed of ultrasound given in [[Table 1]](#Table1), show that the acoustic impedance of fat tissue is indeed  $$1.34 \times 10^{6}  \text{kg/m}^{2}·\text{s} $$.
 
 (b) Calculate the intensity reflection coefficient of ultrasound when going from
@@ -189,11 +194,13 @@ for $$\rho $$ and $$v $$ found in [[Table 1]](#Table1).
 <div class="equation" >
  $$Z=\rho v=\left(925 \text{kg}{\text{/m}}^{3}\right)\left(1450 \text{m/s}\right) $$
 </div>
+
 (2) Calculate to find the acoustic impedance of fat tissue.
 
 <div class="equation" >
  $$1.34 \times 10^{6}  \text{kg/m}^{2}·\text{s}  $$
 </div>
+
 This value is the same as the value given for the acoustic impedance of fat tissue.
 
 **Strategy for (b)**
@@ -210,12 +217,13 @@ coefficient:
 <div class="equation" >
  $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1}+{Z}_{2}\right)}^{2}}=\frac{ { \left( 1.34 \times 10^{6}  {\text{kg/m}}^{2}· \text{s} -1.70 \times 10^{6}  {\text{kg/m}}^{2}· \text{s} \right)}^{2}}{ {\left( 1.70 \times 10^{6}  {\text{kg/m}}^{2}· \text{s} + 1.34 \times 10^{6}  {\text{kg/m}}^{2}· \text{s} \right)}^{2}}= 0.014 $$
 </div>
+
 **Discussion**
 
 This result means that only 1.4% of the incident intensity is reflected, with
 the remaining being transmitted.
 
-</div>
+:::
 
 The applications of ultrasound in medical diagnostics have produced untold
 benefits with no known risks. Diagnostic intensities are too low (about
@@ -292,18 +300,22 @@ beat frequency is easy, and it is not affected if the broadcast frequency varies
 somewhat. Furthermore, the beat frequency is in the audible range and can be
 amplified for audio feedback to the medical observer.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Uses for Doppler-Shifted Radar
 </div>
+
 Doppler-shifted radar echoes are used to measure wind velocities in storms as well as aircraft and automobile speeds. The principle is the same as for Doppler-shifted ultrasound. There is evidence that bats and dolphins may also sense the velocity of an object (such as prey) reflecting their ultrasound signals by observing its Doppler shift.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate Velocity of Blood: Doppler-Shifted Ultrasound
 </div>
+
 Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery that is moving toward the source at 20.0 cm/s, as illustrated in [[Figure 7](#Figure7). Use the speed of sound in human tissue as 1540 m/s. (Assume that the frequency of 2.50 MHz is accurate to seven significant figures.)
 
 1. What frequency does the blood receive?
@@ -338,6 +350,7 @@ between the original and returning frequencies.
 <div class="equation" >
  $${f}_{\text{obs}}=\left(2 500 000 \text{Hz}\right)\left(\frac{1540 \text{m/s}+0.2 \text{m/s}}{1540 \text{m/s}}\right) $$
 </div>
+
 (3) Calculate to find the frequency: 2 500 325 Hz.
 
 **Solution for (b)**
@@ -365,6 +378,7 @@ The minus sign is used because the motion is toward the observer.
 <div class="equation" >
  $${f}_{\text{obs}}=\left(2 500 325 \text{Hz}\right)\left(\frac{1540 \text{m/s}}{1540 \text{m/s}-0.200 \text{m/s}}\right) $$
 </div>
+
 (3) Calculate to find the frequency returning to the source: 2 500 649 Hz.
 
 **Solution for (c)**
@@ -382,6 +396,7 @@ The minus sign is used because the motion is toward the observer.
 <div class="equation" >
  $$\mid 2 500 649  \text{Hz}-2 500 000 \text{Hz}\mid  $$
 </div>
+
 (3) Calculate to find the beat frequency: 649 Hz.
 
 **Discussion**
@@ -393,12 +408,15 @@ hertz out of a couple of megahertz. Furthermore, variations in the source
 frequency do not greatly affect the beat frequency, because both $${f}_{s} $$
 and $${f}_{\text{obs}} $$ would increase or decrease. Those changes subtract out
 in $${f}_{B}=\mid {f}_{\text{obs}}-{f}_{s}\mid . $$
-</div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::
+
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Industrial and Other Applications of Ultrasound
 </div>
+
 Industrial, retail, and research applications of ultrasound are common. A few are discussed here. Ultrasonic cleaners have many uses. Jewelry, machined parts, and other objects that have odd shapes and crevices are immersed in a cleaning fluid that is agitated with ultrasound typically about 40 kHz in frequency. The intensity is great enough to cause cavitation, which is responsible for most of the cleansing action. Because cavitation-produced shock pressures are large and well transmitted in a fluid, they reach into small crevices where even a low-surface-tension cleaning fluid might not penetrate.
 
 Sonar is a familiar application of ultrasound. Sonar typically employs
@@ -437,20 +455,25 @@ These examples of the uses of ultrasound are meant to whet the appetites of the
 curious, as well as to illustrate the underlying physics of ultrasound. There
 are many more applications, as you can easily discover for yourself.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is it possible to use ultrasound both to observe a fetus in the womb and also to destroy cancerous tumors in the body?
 
-</div>
-<div class="solution"  data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Ultrasound can be used medically at different intensities. Lower intensities do not cause damage and are used for medical imaging. Higher intensities can pulverize and destroy targeted substances in the body, such as tumors.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -473,52 +496,72 @@ Ultrasound can be used medically at different intensities. Lower intensities do 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If audible sound follows a rule of thumb similar to that for ultrasound, in terms of its absorption, would you expect the high or low frequencies from your neighbor’s stereo to penetrate into your house? How does this expectation compare with your experience?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Higher frequencies are more readily absorbed than lower frequencies. Therefore, you would expect the **low frequencies** (the bass) from a neighbor's stereo to penetrate into your house more effectively than the high frequencies.
 
 This expectation matches common experience. It is often the case that you can hear the "thump-thump" of the bass from a neighbor's stereo, while the higher-frequency melody and vocals are muffled or inaudible.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Elephants and whales are known to use infrasound to communicate over very large distances. What are the advantages of infrasound for long distance communication?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The primary advantage of infrasound for long-distance communication is its **low rate of absorption**. Lower-frequency sounds are less readily absorbed by the medium they travel through (like water or air) than higher-frequency sounds. This allows infrasound waves to travel much longer distances before their energy dissipates, making them ideal for communication over many kilometers.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 It is more difficult to obtain a high-resolution ultrasound image in the abdominal region of someone who is overweight than for someone who has a slight build. Explain why this statement is accurate.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 This statement is accurate because ultrasound waves are attenuated (absorbed and scattered) as they pass through tissue. In an overweight person, the ultrasound waves must travel through a thicker layer of subcutaneous fat to reach the abdominal organs. Fat tissue absorbs ultrasound energy, so the signal is weakened on its way to the organs and again on its way back to the transducer. This results in a weaker echo and a lower signal-to-noise ratio, which degrades the quality and resolution of the image.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you read that 210-dB ultrasound is being used to pulverize cancerous tumors. You calculate the intensity in watts per centimeter squared and find it is unreasonably high ( $$10^{5} {\text{W/cm}}^{2} $$ ).
 What is a possible explanation?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 A possible explanation is that the 210-dB value is being reported using the **sound pressure level (SPL)** scale, which is commonly used in medical and underwater acoustics, rather than the **sound intensity level (SIL)** scale used in this textbook. The SPL scale uses a different reference pressure and can result in decibel values that are 60-70 dB higher than the SIL for the same sound wave in tissue.
 
 Therefore, a 210-dB SPL is equivalent to roughly $$210 - 65 = 145$$ dB on the SIL scale. An intensity level of 145 dB is still very high, but it is a much more reasonable value for therapeutic ultrasound used to destroy tissue.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -527,15 +570,19 @@ Therefore, a 210-dB SPL is equivalent to roughly $$210 - 65 = 145$$ dB on the SI
 speed of sound through human tissues is 1540 m/s.**
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the sound intensity level in decibels of ultrasound of intensity  $$10^{5} {\text{W/m}}^{2} $$ ,
  used to pulverize tissue during surgery?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-The sound intensity level in decibels is calculated using the logarithmic formula {% raw %}$$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $${% endraw %} , where {% raw %}$${I}_{0}=10^{-12} {\text{W/m}}^{2} $${% endraw %} is the threshold of hearing. This relationship allows us to express the enormous range of sound intensities encountered in medical applications on a manageable scale.
+The sound intensity level in decibels is calculated using the logarithmic formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ , where $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ is the threshold of hearing. This relationship allows us to express the enormous range of sound intensities encountered in medical applications on a manageable scale.
 
 **Solution**
 
@@ -559,15 +606,20 @@ Using the logarithm property $${\text{log}}_{10}\left(10^{x}\right)=x $$ :
 
 This intensity level of 170 dB represents an extremely high energy concentration, approximately $$10^{17} $$ times greater than the threshold of human hearing. Such intensities are used therapeutically to destroy unwanted tissue through several mechanisms: direct mechanical disruption of cellular structures, cavitation (formation and violent collapse of vapor bubbles), and localized heating. This intensity is about $$10^{10} $$ times greater than diagnostic ultrasound (typically $$10^{-2} {\text{W/m}}^{2} $$ or 103 dB), ensuring that imaging procedures are safe while therapeutic applications can achieve the desired tissue destruction. The focused nature of therapeutic ultrasound allows surgeons to target specific tissues (such as gallstones or tumors) while minimizing damage to surrounding healthy tissue. At these intensities, exposure time must be carefully controlled to prevent unintended damage.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is 155-dB ultrasound in the range of intensities used for deep heating? Calculate the intensity of this ultrasound and compare this intensity with values quoted in the text.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to convert the decibel level to intensity using the inverse of the decibel formula. The relationship is $$I={I}_{0}\times 10^{\beta /10} $$ , where $$\beta $$ is in decibels and $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ . We can then compare this calculated intensity to the range stated in the text for ultrasound diathermy (deep-heat treatments).
@@ -577,19 +629,19 @@ We need to convert the decibel level to intensity using the inverse of the decib
 Start with the decibel formula and solve for intensity:
 
 <div class="equation" >
-{% raw %} $$\beta =10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ {% endraw %}
+ $$\beta =10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ 
 </div>
 
 Divide both sides by 10:
 
 <div class="equation" >
-{% raw %} $$\frac{\beta }{10}={\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ {% endraw %}
+ $$\frac{\beta }{10}={\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ 
 </div>
 
 Take the antilogarithm (raise 10 to both sides):
 
 <div class="equation" >
-{% raw %} $$10^{\beta /10}=\frac{I}{{I}_{0}} $$ {% endraw %}
+ $$10^{\beta /10}=\frac{I}{{I}_{0}} $$ 
 </div>
 
 Solve for $$I $$ :
@@ -612,19 +664,24 @@ Substitute $$\beta =155 \text{ dB} $$ and $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$
 
 Yes, 155-dB ultrasound is indeed in the appropriate range for deep-heat treatments. The text states that ultrasound diathermy uses intensities of $$10^{3} $$ to $$10^{4} {\text{W/m}}^{2} $$ , and our calculated value of $$3.16\times 10^{3} {\text{W/m}}^{2} $$ falls right in the middle of this range. This intensity is high enough to deposit significant thermal energy deep within tissue (hence "deep heating"), causing the tissue temperature to rise by a few degrees Celsius. This heating effect increases blood flow, reduces muscle tension, and promotes healing—which is why ultrasound diathermy is commonly used in physical therapy and sports medicine for treating muscle injuries. The intensity is much lower than that used for tissue destruction ($$10^{5} {\text{W/m}}^{2} $$ ) but much higher than diagnostic imaging ($$10^{-2} {\text{W/m}}^{2} $$ ), placing it firmly in the therapeutic heating range. At these intensities, careful application by trained therapists is necessary to avoid "bone burns" and cavitation damage, particularly near joints where reflection and focusing can occur.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the sound intensity level in decibels of  $$2.00 \times 10^{-2} {\text{W/m}}^{2}  $$
 ultrasound used in medical diagnostics.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-We use the decibel formula {% raw %}$$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $${% endraw %} to convert the given intensity to a sound intensity level. The reference intensity is {% raw %}$${I}_{0}=10^{-12} {\text{W/m}}^{2} $${% endraw %} , the threshold of hearing at 1000 Hz.
+We use the decibel formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ to convert the given intensity to a sound intensity level. The reference intensity is $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ , the threshold of hearing at 1000 Hz.
 
 **Solution**
 
@@ -648,15 +705,20 @@ Use the logarithm property $${\text{log}}_{10}\left(a\times 10^{b}\right)={\text
 
 This intensity level of 103 dB represents the typical range for diagnostic medical ultrasound imaging, such as prenatal scans, echocardiography, and abdominal imaging. The intensity is $$2.00\times 10^{10} $$ times greater than the threshold of hearing, which might seem high, but it's important to remember that ultrasound frequencies (typically 1-20 MHz) are far above the audible range and interact with tissue differently than audible sound. This diagnostic intensity is safe for routine medical use—it's approximately $$10^{7} $$ times weaker than therapeutic ultrasound used for tissue destruction and about $$100$$ times weaker than ultrasound diathermy. Decades of clinical use with detailed follow-up studies have shown no harmful effects at these diagnostic intensities. The energy is too low to cause significant heating or cavitation damage, making ultrasound imaging one of the safest medical imaging modalities available. This is particularly important for vulnerable populations such as developing fetuses, where X-rays would pose unacceptable risks.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The time delay between transmission and the arrival of the reflected wave of a signal using ultrasound traveling through a piece of fat tissue was 0.13 ms. At what depth did this reflection occur?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 In ultrasound echo-ranging, the sound must travel to the reflector and back, making the total distance traveled $$2d $$ , where $$d $$ is the depth. Using the relationship $$\text{distance}=\text{speed}\times \text{time} $$ , we have $$2d=vt $$ , so $$d=\frac{vt}{2} $$ . From Table 1, the speed of ultrasound in fat is 1450 m/s.
@@ -683,15 +745,20 @@ Since this is the round-trip distance, the depth of the reflection is:
 
 The reflection occurred at a depth of 9.4 cm beneath the surface. This is a reasonable depth for medical ultrasound imaging—it's deep enough to image structures like organs, blood vessels, or tissue layers beneath the skin and subcutaneous fat, but still within the penetration capabilities of typical diagnostic ultrasound. The principle of echo-ranging is fundamental to all ultrasound imaging: by precisely measuring the time delay for echoes to return, the ultrasound system can map the positions of tissue boundaries and organs. The speed of sound varies slightly among different tissues (ranging from about 1450 m/s in fat to 1590 m/s in muscle), but these variations are relatively small—typically only a few percent—so using an average value of 1540 m/s for soft tissue generally gives acceptable accuracy. The factor of 2 in the denominator is crucial and is sometimes forgotten: the ultrasound must travel to the reflector and back, so the measured time corresponds to twice the actual depth.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In the clinical use of ultrasound, transducers are always coupled to the skin by a thin layer of gel or oil, replacing the air that would otherwise exist between the transducer and the skin. (a) Using the values of acoustic impedance given in [[Table 1]](#Table1) calculate the intensity reflection coefficient between transducer material and air. (b) Calculate the intensity reflection coefficient between transducer material and gel (assuming for this problem that its acoustic impedance is identical to that of water). (c) Based on the results of your calculations, explain why the gel is used.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The intensity reflection coefficient $$a $$ quantifies what fraction of the ultrasound intensity is reflected at a boundary between two media. It is calculated using $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1}+{Z}_{2}\right)}^{2}} $$ , where $${Z}_{1} $$ and $${Z}_{2} $$ are the acoustic impedances of the two media. From Table 1, the acoustic impedance of the transducer material (barium titanate) is $$30.8\times 10^{6}  \text{kg/m}^{2}·\text{s} $$ , air is $$429 \text{kg/m}^{2}·\text{s} $$ , and water (gel) is $$1.5\times 10^{6}  \text{kg/m}^{2}·\text{s} $$ .
@@ -738,15 +805,20 @@ The coupling gel (with impedance similar to water at $$1.5\times 10^{6}  \text{k
 
 In practice, the gel creates a continuous acoustic pathway from transducer to tissue, eliminating air pockets that would otherwise cause complete reflection. This is why sonographers must ensure good contact between the probe and skin, often pressing firmly and using generous amounts of gel. Without this coupling medium, diagnostic ultrasound would be impossible. The same principle applies to other wave-based technologies: impedance matching is essential for efficient energy transfer across boundaries.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the minimum frequency of ultrasound that will allow you to see details as small as 0.250 mm in human tissue. (b) What is the effective depth to which this sound is effective as a diagnostic probe?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The resolution of ultrasound imaging is limited by wavelength—details smaller than the wavelength cannot be resolved. In practice, the smallest resolvable detail is approximately equal to the wavelength. Using $$\lambda =\frac{v}{f} $$ and setting $$\lambda $$ equal to the desired detail size, we can solve for the minimum frequency. The effective penetration depth is given by the rule of thumb $$\text{depth}=500\lambda $$ .
@@ -781,16 +853,21 @@ This problem illustrates the fundamental trade-off in ultrasound imaging: higher
 
 For superficial structures like the thyroid gland, carotid arteries, or breast tissue, higher frequencies (10-20 MHz) can be used to achieve better resolution (down to $$\sim 0.1 \text{ mm} $$) because less penetration depth is needed. For deep abdominal or cardiac imaging, lower frequencies (2-5 MHz) must be used despite poorer resolution ($$\sim 0.5 \text{ mm} $$) to ensure adequate penetration. Sonographers must choose the appropriate frequency based on the depth of the structure being imaged and the required level of detail. This is why ultrasound machines have multiple transducers with different frequencies, allowing the operator to optimize the image quality for each specific clinical application.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the size of the smallest detail observable in human tissue with 20.0-MHz ultrasound. (b) Is its effective penetration depth great enough to examine the entire eye (about 3.00 cm is needed)? (c) What is the wavelength of such ultrasound in  $$0ºC $$
  air?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The smallest observable detail is approximately equal to the wavelength, calculated using $$\lambda =\frac{v}{f} $$ . The effective penetration depth follows the rule of thumb $$\text{depth}=500\lambda $$ . For part (c), we use the speed of sound in air at $$0ºC $$ , which is 331 m/s.
@@ -831,16 +908,21 @@ The comparison between wavelengths in tissue versus air is instructive. The wave
 
 High-frequency ultrasound like 20 MHz would not be suitable for deep abdominal imaging because the penetration depth of only 3.85 cm is insufficient. However, for superficial organs and small structures where deep penetration is not required, high frequencies provide superior image quality. Ophthalmic ultrasound is routinely used to detect retinal detachments, measure eye dimensions for intraocular lens implants, and examine the posterior segment when the view is obscured by cataracts or hemorrhage. The excellent resolution at 20 MHz allows detection of very small abnormalities that would be invisible at lower frequencies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Echo times are measured by diagnostic ultrasound scanners to determine distances to reflecting surfaces in a patient. What is the difference in echo times for tissues that are 3.50 and 3.60 cm beneath the surface? (This difference is the minimum resolving time for the scanner to see details as small as 0.100 cm, or 1.00 mm. Discrimination of smaller time differences is needed to see smaller details.) (b) Discuss whether the period  $$T $$
  of this ultrasound must be smaller than the minimum time resolution. If so, what is the minimum frequency of the ultrasound and is that out of the normal range for diagnostic ultrasound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we calculate the round-trip time for each depth using $$t=\frac{2d}{v} $$ and find the difference. For part (b), we need to consider whether the ultrasound pulse must be shorter than the minimum time resolution. If the period is too long, the pulse would still be traveling when the echo returns, making it impossible to distinguish separate echoes.
@@ -891,16 +973,21 @@ The calculated minimum frequency of 7.69 MHz is quite typical for abdominal imag
 
 This problem highlights the relationship between temporal resolution (how quickly echoes can be distinguished) and spatial resolution (how small an object can be detected). Both are ultimately limited by the wavelength and period of the ultrasound wave, illustrating the wave nature of ultrasound.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How far apart are two layers of tissue that produce echoes having round-trip times (used to measure distances) that differ by  $$0.750 \mu s $$ ?
 (b) What minimum frequency must the ultrasound have to see detail this small?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), the time difference corresponds to the difference in round-trip travel times. Since the sound travels to each layer and back, the total distance difference is $$v\Delta t $$ , but the actual separation between layers is half this distance: $$d=\frac{v\Delta t}{2} $$ . For part (b), the wavelength must be no larger than this separation distance to resolve the two layers, so we use $$\lambda =d $$ and solve for frequency using $$f=\frac{v}{\lambda } $$ .
@@ -943,15 +1030,20 @@ The relationship between temporal resolution (time difference in echoes) and spa
 
 Notice that both temporal and spatial resolution are ultimately limited by the same factor: the wavelength. The period $$T=\frac{1}{f}=0.375 \mu \text{s} $$ is about half the time difference $$\Delta t=0.750 \mu \text{s} $$ , which means the ultrasound completes roughly two complete cycles during the time between echoes. This is sufficient for the receiver to distinguish the two separate return signals. Using a much lower frequency would cause the echoes to overlap, making the two layers indistinguishable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A bat uses ultrasound to find its way among trees. If this bat can detect echoes 1.00 ms apart, what minimum distance between objects can it detect? (b) Could this distance explain the difficulty that bats have finding an open door when they accidentally get into a house?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Bats navigate using echolocation in air, where the speed of sound is approximately 343 m/s at room temperature. The time difference between echoes from two objects corresponds to the difference in round-trip distances. If the bat can distinguish echoes separated by $$\Delta t $$ , the minimum distance between objects is $$d=\frac{v\Delta t}{2} $$ , where we divide by 2 because the sound makes a round trip.
@@ -987,15 +1079,20 @@ To the bat, the wall with a door might appear as a large reflecting surface with
 
 In nature, bats navigate complex three-dimensional environments like forests with remarkable precision. They can detect insects as small as mosquitoes and pluck them from the air while flying at high speed. However, the artificial environment of human buildings, with smooth walls, windows, and doorways, presents challenges that evolution has not equipped them to handle efficiently. This highlights the importance of understanding the limitations of any sensory system—whether biological echolocation or engineered ultrasound imaging.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A dolphin is able to tell in the dark that the ultrasound echoes received from two sharks come from two different objects only if the sharks are separated by 3.50 m, one being that much farther away than the other. (a) If the ultrasound has a frequency of 100 kHz, show this ability is not limited by its wavelength. (b) If this ability is due to the dolphin's ability to detect the arrival times of echoes, what is the minimum time difference the dolphin can perceive?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we calculate the wavelength using $$\lambda =\frac{v}{f} $$ and compare it to the separation distance. If the wavelength is much smaller than the separation, then spatial resolution is not limited by the wave nature of sound. For part (b), the time difference between echoes corresponds to the difference in round-trip travel times: $$\Delta t=\frac{2d}{v} $$ , where $$d=3.50 \text{ m} $$ is the extra distance to the farther shark.
@@ -1040,15 +1137,20 @@ For comparison, human medical ultrasound can distinguish echoes separated by muc
 
 It's interesting to note that dolphins use echolocation frequencies ranging from about 40 kHz to over 150 kHz, with higher frequencies providing better spatial resolution through shorter wavelengths. The 100 kHz frequency used in this problem is in the middle of the dolphin's range, representing a compromise between resolution and range (higher frequencies attenuate more rapidly in water). Despite the temporal processing limitation revealed in this problem, dolphins are remarkably effective predators, capable of detecting and catching fast-moving fish in complete darkness or in turbid water where vision is useless.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A diagnostic ultrasound echo is reflected from moving blood and returns with a frequency 500 Hz higher than its original 2.00 MHz. What is the velocity of the blood? (Assume that the frequency of 2.00 MHz is accurate to seven significant figures and 500 Hz is accurate to three significant figures.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Doppler-shifted ultrasound involves a double Doppler shift: first, the moving blood receives a shifted frequency as a moving observer; second, the blood reflects the ultrasound as a moving source, creating another shift. For motion toward the source, the total frequency shift is given by $$\Delta f\approx \frac{2{v}_{b}f_{s}}{v} $$ , where $${v}_{b} $$ is the blood velocity, $${f}_{s} $$ is the source frequency, and $$v $$ is the speed of sound in tissue. We can solve this for the blood velocity.
@@ -1090,19 +1192,24 @@ The calculated value of 19.3 cm/s is consistent with flow in a medium-sized arte
 
 The Doppler shift of 500 Hz represents only a tiny fraction of the original frequency: $$\frac{\Delta f}{f_{s}}=\frac{500}{2\times 10^{6} }=2.5\times 10^{-4} $$ or 0.025%. This extremely small fractional shift highlights why the beat frequency method is used in Doppler ultrasound—it would be nearly impossible to measure such a small shift by directly measuring the echo frequency. Instead, the echo is mixed with the original frequency to produce audible beats at 500 Hz, which are easy to detect and measure.
 
-The factor of 2 in the Doppler formula arises from the double shift: the blood cells receive a Doppler-shifted frequency (first shift), and then they re-radiate this shifted frequency as a moving source (second shift). Each individual shift contributes a factor of approximately {% raw %}$$\frac{{v}_{b}}{v} $${% endraw %} , so the total shift is approximately {% raw %}$$\frac{2{v}_{b}}{v} $${% endraw %} .
+The factor of 2 in the Doppler formula arises from the double shift: the blood cells receive a Doppler-shifted frequency (first shift), and then they re-radiate this shifted frequency as a moving source (second shift). Each individual shift contributes a factor of approximately $$\frac{{v}_{b}}{v} $$ , so the total shift is approximately $$\frac{2{v}_{b}}{v} $$ .
 
 Doppler ultrasound is invaluable in clinical practice for assessing blood flow in arteries and veins, detecting blockages (stenoses) where velocity increases, identifying regurgitant flow (backflow through leaky valves), and monitoring fetal heart rate during pregnancy. The technique is completely non-invasive and safe, making it ideal for routine clinical use. Color Doppler imaging adds a visual dimension by color-coding the velocity information—conventionally showing flow toward the transducer in red and flow away in blue—allowing clinicians to see complex flow patterns at a glance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Ultrasound reflected from an oncoming bloodstream that is moving at 30.0 cm/s is mixed with the original frequency of 2.50 MHz to produce beats. What is the beat frequency? (Assume that the frequency of 2.50 MHz is accurate to seven significant figures.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The beat frequency is the difference between the Doppler-shifted echo frequency and the original source frequency: $${f}_{B}=\mid {f}_{\text{obs}}-{f}_{s}\mid $$ . In Doppler ultrasound, there's a double shift because the blood acts as both a moving observer (receiving shifted frequency) and a moving source (reflecting shifted frequency). We apply the Doppler formula twice or use the approximate formula for small velocities: $$\Delta f\approx \frac{2{v}_{b}f_{s}}{v} $$ .
@@ -1167,10 +1274,12 @@ The approximation gives exactly the same result as the detailed two-step calcula
 
 In clinical practice, Doppler ultrasound beat frequencies provide valuable diagnostic information. Normal arterial flow produces a characteristic pulsatile sound that rises and falls with each heartbeat. Stenotic (narrowed) vessels produce higher-frequency sounds and often turbulent flow patterns. Venous flow typically produces lower, more continuous sounds. Experienced clinicians can often diagnose vascular conditions simply by listening to the Doppler audio signal, though modern systems also provide visual displays showing velocity waveforms and color-coded flow maps.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1185,4 +1294,4 @@ Doppler-shifted ultrasound
 : a medical technique to detect motion and determine velocity through the
 Doppler shift of an echo
 
-</div>
+:::

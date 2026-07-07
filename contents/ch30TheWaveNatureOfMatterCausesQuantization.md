@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 6
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain Bohr’s model of atom.
 * Define and describe quantization of angular momentum.
 * Calculate the angular momentum for an orbit of atom.
 * Define and describe the wave-like properties of matter.
-</div>
+
+:::
 
 After visiting some of the applications of different aspects of atomic physics,
 we now return to the basic theory that was built upon Bohr’s atom. Einstein once
@@ -67,13 +68,15 @@ stated earlier. We now realize that it is the condition for constructive
 interference of an electron in a circular orbit. [[Figure 2]](#Figure2)
 illustrates this for $$n=3 $$ and $$n=4. $$
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Waves and Quantization
 </div>
+
 The wave nature of matter is responsible for the quantization of energy levels in bound systems. Only those states where matter interferes constructively exist, or are “allowed.” Since there is a lowest orbit where this is possible in an atom, the electron cannot spiral into the nucleus. It cannot exist closer to or inside the nucleus. The wave nature of matter is what prevents matter from collapsing and gives atoms their sizes.
 
-</div>
+:::
 
 ![The figure shows two concentric circular orbits with radius r three and r four. Two curved paths representing electron waves are shown around the two circular orbits.](../resources/Figure_30_06_01.jpg 'The third and fourth allowed circular orbits have three and four wavelengths, respectively, in their circumferences.')
 {: #Figure2}
@@ -109,16 +112,19 @@ look less grainy, and quantization becomes less evident. Unbound systems (small
 or not), such as an electron freed from an atom, do not have quantized energies,
 since their wavelengths are not constrained to fit in a certain volume.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Quantum Wave Interference
 </div>
+
 When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen.
 
 <div class="media" id="PhET_module" data-alt="quantum Wave Interference">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/quantum-wave-interference/latest/quantum-wave-interference.html?simulation=quantum-wave-interference"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -129,6 +135,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
   <div class="equation" >
    $$ n\lambda_{n}=2 \pi r_{n} \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
+
      where
    $${\lambda }_{n} $$ is the electron’s de Broglie wavelength.
 - Owing to the wave nature of electrons and the Heisenberg uncertainty
@@ -139,6 +146,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
   <div class="equation" >
    $$\Delta E= hf={E}_{\text{i}}-{E}_{\text{f}}, $$
   </div>
+
      where
    $$\Delta E $$ is the change in energy between the initial and final orbits and
    $$ hf $$ is the energy of an absorbed or emitted photon.
@@ -149,6 +157,7 @@ When do photons, electrons, and atoms behave like particles and when do they beh
   <div class="equation" >
    $$L={m}_{e}vr_{n}=n\frac{h}{2\pi } \text{ where } \left(n=1, 2, 3 ...\right), $$
   </div>
+
      where    $$L $$ is the angular momentum,
    $${r}_{n} $$ is the radius of the $$n^\text{th}$$ orbit , and
    $$h $$ is Planck’s constant.
@@ -156,8 +165,11 @@ When do photons, electrons, and atoms behave like particles and when do they beh
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How is the de Broglie wavelength of electrons related to the quantization of their orbits in atoms and molecules?
 
-</div>
+:::
+
 </div>

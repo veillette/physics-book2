@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 19
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain equipotential lines and equipotential surfaces.
 * Describe the action of grounding an electrical appliance.
 * Compare electric field and equipotential lines.
-</div>
+
+:::
 
 We can represent electric potentials (voltages) pictorially, just as we drew
 pictures to illustrate electric fields. Of course, the two are related.
@@ -62,13 +63,15 @@ connecting it to the earth with a good conductor—a process called **grounding*
 Grounding can be a useful safety tool. For example, grounding the metal case of
 an electrical appliance ensures that it is at zero volts relative to the earth.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Grounding
 </div>
+
 A conductor can be fixed at zero volts by connecting it to the earth with a good conductor—a process called grounding.
 
-</div>
+:::
 
 Because a conductor is an equipotential, it can replace any equipotential
 surface. For example, in [[Figure 1]](#Figure1) a charged spherical conductor
@@ -109,17 +112,20 @@ ECG) measures the small electric signals being generated during the activity of
 the heart. More about the relationship between electric fields and the heart is
 discussed in [Energy Stored in Capacitors](../contents/ch19EnergyStoredInCapacitors).
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Charges and Fields
 </div>
+
 Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It\'s colorful, it\'s dynamic, it\'s free.
 {: class="newline"}
 
 <div class="media"  data-alt="charges and fields">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -134,34 +140,47 @@ Move point charges around on the playing field and then view the electric field,
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is an equipotential line? What is an equipotential surface?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain in your own words why equipotential lines and surfaces must be perpendicular to electric field lines.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can different equipotential lines cross? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Sketch the equipotential lines near a point charge   $$+q $$ . Indicate the direction of increasing potential. (b) Do the same for a point charge  $$-3 \text{q} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Equipotential lines for a point charge are concentric circles (spheres in 3D) centered on the charge. The potential from a point charge is $$V = kQ/r$$, so all points at the same distance have the same potential.
@@ -189,18 +208,22 @@ The equipotential lines are also concentric circles, but:
 
 The key difference is the direction of increasing potential: toward a positive charge, away from a negative charge. This is consistent with the fact that positive charges create positive potentials and negative charges create negative potentials. The spacing of equipotential lines indicates the strength of the electric field—closer spacing means stronger field.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the equipotential lines for the two equal positive charges shown in [[Figure 5]](#Figure5). Indicate the direction of increasing potential.
 
 ![The figure shows two positive charges with electric field lines curving away from each of the charges.](../resources/Figure_19_04_05.jpg 'The electric field near two equal positive charges is directed away from each of the charges.')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -226,17 +249,21 @@ The equipotential lines must be perpendicular to the electric field lines at eve
 
 The equipotential lines form closed curves that must either encircle one charge or both charges. Since both charges are positive, the potential is positive everywhere and increases as you approach either charge.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 6]](#Figure6) shows the electric field lines near two charges  $${q}_{1} $$
  and  $${q}_{2} $$ ,
  the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -260,18 +287,22 @@ From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ i
 
 The asymmetry in charge magnitude creates an asymmetric pattern. The equipotential lines are more densely packed around the larger negative charge, indicating a stronger field there.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the equipotential lines a long distance from the charges shown in [[Figure 6]](#Figure6). Indicate the direction of increasing potential.
 
 ![The figure shows two nearby charges, q one and q two. Electric field lines move away from q two and toward q one.](../resources/Figure_19_04_06.jpg 'The electric field near two charges.')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -295,15 +326,19 @@ At large distances, any system of charges appears as a single point charge with 
 
 This is an example of the far-field approximation: any charge distribution looks like a point charge from sufficiently far away. The net charge determines the far-field behavior.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. Indicate the direction of increasing potential.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -329,18 +364,22 @@ With $$q_{-} = -3q$$ and $$q_{+} = +q$$, the net charge is $$-2q$$.
 
 The zero-potential surface forms a closed curve encircling the positive charge, with all points inside having positive potential and all points outside having negative potential (except very close to the positive charge).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the equipotential lines in the vicinity of the negatively charged conductor in [[Figure 7]](#Figure7). How will these equipotentials look a long distance from the object?
 
 ![The figure shows a negatively charged conductor that is shaped like an oblong.](../resources/Figure_19_04_07.jpg 'A negatively charged conductor.')
 {: #Figure7}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -366,18 +405,22 @@ The equipotential lines become **circular** (spherical surfaces in 3D), centered
 
 The transition from conductor-shaped equipotentials near the surface to circular equipotentials far away is gradual. This is a general principle: local geometry matters near an object, but far away, only the total charge matters.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the equipotential lines surrounding the two conducting plates shown in [[Figure 8]](#Figure8), given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?
 
 ![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_19_04_08.jpg ' ')
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -411,18 +454,22 @@ The charge concentrates on the **facing surfaces** of the plates (the surfaces c
 
 This configuration is the basis of a parallel-plate capacitor. The approximately uniform field between the plates is useful for many applications. The non-uniform fringe fields at the edges are often neglected in calculations but become important in precise applications.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 9]](#Figure9). Note its non-uniform charge distribution. (b) Sketch equipotential lines surrounding the insulator. Indicate the direction of increasing potential.
 
 ![A rod marked with many plus symbols to indicate electric charge. Most of the pluses are concentrated near one end of the rod. A few are in the middle and one is at the other end.](../resources/Figure_19_04_09.jpg 'A charged insulating rod such as might be used in a classroom demonstration.')
 {: #Figure9}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -452,16 +499,21 @@ The electric field lines radiate outward from the positive charges, with density
 
 Unlike conductors, insulators can maintain non-uniform charge distributions. The field and potential pattern reflects this non-uniformity. The electric field lines are always perpendicular to equipotential lines everywhere.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The naturally occurring charge on the ground on a fine day out in the open country is  $$-1.00 {\text{nC/m}}^{2} $$ .
  (a) What is the electric field relative to ground at a height of 3.00 m? (b) Calculate the electric potential at this height. (c) Sketch electric field and equipotential lines for this scenario.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The electric field near an infinite plane of charge is given by $$E = \sigma/(2\epsilon_0)$$. However, for the ground (which is a conductor with an image charge effect), the field is $$E = \sigma/\epsilon_0$$. The potential is found using $$V = Ed$$ for a uniform field.
@@ -502,18 +554,22 @@ This fair-weather electric field of about 100 V/m is typical. It's caused by cha
 
 **(c) The sketch shows vertical field lines pointing down and horizontal equipotential lines with potential increasing upward.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge on its head and a charge equal in magnitude but opposite in sign on its tail ([[Figure 10]](#Figure10)). (a) Sketch the equipotential lines surrounding the ray. (b) Sketch the equipotentials when the ray is near a ship with a conducting surface. (c) How could this charge distribution be of use to the ray?
 
 ![The figure shows a photo of a Narcine bancroftii, an electric ray that maintains a strong charge on its head and a charge equal in magnitude but opposite in sign on its tail.](../resources/Figure_19_04_10.jpg "Lesser electric ray (Narcine bancroftii) (credit: National Oceanic and Atmospheric Administration, NOAA's Fisheries Collection).")
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -555,10 +611,12 @@ The electric ray uses this charge distribution for several purposes:
 
 Electric rays and other electric fish have specialized electric organs made of modified muscle cells (electrocytes) stacked in series to produce voltage. The biological capacitor-like arrangement allows them to store charge and discharge it rapidly when needed.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -568,4 +626,4 @@ equipotential line
 grounding
 : fixing a conductor at zero volts by connecting it to the earth or ground
 
-</div>
+:::

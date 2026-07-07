@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 3
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Understand the rules of vector addition, subtraction, and multiplication.
 * Apply graphical methods of vector addition and subtraction to determine the
 displacement of moving objects.
 
-</div>
+::::
 
 ![Some Hawaiian Islands like Kauai Oahu, Molokai, Lanai, Maui, Kahoolawe, and Hawaii are shown. On the scale map of Hawaiian Islands the path of a journey is shown moving from Hawaii to Molokai. The path of the journey is turning at different angles and finally reaching its destination. The displacement of the journey is shown with the help of a straight line connecting its starting point and the destination.](../resources/Figure_03_02_01.jpg 'Displacement can be determined graphically using a scale map, such as this one of the Hawaiian Islands. A journey from Hawai’i to Moloka’i has a number of legs, or journey segments. These segments can be added graphically with a ruler to determine the total two-dimensional displacement of the journey. (credit: US Geological Survey)')
 {: #Figure1}
@@ -34,22 +34,24 @@ direction by $$\theta$$. The magnitude can also represented in italics as $$D$$
 when the context is clear. We will used this shorthand notation from time to
 time in this textbook.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Vectors in this Text
 </div>
+
 In this text, we will represent a vector with a boldface variable. For example,
 we will represent the quantity force with the vector $$\vb{F}$$,
 which has both magnitude and direction. The magnitude of the vector will be
 represented by a variable in italics, such as $$F$$, and the direction of the
 variable will be given by an angle $$\theta$$.
 
-</div>
+::::
 
 ![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_02.jpg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
 {: #Figure2}
 
-![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_03.jpg "To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ")
+![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_03.jpg 'To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ')
 {: #Figure3 height="250"}
 
 ### Vector Addition: Head-to-Tail Method
@@ -59,10 +61,10 @@ in [Figure 4](#Figure4) below and in the steps following. The **tail** of the
 vector is the starting point of the vector, and the **head** (or tip) of a
 vector is the final, pointed end of the arrow.
 
-![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_04.jpg "Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
+![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_04.jpg 'Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
 (a) Draw a vector representing the displacement to the east.
 (b) Draw a vector representing the displacement to the north. The tail of this vector should originate from the head of the first, east-pointing vector.
-(c) Draw a line from the tail of the east-pointing vector to the head of the north-pointing vector to form the sum or resultant vector \( \vb{D} \) . The length of the arrow \( \mag{D} \) is proportional to the vector&#x2019;s magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \) is measured with a protractor to be 29.1 degrees .")
+(c) Draw a line from the tail of the east-pointing vector to the head of the north-pointing vector to form the sum or resultant vector \( \vb{D} \) . The length of the arrow \( \mag{D} \) is proportional to the vector&#x2019;s magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \) is measured with a protractor to be 29.1 degrees .')
 {: #Figure4}
 
 ***Step 1.*** **Draw an arrow to represent the first vector (9 blocks to the
@@ -100,10 +102,12 @@ The graphical addition of vectors is limited in accuracy only by the precision
 with which the drawings can be made and the precision of the measuring tools. It
 is valid for any number of vectors.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Adding Vectors Graphically Using the Head-to-Tail Method: A Woman Takes a Walk
 </div>
+
 Use the graphical technique for adding vectors to find the total displacement
 of a person who walks the following three paths (displacements) on a flat field.
 First, she walks 25.0 m in a direction $$49.0^\circ$$
@@ -172,10 +176,11 @@ can be added in any order.
 <div class="equation">
  $$\vb{A}+\vb{B}=\vb{B}+\vb{A}.$$
 </div>
+
 (This is true for the addition of ordinary numbers as well—you get the same result
 whether you add $$2 + 3$$ or $$3 + 2$$, for example).
 
-</div>
+::::
 
 ### Vector Subtraction
 
@@ -203,10 +208,12 @@ This is analogous to the subtraction of scalars (where, for example,$$5 - 2 = 5 
 which the subtraction is made. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
-<div class="example" id="example2" markdown="1">
+:::: example {"class":"example","id":"example2"}
+
 <div class="title">
 Subtracting Vectors Graphically: A Woman Sailing a Boat
 </div>
+
 A woman sailing a boat at night is following directions to a dock. The
 instructions read to first sail 27.5 m in a direction $$66.0^\circ$$
 north of east from her current location, and then travel 30.0 m in a direction
@@ -266,7 +273,7 @@ Because subtraction of a vector is the same as addition of a vector with the
 opposite direction, the graphical method of subtracting vectors works the same
 as for addition.
 
-</div>
+::::
 
 ### Multiplication of Vectors and Scalars
 
@@ -316,15 +323,18 @@ east), so that right triangles are involved. The analytical techniques presented
 in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 are ideal for finding vector components.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Maze Game
 </div>
+
 Learn about position, velocity, and acceleration in the \"Arena of Pain\". Use
 the green arrow to move the ball. Add more walls to the arena to make the
 game more difficult. Try to make a goal as fast as you can.
 
-<figure markdown="1">
+::: figure {}
+
 <div class="cnxsim">
 <iframe loading="lazy" src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
 " width="750" height="500"  allowfullscreen></iframe>
@@ -332,8 +342,10 @@ game more difficult. Try to make a goal as fast as you can.
 Maze Game
 </figcaption>
 </div>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Summary
 
@@ -363,31 +375,42 @@ Maze Game
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Which of the following is a vector: a person’s height,
 the altitude on Mt. Everest, the age of the Earth,
 the boiling point of water, the cost of this book,
 the Earth’s population, the acceleration of gravity?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Give a specific example of a vector, stating its magnitude, units, and direction.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What do vectors and scalars have in common? How do they differ?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Two campers in a national park hike from their cabin to the same
 spot on a lake, each taking a different path, as illustrated below.
 The total distance traveled along Path 1 is 7.5 km, and that along
@@ -396,11 +419,14 @@ Path 2 is 8.2 km. What is the final displacement of each camper?
 ![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes travelled from the cabin to the lake.](../resources/Figure_03_02_18.jpg)
 {: #Figure18}
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If an airplane pilot is told to fly 123 km in a straight line to
 get from San Francisco to Sacramento, explain why he could end up
 anywhere on the circle shown in [Figure 19](#Figure19).
@@ -409,11 +435,14 @@ What other information would he need to get to Sacramento?
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19.jpg)
 {: #Figure19 height="300"}
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you take two steps $$\vb{A}$$ and $$\vb{B}$$
 (that is, two nonzero displacements). Under what circumstances can you end up at
 your starting point? More generally, under what circumstances can two nonzero
@@ -421,21 +450,28 @@ vectors add to give zero? Is the maximum distance you can end up from the
 starting point $$\vb{A}+\vb{B}$$
 the sum of the lengths of the two steps?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Explain why it is not possible to add a scalar to a vector.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If you take two steps of different sizes, can you end up at your starting point? More generally, can two vectors with different magnitudes ever add to zero? Can three or more?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -444,7 +480,9 @@ If you take two steps of different sizes, can you end up at your starting point?
 graphs is accurate to three digits.**
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the following for path A in [Figure 20](#Figure20):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
@@ -452,8 +490,9 @@ Find the following for path A in [Figure 20](#Figure20):
 ![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meters each. The path of A extends to three blocks towards north and then one block towards east. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish.](../resources/Figure_03_02_20.jpg 'The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.')
 {: #Figure20}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -504,17 +543,21 @@ Notice that the distance traveled (480 m) is greater than the magnitude of the d
 
 (b) The magnitude of the displacement is 379 m, directed 18.4° east of north.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the following for path B in [Figure 20](#Figure20):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -568,16 +611,20 @@ Path B involves significantly more walking (960 m) than the straight-line displa
 
 (b) The magnitude of the displacement is **612 m**, directed **11.3° south of east** (or 78.7° east of south).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the north and east components of the displacement for
 the hikers shown in [Figure 18](#Figure18).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -616,11 +663,14 @@ Breaking a vector into components is fundamental to vector analysis. The north a
 
 The north component of the displacement is 3.83 km, and the east component is 3.21 km.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are
 you from your starting point, and what is the compass direction of a line
 connecting your starting point to your final position?
@@ -635,8 +685,9 @@ and ( \\vb{B} ) add to give a total displacement ( \\vb{R} )
 having magnitude ( \\mag{R} ) and direction ( \\theta ) .')
 {: #Figure21}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -675,11 +726,14 @@ The resultant displacement (30.8 m) is longer than either individual displacemen
 
 You are **30.8 m** from your starting point, in a direction **54.2° north of west** (or **35.8° west of north**).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you first walk 12.0 m in a direction $$20^\circ$$
 west of north and then 20.0 m in a direction $$40.0^\circ$$ south of west. How
 far are you from your starting point, and what is the compass direction of a
@@ -690,8 +744,9 @@ finds their sum $$\vb{R} = \vb{A} + \vb{B}$$.)
 ![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined at an angle of twenty degrees with the positive direction of x axis. The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.jpg)
 {: #Figure22}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -745,18 +800,22 @@ The resultant displacement of 19.5 m is close to but slightly less than the leng
 
 The final position is 19.5 m from the starting point, in a direction 4.7° south of west.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Repeat the problem above, but reverse the order of the two legs of the walk; show that you get the same final result.
 That is, you first walk leg $$\vb{B}$$, which is 20.0 m in a direction exactly $$40^\circ$$ south of west, and then
 leg $$\vb{A}$$, which is 12.0 m in a direction exactly $$20^\circ$$ west
 of north. (This problem shows that $$\vb{A}+\vb{B}=\vb{B}+\vb{A}$$.)
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -810,11 +869,14 @@ Physically, this makes sense: whether you walk displacement **A** then **B**, or
 
 Walking in reverse order gives the same result: **19.5 m at 4.7° south of west**, confirming that **A** + **B** = **B** + **A**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Repeat the problem two problems prior, but for the second leg you walk 20.0 m
 in a direction $$40.0^\circ$$
 north of east (which is equivalent to subtracting $$\vb{B}$$ from
@@ -824,8 +886,9 @@ direction $$40.0^\circ$$ south of west and then 12.0\text{ m} in a direction $$2
 $$\vb{R}^{\prime\prime} =\vb{B}-\vb{A}=-\vb{R}^{\prime}$$).
 Show that this is the case.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -904,11 +967,14 @@ Vector subtraction **A** - **B** is equivalent to **A** + (-**B**). The results 
 
 (b) **R''** = **B** - **A** has magnitude 26.6 m and points 65.1° south of west, confirming that **R''** = -**R'**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Show that the **order** of addition of three vectors does not affect their sum.
 Show this property by choosing any three vectors $$\vb{A}$$, $$\vb{B}$$,
 and $$\vb{C}$$, all having different lengths and
@@ -917,8 +983,9 @@ in a different order and show the result is the same. (There are five other
 orders in which $$\vb{A}$$, $$\vb{B}$$, and $$\vb{C}$$ can be
 added; choose only one.)
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -939,6 +1006,7 @@ Components of A:
 <div class="equation">
 $$A_x = 10.0\cos(30°) = 10.0(0.866) = 8.66 \text{ units}$$
 </div>
+
 <div class="equation">
 $$A_y = 10.0\sin(30°) = 10.0(0.500) = 5.00 \text{ units}$$
 </div>
@@ -948,6 +1016,7 @@ Components of B:
 <div class="equation">
 $$B_x = 8.0\cos(120°) = 8.0(-0.500) = -4.00 \text{ units}$$
 </div>
+
 <div class="equation">
 $$B_y = 8.0\sin(120°) = 8.0(0.866) = 6.93 \text{ units}$$
 </div>
@@ -957,6 +1026,7 @@ Components of C:
 <div class="equation">
 $$C_x = 6.0\cos(240°) = 6.0(-0.500) = -3.00 \text{ units}$$
 </div>
+
 <div class="equation">
 $$C_y = 6.0\sin(240°) = 6.0(-0.866) = -5.20 \text{ units}$$
 </div>
@@ -966,6 +1036,7 @@ Sum A + B + C:
 <div class="equation">
 $$R_x = A_x + B_x + C_x = 8.66 + (-4.00) + (-3.00) = 1.66 \text{ units}$$
 </div>
+
 <div class="equation">
 $$R_y = A_y + B_y + C_y = 5.00 + 6.93 + (-5.20) = 6.73 \text{ units}$$
 </div>
@@ -977,6 +1048,7 @@ Components are the same as above. Sum B + C + A:
 <div class="equation">
 $$R_x = B_x + C_x + A_x = (-4.00) + (-3.00) + 8.66 = 1.66 \text{ units}$$
 </div>
+
 <div class="equation">
 $$R_y = B_y + C_y + A_y = 6.93 + (-5.20) + 5.00 = 6.73 \text{ units}$$
 </div>
@@ -999,16 +1071,20 @@ This demonstrates the **commutative property** of vector addition. Vectors can b
 
 Vector addition is commutative regardless of order. For the three chosen vectors, both **A + B + C** and **B + C + A** yield the same resultant: **6.93 units at 76.1°** from the +x-axis.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Show that the sum of the vectors discussed in [Example 2](#example2) gives the 
 result shown in [Figure 17](#Figure17).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1080,19 +1156,23 @@ The vector sum of multiple displacements yields a single resultant displacement 
 
 The sum of the vectors in Example 2 gives a resultant of 52.9 m at an angle of 90.1° with respect to the x-axis, as shown in Figure 17.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the magnitudes of velocities $$v_{\text{A}}$$
 and $$v_{\text{B}}$$ in [Figure 23](#Figure23)
 
 ![On the graph velocity vector V sub A begins at the origin and is inclined to x axis at an angle of twenty two point five degrees. From the head of vector V sub A another vector V sub B begins. The resultant of the two vectors, labeled V sub tot, is inclined to vector V sub A at twenty six point five degrees and to the vector V sub B at twenty three point zero degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23.jpg 'The two velocities ( \\vb{v}_A ) and ( \\vb{v}_B ) add to give a total ( \\vb{v}_\\text{tot} ) .')
 {: #Figure23}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1142,16 +1222,20 @@ The magnitudes can be verified by checking if these vectors, when added head-to-
 
 The magnitude of velocity **vA is 3.47 m/s** and the magnitude of velocity **vB is 3.96 m/s**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the components of $$v_{\text{tot}}$$
 along the **x**- and **y**-axes in [Figure 23](#Figure23).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1190,17 +1274,21 @@ The components represent the effective velocities in the x and y directions. The
 
 The components of vtot are: **x-component = 4.41 m/s** and **y-component = 5.07 m/s**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the components of $$v_{\text{tot}}$$
 along a set of perpendicular axes rotated $$30^\circ$$ counterclockwise
 relative to those in [Figure 23](#Figure23).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1249,10 +1337,12 @@ Rotating the coordinate system doesn't change the vector itself—only how we de
 
 In the rotated coordinate system, the components of vtot are: **x'-component = 6.35 m/s** and **y'-component = 2.19 m/s**.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1292,4 +1382,4 @@ scalar
 tail
 : the start point of a vector; opposite to the head or tip of the arrow
 
-</div>
+::::

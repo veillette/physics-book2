@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 4
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define food irradiation low dose, and free radicals.
-</div>
+
+:::
 
 Ionizing radiation is widely used to sterilize medical supplies, such as
 bandages, and consumer products, such as tampons. Worldwide, it is also used to
@@ -97,31 +98,41 @@ hazards of existing insecticides and food preservatives.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does food irradiation leave the food radioactive? To what extent is the food altered chemically for low and high doses in food irradiation?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Compare a low dose of radiation to a human with a low dose of radiation used in food treatment.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose one food irradiation plant uses a  $${}^{137}\text{Cs} $$
  source while another uses an equal activity of  $${}^{60}\text{Co} $$ .
  Assuming equal fractions of the  $$\gamma  $$
  rays from the sources are absorbed, why is more time needed to get the same dose using the  $${}^{137}\text{Cs} $$
  source?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -134,4 +145,4 @@ free radicals
 radiolytic products
 : compounds produced due to chemical reactions of free radicals
 
-</div>
+:::

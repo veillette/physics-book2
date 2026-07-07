@@ -4,8 +4,8 @@ layout: page
 sectionNumber: 7
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * List the three properties of a conductor in electrostatic equilibrium.
 * Explain the effect of an electric field on free charges in a conductor.
 * Explain why no electric field may exist inside a conductor.
@@ -13,7 +13,8 @@ chapterNumber: 18
 * Explain what happens to an electric field applied to an irregular conductor.
 * Describe how a lightning rod works.
 * Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.
-</div>
+
+:::
 
 **Conductors** contain **free charges** that move easily. When excess charge is
 placed on a conductor or the conductor is put into a static electric field,
@@ -39,26 +40,30 @@ but entirely disappears inside it.
 ![A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.](../resources/Figure_18_07_03.jpg 'This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: Electric Field inside a Conductor
 </div>
+
 Excess charges placed on a spherical conductor repel and move until they are evenly distributed, as shown in [[Figure 3]](#Figure3). Excess charge is forced to the surface until the field inside the conductor is zero. Outside the conductor, the field is exactly the same as if the conductor were replaced by a point charge at its center equal to the excess charge.
 
 ![A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.](../resources/Figure_18_07_04.jpg 'The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.')
 {: #Figure3}
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Properties of a Conductor in Electrostatic Equilibrium
 </div>
+
 1.   The electric field is zero inside a conductor.
 2.   Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
 3.   Any excess charge resides entirely on the surface or surfaces of a conductor.
 
-</div>
+:::
 
 The properties of a conductor are consistent with the situations already
 discussed and can be used to analyze any conductor in electrostatic equilibrium.
@@ -181,142 +186,194 @@ accident) and fell on your car.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify your answer.
 
 ![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_18_07_11.jpg ' ')
 {: #Figure9}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the electric field lines in the figure above were perpendicular to the object, would it necessarily be a conductor? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The discussion of the electric field between two parallel conducting plates, in this module states that edge effects are less important if the plates are close together. What does close mean? That is, is the actual plate separation crucial, or is the ratio of plate separation to plate area crucial?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Would the self-created electric field at the end of a pointed conductor, such as a lightning rod, remove positive or negative charge from the conductor? Would the same sign charge be removed from a neutral pointed conductor by the application of a similar externally created electric field? (The answers to both questions have implications for charge transfer utilizing points.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is a golfer with a metal club over her shoulder vulnerable to lightning in an open fairway? Would she be any safer under a tree?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can the belt of a Van de Graaff accelerator be a conductor? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Are you relatively safe from lightning inside an automobile? Give two reasons.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss pros and cons of a lightning rod being grounded versus simply being attached to a building.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the symmetry of the arrangement, show that the net Coulomb force on the charge  $$q $$  at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
 
-</div>
+:::
+
 </div>
 
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg 'Four point charges ( q_{a} ), ( q_{b} ), ( q_{c} ), and ( q_{d} ) lie on the corners of a square and ( q ) is located at its center.')
 {: #Figure10}
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which  $${q}_{a}={q}_{d} $$
  and  $${q}_{b}={q}_{c} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the direction of the total Coulomb force on  $$q $$
  in [[Figure 10]](#Figure10) if  $$q $$
  is negative,  $${q}_{a}={q}_{c} $$
  and both are negative, and  $${q}_{b}={q}_{c} $$
  and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
  and  $${q}_{b}={q}_{c} $$ .
  First show that  $$q $$  is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of  $$q $$  from the center of the square.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If  $${q}_{a}=0 $$
  in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on  $$q $$ ?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In regions of low humidity, one develops a special “grip” when opening car doors, or touching metal door knobs. This involves placing as much of the hand on the device as possible, not just the ends of one’s fingers. Discuss the induced charge and explain why this is done.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Tollbooth stations on roadways and bridges usually have a piece of wire stuck in the pavement before them that will touch a car as it approaches. Why is this done?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are
 the consequences if they simply walks away?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]](#Figure11) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
 ![A oblong-shaped conductor.](../resources/Figure_18_07_13.jpg ' ')
 {: #Figure11}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -346,18 +403,22 @@ The behavior illustrated in this problem demonstrates key principles of conducto
 
 This concentration of charge and field at sharp points has practical applications—it's why lightning rods are pointed (to concentrate the field and facilitate charge transfer) and why high-voltage equipment has smooth, rounded surfaces (to prevent unwanted charge leakage). The weak field near the flat sides makes these regions safer and explains why field leakage is minimal from the broad surfaces of conductors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]](#Figure12) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
 ![A oblong-shaped conductor.](../resources/Figure_18_07_14.jpg ' ')
 {: #Figure12}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -387,18 +448,22 @@ This problem reinforces the relationship between surface curvature and field str
 
 The weak field near flat surfaces is why parallel plate capacitors have uniform fields between them—each plate presents a large, flat surface to the other. Understanding this curvature-field relationship is essential for designing electrical equipment where you either want to encourage charge transfer (use sharp points) or prevent it (use smooth, rounded surfaces).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the electric field between the two conducting plates shown in [[Figure 13]](#Figure13), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
 
 ![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_18_07_15.jpg ' ')
 {: #Figure13}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -437,18 +502,22 @@ The requirement that field lines be perpendicular to conductor surfaces is a dir
 
 The edge effects shown here are similar to those in all finite conductor configurations. They become less significant (relative to the main field) when the plates are large compared to their separation. This is why we can often approximate the field between large, closely-spaced parallel plates as perfectly uniform, neglecting edge effects—a useful approximation for capacitors and other devices.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 14]](#Figure14) noting its nonuniform charge distribution.
 
 ![A positively charged rod with a concentration of positive charges near the top and a few in the middle.](../resources/Figure_18_07_16.jpg 'A charged insulating rod such as might be used in a classroom demonstration.')
 {: #Figure14}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -490,19 +559,23 @@ The non-uniform charge distribution on this insulating rod might result from rub
 
 The field line pattern directly reflects the charge distribution: more lines where there's more charge. This is a consequence of Gauss's law—the number of field lines passing through a closed surface is proportional to the enclosed charge. Understanding such non-uniform distributions is important in practical situations like charged insulators used in demonstrations, photocopiers (where toner adheres to charged regions), and electrostatic precipitators (where particles deposit on charged surfaces).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the force on the charge located at  $$x=8.00 \text{cm} $$
  in [[Figure 15]](#Figure15)(a) given that  $$q=1.00 \text{μC} $$ ?
 
 ![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_18_07_17.jpg '(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.')
 {: #Figure15}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -569,18 +642,22 @@ The charge at $$x = 8.00$$ cm experiences attractive forces from both neighborin
 
 The net force of 12.8 N to the right means the $$-2q$$ charge would accelerate toward the $$+q$$ charge at $$x = 11.0$$ cm if free to move. This is reasonable since the closer positive charge exerts a stronger attractive force. The magnitude of about 13 N is substantial for charges in the microcoulomb range separated by centimeters, illustrating the strength of electrostatic forces at these scales.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the total electric field at  $$x=1.00 \text{cm} $$
  in [[Figure 15]](#Figure15)(b) given that  $$q=5.00 \text{nC} $$ .
  (b) Find the total electric field at  $$x=11.00 \text{cm} $$
  in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -678,18 +755,22 @@ Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from 
 
 Part (c): When conductors carrying different charges are brought into contact, charge redistributes until equilibrium is reached. Eventually, if the conductors merge or are continuously in contact while friction dissipates energy, all charge distributes uniformly over a single combined conductor. The total charge must be conserved, giving $$+q$$ in the final state. This principle is fundamental to electrostatics and is used in many practical applications, such as electrostatic charging by contact.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the electric field at  $$x=5.00 \text{cm} $$
  in [[Figure 15]](#Figure15)(a), given that  $$q=1.00 \text{μC} $$ .
  (b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for  $$-2q $$
  alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of *x* , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -821,17 +902,21 @@ Part (d): This demonstrates a fundamental principle: at large distances, only th
 
 Part (e): The zero-field point beyond 11.0 cm exists because the nearby $$+q$$ produces a strong rightward field that can be balanced by the leftward field from the more distant but larger $$-2q$$, with fine-tuning from the farthest $$+q$$. Such problems often require numerical methods when analytical solutions are intractable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the total Coulomb force on a charge of 2.00 nC located at  $$x=4.00 \text{cm} $$
  in [[Figure 15]](#Figure15) (b), given that  $$q=1.00 \text{μC} $$ .
  (b) Find the *x*-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -953,11 +1038,14 @@ Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substan
 
 Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charges but closer to the smaller $$+q$$ charge. This makes sense: at this position, the repulsive fields from both positive charges point in opposite directions (the $$+q$$ pushes rightward, the $$+3q$$ pushes leftward). Being closer to the smaller charge allows it to balance the larger $$+3q$$. The contributions from the more distant $$-2q$$ and $$-q$$ charges fine-tune this balance. Finding such zero-field points is important in applications like particle traps and beam focusing systems.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the symmetry of the arrangement, determine the direction of the force on  $$q $$
  in the figure below, given that  $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
  and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
@@ -966,8 +1054,9 @@ Using the symmetry of the arrangement, determine the direction of the force on  
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
 {: #Figure16}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1025,18 +1114,22 @@ Part (a): The symmetry argument elegantly shows that the net force must be purel
 
 Part (b): The force of 76.4 N is substantial for microcoulomb-scale charges separated by centimeters, demonstrating the strength of electrostatic forces. Each corner charge exerts 27 N on the central charge, and because all four vertical components add constructively, the total is significant. This configuration resembles a quadrupole field, and such arrangements are used in particle accelerators and ion traps where precise control of charged particle motion is required. The symmetry ensures the central charge experiences no net force if it's at the exact center, making this a stable (or unstable, depending on charge signs) equilibrium point along certain directions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that  $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
  and  $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
  (b) Calculate the magnitude of the electric field at the location of  $$q $$ ,
  given that the square is 5.00 cm on a side.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1094,16 +1187,21 @@ Part (a): The symmetry analysis reveals that regardless of whether the top charg
 
 Part (b): The field strength of $$2.04 \times 10^7$$ N/C is enormous—comparable to fields near charged conductors or in high-voltage equipment. This illustrates how even microcoulomb charges at centimeter separations create intense fields. The factor of 4 enhancement from having four charges (rather than one) combines with the constructive addition of vertical components, making the center of this configuration experience a very strong field. This principle is exploited in devices like electrostatic lenses and quadrupole mass spectrometers, where symmetric charge arrangements create controlled field patterns.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the electric field at the location of  $${q}_{a} $$
  in [[Figure 16]](#Figure16) given that  $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
   $$q=-1.00 \text{nC} $$ ,  and the square is 20.0 cm on a side.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1182,11 +1280,14 @@ The field at $$q_a$$ results from four contributions. The three positive charges
 
 The negative central charge significantly affects the result: without it, the field would be much stronger and directed purely toward the bottom-left. The central charge partially cancels the contributions from the corner charges. This demonstrates the principle of superposition: the total field is the vector sum of all individual contributions, and strategic placement of charges can be used to engineer desired field patterns at specific locations.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the total Coulomb force on the charge  $$q $$
  in [[Figure 16]](#Figure16), given that  $$q=1.00 \text{μC} $$ ,
   $${q}_{a}=2.00 \text{μC} $$ ,
@@ -1195,8 +1296,9 @@ Find the total Coulomb force on the charge  $$q $$
  and  $${q}_{d}=+1.00 \text{μC} $$ .
  The square is 50.0 cm on a side.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1290,11 +1392,14 @@ This problem demonstrates how asymmetric charge distributions create net forces 
 
 The relatively small magnitude (0.102 N) despite large charges (up to 4.00 μC) and close proximity (35.4 cm) results from partial cancellation of the four individual forces. The x-components happen to cancel due to the specific charge values and positions, leaving only a y-component. This illustrates how vector addition can dramatically reduce the magnitude of the net force when individual contributions partially oppose each other—a principle exploited in designing electrostatic traps and deflection systems where precise control of charged particle motion is required.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the electric field at the location of  $${q}_{a} $$
  in [[Figure 17]](#Figure17), given that  $${q}_{\text{b}}=+10.00 \mu \text{C} $$
  and  $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
@@ -1304,8 +1409,9 @@ The relatively small magnitude (0.102 N) despite large charges (up to 4.00 μC) 
 ![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_18_07_18.jpg 'Point charges located at the corners of an equilateral triangle 25.0 cm on a side.')
 {: #Figure17}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1371,19 +1477,23 @@ Part (a): The electric field at $$q_a$$ is dominated by the closer and larger $$
 
 Part (b): The force on the positive $$q_a$$ is in the same direction as the electric field, with magnitude 1.88 mN. This is a relatively small force because $$q_a$$ is very small (1.50 nC), even though the field is large. The triangular configuration creates an asymmetric field pattern—unlike the square symmetry in previous problems, there's no cancellation here. This geometry is relevant to molecular physics where atoms or ions can arrange in triangular patterns, creating directional forces that influence molecular shapes and stability.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that  $${q}_{a}=+2.50 \text{nC} $$ ,
   $${q}_{b}=-8.00 \text{nC} $$ ,
  and  $${q}_{c}=+1.50 \text{nC} $$ .
  (b) Is there any combination of charges, other than  $${q}_{a}={q}_{b}={q}_{c} $$ ,
  that will produce a zero strength electric field at the center of the triangular configuration?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1469,10 +1579,12 @@ Part (a): The electric field at the center of 4.36 × 10³ N/C pointing 35.0° b
 
 Part (b): The impossibility of achieving zero field with unequal charges is a consequence of the geometry. For an equilateral triangle, the three directions from the center to the vertices are separated by exactly 120°. Three vectors separated by 120° can only sum to zero if they form an equilateral triangle in vector space, which requires all three to have the same magnitude. Since the magnitude of each field contribution is proportional to the charge magnitude ($$E \propto |q|$$), this requires $$|q_a| = |q_b| = |q_c|$$. Additionally, for the directions to align properly (all pointing outward or all pointing inward), all charges must have the same sign. This geometric constraint is fundamental and demonstrates how symmetry (or lack thereof) determines the possibility of field cancellation.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1499,4 +1611,4 @@ surrounding Earth
 Faraday cage
 : a metal shield which prevents electric charge from penetrating its surface
 
-</div>
+:::

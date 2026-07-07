@@ -18,6 +18,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import { glob } from 'glob';
 import fetch from 'node-fetch';
 
@@ -380,45 +381,47 @@ class LinkChecker {
   }
 }
 
-// CLI Configuration
-runCli({
-  name: 'check-links',
-  description: `Validates internal and external links in markdown files:
+// CLI Configuration — only run when executed directly, not when imported by tests.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain)
+  runCli({
+    name: 'check-links',
+    description: `Validates internal and external links in markdown files:
 - Checks for broken internal links
 - Validates external URL accessibility
 - Caches results for faster runs`,
-  flags: {
-    timeout: {
-      flag: '--timeout',
-      description: 'Request timeout in milliseconds (default: 10000)',
-      type: 'number',
-      default: 10000,
+    flags: {
+      timeout: {
+        flag: '--timeout',
+        description: 'Request timeout in milliseconds (default: 10000)',
+        type: 'number',
+        default: 10000,
+      },
+      noCache: {
+        flag: '--no-cache',
+        description: 'Disable persistent caching',
+        default: false,
+      },
+      cacheTTL: {
+        flag: '--cache-ttl',
+        description: 'Cache TTL in days (default: 7)',
+        type: 'number',
+        default: 7,
+      },
     },
-    noCache: {
-      flag: '--no-cache',
-      description: 'Disable persistent caching',
-      default: false,
+    examples: [
+      'node scripts/check-links.js',
+      'node scripts/check-links.js --timeout 5000',
+      'node scripts/check-links.js --no-cache',
+    ],
+    run: async options => {
+      const checker = new LinkChecker({
+        timeout: options.timeout,
+        noCache: options.noCache,
+        cacheTTL: options.cacheTTL * 24 * 60 * 60 * 1000,
+      });
+      return checker.run();
     },
-    cacheTTL: {
-      flag: '--cache-ttl',
-      description: 'Cache TTL in days (default: 7)',
-      type: 'number',
-      default: 7,
-    },
-  },
-  examples: [
-    'node scripts/check-links.js',
-    'node scripts/check-links.js --timeout 5000',
-    'node scripts/check-links.js --no-cache',
-  ],
-  run: async options => {
-    const checker = new LinkChecker({
-      timeout: options.timeout,
-      noCache: options.noCache,
-      cacheTTL: options.cacheTTL * 24 * 60 * 60 * 1000,
-    });
-    return checker.run();
-  },
-});
+  });
 
 export default LinkChecker;

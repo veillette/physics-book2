@@ -4,11 +4,11 @@ layout: page
 sectionNumber: 1
 chapterNumber: 4
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Understand the definition of force.
 
-</div>
+:::
 
 **Dynamics** is the study of the forces that cause objects and systems to move.
 To understand this, we need a working definition of force. Our intuitive
@@ -56,13 +56,15 @@ chapter.
 (c) A spring scale is one device that uses a spring to measure force. The force ( F_{\\text{restore}} ) i s exerted on whatever is attached to the hook. Here ( F_{\\text{restore}} ) has a magnitude of 6 units in the force standard being employed.')
 {: #Figure2}
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Force Standards
 </div>
+
 To investigate force standards and cause and effect, get two identical rubber bands. Hang one rubber band vertically on a hook. Find a small household item that could be attached to the rubber band using a paper clip, and use this item as a weight to investigate the stretch of the rubber band. Measure the amount of stretch produced in the rubber band with one, two, and four of these (identical) items suspended from the rubber band. What is the relationship between the number of items and the amount of stretch? How large a stretch would you expect for the same number of items suspended from two rubber bands? What happens to the amount of stretch of the rubber band (with the weights attached) if the weights are also pushed to the side with a pencil?
 
-</div>
+:::
 
 ### Section Summary
 
@@ -75,20 +77,27 @@ To investigate force standards and cause and effect, get two identical rubber ba
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Propose a force standard different from the example of a stretched spring discussed in the text. Your standard must be capable of producing the same force repeatedly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What properties do forces have that allow us to classify them as vectors?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -108,4 +117,4 @@ force
 : a push or pull on an object with a specific magnitude and direction; can be
 represented by vectors; can be expressed as a multiple of a standard force
 
-</div>
+:::

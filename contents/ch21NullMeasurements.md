@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 21
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain why a null measurement device is more accurate than a standard voltmeter or ammeter.
 * Demonstrate how a Wheatstone bridge can be used to accurately calculate the resistance in a circuit.
-</div>
+
+:::
 
 Standard measurements of voltage and current alter the circuit being measured,
 introducing uncertainties in the measurements. Voltmeters draw some extra
@@ -152,14 +153,19 @@ contribute to the uncertainty in $${R}_{x} $$.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify other factors that might limit the accuracy of null measurements. Would the use of a digital device that is more sensitive than a galvanometer improve the accuracy of null measurements?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 One factor would be resistance in the wires and connections in a null measurement. These are impossible to make zero, and they can change over time. Another factor would be temperature variations in resistance, which can be reduced but not completely eliminated by choice of material. Digital devices sensitive to smaller currents than analog devices do improve the accuracy of null measurements because they allow you to get the current closer to zero.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -175,44 +181,59 @@ One factor would be resistance in the wires and connections in a null measuremen
 ### Conceptual questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why can a null measurement be more accurate than one using standard voltmeters and ammeters? What factors limit the accuracy of null measurements?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a potentiometer is used to measure cell emfs on the order of a few volts, why is it most accurate for the standard  $${\text{emf}}_{\text{s}} $$
  to be the same order of magnitude and the resistances to be in the range of a few ohms?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the  $${\text{emf}}_{\text{x}} $$
  of a cell being measured in a potentiometer, if the standard cell’s emf is 12.0 V and the potentiometer balances for  $${R}_{\text{x}}= 5.000 \Omega  $$
  and  $${R}_{\text{s}}= 2.500 \Omega  $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 24.0 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the  $${\text{emf}}_{\text{x}} $$
  of a dry cell for which a potentiometer is balanced when  $${R}_{\text{x}}= 1.200 \Omega  $$ ,
  while an alkaline standard cell with an emf of 1.600 V requires  $${R}_{\text{s}}= 1.247 \Omega  $$
  to balance the potentiometer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the potentiometer ratio formula: $$\text{emf}_x/\text{emf}_s = R_x/R_s$$. Since no current flows through the cells when balanced, the emf ratio equals the resistance ratio.
@@ -229,25 +250,34 @@ The dry cell emf (1.54 V) is slightly less than the standard cell (1.60 V), whic
 
 The dry cell emf is 1.54 V.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When an unknown resistance  $${R}_{\text{x}} $$
  is placed in a Wheatstone bridge, it is possible to balance the bridge by adjusting  $${R}_{3} $$
  to be  $$2500 \Omega  $$ .
  What is  $${R}_{\text{x}} $$
  if  $$\frac{ {R}_{2}}{ {R}_{1}}= 0.625 $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$1.56 \text{k}\Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To what value must you adjust  $${R}_{3} $$
  to balance a Wheatstone bridge, if the unknown resistance  $${R}_{\text{x}} $$
  is  $$100 \Omega  $$ ,
@@ -256,8 +286,10 @@ To what value must you adjust  $${R}_{3} $$
  and  $${R}_{2} $$
  is  $$175 \Omega  $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the Wheatstone bridge balance condition: $$R_x = R_3 \times R_2/R_1$$ to solve for $$R_3$$.
@@ -275,11 +307,14 @@ The ratio $$R_2/R_1 = 175/50 = 3.5$$ amplifies the unknown resistance: $$R_3$$ m
 
 $$R_3$$ must be adjusted to 28.6 Ω.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the unknown  $${\text{emf}}_{\text{x}} $$
  in a potentiometer that balances when  $${R}_{\text{x}} $$
  is  $$ 10.0 \Omega  $$ ,
@@ -291,31 +326,41 @@ $$R_3$$ must be adjusted to 28.6 Ω.
  for a standard emf of 3.100 V. At what resistance  $${R}_{\text{x}} $$
  will the potentiometer balance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 2.00 V
 
 (b)  $$ 9.68 \Omega $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you want to measure resistances in the range from  $$ 10.0 \Omega  $$
  to  $$ 10.0 k\Omega  $$
  using a Wheatstone bridge that has  $$\frac{ {R}_{2}}{ {R}_{1}}= 2.000 $$ .
  Over what range should  $${R}_{3} $$
  be adjustable?
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$\text{Range} = 5.00 \Omega  \text{to}  5.00 \text{k}\Omega  $$
 </div>
-</div>
+
 </div>
 
-<div class="glossary" markdown="1">
+</div>
+
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -339,4 +384,4 @@ Wheatstone bridge
 : a null measurement device for calculating resistance by balancing potential
 drops in a circuit
 
-</div>
+:::

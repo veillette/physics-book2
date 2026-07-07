@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 4
 chapterNumber: 14
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the different methods of heat transfer.
-</div>
+
+:::
 
 Equally as interesting as the effects of heat transfer on a system are the
 methods by which this occurs. Whenever there is a temperature difference, heat
@@ -45,11 +46,15 @@ difference [[Figure 1]](#Figure1).
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Name an example from daily life (different from the text) for each mechanism of heat transfer.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Conduction: Heat transfers into your hands as you hold a hot cup of coffee.
 
 Convection: Heat transfers as the barista “steams” cold milk to make hot _cocoa_
@@ -57,7 +62,8 @@ Convection: Heat transfers as the barista “steams” cold milk to make hot _co
 
 Radiation: Reheating a cold cup of coffee in a microwave oven.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -68,10 +74,13 @@ Radiation: Reheating a cold cup of coffee in a microwave oven.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the main methods of heat transfer from the hot core of Earth to its surface? From Earth’s surface to outer space?
 
-</div>
+:::
+
 </div>
 
 When our bodies get too warm, they respond by sweating and increasing blood
@@ -87,7 +96,8 @@ the air layer, and the stopper.
 ![The figure shows a  cutaway drawing of a thermos bottle, with various parts labeled.](../resources/Figure_14_04_02.jpg 'The construction of a thermos bottle is designed to inhibit all methods of heat transfer.')
 {: #Figure2 height="222"}
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -101,4 +111,4 @@ radiation
 : heat transfer which occurs when microwaves, infrared radiation, visible light,
 or other electromagnetic radiation is emitted or absorbed
 
-</div>
+:::

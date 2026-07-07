@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the relationship between the energy of a photon in joules or electron volts and its wavelength or frequency.
 * Calculate the number of photons per second emitted by a monochromatic source of specific wavelength and power.
-</div>
+
+:::
 
 ### Ionizing Radiation
 
@@ -111,13 +112,15 @@ C. Roentgen (1845–1923). (See [[Figure 2]](#Figure2).) Within one year of thei
 discovery, X-rays (for a time called Roentgen rays) were used for medical
 diagnostics. Roentgen received the 1901 Nobel Prize for the discovery of X-rays.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Conservation of Energy
 </div>
+
 Once again, we find that conservation of energy allows us to consider the initial and final forms that energy takes, without having to make detailed calculations of the intermediate steps. [[Example 1]](#Example1) is solved by considering only the initial and final forms of energy.
 
-</div>
+:::
 
 ![A cathode ray tube connected to a high-voltage source is shown in the figure. The image shows electrons coming out of the heated filament at one end of the vacuum tube as tiny balls, and hitting the metal plate at the opposite end of the vacuum tube. X-rays are shown coming out from the metal plate in the form of waves.](../resources/Figure_29_03_03.jpg 'X-rays are produced when energetic electrons strike the copper anode of this cathode ray tube (CRT). Electrons (shown here as separate particles) interact individually with the material they strike, sometimes producing photons of EM radiation.')
 {: #Figure3}
@@ -134,10 +137,12 @@ electrons originate at the cathode, so such a tube is called a cathode ray
 tube (CRT), and various versions of them are found in older TV and computer
 screens as well as in x-ray machines.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 X-ray Photon Energy and X-ray Tube Voltage
 </div>
+
 Find the maximum energy in eV of an x-ray photon produced by electrons accelerated through a potential difference of 50.0 kV in a CRT like the one in [[Figure 3]](#Figure3).
 
 **Strategy**
@@ -158,6 +163,7 @@ electron and $$\text{V} $$ is the accelerating voltage. Thus,
 <div class="equation" >
  $$ hf=\left( 1.60 \times 10^{-19} \text{C}\right)\left( 50.0 \times 10^{3}  \text{V}\right)\text{.} $$
 </div>
+
 From the definition of the electron volt, we know  $$1 \text{eV}= 1.60  \times 10^{-19} \text{J} $$ ,
  where  $$1 \text{J}=1 \text{C} \cdot \text{V}. $$
  Gathering factors and converting energy to eV yields
@@ -165,6 +171,7 @@ From the definition of the electron volt, we know  $$1 \text{eV}= 1.60  \times 1
 <div class="equation" >
  $$ hf=\left( 50.0 \times 10^{3} \right)\left(1.60 \times 10^{-19} \text{C}\cdot \text{V}\right)\left(\frac{1 \text{eV}}{1.60 \times 10^{-19} \text{C}\cdot \text{V}}\right)=\left( 50.0 \times 10^{3} \right)\left(1 \text{eV}\right)=50.0 \text{keV} \text{.}  $$
 </div>
+
 **Discussion**
 
 This example produces a result that can be applied to many similar situations.
@@ -176,7 +183,7 @@ x-ray tube can generate up to 100-keV x-ray photons. Many x-ray tubes have
 adjustable voltages so that various energy X-rays with differing energies, and
 therefore differing abilities to penetrate, can be generated.
 
-</div>
+:::
 
 ![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_29_03_04.jpg 'X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.')
 {: #Figure4}
@@ -212,10 +219,12 @@ jaundice is treated by exposing the baby to UV (with eye protection), called
 phototherapy, the beneficial effects of which are thought to be related to its
 ability to help prevent the buildup of potentially toxic bilirubin in the blood.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Photon Energy and Effects for UV
 </div>
+
 Short-wavelength UV is sometimes called vacuum UV, because it is strongly absorbed by air and must be studied in a vacuum. Calculate the photon energy in eV for 100-nm vacuum UV, and estimate the number of molecules it could ionize or break apart.
 
 **Strategy**
@@ -230,11 +239,13 @@ The energy of a photon is given by
 <div class="equation" >
  $$E= hf=\frac{hc}{\lambda }. $$
 </div>
+
 Using  $$hc=1240 \text{eV}\cdot \text{nm} \text{,}  $$  we find that
 
 <div class="equation" >
  $$E=\frac{hc}{\lambda }=\frac{1240 \text{eV}\cdot \text{nm}}{100 \text{nm}}=12.4 \text{eV}. $$
 </div>
+
 **Discussion**
 
 According to [[Table 1]](#Table1), this photon energy might be able to ionize an
@@ -248,7 +259,7 @@ in the upper atmosphere, protecting sensitive organisms on Earth. Damage to our
 ozone layer by the addition of such chemicals as CFC’s has reduced this
 protection for us.
 
-</div>
+:::
 
 ### Visible Light
 
@@ -292,10 +303,12 @@ through many kilometers of a substance, while higher frequencies like UV, X-ray,
 and $$\gamma $$ rays are absorbed, because they have sufficient photon energy to
 ionize the material.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 How Many Photons per Second Does a Typical Light Bulb Produce?
 </div>
+
 Assuming that 10.0% of a 100-W light bulb’s energy output is in the visible range (typical for incandescent bulbs) with an average wavelength of 580 nm, calculate the number of visible photons emitted per second.
 
 **Strategy**
@@ -313,16 +326,19 @@ wavelength into the formula
 <div class="equation" >
  $$E=\frac{hc}{\lambda }. $$
 </div>
+
 This produces
 
 <div class="equation" >
  $$E=\frac{\left( 6.63 \times 10^{-34} \text{J}\cdot \text{s}\right)\left( 3.00 \times 10^{8}  \text{m/s}\right)}{ 580 \times 10^{-9} \text{m}}=3.43 \times 10^{-19} \text{J}. $$
 </div>
+
 The number of visible photons per second is thus
 
 <div class="equation" >
  $$\text{photon/s}=\frac{10.0 \text{J/s}}{ 3.43 \times 10^{-19} \text{J/photon}}= 2.92 \times 10^{19}  \text{photon/s}. $$
 </div>
+
 **Discussion**
 
 This incredible number of photons per second is verification that individual
@@ -332,7 +348,7 @@ quantization becomes essentially continuous or classical. Finally, there are so
 many photons emitted by a 100-W lightbulb that it can be seen by the unaided eye
 many kilometers away.
 
-</div>
+:::
 
 ### Lower-Energy Photons
 
@@ -369,13 +385,15 @@ But one difference is that at very high intensity, strong electric and magnetic
 fields can be produced by photons acting together. Such electromagnetic fields (
 EMF) can actually ionize materials.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: High-Voltage Power Lines
 </div>
+
 Although some people think that living near high-voltage power lines is hazardous to one’s health, ongoing studies of the transient field effects produced by these lines show their strengths to be insufficient to cause damage. Demographic studies also fail to show significant correlation of ill effects with high-voltage power lines. The American Physical Society issued a report over 10 years ago on power-line fields, which concluded that the scientific literature and reviews of panels show no consistent, significant link between cancer and power-line fields. They also felt that the “diversion of resources to eliminate a threat which has no persuasive scientific basis is disturbing.”
 
-</div>
+:::
 
 It is virtually impossible to detect individual photons having frequencies below
 microwave frequencies, because of their low photon energy. But the photons are
@@ -384,10 +402,12 @@ waves are generally treated as time- and position-varying electric and magnetic
 fields with no discernible quantization. This is another example of the
 correspondence principle in situations involving huge numbers of photons.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Color Vision
 </div>
+
 Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons. 
 {: class="newline"}
 
@@ -396,7 +416,8 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/color-vision/latest/color-vision_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -407,73 +428,100 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are UV, X-rays, and  $$\gamma  $$
  rays called ionizing radiation?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How can treating food with ionizing radiation help keep it from spoiling? UV is not very penetrating. What else could be used?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some television tubes are CRTs. They use an approximately 30-kV accelerating potential to send electrons to the screen, where the electrons stimulate phosphors to emit the light that forms the pictures we watch. Would you expect X-rays also to be created?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Tanning salons use “safe” UV with a longer wavelength than some of the UV in sunlight. This “safe” UV has enough photon energy to trigger the tanning mechanism. Is it likely to be able to cause cell damage and induce cancer with prolonged exposure?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Your pupils dilate when visible light intensity is reduced. Does wearing sunglasses that lack UV blockers increase or decrease the UV hazard to your eyes? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 One could feel heat transfer in the form of infrared radiation from a large nuclear bomb detonated in the atmosphere 75 km from you. However, none of the profusely emitted X-rays or  $$\gamma  $$
  rays reaches you. Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can a single microwave photon cause cell damage? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In an x-ray tube, the maximum photon energy is given by  $$ hf=qV. $$
  Would it be technically more correct to say  $$ hf=qV+\text{BE} \text{,}  $$
  where BE is the binding energy of electrons in the target anode? Why isn’t the energy stated the latter way?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the energy in joules and eV of a photon in a radio wave from an AM station that has a 1530-kHz broadcast frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -499,15 +547,20 @@ This extremely small energy (about 6 billionths of an eV) demonstrates why radio
 
  $$ 6.34 \times 10^{-9}  \text{eV} $$ ,
   $$ 1.01 \times 10^{-27}  \text{J} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the energy in joules and eV of photons in radio waves from an FM station that has a 90.0-MHz broadcast frequency. (b) What does this imply about the number of photons per second that the radio station must broadcast?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -543,16 +596,20 @@ The incredibly small energy per photon (about $$ 10^{-7}$$ eV) means that an eno
 
 (b) An extremely large number (on the order of $$10^{29}$$ to $$10^{30}$$ photons/s for typical broadcast power)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the frequency in hertz of a 1.00-MeV  $$\gamma  $$
 -ray photon.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -577,15 +634,20 @@ Calculate frequency using $$f = \frac{E}{h}$$:
 This extremely high frequency ($$2.4 \times 10^{20}$$ Hz) is characteristic of gamma rays—the most energetic form of electromagnetic radiation. Gamma rays with MeV energies are produced in nuclear reactions and radioactive decay. Their high energy makes them highly penetrating and dangerous to biological tissue, but also useful in medical applications like cancer treatment and sterilization.
 
  $$ 2.42 \times 10^{20}  \text{Hz} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the wavelength of a 1.00-eV photon? (b) Find its frequency in hertz. (c) Identify the type of EM radiation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -621,28 +683,37 @@ A 1.00-eV photon corresponds to near-infrared radiation, just beyond the red end
 
 (c) Infrared radiation
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Do the unit conversions necessary to show that  $$hc=1240 \text{eV}\cdot \text{nm} \text{,}  $$
  as stated in the text.
 
-</div>
+:::
+
 <div class="solution" >
 <div class="equation" >
  $$\begin{array}{lll}hc& =& \left( 6.62607 \times 10^{-34}  \text{J} \cdot \text{s}\right)\left( 2.99792 \times 10^{8}  \text{m/s}\right)\left(\frac{ 10^{9} \text{nm}}{1 \text{m}}\right)\left(\frac{1.00000 \text{eV}}{ 1.60218 \times 10^{-19}  \text{J}}\right)\\ & =& 1239.84 \text{eV}\cdot \text{nm}\\ & \approx & 1240 \text{eV}\cdot \text{nm}\end{array} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm the statement in the text that the range of photon energies for visible light is 1.63 to 3.26 eV, given that the range of visible wavelengths is 380 to 760 nm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -668,18 +739,22 @@ These calculations confirm that visible light photons have energies ranging from
 
 Confirmed: visible light ranges from 1.63 eV (760 nm, red) to 3.26 eV (380 nm, violet)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the energy in eV of an IR photon of frequency  $$ 2.00 \times 10^{13}  \text{Hz} \text{.}  $$
  (b) How many of these photons would need to be absorbed simultaneously by a tightly bound molecule to break it apart? (c) What is the energy in eV of a  $$\gamma  $$ ray of frequency  $$ 3.00 \times 10^{20}  \text{Hz} $$ ?
  (d) How many tightly bound molecules could a single such  $$\gamma  $$
  ray break apart?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -723,16 +798,20 @@ This problem dramatically illustrates the vast difference in energy between infr
 
 (d) $$ 1.24 \times 10^{5} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Prove that, to three-digit accuracy,  $$h= 4.14 \times 10^{-15}  \text{eV}\cdot s, $$
  as stated in the text.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -762,26 +841,36 @@ This conversion is verified to three-digit accuracy. The value $$h = 4.14 \times
 
 Proven:  $$h = 4.14 \times 10^{-15} \text{ eV·s}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the maximum energy in eV of photons produced in a CRT using a 25.0-kV accelerating potential, such as a color TV? (b) What is their frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 25.0 \times 10^{3}  \text{eV} $$
 (b)  $$ 6.04  \times 10^{18} \text{Hz} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the accelerating voltage of an x-ray tube that produces X-rays with a shortest wavelength of 0.0103 nm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -813,28 +902,37 @@ An accelerating voltage of 120 kV is required to produce X-rays with a minimum w
 
 120 kV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the ratio of power outputs by two microwave ovens having frequencies of 950 and 2560 MHz, if they emit the same number of photons per second? (b) What is the ratio of photons per second if they have the same power output?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 2.69
 
 (b) 0.371
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many photons per second are emitted by the antenna of a microwave oven, if its power output is 1.00 kW at a frequency of 2560 MHz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -860,30 +958,39 @@ The microwave oven emits nearly $$6 \times 10^{26}$$ photons per second, an enor
 
  $$ 5.89 \times 10^{26} \text{ photons/s}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some satellites use nuclear power. (a) If such a satellite emits a 1.00-W flux of  $$\gamma  $$
  rays having an average energy of 0.500 MeV, how many are emitted per second? (b) These  $$\gamma  $$
  rays affect other satellites. How far away must another satellite be to only receive one  $$\gamma  $$
  ray per second per square meter?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.25  \times 10^{13} \text{photons/s} $$
 (b) 997 km
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If the power output of a 650-kHz radio station is 50.0 kW, how many photons per second are produced? (b) If the radio waves are broadcast uniformly in all directions, find the number of photons per second per square meter at a distance of 100 km. Assume no reflection from the ground or absorption by the air.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -925,25 +1032,35 @@ The radio station emits over $$10^{32}$$ photons per second, yet each photon car
 
 (b)  $$ 9.21 \times 10^{20} \text{ photons/(s·m}^2\text{)}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many x-ray photons per second are created by an x-ray tube that produces a flux of X-rays having a power of 1.00 W? Assume the average energy per photon is 75.0 keV.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 8.33 \times 10^{13}  \text{photons/s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How far away must you be from a 650-kHz radio station with power 50.0 kW for there to be only one photon per second per square meter? Assume no reflections or absorption, as if you were in deep outer space. (b) Discuss the implications for detecting intelligent life in other solar systems by detecting their radio broadcasts.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -991,22 +1108,30 @@ The fact that a terrestrial radio station could theoretically be detected a ligh
 
 (b) This distance is comparable to interstellar scales, making radio detection of extraterrestrial intelligence physically possible but challenging due to vast distances, signal dilution, frequency uncertainty, and background noise
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assuming that 10.0% of a 100-W light bulb’s energy output is in the visible range (typical for incandescent bulbs) with an average wavelength of 580 nm, and that the photons spread out uniformly and are not absorbed by the atmosphere, how far away would you be if 500 photons per second enter the 3.00-mm diameter pupil of your eye? (This number easily stimulates the retina.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 181 km
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a laser pen. Construct a problem in which you calculate the number of
@@ -1018,10 +1143,12 @@ this latter case, you will also need to consider the output size of the laser
 beam, the distance to the object being illuminated, and any absorption or
 scattering along the way.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1053,4 +1180,4 @@ microwaves
 : photons with wavelengths on the order of a micron (
 $$\text{μm} $$ )
 
-</div>
+:::

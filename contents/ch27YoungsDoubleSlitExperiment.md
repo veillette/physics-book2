@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the phenomena of interference.
 * Define constructive interference for a double slit and destructive interference for a double slit.
-</div>
+
+:::
 
 Although Christiaan Huygens thought that light was a wave, Isaac Newton did not.
 Newton felt that there were other explanations for color, and for the
@@ -70,13 +71,15 @@ interference occurs. Similarly, if the paths taken by the two waves differ by
 any integral number of wavelengths ( $$\lambda $$ , $$2\lambda $$ , $$3\lambda $$
 , etc.), then constructive interference occurs.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Using Fingers as Slits
 </div>
+
 Look at a light, such as a street lamp or incandescent bulb, through the narrow gap between two fingers held close together. What type of pattern do you see? How does it change when you allow the fingers to move a little farther apart? Is it more distinct for a monochromatic source, such as the yellow light from a sodium vapor lamp, than for an incandescent bulb?
 
-</div>
+:::
 
 ![Both parts of the figure show a schematic of a double slit experiment. Two waves, each of which is emitted from a different slit, propagate from the slits to the screen. In the first schematic, when the waves meet on the screen, one of the waves is at a maximum whereas the other is at a minimum. This schematic is labeled dark (destructive interference). In the second schematic, when the waves meet on the screen, both waves are at a minimum.. This schematic is labeled bright (constructive interference).](../resources/Figure_27_03_04.jpg "Waves follow different paths from the slits to a common point on a screen. (a) Destructive interference occurs here, because one path is a half wavelength longer than the other. The waves start in phase but arrive out of phase. (b) Constructive interference occurs here because one path is a whole wavelength longer than the other. The waves start out and arrive in phase.")
 {: #Figure4}
@@ -130,10 +133,12 @@ gives large $$\theta $$ , hence a large effect.
 ![The figure consists of two parts arranged side-by-side. The diagram on the left side shows a double slit arrangement along with a graph of the resultant intensity pattern on a distant screen. The graph is oriented vertically, so that the intensity peaks grow out and to the left from the screen. The maximum intensity peak is at the center of the screen, and some less intense peaks appear on both sides of the center. These peaks become progressively dimmer upon moving away from the center, and are symmetric with respect to the central peak. The distance from the central maximum to the first dimmer peak is labeled y sub one, and the distance from the central maximum to the second dimmer peak is labeled y sub two. The illustration on the right side shows thick bright horizontal bars on a dark background. Each horizontal bar is aligned with one of the intensity peaks from the first figure.](../resources/Figure_27_03_06.jpg "The interference pattern for a double slit has an intensity that falls off with angle. The photograph shows multiple bright and dark lines, or fringes, formed by light passing through a double slit.")
 {: #Figure6}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Finding a Wavelength from an Interference Pattern
 </div>
+
 Suppose you pass light from a He-Ne laser through two slits separated by 0.0100 mm and find that the third bright line on a screen is formed at an angle of  $$10.95\text{º} $$
  relative to the incident beam. What is the wavelength of the light?
 
@@ -150,11 +155,13 @@ wavelength $$\lambda $$ gives
 <div class="equation" >
  $$\lambda =\frac{d \sin \theta }{m}. $$
 </div>
+
 Substituting known values yields
 
 <div class="equation" >
  $$\begin{array}{lll}\lambda & =& \frac{\left(0.0100 \text{mm}\right)\left( \sin 10.95 ^\circ\right)}{3}\\ & =&  6.33 \times 10^{-4}  \text{mm}=633 \text{nm} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 To three digits, this is the wavelength of light emitted by the common He-Ne
@@ -166,12 +173,14 @@ For a given order, the angle for constructive interference increases with
 $$\lambda $$ , so that spectra (measurements of intensity versus wavelength) can
 be obtained.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Highest Order Possible
 </div>
+
 Interference patterns do not have an infinite number of lines, since there is a limit to how big  $$m $$
  can be. What is the highest-order constructive interference possible with the system described in the preceding example?
 
@@ -190,17 +199,20 @@ Solving the equation $$d\sin \theta =m \lambda $$ for $$m $$ gives
 <div class="equation" >
  $$m=\frac{d \sin \theta }{\lambda }. $$
 </div>
+
 Taking  $$\sin \theta =1 $$  and substituting the values of  $$d $$
  and  $$\lambda  $$  from the preceding example gives
 
 <div class="equation" >
  $$m=\frac{\left(0.0100 \text{mm}\right)\left(1\right)}{633 \text{nm}}\approx 15.8 \text{.} $$
 </div>
+
 Therefore, the largest integer  $$m $$  can be is 15, or
 
 <div class="equation" >
  $$m=15. $$
 </div>
+
 **Discussion**
 
 The number of fringes depends on the wavelength and slit separation. The number
@@ -211,7 +223,7 @@ slits, as expected when light behaves like a ray. We also note that the fringes
 get fainter further away from the center. Consequently, not all 15 fringes may
 be observable.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -227,44 +239,59 @@ be observable.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Young’s double slit experiment breaks a single light beam into two sources. Would the same pattern be obtained for two independent sources of light, such as the headlights of a distant car? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you use the same double slit to perform Young’s double slit experiment in air and then repeat the experiment in water. Do the angles to the same parts of the interference pattern get larger or smaller? Does the color of the light change? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is it possible to create a situation in which there is only destructive interference? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 7]](#Figure7) shows the central part of the interference pattern for a pure wavelength of red light projected onto a double slit. The pattern is actually a combination of single slit and double slit interference. Note that the bright spots are evenly spaced. Is this a double slit or single slit characteristic? Note that some of the bright spots are dim on either side of the center. Is this a single slit or double slit characteristic? Which is smaller, the slit width or the separation between slits? Explain your responses.
 
 ![The figure shows a photo of a horizontal line of equally spaced red dots of light on a black background. The central dot is the brightest and the dots on either side of center are dimmer. The dot intensity decreases to almost zero after moving six dots to the left or right of center. If you continue to move away from the center, the dot brightness increases slightly, although it does not reach the brightness of the central dot. After moving another six dots, or twelve dots in all, to the left or right of center, there is another nearly invisible dot. If you move even farther from the center, the dot intensity again increases, but it does not reach the level of the previous local maximum. At eighteen dots from the center, there is another nearly invisible dot.](../resources/Figure_27_03_07.jpg "This double slit interference pattern also shows signs of single slit interference. (credit: PASCO)")
 {: #Figure7}
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div id="Exercise1" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angle is the first-order maximum for 450-nm wavelength blue light falling on double slits separated by 0.0500 mm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -301,15 +328,19 @@ The first-order maximum appears at a very small angle of 0.516°, which is typic
 
 **The first-order maximum for 450-nm blue light occurs at an angle of 0.516°.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the angle for the third-order maximum of 580-nm wavelength yellow light falling on double slits separated by 0.100 mm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -344,15 +375,19 @@ $$\theta = \sin^{-1}(0.01740) = 1.00°$$
 
 The angle is quite small, which is typical for double slit experiments where the slit separation is much larger than the wavelength. The third-order maximum appears at about 1°, meaning the maxima are closely spaced. This small angle justifies using the small angle approximation ($$\sin \theta \approx \tan \theta \approx \theta$$ in radians) in many double slit calculations.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the separation between two slits for which 610-nm orange light has its first maximum at an angle of  $$ 30.0º $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -387,15 +422,19 @@ The slit separation of 1.22 μm is only about twice the wavelength of the orange
 
 **The slit separation is $$1.22 \times 10^{-6}$$ m or 1.22 μm.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the distance between two slits that produces the first minimum for 410-nm violet light at an angle of  $$ 45.0º $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -428,18 +467,22 @@ $$d = \frac{410 \times 10^{-9}}{1.4142} = 2.90 \times 10^{-7} \text{ m} = 290 \t
 
 This slit separation is remarkably small - less than the wavelength of visible light! At such a small separation (d < λ), only the central maximum and perhaps one or two orders would be visible before reaching 90°. The fact that the first minimum occurs at 45° indicates that this is a very closely spaced double slit. Such small separations are at the limits of conventional optical fabrication and would require specialized techniques like electron beam lithography to create.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the wavelength of light that has its third minimum at an angle of  $$ 30.0º $$
  when falling on double slits separated by  $$ 3.00 \text{μm} $$ .
  Explicitly, show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -493,16 +536,20 @@ It's important to note that for minima (destructive interference), we use $$d \s
 
 The wavelength is **600 nm** (orange light).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of light falling on double slits separated by  $$ 2.00 \text{μm} $$
  if the third-order maximum is at an angle of  $$ 60.0º $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -539,15 +586,19 @@ $$\lambda = 5.77 \times 10^{-7} \text{ m} = 577 \text{ nm}$$
 
 This wavelength of 577 nm corresponds to yellow-green light, in the middle of the visible spectrum. The relatively large angle (60°) for the third-order maximum indicates that the slit separation (2.00 μm) is only a few wavelengths wide. This setup would produce a well-spread interference pattern with several visible orders. The result is reasonable because visible light wavelengths range from about 380-760 nm, and our answer falls within this range.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angle is the fourth-order maximum for the situation in [[Exercise 1]](#Exercise1)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -590,15 +641,19 @@ The fourth-order maximum appears at 2.06°, which is four times the angle of the
 
 The fourth-order maximum occurs at **2.06°**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the highest-order maximum for 400-nm light falling on double slits separated by  $$ 25.0 \text{μm} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -641,16 +696,20 @@ With such a large slit separation compared to the wavelength (d/λ ≈ 62.5), th
 
 The 62nd order maximum would appear at $$\theta = \sin^{-1}(62 \times 400/25000) = \sin^{-1}(0.992) \approx 82.9°$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the largest wavelength of light falling on double slits separated by  $$ 1.20 \text{μm} $$
  for which there is a first-order maximum. Is this in the visible part of the spectrum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -695,15 +754,19 @@ This wavelength is in the near-infrared part of the electromagnetic spectrum, wh
 
 The largest wavelength is **1200 nm**, which is **not visible** (it's in the near-infrared region).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the smallest separation between two slits that will produce a second-order maximum for 720-nm red light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -742,15 +805,19 @@ For this minimum separation:
 
 This means the second-order maximum would barely be observable at the edge of the interference pattern. For practical observation, the slit separation should be somewhat larger than this minimum value. This principle is important in designing diffraction gratings and other optical devices where specific orders need to be observable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the smallest separation between two slits that will produce a second-order maximum for any visible light? (b) For all visible light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -803,16 +870,20 @@ All visible wavelengths would have observable second-order maxima.
 
 (b) **1520 nm or 1.52 μm** (for all visible light)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If the first-order maximum for pure-wavelength light falling on a double slit is at an angle of  $$ 10.0º $$ ,
  at what angle is the second-order maximum? (b) What is the angle of the first minimum? (c) What is the highest-order maximum possible here?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -872,11 +943,14 @@ $$m_{\text{max}} = 5$$
 
 The results show logical progression: the first minimum at 5.0° falls between the central maximum (0°) and the first-order maximum (10.0°). The second-order maximum at 20.3° is roughly twice the angle of the first-order (this approximation works well for small angles). The system can support up to 5 orders on each side of center. We can verify: $$\sin^{-1}(5/5.759) = \sin^{-1}(0.868) = 60.2°$$, which is less than 90°, confirming that the 5th order is observable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 8]](#Figure8) shows a double slit located a distance  $$x $$
  from a screen, with the distance from the center of the screen given by  $$y $$ .
  When the distance  $$d $$
@@ -887,8 +961,10 @@ The results show logical progression: the first minimum at 5.0° falls between t
 ![The figure shows a schematic of a double slit experiment. A double slit is at the left and a screen is at the right. The slits are separated by a distance d. From the midpoint between the slits, a horizontal line labeled x extends to the screen. From the same point, a line angled upward at an angle theta above the horizontal also extends to the screen. The distance between where the horizontal line hits the screen and where the angled line hits the screen is marked y, and the distance between adjacent fringes is given by delta y, which equals x times lambda over d.](../resources/Figure_27_03_08.jpg "The distance between adjacent fringes is \( \Delta y = x \lambda /d \), assuming the slit separation \( d \) is large compared with \( \lambda \).")
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 For small angles  $$\sin \theta -\tan \theta \approx \theta  \left(\text{in radians}\right) $$.
 
 For two adjacent fringes we have,
@@ -896,25 +972,32 @@ For two adjacent fringes we have,
 <div class="equation">
  $$d \sin {\theta }_{\text{m}}=m \lambda $$
 </div>
+
 and
 
 <div class="equation">
  $$d \sin {\theta }_{\text{m}+1}=\left(m+1\right)\lambda  $$
 </div>
+
 Subtracting these equations gives
 
 <div class="equation" >
  $$\begin{array}{}d\left(\sin {\theta }_{\text{m}+1}-\sin {\theta }_{\text{m}}\right)=\left[ \left(m+1\right)-m\right]  \lambda \\ d\left({\theta }_{\text{m}+1}-{\theta }_{\text{m}}\right)=\lambda \\ \tan {\theta }_{\text{m}}=\frac{ {y}_{\text{m}}}{x}\approx {\theta }_{\text{m}}⇒d\left(\frac{ {y}_{\text{m}+1}}{x}-\frac{ {y}_{\text{m}}}{x}\right)=\lambda \\ d\frac{\Delta y}{x}=\lambda ⇒\Delta y=\frac{x\lambda }{d}\end{array} $$
 </div>
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the result of the problem above, calculate the distance between fringes for 633-nm light falling on double slits separated by 0.0800 mm, located 3.00 m from a screen as in [[Figure 8]](#Figure8).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -954,15 +1037,19 @@ $$\sin \theta_1 = \lambda/d = 633 \times 10^{-9} / 8.00 \times 10^{-5} = 7.91 \t
 
 This gives $$\theta_1 = 0.453°$$, which is indeed small, validating our use of the small angle approximation. The angle can also be found from $$\tan \theta_1 = y_1/x = 0.0237/3.00 = 7.90 \times 10^{-3}$$, confirming our calculation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the result of the problem two problems prior, find the wavelength of light that produces fringes 7.50 mm apart on a screen 2.00 m from double slits separated by 0.120 mm (see [[Figure 8]](#Figure8)).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1012,10 +1099,12 @@ This formula $$\Delta y = x\lambda/d$$ is derived from the small-angle approxima
 
 The wavelength is **450 nm** (blue light).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1035,4 +1124,4 @@ order
 : the integer $$m $$ used in the equations for constructive and destructive
 interference for a double slit
 
-</div>
+:::

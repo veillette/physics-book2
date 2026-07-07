@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 11
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the intensity and the power of rays and waves.
-</div>
+
+:::
 
 ![The destruction caused by an earthquake in Port-au-Prince, Haiti. Some buildings are shown on two sides of a street. Two buildings are completely destroyed. Rescue people are seen around.](../resources/Figure_16_11_01.jpg 'The destructive effect of an earthquake is palpable evidence of the energy carried in these waves. The Richter scale rating of earthquakes is related to both their amplitude and the energy they carry. (credit: Petty Officer 2nd Class Candice Villarreal, U.S. Navy)')
 {: #Figure1}
@@ -58,10 +59,12 @@ This quantity is not much power per unit area considering that 90 decibels is a
 relatively high sound level. Decibels will be discussed in some detail in a
 later chapter.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating intensity and power: How much energy is in a ray of sunlight?
 </div>
+
 The average intensity of sunlight on Earth’s surface is about  $$700 {\text{W/m}}^{2} $$.
 
 (a) Calculate the amount of energy that falls on a solar collector having an
@@ -148,12 +151,14 @@ quantities will cancel.
 Decreasing the area increases the intensity considerably. The intensity of the
 concentrated sunlight could even start a fire.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Determine the combined intensity of two waves: Perfect constructive interference
 </div>
+
 If two identical waves, each having an intensity of  $$ 1.00 {\text{W/m}}^{2} $$ ,
  interfere perfectly constructively, what is the intensity of the resulting wave?
 
@@ -170,7 +175,7 @@ of the resulting wave is four times as great as in the individual waves.
 1. Recall that intensity is proportional to amplitude squared.
 2. Calculate the new amplitude:
    <div class="equation" >
- $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right) }^{2}={4X}^{2}. $$ 
+   $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right) }^{2}={4X}^{2}. $$ 
    </div>
 
 3. Recall that the intensity of the old amplitude was:
@@ -209,20 +214,25 @@ will pursue interference patterns elsewhere in this text.
 ![Two speakers are shown at the top of the figure at left and right side. Rarefactions are shown as dotted curves and compression as dark curves. The interference of the sound waves from these two speakers is shown. There are some red spots, showing constructive interference, are shown on the interfering waves. ](../resources/Figure_16_11_02.jpg 'These stereo speakers produce both constructive interference and destructive interference in the room, a property common to the superposition of all types of waves. The shading is proportional to intensity.')
 {: #Figure2}
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Which measurement of a wave is most important when determining the wave's intensity?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Amplitude, because a wave’s energy is directly proportional to its amplitude squared.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -234,31 +244,41 @@ $$I=\frac{P}{A} $$ and has units of $${\text{W/m}}^{2} $$.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two identical waves undergo pure constructive interference. Is the resultant intensity twice that of the individual waves? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Circular water waves decrease in amplitude as they move away from where a rock is dropped. Explain why.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Medical Application**
 
 Ultrasound of intensity $$ 1.50 \times 10^{2} {\text{W/m}}^{2} $$ is produced by
 the rectangular head of a medical imaging device measuring 3.00 by 5.00 cm. What
 is its power output?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Power is related to intensity by $$I = \frac{P}{A}$$, so $$P = IA$$. We need to calculate the area of the rectangular head and multiply by the intensity.
@@ -299,16 +319,21 @@ The power output of 0.225 W (or 225 mW) is typical for medical ultrasound imagin
 
 0.225 W
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The low-frequency speaker of a stereo set has a surface area of  $$ 0.05 {\text{m}}^{2} $$
  and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity  $$ 0.1 {\text{W/m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For the first part, intensity is power per unit area. For the second part, if sound projects uniformly in all directions, the power spreads over a spherical surface of area $$4\pi r^2$$.
@@ -343,15 +368,20 @@ Intensity at speaker: 20 W/m²
 
 Distance for 0.1 W/m²: 0.89 m or 89 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To increase intensity of a wave by a factor of 50, by what factor should the amplitude be increased?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The intensity of a wave is proportional to the square of its amplitude: $$I \propto A^2$$. If we want to increase intensity by a factor of 50, we need to find the factor by which amplitude must increase.
@@ -388,19 +418,24 @@ To increase intensity by a factor of 50, the amplitude must increase by a factor
 
 7.07
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Engineering Application**
 
 A device called an insolation meter is used to measure the intensity of sunlight
 has an area of 100 cm<sup>2</sup> and registers 6.50 W. What is the intensity in
 $${\text{W/m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Intensity is power divided by area. We need to convert the area from cm² to m².
@@ -427,18 +462,23 @@ The measured intensity of 650 W/m² is consistent with typical sunlight intensit
 
 650 W/m²
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Astronomy Application**
 
 Energy from the Sun arrives at the top of the Earth’s atmosphere with an
 intensity of $$1.30 {\text{kW/m}}^{2}. $$ How long does it take for $$1.8 \times 10^{9} \text{J} $$ to arrive on an area of $$ 1.00 {\text{m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship $$I = \frac{P}{A}$$ where power $$P = \frac{E}{t}$$. Combining these gives $$I = \frac{E}{At}$$, which we can solve for time $$t$$.
@@ -478,15 +518,20 @@ It takes 16 days for 1.8 billion joules of solar energy to arrive on a 1 m² are
 
 16.0 d
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a device that extracts energy from ocean breakers in direct proportion to their intensity. If the device produces 10.0 kW of power on a day when the breakers are 1.20 m high, how much will it produce when they are 0.600 m high?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The intensity of waves is proportional to the square of the amplitude. Since the device extracts power in direct proportion to intensity, and wave height is proportional to amplitude, the power is proportional to the square of the wave height.
@@ -525,11 +570,14 @@ When the wave height is halved (from 1.20 m to 0.600 m), the power output drops 
 
 2.50 kW
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Engineering Application**
 
 (a) A photovoltaic array of (solar cells) is 10.0% efficient in gathering solar
@@ -539,8 +587,10 @@ energy at the rate of 100 W? (b) What is the maximum cost of the array if it
 must pay for itself in two years of operation averaging 10.0 hours per day?
 Assume that it earns money at the rate of 9.00 ¢ per kilowatt-hour.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), the electrical power output equals the incident solar power times the efficiency. For part (b), we calculate the total energy produced over two years and multiply by the rate to find the revenue.
@@ -587,16 +637,21 @@ An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit o
 
 (b) \$65.70
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally  $$2.00 \times 10^{-5} {\text{W/m}}^{2}, $$
  but is turned up until the amplitude increases by 30.0%, what is the new intensity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Since intensity is proportional to the square of amplitude ($$I \propto A^2$$), when the amplitude increases by 30.0% (factor of 1.30), the intensity increases by a factor of $$(1.30)^2$$.
@@ -633,11 +688,14 @@ When the amplitude increases by 30%, the intensity increases by 69% (from $$2.00
 
 $$3.38 \times 10^{-5}$$ W/m²
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Medical Application**
 
 (a) What is the intensity in $${\text{W/m}}^{2} $$ of a laser beam used to burn
@@ -647,8 +705,10 @@ compares to the average intensity of sunlight (about $$700 {\text{W/m}}^{2} $$ )
 and the implications that would have if the laser beam entered your eye. Note
 how your answer depends on the time duration of the exposure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), if 90% is absorbed and deposits 500 J, the total incident energy is 500/0.90 J. We then find power and divide by the area of the circular spot to get intensity. For part (b), we compare to sunlight intensity and consider eye safety.
@@ -699,14 +759,16 @@ This illustrates why medical lasers require extreme safety precautions, protecti
 
 (b) This is approximately 63,000 times more intense than sunlight and would cause immediate, permanent eye damage if the beam entered the eye.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 intensity
 : power per unit area
 
-</div>
+:::

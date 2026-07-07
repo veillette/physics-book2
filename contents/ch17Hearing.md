@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 6
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define hearing, pitch, loudness, timbre, note, tone, phon, ultrasound, and infrasound.
 * Compare loudness to frequency and intensity of a sound.
 * Identify structures of the inner ear and explain how they relate to sound perception.
 
-</div>
+:::
 
 ![Photograph of a musical band with a person singing.](../resources/Figure_17_06_01.jpg 'Hearing allows this vocalist, his band, and his fans to enjoy music. (credit: West Point Public Affairs, Flickr)')
 {: #Figure1}
@@ -108,10 +108,12 @@ illustrate how to use the graph:
 ![A graph of variation of sound level versus frequency is shown. The sound level is along Y axis and frequency is along X axis. There are thirteen curves each for some count on phons from zero to one hundred and twenty with an interval of ten. The graphs are similar in shape but rising in value with increase in phons. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise.](../resources/Figure_17_06_02.jpg 'The relationship of loudness in phons to intensity level (in decibels) and intensity (in watts per meter squared) for persons with normal hearing. The curved lines are equal-loudness curves—all sounds on a given curve are perceived as equally loud. Phons and decibels are defined to be the same at 1000 Hz.')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Measuring Loudness: Loudness Versus Intensity Level and Frequency
 </div>
+
 (a) What is the loudness in phons of a 100-Hz sound that has an intensity level of 80 dB? (b) What is the intensity level in decibels of a 4000-Hz sound having a loudness of 70 phons? (c) At what intensity level will an 8000-Hz sound have the same loudness as a 200-Hz sound at 60 dB?
 
 **Strategy for (a)**
@@ -172,7 +174,7 @@ uncertainties of several phons or several decibels, partly due to difficulties
 in interpolation, but mostly related to uncertainties in the equal-loudness
 curves.
 
-</div>
+:::
 
 Further examination of the graph in [[Figure 2]](#Figure2) reveals some
 interesting facts about human hearing. First, sounds below the 0-phon curve are
@@ -222,16 +224,18 @@ frequencies, and interferes with music appreciation and speech recognition.
 ![Three audiogram output graphs of three individuals’ left and right ear are shown. The graph is for hearing threshold level verses frequency in hertz. The hearing threshold level is on Y axis and frequency is along X axis. The first graph has two curve nearly parallel to X axis. The second graph is straight for some range then has a dip at four thousand hertz. The third graph has a falling curve toward X axis from a maximum value on Y axis.](../resources/Figure_17_06_04.jpg 'Audiograms showing the threshold in intensity level versus frequency for three different individuals. Intensity level is measured relative to the normal threshold. The top left graph is that of a person with normal hearing. The graph to its right has a dip at 4000 Hz and is that of a child who suffered hearing loss due to a cap gun. The third graph is typical of presbycusis, the progressive loss of higher frequency hearing with age. Tests performed by bone conduction (brackets) can distinguish nerve damage from middle ear damage.')
 {: #Figure4}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Hearing Mechanism
 </div>
+
 The hearing mechanism involves some interesting physics. The sound wave that impinges upon our ear is a pressure wave. The ear is a transducer that converts sound waves into electrical nerve impulses in a manner much more sophisticated than, but analogous to, a microphone. [[Figure 5]](#Figure5) shows the gross anatomy of the ear with its division into three parts: the outer ear or ear canal; the middle ear, which runs from the eardrum to the cochlea; and the inner ear, which is the cochlea itself. The body part normally referred to as the ear is technically called the pinna.
 
 ![The picture shows the anatomy of a human ear. All organs in the ear are labeled. There is a pinna or the outer end of the ear, followed by a long ear canal in the outer ear. The middle ear has the eardrum little arc shaped. There are small round and oval windows next to it. There are semicircular canals. In the inner ear are snail shell shaped cochlea and cochlea duct. There is a Eustachian tube that leads downward. There are cochlear nerve and vestibular nerves in the inner ear.](../resources/Figure_17_06_05.jpg 'The illustration shows the gross anatomy of the human ear.')
 {: #Figure5}
 
-</div>
+:::
 
 The outer ear, or ear canal, carries sound to the recessed protected eardrum.
 The air column in the ear canal resonates and is partially responsible for the
@@ -299,14 +303,19 @@ electrodes basically emulate the cilia.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem"  markdown="1">
+
+::: problem
+
 Are ultrasound and infrasound imperceptible to all hearing organisms? Explain your answer.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 No, the range of perceptible sound is based in the range of human hearing. Many other organisms perceive either infrasound or ultrasound.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -321,25 +330,33 @@ No, the range of perceptible sound is based in the range of human hearing. Many 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why can a hearing test show that your threshold of hearing is 0 dB at 250 Hz, when [[Figure 2]](#Figure2) implies that no one can hear such a frequency at less than 20 dB?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The 0 dB on a hearing test (audiogram) is a **relative** measure, not an absolute one. It is normalized to the average hearing threshold for a population of healthy young adults. Therefore, a 0 dB result on an audiogram at 250 Hz means that your hearing at that frequency is the same as the average normal hearing person. As [[Figure 2]](#Figure2) shows, the absolute threshold of hearing for a 250 Hz sound is approximately 20 dB. So, a 0 dB hearing test result at 250 Hz corresponds to an absolute sound intensity level of about 20 dB.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The factor of  $$ 10^{-12} $$
  in the range of intensities to which the ear can respond, from threshold to that causing damage after brief exposure, is truly remarkable. If you could measure distances over the same range with a single instrument and the smallest distance you could measure was 1 mm, what would the largest be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -369,17 +386,21 @@ $$d_{\text{max}} = 10^{9} \text{ m} \times \frac{1 \text{ km}}{10^{3} \text{ m}}
 
 This result of one million kilometers is truly remarkable and helps us appreciate the extraordinary dynamic range of human hearing. To put this in perspective, this distance is about 2.6 times the distance from the Earth to the Moon (384,000 km), or roughly equivalent to traveling around Earth's equator 25 times! This analogy vividly demonstrates why the logarithmic decibel scale is necessary for measuring sound intensity—the linear range our ears can detect would be impossibly cumbersome to work with using linear scales. The ear's ability to perceive such a vast range of intensities is a testament to the sophisticated biological mechanisms of hearing, involving not only the physical amplification in the middle ear but also the neural processing of signals. This wide dynamic range allows us to hear everything from the faintest whisper to the roar of a jet engine, though prolonged exposure to the upper end of this range causes permanent damage to the delicate hair cells in the cochlea.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The frequencies to which the ear responds vary by a factor of  $$ 10^{3} $$ .
  Suppose the speedometer on your car measured speeds differing by the same factor of  $$ 10^{3} $$ ,
  and the greatest speed it reads is 90.0 mi/h. What would be the slowest nonzero speed it could read?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -401,15 +422,19 @@ $$v_{\text{min}} = \frac{v_{\text{max}}}{10^3} = \frac{90.0 \text{ mi/h}}{1000} 
 
 The slowest nonzero speed this speedometer could read would be 0.0900 mi/h, which is extremely slow—less than one-tenth of a mile per hour! To put this in perspective, this is about 132 feet per hour, or roughly 2.2 feet per minute. A typical walking speed is about 3 mi/h, so this minimum measurable speed is about 33 times slower than walking. This analogy helps illustrate why our hearing range is so impressive: just as this speedometer would be impractical (you'd rarely need to measure such slow speeds), having such a wide frequency range allows humans to perceive everything from the deep rumble of thunder (low frequency) to the high-pitched chirping of birds and insects (high frequency). The 1000:1 frequency ratio means our ears can detect three orders of magnitude in frequency, which is crucial for speech recognition, music appreciation, and environmental awareness. Young, healthy ears can typically detect this full range, though age-related hearing loss (presbycusis) progressively reduces sensitivity to higher frequencies, effectively narrowing this range over time.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the closest frequencies to 500 Hz that an average person can clearly distinguish as being different in frequency from 500 Hz? The sounds are not present simultaneously.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -439,15 +464,19 @@ $$f_{\text{upper}} = 500 \text{ Hz} + 1.5 \text{ Hz} = 501.5 \text{ Hz}$$
 
 The average person can distinguish between 500 Hz and either 498.5 Hz or 501.5 Hz when the sounds are presented sequentially. This remarkable ability to detect a difference of just 1.5 Hz out of 500 Hz (a 0.3% change) demonstrates the acute pitch perception of the human auditory system. This discrimination ability is crucial for music appreciation and speech recognition. In musical terms, this 0.3% threshold is much finer than the smallest interval in Western music—a semitone represents about a 6% frequency difference, which is 20 times larger than our discrimination threshold! This explains why we can easily detect when a musical instrument is slightly out of tune. The ability to discriminate pitch depends on several factors including the listener's age, musical training, and the frequency range being tested. Musicians often have even better pitch discrimination than the average person, sometimes able to detect differences as small as 0.1%. However, this ability generally deteriorates with age, particularly at higher frequencies where presbycusis affects hearing sensitivity. The 0.3% threshold assumes ideal listening conditions and non-fatigued, attentive listeners—in noisy environments or when distracted, pitch discrimination becomes significantly worse.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can the average person tell that a 2002-Hz sound has a different frequency than a 1999-Hz sound without playing them simultaneously?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -478,15 +507,19 @@ Since $$0.150\% < 0.3\%$$, the difference is below the threshold.
 
 No, the average person cannot distinguish between a 2002-Hz sound and a 1999-Hz sound when they are not played simultaneously. The percentage difference of 0.150% is exactly half of the 0.3% discrimination threshold that the average person can detect. This means the frequencies are too close together for most people to perceive as different pitches. However, this result comes with important caveats: (1) Some individuals with exceptional pitch discrimination, particularly trained musicians, might be able to detect this difference. (2) If the two sounds were played simultaneously, the average person would hear beats at a frequency of 3 Hz, which would make the difference obvious even though the individual pitches cannot be distinguished. (3) The 2000-Hz region is near the ear's peak sensitivity range (2000-5000 Hz), where pitch discrimination is generally better than at the frequency extremes. (4) Under ideal laboratory conditions with careful attention and immediate comparison, some individuals might approach this discrimination level. In practical terms, this problem illustrates that our pitch perception has definite limits, which is why musical instruments need only be tuned to within a certain tolerance—differences smaller than about 0.3% are imperceptible to most listeners.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If your radio is producing an average sound intensity level of 85 dB, what is the next lowest sound intensity level that is clearly less intense?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -508,15 +541,19 @@ $$\beta_2 = \beta_1 - \Delta \beta = 85 \text{ dB} - 3 \text{ dB} = 82 \text{ dB
 
 The next lowest sound intensity level that is clearly less intense than 85 dB is 82 dB. While the average person can detect differences as small as 1 dB under ideal conditions with careful attention, a 3 dB change is considered "easily noticed" without special effort or concentration. This 3 dB difference is significant because it represents a factor of 2 in actual sound intensity (since $$10\log_{10}(2) \approx 3$$ dB). In other words, reducing the volume from 85 dB to 82 dB means the radio is producing approximately half the acoustic power. This is why a 3 dB change is often used as a standard reference in acoustics and audio engineering. From a practical standpoint, 85 dB is at the threshold where prolonged exposure begins to pose a risk for hearing damage—OSHA regulations limit exposure to 85 dB to 8 hours per day. Reducing to 82 dB (half the intensity) provides a small but measurable reduction in hearing damage risk. The ability to perceive a 3 dB change easily is important for everyday activities like adjusting radio volume, evaluating environmental noise levels, and using hearing protection effectively. Most volume controls on audio equipment are designed so that small adjustments produce changes of at least 2-3 dB to ensure perceptible differences.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can you tell that your roommate turned up the sound on the TV if its average sound intensity level goes from 70 to 73 dB?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -549,15 +586,19 @@ $$\frac{I_2}{I_1} = 10^{0.3} \approx 2.0$$
 
 Yes, you can easily tell that your roommate turned up the TV sound from 70 dB to 73 dB. This 3 dB increase represents a doubling of the actual sound intensity reaching your ears. While this might seem like a large change physically, perceptually it sounds like a moderate but clearly noticeable increase in volume, not a doubling of loudness. This is because our perception of loudness follows a logarithmic relationship with intensity, which is precisely why the decibel scale uses logarithms. In practical terms, a 3 dB change is exactly the threshold for "easily noticed" changes—you wouldn't need to pay special attention or strain to hear it; the difference would be immediately obvious. This is a common scenario in shared living spaces and illustrates why people can easily detect when others adjust volume settings. For context, 70 dB is comparable to the sound level of a vacuum cleaner or busy traffic, while 73 dB is slightly louder but still well below the levels that cause immediate hearing damage. However, both levels are loud enough that extended exposure (more than 8 hours) could contribute to gradual hearing loss over time. This problem also demonstrates why roommate disputes over TV volume are so common—a seemingly small adjustment on the volume dial can produce an easily perceptible change in sound level!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Based on the graph in [[Figure 2]](#Figure2), what is the threshold of hearing in decibels for frequencies of 60, 400, 1000, 4000, and 15 000 Hz? Note that many AC electrical appliances produce 60 Hz, music is commonly 400 Hz, a reference frequency is 1000 Hz, your maximum sensitivity is near 4000 Hz, and many older TVs produce a 15 750 Hz whine.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -579,15 +620,19 @@ These threshold values reveal fascinating characteristics of human hearing sensi
 
 This frequency-dependent sensitivity has important practical implications: (1) The low sensitivity at 60 Hz explains why the hum from AC electrical appliances is often inaudible unless quite loud—the ear simply isn't very sensitive to this frequency. (2) The high sensitivity around 400 Hz (requiring only 9 dB) is ideal for music and speech, which contain significant energy in this range. (3) The peak sensitivity near 4000 Hz is thought to be an evolutionary adaptation that enhances our ability to hear warning sounds and human speech, particularly consonants which carry critical information for understanding language. (4) The reduced sensitivity at 15,000 Hz (requiring 20 dB) partially explains why age-related hearing loss (presbycusis) at high frequencies often goes unnoticed—we don't use this range much in daily life. (5) The fact that older TVs produce a 15,750 Hz whine is particularly annoying to young people who can hear it, but older adults with presbycusis are often blissfully unaware of this irritating sound!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What sound intensity levels must sounds of frequencies 60, 3000, and 8000 Hz have in order to have the same loudness as a 40-dB sound of frequency 1000 Hz (that is, to have a loudness of 40 phons)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -607,15 +652,19 @@ These values demonstrate the remarkable frequency-dependent nature of loudness p
 
 This frequency dependence has crucial practical applications in audio engineering and hearing protection. Sound systems must compensate for this non-uniform sensitivity through equalization, boosting low frequencies to achieve balanced perceived loudness across the spectrum. This is why bass controls exist on audio equipment and why "loudness" buttons on older stereos would boost bass at low volumes—to compensate for the ear's reduced sensitivity to low frequencies at lower overall sound levels. For hearing conservation, this explains why low-frequency industrial noise (like heavy machinery rumble) may be perceived as less loud than it actually is, potentially leading to underestimation of hearing damage risk. Workers might not realize that a 70-dB, 60-Hz sound, while seeming only moderately loud, actually carries far more acoustic energy than its perceived loudness suggests. Similarly, this is why subwoofers in home theater systems require much more power than mid-range or high-frequency speakers to achieve balanced sound—the ear's insensitivity to low frequencies must be overcome by higher actual sound intensities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the approximate sound intensity level in decibels of a 600-Hz tone if it has a loudness of 20 phons? If it has a loudness of 70 phons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -647,15 +696,19 @@ However, at 70 phons, the intensity level at 600 Hz is essentially the same as i
 
 This has practical implications for audio systems: at low volumes (like background music), the frequency response must be carefully equalized to account for the ear's varying sensitivity, which is why many audio receivers have a "loudness" compensation feature that boosts bass and treble at low volumes. At high volumes, less equalization is needed because the ear's response is more uniform. Additionally, this explains why quiet sounds seem to have less bass and treble compared to loud sounds playing the same content—it's not the sound that changes, but our perception of it. This phenomenon is also relevant for hearing tests, where threshold measurements must be made at different frequencies to create a complete audiogram, as demonstrated in Figure 4. The flattening of curves at higher levels also means that hearing damage risk is more uniform across frequencies at dangerous sound levels (above 85 dB).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What are the loudnesses in phons of sounds having frequencies of 200, 1000, 5000, and 10 000 Hz, if they are all at the same 60.0-dB sound intensity level? (b) If they are all at 110 dB? (c) If they are all at 20.0 dB?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -700,15 +753,19 @@ Part (b) reveals that at very high intensity levels (110 dB), the variation in p
 
 This phenomenon has critical implications: (1) In hearing conservation, a 60-dB, 200-Hz sound might be underestimated as a hazard because it sounds less loud than a 60-dB, 5000-Hz sound, even though both carry equal energy. (2) For hearing aid design, frequency-specific amplification must account for these variations—simply amplifying all frequencies equally doesn't restore normal loudness perception. (3) In audio mixing and mastering, engineers must carefully balance frequency content because listeners will perceive different frequencies as having different loudness even when they measure the same dB level. (4) Age-related hearing loss exacerbates these effects, as high-frequency sensitivity declines, making sounds at 5000-10,000 Hz seem even quieter relative to mid-range frequencies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a person has a 50-dB hearing loss at all frequencies. By how many factors of 10 will low-intensity sounds need to be amplified to seem normal to this person? Note that smaller amplification is appropriate for more intense sounds to avoid further hearing damage.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -750,16 +807,20 @@ This level of hearing loss has profound implications for hearing aid design and 
 
 A 50-dB hearing loss at all frequencies would severely impact quality of life. Normal conversation (about 60 dB) would be barely audible without amplification. This person would likely qualify for cochlear implant consideration, as conventional hearing aids may provide limited benefit at this severity of loss. The uniform 50-dB loss across all frequencies is actually somewhat unusual—most hearing loss is frequency-dependent, with high frequencies typically affected more severely than low frequencies, particularly in presbycusis and noise-induced hearing loss. The good news is that modern hearing aids with digital signal processing can provide the necessary amplification while minimizing distortion and protecting against further damage, though they cannot fully restore the subtlety and dynamic range of normal hearing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a woman needs an amplification of  $$ 5.0 \times 10^{12} $$
  times the threshold intensity to enable her to hear at all frequencies, what is her overall hearing loss in dB? Note that smaller amplification is appropriate for more intense sounds to avoid further damage to her hearing from levels above 90 dB.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -799,15 +860,19 @@ The note about avoiding amplification above 90 dB is particularly relevant here�
 
 Such profound hearing loss could result from various causes: severe genetic conditions, certain medications (ototoxic drugs), profound noise trauma, infections like meningitis, or other damage to the cochlea or auditory nerve. The measurement of 127 dB hearing loss would typically be determined through bone conduction testing to distinguish cochlear damage from middle ear problems. Remarkably, with cochlear implants, many individuals with this level of hearing loss can develop functional hearing and even participate in telephone conversations, demonstrating the impressive capabilities of modern medical technology in addressing profound sensory deficits.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the intensity in watts per meter squared of a just barely audible 200-Hz sound? (b) What is the intensity in watts per meter squared of a barely audible 4000-Hz sound?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -872,15 +937,19 @@ To appreciate how tiny these intensities are, consider that $$2 \times 10^{-13}$
 
 The frequency-dependent threshold has evolutionary significance: the 3000-5000 Hz range, where hearing is most sensitive, corresponds to the frequency range of many warning sounds in nature and is crucial for speech comprehension, particularly for consonants. The reduced sensitivity at 200 Hz (a low frequency) means we're less distracted by low-frequency environmental sounds like distant thunder or wind, which carry little informational value. This frequency-selective sensitivity has been fine-tuned over millions of years of evolution to optimize our survival and communication capabilities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the intensity in watts per meter squared of a 60.0-Hz sound having a loudness of 60 phons. (b) Find the intensity in watts per meter squared of a 10 000-Hz sound having a loudness of 60 phons.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -939,15 +1008,19 @@ From a physiological perspective, this difference arises from several factors: (
 
 For hearing protection, this means that low-frequency industrial noise at 60 Hz might not seem dangerously loud even when it carries substantial acoustic power. A 82-dB sound at 60 Hz (which sounds moderately loud, like 60 phons) is approaching the threshold where extended exposure begins to pose hearing damage risk, yet it might be underestimated because it doesn't sound as loud as its 82-dB intensity level might suggest if it were at a higher frequency. Conversely, at 10,000 Hz, the ear's reduced sensitivity at high frequencies (compared to its peak at 3000-4000 Hz) means that age-related hearing loss, which typically affects high frequencies first, will make these sounds seem even quieter as people age.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person has a hearing threshold 10 dB above normal at 100 Hz and 50 dB above normal at 4000 Hz. How much more intense must a 100-Hz tone be than a 4000-Hz tone if they are both barely audible to this person?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -997,15 +1070,19 @@ This problem illustrates an important concept in audiology: **the pattern of hea
 
 The clinical implications are significant: (1) This person would have particular difficulty understanding speech, because consonant sounds (which carry much of speech's intelligibility) fall in the 2000-8000 Hz range where their hearing is most impaired. (2) They might not notice their hearing problem in quiet environments, because the low-frequency vowel sounds would still be audible. (3) A hearing aid would need to provide frequency-specific amplification—much more gain at 4000 Hz than at 100 Hz. (4) This hearing loss pattern is often preventable through proper hearing protection in noisy environments. The fact that noise-induced hearing loss shows up first around 4000 Hz is thought to be related to the mechanical properties of the cochlea and the specific resonances in the ear canal. Unfortunately, hair cell damage at this frequency is permanent and irreversible, emphasizing the critical importance of hearing protection in occupational and recreational settings with high noise levels.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A child has a hearing loss of 60 dB near 5000 Hz, due to noise exposure, and normal hearing elsewhere. How much more intense is a 5000-Hz tone than a 400-Hz tone if they are both barely audible to the child?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1055,15 +1132,19 @@ The implications for this child are serious and permanent: (1) **Speech comprehe
 
 From a public health perspective, this problem highlights why organizations like the American Academy of Pediatrics recommend against children using cap guns and similar toys, and why hearing protection is essential when children are exposed to loud sounds. The problem also mentions this is "due to noise exposure" and occurs "near 5000 Hz"—this frequency-specific damage is a hallmark of acoustic trauma and differs markedly from the more gradual, high-frequency losses seen in presbycusis (age-related hearing loss) or the broader-spectrum losses from genetic conditions. The good news is that modern digital hearing aids can provide frequency-specific amplification, giving substantial boost at 5000 Hz while providing minimal amplification at 400 Hz where hearing remains normal, though they cannot fully restore the loss.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the ratio of intensities of two sounds of identical frequency if the first is just barely discernible as louder to a person than the second?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1103,10 +1184,12 @@ It's important to note that the 1-dB JND represents optimal conditions. The text
 
 The mathematical form of this relationship shows that loudness perception follows Weber's Law, a general principle in psychophysics stating that the JND is proportional to the stimulus magnitude. In the case of hearing, because we perceive logarithmically, a constant ratio of intensities (1.26:1) produces a constant perceptual difference (1 dB) regardless of the absolute intensity levels. This is why the decibel scale works so well for describing sound—it matches how our hearing system actually processes intensity information. The factor of 1.26 might seem arbitrary, but it emerges naturally from the base-10 logarithm and the definition of the decibel (one-tenth of a Bel). If we used natural logarithms instead, we'd get different numbers, but the underlying perceptual relationship would be the same.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1131,4 +1214,4 @@ ultrasound
 infrasound
 : sounds below 20 Hz
 
-</div>
+:::

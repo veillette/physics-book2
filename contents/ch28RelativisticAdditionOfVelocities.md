@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 28
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate relativistic velocity addition.
 * Explain when relativistic velocity addition should be used instead of classical addition of velocities.
 * Calculate relativistic Doppler shift.
-</div>
+
+:::
 
 ![A man with oar in his hand is kayaking downstream in a shallow fast-flowing river.](../resources/Figure_28_04_01.jpg 'The total velocity of a kayak, like this one on the Deerfield River in Massachusetts, is its velocity relative to the water as well as the water’s velocity relative to the riverbank. (credit: abkfenris, Flickr)')
 {: #Figure1}
@@ -41,9 +42,11 @@ observer, and $$u^{\prime} $$ the velocity of the snowball relative to the sled.
 <div class="title">
 Classical Velocity Addition
 </div>
+
 <div class="equation" >
  $$u=v+u^\prime  $$
 </div>
+
 </div>
 
 Thus, when the girl throws the snowball forward, $$u=1.0 \text{m/s}+1.5 \text{m/s}=2.5 \text{m/s} $$ . It makes good intuitive sense that the snowball
@@ -65,15 +68,18 @@ towards the observer on the sidewalk at speed $$c$$ , too.
 ![A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_28_04_03.jpg 'According to experiment and the second postulate of relativity, light from the car’s headlights moves away from the car at speed ( c ) and towards the observer on the sidewalk at speed ( c ) . Classical velocity addition is not valid.')
 {: #Figure3}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Relativistic Velocity Addition
 </div>
+
 Either light is an exception, or the classical velocity addition formula only works at low velocities. The latter is the case. The correct formula for one-dimensional **relativistic velocity addition** is
 
 <div class="equation" >
  $$u=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}}, $$
 </div>
+
 where  $$v$$
  is the relative velocity between two observers,  $$u$$
  is the velocity of an object relative to one observer, and  $$u^{\prime} $$
@@ -84,12 +90,14 @@ where  $$v$$
  becomes very small at low velocities, and  $$u=\frac{ v+u^\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
  gives a result very close to classical velocity addition. As before, we see that classical velocity addition is an excellent approximation to the correct relativistic formula for small velocities. No wonder that it seems correct in our experience.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): The Speed of Light is the Speed of Light
 </div>
+
 Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c$$
  as observed from the ship, calculate the speed at which it approaches the Earth.
 
@@ -109,11 +117,11 @@ light approaches the Earth using relativistic velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500c+c}{1+\frac{\left(0.500c\right)\left(c\right)}{
    {c}^{2}}}\\ & =& \frac{\left(0.500+1\right)c}{1+\frac{0.500{c}^{2}}{
    {c}^{2}}}\\ & =& \frac{1.500c}{1+0.500}\\ & =& \frac{1.500c}{1.500}\\ & =&
-c\end{array} $$
+   c\end{array} $$
    </div>
 
 **Discussion**
@@ -123,17 +131,19 @@ at speed $$c$$ and approaches the Earth at speed $$c$$ . The speed of light is
 independent of the relative motion of source and observer, whether the observer
 is on the ship or Earth-bound.
 
-</div>
+:::
 
 Velocities cannot add to greater than the speed of light, provided that $$v$$
 is less than $$c$$ and $$u^{\prime} $$ does not exceed $$c$$ . The following
 example illustrates that relativistic velocity addition is not as symmetric as
 classical velocity addition.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Comparing the Speed of Light towards and away from an Observer: Relativistic Package Delivery
 </div>
+
 Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of  $$0.750c $$ .
  (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[Figure 5]](#Figure5).)
 
@@ -153,10 +163,10 @@ relativistic velocity addition instead of simple velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\text{c +}0.750c}{1+\frac{\left(0.500c\right)
    \left(0.750c\right)}{ {c}^{2}}}\\ & =& \frac{1.250c}{1+0.375}\\ & =&
-0.909c\end{array} $$
+   0.909c\end{array} $$
    </div>
 
 **Solution for (b)**
@@ -166,10 +176,10 @@ $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
 3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\mathrm{c +}\left(-0.750c\right)}{1+\frac{\left(
    0.500c\right)\left(-0.750c\right)}{ {c}^{2}}}\\ & =&
-\frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$
+   \frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$
    </div>
 
 **Discussion**
@@ -185,7 +195,7 @@ you would expect classically. The velocities are not even symmetric. In
 part (a) the canister moves $$0.409c $$ faster than the ship relative to the
 Earth, whereas in part (b) it moves $$0.900c $$ slower than the ship.
 
-</div>
+:::
 
 ### Doppler Shift
 
@@ -194,16 +204,19 @@ frequencies and wavelengths of light do. First discussed for sound waves, a
 Doppler shift occurs in any wave when there is relative motion between source
 and observer.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Relativistic Doppler Effects
 </div>
+
 The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves towards the observer.
 
 <div class="equation" >
  $${\lambda}_{\text{obs}}=\lambda_{s} \sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}. $$
 </div>
-</div>
+
+:::
 
 In the Doppler equation, $${\lambda }_{\text{obs}} $$ is the observed
 wavelength, $${\lambda }_{s} $$ is the source wavelength, and $$u$$ is the
@@ -217,18 +230,22 @@ terms of source frequency and observed frequency, this equation can be written
 
 Notice that the – and + signs are different than in the wavelength equation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Career Connection: Astronomer
 </div>
+
 If you are interested in a career that requires a knowledge of special relativity, there’s probably no better connection than astronomy. Astronomers must take into account relativistic effects when they calculate distances, times, and speeds of black holes, galaxies, quasars, and all other astronomical objects. To have a career in astronomy, you need at least an undergraduate degree in either physics or astronomy, but a Master’s or doctoral degree is often required. You also need a good background in high-level mathematics.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating a Doppler Shift: Radio Waves from a Receding Galaxy
 </div>
+
 Suppose a galaxy is moving away from the Earth at a speed  $$0.825c $$ . It emits radio waves with a wavelength of  $$ 0.525 \text{m} $$ .
  What wavelength would we detect on the Earth?
 
@@ -247,10 +264,10 @@ the classical Doppler shift.
 
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_
+   $$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
    \sqrt{\frac{1+\frac{ 0.825\text{c}}{c}}{1-\frac{ 0.825\text{c}}{c}}}\\ & =&
-1.70 \text{m} \text{.} \end{array} $$
+   1.70 \text{m} \text{.} \end{array} $$
    </div>
 
 **Discussion**
@@ -259,7 +276,7 @@ Because the galaxy is moving away from the Earth, we expect the wavelengths of
 radiation it emits to be redshifted. The wavelength we calculated is 1.70 m,
 which is redshifted from the original wavelength of 0.525 m.
 
-</div>
+:::
 
 The relativistic Doppler shift is easy to observe. This equation has everyday
 applications ranging from Doppler-shifted radar velocity measurements of
@@ -271,19 +288,25 @@ and distance of stars.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem"  data-element-type="check-understanding" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"check-understanding"}
+
 Suppose a space probe moves away from the Earth at a speed  $$ 0.350c $$ .
  It sends a radio wave message back to the Earth at a frequency of 1.50 GHz. At what frequency is the message received on the Earth?
 
-</div>
+:::
+
 <div class="solution" >
 <div class="title">
 Answer
 </div>
+
 <div class="equation" >
  $${f}_{\text{obs}}=f_{s}\sqrt{\frac{1-\frac{u}{c}}{1+\frac{u}{c}}}=\left(1.50 \text{GHz}\right)\sqrt{\frac{1-\frac{ 0.350\text{c}}{c}}{1+\frac{ 0.350\text{c}}{c}}}=1.04 \text{GHz} $$
 </div>
+
 </div>
+
 </div>
 
 ### Section Summary
@@ -318,45 +341,60 @@ Answer
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain the meaning of the terms “red shift” and “blue shift” as they relate to the relativistic Doppler effect.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What happens to the relativistic Doppler effect when relative velocity is zero? Is this the expected result?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the relativistic Doppler effect consistent with the classical Doppler effect in the respect that  $${\lambda }_{\text{obs}} $$
  is larger for motion away?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 All galaxies farther away than about  $$50 \times 10^{6}  \text{ly} $$
  exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a spaceship heading straight towards the Earth at  $$ 0.750c $$
  can shoot a canister at  $$ 0.500c $$
  relative to the ship. (a) What is the velocity of the canister relative to the Earth, if it is shot directly at the Earth? (b) If it is shot directly away from the Earth?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -380,15 +418,19 @@ $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}} = \frac{0.750c + (-0.500c)}{1 + \frac{(
 
 Classically, we would add velocities linearly: (a) $$0.750c + 0.500c = 1.250c$$ (impossible!) and (b) $$0.750c - 0.500c = 0.250c$$. Relativistic velocity addition gives the correct results: (a) $$0.909c < c$$ and (b) $$0.400c > 0.250c$$ classically predicted. The asymmetry is striking—shooting forward increases the velocity to $$0.909c$$ (an addition of $$0.159c$$ over the ship's speed), while shooting backward only decreases it to $$0.400c$$ (a decrease of $$0.350c$$). This demonstrates that relativistic velocities don't add symmetrically, and velocities can never exceed $$c$$ regardless of how objects are combined.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the previous problem with the ship heading directly away from the Earth.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -414,17 +456,21 @@ $$u = \frac{1.250c}{1 + 0.375} = \frac{1.250c}{1.375} = 0.909c$$
 
 When the ship heads away from Earth, the situation reverses from the original problem. In part (a), shooting the canister "backward" toward Earth at $$0.500c$$ relative to the ship doesn't make it approach Earth—the ship is receding so fast that the canister still moves away from Earth at $$0.400c$$. This is analogous to throwing a ball backward from a very fast train—the ball still moves forward relative to the ground, just slower than the train. In part (b), shooting the canister forward adds to the recession velocity, giving $$0.909c$$—much less than the classical sum of $$1.250c$$. Notice the asymmetry: in the original problem (ship approaching), the velocities were $$0.909c$$ toward and $$0.400c$$ away. Here they're reversed: $$0.400c$$ away and $$0.909c$$ away.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a spaceship is approaching the Earth at  $$0.100c $$
  and a message capsule is sent toward it at  $$0.100c $$
  relative to the Earth, what is the speed of the capsule relative to the ship?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -446,18 +492,22 @@ $$u' = \frac{u - v}{1 - \frac{uv}{c^2}} = \frac{0.100c - (-0.100c)}{1 - \frac{(0
 
 The capsule approaches the spaceship at $$0.198c$$ as measured in the ship's frame. Classically, we would simply add the speeds: $$0.100c + 0.100c = 0.200c$$. The relativistic result ($$0.198c$$) is only slightly less—about 1% difference—because the velocities are relatively small (only 10% of light speed each). At higher velocities, the relativistic correction becomes much more significant. This problem demonstrates that even at modest relativistic speeds, the classical approximation breaks down, though the effect is small. For precision navigation of high-speed spacecraft, even this small correction must be accounted for.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Suppose the speed of light were only  $$3000 \text{m/s} $$ .
  A jet fighter moving toward a target on the ground at  $$800 \text{m/s} $$
  shoots bullets, each having a muzzle velocity of  $$1000 \text{m/s} $$ .
  What are the bullets' velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -486,17 +536,21 @@ At these speeds, relativistic effects would be readily observable. Time dilation
 
 This thought experiment illustrates that the relativistic nature of our universe isn't obvious only because $$c$$ is so large ($$3 \times 10^8$$ m/s) compared to everyday speeds. If $$c$$ were much smaller, Einstein's insights would have been discovered much earlier—perhaps even by ancient civilizations observing chariots and arrows. The constancy of the speed of light and the relativistic velocity addition formula would be as familiar to us as Newton's laws. This problem helps students appreciate that special relativity isn't "weird"—it's simply the way the universe works, revealed only at extreme speeds in our actual world.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a galaxy moving away from the Earth has a speed of  $$1000 \text{km/s} $$
  and emits  $$656 \text{nm} $$
  light characteristic of hydrogen (the most common element in the universe). (a) What wavelength would we observe on the Earth? (b) What type of electromagnetic radiation is this? (c) Why is the speed of the Earth in its orbit negligible here?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -530,16 +584,20 @@ $$\frac{v_{\text{Earth}}}{v_{\text{galaxy}}} = \frac{30}{1000} = 0.03 = 3\%$$
 
 The observed wavelength increases from 656 nm to 658 nm—a 2-nm red shift corresponding to the 1000 km/s recession velocity. This is the famous H-alpha line of hydrogen, one of the most studied spectral lines in astronomy. The small red shift (only 0.3%) demonstrates that non-relativistic Doppler formulas would give nearly the same result for galaxies moving at $$v \ll c$$. Earth's orbital velocity (30 km/s) produces a Doppler shift of only about $$\pm 0.065$$ nm throughout the year—much smaller than the galaxy's recession shift and easily accounted for. This problem illustrates how astronomers use Doppler shifts to measure galactic velocities and, through Hubble's law, estimate cosmic distances. The fact that most galaxies show red shifts led to the discovery of the expanding universe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A space probe speeding towards the nearest star moves at  $$ 0.250c $$
  and sends radio information at a broadcast frequency of 1.00 GHz. What frequency is received on the Earth?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -557,17 +615,21 @@ $$f_{\text{obs}} = (1.00 \text{ GHz})\sqrt{0.600} = (1.00 \text{ GHz})(0.7746) =
 
 The received frequency is 0.775 GHz or 775 MHz, which is lower than the transmitted 1.00 GHz—a red shift indicating the probe is receding from Earth. The frequency has decreased by 22.5%, a substantial effect due to the relativistic speed. This Doppler shift must be accounted for in the design of communication systems for high-speed space probes. Mission control would need to tune their receivers to 775 MHz to pick up the probe's signal, not the original 1.00 GHz transmission frequency. Additionally, any data transmission rate would appear slowed by the same factor, affecting the rate at which scientific data can be received from the probe. This effect is routinely observed in communications with fast-moving spacecraft and is a practical application of special relativity in space exploration.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If two spaceships are heading directly towards each other at  $$ 0.800c $$ ,
  at what speed must a canister be shot from the first ship to approach the other at  $$ 0.999c $$
  as seen by the second ship?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -616,17 +678,21 @@ $$u' = \frac{u - v}{1 - \frac{uv}{c^2}} = \frac{0.999c - 0.800c}{1 - \frac{(0.99
 
 The canister must be shot at $$0.991c$$ relative to ship 1 to approach ship 2 at $$0.999c$$. This is nearly the speed of light! Even though the ships have a high relative velocity ($$0.800c$$), firing the canister at $$0.991c$$ only increases its approach speed to $$0.999c$$ as seen by ship 2—not to $$1.791c$$ as classical physics would predict. This demonstrates the impossibility of exceeding light speed: no matter how fast objects move relative to each other, adding velocities relativistically always yields results less than $$c$$. The canister traveling at 99.1% of light speed in one frame and 99.9% in another frame shows how close to $$c$$ we can get, but never beyond it.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two planets are on a collision course, heading directly towards each other at  $$ 0.250c $$ .
  A spaceship sent from one planet approaches the second at  $$ 0.750c $$
  as seen by the second planet. What is the velocity of the ship relative to the first planet?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -646,17 +712,21 @@ The spaceship travels at $$0.615c$$ relative to the planet that launched it (pla
 
 This problem illustrates an interesting asymmetry: if you simply add $$0.615c + 0.250c = 0.865c$$ classically, you overestimate the observed velocity. The relativistic formula accounts for the fact that velocities don't add linearly at high speeds. In the planetary collision scenario, this could be important for calculating arrival times—if planet 2's defense systems expected the ship to arrive based on classical velocity addition, they would miscalculate the intercept timing. The 13% difference between $$0.865c$$ and $$0.750c$$ could mean millions of kilometers of error over interplanetary distances.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a missile is shot from one spaceship towards another, it leaves the first at  $$ 0.950c $$
  and approaches the other at  $$ 0.750c $$ .
  What is the relative velocity of the two ships?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -684,16 +754,20 @@ $$v = \frac{u - u'}{1 - \frac{uu'}{c^2}} = \frac{0.750c - 0.950c}{1 - \frac{(0.7
 
 The negative sign indicates the ships are moving apart (receding from each other) at $$0.696c$$. This seems counterintuitive at first—ship 1 fires a missile forward at $$0.950c$$, yet ship 2 observes it approaching at only $$0.750c$$. The only way this can happen is if ship 2 is moving away from ship 1. Classically, we might expect $$v = 0.750 - 0.950 = -0.200c$$, but the relativistic result is much larger in magnitude: $$0.696c$$. This problem demonstrates how velocity measurements in different frames require careful application of relativistic transformations. The large relative recession velocity ($$0.696c$$) partially "cancels" the missile's forward motion ($$0.950c$$), resulting in the reduced approach speed ($$0.750c$$) observed by ship 2.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the relative velocity of two spaceships if one fires a missile at the other at  $$0.750c $$
  and the other observes it to approach at  $$0.950c $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -723,15 +797,19 @@ The two spaceships have a relative velocity of approximately $$0.696c$$ (or more
 
 Classically, we might think $$v = 0.950 - 0.750 = 0.200c$$, but the relativistic answer is much larger: $$0.696c$$. This 3.5-fold difference shows how significantly relativistic effects modify velocity addition at high speeds. The negative sign in the original solution indicates the ships are approaching each other (as expected when ship 2 observes the missile approaching faster than ship 1 launched it).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Near the center of our galaxy, hydrogen gas is moving directly away from us in its orbit about a black hole. We receive 1900 nm electromagnetic radiation and know that it was 1875 nm when emitted by the hydrogen gas. What is the speed of the gas?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -779,15 +857,19 @@ Therefore, $$u = 0.0132c$$ or $$0.01324c$$ with more precision.
 
 The hydrogen gas is receding from us at approximately 1.32% of the speed of light, or about 3960 km/s. This high velocity is characteristic of gas orbiting very close to a supermassive black hole, where the gravitational field is immense. The wavelength shift from 1875 nm to 1900 nm (a 25-nm increase, or 1.33% red shift) directly reveals this rapid motion through the Doppler effect. Such measurements are crucial for studying the dynamics of matter near black holes, estimating black hole masses, and understanding accretion processes. The gas orbiting at this speed experiences strong gravitational and relativistic effects, making regions near galactic center black holes some of the most extreme environments in the universe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A highway patrol officer uses a device that measures the speed of vehicles by bouncing radar off them and measuring the Doppler shift. The outgoing radar has a frequency of 100 GHz and the returning echo has a frequency 15.0 kHz higher. What is the velocity of the vehicle? Note that there are two Doppler shifts in echoes. Be certain not to round off until the end of the problem, because the effect is small.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -817,19 +899,23 @@ Converting to more familiar units: $$v = 22.5 \text{ m/s} \times \frac{3600 \tex
 
 The vehicle is traveling at 22.5 m/s (about 50 mph or 81 km/h)—a typical highway speed. The Doppler shift is tiny: only 15 kHz out of 100 GHz, or $$1.5 \times 10^{-7}$$ (0.000015%). This requires extremely precise frequency measurement, which modern radar systems can achieve. The factor of 2 in the formula arises because the radar signal is Doppler shifted twice: once when received by the moving vehicle, and again when the reflected signal returns to the stationary officer. This doubling effect actually helps—it makes the frequency shift twice as large as it would be for a single Doppler shift, improving measurement sensitivity. This is why Doppler radar is so effective for speed enforcement despite vehicles traveling at only $$7.5 \times 10^{-8}c$$ (0.0000075% of the speed of light)!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Prove that for any relative velocity  $$v$$
  between two observers, a beam of light sent from one to the other will approach at speed  $$c$$
  (provided that  $$v$$
  is less than  $$c$$ ,
  of course).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -855,18 +941,22 @@ Therefore, observer B measures the light approaching at exactly speed $$c$$, reg
 
 This elegant proof demonstrates the **constancy of the speed of light**, which is the foundation of special relativity. No matter how fast the source and observer move relative to each other, light always travels at $$c$$ in every inertial reference frame. This is radically different from classical velocity addition, where we would expect $$u = v + c$$ (exceeding $$c$$!). The relativistic formula is specifically structured—with the $$1 + \frac{vu'}{c^2}$$ denominator—to guarantee this result. This invariance of light speed has profound consequences: it requires that space and time themselves transform between moving frames (Lorentz transformations), leading to time dilation and length contraction. It also explains why nothing with mass can reach light speed—the velocity addition formula ensures that combining any subluminal velocities always yields another subluminal velocity, with $$c$$ as an unreachable upper limit. This proof was central to Einstein's development of special relativity and remains one of the most important results in modern physics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that for any relative velocity  $$v$$
  between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that  $$v$$
  is less than  $$c$$ ,
  of course).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -894,18 +984,22 @@ This elegant proof demonstrates that **all observers measure the speed of light 
 
 This is profoundly counterintuitive but has been verified in countless experiments. The relativistic velocity addition formula is specifically designed to ensure this constancy of the speed of light. The mathematical structure—with the $$1 + \frac{vu'}{c^2}$$ term in the denominator—guarantees that whenever $$u'$$ or $$v$$ equals $$\pm c$$, the result $$u$$ also equals $$\pm c$$. This isn't just a mathematical curiosity; it's a fundamental property of spacetime that leads to time dilation, length contraction, and the impossibility of massive objects reaching light speed.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy  $$ 12.0 \times 10^{9}  \text{ly} $$
  ly away is receding from us at 0. $$0.900c $$ ,
  at what velocity relative to us must we send an exploratory probe to approach the other galaxy at  $$0.990c $$ ,
  as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -962,10 +1056,12 @@ Time for signal at speed $$c$$: $$t = \frac{1.2058 \times 10^{11} \text{ ly}}{c}
 
 This problem illustrates the extreme time scales involved in intergalactic travel and communication. The round trip (travel + signal return) would take about $$2.4 \times 10^{11}$$ years—roughly 17 times the current age of the universe! Even traveling at 99.947% the speed of light, the probe would take over 120 billion years to reach a galaxy 12 billion light-years away, primarily because the galaxy is receding from us at 90% the speed of light. The signal return takes nearly as long because Earth continues to recede during the probe's journey. This demonstrates why intergalactic exploration is impractical even in principle—by the time we received a signal back, the universe would have evolved beyond recognition, if it still existed at all. This problem elegantly shows the practical limitations imposed by special relativity on space exploration beyond our local galactic neighborhood.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -992,9 +1088,10 @@ described by the equation
   <div class="equation">
    $${\lambda }_{\text{obs}}=\lambda_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}} $$
   </div>
+
      where
    $${\lambda }_{\text{obs}} $$ is the observed wavelength,
    $${\lambda }_{s} $$ is the source wavelength, and
    $$u$$ is the velocity of the source to the observer
 
-</div>
+:::

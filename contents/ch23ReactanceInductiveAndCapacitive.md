@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 11
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Sketch voltage and current versus time in simple inductive, capacitive, and resistive circuits.
 * Calculate inductive and capacitive reactance.
 * Calculate current and/or voltage in simple inductive, capacitive, and resistive circuits.
-</div>
+
+:::
 
 Many circuits also contain capacitors and inductors, in addition to resistors
 and an AC voltage source. We have seen how capacitors and inductors respond to
@@ -37,14 +38,16 @@ positive at point c and begins to make the current less negative. At point d,
 the current goes through zero just as the voltage reaches its positive peak to
 start another cycle. This behavior is summarized as follows:
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 AC Voltage in an Inductor
 </div>
+
 When a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a  $$90 ^\circ $$
  phase angle.
 
-</div>
+:::
 
 Current lags behind voltage, since inductors oppose change in current. Changing
 current induces a back emf $$V=-L\left(\Delta I/\Delta t\right) $$ . This is
@@ -75,10 +78,12 @@ large $$f $$
 _,_ small $$\Delta t $$ ). The greater the change, the greater the opposition of
 an inductor.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Inductive Reactance and then Current
 </div>
+
 (a) Calculate the inductive reactance of a 3.00 mH inductor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current at each frequency if the applied rms voltage is 120 V?
 
 **Strategy**
@@ -93,11 +98,13 @@ Entering the frequency and inductance into Equation $${X}_{L}=2\pi fL $$ gives
 <div class="equation" >
  $${X}_{L}=2\pi fL=6.28\left(60.0/\text{s}\right)\left(3.00 mH\right)=1.13 \Omega \text{ at } 60 \text{Hz}. $$
 </div>
+
 Similarly, at 10 kHz,
 
 <div class="equation" >
  $${X}_{L}=2\pi fL= 6.28\left( 1.00 \times 10^{4} \text{/s}\right)\left(3.00 \text{mH}\right)=188 \Omega \text{ at } 10 \text{kHz}. $$
 </div>
+
 **Solution for (b)**
 
 The rms current is now found using the version of Ohm’s law in Equation
@@ -107,11 +114,13 @@ frequency, this yields
 <div class="equation" >
  $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{1.13 \Omega }=106 \text{A} \text{ at } 60 \text{Hz}. $$
 </div> 
+
 Similarly, at 10 kHz,
 
 <div class="equation" >
  $$I=\frac{V}{ {X}_{L}}=\frac{120 \text{V}}{188 \text{Ω}}=0.637 \text{A} \text{ at } 10 kHz. $$
 </div>
+
 **Discussion**
 
 The inductor reacts very differently at the two different frequencies. At the
@@ -122,7 +131,7 @@ inductor can be put in series with a sound reproduction system or in series with
 your home computer to reduce high-frequency sound output from your speakers or
 high-frequency power spikes into your computer.
 
-</div>
+:::
 
 Note that although the resistance in the circuit considered is negligible, the
 AC current is not extremely large because inductive reactance impedes its flow.
@@ -153,14 +162,16 @@ drops to zero as the voltage rises to its peak, and the process starts to
 repeat. Throughout the cycle, the voltage follows what the current is doing by
 one-fourth of a cycle:
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 AC Voltage in a Capacitor
 </div>
+
 When a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a  $$90 ^\circ $$
  phase angle.
 
-</div>
+:::
 
 The capacitor is affecting the current, having the ability to stop it altogether
 when fully charged. Since an AC voltage is applied, there is an rms current, but
@@ -187,10 +198,12 @@ store and the greater the current that can flow. It is also inversely
 proportional to the frequency $$f $$ ; the greater the frequency, the less time
 there is to fully charge the capacitor, and so it impedes current less.
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating Capacitive Reactance and then Current
 </div>
+
 (a) Calculate the capacitive reactance of a 5.00 $$\mu$$F capacitor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current if the applied rms voltage is 120 V?
 
 **Strategy**
@@ -208,11 +221,13 @@ gives
 <div class="equation" >
  $$\begin{array}{lll}{X}_{C}& =& \frac{1}{2\pi \text{fC}}\\ & =& \frac{1}{ 6.28\left( 60.0/\text{s}\right)\left( 5.00 \mu \text{F}\right)}=531 \text{Ω at 60 Hz}\text{.}\end{array} $$
 </div>
+
 Similarly, at 10 kHz,
 
 <div class="equation" >
  $$\begin{array}{lll}{X}_{C}& =& \frac{1}{2\pi \text{fC}}=\frac{1}{ 6.28\left( 1.00 \times 10^{4} /\text{s}\right)\left( 5.00 \mu \text{F}\right)}\\ & =& 3.18 \text{Ω at 10 kHz}\end{array}\text{.} $$
 </div>
+
 **Solution for (b)**
 
 The rms current is now found using the version of Ohm’s law in $$I=V/{X}_{C} $$
@@ -221,11 +236,13 @@ The rms current is now found using the version of Ohm’s law in $$I=V/{X}_{C} $
 <div class="equation" >
  $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{531 \text{Ω}}=0.226 \text{A} \text{ at } 60 \text{Hz}. $$
 </div>
+
 Similarly, at 10 kHz,
 
 <div class="equation" >
  $$I=\frac{V}{ {X}_{C}}=\frac{120 \text{V}}{3.18 \text{Ω}}=37.7 \text{A} \text{ at } 10 \text{kHz}. $$
 </div>
+
 **Discussion**
 
 The capacitor reacts very differently at the two different frequencies, and in
@@ -236,7 +253,7 @@ frequency allows them time to become charged and stop the current. Capacitors
 can be used to filter out low frequencies. For example, a capacitor in series
 with a sound reproduction system rids it of the 60 Hz hum.
 
-</div>
+:::
 
 Although a capacitor is basically an open circuit, there is an rms current in a
 circuit with an AC voltage applied to a capacitor. This is because the voltage
@@ -257,14 +274,16 @@ frequency dependence to the behavior of plain resistance in a circuit:
 ![Part a of the diagram shows a resistor R connected across an A C voltage source V. The voltage drop across the resistor R is given by V R.Part b of the diagram shows a graph showing the variation of voltage V R and current I R with time t. the V R and current I R are plotted along Y axis and time t is along the X axis. Both I and V are progressive cosine waves. The amplitude of I wave is more than V wave.](../resources/Figure_23_11_03.jpg "(a) An AC voltage source in series with a resistor. (b) Graph of current and voltage across the resistor as functions of time, showing them to be exactly in phase.  ")
 {: #Figure3}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 AC Voltage in a Resistor
 </div>
+
 When a sinusoidal voltage is applied to a resistor, the voltage is exactly in phase with the current—they have a  $$0 ^\circ $$
  phase angle.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -278,11 +297,13 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
   <div class="equation" >
    $$I=\frac{V}{ {X}_{L}}\text{,} $$
   </div>
+
      where    $$V $$ is the rms voltage across the inductor.
 * $${X}_{L} $$ is defined to be the inductive reactance, given by
   <div class="equation" >
    $${X}_{L}=2\pi fL\text{,} $$
   </div>
+
      with    $$f $$ the frequency of the AC voltage source in hertz.
 *  Inductive reactance
    $${X}_{L} $$ has units of ohms and is greatest at high frequencies.
@@ -292,6 +313,7 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
   <div class="equation" >
    $$I=\frac{V}{ {X}_{C}}\text{,} $$
   </div>
+
  where $$V $$ is the rms voltage across the capacitor.
 *   $${X}_{C} $$ is defined to be the capacitive reactance, given by
   <div class="equation" >
@@ -303,58 +325,80 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Presbycusis is a hearing loss due to age that progressively affects higher frequencies. A hearing aid amplifier is designed to amplify all frequencies equally. To adjust its output for presbycusis, would you put a capacitor in series or parallel with the hearing aid’s speaker? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Would you use a large inductance or a large capacitance in series with a system to filter out low frequencies, such as the 100 Hz hum in a sound system? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 High-frequency noise in AC power can damage computers. Does the plug-in unit designed to prevent this damage use a large inductance or a large capacitance (in series with the computer) to filter out such high frequencies? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does inductance depend on current, frequency, or both? What about inductive reactance?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why the capacitor in [[Figure 4]](#Figure4)(a) acts as a low-frequency filter between the two circuits, whereas that in [[Figure 4]](#Figure4)(b) acts as a high-frequency filter.
 
-</div>
+:::
+
 </div>
 
 ![The figure describes two circuits with two different connections. The first part of the diagram shows circuit one and circuit two connected in series and a capacitor C is connected between them. Both the circuits are shown as grounded. The second part of the diagram shows two circuits circuit one and circuit two connected to each other. At the point of connection one end of the capacitor is connected and the other end of the capacitor is grounded. Both the circuits are shown as grounded.](../resources/Figure_23_11_04.jpg "Capacitors and inductors. Capacitor with high frequency and low frequency.")
 {: #Figure4}
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the capacitors in [[Figure 4]](#Figure4) are replaced by inductors, which acts as a low-frequency filter and which as a high-frequency filter?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what frequency will a 30.0 mH inductor have a reactance of  $$100 \text{Ω} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the inductive reactance formula $${X}_{L}=2\pi fL$$ and solve for the frequency $$f$$. We know the reactance and inductance.
@@ -368,7 +412,7 @@ Given:
 Rearranging the inductive reactance equation:
 
 <div class="equation">
-{% raw %}$$f=\frac{{X}_{L}}{2\pi L}$${% endraw %}
+$$f=\frac{{X}_{L}}{2\pi L}$$
 </div>
 
 Substituting the values:
@@ -385,16 +429,21 @@ This frequency of 531 Hz is in the audible range, near the frequency of the musi
 
 531 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What value of inductance should be used if a  $$20.0 \text{kΩ} $$
  reactance is needed at a frequency of 500 Hz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the inductive reactance formula $${X}_{L}=2\pi fL$$ and solve for the inductance $$L$$. We know the desired reactance and the frequency.
@@ -408,7 +457,7 @@ Given:
 Rearranging for $$L$$:
 
 <div class="equation">
-{% raw %}$$L=\frac{{X}_{L}}{2\pi f}$${% endraw %}
+$$L=\frac{{X}_{L}}{2\pi f}$$
 </div>
 
 Substituting the values:
@@ -425,16 +474,21 @@ This is a very large inductance (6.37 H), which would typically require a large 
 
 6.37 H
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What capacitance should be used to produce a  $$2.00 \text{MΩ} $$
  reactance at 60.0 Hz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the capacitive reactance formula $${X}_{C}=\frac{1}{2\pi fC}$$ and solve for the capacitance $$C$$. We know the desired reactance and the frequency.
@@ -465,15 +519,20 @@ This is a very small capacitance—only 1.33 nanofarads. The extremely high reac
 
 1.33 nF
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what frequency will an 80.0 mF capacitor have a reactance of  $$0.250 \text{Ω} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the capacitive reactance formula $${X}_{C}=\frac{1}{2\pi fC}$$ and solve for the frequency $$f$$. We know the reactance and capacitance.
@@ -504,18 +563,23 @@ This is a very low frequency (about 8 Hz), well below the range of common AC pow
 
 7.96 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the current through a 0.500 H inductor connected to a 60.0 Hz, 480 V AC source. (b) What would the current be at 100 kHz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-(a) First calculate the inductive reactance using $${X}_{L}=2\pi fL$$, then find the current using {% raw %}$$I=\frac{V}{{X}_{L}}$${% endraw %}.
+(a) First calculate the inductive reactance using $${X}_{L}=2\pi fL$$, then find the current using $$I=\frac{V}{{X}_{L}}$$.
 (b) Repeat the calculation with the new frequency.
 
 **Solution**
@@ -534,7 +598,7 @@ $${X}_{L}=2\pi fL=2\pi (60.0 \text{ Hz})(0.500 \text{ H})=188 \text{ Ω}$$
 Now find the current:
 
 <div class="equation">
-{% raw %}$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{188 \text{ Ω}}=2.55 \text{ A}$${% endraw %}
+$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{188 \text{ Ω}}=2.55 \text{ A}$$
 </div>
 
 **(b)** At $$f = 100 \text{ kHz} = 1.00 \times 10^5 \text{ Hz}$$:
@@ -544,7 +608,7 @@ $${X}_{L}=2\pi fL=2\pi (1.00 \times 10^5 \text{ Hz})(0.500 \text{ H})=3.14 \time
 </div>
 
 <div class="equation">
-{% raw %}$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{3.14 \times 10^5 \text{ Ω}}=1.53 \times 10^{-3} \text{ A}=1.53 \text{ mA}$${% endraw %}
+$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{3.14 \times 10^5 \text{ Ω}}=1.53 \times 10^{-3} \text{ A}=1.53 \text{ mA}$$
 </div>
 
 **Discussion**
@@ -557,19 +621,24 @@ The inductor exhibits dramatically different behavior at the two frequencies. At
 
 (b) 1.53 mA
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What current flows when a 60.0 Hz, 480 V AC source is connected to a  $$0.250 \text{μF} $$
  capacitor? (b) What would the current be at 25.0 kHz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-(a) Calculate the capacitive reactance using $${X}_{C}=\frac{1}{2\pi fC}$$, then find the current using {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}.
+(a) Calculate the capacitive reactance using $${X}_{C}=\frac{1}{2\pi fC}$$, then find the current using $$I=\frac{V}{{X}_{C}}$$.
 (b) Repeat the calculation with the new frequency.
 
 **Solution**
@@ -588,7 +657,7 @@ $${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6}
 Now find the current:
 
 <div class="equation">
-{% raw %}$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \text{ A}=45.3 \text{ mA}$${% endraw %}
+$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \text{ A}=45.3 \text{ mA}$$
 </div>
 
 **(b)** At $$f = 25.0 \text{ kHz} = 2.50 \times 10^4 \text{ Hz}$$:
@@ -598,7 +667,7 @@ $${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \t
 </div>
 
 <div class="equation">
-{% raw %}$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{25.5 \text{ Ω}}=18.8 \text{ A}$${% endraw %}
+$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{25.5 \text{ Ω}}=18.8 \text{ A}$$
 </div>
 
 **Discussion**
@@ -611,18 +680,23 @@ The capacitor behaves opposite to an inductor. At the low frequency of 60.0 Hz, 
 
 (b) 18.8 A
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 20.0 kHz, 16.0 V source connected to an inductor produces a 2.00 A current. What is the inductance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-First find the inductive reactance using {% raw %}$$I=\frac{V}{{X}_{L}}$${% endraw %}, then use $${X}_{L}=2\pi fL$$ to find the inductance.
+First find the inductive reactance using $$I=\frac{V}{{X}_{L}}$$, then use $${X}_{L}=2\pi fL$$ to find the inductance.
 
 **Solution**
 
@@ -640,7 +714,7 @@ $${X}_{L}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \text{ A}}=8.00 \text{ Ω}$$
 Now solve for inductance:
 
 <div class="equation">
-{% raw %}$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$${% endraw %}
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
 </div>
 
 **Discussion**
@@ -651,18 +725,23 @@ This is a small inductance, typical of inductors used in high-frequency circuits
 
 63.7 µH
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 20.0 Hz, 16.0 V source produces a 2.00 mA current when connected to a capacitor. What is the capacitance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-First find the capacitive reactance using {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}, then use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the capacitance.
+First find the capacitive reactance using $$I=\frac{V}{{X}_{C}}$$, then use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the capacitance.
 
 **Solution**
 
@@ -691,16 +770,21 @@ This is a reasonable capacitance value, just under 1 microfarad. At the low freq
 
 0.995 µF
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) An inductor designed to filter high-frequency noise from power supplied to a personal computer is placed in series with the computer. What minimum inductance should it have to produce a  $$2.00 \text{kΩ} $$
  reactance for 15.0 kHz noise? (b) What is its reactance at 60.0 Hz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $${X}_{L}=2\pi fL$$ to find the required inductance at 15.0 kHz.
@@ -715,7 +799,7 @@ This is a reasonable capacitance value, just under 1 microfarad. At the low freq
 Solving for inductance:
 
 <div class="equation">
-{% raw %}$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$${% endraw %}
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$$
 </div>
 
 **(b)** At $$f = 60.0 \text{ Hz}$$:
@@ -734,16 +818,21 @@ This inductor is very effective as a noise filter. At the high frequency of 15.0
 
 (b) 8.00 Ω
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The capacitor in [[Figure 4]](#Figure4)(a) is designed to filter low-frequency signals, impeding their transmission between circuits. (a) What capacitance is needed to produce a  $$100 \text{kΩ} $$
  reactance at a frequency of 120 Hz? (b) What would its reactance be at 1.00 MHz? (c) Discuss the implications of your answers to (a) and (b).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the required capacitance at 120 Hz.
@@ -782,16 +871,21 @@ This is a practical example of capacitive filtering in series configuration. The
 
 (c) The capacitor blocks low-frequency signals (high reactance at 120 Hz) but passes high-frequency signals (low reactance at 1.00 MHz), functioning as a high-pass filter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The capacitor in [[Figure 4]](#Figure4)(b) will filter high-frequency signals by shorting them to earth/ground. (a) What capacitance is needed to produce a reactance of  $$10.0 \text{mΩ} $$
  for a 5.00 kHz signal? (b) What would its reactance be at 3.00 Hz? (c) Discuss the implications of your answers to (a) and (b).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the required capacitance at 5.00 kHz.
@@ -830,11 +924,14 @@ This is the complement to the previous problem. In Figure 4(b), the capacitor is
 
 (c) The capacitor shorts high-frequency signals to ground (low reactance at 5.00 kHz) while having minimal effect on low-frequency signals (higher reactance at 3.00 Hz), functioning as a low-pass filter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 In a recording of voltages due to brain activity (an EEG), a 10.0 mV signal with
@@ -842,11 +939,13 @@ a 0.500 Hz frequency is applied to a capacitor, producing a current of 100 mA.
 Resistance is negligible. (a) What is the capacitance? (b) What is unreasonable
 about this result? (c) Which assumption or premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
-(a) Find the capacitive reactance from {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}, then calculate the capacitance from $${X}_{C}=\frac{1}{2\pi fC}$$.
+(a) Find the capacitive reactance from $$I=\frac{V}{{X}_{C}}$$, then calculate the capacitance from $${X}_{C}=\frac{1}{2\pi fC}$$.
 (b) Evaluate whether the calculated capacitance is physically reasonable for an EEG application.
 (c) Identify which parameter is unreasonable.
 
@@ -885,11 +984,14 @@ This problem illustrates the importance of checking results against physical rea
 
 (c) The current of 100 mA is unreasonably large for an EEG signal. Realistic EEG currents are in the nanoampere to microampere range.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider the use of an inductor in series with a computer operating on 60 Hz
@@ -898,10 +1000,12 @@ in voltage of incoming high frequency noise compared to 60 Hz voltage. Among the
 things to consider are the acceptable series reactance of the inductor for 60 Hz
 power and the likely frequencies of noise coming through the power lines.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -912,4 +1016,4 @@ inductive reactance
 capacitive reactance
 : the opposition of a capacitor to a change in current; calculated by $${X}_{C}=\frac{1}{2\pi \text{fC}} $$
 
-</div>
+:::

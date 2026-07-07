@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 7
 chapterNumber: 8
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * State Newton’s third law of motion.
 * Explain the principle involved in propulsion of rockets and jet engines.
 * Derive an expression for the acceleration of the rocket and discuss the factors that affect the acceleration.
 * Describe the function of a space shuttle.
 
-</div>
+::::
 
 Rockets range in size from fireworks so small that ordinary people use them to
 immense Saturn Vs that once propelled massive payloads toward the Moon. The
@@ -22,13 +22,15 @@ opposite reaction on what remains. Another common example is the recoil of a
 gun. The gun exerts a force on a bullet to accelerate it and consequently
 experiences an equal and opposite force, causing the gun’s recoil or kick.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment—Propulsion of a Balloon
 </div>
+
 Hold a balloon and fill it with air. Then, let the balloon go. In which direction does the air come out of the balloon and in which direction does the balloon get propelled? If you fill the balloon with water and then let the balloon go, does the balloon’s direction change? Explain your answer.
 
-</div>
+::::
 
 [Figure 1](#Figure1) shows a rocket accelerating straight up. In part (a), the
 rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
@@ -54,20 +56,23 @@ to be a good approximation for the acceleration of the rocket.
 “The rocket” is that part of the system remaining after the gas is ejected, and
 $$ g $$ is the acceleration due to gravity.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Acceleration of a Rocket
 </div>
+
 Acceleration of a rocket is
 
 <div class="equation">
  $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g, $$
 </div>
+
 where $$ a $$ is the acceleration of the rocket, $$ v_{\text{e}} $$
 is the exhaust velocity, $$ m $$ is the mass of the rocket, $$ \Delta m $$
 is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas is ejected.
 
-</div>
+::::
 
 ![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg '(a) This rocket has a mass ( m ) and an upward velocity ( v ) . The net external force on the system is ( mg ) pointing down, if air resistance is neglected. (b) A time ( \\Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
 {: #Figure1}
@@ -85,21 +90,25 @@ acceleration. The rocket mass $$ m $$ decreases dramatically during flight
 because most of the rocket is fuel to begin with, so that acceleration increases
 continuously, reaching a maximum just before the fuel is exhausted.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Factors Affecting a Rocket’s Acceleration
 </div>
+
 * The greater the exhaust velocity $$ v_{\text{e}} $$ of the gases relative to the rocket, the greater the acceleration.
 * The faster the rocket burns its fuel, the greater its acceleration.
 * The smaller the rocket’s mass (all other factors being the same), the greater
   the acceleration.
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Acceleration: Initial Acceleration of a Moon Launch
 </div>
+
 A Saturn V’s mass at liftoff was $$ 2.80\times 10^{6}\kg $$,
 its fuel-burn rate was $$ 1.40\times 10^{4}\text{kg/s} $$, and the exhaust
 velocity was $$ 2.40\times 10^{3} \ms $$. Calculate its initial
@@ -131,7 +140,7 @@ $$ v\_{\text{e}} $$ and $$ \frac{ \Delta m}{\Delta t} $$ remain constant. Knowin
 this acceleration and the mass of the rocket, you can show that the thrust of
 the engines was $$ 3.36\times 10^{7}\N $$.
 
-</div>
+::::
 
 To achieve the high speeds needed to hop continents, obtain orbit, or escape
 Earth’s gravity altogether, the mass of the rocket other than fuel must be as
@@ -193,20 +202,25 @@ resistance.
 ![The space shuttle is launched. It consists of the shuttle orbiter, two solid rocket boosters, and an expendable external tank. It takes off leaving much smoke and fire.](../resources/Figure_08_07_02.jpg 'The space shuttle had a number of reusable parts. Solid fuel boosters on either side were recovered and refueled after each flight, and the entire orbiter returned to Earth for use in subsequent flights. The large liquid fuel tank was expended. The space shuttle was a complex assemblage of technologies, employing both solid and liquid fuel and pioneering ceramic tiles as reentry heat shields. As a result, it permitted multiple launches as opposed to single-use rockets. (credit: NASA)')
 {: #Figure2}
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Lunar Lander
 </div>
+
 Can you avoid the boulder field and land safely, just before your fuel runs out, as Neil Armstrong did in 1969? Our version of this classic video game accurately simulates the real motion of the lunar lander with the correct mass, thrust, fuel consumption rate, and lunar gravity. The real lunar lander is very hard to control.
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Lunar Lander
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/lunar-lander/lunar-lander_en.
 html" width="600" height="450"  allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -222,7 +236,8 @@ html" width="600" height="450"  allowfullscreen></iframe>
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -231,11 +246,13 @@ air resistance is negligible. How is the motion of the center of mass affected
 by the explosion? How would it be affected if the pieces experienced
 significantly more air resistance than the intact shell?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -244,11 +261,13 @@ motionless in the center of the station, out of reach of any solid object on
 which he could exert a force. Suggest a method by which he could move himself
 away from this position, and explain the physics involved.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -257,13 +276,15 @@ velocity of the gases it ejects. When that is the case, the gas velocity and gas
 momentum are in the same direction as that of the rocket. How is the rocket
 still able to obtain thrust by ejecting the gases?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -272,8 +293,10 @@ that they may intercept fast-moving incoming missiles in the short time
 available. What is the takeoff acceleration of a 10 000-kg ABM that expels 196
 kg of gas per second at an exhaust velocity of $$ 2.50\times 10^{3} \ms $$ ?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the rocket acceleration equation $$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$. We're given the initial mass, exhaust velocity, and mass expulsion rate. The acceleration due to gravity acts downward, opposing the upward acceleration.
@@ -301,11 +324,13 @@ The takeoff acceleration of the ABM is $$ 39.2 \mss $$ (approximately 4.0g).
 
 This acceleration is about 4 times the acceleration due to gravity, meaning the thrust force is about 5 times the rocket's weight. This high acceleration is essential for intercepting incoming missiles, which travel at high speeds. The ABM must reach the target in seconds, requiring rapid acceleration from rest.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -313,8 +338,10 @@ What is the acceleration of a 5000-kg rocket taking off from the Moon, where the
 acceleration due to gravity is only $$ 1.6\mss $$, if the rocket expels 8.00 kg
 of gas per second at an exhaust velocity of $$ 2.20\times 10^{3}\ms $$ ?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the rocket acceleration equation with the Moon's gravitational acceleration instead of Earth's. The lower gravity on the Moon means rockets can achieve higher net acceleration with the same thrust.
@@ -342,11 +369,13 @@ The acceleration of the rocket taking off from the Moon is $$ 1.92 \mss $$ (appr
 
 On Earth with $$ g = 9.80 \mss $$, this rocket would have a negative acceleration (it couldn't lift off). The Moon's weaker gravity (about 1/6 of Earth's) allows rockets with much smaller engines or fuel consumption rates to launch successfully. This is one reason why returning from the Moon required much less fuel than launching from Earth.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -354,8 +383,10 @@ Calculate the increase in velocity of a 4000-kg space probe that expels 3500 kg
 of its mass at an exhaust velocity of $$ 2.00\times 10^{3} \ms $$. You may
 assume the gravitational force is negligible at the probe's location.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Since gravity is negligible, we use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$, where $$ m_0 $$ is the initial mass and $$ m_{\text{r}} $$ is the remaining mass after fuel is expended. This equation comes from integrating the rocket equation with no external forces.
@@ -385,11 +416,13 @@ The increase in velocity of the space probe is $$ 4.16 \times 10^{3} \ms $$ (abo
 
 The probe expels 87.5% of its total mass as propellant to achieve this velocity increase. This illustrates why space travel is so challenging—most of a spacecraft's initial mass must be fuel. The mass ratio of 8:1 (initial to final) is significant but achievable with chemical rockets. The final velocity is about twice the exhaust velocity, which demonstrates the power of the logarithmic relationship.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -406,8 +439,10 @@ planets, for example. Calculate the acceleration of such an engine if it expels
 $$ 4.50\times 10^{-6}\text{kg/s} $$ at the given velocity, assuming the
 acceleration due to gravity is negligible.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 For part (a), use the rocket velocity equation. For part (b), use the rocket acceleration equation with gravity negligible. Ion propulsion achieves extremely high exhaust velocities, enabling significant velocity changes with minimal fuel mass.
@@ -449,15 +484,20 @@ The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 0.18 mm/s²).
 
 The power of ion propulsion is evident: ejecting only 0.2% of the spacecraft's mass provides a 16 km/s velocity change—more than enough to escape Earth's gravity (11.2 km/s). With chemical rockets, this would require about 87.5% of the mass to be fuel. The tradeoff is the tiny acceleration (0.18 mm/s²), meaning years of continuous operation are needed to achieve these velocities. Ion engines are ideal for deep space missions where time is less critical than fuel efficiency.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Derive the equation for the vertical acceleration of a rocket.
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 To derive the rocket acceleration equation, we analyze the forces on the ejected gas and apply Newton's third law to find the thrust force on the rocket. Then we apply Newton's second law to the rocket, accounting for both the thrust force (upward) and gravitational force (downward).
@@ -502,11 +542,13 @@ This is the equation for the vertical acceleration of a rocket, where $$ m $$ is
 
 This equation shows that rocket acceleration depends on three factors: (1) the exhaust velocity $$ v_{\text{e}} $$, (2) the rate of mass ejection $$ \Delta m / \Delta t $$, and (3) the rocket's current mass $$ m $$, minus the constant gravitational acceleration $$ g $$. As fuel burns, $$ m $$ decreases, causing the acceleration to increase even if the thrust remains constant. The negative $$ g $$ term shows that gravity opposes the rocket's acceleration; in deep space where $$ g \approx 0 $$, the rocket would achieve higher acceleration with the same thrust.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -516,8 +558,10 @@ just as it runs out of fuel is 75 000-kg, and its exhaust velocity is $$ 2.40\ti
 on Earth's surface $$ \left( 9.80\mss \right) $$.
 (b) Why might it be necessary to limit the acceleration of a rocket?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 For part (a), use the rocket acceleration equation and solve for the mass expulsion rate, setting the acceleration to 7g (seven times gravitational acceleration). For part (b), consider the physical and physiological limitations that would necessitate limiting acceleration.
@@ -561,15 +605,20 @@ The maximum mass expulsion rate is $$ 2.45 \times 10^{3} \text{ kg/s} $$ (about 
 
 At 7g (68.6 m/s²), an astronaut would feel as if they weighed 7 times their normal weight. A 70-kg person would feel like 490 kg pressing down on them. This is near the limit of human endurance for brief periods.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Given the following data for a fire extinguisher-toy wagon rocket experiment, calculate the average exhaust velocity of the gases expelled from the extinguisher. Starting from rest, the final velocity is 10.0 m/s. The total mass is initially 75.0 kg and is 70.0 kg after the extinguisher is fired.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$ and solve for the exhaust velocity. We assume the experiment occurs horizontally on a frictionless surface, so gravity does not affect the horizontal motion.
@@ -602,15 +651,21 @@ The average exhaust velocity of the gases is approximately $$ 145 \ms $$ (about 
 
 This exhaust velocity is reasonable for compressed gas expelled from a fire extinguisher. It's much lower than chemical rocket exhaust (2000-4500 m/s) because the gas is simply expanding from pressure rather than undergoing chemical combustion. The mass expelled was only 5.0 kg (6.7% of total mass), yet it was enough to accelerate the 70-kg wagon to 10 m/s—a practical demonstration of rocket propulsion principles.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 How much of a single-stage rocket that is 100 000 kg can be anything but fuel if the rocket is to have a final speed of
 $$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2.20\times 10^{3} \ms $$ ?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the rocket velocity equation and solve for the remaining mass $$ m\_{\text{r}} $$. With gravity negligible (in space), the final velocity equals the velocity change.
@@ -641,11 +696,13 @@ The mass that can be anything but fuel is $$ 2.63 \times 10^{3} \kg $$ (2630 kg)
 
 This result shows that 97.4% of the rocket must be fuel to achieve orbital velocity (8 km/s is approximately orbital speed). Only 2.6% can be structure, engines, and payload combined—an enormous engineering challenge that explains why rockets are so expensive and complex. This is why multi-stage rockets were developed: each stage can have better mass ratios than a single-stage design.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Professional Application**
 
@@ -654,8 +711,10 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 0.100 s and there is a 5.00-N frictional force opposing the squid’s movement.
 (b) How much energy is lost to work done against friction?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 For part (a), use conservation of momentum to find the initial recoil velocity, then account for the friction force acting over the ejection time using the impulse-momentum theorem. For part (b), calculate the work done against friction using the distance traveled and the friction force.
@@ -696,11 +755,13 @@ Approximately $$ 0.10 \J $$ of energy is lost to work done against friction.
 
 The squid demonstrates natural jet propulsion. Even with significant friction (5 N is substantial for a 5-kg squid), it still achieves meaningful velocity. This mechanism allows squids to escape predators quickly. The energy lost to friction is relatively small compared to the kinetic energy imparted to the fluid.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Unreasonable Results**
 
@@ -716,8 +777,10 @@ neglected.
 (c) What is unreasonable about the results?
 (d) Which premise is unreasonable, or which premises are inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 For part (a), use projectile motion equations to find the launch speed from the given range and angle. For part (b), use the rocket velocity equation to determine what fraction of mass must be ejected. For parts (c) and (d), analyze the physical reasonableness of the results and identify problematic assumptions.
@@ -766,11 +829,13 @@ The squid would need to eject $$ 83.1\% $$ of its body mass to achieve this velo
 
 This is a classic "unreasonable results" problem that teaches students to critically evaluate whether calculated answers make physical sense. While squids can indeed jump out of water (a behavior called "jet-propelled aerial locomotion"), the extreme range claimed here would require impossible mass ejection fractions.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Construct Your Own Problem**
 
@@ -782,8 +847,9 @@ throwing them one at a time. Among the things to be considered are the masses
 involved, the force she can exert on the packages through some distance, and the
 distance to the ship.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -833,11 +899,13 @@ $$ t \approx \frac{15 \m}{1.60 \ms} = 9.4 \s $$
 
 Throwing packages one at a time is more efficient, similar to multi-stage rockets. Each successive throw builds on the previous velocity, resulting in a higher final speed (1.60 m/s vs 1.5 m/s) and shorter return time (9.4 s vs 10 s). This demonstrates why rockets use staging—ejecting mass in stages is more effective than ejecting it all at once. Students should construct similar problems varying the number of packages, their masses, the throwing speed, and the distance to explore how these factors affect the efficiency of the two strategies.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Construct Your Own Problem**
 
@@ -848,8 +916,9 @@ distance over which its speed is reduced. Your instructor may also wish for you
 to consider the relative merits of depleted uranium versus lead projectiles
 based on the greater density of uranium.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -897,5 +966,6 @@ Average force: $$ 22.5 \text{ MN} $$ (about 2290 tons-force)
 
 The depleted uranium projectile exerts 68% more force than the lead projectile due to its higher density and mass. Additionally, depleted uranium's higher hardness (stronger than steel) means it deforms less during impact, maintaining its shape better for penetration. Lead, being softer, would deform and flatten more, reducing penetration effectiveness. This is why depleted uranium is preferred for armor-piercing ammunition despite being more expensive. Students should construct problems varying the projectile dimensions, velocity, armor thickness, and materials to understand the factors affecting armor penetration. They might also consider the momentum and impulse during impact, or calculate the deceleration forces experienced.
 
-</div>
+::::
+
 </div>

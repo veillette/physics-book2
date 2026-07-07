@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 22
 ---
-
 ![A shimmering curtain of green lights in the sky above a snow covered landscape. Stars are visible in the dusky sky beyond the lights.](../resources/Figure_22_00_01.jpg 'The magnificent spectacle of the Aurora Borealis, or northern lights, glows in the northern sky above Bear Lake near Eielson Air Force Base, Alaska. Shaped by the Earth’s magnetic field, this light is produced by radiation spewed from solar storms. (credit: Senior Airman Joshua Strang, via Flickr)')
 {: #Figure1}
 
@@ -53,6 +52,8 @@ linked by a small number of underlying physical principles.
 ![A group of five different iPods.](../resources/Figure_22_00_02.jpg 'Engineering of technology like iPods would not be possible without a deep understanding magnetism. (credit: Jesse! S?, Flickr)')
 {: #Figure2}
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HGXk99frvYM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

@@ -6,7 +6,7 @@ describe('parse-summary', () => {
     it('should parse a single chapter with no sections', () => {
       const markdown = `# Summary
 
-1. {: .chapter} [Introduction](contents/intro.md)
+1. [Introduction](contents/intro.md) {: .chapter}
 `;
       const chapters = extractInfo(markdown);
 
@@ -20,10 +20,10 @@ describe('parse-summary', () => {
     it('should parse a chapter with multiple sections', () => {
       const markdown = `# Summary
 
-1. {: .chapter} [Kinematics](contents/ch1.md)
-   1. {: .section} [Position](contents/ch1-pos.md)
-   2. {: .section} [Velocity](contents/ch1-vel.md)
-   3. {: .section} [Acceleration](contents/ch1-acc.md)
+1. [Kinematics](contents/ch1.md) {: .chapter}
+   1. [Position](contents/ch1-pos.md) {: .section}
+   2. [Velocity](contents/ch1-vel.md) {: .section}
+   3. [Acceleration](contents/ch1-acc.md) {: .section}
 `;
       const chapters = extractInfo(markdown);
 
@@ -38,11 +38,11 @@ describe('parse-summary', () => {
     it('should parse multiple chapters', () => {
       const markdown = `# Summary
 
-1. {: .chapter} [One Dimension](contents/ch1.md)
-   1. {: .section} [Distance](contents/ch1-dist.md)
+1. [One Dimension](contents/ch1.md) {: .chapter}
+   1. [Distance](contents/ch1-dist.md) {: .section}
 
-2. {: .chapter} [Two Dimensions](contents/ch2.md)
-   1. {: .section} [Vectors](contents/ch2-vec.md)
+2. [Two Dimensions](contents/ch2.md) {: .chapter}
+   1. [Vectors](contents/ch2-vec.md) {: .section}
 `;
       const chapters = extractInfo(markdown);
 
@@ -68,8 +68,8 @@ Just some text without any chapters.
     it('should handle chapters without sections', () => {
       const markdown = `# Summary
 
-1. {: .chapter} [Chapter One](ch1.md)
-2. {: .chapter} [Chapter Two](ch2.md)
+1. [Chapter One](ch1.md) {: .chapter}
+2. [Chapter Two](ch2.md) {: .chapter}
 `;
       const chapters = extractInfo(markdown);
 
@@ -79,8 +79,8 @@ Just some text without any chapters.
     });
 
     it('should handle complex file paths', () => {
-      const markdown = `1. {: .chapter} [Forces](contents/mechanics/ch3-forces.md)
-   1. {: .section} [Newton Laws](contents/mechanics/ch3/newtons-laws.md)
+      const markdown = `1. [Forces](contents/mechanics/ch3-forces.md) {: .chapter}
+   1. [Newton Laws](contents/mechanics/ch3/newtons-laws.md) {: .section}
 `;
       const chapters = extractInfo(markdown);
 
@@ -91,9 +91,9 @@ Just some text without any chapters.
     it('should ignore non-chapter/section list items', () => {
       const markdown = `# Summary
 
-1. {: .chapter} [Chapter](ch.md)
+1. [Chapter](ch.md) {: .chapter}
    - This is a regular list item
-   1. {: .section} [Section](sec.md)
+   1. [Section](sec.md) {: .section}
    - Another regular item
 `;
       const chapters = extractInfo(markdown);
@@ -103,8 +103,8 @@ Just some text without any chapters.
     });
 
     it('should handle whitespace variations in class syntax', () => {
-      const markdown = `1. {:  .chapter  } [Chapter](ch.md)
-   1. {: .section } [Section](sec.md)
+      const markdown = `1. [Chapter](ch.md) {: .chapter}
+   1. [Section](sec.md) {: .section}
 `;
       const chapters = extractInfo(markdown);
 
@@ -114,9 +114,9 @@ Just some text without any chapters.
     });
 
     it('should correctly number chapters (0-indexed from 1)', () => {
-      const markdown = `1. {: .chapter} [First](1.md)
-2. {: .chapter} [Second](2.md)
-3. {: .chapter} [Third](3.md)
+      const markdown = `1. [First](1.md) {: .chapter}
+2. [Second](2.md) {: .chapter}
+3. [Third](3.md) {: .chapter}
 `;
       const chapters = extractInfo(markdown);
 
@@ -126,10 +126,10 @@ Just some text without any chapters.
     });
 
     it('should correctly number sections (1-indexed)', () => {
-      const markdown = `1. {: .chapter} [Chapter](ch.md)
-   1. {: .section} [First](s1.md)
-   2. {: .section} [Second](s2.md)
-   3. {: .section} [Third](s3.md)
+      const markdown = `1. [Chapter](ch.md) {: .chapter}
+   1. [First](s1.md) {: .section}
+   2. [Second](s2.md) {: .section}
+   3. [Third](s3.md) {: .section}
 `;
       const chapters = extractInfo(markdown);
 

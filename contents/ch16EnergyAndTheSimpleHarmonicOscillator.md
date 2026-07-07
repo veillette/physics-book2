@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 5
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Determine the maximum speed of an oscillating system.
-</div>
+
+:::
 
 To study the energy of a simple harmonic oscillator, we first consider all the
 forms of energy it can have We know
@@ -115,10 +116,12 @@ A similar calculation for the simple pendulum produces a similar result, namely:
  $${\omega }_{\text{max}}=\sqrt{\frac{g}{L}}{\theta }_{\text{max}}. $$
 </div>
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Determine the Maximum Speed of an Oscillating System: A Bumpy Road
 </div>
+
 Suppose that a car is 900 kg and has a suspension system that has a force constant  $$k= 6.53 \times 10^{4}  \text{N/m} $$ .
  The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?
 
@@ -153,6 +156,7 @@ starting from its equilibrium position, is given as
 <div class="equation" >
  $$y\left(t\right)=a \sin \omega t, $$
 </div>
+
 where  $$a $$
  is the amplitude,  $$\omega  $$  is the angular velocity and  $$t $$
  is the time taken. Substituting  $$\omega =\frac{2\pi }{T} $$ ,
@@ -161,6 +165,7 @@ where  $$a $$
 <div class="equation" >
  $$y\left(t\right)=a \sin\left(\frac{2\pi t}{T}\right). $$
 </div>
+
 Thus, the displacement of pendulum is a function of time as shown above.
 
 Also the velocity of the pendulum is given by
@@ -168,36 +173,47 @@ Also the velocity of the pendulum is given by
 <div class="equation" >
  $$v\left(t\right)=\frac{2a\pi }{T} \cos \left(\frac{2\pi t}{T}\right), $$
 </div>
+
 so the motion of the pendulum is a function of time.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does it hurt more if your hand is snapped with a ruler than with a loose spring, even if the displacement of each system is equal?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 The ruler is a stiffer system, which carries greater force for the same amount of displacement. The ruler snaps your hand with greater force, which hurts more.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 You are observing a simple harmonic oscillator. Identify one way you could decrease the maximum velocity of the system.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 You could increase the mass of the object that is oscillating.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -220,16 +236,21 @@ You could increase the mass of the object that is oscillating.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain in terms of energy how dissipative forces such as friction reduce the amplitude of a harmonic oscillator. Also explain how a driving mechanism can compensate. (A pendulum clock is such a system.)
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The length of nylon rope from which a mountain climber is suspended has a force constant of  $$ 1.40 \times 10^{4}  \text{N/m} $$.
 
 (a) What is the frequency at which he bounces, given his mass plus and the mass
@@ -242,8 +263,9 @@ energy.
 (c) Repeat both parts of this problem in the situation where twice this length
 of nylon rope is used.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -337,11 +359,14 @@ When the rope length doubles, the spring constant halves because the same force 
 
 (c) 1.41 Hz, 0.710 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Engineering Application**
 
 Near the top of the Citigroup Center building in New York City, there is an
@@ -353,8 +378,9 @@ of the entire building. (a) What effective force constant should the springs
 have to make the object oscillate with a period of 2.00 s? (b) What energy is
 stored in the springs for a 2.00-m displacement from equilibrium?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -414,5 +440,6 @@ The key to this system's effectiveness is resonance: by tuning the mass damper t
 
 (b) $$7.90 \times 10^{6} \text{ J}$$
 
-</div>
+:::
+
 </div>

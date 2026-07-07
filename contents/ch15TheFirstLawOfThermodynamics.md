@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 15
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define the first law of thermodynamics.
 * Describe how conservation of energy relates to the first law of thermodynamics.
 * Identify instances of the first law of thermodynamics working in everyday situations, including biological metabolism.
 * Calculate changes in the internal energy of a system, after accounting for heat transfer and work done.
-</div>
+
+:::
 
 ![The photograph shows water boiling in a tea kettle kept on a stove. The water vapor is shown to emerge out of the nozzle of the kettle.](../resources/Figure_15_01_01.jpg 'This boiling tea kettle represents energy in motion. The water in the kettle is turning to water vapor because heat is being transferred from the stove to the kettle. As the entire system gets hotter, work is done—from the evaporation of the water to the whistling of the kettle. (credit: Gina Hamilton)')
 {: #Figure1}
@@ -41,13 +42,15 @@ will now examine $$Q $$ , $$W $$ , and $$\Delta U $$ further.
 ![The figure shows a schematic diagram of a system shown by an ellipse. Heat Q is shown to enter the system as shown by a bold arrow toward the ellipse. The work done is shown pointing away from the system. The internal energy of the system is marked as delta U equals Q minus W. The second part of the figure shows two arrow diagrams for the heat change Q and work W. Q is shown as Q in minus Q out. W is shown as W out minus W in.](../resources/Figure_15_01_02.jpg 'The first law of thermodynamics is the conservation-of-energy principle stated for a system where heat and work are the methods of transferring energy for a system in thermal equilibrium. ( Q ) represents the net heat transfer—it is the sum of all heat transfers into and out of the system. ( Q ) is positive for net heat transfer into the system. ( W ) is the total work done on and by the system. ( W ) is positive when more work is done by the system than on it. The change in the internal energy of the system, ( \\Delta U ) , is related to heat and work by the first law of thermodynamics, ( \\Delta U=Q - W ) .')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Law of Thermodynamics and Law of Conservation of Energy
 </div>
+
 The first law of thermodynamics is actually the law of conservation of energy stated in a form most useful in thermodynamics. The first law gives the relationship between heat transfer, work done, and the change in internal energy of a system.
 
-</div>
+:::
 
 ### Heat _Q_ and Work _W_
 
@@ -97,13 +100,15 @@ transfer or work done. This independence means that if we know the state of a
 system, we can calculate changes in its internal energy $$U $$ from a few
 macroscopic variables.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Macroscopic and Microscopic
 </div>
+
 In thermodynamics, we often use the macroscopic picture when making calculations of how a system behaves, while the atomic and molecular picture gives underlying explanations in terms of averages and distributions. We shall see this again in later sections of this chapter. For example, in the topic of entropy, calculations will be made using the atomic and molecular view.
 
-</div>
+:::
 
 To get a better idea of how to think about the internal energy of a system, let
 us examine a system going from State 1 to State 2. The system has internal
@@ -118,11 +123,13 @@ _depend on path_, but $$\Delta U $$ does not. This path independence means that
 internal energy $$U $$ is easier to consider than either heat transfer or work
 done.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Change in Internal Energy: The Same Change in
  $$U $$ is Produced by Two Different Processes
 </div>
+
 (a) Suppose there is heat transfer of 40.00 J to a system, while the system does 10.00 J of work. Later, there is heat transfer of 25.00 J out of the system while 4.00 J of work is done on the system. What is the net change in internal energy of the system?
 
 (b) What is the change in internal energy of a system when a total of 150.00 J
@@ -144,31 +151,37 @@ transfer out of the system, or
 <div class="equation">
  $$Q= 40.00 \text{J}-25.00 \text{J}= 15.00  \text{J} . $$
 </div>
+
 Similarly, the total work is the work done by the system minus the work done on the system, or
 
 <div class="equation">
  $$W= 10.00 \text{J} -4.00\text{J}=6.00 \text{J} \text{.}  $$
 </div>
+
 Thus the change in internal energy is given by the first law of thermodynamics:
 
 <div class="equation">
  $$\Delta U=Q-W= 15.00 \text{J} -6.00\text{J}=9.00 \text{J} \text{.}  $$
 </div>
+
 We can also find the change in internal energy for each of the two steps. First, consider 40.00 J of heat transfer in and 10.00 J of work out, or
 
 <div class="equation">
  $$\Delta {U}_{1}={Q}_{1}-{W}_{1}= 40.00 \text{J}- 10.00 \text{J}=30.00 \text{J} \text{.}  $$
 </div>
+
 Now consider 25.00 J of heat transfer out and 4.00 J of work in, or
 
 <div class="equation">
  $$\Delta {U}_{2}={Q}_{2}-{W}_{2}=- 25.00 \text{J}-\left( -4.00\text{J}\right)=-21.00 \text{J} \text{.}  $$
 </div>
+
 The total change is the sum of these two steps, or
 
 <div class="equation">
  $$\Delta U=\Delta {U}_{1}+\Delta {U}_{2}= 30.00 \text{J}+\left(- 21.00 \text{J} \right)=9.00 \text{J} \text{.}  $$
 </div>
+
 **Discussion on (a)**
 
 No matter whether you look at the overall process or break it into steps, the
@@ -181,6 +194,7 @@ Here the net heat transfer and total work are given directly to be $$Q= -150.00 
 <div class="equation" >
  $$\Delta U=Q-W= -150.00 \text{J}-\left(-159.00 \text{J}\right)=9.00 \text{J} \text{.}  $$
 </div>
+
 **Discussion on (b)**
 
 A very different process in part (b) produces the same 9.00-J change in internal
@@ -191,7 +205,7 @@ a) and (b) present two different paths for the system to follow between the same
 starting and ending points, and the change in internal energy for each is the
 same—it is independent of path.
 
-</div>
+:::
 
 ![The first part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A quantity of heat Q in equals forty joules, is shown to enter the system and Q out equals negative twenty five joules is shown to leave the system. The energy of the system in is marked as fifteen joules. At the right-hand side of the circle, a work W in equals negative four joules is shown to be applied on the system and a work W out equals ten joules is shown to leave the system. The energy of the system out is marked as six joules. The second part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A work of negative one hundred fifty nine is shown to enter the system. The energy in the system is shown as one hundred fifty nine joules. The out energy of the system is one hundred fifty joules. A heat Q out of negative one hundred fifty joules is shown to leave the system as an outward arrow.](../resources/Figure_15_01_03.jpg 'Two different processes produce the same change in a system. (a) A total of 15.00 J of heat transfer occurs into the system, while work takes out a total of 6.00 J. The change in internal energy is ( \\Delta U=Q - W=9.00 \\text{J} ) . (b) Heat transfer removes 150.00 J from the system while work puts 159.00 J into it, producing an increase of 9.00 J in internal energy. If the system starts out in the same state in (a) and (b), it will end up in the same final state in either case—its final state is related to internal energy, not how that energy was acquired.')
 {: #Figure3}
@@ -314,66 +328,90 @@ summary of terms relevant to the first law of thermodynamics.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe the photo of the tea kettle at the beginning of this section in terms of heat transfer, work done, and internal energy. How is heat being transferred? What is the work done and what is doing it? How does the kettle maintain its internal energy?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The first law of thermodynamics and the conservation of energy, as
 discussed in [Conservation of Energy](../contents/ch7ConservationOfEnergy), are clearly related. How do they differ in the types of energy considered?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Heat transfer  $$Q $$ and work done  $$W $$
  are always energy in transit, whereas internal energy  $$U $$
  is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do heat transfer and internal energy differ? In particular, which can be stored as such in a system and which cannot?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you run down some stairs and stop, what happens to your kinetic energy and your initial gravitational potential energy?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an explanation of how food energy (calories) can be viewed as molecular potential energy (consistent with the atomic and molecular definition of internal energy).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify the type of energy transferred to your body in each of the following as either internal energy, heat transfer, or doing work: (a) basking in sunlight; (b) eating food; (c) riding an elevator to a higher floor.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the change in internal energy of a car if you put 12.0 gal of gasoline into its tank? The energy content of gasoline is  $$ 1.3 \times 10^{8}  \text{J/gal} $$ .
  All other factors, such as the car’s temperature, are constant.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -411,15 +449,19 @@ Rounding to two significant figures:
 
 The change in internal energy when adding 12.0 gallons of gasoline to a car is $$1.6 \times 10^{9}$$ J, or 1.6 gigajoules. This enormous amount of energy represents the chemical potential energy stored in the molecular bonds of gasoline. To put this in perspective, this is equivalent to about 444 kilowatt-hours or enough energy to lift a 1000-kg car to a height of about 163 km if perfectly converted to gravitational potential energy. Of course, car engines are only about 20-30% efficient, so only a fraction of this energy actually performs useful work. The rest is dissipated as heat to the environment through the exhaust and cooling system. This calculation assumes the temperature and other thermodynamic properties of the car remain constant during the fueling process, which is reasonable since fueling happens relatively quickly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How much heat transfer occurs from a system, if its internal energy decreased by 150 J while it was doing 30.0 J of work?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -459,17 +501,21 @@ The negative sign indicates that heat flows out of the system, so **120 J of hea
 
 The system loses 120 J of energy as heat transfer to the environment. This makes physical sense: the system's internal energy decreased by 150 J, but the system also did 30.0 J of work. Since work takes energy out of the system, not all of the 150 J internal energy decrease can be attributed to heat loss—only 120 J is lost as heat. The remaining 30.0 J left the system as mechanical work. This is a common scenario in engines and other heat-converting devices where both work output and heat rejection occur simultaneously. The first law ensures that all energy is accounted for: the 150 J decrease in internal energy equals the sum of work done (30.0 J) and heat transferred out (120 J).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A system does  $$ 1.80 \times 10^{8}  \text{J} $$
  of work while  $$ 7.50 \times 10^{8}  \text{J} $$
  of heat transfer occurs to the environment. What is the change in internal energy of the system assuming no other changes (such as in temperature or by the addition of fuel)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -511,18 +557,22 @@ Substituting the known values:
 
 The change in internal energy is $$-9.30 \times 10^{8}$$ J, or $$-930$$ megajoules. The negative value indicates that the system's internal energy has decreased significantly. This makes sense because the system loses energy through two mechanisms: it transfers 750 MJ as heat to the environment and performs 180 MJ of work on the surroundings. The total energy lost (930 MJ) is the sum of these two energy outflows. This scenario might represent a power plant or engine where fuel is burned to produce both useful work and waste heat. The large magnitudes suggest an industrial-scale process. To restore the system to its original energy state, 930 MJ of energy would need to be added, either through heat transfer into the system or by having work done on it.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the change in internal energy of a system which does  $$ 4.50 \times 10^{5}  \text{J} $$
  of work while  $$ 3.00 \times 10^{6}  \text{J} $$
  of heat transfer occurs into the system, and  $$ 8.00 \times 10^{6}  \text{J} $$
  of heat transfer occurs to the environment?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -571,15 +621,19 @@ Now apply the first law of thermodynamics:
 
 The internal energy of the system decreases by $$5.45 \times 10^{6}$$ J (5.45 MJ). Although 3.00 MJ of heat enters the system, this is more than offset by 8.00 MJ of heat leaving the system and 0.45 MJ of work done by the system. The net effect is that the system loses 5.45 MJ of internal energy. This could represent a situation where a system simultaneously receives some heat input (perhaps from a small heater) while losing more heat through cooling (perhaps from a large radiator) and also doing mechanical work. The system would need to have an initial store of internal energy (such as in compressed gas or elevated temperature) to sustain this net energy loss. If this process continued indefinitely without adding more energy, the system would eventually cool down and deplete its internal energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the environment in the process. (a) What is the decrease in her internal energy, assuming no change in temperature or consumption of food? (That is, there is no other energy transfer.) (b) What is her efficiency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -627,16 +681,20 @@ Part (a): The woman's internal energy decreases by 10,000 J (10.0 kJ or 2.39 kca
 
 Part (b): Her efficiency is only 5.00%, which is typical for human muscle performance during sustained activity. This means that of all the energy her body metabolizes, only 5% is converted into useful mechanical work—the remaining 95% is dissipated as heat. This low efficiency explains why we get warm during exercise: 9500 J out of 10,000 J (95%) is released as heat that must be dissipated through sweating, increased blood flow to the skin, and increased respiration. This 5% efficiency is actually reasonable for the human body during normal activities. Elite athletes performing specific tasks can achieve efficiencies up to 20-25%, but 5% is common for everyday movements. The heat produced is not wasted from a physiological perspective—it helps maintain body temperature in cold environments, though it becomes a burden requiring active cooling (sweating) in warm conditions or during intense exercise.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found
 in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -715,15 +773,19 @@ Following the thermodynamics problem-solving strategy:
 4. **Solve systematically**: Calculate energy input from efficiency, then heat output from energy balance
 5. **Check reasonableness**: 665 kJ of heat from 700 kJ metabolized with 35 kJ work is consistent with low efficiency
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the average metabolic rate in watts of a man who metabolizes 10 500 kJ of food energy in one day? (b) What is the maximum amount of work in joules he can do without breaking down fat, assuming a maximum efficiency of 20.0%? (c) Compare his work output with the daily output of a 187-W (0.250-horsepower) motor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -795,15 +857,19 @@ Part (b): At 20% efficiency (optimistic for sustained human activity), the man c
 
 Part (c): The small 0.250-horsepower motor outperforms the man by a factor of 7.67, producing 16.1 MJ of useful work in 24 hours of continuous operation. This comparison highlights why we use machines for sustained physical labor—even a small motor dramatically outperforms human muscle work. However, humans have advantages in versatility, judgment, and adaptability that machines lack. The comparison also shows that human efficiency, even at an optimistic 20%, means most of our food energy goes to heat, not work. If we needed to match the motor's work output, we'd need to consume about 80 MJ of food energy—roughly 19,000 dietary Calories per day, which is unsustainable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How long will the energy in a 1470-kJ (350-kcal) cup of yogurt last in a woman doing work at the rate of 150 W with an efficiency of 20.0% (such as in leisurely climbing stairs)? (b) Does the time found in part (a) imply that it is easy to consume more food energy than you can reasonably expect to work off with exercise?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -862,16 +928,20 @@ Consider further implications:
 
 This explains why diet is often more effective than exercise alone for weight loss—it's much easier to not eat 350 Calories than to burn 350 Calories through exercise. However, exercise has many health benefits beyond calorie burning, including cardiovascular fitness, muscle maintenance, bone density, and mental health.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A woman climbing the Washington Monument metabolizes  $$ 6.00 \times 10^{2}  \text{kJ} $$
  of food energy. If her efficiency is 18.0%, how much heat transfer occurs to the environment to keep her temperature constant? (b) Discuss the amount of heat transfer found in (a). Is it consistent with the fact that you quickly warm up when exercising?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -924,10 +994,12 @@ Part (b): The large heat output (492 kJ) strongly explains why you warm up quick
 
 The Washington Monument is 169 meters (555 feet) tall with 897 steps. For a 60-kg woman, the gravitational potential energy gain is only about 99 kJ ($$mgh = 60 \times 9.8 \times 169$$), which is close to our calculated 108 kJ of work. The efficiency of 18% is reasonable for climbing, which is one of the more efficient human activities. The high heat output explains why people often feel very warm at the top of a long climb and why good ventilation or cool weather makes climbing more comfortable.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -942,4 +1014,4 @@ molecules
 human metabolism
 : conversion of food into heat transfer, work, and stored fat
 
-</div>
+:::

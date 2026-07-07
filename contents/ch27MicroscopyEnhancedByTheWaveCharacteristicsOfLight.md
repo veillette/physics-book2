@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 9
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the different types of microscopes.
-</div>
+
+:::
 
 Physics research underpins the advancement of developments in microscopy. As we
 gain knowledge of the wave nature of electromagnetic waves and methods to
@@ -27,13 +28,15 @@ visible wavelengths range from 380 to 760 nm. Ironically, special techniques
 used to obtain the best possible resolution with microscopes take advantage of
 the same wave characteristics of light that ultimately limit the detail.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Waves
 </div>
+
 All attempts to observe the size and shape of objects are limited by the wavelength of the probe. Sonar and medical ultrasound are limited by the wavelength of sound they employ. We shall see that this is also true in electron microscopy, since electrons have a wavelength. Heisenberg’s uncertainty principle asserts that this limit is fundamental and inescapable, as we shall see in quantum mechanics.
 
-</div>
+:::
 
 The most obvious method of obtaining better detail is to utilize shorter
 wavelengths. **Ultraviolet (UV) microscopes** have been constructed with special
@@ -155,11 +158,14 @@ and research capacities.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how microscopes can use wave optics to improve contrast and why this is important.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -198,15 +204,19 @@ Microscopes use wave optics to improve contrast through several mechanisms based
 
 The fundamental principle is that while transparent objects may not absorb light significantly, they do alter its phase due to differences in refractive index and path length. Wave optics allows us to convert these "invisible" phase changes into visible intensity variations. This capability has revolutionized biology, medicine, and materials science by allowing detailed observation of structures and processes that would otherwise be undetectable. The development of these techniques (particularly phase-contrast microscopy by Zernike) was significant enough to earn Nobel Prizes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A bright white light under water is collimated and directed upon a prism. What range of colors does one see emerging?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -245,10 +255,12 @@ $$\text{Angular dispersion} \propto \Delta n = |n_{\text{prism}} - n_{\text{medi
 
 This scenario illustrates an important principle: dispersion depends not just on the prism material but on the relative difference between the refractive indices of the prism and surrounding medium. This is why diamonds sparkle less underwater than in air - the reduced refractive index contrast reduces both refraction angles and dispersion. Underwater photographers and researchers must account for this reduced dispersion when using optical instruments. The phenomenon also demonstrates that "color" is an intrinsic property of light's wavelength, but the degree of separation of colors through dispersion depends on the medium.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -276,4 +288,4 @@ ultraviolet (UV) microscopes
 : microscopes constructed with special lenses that transmit UV rays and utilize
 photographic or electronic techniques to record images
 
-</div>
+:::

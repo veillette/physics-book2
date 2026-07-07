@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the expansion of the universe.
 * Explain the Big Bang.
-</div>
+
+:::
 
 Look at the sky on some clear night when you are away from city lights. There
 you will see thousands of individual stars and a faint glowing background of
@@ -183,13 +184,15 @@ their discovery.
 ![Figure a shows an artist&#x2019;s rendition of the Big Bang explosion. Here, the explosion is depicted as a flash of light then a nonuniform purple-colored sphere containing galaxies. With each galaxy is associated an arrow pointing radially outward. The length of the arrows varies from one galaxy to the next. Figure b shows a graph of intensity versus wavelength. The intensity is on an arbitrary scale and the wavelength ranges from zero point five to 10 millimeters. The intensity begins at zero point two then rises sharply to one point two at a wavelength of one millimeter. It then descends to near zero by ten millimeters.](../resources/Figure_34_01_06.jpg "(a) The Big Bang is used to explain the present observed expansion of the universe. It was an incredibly energetic explosion some 10 to 20 billion years ago. After expanding and cooling, galaxies form inside the now-cold remnants of the primordial fireball. (b) The spectrum of cosmic microwave radiation is the most perfect blackbody spectrum ever detected. It is characteristic of a temperature of 2.725 K, the expansion-cooled temperature of the Big Bang&#x2019;s remnant. This radiation can be measured coming from any direction in space not obscured by some other source. It is compelling evidence of the creation of the universe in a gigantic explosion, already indicated by galactic red shifts. ")
 {: #Figure6}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Cosmology and Particle Physics
 </div>
+
 There are many connections of cosmology—by definition involving physics on the largest scale—with particle physics—by definition physics on the smallest scale. Among these are the dominance of matter over antimatter, the nearly perfect uniformity of the cosmic microwave background, and the mere existence of galaxies.
 
-</div>
+:::
 
 <span class="title">**Matter versus antimatter**</span>We know from direct
 observation that antimatter is rare. The Earth and the solar system are nearly
@@ -355,6 +358,7 @@ circumstances.
   <div class="equation" >
    $$v={H}_{0}d\text{,} $$
   </div>
+
      where  $$d $$
      is the distance to the galaxy and  $${H}_{0} $$
      is the Hubble constant, taken to have the average value  $${H}_{0}=20 \text{km/s}\cdot \text{Mly}\text{.} $$
@@ -376,103 +380,145 @@ circumstances.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why it only *appears* that we are at the center of expansion of the universe and why an observer in another galaxy would see the same relative motion of all but the closest galaxies away from her.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If there is no observable edge to the universe, can we determine where its center of expansion is? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the universe is infinite, does it have a center? Discuss.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Another known cause of red shift in light is the source being in a high gravitational field. Discuss how this can be eliminated as the source of galactic red shifts, given that the shifts are proportional to distance and not to the size of the galaxy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If some unknown cause of red shift—such as light becoming “tired” from traveling long distances through empty space—is discovered, what effect would there be on cosmology?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Olbers’s paradox poses an interesting question: If the universe is infinite, then any line of sight should eventually fall on a star’s surface. Why then is the sky dark at night? Discuss the commonly accepted evolution of the universe as a solution to this paradox.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the cosmic microwave background radiation (CMBR) is the remnant of the Big Bang’s fireball, we expect to see hot and cold regions in it. What are two causes of these wrinkles in the CMBR? Are the observed temperature variations greater or less than originally expected?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The decay of one type of  $$K $$
 -meson is cited as evidence that nature favors matter over antimatter. Since mesons are composed of a quark and an antiquark, is it surprising that they would preferentially decay to one type over another? Is this an asymmetry in nature? Is the predominance of matter over antimatter an asymmetry?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Distances to local galaxies are determined by measuring the brightness of stars, called Cepheid variables, that can be observed individually and that have absolute brightnesses at a standard distance that are well known. Explain how the measured brightness would vary with distance as compared with the absolute brightness.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Distances to very remote galaxies are estimated based on their apparent type, which indicate the number of stars in the galaxy, and their measured brightness. Explain how the measured brightness would vary with distance. Would there be any correction necessary to compensate for the red shift of the galaxy (all distant galaxies have significant red shifts)? Discuss possible causes of uncertainties in these measurements.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the smallest meaningful time interval is greater than zero, will the lines in [[Figure 9]](#Figure9) ever meet?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the approximate mass of the luminous matter in the Milky Way galaxy, given it has approximately  $$ 10^{11} $$
  stars of average mass 1.5 times that of our Sun.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$3 \times 10^{41} \text{kg} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the approximate mass of the dark and luminous matter in the Milky Way galaxy. Assume the luminous matter is due to approximately  $$ 10^{11} $$
  stars of average mass 1.5 times that of our Sun, and take the dark matter to be 10 times as massive as the luminous matter.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -503,30 +549,40 @@ $$ m_{\text{total}} = 3 \times 10^{41} \text{ kg} + 30 \times 10^{41} \text{ kg}
 
 The total mass of the Milky Way galaxy, including both dark and luminous matter, is approximately **3.3 × 10⁴² kg**. This result reveals a profound truth about our galaxy: the vast majority (about 91%) of its mass is in the form of dark matter, which does not emit light and can only be detected through its gravitational effects. The luminous matter—all the stars, gas, and dust we can observe—represents only about 9% of the total mass. This is consistent with observations of galactic rotation curves, which show that stars far from the galactic center orbit faster than would be expected based on the visible matter alone. The presence of this massive dark matter halo is necessary to explain the observed dynamics of our galaxy and prevent the outer stars from flying off into intergalactic space. This dark matter problem is one of the most significant unsolved mysteries in modern physics, and understanding its nature is crucial for our comprehension of galaxy formation, structure, and evolution throughout the universe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Estimate the mass of the luminous matter in the known universe, given there are  $$ 10^{11} $$
  galaxies, each containing  $$ 10^{11} $$
  stars of average mass 1.5 times that of our Sun. (b) How many protons (the most abundant nuclide) are there in this mass? (c) Estimate the total number of particles in the observable universe by multiplying the answer to (b) by two, since there is an electron for each proton, and then by  $$10^{9} $$ ,
  since there are far more particles (such as photons and neutrinos) in space than in luminous matter.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$3 \times 10^{52} \text{kg} $$
 (b)  $$2 \times 10^{79} $$
 (c)  $$4 \times 10^{88} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a galaxy is 500 Mly away from us, how fast do we expect it to be moving and in what direction?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -554,26 +610,35 @@ The galaxy is moving **away from us** at a speed of approximately **10,000 km/s*
 
 This velocity of 10,000 km/s is quite substantial—about 3.3% of the speed of light. The fact that the galaxy is moving away from us is not because we are at the center of the universe, but rather because space itself is expanding uniformly in all directions. Every observer in the universe would see distant galaxies receding from them, with velocities proportional to distance. This is a fundamental characteristic of the expanding universe first discovered by Edwin Hubble. The recession velocity we calculated represents the rate at which the space between us and the galaxy is expanding. It's important to note that this is not motion through space in the conventional sense, but rather the expansion of space itself. For a galaxy at 500 Mly, this velocity is well within the regime where Hubble's law gives accurate predictions. For much more distant galaxies (several billion light years away), relativistic corrections become necessary, and the simple linear relationship between distance and velocity begins to break down.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On average, how far away are galaxies that are moving away from us at 2.0% of the speed of light?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 0.30 Gly
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Our solar system orbits the center of the Milky Way galaxy. Assuming a circular orbit 30 000 ly in radius and an orbital speed of 250 km/s, how many years does it take for one revolution? Note that this is approximate, assuming constant speed and circular orbit, but it is representative of the time for our system and local stars to make one revolution around the galaxy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -608,27 +673,37 @@ $$ T = 2.26 \times 10^8 \text{ years} = 226 \text{ million years} $$
 
 Our solar system takes approximately **226 million years** to complete one orbit around the center of the Milky Way galaxy. This immense period is often called a "galactic year" or "cosmic year." Since the Sun formed about 4.6 billion years ago, it has completed roughly 20 orbits around the galactic center during its lifetime. This long orbital period reflects the enormous size of our galaxy and the relatively modest orbital speed of the Sun. During one complete orbit, the solar system travels a distance of nearly 190,000 light years—a truly astronomical journey! This orbital motion has important implications for Earth's long-term evolution: as we move through different regions of the galaxy, we may encounter varying densities of interstellar material, different radiation environments, and even spiral arm crossings that could affect the rate of star formation and supernova frequency in our cosmic neighborhood. The last time the Sun was in its current position in the galaxy, dinosaurs had not yet evolved on Earth, illustrating the vast timescales involved in galactic dynamics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the approximate speed relative to us of a galaxy near the edge of the known universe, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we have observed galaxies moving away from us at greater than  $$ 0.9c $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$ 2.0 \times 10^{5}  \text{km/s} $$
 (b)  $$ 0.67c $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the approximate age of the universe from the average value of the Hubble constant,  $${H}_{0}=20\text{km/s}\cdot \text{Mly} $$ .
  To do this, calculate the time it would take to travel 1 Mly at a constant expansion rate of 20 km/s. (b) If deceleration is taken into account, would the actual age of the universe be greater or less than that found here? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -666,27 +741,37 @@ $$ t = \frac{4.73 \times 10^{17} \text{ s}}{3.156 \times 10^7 \text{ s/year}} = 
 
 (b) The reasoning for part (b) is crucial: If the universe has been decelerating (as was long believed due to gravitational attraction between galaxies), this means the expansion was faster in the past. If galaxies were moving apart faster in the earlier universe, they would have reached their current separations in less time than our constant-rate calculation suggests. Think of it this way: if you're currently traveling at 20 km/s but you used to be traveling at 30 km/s and have been slowing down, you would have covered the same distance in less time than if you had been traveling at a constant 20 km/s the entire time. Therefore, accounting for deceleration would give a younger universe than our Hubble time estimate. Interestingly, recent observations suggest the universe's expansion may actually be accelerating (not decelerating), which is attributed to dark energy. If acceleration is occurring, the actual age would be greater than our estimate, since the universe was expanding more slowly in the past. This shows how the dynamics of cosmic expansion directly affect our understanding of the universe's age and evolution.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assuming a circular orbit for the Sun about the center of the Milky Way galaxy, calculate its orbital speed using the following information: The mass of the galaxy is equivalent to a single mass  $$ 1.5 \times 10^{11} $$
  times that of the Sun (or  $$3 \times 10^{41} \text{kg} $$ ), located 30 000 ly away.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$ 2.7 \times 10^{5}  \text{m/s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the approximate force of gravity on a 70-kg person due to the Andromeda galaxy, assuming its total mass is  $$ 10^{13} $$
  that of our Sun and acts like a single mass 2 Mly away? (b) What is the ratio of this force to the person's weight? Note that Andromeda is the closest large galaxy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -736,30 +821,39 @@ $$ \frac{F}{W} = \frac{2.6 \times 10^{-10} \text{ N}}{686 \text{ N}} = 3.8 \time
 
 The gravitational force exerted by the entire Andromeda galaxy on a person is extraordinarily small: only **2.6 × 10⁻¹⁰ N**. To put this in perspective, this is about the weight of a single bacterium! The ratio of this force to the person's weight is **3.8 × 10⁻¹³**, meaning Andromeda's gravitational pull is less than a trillionth of Earth's pull on the same person. This demonstrates a fundamental principle: while gravity has infinite range and never goes to zero, it becomes vanishingly weak over astronomical distances due to the inverse square law. Even though Andromeda contains hundreds of billions of stars and has a total mass 10 trillion times that of our Sun, its enormous distance (2 million light years) makes its gravitational effect on us utterly negligible. This is why we don't feel the gravitational pull of distant galaxies in our daily lives, and why the universe's expansion can overcome gravity on the largest scales. The calculation also shows that local gravitational effects (from Earth, the Sun, and even our own galaxy) completely dominate over the pull from external galaxies. This is reassuring—if Andromeda's gravity were significant, we'd be in serious trouble, as it's on a collision course with the Milky Way (though that collision won't happen for about 4 billion years)!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Andromeda galaxy is the closest large galaxy and is visible to the naked eye. Estimate its brightness relative to the Sun, assuming it has luminosity  $$ 10^{12} $$
  times that of the Sun and lies 2 Mly away.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$6 \times 10^{-11} $$
  (an overestimate, since some of the light from Andromeda is blocked by gas and dust within that galaxy)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A particle and its antiparticle are at rest relative to an observer and annihilate (completely destroying both masses), creating two  $$\gamma  $$
  rays of equal energy. What is the characteristic  $$\gamma  $$
 -ray energy you would look for if searching for evidence of proton-antiproton annihilation? (The fact that such radiation is rarely observed is evidence that there is very little antimatter in the universe.) (b) How does this compare with the 0.511-MeV energy associated with electron-positron annihilation?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -797,30 +891,40 @@ We would look for **938-MeV gamma rays** as evidence of proton-antiproton annihi
 
 The comparison with electron-positron annihilation is revealing: the energy ratio of 1836 is exactly the mass ratio of the proton to the electron. This makes perfect sense from Einstein's mass-energy relation $$ E = mc^2 $$—the annihilation energy is directly proportional to the particle mass. The 0.511-MeV photons from electron-positron annihilation are relatively common in certain astrophysical environments and can be detected by gamma-ray telescopes. The 938-MeV photons from proton-antiproton annihilation would be even more energetic and equally detectable if they existed in significant quantities. The rarity of such observations confirms that the matter-antimatter asymmetry in the universe is profound: essentially all of the universe we can observe is made of ordinary matter, with antimatter being produced only briefly in high-energy collisions or certain radioactive decays before quickly annihilating with the abundant matter around it.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The average particle energy needed to observe unification of forces is estimated to be  $$ 10^{19} \text{GeV} $$ .
  (a) What is the rest mass in kilograms of a particle that has a rest mass of  $$ 10^{19} \text{GeV/}{c}^{2} $$ ?
  (b) How many times the mass of a hydrogen atom is this?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$2 \times 10^{-8}  \text{kg} $$
 (b)  $$1 \times 10^{19} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The peak intensity of the CMBR occurs at a wavelength of 1.1 mm. (a) What is the energy in eV of a 1.1-mm photon? (b) There are approximately  $$10^{9} $$
  photons for each massive particle in deep space. Calculate the energy of  $$10^{9} $$
  such photons. (c) If the average massive particle in space has a mass half that of a proton, what energy would be created by converting its mass to energy? (d) Does this imply that space is "matter dominated"? Explain briefly.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -877,29 +981,39 @@ Yes, this implies that space is **"matter dominated"** because the energy densit
 
 (d) The universe today is indeed **matter-dominated**: the energy density in matter exceeds that in radiation by a factor of about 400. However, this wasn't always the case! In the early universe, when temperatures were much higher, photons had much more energy, and radiation dominated. The transition from radiation-dominated to matter-dominated occurred about 50,000 years after the Big Bang, when the universe had cooled sufficiently that the energy density in matter began to exceed that in radiation. This transition is a crucial epoch in cosmology because it affects how structure formation proceeded. The fact that we live in a matter-dominated era means that gravity acting on matter (both ordinary and dark) is the primary driver of cosmic structure, allowing galaxies, stars, and planets to form. Interestingly, even though matter dominates over radiation today, recent evidence suggests that dark energy now dominates over matter, making our current era "dark energy dominated."
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What Hubble constant corresponds to an approximate age of the universe of  $$ 10^{10} $$
  y? To get an approximate value, assume the expansion rate is constant and calculate the speed at which two galaxies must move apart to be separated by 1 Mly (present average galactic separation) in a time of  $$ 10^{10} $$
  y. (b) Similarly, what Hubble constant corresponds to a universe approximately  $$2 \times 10^{10} $$
 -y old?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$30\text{km/s}\cdot \text{Mly} $$
 (b)  $$15\text{km/s}\cdot \text{Mly} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that the velocity of a star orbiting its galaxy in a circular orbit is inversely proportional to the square root of its orbital radius, assuming the mass of the stars inside its orbit acts like a single mass at the center of the galaxy. You may use an equation from a previous chapter to support your conclusion, but you must justify its use and define all terms used.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -953,27 +1067,36 @@ This derivation shows that for a star orbiting a galaxy, if all the mass interio
 
 However, this prediction is **not** what astronomers observe when they measure galactic rotation curves! Actual observations show that the orbital velocities of stars remain roughly constant (or even slightly increase) at large radii, rather than decreasing as $$ 1/\sqrt{r} $$. This discrepancy is one of the strongest pieces of evidence for dark matter. The flat rotation curves can be explained if there is a massive dark matter halo surrounding the galaxy, such that the mass $$ M $$ enclosed within radius $$ r $$ continues to increase with radius, rather than remaining constant. If $$ M \propto r $$, then $$ v = \sqrt{GM/r} \propto \sqrt{r/r} = \text{constant} $$, which matches observations. The study of galactic rotation curves has therefore revealed that galaxies contain far more mass than can be accounted for by visible stars, gas, and dust—this additional mass is the mysterious dark matter that makes up about 85% of the total matter in the universe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The core of a star collapses during a supernova, forming a neutron star. Angular momentum of the core is conserved, and so the neutron star spins rapidly. If the initial core radius is  $$ 5.0 \times 10^{5}  \text{km} $$
  and it collapses to 10.0 km, find the neutron star’s angular velocity in revolutions per second, given the core’s angular velocity was originally 1 revolution per 30.0 days.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 960 rev/s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using data from the previous problem, find the increase in rotational kinetic energy, given the core's mass is 1.3 times that of our Sun. Where does this increase in kinetic energy come from?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1025,31 +1148,40 @@ This energy comes from gravitational potential energy released as the core contr
 
 Neutron stars are among the fastest-rotating objects in the universe, and pulsars (rotating neutron stars that emit beams of radiation) can spin hundreds of times per second, as in this problem. The regular pulses we detect from pulsars are like cosmic lighthouses, and they are among the most precise clocks in nature. Some millisecond pulsars are even more stable than atomic clocks over certain time scales!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Distances to the nearest stars (up to 500 ly away) can be measured by a technique called parallax, as shown in [[Figure 2]](#Figure2). What are the angles  $${\theta }_{1} $$
  and  $${\theta }_{2} $$
  relative to the plane of the Earth’s orbit for a star 4.0 ly directly above the Sun?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$89.999773\text{º} $$
  (many digits are used to show the difference between  $$90 ^\circ $$ )
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Use the Heisenberg uncertainty principle to calculate the uncertainty in energy for a corresponding time interval of  $$ 10^{-43} \text{s} $$ .
  (b) Compare this energy with the  $$ 10^{19} \text{GeV} $$
  unification-of-forces energy and discuss why they are similar.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1101,11 +1233,14 @@ This is exactly the energy scale at which all four fundamental forces (electroma
 
 This connection tells us that the TOE epoch immediately after the Big Bang (before $$ 10^{-43} \text{ s} $$) was governed by physics at the Planck scale, where spacetime itself was subject to violent quantum fluctuations. At these energies and timescales, the distinctions between forces disappear, and the universe was truly unified. The fact that these fundamental scales emerge from combining the constants of quantum mechanics ($$ \hbar $$), gravity ($$ G $$), and relativity ($$ c $$) suggests that a complete theory of nature must incorporate all three domains—which is exactly what physicists are striving to achieve with theories like string theory and loop quantum gravity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a star moving in a circular orbit at the edge of a galaxy. Construct a
@@ -1113,11 +1248,12 @@ problem in which you calculate the mass of that galaxy in kg and in multiples of
 the solar mass based on the velocity of the star and its distance from the
 center of the galaxy.
 
-![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg 'Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth's orbit. This can be done for stars up to about 500 ly away. ')
+![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg "Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth's orbit. This can be done for stars up to about 500 ly away. ")
 {: #Figure9}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Sample Problem**
 
@@ -1172,10 +1308,12 @@ However, this calculation reveals only the mass within the star's orbit. Additio
 
 Students constructing their own version of this problem should choose reasonable values: orbital velocities typically range from 150-300 km/s for spiral galaxies, and orbital radii from 10,000 to 100,000 light years. The resulting masses should be on the order of 10¹⁰ to 10¹² solar masses for typical galaxies. This exercise reinforces the connection between observable kinematics and invisible mass—a fundamental technique in modern astrophysics.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1217,4 +1355,4 @@ superforce
 TOE epoch
 : before 10<sup>−43</sup> after the Big Bang
 
-</div>
+:::

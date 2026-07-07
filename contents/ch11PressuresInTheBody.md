@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 9
 chapterNumber: 11
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the concept of pressure the in human body.
 * Explain systolic and diastolic blood pressures.
 * Describe pressures in the eye, lungs, spinal column, bladder, and skeletal system.
 
-</div>
+:::
 
 ### Pressure in the Body
 
@@ -117,9 +117,11 @@ that in the heart (for a static column of blood) is given by
 <div class="title">
 Increase in Pressure in the Feet of a Person
 </div>
+
 <div class="equation" >
  $$\Delta P=\Delta h \rho g=\left(1.4 m\right)\left(1050 \text{kg}{\text{/m}}^{3}\right)\left(9.80 m{\text{/s}}^{2}\right)= 1.4 \times 10^{4}  \text{Pa}=108 \text{mm Hg}. $$
 </div>
+
 </div>
 
 Standing a long time can lead to an accumulation of blood in the legs and
@@ -147,13 +149,15 @@ detail
 in [Fluid Dynamics and Its Biological and Medical Applications](../contents/ch12FluidDynamicsAndItsBiologicalApplications)
 .
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Two Pumps of the Heart
 </div>
+
 The heart consists of two pumps—the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body.
 
-</div>
+:::
 
 ![The figure shows the circulatory system in the human body. The figure shows the right atrium and the left atrium, right ventricle and the left ventricle of the heart. The heart consists of two pumps—the right side forcing blood through the lungs and the left causing blood to flow through the rest of the body.](../resources/Figure_11_09_01.jpg 'Schematic of the circulatory system showing typical pressures. The two pumps in the heart increase pressure and that pressure is reduced as the blood flows through the body. Long-term deviations from these pressures have medical implications discussed in some detail in the Fluid Dynamics and Its Biological and Medical Applications. Only aortal or arterial blood pressure can be measured noninvasively.')
 {: #Figure1}
@@ -175,16 +179,19 @@ $${\text{m}}^{2} $$
  $$F=h\rho \text{gA}=\left( 85.0 \times 10^{-3}  \text{m}\right)\left( 13.6 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 6.0 \times 10^{-4}  {\text{m}}^{2}\right)=6.8 N. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Eye Pressure
 </div>
+
 The shape of the eye is maintained by fluid pressure, called intraocular pressure. When the circulation of fluid in the eye is blocked, it can lead to a buildup in pressure, a condition called glaucoma. The force is calculated as
 
 <div class="equation" >
  $$F=h\rho \text{gA}=\left( 85.0 \times 10^{-3}  \text{m}\right)\left( 13.6 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 6.0 \times 10^{-4}  {\text{m}}^{2}\right)=6.8 N. $$
 </div>
-</div>
+
+:::
 
 This force is the weight of about a 680-g mass. A mass of 680 g resting on the
 eye (imagine 1.5 lb resting on your eye) would be sufficient to cause it
@@ -203,10 +210,12 @@ pressures can be detected reliably and sometimes controlled effectively.
 ![The tonometer being used by an eye care professional to determine the fluid pressure inside the eye.](../resources/Figure_11_09_02.jpg 'The intraocular eye pressure can be read with a tonometer. (credit: DevelopAll at the Wikipedia Project.)')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Gauge Pressure and Depth: Damage to the Eardrum
 </div>
+
 Suppose a 3.00-N force can rupture an eardrum. (a) If the eardrum has an area of  $$ 1.00 {\text{cm}}^{2} $$ ,
  calculate the maximum tolerable gauge pressure on the eardrum in newtons per meter squared and convert it to millimeters of mercury. (b) At what depth in freshwater would this person’s eardrum rupture, assuming the gauge pressure in the middle ear is zero?
 
@@ -220,11 +229,13 @@ and area. We are looking for the gauge pressure.
 <div class="equation" >
  $${P}_{\text{g}}=F/A= 3.00 \text{N}/\left( 1.00 \times 10^{-4}  {\text{m}}^{2}\right)= 3.00 \times 10^{4}  {\text{N/m}}^{2}. $$
 </div>
+
 We now need to convert this to units of mm Hg:
 
 <div class="equation" >
  $${P}_{\text{g}}= 3.0 \times 10^{4}  {\text{N/m}}^{2}\left(\frac{1.0 mm Hg}{133 {\text{N/m}}^{2}}\right)=226 \text{mm Hg.} $$
 </div>
+
 **Strategy for (b)**
 
 Here we will use the fact that the water pressure varies linearly with depth $$h $$
@@ -239,12 +250,13 @@ $$P=h \rho g $$ and therefore $$h=P/\rho g $$ . Using the value above for $$P $$
 <div class="equation" >
  $$h=\frac{ 3.0 \times 10^{4}  {\text{N/m}}^{2}}{\left( 1.00 \times 10^{3}  {\text{kg/m}}^{3}\right)\left(9.80 m{\text{/s}}^{2}\right)}=3.06 m. $$
 </div>
+
 **Discussion**
 
 Similarly, increased pressure exerted upon the eardrum from the middle ear can
 arise when an infection causes a fluid buildup.
 
-</div>
+:::
 
 ### Pressure Associated with the Lungs
 
@@ -356,12 +368,16 @@ the [Fluid Dynamics and Its Biological and Medical Applications](../contents/ch1
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 During forced exhalation, such as when blowing up a balloon, the diaphragm and chest muscles create a pressure of 60.0 mm Hg between the lungs and chest wall. What force in newtons does this pressure create on the  $$600 {\text{cm}}^{2} $$
  surface area of the diaphragm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Convert the pressure from mm Hg to Pa using $$ P = \rho g h $$, then use $$ F = PA $$ to find the force.
 
@@ -384,16 +400,21 @@ $$ F = PA = (7.99 \times 10^{3} \text{ Pa})(0.0600 \text{ m}^2) = 479 \text{ N} 
 **Discussion:**
 The force on the diaphragm is approximately **479 N** (about 108 pounds). This substantial force is what allows forceful exhalation for activities like blowing up balloons, coughing, or playing wind instruments. The diaphragm is a strong, dome-shaped muscle that separates the chest from the abdomen, and during forced exhalation, it contracts upward while chest muscles squeeze inward, compressing the lungs. This 60 mm Hg pressure (about 0.08 atm gauge) is modest compared to maximum efforts, where pressures can exceed 100 mm Hg. The large diaphragm area means even moderate pressures create significant forces.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can chew through very tough objects with your incisors because they exert a large force on the small area of a pointed tooth. What pressure in pascals can you create by exerting a force of  $$500 \text{N} $$
  with your tooth on an area of  $$1.00 {\text{mm}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the definition of pressure, $$ P = \frac{F}{A} $$, with careful attention to unit conversion.
@@ -414,15 +435,20 @@ The pressure created by the incisor is **5.00 × 10⁸ Pa** (or 500 MPa, approxi
 
 This pressure is extremely high—about 5000 times atmospheric pressure! This explains why teeth can chew through tough materials like nuts, bones, and hard candy. The key is the small contact area at the tip of the tooth. Human bite force typically ranges from 300-700 N, and the pointed nature of incisors concentrates this force to create very high pressures. This is the same principle used by knives, needles, and other cutting/piercing tools.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One way to force air into an unconscious person's lungs is to squeeze on a balloon appropriately connected to the subject. What force must you exert on the balloon with your hands to create a gauge pressure of 4.00 cm water, assuming you squeeze on an effective area of  $$ 50.0 {\text{cm}}^{2} $$ ?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 Convert the pressure from cm water to Pa, then use $$ F = PA $$ to find the required force.
 
@@ -445,16 +471,21 @@ $$ F = PA = (392 \text{ Pa})(5.00 \times 10^{-3} \text{ m}^2) = 1.96 \text{ N} $
 **Discussion:**
 The required force is approximately **1.96 N** (about 0.44 pounds or 7 ounces). This is a modest force—easily applied by hand squeezing. The 4 cm water pressure (about 392 Pa or 0.004 atm) is sufficient to inflate the lungs without causing damage. Manual resuscitation devices (bag valve masks) work on this principle, allowing rescuers to provide ventilation by rhythmic squeezing. The relatively small force needed makes this technique accessible even during prolonged rescue efforts. Modern devices include pressure relief valves to prevent excessive pressures that could damage the lungs.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Heroes in movies hide beneath water and breathe through a hollow reed (villains never catch on to this trick). In practice, you cannot inhale in this manner if your lungs are more than 60.0 cm below the surface. What is the maximum negative gauge pressure you can create in your lungs on dry land, assuming you can achieve  $$-3.00 \text{cm} $$
  water pressure with your lungs 60.0 cm below the surface?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 When submerged, your lungs must overcome both the water pressure at depth and create the negative pressure for inhalation. Find the total negative pressure capability.
 
@@ -476,16 +507,21 @@ $$ P_{\text{max negative}} = -(60.0 + 3.00) \text{ cm H}_2\text{O} = -63.0 \text
 **Discussion:**
 The maximum negative gauge pressure you can create in your lungs on dry land is approximately **−63.0 cm H₂O** (about −0.062 atm or −6.2 kPa). This represents the total pressure difference your respiratory muscles can generate. When submerged 60 cm deep, you need 60 cm H₂O just to counteract water pressure on your chest, leaving only 3 cm H₂O for actual air flow. Beyond about 60-70 cm depth, most people cannot generate sufficient negative pressure to inhale through a snorkel, which is why snorkels are limited to ~30-40 cm length (half the theoretical maximum, with safety margin). This limitation explains why scuba tanks are necessary for deeper diving—they provide pressurized air matching ambient water pressure.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Gauge pressure in the fluid surrounding an infant's brain may rise as high as 85.0 mm Hg (5 to 12 mm Hg is normal), creating an outward force large enough to make the skull grow abnormally large. (a) Calculate this outward force in newtons on each side of an infant's skull if the effective area of each side is  $$ 70.0 {\text{cm}}^{2} $$ .
  (b) What is the net force acting on the skull?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$ F = PA $$ to find the force on each side of the skull. For gauge pressure in mm Hg, we convert using the density of mercury. The net force depends on whether opposing forces cancel.
@@ -510,16 +546,21 @@ The outward force on each side of the infant's skull is approximately **79 N** (
 
 Although the net force is zero, the 79 N force on each side is significant—equivalent to about 8 kg (18 lb) pushing outward on each side of the skull. This is why elevated intracranial pressure can cause the skull bones of an infant (which haven't yet fused) to separate and the head to enlarge abnormally, a condition called hydrocephalus. The individual forces stretch the skull even though they don't accelerate it as a whole.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A full-term fetus typically has a mass of 3.50 kg. (a) What pressure does the weight of such a fetus create if it rests on the mother's bladder, supported on an area of  $$ 90.0 {\text{cm}}^{2} $$ ?
  (b) Convert this pressure to millimeters of mercury and determine if it alone is great enough to trigger the micturition reflex (it will add to any pressure already existing in the bladder).
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Calculate the weight of the fetus, then use $$ P = F/A $$ to find pressure.
 (b) Convert the pressure from Pa to mm Hg and compare to the threshold for the micturition reflex (about 25 mm Hg).
@@ -555,17 +596,22 @@ The pressure is **3.81 × 10³ Pa** or **28.7 mm Hg**, which is sufficient to tr
 **Discussion:**
 The fetus creates a pressure of approximately **28.7 mm Hg** on the mother's bladder, exceeding the typical 25 mm Hg threshold that triggers the urge to urinate. This explains the frequent need to urinate during late pregnancy. The pressure is even greater when the fetus kicks or moves, as mentioned in the text, potentially raising bladder pressure above 100 mm Hg. This is one of the many physiological changes expectant mothers experience as the growing fetus compresses various organs in the abdominal cavity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the pressure in the esophagus is  $$-2.00 \text{mm Hg} $$
  while that in the stomach is  $$+20.0 \text{mm Hg} $$ ,
  to what height could stomach fluid rise in the esophagus, assuming a density of 1.10 g/mL? (This movement will not occur if the muscle closing the lower end of the esophagus is working properly.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The pressure difference between the stomach and esophagus will push fluid up until the hydrostatic pressure of the fluid column equals the pressure difference. We use $$ \Delta P = \rho g h $$ and solve for height.
@@ -592,18 +638,23 @@ Stomach fluid could rise to a height of approximately **27 cm** in the esophagus
 
 This is a significant height—about 10-11 inches—more than enough to reach the throat and cause severe "heartburn" or acid reflux. The lower esophageal sphincter muscle normally prevents this by maintaining a barrier between the stomach and esophagus. When this sphincter is weakened or relaxed inappropriately, gastroesophageal reflux disease (GERD) can result. The negative pressure in the esophagus (due to the negative pressure in the chest cavity) actually contributes to pulling stomach acid upward when the sphincter fails.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Pressure in the spinal fluid is measured as shown in [[Figure 4]](#Figure4). If the pressure in the spinal fluid is 10.0 mm Hg: (a) What is the reading of the water manometer in cm water? (b) What is the reading if the person sits up, placing the top of the fluid 60 cm above the tap? The fluid density is 1.05 g/mL.
 
 ![Diagram of a person lying face-down on a table hooked up to a medical apparatus. A needle attached to a tube is inserted between the patient&#x2019;s vertebrae in the lower back area. The tube, which appears to be filled with fluid, is connected to an upright tube containing an unknown amount of water. The height of the water in the tube is labeled question-mark centimeters H 2 O. A label pointing to the patient&#x2019;s head reads P equals ten millimeters H g.](../resources/Figure_11_09_04.jpg "A water manometer used to measure pressure in the spinal fluid. The height of the fluid in the manometer is measured relative to the spinal column, and the manometer is open to the atmosphere. The measured pressure will be considerably greater if the person sits up.")
 {: #Figure4}
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Convert the pressure from mm Hg to cm H₂O using the density ratio between mercury and water.
 (b) When the person sits up, add the hydrostatic pressure of the 60-cm column of spinal fluid to the baseline pressure.
@@ -645,16 +696,21 @@ The readings are: (a) **13.6 cm H₂O** when lying down, and (b) **76.5 cm H₂O
 **Discussion:**
 The dramatic increase from 13.6 cm to 76.5 cm when sitting up (more than 5-fold) demonstrates how body position affects pressure measurements in the spinal fluid. This is why spinal pressure measurements must be performed with the patient in a standardized position (usually lying on their side). The increased pressure when upright reflects the weight of the fluid column between the brain and the measurement point in the lower back. This principle is important in diagnosing conditions like hydrocephalus (excess cerebrospinal fluid) or CSF leaks. The slight density difference between spinal fluid (1.05 g/mL) and water (1.00 g/mL) accounts for the 63 cm contribution rather than exactly 60 cm.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the maximum force in newtons exerted by the blood on an aneurysm, or ballooning, in a major artery, given the maximum blood pressure for this person is 150 mm Hg and the effective area of the aneurysm is  $$ 20.0 {\text{cm}}^{2} $$ .
  Note that this force is great enough to cause further enlargement and subsequently greater force on the ever-thinner vessel wall.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$ F = PA $$ after converting the blood pressure from mm Hg to Pascals and the area to square meters.
@@ -677,15 +733,20 @@ The maximum force exerted by blood on the aneurysm is **40.0 N** (approximately 
 
 This is a substantial force—equivalent to about 4 kg (9 lb) pushing outward on the weakened vessel wall. Aneurysms are particularly dangerous because of a positive feedback loop: as the vessel wall stretches and thins, the area increases, causing greater force (F = PA), which causes further stretching. The wall also becomes weaker as it thins, following Laplace's law. This explains why aneurysms can grow progressively and eventually rupture catastrophically. The 150 mm Hg systolic pressure used here is elevated (normal is ~120 mm Hg), illustrating why high blood pressure significantly increases the risk of aneurysm rupture.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 During heavy lifting, a disk between spinal vertebrae is subjected to a 5000-N compressional force. (a) What pressure is created, assuming that the disk has a uniform circular cross section 2.00 cm in radius? (b) What deformation is produced if the disk is 0.800 cm thick and has a Young's modulus of  $$ 1.5 \times 10^{9}  {\text{N/m}}^{2} $$ ?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Use $$ P = F/A $$ with the disk's cross-sectional area.
 (b) Use the relationship between stress, strain, and Young's modulus: $$ \frac{\Delta L}{L_0} = \frac{F/A}{Y} = \frac{P}{Y} $$.
@@ -722,15 +783,20 @@ The pressure of approximately **4.0 MPa** (40 times atmospheric pressure) shows 
 
 This calculation assumes the disk compresses uniformly, but in reality, the soft gel-like nucleus pulposus in the center can bulge outward when compressed, potentially pressing on spinal nerves and causing pain. This is why proper lifting technique (keeping the back straight and lifting with the legs) is crucial—it helps distribute forces more evenly across multiple disks rather than concentrating stress on one or two. The relatively low Young's modulus (1.5 GPa, compared to ~200 GPa for steel) reflects the disk's cartilaginous composition, which allows it to act as a shock absorber for the spine.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a person sits erect, increasing the vertical position of their brain by 36.0 cm, the heart must continue to pump blood to the brain at the same rate. (a) What is the gain in gravitational potential energy for 100 mL of blood raised 36.0 cm? (b) What is the drop in pressure, neglecting any losses due to friction? (c) Discuss how the gain in gravitational potential energy and the decrease in pressure are related.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We calculate gravitational potential energy using $$ \Delta PE = mgh $$, where mass comes from volume and density.
@@ -757,15 +823,20 @@ The gravitational potential energy gain is **0.370 J**, and the pressure drop is
 
 (c) **Discussion**: The gain in gravitational potential energy and the decrease in pressure are directly related through energy conservation. As blood rises to the brain, its gravitational potential energy increases while its pressure energy (per unit volume) decreases by the same amount. The work done against gravity equals $$ \Delta PE = mgh = (\rho V)gh $$, while the pressure energy change equals $$ \Delta P \cdot V = \rho gh \cdot V $$. These are identical, demonstrating that the pressure drop provides the energy needed to lift the blood. This is why blood pressure is lower in the head than at heart level when standing, and why the heart must work harder to maintain adequate brain perfusion when upright. This also explains why standing suddenly can cause lightheadedness—the body needs time to adjust blood pressure to compensate for gravitational effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How high will water rise in a glass capillary tube with a 0.500-mm radius? (b) How much gravitational potential energy does the water gain? (c) Discuss possible sources of this energy.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Use the capillary rise formula $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$ with water's surface tension and contact angle with glass.
 (b) Calculate the mass of the water column and use $$ \Delta PE = mgh/2 $$ (center of mass rises by h/2).
@@ -820,18 +891,23 @@ This matches the potential energy gain (within rounding error), confirming energ
 **Discussion:**
 Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The energy comes from the work done by adhesive forces (water-glass attraction) as manifested through surface tension. As the water climbs the tube walls, the surface area of the water-glass interface increases while the water-air interface decreases. The favorable water-glass interaction (lower energy) compared to water-air interaction drives this process. Energy conservation requires that the work done by surface tension equals the gravitational potential energy gained, which our calculations confirm.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A negative pressure of 25.0 atm can sometimes be achieved with the device in [[Figure 5]](#Figure5) before the water separates. (a) To what height could such a negative gauge pressure raise water? (b) How much would a steel wire of the same diameter and length as this capillary stretch if suspended from above?
 
 ![When the piston is raised the liquid separates and results in negative pressure.](../resources/Figure_11_09_05.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use $$ h = \frac{P}{\rho g} $$ to find the height water could be raised by the negative pressure.
@@ -859,16 +935,21 @@ A negative gauge pressure of 25.0 atm could raise water to a height of approxima
 
 The 258 m height is remarkable—far exceeding the ~10.3 m limit imposed by atmospheric pressure pushing water up into a vacuum. This demonstrates that water under tension (negative pressure) can "pull" rather than just "push." This is directly relevant to how trees transport water to heights exceeding 100 m. The cohesion-tension theory proposes that evaporation from leaves creates negative pressure that pulls water up through the xylem, with cohesive forces between water molecules preventing the water column from breaking. The comparison with steel shows that water under such tension behaves somewhat like a solid, though its cohesive strength is much less than steel's tensile strength.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you hit a steel nail with a 0.500-kg hammer, initially moving at  $$15.0 \text{m/s} $$
  and brought to rest in 2.80 mm. (a) What average force is exerted on the nail? (b) How much is the nail compressed if it is 2.50 mm in diameter and 6.00-cm long? (c) What pressure is created on the 1.00-mm-diameter tip of the nail?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Use the work-energy theorem: the work done by the average force equals the change in kinetic energy.
 (b) Use the relationship for compression: $$ \Delta L = \frac{FL_0}{AY} $$ where Y is Young's modulus for steel.
@@ -919,16 +1000,21 @@ The average force of **20,100 N** (about 4,500 pounds) is enormous—far exceedi
 
 The pressure at the tip is **25.6 GPa** (about 250,000 atmospheres), which exceeds the yield strength of many materials, explaining why nails can penetrate wood. The small tip area concentrates the force, creating extreme pressure that locally deforms or shears the wood fibers. This is the same principle used in all cutting and penetrating tools—concentrate force on a small area to maximize pressure. The calculation assumes the force is uniform during impact, though in reality it varies; our value represents the average during the collision.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the pressure due to the ocean at the bottom of the Marianas Trench near the Philippines, given its depth is  $$11.0 \text{km} $$
  and assuming the density of sea water is constant all the way down. (b) Calculate the percent decrease in volume of sea water due to such a pressure, assuming its bulk modulus is the same as water and is constant. (c) What would be the percent increase in its density? Is the assumption of constant density valid? Will the actual pressure be greater or smaller than that calculated under this assumption?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use $$ P = \rho g h $$ with seawater density.
@@ -959,19 +1045,24 @@ The pressure at the bottom of the Marianas Trench is approximately **1.10 × 10�
 
 This problem illustrates the limitations of assuming constant density for deep ocean calculations. A more accurate calculation would require integrating pressure over depth with varying density. The actual pressure at the bottom of the Marianas Trench (about 11,034 m at the Challenger Deep) is measured at approximately 1,086 atm, close to our estimate. The extreme pressure has significant biological implications—organisms living at these depths have evolved special adaptations to withstand pressures that would crush most surface-dwelling creatures.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The hydraulic system of a backhoe is used to lift a load as shown in [[Figure 6]](#Figure6). (a) Calculate the force  $$F $$
  the slave cylinder must exert to support the 400-kg load and the 150-kg brace and shovel. (b) What is the pressure in the hydraulic fluid if the slave cylinder is 2.50 cm in diameter? (c) What force would you have to exert on a lever with a mechanical advantage of 5.00 acting on a master cylinder 0.800 cm in diameter to create this pressure?
 
 ![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](../resources/Figure_11_09_06.jpg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
 {: #Figure6}
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Use torque balance about the pivot point (top of arm) to find the force F from the slave cylinder.
 (b) Use $$ P = F/A $$ with the slave cylinder's cross-sectional area.
@@ -1044,15 +1135,20 @@ The results are: (a) **1.38 × 10⁴ N**, (b) **2.81 × 10⁷ Pa**, and (c) **28
 **Discussion:**
 The slave cylinder must exert **13,800 N** (about 3,100 pounds) to balance the torques. The hydraulic pressure of **28.1 MPa** (about 280 atmospheres or 4,070 psi) is typical for heavy equipment. Remarkably, an operator needs to apply only **283 N** (about 64 pounds) to the lever to generate this massive force. The system provides a total mechanical advantage of 13,800/283 ≈ 49, coming from both the hydraulic system (area ratio ≈ 9.8) and the lever (MA = 5.0). This demonstrates why hydraulic systems are ideal for heavy machinery—they allow precise control while multiplying force dramatically.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some miners wish to remove water from a mine shaft. A pipe is lowered to the water 90 m below, and a negative pressure is applied to raise the water. (a) Calculate the pressure needed to raise the water. (b) What is unreasonable about this pressure? (c) What is unreasonable about the premise?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We calculate the pressure needed to support a 90 m column of water using $$ P = \rho g h $$, then compare this to atmospheric pressure to assess feasibility.
@@ -1075,11 +1171,14 @@ The required gauge pressure (suction) would need to be approximately **8.82 × 1
 
 This is why deep wells require submersible pumps placed at the bottom rather than suction pumps at the surface. Historically, this limitation was discovered when attempting to pump water from deep mines, leading to important scientific investigations into the nature of atmospheric pressure and vacuum by Torricelli and others in the 17th century. The maximum suction lift of about 10 m is a fundamental limit that affects everything from drinking straws to industrial pumping systems.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.00-cm radius.
 
 (a) What force in newtons must you exert to create a pressure of $$ 6.90 \times 10^{5} \text{Pa} $$ ?
@@ -1087,8 +1186,10 @@ You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.
 (b) What is unreasonable about this (a) result? (c) Which premises are
 unreasonable or inconsistent?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 (a) Use $$ F = PA $$ to calculate the required force.
 (b) Compare the result to typical human capabilities.
@@ -1128,15 +1229,20 @@ The **pressure of 6.90 × 10⁵ Pa** (about 100 psi or 6.8 atm) is actually reas
 **Discussion:**
 This problem illustrates the importance of checking whether calculated results make physical sense. The area $$ A = \pi r^2 $$ scales as the square of radius, so a piston twice as wide has four times the area and requires four times the force for the same pressure. Bicycle pump designers must balance the trade-off: larger pistons require less stroke length (fewer pumps) but more force per stroke, while smaller pistons require more pumps but less effort per pump. The typical design optimizes for human comfort and efficiency.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a group of people trying to stay afloat after their boat strikes a log in a lake. Construct a problem in which you calculate the number of people that can cling to the log and keep their heads out of the water. Among the variables to be considered are the size and density of the log, and what is needed to keep a person's head and arms above water without swimming or treading water.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Constructed Problem**
 
 A group of swimmers finds a floating log after their boat capsizes. The log is 3.0 m long with a radius of 0.20 m and has a density of 600 kg/m³. Each person has an average mass of 70 kg and needs a buoyant force equivalent to 15 kg (about 150 N) to keep their head and arms above water comfortably. How many people can cling to the log?
@@ -1173,15 +1279,20 @@ Approximately **9 people** can cling to the log and keep their heads above water
 
 This calculation assumes the log becomes completely submerged when fully loaded. In reality, safety margins should be considered—with 9 people, the log would be at its limit and any waves or movement could cause it to submerge further. The low density of the log (typical of dry softwood) is crucial; a waterlogged log with density approaching 1000 kg/m³ would provide almost no support. This problem illustrates why knowing the buoyant properties of materials can be life-saving in emergency situations.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The alveoli in emphysema victims are damaged and effectively form larger sacs. Construct a problem in which you calculate the loss of pressure due to surface tension in the alveoli because of their larger average diameters. (Part of the lung's ability to expel air results from pressure created by surface tension in the alveoli.) Among the things to consider are the normal surface tension of the fluid lining the alveoli, the average alveolar radius in normal individuals and its average in emphysema sufferers.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Constructed Problem**
 
 In healthy lungs, alveoli have an average radius of 0.10 mm and are lined with fluid having an effective surface tension of 0.050 N/m (due to surfactant). In an emphysema patient, damaged alveoli merge to form larger sacs with an average radius of 0.50 mm. Calculate the pressure in normal and emphysematous alveoli, and determine the percent reduction in the pressure available for passive exhalation.
@@ -1214,10 +1325,12 @@ Normal alveoli produce approximately **15.0 mm Hg** (2000 Pa) of pressure for ex
 
 This dramatic reduction explains why emphysema patients have severe difficulty exhaling. Since $$ P \propto 1/r $$, when alveolar radius increases by a factor of 5, the pressure decreases by the same factor. Emphysema patients must use active muscle contraction to exhale—a process that is normally passive and effortless. The larger alveoli also reduce the total surface area available for gas exchange, compounding respiratory problems. This analysis helps explain why forced expiratory volume (FEV) tests are a key diagnostic tool for emphysema. The disease progression creates a vicious cycle: reduced exhalation means air trapping, which further distends and damages alveoli.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1236,4 +1349,4 @@ micturition reflex
 systolic pressure
 : maximum arterial blood pressure; indicator for the blood flow
 
-</div>
+:::

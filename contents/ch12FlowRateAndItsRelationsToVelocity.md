@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate flow rate.
 * Define units of volume.
 * Describe incompressible fluids.
 * Explain the consequences of the equation of continuity.
-</div>
+
+:::
 
 **Flow rate** $$Q $$ is defined to be the volume of fluid passing by some
 location through an area during a period of time, as seen in [[Figure 1]](#Figure1).
@@ -30,10 +31,12 @@ other units for $$Q $$ are in common use. For example, the heart of a resting
 adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a **liter** (L) is 1/1000 of a cubic meter or 1000 cubic centimeters ( $$10^{-3} {\text{m}}^{3} $$ or $$10^{3} {\text{cm}}^{3} $$ ). In this text we shall use
 whatever metric units are most convenient for a given situation.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Volume from Flow Rate: The Heart Pumps a Lot of Blood in a Lifetime
 </div>
+
 How many cubic meters of blood does the heart pump in a 75-year lifetime, assuming the average flow rate is 5.00 L/min?
 
 **Strategy**
@@ -48,18 +51,20 @@ Solving $$Q=V/t $$ for volume gives
 <div class="equation">
  $$V=Qt \text{.} $$
 </div>
+
 Substituting known values yields
 
 <div class="equation">
  $$\begin{array}{lll}V& =& \left(\frac{ 5.00 \text{L}}{1 \text{min}}\right)\left(75 \text{y}\right)\left(\frac{1 {\text{m}}^{3}}{ 10^{3} \text{L}}\right)\left( 5.26 \times 10^{5} \frac{\text{min}}{\text{y}}\right)\\  & =&  2.0 \times 10^{5}  {\text{m}}^{3}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This amount is about 200 000 tons of blood. For comparison, this value is
 equivalent to about 200 times the volume of water contained in a 6-lane 50-m lap
 pool.
 
-</div>
+:::
 
 Flow rate and velocity are related, but quite different, physical quantities. To
 make the distinction clear, think about the flow rate of a river. The greater
@@ -123,10 +128,12 @@ valid for all liquids. However, gases are compressible, and so the equation must
 be applied with caution to gases if they are subjected to compression or
 expansion.
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating Fluid Speed: Speed Increases When a Tube Narrows
 </div>
+
 A nozzle with a radius of 0.250 cm is attached to a garden hose with a radius of 0.900 cm. The flow rate through hose and nozzle is 0.500 L/s. Calculate the speed of the water (a) in the hose and (b) in the nozzle.
 
 **Strategy**
@@ -142,11 +149,13 @@ cross-sectional area is $$A=\pi r^2 $$, yielding
 <div class="equation">
  $${\overline{v}}_{1}=\frac{Q}{ {A}_{1}}=\frac{Q}{ \pi r_{1}^{2}}\text{.} $$
 </div>
+
 Substituting known values and making appropriate unit conversions yields
 
 <div class="equation">
  $${\overline{v}}_{1}=  \frac{ \left( 0.500 \text{L/s} \right) \left( 10^{-3} {\text{m}}^{3}/\text{L} \right) }{\pi {\left( 9.00 \times 10^{-3}  \text{m}\right)}^{2}}= 1.96 \text{m/s}\text{.} $$
 </div>
+
 **Solution for (b)**
 
 We could repeat this calculation to find the speed in the nozzle
@@ -156,6 +165,7 @@ somewhat different insight. Using the equation which states
 <div class="equation">
  $${A}_{1}{\overline{v}}_{1}={A}_{2}{\overline{v}}_{2}\text{,} $$
 </div>
+
 solving for  $${\overline{v}}_{2} $$
  and substituting  $$\pi r^2 $$
  for the cross-sectional area yields
@@ -163,18 +173,20 @@ solving for  $${\overline{v}}_{2} $$
 <div class="equation">
  $${\overline{v}}_{2}=\frac{ {A}_{1}}{ {A}_{2}}{\overline{v}}_{1}=\frac{ \pi r_1^2}{ \pi r_2^2}{\overline{v}}_{1}=\frac{ r_1^2}{ r_2^2 }{\overline{v}}_{1}\text{.} $$
 </div>
+
 Substituting known values,
 
 <div class="equation">
  $${\overline{v}}_{2}=\frac{ {\left( 0.900 \text{cm} \right)}^{2} } { {\left( 0.250 \text{cm} \right)}^{2}} 1.96 \text{m/s}=25.5 \text{m/s}\text{.} $$ 
 </div>
+
 **Discussion**
 
 A speed of 1.96 m/s is about right for water emerging from a nozzleless hose.
 The nozzle produces a considerably faster stream merely by constricting the flow
 to a narrower tube.
 
-</div>
+:::
 
 The solution to the last part of the example shows that speed is inversely
 proportional to the _square_ of the radius of the tube, making for large effects
@@ -197,10 +209,12 @@ becomes
 where $${n}_{1} $$ and $${n}_{2} $$ are the number of branches in each of the
 sections along the tube.
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Calculating Flow Speed and Vessel Diameter: Branching in the Cardiovascular System
 </div>
+
 The aorta is the principal blood vessel through which blood leaves the heart in order to circulate around the body. (a) Calculate the average speed of the blood in the aorta if the flow rate is 5.0 L/min. The aorta has a radius of 10 mm. (b) Blood also flows through smaller blood vessels known as capillaries. When the rate of blood flow in the aorta is 5.0 L/min, the speed of blood in the capillaries is about 0.33 mm/s. Given that the average diameter of a capillary is  $$8.0 \mu \text{m} $$ ,
  calculate the number of capillaries in the blood circulatory system.
 
@@ -219,6 +233,7 @@ Substituting the known values (converted to units of meters and seconds) gives
 <div class="equation">
  $$\overline{v}=\frac{\left(5.0 \text{L/min}\right)\left(10^{-3} {\text{m}}^{3}\text{/L}\right)\left(1 \text{min/}60 \text{s}\right)}{\pi {\left(0.010 \text{m}\right)}^{2}}= 0.27 \text{m/s}. $$
 </div>
+
 **Solution for (b)**
 
 Using $${n}_{1}{A}_{1}{\overline{v}}_{1}={n}_{2}{A}_{2}{\overline{v}}_{1} $$ ,
@@ -230,6 +245,7 @@ meters and seconds and substituting into the equation above gives
 <div class="equation">
  $${n}_{2}=\frac{\left(1\right)\left(\pi \right){\left(10 \times 10^{-3}  \text{m}\right)}^{2}\left(0.27 \text{m/s} \right)}{\left(\pi \right){\left( 4.0 \times 10^{-6}  \text{m}\right)}^{2}\left( 0.33 \times 10^{-3}  \text{m/s}\right)}= 5.0 \times 10^{9}  \text{capillaries}. $$
 </div>
+
 **Discussion**
 
 Note that the speed of flow in the capillaries is considerably reduced relative
@@ -241,7 +257,7 @@ Does this large number of capillaries in the body seem reasonable? In active
 muscle, one finds about 200 capillaries per $${\text{mm}}^{3} $$, or about $$200 \times 10^{6} $$ per 1 kg of muscle. For 20 kg of muscle, this amounts to about
 $$4 \times 10^{9} $$ capillaries.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -260,11 +276,15 @@ $$4 \times 10^{9} $$ capillaries.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between flow rate and fluid velocity? How are they related?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 To answer this conceptual question, we need to examine the definitions of flow rate and fluid velocity and identify how they differ as physical quantities.
@@ -285,15 +305,21 @@ where $$A$$ is the cross-sectional area through which the fluid flows and $$\bar
 **Discussion**
 
 The key distinction is that flow rate is an *extensive* property that depends on the size of the conduit, while velocity is an *intensive* property describing local motion. Two pipes with the same fluid velocity can have very different flow rates if their cross-sectional areas differ. Conversely, the same flow rate can be achieved with high velocity through a small pipe or low velocity through a large pipe.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Many figures in the text show streamlines. Explain why fluid velocity is greatest where streamlines are closest together. (Hint: Consider the relationship between fluid velocity and the cross-sectional area through which it flows.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the equation of continuity for incompressible fluids, which relates flow velocity to cross-sectional area.
@@ -313,15 +339,21 @@ Therefore, where streamlines are most closely packed (smallest effective cross-s
 **Discussion**
 
 This principle is directly observable in everyday life. When you partially cover a garden hose opening with your thumb, you reduce the exit area, causing the water to spray out at much higher velocity. Similarly, wind speeds up as it flows between tall buildings (the "urban canyon effect") because the streamlines are compressed into a smaller area.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify some substances that are incompressible and some that are not.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider the molecular structure and behavior of different substances under pressure to classify them as compressible or incompressible.
@@ -347,18 +379,24 @@ We consider the molecular structure and behavior of different substances under p
 The distinction arises from molecular structure. In liquids and solids, molecules are already closely packed with strong intermolecular forces, leaving little room for compression. In gases, molecules are far apart with weak interactions, allowing significant volume changes under pressure.
 
 Note that "incompressible" is an idealization—all substances compress slightly under extreme pressure. However, liquids typically compress less than 0.01% under normal conditions, making the incompressible approximation excellent for most applications. This is why hydraulic systems use liquids rather than gases to transmit force reliably.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the average flow rate in  $${\text{cm}}^{3}\text{/s} $$
  of gasoline to the engine of a car traveling at 100 km/h if it averages 10.0 km/L?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the volume of gasoline consumed per unit time. The car's fuel efficiency (10.0 km/L) tells us how far the car travels per liter of fuel. Combined with the speed (100 km/h), we can determine the fuel consumption rate.
@@ -374,16 +412,22 @@ $$Q = 10.0 \frac{\text{L}}{\text{h}} \times \frac{1000 \text{ cm}^3}{1 \text{ L}
 **Discussion**
 
 The average flow rate of gasoline to the engine is **2.78 cm³/s**. This relatively small flow rate makes sense—gasoline is energy-dense, so a small volume can power a car at highway speeds. For perspective, this is about half a teaspoon per second, which seems reasonable for maintaining 100 km/h travel.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The heart of a resting adult pumps blood at a rate of 5.00 L/min. (a) Convert this to  $${\text{cm}}^{3}\text{/s} $$ .
  (b) What is this rate in  $${\text{m}}^{3}\text{/s} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a unit conversion problem. We apply conversion factors to change from L/min to the requested units, using the relationships: 1 L = 1000 cm³ = 10⁻³ m³ and 1 min = 60 s.
@@ -399,15 +443,21 @@ $$Q = 5.00 \frac{\text{L}}{\text{min}} \times \frac{10^{-3} \text{ m}^3}{1 \text
 **Discussion**
 
 The heart pumps blood at a rate of **(a) 83.3 cm³/s** or **(b) 8.33 × 10⁻⁵ m³/s**. The cm³/s unit is convenient for physiological applications—83.3 cm³/s means roughly a third of a cup of blood per second. Over a day, this amounts to about 7,200 liters, highlighting the remarkable endurance of the heart muscle.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Blood is pumped from the heart at a rate of 5.0 L/min into the aorta (of radius 1.0 cm). Determine the speed of blood through the aorta.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship between flow rate, cross-sectional area, and velocity: $$Q = A\bar{v}$$. The aorta is approximately circular, so $$A = \pi r^2$$.
@@ -430,15 +480,21 @@ $$\bar{v} = \frac{Q}{A} = \frac{8.33 \times 10^{-5} \text{ m}^3/\text{s}}{3.14 \
 **Discussion**
 
 The speed of blood through the aorta is approximately **27 cm/s**. This is a reasonable value—fast enough to deliver oxygenated blood efficiently throughout the body, yet slow enough to avoid damaging the vessel walls. During exercise, cardiac output can increase significantly, leading to higher blood velocities.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Blood is flowing through an artery of radius 2 mm at a rate of 40 cm/s. Determine the flow rate and the volume that passes through the artery in a period of 30 s.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$Q = A\bar{v}$$ to find the flow rate, then use $$V = Qt$$ to find the total volume passing through the artery in the given time.
@@ -465,18 +521,24 @@ $$V = Qt = (5.03 \times 10^{-6} \text{ m}^3/\text{s})(30 \text{ s}) = 1.51 \time
 **Discussion**
 
 The flow rate through the artery is **5.0 cm³/s** (or 5.0 × 10⁻⁶ m³/s), and **151 cm³** (about 0.15 L) of blood passes through in 30 seconds. This is consistent with blood flow through a medium-sized artery. The relatively high velocity of 40 cm/s suggests this could be an artery close to the heart where blood moves faster.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The Huka Falls on the Waikato River is one of New Zealand's most visited natural tourist attractions (see [[Figure 3]](#Figure3)). On average the river has a flow rate of about 300 000 L/s. At the gorge, the river narrows to 20 m wide and averages 20 m deep. (a) What is the average speed of the river in the gorge? (b) What is the average speed of the water in the river downstream of the falls when it widens to 60 m and its depth increases to an average of 40 m?
 
 ![Water rushes over a fall.](../resources/Figure_12_01_04.jpg 'The Huka Falls in Taupo, New Zealand, demonstrate flow rate. (credit: RaviGogna, Flickr)')
 {: #Figure3}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply $$Q = Av$$ at different points along the river. Since water is incompressible, the flow rate $$Q$$ remains constant. We calculate velocity at each location using the cross-sectional area (width × depth).
@@ -501,17 +563,23 @@ $$v_{\text{downstream}} = \frac{Q}{A_{\text{downstream}}} = \frac{300 \text{ m}^
 **Discussion**
 
 The average speed of the river is **(a) 0.75 m/s** in the gorge and **(b) 0.13 m/s** downstream. The water speeds up by a factor of about 6 as it passes through the narrow gorge, which explains why the Huka Falls is such a dramatic sight—the river is compressed into a much smaller cross-section. This is a direct application of the continuity equation: when the area decreases, velocity must increase proportionally to maintain constant flow rate.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A major artery with a cross-sectional area of  $$ 1.00 {\text{cm}}^{2} $$
  branches into 18 smaller arteries, each with an average cross-sectional area of  $$ 0.400 {\text{cm}}^{2} $$ .
  By what factor is the average velocity of the blood reduced when it passes into these branches?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the generalized continuity equation for branching flow: $$A_1 v_1 = n_2 A_2 v_2$$, where $$n_2$$ is the number of branches. The total cross-sectional area of the branches determines how the velocity changes.
@@ -537,16 +605,22 @@ $$\frac{v_1}{v_2} = \frac{7.20}{1.00} = 7.20$$
 **Discussion**
 
 The blood velocity is reduced by a factor of **7.2** (or equivalently, the velocity in the branches is about 14% of the velocity in the major artery). This slowing of blood as it enters smaller vessels is physiologically important—it allows more time for oxygen and nutrient exchange with surrounding tissues, particularly in capillaries where the total cross-sectional area is enormous.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) As blood passes through the capillary bed in an organ, the capillaries join to form venules (small veins). If the blood speed increases by a factor of 4.00 and the total cross-sectional area of the venules is  $$ 10.0 {\text{cm}}^{2} $$ ,
  what is the total cross-sectional area of the capillaries feeding these venules? (b) How many capillaries are involved if their average diameter is  $$10.0 \mu \text{m} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We apply the continuity equation. If velocity increases by a factor of 4, the cross-sectional area must decrease by the same factor to maintain constant flow rate.
@@ -575,17 +649,23 @@ $$n = \frac{A_{\text{cap}}}{A_{\text{single}}} = \frac{40.0 \text{ cm}^2}{7.85 \
 **Discussion**
 
 The total cross-sectional area of the capillaries is **(a) 40.0 cm²**, and there are approximately **(b) 5.09 × 10⁷ capillaries** (about 51 million). This enormous number of tiny capillaries explains why blood slows down so dramatically in capillary beds—the total cross-sectional area is vastly larger than in arteries, giving time for gas and nutrient exchange.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The human circulation system has approximately  $$1 \times 10^{9}  $$
  capillary vessels. Each vessel has a diameter of about  $$8 \mu \text{m} $$ .
  Assuming cardiac output is 5 L/min, determine the average velocity of blood flow through each capillary vessel.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We calculate the total cross-sectional area of all capillaries, then use $$Q = Av$$ to find the velocity. All capillaries are assumed to share the total cardiac output.
@@ -609,15 +689,21 @@ $$v = \frac{Q}{A_{\text{total}}} = \frac{8.33 \times 10^{-5} \text{ m}^3/\text{s
 **Discussion**
 
 The average velocity of blood through each capillary is approximately **0.17 cm/s** (or about 1.7 mm/s). This very slow speed is crucial for capillary function—it allows sufficient time (about 1-2 seconds) for red blood cells to exchange oxygen and carbon dioxide with surrounding tissues as they traverse the capillary bed.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Estimate the time it would take to fill a private swimming pool with a capacity of 80 000 L using a garden hose delivering 60 L/min. (b) How long would it take to fill if you could divert a moderate size river, flowing at  $$5000 {\text{m}}^{3}\text{/s} $$, into it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship $$Q = V/t$$, solving for time: $$t = V/Q$$. We need to ensure consistent units for each calculation.
@@ -638,18 +724,24 @@ $$t = \frac{V}{Q} = \frac{80\,000 \text{ L}}{5 \times 10^6 \text{ L/s}} = 0.016 
 **Discussion**
 
 Using a garden hose, it would take approximately **(a) 22 hours** to fill the pool. Using a moderate river, it would take only **(b) 0.016 seconds** (16 milliseconds). This dramatic difference illustrates the enormous flow rates of natural rivers compared to household water sources. The river flow rate is about 5 billion times greater than the garden hose!
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The flow rate of blood through a  $$ 2.00 \times 10^{-6}\text{-m} $$
  -radius capillary is  $$ 3.80 \times 10^{-9}  {\text{cm}}^{3}\text{/s} $$ .
  (a) What is the speed of the blood flow? (This small speed allows time for diffusion of materials to and from the blood.) (b) Assuming all the blood in the body passes through capillaries, how many of them must there be to carry a total flow of  $$ 90.0 {\text{cm}}^{3}\text{/s} $$ ?
  (The large number obtained is an overestimate, but it is still reasonable.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use $$Q = Av$$ to find velocity, calculating the cross-sectional area from the given radius.
@@ -674,15 +766,21 @@ $$n = \frac{Q_{\text{total}}}{Q_{\text{single}}} = \frac{90.0 \text{ cm}^3/\text
 **Discussion**
 
 The blood velocity in a capillary is approximately **(a) 0.030 cm/s** (or 0.30 mm/s), and about **(b) 2.4 × 10¹⁰ capillaries** would be needed to carry the total blood flow. While this is an overestimate (as the problem notes), it illustrates the enormous number of capillaries in the body. The very slow blood velocity in capillaries is essential—it provides the 1-2 seconds needed for effective gas exchange between blood and tissues.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the fluid speed in a fire hose with a 9.00-cm diameter carrying 80.0 L of water per second? (b) What is the flow rate in cubic meters per second? (c) Would your answers be different if salt water replaced the fresh water in the fire hose?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the relationship $$Q = Av$$ where $$A = \pi r^2$$ for the circular hose cross-section. For part (c), we consider whether density affects the continuity equation.
@@ -710,15 +808,21 @@ $$Q = 80.0 \text{ L/s} \times \frac{1 \text{ m}^3}{1000 \text{ L}} = 0.0800 \tex
 **Discussion**
 
 The fluid speed in the fire hose is **(a) 12.6 m/s** (about 45 km/h), and the flow rate is **(b) 0.0800 m³/s**. **(c)** No, the answers would not change for salt water because the continuity equation and flow rate definition involve only volume, not mass or density. However, the *pressure* required to achieve this flow rate would differ slightly due to density differences, and other properties like friction might also be affected.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The main uptake air duct of a forced air gas heater is 0.300 m in diameter. What is the average speed of air in the duct if it carries a volume equal to that of the house's interior every 15 min? The inside volume of the house is equivalent to a rectangular solid 13.0 m wide by 20.0 m long by 2.75 m high.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We first calculate the volume of the house, then determine the required flow rate to move this volume in 15 minutes. Finally, we use $$Q = Av$$ to find the air velocity.
@@ -745,15 +849,21 @@ $$v = \frac{Q}{A} = \frac{0.794 \text{ m}^3/\text{s}}{0.0707 \text{ m}^2} = 11.2
 **Discussion**
 
 The average speed of air in the duct is approximately **11.2 m/s** (about 40 km/h or 25 mph). This is a reasonable velocity for HVAC systems—fast enough to efficiently circulate air throughout the house, but not so fast as to create excessive noise or require extremely powerful fans. The system circulates the entire house volume every 15 minutes, which means the air is exchanged about 4 times per hour, typical for residential heating systems.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water is moving at a velocity of 2.00 m/s through a hose with an internal diameter of 1.60 cm. (a) What is the flow rate in liters per second? (b) The fluid velocity in this hose's nozzle is 15.0 m/s. What is the nozzle's inside diameter?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use $$Q = Av$$ to find the flow rate from the known velocity and hose diameter.
@@ -789,15 +899,21 @@ $$d_2 = 2r_2 = 5.84 \times 10^{-3} \text{ m} = 0.584 \text{ cm}$$
 **Discussion**
 
 The flow rate through the hose is **(a) 0.402 L/s**, and the nozzle's inside diameter is **(b) 0.584 cm**. The nozzle diameter is about 36% of the hose diameter, which increases the velocity by a factor of 7.5 (from 2.00 to 15.0 m/s). This relationship follows because velocity scales as the inverse square of diameter: $$v_2/v_1 = (d_1/d_2)^2 = (1.60/0.584)^2 \approx 7.5$$.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Prove that the speed of an incompressible fluid through a constriction, such as in a Venturi tube, increases by a factor equal to the square of the factor by which the diameter decreases. (The converse applies for flow out of a constriction into a larger-diameter region.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the equation of continuity and the relationship between area and diameter for a circular cross-section to derive the relationship between velocity change and diameter change.
@@ -827,16 +943,22 @@ This proves that if the diameter decreases by a factor of $$k$$, the velocity in
 **Discussion**
 
 This result is a direct consequence of the continuity equation and the geometry of circular pipes. For example, if a pipe's diameter is halved ($$k = 2$$), the velocity increases by a factor of $$2^2 = 4$$. If the diameter is reduced to one-third ($$k = 3$$), velocity increases by a factor of 9. This $$k^2$$ relationship is why small changes in tube diameter can produce dramatic changes in flow velocity, which is the operating principle behind devices like Venturi meters and carburetor jets.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water emerges straight down from a faucet with a 1.80-cm diameter at a speed of 0.500 m/s. (Because of the construction of the faucet, there is no variation in speed across the stream.) (a) What is the flow rate in  $${\text{cm}}^{3}\text{/s} $$ ?
  (b) What is the diameter of the stream 0.200 m below the faucet? Neglect any effects due to surface tension.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use $$Q = Av$$ to find the flow rate at the faucet outlet.
@@ -871,11 +993,15 @@ $$d_2 = \sqrt{\frac{4A_2}{\pi}} = \sqrt{\frac{4(0.623 \text{ cm}^2)}{\pi}} = 0.8
 **Discussion**
 
 The flow rate is **(a) 127 cm³/s**, and the stream diameter 0.200 m below the faucet is **(b) 0.890 cm**. The stream narrows as it falls because the water accelerates under gravity—by the time it has fallen 20 cm, the water is moving about 4 times faster, so by continuity, the cross-sectional area is reduced by a factor of 4, and the diameter by a factor of 2. This narrowing of a falling water stream is observable in everyday life.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A mountain stream is 10.0 m wide and averages 2.00 m in depth. During the spring
@@ -884,8 +1010,10 @@ runoff, the flow in the stream reaches $$100 000 {\text{m}}^{3}\text{/s} $$ .
 is unreasonable about this velocity? (c) What is unreasonable or inconsistent
 about the premises?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We calculate the velocity using $$Q = Av$$, then evaluate whether the result is physically reasonable for a mountain stream.
@@ -916,10 +1044,13 @@ $$v = \frac{Q}{A} = \frac{100\,000 \text{ m}^3/\text{s}}{20.0 \text{ m}^2} = 500
 **Discussion**
 
 This problem illustrates the importance of checking whether given values lead to physically reasonable results. The stated flow rate would require either an impossibly high velocity (as calculated) or a much larger cross-sectional area. A more realistic flow rate for a 10 m × 2 m stream would be about 100-200 m³/s, yielding velocities of 5-10 m/s.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -930,4 +1061,4 @@ during a time _t_, or _Q = V/t_
 liter
 : a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
 
-</div>
+:::

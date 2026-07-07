@@ -5,28 +5,27 @@
 **For Quick Understanding:**
 
 - **What**: Open-source, algebra-based college physics textbook with 280+ sections.
-- **Tech**: Jekyll, Kramdown, MathJax v4, Vercel, GitHub Pages.
+- **Tech**: Eleventy v4 (Node), markdown-it, MathJax v4, Vercel, GitHub Pages.
 - **Live Sites**:
   - **Vercel (Primary)**: https://physics-book.vercel.app/
   - **GitHub Pages**: https://veillette.github.io/physics-book2/
-- **Local Dev**: `bundle exec jekyll serve --incremental` → `http://localhost:4000/physics-book2/`
-- **Structure**: Content in `contents/`, scripts in `scripts/`, service worker `sw.js` in root.
-- **Key Files**: `SUMMARY.md` (TOC), `_config.yml` (Jekyll), `vercel.json` (Vercel), `claude.md` (this file).
+- **Local Dev**: `npm run serve` → `http://localhost:4000/physics-book2/` (Node ≥ 22.15).
+- **Structure**: Content in `contents/`, scripts in `scripts/`, service worker `sw.njk` in root.
+- **Key Files**: `SUMMARY.md` (TOC), `eleventy.config.js` (build), `vercel.json` (Vercel), `claude.md` (this file).
 
 **Common Tasks:**
 
 - **Add content**: Update `contents/` + `SUMMARY.md`.
-- **Fix links**: Always use `{{ site.baseurl }}/path` for Jekyll context.
+- **Fix links**: Use root-relative `/path` (the build adds the `/physics-book2` prefix).
 - **Run full check**: Run `npm run audit` to check links, orphans, and figures.
 - **Check math**: Run `npm run check-math` to validate delimiter balance.
-- **Check Liquid conflicts**: Run `npm run fix-liquid-syntax` to detect LaTeX/Liquid conflicts.
 - **Generate PDFs**: Run `npm run generate:pdf` or use GitHub Actions workflow for automated generation.
 
 ---
 
 ## Project Overview
 
-This is an **open-source physics textbook** built with Jekyll and deployed on Vercel and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable.
+This is an **open-source physics textbook** built with Eleventy (11ty) and deployed on Vercel and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable. (It was migrated from Jekyll/Kramdown to Eleventy/markdown-it; see `roadmap.md`.)
 
 - **Vercel Site (Primary)**: https://physics-book.vercel.app/
 - **GitHub Pages Site**: https://veillette.github.io/physics-book2/
@@ -37,10 +36,9 @@ This is an **open-source physics textbook** built with Jekyll and deployed on Ve
 
 ### Core Technologies
 
-- **Jekyll**: Static site generator (v3.9+).
-- **Kramdown**: Markdown parser (GitHub-Flavored Markdown mode).
-- **MathJax v4**: Asynchronous mathematical equation rendering.
-- **Ruby**: 2.7+ required for Jekyll.
+- **Eleventy (11ty) v4**: Node-based static site generator (alpha; pinned to `4.0.0-alpha.10`).
+- **markdown-it**: Markdown renderer, with custom math/typography/slug/container plugins in `lib/eleventy/`.
+- **MathJax v4**: Client-side math rendering (self-hosted under `assets/js/mathjax/`).
 
 ### Deployment & Hosting
 
@@ -50,7 +48,7 @@ This is an **open-source physics textbook** built with Jekyll and deployed on Ve
 
 ### Development Tools
 
-- **Node.js**: For a rich ecosystem of utility scripts.
+- **Node.js** ≥ 22.15: Runs the build and all tooling.
 - **Playwright**: Browser automation for PDF generation.
 - **npm**: Package management for scripts and tools.
 
@@ -59,16 +57,17 @@ This is an **open-source physics textbook** built with Jekyll and deployed on Ve
 ```
 physics-book2/
 ├── contents/           # All textbook content (Markdown files)
-├── assets/             # CSS, JavaScript, images
+├── assets/             # CSS, JavaScript, images (incl. self-hosted MathJax)
 ├── scripts/            # Build and utility scripts
+├── lib/eleventy/       # markdown-it plugins (math, typography, slug, containers)
 ├── resources/          # Static resources (e.g., high-res images)
-├── _layouts/           # Jekyll page templates
-├── _includes/          # Reusable Jekyll components
-├── _config.yml         # Jekyll configuration
+├── _includes/          # Nunjucks layouts/includes (head.njk, foot.njk, layouts/)
+├── _data/              # Eleventy data (site.js)
+├── eleventy.config.js  # Eleventy build configuration
 ├── vercel.json         # Vercel deployment configuration
 ├── SUMMARY.md          # Table of contents (book structure)
-├── sw.js               # Service Worker for offline support
-└── index.html          # Homepage
+├── sw.njk              # Service worker source (built to /sw.js)
+└── index.njk           # Homepage
 ```
 
 ## Content Organization
@@ -81,40 +80,17 @@ Content is structured modularly in the `contents/` directory.
 
 ## Mathematics and Equations
 
-- **Engine**: MathJax v4, loaded asynchronously from a CDN.
-- **Configuration**: `_includes/mathjax.html`.
+- **Engine**: MathJax v4, self-hosted under `assets/js/mathjax/` and rendered client-side.
+- **Configuration**: `assets/js/math-config.js` (delimiters, macros, `processEscapes`).
 - **Delimiters**:
   - Inline math: `$...$` or `\\(...\\)`
   - Display math: `$$...$$` or `\\[...\\]`
+- The build passes math through verbatim (no markdown escaping inside `$$…$$`), so backslashes and LaTeX arrays survive.
 - **Validation**: Use `npm run check-math` to find unbalanced delimiters before committing.
 
-### Avoiding Liquid Syntax Conflicts
+### Math and Templating
 
-**IMPORTANT**: Jekyll uses the Liquid templating engine, which can conflict with certain LaTeX patterns. Avoid writing math that uses `{{` patterns that aren't properly closed from Liquid's perspective.
-
-**Problematic patterns to avoid:**
-
-- `{{v}_{\text{...}}}` - Variable in double braces with subscript
-- `{{f}_{...}}` - Any variable in double braces followed by subscript
-- `\frac{{a}_{...}}{{b}_{...}}` - Fractions with subscripted terms in double braces
-
-**Why this is a problem:**
-
-Liquid interprets `{{` as the start of a variable tag (like `{{ site.baseurl }}`). When LaTeX uses `{{v}_{\text{...}}}`, Liquid sees `{{v}` and expects it to be closed with `}}`, but the first `}` actually closes the inner LaTeX brace, causing a Liquid syntax error.
-
-**How to avoid:**
-
-1. **Preferred**: Use single braces where possible: `{v}_{\text{...}}` instead of `{{v}_{\text{...}}}`
-2. **If double braces are necessary**: The script will automatically wrap them with `{% raw %}` tags during checks
-
-**Detection and fixing:**
-
-```bash
-npm run fix-liquid-syntax        # Check for Liquid conflicts (dry run)
-npm run fix-liquid-syntax:apply  # Automatically fix issues
-```
-
-The `fix-liquid-syntax` script will detect these patterns and wrap them with `{% raw %}...{% endraw %}` tags to prevent Liquid from parsing them.
+Markdown bodies are rendered with **no template engine** (`markdownTemplateEngine: false` in `eleventy.config.js`), so Liquid/Nunjucks never touches math or `{{…}}` patterns. You can freely write `{{v}_{\text{...}}}` and other brace-heavy LaTeX; it is passed through verbatim to MathJax. (The old `{% raw %}` wrappers and the `fix-liquid-syntax` workflow were Jekyll/Liquid-specific and are no longer needed.)
 
 ## Development Workflow
 
@@ -125,29 +101,26 @@ The `fix-liquid-syntax` script will detect these patterns and wrap them with `{%
 ```bash
 # 1. Clone the repository
 git clone https://github.com/veillette/physics-book2.git
-cd physics-book
+cd physics-book2
 
-# 2. Install Ruby dependencies
-gem install bundler jekyll
-bundle install
-
-# 3. Install Node.js dependencies
+# 2. Install Node.js dependencies
 npm install
 
-# 4. Start the local server
-bundle exec jekyll serve --incremental
+# 3. Start the local dev server
+npm run serve
 
-# 5. View at http://localhost:4000/physics-book2/
+# 4. View at http://localhost:4000/physics-book2/
 ```
 
 ### Building for Production
 
 ```bash
-# Build for GitHub Pages (respects baseurl)
-bundle exec jekyll build
+# GitHub Pages build (served under /physics-book2/)
+npm run build
 
-# Build for Vercel (empty baseurl)
-JEKYLL_ENV=production bundle exec jekyll build --baseurl ''
+# Vercel build (served at the domain root; Vercel sets VERCEL=1 automatically,
+# which eleventy.config.js reads to drop the path prefix)
+VERCEL=1 npm run build
 ```
 
 ## CI/CD and Automation
@@ -156,14 +129,14 @@ The project is configured for dual deployment and robust quality assurance.
 
 ### Deployment Workflows
 
-- **Vercel**: The `main` branch is automatically deployed to production via the Vercel GitHub integration. The build process is defined in `vercel.json`.
-- **GitHub Actions**: A workflow in `.github/workflows/deploy.yml` builds the Jekyll site and deploys it to the `gh-pages` branch, which serves the GitHub Pages site.
+- **Vercel**: The `main` branch is automatically deployed to production via the Vercel GitHub integration. The build process is defined in `vercel.json` (`npm run build`).
+- **GitHub Actions**: A workflow in `.github/workflows/deploy.yml` builds the site with Eleventy and deploys it to the `gh-pages` branch, which serves the GitHub Pages site.
 
 ### Automated Quality Checks
 
 On every pull request, GitHub Actions run a series of checks:
 
-1.  **Jekyll Build**: Validates that the site builds successfully.
+1.  **Eleventy Build**: Validates that the site builds successfully.
 2.  **Link Checking**: `npm run test:ci` validates all internal and external links to prevent broken ones.
 3.  **Content Auditing**: `npm run audit` runs a comprehensive check for broken links, orphaned files, and figure reference issues.
 
@@ -171,16 +144,13 @@ On every pull request, GitHub Actions run a series of checks:
 
 ```bash
 # Verify build succeeds
-bundle exec jekyll build
+npm run build
 
 # Run the full audit script
 npm run audit
 
 # Validate math equations
 npm run check-math
-
-# Check for Liquid syntax conflicts in LaTeX
-npm run fix-liquid-syntax
 ```
 
 ## Utilities and Scripts
@@ -198,13 +168,13 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 ### Navigation Links Broken on GitHub Pages
 
 - **Symptom**: Links work locally and on Vercel but are broken on GitHub Pages.
-- **Solution**: Ensure all internal links use the `{{ site.baseurl }}` prefix. This variable is `/physics-book2` for GitHub Pages and empty for Vercel, allowing links to work on both platforms.
+- **Solution**: Use **root-relative** links/asset paths (e.g. `/contents/ch2Kinematics.md`, `/resources/x.png`). `eleventy.config.js` adds the `/physics-book2` prefix to single-slash root-relative `href`/`src` at build time for GitHub Pages, and drops it for Vercel (detected via the `VERCEL` env var). Don't hand-write the prefix — and don't use the old `{{ site.baseurl }}` (that was a Jekyll construct).
 
 ### Service Worker Issues
 
 - **Symptom**: Offline mode isn't working or content is stale.
 - **Solution**:
-  1.  The service worker file is now `sw.js` in the project root.
+  1.  The service worker is served as `/sw.js` (its source is `sw.njk` at the repo root).
   2.  Check the browser DevTools (Application → Service Workers) to inspect its status and clear storage if needed.
   3.  Service workers require HTTPS or localhost to function.
 
@@ -212,7 +182,7 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 ### Service Worker & Offline Support
 
-- **File**: `sw.js` (at the project root).
+- **File**: `sw.njk` at the repo root (built to `/sw.js`).
 - **Functionality**: Caches visited pages and assets for offline access.
 - **Scope**: The root-level scope allows it to control all pages under the site's domain.
 
@@ -222,7 +192,6 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 - **Orphan Detection (`check-orphans`)**: Finds unreferenced images and assets.
 - **Figure Checking (`check-figures`)**: Validates figure numbering, references, and filenames.
 - **Math Validation (`check-math`)**: Ensures LaTeX delimiters are balanced.
-- **Liquid Syntax Fixing (`fix-liquid-syntax`)**: Detects and fixes LaTeX patterns that conflict with Liquid templating.
 - **Accessibility (`check-accessibility`)**: Checks for common accessibility issues like missing alt text.
 - **YAML Validation (`check-yaml`)**: Validates the front matter of all content files.
 
@@ -275,7 +244,7 @@ This is an open educational resource. When contributing, please adhere to the fo
 - **Test Thoroughly**: Before submitting a PR, run the build and audit scripts locally.
 - **Follow Conventions**: Adhere to existing file naming and content structure.
 - **Update `SUMMARY.md`**: If you add a new section, add it to the table of contents.
-- **Use `baseurl`**: Ensure all internal links and asset paths use `{{ site.baseurl }}`.
+- **Use root-relative paths**: Ensure all internal links and asset paths are root-relative (e.g. `/contents/...`); the build adds the `/physics-book2` prefix automatically.
 
 ### Code Review
 

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Observe the vibrations of a guitar string.
 * Determine the frequency of oscillations.
-</div>
+
+:::
 
 ![The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.](../resources/Figure_16_02_01.jpg 'The strings on this guitar vibrate at regular time intervals. (credit: JAR)')
 {: #Figure1}
@@ -43,10 +44,12 @@ A cycle is one complete oscillation. Note that a vibration can be a single or
 multiple event, whereas oscillations are usually repetitive for a significant
 number of cycles.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Determine the Frequency of Two Oscillations: Medical Ultrasound and the Period of Middle C
 </div>
+
 We can use the formulas presented in this module to determine both the frequency based on known oscillations and the oscillation based on a known frequency. Let’s try one example of each. (a) A medical imaging device produces ultrasound by oscillating with a period of 0.400 µs. What is the frequency of this oscillation? (b) The frequency of middle C on a typical musical instrument is 264 Hz. What is the time for one complete oscillation?
 
 **Strategy**
@@ -63,6 +66,7 @@ are asked to find the period $$T $$ .
    <div class="equation" >
     $$f=\frac{1}{T}=\frac{1}{ 0.400 \times 10^{-6}  s}. $$
    </div>
+
    Solve to find     
    <div class="equation" >
    $$f= 2.50 \times 10^{6}  \text{Hz}. $$
@@ -98,20 +102,25 @@ diagnoses, such as observations of a fetus in the womb.
 The period found in (b) is the time per cycle, but this value is often quoted as
 simply the time in convenient units (ms or milliseconds in this case).
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify an event in your life (such as receiving a paycheck) that occurs regularly. Identify both the period and frequency of this event.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 I visit my parents for dinner every other Sunday. The frequency of my visits is 26 per calendar year. The period is two weeks.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -129,12 +138,16 @@ I visit my parents for dinner every other Sunday. The frequency of my visits is 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the period of  $$ 60.0 \text{Hz} $$
  electrical power?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Period and frequency are reciprocals: $$T = \frac{1}{f}$$.
@@ -153,15 +166,20 @@ The 60 Hz frequency is standard for electrical power in North America. This mean
 
 16.7 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If your heart rate is 150 beats per minute during strenuous exercise, what is the time per beat in units of seconds?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The heart rate is given as a frequency (150 beats per minute). We need to find the period (time per beat) in seconds. First, convert the frequency to beats per second, then use $$T = \frac{1}{f}$$ to find the period.
@@ -188,16 +206,21 @@ A period of 0.400 s per beat is reasonable for strenuous exercise. At rest, a ty
 
 0.400 s/beat
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the frequency of a tuning fork that takes  $$ 2.50 \times 10^{-3}  \text{s} $$
  to complete one oscillation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The period $$T$$ is given as the time to complete one oscillation. Use the relationship $$f = \frac{1}{T}$$ to find the frequency.
@@ -218,16 +241,21 @@ A frequency of 400 Hz falls within the range of human hearing (roughly 20 Hz to 
 
 400 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A stroboscope is set to flash every  $$ 8.00 \times 10^{-5}  \text{s} $$ .
  What is the frequency of the flashes?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The time between flashes is the period $$T$$. Use $$f = \frac{1}{T}$$ to calculate the frequency of the flashes.
@@ -248,15 +276,20 @@ The frequency of 12,500 Hz (12.5 kHz) is quite high and actually exceeds the upp
 
 12,500 Hz or 12.5 kHz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A tire has a tread pattern with a crevice every 2.00 cm. Each crevice makes a single vibration as the tire moves. What is the frequency of these vibrations if the car moves at 30.0 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The frequency is the number of vibrations per second. Since each crevice causes one vibration, we need to find how many crevices pass a given point per second. This equals the velocity divided by the spacing between crevices: $$f = \frac{v}{d}$$.
@@ -283,11 +316,14 @@ A frequency of 1,500 Hz is well within the range of human hearing and would prod
 
 1.50 kHz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Engineering Application**
 
 Each piston of an engine makes a sharp sound every other revolution of the
@@ -295,8 +331,10 @@ engine. (a) How fast is a race car going if its eight-cylinder engine emits a
 sound of frequency 750 Hz, given that the engine makes 2000 revolutions per
 kilometer? (b) At how many revolutions per minute is the engine rotating?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) The sound frequency is determined by how many piston firings occur per second. Since there are 8 cylinders and each fires once every 2 revolutions, we can find the engine's revolution rate from the sound frequency. Then, using the given relationship between revolutions and distance (2000 rev/km), we can find the car's speed.
@@ -351,10 +389,12 @@ The speed of 93.8 m/s is equivalent to about 338 km/h or 210 mph, which is reaso
 
 (b) $$11.3 \times 10^{3} \text{ rev/min}$$
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -367,4 +407,4 @@ periodic motion
 frequency
 : number of events per unit of time
 
-</div>
+:::

@@ -1,10 +1,11 @@
 ---
-layout: null
+permalink: /sw.js
+eleventyExcludeFromCollections: true
 ---
 // Service Worker for Physics Book PWA
 const CACHE_VERSION = '2025-12-31-fix-mathjax-config';
 const CACHE_NAME = `physics-book2-${CACHE_VERSION}`;
-const BASE_URL = '{{ site.baseurl }}/';
+const BASE_URL = '{{ "/" | url }}';
 
 console.log(`Service Worker: Version ${CACHE_VERSION}`);
 

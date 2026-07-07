@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Identify superconductors and their uses.
 * Discuss the need for a high-T<sub>c</sub> superconductor.
-</div>
+
+:::
 
 **Superconductors** are materials with a resistivity of zero. They are familiar
 to the general public because of their practical applications and have been
@@ -98,42 +99,57 @@ unexpected election victory—“I wonder what we did right?”
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is critical temperature  $${T}_{c} $$ ?
  Do all materials have a critical temperature? Explain why or why not.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how good thermal contact with liquid nitrogen can keep objects at a temperature of 77 K (liquid nitrogen’s boiling point at atmospheric pressure).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Not only is liquid nitrogen a cheaper coolant than liquid helium, its boiling point is higher (77 K vs. 4.2 K). How does higher temperature help lower the cost of cooling a material? Explain in terms of the rate of heat transfer being related to the temperature difference between the sample and its surroundings.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A section of superconducting wire carries a current of 100 A and requires 1.00 L of liquid nitrogen per hour to keep it below its critical temperature. For it to be economically advantageous to use a superconducting wire, the cost of cooling the wire must be less than the cost of energy lost to heat in the wire. Assume that the cost of liquid nitrogen is  \$0.30 per liter, and that electric energy costs  \$0.10 per kW·h. What is the resistance of a normal wire that costs as much in wasted electric energy as the cost of liquid nitrogen for the superconductor?
 
-</div>
+:::
+
 <div class="solution" data-element-type="problems-exercises">
 <div class="equation" >
  $$0.30 \text{Ω} $$
 </div>
-</div>
+
 </div>
 
-<div class="glossary" markdown="1">
+</div>
+
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -143,4 +159,4 @@ Superconductors
 critical temperature
 : the temperature at which and below which a material becomes a superconductor
 
-</div>
+:::

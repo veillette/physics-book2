@@ -22,6 +22,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 import { ContentParser } from './lib/parser.js';
+import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
 
 import {
   printHeader,
@@ -108,16 +109,20 @@ class CrossReferenceValidator {
       const result = this.parser.processLine(line);
       if (!result.isContent && !result.isFrontMatter) continue;
 
-      // Extract anchors from headings
+      // Extract anchors from headings. A Kramdown IAL may trail the heading
+      // (`## Title {: #id}`); strip it before generating the auto-id, and register the id.
       const headingMatch = line.match(/^#{1,6}\s+(.+)$/);
       if (headingMatch) {
-        const headingText = headingMatch[1].replace(/\{#([^}]+)\}/g, '$1');
+        const rawHeading = headingMatch[1];
+        const headingText = rawHeading
+          .replace(/\s*\{:[^}]*\}\s*$/, '')
+          .replace(/\{#([^}]+)\}/g, '$1');
         const anchor = this.generateAnchor(headingText);
         anchors.add(anchor);
 
-        const customIdMatch = headingText.match(/\{#([^}]+)\}/);
+        const customIdMatch = rawHeading.match(/\{#([^}]+)\}|\{:[^}]*#([^\s}]+)/);
         if (customIdMatch) {
-          anchors.add(customIdMatch[1]);
+          anchors.add(customIdMatch[1] || customIdMatch[2]);
         }
       }
 
@@ -132,8 +137,8 @@ class CrossReferenceValidator {
         anchors.add(match[1]);
       }
 
-      // Kramdown attribute list syntax
-      const kramdownIdMatch = line.match(/^\{:.*?#([^\s}]+)/);
+      // Kramdown attribute list syntax (line-initial image/block IAL or trailing IAL)
+      const kramdownIdMatch = line.match(/\{:[^}]*#([^\s}]+)/);
       if (kramdownIdMatch) {
         anchors.add(kramdownIdMatch[1]);
       }
@@ -143,15 +148,11 @@ class CrossReferenceValidator {
   }
 
   /**
-   * Generate anchor from heading text.
+   * Generate a heading auto-id the same way the Eleventy build does (Kramdown's
+   * basic_generate_id — e.g. "Problems & Exercises" -> "problems--exercises").
    */
   generateAnchor(text) {
-    return text
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/^-|-$/g, '');
+    return kramdownSlugify(text);
   }
 
   /**

@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the four basic forces.
 * Explain the Feynman diagram for the exchange of a virtual photon between two positive charges.
 * Define QED.
 * Describe the Feynman diagram for the exchange of a between a proton and a neutron.
-</div>
+
+:::
 
 There are only four distinct basic forces in all of nature. This is a remarkably small number considering the myriad
 phenomena they explain. Particle physics is intimately tied to these four
@@ -58,9 +59,7 @@ Carrier particle
                $$10^{-13} $$ 
             </td>
             <td>
-
 $$<10^{-18}\text{m} $$ </td>
-
 <td>
 $$+/- $$
 </td>
@@ -168,28 +167,36 @@ together—in such a manner that they become identical.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the ratio of the strengths of the weak and electromagnetic forces under ordinary circumstances.
 
 (b) What does that ratio become under circumstances in which the forces are
 unified?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$10^{-11} $$
  to 1, weak to EM
 
 (b) 1 to 1
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The ratio of the strong to the weak force and the ratio of the strong force to the electromagnetic force become 1 under circumstances where they are unified. What are the ratios of the strong force to those two forces under normal circumstances?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -213,27 +220,27 @@ $$\frac{\text{strong}}{\text{EM}} = \frac{1}{10^{-2}} = 10^{2} = 100 \text{ to }
 
 These ratios show the dramatic differences in strength between the forces under normal circumstances. The strong force is $$10^{13}$$ (ten trillion) times stronger than the weak force and 100 times stronger than the electromagnetic force. These enormous differences explain why the forces appear so distinct in everyday physics and why their unification only occurs at extremely high energies or very small distances. At the unification scale, these ratios all become 1:1, meaning the forces become indistinguishable. The weak force is much weaker than the strong force, which is why weak interactions (like beta decay) proceed much more slowly than strong force interactions. Similarly, the electromagnetic force being 100 times weaker than the strong force explains why electrostatic repulsion between protons in a nucleus is overwhelmed by the strong force at nuclear distances.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"> + attractive; ‑
-  repulsive; $$+/- $$ both.</span>
-- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Predicted by theory and
-  first observed in 1983.</span>
-- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Eight proposed—indirect
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content"> + attractive; ‑
+  repulsive; $$+/- $$ both.</span> {: class="footnote-ref" #footnote1}
+- [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">Predicted by theory and
+  first observed in 1983.</span> {: class="footnote-ref" #footnote2}
+- [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Eight proposed—indirect
   evidence of existence. Underlie meson exchange.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote3}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -248,4 +255,4 @@ the electromagnetic force between two charged particles
 quantum electrodynamics
 : the theory of electromagnetism on the particle scale
 
-</div>
+:::

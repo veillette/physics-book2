@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 9
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the types of equilibrium.
 * Describe stable and unstable equilibriums.
 * Describe neutral equilibrium.
 
-</div>
+:::
 
 It is one thing to have a system in equilibrium; it is quite another for it to
 be stable. The toy doll perched on the man’s hand in [Figure 1](#Figure1), for
@@ -115,13 +115,15 @@ section emphasize gravitational forces, the basic conditions for equilibrium are
 the same for all types of forces. The net external force must be zero, and the
 net torque must also be zero.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 Stand straight with your heels, back, and head against a wall. Bend forward from your waist, keeping your heels and bottom against the wall, to touch your toes. Can you do this without toppling over? Explain why and what you need to do to be able to touch your toes without losing your balance. Is it easier for a woman to do this?
 
-</div>
+:::
 
 ### Section Summary
 
@@ -137,11 +139,15 @@ Stand straight with your heels, back, and head against a wall. Bend forward from
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A round pencil lying on its side as in [Figure 4](#Figure4) is in neutral equilibrium relative to displacements perpendicular to its length. What is its stability relative to displacements parallel to its length?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze what happens to the pencil's center of gravity when it is displaced parallel to its length, and determine whether the resulting torque (if any) would restore it to its original position, move it further away, or have no effect.
@@ -164,15 +170,20 @@ The pencil simply stays wherever it is placed, which is the definition of neutra
 
 This analysis reveals that the pencil is in neutral equilibrium for any displacement along the flat surface—whether perpendicular or parallel to its length. This makes sense because the flat surface and round cross-section create a situation where the cg height is independent of position. Compare this to a marble on a flat surface, which is similarly in neutral equilibrium in all horizontal directions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain the need for tall towers on a suspension bridge to ensure stable equilibrium.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze how the height of the towers affects the stability of the bridge by considering the geometry of the suspension cables and how forces are distributed to counteract disturbances.
@@ -193,31 +204,41 @@ Tall towers on a suspension bridge are necessary to ensure stable equilibrium fo
 
 This principle is analogous to lowering the center of gravity in other stable systems. Just as a chicken with its cg below its hips is more stable than a human with cg above the hips, a suspension bridge with the roadway suspended well below tall towers is more stable than one with shorter towers. The famous collapse of the Tacoma Narrows Bridge in 1940 highlighted the importance of proper design for stability against wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stability.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a horse leans against a wall as in [Figure 10](#Figure10). Calculate the force exerted on the wall assuming that force is horizontal while using the data in the schematic representation of the situation. Note that the force exerted on the wall is equal in magnitude and opposite in direction to the force exerted on the horse, keeping it in equilibrium. The total mass of the horse and rider is 500 kg. Take the data to be accurate to three digits.
 
 ![In part a, a horse is standing next to a wall with its legs crossed. A sleepy-looking rider is leaning against the wall. Part b is a drawing of the same horse from a rear view, but this time with no rider. The horse is crossing its rear legs, and its rump is leaning against the wall. The reaction of the wall F is acting on the horse at a height one point two meters above the ground. The weight of the horse is acting at its center of gravity near the base of the tail. The center of gravity is one point four meters above the ground. The line of action of weight is zero point three five meters away from the feet of the horse.](../resources/Figure_09_03_10.jpg ' ')
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 $$ F_{\text{wall}}=1.43\times 10^{3}\N $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot point located at the center of the seesaw. If the children are separated by a distance of 3.00 m, at what distance from the pivot point is the small child sitting in order to maintain the balance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For the seesaw to be balanced, the net torque about the pivot must be zero. We use the second condition for equilibrium: $$ \text{net}\tau = 0 $$. Let $$ r_1 $$ be the distance of the smaller child from the pivot and $$ r_2 $$ be the distance of the larger child. We know that $$ r_1 + r_2 = 3.00 \m $$.
@@ -278,32 +299,42 @@ The smaller child sits **1.80 m** from the pivot point.
 
 As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = 30.0/20.0 = 1.5 $$. We can verify: $$ r_2 = 3.00 - 1.80 = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the magnitude and direction of the force on each foot of the horse in [Figure 10](#Figure10) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg.
 (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 a) $$ 2.55\times 10^{3}\N , 16.3^\circ$$ to the left of vertical (i.e., toward the wall)}
 b) 0.292
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person carries a plank of wood 2.00 m long with one hand pushing down on it at one end
 with a force $$ \vb{F}_1 $$ and the other hand holding it up at 0.500 m from the end of the plank with force
 $$ \vb{F}_2 $$. If the plank has a mass of 20.0 kg and its center of gravity is at the middle
 of the plank, what are the magnitudes of the forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply both conditions for equilibrium. The first condition (net force = 0) relates the forces, and the second condition (net torque = 0) allows us to solve for one of the unknown forces. We choose the pivot point at the location of one hand to eliminate one unknown from the torque equation.
@@ -363,25 +394,33 @@ The magnitudes are: $$ F_1 = 196 \N $$ (pushing down) and $$ F_2 = 392 \N $$ (pu
 
 Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: the cg is twice as far from $$ F_2 $$ as it is from where $$ F_2 $$ is applied. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure 11](#Figure11). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
 ![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.jpg ' ')
 {: #Figure11}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What force must be exerted by the wind to support a 2.50-kg chicken in the position shown in [Figure 12](#Figure12)?
 (b) What is the ratio of this force to the chicken's weight?
 (c) Does this support the contention that the chicken has a relatively stable construction?
@@ -389,8 +428,10 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$
 ![A chicken is trying to balance on its left foot, which is 9 point zero centimeters to the right of the chicken. The force of the wind is blowing from the left toward the chicken’s center of gravity c g, which is 20 cm above the ground. The weight of the chicken w is acting at the center of gravity.](../resources/Figure_09_03_12.jpg ' ')
 {: #Figure12}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For the chicken to be in equilibrium while displaced, the torques about the pivot point (the foot) must sum to zero. The weight creates a torque about the foot, and the wind force must create an equal and opposite torque. From the figure, the center of gravity is 9.0 cm horizontally from the foot and 20 cm above the ground.
@@ -443,11 +484,14 @@ This is because the chicken's cg is relatively low (only 20 cm above the ground)
 
 This problem illustrates why chickens are remarkably stable birds. Their low center of gravity and wide stance create a geometry where large displacements require proportionally larger disturbing forces. Compare this to a human, whose high cg means that even small displacements can lead to falling. This stable construction allows chickens to maintain balance easily while pecking at the ground or when buffeted by wind.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported entirely by its hinges and the opposite shore, so that its cables are slack.
 (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments?
 (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances? The mass of the bridge is 2500 kg.
@@ -455,23 +499,30 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 ![A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.](../resources/Figure_09_03_13.jpg 'A small drawbridge, showing the forces on the hinges ( ( F ) ), its weight ( ( w ) ), and the tension in its wires ( ( T ) ).')
 {: #Figure13}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 a) 0.167, or about one-sixth of the weight is supported by the opposite shore.
 
 b) $$ F=2.0\times 10^{4}\N $$, straight up.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a 900-kg car is on the bridge in [Figure 11](#Figure11) with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.)
 (a) Find the force in the cables.
 (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Figure 13, we can extract the geometry of the drawbridge. The bridge makes a horizontal span with cables attached at the far end at an angle of 40° above horizontal. We apply the two conditions for equilibrium: net force = 0 and net torque = 0. The system includes the bridge (mass 2500 kg from the figure) plus the car (mass 900 kg).
@@ -529,6 +580,7 @@ Horizontal (x) direction:
 <div class="equation">
 $$ F_{hx} - T\cos{40°} = 0 $$
 </div>
+
 <div class="equation">
 $$ F_{hx} = T\cos{40°} = (2.59 \times 10^{4} \N)(0.766) = 1.98 \times 10^{4} \N $$
 </div>
@@ -538,12 +590,15 @@ Vertical (y) direction:
 <div class="equation">
 $$ F_{hy} + T\sin{40°} - (m_b + m_c)g = 0 $$
 </div>
+
 <div class="equation">
 $$ F_{hy} = (m_b + m_c)g - T\sin{40°} $$
 </div>
+
 <div class="equation">
 $$ F_{hy} = (3400 \kg)(9.80 \mss) - (2.59 \times 10^{4} \N)(0.643) $$
 </div>
+
 <div class="equation">
 $$ F_{hy} = 33320 \N - 16650 \N = 1.67 \times 10^{4} \N $$
 </div>
@@ -553,6 +608,7 @@ Magnitude of hinge force:
 <div class="equation">
 $$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(1.98 \times 10^{4})^2 + (1.67 \times 10^{4})^2} $$
 </div>
+
 <div class="equation">
 $$ F_h = \sqrt{3.92 \times 10^{8} + 2.79 \times 10^{8}} = \sqrt{6.71 \times 10^{8}} = 2.59 \times 10^{4} \N $$
 </div>
@@ -569,11 +625,14 @@ The hinge exerts a force of **$$ 2.59 \times 10^{4} \N $$** at **40° above hori
 
 The cable tension increased from the case without the car. The hinge force has both horizontal and vertical components because the cables pull at an angle. The horizontal component of the hinge force exactly balances the horizontal pull from the cables, while the vertical component helps support some of the weight along with the cables' vertical component.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure14). The sign’s mass is 8.00 kg.
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
@@ -581,22 +640,29 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 ![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.jpg 'A sandwich board advertising sign demonstrates tension.')
 {: #Figure14}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 a) 21.6 N
 
 b) 21.6 N
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What minimum coefficient of friction is needed between the legs and the ground to keep the sign in [Figure 14](#Figure14) in the position shown if the chain breaks?
 (b) What force is exerted by each side on the hinge?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 If the chain breaks, the only horizontal force preventing the legs from sliding apart is friction at the ground. Each half of the sign is in equilibrium under the action of its weight, the normal force from the ground, friction, and the force from the hinge. We analyze one half of the sign, using the dimensions from Figure 14.
@@ -644,6 +710,7 @@ For equilibrium:
 <div class="equation">
 $$ F_{h,horizontal} \times 1.30 \m = 10.78 \text{ N·m} $$
 </div>
+
 <div class="equation">
 $$ F_{h,horizontal} = \frac{10.78}{1.30} = 8.29 \N $$
 </div>
@@ -688,24 +755,31 @@ The force exerted by each side on the hinge is **8.3 N** horizontally.
 
 Without the chain, friction alone must prevent the legs from sliding apart. The required coefficient of friction (about 0.21) is modest and easily achieved on most surfaces like concrete or asphalt. However, on a smooth surface like wet tile or ice, the coefficient of friction might be lower, causing the sign to collapse. This is why A-frame signs often have rubber feet or textured pads—to ensure adequate friction in various conditions. The 8.3 N force at the hinge is relatively small compared to the problem with the chain (21.6 N), because without the chain, the legs can push against each other at the hinge with less constraint.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A gymnast is attempting to perform splits. From the information given in [Figure 15](#Figure15), calculate the magnitude and direction of the force exerted on each foot by the floor.
 
 ![A gymnast with two pompoms in her hands is shown. One of the hand is horizontal toward left and the other is vertical. The gymnast is attempting to perform a full split. The span of her legs is one point eight meters, and the distance of one foot from the center of gravity is zero point nine meters. The weight of the girl is labeled as seven hundred newtons. The vertical distance of one foot from the center of gravity is zero point three zero meter.](../resources/Figure_09_03_15.jpg 'A gymnast performs full split. The center of gravity and the various distances from it are shown.')
 {: #Figure15}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 350 N directly upwards
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -721,4 +795,4 @@ unstable equilibrium
 : a system, when displaced, experiences a net force or torque in the same
 direction as the displacement from equilibrium
 
-</div>
+:::

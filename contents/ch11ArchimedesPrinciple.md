@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 7
 chapterNumber: 11
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define buoyant force.
 * State Archimedes’ principle.
 * Understand why objects float or sink.
 * Understand the relationship between density and Archimedes’ principle.
-</div>
+
+:::
 
 When you rise from lounging in a warm bath, your arms feel strangely heavy. This
 is because you no longer have the buoyant support of the water. Where does this
@@ -33,13 +34,15 @@ force equals the object’s weight, the object will remain suspended at that
 depth. The buoyant force is always present whether the object floats, sinks, or
 is suspended in a fluid.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Buoyant Force
 </div>
+
 The buoyant force is the net upward force on any object in any fluid.
 
-</div>
+:::
 
 ![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](../resources/Figure_11_07_02.jpg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
 {: #Figure2}
@@ -68,33 +71,38 @@ where $${F}_{\text{B}} $$ is the buoyant force and $${w}_{\text{fl}} $$ is the
 weight of the fluid displaced by the object. Archimedes’ principle is valid in
 general, for any object in any fluid, whether partially or totally submerged.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Archimedes’ Principle
 </div>
+
 According to this principle the buoyant force on an object equals the weight of the fluid it displaces. In equation form, Archimedes’ principle is
 
 <div class="equation" >
  $${F}_{\text{B}}={w}_{\text{fl}}, $$
 </div>
+
 where  $${F}_{\text{B}} $$
  is the buoyant force and  $${w}_{\text{fl}} $$
  is the weight of the fluid displaced by the object.
 
-</div>
+:::
 
 _Humm …_ High-tech body swimsuits were introduced in 2008 in preparation for the
 Beijing Olympics. One concern (and international rule) was that these suits
 should not provide any buoyancy advantage. How do you think that this rule could
 be verified?
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation
 </div>
+
 The density of aluminum foil is 2.7 times the density of water. Take a piece of foil, roll it up into a ball and drop it into water. Does it sink? Why or why not? Can you make it sink?
 
-</div>
+:::
 
 ### Floating and Sinking
 
@@ -103,10 +111,12 @@ shape of a boat, and it will float. Because of its shape, the boat displaces
 more water than the lump and experiences a greater buoyant force. The same is
 true of steel ships.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating buoyant force: dependency on shape
 </div>
+
 (a) Calculate the buoyant force on 10 000 metric tons  $$\left( 1.00 \times 10^{7}  \text{kg}\right) $$
  of solid steel completely submerged in water, and compare this with the steel’s weight. (b) What is the maximum buoyant force that water could exert on this same steel if it were shaped into a boat that could displace  $$ 1.00 \times 10^{5}  {\text{m}}^{3} $$
  of water?
@@ -127,18 +137,21 @@ steel’s volume, and then we substitute values for mass and density. This gives
 <div class="equation" >
  $${V}_{\text{st}}=\frac{ {m}_{\text{st}}}{ {\rho }_{\text{st}}}=\frac{ 1.00 \times 10^{7}  \text{kg}}{ 7.8 \times 10^{3}  {\text{kg/m}}^{3}}= 1.28 \times 10^{3}  {\text{m}}^{3}. $$
 </div>
+
 Because the steel is completely submerged, this is also the volume of water displaced,  $${V}_{\text{w}} $$ .
  We can now find the mass of water displaced from the relationship between its volume and density, both of which are known. This gives
 
 <div class="equation" >
  $$\begin{array}{lll}{m}_{w}& =& {\rho }_{w}{V}_{w}=\left( 1.000 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 1.28 \times 10^{3}  {m}^{3}\right)\\ & =&  1.28 \times 10^{6}  \text{kg} \text{.} \end{array} $$
 </div>
+
 By Archimedes’ principle, the weight of water displaced is  $${m}_{\text{w}}g $$ ,
  so the buoyant force is
 
 <div class="equation" >
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.28 \times 10^{6}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  1.3 \times 10^{7}  \text{N} \text{.} \end{array} $$
 </div>
+
 The steel’s weight is  $${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
  which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.
 
@@ -155,25 +168,29 @@ volume, both of which are known. That is,
 <div class="equation" >
  $$\begin{array}{lll}{m}_{w}& =& {\rho }_{w}{V}_{w}=\left( 1.000 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 1.00 \times 10^{5}  {m}^{3}\right)\\ & =&  1.00 \times 10^{8}  \text{kg} \text{.} \end{array} $$
 </div>
+
 The maximum buoyant force is the weight of this much water, or
 
 <div class="equation" >
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.00 \times 10^{8}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  9.80 \times 10^{8}  \text{N} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 The maximum buoyant force is ten times the weight of the steel, meaning the ship
 can carry a load nine times its own weight without sinking.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation
 </div>
+
 A piece of household aluminum foil is 0.016 mm thick. Use a piece of foil that measures 10 cm by 15 cm. (a) What is the mass of this amount of foil? (b) If the foil is folded to give it four sides, and paper clips or washers are added to this “boat,” what shape of the boat would allow it to hold the most “cargo” when placed in water? Test your prediction.
 
-</div>
+:::
 
 ### Density and Archimedes’ Principle
 
@@ -236,21 +253,25 @@ water. We measure the specific gravity of fluids, such as battery acid, radiator
 fluid, and urine, as an indicator of their condition. One device for measuring
 specific gravity is shown in [[Figure 5]](#Figure5).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Specific Gravity
 </div>
+
 Specific gravity is the ratio of the density of an object to a fluid (usually water).
 
-</div>
+:::
 
 ![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
 {: #Figure5}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Average Density: Floating Woman
 </div>
+
 Suppose a 60.0-kg woman floats in freshwater with  $$97.0\% $$
  of her volume submerged when her lungs are full of air. What is her average density?
 
@@ -261,11 +282,13 @@ We can find the woman’s density by solving the equation
 <div class="equation" >
  $$\text{fraction submerged}=\frac{ {\overline{\rho }}_{\text{obj}}}{ {\rho }_{\text{fl}}} $$
 </div>
+
 for the density of the object. This yields
 
 <div class="equation" >
  $${\overline{\rho }}_{\text{obj}}={\overline{\rho }}_{\text{person}}=\left(\text{fraction submerged}\right)\cdot {\rho }_{\text{fl}}. $$
 </div>
+
 We know both the fraction submerged and the density of water, and so we can calculate the woman’s density.
 
 **Solution**
@@ -275,13 +298,14 @@ Entering the known values into the expression for her density, we obtain
 <div class="equation" >
  $${\overline{\rho }}_{\text{person}}= 0.970\cdot \left(10^{3}\frac{\text{kg}}{ {\text{m}}^{3}}\right)=970\frac{\text{kg}}{ {\text{m}}^{3}}. $$
 </div>
+
 **Discussion**
 
 Her density is less than the fluid density. We expect this because she floats.
 Body density is one indicator of a person’s percent body fat, of interest in
 medical diagnostics and athletic training. (See [[Figure 6]](#Figure6).)
 
-</div>
+:::
 
 ![The weight of a person can be determined while submerged in a fat tank. Based on this, the percentage of body weight can be calculated.](../resources/Figure_11_07_06.jpg 'Subject in a hydrostatis weighing device, where they are weighed while completely submerged as part of a body density determination. The subject must completely empty their lungs and hold a metal weight in order to sink. Corrections are made for the residual air in their lungs (measured separately) and the metal weight. Their corrected submerged weight, their weight in air, and pinch tests of strategic fatty areas are used to calculate the percent body fat.')
 {: #Figure6}
@@ -326,10 +350,12 @@ or
 
 The next example illustrates the use of this technique.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Density: Is the Coin Authentic?
 </div>
+
 The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  $$ 1.000 {\text{g/cm}}^{3} $$
  and that effects caused by the wire suspending the coin are negligible.
 
@@ -352,13 +378,14 @@ coin using the definition of density:
 <div class="equation" >
  $${\rho }_{\text{c}}=\frac{ {m}_{\text{c}}}{ {V}_{c}}=\frac{8.630 \text{g}}{0.830\text{cm}^{3}}= 10.4 {\text{g/cm}}^{3}. $$
 </div>
+
 **Discussion**
 
 You can see from [[Table 1]](../contents/ch11Density#Table1) that this density is very
 close to that of pure silver, appropriate for this type of ancient coin. Most
 modern counterfeits are not pure silver.
 
-</div>
+:::
 
 This brings us back to Archimedes’ principle and how it came into being. As the
 story goes, the king of Syracuse gave Archimedes the task of determining whether
@@ -373,17 +400,20 @@ now-famous principle, saw how to apply it to determine density, and ran naked
 down the streets of Syracuse crying “Eureka!” (Greek for “I have found it”).
 Similar behavior can be observed in contemporary physicists from time to time!
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Density
 </div>
+
 When will objects float and when will they sink? Learn how buoyancy works with blocks.
 You can modify the properties of the blocks and the fluid.
 
 <div class="media" id="PhET_module" data-alt="buoyancy">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/density/latest/density_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -401,11 +431,15 @@ You can modify the properties of the blocks and the fluid.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 More force is required to pull the plug in a full bathtub than when it is empty. Does this contradict Archimedes' principle? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider whether the increased force is due to buoyancy or to water pressure acting on the plug.
 
@@ -426,15 +460,20 @@ Archimedes' principle concerns the buoyant force on a *submerged object*, which 
 **Discussion:**
 Archimedes' principle and hydrostatic pressure are related but distinct concepts. The buoyant force results from the *difference* in pressure on top and bottom of an object. For the plug, water pushes mainly on one side (top), with air at atmospheric pressure below. This pressure difference, not buoyancy, explains why pulling the plug is harder when the tub is full.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Do fluids exert buoyant forces in a "weightless" environment, such as in the space shuttle? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the origin of buoyant force (pressure difference due to gravity) and what happens when effective gravity is zero.
 
@@ -459,15 +498,20 @@ This has practical consequences on the International Space Station:
 
 Centrifuges on spacecraft can create artificial gravity to enable density-based separation when needed, such as in blood analysis equipment.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Will the same ship float higher in salt water than in freshwater? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Apply the relationship between fraction submerged and density ratio, and compare densities of salt and fresh water.
 
@@ -487,15 +531,20 @@ The ship rides about 2.5% higher in salt water.
 **Discussion:**
 This effect is noticeable in practice. Ships have "Plimsoll lines" marked on their hulls showing the maximum safe load levels for different water types (freshwater, summer saltwater, winter saltwater, etc.). When a ship travels from the ocean up a freshwater river, it sinks lower in the water and may need to reduce cargo. The Dead Sea (33% salt) is famous for how high swimmers float—roughly 30% of the body is above water compared to only 3-5% in freshwater.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Marbles dropped into a partially filled bathtub sink to the bottom. Part of their weight is supported by buoyant force, yet the downward force on the bottom of the tub increases by exactly the weight of the marbles. Explain why.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Apply Newton's third law and trace all forces in the system, including the buoyant force reaction.
 
@@ -516,17 +565,22 @@ The buoyant force doesn't "disappear"—it's transmitted through the water to th
 **Discussion:**
 This demonstrates that buoyancy is an internal force within the water-marble system. When calculating the force on the tub, we must consider the entire contents (water + marbles). The same principle explains why a boat floating in a swimming pool exerts a force on the pool floor equal to the boat's weight—the water transmits the weight to the pool bottom even though the boat floats.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What fraction of ice is submerged when it floats in freshwater, given the density of water at 0ºC is very close to  $$1000 \text{kg}{\text{/m}}^{3} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the relationship for floating objects: fraction submerged = $$ \rho_{\text{object}} / \rho_{\text{fluid}} $$.
 
@@ -539,16 +593,21 @@ $$ \text{fraction submerged} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} = \
 **Discussion:**
 Approximately **91.7%** of the ice is submerged when floating in freshwater. This means only about 8.3% of an iceberg's volume is visible above water—the origin of the phrase "tip of the iceberg." This property is unusual and vital for life: most substances are denser in their solid form than liquid form, but water expands when it freezes, making ice less dense. This allows ice to float, insulating the water below and allowing aquatic life to survive winter in frozen lakes. If ice sank, lakes would freeze from the bottom up, likely killing most aquatic organisms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Logs sometimes float vertically in a lake because one end has become water-logged and denser than the other. What is the average density of a uniform-diameter log that floats with  $$20.0\% $$
  of its length above water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the relationship between fraction submerged and density ratio for a floating object.
 
@@ -565,17 +624,22 @@ $$ \bar{\rho}_{\text{log}} = 0.800 \times 1000 \text{ kg/m}^3 = 800 \text{ kg/m}
 **Discussion:**
 The average density of the log is **800 kg/m³**. This is less than water (1000 kg/m³), which is consistent with the log floating. Fresh dry wood typically has a density of 400-700 kg/m³, while waterlogged wood can approach 1000 kg/m³. An average density of 800 kg/m³ suggests partially waterlogged wood, consistent with the scenario described where one end is heavier than the other.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the density of a fluid in which a hydrometer having a density of  $$0.750 \text{g}\text{/mL} $$
  floats with  $$92.0 \% $$
  of its volume submerged.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 For a floating object, the fraction submerged equals the ratio of object density to fluid density. Solve for fluid density.
 
@@ -593,16 +657,21 @@ $$ \rho_{\text{fluid}} = \frac{\rho_{\text{hydrometer}}}{\text{fraction submerge
 **Discussion:**
 The fluid density is approximately **815 kg/m³**. This is less than water (1000 kg/m³), so the fluid could be ethyl alcohol (790 kg/m³) or a similar organic liquid. Hydrometers work on this principle—the depth to which they sink indicates fluid density. Since the hydrometer has lower density than water, it would float higher (less submerged) in water than in this fluid, allowing density measurements by reading calibration marks on the stem.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If your body has a density of  $$995 \text{kg}{\text{/m}}^{3} $$ ,
  what fraction of you will be submerged when floating gently in: (a) freshwater? (b) salt water, which has a density of  $$1027 \text{kg}{\text{/m}}^{3} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the floating condition: fraction submerged = $$ \bar{\rho}_{\text{body}} / \rho_{\text{fluid}} $$
 
@@ -619,31 +688,41 @@ $$ \text{fraction submerged} = \frac{995 \text{ kg/m}^3}{1027 \text{ kg/m}^3} = 
 **Discussion:**
 In freshwater, **99.5%** of your body is submerged (only 0.5% above water). In salt water, **96.9%** is submerged (3.1% above water). The difference is significant—you float about 6× higher in salt water! This explains why it's easier to float in the ocean than in a pool. With lungs full of air, body density decreases to about 950 kg/m³, making floating even easier. The given density of 995 kg/m³ represents a person with lungs partially inflated.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Bird bones have air pockets in them to reduce their weight—this also gives them an average density significantly less than that of the bones of other animals. Suppose an ornithologist weighs a bird bone in air and in water and finds its mass is  $$45.0 \text{g} $$
  and its apparent mass when submerged is  $$3.60 \text{g} $$
  (the bone is watertight). (a) What mass of water is displaced? (b) What is the volume of the bone? (c) What is its average density?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 41.4 g
 
 (b) $$ 41.4 {\text{cm}}^{3} $$
 (c)  $$1.09 \text{g}{\text{/cm}}^{3} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A rock with a mass of 540 g in air is found to have an apparent mass of 342 g when submerged in water. (a) What mass of water is displaced? (b) What is the volume of the rock? (c) What is its average density? Is this consistent with the value for granite?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 The apparent mass loss equals the mass of water displaced. Use this to find volume, then calculate density.
 
@@ -662,29 +741,39 @@ $$ \rho_{\text{rock}} = \frac{m_{\text{rock}}}{V} = \frac{540 \text{ g}}{198 \te
 **Discussion:**
 The rock's density of **2.73 g/cm³** (or 2730 kg/m³) is **consistent with granite**, which has a density range of 2.65-2.75 g/cm³. This technique of weighing in air and water to determine density is called hydrostatic weighing and was reportedly invented by Archimedes himself to test the purity of King Hiero's crown.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Archimedes’ principle can be used to calculate the density of a fluid as well as that of a solid. Suppose a chunk of iron with a mass of 390.0 g in air is found to have an apparent mass of 350.5 g when completely submerged in an unknown liquid. (a) What mass of fluid does the iron displace? (b) What is the volume of iron, using its density as given in [[Table 1]](../contents/ch11Density#Table1) (c) Calculate the fluid’s density and identify it.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 39.5 g
 
 (b) $$50 {\text{cm}}^{3} $$
 (c) $$ 0.79 {\text{g/cm}}^{3} $$ It is ethyl alcohol.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In an immersion measurement of a woman's density, she is found to have a mass of 62.0 kg in air and an apparent mass of 0.0850 kg when completely submerged with lungs empty. (a) What mass of water does she displace? (b) What is her volume? (c) Calculate her density. (d) If her lung capacity is 1.75 L, is she able to float without treading water with her lungs filled with air?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use apparent mass loss to find displaced water mass and volume, calculate density, then determine if adding air volume allows floating.
 
@@ -712,15 +801,20 @@ Since $$ 974 \text{ kg/m}^3 < 1000 \text{ kg/m}^3 $$, **yes, she can float** wit
 **Discussion:**
 With empty lungs, her density (1001 kg/m³) slightly exceeds water's, so she sinks. With full lungs, her density drops to 974 kg/m³, allowing her to float with about 2.6% of her volume above water. This demonstrates why proper breathing technique is important for swimming—filling the lungs significantly reduces body density.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some fish have a density slightly less than that of water and must exert a force (swim) to stay submerged. What force must an 85.0-kg grouper exert to stay submerged in salt water if its body density is  $$1015 {\text{kg/m}}^{3} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Since the fish density is less than saltwater density, the buoyant force exceeds its weight. The fish must exert a downward force equal to this difference to remain submerged.
 
@@ -747,15 +841,20 @@ $$ F_{\text{down}} = F_B - W = 841 \text{ N} - 833 \text{ N} = 8.21 \text{ N} $$
 **Discussion:**
 The grouper must exert a downward force of approximately **8.2 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the buoyant force on a 2.00-L helium balloon. (b) Given the mass of the rubber in the balloon is 1.50 g, what is the net vertical force on the balloon if it is let go? You can neglect the volume of the rubber.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 The buoyant force equals the weight of air displaced. The net force is buoyant force minus the weight of the balloon (rubber + helium).
 
@@ -787,29 +886,39 @@ $$ F_{\text{net}} \approx 7.1 \times 10^{-3} \text{ N} $$ (upward)
 **Discussion:**
 The buoyant force is approximately **0.025 N**, and the net upward force is about **7.1 mN**. The balloon rises because helium is much less dense than air (about 14% of air's density), creating a net upward force. This small force explains why helium balloons rise slowly and can be held down by a light string.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the density of a woman who floats in freshwater with  $$4.00\% $$
  of her volume above the surface? This could be measured by placing her in a tank with marks on the side to measure how much water she displaces when floating and when held under water (briefly). (b) What percent of her volume is above the surface when she floats in seawater?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$960 {\text{kg/m}}^{3} $$
 (b)  $$6.34\% $$ She indeed floats more in seawater.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain man has a mass of 80 kg and a density of  $$955 {\text{kg/m}}^{3} $$
  (excluding the air in his lungs). (a) Calculate his volume. (b) Find the buoyant force air exerts on him. (c) What is the ratio of the buoyant force to his weight?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use density to find volume, then calculate buoyant force from air displaced.
 
@@ -835,27 +944,38 @@ $$ \frac{F_B}{W} = \frac{1.06 \text{ N}}{784 \text{ N}} = 0.00135 = 0.135\% $$
 **Discussion:**
 The man's volume is about **0.084 m³** (84 liters). Air exerts a buoyant force of approximately **1.06 N** on him, which is only about **0.14%** of his weight. This explains why we don't notice atmospheric buoyancy in everyday life—it makes us about 1 N (~0.2 lb) lighter, which is imperceptible. However, this effect is measurable in precision experiments and must be corrected for when weighing objects in air versus vacuum.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 A simple compass can be made by placing a small bar magnet on a cork floating in water. (a) What fraction of a plain cork will be submerged when floating in water? (b) If the cork has a mass of 10.0 g and a 20.0-g magnet is placed on it, what fraction of the cork will be submerged? (c) Will the bar magnet and cork float in ethyl alcohol?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 0.24 $$
 (b)  $$ 0.68 $$
 (c) Yes, the cork will float because  $${\rho }_{\text{obj}}<{\rho }_{\text{ethyl alcohol}}\left( 0.678 {\text{g/cm}}^{3}< 0.79 {\text{g/cm}}^{3}\right) $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What fraction of an iron anchor's weight will be supported by buoyant force when submerged in saltwater?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 The buoyant force equals the weight of saltwater displaced. The fraction supported is the ratio of buoyant force to weight.
 
@@ -877,15 +997,20 @@ $$ \frac{F_B}{W} = \frac{1025}{7870} = 0.130 = 13.0\% $$
 **Discussion:**
 Approximately **13%** of the iron anchor's weight is supported by the buoyant force when submerged in saltwater. This means the anchor has an "apparent weight" of about 87% of its true weight when underwater. While this doesn't make the anchor float (since 13% < 100%), it does explain why heavy objects feel lighter when submerged—divers can lift anchors and other heavy equipment underwater more easily than in air.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Scurrilous con artists have been known to represent gold-plated tungsten ingots as pure gold and sell them to the greedy at prices much below gold value but deservedly far above the cost of tungsten. With what accuracy must you be able to measure the mass of such an ingot in and out of water to tell that it is almost pure tungsten rather than pure gold?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy:**
 The apparent mass loss in water is proportional to density. Compare the fractional difference in apparent mass loss for gold versus tungsten.
 
@@ -916,16 +1041,21 @@ The measurement precision needed is approximately **0.1%** or better (closer to 
 **Discussion:**
 The required measurement accuracy is about **0.01%** or better. This is extremely challenging! Gold and tungsten have nearly identical densities (differing by only 0.1%), making them difficult to distinguish by density measurements alone. A 1-kg ingot would show an apparent mass difference of only about 1 gram when measured in water—easily obscured by measurement error. This is why gold-plated tungsten is a credible fraud: tungsten is much cheaper than gold but has almost the same density. Detecting such fraud requires either very precise density measurements (to 3-4 decimal places), destructive testing (drilling or cutting), or sophisticated techniques like X-ray fluorescence or ultrasound imaging.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A twin-sized air mattress used for camping has dimensions of 100 cm by 200 cm by 15 cm when blown up.
 The mass of the mattress when blown up is 2 kg. How heavy a person could the air mattress hold if it is placed in freshwater?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the maximum buoyant force (when fully submerged), subtract the mattress weight to find the maximum additional load.
 
@@ -950,17 +1080,22 @@ $$ m_{\text{person}} = \frac{W_{\text{person}}}{g} = \frac{2920 \text{ N}}{9.80 
 **Discussion:**
 The air mattress could support a person weighing up to approximately **298 kg** (about 660 pounds) before becoming fully submerged. In practice, you'd want to stay well below this limit to keep the mattress floating above water. A typical adult (70-80 kg) would only submerge about 25-30% of the mattress, leaving plenty of freeboard. The large surface area and 15 cm thickness provide substantial buoyancy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Figure 3]](#Figure3), prove that the buoyant force on the cylinder is equal to the weight of the fluid displaced (Archimedes’ principle). You may assume that the buoyant force is  $${F}_{2}-{F}_{1} $$
  and that the ends of the cylinder have equal areas  $$A $$ .
  Note that the volume of the cylinder (and that of the fluid it displaces) equals  $$\left({h}_{2}-{h}_{1}\right)A $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $${F}_{\text{net}}={F}_{2}-{F}_{1}={P}_{2}A-{P}_{1}A=\left({P}_{2}-{P}_{1}\right)A $$
  $$=\left({h}_{2}{\rho }_{\text{fl}}g-{h}_{1}{\rho }_{\text{fl}}g\right)A $$
  $$=\left({h}_{2}-{h}_{1}\right){\rho }_{\text{fl}}\text{gA} $$
@@ -970,17 +1105,22 @@ where  $${\rho }_{\text{fl}} $$
 $$ {F}_{\text{net}}=\left({h}_{2}-{h}_{1}\right)A\rho _{\text{fl}}g={V}_{\text{fl}}{\rho }_{\text{fl}}g={m}_{\text{fl}}g={w}_{\text{fl}} $$ where is
 $${w}_{\text{fl}} $$ the weight of the fluid displaced.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A 75.0-kg man floats in freshwater with  $$3.00\% $$
  of his volume above water when his lungs are empty, and  $$5.00\% $$
  of his volume above water when his lungs are full. Calculate the volume of air he inhales—called his lung capacity—in liters. (b) Does this lung volume seem reasonable?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the floating condition to find body volume in each state, then calculate the difference (which equals lung capacity).
 
@@ -1015,10 +1155,12 @@ A value of **1.63 L** represents a moderate breath, less than maximum capacity b
 **Discussion:**
 The lung capacity calculated is approximately **1.6 liters**, which is a reasonable value for a moderate inhalation. The calculation shows how sensitive floating is to lung volume—just 1.6 L of air (adding ~2% to body volume) raises the man 2 percentage points higher in the water. This explains why swimmers can control their buoyancy by adjusting their breathing.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1031,4 +1173,4 @@ buoyant force
 specific gravity
 : the ratio of the density of an object to a fluid (usually water)
 
-</div>
+:::

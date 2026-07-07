@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 25
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Illustrate image formation in a flat mirror.
 * Explain with ray diagrams the formation of an image using spherical mirrors.
 * Determine focal length and magnification given radius of curvature, distance of object and image.
-</div>
+
+:::
 
 We only have to look as far as the nearest bathroom to find an example of an
 image formed by a mirror. Images in flat mirrors are the same size as the object
@@ -115,10 +116,12 @@ same side of the mirror as the object. It is otherwise identical.
 ![Three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis and ray 3 passes through focal point F. These rays after reflection converge at a point below the axis. The image is inverted and enlarged and falls below the axis on the same side as the object. Here, the distance from the center of the mirror to F is the focal distance small f, distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively.](../resources/Figure_25_07_04.jpg 'A case 1 image for a mirror. An object is farther from the converging mirror than its focal length. Rays from a common point on the object are traced using the rules in the text. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 goes through the focal point on the way toward the mirror. All three rays cross at the same point after being reflected, locating the inverted real image. Although three rays are shown, only two of the three are needed to locate the image and determine its height.')
 {: #Figure4}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 A Concave Reflector
 </div>
+
 Electric room heaters use a concave mirror to reflect infrared (IR) radiation from hot coils. Note that IR follows the same law of reflection as visible light. Given that the mirror has a radius of curvature of 50.0 cm and produces an image of the coils 3.00 m away from the mirror, where are the coils?
 
 **Strategy and Concept**
@@ -139,23 +142,27 @@ to find $${d}_{\text{o}} $$ \:
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}\text{.} $$
 </div>
+
 Rearranging to isolate  $${d}_{\text{o}} $$  gives
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{o}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{i}}}\text{.} $$
 </div>
+
 Entering known quantities gives a value for  $$1/{d}_{\text{o}} $$
 \:
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{o}}}=\frac{1}{0.250 \text{m}}-\frac{1}{3.00 \text{m}}=\frac{ 3.667}{\text{m}}\text{.} $$
 </div>
+
 This must be inverted to find  $${d}_{\text{o}} $$
 \:
 
 <div class="equation" >
  $${d}_{\text{o}}=\frac{1 \text{m}}{ 3.667}= 27.3 \text{cm}. $$
 </div>
+
 **Discussion**
 
 Note that the object (the filament) is farther from the mirror than the mirror’s
@@ -174,12 +181,14 @@ away. As the object gets closer to the focal distance, the image gets farther
 away. In fact, as the object distance approaches the focal length, the image
 distance approaches infinity and the rays are sent out parallel to one another.
 
-</div>
+:::
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Solar Electric Generating System
 </div>
+
 One of the solar technologies used today for generating electricity is a device (called a parabolic trough or concentrating collector) that concentrates the sunlight onto a blackened pipe that contains a fluid. This heated fluid is pumped to a heat exchanger, where its heat energy is transferred to another system that is used to generate steam—and so generate electricity through a conventional steam cycle. [[Figure 5]](#Figure5) shows such a working system in southern California. Concave mirrors are used to concentrate the sunlight onto the pipe. The mirror has the approximate shape of a section of a cylinder. For the problem, assume that the mirror is exactly one-quarter of a full cylinder.
 
 1. If we wish to place the fluid-carrying pipe 40.0 cm from the concave mirror
@@ -216,11 +225,13 @@ $$A=\frac{1}{4}\left(2\pi R\right)L $$ . The area for a length of 1.00 m is then
 <div class="equation" >
  $$A=\frac{\pi }{2}R\left(1.00 \text{m}\right)=\frac{\left(3.14\right)}{2}\left(0.800 \text{m}\right)\left(1.00 \text{m} \right)=1.26 \text{m}^{2}. $$
 </div>
+
 The insolation on the 1.00-m length of pipe is then
 
 <div class="equation" >
  $$\left(9.00 \times 10^{2} \frac{W}{ \text{m}^{2}}\right)\left(1.26 \text{m}^{2}\right)=1130 \text{W}. $$
 </div>
+
 **Solution to (c)**
 
 The increase in temperature is given by $$Q=mc\Delta T $$ . The mass $$m $$ of
@@ -229,11 +240,13 @@ the mineral oil in the one-meter section of pipe is
 <div class="equation" >
  $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ m& =& \left(8.00 \times 10^{2} {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ m& =& 0.251 \text{kg}.\end{array} $$ 
 </div>
+
 Therefore, the increase in temperature in one minute is
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta T& =& Q/mc\\ \Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ \Delta T& =& 162\text{ºC} .\end{array} $$ 
 </div>
+
 **Discussion for (c)**
 
 An array of such pipes in the California desert can provide a thermal output of
@@ -271,12 +284,14 @@ smaller than the object.
 ![Figure (a) shows three incident rays, 1, 2, and 3, falling on a convex mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 falls obliquely. These rays after reflection appear to come from a point above the axis. The image is erect and diminished and falls above the axis behind the mirror. Here, the distance from the center of the mirror to focal point F is the focal length small f behind the mirror; the distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively. Figure (b) shows an image of a apparel and clothing show room as viewed in a convex mirror; the image appears to be small in size.](../resources/Figure_25_07_07.jpg "Case 3 images for mirrors are formed by any convex mirror. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches toward the focal point. All three rays appear to originate from the same point after being reflected, locating the upright virtual image behind the mirror and showing it to be smaller than the object. (b) Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared to what would be observed for a flat mirror (and hence security is improved). (credit: Laura D&#x2019;Alessandro, Flickr)")
 {: #Figure7}
 
-</div>
+:::
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Image in a Convex Mirror
 </div>
+
 A keratometer is a device used to measure the curvature of the cornea, particularly for fitting contact lenses. Light is reflected from the cornea, which acts like a convex mirror, and the keratometer measures the magnification of the image. The smaller the magnification, the smaller the radius of curvature of the cornea. If the light source is 12.0 cm from the cornea and the image’s magnification is 0.0320, what is the cornea’s radius of curvature?
 
 **Strategy**
@@ -293,29 +308,35 @@ $$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_{\text{i
 <div class="equation" >
  $${d}_{\text{i}}=- m  d_{\text{o}}\text{.} $$
 </div>
+
 Entering known values yields
 
 <div class="equation" >
  $${d}_{\text{i}}=-\left( 0.0320\right)\left(12.0 \text{cm}\right)=-0.384 \text{cm} \text{.}  $$
 </div>
+
 <div class="equation" >
  $$\frac{1}{f}=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}} $$
 </div>
+
 Substituting known values,
 
 <div class="equation" >
  $$\frac{1}{f}=\frac{1}{12.0 \text{cm}}+\frac{1}{-0.384 \text{cm}}=\frac{ -2.52}{\text{cm}}\text{.} $$
 </div>
+
 This must be inverted to find  $$f $$ \:
 
 <div class="equation" >
  $$f=\frac{\text{cm}}{ - 2.52}= -0.400 \text{cm}\text{.} $$
 </div>
+
 The radius of curvature is twice the focal length, so that
 
 <div class="equation" >
  $$R=2\mid f\mid =0.800 \text{cm} \text{.}  $$
 </div>
+
 **Discussion**
 
 Although the focal length $$f $$ of a convex mirror is defined to be negative,
@@ -334,15 +355,17 @@ of [Image Formation by Lenses](../contents/ch25ImageFormationByLenses). It is ea
 three types of images—then remember that concave mirrors act like convex lenses,
 whereas convex mirrors act like concave lenses.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Concave Mirrors Close to Home
 </div>
+
 Find a flashlight and identify the curved mirror used in it. Find another flashlight and shine the first flashlight onto the second one, which is turned off. Estimate the focal length of the mirror. You might try shining a flashlight on the curved mirror behind the headlight of a car, keeping the headlight switched off, and determine its focal length.
 
-</div>
+:::
 
 ### Problem-Solving Strategy for Mirrors
 {: #Note1}
@@ -371,104 +394,143 @@ ray tracing rules for mirrors listed earlier in this section.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the differences between real and virtual images? How can you tell (by looking) whether an image formed by a single lens or mirror is real or virtual?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can you see a virtual image? Can you photograph one? Can one be projected onto a screen with additional lenses or mirrors? Explain your responses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is it necessary to project a real image onto a screen for it to exist?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what distance is an image **always** located—at  $${d}_{\text{o}} $$ ,
   $${d}_{\text{i}} $$ ,
  or  $$f $$ ?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Under what circumstances will an image be located at the focal point of a lens or mirror?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is meant by a negative magnification? What is meant by a magnification that is less than 1 in magnitude?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can a case 1 image be larger than the object even though its magnification is always negative? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 8]](#Figure8) shows a light bulb between two mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into the beam. Where is the filament of the light in relation to the focal point or radius of curvature of each mirror?
 
 ![Two concave mirrors of different sizes are placed facing one another. A filament bulb is placed at the focus of the larger mirror. The rays after reflection from the larger mirror travel parallel to one another. The rays falling on the smaller mirror retrace their paths.](../resources/Figure_25_07_08.jpg "The two mirrors trap most of the bulb&#x2019;s light and form a directional beam as in a headlight.")
 {: #Figure8}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Devise an arrangement of mirrors allowing you to see the back of your head. What is the minimum number of mirrors needed for this task?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you wish to see your entire body in a flat mirror (from head to toe), how tall should the mirror be? Does its size depend upon your distance away from the mirror? Provide a sketch.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 It can be argued that a flat mirror has an infinite focal length. If so, where does it form an image? That is, how are  $${d}_{\text{i}} $$
  and  $${d}_{\text{o}} $$
  related?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are diverging mirrors often used for rear-view mirrors in vehicles? What is the main disadvantage of using such a mirror compared with a flat one?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the focal length of a makeup mirror that has a power of 1.50 D?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -486,15 +548,19 @@ $$f = \frac{1}{P} = \frac{1}{1.50 \text{ D}} = 0.667 \text{ m} = 66.7 \text{ cm}
 
 The positive focal length indicates this is a concave (converging) mirror, which is appropriate for a makeup mirror. When you position your face within the focal length of a concave mirror, it produces an enlarged, upright virtual image—ideal for applying makeup or examining your face closely. A focal length of 66.7 cm means you would typically use this mirror at a distance of 20-30 cm from your face to get a magnified image. The relatively long focal length (compared to typical face-to-mirror distances) ensures comfortable magnification without excessive distortion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some telephoto cameras use a mirror rather than a lens. What radius of curvature mirror is needed to replace a 800 mm focal length telephoto lens?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -512,15 +578,19 @@ $$R = 2f = 2(800 \text{ mm}) = 1600 \text{ mm} = 1.60 \text{ m}$$
 
 Mirror-based telephoto systems (called catadioptric or "cat" lenses) use a concave primary mirror with $$R = 1.6 \text{ m}$$ to achieve the same focal length as an 800 mm lens. These systems are more compact than traditional telephoto lenses because light folds back on itself, but they typically have a central obstruction that creates characteristic "donut-shaped" out-of-focus highlights (bokeh). They're popular for astronomy and wildlife photography where compactness is important.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the focal length of the mirror formed by the shiny back of a spoon that has a 3.00 cm radius of curvature. (b) What is its power in diopters?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -544,15 +614,19 @@ $$P = \frac{1}{f} = \frac{1}{-0.0150 \text{ m}} = -66.7 \text{ D}$$
 
 The negative focal length and negative power confirm this is a diverging (convex) mirror. The back of a spoon acts like a security mirror—it produces a small, upright, virtual image. The very short focal length (only 1.5 cm) means the mirror has strong diverging power, creating a highly reduced image. If you look at your reflection in the back of a spoon, you'll see a small, distorted version of yourself. The large magnitude of the power (66.7 D) is much greater than typical eyeglass lenses, which range from about −10 D to +10 D, indicating how strongly curved this small mirror is.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the magnification of the heater element in [[Example 1]](#Example1). Note that its large magnitude helps spread out the reflected energy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -570,16 +644,20 @@ $$m = -\frac{d_i}{d_o} = -\frac{300 \text{ cm}}{27.3 \text{ cm}} = -11.0$$
 
 The negative sign indicates the image is inverted. The large magnitude (11.0) means the image is 11 times larger than the object. This magnification helps spread the thermal energy from the heating element over a larger area, reducing the intensity at any single point and making the heater safer and more comfortable. Without this magnification, the reflected heat would be concentrated in a small, potentially uncomfortably hot spot.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person's face is 12.0 cm away?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -621,16 +699,20 @@ $$f = 0.360 \text{ m} = 36.0 \text{ cm}$$
 
 The positive focal length confirms this is a concave (converging) mirror, as expected for a makeup mirror. The object (face) is at 12.0 cm, which is less than the focal length of 36.0 cm, placing it within the focal point. This configuration produces a magnified (1.50×), upright, virtual image—exactly what's wanted for a makeup mirror. The person sees their face 50% larger than actual size, making it easier to see details. This is a case 2 image for mirrors, analogous to using a magnifying glass.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What is its radius of curvature?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -677,15 +759,19 @@ $$R = 2|f| = 2(1.00 \text{ m}) = 2.00 \text{ m}$$
 
 These results are consistent with a convex security mirror. The negative focal length confirms it's a diverging (convex) mirror. The image appears at 0.75 m behind the mirror (1/4 the object distance), appears 1/4 the size, and is upright. These properties allow security mirrors to provide a wide field of view, letting store security personnel see a large area in a compact mirror. The trade-off is that objects appear smaller and distances are difficult to judge.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An object 1.50 cm high is held 3.00 cm from a person's cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -733,16 +819,20 @@ $$R = 2|f| = 2(0.375 \text{ cm}) = 0.750 \text{ cm}$$
 
 This technique (keratometry) is essential for fitting contact lenses. The cornea acts as a convex mirror with a radius of curvature of about 7.5 mm—very small but reasonable for the human eye. The positive magnification indicates an upright image, and the small magnitude (0.111) shows the image is much reduced, both consistent with a convex mirror. The negative image distance confirms the image is virtual and located behind the "mirror" (inside the cornea). Modern keratometers use this principle but with sophisticated optics to measure corneal curvature precisely at multiple points, which is crucial for diagnosing conditions like astigmatism and for fitting specialty contact lenses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated  $${d}_{\text{i}}=-d_{\text{o}} $$ ,
  since this is a negative image distance (it is a virtual image). (a) What is the focal length of a flat mirror? (b) What is its power?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -771,29 +861,38 @@ $$P = \frac{1}{f} = \frac{1}{\infty} = 0 \text{ D}$$
 
 A flat mirror has infinite focal length and zero power, which makes sense—it neither converges nor diverges light rays. This is consistent with our earlier proof that a flat mirror preserves the angle between rays. You can think of a flat mirror as the limiting case of a curved mirror as the radius of curvature approaches infinity. Since $$f = R/2$$, as $$R \to \infty$$, we get $$f \to \infty$$ and $$P \to 0$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that for a flat mirror  $${h}_{\text{i}}={h}_{\text{o}} $$ ,
  knowing that the image is a distance behind the mirror equal in magnitude to the distance of the object from the mirror.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation"  >
  $$m=\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{-{d}_{\text{o}}}{ {d}_{\text{o}}}=\frac{ {d}_{\text{o}}}{ {d}_{\text{o}}}=1⇒{h}_{\text{i}}={h}_{\text{o}} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use the law of reflection to prove that the focal length of a mirror is half its radius of curvature. That is, prove that  $$f=R/2 $$ .
  Note this is true for a spherical mirror only if its diameter is small compared with its radius of curvature.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -834,17 +933,21 @@ $$f = \frac{R}{2}$$
 
 This proof works for the paraxial approximation (rays close to the axis, $$h \ll R$$). For a spherical mirror with large aperture, rays far from the axis don't all converge at the same point, causing spherical aberration. Parabolic mirrors avoid this problem—all parallel rays converge at a single focal point regardless of distance from the axis. However, spherical mirrors are much easier and cheaper to manufacture, so they're used when spherical aberration can be minimized by keeping the aperture small relative to the radius of curvature.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to the electric room heater considered in the first example in this section, calculate the intensity of IR radiation in  $${\text{W/m}}^{2} $$
  projected by the concave mirror on a person 3.00 m away. Assume that the heating element radiates 1500 W and has an area of  $$100 {\text{cm}}^{2} $$ ,
  and that half of the radiated power is reflected and focused by the mirror.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -877,17 +980,22 @@ $$I = \frac{P}{A_{\text{eff}}} = \frac{750 \text{ W}}{0.110 \text{ m}^2} = 6820 
 
 This high intensity (about 7 times the intensity of direct sunlight at Earth's surface) explains why standing in front of an electric heater with a concave reflector feels so warm. The mirror concentrates 750 W of infrared radiation into a relatively small area of about 0.110 m². This focused distribution is much more effective at warming a specific location than an unreflected heater that radiates uniformly in all directions. The concentration effect is why these heaters work best when you're positioned at the focal distance—too close or too far reduces the heating effect.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a 250-W heat lamp fixed to the ceiling in a bathroom. If the filament in one light burns out then the remaining three still work. Construct a problem in which you determine the resistance of each filament in order to obtain a certain intensity projected on the bathroom floor. The ceiling is 3.0 m high. The problem will need to involve concave mirrors behind the filaments. Your instructor may wish to guide you on the level of complexity to consider in the electrical components.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -902,4 +1010,4 @@ away (diverge) from its axis
 law of reflection
 : angle of reflection equals the angle of incidence
 
-</div>
+:::

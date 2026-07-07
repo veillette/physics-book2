@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 7
 ---
-
 ![A field with four wind turbines and the Sun setting in the background.](../resources/Figure_07_00_01.jpg 'How many forms of energy can you identify in this photograph of a wind farm in Iowa? (credit: Jürgen from Sandesneben, Germany, Wikimedia Commons)')
 {: #Figure1}
 
@@ -45,6 +44,8 @@ of energy with work, we begin the chapter with a discussion of work. Work is
 intimately related to energy and how energy moves from one system to another or
 changes form.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8_TjOq5BNo8"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

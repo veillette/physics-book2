@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the Hall effect.
 * Calculate the Hall emf across a current-carrying conductor.
-</div>
+
+:::
 
 We have seen effects of a magnetic field on free-moving charges. The magnetic
 field also affects charges moving in a conductor. One result is the Hall effect,
@@ -93,10 +94,12 @@ directions of $$B $$ and $$v $$ . The magnitude of the Hall emf is $$\epsilon =B
 ![Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.](../resources/Figure_22_06_03.jpg 'The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf ( \\epsilon ) is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity ( v ) .')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Hall emf: Hall Effect for Blood Flow
 </div>
+
 A Hall effect flow probe is placed on an artery, applying a 0.100-T magnetic field across it, in a setup similar to that in [[Figure 3]](#Figure3). What is the Hall emf, given the vessel’s inside diameter is 4.00 mm and the average blood velocity is 20.0 cm/s?
 
 **Strategy**
@@ -111,6 +114,7 @@ Entering the given values for $$B $$ , $$v $$ , and $$l $$ gives
 <div class="equation" >
  $$\begin{array}{lll}\epsilon & =& Blv=\left(0.100 \text{T}\right)\left( 4.00 \times 10^{-3}  m\right)\left(0.200\text{ m/s}\right)\\ & =& 80.0 \text{μV}\end{array} $$
 </div>
+
 **Discussion**
 
 This is the average voltage output. Instantaneous voltage varies with pulsating
@@ -122,7 +126,7 @@ emf is AC with the same frequency. An amplifier can be very selective in picking
 out only the appropriate frequency, eliminating signals and noise at other
 frequencies.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -138,21 +142,27 @@ frequencies.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss how the Hall effect could be used to obtain information on free charge density in a conductor. (Hint: Consider how drift velocity and current are related.)
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large water main is 2.50 m in diameter and the average water velocity is 6.00 m/s. Find the Hall voltage produced if the pipe runs perpendicular to the Earth’s  $$ 5.00 \times 10^{-5} \text{-T} $$
  field.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -177,15 +187,19 @@ This Hall voltage of 0.75 mV is small but measurable. The principle is used in e
 
 **The Hall voltage produced is $$7.50 \times 10^{-4}$$ V (0.750 mV).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What Hall voltage is produced by a 0.200-T field applied across a 2.60-cm-diameter aorta when blood velocity is 60.0 cm/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -210,16 +224,20 @@ This 3.12 mV signal is easily detectable with modern electronics. Electromagneti
 
 **The Hall voltage produced across the aorta is 3.12 mV.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the speed of a supersonic aircraft with a 17.0-m wingspan, if it experiences a 1.60-V Hall voltage between its wing tips when in level flight over the north magnetic pole, where the Earth’s field strength is  $$ 8.00 \times 10^{-5}  \text{T} $$ ?
  (b) Explain why very little current flows as a result of this Hall voltage.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -262,15 +280,19 @@ At 1180 m/s, this aircraft is traveling faster than a rifle bullet! The 1.60 V H
 
 **(b) No current flows because once the Hall voltage is established, the electric force on charges equals and opposes the magnetic force, resulting in equilibrium with no net force to drive current.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A nonmechanical water meter could utilize the Hall effect by applying a magnetic field across a metal pipe and measuring the Hall voltage produced. What is the average fluid velocity in a 3.00-cm-diameter pipe, if a 0.500-T field across it creates a 60.0-mV Hall voltage?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -297,15 +319,19 @@ This 4 m/s velocity is quite fast for a 3 cm pipe—it would correspond to a vol
 
 **The average fluid velocity is 4.00 m/s.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the Hall voltage induced on a patient’s heart while being scanned by an MRI unit. Approximate the conducting path on the heart wall by a wire 7.50 cm long that moves at 10.0 cm/s perpendicular to a 1.50-T magnetic field.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -330,16 +356,20 @@ This 11.3 mV Hall voltage is small compared to the heart's natural electrical si
 
 **The Hall voltage induced on the heart wall is 11.3 mV.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A Hall probe calibrated to read  $$1.00 \text{μV} $$
  when placed in a 2.00-T field is placed in a 0.150-T field. What is its output voltage?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -367,15 +397,19 @@ The linear relationship between Hall voltage and magnetic field makes Hall probe
 
 **The output voltage in the 0.150-T field is 0.0750 μV (75.0 nV).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using information in [[Example 2]](../contents/ch20ResistanceAndResistivity#Example2), what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -412,15 +446,19 @@ The Hall voltage of about 1.5 μV is extremely small despite the strong 2 T fiel
 
 **The Hall voltage across the copper wire is approximately 1.16 μV (or about 1.5 μV with slightly different values).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that the Hall voltage across wires made of the same material, carrying identical currents, and subjected to the same magnetic field is inversely proportional to their diameters. (Hint: Consider how drift velocity depends on wire diameter.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -460,15 +498,19 @@ This inverse relationship makes physical sense. A thinner wire has a smaller cro
 
 **The Hall voltage is inversely proportional to wire diameter: $$\epsilon = \frac{4BI}{nq\pi d} \propto \frac{1}{d}$$.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A patient with a pacemaker is mistakenly being scanned for an MRI image. A 10.0-cm-long section of pacemaker wire moves at a speed of 10.0 cm/s perpendicular to the MRI unit's magnetic field and a 20.0-mV Hall voltage is induced. What is the magnetic field strength?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -497,10 +539,12 @@ A 2.00 T field is typical for clinical MRI machines (common values are 1.5 T and
 
 **The magnetic field strength is 2.00 T.**
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -512,4 +556,4 @@ Hall emf
 : the electromotive force created by a current-carrying conductor by a magnetic
 field, $$\epsilon =Blv $$
 
-</div>
+:::

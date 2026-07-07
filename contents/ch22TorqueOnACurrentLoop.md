@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 8
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe how motors and meters work in terms of torque on a current loop.
 * Calculate the torque on a current-carrying loop in a magnetic field.
-</div>
+
+:::
 
 **Motors** are the most common application of magnetic force on current-carrying
 wires. Motors have loops of wire in a magnetic field. When current is passed
@@ -65,10 +66,12 @@ current$$I$$ , has$$N$$ turns, each of area$$A$$ , and the perpendicular
 to the loop makes an angle$$\theta$$ with the field$$B$$. The net force on
 the loop is zero.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Torque on a Current-Carrying Loop in a Strong Magnetic Field
 </div>
+
 Find the maximum torque on a 100-turn square loop of a wire of 10.0 cm on a side that carries 15.0 A of current in a 2.00-T field.
 
 **Strategy**
@@ -83,16 +86,18 @@ For$$\sin \theta =1$$, the maximum torque is
 <div class="equation">
 $${\tau }_{\text{max}}=NIAB$$
 </div>
+
 Entering known values yields
 
 <div class="equation">
 $$\begin{array}{lll}{\tau }_{\text{max}}& =& \left(100\right)\left(15.0 \text{A}\right)\left(0.100 {\text{m}}^{2}\right)\left(2.00 \text{T}\right)\\ & =& 30.0 \text{N}\cdot \text{m}\end{array}$$
 </div>
+
 **Discussion**
 
 This torque is large enough to be useful in a motor.
 
-</div>
+:::
 
 The torque found in the preceding example is the maximum. As the coil rotates,
 the torque decreases to zero at$$\theta =0$$ . The torque then _reverses_ its
@@ -127,8 +132,9 @@ magnetic field$$B$$ , and low-resistance coils.
 - The torque$$\tau$$ on a current-carrying loop of any shape in a uniform
   magnetic field is
   <div class="equation">
-$$\tau =NIAB \sin \theta$$
+  $$\tau =NIAB \sin \theta$$
   </div>
+
      where$$N$$ is the number of turns,
 $$I$$ is the current,$$A$$ is the area of the loop,
 $$B$$ is the magnetic field strength, and
@@ -137,20 +143,26 @@ $$\theta$$ is the angle between the perpendicular to the loop and the magnetic f
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Draw a diagram and use RHR-1 to show that the forces on the top and bottom segments of the motor’s current loop in [[Figure 1]](#Figure1) are vertical and produce no torque about the axis of rotation.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div id="Exercise1" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) By how many percent is the torque of a motor decreased if its permanent magnets lose 5.0% of their strength? (b) How many percent would the current need to be increased to return the torque to original values?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -186,14 +198,19 @@ This is an inverse proportionality: a 5% decrease in$$B$$ requires slightly more
 
 **(b) The current must increase by 5.26% to restore the original torque.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the maximum torque on a 150-turn square loop of wire 18.0 cm on a side that carries a 50.0-A current in a 1.60-T field? (b) What is the torque when$$\theta$$  is$$ 10.9º$$ ?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -230,16 +247,20 @@ The torque of 389 N·m at maximum is quite large—comparable to the torque outp
 
 **(b) The torque at$$\theta = 10.9°$$ is 73.5 N·m.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Find the current through a loop needed to create a maximum torque of$$9.00 \text{N}\cdot \text{m} \text{.}$$
  The loop has 50 square turns that are 15.0 cm on a side and is in a uniform 0.800-T magnetic field.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -270,15 +291,19 @@ This is a moderate current for a practical motor or demonstration device. The lo
 
 **The required current is 10.0 A.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the magnetic field strength needed on a 200-turn square loop 20.0 cm on a side to create a maximum torque of$$300 \text{N}\cdot \text{m}$$  if the loop is carrying 25.0 A.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -307,15 +332,19 @@ A 1.50 T field is achievable with strong permanent magnets or electromagnets. Th
 
 **The required magnetic field strength is 1.50 T.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Since the equation for torque on a current-carrying loop is$$\tau =NIAB \sin \theta$$ , the units of$$ \text{N} \cdot \text{m}$$  must equal units of$$\text{A}\cdot {m}^{2} \text{T}$$. Verify this.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -347,16 +376,20 @@ This dimensional analysis verifies the consistency of the torque equation. The t
 
 **Verified:$$\text{A} \cdot \text{m}^{2} \cdot \text{T} = \text{A} \cdot \text{m}^{2} \cdot \frac{\text{N}}{\text{A} \cdot \text{m}} = \text{N·m}$$.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what angle$$\theta$$
  is the torque on a current loop 90.0% of maximum? (b) 50.0% of maximum? (c) 10.0% of maximum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -392,16 +425,20 @@ These results show that torque drops off slowly at first but then rapidly as$$\t
 
 **(c)$$\theta = 5.74°$$**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A proton has a magnetic field due to its spin on its axis. The field is similar to that created by a circular current loop$$ 0.650 \times 10^{-15}  m$$ in radius with a current of$$ 1.05 \times 10^{4}  A$$
  (no kidding). Find the maximum torque on a proton in a 2.50-T field. (This is a significant torque on a small particle.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -429,16 +466,20 @@ This tiny torque on a single proton is indeed significant at the atomic scale. I
 
 **The maximum torque on the proton is$$3.48 \times 10^{-26}$$ N·m.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The Earth's field here is due north, parallel to the ground, with a strength of$$ 3.00 \times 10^{-5} \text{T}$$ .
  What are the direction and magnitude of the torque on the loop? (b) Does this device have any practical applications as a motor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -485,16 +526,20 @@ Motors require strong magnetic fields (typically 0.1–2 T from permanent magnet
 
 **(b) This device would not be practical as a motor due to the extremely weak torque from Earth's field, which is about 10,000 times weaker than fields used in actual motors.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [[Exercise 1]](#Exercise1), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth's field is north, but at an angle$$ 45.0º$$
  below the horizontal and with a strength of$$6.00\times 10^{-5} \text{T}$$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -547,10 +592,12 @@ The vertical component of the field doesn't contribute to torque because it's pa
 
 **(b) This would not be practical as a motor. The torque is weak, and the current would need to alternate to produce continuous rotation (otherwise the loop would just oscillate about its equilibrium position).**
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -563,4 +610,4 @@ meter
 : common application of magnetic torque on a current-carrying loop that is very
 similar in construction to a motor; by design, the torque is proportional to$$I$$ and not$$\theta$$, so the needle deflection is proportional to the current
 
-</div>
+:::

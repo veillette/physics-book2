@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 1
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define Yukawa particle.
 * State the Heisenberg uncertainty principle.
 * Describe pion.
 * Estimate the mass of a pion.
 * Explain meson.
-</div>
+
+:::
 
 Particle physics as we know it today began with the ideas of Hideki Yukawa in 1935. Physicists had long been concerned with how forces are transmitted,
 finding the concept of fields, such as electric and magnetic fields to be
@@ -57,10 +58,12 @@ nuclear force to estimate the mass of the pion, the particle that carries it.
 The steps of his reasoning are approximately retraced in the following worked
 example:
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Mass of a Pion
 </div>
+
 Taking the range of the strong nuclear force to be about 1 fermi ( $$ 10^{-15} \text{m} $$ ), 
 calculate the approximate mass of the pion carrying the force, assuming it moves at nearly the speed of light.
 
@@ -87,30 +90,34 @@ during which it exists is approximately
 <div class="equation" >
  $$\begin{array}{lll}\Delta t& \approx & \frac{d}{c}=\frac{  10^{-15} \text{m}}{ 3.0 \times 10^{8}  \text{m/s}}\\ & \approx &  3.3 \times 10^{-24}  \text{s} \text{.} \end{array} $$
 </div>
+
 Now, solving the Heisenberg uncertainty principle for  $$\Delta E $$
  gives
 
 <div class="equation" >
  $$\Delta E\approx \frac{h}{4\pi \Delta t}\approx \frac{ 6.63 \times 10^{-34}  \text{J}\cdot \text{s}}{4\pi \left( 3.3 \times 10^{-24}  \text{s}\right)}\text{.} $$
 </div>
+
 Solving this and converting the energy to MeV gives
 
 <div class="equation" >
  $$\Delta E\approx \left( 1.6 \times 10^{-11}  \text{J}\right)\frac{1 \text{MeV}}{ 1.6 \times 10^{-13}  \text{J}}=100 \text{MeV}\text{.} $$
 </div>
+
 Mass is related to energy by  $$\Delta E=mc^{2} $$ ,
  so that the mass of the pion is  $$m=\Delta E/{c}^{2} $$, or
 
 <div class="equation" >
  $$m\approx 100 \text{MeV/}{c}^{2}\text{.} $$
 </div>
+
 **Discussion**
 
 This is about 200 times the mass of an electron and about one-tenth the mass of
 a nucleon. No such particles were known at the time Yukawa made his bold
 proposal.
 
-</div>
+:::
 
 Yukawa’s proposal of particle exchange as the method of force transfer is
 intriguing. But how can we verify his proposal if we cannot observe the virtual
@@ -152,24 +159,33 @@ relations to forces that have led to profound insights into nature’s secrets.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A virtual particle having an approximate mass of  $$ 10^{14} \text{GeV/}{c}^{2} $$
  may be associated with the unification of the strong and electroweak forces. For what length of time could this virtual particle exist (in temporary violation of the conservation of mass-energy as allowed by the Heisenberg uncertainty principle)?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$3 \times 10^{-39} \text{s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the mass in  $$\text{GeV/}{c}^{2} $$
  of a virtual carrier particle that has a range limited to  $$ 10^{-30} $$
  m by the Heisenberg uncertainty principle. Such a particle might be involved in the unification of the strong and electroweak forces.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -205,21 +221,29 @@ $$m = \frac{\Delta E}{c^2} \approx 10^{5} \text{ GeV/}c^2 = 100 \text{ TeV/}c^2$
 
 This mass is extraordinarily large—about 100,000 times the mass of a proton (0.938 GeV/$$c^2$$). Such particles would require energies far beyond what any conceivable accelerator could produce. This is why grand unified theories that predict these particles cannot be directly tested in the laboratory. The very short range ($$10^{-30}$$ m) corresponds to extremely high energy scales, characteristic of conditions that may have existed only in the very early universe, fractions of a second after the Big Bang. This illustrates why cosmology and particle physics are intimately connected in exploring grand unification.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Another component of the strong nuclear force is transmitted by the exchange of virtual *K*-mesons. Taking *K*-mesons to have an average mass of  $$495 \text{MeV/}{c}^{2} $$ ,
  what is the approximate range of this component of the strong force?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$ 1.99 \times 10^{-16}  \text{m}  \left( 0.2 \text{fm}\right) $$
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -233,4 +257,4 @@ observed
 meson
 : particle whose mass is intermediate between the electron and nucleon masses
 
-</div>
+:::

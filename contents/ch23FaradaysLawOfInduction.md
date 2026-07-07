@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate emf, current, and magnetic fields using Faraday’s Law.
 * Explain the physical results of Lenz’s Law
-</div>
+
+:::
 
 ### Faraday’s and Lenz’s Law
 
@@ -40,10 +41,12 @@ See [[Figure 1]](#Figure1).)
 ![Part a of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The strength of the magnetic field increases in the coil. The current induced in the coil I creates another field B coil, in the opposite direction of the bar magnet to oppose the increase. So B mag and B coil are in opposite directions. In part b of the diagram, the magnet is moved away from the coil. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I creates another field B coil, in the same direction as the field of the bar magnet. So B mag and B coil are in same directions. Part c of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the south pole of the magnet is shown to face the coil. The magnetic lines of force are shown to merge into the South Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I, creates another field B coil, in the opposite direction of field of the bar magnet. So B mag and B coil are in opposite directions.](../resources/Figure_23_02_01.jpg '(a) When this bar magnet is thrust into the coil, the strength of the magnetic field increases in the coil. The current induced in the coil creates another field, in the opposite direction of the bar magnet’s to oppose the increase. This is one aspect of Lenz’s law—induction opposes any change in flux. (b) and (c) are two other situations. Verify for yourself that the direction of the induced ( B_\\text{coil} ) shown indeed opposes the change in flux and that the current direction shown is consistent with RHR-2. ')
 {: #Figure1}
 
-<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","id":"Note1","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategy for Lenz’s Law
 </div>
+
 To use Lenz’s law to determine the directions of the induced magnetic fields, currents, and emfs:
 
 1. Make a sketch of the situation for use in visualizing and recording
@@ -58,7 +61,7 @@ To use Lenz’s law to determine the directions of the induced magnetic fields, 
    this direction and can be represented as current emerging from the positive
    terminal of the emf and returning to its negative terminal.
 
-</div>
+:::
 
 For practice, apply these steps to the situations shown
 in [[Figure 1]](#Figure1) and to others that are part of the following text
@@ -133,18 +136,22 @@ pickup coil located nearby has an alternating current induced in it due to the
 changing magnetic field of the initial wire. If the child stops breathing, there
 will be a change in the induced current, and so a parent can be alerted.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Conservation of Energy
 </div>
+
 Lenz’s law is a manifestation of the conservation of energy. The induced emf produces a current that opposes the change in flux, because a change in flux means a change in energy. Energy can enter or leave, but not instantaneously. Lenz’s law is a consequence. As the change begins, the law says induction opposes and, thus, slows the change. In fact, if the induced emf were in the same direction as the change in flux, there would be a positive feedback that would give us free energy from no apparent source—conservation of energy would be violated.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Emf: How Great Is the Induced Emf?
 </div>
+
 Calculate the magnitude of the induced emf when the magnet in [[Figure 1]](#Figure1)(a) is thrust into the coil, given the following information: the single loop coil has a radius of 6.00 cm and the average value of  $$B \cos \theta  $$
  (this is given, since the bar magnet’s field is complex) increases from 0.0500 T to 0.250 T in 0.100 s.
 
@@ -157,6 +164,7 @@ that indicates direction:
 <div class="equation" >
  $$\text{emf}=N\frac{\Delta \Phi }{\Delta t}\text{.} $$
 </div>
+
 **Solution**
 
 We are given that $$N=1 $$ and $$\Delta t= 0.100 \text{s} $$ , but we must
@@ -166,6 +174,7 @@ area of the loop is fixed, we see that
 <div class="equation" >
  $$\Delta \Phi =\Delta \left(BA \cos \theta \right)=A\Delta \left(B \cos \theta \right). $$
 </div>
+
 Now  $$\Delta \left(B \cos \theta \right)=0.200 \text{T} $$ ,
  since it was given that  $$B \cos \theta  $$
  changes from 0.0500 to 0.250 T. The area of the loop is  $$A=\pi r^2=\left( 3.14\text{...}\right){\left(0.060 \text{m}\right)}^{2}= 1.13 \times 10^{-2}  {\text{m}}^{2} $$ .
@@ -174,23 +183,27 @@ Now  $$\Delta \left(B \cos \theta \right)=0.200 \text{T} $$ ,
 <div class="equation" >
  $$\Delta \Phi =\left( 1.13 \times 10^{-2} {\text{m}}^{2}\right)\left(0.200 \text{T}\right). $$
 </div>
+
 Entering the determined values into the expression for emf gives
 
 <div class="equation" >
  $$\text{Emf}=N\frac{\Delta \Phi }{\Delta t}=\frac{\left( 1.13 \times 10^{-2}  {\text{m}}^{2}\right)\left( 0.200 \text{T}\right)}{ 0.100 \text{s}}= 22.6 \text{mV} \text{.}  $$
 </div>
+
 **Discussion**
 
 While this is an easily measured voltage, it is certainly not large enough for
 most practical applications. More loops in the coil, a stronger magnet, and
 faster movement make induction the practical source of voltages that it is.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Faraday's Electromagnetic Lab
 </div>
+
 Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magnet near one or two coils to make a light bulb glow. View the magnetic field lines. A meter shows the direction and magnitude of the current. View the magnetic field lines or use a meter to show the direction and magnitude of the current. You can also play with electromagnets, generators and transformers!
 {: class="newline"}
 
@@ -199,7 +212,8 @@ Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magne
 <div class="media" data-alt="">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/faraday/#sim-bar-magnet"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -220,23 +234,31 @@ when flux changes by $$\Delta \Phi $$ in a time $$\Delta t $$ .
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person who works with large magnets sometimes places her head inside a strong field. She reports feeling dizzy as she quickly turns her head. How might this be associated with induction?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A particle accelerator sends high-velocity charged particles down an evacuated pipe. Explain how a coil of wire wrapped around the pipe could detect the passage of individual particles. Sketch a graph of the voltage output of the coil as a single particle passes through it.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Figure 4]](#Figure4)(a), what is the direction of the current induced in coil 2: 
 (a) If the current in coil 1 increases? 
 (b) If the current in coil 1 decreases? 
@@ -246,8 +268,10 @@ Explicitly show how you follow the steps in the [Problem-Solving Strategy for Le
 ![Part a of the diagram shows two single loop coils. Coil one and coil two are held vertically. Coil one has a current I in anti clockwise direction. Part b of the diagram shows a wire held vertical with a current flowing in upward direction. There is a single loop coil next to it held vertically.](../resources/Figure_23_02_04.jpg '(a) The coils lie in the same plane. (b) The wire is in the plane of the coil ')
 {: #Figure4}
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We follow the problem-solving strategy for Lenz's Law: First, identify the direction of the magnetic field from coil 1. Then determine whether the flux through coil 2 is increasing or decreasing. Next, find the direction of the induced field in coil 2 that opposes this change. Finally, use RHR-2 to determine the induced current direction.
@@ -294,16 +318,21 @@ This problem demonstrates the key principle of electromagnetic induction: only a
 
 (a) Clockwise (CW); (b) Counterclockwise (CCW); (c) No current induced.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We follow the problem-solving strategy for Lenz's law: identify the direction of the magnetic field from the wire, determine whether flux through the coil is increasing or decreasing, find the direction of the induced field that opposes this change, and use RHR-2 to find the induced current direction.
@@ -349,18 +378,23 @@ In all cases, Lenz's law ensures the induced current creates a magnetic field op
 
 (a) Clockwise; (b) Counterclockwise; (c) First counterclockwise, then clockwise (when viewed from above).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Figure 5]](#Figure5), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
 
 ![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_23_02_05.jpg ' ')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Lenz's law to each coil. When the switch closes, current begins flowing in the main coil, creating a magnetic field. When the switch has been closed for a long time, the current and field are constant. When the switch opens, the current and field decrease to zero. Each nearby coil (1, 2, and 3) experiences a change in magnetic flux, inducing currents that oppose these changes.
@@ -425,15 +459,20 @@ Notice that when the field is increasing (switch closes), the induced currents c
 
 (a) Coil 1: CCW, Coil 2: CCW, Coil 3: CW; (b) All coils: no current induced; (c) Coil 1: CW, Coil 2: CW, Coil 3: CCW.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the previous problem with the battery reversed.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 With the battery reversed, currents in all three coils from the previous problem will be in opposite directions.
@@ -470,17 +509,22 @@ Reversing the battery reverses the magnetic field direction in the main coil, wh
 
 (a) Coil 1: CW, Coil 2: CW, Coil 3: CCW; (b) All no current; (c) Coil 1: CCW, Coil 2: CCW, Coil 3: CW.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that the units of  $$\Delta \Phi  $$
 /  $$\Delta t $$
  are volts. That is, show that  $$1 \text{T}\cdot {\text{m}}^{2}/\text{s}=1 \text{V} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We express tesla in fundamental units and show the equivalence to volts.
@@ -527,16 +571,21 @@ This confirms that Faraday's law correctly gives emf in volts when magnetic flux
 
 Verified: $$1 \text{ T} \cdot \text{m}^2/\text{s} = 1 \text{ V}$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field that is directed into the page. The coil originally has an area of  $$0.250 {\text{m}}^{2} $$ .
  It is stretched to have no area in 0.100 s. What is the direction and magnitude of the induced emf if the uniform magnetic field has a strength of 1.50 T?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use Faraday's law $$\text{emf} = -N\frac{\Delta\Phi}{\Delta t}$$ where $$\Phi = BA\cos\theta$$. Since the field is perpendicular to the coil, $$\theta = 0°$$ and $$\cos\theta = 1$$. The area changes from 0.250 m² to zero.
@@ -565,15 +614,20 @@ The relatively large emf results from the rapid change in area combined with the
 
 The induced emf is 188 V, and the induced current flows clockwise when viewed from the front of the page.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) An MRI technician moves his hand from a region of very low magnetic field strength into an MRI scanner’s 2.00 T field with his fingers pointing in the direction of the field. Find the average emf induced in his wedding ring, given its diameter is 2.20 cm and assuming it takes 0.250 s to move it into the field. (b) Discuss whether this current would significantly change the temperature of the ring.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The ring moves from near-zero field into a 2.00 T field. The magnetic flux through the ring changes from approximately zero to $$\Phi = BA$$, where $$A$$ is the ring's area. We use Faraday's law $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$ to find the induced emf. For part (b), we estimate the current using Ohm's law and calculate the heating using $$Q = I^2 R t$$.
@@ -640,11 +694,14 @@ While the induced emf is measurable (3.04 mV), the actual heating effect is negl
 
 (a) The average induced emf is 3.04 mV. (b) The heat transferred would be approximately 2.31 mJ, causing a negligible temperature rise of about 0.004 °C. This is not a significant amount of heat and would not be noticed by the wearer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Referring to the situation in the previous problem: (a) What current is induced
@@ -653,8 +710,10 @@ in the ring if its resistance is 0.0100 $$\Omega $$ ?
 center of the ring? (d) What is the direction of the induced magnetic field
 relative to the MRI's field?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From the previous problem, the induced emf is 3.04 mV. We use Ohm's law to find current, $$P = I^2R$$ for power, and the equation for magnetic field at the center of a circular loop: $$B = \frac{\mu_0 I}{2r}$$.
@@ -693,16 +752,21 @@ The small power dissipation (less than 1 mW) explains why the ring doesn't heat 
 
 (a) 0.304 A; (b) 0.924 mW; (c) 17.4 μT; (d) opposite to the MRI field direction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise">
-<div class="problem" markdown="1">
+
+::: problem
+
 An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth's  $$ 5.00 \times 10^{-5}  \text{T} $$
  magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth's field and is rotated to be parallel to the field in 10.0 ms?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When the coil plane is perpendicular to the Earth's field, maximum flux passes through it: $$\Phi_i = BA\cos(0°) = BA$$. When rotated to be parallel to the field, no flux passes through: $$\Phi_f = BA\cos(90°) = 0$$. We use Faraday's law $$\text{emf} = N\frac{\Delta\Phi}{\Delta t}$$ to find the average induced emf.
@@ -757,15 +821,20 @@ Despite the Earth's weak magnetic field (only 50 μT), a measurable emf of 157 m
 
 The average induced emf is 0.157 V (or 157 mV).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.250 m radius, 500-turn coil is rotated one-fourth of a revolution in 4.17 ms, originally having its plane perpendicular to a uniform magnetic field. (This is 60 rev/s.) Find the magnetic field strength needed to induce an average emf of 10 000 V.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When rotated one-fourth revolution from perpendicular to parallel, $$\Delta(BA\cos\theta) = BA$$ (changes from BA to 0). We use $$\text{emf} = N\frac{\Delta\Phi}{\Delta t} = N\frac{BA}{\Delta t}$$ and solve for $$B$$.
@@ -802,18 +871,23 @@ This field strength is achievable with strong permanent magnets or electromagnet
 
 The required magnetic field strength is 0.425 T.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Approximately how does the emf induced in the loop in [[Figure 3]](#Figure3)(b)
 depend on the distance of the center of the loop from the wire?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$, where $$r$$ is the distance from the wire. For a small loop at distance $$r$$, the flux is approximately $$\Phi \approx BA$$, where $$A$$ is the loop area. When the current changes, the induced emf depends on how the flux changes: $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
@@ -863,11 +937,14 @@ This means that if you double the distance from the wire, the induced emf is hal
 
 The induced emf is approximately proportional to $$\frac{1}{r}$$, where $$r$$ is the distance from the center of the loop to the wire.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) A lightning bolt produces a rapidly varying magnetic field. If the bolt
@@ -877,8 +954,10 @@ What voltage is induced in a 1.00 m diameter loop 50.0 m from a $$ 2.00 \times 1
 (b) Discuss circumstances under which such a voltage would produce noticeable
 consequences.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$. The flux through a horizontal loop of area $$A$$ is approximately $$\Phi \approx BA$$. The induced emf is $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
@@ -926,10 +1005,12 @@ This demonstrates why lightning strikes can damage electrical systems even at co
 
 (a) The induced voltage is 80.0 V. (b) This voltage could damage electronics, trip breakers, cause dangerous shocks, or create arcing in nearby conductors.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -941,4 +1022,4 @@ Lenz’s law
 : the minus sign in Faraday’s law, signifying that the emf induced in a coil
 opposes the change in magnetic flux
 
-</div>
+:::

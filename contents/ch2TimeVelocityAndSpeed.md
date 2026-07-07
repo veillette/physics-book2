@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 3
 chapterNumber: 2
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.
 * Calculate velocity and speed given initial position, initial time, final position, and final time.
 * Derive a graph of velocity vs. time given a graph of position vs. time.
 * Interpret a graph of velocity vs. time.
 
-</div>
+:::
 
 ![Snails leaving slime trails as they race each other along a flat surface.](../resources/Figure_02_03_01.png 'The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)')
 {: #Figure1}
@@ -71,7 +71,8 @@ know that if you have a large displacement in a small amount of time you have a
 large velocity, and that velocity has units of distance divided by time, such as
 miles per hour or kilometers per hour.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Average Velocity
 </div>
@@ -82,13 +83,15 @@ of travel_,
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
 </div>
+
 where $$ \overline{v} $$ is the *average* (indicated by the bar over the $$ v $$) velocity, $$ \Delta x $$ is the change in position (or displacement), and $$ x_{f} $$ and $$ x_{0} $$ are the final and beginning positions at times $$ t_{f} $$ and $$ t_{0} $$, respectively. If the starting time $$ t_{0} $$ is taken to
 be zero, then the average velocity is simply
 
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{t}. $$
 </div>
-</div>
+
+:::
 
 Notice that this definition indicates that _velocity is a vector because
 displacement is a vector_. It has both magnitude and direction. The SI unit for
@@ -172,10 +175,12 @@ straight line.)
 ![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_03_04.jpg 'Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ')
 {: #Figure4}
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Getting a Sense of Speed
 </div>
+
 If you have spent much time driving, you probably have a good sense of speeds between about 10 and 70 miles per hour. But what are these in meters per second? What do we mean when we say that something is moving at 10 m/s? To get a better sense of what these values really mean, do some observations and calculations on your own:
 
 - calculate typical car speeds in meters per second
@@ -183,17 +188,21 @@ If you have spent much time driving, you probably have a good sense of speeds be
   measurements into both m/s and mi/h
 - determine the speed of an ant, snail, or falling leaf
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A commuter train travels from Baltimore to Washington, DC, and back in 1 hour and 45 minutes. The distance between the two stations is approximately 40 miles. What is (a) the average velocity of the train, and (b) the average speed of the train in m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) The average velocity of the train is zero because $$ x_{f}=x_{0} $$; the train ends up at the same place it starts.
 
 (b) The average speed of the train is calculated below. Note that the train
@@ -202,10 +211,13 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
 <div class="equation">
  $$ \frac{ \text{distance}}{\text{time}}=\frac{80 \text{miles}}{105 \text{minutes}} $$
 </div>
+
 <div class="equation">
  $$ \frac{80 \text{miles}}{105 \text{minutes}}×\frac{5280 \text{feet}}{1 \text{mile}}×\frac{1 \text{meter}}{3.28 \text{feet}}×\frac{1 \text{minute}}{60 \text{seconds}}=20 \ms $$
 </div>
-</div>
+
+:::
+
 </div>
 
 ### Section Summary
@@ -223,7 +235,7 @@ elapsed time is then just $$ t $$.
 - Average velocity $$ \overline{v} $$ is defined as displacement divided by the
 travel time. In symbols, average velocity is
   <div class="equation">
- $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$ 
+  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$ 
   </div>
 
 - The SI unit for velocity is m/s.
@@ -239,49 +251,68 @@ travel time. In symbols, average velocity is
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example (but not one from the text) of a device used to measure time and identify what change in that device indicates a change in time.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does a car’s odometer measure distance or displacement? Does its speedometer measure speed or velocity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you divide the total distance traveled on a car trip (as determined by the odometer) by the time for the trip, are you calculating the average speed or the magnitude of the average velocity? Under what circumstances are these two quantities the same?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How are instantaneous velocity and instantaneous speed related to one another? How do they differ?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate Earth’s average speed relative to the Sun.
 (b) What is its average velocity over a period of one year?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For average speed, use distance traveled divided by time. For average velocity, use displacement divided by time.
@@ -329,17 +360,22 @@ The calculated speed of 30,000 m/s (about 67,000 mph or 108,000 km/h) is consist
 
 (b) Earth's average velocity over one year is 0 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A helicopter blade spins at exactly 100 revolutions per minute. Its tip is 5.00 m from the center of rotation.
 (a) Calculate the average speed of the blade tip in the helicopter's frame of reference.
 (b) What is its average velocity over one revolution?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 To find average speed, we need to calculate the total distance traveled by the blade tip and divide by the time taken. For one revolution, the blade tip traces out a circle. Average velocity requires finding displacement, which is zero for a complete revolution.
@@ -401,15 +437,20 @@ This problem illustrates the important distinction between speed and velocity. T
 
 (b) The average velocity over one revolution is 0 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The North American and European continents are moving apart at a rate of about 3 cm/y. At this rate how long will it take them to drift 500 km farther apart than they are at present?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the time required for a given displacement at constant velocity (rate). Use $$ t = \frac{\Delta x}{v} $$, converting units appropriately.
@@ -443,15 +484,20 @@ For context, the Atlantic Ocean has been widening for about 180 million years, a
 
 It will take approximately **2 × 10⁷ years** (20 million years, or more precisely 17 million years) for the continents to drift 500 km farther apart.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Land west of the San Andreas fault in southern California is moving at an average velocity of about 6 cm/y northwest relative to land east of the fault. Los Angeles is west of the fault and may thus someday be at the same latitude as San Francisco, which is east of the fault. How far in the future will this occur if the displacement to be made is 590 km northwest, assuming the motion remains constant?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the time required for a given displacement at constant velocity. Use the relationship $$ t = \frac{\Delta x}{v} $$, being careful to convert units consistently.
@@ -483,19 +529,24 @@ This result means it will take approximately 9.8 million years for Los Angeles t
 
 Los Angeles will be at the same latitude as San Francisco in approximately $$ 9.8 \times 10^{6} $$ years (9.8 million years).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On May 26, 1934, a streamlined, stainless steel diesel train called the Zephyr
 set the world's nonstop long-distance speed record for trains. Its run from Denver
 to Chicago took 13 hours, 4 minutes, 58 seconds, and was witnessed by more than a million
 people along the route. The total distance traveled was 1633.8 km. What was its average
 speed in km/h and m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Average speed is total distance divided by total time. Calculate the time in hours first, then find the average speed in km/h and convert to m/s.
@@ -537,17 +588,23 @@ The Zephyr's average speed of nearly 125 km/h (about 78 mph) was remarkable for 
 
 The Zephyr's average speed was **124.9 km/h** (or **34.69 m/s**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Tidal friction is slowing the rotation of the Earth. As a result, the
 orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year.
 Assuming this to be a constant rate, how many years will pass before the radius
 of the Moon's orbit increases by $$ 3.84 \times 10^{6} \m $$ (1%)?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the time required for the Moon's orbital radius to increase by a given amount at a constant rate. Use $$ t = \frac{\Delta r}{v} $$ where $$ v $$ is the rate of change and $$ \Delta r $$ is the change in radius.
@@ -579,11 +636,14 @@ This result of 96 million years is a very long time on human scales but not unre
 
 It will take $$ 9.6 \times 10^{7} $$ years (96 million years) for the Moon's orbital radius to increase by 1%.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A student drove to the university from her home and noted that the odometer
 reading of her car increased by 12.0 km. The trip took 18.0 min.
 (a) What was her average speed?
@@ -591,8 +651,11 @@ reading of her car increased by 12.0 km. The trip took 18.0 min.
 her average velocity?
 (c) If she returned home by the same path 7 h 30 min after she left, what were her average speed and velocity
 for the entire trip?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 Average speed uses total distance traveled divided by time. Average velocity uses displacement (straight-line distance with direction) divided by time. For the round trip, the displacement is zero since she returns to her starting point.
@@ -653,17 +716,23 @@ Notice the important distinction between average speed and average velocity. The
 
 (c) For the entire round trip, her average speed was **3.20 km/h** and her average velocity was **0 km/h** (or zero).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The speed of propagation of the action potential (an electrical signal) in a nerve
 cell depends (inversely) on the diameter of the axon (nerve fiber). If the nerve
 cell connecting the spinal cord to your feet is 1.1 m long, and the nerve impulse
 speed is 18 m/s, how long does it take for the nerve signal to travel this distance?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 Use the relationship between distance, speed, and time: $$ t = \frac{d}{v} $$.
@@ -691,11 +760,14 @@ For comparison, if the signal were traveling at the speed of light ($$ 3 \times 
 
 It takes 0.061 s (or 61 ms) for the nerve signal to travel from the spinal cord to the feet.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Conversations with astronauts on the lunar surface were characterized by a kind of
 echo in which the earthbound person's voice was so loud in the astronaut's space
 helmet that it was picked up by the astronaut's microphone and transmitted back to
@@ -704,8 +776,11 @@ the radio wave to travel from the Earth to the Moon and back (that is, neglectin
 time delays in the electronic equipment). Calculate the distance from Earth to the
 Moon given that the echo time was 2.56 s and that radio waves travel at the speed
 of light $$ \left(3.00 \times 10^{8} \ms \right) $$.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 The echo time is the time for the radio wave to travel from Earth to Moon and back. Use the relationship $$ d = vt $$, where the total distance traveled is twice the Earth-Moon distance.
@@ -745,17 +820,23 @@ The calculation assumes the radio waves travel at the speed of light in vacuum, 
 
 The distance from Earth to the Moon is **384,000 km** (or **3.84 × 10⁵ km** or **3.84 × 10⁸ m**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A football quarterback runs 15.0 m straight down the playing field in 2.50 s.
 He is then hit and pushed 3.00 m straight backward in 1.75 s. He breaks the
 tackle and runs straight forward another 21.0 m in 5.20 s. Calculate his average
 velocity (a) for each of the three intervals and (b) for the entire motion.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 Average velocity is displacement divided by time. For each interval, we identify the displacement (with sign indicating direction) and time, then calculate the average velocity. For the entire motion, we sum the displacements and times.
@@ -814,11 +895,14 @@ The negative velocity in interval 2 indicates backward motion. The average veloc
 
 (b) The average velocity for the entire motion is 3.49 m/s forward.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The planetary model of the atom pictures electrons orbiting the atomic nucleus much
 as planets orbit the Sun. In this model you can view hydrogen, the simplest
 atom,as having a single electron in a circular orbit $$ 1.06 \times 10^{-10} \m $$ in diameter.
@@ -827,8 +911,10 @@ be $$ 2.20 \times 10^{6} \ms $$, calculate the number of revolutions per
 second it makes about the nucleus.
 (b) What is the electron’s average velocity during one revolution?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The electron orbits the nucleus in a circular path. To find the number of revolutions per second, we need to find how far the electron travels in one second and divide by the circumference of one orbit. The average velocity over one complete revolution is zero because the electron returns to its starting position.
@@ -875,10 +961,12 @@ Note: The planetary model of the atom, while useful for visualization, has been 
 
 (b) The electron's average velocity during one complete revolution is **0 m/s**.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -905,4 +993,4 @@ the physics of a physical situation
 elapsed time
 : the difference between the ending time and beginning time
 
-</div>
+:::

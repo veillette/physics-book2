@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 9
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the inductance of an inductor.
 * Calculate the energy stored in an inductor.
 * Calculate the emf generated in an inductor.
-</div>
+
+:::
 
 ### Inductors
 
@@ -160,10 +161,12 @@ This is the self-inductance of a solenoid of cross-sectional area $$A $$ and
 length $$\ell $$ . Note that the inductance depends only on the physical
 characteristics of the solenoid, consistent with its definition.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating the Self-inductance of a Moderate Size Solenoid
 </div>
+
 Calculate the self-inductance of a 10.0 cm long, 4.00 cm diameter solenoid that has 200 coils.
 
 **Strategy**
@@ -177,6 +180,7 @@ Use the following expression for the self-inductance of a solenoid:
 <div class="equation" >
  $$L=\frac{ {\mu }_{0}{N}^{2}A}{\ell }\text{.} $$
 </div>
+
 The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\right) { \left(0.0200\text{m}\right)}^{2}= 1.26 \times 10^{-3}  {\text{m}}^{2} $$ ,
   $$N $$
  is given to be 200, and the length  $$\ell  $$
@@ -194,12 +198,13 @@ $$\begin{array}{lll}
   L& =& 0.632 \text{mH}\text{.}\end{array} $$
 
 </div>
+
 **Discussion**
 
 This solenoid is moderate in size. Its inductance of nearly a millihenry is also
 considered moderate.
 
-</div>
+:::
 
 One common application of inductance is used in traffic lights that can tell
 when vehicles are waiting at the intersection. An electrical circuit with an
@@ -234,10 +239,12 @@ inductor </strong> $${E}_{\text{ind}} $$ is given by
 
 This expression is similar to that for the energy stored in a capacitor.
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating the Energy Stored in the Field of a Solenoid
 </div>
+
 How much energy is stored in the 0.632 mH inductor of the preceding example when a 30.0 A current flows through it?
 
 **Strategy**
@@ -252,13 +259,14 @@ current into $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ gives
 <div class="equation" >
  $$\begin{array}{lll}{E}_{\text{ind}}& =& \frac{1}{2}{\text{LI}}^{2}\\ & =& 0.5\left( 0.632 \times 10^{-3}  \text{H}\right) { \left(30.0 \text{A}\right)}^{2}=0.284 \text{J}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This amount of energy is certainly enough to cause a spark if the current is
 suddenly switched off. It cannot be built up instantaneously unless the power
 input is infinite.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -271,6 +279,7 @@ input is infinite.
   <div class="equation" >
    $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}\text{,} $$
   </div>
+
      where
    $$M $$ is defined to be the mutual inductance between the two devices, and the minus sign is due to Lenz’s law.
 
@@ -279,6 +288,7 @@ input is infinite.
   <div class="equation" >
    $${\text{emf}}_{1}=-M\frac{\Delta {I}_{2}}{\Delta t}\text{,} $$
   </div>
+
      where
    $$M $$ is the same mutual inductance as in the reverse process.
 - Current changes in a device induce an emf in the device itself.
@@ -287,6 +297,7 @@ input is infinite.
 <div class="equation" >
  $$\text{emf}=-L\frac{\Delta I}{\Delta t}\text{,} $$
 </div>
+
    where
  $$L $$ is the self-inductance of the inductor, and
  $$\Delta I/\Delta t $$ is the rate of change of current through it. The minus sign indicates that emf opposes the change in current, as required by Lenz’s law.
@@ -305,6 +316,7 @@ $$N $$
   <div class="equation" >
    $$L=\frac{ {\mu }_{0}{N}^{2}A}{\ell }\text{(solenoid),} $$
   </div>
+
      where    $$N $$ is its number of turns in the solenoid,
    $$A $$ is its cross-sectional area,
    $$\ell  $$ is its length, and
@@ -318,34 +330,47 @@ $$N $$
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How would you place two identical flat coils in contact so that they had the greatest mutual inductance? The least?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How would you shape a given length of wire to give it the greatest self-inductance? The least?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify, as was concluded without proof in [[Example 1]](#Example1), that units of  $$\text{T}\cdot {\text{m}}^{2}/A=\Omega \cdot \text{s}=\text{H} $$.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two coils are placed close together in a physics lab to demonstrate Faraday's law of induction. A current of 5.00 A in one is switched off in 1.00 ms, inducing a 9.00 V emf in the other. What is their mutual inductance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We can use the relationship between mutual inductance and induced emf: $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$. We know the induced emf, the current change, and the time interval, so we can solve for the mutual inductance $$M$$.
@@ -372,15 +397,20 @@ This is a relatively small mutual inductance, which is typical for two separate 
 
 1.80 mH
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If two coils placed next to one another have a mutual inductance of 5.00 mH, what voltage is induced in one when the 2.00 A current in the other is switched off in 30.0 ms?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the mutual inductance equation $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$ to find the induced emf. We know $$M$$, the current change $$\Delta I_1$$, and the time interval $$\Delta t$$.
@@ -410,15 +440,20 @@ The induced voltage is relatively small because the current is switched off over
 
 0.333 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The 4.00 A current through a 7.50 mH inductor is switched off in 8.33 ms. What is the emf induced opposing this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the induced emf. The inductor opposes the change in current, and we need to find the magnitude of this opposing emf.
@@ -448,15 +483,20 @@ The induced emf opposes the decrease in current, attempting to maintain the curr
 
 3.60 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A device is turned on and 3.00 A flows through it 0.100 ms later. What is the self-inductance of the device if an induced 150 V emf opposes this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We rearrange the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to solve for $$L$$. We know the induced emf, the current change, and the time interval.
@@ -488,16 +528,21 @@ This is a moderate self-inductance value, typical for small inductors used in el
 
 5.00 mH
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Starting with  $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t} $$ ,
  show that the units of inductance are  $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the mutual inductance equation to determine the units of $$M$$. Then we show that volts times seconds per ampere is equivalent to ohms times seconds.
@@ -513,7 +558,7 @@ $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$
 Rearranging to solve for $$M$$:
 
 <div class="equation">
-{% raw %}$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$${% endraw %}
+$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$$
 </div>
 
 The units are:
@@ -546,15 +591,20 @@ This unit equivalence makes physical sense. The henry (H), the unit of inductanc
 
 The derivation shows that $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s}$$, confirming that both are valid units for inductance (henries).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Camera flashes charge a capacitor to high voltage by switching the current through an inductor on and off rapidly. In what time must the 0.100 A current through a 2.00 mH inductor be switched on or off to induce a 500 V emf?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$\Delta t$$. We know the inductance, the current change, and the desired emf.
@@ -590,15 +640,20 @@ The current must be switched extremely rapidly—in only 0.400 microseconds—to
 
 0.400 μs (or $$4.00 \times 10^{-7}$$ s)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large research solenoid has a self-inductance of 25.0 H. (a) What induced emf opposes shutting it off when 100 A of current through it is switched off in 80.0 ms? (b) How much energy is stored in the inductor at full current? (c) At what rate in watts must energy be dissipated to switch the current off in 80.0 ms? (d) In view of the answer to the last part, is it surprising that shutting it down this quickly is difficult?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the induced emf.
@@ -653,15 +708,20 @@ This problem illustrates the challenges of working with large research electroma
 
 (d) No, it is not surprising since this power is very high.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the self-inductance of a 50.0 cm long, 10.0 cm diameter solenoid having 1000 loops. (b) How much energy is stored in this inductor when 20.0 A of current flows through it? (c) How fast can it be turned off if the induced emf cannot exceed 3.00 V?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
@@ -713,15 +773,20 @@ This solenoid has a relatively large inductance (nearly 20 mH) due to its many t
 
 (c) 131 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A precision laboratory resistor is made of a coil of wire 1.50 cm in diameter and 4.00 cm long, and it has 500 turns. (a) What is its self-inductance? (b) What average emf is induced if the 12.0 A current through it is turned on in 5.00 ms (one-fourth of a cycle for 50 Hz AC)? (c) What is its inductance if it is shortened to half its length and counter-wound (two layers of 250 turns in opposite directions)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
@@ -776,15 +841,20 @@ This problem demonstrates the practical design of precision laboratory resistors
 
 (c) Zero
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The heating coils in a hair dryer are 0.800 cm in diameter, have a combined length of 1.00 m, and a total of 400 turns. (a) What is their total self-inductance assuming they act like a single solenoid? (b) How much energy is stored in them when 6.00 A flows? (c) What average emf opposes shutting them off if this is done in 5.00 ms (one-fourth of a cycle for 50 Hz AC)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$.
@@ -840,15 +910,20 @@ The hair dryer coils have very small inductance (only about 10 μH) because they
 
 (c) 12.1 mV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When the 20.0 A current through an inductor is turned off in 1.50 ms, an 800 V emf is induced, opposing the change. What is the value of the self-inductance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$L$$. We know the induced emf, the current change, and the time interval.
@@ -880,15 +955,20 @@ This is a moderately large inductance. The 800 V induced emf is quite substantia
 
 60.0 mH
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How fast can the 150 A current through a 0.250 H inductor be shut off if the induced emf cannot exceed 75.0 V?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$\Delta t$$. The maximum allowed emf sets the minimum time to shut off the current.
@@ -920,11 +1000,14 @@ The current must be shut off over at least half a second to keep the induced emf
 
 0.500 s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A very large, superconducting solenoid such as one used in MRI scans, stores
@@ -934,8 +1017,10 @@ dissipate thermal energy. What temperature increase is produced if all the
 stored energy goes into heating the 1000 kg magnet, given its average specific
 heat is $$200 \text{J/kg·ºC} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the energy storage formula $${E}_{\text{ind}}=\frac{1}{2}LI^2$$ and solve for $$L$$.
@@ -988,19 +1073,24 @@ The 5.00°C temperature increase might seem modest, but this calculation assumes
 
 (b) $$5.00 \text{ºC} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A 25.0 H inductor has 100 A of current turned off in 1.00 ms. (a) What voltage
 is induced to oppose this? (b) What is unreasonable about this result? (c) Which
 assumption or premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to calculate the induced voltage.
@@ -1038,10 +1128,12 @@ This problem illustrates why large research electromagnets and superconducting m
 
 (c) The 1.00 ms switching time is far too short for such a large inductor carrying such high current. The combination of large L, large I, and short Δt produces the unreasonable result.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1064,4 +1156,4 @@ inductor
 energy stored in an inductor
 : self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
 
-</div>
+:::

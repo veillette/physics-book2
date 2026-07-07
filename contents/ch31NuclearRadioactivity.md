@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain nuclear radiation.
 * Explain the types of radiation—alpha emission, beta emission, and gamma emission.
 * Explain the ionization of radiation in an atom.
 * Define the range of radiation.
-</div>
+
+:::
 
 The discovery and study of nuclear radioactivity quickly revealed evidence of
 revolutionary new physics. In addition, uses for nuclear radiation also emerged
@@ -37,8 +38,7 @@ emission of these rays is called **nuclear radioactivity** or simply **radioacti
 radiation**{: class="term"}. A nucleus that spontaneously destroys part of its
 mass to emit radiation is said to **decay**{: class="term"} (a term also used to
 describe the emission of radiation by atoms in excited states). A substance or
-object that emits nuclear radiation is said to be **radioactive**{: class="term"
-}.
+object that emits nuclear radiation is said to be **radioactive**{: class="term" }.
 
 Two types of experimental evidence imply that Becquerel’s rays originate deep in
 the heart (or nucleus) of an atom. First, the radiation is found to be
@@ -188,15 +188,17 @@ absorb the energy of the radiation in collisions. The greater the density of a
 material and, in particular, the greater the density of electrons within a
 material, the smaller the range of radiation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Collisions
 </div>
+
 Conservation of energy and momentum often results in energy transfer to a less
 massive object in a collision.
 This was discussed in detail in [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources), for example.
 
-</div>
+:::
 
 Different **types** of radiation have different ranges when compared at the same
 energy and in the same material. Alphas have the shortest range, betas penetrate
@@ -253,20 +255,22 @@ that they can be used as radioactive tracers (see [[Figure 5]](#Figure5)).
 ![This figure shows four images of a skeleton of a human. Different parts of the body show bright spots wherever the bone cells are most active, indicating bone cancer.](../resources/Figure_31_01_05.jpg "This image of the concentration of a radioactive tracer in a patient&#x2019;s body reveals where the most active bone cells are, an indication of bone cancer. A short-lived radioactive substance that locates itself selectively is given to the patient, and the radiation is measured with an external detector. The emitted \( \gamma \) radiation has a sufficient range to leave the body&#x2014;the range of \( \alpha \)s and \( \beta \)s is too small for them to be observed outside the patient. (credit: Kieran Maher, Wikimedia Commons)")
 {: #Figure5}
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Beta Decay
 </div>
+
 Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas!
 {: class="newline"}
-
 
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="860" height="671.4" src="https://veillette.github.io/simulations/beta-decay/#sim-multiple-atoms"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -285,62 +289,85 @@ Build an atom out of protons, neutrons, and electrons, and see how the element, 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose the range for  $$5.0\text{MeV}\alpha  $$
  ray is known to be 2.0 mm in a certain material. Does this mean that every  $$5.0\text{MeV}\alpha  $$
  a ray that strikes this material travels 2.0 mm, or does the range have an average value with some statistical fluctuations in the distances traveled? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between  $$\gamma  $$  rays and characteristic X-rays? Is either necessarily more energetic than the other? Which can be the most energetic?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Ionizing radiation interacts with matter by scattering from electrons and nuclei in the substance. Based on the law of conservation of momentum and energy, explain why electrons tend to absorb more energy than nuclei in these interactions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What characteristics of radioactivity show it to be nuclear in origin and not atomic?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the source of the energy emitted in radioactive decay? Identify an earlier conservation law, and describe how it was modified to take such processes into account.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider [[Figure 2]](#Figure2). If an electric field is substituted for the magnetic field with positive charge instead of the north pole and negative charge instead of the south pole, in which directions will the  $$\alpha  $$ ,
   $$\beta  $$ , and  $$\gamma  $$
  rays bend?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how an  $$\alpha  $$
  particle can have a larger range in air than a  $$\beta  $$
  particle with the same energy in lead.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Arrange the following according to their ability to act as radiation shields, with the best first and worst last. Explain your ordering in terms of how radiation loses its energy in matter.
 
 (a) A solid material with low density composed of low-mass atoms.
@@ -351,17 +378,22 @@ Arrange the following according to their ability to act as radiation shields, wi
 
 (d) A solid with high density composed of high-mass atoms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Often, when people have to work around radioactive materials spills, we see them wearing white coveralls (usually a plastic material). What types of radiation (if any) do you think these suits protect the worker from, and how?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -391,4 +423,4 @@ radioactive
 range of radiation
 : the distance that the radiation can travel through a material
 
-</div>
+:::

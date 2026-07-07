@@ -4,21 +4,23 @@ layout: page
 sectionNumber: 2
 chapterNumber: 9
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the second condition that is necessary to achieve equilibrium.
 * Explain torque and the factors on which it depends.
 * Describe the role of torque in rotational mechanics.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Torque
 </div>
+
 The second condition necessary to achieve equilibrium involves avoiding accelerated rotation (maintaining a constant angular velocity). A rotating body or system can be in equilibrium if its rate of rotation is constant and remains unchanged by the forces acting on it. To understand what factors affect rotation, let us think about what happens when you open an ordinary door by rotating it on its hinges.
 
-</div>
+:::
 
 Several familiar factors determine how effective you are in opening the door.
 See [Figure 1](#Figure1). First, the larger the force, the more effective it is in
@@ -127,10 +129,12 @@ a heavier child can keep a lighter one off the ground indefinitely.
 ![Two children are sitting on a seesaw. On the left side, a lighter child is sitting and on the right, a heavier one. The distance of the lighter child from the fulcrum is more than that of heavier child. At the fulcrum, an upward force vector labeled as F-p is shown. The weights of the two children, w-one and w-two, are shown as vectors in the downward direction, and the force at the fulcrum, F-p, is shown as a vector in the upward direction.](../resources/Figure_09_02_03.jpg "Two children balancing a seesaw satisfy both conditions for equilibrium. The lighter child sits farther from the pivot to create a torque equal in magnitude to that of the heavier child.")
 {: #Figure3}
 
-<div class="example" id="example1" markdown="1">
+::: example {"class":"example","id":"example1"}
+
 <div class="title">
 She Saw Torques On A Seesaw
 </div>
+
 The two children shown in [Figure 3](#Figure3) are balanced on a seesaw of negligible mass.
 (This assumption is made to keep the example simple—more involved examples will follow.)
 The first child has a mass of 26.0 kg and sits 1.60 m from the pivot.
@@ -156,17 +160,20 @@ produced by each. Torque is defined to be
 <div class="equation">
  $$ \tau =rF\sin{\theta} . $$
 </div>
+
 Here $$ \theta =90^\circ $$, so that $$ \sin{\theta} =1 $$ for all three forces.
 That means $$ r_{\perp }=r $$ for all three. The torques exerted by the three forces are first,
 
 <div class="equation">
  $$ \tau_{1}=r_{1}w_{1} $$
 </div>
+
 second,
 
 <div class="equation">
  $$ \tau_{2}=-r_{2}w_{2} $$
 </div>
+
 and third,
 
 <div class="equation">
@@ -177,6 +184,7 @@ $$ \begin{array}{lll}
 \end{array} $$
 
 </div>
+
 Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since $$ F_{\text{p}} $$ acts directly on the pivot point, the distance $$ r_{\text{p}} $$
 is zero. A force acting on the pivot cannot cause a rotation, just as pushing
 directly on the hinges of a door will not cause it to rotate. Now, the second
@@ -186,26 +194,31 @@ zero. Therefore
 <div class="equation">
  $$ \tau_{2}=-\tau_{1}, $$
 </div>
+
 or
 
 <div class="equation">
  $$ r_{2}w_{2}=r_{1}w_{1}. $$
 </div>
+
 Weight is mass times the acceleration due to gravity. Entering $$ mg $$ for $$ w $$, we get
 
 <div class="equation">
  $$ r_{2}m_{2}g=r_{1}m_{1}g. $$
 </div>
+
 Solve this for the unknown $$ r_{2} $$:
 
 <div class="equation">
  $$ r_{2}=r_{1}\frac{ m_{1}}{ m_{2}}. $$
 </div>
+
 The quantities on the right side of the equation are known; thus, $$ r_{2} $$ is
 
 <div class="equation">
  $$ r_{2}=\left(1.60 \m \right)\frac{26.0 \kg }{32.0 \kg }=1.30 \m . $$
 </div>
+
 As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 m) to balance the seesaw.
 
 **Solution (b)**
@@ -216,26 +229,31 @@ use the first condition for equilibrium, which is
 <div class="equation">
  $$ \text{net}\vb{F}=0. $$
 </div>
+
 The forces are all vertical, so that we are dealing with a one-dimensional problem along the vertical axis; hence, the condition can be written as
 
 <div class="equation">
  $$ \text{net} F_{y}=0 $$
 </div>
+
 where we again call the vertical axis the *y*-axis. Choosing upward to be the positive direction, and using plus and minus signs to indicate the directions of the forces, we see that
 
 <div class="equation">
 $$ F_{\text{p}}-w_{1}-w_{2}=0. $$
 </div>
+
 This equation yields what might have been guessed at the beginning:
 
 <div class="equation">
 $$ F_{\text{p}}=w_{1}+w_{2}. $$
 </div>
+
 So, the pivot supplies a supporting force equal to the total weight of the system:
 
 <div class="equation">
 $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 </div>
+
 Entering known values gives
 
 <div class="equation">
@@ -253,7 +271,7 @@ solved using the second condition for equilibrium, since both distances are
 known, but only if the pivot point is chosen to be somewhere other than the
 location of the seesaw’s actual pivot!
 
-</div>
+:::
 
 Several aspects of the preceding example have broad implications. First, the
 choice of the pivot as the point around which torques are calculated simplified
@@ -279,13 +297,15 @@ Finally, note that the concept of torque has an importance beyond static
 equilibrium. *Torque plays the same role in rotational motion that force plays
 in linear motion.* We will examine this in the next chapter.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 Take a piece of modeling clay and put it on a table, then mash a cylinder down into it so that a ruler can balance on the round side of the cylinder while everything remains still. Put a penny 8 cm away from the pivot. Where would you need to put two pennies to balance? Three pennies?
 
-</div>
+:::
 
 ### Section Summary
 
@@ -300,13 +320,13 @@ point where the force is applied, $$ F $$ is the magnitude of the force, and $$ 
 point where the force acts to the pivot point. The perpendicular lever arm $$ r_{\perp } $$ is defined to be
 
   <div class="equation">
- $$ r_{\perp }=r\sin{\theta} $$
+  $$ r_{\perp }=r\sin{\theta} $$
   </div>
 
 so that
 
   <div class="equation">
- $$ \tau =r_{\perp }F. $$
+  $$ \tau =r_{\perp }F. $$
   </div>
 
 * The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
@@ -323,11 +343,15 @@ negative.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What three factors affect the torque created by a force relative to a specific pivot point?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the torque equation $$ \tau = rF\sin{\theta} $$ to identify the three factors that determine torque magnitude.
@@ -345,18 +369,24 @@ The three factors that affect the torque created by a force relative to a specif
 **Discussion**
 
 These three factors are combined in the torque equation $$ \tau = rF\sin{\theta} $$, or equivalently $$ \tau = r_{\perp}F $$ where $$ r_{\perp} = r\sin{\theta} $$ is the perpendicular lever arm. Understanding these factors is essential for designing mechanical systems like levers, wrenches, and door handles.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A wrecking ball is being used to knock down a building. One tall unsupported concrete wall remains
 standing. If the wrecking ball hits the wall near the top, is the wall more likely to fall over by
 rotating at its base or by falling straight down? Explain your answer. How is it most likely to
 fall if it is struck with the same force at its base? Note that this depends on how firmly the wall is attached at its base.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the concept of torque to analyze how the point of force application affects the wall's response. The base of the wall acts as a pivot point for rotation.
@@ -380,16 +410,22 @@ We apply the concept of torque to analyze how the point of force application aff
 **Discussion**
 
 This principle is used in controlled demolitions. Explosives or wrecking balls applied at the base cause buildings to collapse straight down into their footprint, while impacts higher up can cause unpredictable toppling. The same physics explains why it's easier to tip over a tall bookshelf by pushing at the top rather than at the bottom.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Mechanics sometimes put a length of pipe over the handle of a wrench when trying to remove a very
 tight bolt. How does this help? (It is also hazardous since it can break the bolt.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the torque equation $$ \tau = rF $$ to understand how extending the lever arm affects the torque produced.
@@ -413,18 +449,24 @@ For example, if a wrench handle is 20 cm long and a 40 cm pipe is added, the new
 **Discussion**
 
 This is a practical application of the torque equation. The same principle explains why longer wrenches are used for tighter bolts, why door handles are placed far from hinges, and why long-handled tools make work easier. However, the increased mechanical advantage comes with the risk of applying excessive force, which is why proper-sized tools and torque wrenches are important in precision applications.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850m from the hinges. What torque are you exerting relative to the hinges?
 (b) Does it matter if you push at the same height as the hinges?
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 a) $$ 46.8 \text{N·m} $$
 b) It does not matter at what height you push. The torque depends on only the
 magnitude of the force applied and the perpendicular distance of the force’s
@@ -432,17 +474,22 @@ application from the hinges. (Children don’t have a tougher time opening a doo
 because they push lower than adults, they have a tougher time because they don’t
 push far enough from the hinges.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When tightening a bolt, you push perpendicularly on a wrench with a force of 165 N at a distance of 0.140 m from the center of the bolt.
 (a) How much torque are you exerting in newton × meters (relative to the center of the bolt)?
 (b) Convert this torque to footpounds.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use the torque equation $$ \tau = rF\sin{\theta} $$. Since the force is applied perpendicularly, $$ \theta = 90° $$ and $$ \sin{\theta} = 1 $$. For part (b), we use the conversion factor between newton-meters and foot-pounds.
@@ -476,31 +523,42 @@ The torque in foot-pounds is **17.0 ft·lb**.
 **Discussion**
 
 This torque value is typical for tightening automotive fasteners. Many car manuals specify torque values in foot-pounds (common in the US) or newton-meters (common elsewhere). A torque wrench calibrated in either unit helps ensure bolts are tightened to specifications, preventing both overtightening (which can strip threads or break bolts) and undertightening (which can cause bolts to loosen over time).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two children push on opposite sides of a door during play. Both push horizontally and perpendicular
 to the door. One child pushes with a force of 17.5 N at a distance of 0.600 m from the hinges,
 and the second child pushes at a distance of 0.450 m. What force must the second child exert
 to keep the door from moving? Assume friction is negligible.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 23.3 N
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use the second condition for equilibrium $$ \text{(net τ = 0)} $$ to calculate $$ F_{\text{p}} $$
 in [Example 1](#example1), employing any data given or solved for in part (a)
 of the example.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the second condition for equilibrium (net torque equals zero) using a pivot point other than the actual pivot of the seesaw. By choosing a different pivot point—such as the location of one of the children—the unknown force $$ F_{\text{p}} $$ will have a non-zero lever arm and will appear in the torque equation.
@@ -548,15 +606,21 @@ The supporting force exerted by the pivot is **568 N**.
 **Discussion**
 
 This result agrees with the answer obtained using the first condition for equilibrium in Example 1. The fact that we get the same answer using either method confirms that both conditions for equilibrium are satisfied simultaneously. This problem demonstrates that the choice of pivot point is arbitrary when applying the second condition for equilibrium—any choice will give the correct answer if the system is truly in equilibrium. Choosing a strategic pivot point (like the location of one of the forces) can simplify the calculation by eliminating that force's torque from the equation.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the seesaw problem in [Example 1](#example1) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass of 12.0 kg for the seesaw. The other data given in the example remain unchanged. Explicitly show how you follow the steps in the Problem-Solving Strategy for static equilibrium.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 Given:
 
 <div class="equation">
@@ -566,6 +630,7 @@ r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p
 \end{array} $$
 
 </div>
+
 a) Since children are balancing:
 
 <div class="equation">
@@ -574,6 +639,7 @@ $$ \begin{array}{}
 ⇒w_{1}r_{1}+m_{\s}{gr}_{\s}=w_{2}r_{2}\\
 \end{array} $$
 </div>
+
 So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
@@ -583,6 +649,7 @@ r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \righ
 r_{2}&=& 1.36 \m
 \end{array} $$
 </div>
+
 b) Since the children are not moving:
 
 <div class="equation">
@@ -591,6 +658,7 @@ $$ \begin{array}{}
 ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$
 </div>
+
 So that
 
 <div class="equation">
@@ -599,10 +667,13 @@ F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right
 F_{\text{p}}&=& 686 \N
 \end{array} $$
 </div>
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -620,4 +691,4 @@ SI units of torque
 center of gravity
 : the point where the total weight of the body is assumed to be concentrated
 
-</div>
+:::

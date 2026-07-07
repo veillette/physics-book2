@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and discuss binding energy.
 * Calculate the binding energy per nucleon of a particle.
-</div>
+
+:::
 
 The more tightly bound a system is, the stronger the forces that hold it
 together and the greater the energy required to pull it apart. We can therefore
@@ -60,10 +61,12 @@ expressed in unified atomic mass units u ( $$1 \text{u}= 931.5 \text{MeV}/{c}^{2
 ![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg 'Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.')
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Things Great and Small
 </div>
+
 **Nuclear Decay Helps Explain Earth’s Hot Interior**
 
 A puzzle created by radioactive dating of rocks is resolved by radioactive
@@ -119,7 +122,7 @@ electrons. Most of the helium on Earth is obtained from wells and is produced in
 this manner. Any helium in the atmosphere will escape in geologically short
 times because of its high thermal velocity.
 
-</div>
+:::
 
 What patterns and insights are gained from an examination of the binding energy
 of various nuclides? First, we find that BE is approximately proportional to the
@@ -170,11 +173,13 @@ discussed in subsequent chapters. The most common elements have the most tightly
 bound nuclei. It is also no accident that one of the most tightly bound light
 nuclei is $${}^{4}\text{He} $$ , emitted in $$\alpha $$ decay.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Is
  $$\text{BE}/A $$ for an Alpha Particle?
 </div>
+
 Calculate the binding energy per nucleon of  $${}^{4}\text{He} $$ ,
  the  $$\alpha  $$  particle.
 
@@ -193,12 +198,14 @@ The binding energy for a nucleus is given by the equation
 <div class="equation">
  $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left({}^{A}\text{X}\right)\right\}{c}^{2}\text{.} $$
 </div>
+
 For  $${}^{4}\text{He} $$ ,
  we have  $$Z=N=2 $$ ;  thus,
 
 <div class="equation">
  $$\text{BE}=\left\{\left[ 2m\left({}^{1}\text{H}\right)+{2m}_{n}\right]  -m\left({}^{4}\text{He}\right)\right\}{c}^{2}\text{.} $$
 </div>
+
 [Appendix A](../contents/appendixA) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
   $$m\left({}^{1}\text{H}\right)=1.007825 \text{u} $$ ,
  and  $${m}_{n}=1.008665 \text{u} $$ .
@@ -207,17 +214,20 @@ For  $${}^{4}\text{He} $$ ,
 <div class="equation">
  $$\text{BE}=\left(0.030378 \text{u}\right){c}^{2}\text{.} $$
 </div>
+
 Noting that  $$1 \text{u}=931.5 \text{MeV/}{c}^{2} $$ ,
  we find
 
 <div class="equation">
  $$\text{BE}=\left(0.030378\right)\left(931.5 \text{MeV/}{c}^{2}\right){c}^{2}=28.3 \text{MeV}\text{.} $$
 </div>
+
 Since  $$A=4 $$ ,
  we see that  $$\text{BE}/A $$  is this number divided by 4, or
 <div class="equation">
  $$\text{BE}/A=7.07 \text{MeV/nucleon}\text{.} $$
 </div>
+
 **Discussion**
 
 This is a large binding energy per nucleon compared with those for other
@@ -235,7 +245,7 @@ themselves together, experience the exceptionally large nuclear force that binds
 this combination, and act as a $${}^{4}\text{He} $$ unit within the nucleus, at
 least for a while. In some cases, the $${}^{4}\text{He} $$ escapes, and $$\alpha $$ decay has then taken place.
 
-</div>
+:::
 
 There is more to be learned from nuclear binding energies. The general trend in
 $$\text{BE}/A $$ is fundamental to energy production in stars, and to fusion and
@@ -268,10 +278,12 @@ the advice in Step 5 will also help you to be certain of your result.) You
 must understand the problem conceptually to be able to determine whether the
 numerical result is reasonable.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Nuclear Fission
 </div>
+
 Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Control energy production in a nuclear reactor!
 {: class="newline"}
 
@@ -280,7 +292,8 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 <div class="media"  data-alt="">
 <iframe width="960" height="671.4" src="https://veillette.github.io/simulations/nuclear-fission/#sim-one-nucleus"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -290,6 +303,7 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
   <div class="equation" >
    $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left({}^{A}\text{X}\right)\right\}{c}^{2}, $$
   </div>
+
      where
    $$m\left({}^{1}\text{H}\right) $$ is the mass of a hydrogen atom,
    $$m\left({}^{A}\text{X}\right) $$ is the atomic mass of the nuclide, and
@@ -300,58 +314,76 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is the number of neutrons greater than the number of protons in stable nuclei having  $$A $$
  greater than about 40, and why is this effect more pronounced for the heaviest nuclei?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${}^{2}\text{H} $$
  is a loosely bound isotope of hydrogen. Called deuterium or heavy hydrogen, it is stable but relatively rare—it is 0.015% of natural hydrogen. Note that deuterium has  $$Z=N $$ ,
  which should tend to make it more tightly bound, but both are odd numbers. Calculate  $$BE/A $$ ,
  the binding energy per nucleon, for  $${}^{2}\text{H} $$
  and compare it with the approximate value obtained from the graph in [[Figure 3]](#Figure3).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 1.112 MeV, consistent with graph
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${}^{56}\text{Fe} $$
  is among the most tightly bound of all nuclides. It is more than 90% of natural iron. Note that  $${}^{56}\text{Fe} $$
  has even numbers of both protons and neutrons. Calculate  $$BE/A $$ ,
  the binding energy per nucleon, for  $${}^{56}\text{Fe} $$
  and compare it with the approximate value obtained from the graph in [[Figure 3]](#Figure3).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${}^{209}\text{Bi} $$
  is the heaviest stable nuclide, and its  $$\text{BE}/A $$
  is low compared with medium-mass nuclides. Calculate  $$BE/A $$ ,
  the binding energy per nucleon, for  $${}^{209}\text{Bi} $$
  and compare it with the approximate value obtained from the graph in [[Figure 3]](#Figure3).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 7.848 MeV, consistent with graph
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate  $$\text{BE}/A $$
  for  $${}^{235}\text{U} $$ ,
  the rarer of the two most common uranium isotopes. (b) Calculate  $$\text{BE}/A $$
@@ -361,11 +393,14 @@ Why is the number of neutrons greater than the number of protons in stable nucle
  has even numbers of both protons and neutrons. Is the  $$\text{BE}/A $$
  of  $${}^{238}\text{U} $$  significantly different from that of  $${}^{235}\text{U} $$ ?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate  $$\text{BE}/A $$
  for  $${}^{12}\text{C} $$ .
  Stable and relatively tightly bound, this nuclide is most of natural carbon. (b) Calculate  $$\text{BE}/A $$
@@ -375,19 +410,24 @@ Why is the number of neutrons greater than the number of protons in stable nucle
  and  $${}^{14}\text{C} $$
  significant? One is stable and common, and the other is unstable and rare.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 7.680 MeV, consistent with graph
 
 (b) 7.520 MeV, consistent with graph. Not significantly different from value for
 $${}^{12}\text{C} $$ , but sufficiently lower to allow decay into another
 nuclide that is more tightly bound.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
  near 60 implies that the range of the nuclear force is about the diameter of such nuclides. (a) Calculate the diameter of an  $$A=60 $$
  nucleus. (b) Compare  $$\text{BE}/A $$
@@ -395,11 +435,14 @@ The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
  and  $${}^{90}\text{Sr} $$ .
  The first is one of the most tightly bound nuclides, while the second is larger and less tightly bound.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is
 negligible compared with the masses of the proton and electron. (a) Calculate the mass equivalent in u of the 13.6-eV
 binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](../contents/appendixA). (b) Subtract the mass of the proton given
@@ -411,19 +454,24 @@ three digits, implying the binding energy is small in comparison.
 to the energy equivalent of the electron’s mass (0.511 MeV).
 (d) Discuss how your answers confirm the stated purpose of this problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.46 \times 10^{-8}  u $$
  vs. 1.007825 u for  $${}^{1}\text{H} $$
 (b) 0.000549 u
 
 (c) $$ 2.66 \times 10^{-5} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A particle physicist discovers a neutral particle with a mass of 2.02733 u that
@@ -431,17 +479,21 @@ he assumes is two neutrons bound together. (a) Find the binding energy. (b) What
 is unreasonable about this result? (c) What assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a)  $$-9.315 \text{MeV} $$
 (b) The negative binding energy implies an unbound system.
 
 (c) This assumption that it is two bound neutrons is incorrect.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -452,4 +504,4 @@ binding energy per nucleon
 : the binding energy calculated per nucleon; it reveals the details of the
 nuclear force—larger the $$\text{BE}/A $$ , the more stable the nucleus
 
-</div>
+:::

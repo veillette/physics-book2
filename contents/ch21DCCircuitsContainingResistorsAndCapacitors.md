@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 6
 chapterNumber: 21
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the importance of the time constant, τ , and calculate the time constant for a given resistance and capacitance.
 * Explain why batteries in a flashlight gradually lose power and the light dims over time.
 * Describe what happens to a graph of the voltage across a capacitor over time as it charges.
 * Explain how a timing circuit works and list some applications.
 * Calculate the necessary speed of a strobe flash needed to “stop” the movement of an object over a particular length.
-</div>
+
+:::
 
 When you use a flash camera, it takes a few seconds to charge the capacitor that
 powers the flash. The light flash discharges the capacitor in a tiny fraction of
@@ -146,10 +147,12 @@ allow it to reemit the energy in another form.
 ![In the photograph, details of the fast beating wings of the hummingbird taking nectar from a flower have been caught in focus, instead of the blur that our eyes would see in real time.](../resources/Figure_21_06_03.jpg 'This stop-motion photograph of a rufous hummingbird (Selasphorus rufus) feeding on a flower was obtained with an extremely brief and intense flash of light powered by the discharge of a capacitor through a gas. (credit: Dean E. Biggins, U.S. Fish and Wildlife Service)')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Integrated Concept Problem: Calculating Capacitor Size—Strobe Lights
 </div>
+
 High-speed flash photography was pioneered by Doc Edgerton in the 1930s, while he was a professor of electrical engineering at MIT. You might have seen examples of his work in the amazing shots of hummingbirds in motion, a drop of milk splattering on a table, or a bullet penetrating an apple (see [[Figure 3]](#Figure3)). To stop the motion and capture these pictures, one needs a high-intensity, very short pulsed flash, as mentioned earlier in this module.
 
 Suppose one wished to capture the picture of a bullet (moving at $$5.0 \times 10^{2} \text{m/s} $$ )
@@ -173,6 +176,7 @@ equations that describe the relationship between distance $$x $$ , velocity $$v 
 <div class="equation" >
  $$x=vt \text{ or } t=\frac{x}{v}. $$
 </div>
+
 The bullet’s velocity is given as  $$5.0 \times 10^{2}  \text{m/s} $$ ,
  and the distance  $$x $$
  is  $$8.0 \times 10^{-2}  \text{m} \text{.}  $$
@@ -181,12 +185,14 @@ The bullet’s velocity is given as  $$5.0 \times 10^{2}  \text{m/s} $$ ,
 <div class="equation" >
  $$t=\frac{x}{v}=\frac{8.0 \times 10^{-2}  \text{m}}{5.0 \times 10^{2}  \text{m/s}}= 1.6 \times 10^{-4}  \text{s} \text{.}  $$
 </div>
+
 We set this value for the crossing time  $$t $$
  equal to  $$\tau  $$ .  Therefore,
 
 <div class="equation" >
  $$C=\frac{t}{R}=\frac{ 1.6 \times 10^{-4}  s}{10.0 \text{Ω}}=16 \text{μF.} $$
 </div>
+
 (Note: Capacitance  $$C $$
  is typically measured in farads,  $$F $$ ,
  defined as Coulombs per volt. From the equation, we see that  $$C $$
@@ -201,7 +207,7 @@ from the picture of the apple and bullet was used in the Warren Commission
 Report on the assassination of President John F. Kennedy in 1963 to confirm that
 only one bullet was fired.
 
-</div>
+:::
 
 ### _RC_ Circuits for Timing
 
@@ -226,10 +232,12 @@ during exercise to meet the body’s increased needs for blood and oxygen.
 ![Part a shows a charging circuit containing cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. The current is shown to flow clockwise through this arm of the circuit alone. A bulb of high resistance R is connected across the capacitor. Part b shows a discharging circuit containing a cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. A bulb of low resistance R is connected across the capacitor. Current flows clockwise through the arm containing the capacitor and the low resistance bulb. Part c is a graph showing variation of voltage verses time for the bulb in above circuit. The voltage is plotted along the vertical axis and the time is plotted along the horizontal axis. The curve has a smooth rise from the origin, reaches a plateau at threshold value of voltage where it begins to drop and rise as a small sawtooth wave with maxima lying along the threshold line.](../resources/Figure_21_06_04.jpg '(a) The lamp in this ( RC ) circuit ordinarily has a very high resistance, so that the battery charges the capacitor as if the lamp were not there. When the voltage reaches a threshold value, a current flows through the lamp that dramatically reduces its resistance, and the capacitor discharges through the lamp as if the battery and charging resistor were not there. Once discharged, the process starts again, with the flash period determined by the ( RC ) constant ( \\tau ). (b) A graph of voltage versus time for this circuit.')
 {: #Figure4}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Time: *RC* Circuit in a Heart Defibrillator
 </div>
+
 A heart defibrillator is used to resuscitate an accident victim by discharging a capacitor through the trunk of her body. A simplified version of the circuit is seen in [[Figure 2]](#Figure2). (a) What is the time constant if an  $$8.00-\mu F $$
  capacitor is used and the path resistance through her body is  $$1.00 \times 10^{3}  \Omega  $$ ?
  (b) If the initial voltage is 10.0 kV, how long does it take to decline to  $$5.00 \times 10^{2}  \text{V} $$ ?
@@ -253,6 +261,7 @@ gives
 <div class="equation" >
  $$\tau =\text{RC}=\left(1.00 \times 10^{3}  \Omega \right)\left( 8.00 \mu F\right)= 8.00 \text{ms} \text{.}  $$
 </div>
+
 **Solution for (b)**
 
 In the first 8.00 ms, the voltage (10.0 kV) declines to 0.368 of its initial
@@ -261,16 +270,19 @@ value. That is:
 <div class="equation" >
  $$V= 0.368{V}_{0}=3.680 \times 10^{3}  \text{V at }t= 8.00 \text{ms} \text{.}  $$
 </div>
+
 (Notice that we carry an extra digit for each intermediate calculation.) After another 8.00 ms, we multiply by 0.368 again, and the voltage is
 
 <div class="equation" >
  $$\begin{array}{lll}V^{\prime}& =& 0.368V\\ & =& \left(0.368\right)\left(3.680 \times 10^{3}  \text{V}\right)\\ & =& 1.354 \times 10^{3}  \text{V} \text{at} t=16.0 \text{ms} \text{.} \end{array} $$
 </div>
+
 Similarly, after another 8.00 ms, the voltage is
 
 <div class="equation" >
  $$\begin{array}{lll}V^{\prime\prime}& =& 0.368V^{\prime}=\left(0.368\right)\left( 1.354 \times 10^{3}  \text{V}\right)\\ & =& 498 \text{V at} t=24.0\text{ ms.}\end{array} $$
 </div>
+
 **Discussion**
 
 So after only 24.0 ms, the voltage is down to 498 V, or 4.98% of its original
@@ -280,33 +292,41 @@ actual circuit in a heart defibrillator is slightly more complex than the one
 in [[Figure 2]](#Figure2), to compensate for magnetic and AC effects that will
 be covered in [Magnetism](../contents/ch22Magnetism).
 
-</div>
+:::
 
 <div class="exercise"  data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" data-element-type="check-understanding" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"check-understanding"}
+
 When is the potential difference across a capacitor an emf?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Only when the current being drawn from or put into the capacitor is zero. Capacitors, like batteries, have internal resistance, so their output voltage is not an emf unless current is zero. This is difficult to measure in practice so we refer to a capacitor’s voltage rather than its emf. But the source of potential difference in a capacitor is fundamental and it is an emf.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Circuit Construction Kit (DC only)
 </div>
+
 An electronics kit in your computer! Build circuits with resistors, light bulbs, batteries, and switches. Take measurements with the realistic ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a life-like view.
 {: class="newline"}
 
 <div class="media"  data-alt="circuit construction kit">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/circuit-construction-kit-dc-only/#sim-cck"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -337,112 +357,152 @@ An electronics kit in your computer! Build circuits with resistors, light bulbs,
 ### Conceptual questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Regarding the units involved in the relationship  $$\tau =\text{RC} $$ ,
  verify that the units of resistance times capacitance are time, that is,  $$\Omega \cdot F=s $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The  $$\text{RC} $$
  time constant in heart defibrillation is crucial to limiting the time the current flows. If the capacitance in the defibrillation unit is fixed, how would you manipulate resistance in the circuit to adjust the  $$\text{RC} $$
  constant  $$\tau  $$ ?
  Would an adjustment of the applied voltage also be needed to ensure that the current delivered has an appropriate value?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When making an ECG measurement, it is important to measure voltage variations over small time intervals. The time is limited by the  $$\text{RC} $$
  constant of the circuit—it is not possible to measure time variations shorter than  $$\text{RC} $$ .
  How would you manipulate  $$R $$  and  $$C $$
  in the circuit to allow the necessary measurements?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Draw two graphs of charge versus time on a capacitor. Draw one for charging an initially uncharged capacitor in series with a resistor, as in the circuit in [[Figure 1]](#Figure1), starting from  $$t=0 $$ .
  Draw the other for discharging a capacitor through a resistor, as in the circuit in [[Figure 2]](#Figure2), starting at  $$\t=0 $$ ,
  with an initial charge  $${Q}_{0} $$ .
  Show at least two intervals of  $$\tau  $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When charging a capacitor, as discussed in conjunction with [[Figure 1]](#Figure1), how long does it take for the voltage on the capacitor to reach emf? Is this a problem?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When discharging a capacitor, as discussed in conjunction with [[Figure 2]](#Figure2), how long does it take for the voltage on the capacitor to reach zero? Is this a problem?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Figure 1]](#Figure1), draw a graph of potential difference across the resistor versus time, showing at least two intervals of  $$\tau  $$ .
  Also draw a graph of current versus time for this situation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A long, inexpensive extension cord is connected from inside the house to a refrigerator outside. The refrigerator doesn’t run as it should. What might be the problem?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In [[Figure 4]](#Figure4), does the graph indicate the time constant is shorter for discharging than for charging? Would you expect ionized gas to have low resistance? How would you adjust  $$R $$
  to get a longer time between flashes? Would adjusting  $$R $$
  affect the discharge time?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An electronic apparatus may have large capacitors at high voltage in the power supply section, presenting a shock hazard even when the apparatus is switched off. A “bleeder resistor” is therefore placed across such a capacitor, as shown schematically in [[Figure 5]](#Figure5), to bleed the charge from it after the apparatus is off. Why must the bleeder resistance be much greater than the effective resistance of the rest of the circuit? How does this affect the time constant for discharging the capacitor?
 
 ![An electrical circuit with a capacitor has an extra resistor R sub b l, called a bleeder, installed in parallel with the capacitor.](../resources/Figure_21_06_05.jpg 'A bleeder resistor ( R_\\text{bl} ) discharges the capacitor in this electronic device once it is switched off.')
 {: #Figure5}
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The timing device in an automobile’s intermittent wiper system is based on an  $$\text{RC} $$
  time constant and utilizes a  $$0.500\text{-μF} $$
  capacitor and a variable resistor. Over what range must  $$R $$
  be made to vary to achieve time constants from 2.00 to 15.0 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$\text{range} 4.00 \text{to} 30.0 \text{M}\Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A heart pacemaker fires 72 times a minute, each time a 25.0-nF capacitor is charged (by a battery in series with a resistor) to 0.632 of its full voltage. What is the value of the resistance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The capacitor reaches 0.632 of its full voltage after one time constant $$\tau = RC$$. The pacemaker fires 72 times per minute, so the time between firings is the charging time for one time constant. Use this to find the resistance.
@@ -467,33 +527,43 @@ The very large resistance (33.3 MΩ) is appropriate for a pacemaker because it n
 
 The resistance is 33.3 MΩ.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The duration of a photographic flash is related to an  $$\text{RC} $$
  time constant, which is  $$0.100 \text{μs} $$
  for a certain camera. (a) If the resistance of the flash lamp is  $$ 0.0400 \Omega  $$
  during discharge, what is the size of the capacitor supplying its energy? (b) What is the time constant for charging the capacitor, if the charging resistance is  $$800 \text{kΩ} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$2.50 \text{μF} $$
 (b) 2.00 s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 2.00- and a  $$7.50\text{-μF} $$
  capacitor can be connected in series or parallel, as can a 25.0- and a  $$100 \text{-kΩ} $$
  resistor. Calculate the four  $$\text{RC} $$
  time constants possible from connecting the resulting capacitance and resistance in series.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Find the two possible capacitances (series and parallel) and the two possible resistances (series and parallel). Then calculate all four combinations of $$\tau = RC$$.
@@ -528,30 +598,40 @@ The four time constants span a range from 31.6 ms to 1.19 s—nearly a factor of
 
 The four time constants are: 1.19 s, 0.198 s, 0.190 s, and 31.6 ms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 After two time constants, what percentage of the final voltage, emf, is on an initially uncharged capacitor  $$C $$ ,
  charged through a resistance  $$R $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 86.5%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $$500 \text{-Ω} $$
  resistor, an uncharged  $$1.50\text{-μF} $$
  capacitor, and a 6.16-V emf are connected in series. (a) What is the initial current? (b) What is the  $$\text{RC} $$
  time constant? (c) What is the current after one time constant? (d) What is the voltage on the capacitor after one time constant?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Initially, the uncharged capacitor acts like a wire (no voltage across it), so all the emf appears across the resistor. As the capacitor charges, the current decreases exponentially. After one time constant, the voltage reaches 0.632 of the emf, and the current drops to 0.368 of its initial value.
@@ -584,32 +664,42 @@ The time constant (0.750 ms) is very short, so the capacitor charges quickly. Af
 
 (a) 12.3 mA, (b) 0.750 ms, (c) 4.53 mA, (d) 3.89 V.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A heart defibrillator being used on a patient has an  $$\text{RC} $$
  time constant of 10.0 ms due to the resistance of the patient and the capacitance of the defibrillator. (a) If the defibrillator has an  $$8.00\text{-μF} $$
  capacitance, what is the resistance of the path through the patient? (You may neglect the capacitance of the patient and the resistance of the defibrillator.) (b) If the initial voltage is 12.0 kV, how long does it take to decline to  $$6.00 \times 10^{2}  \text{V} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$1.25 \text{k}\Omega  $$
 (b) 30.0 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An ECG monitor must have an  $$\text{RC} $$
  time constant less than  $$1.00 \times 10^{2}  \text{μs} $$
  to be able to measure variations in voltage over small time intervals. (a) If the resistance of the circuit (due mostly to that of the patient's chest) is  $$ 1.00 k\Omega  $$ ,
  what is the maximum capacitance of the circuit? (b) Would it be difficult in practice to limit the capacitance to less than the value found in (a)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The time constant must be less than 100 μs to accurately measure fast voltage changes in the heart. Use $$\tau = RC$$ to find the maximum capacitance, given the resistance.
@@ -634,11 +724,14 @@ The requirement for fast response time ($$\tau < 100 \text{ μs}$$) ensures the 
 
 (a) Maximum capacitance is 100 nF. (b) No, this is readily achievable with proper circuit design.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 6]](#Figure6) shows how a bleeder resistor is used to discharge a capacitor after an electronic device is shut off, allowing a person to work on the electronics with less risk of shock. (a) What is the time constant? (b) How long will it take to reduce the voltage on the capacitor to 0.250% (5% of 5%) of its full value once discharge begins? (c) If the capacitor is charged to a voltage  $${V}_{0} $$
  through a  $$100 \text{-Ω} $$
  resistance, calculate the time it takes to rise to  $$ 0.865{V}_{0} $$
@@ -647,25 +740,32 @@ The requirement for fast response time ($$\tau < 100 \text{ μs}$$) ensures the 
 ![A parallel circuit with a switch, an embedded electronic circuit, a capacitor, and a resistor is shown. The embedded circuit, capacitor, and resistor are connected in parallel with each other: the electronic circuit on the left, the capacitor in the middle, and the resistor on the right. The capacitor has a capacitance of eighty micro farads. The resistor has a resistance of two hundred fifty kilohms. The switch is on the top, between the electronic circuit and the capacitor leg.](../resources/Figure_21_06_07.jpg ' ')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 20.0 s
 
 (b) 120 s
 
 (c) 16.0 ms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the exact exponential treatment, find how much time is required to discharge a  $$250 \text{-μF} $$
  capacitor through a  $$500 \text{-Ω} $$
  resistor down to 1.00% of its original voltage.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the exponential discharge formula $$V = V_0 e^{-t/RC}$$ and solve for the time when $$V = 0.0100\text{ V}_0$$.
@@ -705,16 +805,21 @@ The time required (0.576 s) is 4.6 time constants (since $$\ln(100) = 4.605$$). 
 
 The time required is 0.576 s (or 576 ms).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the exact exponential treatment, find how much time is required to charge an initially uncharged 100-pF capacitor through a  $$ 75.0\text{-M}\Omega  $$
  resistor to 90.0% of its final voltage.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$V = V_0(1 - e^{-t/RC})$$ and solve for $$t$$ when $$V = 0.900\text{ V}_0$$.
@@ -749,11 +854,14 @@ The time required (17.3 ms) is 2.30 time constants. This makes sense since $$\ln
 
 The time required is $$1.73 \times 10^{-2}$$ s or 17.3 ms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 If you wish to take a picture of a bullet traveling at 500 m/s, then a very
@@ -763,14 +871,20 @@ constant is acceptable, and given that the flash is driven by a $$600 \text{-μF
 
 capacitor, what is the resistance in the flash tube?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 3.33 \times 10^{-3}  \Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A flashing lamp in a Christmas earring is based on an $$\text{RC} $$ discharge
@@ -779,11 +893,14 @@ of a capacitor through its resistance. The effective duration of the flash is
 What energy does it dissipate? (b) How much charge moves through the lamp? (c)
 Find the capacitance. (d) What is the resistance of the lamp?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A $$160 \text{-μF} $$ capacitor charged to 450 V is discharged through a
@@ -794,30 +911,38 @@ that most of the thermal energy is retained in the short time of the
 discharge. (c) Calculate the new resistance, assuming it is pure carbon. (d)
 Does this change in resistance seem significant?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 4.99 s
 
 (b)  $$3.87\text{ºC} $$
 (c)  $$31.1 \text{k}\Omega $$
 (d) No
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Calculate the capacitance needed to get an $$\text{RC} $$ time constant of
 $$1.00 \times 10^{3} \text{s} $$ with a $$0.100\text{-Ω} $$ resistor. (b) What
 is unreasonable about this result? (c) Which assumptions are responsible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a camera’s flash unit. Construct a problem in which you calculate the
@@ -826,11 +951,14 @@ be considered are the voltage applied to the capacitor, the energy needed in the
 flash and the associated charge needed on the capacitor, the resistance of the
 flash lamp during discharge, and the desired $$\text{RC} $$ time constant.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a rechargeable lithium cell that is to be used to power a camcorder.
@@ -840,10 +968,12 @@ charger to be used to recharge your lithium cell. Among the things to be
 considered are the emf and useful terminal voltage of a lithium cell and the
 current it should be able to supply to a camcorder.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -858,4 +988,4 @@ capacitance
 : the maximum amount of electric potential energy that can be stored (or
 separated) for a given electric potential
 
-</div>
+:::

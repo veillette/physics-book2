@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define diffusion, osmosis, dialysis, and active transport.
 * Calculate diffusion rates.
-</div>
+
+:::
 
 ### Diffusion
 
@@ -86,10 +87,12 @@ that diffusion constants increase with temperature, because average molecular
 speed increases with temperature. This is because the average kinetic energy of
 molecules, $$\frac{1}{2}mv^{2} $$ , is proportional to absolute temperature.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Diffusion: How Long Does Glucose Diffusion Take?
 </div>
+
 Calculate the average time it takes a glucose molecule to move 1.0 cm in water.
 
 **Strategy**
@@ -105,12 +108,13 @@ Solving for $$t $$ and substituting known values yields
 <div class="equation" >
  $$\begin{array}{lll}t& =& \frac{ {x}_{\text{rms}}^{2}}{2D}=\frac{ {\left(0.010 \text{m} \right)}^{2}}{2\left( 6.7 \times 10^{-10} {\text{m}}^{2}\text{/s}\right)}\\ & =&  7.5 \times 10^{4}  \text{s}=21 \text{h}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This is a remarkably long time for glucose to move a mere centimeter! For this
 reason, we stir sugar into water rather than waiting for it to diffuse.
 
-</div>
+:::
 
 Because diffusion is typically very slow, its most important effects occur over
 small distances. For example, the cornea of the eye gets most of its oxygen by
@@ -235,6 +239,7 @@ nature to living structures.
   <div class="equation" >
    $${x}_{\text{rms}}=\sqrt{2D t}, $$
   </div>
+
      where  $$D $$
      is the diffusion constant, representative values of which are found in [[Table 1]](#Table1).
 
@@ -248,11 +253,15 @@ nature to living structures.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why would you expect the rate of diffusion to increase with temperature? Can you give an example, such as the fact that you can dissolve sugar more rapidly in hot water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We connect temperature to molecular kinetic energy and speed, then relate molecular speed to diffusion rate.
@@ -279,15 +288,21 @@ Since $$x_{\text{rms}} = \sqrt{2Dt}$$ and $$D$$ increases with temperature, the 
 **Discussion**
 
 The temperature dependence of diffusion is why we stir things rather than wait—even at room temperature, diffusion is slow over centimeter-scale distances. The relationship between $$D$$ and temperature is approximately linear for gases and follows a more complex relationship for liquids. This principle is crucial in chemistry, biology, and cooking!
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How are osmosis and dialysis similar? How do they differ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We compare and contrast these two transport processes based on their mechanisms, the substances transported, and the role of membranes.
@@ -316,18 +331,24 @@ In kidney dialysis, waste products (urea, excess salts) diffuse from blood into 
 **Discussion**
 
 The key distinction is **what moves**: in osmosis, water moves; in dialysis, dissolved substances move. Both are essential biological processes. The kidneys use both simultaneously—osmosis to regulate water balance and dialysis to remove waste products and excess ions from the blood.
-</div>
+
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can smell perfume very shortly after opening the bottle. To show that it is not reaching your nose by diffusion, calculate the average distance a perfume molecule moves in one second in air, given its diffusion constant  $$D $$
  to be  $$1.00 \times 10^{-6} {\text{m}}^{2}\text{/s} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the diffusion distance formula $$x_{\text{rms}} = \sqrt{2Dt}$$ to calculate how far a perfume molecule travels by diffusion in one second, then compare this to typical distances between a perfume bottle and your nose.
@@ -353,16 +374,22 @@ This tiny distance proves that diffusion is **not** how perfume reaches your nos
 $$t = \frac{x_{\text{rms}}^2}{2D} = \frac{(1 \text{ m})^2}{2(1.00 \times 10^{-6} \text{ m}^2\text{/s})} = 5 \times 10^{5} \text{ s} \approx 6 \text{ days}$$
 
 Since you smell perfume within seconds, not days, the odor must be carried by **convection**—air currents caused by temperature differences, air conditioning, or your own movement. Even your exhaling creates currents that mix the air much faster than diffusion. This example beautifully illustrates why diffusion is only important for transport over very short distances (like across cell membranes or thin tissue layers).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the ratio of the average distances that oxygen will diffuse in a given time in air and water? Why is this distance less in water (equivalently, why is $$D $$
  less in water)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We compare diffusion constants for oxygen in air versus water from Table 1, then calculate the ratio of distances using $$x_{\text{rms}} = \sqrt{2Dt}$$.
@@ -396,15 +423,21 @@ The diffusion constant is smaller in water because:
 **Discussion**
 
 This huge difference explains why organisms in water need specialized respiratory systems. Fish gills have enormous surface areas with very thin membranes because oxygen diffuses so slowly in water. The same principle explains why the cornea (which gets oxygen from tears) must be very thin—oxygen can only diffuse through water effectively over distances of micrometers to millimeters.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Oxygen reaches the veinless cornea of the eye by diffusing through its tear layer, which is 0.500-mm thick. How long does it take the average oxygen molecule to do this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the diffusion distance formula $$x_{\text{rms}} = \sqrt{2Dt}$$ and solve for time $$t$$. The diffusion constant for oxygen in water (tears are mostly water) is found in Table 1.
@@ -430,16 +463,22 @@ It takes approximately **125 seconds (about 2 minutes)** for an oxygen molecule 
 **Discussion**
 
 This relatively short time (about 2 minutes) explains why the cornea can survive without blood vessels—oxygen from the air dissolves in the tear layer and diffuses through quickly enough to supply the cornea's needs. This is possible only because the tear layer is extremely thin (0.5 mm). If the layer were 10 times thicker, diffusion would take 100 times longer (over 3 hours), which would be inadequate for corneal health. This is why contact lenses must be highly oxygen-permeable—they add to the diffusion distance and can cause corneal hypoxia if they block too much oxygen transport.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the average time required for an oxygen molecule to diffuse through a 0.200-mm-thick tear layer on the cornea. (b) How much time is required to diffuse  $$0.500 {\text{cm}}^{3} $$
  of oxygen to the cornea if its surface area is  $$ 1.00 {\text{cm}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) We use the diffusion formula $$x_{\text{rms}} = \sqrt{2Dt}$$ and solve for time.
@@ -476,15 +515,21 @@ For a rough estimate, if we need 0.500 cm³ of O₂ and molecules take 20 s each
 **Discussion**
 
 Part (a) shows that thinner tear layers dramatically speed up oxygen transport—a 0.200 mm layer requires only 20 seconds compared to 125 seconds for a 0.500 mm layer (the ratio is $$(0.5/0.2)^2 = 6.25$$). Part (b) highlights that bulk transport problems require more than just diffusion time—they also depend on concentration gradients and the rate at which oxygen can be supplied to the interface.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose hydrogen and oxygen are diffusing through air. A small amount of each is released simultaneously. How much time passes before the hydrogen is 1.00 s ahead of the oxygen? Such differences in arrival times are used as an analytical tool in gas chromatography.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We find when both gases have diffused the same distance, but the oxygen takes 1.00 s longer than the hydrogen. Using $$x = \sqrt{2Dt}$$ for each gas and setting them equal while accounting for the time difference, we can solve for the time.
@@ -529,21 +574,24 @@ After **0.391 seconds**, the hydrogen will have reached a point that the oxygen 
 **Discussion**
 
 This separation occurs very quickly (less than half a second) because hydrogen diffuses about 3.6 times faster than oxygen due to its much lower molecular mass. This principle is the basis of **gas chromatography**, where different gases in a mixture are separated by their different rates of diffusion (or more precisely, by their different rates of movement through a column). Lighter molecules like hydrogen travel faster, allowing mixtures to be separated and analyzed. The technique is widely used in chemistry and biochemistry for identifying and quantifying gas components.
-</div>
+
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">At 20ºC and 1
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">At 20ºC and 1
   atm</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -580,4 +628,4 @@ active transport
 : the process in which a living membrane expends energy to move substances
 across
 
-</div>
+:::

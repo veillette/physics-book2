@@ -918,6 +918,184 @@ with this roadmap, **this roadmap wins**. Specifically, that draft:
   out of scope for parity;
 - targets Eleventy 3.x / Node 20 — this plan targets v4 / Node ≥22.15.
 
+## 10a. P0–P4 execution findings (2026-07-06) — corrections to THIS roadmap
+
+P0–P4 are implemented on `migrate/eleventy`. Building real pages and diffing against the
+frozen Jekyll baseline (P4.5) proved several assumptions in §2 and §4 wrong. Where this
+section conflicts with §4, **this section wins** — it is verified against kramdown 2.5.1
+source (in `vendor/bundle`) and against byte-parity on `ch10DynamicsOfRotationalMotion` and
+`ch19EnergyStoredInCapacitors`.
+
+- **Math is NOT verbatim passthrough (§4.1 was wrong).** With `math_engine: null` Kramdown
+  wraps math: inline `$$…$$` → `<span class="kdmath">$…$</span>` (single `$`, content
+  `.strip`ped) so MathJax renders it _inline_; a standalone block `$$…$$` →
+  `<div class="kdmath">$$\n…\n$$</div>`. Content is emitted **raw/unescaped** (the baseline
+  really contains raw `&` and `<` inside kdmath). Only `$$…$$` is math — single `$`, `\(`,
+  `\[` are **not** (Kramdown's escape set `[\\.*_+``<>()\[\]{}#!:|"'$=-]` collapses `\(`→`(`,
+  matching markdown-it's escape rule). `$$…$$` inside raw HTML (e.g. `<div class="equation">`)
+  stays verbatim because markdown-it's `html_block` claims it first. Implemented in
+  `lib/eleventy/markdown-it-kramdown-math.js` (replaces the deleted `…math-passthrough.js`);
+  the P0.4 comparator's math rule and the fixture tests assert this.
+- **Typography: drop markdown-it `replacements` (D7 refinement).** `typographer: true`
+  also does `(c)`→©, `(tm)`→™, `+-`→± which Kramdown never does (baseline: 0 `©`, 1549
+  literal `(c)`). Kramdown only substitutes `--- -- ... << >>`. `lib/eleventy/markdown-it-
+kramdown-typography.js` disables `replacements`, keeps `smartquotes`, and re-adds only
+  Kramdown's symbols.
+- **Kramdown slug (§4.2 snippet was wrong):** `basic_generate_id` strips leading non-letters
+  **first**, then substitutes **each** space with a dash (`tr`, not a collapsing `gsub`), so
+  `Problems & Exercises` → `problems--exercises` (double dash). Fixed in `kramdown-slugify.js`.
+- **markdown-it-anchor needs `tabIndex: false`** (Kramdown emits `id=` only, no `tabindex`).
+- **Image IALs must be LEFT UNFOLDED (§4.2 folding rule was wrong).** Kramdown binds the
+  next-line `{: #FigureN}` to the enclosing `<p>` (`<p id="Figure1"><img></p>`), and
+  markdown-it-attrs does the same when the IAL stays on its own line. Folding it onto the
+  `<img>` diverges from the baseline. (The runtime figure builder reads `img.getAttribute
+('id')`, so it currently gets null on figures — that is existing baseline behaviour we
+  preserve, not something to "fix" during the migration.)
+- **P5 converter — raw wrappers need blank lines.** A raw `<div class="exercise">` (no
+  `markdown="1"`) that wraps `::: problem`/`::: solution` containers must get a blank line
+  after the opening tag and before the closing `</div>`, or markdown-it's `html_block` rule
+  swallows the `:::` fences and renders them literally. Raw text wrappers (`<div class=
+"title">`, `<div class="equation">`) must instead stay contiguous (no inner blanks) but be
+  separated from following markdown by a blank line.
+- **Eleventy vs .gitignore:** `src/contents/` is gitignored (build artifact) but Eleventy
+  honours `.gitignore` for input, so it silently skipped every content page. Fixed with
+  `setUseGitIgnore(false)` + a `.eleventyignore`; `.gitignore` narrowed to
+  `/src/contents/*.md` so `contents.11tydata.js` stays tracked.
+- **HtmlBasePlugin vs `| url`:** using both double-prefixes URLs
+  (`/physics-book2/physics-book2/…`). Templates use PLAIN root-relative asset URLs (let
+  HtmlBasePlugin add the prefix); `| url` is kept only for the `window.Book` script-body
+  values, which HtmlBasePlugin does not touch (§3, P3.2).
+- **Three more `markdown="1"` outliers than §2.1 listed**, all fixed in P0.3 and captured by
+  `scripts/generate-census.js` → `migration-census.json`: `ch31` `class="Example1"` (mis-cased,
+  → `example`), plus a commented-out `<figure markdown="1">` in `ch28` (correctly ignored).
+  Real `markdown="1"` block count is **6938**; container allow-list is the 8 names in the
+  census JSON.
+
+## 10b. P5–P9 execution findings (2026-07-07)
+
+P5, P6, P7 and P9 are implemented on `migrate/eleventy`; P8 is well underway. The site
+builds, boots, and is deployable from the branch in its **staging** shape (Kramdown source
+
+- `scripts/migrate-content.js` → `src/` → Eleventy). P10 (the irreversible cutover that
+  deletes the Kramdown source and merges to `main`) is intentionally **not executed** — see
+  the note at the end.
+
+**P5 — converter (`scripts/migrate-content.js`), corrections to §4/§10a:**
+
+- **Duplicate `class` attrs → LAST value wins, not merged** (§2.1's "merge" was wrong):
+  `class="note" … class="interactive"` renders `class="interactive"`. Added an
+  `interactive` container (`containers.js` + census); the census generator now uses the
+  last class attribute too.
+- **Container fences need depth-aware colon counts.** `<figure markdown="1">` nests inside
+  `note`/`example` (§4.3's "no nested markdown=1" was wrong). markdown-it-container matches
+  a close by marker length and does not track nesting, so each container gets
+  `3 + (maxDepth − depth)` colons (outer > inner).
+- **Raw wrappers:** blank line only AFTER a raw-close (never before a raw-open — that breaks
+  an indented `<div class="equation">` continuing a list item); raw-wrapper body re-indented
+  to the wrapper's column so an un-indented `$$…$$` stays inside its html_block; blank lines
+  inside raw `<table>` stripped so cell `$$…$$` stays verbatim.
+- **Mid-line block tags escaped.** A `<div class="equation">` in the middle of a paragraph
+  is span-context for Kramdown, which escapes it to text; the converter escapes mid-line
+  `<div|figure|section>` so markdown-it doesn't emit a real, unbalanced element.
+- **IAL handling:** a standalone IAL (blank line before) binds FORWARD to the next heading
+  in Kramdown (e.g. `{: #Table1}` after a table → the following `### Efficiency`); list-item
+  IAL folding is item-aware (moves to the end of the item's own content, not past a nested
+  list); wrapped/emphasis-adjacent IALs are joined (footnote-refs, `**term**`/`{: …}`).
+
+**Pipeline (`lib/eleventy/`):**
+
+- **Math block-vs-span** is decided in a post-inline core rule: a `$$…$$` that is the sole
+  content of a paragraph or list item becomes a display `<div class="kdmath">`, otherwise an
+  inline `<span class="kdmath">`. This is robust where a block-ruler heuristic is not
+  (markdown-it gives no tight per-list-item line range).
+- **`markdown-it-raw-titles`** keeps link/image `title` backslashes verbatim (`\( 2T \)`)
+  but decodes HTML entities (`&#x2019;` → `’`) so captions match after entity normalisation.
+- **Typography**: added Kramdown's `<<`→«, `>>`→» (D7).
+- **`HtmlBasePlugin` replaced** by a narrow `href|src="/…"` prefix transform: it leaves
+  `./ ../ # http(s)` verbatim (HtmlBasePlugin normalised `./x`→`x`, breaking 54 pages) and
+  reads the active `pathPrefix`, so `VERCEL=1` builds at root while Pages builds under
+  `/physics-book2/`.
+
+**P6/P7 — boot verified** on the dev server (port 4000): MathJax renders, the client figure
+builder wraps `img[title]` into `figure`+`figcaption`, the TOC loads from `/SUMMARY.html`,
+`window.Book.rootUrl` has no trailing slash, `sw.js` is emitted with the right `BASE_URL`,
+and the search index loads. (`src/sw.njk` → `/sw.js`.)
+
+**P9 — Node-only CI/deploy.** `deploy.yml`/`ci.yml`/`generate-pdfs.yml`/`link-check.yml`
+drop Ruby, use Node 24, and build with Eleventy. PDFs (D6) are published to a `pdfs` GitHub
+Release by `generate-pdfs.yml` and restored by `deploy.yml` (warn if absent). CI grep gates
+(no `markdown="1"`/line-initial `{:`/`:::`/`{% raw` in `_site`) are **green**. `vercel.json`
+uses `npm ci` + Eleventy. (Note: `npm run test:unit` still fails the 21 **pre-existing**
+QA-script tests — `check-links.getLineNumber`, `check-math` currency, `check-orphans` — which
+are P10.5 sweep items, unrelated to the migration; `markdown-pipeline.test.js` is green.)
+
+**P8 — parity status:** `compare-builds.js` self-test is 285/285; the Eleventy build is
+**226/285** shared pages PASS, and — the property that actually gates the cutover — has
+**zero content regressions**: no page's visible text is >2% shorter than the baseline, no
+broken images (every `![…]` that Jekyll rendered, Eleventy renders), no spurious or missing
+links, and **zero container-census mismatches**. The remaining ~59 diffs are NOT regressions:
+
+- **Baseline bugs where Eleventy is _more_ correct (~31):** `$$…|x|…$$` uses LaTeX
+  absolute-value bars that collide with GFM pipe-table syntax; Kramdown mangles the equation
+  into a `<table>`, markdown-it renders the math correctly.
+- **Cosmetic / equivalent:** display-math internal whitespace (MathJax-identical); smartquote
+  glyphs in inert leaked text; `1)` paren-ordered lists (markdown-it makes a list, Kramdown
+  keeps the literal `1)`); a wrapped link URL Eleventy cleans of its stray newline.
+- **Different-but-working:** `[^1]` footnote anchors are `#fn1`/`#fnref1` (markdown-it-footnote)
+  vs Kramdown's `#fn:1`/`#fnref:1` (ch5Elasticity, the one footnote file).
+- **Shared malformed source** (both engines mishandle): blank-line-in-alt images (ch6, ch23,
+  ch1), a `[]`-in-alt (ch1); a few emphasis edge cases (`*x*`, `**;**`) and hand-written
+  tables (appendixA, Glossary).
+
+Fixes applied to reach here (183→226) and, more importantly, to eliminate every genuine
+regression: Kramdown closing-quote after `=`; a lone `$$…$$` that is a container's sole
+paragraph stays a span; entity/backslash `text_special` kept in `alt`; image titles that
+contain their own delimiter switch delimiters (both `"…<a href="…">…"` and `'…Earth's…'`);
+hard-wrapped link/image URLs re-joined; mid-line block tags escaped with straight attribute
+quotes. Getting the last ~59 to literal PASS would require **replicating Kramdown's bugs**
+(the pipe-math table mangling) — which would make the site worse — so they are documented
+here rather than "fixed".
+
+**P10 — cutover.** Executed on `migrate/eleventy` once P8 showed zero content regressions
+(above). Content returns to root `contents/`, the Jekyll toolchain is removed, `dir.input`
+flips to `.`. The final merge to `main` (a production deploy) is left as the human step.
+
+## 10c. P10 execution findings (2026-07-07) — completing the cutover
+
+P10 was finished on `migrate/eleventy`. The staging tree (`src/` → Eleventy) was collapsed to
+the final root layout and the Jekyll toolchain deleted; the branch builds, passes its gates,
+and is ready to merge to `main` (the production deploy, left as the human step). Finishing the
+cutover surfaced (and fixed) several items §10b hadn't reached:
+
+- **`{{ site.baseurl }}` leaked into two passthrough assets.** `assets/manifest/manifest.json`
+  and `assets/pwa/register-sw.js` carried Liquid `{{ site.baseurl }}`; Jekyll processed them but
+  Eleventy's `addPassthroughCopy` copies verbatim, so the PWA manifest and service-worker
+  registration were broken (literal `{{ site.baseurl }}/sw.js`). Fixed by converting each to a
+  root Nunjucks template — `manifest.njk` → `/assets/manifest/manifest.json`,
+  `register-sw.njk` → `/assets/pwa/register-sw.js` (mirroring `sw.njk`) — baking the prefix via
+  `{{ "/" | url | trimSlash }}` and deleting the originals so passthrough no longer copies them.
+  `_site` now has zero `{{ site.` and the manifest is valid JSON.
+- **`test:unit` had an unhandled `process.exit`.** `parse-summary.js`, `check-orphans.js`, and
+  `check-links.js` called `runCli()` at module top level, so importing them in tests triggered
+  `process.exit`. Added the `isMain` guard (`import.meta.url === pathToFileURL(process.argv[1])`)
+  that `check-math.js` already used. `test:unit` is now fully green (106/106, 0 errors).
+- **`vercel.json` referenced a removed script** — `npm run migrate:content && …` (the converter
+  was retired at cutover). Build command is now `npm run build` (the `VERCEL` env var drives the
+  path prefix).
+- **`scripts/sync-config.js` retired** — it read/wrote `_config.yml` (deleted). Removed it and
+  its `sync:config` script; also dropped Dependabot's Ruby/Bundler ecosystem.
+- **CI grep gate false-positived on binaries.** `ci.yml`'s `grep -rEl` matched noise bytes in
+  the tracked `resources/*.jpg` (and local PDFs), which would fail the `build` job. Added `-I`
+  (skip binary) to each gate grep; the markers-only-in-text intent is now exact.
+- **Docs** (`README.md`, `CONTRIBUTE.md`, `claude.md` body, `CHANGELOG.md`, `scripts/README.md`)
+  rewritten for the Node/Eleventy toolchain: `npm run build`/`serve`, Node ≥ 22.15, no Ruby,
+  root-relative links (no `{{ site.baseurl }}`), Nunjucks layout/include paths.
+
+**Final state on the branch:** `npm run build` → 288 files; `npm run test:unit` → 106/106;
+`npm run compare:builds` → 226/285 (the documented, signed-off parity — zero content
+regressions); CI gates (`format:check`, `lint` 0 errors, grep gates) all green. Only the
+merge to `main` + post-merge cleanup of `_site_jekyll_baseline/` remains.
+
 ## 11. References
 
 - [Eleventy docs](https://www.11ty.dev/docs/) · [v4 release notes](https://github.com/11ty/eleventy/releases)

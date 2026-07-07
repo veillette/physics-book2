@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 2
 chapterNumber: 28
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe simultaneity.
 * Describe time dilation.
 * Calculate γ.
 * Compare proper time and the observer’s measured time.
 * Explain why the twin paradox is a false paradox.
-</div>
+
+:::
 
 ![A runner crossing a finishing line on a road with a clock showing his finish time.](../resources/Figure_28_02_01.jpg 'Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)')
 {: #Figure1}
@@ -84,13 +85,15 @@ Two events are not necessarily simultaneous to all observers.
 The consideration of the measurement of elapsed time and simultaneity leads to
 an important relativistic effect.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Time dilation
 </div>
+
 **Time dilation** is the phenomenon of time passing slower for an observer who is moving relative to another observer.
 
-</div>
+:::
 
 Suppose, for example, an astronaut measures the time it takes for light to cross
 her ship, bounce off a mirror, and return. (See [[Figure 2]](#Figure2).) How
@@ -123,14 +126,16 @@ the distance divided by speed, the time measured by the astronaut is
 This time has a separate name to distinguish it from the time measured by the
 Earth-bound observer.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 **Proper Time**
 </div>
+
 <strong class="term" >Proper time </strong> $$\Delta {t}_{0} $$
  is the time measured by an observer at rest relative to the event being observed.
 
-</div>
+:::
 
 In the case of the astronaut observe the reflecting light, the astronaut
 measures proper time. The time measured by the Earth-bound observer is
@@ -239,12 +244,14 @@ varies with velocity exactly as predicted by the equation $$\Delta t={\gamma \De
 Earth see the muon’s half-life time dilated—as viewed from our frame, the muon
 decays more slowly than it does when at rest relative to us.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating
  $$\Delta t $$
 for a Relativistic Event: How Long Does a Speedy Muon Live?
 </div>
+
 Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere produces a muon that has a velocity  $$v= 0.950c $$ .
  The muon then travels at constant velocity and lives  $$ 1.52 \mu \text{s} $$
  as measured in the muon’s frame of reference. (You can imagine this as the muon’s internal clock.) How long does the muon live as measured by an Earth-bound observer? (See [[Figure 4]](#Figure4).)
@@ -252,11 +259,11 @@ Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere 
 ![A muon is moving far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.](../resources/Figure_28_02_04.jpg "A muon in the Earth&#x2019;s atmosphere lives longer as measured by an Earth-bound observer than measured by the muon&#x2019;s internal clock.")
 {: #Figure4}
 
-<!--  <figure markdown="1" >
+<!--  &lt;figure markdown="1" &gt;
         <media  alt="A muon is place far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.">
           <image mime-type="image/jpg" src="Picture 19.jpg" height="217" width="141"/>
         </media>
-      </figure>-->
+      &lt;/figure&gt;-->
 
 **Strategy**
 
@@ -276,11 +283,13 @@ Use,
 <div class="equation" >
  $$\Delta t={\gamma \Delta t}_{0}, $$
 </div>
+
 where
 
 <div class="equation" >
  $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}. $$
 </div>
+
 4) Plug the knowns into the equation.
 
 First find $$\gamma $$.
@@ -288,12 +297,14 @@ First find $$\gamma $$.
 <div class="equation" >
  $$\begin{array}{lll}\gamma & =& \frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}\\ & =& \frac{1}{\sqrt{1-\frac{ {\left( 0.950c \right)}^{2}}{ {c}^{2}}}}\\ & =& \frac{1}{\sqrt{1-{\left( 0.950 \right)}^{2}}}\\ & =& 3.20.\end{array} $$
 </div>
+
 Use the calculated value of  $$\gamma  $$
  to determine  $$\Delta t $$.
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta t& =& {\gamma \Delta t}_{0}\\ & =& \left(3.20\right)\left(1.52 \mu \text{s}\right)\\ & =& 4.87 \mu \text{s}\end{array} $$
 </div>
+
 **Discussion**
 
 One implication of this example is that since $$\gamma = 3.20 $$ at $$ 95.0\% $$
@@ -302,7 +313,7 @@ significant. The two time intervals differ by this factor of 3.20, where
 classically they would be the same. Something moving at $$ 0.950c $$ is said to
 be highly relativistic.
 
-</div>
+:::
 
 Another implication of the preceding example is that everything an astronaut
 does when moving at $$ 95.0\% $$ of the speed of light relative to the Earth
@@ -314,13 +325,15 @@ will have no way of telling, since all of her clocks will agree with one another
 because their relative velocities are zero. Motion is relative, not absolute.
 But what if she does look out the window?
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Real-World Connections
 </div>
+
 It may seem that special relativity has little effect on your life, but it is probably more important than you realize. One of the most common effects is through the Global Positioning System (GPS). Emergency vehicles, package delivery services, electronic maps, and communications devices are just a few of the common uses of GPS, and the GPS system could not work without taking into account relativistic effects. GPS satellites rely on precise time measurements to communicate. The signals travel at relativistic speeds. Without corrections for time dilation, the satellites could not communicate, and the GPS system would fail within minutes.
 
-</div>
+:::
 
 ### The Twin Paradox
 
@@ -374,7 +387,9 @@ relative motion.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" data-element-type="check-understanding" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"check-understanding"}
+
 1. What is  $$\gamma  $$
  if  $$v=0.650c $$ ?
 
@@ -383,10 +398,14 @@ Check Your Understanding
 2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10 \times 10^{-8} s $$ when at rest relative to an observer. How long does the
    particle live as viewed in the laboratory?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$\Delta t=\frac{ {\Delta }_{t}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}=\frac{ 2.10 \times 10^{-8}  \text{s}}{\sqrt{1-\frac{ {\left(  1.90 \times 10^{8}  \text{m/s} \right)}^{2}}{ {\left(  3.00 \times 10^{8}  \text{m/s} \right)}^{2}}}}= 2.71 \times 10^{-8}  \text{s} $$
-</div>
+
+:::
+
 </div>
 
 ### Section Summary
@@ -404,6 +423,7 @@ Check Your Understanding
   <div class="equation" >
    $$\Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0}, $$
   </div>
+
      where
   <div class="equation" >
    $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}. $$
@@ -421,36 +441,48 @@ Check Your Understanding
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does motion affect the rate of a clock as measured by an observer moving with it? Does motion affect how an observer moving relative to a clock measures its rate?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 To whom does the elapsed time for a process seem to be longer, an observer moving relative to the process or an observer moving with the process? Which observer measures proper time?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How could you travel far into the future without aging significantly? Could this method also allow you to travel into the past?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is  $$\gamma  $$
  if  $$v= 0.250c $$ ?
  (b) If  $$v= 0.500c $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -474,17 +506,21 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{(0.500c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.2500}}
 
 At 25% the speed of light, $$\gamma = 1.033$$, representing only a 3.3% increase from the non-relativistic value of 1. Time dilation and length contraction effects would be barely noticeable. However, at 50% the speed of light, $$\gamma = 1.15$$, meaning time dilation effects become significant—clocks would run 15% slower. This illustrates how relativistic effects increase rapidly as velocity approaches $$c$$. The difference between $$\gamma$$ values at 25% and 50% of $$c$$ is substantial, showing the non-linear nature of relativistic effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is  $$\gamma  $$
  if  $$v= 0.100c $$ ?
  (b) If  $$v= 0.900c $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -504,18 +540,22 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{(0.900c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.8100}}
 
 At 10% the speed of light, relativistic effects are very small—$$\gamma$$ differs from 1 by only 0.5%. However, at 90% the speed of light, $$\gamma = 2.29$$, meaning time dilation effects are significant. A clock moving at $$0.900c$$ would run at less than half the rate of a stationary clock. This dramatic difference illustrates why relativistic effects become important only at very high velocities approaching the speed of light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Particles called  $$\pi  $$
 -mesons are produced by accelerator beams. If these particles travel at  $$ 2.70 \times 10^{8}  \text{m/s} $$
  and live  $$ 2.60 \times 10^{-8}  \text{s} $$
  when at rest relative to an observer, how long do they live as viewed in the laboratory?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -543,17 +583,21 @@ $$\Delta t = \gamma \Delta t_0 = (2.294)(2.60 \times 10^{-8} \text{ s}) = 5.96 \
 
 The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7\text{ m} if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at  $$ 0.980c $$ ,
  and it lives  $$ 1.24 \times 10^{-8}  \text{s} $$
  when at rest relative to an observer. How long does it live as you observe it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -573,18 +617,22 @@ $$\Delta t = \gamma \Delta t_0 = (5.03)(1.24 \times 10^{-8} \text{ s}) = 6.23 \t
 
 The kaon lives about 5 times longer when observed from our frame compared to its rest frame. This time dilation allows the kaon to travel much farther through the atmosphere than it could if it lived only $$1.24 \times 10^{-8}$$ s at its high velocity. From the Earth observer's perspective, the kaon travels a distance $$d = v \Delta t = (0.980)(3.00 \times 10^8)(6.23 \times 10^{-8}) \approx 18.3$$ m, whereas without time dilation it would travel only about 3.6 m before decaying. This time dilation is crucial for detecting such particles at ground level.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A neutral  $$\pi  $$
 -meson is a particle that can be created by accelerator beams. If one such particle lives  $$ 1.40 \times 10^{-16}  \text{s} $$
  as measured in the laboratory, and  $$ 0.840 \times 10^{-16}  \text{s} $$
  when at rest relative to an observer, what is its velocity relative to the laboratory?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -628,15 +676,19 @@ $$v = c\sqrt{0.6400} = 0.800c$$
 
 The neutral pion must be traveling at 80% the speed of light for its lifetime to be extended from 0.840 to 1.40 × 10⁻¹⁶ s—a factor of $$\gamma = 1.667$$. At this velocity, time dilation effects are substantial. Even though the pion's rest lifetime is incredibly short (less than a trillionth of a microsecond), time dilation allows it to travel a measurable distance: $$d = v\Delta t = (0.800)(3.00 \times 10^8)(1.40 \times 10^{-16}) \approx 3.4 \times 10^{-8}$$ m or 34 nanometers in the lab frame. Without relativistic time dilation, we could not explain how such short-lived particles travel detectable distances in accelerator experiments.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its life span to be 2065 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -670,16 +722,20 @@ $$v = 0.900c$$
 
 The neutron must be moving at 90% the speed of light for its lifetime to be extended from 900 s to 2065 s—more than double its rest lifetime. This illustrates the substantial time dilation that occurs at velocities close to the speed of light. Such relativistic neutrons are produced in cosmic ray showers and in particle accelerators. The factor of 2.3 in lifetime extension corresponds exactly to $$\gamma = 2.294$$ for this velocity, confirming the consistency of special relativity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If relativistic effects are to be less than 1%, then  $$\gamma  $$
  must be less than 1.01. At what relative velocity is  $$\gamma = 1.01 $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -721,16 +777,20 @@ $$v = c\sqrt{0.0197} = 0.140c$$
 
 At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000\text{ km}/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If relativistic effects are to be less than 3%, then  $$\gamma  $$
  must be less than 1.03. At what relative velocity is  $$\gamma = 1.03 $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -762,16 +822,20 @@ $$v = 0.240c$$
 
 At approximately 24% the speed of light, relativistic effects reach 3%. This corresponds to a velocity of about $$7.2 \times 10^7$$ m/s or 72,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed, making relativistic corrections essential in particle physics. The 3% threshold is often used as a practical criterion for when classical mechanics begins to give noticeably inaccurate results.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what relative velocity is  $$\gamma = 1.50 $$ ?
  (b) At what relative velocity is  $$\gamma =100 $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -831,16 +895,20 @@ $$v = c\sqrt{0.9999} = 0.99995c$$
 
 Part (a) shows that $$\gamma = 1.5$$ (50% time dilation) occurs at about 74.5% the speed of light. At this velocity, clocks run at two-thirds their normal rate. Part (b) demonstrates extreme relativistic effects: at $$\gamma = 100$$, the velocity is 99.995% of $$c$$—incredibly close to the speed of light. At this speed, time dilation is dramatic: a clock moving at this speed would tick 100 times slower than a stationary clock. The difference between 0.745c and 0.99995c seems modest (about 25% of $$c$$), but the time dilation factor increases from 1.5 to 100—nearly 67-fold! This illustrates how $$\gamma$$ grows increasingly steep as $$v$$ approaches $$c$$, making it progressively harder to accelerate particles to higher speeds. Such extreme velocities ($$\gamma = 100$$) are routinely achieved in particle accelerators like CERN's LHC, where protons reach energies corresponding to $$\gamma > 7000$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what relative velocity is  $$\gamma = 2.00 $$ ?
  (b) At what relative velocity is  $$\gamma = 10.0 $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -880,11 +948,14 @@ $$v = c\sqrt{0.9900} = 0.995c$$
 
 Part (a) shows that $$\gamma = 2$$ (a doubling of time dilation) occurs at about 87% the speed of light. At this velocity, moving clocks run at half speed, and lengths contract to half their proper length. Part (b) shows that even at $$\gamma = 10$$ (extreme time dilation), the velocity is "only" 99.5% of $$c$$—not quite the speed of light. This illustrates how $$\gamma$$ increases very rapidly as $$v$$ approaches $$c$$. The difference between 0.866c and 0.995c seems small (about 13% of $$c$$), but the time dilation factor increases five-fold from 2 to 10. This increasingly steep relationship makes it progressively harder to accelerate particles to higher and higher fractions of the speed of light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Find the value of $$\gamma $$ for the following situation. An Earth-bound
@@ -893,18 +964,22 @@ probe indicate that $$24.0 \text{h} $$ have passed on board. (b) What is
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 0.996
 
 (b) $$\gamma $$ cannot be less than 1.
 
 (c) Assumption that time is longer in moving ship is unreasonable.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -924,4 +999,4 @@ towards the Earth ages less than the Earth-bound twin. The premise to the
 paradox is faulty because the traveling twin is accelerating, and special
 relativity does not apply to accelerating frames of reference
 
-</div>
+:::

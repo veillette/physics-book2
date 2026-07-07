@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Identify sample questions to be asked on the largest scales.
 * Identify sample questions to be asked on the intermediate scale.
 * Identify sample questions to be asked on the smallest scales.
-</div>
+
+:::
 
 Throughout the text we have noted how essential it is to be curious and to ask
 questions in order to first understand what is known, and then to go a little
@@ -143,15 +144,21 @@ we can look forward to new enlightenment, undoubtedly sprinkled with surprise.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 For experimental evidence, particularly of previously unobserved phenomena, to be taken seriously it must be reproducible or of sufficiently high quality that a single observation is meaningful. Supernova 1987A is not reproducible. How do we know observations of it were valid? The fifth force is not broadly accepted. Is this due to lack of reproducibility or poor-quality experiments (or both)? Discuss why forefront experiments are more subject to observational problems than those involving established phenomena.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss whether you think there are limits to what humans can understand about the laws of physics. Support your arguments.
 
-</div>
+:::
+
 </div>

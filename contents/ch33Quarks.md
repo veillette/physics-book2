@@ -4,15 +4,15 @@ layout: page
 sectionNumber: 5
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define fundamental particle.
 * Describe quark and antiquark.
 * List the flavors of quark.
 * Outline the quark composition of hadrons.
 * Determine quantum numbers from quark composition.
 
-</div>
+:::
 
 Quarks have been mentioned at various points in this text as fundamental
 building blocks and members of the exclusive club of truly elementary particles.
@@ -474,21 +474,25 @@ $${\Omega }^{-} $$ was convincing indirect evidence for the existence of the
 three original quark flavors and boosted theoretical and experimental efforts to
 further explore particle physics in terms of quarks.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Patterns and Puzzles: Atoms, Nuclei, and Quarks
 </div>
+
 Patterns in the properties of atoms allowed the periodic table to be developed. From it, previously unknown elements were predicted and observed. Similarly, patterns were observed in the properties of nuclei, leading to the chart of nuclides and successful predictions of previously unknown nuclides. Now with particle physics, patterns imply a quark substructure that, if taken literally, predicts previously unknown particles. These have now been observed in another triumph of underlying unity.
 
-</div>
+:::
 
 ![The figure shows a trace of a bubble chamber picture that shows the first observation of an omega minus particle. The trace looks like the branch of a small bush. There is a stem at the bottom labeled K minus, then a vertex from which comes a short arched segment labeled omega minus. This segment branches into a dashed line labeled xi zero and an arched line labeled pie minus. Various other solid and dashed lines continue upwards with various labels, such as lambda zero, gamma, K plus, and so on. From the scale bar in the figure, the sigma minus segment is about five centimeters long, which is much shorter than most of the other segments.](../resources/Figure_33_05_02.jpg "The image relates to the discovery of the \( \Omega^{-} \) . It is a secondary reaction in which an accelerator-produced \( K^{-} \) collides with a proton via the strong force and conserves strangeness to produce the \( \Omega^{-} \) with characteristics predicted by the quark model. As with other predictions of previously unobserved particles, this gave a tremendous boost to quark theory. (credit: Brookhaven National Laboratory) ")
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Quantum Numbers From Quark Composition
 </div>
+
 Verify the quantum numbers given for the  $${\text{Ξ} }^{0} $$
  particle in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for its quark composition as given in [[Table 2]](#Table2).
 
@@ -518,7 +522,7 @@ correct. They also checked to see if all combinations were known, thereby
 predicting the previously unobserved $${\Omega }^{-} $$ as the completion of a
 pattern.
 
-</div>
+:::
 
 ### Now, Let Us Talk About Direct Evidence
 
@@ -683,7 +687,9 @@ discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS).
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The quark flavor change  $$d\to u $$
  takes place in  $${\beta }^{-} $$
  decay. Does this mean that the reverse quark flavor change  $$u\to d $$
@@ -691,131 +697,179 @@ The quark flavor change  $$d\to u $$
  decay? Justify your response by writing the decay in terms of the quark constituents, noting that it looks as if a proton is converted into a neutron in  $${\beta }^{+} $$
  decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how the weak force can change strangeness by changing quark flavor.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Beta decay is caused by the weak force, as are all reactions in which strangeness changes. Does this imply that the weak force can change quark flavor? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is it easier to see the properties of the *c*, *b*, and *t* quarks in mesons having composition  $${W}^{-} $$
  or  $$t\stackrel{-}{t} $$
  rather than in baryons having a mixture of quarks, such as *udb*?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How can quarks, which are fermions, combine to form bosons? Why must an even number combine to form a boson? Give one example by stating the quark substructure of a boson.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What evidence is cited to support the contention that the gluon force between quarks is greater than the strong nuclear force between hadrons? How is this related to color? Is it also related to quark confinement?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss how we know that  $$\pi \text{-mesons} $$
  ( $${\pi }^{+},\pi ,{\pi }^{0} $$ )
 are not fundamental particles and are not the basic carriers of the strong force.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An antibaryon has three antiquarks with colors  $$\stackrel{-}{R}\stackrel{-}{G}\stackrel{-}{B} $$ .
  What is its color?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose leptons are created in a reaction. Does this imply the weak force is acting? (for example, consider  $$\beta  $$
  decay.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How can the lifetime of a particle indicate that its decay is caused by the strong nuclear force? How can a change in strangeness imply which force is responsible for a reaction? What does a change in quark flavor imply about the force that is responsible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Do all particles having strangeness also have at least one strange quark in them?
 
 (b) Do all hadrons with a strange quark also have nonzero strangeness?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The sigma-zero particle decays mostly via the reaction  $${\text{Σ}}^{0}\to {\text{Λ}}^{0}+\gamma  $$ .
  Explain how this decay and the respective quark compositions imply that the  $${\text{Σ}}^{0} $$
  is an excited state of the  $${\text{Λ}}^{0} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What do the quark compositions and other quantum numbers imply about the relationships between the  $${\Delta }^{+} $$
  and the proton? The  $${\Delta }^{0} $$
  and the neutron?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss the similarities and differences between the photon and the  $${Z}^{0} $$
  in terms of particle properties, including forces felt.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Identify evidence for electroweak unification.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The quarks in a particle are confined, meaning individual quarks cannot be directly observed. Are gluons confined as well? Explain
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Verify from its quark composition that the  $${\Delta }^{+} $$
  particle could be an excited state of the proton.
 
@@ -824,19 +878,24 @@ approximate lifetime?
 
 (c) Does its decay proceed via the strong or weak force?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) The  $$\text{uud} $$
  composition is the same as for a proton.
 
 (b)  $$ 3.3 \times 10^{-24} \text{s} $$
 (c) Strong (short lifetime)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Accelerators such as the Triangle Universities Meson Facility (TRIUMF) in British Columbia produce secondary beams of pions by having an intense primary proton beam strike a target. Such “meson factories” have been used for many years to study the interaction of pions with nuclei and, hence, the strong nuclear force. One reaction that occurs is  $${\pi }^{+}+p\to {\Delta }^{++}\to {\pi }^{+}+p $$ ,
  where the  $${\Delta }^{++} $$
  is a very short-lived particle. The graph in [[Figure 6]](#Figure6) shows the probability of this reaction as a function of energy. The width of the bump is the uncertainty in energy due to the short lifetime of the  $${\Delta }^{++} $$.
@@ -852,11 +911,14 @@ by writing the reaction and decay in terms of quarks.
 ![The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.](../resources/Figure_33_05_07.jpg "This graph shows the probability of an interaction between a \( \pi^{+} \) and a proton as a function of energy. The bump is interpreted as a very short lived particle called a \( \Delta^{++} \). The approximately 100-MeV width of the bump is due to the short lifetime of the \( \Delta^{++} \).;     ")
 {: #Figure7}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The reaction  $${\pi }^{+}+p\to {\Delta }^{++} $$
  (described in the preceding problem) takes place via the strong force. (a) What is the baryon number of the  $${\Delta }^{++} $$
  particle?
@@ -864,18 +926,23 @@ The reaction  $${\pi }^{+}+p\to {\Delta }^{++} $$
 (b) Draw a Feynman diagram of the reaction showing the individual quarks
 involved.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 a)  $${\Delta }^{++}\left(\text{uuu}\right); B=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1 $$
 b)
 
 ![Feynman diagram showing the quark composition of a reaction.](../resources/Figure_33_05_08.jpg " "){: #Figure8 height="250"}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One of the decay modes of the omega minus is  $${\Omega }^{-}\to {\text{Ξ}}^{0}+{\pi }^{-} $$.
 
 (a) What is the change in strangeness?
@@ -886,8 +953,9 @@ unaffected.
 (c) Write the equation in terms of the constituent quarks, indicating that the
 weak force is responsible.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -933,25 +1001,34 @@ The weak force is responsible because strangeness changes by 1, indicating a qua
 
 This decay clearly demonstrates the weak force at work. The change in strangeness ($$\Delta S = +1$$) is a signature of the weak interaction—neither the strong nor electromagnetic forces can change strangeness. At the quark level, one of the three strange quarks in the $${\Omega}^{-}$$ transforms into an up quark (creating the $${\Xi}^{0}$$), while simultaneously creating an up-antiup quark-antiquark pair along with a down quark (forming the $${\pi}^{-}$$). The relatively long lifetime of the $${\Omega}^{-}$$ ($$0.82 \times 10^{-10}$$ s) is also consistent with weak decay, being many orders of magnitude longer than strong force decays (typically $$10^{-23}$$ to $$10^{-16}$$ s). This decay mode occurs about 68% of the time, making it one of the dominant decay channels for the omega minus.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the previous problem for the decay mode  $${\Omega }^{-}\to {\text{Λ}}^{0}+{K}^{-}. $$
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$+1 $$
 (b)  $$B=1=1+0, Z=0+\left(-1\right) $$ ,
  all lepton numbers are 0 before and after
 
 (c)  $$\left(\text{sss}\right)\to \left(\text{uds}\right)+\left(\stackrel{-}{u}s\right)$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One decay mode for the eta-zero meson is  $${\eta }^{0}\to \gamma +\mathrm{\gamma .} $$
 (a) Find the energy released.
 
@@ -961,8 +1038,9 @@ One decay mode for the eta-zero meson is  $${\eta }^{0}\to \gamma +\mathrm{\gamm
 
 (d) Verify that baryon number, lepton numbers, and charge are conserved.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1011,11 +1089,14 @@ The quark-antiquark pairs annihilate to produce the two photons.
 
 This two-photon decay is characteristic of the $${\eta}^{0}$$ being its own antiparticle. The particle-antiparticle pair (quark and antiquark) annihilate completely, converting all the rest mass into electromagnetic energy. The energy uncertainty of 1.31 keV is tiny compared to the total energy of 547.9 MeV (about 0.0002%), showing that the short lifetime introduces only a small uncertainty in the energy. This decay proceeds via the electromagnetic force, as evidenced by the photon production and the relatively short (but not extremely short) lifetime of $$2.53 \times 10^{-19}$$ s. Compare this to $${\pi}^{0} \to \gamma + \gamma$$ with an even shorter lifetime of $$8.4 \times 10^{-17}$$ s—both are electromagnetic decays of neutral mesons that are their own antiparticles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One decay mode for the eta-zero meson is  $${\eta }^{0}\to {\pi }^{0}+{\pi }^{0} $$.
 
 (a) Write the decay in terms of the quark constituents.
@@ -1025,23 +1106,29 @@ One decay mode for the eta-zero meson is  $${\eta }^{0}\to {\pi }^{0}+{\pi }^{0}
 (c) What is the ultimate release of energy, given the decay mode for the pi zero
 is $${\pi }^{0}\to \gamma +\gamma $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$\left(u\stackrel{-}{u}+d\overline{d}\right)\to \left(u\stackrel{-}{u}+d\overline{d}\right)+\left(u\stackrel{-}{u}+d\overline{d}\right) $$
 (b) 277.9 MeV
 
 (c) 547.9 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the decay  $$n\to {e}^{+}+{e}^{-} $$
  possible considering the appropriate conservation laws? State why or why not.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1072,33 +1159,42 @@ This decay violates baryon number conservation, which is one of the most fundame
 
 The actual decay mode of a free neutron is $$n \to p + e^{-} + \overline{\nu}_e$$, which conserves baryon number (both neutron and proton have $$B = +1$$). Grand Unified Theories (GUTs) do predict extremely rare baryon number violation in processes like proton decay ($$p \to \pi^{0} + e^{+}$$), but with lifetimes exceeding $$10^{31}$$ years—far longer than the age of the universe. No such violation has ever been observed experimentally. The conservation of baryon number is why the total number of nucleons (protons plus neutrons) remains constant in nuclear reactions, a fact that was discovered long before the concept of baryon number was formulated.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the decay  $${\mu }^{-}\to {e}^{-}+{\nu }_{e}+{\nu }_{\mu } $$
  possible considering the appropriate conservation laws? State why or why not.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 No.  $$\text{Charge}=-1 $$
  is conserved.  $${L}_{ {e}_{\text{i}}}=0\ne {L}_{ {e}_{\text{f}}}=2 $$
  is not conserved.  $${L}_{\mu }=1 $$
  is conserved.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Is the decay  $${\text{Λ}}^{0}\to n+{\pi }^{0} $$
  possible considering the appropriate conservation laws? State why or why not.
 
 (b) Write the decay in terms of the quark constituents of the particles.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1143,31 +1239,40 @@ This shows that the strange quark changes to a down quark, consistent with the w
 
 This decay is allowed and does occur in nature, proceeding via the weak force. The key signature is the change in strangeness ($$\Delta S = +1$$), which can only occur through weak interactions. The quark-level process involves the strange quark transforming into a down quark via emission of a $$W^{+}$$ boson (the carrier of the weak force), which then creates quark-antiquark pairs that form the $${\pi}^{0}$$. The relatively long lifetime of the $${\Lambda}^{0}$$ ($$2.63 \times 10^{-10}$$ s) is characteristic of weak decay—much longer than strong force decays but shorter than typical beta decay. This is actually one of the dominant decay modes of the $${\Lambda}^{0}$$, occurring about 36% of the time. The energy release of 41.1 MeV is shared between the kinetic energies of the neutron and pion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Is the decay  $${\text{Σ}}^{-}\to n+{\pi }^{-} $$
  possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)Yes.  $$Z=-1=0+\left(-1\right) $$ ,
   $$B=1=1+0 $$ ,
  all lepton family numbers are 0 before and after, spontaneous since mass greater before reaction.
 
 (b) $$\text{dds}\to \text{udd}+\stackrel{-}{u}d $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The only combination of quark colors that produces a white baryon is *RGB*. Identify all the color combinations that can produce a white meson.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1189,34 +1294,43 @@ It's important to note that "color" in QCD is just a label for a type of charge�
 
 This color neutrality requirement is fundamental to quark confinement—all observable hadrons must be color neutral ("white"). Individual colored quarks or gluons cannot exist in isolation, which is why we never observe free quarks despite their being the fundamental constituents of matter. Any meson in nature will be in one of these three color states (though quantum mechanically, it's actually a superposition of all three), ensuring it remains colorless and observable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Three quarks form a baryon. How many combinations of the six known quarks are there if all combinations are possible?
 
 (b) This number is less than the number of known baryons. Explain why.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 216
 
 (b) There are more baryons observed because we have the 6 antiquarks and various
 mixtures of quarks (as for the π-meson) as well.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Show that the conjectured decay of the proton,  $$p\to {\pi }^{0}+{e}^{+} $$ ,
  violates conservation of baryon number and conservation of lepton number.
 
 (b) What is the analogous decay process for the antiproton?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1255,26 +1369,36 @@ Extensive experiments have searched for proton decay using huge tanks of water i
 
 If protons could decay rapidly, all matter would be unstable—atoms would disintegrate, and the universe as we know it couldn't exist. The extraordinary stability of the proton (and hence all atomic nuclei) is one of the most important facts about our universe. The search for proton decay continues, as observing it would be revolutionary evidence for grand unification and would fundamentally change our understanding of matter's ultimate fate.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify the quantum numbers given for the  $${\Omega }^{+} $$
  in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for its quark constituents as inferred from [[Table 2]](#Table2).
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$\begin{array}{l}{\Omega }^{+}\left(\stackrel{-}{s}\stackrel{-}{s}\stackrel{-}{s}\right)\\ B=-\frac{1}{3}-\frac{1}{3}-\frac{1}{3}=-1,\\ {L}_{e}, \mu , \tau =0+0+0=0,\\ Q=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1,\\ S=1+1+1=3 \text{.}\end{array} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify the quantum numbers given for the proton and neutron in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1332,11 +1456,14 @@ This verification demonstrates the power of the quark model. The quantum numbers
 
 The difference between a proton and neutron is simply one quark: swapping one up quark for a down quark changes the charge from +1 to 0, converting a proton into a neutron. This is exactly what happens in beta-minus decay at the quark level: $$d \to u + e^{-} + \overline{\nu}_e$$. The fact that both have $$B = +1$$ explains why baryon number is conserved in nuclear reactions—at the quark level, the number of quarks minus antiquarks remains constant. This beautifully explains the empirical observation that the total number of nucleons is conserved in nuclear reactions and decays.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much energy would be released if the proton did decay via the conjectured reaction  $$p\to {\pi }^{0}+{e}^{+} $$ ?
 
 (b) Given that the $${\pi }^{0} $$ decays to two $$\gamma $$ s and that the
@@ -1346,8 +1473,10 @@ ultimately produced in proton decay?
 (c) Why is this energy greater than the proton’s total mass (converted to
 energy)?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)803 MeV
 
 (b) 938.8 MeV
@@ -1355,18 +1484,22 @@ energy)?
 (c) The annihilation energy of an extra electron is included in the total
 energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the charge, baryon number, strangeness, charm, and bottomness of the  $$J/\Psi  $$
  particle from its quark composition.
 
 (b) Do the same for the $$\Upsilon $$ particle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1408,29 +1541,39 @@ These particles are particularly important in particle physics history. The $$J/
 
 The $$\Upsilon$$ (discovered in 1977) similarly provided the first evidence for the existence of the bottom quark. Both particles are relatively long-lived for their masses because their decay requires the annihilation of the heavy quark-antiquark pair or a flavor-changing weak interaction. These particles and their excited states have been extensively studied and provide a testing ground for quantum chromodynamics (QCD), analogous to how hydrogen atom spectroscopy tested quantum electrodynamics (QED).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There are particles called *D*-mesons. One of them is the  $${D}^{+} $$
  meson, which has a single positive charge and a baryon number of zero, also the value of its strangeness, topness, and bottomness. It has a charm of  $$+1. $$
  What is its quark configuration?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$c\overline{d} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There are particles called bottom mesons or *B*-mesons. One of them is the  $${B}^{-} $$
  meson, which has a single negative charge; its baryon number is zero, as are its strangeness, charm, and topness. It has a bottomness of  $$-1 $$ .
  What is its quark configuration?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1468,33 +1611,42 @@ B-mesons are particularly important in modern particle physics research. They ar
 
 The $${B}^{-}$$ meson has a relatively long lifetime for a particle containing a heavy quark (about $$1.6 \times 10^{-12}$$ s) because its decay requires a flavor-changing weak interaction where the bottom quark transforms into a charm or up quark. This long lifetime allows B-mesons to travel measurable distances before decaying, enabling detailed study of their decay properties.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What particle has the quark composition  $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ ?
 
 (b) What should its decay mode be?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 a)The antiproton
 
 b) $$\stackrel{-}{p}\to {\pi }^{0}+{e}^{-} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Show that all combinations of three quarks produce integral charges. Thus baryons must have integral charge.
 
 (b) Show that all combinations of a quark and an antiquark produce only integral
 charges. Thus mesons must have integral charge.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1590,48 +1742,43 @@ The fact that we only observe integral charges in nature was originally one of t
 
 This also explains why we've never observed a particle with charge $$+\frac{1}{3}q_e$$ or $$+\frac{2}{3}q_e$$—such charges would require an isolated quark, which is forbidden by confinement. The elementary charge $$q_e$$ remains the smallest observed unit of charge, even though quarks have smaller fractional charges. This beautiful consistency of the quark model with observed phenomena is one of many pieces of evidence supporting it.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$± $$
-  symbols are the values for antiquarks.</span>
-- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"> $$B $$ is baryon
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$± $$
+  symbols are the values for antiquarks.</span> {: class="footnote-ref" #footnote1}
+- [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content"> $$B $$ is baryon
   number, _S_ is strangeness, $$c $$ is charm, $$b $$ is bottomness, $$t $$ is
-  topness.</span>
-- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Values are approximate,
-  are not directly observable, and vary with model.</span>
-- {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
+  topness.</span> {: class="footnote-ref" #footnote2}
+- [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Values are approximate,
+  are not directly observable, and vary with model.</span> {: class="footnote-ref" #footnote3}
+- [4](#footnote-ref4){: class=" footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
-  quark composition.</span>
-- {: class="footnote-ref" #footnote5} [5](#footnote-ref5){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
+  quark composition.</span> {: class="footnote-ref" #footnote4}
+- [5](#footnote-ref5){: class=" footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
-  quark composition.</span>
-- {: class="footnote-ref" #footnote6} [6](#footnote-ref6){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
+  quark composition.</span> {: class="footnote-ref" #footnote5}
+- [6](#footnote-ref6){: class=" footnote-ref-link"} <span class="footnote-ref-content">These two mesons are
   different mixtures, but each is its own antiparticle, as indicated by its
-  quark composition.</span>
-- {: class="footnote-ref" #footnote7} [7](#footnote-ref7){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Antibaryons have the
+  quark composition.</span> {: class="footnote-ref" #footnote6}
+- [7](#footnote-ref7){: class=" footnote-ref-link"} <span class="footnote-ref-content">Antibaryons have the
   antiquarks of their counterparts. The antiproton $$\stackrel{-}{p} $$ is
-  $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ , for example.</span>
-- {: class="footnote-ref" #footnote8} [8](#footnote-ref8){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Baryons composed of the
+  $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ , for example.</span> {: class="footnote-ref" #footnote7}
+- [8](#footnote-ref8){: class=" footnote-ref-link"} <span class="footnote-ref-content">Baryons composed of the
   same quarks are different states of the same particle. For example, the
   $${\Delta }^{+} $$ is an excited state of the proton.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote8}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1671,4 +1818,4 @@ top
 up
 : the lightest of all quarks
 
-</div>
+:::

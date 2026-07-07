@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define pitch.
 * Describe the relationship between the speed of sound, its frequency, and its wavelength.
 * Describe the effects on the speed of sound as it travels through various media.
 * Describe the effects of temperature on the speed of sound.
-</div>
+
+:::
 
 ![A photograph of a fireworks display in the sky.](../resources/Figure_17_02_01.jpg 'When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)')
 {: #Figure1}
@@ -183,10 +184,12 @@ the following example.
 ![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_17_02_04.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
 {: #Figure4}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Wavelengths: What Are the Wavelengths of Audible Sounds?
 </div>
+
 Calculate the wavelengths of sounds at the extremes of the audible range, 20 and 20 000 Hz, in  $$30.0 \text{ºC} $$
  air. (Assume that the frequency values are accurate to two significant figures.)
 
@@ -227,7 +230,7 @@ To find wavelength from frequency, we can use $${v}_{\text{w}}=f\lambda $$.
 Because the product of $$f $$ multiplied by $$\lambda $$ equals a constant, the
 smaller $$f $$ is, the larger $$\lambda $$ must be, and vice versa.
 
-</div>
+:::
 
 The speed of sound can change when sound travels from one medium to another.
 However, the frequency usually remains the same because it is like a driven
@@ -236,40 +239,52 @@ changes and $$f $$ remains the same, then the wavelength $$\lambda $$ must
 change. That is, because $${v}_{\text{w}}=f\lambda $$ , the higher the speed of
 a sound, the greater its wavelength for a given frequency.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Voice as a Sound Wave
 </div>
+
 Suspend a sheet of paper so that the top edge of the paper is fixed and the bottom edge is free to move. You could tape the top edge of the paper to the edge of a table. Gently blow near the edge of the bottom of the sheet and note how the sheet moves. Speak softly and then louder such that the sounds hit the edge of the bottom of the paper, and note how the sheet moves. Explain the effects.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Imagine you observe two fireworks explode. You hear the explosion of one as soon as you see it. However, you see the other firework for several milliseconds before you hear the explosion. Explain why this is so.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Sound and light both travel at definite speeds. The speed of sound is slower than the speed of light. The first firework is probably very close by, so the speed difference is not noticeable. The second firework is farther away, so the light arrives at your eyes noticeably sooner than the sound wave arrives at your ears.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 You observe two musical instruments that you cannot identify. One plays high-pitch sounds and the other plays low-pitch sounds. How could you determine which is which without hearing either of them play?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Compare their sizes. High-pitch instruments are generally smaller than low-pitch instruments because they generate a smaller wavelength.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -294,39 +309,53 @@ $${v}_{\text{w}} $$ is the same for all frequencies and wavelengths.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do sound vibrations of atoms differ from thermal motion?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Sound vibrations are a form of organized, collective motion where atoms oscillate in a coordinated way around their equilibrium positions, creating a pressure wave that propagates through the medium. This motion is coherent, meaning the atoms move in a predictable, synchronized pattern (compressions and rarefactions).
 
 Thermal motion, on the other hand, is the random, chaotic, and incoherent movement of atoms due to their thermal energy. The atoms move in all directions with a wide range of speeds, and their motion is not coordinated. While both sound and thermal motion are forms of kinetic energy, sound is an organized transfer of energy, whereas thermal energy is disorganized.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When sound passes from one medium to another where its propagation speed is different, does its frequency or wavelength change? Explain your answer briefly.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The frequency of the sound wave remains the same, while the wavelength changes.
 
 **Explanation**: The frequency of a wave is determined by its source and does not change when the wave passes from one medium to another. The wave speed, however, is a property of the medium and does change. According to the wave equation ($$v_w = f\lambda$$), if the speed ($$v_w$$) changes and the frequency ($$f$$) remains constant, the wavelength ($$\lambda$$) must change to maintain the equality. For example, when sound travels from air to water, its speed increases, so its wavelength must also increase.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When poked by a spear, an operatic soprano lets out a 1200-Hz shriek. What is its wavelength if the speed of sound is 345 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We are given the frequency and speed of the sound wave and need to find its wavelength. We can use the fundamental wave equation $$v_w = f\lambda$$ and solve for wavelength.
@@ -355,15 +384,20 @@ The wavelength of 0.288 m (or 28.8 cm) is reasonable for a high-pitched sound. T
 
 The shriek has a wavelength of 0.288 m.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What frequency sound has a 0.10-m wavelength when the speed of sound is 340 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We are given the wavelength and speed of sound and need to find the frequency. We can use the wave equation $$v_w = f\lambda$$ and solve for frequency.
@@ -392,15 +426,20 @@ A frequency of 3400 Hz is well within the audible range for humans (20 Hz to 20,
 
 The frequency of the sound is 3400 Hz or 3.4 kHz.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the speed of sound on a day when a 1500 Hz frequency has a wavelength of 0.221 m.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We are given both the frequency and wavelength of a sound wave and need to find the speed of sound. We can directly apply the wave equation $$v_w = f\lambda$$.
@@ -429,15 +468,20 @@ The calculated speed of sound is 332 m/s, which is slightly slower than the stan
 
 The speed of sound on this day is 332 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the speed of sound in a medium where a 100-kHz frequency produces a 5.96-cm wavelength? (b) Which substance in [[Table 1]](#Table1) is this likely to be?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 For part (a), we use the wave equation $$v_w = f\lambda$$ with the given frequency and wavelength. For part (b), we compare our calculated speed to the values in Table 1 to identify the medium.
@@ -462,16 +506,21 @@ The speed of 5960 m/s is much faster than sound in air (343 m/s) or water (1480 
 
 (a) The speed of sound in the medium is 5960 m/s. (b) The substance is most likely steel.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that the speed of sound in  $$20.0 \text{ºC} $$
  air is 343 m/s, as claimed in the text.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We need to use the temperature-dependent formula for the speed of sound in air: $$v_w = (331 \text{ m/s})\sqrt{T/273 \text{ K}}$$. First, we must convert the temperature from Celsius to Kelvin, then substitute into the formula.
@@ -499,17 +548,22 @@ This calculation confirms the stated value of 343 m/s for the speed of sound at 
 
 The speed of sound in 20.0°C air is indeed 343 m/s, as claimed.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Air temperature in the Sahara Desert can reach  $$56.0 \text{ºC} $$
  (about  $$134 \text{ºF} $$ ).
 What is the speed of sound in air at that temperature?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We use the temperature-dependent formula for the speed of sound in air: $$v_w = (331 \text{ m/s})\sqrt{T/273 \text{ K}}$$. We must first convert the temperature from Celsius to Kelvin.
@@ -537,15 +591,20 @@ The speed of sound at 56.0°C (363 m/s) is significantly faster than at room tem
 
 The speed of sound in 56.0°C air is 363 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Dolphins make sounds in air and water. What is the ratio of the wavelength of a sound in air to its wavelength in seawater? Assume air temperature is  $$20.0 \text{ºC} $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 When a sound travels from one medium to another, its frequency remains constant (determined by the source), but its speed and wavelength change. We can use $$v_w = f\lambda$$ for each medium. The ratio of wavelengths equals the ratio of speeds since frequency is constant: $$\lambda_{\text{air}}/\lambda_{\text{water}} = v_{\text{air}}/v_{\text{water}}$$.
@@ -574,15 +633,20 @@ The wavelength in air is only about 22% of the wavelength in seawater for the sa
 
 The ratio of the wavelength in air to the wavelength in seawater is 0.223.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A sonar echo returns to a submarine 1.20 s after being emitted. What is the distance to the object creating the echo? (Assume that the submarine is in the ocean, not in fresh water.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 The sonar pulse travels to the object and back, so the total distance traveled is twice the distance to the object. We use the relationship $$d = vt$$, where $$v$$ is the speed of sound in seawater and $$t$$ is the time for the round trip. The distance to the object is half the total distance traveled.
@@ -611,18 +675,23 @@ The object is 924 m away, which is less than a kilometer. This is a reasonable d
 
 The distance to the object is 924 m.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If a submarine's sonar can measure echo times with a precision of 0.0100 s, what is the smallest difference in distances it can detect? (Assume that the submarine is in the ocean, not in fresh water.)
 
 (b) Discuss the limits this time resolution imposes on the ability of the sonar
 system to detect the size and shape of the object creating the echo.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 For part (a), the time precision determines the minimum detectable distance difference. Since sound travels to an object and back, the distance resolution is half the distance traveled during the minimum time interval. For part (b), we consider what this distance resolution means for practical object detection.
@@ -653,16 +722,21 @@ This limitation is fundamental to all pulse-echo ranging systems and represents 
 
 (a) The smallest difference in distances the sonar can detect is 7.70 m. (b) This resolution means sonar is effective for detecting and locating large objects like ships or submarines, but cannot resolve smaller objects or fine structural details smaller than approximately 8 m.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A physicist at a fireworks display times the lag between seeing an explosion and hearing its sound, and finds it to be 0.400 s. (a) How far away is the explosion if air temperature is  $$24.0 \text{ºC} $$
  and if you neglect the time taken for light to reach the physicist? (b) Calculate the distance to the explosion taking the speed of light into account. Note that this distance is negligibly greater.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 For part (a), we first calculate the speed of sound at the given temperature, then use $$d = vt$$ where the time is the observed lag. For part (b), we account for the fact that light also takes time to travel, though this is negligible compared to sound. The lag time is $$t_{\text{lag}} = t_{\text{sound}} - t_{\text{light}}$$, where both times depend on the distance.
@@ -709,17 +783,22 @@ The explosion is approximately 138 m away. The correction for light travel time 
 
 (a) The explosion is 138 m away when neglecting light travel time. (b) Accounting for light travel time, the distance is still 138 m (to three significant figures), as the correction is only 0.16 mm.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See [[Figure 3]](#Figure3).) (a) Calculate the echo times for temperatures of  $$5.00 \text{ºC} $$
  and  $$35.0 \text{ºC} $$ .
  (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we calculate the speed of sound at each temperature, then find the round-trip echo time using $$t = 2d/v_w$$ (factor of 2 for the round trip). For part (b), we find the percent difference between the two echo times. For part (c), we interpret what this uncertainty means for the bat's hunting ability.
@@ -768,14 +847,16 @@ This problem illustrates an important limitation of echolocation systems that de
 
 (a) The echo times are 18.0 ms at 5.00°C and 17.1 ms at 35.0°C. (b) This represents a 5.00% uncertainty. (c) While a 5% uncertainty could cause difficulties for prey capture based on a single measurement, bats overcome this by continuously tracking prey with rapid, repeated sound pulses as they approach.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 pitch
 : the perception of the frequency of a sound
 
-</div>
+:::
