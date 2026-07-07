@@ -1,5 +1,6 @@
-import { HtmlBasePlugin } from '@11ty/eleventy';
 import { createMarkdown } from './lib/eleventy/markdown.js';
+
+const PATH_PREFIX = '/physics-book2';
 
 export default function (eleventyConfig) {
   // src/contents/ is a gitignored build artifact (D4) that the converter generates,
@@ -12,8 +13,21 @@ export default function (eleventyConfig) {
   // containers, deflist, footnotes). Shared with the pipeline tests.
   eleventyConfig.setLibrary('md', createMarkdown());
 
-  // Root-relative URLs get the pathPrefix at build time.
-  eleventyConfig.addPlugin(HtmlBasePlugin);
+  // Root-relative asset/link URLs get the pathPrefix at build time. We do this with a
+  // narrow regex transform instead of HtmlBasePlugin because HtmlBasePlugin normalises
+  // relative URLs (`./ch8Foo` -> `ch8Foo`), diverging from Jekyll's baseurl handling,
+  // which prefixes ONLY single-slash root-relative href/src and leaves ./ ../ # http(s)
+  // verbatim. This transform reproduces that exactly (byte-parity, D5). Script-body
+  // values (window.Book) are attribute-free, so they keep using the `| url` filter,
+  // which applies the same pathPrefix once.
+  eleventyConfig.addTransform('pathPrefix', function (content) {
+    const out = this.page && this.page.outputPath;
+    if (typeof out !== 'string' || !out.endsWith('.html')) return content;
+    return content.replace(
+      /(\s(?:href|src)=)"(\/(?!\/)[^"]*)"/g,
+      (_, pre, url) => `${pre}"${PATH_PREFIX}${url}"`
+    );
+  });
 
   // window.Book.rootUrl/baseHref must have NO trailing slash (they concatenate
   // with /SUMMARY.html etc.) — roadmap section 2.3.

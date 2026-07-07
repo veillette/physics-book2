@@ -52,15 +52,17 @@ for (const file of files) {
     const tag = m[1];
     tagInventory[tag] = (tagInventory[tag] || 0) + 1;
     const attrs = m[2] + m[3];
-    // Merge any duplicate class attributes (roadmap section 2.1 data quirk).
-    const classes = [];
+    // Duplicate class attributes: Kramdown keeps the LAST value (roadmap 2.1 data quirk;
+    // the "merge" note there was wrong). Primary container name = first token of the last
+    // class attribute, else the tag name (figure/etc.).
+    let lastClassTokens = null;
     let c;
     classRe.lastIndex = 0;
     while ((c = classRe.exec(attrs)) !== null) {
-      for (const tok of c[1].trim().split(/\s+/)) if (tok) classes.push(tok);
+      const toks = c[1].trim().split(/\s+/).filter(Boolean);
+      if (toks.length) lastClassTokens = toks;
     }
-    // Primary container name: first class token, else the tag name (figure/etc.).
-    const name = classes.length ? classes[0] : tag;
+    const name = lastClassTokens ? lastClassTokens[0] : tag;
     markdownBlockByName[name] = (markdownBlockByName[name] || 0) + 1;
   }
 
