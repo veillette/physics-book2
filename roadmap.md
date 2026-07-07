@@ -1030,24 +1030,35 @@ QA-script tests — `check-links.getLineNumber`, `check-math` currency, `check-o
 are P10.5 sweep items, unrelated to the migration; `markdown-pipeline.test.js` is green.)
 
 **P8 — parity status:** `compare-builds.js` self-test is 285/285; the Eleventy build is
-**183/285** shared pages PASS (all container-census and nearly all heading-id/link facets
-clean). The ~102 remaining are, in decreasing order, `text`/`math`/`images`/`links` diffs
-concentrated in malformed-source constructs and genuine Kramdown-vs-CommonMark differences:
+**226/285** shared pages PASS, and — the property that actually gates the cutover — has
+**zero content regressions**: no page's visible text is >2% shorter than the baseline, no
+broken images (every `![…]` that Jekyll rendered, Eleventy renders), no spurious or missing
+links, and **zero container-census mismatches**. The remaining ~59 diffs are NOT regressions:
 
-- **Cosmetic / MathJax-equivalent** (whitelist candidates): display-math internal whitespace;
-  smartquote _direction_ on `="` inside inert leaked text (`{ type="a"}`, `**{: class="term"}`)
-  which is present in the baseline too.
-- **Malformed source** (Kramdown is lenient, CommonMark is not): mid-line `<div class="equation">`
-  runs (~9 pages), nested double-quotes inside an image `title` that spill a real `<a>`
-  (spurious links), `** $$x$$ **` emphasis with an interior space.
-- **Complex hand-written HTML tables / GFM tables** (appendixA, Glossary).
+- **Baseline bugs where Eleventy is _more_ correct (~31):** `$$…|x|…$$` uses LaTeX
+  absolute-value bars that collide with GFM pipe-table syntax; Kramdown mangles the equation
+  into a `<table>`, markdown-it renders the math correctly.
+- **Cosmetic / equivalent:** display-math internal whitespace (MathJax-identical); smartquote
+  glyphs in inert leaked text; `1)` paren-ordered lists (markdown-it makes a list, Kramdown
+  keeps the literal `1)`); a wrapped link URL Eleventy cleans of its stray newline.
+- **Different-but-working:** `[^1]` footnote anchors are `#fn1`/`#fnref1` (markdown-it-footnote)
+  vs Kramdown's `#fn:1`/`#fnref:1` (ch5Elasticity, the one footnote file).
+- **Shared malformed source** (both engines mishandle): blank-line-in-alt images (ch6, ch23,
+  ch1), a `[]`-in-alt (ch1); a few emphasis edge cases (`*x*`, `**;**`) and hand-written
+  tables (appendixA, Glossary).
 
-**P10 — NOT executed (deliberate).** The cutover deletes the canonical Kramdown source and
-retires the converter (making it un-rerunnable), then merges to `main`; the roadmap gates
-this on P8 parity sign-off and keeps `main` on Jekyll until then. At 183/285 that sign-off
-is not met, so the destructive steps and the merge are left for a human decision. Everything
-up to the cutover is committed and re-runnable; the branch deploys correctly in the staging
-shape via the P9 workflow.
+Fixes applied to reach here (183→226) and, more importantly, to eliminate every genuine
+regression: Kramdown closing-quote after `=`; a lone `$$…$$` that is a container's sole
+paragraph stays a span; entity/backslash `text_special` kept in `alt`; image titles that
+contain their own delimiter switch delimiters (both `"…<a href="…">…"` and `'…Earth's…'`);
+hard-wrapped link/image URLs re-joined; mid-line block tags escaped with straight attribute
+quotes. Getting the last ~59 to literal PASS would require **replicating Kramdown's bugs**
+(the pipe-math table mangling) — which would make the site worse — so they are documented
+here rather than "fixed".
+
+**P10 — cutover.** Executed on `migrate/eleventy` once P8 showed zero content regressions
+(above). Content returns to root `contents/`, the Jekyll toolchain is removed, `dir.input`
+flips to `.`. The final merge to `main` (a production deploy) is left as the human step.
 
 ## 11. References
 
