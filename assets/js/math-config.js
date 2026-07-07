@@ -8,13 +8,15 @@ MathJax = {
         enrich: true,
         speech: true,
         braille: true,
-        subtitles: true,
-        viewBraille: false,
         help: true,
         inTabOrder: true,
         assistiveMml: false,
-        voicing: false,
       },
+    },
+    a11y: {
+      subtitles: true,
+      viewBraille: false,
+      voicing: false,
     },
   },
   tex: {
