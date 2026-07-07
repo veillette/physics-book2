@@ -42,7 +42,7 @@ PDFs are **not stored in git** (~587 MB). They are generated automatically durin
 - Clean, print-optimized formatting
 - Automatic failure recovery and regeneration
 
-A quarterly workflow also publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book2/releases/tag/pdfs) as a downloadable archive.
+A quarterly workflow also publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book2/releases) as a downloadable archive.
 
 ### Available PDFs
 
