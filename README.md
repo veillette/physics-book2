@@ -35,13 +35,14 @@ Each page features a convenient PDF download button in the upper right corner:
 
 ### Automated PDF Generation
 
-PDFs are automatically generated weekly (every Sunday at 00:00 UTC) via GitHub Actions using optimized parallel processing:
+PDFs are **not stored in git** (~587 MB). They are generated automatically during each GitHub Pages deployment using Playwright parallel processing (~60 minutes):
 
-- **309 PDFs** generated in ~60 minutes (plus 1 placeholder for complete book)
-- **587MB total** with beautifully rendered mathematical equations
+- **309 PDFs** with beautifully rendered mathematical equations
 - All figures and diagrams included
 - Clean, print-optimized formatting
 - Automatic failure recovery and regeneration
+
+A quarterly workflow also publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book2/releases/tag/pdfs) as a downloadable archive.
 
 ### Available PDFs
 

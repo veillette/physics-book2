@@ -114,9 +114,10 @@ npm run serve                              # Terminal 1
 node scripts/generate-pdf-parallel.js      # Terminal 2
 ```
 
-PDFs are gitignored under `assets/pdf/` and restored from GitHub Releases during deploy.
-See [`.github/workflows/generate-pdfs.yml`](./.github/workflows/generate-pdfs.yml) for the
-weekly automated workflow.
+PDFs are gitignored under `assets/pdf/` and generated dynamically during GitHub Pages
+deploy (`.github/workflows/deploy.yml`). A quarterly workflow
+(`.github/workflows/generate-pdfs.yml`) also publishes them to the `pdfs` GitHub Release
+as a downloadable archive.
 
 ## Further Reading
 

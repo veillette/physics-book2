@@ -23,9 +23,10 @@
 __pycache__/
 
 # Generated PDF output (build artifacts — produced by scripts/generate-pdf.js
-# and the generate-pdfs workflow; not tracked to keep the repo small)
+# and CI workflows; not tracked to keep the repo small)
 /pdf-output/
-/assets/pdf/
+/assets/pdf/*
+!/assets/pdf/README.md
 
 # Link checker cache
 .link-cache.json

@@ -1,73 +1,52 @@
 # Future Plan: Exclude PDFs from Git
 
-## Current Status
-PDFs are currently committed to the repository for immediate availability:
-- 309 PDFs totaling ~587 MB (plus 1 placeholder file)
-- Committed directly to `assets/pdf/`
-- Available via GitHub Pages immediately
+## Status: Completed (July 2026)
 
-## Future Enhancement
+PDFs are no longer committed to the repository. They are generated dynamically during
+GitHub Pages deployment and published quarterly to a GitHub Release archive.
 
-### Goal
-Reduce repository size by excluding PDFs from git and generating them dynamically.
+## Implementation Summary
 
-### Implementation Steps
+### What changed
 
-1. **Add PDFs to .gitignore**
-   ```bash
-   echo "assets/pdf/*.pdf" >> .gitignore
-   git rm --cached assets/pdf/*.pdf
-   ```
+1. **PDFs excluded from git** — `assets/pdf/*.pdf` is gitignored (only `README.md` is tracked)
+2. **Dynamic generation on deploy** — `.github/workflows/deploy.yml` generates PDFs with Playwright before each Pages deployment
+3. **Shared generation action** — `.github/actions/generate-chapter-pdfs/` encapsulates the serve → generate → copy pipeline
+4. **Release archive** — `.github/workflows/generate-pdfs.yml` publishes PDFs to the `pdfs` GitHub Release quarterly (and on manual trigger)
 
-2. **Update GitHub Actions Workflow**
-   - Generate PDFs on every deployment
-   - Upload to GitHub Pages artifact
-   - No git commit needed
+### Benefits achieved
 
-3. **Update GitHub Pages Deployment**
-   Modify `.github/workflows/deploy.yml` to:
-   - Run PDF generation before deployment
-   - Include PDFs in Pages artifact
-   - Deploy both HTML and PDFs together
+- Repository size reduced (~600 MB → ~40 MB)
+- Faster git clones
+- No binary merge conflicts
+- PDFs always regenerated from latest content on deploy
+- Same user experience (PDFs available on the deployed site)
 
-4. **Benefits**
-   - Repository size: ~600 MB → ~40 MB
-   - Faster git clones
-   - No binary merge conflicts
-   - PDFs always regenerated from latest content
-   - Same user experience (PDFs available on site)
+### Architecture
 
-### Alternative: GitHub Releases
-Instead of GitHub Pages, attach PDFs to releases:
-- Tag releases (e.g., v2024.01)
-- Attach PDF bundle as release asset
-- Link from documentation
+```
+push to main
+    │
+    ▼
+deploy.yml
+    ├── npm ci + Playwright install
+    ├── Eleventy build (for serving)
+    ├── generate-chapter-pdfs action (~60 min)
+    ├── Eleventy rebuild (passthrough PDFs to _site/)
+    ├── search index generation
+    └── upload-pages-artifact → GitHub Pages
 
-### Transition Plan
+Quarterly (or manual):
+generate-pdfs.yml → same generation → publish to `pdfs` release
+```
 
-#### Completed
-1. ✅ **Verify GitHub Actions PDF generation works reliably**
-   - Weekly automated generation working since 2025-12-31
-   - 100% success rate (310/310 PDFs)
-   - Parallel processing with auto-recovery functional
-   - 60-minute generation time consistently achieved
+### Notes
 
-#### Remaining Steps
-2. **Test Pages deployment with dynamic PDFs**
-   - Modify deployment workflow to generate PDFs before Pages deployment
-   - Test that PDFs are included in Pages artifact
-   - Verify PDFs are accessible on deployed site
-
-3. **Once stable, exclude PDFs from git**
-   - Add `assets/pdf/*.pdf` to .gitignore
-   - Remove PDFs from git history
-   - Update documentation
-
-4. **Archive final committed PDF set as a release**
-   - Create release tag (e.g., v2025.1-pdf-archive)
-   - Attach final PDF set as release assets
-   - Document the transition in release notes
+- Deploy jobs have a 120-minute timeout to accommodate PDF generation
+- Vercel builds do not generate PDFs (GitHub Pages is the primary PDF host)
+- The complete-book PDF (`complete-book.pdf`) is not yet implemented
 
 ## References
+
 - [GitHub Pages Artifact Upload](https://github.com/actions/upload-pages-artifact)
-- [GitHub Large File Storage](https://git-lfs.github.com/)
+- [Composite Actions](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
