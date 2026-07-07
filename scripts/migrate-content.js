@@ -169,6 +169,24 @@ function joinWrappedIALs(lines) {
   return out;
 }
 
+// step 3d: an inline term IAL sometimes wraps to the next line AFTER its bold span:
+//   `…a **parallel plate capacitor**` / `{: class="term"}. It is easy…`
+// markdown-it-attrs binds a curly IAL only when it is adjacent to the inline element, so
+// pull a line-initial `{: …}` back onto a previous line ending in `**` (a strong close).
+function joinEmphasisIALs(lines) {
+  const out = [];
+  for (const line of lines) {
+    const m = line.match(/^\s*(\{:[^}]*\})(.*)$/);
+    if (m && out.length && /\*\*$/.test(out[out.length - 1].replace(/\s+$/, ''))) {
+      out[out.length - 1] = out[out.length - 1].replace(/\s+$/, '') + m[1];
+      out.push(m[2].replace(/^\s+/, ''));
+      continue;
+    }
+    out.push(line);
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------
 // step 4: fold a leading list-item IAL to the end of the item's OWN content so it binds to
 // the <li> (Kramdown places the IAL first; markdown-it-attrs wants it last).
@@ -388,6 +406,7 @@ function convert(text, { file, isSummary }) {
   // IALs), then 5 (containers), then 6 (blanks).
   let lines = stripBlanksInRawTables(b.split('\n'));
   lines = joinWrappedIALs(lines);
+  lines = joinEmphasisIALs(lines);
   lines = foldListItemIALs(lines);
   lines = moveForwardIALs(lines);
   const converted = convertContainers(lines.join('\n'), file);

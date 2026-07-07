@@ -1,6 +1,10 @@
 import { createMarkdown } from './lib/eleventy/markdown.js';
 
-const PATH_PREFIX = '/physics-book2';
+// GitHub Pages serves this project site under /physics-book2/ (D5). Vercel serves it at a
+// domain root, so it must build with no path prefix — detected via the VERCEL env var that
+// Vercel sets automatically. (A CLI `--pathprefix=/` does NOT override, since `/` is
+// Eleventy's default, so we key off the environment instead.)
+const PATH_PREFIX = process.env.VERCEL ? '/' : '/physics-book2/';
 
 export default function (eleventyConfig) {
   // src/contents/ is a gitignored build artifact (D4) that the converter generates,
@@ -23,9 +27,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addTransform('pathPrefix', function (content) {
     const out = this.page && this.page.outputPath;
     if (typeof out !== 'string' || !out.endsWith('.html')) return content;
+    const prefix = PATH_PREFIX.replace(/\/+$/, '');
+    if (!prefix) return content; // root-hosted (Vercel): nothing to add
     return content.replace(
       /(\s(?:href|src)=)"(\/(?!\/)[^"]*)"/g,
-      (_, pre, url) => `${pre}"${PATH_PREFIX}${url}"`
+      (_, pre, url) => `${pre}"${prefix}${url}"`
     );
   });
 
@@ -51,6 +57,6 @@ export default function (eleventyConfig) {
     templateFormats: ['md', 'njk', 'html'],
     markdownTemplateEngine: false, // D2: nothing touches markdown bodies (protects math)
     htmlTemplateEngine: 'njk',
-    pathPrefix: '/physics-book2/',
+    pathPrefix: PATH_PREFIX,
   };
 }

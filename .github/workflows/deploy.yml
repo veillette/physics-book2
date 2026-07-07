@@ -1,5 +1,5 @@
-# Workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+# Workflow for building and deploying the Eleventy site to GitHub Pages
+name: Deploy Eleventy site to Pages
 
 on:
   # Runs on pushes targeting the main branch
@@ -35,29 +35,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2"
-          bundler-cache: true
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v6
-
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "npm"
 
       - name: Install npm dependencies
         run: npm ci
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+      # PDF supply (decision D6): the 282 chapter PDFs are not tracked (gitignored) and are
+      # too slow to regenerate on every deploy. Restore them into assets/pdf/ BEFORE the
+      # Eleventy build so the `assets` passthrough ships them. Sourced from the latest
+      # `pdfs` GitHub Release asset (produced by generate-pdfs.yml). Missing PDFs only make
+      # the download buttons 404 — warn, never fail the deploy.
+      - name: Restore chapter PDFs
+        continue-on-error: true
         env:
-          JEKYLL_ENV: production
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p assets/pdf
+          if gh release download pdfs --dir assets/pdf --clobber 2>/dev/null; then
+            echo "Restored $(ls assets/pdf/*.pdf 2>/dev/null | wc -l) PDF(s) from the 'pdfs' release."
+          else
+            echo "::warning::No 'pdfs' release found; deploying without chapter PDFs (download buttons will 404)."
+          fi
+
+      # Generate the Eleventy input tree from the canonical Kramdown source. Remove this
+      # step after the P10 cutover, when converted content lives in the repo directly.
+      - name: Convert content
+        run: npm run migrate:content
+
+      - name: Build with Eleventy
+        run: npx @11ty/eleventy
 
       - name: Generate search index
         run: npm run generate:search-index
