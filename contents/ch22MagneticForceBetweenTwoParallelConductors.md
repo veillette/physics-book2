@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 10
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the effects of the magnetic force between two conductors.
 * Calculate the force between two parallel conductors.
-</div>
+
+:::
 
 You might expect that there are significant forces between current-carrying
 wires, since ordinary currents produce significant magnetic fields and these
@@ -75,17 +76,19 @@ each carrying 1 ampere, the force per meter is
 
 Since $${\mu }_{0} $$ is exactly $$4\pi \times 10^{-7} \text{T}\cdot \text{m/A} $$ by definition, and because $$1 \text{T}=1 \text{N/}\left(\text{A} \cdot \text{m}\right) $$ , the force per meter is exactly $$2 \times 10^{-7} \text{N/m} $$ . This is the basis of the operational definition of the ampere. 
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Ampere
 </div>
+
 The official definition of the ampere is:
 
 One ampere of current through each of two parallel conductors of infinite
 length, separated by one meter in empty space free of other magnetic fields,
 causes a force of exactly $$2 \times 10^{-7} \text{N/m} $$ on each conductor.
 
-</div>
+:::
 
 Infinite-length straight wires are impractical and so, in practice, a current
 balance is constructed with coils of wire separated by a few centimeters. Force
@@ -109,61 +112,82 @@ conductors is the most accurate in practice.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the force attractive or repulsive between the hot and neutral lines hung from power poles? Why?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2), with currents in the outer two running in opposite directions, is it possible for the middle wire to be repelled by both? Attracted by both? Explain.
 
 ![Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs from the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.](../resources/Figure_22_10_02.jpg 'Three parallel coplanar wires with currents in the outer two in opposite directions.')
 {: #Figure2}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose two long straight wires run perpendicular to one another without touching. Does one exert a net force on the other? If so, what is its direction? Does one exert a net torque on the other? If so, what is its direction? Justify your responses by using the right hand rules.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use the right hand rules to show that the force between the two loops in [[Figure 3]](#Figure3) is attractive if the currents are in the same direction and repulsive if they are in opposite directions. Is this consistent with like poles of the loops repelling and unlike poles of the loops attracting? Draw sketches to justify your answers.
 
 ![Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.](../resources/Figure_22_10_03.jpg 'Two loops of wire carrying currents can exert forces and torques on one another.')
 {: #Figure3}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If one of the loops in [[Figure 3]](#Figure3) is tilted slightly relative to the other and their currents are in the same direction, what are the directions of the torques they exert on each other? Does this imply that the poles of the bar magnet-like fields they create will line up with each other if the loops are allowed to rotate?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Electric field lines can be shielded by the Faraday cage effect. Can we have magnetic shielding? Can we have gravitational shielding?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The hot and neutral wires supplying DC power to a light-rail commuter train carry 800 A and are separated by 75.0 cm. What is the magnitude and direction of the force between 50.0 m of these wires? (b) Discuss the practical consequences of this force, if any.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -206,15 +230,19 @@ Light rail systems use DC because it's more efficient for electric motors. The 8
 
 **(b) The force is beneficial—it ensures the wires never touch. The magnitude is too small to require special engineering measures.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The force per meter between the two wires of a jumper cable being used to start a stalled car is 0.225 N/m. (a) What is the current in the wires, given they are separated by 2.00 cm? (b) Is the force attractive or repulsive?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -250,15 +278,19 @@ A starting current of 150 A is typical when cranking a car engine. The wires pus
 
 **(b) The force is repulsive (currents in opposite directions).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 2.50-m segment of wire supplying current to the motor of a submerged submarine carries 1000 A and feels a 4.00-N repulsive force from a parallel wire 5.00 cm away. What is the direction and magnitude of the current in the other wire?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -286,16 +318,20 @@ Submarine electrical systems involve high currents for propulsion. The force bet
 
 **The current in the other wire is 400 A, flowing in the opposite direction.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The wire carrying 400 A to the motor of a commuter train feels an attractive force of  $$ 4.00 \times 10^{-3}  \text{N/m} $$
  due to a parallel wire carrying 5.00 A to a headlight. (a) How far apart are the wires? (b) Are the currents in the same direction?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -332,15 +368,19 @@ In a commuter train, both the motor and headlight circuits may draw power from t
 
 **(b) Yes, the currents are in the same direction (which causes the attractive force).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carries a 5.00-A current. (a) What is the average force per meter between the wires in the cord? (b) What is the maximum force per meter between the wires? (c) Are the forces attractive or repulsive? (d) Do appliance cords need any special design features to compensate for these forces?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -393,18 +433,22 @@ The force oscillates at twice the AC frequency (120 Hz for 60 Hz power) because 
 
 **(d) No special design features are needed—these forces are negligibly small compared to other loads on the cord.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 4]](#Figure4) shows a long straight wire near a rectangular current loop. What is the direction and magnitude of the total force on the loop?
 
 ![Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.](../resources/Figure_22_10_04.jpg ' ')
 {: #Figure4}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -446,18 +490,22 @@ The loop is repelled from the wire because the top segment (closer to the wire, 
 
 **The net force on the loop is $$2.06 \times 10^{-4}$$ N directed downward (away from the long straight wire).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the direction and magnitude of the force that each wire experiences in [[Figure 5]](#Figure5)(a) by, using vector addition.
 
 ![Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.](../resources/Figure_22_10_05.jpg ' ')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -498,15 +546,19 @@ The geometry creates complex force patterns. Parallel currents attract, antipara
 
 **(c) Lower right wire: $$3.46 \times 10^{-4}$$ N/m at $$30.0\text{ °}$$ below the horizontal to the left.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the direction and magnitude of the force that each wire experiences in [[Figure 5]](#Figure5)(b), using vector addition.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -546,5 +598,6 @@ In this symmetric configuration, the forces on opposite corners are mirror image
 
 **By symmetry: Top wires experience upward and outward forces; bottom wires experience downward and outward forces. The exact magnitudes require vector addition of three force contributions each.**
 
-</div>
+:::
+
 </div>

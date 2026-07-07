@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define various units of radiation.
 * Describe RBE.
-</div>
+
+:::
 
 We hear many seemingly contradictory things about the biological effects of
 ionizing radiation. It can cause cancer, burns, and hair loss, yet it is used to
@@ -139,13 +140,15 @@ values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma 
 radiation is also 1 rem. For that reason, rads are still widely quoted rather
 than rem. [[Table 2]](#Table2) summarizes the units that are used for radiation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: Activity vs. Dose
 </div>
+
 “Activity” refers to the radioactive source while “dose” refers to the amount of energy from the radiation that is deposited in a person or object.
 
-</div>
+:::
 
 A high level of activity doesn’t mean much if a person is far away from the
 source. The activity $$R $$ of a source depends upon the quantity of material (
@@ -551,10 +554,12 @@ RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ o
 Does it make sense?* The dose should be consistent with the numbers given in the
 text for diagnostic, occupational, and therapeutic exposures.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Dose from Inhaled Plutonium
 </div>
+
 Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of  $$1.00 \text{μCi of} {}^{239}\text{Pu} $$
  in an accident. The mass of affected lung tissue is 2.00 kg, the plutonium decays by emission of a 5.23-MeV  $$\alpha  $$
  particle, and you may assume the higher value of the RBE for  $$\alpha  $$
@@ -578,29 +583,35 @@ by the number of seconds in a year:
 <div class="equation" >
  $$\left( 3.70 \times 10^{4}  \text{decays/s}\right)\left( 3.16 \times 10^{7}  \text{s}\right)= 1.17 \times 10^{12} \text{decays} \text{.}  $$
 </div>
+
 Thus, the ionizing energy deposited per year is
 
 <div class="equation" >
  $$E=\left( 1.17 \times 10^{12} \text{decays}\right)\left( 5.23 \text{MeV/decay}\right)×\left(\frac{1.60 \times 10^{-13} \text{J}}{\text{MeV}}\right)= 0.978 \text{J} \text{.}  $$
 </div>
+
 Dividing by the mass of the affected tissue gives
 
 <div class="equation" >
  $$\frac{E}{\text{mass}}=\frac{ 0.978 \text{J}}{ 2.00 \text{kg}}=0.489 \text{J/kg} \text{.}  $$
 </div>
+
 One Gray is 1.00 J/kg, and so the dose in Gy is
 
 <div class="equation" >
  $$\text{dose in Gy}=\frac{0.489 \text{J/kg}}{1.00 \text{(J/kg)/Gy}}=0.489 Gy. $$
 </div>
+
 Now, the dose in Sv is
 
 <div class="equation" >
  $$\text{dose}\text{in}\text{Sv}=\text{Gy}×\text{RBE} $$
 </div>
+
 <div class="equation" >
  $$=\left(0.489 Gy\right)\left(20\right)=9.8 \text{Sv} \text{.}  $$
 </div>
+
 **Discussion**
 
 First note that the dose is given to two digits, because the RBE is (at best)
@@ -617,7 +628,7 @@ likely it is to be spread out among a large population and then ingested. The
 Chernobyl disaster’s deadly legacy, for example, has nothing to do with the
 plutonium it put into the environment.
 
-</div>
+:::
 
 ### Risk versus Benefit
 
@@ -635,16 +646,19 @@ $${}^{131}\text{I} $$ . Because of its relatively long half-life, it exposes the
 thyroid to about 0.75 Sv. The isotope $${}^{123}\text{I} $$ is more difficult to
 produce, but its short half-life limits thyroid exposure to about 15 mSv.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Alpha Decay
 </div>
+
 Watch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life.
 
 <div class="media" id="PhET_module" data-alt="Alpha Decay">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/alpha-decay/latest/alpha-decay.html?simulation=alpha-decay"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -691,32 +705,43 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Isotopes that emit  $$\alpha  $$
  radiation are relatively safe outside the body and exceptionally hazardous inside. Yet those that emit  $$\gamma  $$
  radiation are hazardous outside and inside. Explain why.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is radon more closely associated with inducing lung cancer than other types of cancer?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The RBE for low-energy  $$\beta  $$
 s is 1.7, whereas that for higher-energy  $$\beta  $$
 s is only 1. Explain why, considering how the range of radiation depends on its energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which methods of radiation protection were used in the device shown in the first photo in [[Figure 3]](#Figure3)? Which were used in the situation shown in the second photo?
 
 (a)
@@ -724,58 +749,76 @@ Which methods of radiation protection were used in the device shown in the first
 ![Figure A shows a “shoe fitting x-ray device.” Figure B shows a group of people wearing white protective suits standing near a yellow radiation hazard sign.](../resources/Figure_32_02_03.jpg '(a) This x-ray fluorescence machine is one of the thousands used in shoe stores to produce images of feet as a check on the fit of shoes. They are unshielded and remain on as long as the feet are in them, producing doses much greater than medical images. Children were fascinated with them. These machines were used in shoe stores until laws preventing such unwarranted radiation exposure were enacted in the 1950s. (credit: Andrew Kuchling ) (b) Now that we know the effects of exposure to radioactive material, safety is a priority. (credit: U.S. Navy)')
 {: #Figure3}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What radioisotope could be a problem in homes built of cinder blocks made from uranium mine tailings? (This is true of homes and schools in certain regions near uranium mines.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Are some types of cancer more sensitive to radiation than others? If so, what makes them more sensitive?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a person swallows some radioactive material by accident. What information is needed to be able to assess possible damage?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the dose in mSv for: (a) a 0.1 Gy x-ray? (b) 2.5 mGy of neutron exposure to the eye? (c) 1.5 mGy of  $$\alpha  $$
  exposure?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 100 mSv
 
 (b) 80 mSv
 
 (c) ~30 mSv
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic x-ray series. (b) 50 mSv of skin exposure by an  $$\alpha  $$
  emitter. (c) 160 mSv of  $${\beta }^{-} $$
  and  $$\gamma  $$
  rays from the  $${}^{40}\text{K} $$
  in your body.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -805,28 +848,37 @@ $$ \text{Dose in Gy} = \frac{160 \text{ mSv}}{1} = 160 \text{ mGy} = 0.16 \text{
 
 These conversions illustrate an important principle in radiation dosimetry: the absorbed dose in Gy can be much smaller than the dose equivalent in Sv for high-RBE radiation. Notice that in part (b), although the alpha exposure gives 50 mSv (five times the x-ray dose), the actual energy deposited is only 2.5 mGy (one-fourth the x-ray energy deposition of 10 mGy). This is because alpha particles, with their short range and high ionization density, cause 20 times more biological damage per unit of absorbed energy. For x-rays, beta particles, and gamma rays (RBE = 1), the numerical values in mSv and mGy are identical, which is why these units are often used interchangeably in practice for these common types of radiation. The $${}^{40}\text{K}$$ in part (c) is a natural source of background radiation that exists in everyone's body, contributing to the unavoidable radiation exposure we all experience.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many Gy of exposure is needed to give a cancerous tumor a dose of 40 Sv if it is exposed to  $$\alpha  $$
  activity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 ~2 Gy
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the dose in Sv in a cancer treatment that exposes the patient to 200 Gy of  $$\gamma  $$
  rays?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -842,30 +894,39 @@ $$ \text{Dose in Sv} = (200 \text{ Gy})(1) = 200 \text{ Sv} $$
 
 This is an extremely large dose of 200 Sv, which would be lethal if given to the whole body. However, in cancer radiotherapy, such large doses are acceptable because they are highly localized to the tumor region and delivered in fractionated treatments over several weeks rather than all at once. The treatment schedule allows normal tissue to repair itself between sessions while the more radiation-sensitive cancer cells accumulate lethal damage. Typical radiotherapy protocols deliver 200 rem (2 Sv) per treatment, 3-5 times per week, for a total cumulative dose to the tumor that can reach 50-80+ Sv as shown in Table 1. The fact that gamma rays have RBE = 1 means the numerical values in Gy and Sv are the same, simplifying dosimetry calculations for this common therapeutic radiation. The tolerance of the surrounding normal tissue ultimately limits the maximum dose that can be safely delivered to the tumor.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One half the  $$\gamma  $$
  rays from  $${}^{99 \text{m}}\text{Tc} $$
  are absorbed by a 0.170-mm-thick lead shielding. Half of the  $$\gamma  $$
  rays that pass through the first layer of lead are absorbed in a second layer of equal thickness. What thickness of lead will absorb all but one in 1000 of these  $$\gamma  $$
  rays?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 1.69 mm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A plumber at a nuclear power plant receives a whole-body dose of 30 mSv in 15 minutes while repairing a crucial valve. Find the radiation-induced yearly risk of death from cancer and the chance of genetic defect from this maximum allowable exposure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -899,27 +960,36 @@ This represents a yearly risk of 10 in a million, or 0.001%.
 
 These risks must be interpreted carefully. The cancer death risk of $$3.0 \times 10^{-5}$$ per year means that each year for approximately 30 years following exposure (the latency and risk period), the plumber has an additional 30 in a million chance of dying from radiation-induced cancer. Over the full 30-year risk period, the cumulative lifetime risk would be approximately $$30 \times 30 = 900$$ in a million, or about 0.09%. To put this in perspective, the normal incidence of cancer deaths is about 20% (200,000 in a million), so this radiation-induced increase would be very difficult to detect statistically in any individual case. The genetic defect risk is about one-third the cancer risk and applies to potential offspring. These risk estimates are based on the linear hypothesis, which assumes that any radiation dose, no matter how small, carries some risk proportional to the dose. While this assumption is conservative and possibly overestimates low-dose risks, it provides a prudent basis for radiation safety standards. The 30 mSv exposure is at the upper limit of allowed occupational doses and demonstrates why such exposures are carefully monitored and minimized in nuclear facilities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In the 1980s, the term picowave was used to describe food irradiation in order to overcome public resistance by playing on the well-known safety of microwave radiation. Find the energy in MeV of a photon having a wavelength of a picometer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 1.24 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the mass of  $${}^{239}\text{Pu} $$
  that has an activity of  $$1.00 \text{μCi} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -961,27 +1031,27 @@ $$ m = (6.74 \times 10^{-8} \text{ mol})(239 \text{ g/mol}) = 1.61 \times 10^{-5
 
 This remarkably small mass of only 16.1 micrograms demonstrates the extreme radioactivity and toxicity of plutonium-239. The Discussion section of the worked example in the text mentions that $$1.00 \text{ μCi}$$ is created by only $$16 \text{ μg}$$ of $${}^{239}\text{Pu}$$, and our calculation confirms this value. This tiny amount of material, barely visible to the naked eye, produces 37,000 disintegrations per second! The long half-life of 24,120 years means that $${}^{239}\text{Pu}$$ decays slowly, but each decay releases a highly damaging 5.2-MeV alpha particle. When inhaled and retained in the lungs as discussed in the text example, even this minuscule mass delivers a devastating dose of about 10 Sv per year to lung tissue. This explains why plutonium is sometimes called "the most toxic substance known"—not because individual atoms are particularly hazardous, but because such an incredibly small mass can deliver such a large radiation dose over many years due to its alpha emissions, long half-life, and tendency to be retained in the body. This problem also illustrates why plutonium contamination is so serious: microscopic particles invisible to the eye can contain enough activity to pose significant health risks.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Values approximate,
-  difficult to determine.</span>
-- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
-  obtain dose in rem.</span>
-- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">Values approximate,
+  difficult to determine.</span> {: class="footnote-ref" #footnote1}
+- [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
+  obtain dose in rem.</span> {: class="footnote-ref" #footnote2}
+- [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in mrem/y.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote3}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1023,4 +1093,4 @@ exposures of toxins or radiation
 shielding
 : a technique to limit radiation exposure
 
-</div>
+:::

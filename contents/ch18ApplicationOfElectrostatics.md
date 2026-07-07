@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 18
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Name several real-world applications of the study of electrostatics.
-</div>
+
+::::
 
 The study of **electrostatics** has proven useful in many areas. This module
 covers just a few of the many applications of electrostatics.
@@ -31,13 +32,15 @@ voltages of 15 million volts are well within practical limits.
 ![Schematic of Van de Graaff generator is shown. The parts of the generators shown include a conductor, insulator, nonconductive belt, ion source, and experimental area.](../resources/Figure_18_08_02.jpg 'Schematic of Van de Graaff generator. A battery (A) supplies excess positive charge to a pointed conductor, the points of which spray the charge onto a moving insulating belt near the bottom. The pointed conductor (B) on top in the large sphere picks up the charge. (The induced electric field at the points is so large that it removes the charge from the belt.) This can be done because the charge does not remain inside the conducting sphere but moves to its outside surface. An ion source inside the sphere produces positive ions, which are accelerated away from the positive sphere to high velocities.')
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Electrostatics and Humidity
 </div>
+
 Rub a comb through your hair and use it to lift pieces of paper. It may help to tear the pieces of paper rather than cut them neatly. Repeat the exercise in your bathroom after you have had a long shower and the air in the bathroom is moist. Is it easier to get electrostatic effects in dry or moist air? Why would torn paper be more attractive to the comb than cut paper? Explain your observations.
 
-</div>
+::::
 
 ### Xerography
 
@@ -124,10 +127,12 @@ irritants, and allergens.
 ![(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant.[alt]Schematic of an electrostatic precipitator is shown. Four filters are shown one after another. Air passes through initial filter, then through positively charged grid, then through the third grid which is negatively charged and finally through the final grid. The number of particles is shown decreasing as air passes through various filters.](../resources/Figure_18_08_06.jpg '(a) Schematic of an electrostatic precipitator. Air is passed through grids of opposite charge. The first grid charges airborne particles, while the second attracts and collects them. (b) The dramatic effect of electrostatic precipitators is seen by the absence of smoke from this power plant. (credit: Cmdalgleish, Wikimedia Commons)')
 {: #Figure5}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategies for Electrostatics
 </div>
+
 1.   Examine the situation to determine if static electricity is involved. This may concern separated stationary charges, the forces among them, and the electric fields they create.
 2.   Identify the system of interest. This includes noting the number, locations, and types of charges involved.
 3.   Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is useful. Determine whether the Coulomb force is to be considered directly—if so, it may be useful to draw a free-body diagram, using electric field lines.
@@ -136,7 +141,7 @@ Problem-Solving Strategies for Electrostatics
 5.   Solve the appropriate equation for the quantity to be determined (the unknown) or draw the field lines as requested.
 6.   Examine the answer to see if it is reasonable: Does it make sense? Are units correct and the numbers involved reasonable?
 
-</div>
+::::
 
 ### Integrated Concepts
 
@@ -158,10 +163,12 @@ are involved in some or all of the problems labeled “Integrated Concepts”:
 The following worked example illustrates how this strategy is applied to an
 Integrated Concept problem:
 
-<div class="example"  markdown="1">
+:::: example
+
 <div class="title">
 Acceleration of a Charged Drop of Gasoline
 </div>
+
 If steps are not taken to ground a gasoline pump, static electricity can be placed on gasoline when filling your car’s tank. Suppose a tiny drop of gasoline has a mass of  $$4.00 \times 10^{-15}  \text{kg} $$
  and is given a positive charge of  $$3.20 \times 10^{-19}  \text{C} $$ .
  (a) Find the weight of the drop. (b) Calculate the electric force on the drop if there is an upward electric field of strength  $$3.00 \times 10^{5}  \text{N/C} $$
@@ -190,11 +197,13 @@ Weight is mass times the acceleration due to gravity, as first expressed in
 <div class="equation" >
  $$w=mg. $$
 </div>
+
 Entering the given mass and the average acceleration due to gravity yields
 
 <div class="equation" >
  $$w=\left( 4.00 \times 10^{-15}  \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)= 3.92 \times 10^{-14}  \text{N}. $$
 </div>
+
 **Discussion for (a)**
 
 This is a small weight, consistent with the small mass of the drop.
@@ -207,12 +216,14 @@ following equation:
 <div class="equation" >
  $$F=qE. $$
 </div>
+
 Here we are given the charge ( $$3.20 \times 10^{-19}  \text{C} $$
  is twice the fundamental unit of charge) and the electric field strength, and so the electric force is found to be
 
 <div class="equation" >
  $$F=\left( 3.20 \times 10^{-19}  \text{C}\right)\left( 3.00 \times 10^{5}  \text{N/C}\right)= 9.60 \times 10^{-14}  \text{N}. $$
 </div>
+
 **Discussion for (b)**
 
 While this is a small force, it is greater than the weight of the drop.
@@ -229,12 +240,14 @@ can state Newton’s second law as
 <div class="equation" >
  $$a=\frac{ {F}_{\text{net}}}{m}. $$
 </div>
+
 where  $${F}_{\text{net}}=F-w $$ .
  Entering this and the known values into the expression for Newton’s second law yields
 
 <div class="equation" >
  $$\begin{array}{lll}a& =& \frac{F-w}{m}\\ & =& \frac{ 9.60 \times 10^{-14}  \text{N}- 3.92 \times 10^{-14}  \text{N}}{ 4.00 \times 10^{-15}  \text{kg}}\\ & =&  14.2 {\text{m/s}}^{2}.\end{array} $$
 </div>
+
 **Discussion for (c)**
 
 This is an upward acceleration great enough to carry the drop to places where
@@ -251,18 +264,22 @@ physics outside a physics course, such as in your profession, in other science
 disciplines, and in everyday life. The following problems will build your skills
 in the broad application of physical principles.
 
-</div>
+::::
 
-<div class="note" data-has-label="true"  data-label="" data-element-type="note" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":"","data-element-type":"note"}
+
 <div class="title">
 Unreasonable Results
 </div>
+
 The Unreasonable Results exercises for this module have results that are unreasonable because some premise is unreasonable or because certain of the premises are inconsistent with one another. Physical principles applied correctly then produce unreasonable results. The purpose of these problems is to give practice in assessing whether nature is being accurately described, and if it is not to trace the source of difficulty.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategy
 </div>
+
 To determine if an answer is reasonable, and to determine the cause if it is not, do the following.
 
 1. Solve the problem using strategies as outlined above. Use the format followed
@@ -275,8 +292,9 @@ To determine if an answer is reasonable, and to determine the cause if it is not
    large Coulomb force could be due to the assumption of an excessively large
    separated charge.
 
-</div>
-</div>
+:::
+
+::::
 
 ### Section Summary
 
@@ -288,12 +306,15 @@ To determine if an answer is reasonable, and to determine the cause if it is not
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) What is the electric field 5.00 m from the center of the terminal of a Van de Graaff with a 3.00 mC charge, noting that the field is equivalent to that of a point charge at the center of the terminal? (b) At this distance, what force does the field exert on a  $$2.00 \mu \text{C} $$
  charge on the Van de Graaff's belt?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -347,15 +368,19 @@ Part (a): The electric field 5.00 m from the Van de Graaff terminal is 1.08 × 1
 
 Part (b): The force on the 2.00 μC charge is 2.16 N, which is substantial for such a small charge. This force is roughly equivalent to the weight of a 220-gram object. This demonstrates why Van de Graaff generators are effective at moving charges along the belt—the strong electric field exerts significant forces even on the relatively small charges carried by the belt. The direction of the force would be radially outward from the terminal if the belt charge is positive (repulsive), which is the configuration that allows the terminal to accumulate charge.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) What is the direction and magnitude of an electric field that supports the weight of a free electron near the surface of Earth? (b) Discuss what the small value for this field implies regarding the relative strength of the gravitational and electrostatic forces.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -411,19 +436,23 @@ Part (b): This tiny field value has profound implications. The fact that such a 
 
 This is why atomic structure is determined entirely by electromagnetic forces—the gravitational attraction between an electron and a proton is about $$10^{40}$$ times weaker than their electrostatic attraction (as calculated in Chapter 18.3). If you tried to use gravity to hold atoms together, you would need impossibly massive particles. Instead, nature uses the much stronger electromagnetic force, which is why ordinary matter has the properties it does. This also explains why we can easily overcome gravity with everyday electrostatic effects, like picking up paper bits with a charged comb.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A simple and common technique for accelerating electrons is shown in [[Figure 6]](#Figure6), where there is a uniform electric field between two plates. Electrons are released, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to continue moving. (a) Calculate the acceleration of the electron if the field strength is  $$2.50 \times 10^{4}  \text{N/C} $$ .
  (b) Explain why the electron will not be pulled back to the positive plate once it moves through the hole.
 
 ![Parallel conducting plates with opposite charges are shown and electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates but curved at the corner.](../resources/Figure_18_08_07.jpg 'Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -464,15 +493,19 @@ Part (a): The acceleration of $$4.39 \times 10^{15} \text{ m/s}^2$$ is enormous�
 
 Part (b): The key insight is that the electric field is confined to the region between the plates. Once the electron escapes through the hole, it enters a field-free region and continues by inertia (Newton's first law). This is similar to how a ball thrown through a window continues moving after leaving the window—the force that accelerated it (in this case, the electric field) is no longer present. This design allows the accelerated electrons to be used for various applications, such as striking a phosphor screen in a television or targeting atoms in an X-ray machine. The electron gun configuration shown here is fundamental to many important technologies.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Earth has a net charge that produces an electric field of approximately 150 N/C downward at its surface. (a) What is the magnitude and sign of the excess charge, noting the electric field of a conducting sphere is equivalent to a point charge at its center? (b) What acceleration will the field produce on a free electron near Earth's surface? (c) What mass object with a single extra electron will have its weight supported by this field?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -557,17 +590,21 @@ Part (b): The acceleration of $$2.63 \times 10^{13} \text{ m/s}^2$$ is enormous�
 
 Part (c): An object with mass $$2.45 \times 10^{-18}$$ kg (about 2.45 femtograms) with one extra electron would have its weight exactly balanced by the electric force. This is roughly the mass of a few thousand water molecules. This demonstrates that Earth's electric field, while weak compared to laboratory fields, can still support extremely light charged particles. In practice, small charged dust particles and water droplets can be suspended or moved by Earth's electric field, contributing to atmospheric electrical phenomena.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Point charges of  $$25.0 \mu \text{C} $$
  and  $$45.0 \mu \text{C} $$
  are placed 0.500 m apart. (a) At what point along the line between them is the electric field zero? (b) What is the electric field halfway between them?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -659,19 +696,23 @@ Part (a): The zero-field point is 0.213 m from the smaller charge, which makes s
 
 Part (b): At the midpoint, the net field is $$2.87 \times 10^6$$ N/C pointing toward the smaller charge. This is a very strong field, typical of the fields near microcoulomb charges at distances of tens of centimeters. The field is not zero at the midpoint because the charges are unequal—the larger charge dominates. This problem demonstrates the superposition principle: the net field is the vector sum of individual fields.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What can you say about two charges  $${q}_{1} $$
  and  $${q}_{2} $$ ,
  if the electric field one-fourth of the way from  $${q}_{1} $$
  to  $${q}_{2} $$
  is zero?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -719,19 +760,23 @@ This makes physical sense: the point is three times farther from $$q_2$$ than fr
 
 This problem illustrates an important principle: when looking for zero-field points between like charges, the point is always closer to the smaller charge. The ratio of distances from the zero-field point to each charge is inversely proportional to the square root of the charge ratio. Here, the distance ratio is $$1:3$$, so the charge ratio must be $$1^2:3^2 = 1:9$$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 Calculate the angular velocity $$\omega $$ of an electron orbiting a proton in
 the hydrogen atom, given the radius of the orbit is $$0.530 \times 10^{-10} \text{m} $$ . You may assume that the proton is stationary and the centripetal
 force is supplied by Coulomb attraction.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -799,11 +844,14 @@ The linear speed of the electron would be $$v = \omega r = (4.12 \times 10^{16})
 
 This classical "Bohr model" calculation gives values in the right ballpark but is ultimately inadequate—the true description requires quantum mechanics, where the electron doesn't actually orbit in a well-defined path but exists in a probability cloud. Nevertheless, this calculation illustrates the connection between electrostatic and mechanical principles and shows why atomic processes occur on such short timescales.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 An electron has an initial velocity of $$5.00 \times 10^{6} \text{m/s} $$ in a
@@ -813,8 +861,9 @@ What is the direction of the electric field? (b) How far does the electron
 travel before coming to rest? (c) How long does it take the electron to come to
 rest? (d) What is the electron's velocity when it returns to its starting point?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -888,11 +937,14 @@ Part (d): The electron's velocity when returning is $$5.00 \times 10^6$$ m/s in 
 
 This problem demonstrates how uniform electric fields can be used to control charged particle motion, as in oscilloscopes and particle accelerators. The symmetry of the motion (same speed at the starting point) is a consequence of the conservation of energy in a conservative field.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 The practical limit to an electric field in air is about $$3.00 \times 10^{6} \text{N/C} $$ . Above this strength, sparking takes place because air begins to
@@ -900,8 +952,9 @@ ionize and charges flow, reducing the field. (a) Calculate the distance a free
 proton must travel in this field to reach $$3.00\% $$ of the speed of light,
 starting from rest. (b) Is this practical in air, or must it occur in a vacuum?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -945,11 +998,14 @@ Part (b): However, this cannot be done in air. At $$3.00 \times 10^6$$ N/C, air 
 
 The time required for this acceleration would be $$t = \frac{v}{a} = \frac{9.00 \times 10^6}{2.87 \times 10^{14}} \approx 31.4$$ nanoseconds, which is very brief. This problem illustrates the practical challenges of particle acceleration and why modern accelerators require both high vacuum and careful engineering to achieve high energies.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 A 5.00 g charged insulating ball hangs on a 30.0 cm long string in a uniform
@@ -959,8 +1015,9 @@ on the ball is $$1.00 \mu \text{C} $$ , find the strength of the field.
 ![A charged ball is hung from a string making an angle of eight degree toward right with the vertical. The external electric field lines represented by arrows, are from left to right.](../resources/Figure_18_08_08.jpg 'A horizontal electric field causes the charged ball to hang at an angle of 8.00º.')
 {: #Figure7}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1022,11 +1079,14 @@ The relatively small deflection angle of 8.00° tells us the electric force is m
 
 This problem demonstrates equilibrium under multiple forces and shows how even modest electric fields can produce observable effects on charged objects. The setup is similar to Millikan's oil drop experiment, though that used vertical rather than horizontal fields. Such configurations are used to measure charges and fields in laboratory settings.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 [[Figure 8]](#Figure8) shows an electron passing between two charged metal
@@ -1041,8 +1101,9 @@ it exit? Neglect any edge effects.
 ![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_18_08_10.jpg ' ')
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1117,11 +1178,14 @@ Part (c): The exit angle is 4.46°. This matches the velocity ratio: $$\tan(4.46
 
 This configuration is exactly how cathode ray oscilloscopes work—pairs of deflection plates use perpendicular electric fields to steer the electron beam horizontally and vertically, allowing it to trace waveforms on a phosphor screen. The small deflection angle and modest field strength (100 N/C is quite weak) show that even gentle electric fields can effectively control fast-moving electrons due to their tiny mass. Modern oscilloscopes have largely been replaced by digital versions, but the underlying principle remains important in electron optics and beam control systems.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 The classic Millikan oil drop experiment was the first to obtain an accurate
@@ -1135,8 +1199,9 @@ radius and have a density of $$920 kg/{m}^{3} $$:
 ![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_18_08_11.jpg 'In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.')
 {: #Figure9}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1202,11 +1267,14 @@ Millikan's brilliance was in realizing that by measuring the field required to s
 
 This experiment was crucial in establishing the electron's charge as a fundamental constant and earned Millikan the 1923 Nobel Prize. The principle—balancing gravitational and electric forces—remains a cornerstone technique in modern experiments that manipulate individual charged particles.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 (a) In [[Figure 10]](#Figure10), four equal charges $$q $$ lie on the corners of
@@ -1219,8 +1287,9 @@ the Coulomb force is to equal the weight of $$m $$ .
 ![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12.jpg 'Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.')
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1276,19 +1345,23 @@ Part (a): The required charge on each corner is $$q = \frac{3\sqrt{6}mgd^2}{8kQ}
 
 Part (b): While this configuration can theoretically support the weight, it's unstable—any perturbation grows rather than diminishes. This is similar to balancing a ball on top of a hill. In practice, such a levitation system would require active feedback control to maintain stability, making it impractical for passive levitation.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 (a) Calculate the electric field strength near a 10.0 cm diameter conducting
 sphere that has 1.00 C of excess charge on it. (b) What is unreasonable about
 this result? (c) Which assumptions are responsible?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1331,19 +1404,23 @@ The electric field at the surface:
 
 The calculated field of $$3.60 \times 10^{12}$$ N/C is about a million times the breakdown threshold of air. This illustrates why 1 coulomb is such an enormous unit for static electricity. The coulomb is convenient for describing currents (where many coulombs flow per second), but for static charge, practical units are the nanocoulomb (nC) and microcoulomb (μC). This problem demonstrates the importance of checking whether results are physically reasonable and understanding the practical limits of electrostatic phenomena.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 (a) Two 0.500 g raindrops in a thunderhead are 1.00 cm apart when they each
 acquire 1.00 mC charges. Find their acceleration. (b) What is unreasonable about
 this result? (c) Which premise or assumption is responsible?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1399,11 +1476,14 @@ The calculated acceleration of $$1.80 \times 10^{11} \text{ m/s}^2$$ is nonsensi
 
 In real thunderstorms, raindrops acquire charges of about 1-100 pC (picocoulombs), which is about 10 million times smaller than the 1 mC assumed in this problem. This creates manageable forces and explains why raindrops don't fly apart despite the electrical activity in thunderstorms. This problem illustrates the importance of using realistic charge values when analyzing electrostatic situations.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 A wrecking yard inventor wants to pick up cars by charging a 0.400 m diameter
@@ -1413,8 +1493,9 @@ What minimum charge must be used? (b) What is the electric field near the
 surface of the ball? (c) Why are these results unreasonable? (d) Which premise
 or assumption is responsible?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1479,11 +1560,14 @@ While the calculation correctly determines that 1.04 mC would provide sufficient
 
 This problem illustrates why electromagnetic cranes don't use electrostatic forces—they use magnetic forces instead. Magnetic fields can be made very strong without the breakdown issues that plague electrostatics in air. The fundamental limitation here is air breakdown, which caps practical electric fields at about $$3 \times 10^6$$ N/C. Any scheme involving higher fields must operate in vacuum or use other insulating media, making it impractical for a wrecking yard application.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 **Construct Your Own Problem**
 
 Consider two insulating balls with evenly distributed equal and opposite charges
@@ -1498,8 +1582,9 @@ the magnitudes of the charges and the distance between the centers of the balls.
 Your instructor may wish for you to consider the electric field off axis or for
 a more complex array of charges, such as those in a water molecule.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Guidance for Constructing This Problem**
 
@@ -1530,11 +1615,14 @@ When constructing this problem, consider the following framework:
 **Physical Interpretation:**
 Comment on how this configuration models electric dipoles found in nature (like polar molecules), and how the field pattern explains molecular interactions.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 **Construct Your Own Problem**
 
 Consider identical spherical conducting space ships in deep space where
@@ -1546,8 +1634,9 @@ whether that charge depends on the distance between the centers of the ships,
 the masses of the ships, or any other factors. Discuss whether this would be an
 easy, difficult, or even impossible thing to do in practice.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Guidance for Constructing This Problem**
 
@@ -1605,10 +1694,12 @@ For balance: $$F_e = F_g$$, so:
 
 Conclude that while theoretically possible, practical implementation would be challenging and require continuous charge management.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1643,4 +1734,4 @@ electrostatic precipitators
 : filters that apply charges to particles in the air, then attract those charges
 to a filter, removing them from the airstream
 
-</div>
+::::

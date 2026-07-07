@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 19
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define electric potential and electric potential energy.
 * Describe the relationship between potential difference and electrical potential energy.
 * Explain electron volt and its usage in submicroscopic process.
 * Determine electric potential energy given potential difference and amount of charge.
-</div>
+
+:::
 
 When a free positive charge $$q $$ is accelerated by an electric field, such as
 shown in [[Figure 1]](#Figure1), it is given kinetic energy. The process is
@@ -41,10 +42,12 @@ front of $$\Delta \text{PE} $$ to make $$W $$ positive. PE can be found at any
 point by taking one point as a reference and calculating the work needed to move
 a charge to the other point.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Potential Energy
 </div>
+
  $$W=-\Delta \text{PE} $$ .
  For example, work  $$W $$
  done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative  $$\Delta \text{PE}. $$
@@ -52,7 +55,7 @@ Potential Energy
  to make  $$W $$
  positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.
 
-</div>
+:::
 
 Gravitational potential energy and electric potential energy are quite
 analogous. Potential energy accounts for work done by a conservative force and
@@ -73,16 +76,19 @@ per unit charge:
  $$V=\frac{\text{PE}}{q}\text{.} $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Electric Potential
 </div>
+
 This is the electric potential energy per unit charge.
 
 <div class="equation" >
  $$V=\frac{\text{PE}}{q} $$
 </div>
-</div>
+
+:::
 
 Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V $$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE} $$ is crucial, and so we are concerned with the difference in potential or potential difference $$\Delta V $$ between two points, where
 
@@ -98,17 +104,20 @@ are joules per coulomb, given the name volt (V) after Alessandro Volta.
  $$1 \text{V} = 1 \frac{\text{J}}{\text{C}} $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Potential Difference
 </div>
+
 The potential difference between points A and B,  $${V}_{B}-{V}_{A} $$ ,
  is defined to be the change in potential energy of a charge $$ q $$ moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.
 
 <div class="equation" >
  $$1 \text{V} = 1 \frac{\text{J}}{\text{C}} $$
 </div>
-</div>
+
+:::
 
 The familiar term **voltage**{: class="term"} is the common name for potential
 difference. Keep in mind that whenever a voltage is quoted, it is understood to
@@ -125,18 +134,21 @@ electrical potential energy is given by
  $$\Delta V=\frac{\Delta \text{PE}}{q} \text{and} \Delta \text{PE} = q\Delta V\text{.} $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Potential Difference and Electrical Potential Energy
 </div>
+
 The relationship between potential difference (or voltage) and electrical potential energy is given by
 
 <div class="equation" >
  $$\Delta V=\frac{\Delta \text{PE}}{q} \text{and}  \Delta \text{PE} = q\Delta V\text{.} $$
 </div>
+
 The second equation is equivalent to the first.
 
-</div>
+:::
 
 Voltage is not the same as energy. Voltage is the energy per unit charge. Thus a
 motorcycle battery and a car battery can both have the same voltage (more
@@ -145,10 +157,12 @@ stores much more energy than the other since $$\Delta \text{PE} = q\Delta V $$ .
 The car battery can move more charge than the motorcycle battery, although both
 are 12 V batteries.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Energy
 </div>
+
 Suppose you have a 12.0 V motorcycle battery that can move 5000 C of charge, and a 12.0 V car battery that can move 60 000 C of charge. How much energy does each deliver? (Assume that the numerical value of each charge is accurate to three significant figures.)
 
 **Strategy**
@@ -169,11 +183,13 @@ For the motorcycle battery, $$q=5000 \text{C} $$ and $$\Delta V=12.0 \text{V} $$
 <div class="equation" >
  $$\begin{array}{lll}\Delta \text{PE}_{\text{cycle}}& =& \left(5000 \text{C}\right)\left(12.0 \text{V}\right)\\ & =& \left(5000 \text{C}\right)\left(12.0 \text{J/C}\right)\\ & =&  6.00 \times 10^{4}  \text{J} \text{.} \end{array} $$
 </div>
+
 Similarly, for the car battery,  $$q=60 000 \text{C} $$  and
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta \text{PE}_{\text{car}}& =& \left(60 000 \text{C}\right)\left(12.0 \text{V}\right)\\ & =&  7.20 \times 10^{5}  \text{J} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 While voltage and energy are related, they are not the same thing. The voltages
@@ -183,7 +199,7 @@ internally and its terminal voltage drops, such as when headlights dim because
 of a low car battery. The energy supplied by the battery is still calculated as
 in this example, but not all of the energy is available for external use.
 
-</div>
+:::
 
 Note that the energies calculated in the previous example are absolute values.
 The change in potential energy for the battery is negative, since it loses
@@ -199,10 +215,12 @@ from A to B.
 ![A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.](../resources/Figure_19_01_02.jpg "A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.")
 {: #Figure2}
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 How Many Electrons Move through a Headlight Each Second?
 </div>
+
 When a 12.0 V car battery runs a single 30.0 W headlight, how many electrons pass through it each second?
 
 **Strategy**
@@ -221,18 +239,21 @@ To find the charge $$ q $$ moved, we solve the equation $$\Delta \text{PE}=q\Del
 <div class="equation" >
  $$q=\frac{\Delta \text{PE}}{\Delta V}\text{.} $$
 </div>
+
 Entering the values for  $$\Delta \text{PE} $$
  and  $$\Delta V $$ ,  we get
 
 <div class="equation" >
  $$q=\frac{-30.0 \text{J}}{+12.0 \text{V}}=\frac{-30.0 \text{J}}{+12.0 \text{J/C}}= -2.50 C. $$
 </div>
+
 The number of electrons  $${\text{n}}_{\text{e}} $$
  is the total charge divided by the charge per electron. That is,
 
 <div class="equation" >
  $${\text{n}}_{\text{e}}=\frac{-2.50\text{C}}{-1.60 \times 10^{-19} {\text{C/e}}^{-}}= 1.56 \times 10^{19}  \text{electrons} \text{.}  $$
 </div>
+
 **Discussion**
 
 This is a very large number. It is no wonder that we do not ordinarily observe
@@ -242,7 +263,7 @@ moving charges in many circumstances were negative. Positive charge moving in
 the opposite direction of negative charge often produces identical effects; this
 makes it difficult to determine which is moving or whether both are moving.
 
-</div>
+:::
 
 ### The Electron Volt
 
@@ -271,16 +292,19 @@ charge accelerated through a potential difference of 1 V. In equation form,
  $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 V\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ & =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Electron Volt
 </div>
+
 On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form,
 
 <div class="equation" >
  $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 V\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ & =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
 </div>
-</div>
+
+:::
 
 An electron accelerated through a potential difference of 1 V is given an energy
 of 1 eV. It follows that an electron accelerated through 50 V is given 50 eV. A
@@ -290,13 +314,15 @@ accelerated through 100 V will be given 200 eV of energy. These simple
 relationships between accelerating voltage and particle charges make the
 electron volt a simple and convenient energy unit in such circumstances.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Energy Units
 </div>
+
 The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, kilowatt-hours for electrical energy, and therms for natural gas energy.
 
-</div>
+:::
 
 The electron volt is commonly employed in submicroscopic processes—chemical
 valence energies and molecular and nuclear binding energies are among the
@@ -332,10 +358,12 @@ or
 where i and f stand for initial and final conditions. As we have found many
 times before, considering energy can give us insights and facilitate problem-solving.
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Electrical Potential Energy Converted to Kinetic Energy
 </div>
+
 Calculate the final speed of a free electron accelerated from rest through a potential difference of 100 V. (Assume that this numerical value is accurate to three significant figures.)
 
 **Strategy**
@@ -354,22 +382,26 @@ Conservation of energy states that
 <div class="equation" >
  $${\text{KE}}_{i}+{\text{PE}}_{i}{= \text{KE}}_{f}+{\text{PE}}_{f}\text{.} $$
 </div>
+
 Entering the forms identified above, we obtain
 
 <div class="equation" >
  $$qV=\frac{ mv^{2}}{2}\text{.} $$
 </div>
+
 We solve this for  $$v $$
 *\:*
 
 <div class="equation" >
  $$v=\sqrt{\frac{2qV}{m}}\text{.} $$
 </div>
+
 Entering values for  $$q, V\text{, and } m $$  gives
 
 <div class="equation" >
  $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ v& =& 5.93 \times 10^{6} \text{m/s} \text{.} \end{array} $$ 
 </div>
+
 **Discussion**
 
 Note that both the charge and the initial voltage are negative, as
@@ -384,7 +416,7 @@ used in electron guns. Those higher voltages produce electron speeds so great
 that relativistic effects must be taken into account. That is why a low voltage
 is considered (accurately) in this example.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -402,7 +434,7 @@ is considered (accurately) in this example.
   through a potential difference of 1 V. In equation form,
 
   <div class="equation" >
- $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{V}\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ 1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$ 
+  $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{V}\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ 1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$ 
   </div>
 
 - Mechanical energy is the sum of the kinetic energy and potential energy of a
@@ -411,47 +443,67 @@ is considered (accurately) in this example.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Voltage is the common word for potential difference. Which term is more descriptive, voltage or potential difference?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the voltage between two points is zero, can a test charge be moved between them with zero net work being done? Can this necessarily be done without exerting a force? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the relationship between voltage and energy? More precisely, what is the relationship between potential difference and electric potential energy?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Voltages are always measured between two points. Why?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How are units of volts and electron volts related? How do they differ?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be  $$ 1.67 \times 10^{-27} \text{kg}\text{.} $$
-</div>
-<div class="solution"  markdown="1">
+
+:::
+
+::: solution
+
 **Strategy**
 
 Both particles start at rest and are accelerated through the same potential difference. Since they have the same magnitude of charge (both are singly charged), they gain the same kinetic energy. We can use conservation of energy to relate the final speed to the mass, then form a ratio to compare the two speeds.
@@ -486,15 +538,20 @@ The electron moves about 43 times faster than the hydrogen ion because it has ne
 
 **The ratio of speeds is 42.8, with the electron traveling faster than the hydrogen ion.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays. Non-relativistically, what would be the maximum speed of these electrons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The electrons start at rest and are accelerated through a potential difference of 40 kV. Using conservation of energy, the electrical potential energy lost by the electron is converted entirely to kinetic energy (assuming no energy losses in the evacuated tube). We'll apply the energy conservation equation to find the final speed.
@@ -532,16 +589,21 @@ This calculated speed is about 40% of the speed of light ($$c = 3.0 \times 10^8$
 
 **The maximum speed of the electrons is $$1.19 \times 10^{8}$$ m/s (non-relativistically).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A bare helium nucleus has two positive charges and a mass of  $$ 6.64 \times 10^{-27} \text{kg}\text{.} $$
  (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 A bare helium nucleus (alpha particle) has two protons and two neutrons, with a charge of $$+2e$$. We'll use the classical kinetic energy formula for part (a), convert to electron volts for part (b), and then use the relationship between kinetic energy and voltage for part (c). Since 2% of the speed of light is well below the relativistic regime, the classical formula is appropriate.
@@ -590,19 +652,24 @@ The helium nucleus needs about 374 kV to reach 2% of the speed of light, which i
 
 **(c) The required voltage is $$3.74 \times 10^{5}$$ V or 374 kV.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Singly charged gas ions are accelerated from rest through a voltage of 13.0 V.
 At what temperature will the average kinetic energy of gas molecules be the same
 as that given these ions?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem connects electrostatics with thermodynamics. When a singly charged ion is accelerated through a voltage, it gains kinetic energy $$\text{KE} = eV$$. For gas molecules in thermal equilibrium, the average kinetic energy is given by the equipartition theorem: $$\overline{\text{KE}} = \frac{3}{2}k_B T$$. We'll set these equal and solve for temperature.
@@ -644,11 +711,14 @@ A temperature of 100,000 K is extremely hot—much hotter than the surface of th
 
 **The temperature at which gas molecules have the same average kinetic energy is $$1.00 \times 10^{5}$$ K or 100,000 K.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The temperature near the center of the Sun is thought to be 15 million degrees
@@ -656,8 +726,10 @@ Celsius $$\left( 1.5 \times 10^{7} ºC\right) $$ . Through what voltage must a
 singly charged ion be accelerated to have the same energy as the average kinetic
 energy of ions at this temperature?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is the inverse of the previous problem. We know the temperature and need to find the equivalent voltage. We'll calculate the average kinetic energy at the Sun's core temperature using $$\overline{\text{KE}} = \frac{3}{2}k_B T$$, then find the voltage that would give a singly charged ion the same energy using $$\text{KE} = eV$$.
@@ -693,19 +765,24 @@ Surprisingly, only about 2 kV is needed to accelerate ions to energies equivalen
 
 **The required voltage is approximately 1.9 kV or $$1.94 \times 10^{3}$$ V.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What is the average power output of a heart defibrillator that dissipates
 400 J of energy in 10.0 ms? (b) Considering the high-power output, why doesn't
 the defibrillator produce serious burns?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Power is the rate of energy transfer, defined as $$P = E/t$$. For part (a), we'll calculate the average power from the given energy and time. Part (b) requires understanding how electrical energy interacts with body tissue.
@@ -742,11 +819,14 @@ The 40 kW power output is enormous but brief. By comparison, a lightning strike 
 
 **(b) Burns are minimized because the pulse is very brief, conductive gel distributes current over a wide area, and high voltage reduces skin resistance so energy passes through to the heart rather than being absorbed at the surface.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A lightning bolt strikes a tree, moving 20.0 C of charge through a potential
@@ -755,8 +835,10 @@ difference of $$ 1.00 \times 10^{2} \text{MV} $$ .
 the damage that could be caused to the tree by the expansion of the boiling
 steam.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem connects electrical energy to thermal energy and phase changes. For part (a), we use $$E = qV$$ to find the electrical energy. For part (b), we need to calculate both the energy to heat water from 15°C to 100°C and the energy to vaporize it, then find what mass can be processed with the available energy. Part (c) is conceptual.
@@ -813,11 +895,14 @@ The 2 GJ of energy is equivalent to about 500 kg of TNT. This enormous energy, d
 
 **(c) The rapid conversion of water to steam causes explosive expansion (volume increases ~1,700 times), which can blow the tree apart, strip bark, splinter wood, and initiate fires.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, $$ 2.50 \times 10^{2} \text{g} $$ of baby formula, and $$ 2.00 \times 10^{2} \text{g} $$ of
@@ -826,8 +911,10 @@ aluminum from $$ 20.0ºC $$ to $$90.0ºC $$ .
 flow if it takes 5.00 min to warm the formula? (Hint: Assume that the specific
 heat of baby formula is about the same as the specific heat of water.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem integrates thermodynamics with electrostatics. First, we calculate the total thermal energy needed to heat all three materials using $$Q_{\text{thermal}} = mc\Delta T$$ for each. Then, we use the relationship $$E = qV$$ to find the charge moved. For part (b), we find the current and convert to electrons per second.
@@ -880,11 +967,14 @@ The baby formula requires by far the most energy (about 82% of the total) becaus
 
 **(b) The electron flow rate is $$1.54 \times 10^{20}$$ electrons per second.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A battery-operated car utilizes a 12.0 V system. Find the charge the batteries
@@ -894,8 +984,10 @@ it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N}
 
 force for an hour.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem requires calculating the total energy needed for three phases of the car's journey: (1) acceleration from rest, (2) climbing a hill, and (3) overcoming resistance forces while traveling at constant speed. We'll sum these energies and then use $$E = qV$$ to find the required charge.
@@ -949,11 +1041,14 @@ The vast majority of energy (about 96%) is used for Phase 3—overcoming resista
 
 **The charge the batteries must be able to move is $$3.89 \times 10^{6}$$ C.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Fusion probability is greatly enhanced when appropriate nuclei are brought close
@@ -965,8 +1060,10 @@ of one at that distance and multiplying by the charge of the other. (b) At what
 temperature will atoms of a gas have an average kinetic energy equal to this
 needed electrical potential energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem connects nuclear physics with thermodynamics. For part (a), we'll use the point charge potential formula $$V = kq/r$$ to find the voltage due to one nucleus, then multiply by the charge of the other to get potential energy. For part (b), we'll equate this to the thermal kinetic energy $$\frac{3}{2}k_BT$$ and solve for temperature.
@@ -1016,19 +1113,24 @@ The calculated temperature of about 11 million K is similar to the temperature a
 
 **(b) The temperature required is $$1.11 \times 10^{7}$$ K (about 11 million Kelvin).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Find the voltage near a 10.0 cm diameter metal sphere that has 8.00 C of
 excess positive charge on it. (b) What is unreasonable about this result? (c)
 Which assumptions are responsible?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "Unreasonable Results" problem, where we perform the calculation and then analyze why the result is physically impossible. We'll use the point charge potential formula (valid for the surface of a spherical conductor) to find the voltage, then evaluate its reasonableness.
@@ -1082,11 +1184,14 @@ This problem illustrates the importance of checking whether calculated results a
 
 **(c) The assumption that 8.00 C of charge can be placed on a small sphere is responsible. This is far more charge than can realistically be accumulated; the maximum would be about $$10^{-6}$$ C.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a battery used to supply energy to a cellular phone. Construct a
@@ -1096,8 +1201,10 @@ supply this energy. Among the things to be considered are the energy needs and
 battery voltage. You may need to look ahead to interpret manufacturer's battery
 ratings in ampere-hours as energy in joules.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Guidance for Constructing Your Problem**
 
 This is an open-ended problem designed to help you practice applying the concepts of electric potential energy and voltage to a real-world situation. Here's a framework to guide your approach:
@@ -1141,10 +1248,12 @@ Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = 11.1 \t
 - What happens to the energy—where does it go?
 - Why do manufacturers rate batteries in amp-hours rather than joules?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1164,4 +1273,4 @@ mechanical energy
 : sum of the kinetic energy and potential energy of a system; this sum is a
 constant
 
-</div>
+:::

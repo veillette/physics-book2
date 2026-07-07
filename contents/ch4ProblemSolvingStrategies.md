@@ -4,11 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 4
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Understand and apply a problem-solving procedure to solve problems using Newton\'s laws of motion.
 
-</div>
+:::
 
 Success in problem solving is obviously necessary to understand and apply
 physical principles, not to mention the more immediate need of passing exams.
@@ -71,10 +71,12 @@ of axes with one axis parallel to the incline and one perpendicular to it is
 most convenient. It is almost always convenient to make one axis parallel to the
 direction of motion, if this is known.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Applying Newton’s Second Law
 </div>
+
 Before you write net force equations, it is critical to determine whether the system
 is accelerating in a particular direction. If the acceleration is zero in a particular direction, then
 the net force is zero in that direction. Similarly, if the acceleration is nonzero in a particular direction,
@@ -87,12 +89,14 @@ conclusions:
 <div class="equation">
  $$ F_{\text{net}x}=m a , $$
 </div>
+
 <div class="equation">
  $$ F_{\text{net}y}=0 . $$
 </div>
+
 You will need this information in order to determine unknown forces acting in a system.
 
-</div>
+:::
 
 Step 4. As always, _check the solution to see whether it is reasonable_. In some
 cases, this is obvious. For example, it is reasonable to find that friction
@@ -122,14 +126,17 @@ solving for force and end up with units of m/s, then you have made a mistake.
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A $$ 5.00 \times 10^{5}\text{-kg} $$ rocket is accelerating straight up. Its engines produce
 $$ 1.250 \times 10^{7}\N $$ of thrust, and air resistance is $$ 4.50 \times 10^{6}\N $$.
 What is the rocket's acceleration? Explicitly show how you follow the steps
 in the Problem-Solving Strategy for Newton's laws of motion.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Step 1: Sketch and free-body diagram**
 
@@ -196,19 +203,23 @@ This demonstrates why rockets require such enormous forces to achieve liftoff—
 
 The rocket's acceleration is **6.20 m/s²** upward.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The wheels of a midsize car exert a force of 2100 N backward on the road to accelerate the car in the forward direction.
 If the force of friction including air resistance is 250 N and the acceleration of the car is
 $$ 1.80 \mss $$, what is the mass of the car plus its occupants? Explicitly show how you follow
 the steps in the Problem-Solving Strategy for Newton's laws of motion. For this
 situation, draw a free-body diagram and write the net force equation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Step 1: Sketch and free-body diagram**
 
@@ -254,15 +265,19 @@ The net force of 1850 N produces a reasonable acceleration of 1.80 m/s² for thi
 
 The mass of the car plus its occupants is **1030 kg** (or **1.03 × 10³ kg**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the force a 70.0-kg high jumper must exert on the ground to produce an upward acceleration 4.00 times the acceleration due to gravity. Explicitly show how you follow the steps in the Problem-Solving Strategy for Newton’s laws of motion.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 1. Use Newton’s laws of
    motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
@@ -282,19 +297,23 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 The jumper must exert a force nearly 5 times his weight (3430 N versus 686 N) to achieve an upward acceleration of 4g. This large normal force from the ground is what propels him upward. By Newton's third law, he pushes down on the ground with 3430 N, and the ground pushes up on him with the same force. The acceleration of 39.2 m/s² occurs only during the brief push-off phase while his feet are in contact with the ground.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When landing after a spectacular somersault, a 40.0-kg gymnast decelerates by pushing
 straight down on the mat.
 Calculate the force she must exert if her deceleration is 7.00 times the acceleration
 due to gravity. Explicitly show how you follow the steps in
 the Problem-Solving Strategy for Newton's laws of motion.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Step 1: Sketch and free-body diagram**
 
@@ -346,11 +365,14 @@ The normal force of 3140 N is 8 times the gymnast's weight, corresponding to a d
 
 The gymnast must exert a force of **3.14 × 10³ N** (or **3140 N**) on the mat.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A freight train consists of two $$ 8.00\times 10^{4}\text{-kg} $$
 engines and 45 cars with average masses of $$ 5.50\times 10^{4}\kg $$.
 (a) What force must each engine exert backward on the track to accelerate the train
@@ -364,8 +386,9 @@ and 38th cars (this is the force each exerts on the other), assuming all cars
 have the same mass and that friction is evenly distributed among all of the cars
 and engines?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -455,11 +478,14 @@ Part (a) shows that trains require enormous forces to accelerate, even at modest
 
 (b) The force in the coupling between the 37th and 38th cars is **1.50 × 10⁵ N**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Commercial airplanes are sometimes pushed out of the passenger loading area by a tractor.
 (a) An 1800-kg tractor exerts a force of $$ 1.75 \times 10^{4}\N $$
 backward on the pavement, and the system experiences forces resisting motion
@@ -470,8 +496,9 @@ airplane, assuming 2200 N of the friction is experienced by the airplane.
 (c) Draw two sketches showing the systems of interest used to solve each part,
 including the free-body diagrams for each.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -558,19 +585,23 @@ Part (a) shows the airplane's mass is about 55 times the tractor's mass, which i
 
 (b) The tractor exerts a force of **1.70 × 10⁴ N** (or **17,000 N**) on the airplane.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" id="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 1100-kg car pulls a boat on a trailer.
 (a) What total force resists the motion of the car, boat, and trailer, if the car exerts a 1900-N force on the road and produces an acceleration of $$ 0.550 \mss $$
 ? The mass of the boat plus trailer is 700 kg.
 (b) What is the force in the hitch between the car and the trailer if 80% of the resisting forces are
 experienced by the boat and trailer?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -639,11 +670,14 @@ If the car experiences 20% of the friction (182 N), the total resistance it face
 
 (b) The force in the hitch between the car and trailer is **1.11 × 10³ N** (or **1113 N**).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the magnitudes of the forces $$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$ that add to give the total force $$ \vb{F}_{\text{tot}} $$
 shown in [Figure below](#Figure4). This may be done either graphically
 or by using trigonometry.
@@ -653,8 +687,9 @@ and $$ \vb{F}_{2} $$.
 (c) Find the direction and magnitude of some other pair of vectors that add to give
 $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part (b) or a similar picture.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **(a) Magnitudes of F₁ and F₂:**
 
@@ -708,14 +743,17 @@ This problem reinforces the fundamental principle that vector addition is both c
 
 (c) Any pair of perpendicular or non-perpendicular vectors whose components sum to (17.3 N, 10.0 N) will work.
 
-</div>
+:::
+
 </div>
 
 ![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.jpg)
 {: #Figure4}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_{1} $$
 and $$ \vb{F}_{2} $$ as shown from above
 in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
@@ -724,8 +762,9 @@ unspecified; it will be in the opposite direction of the sum of
 
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$. $$
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -747,6 +786,7 @@ For $$ F_1 $$ (at 45° above +x-axis):
 <div class="equation">
 $$ F_{1x} = F_1 \cos(45°) = 10.0 \times 0.707 = 7.07 \N $$
 </div>
+
 <div class="equation">
 $$ F_{1y} = F_1 \sin(45°) = 10.0 \times 0.707 = 7.07 \N $$
 </div>
@@ -756,6 +796,7 @@ For $$ F_2 $$ (at 30° below +x-axis):
 <div class="equation">
 $$ F_{2x} = F_2 \cos(30°) = 8.0 \times 0.866 = 6.93 \N $$
 </div>
+
 <div class="equation">
 $$ F_{2y} = -F_2 \sin(30°) = -8.0 \times 0.500 = -4.00 \N $$
 </div>
@@ -765,6 +806,7 @@ $$ F_{2y} = -F_2 \sin(30°) = -8.0 \times 0.500 = -4.00 \N $$
 <div class="equation">
 $$ F_{pull,x} = F_{1x} + F_{2x} = 7.07 + 6.93 = 14.0 \N $$
 </div>
+
 <div class="equation">
 $$ F_{pull,y} = F_{1y} + F_{2y} = 7.07 - 4.00 = 3.07 \N $$
 </div>
@@ -803,22 +845,26 @@ This problem demonstrates vector addition with forces at different angles. The t
 
 The sled and child system accelerates at **0.139 m/s²** in a direction **12.4° north of east**.
 
-</div>
+:::
+
 </div>
 
 ![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](../resources/Figure_04_06_05.jpg 'An overhead view of the horizontal forces acting on a child’s snow saucer sled.')
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose your car was mired deeply in the mud and you wanted to use the method illustrated in the [Figure below](#Figure6) to pull it out.
 (a) What force would you have to exert perpendicular to the center of the rope to produce a force of 12 000 N on the
 car if the angle is 2.00°? In this part, explicitly show how you follow the steps in the Problem-Solving Strategy for Newton's laws of motion.
 (b) Real ropes stretch under such forces. What force would be exerted on the car if the angle increases to 7.00° and
 you still apply the force found in part (a) to its center?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **(a) Force needed at 2.00° angle:**
 
@@ -896,20 +942,24 @@ This problem demonstrates a clever mechanical advantage technique used when vehi
 
 (b) At the larger angle of 7.00°, the force on the car would still be approximately **12,000 N** if you apply the same perpendicular force.
 
-</div>
+:::
+
 </div>
 
 ![Diagram showing orthodontic forces applied to a tooth](../resources/Figure_04_06_09.jpg){: #Figure6}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What force is exerted on the tooth in the [Figure below](#Figure8) if the tension
 in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire,
 but this is necessitated by practical considerations of how force can be applied in the mouth.
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 1. Use Newton’s laws since we are looking for forces.
 
@@ -931,14 +981,17 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 The applied force on the tooth (12.9 N) is approximately half the tension in the wire (25.0 N) because only the vertical components of the two symmetric tensions contribute to moving the tooth. The horizontal components cancel due to symmetry, which is why the wire is oriented at equal angles on both sides. Orthodontic treatments use small, sustained forces over long periods to gradually reposition teeth. The 12.9 N force is reasonable for this purpose—strong enough to be effective but gentle enough to avoid damaging the tooth or surrounding tissue.
 
-</div>
+:::
+
 </div>
 
 ![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg 'Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, ( F_{\\text{app}} ) , points straight toward the back of the mouth.')
 {: #Figure8}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The [Figure below](#Figure9) shows Superhero and Trusty Sidekick hanging motionless from a rope. Superhero's mass is 90.0
 kg,
 while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
@@ -946,8 +999,9 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 (b) Find the tension in the rope above Superhero.
 (c) Find the tension in the rope between Superhero and Trusty Sidekick. Indicate on your free-body diagram the system of interest used to solve each part.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 __(a) Free-body diagrams:__
 
@@ -1007,22 +1061,26 @@ This problem illustrates how tension varies along a hanging rope depending on ho
 
 (c) The tension between Superhero and Trusty Sidekick is __5.39 × 10² N__ (or __539 N__), which equals Sidekick's weight.
 
-</div>
+:::
+
 </div>
 
 ![Two caped superheroes hang on a rope suspended vertically from a bar.](../resources/Figure_04_06_08.jpg 'Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?')
 {: #Figure9 height="300"}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A nurse pushes a cart by exerting a force on the handle at a downward angle $$ 35.0^\circ $$
 below the horizontal. The loaded cart has a mass of 28.0 kg, and the force of
 friction is 60.0 N.
 (a) Draw a free-body diagram for the system of interest.
 (b) What force must the nurse exert to move at a constant velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 __(a) Free-body diagram:__
 
@@ -1071,11 +1129,13 @@ Pushing downward at an angle is less efficient than pushing horizontally because
 
 (b) The nurse must exert a force of __73.2 N__ at 35.0° below the horizontal to move the cart at constant velocity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 __Construct Your Own Problem__
 
@@ -1086,8 +1146,9 @@ Then calculate the tension in the cable. Among the things to consider are the
 mass of the elevator and its load, the final velocity, and the time taken to
 reach that velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1166,11 +1227,13 @@ The tension in the cable during upward acceleration is **1.34 × 10⁴ N** (or *
 
 **Note:** Your answer will differ depending on the values you choose. Make sure your values are realistic for elevators, and verify that the tension is greater than the weight during upward acceleration.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 __Construct Your Own Problem__
 
@@ -1180,11 +1243,13 @@ of the toboggan and its load. Things to be considered are the forces exerted by
 those pushing, the angle of the slope, and the masses of the toboggan and
 children.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 __Unreasonable Results__
 
@@ -1194,8 +1259,9 @@ is produced.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, and why is it unreasonable?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 __(a) Repeat Exercise 7 with a = 1.20 m/s²:__
 
@@ -1242,11 +1308,13 @@ Negative friction is physically impossible—friction always opposes relative mo
 
 (c) The premise that the acceleration is 1.20 m/s² is unreasonable because it exceeds the maximum possible acceleration (1.06 m/s²) that the 1900 N force could produce.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 __Unreasonable Results__
 
@@ -1257,8 +1325,9 @@ achieved by several real rockets.)
 find it useful to compare this problem to the rocket problem earlier in this
 section.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 __(a) Initial acceleration:__
 
@@ -1316,5 +1385,6 @@ This problem illustrates a real failure mode that has occurred with actual rocke
 
 (c) The thrust of 2.00 × 10⁶ N is unreasonably small. It's only 14% of the rocket's weight, far below the minimum needed for liftoff (1.47 × 10⁷ N).
 
-</div>
+:::
+
 </div>

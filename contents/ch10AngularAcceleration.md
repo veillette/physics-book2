@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 10
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Describe uniform circular motion.
 * Explain non-uniform circular motion.
 * Calculate angular acceleration of an object.
 * Observe the link between linear and angular acceleration.
 
-</div>
+::::
 
 [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
 discussed only uniform circular motion, which is motion in a circle at constant
@@ -58,10 +58,12 @@ expressed as follows:
 
 where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads \right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating the Angular Acceleration and Deceleration of a Bike Wheel
 </div>
+
 Suppose a teenager puts her bicycle on its back and starts the rear wheel spinning from rest to a final angular velocity of 250 rpm in 5.00 s.
 (a) Calculate the angular acceleration in $$ \radss $$.
 (b) If she now slams on the brakes, causing an angular acceleration of $$ -87.3 \radss $$, how long does it take the wheel to stop?
@@ -82,6 +84,7 @@ $$ \begin{array}{lll}
 \alpha &=& \frac{250 \text{rpm}}{5.00 \s }.
 \end{array} $$
 </div>
+
 Because $$ \Delta \omega $$ is in revolutions per minute (rpm)
 and we want the standard units of $$ \radss $$ for angular acceleration, we need to convert $$ \Delta \omega $$ from rpm to rad/s:
 
@@ -91,6 +94,7 @@ $$ \begin{array}{lll}
 \Delta \omega &=& 26.2\frac{ \text{rad}}{\s}.
 \end{array} $$
 </div>
+
 Entering this quantity into the expression for $$ \alpha $$, we get
 
 <div class="equation">
@@ -132,7 +136,7 @@ quickly goes to zero. In both cases, the relationships are analogous to what
 happens with linear motion. For example, there is a large deceleration when you
 crash into a brick wall—the velocity change is large in a short time interval.
 
-</div>
+::::
 
 If the bicycle in the preceding example had been on its wheels instead of
 upside-down, it would first have accelerated along the ground and then come to a
@@ -198,10 +202,12 @@ the angular acceleration of a car’s drive wheels, the greater the acceleration
 of the car. The radius also matters. For example, the smaller a wheel, the
 smaller its linear acceleration for a given angular acceleration $$ \alpha $$.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating the Angular Acceleration of a Motorcycle Wheel
 </div>
+
 A powerful motorcycle can accelerate from 0 to 30.0 m/s (about 108 km/h) in 4.20 s.
 What is the angular acceleration of its 0.320-m-radius wheels? (See [Figure 4](#Figure4).)
 
@@ -224,6 +230,7 @@ a_\text{t}&=& \frac{30.0 \ms }{4.20 \s }\\
 a_\text{t}&=& 7.14\mss .
 \end{array} $$
 </div>
+
 We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $$
 and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
@@ -240,7 +247,7 @@ $$ \begin{array}{lll}
 Units of radians are dimensionless and appear in any relationship between
 angular and linear quantities.
 
-</div>
+::::
 
 So far, we have defined three rotational quantities— $$ \theta $$, $$\omega $$,
 and $$ \alpha $$. These quantities are analogous to the translational quantities
@@ -258,23 +265,29 @@ relationships between them.
 | $$\omega$$ | $$ v $$       | $$ \omega= \frac{v}{r} $$ |
 | $$\alpha$$ | $$ a $$       | $$ \alpha= \frac{a}{r} $$ |
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment
 </div>
+
 Sit down with your feet on the ground on a chair that rotates. Lift one of your legs such that it is unbent (straightened out). Using the other leg, begin to rotate yourself by pushing on the ground. Stop using your leg to push the ground but allow the chair to rotate. From the origin where you began, sketch the angle, angular velocity, and angular acceleration of your leg as a function of time in the form of three separate graphs. Estimate the magnitudes of these quantities.
 
-</div>
+::::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 Angular acceleration is a vector, having both magnitude and direction. How do we denote its magnitude and direction? Illustrate with an example.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-print-placement":"here"}
+
 The magnitude of angular acceleration is $$ \alpha $$
 and its most common units are $$ \radss $$. The direction of angular
 acceleration along a fixed axis is denoted by a + or a – sign, just as the
@@ -284,22 +297,28 @@ be parallel to the mat and to her left. The magnitude of her angular
 acceleration would be proportional to her angular velocity (spin rate) and her
 moment of inertia about her spin axis.
 
-</div>
+::::
+
 </div>
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Ladybug Revolution
 </div>
+
 Join the ladybug in an exploration of rotational motion. Rotate the merry-go-round to change its angle, or choose a constant angular velocity or angular acceleration. Explore how circular motion relates to the bug\'s x,y position, velocity, and acceleration using vectors or graphs.
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Ladybug Revolution
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.html?simulation=rotation" width="600" height="450" allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -326,50 +345,65 @@ Ladybug Revolution
 or
 
   <div class="equation">
- $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
+  $$ \alpha =\frac{ a_{\text{t}}}{r}. $$
   </div>
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Analogies exist between rotational and translational physical quantities. Identify the rotational term analogous to each of the following: acceleration, force, mass, work, translational kinetic energy, linear momentum, impulse.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 In circular motion, a tangential acceleration can change the magnitude of the velocity but not its direction. Explain your answer.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) The plate starts to spin?
 (b) The plate rotates at constant angular velocity?
 (c) The plate slows to a halt?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 At its peak, a tornado is 60.0 m in diameter and carries 500 km/h winds.
 What is its angular velocity in revolutions per second?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -409,11 +443,13 @@ The tornado completes nearly three-quarters of a revolution every second. This r
 
 The angular velocity of the tornado is **0.737 rev/s** (or **4.63 rad/s**).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Integrated Concepts**
 
@@ -424,8 +460,9 @@ rotation?
 (c) What is the radial acceleration in $$ \mss $$ and multiples of $$ g $$ of
 this point at full rpm?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -475,11 +512,13 @@ The centripetal acceleration is over a million times g! This enormous accelerati
 
 (c) The radial acceleration is **1.04 × 10⁷ m/s²**, or **1.06 × 10⁶ g**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Integrated Concepts**
 
@@ -490,8 +529,9 @@ turning at 90.0 rpm, and you press a steel axe against it with a radial force of
 0.20, calculate the angular acceleration of the grindstone.
 (b) How many turns will the stone make before coming to rest?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -551,11 +591,13 @@ The grindstone makes 27 complete turns before stopping. The small friction force
 
 (b) The grindstone makes **27 revolutions** before coming to rest.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Unreasonable Results**
 
@@ -566,8 +608,9 @@ the acceleration lasts 2.00 s?
 (b) What is unreasonable about the result?
 (c) Which premises are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -603,10 +646,12 @@ The calculation reveals the absurdity of the given angular acceleration. A baske
 
 (c) The angular acceleration of 100 rad/s² is unreasonably high; realistic values are 5-10 rad/s².
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -620,4 +665,4 @@ tangential acceleration
 : the acceleration in a direction tangent to the circle at the point of interest
 in circular motion
 
-</div>
+::::

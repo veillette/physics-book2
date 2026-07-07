@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 5
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Express mathematically the drag force.
 * Discuss the applications of drag force.
 * Define terminal velocity.
 * Determine the terminal velocity given mass.
 
-</div>
+::::
 
 Another interesting force in everyday life is the force of drag on an object
 when it is moving in a fluid (either a gas or a liquid). You feel the drag force
@@ -44,10 +44,12 @@ force is proportional to the square of the speed. As we shall see in a few pages
 on fluid dynamics, for small particles moving at low speeds in a fluid, the
 exponent is equal to 1.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Drag Force
 </div>
+
 Drag force $$ F_{\text{D}} $$
 is found to be proportional to the square of the speed of the object.
 Mathematically
@@ -55,14 +57,16 @@ Mathematically
 <div class="equation">
 $$ F_{\text{D}}\propto v^{2} $$
 </div>
+
 <div class="equation">
 $$ F_{\text{D}}=\frac{1}{2} C \rho A v^{2}, $$
 </div>
+
 where $$ C $$ is the drag coefficient,
 $$ A $$ is the area of the object facing the fluid, and
 $$ \rho $$ is the density of the fluid.
 
-</div>
+::::
 
 Athletes as well as car designers seek to reduce the drag force to lower their
 race times. (
@@ -179,10 +183,12 @@ the area and his drag. In a spread-eagle position, that terminal velocity may
 decrease to about 200 km/h as the area increases. This terminal velocity becomes
 much smaller after the parachute opens.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 This interesting activity examines the effect of weight upon terminal velocity.
 Gather together some nested coffee filters. Leaving them in their original shape, measure the time it
 takes for one, two, three, four, and five nested filters to fall to the floor from the same height
@@ -191,12 +197,14 @@ They obtain terminal velocity quite quickly, so find this velocity as a function
 Plot the terminal velocity$$ v $$ versus mass. Also plot $$ v^{2} $$ versus mass.
 Which of these relationships is more linear? What can you conclude from these graphs?
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 A Terminal Velocity
 </div>
+
 Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle position.
 
 **Strategy**
@@ -219,6 +227,7 @@ All quantities are known except the person’s projected area. This is an adult
 <div class="equation">
  $$ A=\left(2 \m \right)\left(0.35 \m \right)=0.70 \mm . $$
 </div>
+
 Using our equation for $$ v_{\text{t}} $$, we find that
 
 <div class="equation">
@@ -235,7 +244,7 @@ This result is consistent with the value for $$ v\_{\text{t}} $$ mentioned
 earlier. The 75-kg skydiver going feet first had a $$ v=98 \ms $$. He weighed
 less but had a smaller frontal area and so a smaller drag due to the air.
 
-</div>
+::::
 
 The size of the object that is falling through air presents another interesting
 application of air drag. The terminal velocity of a small squirrel is less than the terminal velocity we found previously for the skydiver, and so the squirrel can fall from a significant height without injury.
@@ -266,18 +275,21 @@ $$ F_{\s}=6 \pi r\eta v, $$
 where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the
 fluid, and $$ v $$ is the object’s velocity.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Stokes’ Law
 </div>
+
 <div class="equation">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
+
 where $$ r $$ is the radius of the object,
 $$ \eta $$ is the viscosity of the fluid, and
 $$ v $$ is the object’s velocity.
 
-</div>
+::::
 
 Good examples of this law are provided by microorganisms, pollen, and dust
 particles. Because each of these objects is so small, we find that many of these
@@ -301,32 +313,38 @@ energy.
 ![Geese flying across the sky in a V formation.](../resources/Figure_05_02_04.jpg 'Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)')
 {: #Figure4}
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Galileo’s Experiment
 </div>
+
 Galileo is said to have dropped two objects of different masses from the Tower of Pisa.
 He measured how long it took each to reach the ground.
 Since stopwatches weren’t readily available, how do you think he measured their fall time?
 If the objects were the same size, but with different masses, what do you think he should
 have observed? Would this result be different if done on the Moon?
 
-</div>
+::::
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Masses &amp; Springs
 </div>
+
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Masses and Springs
 </figcaption>
 
-</figure>
-</div>
+:::
+
+::::
 
 ### Section Summary
 
@@ -354,50 +372,65 @@ and $$ v $$ is the object’s velocity.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Athletes such as swimmers and bicyclists wear body suits in competition.
 Formulate a list of pros and cons of such suits.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Two expressions were used for the drag force experienced by a moving object in a liquid.
 One depended upon the speed, while the other was proportional to the square of the speed.
 In which types of motion would each of these expressions be more applicable than the other one?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 As cars travel, oil and gasoline leaks onto the road surface.
 If a light rain falls, what does this do to the control of the car?
 Does a heavy rain make any difference?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercise
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The terminal velocity of a person falling in air depends upon the weight and the
 area of the person facing the fluid. Find the terminal velocity (in meters per
 second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
 (headfirst) position with a cross section area of $$ 0.140 \mm $$.
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -409,6 +442,7 @@ At terminal velocity, the drag force equals the weight, so acceleration is zero.
 <div class="equation">
 $$ F_{\text{D}} = mg $$
 </div>
+
 <div class="equation">
 $$ \frac{1}{2}C\rho Av_t^2 = mg $$
 </div>
@@ -422,9 +456,11 @@ $$ v_t = \sqrt{\frac{2mg}{C\rho A}} $$
 <div class="equation">
 $$ v_t = \sqrt{\frac{2(80.0 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.140 \mm)}} $$
 </div>
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{1568 \N}{0.1187 \text{ kg/m}}} = \sqrt{13210 \text{ m}^2/\text{s}^2} $$
 </div>
+
 <div class="equation">
 $$ v_t = 115 \ms $$
 </div>
@@ -438,19 +474,23 @@ $$ v_t = 115 \ms \times \frac{3600 \text{ s}}{1 \text{ hr}} \times \frac{1 \text
 
 The terminal velocity is $$ 115 \ms $$ or $$ 414 \text{ km/hr} $$. This is very fast—about 250 mph! The pike position minimizes the frontal area, allowing the skydiver to reach higher speeds. In a spread-eagle position, the larger area would result in a much lower terminal velocity (around 50-60 m/s or 180-220 km/hr).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A 60-kg and a 90-kg skydiver jump from an airplane at an altitude of 6000 m,
 both falling in the pike position. Make some assumption on their frontal areas
 and calculate their terminal velocities. How long will it take for each skydiver
 to reach the ground (assuming the time to reach terminal velocity is small)?
 Assume all values are accurate to three significant digits.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -469,6 +509,7 @@ For the 60-kg skydiver:
 <div class="equation">
 $$ v_{t,60} = \sqrt{\frac{2(60 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14 \mm)}} $$
 </div>
+
 <div class="equation">
 $$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1187 \text{ kg/m}}} = \sqrt{9907 \text{ m}^2/\text{s}^2} = 99.5 \ms $$
 </div>
@@ -478,6 +519,7 @@ For the 90-kg skydiver:
 <div class="equation">
 $$ v_{t,90} = \sqrt{\frac{2(90 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14 \mm)}} $$
 </div>
+
 <div class="equation">
 $$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1187 \text{ kg/m}}} = \sqrt{14860 \text{ m}^2/\text{s}^2} = 122 \ms $$
 </div>
@@ -500,19 +542,23 @@ $$ t_{90} = \frac{6000 \m}{122 \ms} = 49.2 \s $$
 
 The 60-kg skydiver has a terminal velocity of $$ 99.5 \ms $$ and reaches the ground in about $$ 60 \s $$. The 90-kg skydiver has a terminal velocity of $$ 122 \ms $$ and reaches the ground in about $$ 49 \s $$. The heavier skydiver falls faster because their weight increases more than their drag force (same area). This is why heavier skydivers must account for the difference when doing formation jumps with lighter partners.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A 560-g squirrel with a cross section area  of $$ 930 \text{cm}^{2} $$
 falls from a 5.0-m tree to the ground. Estimate its terminal velocity. (Use a
 drag coefficient for a horizontal skydiver.) What will be the velocity of a
 56-kg person hitting the ground, assuming no drag contribution in such a short
 distance?
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -530,6 +576,7 @@ For the squirrel's terminal velocity:
 <div class="equation">
 $$ v_t = \sqrt{\frac{2mg}{C\rho A}} = \sqrt{\frac{2(0.560 \kg)(9.80 \mss)}{(1.0)(1.21 \text{ kg/m}^3)(0.0930 \mm)}} $$
 </div>
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{10.98}{0.1125}} = \sqrt{97.6} \approx 10 \ms $$
 </div>
@@ -550,11 +597,14 @@ $$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
 
 The squirrel's terminal velocity is estimated to be in the range of $$ 10-25 \ms $$ depending on body position, while a 56-kg person falling 5.0\text{ m} without air resistance hits the ground at $$ 9.9 \ms $$. The remarkable conclusion is that the squirrel can safely survive any fall because its terminal velocity is relatively low and it has evolved to absorb such impacts. Meanwhile, the person hits the ground at nearly 10 m/s from just a 5-m fall—fast enough to risk broken bones. This illustrates why small animals can survive falls from great heights: their large surface-area-to-mass ratio results in low terminal velocities.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 To maintain a constant speed, the force provided by a car's engine must equal the
 drag force plus the force of friction of the road (the rolling resistance).
 (a) What are the magnitudes of drag forces at 70 km/h and 100 km/h for a Toyota
@@ -564,8 +614,9 @@ Camry? (Drag area is $$ 0.70 \mm $$ )
 (Drag area is $$ 2.44 \mm $$)
 Assume all values are accurate to three significant digits.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -585,6 +636,7 @@ At 70 km/h (19.44 m/s):
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21 \text{ kg/m}^3)(0.70 \mm)(19.44 \ms)^2 $$
 </div>
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(378) = 44.8 \N $$
 </div>
@@ -594,6 +646,7 @@ At 100 km/h (27.78 m/s):
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(27.78)^2 $$
 </div>
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.28)(1.21)(0.70)(772) = 91.4 \N $$
 </div>
@@ -605,6 +658,7 @@ At 70 km/h (19.44 m/s):
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(19.44)^2 $$
 </div>
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(378) = 357 \N $$
 </div>
@@ -614,6 +668,7 @@ At 100 km/h (27.78 m/s):
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(27.78)^2 $$
 </div>
+
 <div class="equation">
 $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(772) = 729 \N $$
 </div>
@@ -622,15 +677,19 @@ $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(772) = 729 \N $$
 
 The drag forces are: Toyota Camry: $$ 44.8 \N $$ at 70\text{ km}/h and $$ 91.4 \N $$ at 100\text{ km}/h. Hummer H2: $$ 357 \N $$ at 70\text{ km}/h and $$ 729 \N $$ at 100 km/h. The Hummer H2 experiences about 8 times more drag than the Camry due to its much larger frontal area (3.5×) and higher drag coefficient (2.3×). This explains the significant difference in fuel efficiency between these vehicles, especially at highway speeds where drag dominates. Note that drag roughly doubles when speed increases from 70 to 100 km/h (since drag is proportional to v²).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 By what factor does the drag force on a car increase as it goes from 65 to 110 km/h?
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -643,6 +702,7 @@ The factor by which drag increases is:
 <div class="equation">
 $$ \frac{F_{\text{D,110}}}{F_{\text{D,65}}} = \frac{v_{110}^2}{v_{65}^2} = \left(\frac{110 \text{ km/h}}{65 \text{ km/h}}\right)^2 $$
 </div>
+
 <div class="equation">
 $$ = \left(\frac{110}{65}\right)^2 = (1.692)^2 = 2.86 \approx 2.9 $$
 </div>
@@ -651,18 +711,22 @@ $$ = \left(\frac{110}{65}\right)^2 = (1.692)^2 = 2.86 \approx 2.9 $$
 
 The drag force increases by a factor of $$ 2.9 $$ when speed increases from 65 to 110\text{ km}/h. This nearly tripling of drag force explains why fuel efficiency drops dramatically at highway speeds. Since power required equals force times velocity, the power needed to overcome drag increases even more dramatically—by a factor of about $$ 2.9 \times (110/65) = 4.9 $$! This is why maintaining highway speed limits significantly improves fuel economy.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Calculate the speed a spherical rain drop would achieve falling from 5.00 km
 (a) in the absence of air drag
 (b) with air drag. Take the size across of the drop to be 4 mm, the density to be
 $$ 1.00\times 10^{3}{\text{kg/m}}^{3} $$, and the cross section area to be $$ \pi r^{2} $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -690,9 +754,11 @@ Using $$ C = 0.45 $$ and $$ \rho\_{\text{air}} = 1.21 \text{ kg/m}^3 $$:
 <div class="equation">
 $$ v_t = \sqrt{\frac{2mg}{C\rho_{\text{air}} A}} $$
 </div>
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{2(3.35 \times 10^{-5} \kg)(9.80 \mss)}{(0.45)(1.21 \text{ kg/m}^3)(1.257 \times 10^{-5} \mm)}} $$
 </div>
+
 <div class="equation">
 $$ v_t = \sqrt{\frac{6.57 \times 10^{-4} \N}{6.85 \times 10^{-6} \text{ kg/m}}} = \sqrt{95.9 \text{ m}^2/\text{s}^2} = 9.8 \ms $$
 </div>
@@ -701,15 +767,19 @@ $$ v_t = \sqrt{\frac{6.57 \times 10^{-4} \N}{6.85 \times 10^{-6} \text{ kg/m}}} 
 
 Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—faster than the speed of sound! With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. The raindrop reaches terminal velocity within the first few hundred meters of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Using Stokes' law, verify that the units for viscosity are kilograms per meter per second.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -742,18 +812,22 @@ $$ [\eta] = \frac{\kg \cdot \m}{\s^2} \cdot \frac{\s}{\m \cdot \m} = \frac{\kg}{
 
 The units for viscosity are confirmed to be $$ \frac{\kg}{\m \cdot \s} $$ (kilograms per meter per second), also written as Pa·s (pascal-seconds) since $$ 1 \text{ Pa} = 1 \N/\mm = 1 \kg/(\m \cdot \s^2) $$, so $$ 1 \text{ Pa·s} = 1 \kg/(\m \cdot \s) $$. Common viscosity values: water has $$ \eta \approx 0.001 \text{ kg/(m·s)} $$, while honey has $$ \eta \approx 2-10 \text{ kg/(m·s)} $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the terminal velocity of a spherical bacterium (diameter $$ 2.00 \mu m $$ )
 falling in water. You will first need to note that the drag force is equal to
 the weight at terminal velocity. Take the density of the bacterium to be
 $$ 1.10\times 10^{3} \text{kg/m}^{3} $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -770,6 +844,7 @@ For such a small object moving slowly through a viscous fluid, Stokes' law appli
 <div class="equation">
 $$ W_{\text{eff}} = (\rho_{\text{bact}} - \rho_{\text{water}})Vg $$
 </div>
+
 <div class="equation">
 $$ W_{\text{eff}} = (1100 - 1000)(4.19 \times 10^{-18})(9.80) = 4.11 \times 10^{-15} \N $$
 </div>
@@ -783,6 +858,7 @@ $$ 6\pi r\eta v_t = W_{\text{eff}} $$
 <div class="equation">
 $$ v_t = \frac{W_{\text{eff}}}{6\pi r\eta} = \frac{4.11 \times 10^{-15} \N}{6\pi(1.00 \times 10^{-6} \m)(1.002 \times 10^{-3} \text{ kg/(m·s)})} $$
 </div>
+
 <div class="equation">
 $$ v_t = \frac{4.11 \times 10^{-15}}{1.89 \times 10^{-8}} = 2.18 \times 10^{-7} \ms = 0.218 \text{ μm/s} $$
 </div>
@@ -791,11 +867,14 @@ $$ v_t = \frac{4.11 \times 10^{-15}}{1.89 \times 10^{-8}} = 2.18 \times 10^{-7} 
 
 The terminal velocity of the bacterium is approximately $$ 2.2 \times 10^{-7} \ms $$ or about $$ 0.2 \text{ μm/s} $$. This incredibly slow sinking speed explains why bacteria and other microorganisms appear to be suspended in water—they sink so slowly that even tiny currents or Brownian motion can keep them aloft. At this rate, it would take the bacterium about 5 seconds to fall just 1 micrometer! This is why bacteria must actively swim using flagella to move any appreciable distance.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Stokes' law describes sedimentation of particles in liquids and can be used
 to measure viscosity. Particles in liquids achieve terminal velocity quickly.
 One can measure the time it takes for a particle to fall a certain distance and
@@ -804,8 +883,9 @@ steel ball bearing (density $$ 7.8\times 10^{3}\text{kg/m}^{3} $$, diameter
 $$ 3.0 \text{mm} $$) is dropped in a container of motor oil.
 It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -826,9 +906,11 @@ $$ v_t = \frac{d}{t} = \frac{0.60 \m}{12 \s} = 0.050 \ms $$
 <div class="equation">
 $$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg $$
 </div>
+
 <div class="equation">
 $$ W_{\text{eff}} = (7800 - 900)(1.41 \times 10^{-8})(9.80) $$
 </div>
+
 <div class="equation">
 $$ W_{\text{eff}} = (6900)(1.41 \times 10^{-8})(9.80) = 9.54 \times 10^{-4} \N $$
 </div>
@@ -842,6 +924,7 @@ $$ 6\pi r\eta v_t = W_{\text{eff}} $$
 <div class="equation">
 $$ \eta = \frac{W_{\text{eff}}}{6\pi r v_t} = \frac{9.54 \times 10^{-4} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} $$
 </div>
+
 <div class="equation">
 $$ \eta = \frac{9.54 \times 10^{-4}}{1.41 \times 10^{-3}} = 0.68 \text{ kg/(m·s)} $$
 </div>
@@ -853,6 +936,7 @@ Without buoyancy correction:
 <div class="equation">
 $$ W = \rho_{\text{steel}}Vg = (7800)(1.41 \times 10^{-8})(9.80) = 1.08 \times 10^{-3} \N $$
 </div>
+
 <div class="equation">
 $$ \eta = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s)} $$
 </div>
@@ -861,10 +945,12 @@ $$ \eta = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s
 
 The viscosity of the motor oil is approximately $$ 0.76 \text{ kg/(m·s)} $$ or $$ 0.76 \text{ Pa·s} $$. This is a relatively high viscosity—about 760 times more viscous than water—which is expected for motor oil. This falling-ball method is a standard technique for measuring viscosity in the lab, known as a falling-ball viscometer. The slow, steady descent of the ball bearing through the oil confirms that the flow is laminar and Stokes' law applies.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -873,16 +959,17 @@ drag force
 object; mathematically
 
   <div class="equation">
- $$ F_{\text{D}}\propto {v}^{2} $$
+  $$ F_{\text{D}}\propto {v}^{2} $$
   </div>
 
   <div class="equation">
- $$ F_{\text{D}}=\frac{1}{2} C\rho Av^{2}, $$
+  $$ F_{\text{D}}=\frac{1}{2} C\rho Av^{2}, $$
   </div>
+
 where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid
 
 Stokes’ law
 : $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
 
-</div>
+::::

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the wave character of light.
 * Identify the changes when light enters a medium.
-</div>
+
+:::
 
 We know that visible light is the type of electromagnetic wave to which our eyes
 respond. Like all other electromagnetic waves, it obeys the equation
@@ -33,13 +34,15 @@ regions caused by systematic constructive and destructive interference. Rather
 than spreading out, a ray would continue traveling straight ahead after passing
 through slits.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Waves
 </div>
+
 The most certain indication of a wave is interference. This wave characteristic is most prominent when the wave interacts with an object that is not large compared with the wavelength. Interference is observed for water waves, sound waves, light waves, and (as we will see in [Special Relativity](../contents/ch28SpecialRelativity)) for matter waves, such as electrons scattered from a crystal.
 
-</div>
+:::
 
 ![Part a of the figure shows a thin bright orange laser beam emitted from an observatory traveling in a straight line up into a starry sky. Part b of the figure shows a horizontal pattern of orange red spots produced when a laser beam has passed through a grid of slits. The central spot is the brightest and the spots get dimmer as you move away from the center..](../resources/Figure_27_01_01.jpg "(a) The laser beam emitted by an observatory acts like a ray, traveling in a straight line. This laser beam is from the Paranal Observatory of the European Southern Observatory. (credit: Yuri Beletsky, European Southern Observatory) (b) A laser beam passing through a grid of vertical slits produces an interference pattern—characteristic of a wave. (credit: Shim'on and Slava Rybka, Wikimedia Commons)")
 {: #Figure1}
@@ -82,11 +85,14 @@ another, colors do not, since colors are associated with frequency.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What type of experimental evidence indicates that light is a wave?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -108,15 +114,19 @@ Several types of experimental evidence definitively indicate that light is a wav
 
 The wave nature of light was controversial historically. Newton favored a particle theory, while Huygens proposed a wave theory. Thomas Young's double-slit experiment (1801) provided compelling evidence for waves by demonstrating interference. This was confirmed by numerous subsequent experiments showing diffraction, polarization, and other wave phenomena. Interference remains the gold standard proof because it fundamentally cannot be explained by classical particles traveling in straight lines.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a wave characteristic of light that is easily observed outside the laboratory.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -140,17 +150,21 @@ Several wave characteristics of light are easily observed in everyday life:
 
 Thin film interference in soap bubbles is particularly instructive because it clearly demonstrates wave superposition. The colors change with viewing angle and film thickness, showing wavelength-dependent constructive and destructive interference. This phenomenon cannot be explained by light as simple particles but requires wave theory to understand why specific wavelengths are enhanced or suppressed at different positions.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that when light passes from air to water, its wavelength decreases to 0.750 times its original value.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -182,15 +196,19 @@ Therefore:
 
 The 25% reduction in wavelength occurs because light slows down when entering water. The speed of light in water is $$v = c/n = c/1.333 \approx 0.750c$$. Since the frequency remains constant when light enters a new medium (it's determined by the source), and $$v = f\lambda$$, a 25% reduction in speed must be accompanied by a 25% reduction in wavelength. This wavelength reduction is important in thin film interference and other wave phenomena involving light in different media.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the range of visible wavelengths of light in crown glass.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -218,15 +236,19 @@ For the longest visible wavelength (red):
 
 Notice that wavelengths in crown glass are about 66% (or 1/1.52) of their values in vacuum. Even though the wavelengths change significantly, the colors we perceive remain the same because color is determined by frequency, which does not change when light enters a medium. The speed and wavelength both decrease by the factor $$n$$, but their ratio ($$v = f\lambda_n$$) maintains the same frequency.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the index of refraction of a material for which the wavelength of light is 0.671 times its value in a vacuum? Identify the likely substance.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -258,15 +280,19 @@ Comparing to known indices of refraction:
 
 Polystyrene is a common transparent plastic used in many applications including optical components, disposable containers, and laboratory equipment. The calculated index of refraction matches polystyrene almost exactly. While plexiglass (acrylic) has a similar value (1.51), the calculated value of 1.49 is closer to polystyrene. The wavelength reduction to 67.1% of its vacuum value is typical for transparent plastics and glasses, which generally have indices between 1.4 and 1.6.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Analysis of an interference effect in a clear solid shows that the wavelength of light in the solid is 329 nm. Knowing this light comes from a He-Ne laser and has a wavelength of 633 nm in air, is the substance zircon or diamond?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -293,15 +319,19 @@ Comparing to known values:
 
 Diamond has a much higher index of refraction (2.42) and would reduce the wavelength to approximately $$633/2.42 = 262$$ nm, which is significantly less than the observed 329 nm. Zircon's lower index of refraction produces the observed wavelength. This method of using interference patterns to measure wavelength in materials is a practical way to identify transparent substances or verify their purity, since the index of refraction is a characteristic property of each material.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the ratio of thicknesses of crown glass and water that would contain the same number of wavelengths of light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -345,10 +375,12 @@ This result shows that crown glass needs to be only 87.7% as thick as water to c
 
 This relationship is important in optical design, where the optical path length ($$n \times t$$) determines phase relationships in interference and other wave phenomena. Two different materials with different thicknesses can produce the same optical path length if the product $$nt$$ is equal for both.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -356,4 +388,4 @@ wavelength in a medium
 : $${\lambda }_{\text{n}}=\lambda /n $$ , where $$\lambda $$ is the wavelength
 in vacuum, and $$n $$ is the index of refraction of the medium
 
-</div>
+:::

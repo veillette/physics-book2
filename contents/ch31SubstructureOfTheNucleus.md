@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 3
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and discuss the nucleus in an atom.
 * Define atomic number.
 * Define and discuss isotopes.
 * Calculate the density of the nucleus.
 * Explain nuclear force.
-</div>
+
+:::
 
 What is inside the nucleus? Why are some nuclei stable while others decay? (
 See [[Figure 1]](#Figure1).) Why are there different types of decay ( $$\alpha $$ , $$\beta $$ and $$\gamma $$ ) ? Why are nuclear decay energies so large?
@@ -186,10 +187,12 @@ and pushed inside one another. The volume of the nucleus is the sum of the
 volumes of the nucleons in it, here shown in different colors to represent
 protons and neutrons.
 
-<div class="example" id="example1" markdown="1">
+::: example {"class":"example","id":"example1"}
+
 <div class="title">
 How Small and Dense Is a Nucleus?
 </div>
+
 (a) Find the radius of an iron-56 nucleus. (b) Find its approximate density in  $$kg/{m}^{3} $$ ,
  approximating the mass of  $${}^{56}\text{Fe} $$
  to be 56 u.
@@ -210,28 +213,33 @@ density from units of $$\text{u}/\text{fm}^{3} $$ to $$\text{kg}/\text{m}^{3} $$
 <div class="equation" >
  $$r={r}_{0}{A}^{1/3}. $$
 </div>
+
 Substituting the values for  $${r}_{0} $$  and  $$A $$  yields
 
 <div class="equation" >
  $$\begin{array}{lll}r& =& {\left(1.2 \text{fm}\right)\left(56\right)}^{1/3}=\left(1.2 \text{fm}\right)\left(3.83\right)\\ & =& 4.6 \text{fm}.\end{array} $$
 </div>
+
 (b) Density is defined to be  $$\rho =m/V $$ ,
  which for a sphere of radius  $$r $$ is
 
 <div class="equation" >
  $$\rho =\frac{m}{V}=\frac{m}{\left(4/3\right)\pi r^{3}}. $$
 </div>
+
 Substituting known values gives
 
 <div class="equation" >
  $$\begin{array}{lll}\rho & =& \frac{56 \text{u}}{\left(1.33\right)\left(3.14\right){\left(4.6 \text{fm}\right)}^{3}}\\ & =& 0.138 \text{u}/\text{fm}^{3}.\end{array} $$
 </div>
+
 Converting to units of  $$kg/{m}^{3} $$ ,
  we find
 
 <div class="equation" >
  $$\begin{array}{lll}\rho & =& \left(0.138 \text{u}/\text{fm}^{3}\right)\left(1.66 \times 10^{-27}  \text{kg/u}\right)\left(\frac{1 \text{fm}}{ {10}^{-15} \text{m}}\right)\\ & =& 2.3 \times 10^{17}  {\text{kg/m}}^{3}.\end{array} $$
 </div>
+
 **Discussion**
 
 (a) The radius of this medium-sized nucleus is found to be approximately 4.6 fm,
@@ -250,7 +258,7 @@ has a density of “only” $${10}^{3} {\text{kg/m}}^{3} $$ . One cubic meter of
 nuclear matter, such as found in a neutron star, has the same mass as a cube of
 water 61 km on a side.
 
-</div>
+:::
 
 ### Nuclear Forces and Stability
 
@@ -340,6 +348,7 @@ stability for nuclei with such high $$Z $$ s.
   <div class="equation" >
    $$r={r}_{0}{A}^{1/3}, $$
   </div>
+
      where
    $${r}_{0}=1.2 \text{fm} $$ .
 
@@ -351,70 +360,98 @@ and $$N $$ equal to the magic numbers, which correspond to highly stable nuclei.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The weak and strong nuclear forces are basic to the structure of matter. Why we do not experience them directly?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Define and make clear distinctions between the terms neutron, nucleon, nucleus, nuclide, and neutrino.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are isotopes? Why do different isotopes of the same element have similar chemistries?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that a  $$ 2.3 \times 10^{17}  \text{kg} $$
  mass of water at normal density would make a cube 60 km on a side, as claimed in [[Example 1]](#Example1). (This mass at nuclear density would make a cube 1.0 m on a side.)
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$\begin{array}{lll}m=\mathrm{\rho V}=\rho d^{3}& ⇒& a={\left(\frac{m}{\rho }\right)}^{1/3}={\left(\frac{ 2.3 \times 10^{17}  \text{kg}}{1000 {\text{kg/m}}^{3}}\right)}^{\frac{1}{3}}\\ & =& 61 \times 10^{3}  \text{m}=61 \text{km}\end{array} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the length of a side of a cube having a mass of 1.0 kg and the density of nuclear matter, taking this to be  $$ 2.3 \times 10^{17}  {\text{kg/m}}^{3} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the radius of an  $$\alpha  $$
  particle?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$1.9 \text{fm} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the radius of a  $${}^{238}\text{Pu} $$
  nucleus.  $${}^{238}\text{Pu} $$
  is a manufactured nuclide that is used as a power source on some space probes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the radius of  $${}^{58}\text{Ni} $$ ,
  one of the most tightly bound stable nuclei.
 
@@ -422,57 +459,81 @@ Find the radius of a  $${}^{238}\text{Pu} $$
 $${}^{258}\text{Ha} $$ , one of the largest nuclei ever made? Note that the
 radius of the largest nucleus is still much smaller than the size of an atom.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$4.6 \text{fm} $$
 (b)  $$0.61 \text{to 1} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The unified atomic mass unit is defined to be  $$1 \text{u}= 1.6605 \times 10^{-27}  \text{kg} $$ .
  Verify that this amount of mass converted to energy yields 931.5 MeV. Note that you must use four-digit or better values for  $$c $$
  and  $$\mid {q}_{e}\mid  $$.
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise11" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the ratio of the velocity of a  $$\beta  $$
  particle to that of an  $$\alpha  $$
  particle, if they have the same nonrelativistic kinetic energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$85.4 \text{to 1} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a 1.50-cm-thick piece of lead can absorb 90.0% of the  $$\gamma  $$
  rays from a radioactive source, how many centimeters of lead are needed to absorb all but 0.100% of the  $$\gamma  $$
  rays?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The detail observable using a probe is limited by its wavelength. Calculate the energy of a  $$\gamma  $$
 -ray photon that has a wavelength of  $$1 \times 10^{-16} \text{m} $$ ,
  small enough to detect details about one-tenth the size of a nucleon. Note that a photon having this energy is difficult to produce and interacts poorly with the nucleus, limiting the practicability of this probe.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$12.4 \text{GeV} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Show that if you assume the average nucleus is spherical with a radius  $$r={r}_{0}{A}^{1/3} $$ ,
  and with a mass of  $$A $$  u, then its density is independent of  $$A $$.
 
@@ -480,26 +541,34 @@ The detail observable using a probe is limited by its wavelength. Calculate the 
 , and compare your results with those found in [[Example 1]](#Example1) for
 $${}^{56}\text{Fe} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 What is the ratio of the velocity of a 5.00-MeV  $$\beta  $$
  ray to that of an  $$\alpha  $$
  particle with the same kinetic energy? This should confirm that  $$\beta  $$
 s travel much faster than  $$\alpha  $$
 s even when relativity is taken into consideration. (See also [[Exercise 11]](#Exercise11).)
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 19.3 to 1
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 (a) What is the kinetic energy in MeV of a  $$\beta  $$
  ray that is traveling at  $$0.998c $$ ?
  This gives some idea of how energetic a  $$\beta  $$
@@ -508,10 +577,12 @@ s even when relativity is taken into consideration. (See also [[Exercise 11]](#E
  ray relative to the  $$\beta  $$
  ray?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -552,4 +623,4 @@ protons
 radius of a nucleus
 : the radius of a nucleus is $$r={r}_{0}{A}^{1/3} $$
 
-</div>
+:::

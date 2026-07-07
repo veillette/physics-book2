@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 6
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the Reynolds number for an object moving through a fluid.
 * Explain whether the Reynolds number indicates laminar or turbulent flow.
 * Describe the conditions under which an object has a terminal speed.
-</div>
+
+:::
 
 A moving object in a viscous fluid is equivalent to a stationary object in a
 flowing fluid stream. (For example, when you ride a bicycle at 10 m/s in still
@@ -38,10 +39,12 @@ entirely turbulent, even at the surface of the object. (
 See [[Figure 1]](#Figure1).) Laminar flow occurs mostly when the objects in the
 fluid are small, such as raindrops, pollen, and blood cells in plasma.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Does a Ball Have a Turbulent Wake?
 </div>
+
 Calculate the Reynolds number  $$N^{\prime}_{\text{R}} $$
  for a ball with a 7.40-cm diameter thrown at 40.0 m/s.
 
@@ -58,6 +61,7 @@ Substituting values into the equation for $$N^{\prime}_{\text{R}} $$ yields
 <div class="equation" >
  $$\begin{array}{lll}N^{\prime}_{\text{R}}& =& \frac{\rho vL}{\eta }=\frac{\left(1.29 {\text{kg/m}}^{3}\right)\left(40.0 \text{m/s}\right)\left(0.0740 \text{m}\right)}{ 1.81 \times 10^{-5}  1.00 \text{Pa}\cdot \text{s}}\\ N^{\prime}_{\text{R}}& =&  2.11 \times 10^{5} \text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 This value is sufficiently high to imply a turbulent wake. Most large objects,
@@ -65,7 +69,7 @@ such as airplanes and sailboats, create significant turbulence as they move. As
 noted before, the Bernoulli principle gives only qualitatively-correct results
 in such situations.
 
-</div>
+:::
 
 One of the consequences of viscosity is a resistance force called **viscous
 drag**  $${F}_{\text{V}} $$ that is exerted on a moving object. This force
@@ -107,13 +111,15 @@ for low-viscosity fluids and objects with high densities and small sizes. Thus a
 skydiver falls more slowly with outspread limbs than when they are in a pike
 position—head first with hands at their side and legs together.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Don’t Lose Your Marbles
 </div>
+
 By measuring the terminal speed of a slowly moving sphere in a viscous fluid, one can find the viscosity of that fluid (at that temperature). It can be difficult to find small ball bearings around the house, but a small marble will do. Gather two or three fluids (syrup, motor oil, honey, olive oil, etc.) and a thick, tall clear glass or vase. Drop the marble into the center of the fluid and time its fall (after letting it drop a little to reach its terminal speed). Compare your values for the terminal speed and see if they are inversely proportional to the viscosities as listed in [[Table 1]](../contents/ch12ViscosityAndLaminarFlow#Table1). Does it make a difference if the marble is dropped near the side of the glass?
 
-</div>
+:::
 
 Knowledge of terminal speed is useful for estimating sedimentation rates of
 small particles. We know from watching mud settle out of dirty water that
@@ -136,11 +142,15 @@ the terminal speed.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What direction will a helium balloon move inside a car that is slowing down—toward the front or back? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the forces on the balloon and air inside the car using Newton's laws and the concept of buoyancy in an accelerating reference frame.
@@ -156,17 +166,23 @@ Alternatively, think of it this way: When the car brakes, the air inside piles u
 **Discussion**
 
 This is counterintuitive because most objects (your coffee cup, loose change) slide forward when you brake. But the helium balloon behaves oppositely because it's buoyant. This same principle explains why a helium balloon leans forward when a car accelerates (instead of tilting back like a hanging object would). It's essentially "falling up" in the direction opposite to the effective gravity created by the car's acceleration.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Will identical raindrops fall more rapidly in  $$5º C $$
  air or  $$25 \text{ºC} $$
  air, neglecting any differences in air density? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider how temperature affects air viscosity, and then how viscosity affects terminal speed through Stokes' law.
@@ -188,15 +204,21 @@ Therefore, raindrops reach a **higher terminal velocity in colder (5°C) air** b
 **Discussion**
 
 This may seem counterintuitive since we often associate warmth with faster processes. However, for gases, viscosity increases with temperature—the opposite of liquids. The effect is relatively small (about 6% difference between these temperatures) but measurable. This principle is relevant to atmospheric science and precipitation studies. Note: if we hadn't neglected density differences as instructed, the lower density of warm air would reduce drag, partially offsetting the viscosity effect.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you took two marbles of different sizes, what would you expect to observe about the relative magnitudes of their terminal velocities?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the forces on a falling sphere (gravity, buoyancy, and viscous drag) and determine how terminal velocity depends on radius.
@@ -230,10 +252,13 @@ Since $$v_t \propto R^2$$, the terminal velocity increases with the **square** o
 **Discussion**
 
 This $$R^2$$ dependence arises because the net gravitational force (weight minus buoyancy) scales as $$R^3$$ (volume), while Stokes drag scales only as $$R$$ (for a given velocity). The larger marble has more "excess weight" per unit of drag force, so it reaches a higher terminal velocity. This is why sand grains settle faster than fine silt in water, and why centrifuges can separate particles by size—larger particles move outward faster. Note: this analysis assumes laminar flow (low Reynolds number), which is valid for small, slow-moving spheres in viscous fluids like honey or motor oil, as described in the Take-Home Experiment.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -246,4 +271,4 @@ terminal speed
 equal to the other forces acting on the object (such as gravity), so that the
 acceleration of the object is zero
 
-</div>
+:::

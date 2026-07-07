@@ -1060,6 +1060,42 @@ here rather than "fixed".
 (above). Content returns to root `contents/`, the Jekyll toolchain is removed, `dir.input`
 flips to `.`. The final merge to `main` (a production deploy) is left as the human step.
 
+## 10c. P10 execution findings (2026-07-07) — completing the cutover
+
+P10 was finished on `migrate/eleventy`. The staging tree (`src/` → Eleventy) was collapsed to
+the final root layout and the Jekyll toolchain deleted; the branch builds, passes its gates,
+and is ready to merge to `main` (the production deploy, left as the human step). Finishing the
+cutover surfaced (and fixed) several items §10b hadn't reached:
+
+- **`{{ site.baseurl }}` leaked into two passthrough assets.** `assets/manifest/manifest.json`
+  and `assets/pwa/register-sw.js` carried Liquid `{{ site.baseurl }}`; Jekyll processed them but
+  Eleventy's `addPassthroughCopy` copies verbatim, so the PWA manifest and service-worker
+  registration were broken (literal `{{ site.baseurl }}/sw.js`). Fixed by converting each to a
+  root Nunjucks template — `manifest.njk` → `/assets/manifest/manifest.json`,
+  `register-sw.njk` → `/assets/pwa/register-sw.js` (mirroring `sw.njk`) — baking the prefix via
+  `{{ "/" | url | trimSlash }}` and deleting the originals so passthrough no longer copies them.
+  `_site` now has zero `{{ site.` and the manifest is valid JSON.
+- **`test:unit` had an unhandled `process.exit`.** `parse-summary.js`, `check-orphans.js`, and
+  `check-links.js` called `runCli()` at module top level, so importing them in tests triggered
+  `process.exit`. Added the `isMain` guard (`import.meta.url === pathToFileURL(process.argv[1])`)
+  that `check-math.js` already used. `test:unit` is now fully green (106/106, 0 errors).
+- **`vercel.json` referenced a removed script** — `npm run migrate:content && …` (the converter
+  was retired at cutover). Build command is now `npm run build` (the `VERCEL` env var drives the
+  path prefix).
+- **`scripts/sync-config.js` retired** — it read/wrote `_config.yml` (deleted). Removed it and
+  its `sync:config` script; also dropped Dependabot's Ruby/Bundler ecosystem.
+- **CI grep gate false-positived on binaries.** `ci.yml`'s `grep -rEl` matched noise bytes in
+  the tracked `resources/*.jpg` (and local PDFs), which would fail the `build` job. Added `-I`
+  (skip binary) to each gate grep; the markers-only-in-text intent is now exact.
+- **Docs** (`README.md`, `CONTRIBUTE.md`, `claude.md` body, `CHANGELOG.md`, `scripts/README.md`)
+  rewritten for the Node/Eleventy toolchain: `npm run build`/`serve`, Node ≥ 22.15, no Ruby,
+  root-relative links (no `{{ site.baseurl }}`), Nunjucks layout/include paths.
+
+**Final state on the branch:** `npm run build` → 288 files; `npm run test:unit` → 106/106;
+`npm run compare:builds` → 226/285 (the documented, signed-off parity — zero content
+regressions); CI gates (`format:check`, `lint` 0 errors, grep gates) all green. Only the
+merge to `main` + post-merge cleanup of `_site_jekyll_baseline/` remains.
+
 ## 11. References
 
 - [Eleventy docs](https://www.11ty.dev/docs/) · [v4 release notes](https://github.com/11ty/eleventy/releases)

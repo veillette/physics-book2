@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the working principle behind an anger camera.
 * Describe the SPECT and PET imaging techniques.
-</div>
+
+:::
 
 Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of "unbound" antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.
 
@@ -18,8 +19,7 @@ tissue; hence, it is a useful probe to monitor conditions inside the body.
 Second, nuclear radiation depends on the nuclide and not on the chemical
 compound it is in, so that a radioactive nuclide can be put into a compound
 designed for specific purposes. The compound is said to be **tagged**. A tagged
-compound used for medical purposes is called a **radiopharmaceutical**{: class="
-term"}. Radiation detectors external to the body can determine the location and
+compound used for medical purposes is called a **radiopharmaceutical**{: class=" term"}. Radiation detectors external to the body can determine the location and
 concentration of a radiopharmaceutical to yield medically useful information.
 For example, certain drugs are concentrated in inflamed regions of the body, and
 this information can aid diagnosis and treatment as seen
@@ -245,16 +245,19 @@ closing their eyes, and so on.
 ![The figure shows a patient undergoing a scan in a cylindrical device. The P E T system uses two gamma ray photons produced by positron electron annihilation. These gamma rays are emitted in opposite directions.](../resources/Figure_32_01_04.jpg 'A PET system takes advantage of the two identical ( \\gamma )-ray photons produced by positron-electron annihilation. These ( \\gamma ) rays are emitted in opposite directions, so that the line along which each pair is emitted is determined. Various events detected by several pairs of detectors are then analyzed by the computer to form an accurate image.')
 {: #Figure4}
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Simplified MRI
 </div>
+
 Is it a tumor? Magnetic Resonance Imaging (MRI) can tell. Your head is full of tiny radio transmitters (the nuclear spins of the hydrogen nuclei of your water molecules). In an MRI unit, these little radios can be made to broadcast their positions, giving a detailed picture of the inside of your head.
 
 <div class="media" id="PhET_module" data-alt="mri">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/mri/latest/mri.html?simulation=mri"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -274,44 +277,58 @@ Is it a tumor? Magnetic Resonance Imaging (MRI) can tell. Your head is full of t
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In terms of radiation dose, what is the major difference between medical diagnostic uses of radiation and medical therapeutic uses?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 One of the methods used to limit radiation dose to the patient in medical imaging is to employ isotopes with short half-lives. How would this limit the dose?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A neutron generator uses an  $$\alpha  $$
  source, such as radium, to bombard beryllium, inducing the reaction  $${}^{4}\text{He}+{}^{9}\text{Be}\to {}^{12}\text{C}+n $$ .
  Such neutron sources are called RaBe sources, or PuBe sources if they use plutonium to get the  $$\alpha  $$
  s. Calculate the energy output of the reaction in MeV.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 5.701 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Neutrons from a source (perhaps the one discussed in the preceding problem) bombard natural molybdenum, which is 24 percent  $${}^{98}\text{Mo} $$ .
  What is the energy output of the reaction  $${}^{98}\text{Mo}+n\to {}^{99}\text{Mo}+\gamma  $$ ?
 The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../contents/appendixA), and that of  $${}^{99}\text{Mo} $$
  is 98.907711 u.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -347,11 +364,14 @@ $$ E = (\Delta m)c^{2} = (0.006360 \text{ u})\left(\frac{931.5 \text{ MeV}}{1 \t
 
 This 5.93 MeV of energy is released as a gamma ray (or possibly multiple gamma rays that sum to this energy). Neutron capture reactions like this are exothermic because the product nucleus has greater binding energy than the sum of the reactants. This particular reaction is extremely important in nuclear medicine because it is the first step in producing $${}^{99\text{m}}\text{Tc}$$, the most widely used radiopharmaceutical. The $${}^{99}\text{Mo}$$ produced undergoes beta decay with a half-life of 66 hours to form $${}^{99\text{m}}\text{Tc}$$, which has ideal properties for medical imaging: a 6-hour half-life that limits patient dose, and emission of a single easily-detected 0.142-MeV gamma ray. The fact that natural molybdenum is 24% $${}^{98}\text{Mo}$$ means that natural molybdenum can be used directly as a target material in reactors without expensive isotopic enrichment. The relatively large energy release of nearly 6\text{ MeV} helps ensure a reasonable reaction probability (cross-section) when thermal neutrons are used, making this a practical production method. This reaction is performed continuously in nuclear reactors around the world to supply $${}^{99}\text{Mo}$$/$${}^{99\text{m}}\text{Tc}$$ generators to hospitals and clinics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The purpose of producing  $${}^{99}\text{Mo} $$
  (usually by neutron activation of natural molybdenum, as in the preceding problem) is to produce  $${}^{99 \text{m}}\text{Tc} \text{.}  $$
  Using the rules, verify that the  $${\beta }^{-} $$
@@ -360,22 +380,29 @@ The purpose of producing  $${}^{99}\text{Mo} $$
  (Most  $${}^{99 \text{m}}\text{Tc} $$
  nuclei produced in this decay are left in a metastable excited state denoted  $${}^{99 \text{m}}\text{Tc} $$ .)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $${}_{42}^{99}{\text{Mo}}_{57}\to {}_{43}^{99}{\text{Tc}}_{56}+{\beta }^{-}+{\overline{v}}_{e} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Two annihilation  $$\gamma  $$
  rays in a PET scan originate at the same point and travel to detectors on either side of the patient. If the point of origin is 9.00 cm closer to one of the detectors, what is the difference in arrival times of the photons? (This could be used to give position information, but the time difference is small enough to make it difficult.)
 
 (b) How accurately would you need to be able to measure arrival time differences
 to get a position resolution of 1.00 mm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -407,22 +434,31 @@ $$ \Delta t = \frac{1.00 \times 10^{-3} \text{ m}}{3.00 \times 10^{8} \text{ m/s
 
 These incredibly short time intervals illustrate both the potential and the challenge of using time-of-flight information in PET imaging. In part (a), the time difference of 0.300 nanoseconds for a 9-cm offset is at the edge of what modern electronics can reliably measure. Current state-of-the-art PET scanners can achieve timing resolution of about 200-500 picoseconds, which would give position resolution of about 3-7.5 cm. To achieve the 1-mm resolution specified in part (b) would require measuring time differences of only 3.33 picoseconds—more than 60 times better than current technology! This is why conventional PET relies primarily on coincidence detection (detecting that two photons arrived at nearly the same time on opposite detectors) rather than precise time-of-flight measurements. The coincidence requirement determines that the photons came from somewhere along the line connecting the two detectors, and computer tomography techniques reconstruct the image from many such lines. Modern "time-of-flight PET" (TOF-PET) scanners do use the achievable ~200-500 ps timing resolution to narrow down the position along each line to about 3-7 cm, which significantly improves image quality and reduces scanning time. However, the fundamental spatial resolution of PET (about 4-6 mm) is still limited by other factors including positron range (the distance the positron travels before annihilation) and photon non-collinearity (the annihilation photons aren't exactly 180° apart due to the momentum of the positron-electron pair).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Table 1]](#Table1) indicates that 7.50 mCi of  $${}^{99 \text{m}}\text{Tc} $$
  is used in a brain scan. What is the mass of technetium?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 1.43 \times 10^{-9}  \text{g} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The activities of  $${}^{131}\text{I} $$
  and  $${}^{123}\text{I} $$
  used in thyroid scans are given in [[Table 1]](#Table1) to be 50 and  $$70 \text{μ}Ci $$ ,
@@ -430,8 +466,9 @@ The activities of  $${}^{131}\text{I} $$
  and  $${}^{123}\text{I} $$
  in such scans, given their respective half-lives are 8.04 d and 13.2 h. The masses are so small that the radioiodine is usually mixed with stable iodine as a carrier to ensure normal chemistry and distribution in the body.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -494,11 +531,14 @@ The $${}^{131}\text{I}$$ mass is about **11 times larger** than the $${}^{123}\t
 
 Despite $${}^{123}\text{I}$$ having higher activity (70 μCi vs 50 μCi), it requires much less mass (only 0.036 ng compared to 0.405 ng for $${}^{131}\text{I}$$). This factor of 11 difference is primarily due to the vastly different half-lives: $${}^{131}\text{I}$$ has a half-life of 8.04 days while $${}^{123}\text{I}$$ has a much shorter half-life of only 13.2 hours. Shorter half-life means more decays per second for a given number of nuclei, so less mass is needed to achieve a given activity. This illustrates an important principle: to achieve high activity with less mass (and therefore potentially less total radiation dose), isotopes with shorter half-lives are preferred. Both masses are incredibly small—in the nanogram range—which is why carrier-free radiopharmaceuticals cannot be used directly. Without adding stable iodine as a carrier, these tiny amounts would stick to container walls, fail to dissolve properly, and not distribute normally in the body. The carrier ensures that the radioiodine behaves chemically like normal iodine and concentrates in the thyroid as expected. The shorter half-life of $${}^{123}\text{I}$$ (13.2\text{ h} vs 8.04 d) also means the patient's radiation dose decays away much faster, making $${}^{123}\text{I}$$ preferable when available, despite being more expensive and difficult to produce.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Neutron activation of sodium, which is 100% $${}^{23}\text{Na} $$ ,
  produces  $${}^{24}\text{Na} $$ ,
  which is used in some heart scans, as seen in [[Table 1]](#Table1). The equation for the reaction is  $${}^{23}\text{Na}+n\to {}^{24}\text{Na}+\gamma  $$ .
@@ -508,16 +548,20 @@ Despite $${}^{123}\text{I}$$ having higher activity (70 μCi vs 50 μCi), it req
 (b) What mass of $${}^{24}\text{Na} $$ produces the needed 5.0-mCi activity,
 given its half-life is 15.0 h?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 6.958 MeV
 
 (b) $$ 5.7 \times 10^{-10} \text{g} $$
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -541,4 +585,4 @@ single-photon-emission computed tomography (SPECT)
 tagged
 : process of attaching a radioactive substance to a chemical compound
 
-</div>
+:::

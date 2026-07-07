@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Identify and discuss common vision defects.
 * Explain nearsightedness and farsightedness corrections.
 * Explain laser vision correction.
-</div>
+
+:::
 
 The need for some type of vision correction is very common. Common vision
 defects are easy to understand, and some are simple to
@@ -47,10 +48,12 @@ glasses can see _images_ that fall between their near point and their far point.
 ![Two illustrations of cross-sectional view of an eye are shown. In the first figure, a diverging spectacle lens is placed in front of the eye structure. A ray diagram for the diverging lens is also shown. Parallel rays from a distant object, taken as tree, are striking the lens and then diverging. A smaller image of the tree is shown in front of the lens. In the second figure, a ray diagram with respect to the diverging lens within the eye structure is shown. Parallel rays from a distant object are striking the diverging lens, entering the lens of the eye, and converging at retina. This explains the correction of nearsightedness using a diverging lens.](../resources/Figure_26_02_02.jpg 'Correction of nearsightedness requires a diverging lens that compensates for the overconvergence by the eye. The diverging lens produces an image closer to the eye than the object, so that the nearsighted person can see it clearly.')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Correcting Nearsightedness
 </div>
+
 What power of spectacle lens is needed to correct the vision of a nearsighted person whose far point is 30.0 cm? Assume the spectacle (corrective) lens is held 1.50 cm away from the eye by eyeglass frames.
 
 **Strategy**
@@ -71,12 +74,14 @@ spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\
 <div class="equation" >
  $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{\infty }+\frac{1}{-0.285 \text{m}}. $$
 </div>
+
 Since  $$1 \text{/}\infty = 0 $$ ,
  we obtain:
 
 <div class="equation" >
  $$P=0 -3.51/\text{m}=-3.51 \text{D}. $$
 </div>
+
 **Discussion**
 
 The negative power indicates a diverging (or concave) lens, as expected. The
@@ -86,7 +91,7 @@ are thinnest in the center. Additionally, if you examine a prescription for
 eyeglasses for nearsighted people, you will find that the prescribed power is
 negative and given in units of diopters.
 
-</div>
+:::
 
 Since the farsighted eye under converges light rays, the correction for
 farsightedness is to place a converging spectacle lens in front of the eye. This
@@ -101,10 +106,12 @@ farther for the farsighted person to be able to see it clearly.
 ![Two illustrations of a cross-sectional view of an eye are shown. In the upper part of the figure, a converging lens is placed in front of the eye structure and a close object before it. A ray diagram showing the rays from the object are striking the lens; converging a bit and entering the eyes; converging again through the eye lens and forming an image at the retina, and another set of rays converge behind the retina. The lower part of the figure shows a virtual image, an object, a converging lens, and the internal structure of an eye. Parallel rays from the object are entering the eyes and converging at a point on the retina. An image larger than the object image is formed behind the object on the same side of the lens.](../resources/Figure_26_02_03.jpg 'Correction of farsightedness uses a converging lens that compensates for the under convergence by the eye. The converging lens produces an image farther from the eye than the object, so that the farsighted person can see it clearly.')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Correcting Farsightedness
 </div>
+
 What power of spectacle lens is needed to allow a farsighted person, whose near point is 1.00 m, to see an object clearly that is 25.0 cm away? Assume the spectacle (corrective) lens is held 1.50 cm away from the eye by eyeglass frames.
 
 **Strategy**
@@ -124,6 +131,7 @@ spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\
 <div class="equation" >
  $$\begin{array}{lll}P& =& \frac{1}{ {d}_{o}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.235 \text{m}}+\frac{1}{-0.985 \text{m}}\\ & =& 4.26 D-1.02 \text{D}=3.24 \text{D}.\end{array} $$
 </div>
+
 **Discussion**
 
 The positive power indicates a converging (convex) lens, as expected. The convex
@@ -132,7 +140,7 @@ it. If you examine eyeglasses of farsighted people, you will find the lenses to
 be thickest in the center. In addition, a prescription of eyeglasses for
 farsighted people has a prescribed power that is positive.
 
-</div>
+:::
 
 Another common vision defect is **astigmatism**, an unevenness or asymmetry in
 the focus of the eye. For example, rays passing through a vertical region of the
@@ -217,11 +225,14 @@ undergo LASIK (see [[Figure 5]](#Figure5)).
 ### Conceptual Questions
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 It has become common to replace the cataract-clouded lens of the eye with an internal lens. This intraocular lens can be chosen so that the person has perfect distant vision. Will the person be able to read without glasses? If the person was nearsighted, is the power of the intraocular lens greater or less than the removed lens?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -243,15 +254,19 @@ The natural lens of the eye has a remarkable property called **accommodation**�
 
 The natural lens can change its power by up to ~14 D in young people through accommodation. A fixed IOL cannot do this, so reading glasses (+2.0 to +3.0 D typically) are needed for near work. Modern alternatives include multifocal IOLs or monovision correction. For myopic eyes, the IOL is weaker than the removed lens because the correction aims to reduce the eye's excessive power to achieve emmetropia (normal vision).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the cornea is to be reshaped (this can be done surgically or with contact lenses) to correct myopia, should its curvature be made greater or smaller? Explain. Also explain how hyperopia can be corrected.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -358,15 +373,19 @@ The cornea cannot be reshaped indefinitely:
 
 The key principle: **Curvature and power are directly related**—decrease curvature to decrease power (myopia correction), increase curvature to increase power (hyperopia correction). This fundamental relationship applies whether the reshaping is achieved surgically (LASIK, PRK), through implants (intracorneal rings), or non-surgically (orthokeratology lenses).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If there is a fixed percent uncertainty in LASIK reshaping of the cornea, why would you expect those people with the greatest correction to have a poorer chance of normal distant vision after the procedure?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -485,15 +504,19 @@ This explains why LASIK candidates with high refractive errors are counseled abo
 
 The relationship between percent uncertainty and absolute error is a fundamental constraint in any precision process, from manufacturing to medicine. Understanding this helps patients make informed decisions about refractive surgery based on their specific correction needs.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person with presbyopia has lost some or all of the ability to accommodate the power of the eye. If such a person's distant vision is corrected with LASIK, will she still need reading glasses? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -650,17 +673,21 @@ Currently, none of these has proven as reliable as simply using reading glasses 
 
 A person with presbyopia who undergoes LASIK to correct distant vision will definitely still need reading glasses because LASIK corrects the eye's static refractive error (enabling clear distant vision) but does not restore the dynamic accommodation ability (necessary for near vision). The presbyopia—the underlying loss of accommodation—remains unchanged by corneal reshaping. This is an important distinction for patient counseling and managing expectations for refractive surgery in the presbyopic population.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the far point of a person whose eyes have a relaxed power of 50.5 D?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -698,15 +725,19 @@ The person's far point is 2.00 m. This indicates mild myopia (nearsightedness) s
 
 This person can see clearly only up to 2.00 meters away when their eyes are relaxed. Beyond this distance, objects appear blurry. For normal distant vision (far point at infinity), this person would need a -0.5 D corrective lens to reduce the eye's excessive power. While 2.00 m myopia is relatively mild, it would still cause difficulties with activities like driving, watching movies in theaters, or reading a classroom whiteboard from the back of a room. Many people with this level of myopia choose to wear glasses for distance activities but can function without them for everyday tasks.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the near point of a person whose eyes have an accommodated power of 53.5 D?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -746,16 +777,20 @@ Rearranging to solve for $$d_o$$:
 
 The near point of this person is 28.6 cm, which is slightly farther than the normal near point of 25 cm. This indicates a mild degree of presbyopia or early farsightedness. The accommodated power of 53.5 D represents only a 3.5 D increase over the relaxed power of 50.0 D (for distant vision), compared to the normal 4.0 D accommodation ability. This 12.5% reduction in accommodation power is typical for someone in their 40s or early 50s. While this person can still read without glasses, they may find it more comfortable to hold reading material slightly farther away than the standard 25 cm reading distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A laser vision correction reshaping the cornea of a myopic patient reduces the power of his eye by 9.00 D, with a  $$± 5.0%  $$
  uncertainty in the final correction. What is the range of diopters for spectacle lenses that this person might need after LASIK procedure? (b) Was the person nearsighted or farsighted before the procedure? How do you know?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -800,15 +835,19 @@ Part (b): The 9.00 D correction is substantial, indicating significant myopia be
 
 This problem illustrates why LASIK uncertainty specifications are important. A 5% uncertainty might seem small, but for large corrections like 9.00 D, it translates to nearly half a diopter of potential residual error. This is why careful pre-operative assessment and conservative treatment planning are essential.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In a LASIK vision correction, the power of a patient's eye is increased by 3.00 D. Assuming this produces normal close vision, what was the patient's near point before the procedure?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -851,15 +890,19 @@ Before the LASIK procedure, the patient's near point was 1.0 m (100 cm), indicat
 
 This large near point distance explains why the patient needed LASIK. With only 1.0 D of accommodation power before surgery (compared to the normal 4.0 D), this person likely suffered from either severe presbyopia (age-related loss of accommodation) or congenital hyperopia. After surgery, with their total accommodated power now at 54.0 D, they can read normally without glasses. This demonstrates how LASIK can correct not just distant vision problems (myopia) but also near vision problems (hyperopia).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 What was the previous far point of a patient who had laser vision correction that reduced the power of her eye by 7.00 D, producing normal distant vision for her?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -909,15 +952,19 @@ For comparison:
 
 After surgery, with normal 50.0 D power, the patient can see clearly to infinity. This is equivalent to what would have been achieved with -7.00 D spectacle lenses, but without the inconvenience, optical distortions, weight, and aesthetic concerns of strong corrective glasses. The LASIK procedure permanently reshaped the cornea to reduce its optical power by flattening its curvature.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A severely myopic patient has a far point of 5.00 cm. By how many diopters should the power of his eye be reduced in laser vision correction to obtain normal distant vision for him?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -952,15 +999,19 @@ The patient's eye power must be reduced by 20.0 D to achieve normal distant visi
 
 A 20.0 D power reduction is at the upper limit of what LASIK can typically achieve safely. Most LASIK procedures correct between -1.00 D to -12.00 D of myopia. A 20.0 D correction would require removing a significant amount of corneal tissue, potentially compromising corneal strength and stability. For such severe myopia, alternative procedures like phakic intraocular lenses (implantable lenses placed inside the eye) might be more appropriate. This problem illustrates the limitations of laser vision correction and why careful patient screening is essential before surgery.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A student's eyes, while reading the blackboard, have a power of 51.0 D. How far is the board from his eyes?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1003,15 +1054,19 @@ A 1.00 m viewing distance is reasonable for a blackboard, suggesting the student
 
 The modest 1.0 D accommodation at 1.00 m means the student can comfortably read the blackboard for extended periods without significant eye strain. If the student were sitting farther back (say 3-5 meters), their eyes would be nearly completely relaxed (close to 50.0 D), requiring even less accommodation. This is one reason why educators sometimes recommend seating students with vision concerns farther from the board rather than closer—it reduces the accommodation demand and associated eye fatigue during long lectures.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The power of a physician's eyes is 53.0 D while examining a patient. How far from her eyes is the feature being examined?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1049,15 +1104,19 @@ The feature being examined is 33.3 cm from the physician's eyes. This is a comfo
 
 This distance is typical for medical examinations where the physician needs to look closely at a patient's features (such as examining eyes, ears, throat, or skin lesions) but still maintain a comfortable working distance. It's close enough to see fine details but far enough to avoid discomfort for both patient and physician. The 3.0 D of accommodation required is well within the normal accommodation range, so the physician can maintain this examination distance for extended periods without significant eye strain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A young woman with normal distant vision has a 10.0% ability to accommodate (that is, increase) the power of her eyes. What is the closest object she can see clearly?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1111,15 +1170,19 @@ However, a 20 cm near point is quite close—closer than most people hold readin
 
 As she ages, this accommodation ability will gradually decrease (presbyopia), and her near point will move farther away. By age 40-50, her near point might be 40-50 cm or more, at which point she would likely need reading glasses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of their eyes? (b) If they have the normal 8.00% ability to accommodate, what is the closest object they can see clearly?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1166,15 +1229,19 @@ Part (b): The near point of 16.1 cm is actually closer than the normal 25 cm. Th
 
 This problem illustrates that myopia has a "silver lining": while distant vision is compromised, near vision is enhanced. This is why some older people with presbyopia may deliberately under-correct their myopia or use reading glasses weaker than needed—they want to preserve their advantage in close-up tasks. However, for most daily activities requiring both near and distant vision, corrective lenses for myopia are still beneficial. The administrator would need -2.00 D corrective lenses to see distant objects clearly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A very myopic man has a far point of 20.0 cm. What power contact lens (when on the eye) will correct his distant vision?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1213,15 +1280,19 @@ This is a moderate to strong myopia correction. For comparison:
 
 With -5.00 D lenses, the man would see distant objects clearly. However, this correction might make near vision slightly more challenging, as his natural advantage for close work (short far point) is eliminated. Some myopic individuals choose to under-correct slightly for this reason, using -4.50 D lenses for distance while retaining some near vision advantage.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Repeat the previous problem for eyeglasses held 1.50 cm from the eyes.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1253,16 +1324,20 @@ The required spectacle lens power is -5.41 D, which is slightly more negative th
 
 This 0.41 D difference may seem small, but it's clinically significant. This is why contact lens and eyeglass prescriptions differ for the same person—the prescription must account for the vertex distance (distance from the lens to the cornea). For mild prescriptions, this difference is negligible, but for strong prescriptions like this one, it becomes important. An optometrist must adjust the prescription when converting between contacts and glasses, typically making spectacles slightly stronger (more negative for myopia) than contact lenses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A myopic person sees that her contact lens prescription is  $$-4.00 \text{D} $$ .
  What is her far point?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1307,15 +1382,19 @@ Interesting observations:
 
 The -4.00 D lenses work by diverging incoming parallel light rays, making them appear to come from 25 cm away—her far point. Her eye can then focus these apparently nearby rays onto the retina, achieving clear distant vision. This is a moderate prescription that would likely require full-time wear for activities like driving, watching television, or seeing across a room, but she might not need them for reading or computer work.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Repeat the previous problem for glasses that are 1.75 cm from the eyes.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1347,15 +1426,19 @@ For this moderate myopia prescription, the vertex distance correction is about 7
 
 The fact that spectacle lenses need to be stronger than contact lenses for myopia correction is one reason why some people prefer contacts—they provide correction with less optical power, which can reduce optical distortions and weight of the lenses. However, for mild to moderate myopia like this case, the difference is small enough that either option provides excellent vision correction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The contact lens prescription for a mildly farsighted person is 0.750 D, and the person has a near point of 29.0 cm. What is the power of the tear layer between the cornea and the lens if the correction is ideal, taking the tear layer into account?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1414,15 +1497,19 @@ The tear layer power depends on:
 
 For this patient, the optometrist successfully prescribed +0.750 D knowing the tear layer would contribute -0.198 D, resulting in the ideal +0.552 D net correction needed.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A nearsighted man cannot see objects clearly beyond 20 cm from his eyes. How close must he stand to a mirror in order to see what he is doing when he shaves?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1452,15 +1539,19 @@ This is quite close to the mirror, which would be awkward and impractical for sh
 
 This problem also demonstrates an important principle of mirror optics: for a plane mirror, the image appears as far behind the mirror as the object is in front. Therefore, the effective viewing distance is twice the physical distance to the mirror. This doubling effect is why people with limited vision ranges need to stand particularly close to mirrors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 A mother sees that her child's contact lens prescription is 0.750 D. What is the child's near point?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1517,15 +1608,19 @@ At 30.8 cm, the child would need to hold books farther away than peers to read c
 
 The +0.750 D contact lenses eliminate these issues, allowing the child to read comfortably at the standard 25 cm distance for extended periods without eye strain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Repeat the previous problem for glasses that are 2.20 cm from the eyes.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1564,16 +1659,20 @@ The 19% increase in power (from +0.75 D to +0.89 D) may seem large, but it's typ
 
 For children, eyeglasses are often preferred over contact lenses for safety and ease of use, despite requiring slightly stronger prescriptions. The child would wear +0.89 D glasses to achieve the same vision correction as +0.75 D contacts. This demonstrates why prescriptions must always specify whether they're for contacts or spectacles—using the wrong prescription could result in under-correction or over-correction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The contact lens prescription for a nearsighted person is  $$-4.00 \text{D} $$
  and the person has a far point of 22.5 cm. What is the power of the tear layer between the cornea and the lens if the correction is ideal, taking the tear layer into account?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1638,17 +1737,21 @@ This problem highlights why contact lens fitting requires careful assessment. Th
 
 If the tear layer effect were ignored, the patient would be slightly under-corrected, with residual myopia making distant objects slightly blurry. Professional contact lens fitting accounts for tear layer effects through trial fittings and refraction measurements with lenses in place.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A boy has a near point of 50 cm and a far point of 500 cm. Will a $$-4.00 \text{D} $$ lens correct his far point to infinity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1691,10 +1794,12 @@ This demonstrates an unreasonable result. The problem reveals that the boy's vis
 
 The combination of a 50 cm near point and 500 cm far point is unusual but not impossible. It suggests either early presbyopia (loss of accommodation) combined with mild myopia, or simply a person with limited accommodation range. The key lesson is that lens prescriptions must be carefully matched to the actual vision defect—a stronger lens is not necessarily better and can create new vision problems. Using a -4.00 D lens when only -0.20 D is needed would make the boy effectively very nearsighted, with a new far point of only 25 cm!
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1730,4 +1835,4 @@ laser vision correction
 : a medical procedure used to correct astigmatism and eyesight deficiencies such
 as myopia and hyperopia
 
-</div>
+:::

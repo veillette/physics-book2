@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the effects of a magnetic field on a moving charge.
 * Calculate the radius of curvature of the path of a charge that is moving in a magnetic field.
-</div>
+
+:::
 
 Magnetic force can cause a charged particle to move in a circular or spiral
 path. Cosmic rays are energetic charged particles in outer space, some of which
@@ -54,10 +55,12 @@ the field. The component of the velocity parallel to the field is unaffected,
 since the magnetic force is zero for motion parallel to the field. This produces
 a spiral motion rather than a circular one.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Curvature of the Path of an Electron Moving in a Magnetic Field: A Magnet on a TV Screen
 </div>
+
 A magnet brought near an old-fashioned TV screen such as in [[Figure 3]](#Figure3) (TV sets with cathode ray tubes instead of LCD screens) severely distorts its picture by altering the path of the electrons that make its phosphors glow. **(Don’t try this at home, as it will permanently magnetize and ruin the TV.) ** To illustrate this, calculate the radius of curvature of the path of an electron having a velocity of  $$ 6.00 \times 10^{7}  \text{m/s} $$
  (corresponding to the accelerating voltage of about 10.0 kV used in some TVs) perpendicular to a magnetic field of strength  $$B=0.500\text{ T} $$
  (obtainable with permanent magnets).
@@ -78,18 +81,20 @@ values of $$v $$ and $$B $$ gives us
 <div class="equation" >
  $$\begin{array}{lll}r=\frac{mv}{qB}& =& \frac{\left( 9.11 \times 10^{-31}  \text{kg}\right)\left( 6.00 \times 10^{7}  \text{m/s}\right)}{\left( 1.60 \times 10^{-19}  \text{C}\right)\left(0.500 \text{T}\right)}\\ & =&  6.83 \times 10^{-4}  \text{m}\end{array} $$
 </div>
+
 or
 
 <div class="equation" >
  $$r=0.683 \text{mm}. $$
 </div>
+
 **Discussion**
 
 The small radius indicates a large effect. The electrons in the TV picture tube
 are made to move in very tight circles, greatly altering their paths and
 distorting the image.
 
-</div>
+:::
 
 [[Figure 4]](#Figure4) shows how electrons not moving perpendicular to magnetic
 field lines follow the field lines. The component of velocity parallel to the
@@ -168,63 +173,85 @@ biological molecules.
   <div class="equation" >
    $$r=\frac{mv}{qB}, $$
   </div>
+
      where $$v $$ is the component of the velocity perpendicular to $$B $$ for a charged particle with mass $$m $$ and charge  $$q $$.
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How can the motion of a charged particle be used to distinguish between a magnetic and an electric field?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 High-velocity charged particles can damage biological cells and are a component of radiation exposure in a variety of locations ranging from research facilities to natural background. Describe how you could use a magnetic field to shield yourself.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a cosmic ray proton approaches the Earth from outer space along a line toward the center of the Earth that lies in the plane of the equator, in what direction will it be deflected by the Earth’s magnetic field? What about an electron? A neutron?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
 ![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_05_09.jpg ' ')
 {: #Figure9}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, assuming they have identical charges and masses?
 
 ![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_05_10.jpg ' ')
 {: #Figure10}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which of the particles in [[Figure 9]](#Figure9) has the greatest mass, assuming all have identical charges and velocities?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 While operating, a high-precision TV monitor is placed on its side during maintenance. The image on the monitor changes color and blurs slightly. Discuss the possible relation of these effects to the Earth’s magnetic field.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -233,13 +260,16 @@ If you need additional support for these problems,
 see [More Applications of Magnetism](../contents/ch22MoreApplicationsOfMagnetism).
 
 <div id="Exercise1" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
  perpendicular to the Earth’s magnetic field at an altitude where field strength is  $$ 1.00 \times 10^{-5}   T $$ .
  What is the radius of the circular path the electron follows?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -271,16 +301,20 @@ This radius of about 4.3 meters is quite large—much larger than what we'd obse
 
 **The radius of the electron's circular path is 4.27 m.**
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise2" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A proton moves at  $$ 7.50 \times 10^{7}  \text{m/s} $$
  perpendicular to a magnetic field. The field causes the proton to travel in a circular path of radius 0.800 m. What is the field strength?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -312,16 +346,20 @@ A field strength just under 1 T is readily achievable with modern permanent magn
 
 **The magnetic field strength is 0.977 T (approximately 0.98 T).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Viewers of *Star Trek* hear of an antimatter drive on the Starship *Enterprise*. One possibility for such a futuristic energy source is to store antimatter charged particles in a vacuum chamber, circulating in a magnetic field, and then extract them as needed. Antimatter annihilates with normal matter, producing pure energy. What strength magnetic field is needed to hold antiprotons, moving at  $$ 5.00 \times 10^{7}  \text{m/s} $$
  in a circular path 2.00 m in radius? Antiprotons have the same mass as protons but the opposite (negative) charge. (b) Is this field strength obtainable with today’s technology or is it a futuristic possibility?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -362,17 +400,21 @@ Antimatter storage is actually done at facilities like CERN, where antiprotons a
 
 **(b) This field strength is readily obtainable with current technology. Even permanent magnets can produce fields of 0.5 T or more, so containing antiprotons magnetically is technologically feasible today.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) An oxygen-16 ion with a mass of  $$ 2.66 \times 10^{-26}  \text{kg} $$
  travels at  $$ 5.00 \times 10^{6}  \text{m/s} $$
  perpendicular to a 1.20-T magnetic field, which makes it move in a circular arc with a 0.231-m radius. What positive charge is on the ion? (b) What is the ratio of this charge to the charge of an electron? (c) Discuss why the ratio found in (b) should be an integer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -422,15 +464,19 @@ Mass spectrometers exploit this quantization of charge. Since $$r \propto m/q$$,
 
 **(c) The ratio must be an integer because electric charge is quantized—charges exist only in integer multiples of the elementary charge $$e$$, corresponding to the number of electrons removed from or added to an atom.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What radius circular path does an electron travel if it moves at the same speed and in the same magnetic field as the proton in [[Exercise2]](#Exercise2)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -458,16 +504,20 @@ The electron's radius is about 1836 times smaller than the proton's 0.800 m radi
 
 **The electron would travel in a circular path with radius $$4.36 \times 10^{-4}$$ m (0.436 mm).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A velocity selector in a mass spectrometer uses a 0.100-T magnetic field. (a) What electric field strength is needed to select a speed of  $$ 4.00 \times 10^{6}  \text{m/s} $$ ?
  (b) What is the voltage between the plates if they are separated by 1.00 cm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -506,17 +556,21 @@ The velocity selector is a crucial component of mass spectrometers because it en
 
 **(b) The voltage between the plates is 4.00 kV (4000 V).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An electron in a TV CRT moves with a speed of  $$ 6.00 \times 10^{7}  \text{m/s} $$ ,
  in a direction perpendicular to the Earth’s field, which has a strength of  $$ 5.00 \times 10^{-5} \text{T} $$ .
  (a) What strength electric field must be applied perpendicular to the Earth’s field to make the electron moves in a straight line? (b) If this is done between plates separated by 1.00 cm, what is the voltage applied? (Note that TVs are usually surrounded by a ferromagnetic material to shield against external magnetic fields and avoid the need for such a correction.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -555,15 +609,19 @@ This relatively modest voltage of 30 V (less than that of a typical laptop charg
 
 **(b) The voltage between the plates is 30.0 V.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what speed will a proton move in a circular path of the same radius as the electron in [[Exercise1]](#Exercise1)? (b) What would the radius of the path be if the proton had the same speed as the electron? (c) What would the radius be if the proton had the same kinetic energy as the electron? (d) The same momentum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -624,17 +682,21 @@ These results reveal important physics:
 
 **(d) The proton radius with equal momentum would be 4.27 m (same as the electron).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A mass spectrometer is being used to separate common oxygen-16 from the much rarer oxygen-18, taken from a sample of old glacial ice. (The relative abundance of these oxygen isotopes is related to climatic temperature at the time the ice was deposited.) The ratio of the masses of these two ions is 16 to 18, the mass of oxygen-16 is  $$ 2.66 \times 10^{-26}  \text{kg}, $$
  and they are singly charged and travel at  $$ 5.00 \times 10^{6}  \text{m/s} $$
  in a 1.20-T magnetic field. What is the separation between their paths when they hit a target after traversing a semicircle?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -667,18 +729,22 @@ The separation of 17.3 cm is quite large and easily measurable. This is why mass
 
 **The separation between the oxygen-16 and oxygen-18 paths is 0.173 m (17.3 cm).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Triply charged uranium-235 and uranium-238 ions are being separated in a mass spectrometer. (The much rarer uranium-235 is used as reactor fuel.) The masses of the ions are  $$ 3.90 \times 10^{-25}  \text{kg} $$
  and  $$ 3.95 \times 10^{-25}  \text{kg} $$ ,
  respectively, and they travel at  $$ 3.00 \times 10^{5}  \text{m/s} $$
  in a 0.250-T field. What is the separation between their paths when they hit a target after traversing a semicircle? (b) Discuss whether this distance between their paths seems to be big enough to be practical in the separation of uranium-235 from uranium-238.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -726,5 +792,6 @@ The small mass difference between U-235 and U-238 (compared to oxygen isotopes) 
 
 **(b) Yes, 2.5 cm is large enough to be practical for isotope separation. While challenging, electromagnetic separation was historically used to enrich uranium, and this separation distance is sufficient for collecting the isotopes separately.**
 
-</div>
+:::
+
 </div>

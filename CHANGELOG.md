@@ -4,6 +4,33 @@ All notable changes to the Physics Book project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2026-07-07] - Migrated from Jekyll/Kramdown to Eleventy v4
+
+### Changed
+
+- **Static site generator**: Jekyll (Ruby) → **Eleventy v4** (Node), pinned to `4.0.0-alpha.10`. The build is now Node-only (`npm run build` / `npm run serve`), requiring Node ≥ 22.15 and no Ruby/Bundler.
+- **Markdown renderer**: Kramdown → **markdown-it** with custom plugins under `lib/eleventy/` (Kramdown-faithful math wrapping, typography, slug algorithm, and `problem`/`solution`/`example`/`note`/`glossary`/etc. containers).
+- **Templates**: Liquid layouts/includes (`_layouts/`, `_includes/*.html`) → Nunjucks (`_includes/*.njk`, `_includes/layouts/`). Markdown bodies are rendered with no template engine, so math passes through verbatim.
+- **Config**: `_config.yml` → `eleventy.config.js` + `_data/site.js`.
+- **Internal links**: `{{ site.baseurl }}/...` (Liquid) → root-relative `/...`; the build applies the `/physics-book2` path prefix for GitHub Pages and drops it for Vercel (detected via the `VERCEL` env var).
+- **Root pages**: `index.html` → `index.njk`, `sw.js` → `sw.njk` (built to `/sw.js`). Output paths are byte-identical to the Jekyll build (`contents/<slug>.html`, `/SUMMARY.html`, `/sw.js`, `/index.html`).
+- **CI/deploy**: All GitHub Actions workflows (`ci.yml`, `deploy.yml`, `generate-pdfs.yml`, `link-check.yml`) are Node-only on Node 24. `vercel.json` builds with `npm run build`.
+- **Docs**: `README.md`, `CONTRIBUTE.md`, `claude.md` rewritten for the Node/Eleventy toolchain.
+
+### Removed
+
+- Ruby/Jekyll toolchain: `Gemfile`, `Gemfile.lock`, `_config.yml`, `_layouts/`, `_includes/head.html`, `_includes/foot.html`, `index.html`, `sw.js`.
+- `scripts/migrate-content.js` (one-shot Kramdown→markdown-it converter) and `scripts/sync-config.js` (synced `_config.yml`), plus their npm scripts (`migrate:content`, `sync:config`).
+- Dependabot's Ruby/Bundler ecosystem.
+- `{% raw %}` wrappers and the `fix-liquid-syntax` Liquid-conflict workflow (no Liquid in the build anymore).
+
+### Added
+
+- `lib/eleventy/` markdown-it plugin stack and `scripts/compare-builds.js` parity comparator (frozen Jekyll baseline vs Eleventy build) plus `scripts/generate-census.js` content census.
+- `tests/markdown-pipeline.test.js` fixture tests for the markdown pipeline.
+
+See `roadmap.md` (especially §10a/§10b) for the full migration design, execution findings, and parity status.
+
 ## [2025-12-31] - December 2025 Major Updates
 
 ### Added

@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 16
 ---
-
 ![In the figure a couple and their son are sitting alongside a beach in the evening time, around a wood-lit fire. The man is playing a guitar.](../resources/Figure_16_00_01.jpg 'There are at least four types of waves in this picture—only the water waves are evident. There are also sound waves, light waves, and waves on the guitar strings. (credit: John Norton)')
 {: #Figure1}
 
@@ -34,11 +33,14 @@ harmonic motion, uniform circular motion, and damped harmonic motion. Finally,
 we will explore what happens when two or more waves share the same space, in the
 phenomena known as superposition and interference.
 
-<div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9KMpE6BGz5Q"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+::: note {"class":"note","data-label":"Video"}
 
-<div class="glossary" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9KMpE6BGz5Q"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:::
+
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -48,4 +50,4 @@ oscillate
 wave
 : a disturbance that moves from its source and carries energy
 
-</div>
+:::

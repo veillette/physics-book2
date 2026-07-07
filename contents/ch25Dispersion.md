@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 5
 chapterNumber: 25
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the phenomenon of dispersion and discuss its advantages and disadvantages.
-</div>
+
+:::
 
 Everyone enjoys the spectacle and surprise of rainbows. They’ve been hailed as symbols of hope and spirituality and are the subject of stories and myths across the world’s cultures. Just how does sunlight falling on water droplets cause the multicolored image we see, and what else does this phenomenon tell us about light, color, and radiation? Working in his native Persia (now Iran), Kamal al-Din Hasan ibn Ali ibn Hasan al-Farisi (1267–1319) designed a series of innovative experiments to answer this question and clarify the explanations of many earlier scientists. At that time, there were no microscopes to examine tiny drops of water similar to those in the atmosphere, so Farisi created an enormous drop of water. He filled a large glass vessel with water and placed it inside a camera obscura, in which he could carefully control the entry of light. Using a series of careful observations on the resulting multicolored spectra of light, he deduced and confirmed that the droplets split—or decompose—white light into the colors of the rainbow. Farisi’s contemporary, Theodoric of Freiberg (in Germany), performed similar experiments using other equipment. Both relied on the prior work of Ibn al-Haytham, often known as the founder of optics and among the first to formalize a scientific method.
 
@@ -32,13 +33,15 @@ direction of light in a manner that depends on wavelength. Dispersion, as a
 general phenomenon, can occur for any type of wave and always involves
 wavelength-dependent processes.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Dispersion
 </div>
+
 Dispersion is defined to be the spreading of white light into its full spectrum of wavelengths.
 
-</div>
+:::
 
 ![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.jpg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
 {: #Figure2}
@@ -53,13 +56,15 @@ light is bent more than red light, as shown for a prism
 in [[Figure 3]](#Figure3)(b), and the light is dispersed into the same sequence
 of wavelengths as seen in [[Figure 1]](#Figure1) and [[Figure 2]](#Figure2).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Dispersion
 </div>
+
 Any type of wave can exhibit dispersion. Sound waves, all types of electromagnetic waves, and water waves can be dispersed according to wavelength. Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow. This is also true for sound, since all frequencies ordinarily travel at the same speed. If you listen to sound through a long tube, such as a vacuum cleaner hose, you can easily hear it is dispersed by interaction with the tube. Dispersion, in fact, can reveal a great deal about what the wave has encountered that disperses its wavelengths. The dispersion of electromagnetic radiation from outer space, for example, has revealed much about what exists between the stars—the so-called empty space.
 
-</div>
+:::
 
 <table id="Table1" aria-describedby="Table shows index of refraction for media listed in the far left column at wavelengths associated with colors listed across the top row."><caption><span class="title">Index of Refraction <em>n</em> in Selected Media at Various Wavelengths</span></caption><thead><tr>
             <th>Medium</th>
@@ -140,13 +145,15 @@ are two reflections of light within the water drop, another “secondary” rain
 is produced. This rare event produces an arc that lies above the primary rainbow
 arc—see [[Figure 5]](#Figure5) (c).)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Rainbows
 </div>
+
 Rainbows are produced by a combination of refraction and reflection.
 
-</div>
+:::
 
 ![Sun light incident on a spherical water droplet gets refracted at various angles. The refracted rays further undergo total internal reflection and when they leave the water droplet, a sequence of colors ranging from violet to red is formed.](../resources/Figure_25_05_04.jpg 'Part of the light falling on this water drop enters and is reflected from the back of the drop. This light is refracted and dispersed both as it enters and as it leaves the drop.')
 {: #Figure4}
@@ -176,11 +183,14 @@ and our human goals.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the ratio of the speed of red light to violet light in diamond, based on [[Table 1]](#Table1)? (b) What is this ratio in polystyrene? (c) Which is more dispersive?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -210,16 +220,20 @@ $$\frac{v_{\text{red}}}{v_{\text{violet}}} = \frac{1.506}{1.488} = 1.012$$
 
 Diamond disperses light more than polystyrene, which contributes to its greater "fire"—the colorful flashes seen in a well-cut diamond. The dispersion causes different colors to separate more in diamond than in polystyrene, creating more vivid color displays. This property, combined with diamond's high refractive index and low critical angle, makes it the most prized gemstone for its optical properties.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A beam of white light goes from air into water at an incident angle of  $$ 75.0º $$ .
  At what angles are the red (660 nm) and violet (410 nm) parts of the light refracted?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -255,15 +269,19 @@ $$\theta_{2,\text{violet}} = \sin^{-1}(0.7197) = 46.0°$$
 
 The difference in refraction angles (0.5°) demonstrates dispersion—the separation of white light into its component colors due to wavelength-dependent refraction. Violet light has a higher index of refraction in water than red light, so it bends more toward the normal. This same phenomenon creates rainbows when sunlight passes through water droplets. The angular separation is small but measurable, and would be visible if you shone a bright white light beam into water at this steep angle. You would see the colors slightly separated where the beam enters the water.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 By how much do the critical angles for red (660 nm) and violet (410 nm) light differ in a diamond surrounded by air?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -296,16 +314,20 @@ $$\Delta \theta_c = 24.5° - 24.0° = 0.5°$$
 
 Although this difference seems small, it's significant for diamond cutting. Since violet light has a slightly smaller critical angle than red light, it's slightly easier for violet light to escape the diamond. Skilled diamond cutters must account for this dispersion when creating facets, ensuring that all colors are properly reflected and create the diamond's characteristic brilliance and fire. The color separation also contributes to the rainbow-like flashes seen when a diamond moves.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A narrow beam of light containing yellow (580 nm) and green (550 nm) wavelengths goes from polystyrene to air, striking the surface at a  $$ 30.0º $$
  incident angle. What is the angle between the colors when they emerge? (b) How far would they have to travel to be separated by 1.00 mm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -362,16 +384,20 @@ $$d = \frac{s}{\Delta \theta} = \frac{0.00100 \text{ m}}{6.98 \times 10^{-4}} = 
 
 The very small angular separation (0.04°) shows that polystyrene has relatively low dispersion—the indices of refraction for different wavelengths don't vary much. Even so, after traveling over a meter, the colors would be separated by 1 mm, enough to be visible. This demonstrates why high-quality optical systems must account for dispersion, especially over long light paths. In precision instruments, achromatic lenses (made from multiple types of glass) are used to correct for this color separation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A parallel beam of light containing orange (610 nm) and violet (410 nm) wavelengths goes from fused quartz to water, striking the surface between them at a  $$ 60.0º $$
  incident angle. What is the angle between the two colors in water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -412,16 +438,20 @@ $$\Delta \theta = 71.3° - 71.2° = 0.1°$$
 
 The very small angular separation (0.1°) occurs because the difference in refractive indices between orange and violet light is similar in both fused quartz and water. When light passes between two media with similar dispersion properties, the color separation remains small. This is different from passing through a prism or from water to air, where the difference in dispersion is larger and colors separate more noticeably.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A ray of 610 nm light goes from air into fused quartz at an incident angle of  $$ 55.0º $$ .
  At what incident angle must 470 nm light enter flint glass to have the same angle of refraction?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -461,16 +491,20 @@ $$\theta_1 = \sin^{-1}(0.9474) = 71.3°$$
 
 The significantly larger incident angle (71.3° vs. 55.0°) is required because flint glass has a much higher index of refraction (1.684) than fused quartz (1.456). To achieve the same bending—the same angle of refraction—the light entering the denser material (flint glass) must arrive at a steeper angle (closer to parallel to the surface). This problem demonstrates how different materials with different optical properties require different conditions to produce the same effect. Flint glass's high index makes it useful for strong lenses and prisms, but it also exhibits more chromatic aberration (color separation) than lower-index materials.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A narrow beam of light containing red (660 nm) and blue (470 nm) wavelengths travels from air through a 1.00 cm thick flat piece of crown glass and back to air again. The beam strikes at a  $$ 30.0º $$
  incident angle. (a) At what angles do the two colors emerge? (b) By what distance are the red and blue separated when they emerge?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -534,11 +568,14 @@ $$\Delta d = 0.198 - 0.197 = 0.001 \text{ cm} = 0.01 \text{ mm}$$
 
 Although both colors emerge parallel to their original direction, they are laterally displaced by slightly different amounts due to dispersion. The separation is very small (only 10 μm for 1 cm of glass) because crown glass has relatively low dispersion. This demonstrates why windowpanes don't noticeably separate colors—the dispersion and thickness are too small to create visible color fringing in normal viewing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º $$
  incident angle, as shown in [[Figure 6]](#Figure6). At what angles,  $${\theta }_{\text{R}} $$
  and  $${\theta }_{\text{V}} $$ ,
@@ -547,8 +584,9 @@ A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º 
 ![A blue incident light ray at an angle of incidence equal to 45 degrees falls on an equilateral triangular prism with angles each equal to 60 degrees. On falling onto the first surface, the ray refracts and splits into red and violet rays. These rays falling onto the second surface and emerge from the prism. Red with 660 nanometers and violet with 410 nanometers.](../resources/Figure_25_05_06.jpg 'This prism will disperse the white light into a rainbow of colors. The incident angle is 45.0º, and the angles at which the red and violet light emerge are ( \\theta_\\text{R} ) and ( \\theta_\\text{V} ) . ')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -614,10 +652,12 @@ $$\theta_{\text{V}} = 55.3°$$
 
 The 1.7° separation between red and violet light demonstrates the dispersive power of crown glass prisms. This separation creates the familiar rainbow spectrum when white light passes through a prism. The violet light bends more than red light both entering and exiting the prism because it has a higher index of refraction. Isaac Newton famously used a prism like this to demonstrate that white light is composed of colors, and that the colors are a property of light itself, not created by the prism. Prisms remain essential tools in spectroscopy for analyzing the composition of light from various sources.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -629,4 +669,4 @@ rainbow
 wavelength, produced by the refraction and reflection of sunlight by water
 droplets in the sky
 
-</div>
+:::

@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 5
 chapterNumber: 8
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define inelastic collision.
 * Explain perfectly inelastic collision.
 * Apply an understanding of collisions to sports.
 * Determine recoil velocity and loss in kinetic energy given mass and initial velocity.
 
-</div>
+:::
 
 We have seen that in an elastic collision, internal kinetic energy is conserved.
 An **inelastic collision** is one in which the internal kinetic energy changes (
@@ -23,13 +23,15 @@ may transform some internal kinetic energy into heat transfer. Or it may convert
 stored energy into internal kinetic energy, such as when exploding bolts
 separate a satellite from its launch vehicle.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Inelastic Collision
 </div>
+
 An inelastic collision is one in which the internal kinetic energy changes (it is not conserved).
 
-</div>
+:::
 
 [Figure 1](#Figure1) shows an example of an inelastic collision. Two objects that
 have equal masses head toward one another at equal speeds and then stick
@@ -41,22 +43,26 @@ more than does any other type of inelastic collision. In fact, such a collision
 reduces internal kinetic energy to the minimum it can have while still
 conserving momentum.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Perfectly Inelastic Collision
 </div>
+
 A collision in which the objects stick together is sometimes called “perfectly inelastic.”
 
-</div>
+:::
 
 ![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01.jpg 'An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
 (b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.')
 {: #Figure1}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck and a Goalie
 </div>
+
 (a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s.
 (b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See [Figure 2](#Figure2) )
 
@@ -82,21 +88,25 @@ Conservation of momentum is
 <div class="equation">
  $$ p_{1}+p_{2}={p^{\prime} }_{1}+{p^{\prime} }_{2} $$
 </div>
+
 or
 
 <div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
+
 Because the goalie is initially at rest, we know $$ v_{2}=0 $$. Because the goalie catches the puck, the final velocities are equal, or $$ {v^{\prime} }_{1}={v^{\prime} }_{2}=v^{\prime} $$. Thus, the conservation of momentum equation simplifies to
 
 <div class="equation">
  $$ m_{1}v_{1}=\left(m_{1}+m_{2}\right)v^{\prime} . $$
 </div>
+
 Solving for $$ v^{\prime} $$ yields
 
 <div class="equation">
  $$ v^{\prime} =\frac{ m_{1}}{ m_{1}+m_{2}}v_{1}. $$
 </div>
+
 Entering known values in this equation, we get
 
 <div class="equation">
@@ -120,6 +130,7 @@ $$ \begin{array}{lll}
 \KE_{\text{int}}&=& 91.9 \J .
 \end{array} $$
 </div>
+
 After the collision, the internal kinetic energy is
 
 <div class="equation">
@@ -129,6 +140,7 @@ $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}&=& 0.196 \J .
 \end{array} $$
 </div>
+
 The change in internal kinetic energy is thus
 
 <div class="equation">
@@ -137,6 +149,7 @@ $$ \begin{array}{lll}
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}&=& -91.7 \J
 \end{array} $$
 </div>
+
 where the minus sign indicates that the energy was lost.
 
 **Discussion for (b)**
@@ -152,7 +165,7 @@ during a collision. [Figure 3](#Figure3) shows a one-dimensional example in whic
 two carts on an air track collide, releasing potential energy from a compressed
 spring. [Example 2](#example2) deals with data from such a collision.
 
-![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_08_05_03.jpg "An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <a href="#example2">Example 2</a>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.")
+![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_08_05_03.jpg 'An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <a href="#example2">Example 2</a>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.')
 {: #Figure3}
 
 Collisions are particularly important in sports and the sporting and leisure
@@ -170,12 +183,14 @@ the “sweet spot” on the racquet, where the vibration and impact are minimize
 and the ball is able to be given more velocity. Sports science and technologies
 also use physics concepts such as momentum and rotational motion and vibrations.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment—Bouncing of Tennis Ball
 </div>
+
 1.  Find a racquet (a tennis, badminton, or other racquet will do). Place the racquet on the floor and stand on the handle. Drop a tennis ball on the strings from a measured height. Measure how high the ball bounces. Now ask a friend to hold the racquet firmly by the handle and drop a tennis ball from the same measured height above the racquet. Measure how high the ball bounces and observe what happens to your friend’s hand during the collision. Explain your observations and measurements.
 2.  The coefficient of restitution $$ \left(c\right) $$
     is a measure of the elasticity of a collision between a ball and an object, and is defined as the ratio of the speeds after and before the collision. A perfectly elastic collision has a
@@ -184,12 +199,14 @@ floor), $$ c $$ can be shown to be $$ c=\sqrt{\frac{h}{H}} $$ where $$ h $$  is 
 Determine $$ c $$ for the cases in Part 1 and for the case of a tennis ball bouncing off
 a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis court).
 
-</div>
+:::
 
-<div class="example" id="example2" markdown="1">
+::: example {"class":"example","id":"example2"}
+
 <div class="title">
 Calculating Final Velocity and Energy Release: Two Carts Collide
 </div>
+
 In the collision pictured in [Figure 3](#Figure3), two carts collide inelastically. Cart 1 (denoted $$ m_{1} $$ carries a spring which is initially compressed. During the collision, the spring
 releases its potential energy and converts it to internal kinetic energy. The
 mass of cart 1 and the spring is 0.350 kg, and the cart and the spring together
@@ -215,6 +232,7 @@ As before, the equation for conservation of momentum in a two-object system is
 <div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
+
 The only unknown in this equation is $$ v^{\prime}_{2} $$. Solving for $$ v^{\prime}_{2} $$
 and substituting known values into the previous equation yields
 
@@ -239,6 +257,7 @@ $$ \begin{array}{lll}
 \KE_{\text{int}}&=& 0.763 \J .
 \end{array} $$
 </div>
+
 After the collision, the internal kinetic energy is
 
 <div class="equation">
@@ -249,6 +268,7 @@ $$ \begin{array}{lll}
 \KE^\prime_{\text{int}}&=& 6.22 \J .
 \end{array} $$
 </div>
+
 The change in internal kinetic energy is thus
 
 <div class="equation">
@@ -264,7 +284,7 @@ The final velocity of cart 2 is large and positive, meaning that it is moving to
 the right after the collision. The internal kinetic energy in this collision
 increases by 5.46 J. That energy was released by the spring.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -279,37 +299,50 @@ increases by 5.46 J. That energy was released by the spring.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is an inelastic collision? What is a perfectly inelastic collision?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Mixed-pair ice skaters performing in a show are standing motionless at arms length just before starting a routine. They reach out, clasp hands, and pull themselves together by only using their arms. Assuming there is no friction between the blades of their skates and the ice, what is their velocity after their bodies meet?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A small pickup truck that has a camper shell slowly coasts toward a red light with negligible friction. Two dogs in the back of the truck are moving and making various inelastic collisions with each other and the walls. What is the effect of the dogs on the motion of the center of mass of the system (truck plus entire load)? What is their effect on the motion of the truck?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool table and bounces straight back at 2.40 m/s (80% of its original speed). The collision lasts 0.0150 s.
 (a) Calculate the average force exerted on the ball by the bumper.
 (b) How much kinetic energy in joules is lost during the collision?
 (c) What percent of the original energy is left?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use the impulse-momentum theorem. The ball reverses direction, so the change in momentum includes both the original momentum and the rebound momentum. For parts (b) and (c), we compare kinetic energies before and after.
@@ -354,17 +387,22 @@ $$ \text{Percent remaining} = \frac{\KE_f}{\KE_i} \times 100\% = \frac{0.691 \J}
 
 Although the ball retains 80% of its speed, it only retains 64% of its kinetic energy. This is because kinetic energy depends on the square of velocity: $$ (0.80)^2 = 0.64 $$. The lost energy is converted to heat and sound during the collision with the bumper.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 During an ice show, a 60.0-kg skater leaps into the air and is caught by an initially stationary 75.0-kg skater.
 (a) What is their final velocity assuming negligible friction and that the 60.0-kg skater's original horizontal velocity is 4.00 m/s?
 (b) How much kinetic energy is lost?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where the skaters stick together. We use conservation of momentum to find the final velocity, then compare kinetic energies.
@@ -407,11 +445,13 @@ The kinetic energy lost during the catch is 266 J.
 
 More than half (55%) of the original kinetic energy is lost in this perfectly inelastic collision. This energy goes into the work done by the skaters' muscles and joints as they absorb the impact, plus some heat and sound. A trained pair skater knows how to absorb this impact safely while maintaining an elegant appearance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -427,8 +467,10 @@ and
 are going in opposite directions. Might the loss of kinetic energy be related to
 how much it hurts to catch the pass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Example 1, we use: player mass = 110 kg, player velocity = 8.00 m/s, ball mass = 0.410 kg, ball velocity = 25.0 m/s. We apply conservation of momentum and compare kinetic energies for both cases.
@@ -479,11 +521,14 @@ The kinetic energy lost is approximately 220-223 J.
 
 When the ball is coming toward the player (opposite directions), approximately 4 times more kinetic energy is lost (223 J vs. 56 J). This lost energy is absorbed by the player's hands and arms as they decelerate and then accelerate the ball to match the player's velocity. This is why catching a ball thrown against your direction of motion hurts more—more energy must be dissipated in your body.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A battleship that is $$ 6.00 \times 10^{7}\kg $$ and is originally at rest fires a 1100-kg artillery shell horizontally with a
 velocity of 575 m/s.
 (a) If the shell is fired straight aft (toward the rear of
@@ -493,8 +538,10 @@ Calculate its recoil velocity.
 energy (that is, for the ship and the shell). This energy is less than the
 energy released by the gun powder—significant heat transfer occurs.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum for part (a) and calculate the total kinetic energy after firing for part (b).
@@ -531,11 +578,13 @@ The increase in internal kinetic energy is $$ 1.82 \times 10^{8} \J $$ (182 MJ).
 
 The ship's recoil velocity is tiny (1 cm/s) despite the massive momentum transfer because of the ship's enormous mass. Nearly all (99.998%) of the kinetic energy goes to the shell rather than the ship. The chemical energy released by the gunpowder is considerably larger than 182 MJ—much energy is lost to heat, sound, and deforming the gun barrel.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -550,8 +599,10 @@ satellite was originally at rest. Explain why the change in velocity is
 different in the two frames, whereas the change in kinetic energy is the same in
 both.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision (docking). We analyze it in two different reference frames. In each frame, we apply conservation of momentum to find the final velocity, then calculate the kinetic energy loss. The key insight is that while velocities are frame-dependent, energy loss is the same in all inertial frames.
@@ -652,11 +703,13 @@ The energy loss is approximately 81.5 J, the same as in part (b).
 
 The final velocities differ in the two reference frames (0.163 m/s vs. -0.0870 m/s) because velocity is frame-dependent. However, the kinetic energy loss is essentially the same in both frames (81.6 J vs. 81.5 J). This is because the energy lost to internal forces—converted to heat, deformation, and vibration during docking—is an invariant quantity independent of the reference frame. The center of mass of the system moves at constant velocity in both frames since there are no external forces, and the energy dissipated in the collision is the same regardless of which frame we use to observe it.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -665,8 +718,10 @@ a hopper that dumps 110 000 kg of scrap metal into it.
 (a) What is the final velocity of the loaded freight car?
 (b) How much kinetic energy is lost?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where the scrap metal (initially at rest horizontally) joins the moving freight car. We apply conservation of horizontal momentum.
@@ -707,11 +762,13 @@ Approximately 8500 J of kinetic energy is lost.
 
 The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 78% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -721,8 +778,10 @@ separate from the 1500-kg remains of its launcher, and that 5000 J of kinetic
 energy is supplied to the two parts. What are their subsequent velocities using
 the frame of reference in which they were at rest before separation?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "explosion" problem where initial momentum is zero and energy is added. We use two equations: conservation of momentum (gives relationship between velocities) and the kinetic energy equation (gives magnitudes).
@@ -763,19 +822,24 @@ The satellite moves at 0.704 m/s and the launcher remains move at 2.25 m/s in th
 
 The lighter launcher remains move faster (2.25 m/s vs 0.704 m/s) because momentum must be conserved. The velocity ratio (3.2) equals the inverse mass ratio (4800/1500). The lighter object receives more of the kinetic energy because $$ \KE \propto v^2 $$ and the lighter object moves faster.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg rifle. The pain of the rifle's kick is much worse if you hold the gun loosely a few centimeters from your shoulder rather than holding it tightly against your shoulder.
 (a) Calculate the recoil velocity of the rifle if it is held loosely away from the shoulder.
 (b) How much kinetic energy does the rifle gain?
 (c) What is the recoil velocity if the rifle is held tightly against the shoulder, making the effective mass 28.0 kg?
 (d) How much kinetic energy is transferred to the rifle-shoulder combination? The pain is related to the amount of kinetic energy, which is significantly less in this latter situation. (e) Calculate the momentum of a 110-kg football player running at 8.00 m/s. Compare the player's momentum with the momentum of a hard-thrown 0.410-kg football that has a speed of 25.0 m/s. Discuss its relationship to this problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use conservation of momentum to find recoil velocities. The rifle (or rifle-shoulder system) recoils with momentum equal and opposite to the bullet. Then we calculate kinetic energies.
@@ -826,11 +890,13 @@ The player has about 86 times more momentum than the football.
 
 Holding the rifle tightly reduces the recoil kinetic energy from 31.5 J to 3.38 J—a factor of 9.3 reduction! This dramatically reduces pain and bruising. The key insight is that the same momentum is absorbed, but spreading it across a larger mass reduces velocity and kinetic energy. Similarly, in football, the much more massive player absorbs the ball's momentum with minimal velocity change.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -845,8 +911,10 @@ is originally at rest.
 (b) How much kinetic energy does each nucleus carry away? Note that the data
 given here are accurate to three digits only.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is similar to an explosion problem: initial momentum is zero, and energy is released. We use conservation of momentum and the kinetic energy equation to solve for both velocities.
@@ -891,11 +959,13 @@ The helium nucleus carries away $$ 8.23 \times 10^{-13} \J $$ (98%) and the uran
 
 The light helium nucleus (alpha particle) carries away 98% of the energy while the massive uranium nucleus carries only 2%. This is because, for equal momenta, kinetic energy is inversely proportional to mass ($$ \KE = p^2/2m $$). The alpha particle travels at about 5% the speed of light!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -913,8 +983,10 @@ part (a) and (b) for this real-life experiment. The mass of the rocket was 2000
 kg and its speed upon impact was 9000 km/h. How does the plume produced alter
 these results?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem involves perfectly inelastic collisions where an object strikes the Moon and sticks to it. We use conservation of momentum to find the Moon's recoil velocity, then calculate the kinetic energy before and after collision. The Moon's enormous mass means it barely moves, but significant energy is dissipated.
@@ -1001,11 +1073,13 @@ Regarding the plume: The plume consists of ejected material from the Moon's surf
 
 The Moon barely recoils in either collision due to its enormous mass—it's about 15 trillion times more massive than the asteroid and about 37 billion times more massive than the rocket. In the asteroid collision, over 99.99999% of the kinetic energy is dissipated, creating the crater, vaporizing rock, generating heat, and producing seismic waves that medieval monks may have observed as a "red glow." The NASA experiment converted all 6.25 GJ of the rocket's kinetic energy into crater formation, vaporization, and the plume—which allowed scientists to analyze the ejected material and discover water ice in the lunar regolith. These examples illustrate why impacts with astronomical bodies are so devastating: the energy cannot go into moving the massive planet or moon, so it must be dissipated locally through destructive processes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -1014,8 +1088,10 @@ football. The first player is 95.0 kg and has an initial velocity of 6.00 m/s,
 while the second player is 115 kg and has an initial velocity of -3.50 m/s. What
 is their velocity just after impact if they cling together?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where the players stick together. We apply conservation of momentum, noting that they are moving in opposite directions.
@@ -1040,16 +1116,21 @@ The velocity of the players just after impact is 0.798 m/s in the direction of t
 
 Despite the second player being heavier (115 kg vs 95 kg), the first player's greater speed (6.00 m/s vs 3.50 m/s) gives him more momentum (570 vs 402.5 kg·m/s). The final velocity is in the direction of the player with more momentum, but the combined system moves much slower than either initial velocity. This is a dramatic collision—both players essentially stop each other, which explains why such collisions can cause injuries.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 What is the speed of a garbage truck that is $$ 1.20 \times 10^{4}\kg $$ and is initially moving at 25.0 m/s just after it hits and adheres to a trash
 can that is 80.0 kg and is initially at rest?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where the trash can (initially at rest) adheres to the moving truck. We apply conservation of momentum.
@@ -1074,15 +1155,20 @@ The speed of the garbage truck after hitting the trash can is 24.8 m/s.
 
 The truck barely slows down (from 25.0 to 24.8 m/s, a decrease of only 0.8%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 During a circus act, an elderly performer thrills the crowd by catching a cannon ball shot at him. The cannon ball has a mass of 10.0 kg and the horizontal component of its velocity is 8.00 m/s when the 65.0-kg performer catches it. If the performer is on nearly frictionless roller skates, what is his recoil velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision. The performer (initially at rest on frictionless roller skates) catches and holds the cannon ball. We apply conservation of horizontal momentum.
@@ -1107,17 +1193,22 @@ The performer's recoil velocity is 1.07 m/s in the direction the cannon ball was
 
 The performer recoils at a modest 1.07 m/s (about 3.8 km/h or walking speed) despite catching a 10-kg cannon ball. This is because his mass is 6.5 times the ball's mass. The frictionless roller skates allow momentum to be conserved horizontally. In reality, the performer would need strong arms to absorb the impact over a short distance, and might lean back to increase the catching time and reduce the force.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 (a) During an ice skating performance, an initially motionless 80.0-kg clown throws a fake barbell away. The clown's ice skates allow her to recoil frictionlessly. If the clown recoils with a velocity of 0.500 m/s and the barbell is thrown with a velocity of 10.0 m/s, what is the mass of the barbell?
 (b) How much kinetic energy is gained by this maneuver?
 (c) Where does the kinetic energy come from?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum to find the barbell's mass, then calculate the total kinetic energy gained.
@@ -1162,10 +1253,12 @@ The kinetic energy comes from the chemical potential energy stored in the clown'
 
 Most of the kinetic energy (200 J out of 210 J, or 95%) goes to the barbell because it moves much faster. The clown, being 20 times more massive, recoils much slower. This is why throwing a light object allows you to remain relatively stationary while the object moves quickly.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1175,4 +1268,4 @@ inelastic collision
 perfectly inelastic collision
 : a collision in which the colliding objects stick together
 
-</div>
+:::

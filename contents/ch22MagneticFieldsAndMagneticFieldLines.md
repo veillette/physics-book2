@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define magnetic field and describe the magnetic field lines of various magnetic fields.
-</div>
+
+:::
 
 Einstein is said to have been fascinated by a compass as a child, perhaps musing
 on how the needle felt a force without direct physical contact. His ability to
@@ -36,13 +37,15 @@ of _B_. Note the symbols used for field into and out of the paper.
 ![Figure a: magnetic field of a circular current loop with a current moving counter-clockwise. The field lines are also roughly circular, running up through the center of the current loop, and back down outside the loop. Figure b: a straight wire with a current running straight up. The magnetic field lines circle the wire in a counter-clockwise direction. Figure c: a right hand with the thumb pointing up, parallel to a wire with the current running upward. The figures of the hand curl around the wire in the counter-clockwise direction to show the direction of the magnetic field when current is up. The symbol to represent magnetic field lines running out of the surface and toward the viewer—B out—is a circle with a sold circle inside. The symbol to represent magnetic field lines running into the surface and away from the viewer—B in—is represented with a circle with an x inside it. When the current is running straight up, B out is to the left and B in is to the right.](../resources/Figure_22_03_02.jpg 'Small compasses could be used to map the fields shown here. (a) The magnetic field of a circular current loop is similar to that of a bar magnet. (b) A long and straight wire creates a field with magnetic field lines forming circular loops. (c) When the wire is in the plane of the paper, the field is perpendicular to the paper. Note that the symbols used for the field pointing inward (like the tail of an arrow) and the field pointing outward (like the tip of an arrow).')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Concept of a Field
 </div>
+
 A field is a way of mapping forces surrounding any object that can act on another object at a distance without apparent physical connection. The field represents the object generating it. Gravitational fields map gravitational forces, electric fields map electrical forces, and magnetic fields map magnetic forces.
 
-</div>
+:::
 
 Extensive exploration of magnetic fields has revealed a number of hard-and-fast
 rules. We use magnetic field lines to represent the field (the lines are a
@@ -77,34 +80,47 @@ then magnetic field lines would begin and end on them.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why the magnetic field would not be unique (that is, not have a single value) at a point in space where magnetic field lines might cross. (Consider the direction of the field at such a point.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 List the ways in which magnetic field lines and electric field lines are similar. For example, the field direction is tangent to the line at any point in space. Also list the ways in which they differ. For example, electric force is parallel to electric field lines, whereas magnetic force on moving charges is perpendicular to magnetic field lines.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Noting that the magnetic field lines of a bar magnet resemble the electric field lines of a pair of equal and opposite charges, do you expect the magnetic field to rapidly decrease in strength with distance from the magnet? Is this consistent with your experience with magnets?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the Earth’s magnetic field parallel to the ground at all locations? If not, where is it parallel to the surface? Is its strength the same at all locations? If not, where is it greatest?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -121,4 +137,4 @@ field
 direction of magnetic field lines
 : the direction that the north end of a compass needle points
 
-</div>
+:::

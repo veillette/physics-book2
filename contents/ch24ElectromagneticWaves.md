@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 24
 ---
-
 ![A photo showing many orange and pale blue colored fish, swimming over a coral reef in the blue waters of the Gulf of Eilat.](../resources/Figure_24_00_01.jpg 'Human eyes detect these orange “sea goldie” fish swimming over a coral reef in the blue waters of the Gulf of Eilat (Red Sea) using visible light. (credit: Daviddarom, Wikimedia Commons)')
 {: #Figure1}
 
@@ -21,10 +20,12 @@ created, and how do they travel? How can we understand and organize their widely
 varying properties? What is their relationship to electric and magnetic effects?
 These and other questions will be explored.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: Sound Waves vs. Radio Waves
 </div>
+
 Many people confuse sound waves with **radio waves**, one type of electromagnetic (EM) wave. However, sound and radio waves are completely different phenomena. Sound creates pressure variations (waves) in matter, such as air or water, or your eardrum. Conversely, radio waves are *electromagnetic waves*, **like visible light, infrared, ultraviolet, X-rays, and gamma rays. EM waves don’t need a medium in which to propagate; they can travel through a vacuum, such as outer space.
 
 A radio works because sound waves played by the D.J. at the radio station are
@@ -33,7 +34,7 @@ radio-frequency range. The radio in your car receives the radio waves, decodes
 the information, and uses a speaker to change it back into a sound wave,
 bringing sweet music to your ears.
 
-</div>
+:::
 
 ### Discovering a New Phenomenon
 

@@ -4,15 +4,15 @@ layout: page
 sectionNumber: 6
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the grand unified theory.
 * Explain the electroweak theory.
 * Define gluons.
 * Describe the principle of quantum chromodynamics.
 * Define the standard model.
 
-</div>
+:::
 
 Present quests to show that the four basic forces are different manifestations
 of a single unified force follow a long tradition. In the 19th century, the
@@ -112,13 +112,15 @@ successful have QCD and the electroweak theory been that, taken together, they
 are called the **Standard Model**. Advances in knowledge are expected to modify,
 but not overthrow, the Standard Model of particle physics and forces.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Unification of Forces
 </div>
+
 Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic forces become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
 
-</div>
+:::
 
 How can forces be unified? They are definitely distinct under most
 circumstances, for example, being carried by different particles and having
@@ -224,33 +226,44 @@ of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOf
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a GUT is proven, and the four forces are unified, it will still be correct to say that the orbit of the moon is determined by the gravitational force. Explain why.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the Higgs boson is discovered and found to have mass, will it be considered the ultimate carrier of the weak force? Explain your response.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Gluons and the photon are massless. Does this imply that the  $${W}^{+} $$ ,
   $${W}^{-} $$ ,
  and  $${Z}^{0} $$
  are the ultimate carriers of the weak force?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The intensity of cosmic ray radiation decreases rapidly with increasing energy,
@@ -264,22 +277,29 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 ![The figure shows an extremely energetic cosmic ray penetrating into the Earth’s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg 'An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about ( 10^{10} \\text{GeV} ) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ')
 {: #Figure6}
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$5 \times 10^{10} $$
 (b)  $$5 \times 10^{4}  {\text{particles/m} }^{2} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Assuming conservation of momentum, what is the energy of each $$\gamma $$ ray
 produced in the decay of a neutral at rest pion, in the reaction $${\pi }^{0}\to \gamma +\gamma $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -309,24 +329,33 @@ The equal energy sharing between the two photons is a direct consequence of mome
 
 This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5\text{ MeV} is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission pattern is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 What is the wavelength of a 50-GeV electron, which is produced at SLAC? This
 provides an idea of the limit to the detail it can probe.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$2.5 \times 10^{-17} \text{m} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Calculate the relativistic quantity $$\gamma =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for 1.00-TeV protons produced at
@@ -334,8 +363,9 @@ Fermilab. (b) If such a proton created a $${\pi }^{+} $$ having the same speed,
 how long would its life be in the laboratory? (c) How far could it travel in
 this time?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -379,11 +409,14 @@ Time dilation dramatically extends the observed lifetime of the pion from 26 nan
 
 This effect is crucial for particle physics experiments. High-energy particles created in accelerators travel macroscopic distances before decaying, allowing physicists to track and study them. Without time dilation, many particles would decay too quickly to be detected. The observation of such effects provides direct experimental confirmation of special relativity. Similar time dilation effects are observed with cosmic ray muons, which can reach Earth's surface only because their lifetimes are extended by their high speeds, providing one of the most accessible demonstrations of relativistic time dilation in nature.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The primary decay mode for the negative pion is $${\pi }^{-}\to {\mu }^{-}+{\stackrel{-}{\nu } }_{\mu } $$ .
@@ -392,17 +425,22 @@ momentum, how much energy does each of the decay products receive, given the
 $${\pi }^{-} $$ is at rest when it decays? You may assume the muon antineutrino
 is massless and has momentum $$p=E/c $$ , just like a photon.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 33.9 MeV
 
 (b) Muon antineutrino 29.8 MeV, muon 4.1 MeV (kinetic energy)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Plans for an accelerator that produces a secondary beam of _K_-mesons to scatter
@@ -411,8 +449,9 @@ a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma =
 would their average lifetime be in the laboratory? (c) How far could they travel
 in this time?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -462,11 +501,14 @@ Time dilation approximately doubles the K-meson's lifetime from 12.4 ns to 24.9 
 
 K-mesons are particularly useful for studying the strong force because they contain a strange quark, which interacts via the strong force but isn't present in ordinary matter (protons and neutrons contain only up and down quarks). The kinetic energy of 500 MeV is chosen to be high enough to probe nuclear structure effectively but low enough that the beam can be produced and controlled with reasonable accelerator technology. K-meson scattering experiments have provided important information about the strong nuclear force and the structure of nucleons, complementing electron scattering experiments which probe electromagnetic properties.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Suppose you are designing a proton decay experiment and you can detect 50
@@ -475,16 +517,22 @@ would you need to see one decay per month, assuming a lifetime of $$ 10^{31} \te
 (b) How many cubic meters of water is this? (c) If the actual lifetime is $$ 10^{33} \text{y} $$ , how long would you have to wait on an average to see a
 single proton decay?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$ 7.2 \times 10^{5}  \text{kg} $$
 (b)  $$ 7.2 \times 10^{2}  {\text{m} }^{3} $$
 (c)  $$100 \text{months} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 In supernovas, neutrinos are produced in huge amounts. They were detected from
@@ -500,8 +548,9 @@ observed within hours of the brightening of the supernova only places an upper
 limit on the neutrino's mass. (Hint: You may need to use a series expansion to
 find _v_ for the neutrino, since its $$\gamma $$ is so large.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -557,11 +606,14 @@ The photon arrives only about 3 minutes sooner after a journey of 120,000 years!
 
 This observation was historic—it was the first time neutrinos were detected from a supernova, confirming theoretical predictions about stellar collapse and supernova mechanisms. The near-simultaneous arrival of neutrinos and photons after traveling 120,000 light years demonstrates that neutrinos have very small (possibly zero) mass and travel at speeds indistinguishable from light speed over astronomical distances. Modern experiments suggest neutrino masses are even smaller than 7 eV/$$c^2$$, possibly less than 0.1 eV/$$c^2$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider an ultrahigh-energy cosmic ray entering the Earth's atmosphere (some
@@ -571,8 +623,9 @@ cosmic ray shower. Among the things to consider are the average mass of the
 shower particles, the average number per square meter, and the extent (number of
 square meters covered) of the shower. Express the energy in eV and joules.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -625,11 +678,14 @@ This constructed problem illustrates the extraordinary energies of ultrahigh-ene
 
 Such cosmic rays pose fundamental questions: What accelerates particles to these energies? Candidates include supermassive black holes, active galactic nuclei, or exotic physics. The GZK cutoff (Greisen-Zatsepin-Kuzmin limit) predicts cosmic rays above $$\sim 5 \times 10^{19}$$ eV should be rare due to interactions with cosmic microwave background radiation, yet some ultra-high-energy events above this limit have been observed, making them among the most mysterious phenomena in astrophysics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a detector needed to observe the proposed, but extremely rare, decay of
@@ -640,8 +696,9 @@ estimated half life (long for rare events), and the number of decays per unit
 time that you wish to observe, as well as the number of electrons in the
 detector substance.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -727,10 +784,12 @@ This constructed problem demonstrates the enormous challenge of detecting extrem
 
 **Fundamental implications:** Electron decay would violate both charge conservation and lepton number conservation, fundamental principles never observed to be violated. Its observation would revolutionize physics, suggesting new physics beyond the Standard Model. The fact that no electron decay has been observed despite sensitive searches places experimental lower limits on the electron lifetime exceeding $$10^{28}$$ years, making the electron one of the most stable particles known—possibly absolutely stable. This stability is deeply connected to charge conservation, one of the most fundamental symmetries in nature.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -757,4 +816,4 @@ superstring theory
 : a theory of everything based on vibrating strings some $$ 10^{-35} \text{m} $$
 in length
 
-</div>
+:::

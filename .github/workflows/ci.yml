@@ -121,14 +121,6 @@ jobs:
       - name: Unit tests (markdown pipeline)
         run: npm run test:unit
 
-      # Convert the canonical Kramdown source to the Eleventy input tree, then verify the
-      # converter is up to date. Remove both steps after the P10 cutover.
-      - name: Convert content
-        run: npm run migrate:content
-
-      - name: Verify converter is deterministic
-        run: npm run migrate:content:check
-
       - name: Build with Eleventy
         run: npx @11ty/eleventy
 
@@ -139,15 +131,17 @@ jobs:
         run: |
           set -e
           fail=0
-          leaks=$(for f in $(grep -rl 'markdown="1"' _site 2>/dev/null); do \
+          # -I skips binary files (PDFs/JPEGs in _site/) whose noise bytes would
+          # otherwise false-positive against these marker patterns.
+          leaks=$(for f in $(grep -rIl 'markdown="1"' _site 2>/dev/null); do \
             perl -0777 -pe 's/<!--.*?-->//gs' "$f" | grep -q 'markdown="1"' && echo "$f"; done)
           if [ -n "$leaks" ]; then echo "::error::leftover markdown=\"1\":"; echo "$leaks"; fail=1; fi
-          if grep -rEl '^\s*\{:' _site >/dev/null 2>&1; then \
-            echo "::error::leftover line-initial {: IAL:"; grep -rEl '^\s*\{:' _site; fail=1; fi
-          if grep -rEl '^\s*:::' _site >/dev/null 2>&1; then \
-            echo "::error::leftover ::: fence:"; grep -rEl '^\s*:::' _site; fail=1; fi
-          if grep -rl '{% raw' _site >/dev/null 2>&1; then \
-            echo "::error::leftover {% raw %}:"; grep -rl '{% raw' _site; fail=1; fi
+          if grep -rIEl '^\s*\{:' _site >/dev/null 2>&1; then \
+            echo "::error::leftover line-initial {: IAL:"; grep -rIEl '^\s*\{:' _site; fail=1; fi
+          if grep -rIEl '^\s*:::' _site >/dev/null 2>&1; then \
+            echo "::error::leftover ::: fence:"; grep -rIEl '^\s*:::' _site; fail=1; fi
+          if grep -rIl '{% raw' _site >/dev/null 2>&1; then \
+            echo "::error::leftover {% raw %}:"; grep -rIl '{% raw' _site; fail=1; fi
           exit $fail
 
       - name: Write build summary

@@ -58,11 +58,6 @@ jobs:
       - name: Install Playwright browsers
         run: npm run generate:pdf:install
 
-      # Convert content then build/serve with Eleventy. Remove the convert step after the
-      # P10 cutover, when converted content lives in the repo directly.
-      - name: Convert content
-        run: npm run migrate:content
-
       - name: Build with Eleventy
         run: npx @11ty/eleventy
 

@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 20
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the process by which electric signals are transmitted along a neuron.
 * Explain the effects myelin sheaths have on signal propagation.
 * Explain what the features of an ECG signal indicate.
-</div>
+
+:::
 
 ### Nerve Conduction
 
@@ -215,17 +216,20 @@ See [[Figure 9]](#Figure9).
 ![Photograph of a NASA scientist in an underwater habitat recording her vital signs using a portable device and a laptop computer.](../resources/Figure_20_07_09.jpg "This NASA scientist and NEEMO 5 aquanaut&#x2019;s heart rate and other vital signs are being recorded by a portable device while living in an underwater habitat. (credit: NASA, Life Sciences Data Archive at Johnson Space Center, Houston, Texas)")
 {: #Figure9}
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Neuron
 </div>
+
 Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane.
 {: class="newline"}
 
 <div class="media"  data-alt="neuron">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/neuron/latest/neuron_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -239,38 +243,50 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Note that in [[Figure 2]](#Figure2), both the concentration gradient and the Coulomb force tend to move  $${\text{Na}}^{+} $$
  ions into the cell. What prevents this?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Define depolarization, repolarization, and the action potential.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain the properties of myelinated nerves in terms of the insulating properties of myelin.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Use the ECG in [[Figure 8]](#Figure8) to determine the heart rate in beats per
 minute assuming a constant time between beats.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -312,18 +328,23 @@ The fact that this problem asks us to "assume a constant time between beats" is 
 
 **The heart rate is 80 beats per minute.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Referring to [[Figure 8]](#Figure8), find the time systolic pressure lags
 behind the middle of the QRS complex. (b) Discuss the reasons for the time lag.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), examine Figure 8 and measure the time difference between the peak of the R wave (middle of the QRS complex) and the maximum (systolic) blood pressure. For part (b), consider the physiological processes that must occur between the electrical signal and the resulting pressure change.
@@ -352,10 +373,12 @@ The 200 ms lag is clinically significant. Changes in this interval can indicate 
 
 (a) The systolic pressure lags approximately 0.20 s (200 ms) behind the QRS complex. (b) This lag is due to electromechanical coupling delay, contraction development time, the isovolumetric contraction phase, and pressure wave propagation time.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -372,4 +395,4 @@ electrocardiogram (ECG)
 : usually abbreviated ECG, a record of voltages created by depolarization and
 repolarization, especially in the heart
 
-</div>
+:::

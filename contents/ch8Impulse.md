@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 8
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define impulse.
 * Describe effects of impulses in everyday life.
 * Determine the average effective force using graphical representation.
 * Calculate average force and impulse given mass, velocity, and time.
 
-</div>
+:::
 
 The effect of a force on an object depends on how long it acts, as well as how
 great the force is.
@@ -34,15 +34,18 @@ we can see how the change in momentum equals the average net external force
 multiplied by the time this force acts. The quantity $$ \vb{F}\_{\text{net} }\Delta t $$ is given the name **impulse**. Impulse is the same as
 the change in momentum.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Impulse: Change in Momentum
 </div>
+
 Change in momentum equals the average net external force multiplied by the time this force acts.
 
 <div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t $$
 </div>
+
 The quantity $$ \vb{F}_{\text{net} }\Delta t $$ is given the name impulse.
 
 There are many ways in which an understanding of impulse can save lives, or at
@@ -64,12 +67,14 @@ stiff-legged on a hard surface. Rolling on the ground after jumping from the
 table, or landing with a parachute, extends the time over which the force (on
 you from the ground) acts.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Magnitudes of Impulses: Two Billiard Balls Striking a Rigid Wall
 </div>
+
 Two identical billiard balls strike a rigid wall with the same speed,
 and are reflected without any change of speed.
 The first ball strikes perpendicular to the wall.
@@ -119,12 +124,14 @@ which strikes perpendicular to the wall.
   p_{\text{xi} }=m u  & \text{;} & p_{\text{yi} }=0
 \end{array}
 </div>
+
 <div class="equation">
 \begin{array}{ c c c}
   p_{\text{xf} }=-m u & \text{;} &
 p_{\text{yf} }=0
 \end{array}
 </div>
+
 Impulse is the change in momentum vector. Therefore the $$ x $$-component
 of impulse is equal to $$ -2\text{ m} u $$ and the $$ y $$-component
 of impulse is equal to zero.
@@ -137,12 +144,14 @@ p_{\text{xi}}= m u \cos{30^\circ} &\text{;} &
 p_{\text{yi}}=- m u \sin{30^\circ }
 \end{array}
 </div>
+
 <div class="equation">
 \begin{array}{ c c c}
 p_{\text{xf}}=-m u\cos{30^\circ } &\text{;}&
 p_{\text{yf}}=-m u\sin{30^\circ }
 \end{array}
 </div>
+
 It should be noted here that while $$ p_{x} $$ changes sign after the collision, $$ p_{y} $$
 does not. Therefore the $$ x $$-component of impulse
 is equal to $$ -2m u\cos{30^\circ } $$ and the $$ y $$-component
@@ -161,7 +170,7 @@ normal to the wall and along the negative *
 $$ x $$ -*direction. Making use of Newton’s third law, the force on the wall due
 to each ball is normal to the wall along the positive $$ x $$ -direction.
 
-</div>
+:::
 
 Our definition of impulse includes an assumption that the force is constant over
 the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
@@ -176,10 +185,12 @@ effects are the same for both the actual and effective forces.
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01.jpg 'A graph of force versus time with time along the ( x ) -axis and force along the ( y ) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
 {: #Figure1}
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Hand Movement and Impulse
 </div>
+
 Try catching a ball while “giving” with the ball, pulling your hands toward your body.
 Then, try catching a ball while keeping your hands still. Hit water
 in a tub with your full palm. After the water has
@@ -191,17 +202,19 @@ diving hand represents a swimmer doing a dive.)
 Explain what happens in each case and why.
 Which orientations would you advise people to avoid and why?
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Constant Force and Constant Acceleration
 </div>
+
 The assumption of a constant force in the definition of impulse is
 analogous to the assumption of a constant acceleration in kinematics.
 In both cases, nature is adequately described without the use of calculus.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -216,7 +229,8 @@ In both cases, nature is adequately described without the use of calculus.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -224,19 +238,24 @@ Explain in terms of impulse how padding reduces forces in a collision. State
 this in terms of a real example, such as the advantages of a carpeted vs. tile
 floor for a day care center.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 While jumping on a trampoline, sometimes you land on your back and other
 times on your feet. In which case can you reach a greater height and why?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -244,19 +263,24 @@ Tennis racquets have “sweet spots.” If the ball hits a sweet spot then the
 player's arm is not jarred as much as it would be otherwise. Explain why this is
 the case.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A bullet is accelerated down the barrel of a gun by hot gases produced in
 the combustion of gun powder. What is the average force exerted on a 0.0300-kg
 bullet to accelerate it to a speed of 600 m/s in a time of 2.00 ms (milliseconds)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the impulse-momentum theorem: $$ F\_{\text{net}} \Delta t = \Delta p $$. The bullet starts from rest and reaches a final velocity, so we can calculate the change in momentum and divide by the time interval to find the average force.
@@ -283,11 +307,13 @@ The average force exerted on the bullet is $$ 9.00 \times 10^{3} \N $$ (9000 N, 
 
 This is an enormous force—about 30,000 times the bullet's weight! However, the force acts for only 2 milliseconds, which is why the impulse (and thus momentum change) is manageable. By Newton's third law, an equal and opposite force acts on the gun, causing the recoil felt by the shooter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -295,8 +321,10 @@ A car moving at 10 m/s crashes into a tree and stops in 0.26 s. Calculate the
 force the seat belt exerts on a passenger in the car to bring him to a halt. The
 mass of the passenger is 70 kg.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the impulse-momentum theorem. The passenger has initial momentum from moving with the car and must be brought to rest. The seat belt provides the force over the collision time to change the passenger's momentum.
@@ -325,11 +353,14 @@ The magnitude of the force is approximately $$ 2.7 \times 10^{3} \N $$ (about 60
 
 While 2700 N is a substantial force (roughly 4 times the passenger's weight), this is survivable because the seat belt distributes the force across the chest and pelvis. Without a seat belt, the passenger would continue at 10 m/s until hitting the dashboard or windshield, stopping in a much shorter time (perhaps 0.01 s), resulting in forces 26 times larger—likely fatal.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person slaps her leg with her hand, bringing her hand to rest in 2.50
 milliseconds from an initial speed of 4.00 m/s.
 (a) What is the average force exerted on the leg, taking the effective
@@ -337,8 +368,9 @@ mass of the hand and forearm to be 1.50 kg?
 (b) Would the force be any different if the woman clapped her hands together at the same speed
 and brought them to rest in the same time? Explain why or why not.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,11 +416,13 @@ This force of 2400 N is about 540 pounds—explaining why a hard slap hurts! The
 
 (b) The force on each hand when clapping is the same: $$ 2.40 \times 10^{3} \N $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -402,8 +436,9 @@ manner, assuming the head does not initially transfer significant momentum to
 the boxer's body.
 (d) Discuss the implications of your answers for parts (b) and (c).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -459,11 +494,13 @@ This analysis explains the fundamental danger of head trauma in contact sports. 
 
 (d) See explanation above.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -474,8 +511,9 @@ force of 4000 N on the car for 0.200 s.
 m/s and the car plus driver have a mass of 200 kg. You may neglect friction
 between the car and floor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -521,11 +559,13 @@ The car reverses direction after hitting the rail, which is exactly what we expe
 
 (b) The final velocity is $$ 1.20 \ms $$ away from the wall (the car bounces back).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -536,8 +576,10 @@ of paint. Calculate the force exerted by a 0.100-mg chip of paint that strikes a
 spacecraft window at a relative speed of $$ 4.00\times 10^{3} \ms $$, given the
 collision lasts $$ 6.00\times 10^{-8} \s $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the impulse-momentum theorem. The paint chip comes to rest upon impact (or embeds in the window), so its entire momentum is transferred. We need to convert the mass to kg and apply $$ F = \frac{\Delta p}{\Delta t} $$.
@@ -570,11 +612,13 @@ This result is remarkable—a tiny paint flake weighing just 0.1 milligrams exer
 
 This explains why spacecraft windows are made of multiple layers of reinforced glass and why space debris is a serious hazard. The International Space Station has had windows replaced due to damage from such impacts.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -585,8 +629,9 @@ dashboard that compresses an average of 1.00 cm.
 (b) Calculate the average force on the person if he is stopped by an air bag
 that compresses an average of 15.0 cm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -644,11 +689,13 @@ The airbag reduces the force by a factor of 15—exactly the ratio of the stoppi
 
 (b) The force on the person from the airbag is $$ 1.00 \times 10^{5} \N $$ (about 22,500 pounds).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -663,8 +710,9 @@ exerted upon it by the gun?
 (c) Compare this to the force exerted on the gun if the bullet is accelerated to
 its velocity in 10.0 ms (milliseconds).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -734,19 +782,24 @@ The recoil-reducing mechanism decreases the force felt by the shooter by a facto
 
 (c) The force on the gun from accelerating the bullet ($$ 1200 \N $$) is 3.33 times larger than the force on the plunger mechanism ($$ 360 \N $$).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A cruise ship with a mass of $$ 1.00\times 10^{7}\kg $$
 strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging
 the ship, the pier, and the tugboat captain's finances. Calculate the average
 force exerted on the pier using the concept of impulse. (Hint: First calculate
 the time it took to bring the ship to rest.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First, we use kinematics to find the stopping time, then apply the impulse-momentum theorem. The average velocity during uniform deceleration is half the initial velocity.
@@ -773,18 +826,23 @@ The average force exerted on the pier is $$ 4.69 \times 10^{5} \N $$ (about 105,
 
 Despite the relatively slow speed of 0.750 m/s (about 1.5 mph—walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the final speed of a 110-kg rugby player who is initially
 running at 8.00 m/s but collides head-on with a padded goalpost and
 experiences a backward force of $$ 1.76\times 10^{4}\N $$
 for $$ 5.50\times 10^{-2}\s $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the impulse-momentum theorem. The backward force produces a negative impulse that changes the player's momentum. We calculate the impulse and use it to find the change in velocity.
@@ -813,18 +871,23 @@ The final speed of the rugby player is 0.80 m/s, moving backward (away from the 
 
 The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight, but survivable due to the padding. Without padding, the collision time would be much shorter and the force could cause serious injury.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water from a fire hose is directed horizontally against a wall at
 a rate of 50.0 kg/s and a speed of 42.0 m/s. Calculate the magnitude
 of the force exerted on the wall, assuming the water's horizontal
 momentum is reduced to zero.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a continuous flow problem. We use the rate form of Newton's second law: $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta m}{\Delta t} \times \Delta v $$. The mass flow rate and velocity change give us the force directly.
@@ -849,18 +912,22 @@ The force exerted on the wall is $$ 2.10 \times 10^{3} \N $$ (about 470 pounds) 
 
 This force of 2100 N is substantial—equivalent to the weight of about 210 kg (460 lbs). This explains why firefighters must brace themselves when using high-pressure hoses. The force arises because 50 kg of water per second (about 50 liters) is having its momentum completely absorbed by the wall. If the water bounced back (as it partially does in reality), the force would be even greater because the momentum change would be larger.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.450-kg hammer is moving horizontally at 7.00 m/s when it strikes
 a nail and comes to rest after driving the nail 1.00 cm into a board.
 (a) Calculate the duration of the impact.
 (b) What was the average force exerted on the nail?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -900,17 +967,22 @@ A force of 1100 N—over 2000 times the hammer's weight—is exerted on the nail
 
 (b) The average force exerted on the nail is approximately $$ 1.10 \times 10^{3} \N $$ (about 250 pounds).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Starting with the definitions of momentum and kinetic energy,
 derive an equation for the kinetic energy of a particle expressed
 as a function of its momentum.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We start with the definitions of momentum ($$ p = mv $$) and kinetic energy ($$ \KE = \frac{1}{2}mv^2 $$) and algebraically eliminate velocity to express kinetic energy in terms of momentum and mass.
@@ -939,19 +1011,24 @@ $$ \KE = \frac{p^2}{2m} $$
 
 This relationship $$ \KE = \frac{p^2}{2m} $$ is very useful in physics. It shows that for a given momentum, a less massive object has more kinetic energy (since $$ m $$ is in the denominator). This explains why, in collisions with equal momentum transfer, lighter objects move faster and carry more kinetic energy. The relationship is particularly important in particle physics where momentum is often conserved while kinetic energy may not be.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A ball with a mass of 55g with an initial velocity of 10 m/s moves at an angle $$ 60^\circ $$
 above the $$ +x $$-direction. The ball hits a vertical
 wall and bounces off so that it is moving
 $$ 60^\circ $$ above the $$ -x $$ -direction with the same speed. What is the
 impulse delivered by the wall?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}\_f - \vb{p}\_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
@@ -988,19 +1065,24 @@ The impulse delivered by the wall is 0.55 kg·m/s in the $$ -x $$ direction (per
 
 The wall only changes the x-component of momentum, reversing it completely. The y-component remains unchanged because the wall exerts no vertical force (assuming a frictionless wall). The impulse magnitude of 0.55 kg·m/s represents twice the initial x-momentum, which is characteristic of a perfectly elastic bounce where the perpendicular velocity component reverses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When serving a tennis ball, a player hits the ball when its velocity
 is zero (at the highest point of a vertical toss).
 The racquet exerts a force of 540 N on the ball for 5.00 ms,
 giving it a final velocity of 45.0 m/s.
 Using these data, find the mass of the ball.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the impulse-momentum theorem. The impulse from the racquet equals the change in momentum of the ball. Since the ball starts from rest, the final momentum equals the impulse.
@@ -1025,18 +1107,23 @@ The mass of the tennis ball is 60.0 g.
 
 This result is consistent with official tennis ball specifications, which require balls to have a mass between 56.0 and 59.4 grams. Our calculated value of 60.0 g is very close to this range. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A punter drops a 0.075kg-ball from rest vertically 1 meter down onto his foot.
 The ball leaves the foot with a speed of 18 m/s at an angle $$ 55^\circ $$
 above the horizontal. What is the impulse delivered by the foot (magnitude and
 direction)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the ball's velocity just before impact (using free fall kinematics), then calculate the change in momentum vector from just before to just after the kick.
@@ -1079,10 +1166,12 @@ The impulse delivered by the foot is 1.64 kg·m/s at 61.7° above the horizontal
 
 The impulse angle (61.7°) is steeper than the final ball trajectory (55°) because the foot must also reverse the downward momentum of the falling ball. The foot provides both horizontal momentum (to send the ball forward) and upward momentum (to reverse the fall and launch the ball upward). This is a more complex momentum change than simply launching a stationary ball.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1094,4 +1183,4 @@ impulse
 : the average net external force times the time it acts; equal to the change in
 momentum
 
-</div>
+:::

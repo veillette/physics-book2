@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 14
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the method of heat transfer by convection.
-</div>
+
+:::
 
 Convection is driven by large-scale flow of matter. In the case of Earth, the
 atmospheric circulation is caused by the flow of hot air from the tropics to the
@@ -38,18 +39,22 @@ examples of natural convection.
 ![The figure shows a stove burner on which is placed a pot containing water. The front of the pot is cut away to show the water. Two pairs of semicircular arrows are in the left and right regions of the water. The left pair indicates counterclockwise motion of the water on the left and the right pair indicate clockwise motion of the water on the right. Several bubbles are also shown.](../resources/Figure_14_06_02.jpg 'Convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process keeps repeating.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Convection Rolls in a Heated Pan
 </div>
+
 Take two small pots of water and use an eye dropper to place a drop of food coloring near the bottom of each. Leave one on a bench top and heat the other over a stovetop. Watch how the color spreads and how long it takes the color to reach the top. Watch how convective loops form.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Heat Transfer by Convection: Convection of Air Through the Walls of a House
 </div>
+
 Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions  $$12.0\text{m}×18.0\text{m}×3.00\text{m} $$
  high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by  $$ 10.0\text{ºC} $$ ,
  thus replacing the heat transferred by convection alone.
@@ -98,7 +103,7 @@ supply oxygen for breathing and to dilute household pollutants. The term used
 for the process by which outside air leaks into the house from cracks around
 windows, doors, and the foundation is called “air infiltration.”
 
-</div>
+:::
 
 A cold wind is much more chilling than still cold air, because convection
 combines with conduction in the body to increase the rate at which energy is
@@ -119,9 +124,7 @@ equivalent of still air at about $$-18 \text{ºC} $$.
           </tr></thead><tbody>
 <tr>
             <td>
-
 $$\left(\mathbf{\text{ºC}}\right) $$
-
   </td>
             <td>
                $$\mathbf{2} $$ 
@@ -301,10 +304,12 @@ sweat to evaporate from the skin, but without air flow, the air becomes
 saturated and evaporation stops. Air flow caused by convection replaces the
 saturated air by dry air and evaporation continues.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate the Flow of Mass during Convection: Sweat-Heat Transfer away from the Body
 </div>
+
 The average person produces heat at the rate of about 120 W when at rest. At what rate must water evaporate from the body to get rid of all this energy? (This evaporation might occur when a person is sitting in the shade and surrounding temperatures are the same as skin temperature, eliminating heat transfer by other methods.)
 
 **Strategy**
@@ -315,12 +320,14 @@ loss per unit time is
 <div class="equation" >
  $$\frac{Q}{t}=\frac{ m L_{\text{v}}}{t}=120 \text{W}=120 \text{J/s} \text{.}  $$
 </div>
+
 We divide both sides of the equation by  $${L}_{\text{v}} $$
  to find that the mass evaporated per unit time is
 
 <div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{ {L}_{\text{v}}}\text{.} $$
 </div>
+
 **Solution**
 
 (1) Insert the value of the latent heat
@@ -329,6 +336,7 @@ from [[Table 1]](../contents/ch14PhaseChangeAndLatentHeat#Table1), $${L}_{\text{
 <div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{2256\text{J/g}}= 0.0532\text{g/s}= 3.19\text{g/min} \text{.}  $$
 </div>
+
 **Discussion**
 
 Evaporating about 3 g/min seems reasonable. This would be about 180 g (about 7
@@ -336,7 +344,7 @@ oz) per hour. If the air is very dry, the sweat may evaporate without even being
 noticed. A significant amount of evaporation also takes place in the lungs and
 breathing passages.
 
-</div>
+:::
 
 Another important example of the combination of phase change and convection
 occurs when water evaporates from the oceans. Heat is removed from the ocean
@@ -370,14 +378,19 @@ released to the land mass when the iceberg forms on Greenland.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why using a fan in the summer feels refreshing!
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Using a fan increases the flow of air: warm air near your body is replaced by cooler air from elsewhere. Convection increases the rate of heat transfer so that moving air “feels” cooler than still air.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -389,28 +402,37 @@ Using a fan increases the flow of air: warm air near your body is replaced by co
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 One way to make a fireplace more energy efficient is to have an external air supply for the combustion of its fuel. Another is to have room air circulate around the outside of the fire box and back into the room. Detail the methods of heat transfer involved in each.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 On cold, clear nights horses will sleep under the cover of large trees. How does this help them keep warm?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what wind speed does  $$-10 \text{ºC} $$
  air cause the same chill factor as still air at  $$-29 \text{ºC} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -456,16 +478,20 @@ This is why:
 
 The wind speed is **10 m/s** (36 km/h or 22 mph).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what temperature does still air cause the same chill factor as  $$-5\text{ºC} $$
  air moving at 15 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -495,29 +521,39 @@ The wind-chill effect is also why fans make us feel cooler in summer even though
 
 Still air at **-26ºC** causes the same chill factor as -5ºC air moving at 15 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The “steam” above a freshly made cup of instant coffee is really water vapor droplets condensing after evaporating from the hot coffee. What is the final temperature of 250 g of hot coffee initially at  $$90.0\text{ºC} $$
  if 2.00 g evaporates from it? The coffee is in a Styrofoam cup, so other methods of heat transfer can be neglected.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 85.7\text{ºC} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by  $$0.750\text{ºC} $$ ?
 
 (b) Is this a reasonable amount of water to evaporate in the form of
 perspiration, assuming the relative humidity of the surrounding air is low?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -567,18 +603,22 @@ In low humidity environments (deserts), this small amount of perspiration can ev
 (a) **0.0648 kg** or **64.8 g** of water must evaporate.
 (b) Yes, this is a **reasonable and typical amount** for perspiration in warm conditions or during moderate physical activity.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On a hot dry day, evaporation from a lake has just enough heat transfer to balance the  $$ 1.00{\text{kW/m}}^{2} $$
  of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you 
 follow the steps in the 
 [Problem-Solving Strategies for the Effects of Heat Transfer](../contents/ch14HeatTransferMethods#Note1).
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -663,17 +703,21 @@ Note: The expected answer is 1.48 kg, suggesting slightly different values for c
 
 Approximately **1.48 kg** (or 1.5 kg) of water evaporates per square meter in 1.00 hour.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One winter day, the climate control system of a large university classroom building malfunctions. As a result,  $$500 {\text{m}}^{3} $$
  of excess cold air is brought in each minute. At what rate in kilowatts must heat transfer occur to warm this air by  $$10.0\text{ºC} $$
  (that is, to bring the air to room temperature)?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -730,11 +774,14 @@ Over an 8-hour day, this would cost about \$86, clearly motivating quick repair 
 
 Heat must be transferred at a rate of approximately **108 kW** to warm the incoming cold air.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$5 \times 10^{5}  {\text{m}}^{3} $$
  of  $$1200 \text{ºC} $$
  lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of  $$2700 {\text{kg/m}}^{3} $$
@@ -744,19 +791,26 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
 ![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_14_06_07.jpg 'Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)')
 {: #Figure7}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$2 \times 10^{4} \text{MW} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by  $$2.00\text{ºC} $$ .
  What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is  $$1050{\text{kg/m}}^{3} $$ ?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -818,11 +872,14 @@ Without this efficient circulatory heat transport, the body would overheat rapid
 
 The rate of heat transfer by forced convection through blood circulation is approximately **293 W**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person inhales and exhales 2.00 L of  $$37.0\text{ºC} $$
  air, evaporating  $$ 4.00 \times 10^{-2} \text{g} $$
  of water from the lungs and breathing passages with each breath.
@@ -838,8 +895,10 @@ rate of heat transfer for warming the air?
 (d) Discuss the total rate of heat transfer as it relates to typical metabolic
 rates. Will this breathing be a major form of heat transfer for this person?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 97.2 J
 
 (b) 29.2 W
@@ -850,11 +909,14 @@ rates. Will this breathing be a major form of heat transfer for this person?
 consumes 120 to 210 W. Therefore, the total rate of heat loss from breathing
 will not be a major form of heat loss for this person.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A glass coffee pot has a circular bottom with a 9.00-cm diameter in contact with a heating element that keeps the coffee warm with a continuous heat transfer rate of 50.0 W
 
 (a) What is the temperature of the bottom of the pot, if it is 3.00 mm thick and
@@ -864,8 +926,9 @@ the inside temperature is $$60.0\text{ºC} $$ ?
 transfer is removed by evaporation, how many grams per minute evaporate? Take
 the heat of vaporization to be 2340 kJ/kg.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -942,5 +1005,6 @@ In reality, some heat is also lost through the pot walls and by radiation, so ac
 (a) The temperature of the bottom of the pot is **88.1ºC**.
 (b) Approximately **1.28 g** of coffee evaporates per minute.
 
-</div>
+:::
+
 </div>

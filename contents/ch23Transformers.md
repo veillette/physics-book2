@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain how a transformer works.
 * Calculate voltage, current, and/or number of turns given the other quantities.
-</div>
+
+:::
 
 **Transformers** do what their name implies—they transform voltages from one
 value to another (The term voltage is used rather than emf, because transformers
@@ -106,10 +107,12 @@ is the relationship between the output and input currents of a transformer. So
 if voltage increases, current decreases. Conversely, if voltage decreases,
 current increases.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Characteristics of a Step-Up Transformer
 </div>
+
 A portable x-ray unit has a step-up transformer, the 120 V input of which is transformed to the 100 kV output needed by the x-ray tube. The primary has 50 loops and draws a current of 10.00 A when in use. (a) What is the number of loops in the secondary? (b) Find the current output of the secondary.
 
 **Strategy and Solution for (a)**
@@ -120,6 +123,7 @@ and enter the known values. This gives
 <div class="equation" >
  $$\begin{array}{lll}{N}_{\text{s}}& =& {N}_{\text{p}}\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}\\ & =& \left(50\right)\frac{100 000\text{V}}{120 \text{V}}= 4.17 \times 10^{4} \text{.}\end{array} $$
 </div>
+
 **Discussion for (a)**
 
 A large number of loops in the secondary (compared with the primary) is required
@@ -134,6 +138,7 @@ $${I}\_{\text{s}} $$ and entering known values. This gives
 <div class="equation" >
  $$\begin{array}{lll}{I}_{\text{s}}& =& {I}_{\text{p}}\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}}\\ & =& \left(10.00 \text{A}\right) \frac{50}{ 4.17 \times 10^{4} } = 12.0 \text{mA}\text{.}\end{array} $$
 </div>
+
 **Discussion for (b)**
 
 As expected, the current output is significantly less than the input. In certain
@@ -141,7 +146,7 @@ spectacular demonstrations, very large voltages are used to produce long arcs,
 but they are relatively safe because the transformer output does not supply a
 large current. Note that the power input here is $${P}_{\text{p}}={I}_{\text{p}}{V}_{\text{p}}=\left( 10.00 \text{A}\right)\left(120 \text{V}\right)= 1.20 \text{kW} $$ . This equals the power output $${P}_{\text{p}}={I}_{\text{s}}{V}_{\text{s}}=\left( 12.0 \text{mA}\right)\left(100 \text{kV}\right)= 1.20 \text{kW} $$ , as we assumed in the derivation of the equations used. 
 
-</div>
+:::
 
 The fact that transformers are based on Faraday’s law of induction makes it
 clear why we cannot use transformers to change DC voltages. If there is no
@@ -154,10 +159,12 @@ common use wherever it is necessary to increase or decrease voltages.
 ![The first part of the figure shows a graph of DC voltage input. The graph shows a variation of voltage V p along the Y axis and time t along the X axis. The wave is a pulsed wave nearly square in nature with the vibrations only in positive half cycle. The negative half cycles are not present in the wave. The second part of the figure shows a spike wave graph. The graph shows a variation of voltage V s along the Y axis and time t along the X axis. The wave has both positive and negative half cycles shown as sharp spikes of uniform amplitude.](../resources/Figure_23_07_04.jpg 'Transformers do not work for pure DC voltage input, but if it is switched on and off as on the top graph, the output will look something like that on the bottom graph. This is not the sinusoidal AC most AC appliances need.')
 {: #Figure4 height="300"}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Characteristics of a Step-Down Transformer
 </div>
+
 A battery charger meant for a series connection of ten nickel-cadmium batteries (total emf of 12.5 V DC) needs to have a 15.0 V output to charge the batteries. It uses a step-down transformer with a 200-loop primary and a 120 V input. (a) How many loops should there be in the secondary coil? (b) If the charging current is 16.0 A, what is the input current?
 
 **Strategy and Solution for (a)**
@@ -168,6 +175,7 @@ $${N}\_{\text{s}} $$ and entering known values gives
 <div class="equation" >
  $$\begin{array}{lll}{N}_{\text{s}}& =& {N}_{\text{p}}\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}\\ & =& \left(200\right)\frac{15.0 \text{V}}{120 \text{V}}=25 \text{.}\end{array} $$
 </div>
+
 **Strategy and Solution for (b)**
 
 The current input can be obtained by solving $$\frac{ {I}_{\text{s}}}{ {I}_{\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ for $${I}_{\text{p}} $$
@@ -176,6 +184,7 @@ and entering known values. This gives
 <div class="equation" >
  $$\begin{array}{lll}{I}_{\text{p}}& =& {I}_{\text{s}}\frac{ {N}_{\text{s}}}{ {N}_{\text{p}}}\\ & =& \left(16.0 \text{A}\right)\frac{25}{200}=2.00 \text{A}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 The number of loops in the secondary is small, as expected for a step-down
@@ -192,23 +201,26 @@ So the AC output of the secondary coil needs to be converted into DC. This is
 done using something called a rectifier, which uses devices called diodes that
 allow only a one-way flow of current.
 
-</div>
+:::
 
 Transformers have many applications in electrical safety systems, which are
 discussed
 in [Electrical Safety: Systems and Devices](../contents/ch23ElectricalSafetySystemsAndDevices)
 .
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Generator
 </div>
+
 Generate electricity with a bar magnet! Discover the physics behind the phenomena by exploring magnets and how you can use them to make a bulb light.
 
 <div class="media" id="PhET_module" data-alt="Generator">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/generator/#sim-generator"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -219,6 +231,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {N}_{\text{s}}}{ {N}_{\text{p}}}\text{,} $$
   </div>
+
      where
    $${V}_{\text{p}} $$ and
    $${V}_{\text{s}} $$ are the voltages across primary and secondary coils having
@@ -234,20 +247,27 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain what causes physical vibrations in transformers at twice the frequency of the AC power involved.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A plug-in transformer, like that in [[Figure 4]](#Figure4), supplies 9.00 V to a video game system. (a) How many turns are in its secondary coil, if its input voltage is 120 V and the primary coil has 400 turns? (b) What is its input current when its output is 1.30 A?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a step-down transformer since the output voltage (9.00 V) is less than the input voltage (120 V). We use the transformer equation $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ for part (a) and the current relationship $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$ for part (b).
@@ -278,15 +298,20 @@ As expected for a step-down transformer, the number of turns in the secondary is
 
 (b) $$ 9.75 \times 10^{-2} \text{ A} $$ or 97.5 mA
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An American traveler in New Zealand carries a transformer to convert New Zealand's standard 240 V to 120 V so that she can use some small appliances on her trip. (a) What is the ratio of turns in the primary and secondary coils of her transformer? (b) What is the ratio of input to output current? (c) How could a New Zealander traveling in the United States use this same transformer to power her 240 V appliances from 120 V?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the transformer equations: $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ and $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$.
@@ -317,15 +342,20 @@ The 2:1 turns ratio makes this a step-down transformer when used to convert 240 
 
 (a) $$N_p/N_s = 2.00$$; (b) $$I_p/I_s = 0.500$$; (c) Reverse the connections, using the 120 V coil as primary and 240 V coil as secondary.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A cassette recorder uses a plug-in transformer to convert 120 V to 12.0 V, with a maximum current output of 200 mA. (a) What is the current input? (b) What is the power input? (c) Is this amount of power reasonable for a small appliance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a step-down transformer (120 V to 12.0 V). For an ideal transformer, power is conserved: $$P_p = P_s$$, which means $$V_p I_p = V_s I_s$$. We can use this to find the input current, then calculate the power.
@@ -364,15 +394,20 @@ The voltage is reduced by a factor of 10, and correspondingly the input current 
 
 (c) Yes, this amount of power is quite reasonable for a small appliance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the voltage output of a transformer used for rechargeable flashlight batteries, if its primary has 500 turns, its secondary 4 turns, and the input voltage is 120 V? (b) What input current is required to produce a 4.00 A output? (c) What is the power input?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ for voltage, $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$ for current, and $$P = IV$$ for power.
@@ -405,15 +440,20 @@ This step-down transformer reduces voltage by a factor of 125, suitable for char
 
 (a) 0.960 V; (b) 32.0 mA; (c) 3.84 W.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The plug-in transformer for a laptop computer puts out 7.50 V and can supply a maximum current of 2.00 A. What is the maximum input current if the input voltage is 240 V? Assume 100% efficiency. (b) If the actual efficiency is less than 100%, would the input current need to be greater or smaller? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use power conservation for an ideal transformer: $$P_p = P_s$$, which gives $$V_p I_p = V_s I_s$$. For part (b), we consider what happens when some power is lost to heat in a real transformer.
@@ -450,15 +490,20 @@ This problem illustrates why transformer efficiency matters. Even a small loss i
 
 (b) Greater input current needed, because energy losses must be compensated by additional input power.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A multipurpose transformer has a secondary coil with several points at which a voltage can be extracted, giving outputs of 5.60, 12.0, and 480 V. (a) The input voltage is 240 V to a primary coil of 280 turns. What are the numbers of turns in the parts of the secondary used to produce the output voltages? (b) If the maximum input current is 5.00 A, what are the maximum output currents (each used alone)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$N_s = N_p \times \frac{V_s}{V_p}$$ for turns and $$I_s = I_p \times \frac{V_p}{V_s}$$ for currents.
@@ -511,15 +556,20 @@ The low-voltage taps can deliver very high currents, suitable for applications l
 
 (a) 6.5, 14.0, and 560 turns; (b) 214 A, 100 A, and 2.50 A respectively.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large power plant generates electricity at 12.0 kV. Its old transformer once converted the voltage to 335 kV. The secondary of this transformer is being replaced so that its output can be 750 kV for more efficient cross-country transmission on upgraded transmission lines. (a) What is the ratio of turns in the new secondary compared with the old secondary? (b) What is the ratio of new current output to old output (at 335 kV) for the same power? (c) If the upgraded transmission lines have the same resistance, what is the ratio of new line power loss to old?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use the voltage-turns relationship. For part (b), we use power conservation to relate currents at different voltages. For part (c), we use $$P_{\text{loss}} = I^2 R$$ to compare line losses.
@@ -562,16 +612,21 @@ By increasing the transmission voltage from 335 kV to 750 kV (a factor of 2.24),
 
 (c) 0.20, or 20.0% (new losses are only 20% of old losses)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the power output in the previous problem is 1000 MW and line resistance is  $$2.00 \Omega  $$ ,
  what were the old and new line losses?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From the previous problem, the old voltage was 335 kV and new voltage is 750 kV. We find the current required for 1000 MW at each voltage using $$P = VI$$, then calculate line loss using $$P_{\text{loss}} = I^2R$$.
@@ -606,11 +661,14 @@ The new system reduces line losses from 17.8 MW to 3.56 MW, saving 14.2 MW (80% 
 
 Old line loss: 17.8 MW; New line loss: 3.56 MW.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 The 335 kV AC electricity from a power transmission line is fed into the primary
@@ -619,8 +677,10 @@ number in the primary is $${N}_{\text{s}}/{N}_{\text{p}}=1000 $$ .
 (a) What voltage is induced in the secondary? (b) What is unreasonable about
 this result? (c) Which assumption or premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "unreasonable results" problem, where we apply the transformer equation correctly but arrive at a physically unrealistic result. We use $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ to find the secondary voltage, then evaluate whether the result makes physical sense.
@@ -659,11 +719,14 @@ This problem illustrates that transformers at transmission-line voltages are typ
 
 (c) The unreasonable assumption is applying a 1000:1 step-up ratio to an already high input voltage of 335 kV. In reality, transformers operating at transmission-line voltages are step-down or have modest turns ratios.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a double transformer to be used to create very large voltages. The
@@ -677,10 +740,12 @@ maximum output current of the final stage based on the input current. Discuss
 the possibility of power losses in the devices and the effect on the output
 current and power.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -697,4 +762,4 @@ step-up transformer
 step-down transformer
 : a transformer that decreases voltage
 
-</div>
+:::

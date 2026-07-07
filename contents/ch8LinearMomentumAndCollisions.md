@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 8
 ---
-
 ![Rugby players colliding during a rugby match.](../resources/Figure_08_00_01.jpg 'Each rugby player has great momentum, which will affect the outcome of their collisions with each other and the ground. (credit: ozzzie, Flickr)')
 {: #Figure1}
 
@@ -21,6 +20,8 @@ Momentum, like energy, is important because it is conserved. Only a few physical
 quantities are conserved in nature, and studying them yields fundamental insight
 into how nature works, as we shall see in our study of momentum.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hxMaoFcYSrw"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

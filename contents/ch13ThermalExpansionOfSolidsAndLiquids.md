@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 13
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and describe thermal expansion.
 * Calculate the linear expansion of an object given its initial length, change in temperature, and coefficient of linear expansion.
 * Calculate the volume expansion of an object given its initial volume, change in temperature, and coefficient of volume expansion.
 * Calculate thermal stress on an object given its original volume, temperature change, volume change, and bulk modulus.
-</div>
+
+:::
 
 ![Thermal expansion joints in the Auckland Harbour Bridge in New Zealand](../resources/Figure_13_02_01.jpg 'Thermal expansion joints like these in the Auckland Harbour Bridge in New Zealand allow bridges to change length without buckling. (credit: Ingolfson, Wikimedia Commons)')
 {: #Figure1}
@@ -43,21 +44,24 @@ substances under ordinary conditions, there is no preferred direction, and an
 increase in temperature will increase the solid’s size by a certain fraction in
 each dimension.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Linear Thermal Expansion—Thermal Expansion in One Dimension
 </div>
+
 The change in length  $$\Delta L $$  is proportional to length  $$L $$ .
  The dependence of thermal expansion on temperature, substance, and length is summarized in the equation
 
 <div class="equation" >
  $$\Delta L=\alpha L\Delta T, $$
 </div>
+
 where  $$\Delta L $$
  is the change in length  $$L $$,  $$\Delta T $$
  is the change in temperature, and  $$\alpha  $$  is the **coefficient of linear expansion**, which varies slightly with temperature.
 
-</div>
+:::
 
 [[Table 1]](#Table1) lists representative values of the coefficient of linear
 expansion, which may have units of $$1/\text{ºC} $$ or 1/K. Because the size of
@@ -255,10 +259,12 @@ used.
           </tr>
         </tbody></table>
 
-<div id="Example1" class="example"  markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Linear Thermal Expansion: The Golden Gate Bridge
 </div>
+
 The main span of San Francisco’s Golden Gate Bridge is 1275 m long at its coldest. The bridge is exposed to temperatures ranging from  $$-15\text{ºC} $$
  to  $$40\text{ºC} $$ .
  What is its change in length between these temperatures? Assume that the bridge is made entirely of steel.
@@ -277,13 +283,14 @@ Plug all of the known values into the equation to solve for $$\Delta L $$.
 <div class="equation" >
  $$\Delta L=\alpha L\Delta T=\left(\frac{12 \times 10^{-6} }{\text{ºC}}\right)\left(1275 \text{m}\right)\left(55\text{ºC}\right)=0.84 \text{m} \text{.}  $$
 </div>
+
 **Discussion**
 
 Although not large compared with the length of the bridge, this change in length
 is observable. It is generally spread over many expansion joints so that the
 expansion at each joint is small.
 
-</div>
+:::
 
 ### Thermal Expansion in Two and Three Dimensions
 
@@ -297,30 +304,35 @@ hole as pushing each other farther apart as temperature increases. Obviously,
 the ring of neighbors must get slightly larger, so the hole gets slightly
 larger).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Thermal Expansion in Two Dimensions
 </div>
+
 For small temperature changes, the change in area  $$\Delta A $$
  is given by
 
 <div class="equation" >
  $$\Delta A=2\alpha A\Delta T, $$
 </div>
+
 where  $$\Delta A $$  is the change in area  $$A $$ ,
   $$\Delta T $$
  is the change in temperature, and  $$\alpha  $$
  is the coefficient of linear expansion, which varies slightly with temperature.
 
-</div>
+:::
 
 ![Part a shows the outline of a flat metal plate before and after expansion. After expansion, it has the same shape and ratio of dimensions as before, but it takes up a greater area. Part b shows the outline of a flat metal plate with a hole in it, before and after expansion. The hole expands. Part c shows the outline of a rectangular box before and after expansion. After expansion, the box has the same proportions as before expansion, but it has a greater volume.](../resources/Figure_13_02_02.jpg 'In general, objects expand in all directions as temperature increases. In these drawings, the original boundaries of the objects are shown with solid lines, and the expanded boundaries with dashed lines. (a) Area increases because both length and width increase. The area of a circular plug also increases. (b) If the plug is removed, the hole it leaves becomes larger with increasing temperature, just as if the expanding plug were still in place. (c) Volume also increases, because all three dimensions increase.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Thermal Expansion in Three Dimensions
 </div>
+
 The change in volume  $$\Delta V $$
  is very nearly  $$\Delta V=3\alpha V\Delta T $$ .
  This equation is usually written as
@@ -328,10 +340,11 @@ The change in volume  $$\Delta V $$
 <div class="equation" >
  $$\Delta V=\beta V\Delta T\text{,} $$
 </div>
+
 where  $$\beta  $$  is the **coefficient of volume expansion** and  $$\beta \approx 3\alpha  $$ .
  Note that the values of  $$\beta  $$  in [[Table 1]](#Table1) are almost exactly equal to  $$3\alpha  $$.
 
-</div>
+:::
 
 In general, objects will expand with increasing temperature. Water is the most
 important exception to this rule. Water expands with increasing temperature (its
@@ -355,10 +368,12 @@ the body of water.
 ![A graph of density of freshwater in grams per cubic centimeter versus temperature in degrees Celsius. The line is convex up. At zero degrees C, the density is just under zero point nine nine nine five grams per cubic centimeter. The density then increases at a decreasing rate until it hits a peak of about zero point nine nine nine nine seven grams per cubic centimeter at about four degrees C. Above four degrees C, the density decreases with increasing temperature.](../resources/Figure_13_02_03.jpg 'The density of water as a function of temperature. Note that the thermal expansion is actually very small. The maximum density at ( +4 \\text{ºC} ) is only 0.0075% greater than the density at ( 2 \\text{ºC} ), and 0.012% greater than that at ( 0 \\text{ºC} ).')
 {: #Figure3}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Real-World Connections—Filling the Tank
 </div>
+
 Differences in the thermal expansion of materials can lead to interesting effects at the gas station. One example is the dripping of gasoline from a freshly filled tank on a hot day. Gasoline starts out at the temperature of the ground under the gas station, which is cooler than the air temperature above. The gasoline cools the steel tank when it is filled. Both gasoline and steel tank expand as they warm to air temperature, but gasoline expands much more than steel, and so it may overflow.
 
 This difference in expansion can also cause problems when interpreting the
@@ -372,12 +387,14 @@ out much more quickly in the summer.
 ![Fuel gauge pointing to empty.](../resources/Figure_13_02_04.jpg 'Because the gas expands more than the gas tank with increasing temperature, you can’t drive as many miles on “empty” in the summer as you can in the winter. (credit: Hector Alejandro, Flickr)')
 {: #Figure4}
 
-</div>
+:::
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating Thermal Expansion: Gas vs. Gas Tank
 </div>
+
 Suppose your 60.0-L (15.9-gal) steel gasoline tank is full of gas, so both the tank and the gasoline have a temperature of  $$ 15.0\text{ºC} $$ .
  How much gasoline has spilled by the time they warm to  $$ 35.0\text{ºC} $$ ?
 
@@ -396,21 +413,25 @@ calculate the change in volume of the gasoline and of the tank.
 <div class="equation" >
  $${\Delta V}_{\text{s}}={\beta }_{\text{s}}{V}_{\text{s}}\Delta T. $$
 </div>
+
 2. The increase in volume of the gasoline is given by this equation:
 
 <div class="equation" >
  $${\Delta V}_{\text{gas}}={\beta }_{\text{gas}}{V}_{\text{gas}}\Delta T. $$
 </div>
+
 3. Find the difference in volume to determine the amount spilled as
 
 <div class="equation" >
  $${V}_{\text{spill}}={\Delta V}_{\text{gas}}-{\Delta V}_{\text{s}}. $$
 </div>
+
 Alternatively, we can combine these three equations into a single equation. (Note that the original volumes are equal.)
 
 <div class="equation" >
  $$\begin{array}{lll}{V}_{\text{spill}}& =& \left({\beta }_{\text{gas}}-{\beta }_{\text{s}}\right)V\Delta T\\ & =& \left[ \left(950-35\right) \times 10^{-6} /\text{ºC}\right]  \left( 60.0 \text{L}\right)\left( 20.0\text{ºC}\right)\\ & =&  1.10 \text{L}.\end{array} $$
 </div>
+
 **Discussion**
 
 This amount is significant, particularly for a 60.0-L tank. The effect is so
@@ -425,7 +446,7 @@ and solids resist being compressed with extremely large forces. To avoid
 rupturing rigid containers, these containers have air gaps, which allow them to
 expand and contract without stressing them.
 
-</div>
+:::
 
 ### Thermal Stress
 
@@ -438,10 +459,12 @@ allowing the combination to cool. Thermal stress can explain many phenomena,
 such as the weathering of rocks and pavement by the expansion of ice when it
 freezes.
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Calculating Thermal Stress: Gas Pressure
 </div>
+
 What pressure would be created in the gasoline tank considered in [[Example 2]](#Example2), if the gasoline increases in temperature from  $$ 15.0\text{ºC} $$
  to  $$ 35.0\text{ºC} $$
  without being allowed to expand? ** Assume that the bulk modulus  $$B $$
@@ -456,6 +479,7 @@ change in volume $$\Delta V $$ to pressure:
 <div class="equation" >
  $$\Delta V=\frac{1}{B}\frac{F}{A}{V}_{0}, $$
 </div>
+
 where  $$F/A $$  is pressure,  $${V}_{0} $$
  is the original volume, and  $$B $$
  is the bulk modulus of the material involved. We will use the amount spilled in [[Example 2]](#Example2) as the change in volume,  $$\Delta V $$.
@@ -467,6 +491,7 @@ where  $$F/A $$  is pressure,  $${V}_{0} $$
 <div class="equation" >
  $$P=\frac{F}{A}=\frac{\Delta V}{ {V}_{0}}B\text{.} $$
 </div>
+
 2. Insert the known values. The bulk modulus for gasoline is  $$B= 1.00 \times 10^{9}  {\text{N/m}}^{2} $$ .
  In the previous example, the change in volume  $$\Delta V= 1.10 \text{L} $$
  is the amount that would spill. Here,  $${V}_{0}= 60.0 \text{L} $$
@@ -475,12 +500,13 @@ where  $$F/A $$  is pressure,  $${V}_{0} $$
 <div class="equation" >
  $$P=\frac{1.10 \text{L}}{60.0 \text{L}}\left( 1.00 \times 10^{9}  \text{Pa}\right)= 1.83 \times 10^{7}  \text{Pa}\text{.} $$
 </div>
+
 **Discussion**
 
 This pressure is about $$2500 {\text{lb/in}}^{2} $$ ,
 _much_ more than a gasoline tank can handle.
 
-</div>
+:::
 
 Forces and pressures created by thermal stress are typically as great as that in
 the example above. Railroad tracks and roadways can buckle on hot days if they
@@ -518,7 +544,9 @@ smaller coefficients of expansion closer to those of teeth.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem"  markdown="1">
+
+::: problem
+
 Two blocks, A and B, are made of the same material. Block A has dimensions  $$l×w×h=L×2L×L $$
  and Block B has dimensions  $$2L×2L×2L $$ .
  If the temperature changes, what is (a) the change in the volume of the two blocks, (b) the change in the cross-sectional area  $$l×w $$ ,
@@ -527,8 +555,10 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
 ![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_13_02_06.jpg ' ')
 {: #Figure6}
 
-</div>
-<div class="solution"  data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 (a) The change in volume is proportional to the original volume. Block A has a volume of  $$L×2L×L={2L}^{3}\text{.} $$  Block B has a volume of  $$2L×2L×2L={8L}^{3}, $$
  which is 4 times that of Block A. Thus the change in volume of Block B should be 4 times the change in volume of Block A.
 
@@ -541,7 +571,8 @@ in the cross-sectional area of Block B is twice that of Block A.
 original height of Block B is twice that of A, the change in the height of Block
 B is twice that of Block A.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -554,6 +585,7 @@ B is twice that of Block A.
   <div class="equation">
    $$\Delta L=\alpha L\Delta T, $$
   </div>
+
      where
    $$\Delta L $$ is the change in length    $$L $$ ,
    $$\Delta T $$ is the change in temperature, and
@@ -562,12 +594,14 @@ B is twice that of Block A.
   <div class="equation">
    $$\Delta A=2\alpha A\Delta T, $$
   </div>
+
      where
    $$\Delta A $$ is the change in area.
 * The change in volume due to thermal expansion is
   <div class="equation">
    $$\Delta V=\beta V\Delta T, $$
   </div>
+
      where
    $$\beta  $$ is the coefficient of volume expansion and
    $$\beta \approx 3\alpha  $$ . Thermal stress is created when thermal expansion is constrained.
@@ -575,11 +609,15 @@ B is twice that of Block A.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Thermal stresses caused by uneven cooling can easily break glass cookware. Explain why Pyrex®, a glass with a small coefficient of linear expansion, is less susceptible.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider how thermal stresses arise from uneven temperature distribution and how the coefficient of expansion affects these stresses.
 
@@ -596,15 +634,21 @@ When Pyrex® experiences the same temperature difference:
 
 **Discussion:**
 Pyrex® was specifically engineered for thermal shock resistance by using borosilicate glass, which has a much lower coefficient of thermal expansion than ordinary soda-lime glass. This makes it ideal for cookware that experiences rapid temperature changes, such as going from oven to countertop or from refrigerator to oven. However, even Pyrex® has limits and can break if subjected to extreme thermal shock or if there are manufacturing defects or scratches that concentrate stress.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water expands significantly when it freezes: a volume increase of about 9% occurs. As a result of this expansion and because of the formation and growth of crystals as water freezes, anywhere from 10% to 30% of biological cells are burst when animal or plant material is frozen. Discuss the implications of this cell damage for the prospect of preserving human bodies by freezing so that they can be thawed at some future date when it is hoped that all diseases are curable.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the structural damage caused by ice crystal formation and volume expansion, and what this means for tissue integrity and function.
 
@@ -623,15 +667,21 @@ The prospect of preserving human bodies by freezing (cryonics) faces severe chal
 
 **Discussion:**
 Current cryonics procedures use cryoprotectants (antifreeze chemicals) to try to minimize ice formation, aiming for vitrification (glass-like solidification) rather than freezing. However, these chemicals are toxic and don't completely prevent ice formation in large organs. The fundamental challenge is that the damage from freezing is not merely a matter of preserving cell chemistry—it involves preserving the precise three-dimensional structure and connectivity of trillions of cells, which may be physically impossible with current or foreseeable technology.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 One method of getting a tight fit, say of a metal peg in a hole in a metal block, is to manufacture the peg slightly larger than the hole. The peg is then inserted when at a different temperature than the block. Should the block be hotter or colder than the peg during insertion? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider what needs to happen: either the peg must shrink or the hole must expand (or both) to allow insertion. Use thermal expansion principles.
 
@@ -655,15 +705,21 @@ There are two viable approaches:
 
 **Discussion:**
 This technique, called interference fitting or shrink fitting, is commonly used in manufacturing and construction. Examples include fitting metal bands around wooden barrels (cooper's technique), mounting bearing races, and assembling railway wheels. The resulting joint can be extremely strong and doesn't require welding or fasteners. The same principle explains why it's easier to remove a stuck jar lid by running hot water over it—the metal lid expands more than the glass, loosening the fit.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does it really help to run hot water over a tight metal lid on a glass jar before trying to open it? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Compare the thermal expansion of metal and glass when heated, and consider which expands more.
 
@@ -684,15 +740,21 @@ The differential expansion creates a small gap between the lid and jar, breaking
 
 **Discussion:**
 This technique works best if you heat just the lid (not the whole jar), maximizing the temperature difference and thus the differential expansion. Some additional factors also help: heating can soften any sticky residue (like dried food) on the threads, and thermal expansion can release some of the vacuum seal that often forms in sealed jars. This is a practical example of how understanding thermal expansion can solve everyday problems.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Liquids and solids expand with increasing temperature, because the kinetic energy of a body's atoms and molecules increases. Explain why some materials *shrink* with increasing temperature.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider materials with special molecular structures or bonding arrangements that can change with temperature.
 
@@ -709,19 +771,25 @@ Some materials have negative thermal expansion coefficients and shrink when heat
 
 **Discussion:**
 These materials with negative thermal expansion are relatively rare but scientifically important. They're useful for creating materials with zero net thermal expansion when combined with normally expanding materials, which is valuable for precision instruments, optical devices, and electronics that must maintain exact dimensions over temperature changes. The existence of negative thermal expansion shows that thermal expansion is not simply about increased atomic vibration—it depends critically on the specific bonding and structural arrangements in the material.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The height of the Washington Monument is measured to be 170 m on a day when the temperature is  $$ 35.0\text{ºC} $$ .
  What will its height be on a day when the temperature falls to  $$ - 10.0\text{ºC} $$ ?
  Although the monument is made of limestone, assume that its thermal coefficient of expansion is the same as marble's.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the linear thermal expansion equation $$\Delta L=\alpha L\Delta T$$ with the coefficient of linear expansion for marble from Table 1. Calculate the change in height, then subtract from the original height since temperature decreases.
 
@@ -741,16 +809,22 @@ The new height is:
 
 **Discussion:**
 The Washington Monument contracts by about 5.3 cm (about 2 inches) when the temperature drops by 45ºC. While this seems like a small change, it's measurable with precision instruments. This thermal contraction must be accounted for in the monument's design to prevent structural damage from thermal stresses. The monument has expansion joints that allow for this temperature-induced size change without cracking the stone.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How much taller does the Eiffel Tower become at the end of a day when the temperature has increased by  $$15\text{ºC} $$ ?
  Its original height is 321 m and you can assume it is made of steel.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the linear thermal expansion equation $$\Delta L=\alpha L\Delta T$$ with the coefficient of linear expansion for steel from Table 1.
 
@@ -765,17 +839,23 @@ Given: $$L = 321 \text{ m}$$, $$\Delta T = 15\text{ºC}$$
 
 **Discussion:**
 The Eiffel Tower grows by about 5.8 cm (nearly 2.3 inches) on a warm day. This is a significant amount and must be accounted for in the tower's design. The tower was built with expansion joints and the structure is designed to handle this thermal expansion without damage. Interestingly, the tower also leans slightly toward the sun on hot days because the side facing the sun heats up more and expands more than the shaded side, though this effect is small.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the change in length of a 3.00-cm-long column of mercury if its temperature changes from  $$ 37.0\text{ºC} $$
  to  $$ 40.0\text{ºC} $$ ,
  assuming the mercury is unconstrained?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the volume expansion equation, but for a column of liquid, the height change is related to volume change by $$\Delta L \approx \frac{\beta L\Delta T}{3}$$ for a column with constant cross-section, or we can use $$\Delta L=\beta L\Delta T$$ treating it as linear expansion in the vertical direction.
 
@@ -791,16 +871,22 @@ For a column in a narrow tube, we use the linear approximation:
 
 **Discussion:**
 The column of mercury expands by only 5.4 micrometers (0.0054 mm), which is a very small change. However, this is exactly the principle used in mercury thermometers—the expansion is amplified by using a very narrow bore tube, so that even this tiny volume change creates a noticeable change in the height of the mercury column. Mercury thermometers are effective because mercury has a relatively large coefficient of volume expansion and remains liquid over a wide temperature range.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How large an expansion gap should be left between steel railroad rails if they may reach a maximum temperature  $$ 35.0\text{ºC} $$
  greater than when they were laid? Their original length is 10.0 m.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the linear thermal expansion equation to find how much each rail expands, then provide a gap at least this large.
 
@@ -817,16 +903,22 @@ The expansion gap should be at least **4.2 mm** (about 0.17 inches).
 
 **Discussion:**
 This expansion gap is essential to prevent rails from buckling on hot days. If rails are constrained and cannot expand, enormous compressive stresses develop that can cause the rails to buckle sideways, creating a serious safety hazard. Modern continuous welded rail (CWR) reduces the number of gaps, but requires careful stress management. The familiar "clickety-clack" sound of older trains comes from wheels passing over these expansion joints. Temperature swings of 35ºC or more are common in many climates, making these gaps crucial for railroad safety.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 $$ per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
  above normal?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 When the steel tape measure is hot, it expands, so each meter marked on the tape is actually longer than a true meter. Therefore, when you measure the land with the hot tape, you'll get smaller measurements than the true dimensions. Use the area expansion formula $$\Delta A=2\alpha A\Delta T$$ to find the change in measured area.
 
@@ -858,16 +950,22 @@ Price change:
 
 **Discussion:**
 Because the tape measure expands when hot, it underestimates distances, so the measured area is smaller than the true area. This means you would pay about $17,000 less than the actual value of the land! However, this illustrates the importance of using calibrated instruments at standard temperatures for precision measurements. In reality, surveying equipment is temperature-compensated or measurements are corrected for temperature variations to prevent such errors in property transactions.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Global warming will produce rising sea levels partly due to melting ice caps but also due to the expansion of water as average ocean temperatures rise. To get some idea of the size of this effect, calculate the change in length of a column of water 1.00 km high for a temperature increase of  $$ 1.00\text{ºC}\text{.} $$
  Note that this calculation is only approximate because ocean warming is not uniform with depth.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the volume (or linear) expansion formula. For a column of water, we can use $$\Delta L=\frac{\beta}{3}L\Delta T$$ or approximate using linear expansion.
 
@@ -883,31 +981,42 @@ Alternatively, we can say $$\Delta L \approx \beta L\Delta T/3$$, since for isot
 
 **Discussion:**
 A 1ºC warming of a 1 km column of ocean water produces about 7 cm of sea level rise due to thermal expansion alone. The average ocean depth is about 3.7 km, so if the entire ocean warmed by 1ºC uniformly, thermal expansion would contribute roughly 26 cm (10 inches) to sea level rise. In reality, the warming is concentrated in the upper layers, but even partial ocean warming contributes significantly to sea level rise. Current estimates suggest that thermal expansion accounts for about 30-50% of observed sea level rise, with melting ice accounting for the remainder. This demonstrates that thermal expansion is a major contributor to climate change impacts.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that 60.0 L of gasoline originally at  $$ 15.0\text{ºC} $$
  will expand to 61.1 L when it warms to  $$ 35.0\text{ºC} \text{,}  $$
  as claimed in [[Example 2]](#Example2).
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$\begin{array}{lll}V& =& {V}_{0}+\Delta V={V}_{0}\left(1+\beta \Delta T\right)\\ & =& \left(60.00 \text{L}\right)\left[ 1+\left(950 \times 10^{-6} /\text{ºC}\right)\left( 35.0\text{ºC}- 15.0\text{ºC}\right)\right]  \\ & =&  61.1 \text{L}\end{array} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Suppose a meter stick made of steel and one made of invar (an alloy of iron and nickel) are the same length at  $$0\text{ºC} $$ .
  What is their difference in length at  $$ 22.0\text{ºC} $$ ?
  (b) Repeat the calculation for two 30.0-m-long surveyor's tapes.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the expansion of each material separately, then find the difference.
 
@@ -940,17 +1049,23 @@ Difference:
 
 **Discussion:**
 For a meter stick, the difference of 0.244 mm is small but measurable. However, for a 30-m surveyor's tape, the 7.3 mm (0.73 cm) difference is quite significant and could introduce substantial errors in surveying work if not accounted for. This is why Invar was developed—its extremely low coefficient of thermal expansion makes it ideal for precision instruments, surveying equipment, and scientific apparatus that must maintain accurate dimensions despite temperature changes. Invar's name comes from "invariable," reflecting its dimensional stability.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If a 500-mL glass beaker is filled to the brim with ethyl alcohol at a temperature of  $$ 5.00\text{ºC} \text{,}  $$
  how much will overflow when its temperature reaches  $$ 22.0\text{ºC} $$ ?
  (b) How much less water would overflow under the same conditions?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the volume expansion of both the ethyl alcohol and the glass beaker. The overflow is the difference between the alcohol expansion and the beaker expansion. Repeat for water.
 
@@ -994,17 +1109,24 @@ Difference:
 
 **Discussion:**
 Ethyl alcohol has a much larger coefficient of volume expansion than water (about 5 times larger), so it overflows much more. The glass beaker's expansion is relatively small compared to the liquid expansions. This demonstrates why different liquids are used in different types of thermometers—alcohol expands more than water or mercury, making it useful for sensitive measurements over certain temperature ranges.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Most automobiles have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when at  $$ 10.0\text{ºC}\text{.} $$
  What volume of radiator fluid will overflow when the radiator and fluid reach their  $$ 95.0\text{ºC} $$
  operating temperature, given that the fluid's volume coefficient of expansion is  $$\beta =400 \times 10^{-6}/\text{ºC} $$ ?
  Note that this coefficient is approximate, because most car radiators have operating temperatures of greater than  $$ 95.0\text{ºC}\text{.} $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the volume expansion of both the radiator (copper) and the fluid. The overflow is the difference between the fluid expansion and the radiator expansion.
 
@@ -1030,18 +1152,24 @@ Volume that overflows:
 
 **Discussion:**
 About 0.48 L (roughly half a liter or one pint) of coolant will overflow, which is why radiator overflow reservoirs are necessary. The fluid expands much more than the copper radiator (coefficient nearly 8 times larger), so the net effect is significant overflow. Modern cooling systems are designed as closed systems with expansion tanks that can accommodate this volume change, preventing coolant loss and allowing the fluid to return to the radiator when the engine cools. Without such a reservoir, coolant would be lost every time the engine heats up, requiring frequent refilling.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A physicist makes a cup of instant coffee and notices that, as the coffee cools, its level drops 3.00 mm in the glass cup. Show that this decrease cannot be due to thermal contraction by calculating the decrease in level if the  $$350 {\text{cm}}^{3} $$
  of coffee is in a 7.00-cm-diameter cup and decreases in temperature from  $$ 95.0\text{ºC}  $$
 to $$  45.0\text{ºC}\text{.} $$
  (Most of the drop in level is actually due to escaping bubbles of air.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the volume decrease due to thermal contraction of the coffee (treat as water). Then calculate what height change this represents in a cylindrical cup with the given diameter.
 
@@ -1062,11 +1190,15 @@ For a cylindrical cup, $$V=\pi r^{2}h$$, so:
 
 **Discussion:**
 The calculated drop due to thermal contraction is only about 0.83 mm, much less than the observed 3.00 mm drop. This proves that thermal contraction cannot account for the observed decrease in coffee level. The physicist is correct that most of the drop is due to escaping air bubbles. When hot water is used to make coffee, it contains dissolved air that comes out of solution as bubbles as the coffee cools. These bubbles escape, reducing the total volume. This effect is much larger than thermal contraction alone.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The density of water at  $$0\text{ºC} $$
  is very nearly  $$1000 {\text{kg/m}}^{3} $$
  (it is actually  $$999.84 {\text{kg/m}}^{3} $$ ),
@@ -1074,8 +1206,10 @@ whereas the density of ice at  $$0\text{ºC} $$
  is  $$917 {\text{kg/m}}^{3} $$ .
  Calculate the pressure necessary to keep ice from expanding when it freezes, neglecting the effect such a large pressure would have on the freezing temperature. (This problem gives you only an indication of how large the forces associated with freezing water might be.) (b) What are the implications of this result for biological cells that are frozen?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Find the volume change when water freezes, then use the bulk modulus relationship to find the pressure required to prevent this expansion. (b) Consider what this pressure means for cell membranes.
 
@@ -1109,16 +1243,23 @@ Using the bulk modulus relationship $$P=B\frac{\Delta V}{V}$$ with $$B = 2.2 \ti
 
 **Discussion:**
 The tremendous pressure generated by freezing water is why water pipes burst in winter and why rocks can be fractured by freeze-thaw cycles (frost wedging). This pressure is also why it's so dangerous to freeze liquids in sealed containers—they can explode. For biological preservation, this demonstrates why simple freezing is inadequate and why advanced cryopreservation techniques attempt to achieve vitrification (glass-like solidification) rather than ice crystal formation.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that  $$\beta \approx 3\alpha , $$
  by calculating the change in volume  $$\Delta V $$
  of a cube with sides of length  $$L\text{.} $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 We know how the length changes with temperature:  $$\Delta L=\alpha L_{0}\Delta T $$ .
  Also we know that the volume of a cube is related to its length by  $$V={L}^{3} $$ ,
  so the final volume is then  $$V={V}_{0}+\Delta V={\left({L}_{0}+\Delta L\right)}^{3} $$ .
@@ -1127,33 +1268,38 @@ We know how the length changes with temperature:  $$\Delta L=\alpha L_{0}\Delta 
 <div class="equation" >
  $$V={\left({L}_{0}+\alpha L_{0}\Delta T\right)}^{3}={L}_{0}^{3}{\left(1+\alpha \Delta T\right)}^{3}\text{.} $$
 </div>
+
 Now, because  $$\alpha \Delta T $$
  is small, we can use the binomial expansion:
 
 <div class="equation"  data-element-type="problems-exercises">
  $$V\approx {L}_{0}^{3}\left(1+3\alpha \Delta T\right)={L}_{0}^{3}+3\alpha {L}_{0}^{3}\Delta T. $$
 </div>
+
 So writing the length terms in terms of volumes gives  $$V={V}_{0}+\Delta V\approx {V}_{0}+{3\alpha V}_{0}\Delta T, $$
  and so
 
 <div class="equation"  data-element-type="problems-exercises">
  $$\Delta V=\beta V_{0}\Delta T\approx {3\alpha V}_{0}\Delta T, \text{ or } \beta \approx 3\alpha . $$
 </div>
-</div>
+
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content"> Values for liquids and
+* [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content"> Values for liquids and
   gases are approximate.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1173,4 +1319,4 @@ change in temperature
 thermal stress
 : stress caused by thermal expansion or contraction
 
-</div>
+:::

@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 7
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the rainbow formation by thin films.
-</div>
+
+:::
 
 The bright colors seen in an oil slick floating on water or in a sunlit soap
 bubble are caused by interference. The brightest colors are those that interfere
@@ -67,10 +68,12 @@ ray.
 Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of
 the film _Gone With the Wind_. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Non-reflective Lens Coating Using Thin Film Interference
 </div>
+
 Sophisticated cameras use a series of several lenses. Light can reflect from the surfaces of these various lenses and degrade image clarity. To limit these reflections, lenses are coated with a thin layer of magnesium fluoride that causes destructive thin film interference. What is the thinnest this film can be, if its index of refraction is 1.38 and it is designed to limit the reflection of 550-nm light, normally the most intense visible wavelength? The index of refraction of glass is 1.52.
 
 **Strategy**
@@ -87,6 +90,7 @@ To obtain destructive interference here,
 <div class="equation" >
  $$2t=\frac{ {\lambda }_{ {n}_{2}}}{2}\text{,} $$
 </div>
+
 where  $${\lambda }_{ {n}_{2}} $$
  is the wavelength in the film and is given by  $${\lambda }_{ {n}_{2}}=\frac{\lambda }{ {n}_{2}} $$.
 
@@ -95,11 +99,13 @@ Thus,
 <div class="equation" >
  $$2t=\frac{\lambda /{n}_{2}}{2}. $$
 </div>
+
 Solving for  $$t $$  and entering known values yields
 
 <div class="equation" >
  $$\begin{array}{lll}t& =& \frac{\lambda /{n}_{2}}{4}=\frac{\left(550 \text{nm}\right)/1.38}{4}\\ & =& 99.6 \text{nm} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 Films such as the one in this example are most effective in producing
@@ -109,7 +115,7 @@ called non-reflective coatings; this is only an approximately correct
 description, though, since other wavelengths will only be partially cancelled.
 Non-reflective coatings are used in car windows and sunglasses.
 
-</div>
+:::
 
 Thin film interference is most constructive or most destructive when the path
 length difference for the two rays is an integral or half-integral wavelength,
@@ -120,10 +126,12 @@ wavelength of light, and the refractive indices. For white light incident on a
 film that varies in thickness, you will observe rainbow colors of constructive
 interference for various wavelengths as the thickness varies.
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Soap Bubbles: More Than One Thickness can be Constructive
 </div>
+
 (a) What are the three smallest thicknesses of a soap bubble that produce constructive interference for red light with a wavelength of 650 nm? The index of refraction of soap is taken to be the same as that of water. (b) What three smallest thicknesses will give destructive interference?
 
 **Strategy and Concept**
@@ -145,24 +153,28 @@ _Constructive interference_ occurs here when
 <div class="equation" >
  $$2{t}_{\text{c}}=\frac{ {\lambda }_{n}}{2}, \frac{ {3\lambda }_{n}}{2}, \frac{ {5\lambda }_{n}}{2}\text{,}\dots . $$
 </div>
+
 The smallest constructive thickness  $${t}_{\text{c}} $$
  thus is
 
 <div class="equation" >
  $$\begin{array}{lll}{t}_{\text{c}}& =& \frac{ {\lambda }_{n}}{4}=\frac{\lambda /n}{4}=\frac{\left(650 \text{nm}\right)/1.333}{4}\\ & =& 122 \text{nm} \text{.} \end{array} $$
 </div>
+
 The next thickness that gives constructive interference is  $$t^{\prime}_{\text{c}}={3\lambda }_{n}/4 $$ ,
  so that
 
 <div class="equation" >
  $$t^{\prime}_{\text{c}}=366 \text{nm} \text{.}  $$
 </div>
+
 Finally, the third thickness producing constructive interference is  $${t^{\prime\prime} }_{\text{c}}= {5\lambda }_{n}/4 $$ ,
  so that
 
 <div class="equation" >
  $${t^{\prime\prime} }_{\text{c}}=610 \text{nm} \text{.}  $$
 </div>
+
 **Solution for (b)**
 
 For _destructive interference_, the path length difference here is an integral
@@ -172,22 +184,26 @@ a phase change at the top surface. That is,
 <div class="equation" >
  $${t}_{\text{d}}=0. $$
 </div>
+
 The first non-zero thickness producing destructive interference is
 
 <div class="equation" >
  $$2t^{\prime}_{\text{d}}={\lambda }_{n}. $$
 </div>
+
 Substituting known values gives
 
 <div class="equation" >
  $$\begin{array}{lll}t^{\prime}_{\text{d}}& =& \frac{\lambda {}_{n} }{2}=\frac{\lambda /n}{2}=\frac{\left(650 \text{nm}\right)/1.333}{2}\\ & =& 244 \text{nm} \text{.} \end{array} $$
 </div>
+
 Finally, the third destructive thickness is  $$2{t^{\prime\prime} }_{\text{d}}={2\lambda }_{n} $$ ,
  so that
 
 <div class="equation" >
  $$\begin{array}{lll}{t^{\prime\prime} }_{\text{d}}& =& {\lambda }_{n}=\frac{\lambda }{n}=\frac{650 \text{nm}}{1.333}\\ & =& 488 \text{nm} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 If the bubble was illuminated with pure red light, we would see bright and dark
@@ -196,7 +212,7 @@ thickness, then bright at 122 nm thickness, then dark at 244 nm, bright at 366
 nm, dark at 488 nm, and bright at 610 nm. If the bubble varied smoothly in
 thickness, like a smooth wedge, then the bands would be evenly spaced.
 
-</div>
+:::
 
 Another example of thin film interference can be seen when microscope slides are
 separated (see [[Figure 3]](#Figure3)). The slides are very flat, so that the
@@ -241,13 +257,15 @@ diffraction grating security feature making the currency difficult to forge.
 Other countries such as New Zealand and Taiwan are using similar technologies,
 while the United States currency includes a thin film interference effect.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment—Thin Film Interference
 </div>
+
 One feature of thin film interference and diffraction gratings is that the pattern shifts as you change the angle at which you look or move your head. Find examples of thin film interference and gratings around you. Explain how the patterns change for each specific example. Find examples where the thickness changes giving rise to changing colors. If you can find two microscope slides, then try observing the effect shown in [[Figure 2]](#Figure2). Try separating one end of the two slides with a hair or maybe a thin piece of paper and observe the effect.
 
-</div>
+:::
 
 ### Problem-Solving Strategies for Wave Optics
 
@@ -300,76 +318,106 @@ example.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What effect does increasing the wedge angle have on the spacing of interference fringes? If the wedge angle is too large, fringes are not observed. Why?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How is the difference in paths taken by two originally in-phase light waves related to whether they interfere constructively or destructively? How can this be affected by reflection? By refraction?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is there a phase change in the light reflected from either surface of a contact lens floating on a person’s tear layer? The index of refraction of the lens is about 1.5, and its top surface is dry.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In placing a sample on a microscope slide, a glass cover is placed over a water drop on the glass slide. Light incident from above can reflect from the top and bottom of the glass cover and from the glass slide below the water drop. At which surfaces will there be a phase change in the reflected light?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Answer the above question if the fluid between the two pieces of crown glass is carbon disulfide.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 While contemplating the food value of a slice of ham, you notice a rainbow of color reflected from its moist surface. Explain its origin.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An inventor notices that a soap bubble is dark at its thinnest and realizes that destructive interference is taking place for all wavelengths. How could she use this knowledge to make a non-reflective coating for lenses that is effective at all wavelengths? That is, what limits would there be on the index of refraction and thickness of the coating? How might this be impractical?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A non-reflective coating like the one described in [[Example 1]](#Example1) works ideally for a single wavelength and for perpendicular incidence. What happens for other wavelengths and other incident directions? Be specific.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is it much more difficult to see interference fringes for light reflected from a thick piece of glass than from a thin film? Would it be easier if monochromatic light were used?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div id="Exercise1" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A soap bubble is 100 nm thick and illuminated by white light incident perpendicular to its surface. What wavelength and color of visible light is most constructively reflected, assuming the same index of refraction as water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -412,15 +460,19 @@ $$\lambda = \frac{266 \text{ nm}}{1.5} = 177 \text{ nm (ultraviolet, not visible
 
 The wavelength of 532 nm falls in the middle of the visible spectrum (green region: approximately 495-570 nm), which makes sense for a soap bubble of this thickness. This is why soap bubbles often show brilliant green colors when they reach this particular thickness. Higher orders (m = 1, 2, ...) produce wavelengths in the ultraviolet range that are not visible to the human eye. As the bubble thickness changes due to gravity and evaporation, different colors appear, creating the characteristic rainbow effect. Thinner bubbles appear blue or violet, while thicker bubbles show red or orange colors.
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise2" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An oil slick on water is 120 nm thick and illuminated by white light incident perpendicular to its surface. What color does the oil appear (what is the most constructively reflected wavelength), given its index of refraction is 1.40?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -453,15 +505,19 @@ Calculate for different orders:
 
 The oil appears **red** with λ = 672 nm. This is the only visible wavelength that experiences strong constructive interference. The color falls in the red portion of the visible spectrum (roughly 620-750 nm). This is why oil slicks display colorful patterns - different thicknesses reflect different colors, creating the characteristic rainbow appearance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the minimum thickness of an oil slick on water that appears blue when illuminated by white light perpendicular to its surface. Take the blue wavelength to be 470 nm and the index of refraction of oil to be 1.40.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -502,15 +558,19 @@ $$t = 83.9 \text{ nm}$$
 
 This thickness of 83.9 nm is very thin—less than one-fifth the wavelength of blue light in air. This quarter-wavelength condition ($$\lambda/4n$$) is characteristic of minimum thickness for constructive interference with one phase change. Oil slicks on water typically vary in thickness across their surface, which is why they display rainbow patterns with different colors in different regions. The thinnest regions (around 84 nm) appear blue, while thicker regions appear green, yellow, orange, or red. Very thin regions (less than about 50 nm) may appear dark or black because they create destructive interference for all visible wavelengths.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the minimum thickness of a soap bubble that appears red when illuminated by white light perpendicular to its surface. Take the wavelength to be 680 nm, and assume the same index of refraction as water.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -543,16 +603,20 @@ $$t = \frac{\lambda}{4n} = \frac{680 \text{ nm}}{4(1.33)} = \frac{680}{5.32} = 1
 
 The minimum thickness is 128 nm, which is quite thin - less than the wavelength of red light in air. This quarter-wavelength condition (λ/4n) is characteristic of thin film interference with one phase change. Soap bubbles display beautiful colors because different thicknesses in different regions reflect different wavelengths. As a soap bubble drains and thins, it progresses through colors from red → yellow → green → blue before becoming essentially colorless and then black just before popping.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A film of soapy water ( $$n=1.33 $$ ) 
 on top of a plastic cutting board has a thickness of 233 nm. What color is most strongly reflected if it is illuminated perpendicular to its surface?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -597,17 +661,21 @@ For $$m = 0$$: Would give infinite wavelength (not physical for this order).
 
 The wavelength of 620 nm falls in the orange-red region of the visible spectrum (orange: approximately 590-620 nm). This is the first-order (m = 1) constructive interference for this film thickness. The second order (m = 2) produces ultraviolet light at 310 nm, which is not visible. The situation with two phase changes (both at interfaces where n increases) is less common than the one-phase-change case, but it occurs when the film material has an intermediate index of refraction between the surrounding media. In this case, plastic cutting boards typically have n ≈ 1.49 (polypropylene or polyethylene), which is greater than water's 1.33, resulting in two phase changes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the three smallest non-zero thicknesses of soapy water ( $$n=1.33 $$ )
 on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow
 the steps in [Problem-Solving Strategies for Wave Optics](#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -653,15 +721,19 @@ $$t_3 = 195(3) = 585 \text{ nm}$$
 
 The three smallest thicknesses are 195 nm, 390 nm, and 585 nm. Each successive thickness differs by 195 nm (half the wavelength in the medium: λ/2n). These represent different orders of constructive interference. In practice, the first-order (195 nm) would appear brightest for green light, while higher orders might also reflect other wavelengths, producing mixed colors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (calcium fluoride) that would be non-reflective for this wavelength?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -707,15 +779,19 @@ $$t_{\text{min}} = \frac{\lambda}{4n} = \frac{700 \text{ nm}}{4(1.38)} = 127 \te
 
 The second thinnest coating (380 nm) is three times thicker than the minimum coating (127 nm). Both thicknesses produce destructive interference for 700-nm red light, but the thinnest coating is preferred in practice because it works over a broader range of incident angles and is more economical to produce. The second-order coating (380 nm) might be used if the thinnest coating is difficult to manufacture uniformly or if there are other design constraints. Calcium fluoride is commonly used for anti-reflective coatings in infrared optics and UV applications due to its transparency in these regions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) As a soap bubble thins it becomes dark, because the path length difference becomes small compared with the wavelength of light and there is a phase shift at the top surface. If it becomes dark when the path length difference is less than one-fourth the wavelength, what is the thickest the bubble can be and appear dark at all visible wavelengths? Assume the same index of refraction as water. (b) Discuss the fragility of the film considering the thickness found.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -765,15 +841,19 @@ This is why soap bubbles show black patches just before they pop - these are the
 
 The extreme thinness (36 nm) explains why soap bubbles are so delicate and short-lived. When you see a soap bubble develop a black spot, it will typically pop within 1-2 seconds, as that region has thinned to near molecular-scale dimensions where surface tension variations and thermal fluctuations easily cause rupture.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A film of oil on water will appear dark when it is very thin, because the path length difference becomes small compared with the wavelength of light and there is a phase shift at the top surface. If it becomes dark when the path length difference is less than one-fourth the wavelength, what is the thickest the oil can be and appear dark at all visible wavelengths? Oil has an index of refraction of 1.40.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -809,15 +889,19 @@ An oil film thickness of 33.9 nm is extremely thin—only about 100 molecular la
 
 At thicknesses less than 33.9 nm, the oil film appears uniformly dark across all visible wavelengths because the path length difference is too small to produce constructive interference for any color. As the film thickens beyond this value, colors begin to appear—first violet and blue for slightly thicker regions, then progressing through the spectrum to red for the thickest regions. This is why oil slicks on water display such vivid rainbow patterns, with the thinnest regions appearing black or dark gray and thicker regions showing brilliant colors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 2]](#Figure2) shows two glass slides illuminated by pure-wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on a 0.100-mm-diameter hair at the other end, forming a wedge of air. (a) How far apart are the dark bands, if the slides are 7.50 cm long and 589-nm light is used? (b) Is there any difference if the slides are made from crown or flint glass? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -869,15 +953,19 @@ $$\Delta x = \frac{589 \times 10^{-9}}{2.67 \times 10^{-3}} = 2.21 \times 10^{-4
 
 The fringe spacing of 0.221 mm means there are about 340 dark fringes across the 7.50-cm length of the slides. This creates a closely-spaced pattern of light and dark bands. This technique (called a Fizeau interferometer when done precisely) is used to test optical flatness of surfaces - any irregularities in the glass surfaces would cause deviations in the otherwise straight, equally-spaced fringes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 2]](#Figure2) shows two 7.50-cm-long glass slides illuminated by pure 589-nm wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on some debris at the other end, forming a wedge of air. How thick is the debris, if the dark bands are 1.00 mm apart?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -916,15 +1004,19 @@ $$h = 4.42 \times 10^{-5} \text{ m}$$
 
 The debris thickness of 44.2 μm (0.0442 mm) is about half the width of a human hair (~100 μm). This creates a very small wedge angle of $$\alpha = h/L = 4.42 \times 10^{-5}/0.0750 = 5.89 \times 10^{-4}$$ radians (about 0.034°). Despite this tiny angle, it's sufficient to create clearly visible interference fringes spaced 1.00 mm apart. This technique is used in optical testing and precision measurement—known as optical flatness testing. Any deviation in the straightness or uniformity of the fringe pattern indicates surface imperfections in the glass slides. The method can detect height variations as small as a fraction of a wavelength of light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [[Exercise 1]](#Exercise1), but take the light to be incident at a  $$45 ^\circ $$ angle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -968,16 +1060,20 @@ This causes the interference pattern to shift - wavelengths that were constructi
 
 This angle-dependence of color is why soap bubbles and oil slicks show different colors when viewed from different angles. The color you see depends on your viewing angle. This effect is also exploited in security features on currency and in decorative coatings. The exact color shift calculation would require the specific film thickness from Exercise 1, but the principle is clear: tilting the film effectively reduces the optical path length, shifting the interference pattern toward shorter wavelengths.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat [[Exercise 2]](#Exercise2), but take the light to be incident at a  $$45 ^\circ $$
  angle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1030,11 +1126,14 @@ Compared to normal incidence (672 nm red), the reflected wavelength shifts to 58
 
 The shift from 672 nm (red) at normal incidence to 580 nm (yellow) at 45° demonstrates how thin film colors change dramatically with viewing angle. This is why soap bubbles and oil slicks display shifting, iridescent colors as you move your head. The reduced wavelength (from 672 to 580 nm, about 14% shorter) occurs because the factor cos θ₂ = 0.862 reduces the effective optical path length. Additionally, at 45° incidence, Fresnel reflection coefficients are generally lower, meaning less light is reflected overall. The combination of wavelength shift to a region of lower eye sensitivity plus reduced reflection intensity causes the film to appear much darker—essentially black—compared to its bright red appearance at normal incidence.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 To save money on making military aircraft invisible to radar, an inventor
@@ -1045,8 +1144,9 @@ What thickness should the coating be to inhibit the reflection of 4.00-cm
 wavelength radar? (b) What is unreasonable about this result? (c) Which
 assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1106,14 +1206,16 @@ The main unreasonable assumptions are:
 
 Real stealth technology uses radar-absorbing materials (RAM) that are thin, incorporate conductive particles to dissipate radar energy as heat, and are combined with aircraft shapes designed to deflect radar. A simple anti-reflection coating with cm-scale thickness is completely impractical. This problem illustrates why actual stealth aircraft like the B-2 and F-117 required sophisticated engineering rather than simple solutions.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 thin film interference
 : interference between light reflected from different surfaces of a thin film
 
-</div>
+:::

@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 0
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define radioactivity.
-</div>
+
+:::
 
 ![The image shows a ray of blue light being emitted from a small slit in a cylindrical source.](../resources/Figure_31_00_01.jpg 'The synchrotron source produces electromagnetic radiation, as evident from the visible glow. (credit: United States Department of Energy, via Wikimedia Commons) ')
 {: #Figure1}

@@ -51,8 +51,7 @@ There are many ways to contribute to this project:
 To contribute to this project, you'll need:
 
 - **Git**: For version control
-- **Ruby** 2.7 or higher: For running Jekyll locally
-- **Node.js** 18+: For running validation scripts (optional but recommended)
+- **Node.js** 22.15 or higher: For running Eleventy and the validation scripts
 - **Text Editor**: Any editor that supports Markdown (VS Code, Atom, Sublime, etc.)
 
 ### Setup Instructions
@@ -66,17 +65,12 @@ To contribute to this project, you'll need:
 3. **Install dependencies**:
 
    ```bash
-   # Ruby dependencies
-   gem install bundler jekyll
-   bundle install
-
-   # Node.js dependencies (optional)
    npm install
    ```
 
 4. **Start the local server**:
    ```bash
-   bundle exec jekyll serve --incremental
+   npm run serve
    ```
 5. **View the site** at `http://localhost:4000/physics-book2/`
 
@@ -93,7 +87,7 @@ To contribute to this project, you'll need:
 3. **Test locally** to ensure everything works:
 
    ```bash
-   bundle exec jekyll build
+   npm run build
    npm run check-links
    npm run check-math
    ```
@@ -161,12 +155,12 @@ layout: page
 
 - Store images in the `resources/` directory
 - Use descriptive filenames (e.g., `pendulum-motion-diagram.png`)
-- Reference images with: `![Description]({{ site.baseurl }}/resources/image.png)`
+- Reference images with: `![Description](/resources/image.png)` (root-relative; the build adds the `/physics-book2` prefix for GitHub Pages)
 - Always provide meaningful alt text for accessibility
 
 #### Links
 
-- **Internal links**: Always use `{{ site.baseurl }}/path/to/page`
+- **Internal links**: Use root-relative paths like `/contents/ch2Kinematics.md` (the build adds the `/physics-book2` prefix for GitHub Pages; link to the `.md` source — the runtime viewer rewrites it to `.html`)
 - **External links**: Use standard Markdown syntax `[Google](https://www.google.com/)`
 - Test all links before submitting
 
@@ -212,7 +206,7 @@ $$F = (5 \text{ kg})(3 \text{ m/s}^2) = 15 \text{ N}$$
 
 ### Markdown Format
 
-- Use Kramdown syntax (GitHub-Flavored Markdown mode)
+- Markdown is rendered by `markdown-it` (CommonMark plus the project's math/typography/container plugins)
 - Avoid HTML when Markdown is sufficient
 - Use HTML entities for special characters when needed (e.g., `&amp;` for `&`)
 
@@ -224,12 +218,14 @@ When adding new content files:
 2. Update `SUMMARY.md` to include the new file in the table of contents
 3. Maintain proper indentation and numbering
 
-### Baseurl Usage
+### Internal Links
 
-**Critical**: Always use `{{ site.baseurl }}` for internal links
+**Use root-relative paths** for internal links and assets. The build adds the
+`/physics-book2` path prefix for GitHub Pages automatically (Vercel builds at the root).
 
-- Correct: `{{ site.baseurl }}/contents/ch2Kinematics.md`
-- Incorrect: `/contents/ch2Kinematics.md`
+- Correct: `/contents/ch2Kinematics.md`
+- Correct: `/resources/image.png`
+- Avoid `{{ site.baseurl }}` / `relative_url` — those were Jekyll/Liquid constructs and are no longer used.
 
 ## Style Guide
 
@@ -260,7 +256,7 @@ Before submitting your contribution, run these checks:
 ### Build Test
 
 ```bash
-bundle exec jekyll build
+npm run build
 ```
 
 Ensure the build completes without errors.
@@ -283,7 +279,7 @@ Check that all mathematical notation is properly formatted.
 
 ### Visual Test
 
-1. Run `bundle exec jekyll serve --incremental`
+1. Run `npm run serve`
 2. View your changes at `http://localhost:4000/physics-book2/`
 3. Check:
    - Equations render correctly

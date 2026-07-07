@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 9
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate current that produces a magnetic field.
 * Use the right hand rule 2 to determine the direction of current or the direction of magnetic field loops.
-</div>
+
+:::
 
 How much current is needed to produce a significant magnetic field, perhaps as
 strong as the Earth’s field? Surveyors will tell you that overhead electric
@@ -49,10 +50,12 @@ nature. We will see later that $$\mu_0 $$ is related to the speed of light.)
 Since the wire is very long, the magnitude of the field depends only on distance
 from the wire $$r $$ , not on position along the wire.
 
-<div id ="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Current that Produces a Magnetic Field
 </div>
+
 Find the current in a long straight wire that would produce a magnetic field twice the strength of the Earth’s at a distance of 5.0 cm from the wire.
 
 **Strategy**
@@ -68,6 +71,7 @@ Solving for $$I $$ and entering known values gives
 <div class="equation" >
  $$\begin{array}{lll}I& =& \frac{2\pi \text{rB}}{ \mu_0 }=\frac{2\pi \left( 5.0 \times 10^{-2}  m\right)\left( 1.0 \times 10^{-4} \text{T}\right)}{4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}}\\ & =& 25 \text{A} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 So a moderately large current produces a significant magnetic field at a
@@ -75,7 +79,7 @@ distance of 5.0 cm from a long straight wire. Note that the answer is stated to
 only two digits, since the Earth’s field is specified to only two digits in this
 example.
 
-</div>
+:::
 
 ### Ampere’s Law and Others
 
@@ -101,13 +105,15 @@ magnetic field lines listed
 in [Magnetic Fields and Magnetic Field Lines](../contents/ch22MagneticFieldsAndMagneticFieldLines)
 , while concentrating on the fields created in certain important situations.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Relativity
 </div>
+
 Hearing all we do about Einstein, we sometimes get the impression that he invented relativity out of nothing. On the contrary, one of Einstein’s motivations was to solve difficulties in knowing how different observers see magnetic and electric fields.
 
-</div>
+:::
 
 ### Magnetic Field Produced by a Current-Carrying Circular Loop
 
@@ -160,10 +166,12 @@ Note that $$B $$ is the field strength anywhere in the uniform region of the
 interior and not just at the center. Large uniform fields spread over a large
 volume are possible with solenoids, as [[Example2]](#Example2) implies.
 
-<div id ="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating Field Strength inside a Solenoid
 </div>
+
 What is the field inside a 2.00-m-long solenoid that has 2000 loops and carries a 1600-A current?
 
 **Strategy**
@@ -174,6 +182,7 @@ First, we note the number of loops per unit length is
 <div class="equation" >
  $$n=\frac{N}{l}=\frac{2000}{2.00 \text{m}}=1000 {\text{m}}^{-1}=10 {\text{cm}}^{-1}\text{.} $$
 </div>
+
 **Solution**
 
 Substituting known values gives
@@ -181,6 +190,7 @@ Substituting known values gives
 <div class="equation" >
  $$\begin{array}{lll}B& =& \mu_0 \text{nI}=\left(4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}\right)\left(1000 {m}^{-1}\right)\left(1600 \text{A}\right)\\ & =& 2.01 \text{T} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 This is a large field strength that could be established over a large-diameter
@@ -192,7 +202,7 @@ achieved by using superconducting wires, although this is expensive. There is an
 upper limit to the current, since the superconducting state is disrupted by very
 large magnetic fields.
 
-</div>
+:::
 
 There are interesting variations of the flat coil and solenoid. For example, the
 toroidal coil used to confine the reactive particles in tokamaks is much like a
@@ -207,16 +217,19 @@ the field lines bend into the ferromagnetic material, leaving weaker fields
 outside it) and are used as shields for devices that are adversely affected by
 magnetic fields, including the Earth’s magnetic field.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Generator
 </div>
+
 Generate electricity with a bar magnet! Discover the physics behind the phenomena by exploring magnets and how you can use them to make a bulb light.
 
 <div class="media"  data-alt="generator">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/generator/#sim-generator"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -226,6 +239,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$B=\frac{ \mu_0 I}{2 \pi r}\left(\text{long straight wire}\right), $$
   </div>
+
    where $$I $$ is the current,
    $$r $$ is the shortest distance to the wire, and the constant
    $$\mu_0 =4\pi  \times 10^{-7} \text{T}\cdot \text{m/A} $$ is the permeability of free space.
@@ -242,6 +256,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$B=\frac{ \mu_0 I}{2R} \left(\text{at center of loop}\right), $$
   </div>
+
    where $$R $$ is the radius of the loop. This equation becomes
    $$B=\mu_0 \text{nI}/\left(2R\right) $$ for a flat coil of
    $$N $$ loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.
@@ -249,18 +264,23 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   <div class="equation" >
    $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
   </div>
+
   where $$n $$ is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.
 
 ### Conceptual Questions
 
 <div class="exercise" >
-<div class="problem"  data-element-type="conceptual-questions" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"conceptual-questions"}
+
 Make a drawing and use RHR-2 to find the direction of the magnetic field of a current loop in a motor (such as in [[Figure1]](../contents/ch22TorqueOnACurrentLoop#Figure1)). Then show that the direction of the torque on the loop is the same as produced by like poles repelling and unlike poles attracting.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -300,4 +320,4 @@ shape current is the vector sum of the fields due to each segment
 Maxwell’s equations
 : a set of four equations that describe electromagnetic phenomena
 
-</div>
+:::

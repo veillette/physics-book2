@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 4
 chapterNumber: 13
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Express the ideal gas law in terms of molecular mass and velocity.
 * Define thermal energy.
 * Calculate the kinetic energy of a gas molecule, given its temperature.
 * Describe the relationship between the temperature of a gas and the kinetic energy of atoms and molecules.
 * Describe the distribution of speeds of molecules in a gas.
-</div>
+
+:::
 
 We have developed macroscopic definitions of pressure and temperature. Pressure
 is the force divided by the area on which the force is exerted, and temperature
@@ -56,10 +57,12 @@ $$PV=\frac{1}{3}N m\overline{ {v}^{2}} $$ gives
  $$\frac{1}{3}N m\overline{ {v}^{2}}=Nk_{B}T. $$
 </div>
 
-<div class="note" id="Note1" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","id":"Note1","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Things Great and Small—Atomic and Molecular Origin of Pressure in a Gas
 </div>
+
 [[Figure 2]](#Figure2) shows a box filled with a gas. We know from our previous discussions that putting more gas into the box produces greater pressure, and that increasing the temperature of the gas also produces a greater pressure. But why should increasing the temperature of the gas increase the pressure in the box? A look at the atomic and molecular scale gives us some answers, and an alternative expression for the ideal gas law.
 
 The figure shows an expanded view of an elastic collision of a gas molecule with
@@ -85,6 +88,7 @@ the molecule is given by
 <div class="equation" >
  $$F=\frac{\Delta p}{\Delta t}=\frac{2mv_{x}}{\Delta t}\text{.} $$
 </div>
+
 There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take  $$\Delta t $$
  to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance  $$2l $$ )
  at a speed of  $${v}_{x} $$ .
@@ -94,12 +98,14 @@ There is no force between the wall and the molecule until the molecule hits the 
 <div class="equation" >
  $$F=\frac{2mv_{x}}{2l/{v}_{x}}=\frac{ mv_{x}^{2}}{l}\text{.} $$
 </div>
+
 This force is due to *one* molecule. We multiply by the number of molecules  $$N $$
  and use their average squared velocity to find the force
 
 <div class="equation" >
  $$F=N\frac{m\overline{ {v}_{x}^{2}}}{l}, $$
 </div>
+
 where the bar over a quantity means its average value. We would like to have the force in terms of the speed  $$v $$ ,
  rather than the  $$x $$
 -component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that
@@ -107,40 +113,47 @@ where the bar over a quantity means its average value. We would like to have the
 <div class="equation" >
  $$\overline{ {v}^{2}}=\overline{ {v}_{x}^{2}}+\overline{ {v}_{y}^{2}}+\overline{ {v}_{z}^{2}}\text{.} $$
 </div>
+
 Because the velocities are random, their average components in all directions are the same:
 
 <div class="equation" >
  $$\overline{ {v}_{x}^{2}}=\overline{ {v}_{y}^{2}}=\overline{ {v}_{z}^{2}}\text{.} $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $$\overline{ {v}^{2}}=3\overline{ {v}_{x}^{2}}, $$
 </div>
+
 or
 
 <div class="equation" >
  $$\overline{ {v}_{x}^{2}}=\frac{1}{3}\overline{ {v}^{2}}. $$
 </div>
+
 Substituting  $$\frac{1}{3}\overline{ {v}^{2}} $$
  into the expression for  $$F $$  gives
 
 <div class="equation" >
  $$F=N\frac{m\overline{ {v}^{2}}}{3l}\text{.} $$
 </div>
+
 The pressure is  $$F/A, $$  so that we obtain
 
 <div class="equation" >
  $$P=\frac{F}{A}=N\frac{m\overline{ {v}^{2}}}{3 A l}=\frac{1}{3}\frac{N m\overline{ {v}^{2}}}{V}, $$
 </div>
+
 where we used  $$V= A l  $$  for the volume. This gives the important result.
 
 <div class="equation" >
  $$PV=\frac{1}{3}N m \overline{ {v}^{2}} $$
 </div>
+
 This equation is another expression of the ideal gas law.
 
-</div>
+:::
 
 We can get the average kinetic energy of a molecule, $$\frac{1}{2}mv^{2} $$ ,
 from the right-hand side of the equation by canceling $$N $$ and multiplying by
@@ -170,10 +183,12 @@ temperature,
 
 where $${v}_{\text{rms}} $$ stands for root-mean-square (rms) speed.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Kinetic Energy and Speed of a Gas Molecule
 </div>
+
 (a) What is the average kinetic energy of a gas molecule at  $$ 20.0\text{ºC} $$
  (room temperature)? (b) Find the rms speed of a nitrogen molecule  $$\left({\text{N}}_{2}\right) $$
  at this temperature.
@@ -185,6 +200,7 @@ The known in the equation for the average kinetic energy is the temperature.
 <div class="equation" >
  $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 </div>
+
 Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives  $$T=\left( 20.0+273\right) \text{K = 293} \text{K}. $$
 **Solution for (a)**
 
@@ -195,6 +211,7 @@ equation gives
 <div class="equation" >
  $$\overline{\text{KE}}=\frac{3}{2}k_{B}T=\frac{3}{2}\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left(293 \text{K}\right)= 6.07 \times 10^{-21}  \text{J}\text{.} $$
 </div>
+
 **Strategy for (b)**
 
 Finding the rms speed of a nitrogen molecule involves a straightforward
@@ -203,12 +220,14 @@ calculation using the equation
 <div class="equation" >
  $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}, $$
 </div>
+
 but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen  $${\text{N}}_{2} $$
  from the periodic table,
 
 <div class="equation" >
  $$m=\frac{2\left( 14.0067 \right) \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  {\text{mol}}^{-1}}= 4.65 \times 10^{-26}  \text{kg}\text{.} $$
 </div>
+
 **Solution for (b)**
 
 Substituting this mass and the value for $$k $$ into the equation for $${v}_{\text{rms}} $$ yields
@@ -216,6 +235,7 @@ Substituting this mass and the value for $$k $$ into the equation for $${v}_{\te
 <div class="equation" >
  $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23} \text{J/K}\right)\left(293 \text{K}\right)}{ 4.65 \times 10^{-26} \text{kg}}}=511 \text{m/s}\text{.} $$
 </div>
+
 **Discussion**
 
 Note that the average kinetic energy of the molecule is independent of the type
@@ -233,18 +253,20 @@ the faster that sound vibrations can be transferred through the air. The speed
 of sound increases with temperature and is greater in gases with small molecular
 masses, such as helium. (See [[Figure 3]](#Figure3).)
 
-</div>
+:::
 
 ![In part a of the figure, circles represent molecules distributed in a gas. Attached to each circle is a vector representing velocity. The circles have a random arrangement, while the vector arrows have random orientations and lengths. In part b of the figure, an arc represents a sound wave as it passes through a gas. The velocity of each molecule along the peak of the wave is roughly oriented parallel to the transmission direction of the wave.](../resources/Figure_13_04_03.jpg "(a) There are many molecules moving so fast in an ordinary gas that they collide a billion times every second. (b) Individual molecules do not move very far in a small amount of time, but disturbances like sound waves are transmitted at speeds related to the molecular speeds.")
 {: #Figure3}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Historical Note—Kinetic Theory of Gases
 </div>
+
 The kinetic theory of gases was developed by Daniel Bernoulli (1700–1782), who is best known in physics for his work on fluid flow (hydrodynamics). Bernoulli’s work predates the atomistic view of matter established by Dalton.
 
-</div>
+:::
 
 ### Distribution of Molecular Speeds
 
@@ -275,10 +297,12 @@ has a fever, they are likely to lose more water molecules, particularly from
 linings along moist cavities such as the lungs and mouth, creating a dry
 sensation in the mouth.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Temperature: Escape Velocity of Helium Atoms
 </div>
+
 In order to escape Earth’s gravity, an object near the top of the atmosphere (at an altitude of 100 km) must travel away from Earth at 11.1 km/s. This speed is called the *escape velocity*. At what temperature would helium atoms have an rms speed equal to the escape velocity?
 
 **Strategy**
@@ -307,14 +331,17 @@ the problem.
   <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
+
      or
   <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}} $$
   </div>
+
      to yield
   <div class="equation" >
    $$T=\frac{m\overline{ {v}^{2}}}{3k}, $$
   </div>
+
      where
    $$k_{B} $$ is the Boltzmann constant and
    $$m $$ is the mass of a helium atom.
@@ -324,9 +351,11 @@ the problem.
 <div class="equation" >
  $$m=\frac{\text{molar mass}}{\text{number of atoms per mole}}=\frac{ 4.0026 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{mol}}= 6.65 \times 10^{-27}  \text{kg} $$
 </div>
+
 <div class="equation" >
  $$T=\frac{\left( 6.65 \times 10^{-27}  \text{kg}\right){\left( 11.1 \times 10^{3}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.98 \times 10^{4}\text{K} $$
 </div>
+
 **Discussion**
 
 This temperature is much higher than atmospheric temperature, which is
@@ -347,7 +376,7 @@ an atmosphere on the Moon. Because the gravitational pull of the Moon is much
 weaker, it has lost almost its entire atmosphere. The comparison between Earth
 and the Moon is discussed in this chapter’s Problems and Exercises.
 
-</div>
+:::
 
 ![Photograph of the lunar rover on the Moon. The photo looks like it was taken at night with a powerful spotlight shining on the rover from the left: light reflects off the rover, the astronaut, and the Moon&#x2019;s surface, but the sky is black. The shadow of the rover is very sharp.](../resources/Figure_13_04_06.jpg "This photograph of Apollo 17 Commander Eugene Cernan driving the lunar rover on the Moon in 1972 looks as though it was taken at night with a large spotlight. In fact, the light is coming from the Sun. Because the acceleration due to gravity on the Moon is so low (about 1/6 that of Earth), the Moon&#x2019;s escape velocity is much smaller. As a result, gas molecules escape very easily from the Moon, leaving it with virtually no atmosphere. Even during the daytime, the sky is black because there is no gas to scatter sunlight. (credit: Harrison H. Schmitt/NASA)")
 {: #Figure6}
@@ -356,27 +385,34 @@ and the Moon is discussed in this chapter’s Problems and Exercises.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 If you consider a very small object such as a grain of pollen, in a gas, then the number of atoms and molecules striking its surface would also be relatively small. Would the grain of pollen experience any fluctuations in pressure due to statistical fluctuations in the number of gas atoms and molecules striking it in a given amount of time?
 
-</div>
-<div class="solution" data-element-type="check-understanding" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"check-understanding","data-print-placement":"here"}
+
 Yes. Such fluctuations actually occur for a body of any size in a gas, but since the numbers of atoms and molecules are immense for macroscopic bodies, the fluctuations are a tiny percentage of the number of collisions, and the averages spoken of in this section vary imperceptibly. Roughly speaking the fluctuations are proportional to the inverse square root of the number of collisions, so for small bodies they can become significant. This was actually observed in the 19th century for pollen grains in water, and is known as the Brownian effect.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Gas Properties
 </div>
+
 Pump gas molecules into a box and see what happens as you change the volume, add or remove heat, change gravity, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other.
 
 <div class="media" data-alt="gas-properties">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/gas-properties/latest/gas-properties_en.html"></iframe>
 </div>
 
-</div>
+:::
 
 ### Section Summary
 
@@ -389,6 +425,7 @@ Pump gas molecules into a box and see what happens as you change the volume, add
   <div class="equation" >
    $$PV=\frac{1}{3} N m \overline{ {v}^{2}}, $$
   </div>
+
      where
    $$P $$ is the pressure (average force per unit area),
    $$V $$ is the volume of gas in the container,
@@ -402,6 +439,7 @@ Pump gas molecules into a box and see what happens as you change the volume, add
   <div class="equation" >
    $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
   </div>
+
      or
   <div class="equation" >
    $$\sqrt{\overline{ {v}^{2}}}={v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}\text{.} $$
@@ -414,11 +452,15 @@ Pump gas molecules into a box and see what happens as you change the volume, add
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How is momentum related to the pressure exerted by a gas? Explain on the atomic and molecular level, considering the behavior of atoms and molecules.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider what happens when gas molecules collide with the walls of a container and how Newton's laws relate force to momentum change.
 
@@ -431,18 +473,24 @@ The relationship is quantified in the kinetic theory expression: $$PV=\frac{1}{3
 
 **Discussion:**
 This molecular explanation reveals that gas pressure is fundamentally a statistical result of countless molecular collisions. Higher molecular speeds (greater momentum) or more molecules (more collisions) both increase pressure. This connects macroscopic pressure to microscopic molecular motion, demonstrating the power of kinetic theory to explain observable properties in terms of atomic behavior.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some incandescent light bulbs are filled with argon gas. What is  $${v}_{\text{rms}} $$
  for argon atoms near the filament, assuming their temperature is 2500 K?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the mass of an argon atom.
 
@@ -459,17 +507,23 @@ Now calculate the rms speed:
 
 **Discussion:**
 Argon atoms near the filament move at about 1250 m/s (about 2800 mph), which is over 3.5 times the speed of sound in air. This high speed is due to the extremely high temperature near the filament. Argon is used in light bulbs because it's inert (won't react with the hot tungsten filament) and because its atoms, moving rapidly, help convect heat away from the filament while preventing oxidation. The argon also reduces evaporation of tungsten from the filament, extending bulb life.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Average atomic and molecular speeds  $$\left({v}_{\text{rms}}\right) $$
  are large, even at low temperatures. What is  $${v}_{\text{rms}} $$
  for helium atoms at 5.00 K, just one degree above helium's liquefaction temperature?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the temperature and the mass of a helium atom.
 
@@ -486,16 +540,22 @@ Now calculate the rms speed:
 
 **Discussion:**
 Even at this extremely low temperature (just 5 K above absolute zero), helium atoms are moving at 177 m/s, which is about 640 km/h or 400 mph. This demonstrates that molecular motion remains significant even at temperatures close to absolute zero. This high speed explains why helium is difficult to liquefy and why it has the lowest boiling point of any element (4.2 K at atmospheric pressure).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the average kinetic energy in joules of hydrogen atoms on the  $$5500\text{ºC} $$
  surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is  $$ 6.00 \times 10^{5}  \text{K} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the relationship $$\overline{\text{KE}}=\frac{3}{2}k_{B}T$$ for both parts. Note that kinetic energy depends only on temperature, not on the type of atom.
 
@@ -517,16 +577,22 @@ Calculate average kinetic energy:
 
 **Discussion:**
 The average kinetic energy of atoms in the solar corona is about 100 times greater than on the Sun's surface, reflecting the dramatically higher temperature. The solar corona, visible during solar eclipses as the Sun's outer atmosphere, has temperatures exceeding 1 million kelvin—paradoxically much hotter than the Sun's visible surface at about 5800 K. This "coronal heating problem" is an active area of research in solar physics. Despite the very high temperatures, the corona doesn't feel hot because its density is extremely low—there are very few particles to transfer energy. Note that kinetic energy depends only on temperature, not on whether the particle is hydrogen or helium.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The escape velocity of any object from Earth is 11.2 km/s. (a) Express this speed in m/s and km/h. (b) At what temperature would oxygen molecules (molecular mass is equal to 32.0 g/mol) have an average velocity  $${v}_{\text{rms}} $$
  equal to Earth's escape velocity of 11.1 km/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Use unit conversion. (b) Rearrange the rms speed equation to solve for temperature.
 
@@ -553,16 +619,22 @@ Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
 
 **Discussion:**
 This extremely high temperature (158,000 K) is much higher than any naturally occurring temperature in Earth's atmosphere. This explains why Earth retains its oxygen atmosphere—at normal atmospheric temperatures, very few oxygen molecules have speeds approaching escape velocity. Lighter molecules like hydrogen and helium, however, can reach escape velocity at lower temperatures, which is why Earth has lost most of its primordial hydrogen and helium.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The escape velocity from the Moon is much smaller than from Earth and is only 2.38 km/s. At what temperature would hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity  $${v}_{\text{rms}} $$
  equal to the Moon's escape velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ and solve for temperature.
 
@@ -579,16 +651,22 @@ Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
 
 **Discussion:**
 At only 458 K (185ºC), hydrogen molecules would have sufficient rms speed to escape the Moon's gravity. This temperature is much lower than Earth's escape temperature for hydrogen, explaining why the Moon has essentially no atmosphere—it lost its atmosphere long ago. At the Moon's daytime surface temperatures (which can reach 400 K), a significant fraction of light gases like hydrogen and helium have speeds exceeding escape velocity. The Moon's weak gravity (about 1/6 that of Earth) and lack of a magnetic field to trap charged particles means that any atmosphere it once had has been lost to space over billions of years.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of  $$ 6.40 \times 10^{-14} \text{J} $$ .
  What temperature is needed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the relationship between average kinetic energy and temperature: $$\overline{\text{KE}}=\frac{3}{2}k_{B}T$$. Solve for temperature.
 
@@ -600,17 +678,23 @@ Rearranging the equation:
 
 **Discussion:**
 This incredibly high temperature of about 3 billion kelvin is typical for nuclear fusion reactions. At such temperatures, atoms are fully ionized (stripped of electrons) forming a plasma, and nuclei have enough kinetic energy to overcome the strong electrostatic repulsion between positively charged nuclei and get close enough for the strong nuclear force to bind them together. The core of the Sun has a temperature of about 15 million kelvin, while fusion reactors on Earth require even higher temperatures (100-150 million kelvin) because they operate at lower densities than the Sun's core. This explains why controlled nuclear fusion remains one of the great technological challenges—maintaining such extreme temperatures is extraordinarily difficult.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose that the average velocity  $$\left({v}_{\text{rms}}\right) $$
  of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be  $$ 1.05 \times 10^{5}  \text{m/s} $$ .
  What temperature does this represent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the rms speed equation and solve for temperature.
 
@@ -627,16 +711,22 @@ Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
 
 **Discussion:**
 This temperature of about 19.5 million kelvin is extraordinarily high—far beyond any chemical flame, which typically reaches only a few thousand kelvin. This temperature is comparable to the temperature in the core of the Sun (about 15 million K) where nuclear fusion occurs. Such extreme temperatures are not found in ordinary flames. This problem likely describes conditions in a very exotic environment such as a nuclear explosion, a stellar interior, or possibly an extremely high-energy plasma experiment. At such temperatures, matter exists as a fully ionized plasma with nuclei stripped of all electrons.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity  $${v}_{\text{rms}} $$
  equal to 193 m/s. What is the temperature?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ and solve for temperature $$T$$. First find the mass of a hydrogen molecule.
 
@@ -653,17 +743,23 @@ Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
 
 **Discussion:**
 This extremely low temperature (about 3 K or -270ºC) is just above absolute zero. At such low temperatures, hydrogen would normally be a solid (it solidifies at 14 K at atmospheric pressure), but this calculation assumes the gas behaves ideally. The low rms speed of only 193 m/s (compared to ~1900 m/s at room temperature) is consistent with this very cold temperature. This temperature is in the range used in cryogenic research and is close to the temperature of liquid helium.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Much of the gas near the Sun is atomic hydrogen. Its temperature would have to be  $$ 1.5 \times 10^{7}  \text{K} $$
  for the average velocity  $${v}_{\text{rms}} $$
  to equal the escape velocity from the Sun. What is that velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the mass of a hydrogen atom.
 
@@ -680,11 +776,15 @@ Now calculate the rms speed:
 
 **Discussion:**
 The escape velocity from the Sun's surface is about 609 km/s (or about 2.2 million km/h), which is roughly 55 times Earth's escape velocity. This enormous escape velocity explains why the Sun can retain even light elements like hydrogen in its atmosphere despite its very high surface temperature of 5800 K. At the surface temperature, the rms speed of hydrogen is only about 12 km/s, far below the escape velocity. However, at the temperature of 15 million kelvin in the Sun's core, hydrogen atoms move fast enough that some could escape if they reached the surface—but they lose energy through collisions as they move outward. The solar wind does allow some particles to escape, but the Sun retains the vast majority of its mass.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There are two important isotopes of uranium—  $${}^{235}\text{U} $$
  and  $${}^{238}\text{U} $$ ;  these isotopes are nearly identical chemically but have different atomic masses. Only  $${}^{235}\text{U} $$
  is very useful in nuclear reactors. One of the techniques for separating them (gas diffusion) is based on the different average velocities  $${v}_{\text{rms}} $$
@@ -695,15 +795,17 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
  $$ {\text{UF}}_{6} $$
  are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Use $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to find the ratio of velocities. At the same temperature, the ratio depends only on mass. (b) Set up equations for both isotopes and find when the difference equals 1.00 m/s. (c) Evaluate the practical implications.
 
 **Solution:**
 (a) At the same temperature:
 <div class="equation" >
- {% raw %}$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $${% endraw %}
+ $$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $$
 </div>
 
 The lighter isotope moves about 0.429% faster.
@@ -746,10 +848,13 @@ First find the molecular masses in kg:
 
 **Discussion:**
 This problem illustrates why uranium enrichment was such a challenge during the Manhattan Project and remains a proliferation concern today. The tiny mass difference (less than 1%) between isotopes results in minuscule velocity differences, requiring massive industrial plants with thousands of separation stages. Modern centrifuge methods exploit the same mass difference but are more efficient.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -757,6 +862,6 @@ thermal energy
 :  $$\overline{\text{KE}} $$ , the average translational kinetic energy of a
 molecule
 
-</div>
+:::
 
 [1]: http://phet.colorado.edu/en/simulation/gas-properties

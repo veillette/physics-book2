@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 5
 chapterNumber: 19
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the action of a capacitor and define capacitance.
 * Explain parallel plate capacitors and their capacitances.
 * Discuss the process of increasing the capacitance of a dielectric.
 * Determine capacitance given charge and voltage.
-</div>
+
+:::
 
 A **capacitor** is a device used to store electric charge. Capacitors have
 applications ranging from filtering static out of radio reception to energy
@@ -23,12 +24,15 @@ amounts of positive and negative charge, $$+Q $$ and $$-Q $$ , are separated
 into its two plates. The capacitor remains neutral overall, but we refer to it
 as storing a charge $$Q $$ in this circumstance.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Capacitor
 </div>
+
 A capacitor is a device used to store electric charge.
-</div>
+
+:::
 
 ![Part a of the figure shows a charged parallel plate capacitor and part b of the figure shows a charged rolled capacitor. In the parallel plate capacitor, two rectangular plates are kept vertically facing each other separated by a distance d. These two plates are the conducting parts of the capacitor. One plate is connected to the positive terminal of the battery, and the other is connected to the negative terminal of the battery. One plate has a positive charge, plus Q, and the other plate has a negative charge, negative Q. The rolled capacitor has conducting parts in the form of a spiral coil. Between the two conducting parts is insulating material, also in the form of a coil. The conducting and insulating materials of the capacitor are rolled together to form a spiral. The outer conducting coil is connected to the positive terminal of the battery, and the inner coil is connected to the negative terminal of the battery.](../resources/Figure_19_05_01.jpg 'Both capacitors shown here were initially uncharged before being connected to a battery. They now have separated charges of +( Q ) and –( Q ) on their two halves. (a) A parallel plate capacitor. (b) A rolled capacitor with an insulating material between its two conducting sheets.')
 {: #Figure1}
@@ -37,17 +41,19 @@ The amount of charge $$Q $$ a **capacitor** can store depends on two major
 factors—the voltage applied and the capacitor’s physical characteristics, such
 as its size.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Amount of Charge  $$Q $$ a Capacitor Can Store
 </div>
+
 The amount of charge  $$Q $$ a **capacitor** can store depends on two major factors—the voltage applied and the capacitor’s physical characteristics, such as its size.
 
-</div>
+:::
 
 A system composed of two identical, parallel conducting plates separated by a
-distance, as in [[Figure 2]](#Figure2), is called a **parallel plate capacitor**
-{: class="term"}. It is easy to see the relationship between the voltage and the
+distance, as in [[Figure 2]](#Figure2), is called a **parallel plate capacitor**{: class="term"}
+. It is easy to see the relationship between the voltage and the
 stored charge for a parallel plate capacitor, as shown in [[Figure 2]](#Figure2)
 . Each electric field line starts on an individual positive charge and ends on a
 negative one, so that there will be more field lines if there is more charge. (
@@ -98,16 +104,19 @@ stored. Those factors are the physical characteristics of the capacitor, $$C $$,
  $$C=\frac{Q}{V}. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Capacitance
 </div>
+
 Capacitance  $$C $$  is the amount of charge stored per volt, or
 
 <div class="equation" >
  $$C=\frac{Q}{V}. $$
 </div>
-</div>
+
+:::
 
 The unit of capacitance is the farad (F), named for Michael Faraday (1791–1867),
 an English scientist who contributed to the fields of electromagnetism and
@@ -161,9 +170,11 @@ capacitor in equation form is given by
 <div class="title">
 Capacitance of a Parallel Plate Capacitor
 </div>
+
 <div class="equation" >
  $$C={\epsilon }_{0}\frac{A}{d} $$
 </div>
+
 </div>
 
 $$A $$ is the area of one plate in square meters, and $$d $$ is the distance
@@ -176,10 +187,12 @@ Note that the above equation is valid when the parallel plates are separated by
 air or free space. When another material is placed between the plates, the
 equation is modified, as discussed below.)
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Capacitance and Charge Stored in a Parallel Plate Capacitor
 </div>
+
 (a) What is the capacitance of a parallel plate capacitor with metal plates, each of area  $$1.00 {\text{m}}^{2} $$ ,
  separated by 1.00 mm? (b) What charge is stored in this capacitor if a voltage of  $$ 3.00 \times 10^{3}  \text{V} $$
  is applied to it?
@@ -198,6 +211,7 @@ plate capacitor yields
 <div class="equation" >
  $$\begin{array}{lll}C& =& {\epsilon }_{0}\frac{A}{d}=\left(8.85 \times 10^{-12}\frac{\text{F}}{\text{m}}\right) \frac{1.00 {\text{m}}^{2}}{1.00 \times 10^{-3} \text{m}}\\ & =& 8.85 \times 10^{-9} \text{F}=8.85 \text{nF}.\end{array} $$
 </div>
+
 **Discussion for (a)**
 
 This small value for the capacitance indicates how difficult it is to make a
@@ -212,13 +226,14 @@ the known values into this equation gives
 <div class="equation" >
  $$\begin{array}{lll}Q& =& CV=\left(8.85 \times 10^{-9} \text{F}\right)\left( 3.00 \times 10^{3}  \text{V}\right)\\ & =& 26.6 \text{μC.}\end{array} $$
 </div>
+
 **Discussion for (b)**
 
 This charge is only slightly greater than those found in typical static
 electricity. Since air breaks down at about $$ 3.00 \times 10^{6} \text{V/m} $$
 , more charge cannot be stored on this capacitor by increasing the voltage.
 
-</div>
+:::
 
 Another interesting biological example dealing with electric potential is found
 in the cell’s plasma membrane. The membrane sets a cell off from its
@@ -264,13 +279,15 @@ by placing Teflon between the plates of the capacitor in [[Example 1]](#Example1
 then the capacitance is greater by the factor $$\kappa $$ , which for Teflon is
 2.1.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Building a Capacitor
 </div>
+
 How large a capacitor can you make using a chewing gum wrapper? The plates will be the aluminum foil, and the separation (dielectric) in between will be the paper.
 
-</div>
+:::
 
 <table id="Table1" aria-describedby="The table gives the value of dielectric constants and dielectric strengths for various materials at a temperature of twenty degrees Celsius"><caption><span class="title">Dielectric Constants and Dielectric Strengths for Various Materials at 20ºC</span></caption><thead><tr>
             <th>Material</th>
@@ -382,13 +399,15 @@ Teflon-filled capacitor can store a maximum charge of
 
 This is 42 times the charge of the same air-filled capacitor.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Dielectric Strength
 </div>
+
 The maximum electric field strength above which an insulating material begins to break down and conduct is called its dielectric strength.
 
-</div>
+:::
 
 Microscopically, how does a dielectric increase capacitance? Polarization of the
 insulator is responsible. The more easily it is polarized, the greater its
@@ -421,10 +440,12 @@ The dielectric constant is generally defined to be $$\kappa ={E}_{0}/E $$ , or
 the ratio of the electric field in a vacuum to that in the dielectric material,
 and is intimately related to the polarizability of the material.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Things Great and Small
 </div>
+
 **The Submicroscopic Origin of Polarization**
 
 Polarization is a separation of charge within an atom or molecule. As has been
@@ -435,7 +456,7 @@ a vast range of phenomena and will be refined elsewhere, such as
 in [Atomic Physics](../contents/ch30AtomicPhysics). The submicroscopic origin of polarization can be
 modeled as shown in [[Figure 6]](#Figure6).
 
-</div>
+:::
 
 ![The top part of the figure shows what an unpolarized atom would look like if the electrons moved along a circular path around the positively charged nucleus. Next, when there is an external negative and a positive charge, the electrons are attracted toward the positive external charge and the nucleus is attracted toward the negative external charge. The circular orbit of the electrons becomes an ellipse due to the pull of the external charges.](../resources/Figure_19_05_06.jpg 'Artist’s conception of a polarized atom. The orbits of electrons around the nucleus are shifted slightly by the external charges (shown exaggerated). The resulting separation of charge within the atom means that it is polarized. Note that the unlike charge is now closer to the external charges, causing the polarization.')
 {: #Figure6}
@@ -470,17 +491,19 @@ molecules of interest in biological systems.
 ![The two hydrogen atoms in the water molecule subtend an angle of one hundred and four point five degrees with oxygen at the center. This is a schematic arrangement of hydrogen and oxygen atoms in the water molecule. The molecule is polarized, with the electrons attracted more to the nucleus of the oxygen atom than toward the nuclei of the hydrogen atoms.](../resources/Figure_19_05_07.jpg 'Artist’s conception of a water molecule. There is an inherent separation of charge, and so water is a polar molecule. Electrons in the molecule are attracted to the oxygen nucleus and leave an excess of positive charge near the two hydrogen nuclei. (Note that the schematic on the right is a rough illustration of the distribution of electrons in the water molecule. It does not show the actual numbers of protons and electrons involved in the structure.)')
 {: #Figure7}
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Capacitor Lab Basics
 </div>
+
 Explore how a capacitor works! Change the size of the plates and add a dielectric to see the effect on capacitance. Change the voltage and see charges built up on the plates. Observe the electric field in the capacitor. Measure the voltage and the electric field.
 
 <div class="media" data-alt="capacitor lab basics">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_en.html"></iframe>
 </div>
 
-</div>
+:::
 
 ### Section Summary
 
@@ -510,52 +533,73 @@ Explore how a capacitor works! Change the size of the plates and add a dielectri
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the capacitance of a device depend on the applied voltage? What about the charge stored in it?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use the characteristics of the Coulomb force to explain why capacitance should be proportional to the plate area of a capacitor. Similarly, explain why capacitance should be inversely proportional to the separation between plates.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give the reason why a dielectric material increases capacitance compared with what it would be with air between the plates of a capacitor. What is the independent reason that a dielectric material also allows a greater voltage to be applied to a capacitor? (The dielectric thus increases  $$C $$ and permits a greater  $$V $$ .)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the polar character of water molecules help to explain water’s relatively large dielectric constant? ([[Figure 7]](#Figure7))
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Sparks will occur between the plates of an air-filled capacitor at lower voltage when the air is humid than when dry. Explain why, considering the polar character of water molecules.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water has a large dielectric constant, but it is rarely used in capacitors. Explain why.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Membranes in living cells, including those in humans, are characterized by a separation of charge across the membrane. Effectively, the membranes are thus charged capacitors with important functions related to the potential difference across the membrane. Is energy required to separate these charges in living membranes and, if so, is its source the metabolization of food energy or some other source?
 
-</div>
+:::
+
 </div>
 
 ![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_19_05_08.jpg 'The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the ( \\text{K}^{+} )    (potassium) and ( \\text{Cl}^{-} )   (chloride) ions in the directions shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to ( \\text{Na}^{+} ) (sodium ions).')
@@ -564,11 +608,15 @@ Membranes in living cells, including those in humans, are characterized by a sep
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What charge is stored in a  $$180 \text{µF}  $$  capacitor when 120 V is applied to it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem asks for the charge stored in a capacitor given its capacitance and the applied voltage. The fundamental relationship between charge, capacitance, and voltage is $$Q = CV$$, which directly relates these three quantities.
@@ -594,15 +642,21 @@ This is a substantial amount of charge for a typical capacitor. A 180 μF capaci
 **Final Answer**
 
 The charge stored in the 180 μF capacitor with 120 V applied is **21.6 mC**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the charge stored when 5.50 V is applied to an 8.00 pF capacitor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the charge stored in a small capacitor (picofarad range) with a low voltage applied. Using the fundamental capacitor relationship $$Q = CV$$, we can directly calculate the stored charge.
@@ -628,15 +682,21 @@ The picofarad capacitor stores a picocoulomb-level charge, which is characterist
 **Final Answer**
 
 The charge stored in the 8.00 pF capacitor with 5.50 V applied is **44.0 pC**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What charge is stored in the capacitor in [[Example 1]](#Example1)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem requires referencing Example 1, which describes a parallel plate capacitor with 1.00 m² plates separated by 1.00 mm, with 3.00 kV applied. We need to use the capacitance calculated there (8.85 nF) and the relationship $$Q = CV$$ to find the stored charge.
@@ -668,16 +728,22 @@ The charge stored depends critically on both the capacitance and the applied vol
 **Final Answer**
 
 The charge stored in the capacitor from Example 1 is **80.0 mC** (as stated, though this requires a voltage of approximately 9 MV, suggesting a modified scenario or different interpretation).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the voltage applied to a  $$2.00 \text{µF} $$
  capacitor when it holds  $$3.10 \text{µC} $$ of charge.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the voltage across a capacitor given its capacitance and stored charge. Rearranging the fundamental capacitor equation $$Q = CV$$ to solve for voltage gives $$V = Q/C$$.
@@ -701,15 +767,21 @@ This is a very modest voltage, typical of what might be found in low-power elect
 **Final Answer**
 
 The voltage applied to the 2.00 μF capacitor holding 3.10 μC is **1.55 V**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What voltage must be applied to an 8.00 nF capacitor to store 0.160 mC of charge?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Given the capacitance and desired charge, we need to find the required voltage. Using $$V = Q/C$$, we can determine the voltage needed to store this specific charge.
@@ -735,16 +807,22 @@ This is a high voltage—20,000 volts! Such voltages are found in applications l
 **Final Answer**
 
 The voltage required to store 0.160 mC of charge in an 8.00 nF capacitor is **20.0 kV**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What capacitance is needed to store  $$3.00 \text{µC} $$
  of charge at a voltage of 120 V?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to find the capacitance required to store a given charge at a specified voltage. Rearranging $$Q = CV$$ to solve for capacitance gives $$C = Q/V$$.
@@ -770,15 +848,21 @@ This is a modest capacitance that is readily available in standard electronic co
 **Final Answer**
 
 The capacitance needed to store 3.00 μC of charge at 120 V is **25.0 nF** (or 0.0250 μF).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the capacitance of a large Van de Graaff generator's terminal, given that it stores 8.00 mC of charge at a voltage of 12.0 MV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 A Van de Graaff generator accumulates charge on a large spherical terminal until the voltage becomes very high. Using the relationship $$C = Q/V$$, we can determine the capacitance of the terminal from the stored charge and voltage.
@@ -804,16 +888,22 @@ Despite the extremely high voltage (12 million volts!) and substantial charge (8
 **Final Answer**
 
 The capacitance of the Van de Graaff generator's terminal is **667 pF**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the capacitance of a parallel plate capacitor having plates of area  $$ 5.00 {\text{m}}^{2} $$
  that are separated by 0.100 mm of Teflon.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a parallel plate capacitor with a dielectric material between the plates, the capacitance is given by $$C = \kappa\epsilon_0\text{ A}/d$$, where $$\kappa$$ is the dielectric constant. From Table 1, Teflon has $$\kappa = 2.1$$.
@@ -843,16 +933,22 @@ This is a substantial capacitance approaching 1 μF. The large plate area (5 m²
 **Final Answer**
 
 The capacitance of the parallel plate capacitor with 5.00 m² plates separated by 0.100 mm of Teflon is **0.929 μF** (or 929 nF).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a)What is the capacitance of a parallel plate capacitor having plates of area  $${1.50 \text{m}}^{2} $$
  that are separated by 0.0200 mm of neoprene rubber? (b) What charge does it hold when 9.00 V is applied to it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a two-part problem. Part (a) requires calculating the capacitance using $$C = \kappa\epsilon_0\text{ A}/d$$ with neoprene rubber as the dielectric ($$\kappa = 6.7$$ from Table 1). Part (b) uses the capacitance from part (a) to find the stored charge via $$Q = CV$$.
@@ -890,11 +986,15 @@ The high dielectric constant of neoprene rubber (6.7) significantly increases th
 (a) The capacitance is **4.4 μF**.
 
 (b) The charge stored with 9.00 V applied is **4.0 × 10⁻⁵ C** (or 40 μC).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A prankster applies 450 V to an $$ 80.0 µF $$ capacitor and then tosses it to an
@@ -902,8 +1002,10 @@ unsuspecting victim. The victim's finger is burned by the discharge of the
 capacitor through 0.200 g of flesh. What is the temperature increase of the
 flesh? Is it reasonable to assume no phase change?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem connects capacitor energy storage with thermodynamics. The energy stored in the capacitor is converted to heat in the flesh. We'll use the capacitor energy formula $$U = \frac{1}{2}CV^2$$ to find the energy released, then apply the heat equation $$Q = mc\Delta T$$ to find the temperature rise. We'll assume flesh has similar thermal properties to water (specific heat $$c \approx 3500$$ J/(kg·°C) for tissue, or we can use 4186 J/(kg·°C) for water as an approximation).
@@ -943,11 +1045,15 @@ The temperature increase of approximately 10-12°C is significant but does not a
 **Final Answer**
 
 The temperature increase of the flesh is approximately **10-12°C** (depending on the assumed specific heat). It is reasonable to assume no phase change since this temperature rise, when added to body temperature (~37°C), yields approximately 47-49°C, well below the boiling point.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2} $$
@@ -956,8 +1062,10 @@ The temperature increase of the flesh is approximately **10-12°C** (depending o
 applied voltage? (b) What is unreasonable about this result? (c) Which
 assumptions are responsible or inconsistent?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is an "Unreasonable Results" problem designed to develop critical thinking. We'll calculate the voltage using $$V = Q/C$$, then compare the result to physical constraints to identify what's unreasonable.
@@ -1005,10 +1113,13 @@ So the maximum charge is about 1.7 mC, which is about 100 times smaller than the
 (b) This voltage is unreasonable because the resulting electric field ($$1.42 \times 10^9$$ V/m) exceeds the dielectric strength of nylon ($$14 \times 10^6$$ V/m) by a factor of about 100.
 
 (c) The assumed charge of 0.170 C is unreasonably large and cannot be stored in a capacitor of these dimensions without causing dielectric breakdown.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1031,4 +1142,4 @@ parallel plate capacitor
 polar molecule
 : a molecule with inherent separation of charge
 
-</div>
+:::

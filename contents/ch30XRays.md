@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 4
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define x-ray tube and its spectrum.
 * Show the x-ray characteristic energy.
 * Specify the use of X-rays in medical observations.
 * Explain the use of X-rays in CT scanners in diagnostics.
-</div>
+
+:::
 
 Each type of atom (or element) has its own characteristic electromagnetic
 spectrum. **X-rays**{: class="term"} lie at the high-frequency end of an atom’s
@@ -73,10 +74,12 @@ element in an environmental or biological sample.
 ![Different energy levels are shown in the form of horizontal lines. The line at the bottom shows the energy level for n is equal to one for the K shell. At a distance above this line, another horizontal line shows the energy level for n is equal to two for the shell L. Similarly, other lines are shown for the shells M and N. As we move from bottom to the top, the distance between the lines decreases, and near the end a few lines are shown very close to each other. Each level is labeled according to the characteristic X-ray of the shell.](../resources/Figure_30_04_02.jpg 'A characteristic X-ray is emitted when an electron fills an inner-shell vacancy, as shown for several transitions in this approximate energy level diagram for a multiple-electron atom. Characteristic X-rays are labeled according to the shell that had the vacancy and the shell from which the electron came. A ( K_\\alpha ) X-ray, for example, is produced when an electron coming from the ( n=2 ) shell fills the ( n=1 ) shell vacancy.')
 {: #Figure2}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Characteristic X-Ray Energy
 </div>
+
 Calculate the approximate energy of a  $${K}_{\alpha } $$
  X-ray from a tungsten anode in an x-ray tube.
 
@@ -105,21 +108,25 @@ the effective $$Z $$ is 73. Now the $${K}_{\alpha } $$ x-ray energy is given by
 <div class="equation" >
  $${E}_{ {K}_{\alpha } }=\Delta E={E}_{\text{i} }-{E}_{\text{f} }={E}_{2}-{E}_{1}, $$
 </div>
+
 where
 
 <div class="equation" >
  $${E}_{1}=-\frac{ {Z}^{2} }{ {1}^{2} }{E}_{0}=-\frac{ {73}^{2} }{1}\left(13.6 \text{eV}\right)=-72.5 \text{keV} $$
 </div>
+
 and
 
 <div class="equation" >
  $${E}_{2}=-\frac{ {Z}^{2} }{ {2}^{2}}{E}_{0}=-\frac{ {73}^{2}}{4}\left(13.6 \text{eV}\right)=-18.1 \text{keV} \text{.}  $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $${E}_{ {K}_{\alpha }}=-18.1\text{ keV}-\left(-72.5 \text{keV}\right)=54.4 keV. $$
 </div>
+
 **Discussion**
 
 This large photon energy is typical of characteristic X-rays from heavy
@@ -134,7 +141,7 @@ shell. Tungsten is a common anode material in x-ray tubes; so much of the energy
 of the impinging electrons is absorbed, raising its temperature, that a
 high-melting-point material like tungsten is required.
 
-</div>
+:::
 
 ### Medical and Other Diagnostic Uses of X-rays
 
@@ -298,55 +305,76 @@ range of fields from art to archaeology.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why characteristic X-rays are the most energetic in the EM emission spectrum of a given element.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does the energy of characteristic X-rays become increasingly greater for heavier atoms?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Observers at a safe distance from an atmospheric test of a nuclear bomb feel its heat but receive none of its copious X-rays. Why is air opaque to X-rays but transparent to infrared?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Lasers are used to burn and read CDs. Explain why a laser that emits blue light would be capable of burning and reading more information than one that emits infrared.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Crystal lattices can be examined with X-rays but not UV. Why?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 CT scanners do not detect details smaller than about 0.5 mm. Is this limitation due to the wavelength of X-rays? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the shortest-wavelength x-ray radiation that can be generated in an x-ray tube with an applied voltage of 50.0 kV? (b) Calculate the photon energy in eV. (c) Explain the relationship of the photon energy to the applied voltage.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -392,15 +420,19 @@ The direct relationship between accelerating voltage and maximum photon energy (
 
 In actual X-ray spectra, the continuous bremsstrahlung spectrum shows all energies from near zero up to this maximum, with characteristic X-ray peaks superimposed. The 50 kV accelerating voltage used here is typical for medical chest X-rays, providing enough penetration to image through soft tissue while still being absorbed differently by bones. Higher voltages (100-150 kV) are used for thicker body parts or to examine denser materials.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A color television tube also generates some X-rays when its electron beam strikes the screen. What is the shortest wavelength of these X-rays, if a 30.0-kV potential is used to accelerate the electrons? (Note that TVs have shielding to prevent these X-rays from exposing viewers.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -425,15 +457,19 @@ The shortest wavelength is **0.0413 nm** or **4.13 × 10⁻¹¹ m**.
 
 This wavelength is characteristic of the bremsstrahlung (braking radiation) X-rays produced when electrons are rapidly decelerated upon striking the screen material. The 30 kV accelerating voltage in old CRT televisions was sufficient to produce X-rays, which is why TV manufacturers included lead shielding in the glass screen and around the tube. The X-ray energy of 30 keV is relatively low compared to medical X-rays (which typically use 50-150 kV), but prolonged exposure could still pose a health risk, hence the shielding requirements. Modern flat-panel displays (LCD, LED, OLED) do not produce X-rays because they don't use high-voltage electron beams. The inverse relationship between accelerating voltage and minimum wavelength ( $$ \lambda_{\text{min}} = \frac{hc}{eV} $$ ) is fundamental to X-ray production: higher voltages produce shorter wavelengths (more penetrating X-rays). This wavelength of 0.0413 nm is about 1000 times shorter than visible light wavelengths (400-700 nm), placing it firmly in the X-ray region of the electromagnetic spectrum. The fact that we can calculate this precisely from just the accelerating voltage demonstrates the direct connection between electrical energy and photon energy in quantum mechanics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An X-ray tube has an applied voltage of 100 kV. (a) What is the most energetic x-ray photon it can produce? Express your answer in electron volts and joules. (b) Find the wavelength of such an X–ray.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -474,16 +510,20 @@ To put this wavelength in perspective: it's about 40,000 times shorter than visi
 
 The energy of 100 keV (or $$ 1.60 \times 10^{-14} \text{ J} $$ ) might seem tiny in everyday terms, but it's enormous on the atomic scale. This is about 7 million times the ionization energy of hydrogen (13.6 eV). Such energetic photons can easily ionize atoms by knocking out inner-shell electrons, which is why X-rays are classified as ionizing radiation and why they can damage biological tissue. The biological effects of X-rays depend on both the dose (total energy deposited) and the photon energy—higher energy photons penetrate deeper but are less likely to be absorbed per unit thickness. Modern medical imaging carefully balances the need for good image quality (requiring sufficient X-ray penetration and dose) against minimizing radiation exposure to the patient. This optimization has led to dramatic reductions in medical radiation doses while improving image quality through better detectors and image processing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The maximum characteristic x-ray photon energy comes from the capture of a free electron into a  $$K $$
  shell vacancy. What is this photon energy in keV for tungsten, assuming the free electron has no initial kinetic energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -514,17 +554,21 @@ The maximum characteristic X-ray photon energy for tungsten is **72.5 keV**.
 
 This energy represents the absolute maximum characteristic X-ray that tungsten can emit—it occurs when a completely free electron (from outside the atom) falls directly into a K-shell vacancy. This is slightly higher than the $$ K_\alpha $$ X-ray energy of 54.4\text{ keV} calculated in Example 1 of this chapter, which corresponds to an $$ n = 2 $$ to $$ n = 1 $$ transition (an electron from the L shell filling a K shell vacancy). The difference of about 18\text{ keV} represents the binding energy of the L shell. This 72.5\text{ keV} result matches the K-edge absorption energy for tungsten—the minimum photon energy needed to knock a K-shell electron completely out of the atom. The high energy of this X-ray (72.5\text{ keV}) explains why tungsten is used as the anode material in X-ray tubes: it can produce very penetrating X-rays suitable for medical imaging. The calculation also explains why an X-ray tube operating at less than 72.5\text{ kV} cannot produce K-shell characteristic X-rays from tungsten—the accelerating voltage must be at least this high to create K-shell vacancies in the first place. The $$ Z^2 $$ dependence of the binding energy (and thus the characteristic X-ray energy) means that heavier elements produce much more energetic characteristic X-rays: for example, lead ( $$ Z = 82 $$ ) produces K-shell X-rays near 88\text{ keV}, while copper ( $$ Z = 29 $$ ) produces them near 9 keV.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the approximate energies of the  $${K}_{\alpha } $$
  and  $${K}_{\beta } $$
  X-rays for copper?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -583,10 +627,12 @@ Copper is commonly used as an anode material in X-ray diffraction studies becaus
 
 The $$ K_\beta $$ X-ray is always more energetic than the $$ K_\alpha $$ because the electron falls from a higher shell (M vs L), releasing more energy. However, $$ K_\alpha $$ X-rays are typically more intense than $$ K_\beta $$ X-rays because transitions from the L shell are more probable than from the M shell. In X-ray spectroscopy and crystallography, filters or monochromators are often used to select predominantly the $$ K_\alpha $$ radiation, which provides sharper, more well-defined wavelengths for precision measurements.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -597,4 +643,4 @@ x-ray diffraction
 : a technique that provides the detailed information about crystallographic
 structure of natural and manufactured materials
 
-</div>
+:::

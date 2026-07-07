@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 9
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe different simple machines.
 * Calculate the mechanical advantage.
 
-</div>
+:::
 
 Simple machines are devices that can be used to multiply or augment a force that
 we apply – often at the expense of a distance through which we apply the force.
@@ -86,10 +86,12 @@ is less than one.
 ![A wheelbarrow is shown in which the input force F sub I is shown as a vector in vertically upward direction below the handle of wheelbarrow. The weight of the wheelbarrow is downward at the center of gravity. The normal reaction of the ground is acting at the wheel in upward direction. The perpendicular distance between the normal reaction and the input force F sub I is labeled as R sub I and the distance between output force F sub O and normal reaction is labeled as R sub O. In figure b, a man is holding a shovel in his hands. One hand is at one end of the handle and the other hand is holding the shovel at the middle. The center of gravity of the shovel is at its flat end. The weight of the shovel is acting at the center of gravity. The input force is acting at the hand in the middle in upward direction and the end of the shovel is acting as pivot. A free body diagram is also shown at the right side of the figure.](../resources/Figure_09_05_02.jpg '(a) In the case of the wheelbarrow, the output force or load is between the pivot and the input force. The pivot is the wheel’s axle. Here, the output force is greater than the input force. Thus, a wheelbarrow enables you to lift much heavier loads than you could with your body alone. (b) In the case of the shovel, the input force is between the pivot and the load, but the input lever arm is shorter than the output lever arm. The pivot is at the handle held by the right hand. Here, the output force (supporting the shovel’s load) is less than the input force (from the hand nearest the load), because the input is exerted closer to the pivot than is the output.')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What is the Advantage for the Wheelbarrow?
 </div>
+
 In the wheelbarrow of [Figure 2](#Figure2), the load has a perpendicular lever arm of 7.50 cm, while the hands have a perpendicular lever arm of 1.02 m.
 (a) What upward force must you exert to support the wheelbarrow and its load if their combined mass is 45.0 kg?
 (b) What force does the wheelbarrow exert on the ground?
@@ -107,11 +109,13 @@ becomes
 <div class="equation">
 $$ F_{\text{i}}=F_{\text{o}}\frac{ l_{o}}{ l_{i}}. $$
 </div>
+
 Adding values into this equation yields
 
 <div class="equation">
 $$ F_{\text{i}}=\left(45.0\kg \right)\left(9.80\mss \right)\frac{0.075 \m }{1.02 \m }=32.4 \N . $$
 </div>
+
 The free-body diagram (see [Figure 2](#Figure2)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left( 9.80\mss \right)-32.4 \N = 409 \N $$. $$ N $$ is the normal force acting on the wheel; by Newton’s third law, the force the
 wheel exerts on the ground is $$ 409 \N $$.
 
@@ -120,7 +124,7 @@ wheel exerts on the ground is $$ 409 \N $$.
 An even longer handle would reduce the force needed to lift the load. The MA
 here is $$\text{MA}=1.02/0.0750=13.6 $$.
 
-</div>
+:::
 
 Another very simple machine is the inclined plane. Pushing a cart up a plane is
 easier than lifting the same cart straight up to the top using a ladder, because
@@ -169,11 +173,15 @@ force that is nearly an integral multiple of the input force $$ T $$.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Scissors are like a double-lever system. Which of the simple machines in [Figure 1](#Figure1) and [Figure 2](#Figure2) is most analogous to scissors?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the structure of scissors and compare it to the lever configurations shown in Figures 1 and 2. Scissors have two crossed blades that pivot at a central fulcrum, with the input force applied at the handles and the output force applied at the cutting edges.
@@ -195,15 +203,21 @@ This is the same configuration as the nail puller, where:
 **Discussion**
 
 This is why scissors have long handles relative to their cutting blades—the longer handles increase the mechanical advantage, allowing us to cut through tough materials with relatively little effort. Different types of scissors vary their MA: fabric scissors have longer blades for smooth cuts, while sheet metal snips have very short blades and very long handles for maximum cutting force. This is a first-class lever system.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you pull a nail at a constant rate using a nail puller as shown in [Figure 1](#Figure1). Is the nail puller in equilibrium? What if you pull the nail with some acceleration – is the nail puller in equilibrium then? In which case is the force applied to the nail puller larger and why?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply the conditions for equilibrium. A system is in equilibrium when the net force and net torque are zero, which means there is no acceleration.
@@ -225,15 +239,21 @@ where $$ I\alpha $$ represents the additional torque needed to produce angular a
 **Discussion**
 
 This is analogous to pushing a car: maintaining constant velocity requires only enough force to overcome friction, while accelerating requires additional force according to $$ F = ma $$. In practice, a skilled user pulls nails at nearly constant speed, minimizing the required force and reducing fatigue.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why are the forces exerted on the outside world by the limbs of our bodies usually much smaller than the forces exerted by muscles inside the body?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze the lever systems in the body, recognizing that muscles are typically attached very close to joints while the load is applied at the end of limbs far from the joint.
@@ -256,15 +276,21 @@ Since $$ l_i < l_o $$ in most body systems, $$ \text{MA} < 1 $$, which means $$ 
 **Discussion**
 
 While this seems inefficient for force production, it provides advantages in speed and range of motion. A small muscle contraction produces a large movement at the hand, allowing fast, sweeping motions that would be impossible if muscles were attached at the ends of limbs.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why the forces in our joints are several times larger than the forces we exert on the outside world with our limbs. Can these forces be even greater than muscle forces (see previous Question)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply equilibrium analysis to the lever systems in the body. The joint force must balance both the muscle force and the external load, and since these often act in opposite directions relative to the joint, the forces can add together.
@@ -294,20 +320,26 @@ For example, in the spine when lifting with a bent back (see [Figure 4](#Figure4
 **Discussion**
 
 This explains why joint damage (arthritis, torn cartilage, damaged discs) is so common. Even modest external loads create enormous internal forces that wear down joint surfaces over time, especially with repetitive motions or poor posture.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the mechanical advantage of a nail puller—similar to the one shown in [Figure 1](#Figure1) —where you exert a force $$ 45 \text{cm} $$
 from the pivot and the nail is $$ 1.8 \text{cm} $$
 on the other side? What minimum force must you exert to apply a force of $$ 1250 \N  $$
 to the nail?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the mechanical advantage formula for a lever: $$ \text{MA} = \frac{l_i}{l_o} = \frac{F_o}{F_i} $$, where $$ l_i $$ is the distance from pivot to input force and $$ l_o $$ is the distance from pivot to output force.
@@ -337,15 +369,20 @@ The mechanical advantage of 25 is quite impressive - you only need to exert 50 N
 
 The mechanical advantage is **25**, and the minimum force required is **50 N**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground to change a tire. If you had a 2.0-m long lever, where would you place the fulcrum if your force was limited to 300 N?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a lever problem where we need to find the position of the fulcrum. We use the mechanical advantage relationship: $$ \text{MA} = \frac{F_o}{F_i} = \frac{l_i}{l_o} $$. The total length of the lever is the sum of the input and output lever arms: $$ l_i + l_o = 2.0 \m $$.
@@ -397,17 +434,23 @@ The fulcrum should be placed **22 cm (0.22 m) from the mower** (or equivalently,
 **Discussion**
 
 This result makes sense: to lift a heavy load with a small force, the fulcrum must be placed very close to the load. The input lever arm (1.78 m) is about 8 times longer than the output lever arm (0.22 m), giving the required mechanical advantage of about 8. Note that while the force is reduced, the distance you must push down is proportionally larger than the distance the mower rises—energy is conserved.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the mechanical advantage of a wheelbarrow, such as the one in [Figure 2](#Figure2), if the center of gravity of the wheelbarrow and its load has a perpendicular lever arm of 5.50 cm, while the hands have a perpendicular lever arm of 1.02 m?
 (b) What upward force should you exert to support the wheelbarrow and its load if their combined mass is 55.0 kg?
 (c) What force does the wheel exert on the ground?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a wheelbarrow, the mechanical advantage is the ratio of lever arms. Use $$ \text{MA} = \frac{l_i}{l_o} $$. For parts (b) and (c), apply equilibrium conditions.
@@ -457,16 +500,21 @@ The mechanical advantage of 18.5 means you only need to exert about 29 N (about 
 
 (c) The wheel exerts **510 N downward** on the ground.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A typical car has an axle with $$ 1.10 \text{cm} $$ radius driving a tire with a radius of $$ 27.5 \text{cm} $$. What is its mechanical advantage assuming the very simplified model
 in [Figure 3](#Figure3)(b)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a wheel and axle system like [Figure 3](#Figure3)(b), the mechanical advantage is the ratio of the input radius (axle) to the output radius (wheel): $$ \text{MA} = \frac{r_i}{r_o} $$. In this case, the axle applies the input force and the wheel exerts the output force on the ground.
@@ -486,16 +534,22 @@ The mechanical advantage is **0.0400** (or equivalently, 1/25).
 **Discussion**
 
 A mechanical advantage less than 1 means the system is designed for speed rather than force multiplication. The wheel travels 25 times farther than the axle rotates through, but the force on the ground is only 1/25 of the force applied by the axle. This is desirable for vehicles: a small rotation of the engine/axle produces a large distance traveled by the wheel. The tradeoff is that the axle must exert very large forces—this is why car axles are built so strong. If you want to apply 1000 N to the road, the axle must exert 25,000 N!
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What force does the nail puller in [Figure 1](#Figure1) exert on the supporting
 surface? The nail puller has a mass of 2.10 kg.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Apply the equilibrium condition: the sum of all forces on the nail puller must equal zero. Use the values from Problem 1, where we found the mechanical advantage is 25 and the output force on the nail is 1250 N.
@@ -529,19 +583,24 @@ The supporting surface must bear the brunt of the forces - it supports not only 
 
 The nail puller exerts $$ 1.3 \times 10^3\text{ N} $$ on the supporting surface.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you used an ideal pulley of the type shown in [Figure 4](#Figure4)(a)
 to support a car engine of mass $$ 115 \kg $$,
 (a) What would be the tension in the rope?
 (b) What force must the ceiling supply, assuming you pull straight down on the rope?
 Neglect the pulley system's mass.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The pulley system in [Figure 4](#Figure4)(a) has two rope segments pulling up on the load, giving it a mechanical advantage of approximately 2. The tension in the rope is uniform throughout (for an ideal, frictionless pulley). For part (b), we apply force equilibrium to the upper pulley.
@@ -583,16 +642,22 @@ The ceiling must supply **1690 N** (or $$ 1.69 \times 10^{3} \N $$) upward.
 **Discussion**
 
 Note that the ceiling force (1690 N) is greater than the engine weight (1127 N)! This makes sense because the ceiling must support not only the engine but also counteract the downward force you apply when pulling on the rope. The extra 564 N represents your pull. The mechanical advantage of 2 means you only need to pull with half the engine's weight, but the ceiling picks up the slack.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Repeat the previous exercise for the pulley shown in [Figure 4](#Figure4)(c),
 assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00 \kg $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For [Figure 4](#Figure4)(c), this is a more complex pulley system with a mechanical advantage of 4 (four rope segments support the load). The total weight includes the engine plus the pulley system. Since you pull straight up, your force adds to the ceiling support.
@@ -635,14 +700,16 @@ This pulley arrangement is more efficient than the one in the previous problem. 
 
 (b) The ceiling must supply **897 N upward**.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
 
-</div>
+:::

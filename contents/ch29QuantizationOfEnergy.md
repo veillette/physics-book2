@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain Max Planck’s contribution to the development of quantum mechanics.
 * Explain why atomic spectra indicate quantization.
-</div>
+
+:::
 
 ### Planck’s Contribution
 
@@ -137,10 +138,12 @@ to emerge. Again a macroscopic or classical body of gas was involved in the
 studies, but the effect, as we shall see, is due to individual atoms and
 molecules.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Models of the Hydrogen Atom
 </div>
+
 How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results.
 {: class="newline"}
 
@@ -149,7 +152,8 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="860" height="500.4" src="https://veillette.github.io/simulations/hydrogen-atom/#sim-hydrogen-atom"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -169,51 +173,69 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a physical entity that is quantized. State specifically what the entity is and what the limits are on its values.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a physical entity that is not quantized, in that it is continuous and may have a continuous range of values.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in its atoms and molecules?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If Planck’s constant were large, say  $$ 10^{34} $$
  times greater than it is, we would observe macroscopic entities to be quantized. Describe the motions of a child’s swing under such circumstances.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why don’t we notice quantization in everyday events?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A LiBr molecule oscillates with a frequency of  $$ 1.7 \times 10^{13} \text{Hz} \text{.}  $$
  (a) What is the difference in energy in eV between allowed oscillator states? (b) What is the approximate value of  $$n $$
  for a state having an energy of 1.0 eV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -245,15 +267,19 @@ The LiBr molecule's vibrational energy levels are separated by 0.070 eV. This is
 
 This illustrates how quantum mechanics applies to molecules: they can only vibrate with specific, quantized energies. At room temperature (thermal energy ~0.025 eV), LiBr molecules would typically be in low quantum states ($$n = 0, 1, 2$$), making them good approximations to quantum oscillators. The spacing of 0.070 eV is large compared to thermal energy, so quantum effects are observable in molecular spectroscopy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The difference in energy between allowed oscillator states in HBr molecules is 0.330 eV. What is the oscillation frequency of this molecule?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -285,16 +311,20 @@ This frequency is in the infrared region of the electromagnetic spectrum, which 
 
  $$7.96 \times 10^{13} \text{ Hz}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A physicist is watching a 15-kg orangutan at a zoo swing lazily in a tire at the end of a rope. He (the physicist) notices that each oscillation takes 3.00 s and hypothesizes that the energy is quantized. (a) What is the difference in energy in joules between allowed oscillator states? (b) What is the value of  $$n $$
  for a state where the energy is 5.00 J? (c) Can the quantization be observed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -334,10 +364,12 @@ To observe a discrete jump of $$2.21 \times 10^{-34}$$ J against a background of
 
 If Planck's constant were billions of times larger (say $$h \sim 10^{-6}$$ J·s), we would actually see the orangutan's swing restricted to discrete amplitudes, jerking from one allowed energy level to another!
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -353,4 +385,4 @@ Planck’s constant
 atomic spectra
 : the electromagnetic emission from atoms and molecules
 
-</div>
+:::

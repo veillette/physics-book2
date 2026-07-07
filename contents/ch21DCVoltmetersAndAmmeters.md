@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 4
 chapterNumber: 21
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain why a voltmeter must be connected in parallel with the circuit.
 * Draw a diagram showing an ammeter correctly connected in a circuit.
 * Describe how a galvanometer can be used as either a voltmeter or an ammeter.
 * Find the resistance that must be placed in series with a galvanometer to allow it to be used as a voltmeter with a given reading.
 * Explain why measuring the voltage or current in a circuit can never be exact.
-</div>
+
+:::
 
 **Voltmeters** measure voltage, whereas **ammeters**{: class="term"} measure
 current. Some of the meters in automobile dashboards, digital cameras, cell
@@ -104,7 +105,7 @@ for 1.0 A, and contains the same $$25 \text{-}\Omega $$ galvanometer with its
 $$50 \text{-μA} $$ sensitivity. Since $$R $$ and $$r $$ are in parallel, the
 voltage across them is the same.
 
-These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_{\text{G}}}{I}=\frac{R}{r} $$ . Solving for $$R $$ , and noting that $${I}_{\text{G}} $$ is $$50 \text{μA} $$ and $$I $$ is 0.999950 A, we have <div class="equation" > $$R=r\frac{ {I}_{\text{G}}}{I}=\left(25 \Omega \right)\frac{50 \text{μA}}{0.999950 \text{A}}= 1.25 \times 10^{-3} \Omega . $$
+These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_{\text{G}}}{I}=\frac{R}{r} $$ . Solving for $$R $$ , and noting that $${I}_{\text{G}} $$ is $$50 \text{μA} $$ and $$I $$ is 0.999950 A, we have &lt;div class="equation" &gt; $$R=r\frac{ {I}_{\text{G}}}{I}=\left(25 \Omega \right)\frac{50 \text{μA}}{0.999950 \text{A}}= 1.25 \times 10^{-3} \Omega . $$
 </div>
 
 ![A resistance R is placed in parallel with a galvanometer G having an internal resistance r to produce an ammeter.](../resources/Figure_21_04_05.jpg 'A small shunt resistance ( R ) placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the current to be measured, the smaller ( R ) must be. Most of the current (I) flowing through the meter is shunted through ( R ) to protect the galvanometer.  (Note that r  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer—the greater the maximum current to be measured, the smaller the shunt resistance must be.')
@@ -158,10 +159,12 @@ There are practical limits to galvanometer sensitivity, but it is possible to
 get analog meters that make measurements accurate to a few percent. Note that
 the inaccuracy comes from altering the circuit, not from a fault in the meter.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Limits to Knowledge
 </div>
+
 Making a measurement alters the system being measured in a manner that produces uncertainty in the measurement. For macroscopic systems, such as the circuits discussed in this module, the alteration can usually be made negligibly small, but it cannot be eliminated entirely. For submicroscopic systems, such as atoms, nuclei, and smaller particles, measurement alters the system in a manner that cannot be made arbitrarily small. This actually limits knowledge of the system—even limiting what nature can know about itself. We shall see profound implications of this when the Heisenberg uncertainty principle is discussed in the modules on quantum mechanics.
 
 There is another measurement technique based on drawing no current at all and,
@@ -170,32 +173,40 @@ are the topic of [Null Measurements](../contents/ch21NullMeasurements). Digital 
 employ solid-state electronics and null measurements can attain accuracies of
 one part in $$10^{6} $$.
 
-</div>
+:::
 
 <div class="exercise"  data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Digital meters are able to detect smaller currents than analog meters employing galvanometers. How does this explain their ability to measure voltage and current more accurately than analog meters?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Since digital meters require less current than analog meters, they alter the circuit less than analog meters. Their resistance as a voltmeter can be far greater than an analog meter, and their resistance as an ammeter can be far less than an analog meter. Consult [[Figure 2]](#Figure2) and [[Figure 3]](#Figure3) and their discussion in the text.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Circuit Construction Kit (DC Only), Virtual Lab
 </div>
+
 Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane.
 
 <div class="media"  data-alt="circuit-construction">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -212,24 +223,32 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)? (Note that script E in the figure stands for emf.)
 
 ![A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.](../resources/Figure_21_04_08.jpg ' ')
 {: #Figure8}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you are using a multimeter (one designed to measure a range of voltages, currents, and resistances) to measure current in a circuit and you inadvertently leave it in a voltmeter mode. What effect will the meter have on the circuit? What would happen if you were measuring voltage but accidentally put the meter in the ammeter mode?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Specify the points to which you could connect a voltmeter to measure the following potential differences in [[Figure 9]](#Figure9): (a) the potential difference of the voltage source; (b) the potential difference across  $${R}_{1} $$ ;  (c) across  $${R}_{2} $$ ;  (d) across  $${R}_{3} $$ ;  (e) across  $${R}_{2} $$
  and  $${R}_{3} $$ .
  Note that there may be more than one answer to each part.
@@ -237,37 +256,51 @@ Specify the points to which you could connect a voltmeter to measure the followi
 ![This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.](../resources/Figure_21_04_09.jpg ' ')
 {: #Figure9}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 To measure currents in [[Figure 9]](#Figure9), you would replace a wire between two points with an ammeter. Specify the points between which you would place an ammeter to measure the following: (a) the total current; (b) the current flowing through  $${R}_{1} $$ ;  (c) through  $${R}_{2} $$ ;  (d) through  $${R}_{3} $$ .
  Note that there may be more than one answer to each part.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a  $$ 1.00\text{-M}\Omega  $$
  resistance on its 30.0-V scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$30 \mu\text{A} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a  $$ 25.0\text{-k}\Omega  $$
  resistance on its 100-V scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The full-scale voltage (100 V) causes full-scale deflection current through the total resistance (25.0 kΩ). Use Ohm's law to find the galvanometer sensitivity.
@@ -284,29 +317,40 @@ The galvanometer sensitivity of 4.00 mA is relatively high compared to precision
 
 The galvanometer sensitivity is 4.00 mA.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in series with a  $$ 25.0-\Omega  $$
  galvanometer having a  $$50.0-\mu A $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 0.100-V full-scale reading.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$1.98 \text{k}\Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in series with a  $$ 25.0-\Omega  $$
  galvanometer having a  $$ 50.0-\mu A $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 3000-V full-scale reading. Include a circuit diagram with your solution.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For full-scale reading, 3000 V must produce 50.0 μA through the series combination of galvanometer (25.0 Ω) and series resistor $$R$$. Use $$V = I(R + r)$$ to find $$R$$.
@@ -333,31 +377,41 @@ The very large series resistance (60.0 MΩ) is needed because the galvanometer's
 
 The required series resistance is 60.0 MΩ (with circuit showing $$R$$ in series with galvanometer).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in parallel with a  $$ 25.0-\Omega  $$
  galvanometer having a  $$ 50.0-\mu A $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 10.0-A full-scale reading. Include a circuit diagram with your solution.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$ 1.25 \times 10^{-4}  \Omega  $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in parallel with a  $$ 25.0-\Omega  $$
  galvanometer having a  $$ 50.0-\mu A $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 300-mA full-scale reading.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 At full scale, 300 mA total current flows, with 50.0 μA through the galvanometer and the rest through the shunt resistor $$R$$. Since they're in parallel, $$V_G = V_R$$, giving $$I_G r = I_R R$$.
@@ -390,30 +444,41 @@ The very small shunt resistance (4.17 mΩ) diverts most of the 300-mA current aw
 
 The required shunt resistance is 4.17 mΩ.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in series with a  $$ 10.0-\Omega  $$
  galvanometer having a  $$100 \text{-μA} $$
  sensitivity to allow it to be used as a voltmeter with: (a) a 300-V full-scale reading, and (b) a 0.300-V full-scale reading.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$3.00 \text{M}\Omega  $$
 (b)  $$2.99 \text{k}\Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the resistance that must be placed in parallel with a  $$ 10.0-\Omega  $$
  galvanometer having a  $$100 \text{-μA} $$
  sensitivity to allow it to be used as an ammeter with: (a) a 20.0-A full-scale reading, and (b) a 100-mA full-scale reading.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For each case, use $$R = r \times I_G/(I_{\text{total}} - I_G)$$ where most current flows through the shunt.
@@ -449,11 +514,14 @@ The shunt resistance is dramatically different for the two scales: 50.0 μΩ for
 
 (a) 50.0 μΩ, (b) 10.0 mΩ.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an internal resistance of  $$ 0.100 \Omega  $$
  by placing a  $$ 1.00\text{-k}\Omega  $$
  voltmeter across its terminals. (See [[Figure 10]](#Figure10).) (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.
@@ -461,59 +529,78 @@ Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an in
 ![The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.](../resources/Figure_21_04_10.jpg ' ')
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 1.58 mA
 
 (b) 1.5848 V (need four digits to see the difference)
 
 (c) 0.99990 (need five digits to see the difference from unity)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you measure the terminal voltage of a 3.200-V lithium cell having an internal resistance of  $$ 5.00 \Omega  $$
  by placing a  $$ 1.00\text{-k}\Omega  $$
  voltmeter across its terminals. (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain ammeter has a resistance of  $$ 5.00 \times 10^{-5}  \Omega  $$
  on its 3.00-A scale and contains a  $$ 10.0-\Omega  $$
  galvanometer. What is the sensitivity of the galvanometer?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 15.0 \mu A $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $$ 1.00\text{-MΩ} $$
  voltmeter is placed in parallel with a  $$ 75.0\text{-k}\Omega  $$
  resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) What is the resistance of the combination? (c) If the voltage across the combination is kept the same as it was across the  $$ 75.0\text{-k}\Omega  $$
  resistor alone, what is the percent increase in current? (d) If the current through the combination is kept the same as it was through the  $$ 75.0\text{-k}\Omega  $$
  resistor alone, what is the percentage decrease in voltage? (e) Are the changes found in parts (c) and (d) significant? Discuss.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $$0.0200\text{-Ω} $$
  ammeter is placed in series with a  $$10.00\text{-Ω} $$
  resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) Calculate the resistance of the combination. (c) If the voltage is kept the same across the combination as it was through the  $$10.00\text{-Ω} $$
  resistor alone, what is the percent decrease in current? (d) If the current is kept the same through the combination as it was through the  $$10.00\text{-Ω} $$
  resistor alone, what is the percent increase in voltage? (e) Are the changes found in parts (c) and (d) significant? Discuss.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)
 
 ![The figure shows part of a circuit that includes an ammeter with internal resistance r connected in series with a load resistance R.](../resources/Figure_21_04_11.jpg ' ')
@@ -525,11 +612,14 @@ A  $$0.0200\text{-Ω} $$
 
 (e) Not significant.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Suppose you have a $$ 40.0-\Omega $$ galvanometer with a $$ 25.0-\mu A $$
@@ -537,11 +627,14 @@ sensitivity. (a) What resistance would you put in series with it to allow it to
 be used as a voltmeter that has a full-scale deflection for 0.500 mV? (b) What
 is unreasonable about this result? (c) Which assumptions are responsible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) What resistance would you put in parallel with a $$ 40.0-\Omega $$
@@ -550,8 +643,10 @@ ammeter that has a full-scale deflection for $$ 10.0-\mu A $$ ?
 (b) What is unreasonable about this result? (c) Which assumptions are
 responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$- 66.7 \Omega  $$
 (b) You can’t have negative resistance.
 
@@ -559,10 +654,12 @@ responsible?
 (see [[Figure 5]](#Figure5)). You cannot achieve a full-scale deflection using a
 current less than the sensitivity of the galvanometer.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -598,4 +695,4 @@ an ammeter; the larger the current to be measured, the smaller $$R $$ must be;
 most of the current flowing through the meter is shunted through $$R $$ to
 protect the galvanometer
 
-</div>
+:::

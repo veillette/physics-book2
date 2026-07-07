@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 3
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the principle of a cyclotron.
 * Explain the principle of a synchrotron.
 * Describe the voltage needed by an accelerator between accelerating tubes.
 * State Fermilab’s accelerator principle.
-</div>
+
+:::
 
 Before looking at all the particles we now know about, let us examine some of
 the machines that created them. The fundamental process in creating previously
@@ -131,10 +132,12 @@ SLAC machine was 3.2 km long.
 ![The schematic shows a linear accelerator about three kilometers long with magnets along its path. Electrons and positrons coming from different sources are accelerated down the linear accelerator, then are deviated by magnets to the right and left, respectively, to follow paths that circle around to meet head-on at a large device labeled mark two particle detector.](../resources/Figure_33_03_05.jpg 'The Stanford Linear Accelerator was 3.2 km long and had the capability of colliding electron and positron beams. SLAC was also used to probe nucleons by scattering extremely short wavelength electrons from them. This produced the first convincing evidence of a quark structure inside nucleons in an experiment analogous to those performed by Rutherford long ago.')
 {: #Figure5}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Voltage Needed by the Accelerator Between Accelerating Tubes
 </div>
+
 A linear accelerator designed to produce a beam of 800-MeV protons has 2000 accelerating tubes. What average voltage must be applied between tubes (such as in the gaps in [[Figure 3]](#Figure3)) to achieve the desired energy?
 
 **Strategy**
@@ -153,6 +156,7 @@ There are 2000 gaps and the sum of the voltages across them is 800 MV; thus,
 <div class="equation" >
  $${V}_{\text{gap}}=\frac{800 \text{MV}}{2000}=400 \text{kV}. $$
 </div>
+
 **Discussion**
 
 A voltage of this magnitude is not difficult to achieve in a vacuum. Much larger
@@ -162,7 +166,7 @@ particles, which can orbit many times, effectively multiplying the number of
 accelerations by the number of orbits. This makes it possible to reach energies
 greater than 1 TeV.
 
-</div>
+:::
 
 ### Summary
 
@@ -177,60 +181,81 @@ greater than 1 TeV.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The total energy in the beam of an accelerator is far greater than the energy of the individual beam particles. Why isn’t this total energy available to create a single extremely massive particle?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Synchrotron radiation takes energy from an accelerator beam and is related to acceleration. Why would you expect the problem to be more severe for electron accelerators than proton accelerators?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What two major limitations prevent us from building high-energy accelerators that are physically small?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the advantages of colliding-beam accelerators? What are the disadvantages?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At full energy, protons in the 2.00-km-diameter Fermilab synchrotron travel at nearly the speed of light, since their energy is about 1000 times their rest mass energy.
 
 (a) How long does it take for a proton to complete one trip around?
 
 (b) How many times per second will it pass through the target area?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 2.09 \times 10^{-5}  \text{s} $$
 (b)  $$ 4.77 \times 10^{4}  \text{Hz} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a  $${W}^{-} $$
  created in a bubble chamber lives for  $$ 5.00 \times 10^{-25}  \text{s}. $$
  What distance does it move in this time if it is traveling at 0.900 *c*? Since this distance is too short to make a track, the presence of the  $${W}^{-} $$
  must be inferred from its decay products. Note that the time is longer than the given  $${W}^{-} $$
  lifetime, which can be due to the statistical nature of decay or time dilation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -252,28 +277,37 @@ $$d = 1.35 \times 10^{-16} \text{ m} = 0.135 \text{ fm}$$
 
 This distance is incredibly small—only 0.135 femtometers, which is about one-seventh the diameter of a proton (approximately 1 fm). This is far too short to produce a visible track in a bubble chamber, which typically requires distances of micrometers or more. Therefore, the existence of the $${W}^{-}$$ particle must be inferred indirectly from its decay products rather than from direct observation of its track. The short lifetime and high speed of the $${W}^{-}$$ are characteristic of particles that mediate the weak nuclear force. The fact that the particle lives for $$5.00 \times 10^{-25}$$ s (longer than its rest lifetime of $$1.6 \times 10^{-25}$$ s from the particle tables) can be explained by time dilation—at $$0.900c$$, the relativistic $$\gamma$$ factor extends the observed lifetime in the laboratory frame.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What length track does a  $${\pi }^{+} $$
  traveling at 0.100 *c* leave in a bubble chamber if it is created there and lives for  $$ 2.60 \times 10^{-8}  \text{s} $$ ?
  (Those moving faster or living longer may escape the detector before decaying.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 78.0 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The 3.20-km-long SLAC produces a beam of 50.0-GeV electrons. If there are 15 000 accelerating tubes, what average voltage must be across the gaps between them to achieve this energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -295,25 +329,35 @@ $$V_{\text{gap}} = \frac{50.0 \times 10^9 \text{ eV}}{15,000} = 3.33 \times 10^6
 
 An average voltage of 3.33 million volts per gap is required. This is a substantial voltage but achievable in a vacuum environment. The advantage of using many accelerating tubes is that the voltage per gap can be kept at a manageable level while still achieving very high total energies. In SLAC's linear design, particles make a single pass through all the gaps, unlike in circular accelerators where particles can orbit many times. The 3.20-km length of SLAC was specifically chosen to accommodate the number of accelerating structures needed to reach 50 GeV with practically achievable gap voltages. Modern linear accelerators continue to use this principle, balancing the length of the machine against the voltage gradients that can be sustained in each accelerating structure.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Because of energy loss due to synchrotron radiation in the LHC at CERN, only 5.00 MeV is added to the energy of each proton during each revolution around the main ring. How many revolutions are needed to produce 7.00-TeV (7000 GeV) protons, if they are injected with an initial energy of 8.00 GeV?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$ 1.40 \times 10^{6}  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A proton and an antiproton collide head-on, with each having a kinetic energy of 7.00 TeV (such as in the LHC at CERN). How much collision energy is available, taking into account the annihilation of the two masses? (Note that this is not significantly greater than the extremely relativistic kinetic energy.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -343,21 +387,28 @@ $$E_{\text{total}} = 14,001.876 \text{ GeV} \approx 14.0 \text{ TeV}$$
 
 The total collision energy is approximately 14.0 TeV, which is essentially just twice the kinetic energy (14.0 TeV versus 14.00 TeV). The rest mass energies of the proton and antiproton contribute only about 1.88 GeV out of 14,000 GeV total—less than 0.014% of the total energy. This confirms the note in the problem that the annihilation energy is not significantly greater than the extremely relativistic kinetic energy. At these ultra-high energies, the particles are moving at speeds extremely close to the speed of light, and their kinetic energies vastly exceed their rest mass energies. This is characteristic of the ultra-relativistic regime. The advantage of colliding beams is evident here: all 14 TeV is available for particle creation, whereas if a 7 TeV proton struck a stationary target, much of the energy would go into recoil momentum rather than particle creation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When an electron and positron collide at the SLAC facility, they each have 50.0 GeV kinetic energies. What is the total collision energy available, taking into account the annihilation energy? Note that the annihilation energy is insignificant, because the electrons are highly relativistic.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 100 GeV
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -382,4 +433,4 @@ perpendicular to its velocity
 Van de Graaff
 : early accelerator: simple, large-scale version of the electron gun
 
-</div>
+:::

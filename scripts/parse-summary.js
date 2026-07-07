@@ -17,6 +17,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 
@@ -30,11 +31,11 @@ import { getBaseDir, readFile, writeFile } from './lib/files.js';
 function extractInfo(markdown) {
   const lines = markdown.split('\n');
 
-  // Regex patterns for chapter and section entries
-  // Format: 1. {: .chapter} [Chapter Title](path/to/file.md)
-  const chapterRegex = /^(\d+)\.\s*{:\s*\.chapter\s*}\s*\[(.+)\]\(([^)]+)\)/;
-  // Format:    1. {: .section} [Section Title](path/to/file.md)
-  const sectionRegex = /^\s*(\d+)\.\s*{:\s*\.section\s*}\s*\[(.+)\]\(([^)]+)\)/;
+  // Regex patterns for chapter and section entries. The Kramdown IAL trails the link
+  // (post-cutover format): `1. [Chapter Title](path/to/file.md) {: .chapter}`.
+  const chapterRegex = /^(\d+)\.\s*\[(.+)\]\(([^)]+)\)\s*{:\s*\.chapter\s*}/;
+  // Format:    1. [Section Title](path/to/file.md) {: .section}
+  const sectionRegex = /^\s*(\d+)\.\s*\[(.+)\]\(([^)]+)\)\s*{:\s*\.section\s*}/;
 
   const chapters = [];
   let currentChapter = null;
@@ -157,38 +158,40 @@ class SummaryParser {
   }
 }
 
-// CLI Configuration
-runCli({
-  name: 'parse-summary',
-  description: `Parses SUMMARY.md to generate summary.json with chapter/section structure.
+// CLI Configuration — only run when executed directly, not when imported by tests.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain)
+  runCli({
+    name: 'parse-summary',
+    description: `Parses SUMMARY.md to generate summary.json with chapter/section structure.
 
 The generated JSON file is used by other scripts such as:
 - generate-pdf.js for PDF generation
 - update-front-matter.js for updating YAML front matter`,
-  flags: {
-    input: {
-      flag: '--input',
-      description: 'Input SUMMARY.md path (default: SUMMARY.md)',
-      type: 'string',
-      default: 'SUMMARY.md',
+    flags: {
+      input: {
+        flag: '--input',
+        description: 'Input SUMMARY.md path (default: SUMMARY.md)',
+        type: 'string',
+        default: 'SUMMARY.md',
+      },
+      output: {
+        flag: '--output',
+        description: 'Output file path (default: summary.json)',
+        type: 'string',
+        default: 'summary.json',
+      },
     },
-    output: {
-      flag: '--output',
-      description: 'Output file path (default: summary.json)',
-      type: 'string',
-      default: 'summary.json',
+    examples: [
+      'node scripts/parse-summary.js',
+      'node scripts/parse-summary.js --output _data/summary.json',
+      'node scripts/parse-summary.js --input docs/SUMMARY.md',
+    ],
+    run: async options => {
+      const parser = new SummaryParser(options);
+      return parser.run();
     },
-  },
-  examples: [
-    'node scripts/parse-summary.js',
-    'node scripts/parse-summary.js --output _data/summary.json',
-    'node scripts/parse-summary.js --input docs/SUMMARY.md',
-  ],
-  run: async options => {
-    const parser = new SummaryParser(options);
-    return parser.run();
-  },
-});
+  });
 
 // Export functions for testing
 export { extractInfo };

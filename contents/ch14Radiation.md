@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 14
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss heat transfer by radiation.
 * Explain the power of different materials.
-</div>
+
+::::
 
 You can feel the heat transfer from a fire and from the Sun. Similarly, you can
 sometimes tell that the oven is hot without touching its door or looking
@@ -122,18 +123,22 @@ radiation into and out of the object depends on how well it emits and absorbs
 radiation. When $${T}_{2}>{T}_{1} $$ , the quantity $${Q}_{\text{net}}/t $$ is
 positive; that is, the net heat transfer is from hot to cold.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Temperature in the Sun
 </div>
+
 Place a thermometer out in the sunshine and shield it from direct sunlight using an aluminum foil. What is the reading? Now remove the shield, and note what the thermometer reads. Take a handkerchief soaked in nail polish remover, wrap it around the thermometer and place it in the sunshine. What does the thermometer read?
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculate the Net Heat Transfer of a Person: Heat Transfer by Radiation
 </div>
+
 What is the rate of heat transfer by radiation, with an unclothed person standing in a dark room whose ambient temperature is  $$ 22.0\text{ºC} $$ .
  The person has a normal skin temperature of  $$ 33.0\text{ºC} $$
  and a surface area of  $$ 1.50 {\text{m}}^{2} $$ .
@@ -150,12 +155,14 @@ Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306 \text
 <div class="equation" >
  $$\frac{Q}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
 </div>
+
 <div class="equation" >
 $$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right)
 \left( 0.97 \right) \left( 1.50 {\text{m}}^{2} \right)
 \left[ { \left(295\text{K}\right)}^{4}-{ \left(306 \text{K}\right) }^{4} \right]
 =-99\text{J/s}=-99 \text{W} \text{.}$$
 </div>
+
 **Discussion**
 
 This value is a significant rate of heat transfer to the environment (note the
@@ -166,7 +173,7 @@ significantly reduces heat transfer to the environment by many methods, because
 clothing slows down both conduction and convection, and has a lower emissivity (
 especially if it is white) than skin.
 
-</div>
+::::
 
 The Earth receives almost all its energy from radiation of the Sun and reflects
 some of it back into outer space. Because the Sun is hotter than the Earth, the
@@ -227,31 +234,40 @@ latitudes.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is the change in the rate of the radiated heat by a body at the temperature  $${T}_{1}=20\text{ºC} $$
  compared to when the body is at the temperature  $${T}_{2}=40\text{ºC} $$?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 The radiated heat is proportional to the fourth power of the *absolute temperature*. Because  $${T}_{1}=293\text{K} $$
  and  $${T}_{2}=313\text{K} $$ ,
  the rate of heat transfer increases by about 30 percent of the original rate.
 
-</div>
+::::
+
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Career Connection: Energy Conservation Consultation
 </div>
+
 The cost of energy is generally believed to remain very high for the foreseeable future. Thus, passive control of heat loss in both commercial and domestic housing will become increasingly important. Energy consultants measure and analyze the flow of energy into and out of houses and ensure that a healthy exchange of air is maintained inside the house. The job prospects for an energy consultant are strong.
 
-</div>
+::::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+:::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategies for the Methods of Heat Transfer
 </div>
+
 1.   *Examine the situation to determine what type of heat transfer is involved.*
 2.   *Identify the type(s) of heat transfer—conduction, convection, or radiation.*
 3.   *Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is very useful.*
@@ -266,7 +282,7 @@ Problem-Solving Strategies for the Methods of Heat Transfer
 7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*
 8.   *Check the answer to see if it is reasonable. Does it make sense?*
 
-</div>
+::::
 
 ### Summary
 
@@ -290,68 +306,91 @@ reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and
 where $${T}_{1} $$ is the temperature of an object surrounded by an environment
 with uniform temperature $${T}_{2} $$ and $$e $$ is the emissivity of the _object_.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Blackbody Radiation
 </div>
+
 Describe what happens to the blackbody spectrum as you increase or decrease the temperature
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Blackbody Radiation
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html" width="600" height="450"  allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 When watching a daytime circus in a large, dark-colored tent, you sense significant heat transfer from the tent. Explain why this occurs.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Satellites designed to observe the radiation from cold (3 K) dark space have sensors that are shaded from the Sun, Earth, and Moon and that are cooled to very low temperatures. Why must the sensors be at low temperature?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Why are cloudy nights generally warmer than clear ones?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Why are thermometers that are used in weather stations shielded from the sunshine? What does a thermometer measure if it is shielded from the sunshine and also if it is not?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 On average, would Earth be warmer or cooler without the atmosphere? Explain your answer.
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
  black roof on a night when the roof's temperature is  $$30.0\text{ºC} $$
  and the surrounding temperature is  $$15.0\text{ºC} $$ ?
  The emissivity of the roof is 0.900.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
 **Strategy**
 
@@ -417,18 +456,22 @@ This underscores the importance of insulation, which doesn't stop radiation but 
 
 The net rate of heat radiation from the roof is **-21.7 kW** (negative indicating heat loss to the surroundings).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Cherry-red embers in a fireplace are at  $$850\text{ºC} $$
  and have an exposed area of  $$ 0.200 {\text{m}}^{2} $$
  and an emissivity of 0.980. The surrounding room has a temperature of  $$ 18.0\text{ºC} $$ .
  If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -493,32 +536,42 @@ Modern fireplace inserts and stoves capture more of this heat through convection
 (a) The net rate of radiant heat transfer into the room is **8.80 kW**.
 (b) Yes, this demonstrates that **radiation is the dominant mechanism** for heat transfer from a fireplace into a room.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Radiation makes it impossible to stand close to a hot lava flow. Calculate the rate of heat transfer by radiation from  $$ 1.00 {\text{m}}^{2} $$
  of  $$1200\text{ºC} $$
  fresh lava into  $$ 30.0\text{ºC} $$
  surroundings, assuming lava’s emissivity is 1.00.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
  $$-266\text{kW} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate the rate of heat transfer by radiation from a car radiator at  $$110\text{ºC} $$
  into a  $$50.0\text{ºC} $$
  environment, if the radiator has an emissivity of 0.750 and a  $$1.20-m^{2} $$
  surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of  $$200 \text{hp} \left(1.5 \text{kW}\right) $$
  and the efficiency of automobile engines as 25%.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -593,30 +646,40 @@ A stationary car with the engine running will overheat in minutes without functi
 (a) The rate of radiative heat transfer is **543 W** or approximately **0.54 kW**.
 (b) No, this is **not significant**—it represents only **0.12%** of the engine's waste heat. The radiator relies primarily on **convection** for cooling.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the net rate of heat transfer by radiation from a skier standing in the shade, given the following. She is completely clothed in white (head to foot, including a ski mask), the clothes have an emissivity of 0.200 and a surface temperature of  $$ 10.0\text{ºC} $$ ,
  the surroundings are at  $$-15.0\text{ºC} $$ ,
  and her surface area is  $$ 1.60 {\text{m}}^{2} $$.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
  $$- 36.0\text{W} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you walk into a sauna that has an ambient temperature of  $$50.0\text{ºC} $$ .
  (a) Calculate the rate of heat transfer to you by radiation given your skin temperature is  $$37.0\text{ºC} $$ ,
  the emissivity of skin is 0.98, and the surface area of your body is  $$1.50 {\text{m}}^{2} $$ .
  (b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -688,11 +751,14 @@ This calculation demonstrates why saunas are uncomfortable but tolerable: while 
 (a) The rate of heat transfer by radiation is approximately **138 W**.
 (b) The body temperature would increase at a rate of **5.26 × 10⁻⁴ ºC/s**, or **0.032 ºC/min**, or approximately **1.9 ºC/hour**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Thermography is a technique for measuring radiant heat and detecting variations in surface temperatures that may be medically, environmentally, or militarily meaningful.(a) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of  $$34.0 \text{ºC} $$
  compared with that at  $$33.0\text{ºC} $$ ,
  such as on a person’s skin? (b) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of  $$34.0 \text{ºC} $$
@@ -702,24 +768,30 @@ Thermography is a technique for measuring radiant heat and detecting variations 
 ![A thermograph of the chest area of a patient is shown. There are different colors showing different thermal regions.](../resources/Figure_14_07_09.jpg 'Artist’s rendition of a thermograph of a patient’s upper body, showing the distribution of heat represented by different colors.')
 {: #Figure8}
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 (a) 1.31%
 
 (b) 20.5%
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) Calculate the surface temperature of the Sun, given that it is a sphere with a  $$ 7.00 \times 10^{8} \text{-m} $$
  radius that radiates  $$ 3.80 \times 10^{26} \text{W} $$
  into 3-K space. (b) How much power does the Sun radiate per square meter of its surface? (c) How much power in watts per square meter is that value at the distance of Earth,  $$ 1.50 \times 10^{11} \text{m} $$
  away? (This number is called the solar constant.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -807,11 +879,14 @@ This illustrates the inverse square law: $$\left(\frac{R_E}{R_s}\right)^2 = \lef
 (b) The Sun radiates **6.17 × 10⁷ W/m²** from its surface.
 (c) The solar constant at Earth is approximately **1340 W/m²** or **1.34 kW/m²**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A large body of lava from a volcano has stopped flowing and is slowly cooling. The interior of the lava is at  $$1200 \text{ºC} $$ ,
  its surface is at  $$450 \text{ºC} $$ ,
  and the surroundings are at  $$27.0\text{ºC} $$ .
@@ -820,21 +895,27 @@ A large body of lava from a volcano has stopped flowing and is slowly cooling. T
  surface and the  $$1200 \text{ºC} $$
  interior, assuming that the lava’s conductivity is the same as that of brick?
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 (a)  $$-15.0\text{kW} $$
 (b) 4.2 cm
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at  $$1000 {\text{W/m}}^{2} $$
  —about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of  $$27.0\text{ºC} $$.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -905,27 +986,35 @@ For comparison, if the entire sky were uniformly at 2267 K, it would appear as a
 
 The effective temperature of the sky would be **2267 K** or approximately **2000ºC** (or **1994ºC** more precisely).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) A shirtless rider under a circus tent feels the heat radiating from the sunlit portion of the tent. Calculate the temperature of the tent canvas based on the following information: The shirtless rider’s skin temperature is  $$34.0\text{ºC} $$
  and has an emissivity of 0.970. The exposed area of skin is  $$ 0.400 {\text{m}}^{2} $$ .
  He receives radiation at the rate of 20.0 W—half what you would calculate if the entire region behind him was hot. The rest of the surroundings are at  $$34.0\text{ºC} $$ .
  (b) Discuss how this situation would change if the sunlit side of the tent was nearly pure white and if the rider was covered by a white tunic.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 (a)  $$ 48.5\text{ºC} $$
 (b) A pure white object reflects more of the radiant energy that hits it, so a white tent would prevent more of the sunlight from heating up the inside of the tent, and the white tunic would prevent that heat which entered the tent from heating the rider. Therefore, with a white tent, the temperature would be lower than  $$ 48.5\text{ºC} $$ ,
  and the rate of radiant heat transferred to the rider would be less than 20.0 W.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 One $$30.0\text{ºC} $$ day the relative humidity is $$75.0\% $$ , and that
@@ -934,8 +1023,9 @@ point. (a) How many grams of water condense from each cubic meter of air? (b)
 How much heat transfer occurs by this condensation? (c) What temperature
 increase could this cause in dry air?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1044,11 +1134,14 @@ This problem demonstrates why:
 (b) About **12.4 kJ** of heat is released by this condensation.
 (c) This could cause a temperature increase of approximately **10.3ºC** in dry air.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 Large meteors sometimes strike the Earth, converting most of their kinetic
@@ -1059,17 +1152,22 @@ many kilograms of water could it raise by $$5.0\text{ºC} $$ ?
 (c) Discuss how the energy of the meteor is more likely to be deposited in the
 ocean and the likely effects of that energy.
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 (a)  $$3 \times 10^{17}\text{J} $$
 (b)  $$1 \times 10^{13}\text{kg} $$
 (c) When a large meteor hits the ocean, it causes great tidal waves, dissipating large amount of its energy in the form of kinetic energy of the water.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 Frozen waste from airplane toilets has sometimes been accidentally ejected at
@@ -1079,8 +1177,9 @@ gravitational potential energy when a $$20.0\text{ kg} $$ piece of frozen waste
 is released at 12.0 km altitude while moving at 250 m/s and strikes the ground
 at 100 m/s (since less than 20.0 kg melts, a significant mess results).
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1144,11 +1243,14 @@ If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6}{3
 
 Approximately **8.61 kg** of ice can be melted (about **43%** of the total mass).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 (a) A large electrical power facility produces 1600 MW of “waste heat,” which is
@@ -1158,17 +1260,22 @@ $${\text{m}}^{3}\text{/s} $$ ?
 (b) Is your result consistent with the large cooling towers used by many large
 electrical power plants?
 
-</div>
-<div class="solution" data-element-type="problem-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+
 (a)  $$ 3.44 \times 10^{5} {\text{m}}^{3}\text{/s} $$
 (b) This is equivalent to 12 million cubic feet of air per second. That is tremendous. This is too large to be dissipated by heating the air by only  $$5\text{ºC} $$ .
  Many of these cooling towers use the circulation of cooler air over warmer water to increase the rate of evaporation. This would allow much smaller amounts of air necessary to remove such a large amount of heat because evaporation removes larger quantities of heat than was considered in part (a).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 (a) Suppose you start a workout on a Stairmaster, producing power at the same
@@ -1178,8 +1285,9 @@ rise $$1.00\text{ºC} $$ if all other forms of heat transfer in and out of your
 body are balanced? (b) Is this consistent with your experience in getting warm
 while exercising?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1261,11 +1369,14 @@ This problem illustrates why:
 (a) It would take approximately **230 seconds** or **3.83 minutes** for body temperature to rise by 1.00ºC.
 (b) Yes, this is consistent with getting warm within a few minutes of starting vigorous exercise.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 A 76.0-kg person suffering from hypothermia comes indoors and shivers
@@ -1273,15 +1384,20 @@ vigorously. How long does it take the heat transfer to increase the person’s
 body temperature by $$2.00\text{ºC} $$ if all other forms of heat transfer are
 balanced?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 20.9 min
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 In certain large geographic regions, the underlying rock is hot. Wells can be
@@ -1291,8 +1407,9 @@ by cooling $$1.00 {\text{km}}^{3} $$ of granite by $$100 \text{ºC} $$ .
 (b) How long will this take if heat is transferred at a rate of 300 MW, assuming
 no heat transfers back into the 1.00 km³ of rock by its surroundings?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1367,11 +1484,14 @@ The calculation assumes perfect insulation (no heat return from surroundings), w
 (a) The heat transfer that can be extracted is **2.27 × 10¹⁷ J** or approximately **227 PJ**.
 (b) This would take approximately **7.56 × 10⁸ seconds** or **24 years** at a 300 MW extraction rate.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 Heat transfers from your lungs and breathing passages by evaporating water. (a)
@@ -1382,26 +1502,32 @@ inhale 1.50 L of $$37\text{ºC} $$ air with an original relative humidity of
 the rate of heat transfer in watts from this method, if you breathe at a normal
 resting rate of 10.0 breaths per minute?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 (a) 3.96×10<sup>-2</sup> g
 
 (b) 96.2 J
 
 (c) 16.0 W
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 (a) What is the temperature increase of water falling 55.0 m over Niagara
 Falls? (b) What fraction must evaporate to keep the temperature constant?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1492,11 +1618,14 @@ The calculation also explains why:
 (a) The temperature increase is approximately **0.129ºC** or **0.13ºC**.
 (b) Approximately **2.39 × 10⁻⁴** or **0.024%** must evaporate to keep temperature constant.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Integrated Concepts**
 
 Hot air rises because it has expanded. It then displaces a greater volume of
@@ -1506,8 +1635,10 @@ $$20.0\text{ºC} $$ air. (b) What energy is needed to cause $$1.00 {\text{m}}^{3
 (c) What gravitational potential energy is gained by this volume of air if it
 rises 1.00 m? Will this cause a significant cooling of the air?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 (a) 1.102
 
 (b) $$2.79 \times 10^{4} \text{J} $$
@@ -1515,11 +1646,14 @@ rises 1.00 m? Will this cause a significant cooling of the air?
 much less than the energy found in part (b), which is the energy required to
 warm the air from $$20.0\text{ºC} $$ to $$50.0\text{ºC} $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 (a) What is the temperature increase of an 80.0 kg person who consumes 2500 kcal
@@ -1527,19 +1661,24 @@ of food in one day with 95.0% of the energy transferred as heat to the body? (b)
 What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 (a)  $$36\text{ºC} $$
 (b) Any temperature increase greater than about  $$3\text{ºC} $$
  would be unreasonably large. In this case the final temperature of the person would rise to  $$73\text{ºC} \left(163 \text{ºF}\right) $$.
 
 (c) The assumption of $$95 \% $$ heat retention is unreasonable.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 A slightly deranged Arctic inventor surrounded by ice thinks it would be much
@@ -1551,8 +1690,9 @@ it melt? (b) Is this a reasonable amount of ice to carry around to cool the
 engine for 1.00 gal of gasoline consumption? (c) What premises or assumptions
 are unreasonable?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1624,11 +1764,14 @@ Historical note: Early engines did experiment with evaporative cooling (letting 
 (b) **No**, this is completely unreasonable—314 kg per gallon is far too much to carry practically.
 (c) The premise that ice-cooling is simpler or practical is unreasonable due to the enormous mass required and the one-time use nature of the ice.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 (a) Calculate the rate of heat transfer by conduction through a window with an
@@ -1637,8 +1780,10 @@ at $$22.0 \text{ºC} $$ and its outer surface is at $$35.0 \text{ºC} $$ .
 (b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 (a) 1.46 kW
 
 (b) Very high power loss through a window. An electric heater of this power can
@@ -1648,11 +1793,14 @@ keep an entire room warm.
 as assumed. The inner surface will be warmer, and the outer surface will be
 cooler.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Unreasonable Results**
 
 A meteorite 1.20 cm in diameter is so hot immediately after penetrating the
@@ -1661,8 +1809,9 @@ the surroundings are at $$20.0 \text{ºC} $$ and it has an emissivity of 0.800? 
 b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -1753,11 +1902,14 @@ The problem is intentionally designed to produce an unreasonable answer, teachin
 (b) This is unreasonable because it's about **5.4 times hotter than the Sun's surface**—no meteorite could exist at this temperature.
 (c) The unreasonable premise is the **20.0 kW power output** from such a small meteorite, which is far too high for its size and realistic temperature.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Construct Your Own Problem**
 
 Consider a new model of commercial airplane having its brakes tested as a part
@@ -1770,11 +1922,14 @@ brakes are expected to become so hot in this procedure that they ignite and, in
 order to pass the test, the airplane must be able to withstand the fire for some
 time without a general conflagration.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 **Construct Your Own Problem**
 
 Consider a person outdoors on a cold night. Construct a problem in which you
@@ -1788,10 +1943,12 @@ there are many other factors to consider and your instructor may wish to guide
 you in the assumptions made as well as the detail of analysis and method of
 presenting your results.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1806,7 +1963,6 @@ directions, thus sending a fraction of it back toward the surface of the Earth
 net rate of heat transfer by radiation
 : is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right) $$
 
-
 radiation
 : energy transferred by electromagnetic waves directly as a result of a
 temperature difference
@@ -1816,4 +1972,4 @@ Stefan-Boltzmann law of radiation
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
 temperature, and $$e $$ is the emissivity
 
-</div>
+::::

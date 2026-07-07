@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define sound and hearing.
 * Describe sound as a longitudinal wave.
-</div>
+
+:::
 
 ![Photograph of a glass, half of which is shattered into small pieces by a high-intensity sound wave. The tiny glass bits are shattered all over the place.](../resources/Figure_17_01_01.jpg 'This glass has been shattered by a high-intensity sound wave of the same frequency as the resonant frequency of the glass. While the sound is not visible, the effects of the sound prove its existence. (credit: read, Flickr)')
 {: #Figure1}
@@ -66,17 +67,20 @@ are for all waves.
 ![Diagram of an ear is shown with sound wave compressions and rare factions entering the ear as semicircular arcs of bold and dotted lines. The cross section of ear drum marked as A is shown to vibrate to and fro with a force F equals P times A.](../resources/Figure_17_01_05.jpg 'Sound wave compressions and rarefactions travel up the ear canal and force the eardrum to vibrate. There is a net force on the eardrum, since the sound wave pressures differ from the atmospheric pressure found behind the eardrum. A complicated mechanism converts the vibrations to nerve impulses, which are perceived by the person.')
 {: #Figure5}
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Wave Interference
 </div>
+
 Make waves with a dripping faucet, audio speaker, or laser! Add a second source or a pair of slits to create an interference pattern.
 {: class="newline"}
 
 <div class="media"  data-alt="wave interference">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/wave-interference/"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -84,7 +88,8 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 - Sound is one type of wave.
 - Hearing is the perception of sound.
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -94,4 +99,4 @@ sound
 hearing
 : the perception of sound
 
-</div>
+:::

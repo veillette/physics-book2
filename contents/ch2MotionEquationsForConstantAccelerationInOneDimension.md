@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 2
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate displacement of an object that is not accelerating, given initial position and velocity.
 * Calculate final velocity of an accelerating object, given initial velocity, acceleration, and time.
 * Calculate displacement and final position of an accelerating object, given initial position, initial velocity, time, and acceleration.
 
-</div>
+:::
 
 ![Four men racing up a river in their kayaks.](../resources/Figure_02_05_01.jpg 'Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)')
 {: #Figure1}
@@ -41,6 +41,7 @@ $$ \begin{array}{lll}
 \Delta v&=& v-v_{0}
 \end{array} $$
 </div>
+
 where *the subscript 0 denotes an initial value and the absence of a subscript
 denotes a final value* in whatever motion is under consideration.
 
@@ -63,33 +64,39 @@ changes drastically, such as a car accelerating to top speed and then braking to
 a stop, the motion can be considered in separate parts, each of which has its
 own constant acceleration.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Solving for Displacement ( \( \Delta x \) ) and Final Position (
  \( x \) ) from Average Velocity when Acceleration ( \( a \) ) is Constant
 </div>
+
 To get our first two new equations, we start with the definition of average velocity:
 
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}. $$
 </div>
+
 Substituting the simplified notation for $$ \Delta x $$ and $$ \Delta t $$
 yields
 
 <div class="equation">
  $$ \overline{v}=\frac{x-x_{0}}{t}. $$
 </div>
+
 Solving for $$ x $$ yields
 
 <div class="equation">
  $$ x=x_{0}+\overline{v}t, $$
 </div>
+
 where the average velocity is
 
 <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}\left(\text{constant}a\right). $$
 </div>
-</div>
+
+:::
 
 The equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ reflects the fact that, when
 acceleration is constant, $$ v $$ is just the simple average of the initial and
@@ -103,10 +110,12 @@ velocity during this steady increase is 45 km/h. Using the equation $$ \overline
 
 which seems logical.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Displacement: How Far does the Jogger Run?
 </div>
+
 A jogger runs down a straight stretch of road with an average velocity of 4.00 m/s for 2.00 min. What is his final position,
 taking his initial position to be zero?
 
@@ -122,6 +131,7 @@ The final position $$ x $$ is given by the equation
 <div class="equation">
  $$ x=x_{0}+\overline{v}t. $$
 </div>
+
 To find $$ x $$, we identify the values of $$ x_{0} $$, $$ \overline{v} $$,
 and $$ t $$ from the statement of the problem and substitute them into the equation.
 
@@ -140,7 +150,7 @@ and $$ t $$ from the statement of the problem and substitute them into the equat
 Velocity and final displacement are both positive, which means they are in the
 same direction.
 
-</div>
+:::
 
 The equation $$ x=x\_{0}+\overline{v}t $$ gives insight into the relationship
 between displacement, average velocity, and time. It shows, for example, that
@@ -153,32 +163,39 @@ average 90 km/h than if we average 45 km/h.
 ![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
 {: #Figure3}
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Solving for Final Velocity
 </div>
+
 We can derive another useful equation by manipulating the definition of acceleration.
 
 <div class="equation">
  $$ a=\frac{ \Delta v}{\Delta t} $$
 </div>
+
 Substituting the simplified notation for $$ \Delta v $$ and $$ \Delta t $$
 gives us
 
 <div class="equation">
  $$ a=\frac{v-v_{0}}{t} \left(\text{constant}a\right). $$
 </div>
+
 Solving for $$ v $$ yields
 
 <div class="equation">
  $$ v=v_{0}+a t \left(\text{ constant }a\right). $$
 </div>
-</div>
 
-<div class="example" markdown="1">
+:::
+
+::: example
+
 <div class="title">
 Calculating Final Velocity: An Airplane Slowing Down after Landing
 </div>
+
 An airplane lands with an initial velocity of 70.0 m/s and then decelerates at $$ 1.50 \mss $$ for 40.0 s. What is its final velocity?
 
 **Strategy**
@@ -215,7 +232,7 @@ would be indicated by a negative final velocity, which is not the case here.
 ![An airplane moving toward the right at two points in time. At time equals 0 the velocity vector arrow points toward the right and is labeled seventy meters per second. The acceleration vector arrow points toward the left and is labeled negative 1 point 5 meters per second squared. At time equals forty seconds, the velocity arrow is shorter, points toward the right, and is labeled ten meters per second. The acceleration vector arrow is still pointing toward the left and is labeled a equals negative 1 point 5 meters per second squared.](../resources/Figure_02_05_05.jpg "The airplane lands with an initial velocity of 70.0 m/s and slows to a final velocity of 10.0 m/s before heading for the terminal. Note that the acceleration is negative because its direction is opposite to its velocity, which is positive.")
 {: #Figure5}
 
-</div>
+:::
 
 In addition to being useful in problem solving, the equation $$ v=v_{0}+a t $$
 gives us insight into the relationships among velocity, acceleration, and time.
@@ -232,7 +249,8 @@ From it we can see, for example, that
 basic equations in light of our intuition and experiences to check that they do
 indeed describe nature accurately.)
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Real-World Connection
 </div>
@@ -248,38 +266,46 @@ greater final velocity, so that it can orbit the earth rather than come directly
 back down as an ICBM does. The Space Shuttle does this by accelerating for a
 longer time.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Solving for Final Position When Velocity is Not Constant ( i.e acceleration is not zero)
 </div>
+
 We can combine the equations above to find a third equation that allows us to calculate the final position of an object experiencing constant acceleration. We start with
 
 <div class="equation">
  $$ v=v_{0}+a t . $$
 </div>
+
 Adding $$ v_{0} $$ to each side of this equation and dividing by 2 gives
 
 <div class="equation">
  $$ \frac{ v_{0}+v}{2}=v_{0}+\frac{1}{2}a t . $$
 </div>
+
 Since $$ \frac{ v_{0}+v }{2}=\overline{v} $$ for constant acceleration, then
 
 <div class="equation">
  $$ \overline{v}=v_{0}+\frac{1}{2}a t . $$
 </div>
+
 Now we substitute this expression for $$ \overline{v} $$ into the equation for displacement, $$ x=x_{0}+\overline{v}t $$, yielding
 
 <div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2} a t^{2} \left(\text{constant}a\right). $$
 </div>
-</div>
 
-<div class="example" id="example3" markdown="1">
+:::
+
+::: example {"class":"example","id":"example3"}
+
 <div class="title">
 Calculating Displacement of an Accelerating Object: Dragsters
 </div>
+
 Dragsters can achieve average accelerations of $$ 26.0 \mss $$. Suppose such a dragster accelerates from rest at this rate for 5.56 s. How far
 does it travel in this time?
 
@@ -309,17 +335,20 @@ given as $$ 26.0\mss $$ and $$ t $$ is given as 5.56 s.
 <div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} . $$
 </div>
+
 Since the initial position and velocity are both zero, this simplifies to
 
 <div class="equation">
  $$ x=\frac{1}{2}a t^{2} . $$
 </div>
+
 Substituting the identified values of $$ a $$ and $$ t $$
 gives
 
 <div class="equation">
  $$ x=\frac{1}{2}\left(26.0 \mss \right){\left(5.56 \s \right)}^{2}, $$
 </div>
+
 yielding
 
 <div class="equation">
@@ -333,7 +362,7 @@ one quarter of a mile, the standard distance for drag racing. So the answer is
 reasonable. This is an impressive displacement in only 5.56 s, but top-notch
 dragsters can do a quarter mile in even less time than this.
 
-</div>
+:::
 
 What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} ? $$ We see that:
 
@@ -344,10 +373,12 @@ What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a 
   $$ v_{0}=\overline{v} $$ ) and $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ becomes
   $$ x=x_{0}+v_{0}t $$
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Solving for Final Velocity when Velocity Is Not Constant ( acceleration is non-zero )
 </div>
+
 A fourth useful equation can be obtained from another algebraic manipulation of previous equations.
 
 If we solve $$ v=v_{0}+a t $$ for $$ t $$, we get
@@ -355,17 +386,21 @@ If we solve $$ v=v_{0}+a t $$ for $$ t $$, we get
 <div class="equation">
  $$ t=\frac{v-v_{0}}{a}. $$
 </div>
+
 Substituting this and $$ \overline{v}=\frac{ v_{0}+v}{2} $$ into $$ x=x_{0}+\overline{v}t $$, we get
 
 <div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) \left(\text{ constant }a\right). $$
 </div>
-</div>
 
-<div class="example" id="example4" markdown="1">
+:::
+
+::: example {"class":"example","id":"example4"}
+
 <div class="title">
 Calculating Final Velocity: Dragsters
 </div>
+
 Calculate the final velocity of the dragster in [Example 3](#example3)
 without
 using information about time.
@@ -392,11 +427,13 @@ acceleration was given to be $$ a=26.0 \mss $$.
 <div class="equation">
  $$ v^{2}=0+2 \left(26.0 \mss \right) \left(402 \m \right) . $$
 </div>
+
 Thus
 
 <div class="equation">
  $$ v^{2}=2.09 \times 10^{4} \mmss . $$
 </div>
+
 To get $$ v $$, we take the square root:
 
 <div class="equation">
@@ -410,7 +447,7 @@ short of the record for the quarter mile. Also, note that a square root has two
 values; we took the positive value to indicate a velocity in the same direction
 as the acceleration.
 
-</div>
+:::
 
 An examination of the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ can produce further insights into the general relationships among physical
 quantities:
@@ -432,27 +469,35 @@ reference to the equations needed.
 <div class="title">
 Summary of Kinematic Equations (constant acceleration )
 </div>
+
 <div class="equation">
  $$ x=x_{0}+\overline{v}t $$
 </div>
+
 <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
 </div>
+
 <div class="equation">
  $$ v=v_{0}+a t $$
 </div>
+
 <div class="equation">
  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
+
 <div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
 </div>
+
 </div>
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Displacement: How Far Does a Car Go When Coming to a Halt?
 </div>
+
 On dry concrete, a car can decelerate at a rate of $$ 7.00 \mss $$,
 whereas on wet concrete it can decelerate at only $$ 5.00 \mss $$.
 Find the distances necessary to stop a car moving at 30.0 m/s (about 110
@@ -485,6 +530,7 @@ to use is
 <div class="equation">
  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right). $$
 </div>
+
 This equation is best because it includes only one unknown, $$ x $$. We know the values of all the other variables in this equation. (There are
 other equations that would allow us to solve for $$ x $$, but they require us to know the stopping time, $$ t $$, which we do not know. We could use them but it would entail additional
 calculations.)
@@ -500,6 +546,7 @@ calculations.)
 <div class="equation">
  $$ x-0=\frac{ 0^{2}-{\left(30.0 \ms \right)}^{2}}{2\left(-7.00 \mss \right)} $$
 </div>
+
 Thus,
 
 <div class="equation">
@@ -535,6 +582,7 @@ because the only unknown value is $$ x $$, which is what we want to solve for.
 <div class="equation">
  $$ x=0+\left(30.0 \ms \right)\left(0.500 \s \right)=15.0 \m . $$
 </div>
+
 This means the car travels 15.0 m while the driver reacts, making the total displacements in the two cases of dry and wet concrete 15.0 m greater than if he reacted instantly.
 
 4\. Add the displacement during the reaction time to the displacement when
@@ -543,6 +591,7 @@ braking.
 <div class="equation">
  $$ x_{\text{braking}}+x_{\text{reaction}}=x_{\text{total}} $$
 </div>
+
 (a)  64.3 m + 15.0 m = 79.3 m when dry
 (b)  90.0 m + 15.0 m = 105 m when wet
 
@@ -560,12 +609,14 @@ appropriate equation. There is often more than one way to solve a problem. The
 various parts of this example can in fact be solved by other methods, but the
 solutions presented above are the shortest.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Time: A Car Merges into Traffic
 </div>
+
 Suppose a car merges into freeway traffic on a 200-m-long ramp.
 If its initial velocity is 10.0 m/s and it accelerates at $$ 2.00 \mss $$,
 how long does it take to travel the 200 m up the ramp?
@@ -595,6 +646,7 @@ it will be easier to plug in the knowns first.
 <div class="equation">
  $$ 200 \m =0 \m +\left(10.0 \ms \right)t+\frac{1}{2}\left(2.00 \mss \right){t}^{2} $$
 </div>
+
 4\. Simplify the equation. The units of meters (m) cancel because they are in each term.
 We can get the units of seconds (s) to cancel by taking $$ t=t\s $$, where $$ t $$
 is the magnitude of time and s is the unit. Doing so leaves
@@ -602,17 +654,20 @@ is the magnitude of time and s is the unit. Doing so leaves
 <div class="equation">
  $$ 200 =10 t+ t^{2}. $$
 </div>
+
 5\. Use the quadratic formula to solve for $$ t $$.
 (a) Rearrange the equation to get 0 on one side of the equation.
 
 <div class="equation">
  $$ t^{2}+10 t-200 =0 $$
 </div>
+
 This is a quadratic equation of the form
 
 <div class="equation">
  $$ a t^{2} + b t +c=0, $$
 </div>
+
 where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
 
 (b) Its solutions are given by the quadratic formula:
@@ -620,16 +675,19 @@ where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
 <div class="equation">
  $$t=\frac{-b \pm \sqrt{ b^{2}-4 a c} }{2a} .$$
 </div>
+
 This yields two solutions for $$ t $$, which are
 
 <div class="equation">
  $$t=10.0 \text{ and } - 20.0 . $$
 </div>
+
 In this case, then, the time is $$ t=t $$ in seconds, or
 
 <div class="equation">
  $$ t=10.0\s \text{ and }-20.0\s . $$
 </div>
+
 A negative value for time is unreasonable, since it would mean
 that the event happened 20s before the motion began. We can discard that solution. Thus,
 
@@ -644,7 +702,7 @@ In some problems both solutions are meaningful, but in others, such as the
 above, only one solution is reasonable. The 10.0 s answer seems reasonable for a
 typical freeway on-ramp.
 
-</div>
+:::
 
 With the basics of kinematics established, we can go on to many other
 interesting examples and applications. In the process of developing kinematics,
@@ -654,10 +712,12 @@ relationships. [Problem-Solving Basics](./ch2ProblemSolvingBasicsForOneDimension
 discusses problem-solving basics and outlines an approach that will help you
 succeed in this invaluable task.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment—Breaking News
 </div>
+
 We have been using SI units of meters per second squared to describe some
 examples of acceleration or deceleration of cars, runners, and trains.
 To achieve a better feel for these numbers, one can measure the braking
@@ -670,30 +730,37 @@ hour per second. Convert this to meters per second squared and compare with
 other decelerations mentioned in this chapter. Calculate the distance traveled
 in braking.
 
-</div>
+:::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A manned rocket accelerates at a rate of $$ 20 \mss $$
 during launch. How long does it take the rocket to reach a velocity of 400 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 To answer this, choose an equation that allows you to solve for time $$ t $$,
 given only $$ a $$, $$ v_{0} $$, and $$ v $$.
 
 <div class="equation">
  $$ v=v_{0}+a t $$
 </div>
+
 Rearrange to solve for $$ t $$.
 
 <div class="equation">
  $$ t=\frac{v-v_{0}}{a}=\frac{400 \ms -0 \ms }{ 20 \mss }=20 \s $$
 </div>
-</div>
+
+:::
+
 </div>
 
 ### Section Summary
@@ -703,11 +770,11 @@ Rearrange to solve for $$ t $$.
 - Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
   <div class="equation">
-$$ \begin{array}{lll}
+  $$ \begin{array}{lll}
   \Delta t&=& t\\ 
   \Delta x&=& x-x_{0}\\
   \Delta v&=& v-v_{0}
-\end{array} $$
+  \end{array} $$
   </div>
 
 - The following kinematic equations for motion with constant $$ a $$ are useful:
@@ -716,19 +783,19 @@ $$ \begin{array}{lll}
    </div>
 
    <div class="equation">
-  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
+   $$ \overline{v}=\frac{ v_{0}+v}{2} $$
    </div>
 
    <div class="equation">
-  $$ v=v_{0}+a t $$
+   $$ v=v_{0}+a t $$
    </div>
 
    <div class="equation">
-  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
+   $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
    </div>
 
    <div class="equation">
-  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
+   $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
    </div>
 
 - In vertical motion, $$ y $$ is substituted for $$ x $$.
@@ -736,14 +803,17 @@ $$ \begin{array}{lll}
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An Olympic-class sprinter starts a race with an acceleration of $$ 4.50 \mss $$.
 (a) What is her speed 2.40 s later?
 (b) Sketch a graph of her position vs.
 time for this period.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -791,19 +861,23 @@ The sprinter reaches a speed of 10.8 m/s (about 38.9 km/h or 24.2 mph) in just 2
 
 (b) The position-time graph is parabolic, starting at the origin with increasing slope, as shown in Figure 13.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A well-thrown ball is caught in a well-padded mitt. If the deceleration of the ball is
 $$ 2.10 \times 10^{4}\mss $$,
 and 1.85 ms $$ \left(1 \text{ms}=10^{-3}\s \right) $$
 elapses from the time the ball first touches the mitt until it stops, what was
 the initial velocity of the ball?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -847,18 +921,22 @@ The initial velocity of 38.9 m/s (about 87 mph) is consistent with a well-thrown
 
 The initial velocity of the ball was 38.9 m/s (approximately 87 miles per hour).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A bullet in a gun is accelerated from the firing chamber to the
 end of the barrel at an average rate of $$ 6.20 \times 10^{5}\mss $$
 for $$ 8.10 \times 10^{-4}\s $$.
 What is its muzzle velocity (that is, its final velocity)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -886,11 +964,14 @@ This is about 1810 km/h or 1120 mph, which is supersonic (faster than the speed 
 
 The bullet's muzzle velocity is $$ 502 \ms $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A light-rail commuter train accelerates at a rate of $$ 1.35 \mss $$.
 How long does it take to reach its top speed of 80.0 km/h, starting from
 rest?
@@ -900,8 +981,9 @@ How long does it take to come to a stop from its top speed?
 What is its emergency deceleration in $$ \mss $$
 ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -969,11 +1051,14 @@ The train takes about 16.5 seconds to accelerate to its top speed and 13.5 secon
 
 (c) The emergency deceleration is $$ -2.68 \mss $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 While entering a freeway, a car accelerates from rest at a rate of $$ 2.40 \mss $$ for 12.0 s.
 (a) Draw a sketch of the situation.
 (b) List the knowns in this problem.
@@ -985,8 +1070,10 @@ reasonable.
 (d) What is the car's final velocity? Solve for this unknown in the
 same manner as in part (c), showing all steps explicitly.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This problem involves constant acceleration from rest. We need to use kinematic equations to find both displacement and final velocity. Since we're given acceleration and time, we can use the equations that relate these quantities to displacement and velocity.
@@ -1086,18 +1173,22 @@ This confirms our answer. The acceleration of 2.40 m/s² (about 0.24g) is typica
 
 (d) The car's final velocity is **28.8 m/s** (approximately 104 km/h or 64 mph).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At the end of a race, a runner decelerates from a velocity of 9.00 m/s at a rate of $$ 2.00 \mss $$.
 (a) How far does she travel in the next 5.00 s?
 (b) What is her final velocity?
 (c) Evaluate the result. Does it make sense?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1166,11 +1257,13 @@ After stopping at $$ t = 4.50 \s $$, she remains at rest. So while the equation 
 
 (c) This result does not make physical sense. The runner actually stops after 4.50 s, having traveled about 20.25 m. She cannot continue decelerating to achieve a negative velocity (running backwards). This demonstrates that kinematic equations must be applied with consideration of physical constraints.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application:**
 
@@ -1184,8 +1277,9 @@ it. After choosing the equation, show your steps in solving for the unknown,
 checking your units.
 (d) Is the answer reasonable when compared with the time for a heartbeat?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1270,18 +1364,22 @@ This confirms our answer. The acceleration of 2.50 m/s² (about 0.25g) may seem 
 
 (d) Yes, this is reasonable. It represents a significant portion of the systolic phase of the heartbeat, which typically lasts about 0.3 seconds.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In a slap shot, a hockey player accelerates the puck from a velocity of
 8.00 m/s to 40.0 m/s in the same direction. If this shot takes
 $$ 3.33 \times 10^{-2}\s $$, calculate the distance over which the
 puck accelerates.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1328,17 +1426,21 @@ This is about 98 times gravitational acceleration (98g), which demonstrates the 
 
 The puck accelerates over a distance of 0.799 m (approximately 80 cm or 31 inches).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A powerful motorcycle can accelerate from rest to 26.8 m/s (100 km/h) in only 3.90 s.
 (a) What is its average acceleration?
 (b) How far does it travel in that time?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1378,11 +1480,14 @@ The acceleration of 6.87 m/s² is about 0.7g, which is quite impressive for a mo
 
 (b) The motorcycle travels $$ 52.3 \m $$ in that time.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Freight trains can produce only relatively small accelerations and decelerations.
 (a) What is the final velocity of a freight train that accelerates at
 a rate of $$ 0.0500 \mss $$ for 8.00 min, starting with an
@@ -1391,8 +1496,9 @@ initial velocity of 4.00 m/s?
 how long will it take to come to a stop from this velocity?
 (c) How far will it travel in each case?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1476,16 +1582,21 @@ The freight train's small acceleration ($$ 0.0500 \mss $$, only about 0.5% of gr
 
 (c) The train travels 7.68 km during acceleration and 713 m during deceleration.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A fireworks shell is accelerated from rest to a velocity of 65.0 m/s over a distance of 0.250 m.
 (a) How long did the acceleration last?
 (b) Calculate the acceleration.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1569,27 +1680,35 @@ For comparison, even the most powerful dragsters only achieve accelerations of a
 
 (b) The acceleration is **$$ 8.45 \times 10^{3} \mss $$** (approximately 862g).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A swan on a lake gets airborne by flapping its wings and running on top of the water.
 (a) If the swan must reach a velocity of 6.00 m/s to take off and it accelerates
 from rest at an average rate of $$ 0.350 \mss $$, how far will it
 travel before becoming airborne?
 (b) How long does this take?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 (a) $$ 51.4\m $$
 
 (b) $$ 17.0 \s $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application:**
 
@@ -1603,8 +1722,9 @@ distance of only 2.00 mm.
 mm ( greater than the head and, hence, less deceleration of the brain). What is
 the brain's deceleration, expressed in multiples of $$ g $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1706,18 +1826,22 @@ For comparison, race car drivers experience decelerations up to about 5-6g durin
 
 (c) The brain's deceleration is **4.08g** (4.08 times the acceleration due to gravity).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An unwary football player collides with a padded goalpost while running at a velocity of 7.50 m/s and comes to
 a full stop after compressing the padding and his body 0.350 m.
 (a) What is his deceleration?
 (b) How long does the collision last?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1779,11 +1903,14 @@ The collision lasts about 93 milliseconds (less than one-tenth of a second), whi
 
 (b) The collision lasts $$ 9.33 \times 10^{-2} \s $$ (approximately 93 milliseconds).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In World War II, there were several reported cases of airmen who jumped from their
 flaming airplanes with no
 parachute to escape certain death. Some fell about 20 000 feet (6000 m), and some of them
@@ -1792,8 +1919,9 @@ and snow drifts on the ground allowed their deceleration to be relatively small.
 If we assume that a pilot's speed upon impact was 123 mph (54 m/s), then what was
 his deceleration? Assume that the trees and snow stopped him over a distance of 3.0 m.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1872,19 +2000,23 @@ Without the trees and snow, stopping over just 0.1 m would produce a deceleratio
 
 The pilot's deceleration was **$$ -4.9 \times 10^{2} \mss $$** (or approximately 486 m/s²), which is about **50 times the acceleration due to gravity (50g)**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a grey squirrel falling out of a tree to the ground.
 (a) If we ignore air resistance in this case (only for the sake of this problem),
 determine a squirrel’s velocity just before hitting the ground, assuming it fell from a height of 3.0 m.
 (b) If the squirrel stops in a distance of 2.0 cm through bending its limbs,
 compare its deceleration with that of the airman in the previous problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1960,11 +2092,14 @@ This is why squirrels can fall from great heights and walk away unharmed - they'
 
 (b) The squirrel's deceleration is $$ -1.5 \times 10^{3} \mss $$ (about 151g), which is approximately 3 times the deceleration experienced by the airman in the previous problem who was falling from thousands of meters!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An express train passes through a station. It enters with an initial velocity
 of 22.0 m/s and decelerates at a rate of $$ 0.150 \mss $$
 as it goes through. The station is 210 m long.
@@ -1974,8 +2109,9 @@ as it goes through. The station is 210 m long.
 the station?
 (d) What is the velocity of the end of the train as it leaves?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -2114,11 +2250,14 @@ The average velocity during the passage can be calculated as $$ \overline{v} = \
 
 (d) The end of the train is traveling at **19.5 m/s** as it leaves the station.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Dragsters can actually reach a top speed of 145 m/s in only 4.45 s—considerably
 less time than given in [Example 3](#example3) and
 [Example 4](#example4).
@@ -2126,8 +2265,9 @@ less time than given in [Example 3](#example3) and
 (b) Find the final velocity of this dragster starting from rest and accelerating at the rate found in (a) for 402 m (a quarter mile) without using any information on time.
 (c) Why is the final velocity greater than that used to find the average acceleration? *Hint*: Consider whether the assumption of constant acceleration is valid for a dragster. If not, discuss whether the acceleration would be greater at the beginning or end of the run and what effect that would have on the final velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -2195,11 +2335,14 @@ For comparison, 32.6 m/s² is about 3.3 times gravitational acceleration (3.3g),
 
 (c) This calculated velocity (162 m/s) is greater than the actual top speed (145 m/s) because the assumption of constant acceleration is not valid for a dragster. Dragsters change gears and experience increasing air resistance, so acceleration is greatest at the beginning and decreases throughout the run. The actual acceleration during the final meters is substantially less than 32.6 m/s², resulting in a final velocity less than 162 m/s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A bicycle racer sprints at the end of a race to clinch a victory.
 The racer has an initial velocity of 11.5 m/s and accelerates at
 the rate of $$ 0.500 \mss $$ for 7.00 s.
@@ -2211,8 +2354,10 @@ started to accelerate, how much time did he save?
 ahead when the winner started to accelerate, but he was unable to accelerate,
 and traveled at 11.8 m/s until the finish line. How far ahead of him (in meters
 and in seconds) did the winner finish?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -2331,32 +2476,45 @@ The winner's average velocity during acceleration was $$ \overline{v} = \frac{11
 
 (c) The winner finished **60 m ahead** and **5.0 s ahead** of the other racer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In 1967, New Zealander Burt Munro set the world record for an Indian motorcycle,
 on the Bonneville Salt Flats in Utah, with a maximum speed of 183.58 mi/h.
 The one-way course was 5.00 mi long. Acceleration rates are often described by
 the time it takes to reach 60.0 mi/h from rest. If this time was 4.00 s, and
 Burt accelerated at this rate until he reached his maximum speed, how long
 did it take Burt to complete the course?
-</div>
 
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 104 s
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A world record was set for the men’s 100-m dash in the 2008 Olympic Games in Beijing by Usain Bolt of Jamaica. Bolt “coasted” across the finish line with a time of 9.69 s. If we assume that Bolt accelerated for 3.00 s to reach his maximum speed, and maintained that speed for the rest of the race, calculate his maximum speed and his acceleration.
 (b) During the same Olympics, Bolt also set the world record in the 200-m dash with a time of 19.30 s. Using the same assumptions as for the 100-m dash, what was his maximum speed for this race?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) $$ v=12.2 \ms $$; $$ a=4.07 \mss $$
 (b) $$ v=11.2 \ms $$
-</div>
+
+:::
+
 </div>

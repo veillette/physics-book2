@@ -1,5 +1,6 @@
 ---
-layout: null
+permalink: /assets/pwa/register-sw.js
+eleventyExcludeFromCollections: true
 ---
 // PWA Service Worker Registration and Installation
 (function () {
@@ -44,10 +45,10 @@ layout: null
     return;
   }
 
-  // Configuration - uses Jekyll baseurl (works for both GitHub Pages and Vercel)
-  // Service worker must be at root to control the entire site scope
-  const BASE_PATH = '{{ site.baseurl }}/';
-  const SW_PATH = `{{ site.baseurl }}/sw.js`;
+  // Configuration - uses the site path prefix (Pages: /physics-book2, Vercel: root).
+  // Service worker must be at root to control the entire site scope.
+  const BASE_PATH = '{{ "/" | url | trimSlash }}/';
+  const SW_PATH = `{{ "/" | url | trimSlash }}/sw.js`;
 
   // Service Worker Registration
   function registerServiceWorker() {

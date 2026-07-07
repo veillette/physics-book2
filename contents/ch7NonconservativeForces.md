@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 7
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Define nonconservative forces and explain how they affect mechanical energy.
 * Show how the principle of conservation of energy can be applied by treating the conservative forces in terms of their potential energies and any nonconservative forces in terms of the work they do.
 
-</div>
+::::
 
 ### Nonconservative Forces and Friction
 
@@ -120,10 +120,12 @@ start by finding the change in mechanical energy that would have resulted from
 just the conservative forces, including the potential energy changes, and add to
 it the work done, with the proper sign, by any nonconservative forces involved.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Distance Traveled: How Far a Baseball Player Slides
 </div>
+
 Consider the situation shown in [Figure 4](#Figure4), where a baseball player slides to a stop on level ground. Using energy considerations, calculate the distance the 65.0-kg baseball player slides, given that his initial speed is 6.00 m/s and the force of friction against him is a constant 450 N.
 
 ![A baseball player slides to stop in a distance d. the displacement d is shown by a vector towards the left and frictional force f on the player is shown by a small vector pointing towards the right equal to four hundred and fifty newtons. K E is equal to half m v squared, which is equal to f times d.](../resources/Figure_07_05_04.jpg "The baseball player slides to a stop in a distance \( d \) . In the process, friction removes the player&#x2019;s kinetic energy by doing an amount of work \( f d \) equal to the initial kinetic energy. ")
@@ -140,11 +142,13 @@ opposite direction of the motion (that is, $$ \theta =180^\circ $$, and so $$ \c
 <div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}-f d =0 $$
 </div>
+
 or
 
 <div class="equation">
  $$ f d =\frac{1}{2} m v_{i}^{2}. $$
 </div>
+
 This equation can now be solved for the distance $$ d $$.
 
 **Solution**
@@ -167,12 +171,14 @@ The most important point of this example is that the amount of nonconservative
 work equals the change in mechanical energy. For example, you must work harder
 to stop a truck, with its large mechanical energy, than to stop a mosquito.
 
-</div>
+::::
 
-<div class="example"  markdown="1">
+:::: example
+
 <div class="title">
 Calculating Distance Traveled: Sliding Up an Incline
 </div>
+
 Suppose that the player from the previous example is running up a hill having
 a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball stadium (see [Figure 5](#Figure5)). The
 player slides with the same initial speed, and the frictional force is still 450
@@ -204,6 +210,7 @@ Substituting these values gives
 <div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}+0+\left(-f d \right)=0+ m g d \sin{\theta} . $$
 </div>
+
 Solve this for $$ d $$ to obtain
 
 <div class="equation">
@@ -233,12 +240,14 @@ energy instead, we need only consider the gravitational potential energy $$ mgh 
 , without combining and resolving force vectors. This simplifies the solution
 considerably.
 
-</div>
+::::
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Determining Friction from the Stopping Distance
 </div>
+
 This experiment involves the conversion of gravitational potential energy into
 thermal energy. Use the ruler, book, and marble
 from [Take-Home Investigation—Converting Potential to Kinetic Energy](./ch7GravitationalPotentialEnergy#takeHome).
@@ -270,24 +279,30 @@ proportional to the mass of the steel and glass marbles?
 ![A marble is rolling down a makeshift ramp consisting of a small wooden ruler propped up on one end at about a thirty degree angle. At the bottom of the ramp is a foam drinking cup standing upside-down on its lip. A hole is cut out on one side of the cup so that the marble will roll through the hole when it reaches the bottom of the ramp.](../resources/Figure_07_05_06.jpg "Rolling a marble down a ruler into a foam cup.")
 {: #Figure6 height="150"}
 
-</div>
+::::
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  The Ramp
 </div>
+
 Explore forces, energy and work as you push household objects up and down a ramp. Lower and
 raise the ramp to see how the angle of inclination affects the parallel forces acting on the file
 cabinet. Graphs show forces, energy and work.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp
 </figcaption>
-</figure>
+
+:::
+
 {: #Figure7}
-</div>
+
+::::
 
 ### Section Summary
 
@@ -305,7 +320,9 @@ The Ramp
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown
 in [Figure 8](#Figure8). Find her final speed at the top, given that the coefficient of friction
 between her skis and the snow is 0.0800. (Hint: Find the distance traveled up the incline
@@ -314,8 +331,10 @@ assuming a straight-line path as shown in the figure.)
 ![A skier is about to go up an inclined slope with some initial speed v sub i shown by an arrow towards right. The slope makes a thirty-five-degree with the horizontal. The height of the point where the slope ends from the skiers&#x2019; starting position is two point five meters. Final speed of the skier at the end of the inclined slope is unknown.](../resources/Figure_07_05_07.jpg "The skier&#x2019;s initial kinetic energy is partially used in coasting to the top of a rise.")
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the work-energy theorem including friction. The initial kinetic energy is converted to gravitational potential energy plus thermal energy (work done against friction). First find the distance traveled along the incline using trigonometry, then apply energy conservation.
@@ -383,18 +402,22 @@ Notice that even though the skier retains 62% of the kinetic energy, the speed o
 
 The skier's final speed at the top is **9.46 m/s**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) How high a hill can a car coast up (engine disengaged) if work done by friction is negligible and its initial speed is 110 km/h?
 (b) If, in actuality, a 750-kg car with an initial speed of 110 km/h is observed to coast up a hill to a height 22.0 m above its starting point, how much thermal energy was generated by friction?
 (c) What is the average force of friction if the hill has a slope $$ 2.5^\circ $$
 above the horizontal?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -475,10 +498,12 @@ Comparing parts (a) and (b) demonstrates that friction is a major factor in real
 
 (c) The average force of friction is **$$ 3.8 \times 10^{2} $$ N** (or 380 N).
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -490,4 +515,4 @@ friction
 : the force between surfaces that opposes one sliding on the other; friction
 changes mechanical energy into thermal energy
 
-</div>
+::::

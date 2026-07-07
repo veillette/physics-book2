@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe a typical photoelectric-effect experiment.
 * Determine the maximum kinetic energy of photoelectrons ejected by photons of one energy or wavelength, when given the maximum kinetic energy of photoelectrons for a different photon energy or wavelength.
-</div>
+
+:::
 
 When light strikes materials, it can eject electrons from them. This is called
 the **photoelectric effect**, meaning that light (_photo_) produces electricity.
@@ -142,10 +143,12 @@ general relativity were not fully recognized in spite of having been partially
 verified by experiment by 1921. Although hero-worshipped, this great man never
 received Nobel recognition for his most famous work—relativity.
 
-<div class="example"  markdown="1">
+::: example
+
 <div class="title">
 Calculating Photon Energy and the Photoelectric Effect: A Violet Light
 </div>
+
 (a) What is the energy in joules and electron volts of a photon of 420-nm violet light? (b) What is the maximum kinetic energy of electrons ejected from calcium by 420-nm violet light, given that the binding energy (or work function) of electrons for calcium metal is 2.71 eV?
 
 **Strategy**
@@ -162,26 +165,31 @@ Photon energy is given by
 <div class="equation" >
  $$E= hf $$
 </div>
+
 Since we are given the wavelength rather than the frequency, we solve the familiar relationship  $$c=f\lambda  $$  for the frequency, yielding
 
 <div class="equation" >
  $$f=\frac{c}{\lambda }. $$
 </div>
+
 Combining these two equations gives the useful relationship
 
 <div class="equation" >
  $$E=\frac{hc}{\lambda }. $$
 </div>
+
 Now substituting known values yields
 
 <div class="equation" >
  $$E=\frac{\left( 6.63 \times 10^{-34} \text{J}\cdot \text{s}\right)\left( 3.00 \times 10^{8}  \text{m/s}\right)}{420 \times 10^{-9} \text{m}}=4.74 \times 10^{-19} \text{J}. $$
 </div>
+
 Converting to eV, the energy of the photon is
 
 <div class="equation" >
  $$E=\left( 4.74 \times 10^{-19} \text{J}\right)\frac{1 \text{eV}}{1.6 \times 10^{-19} \text{J}}=2.96 \text{eV}. $$
 </div>
+
 __Solution for (b)__
 
 Finding the kinetic energy of the ejected electron is now a simple application
@@ -191,6 +199,7 @@ energy and binding energy yields
 <div class="equation" >
  $${\text{KE}}_{e}= hf- \text{BE}=2.96 \text{eV} - 2.71 \text{eV}=0.246 \text{eV}. $$
 </div>
+
 **Discussion**
 
 The energy of this 420-nm photon of violet light is a tiny fraction of a joule,
@@ -211,12 +220,14 @@ that if calcium metal is used in a light meter, the meter will be insensitive to
 wavelengths longer than those of blue light. Such a light meter would be
 completely insensitive to red light, for example.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Photoelectric Effect
 </div>
+
 See how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.
 {: class="newline"}
 
@@ -225,7 +236,8 @@ See how light knocks electrons off a metal target, and recreate the experiment t
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="760" height="671.4" src="https://veillette.github.io/simulations/photoelectric-effect/#sim-photoelectric-effect"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -243,48 +255,66 @@ photoelectrons) is given by $${\text{KE}}_{e}= hf\text{- BE} $$ , where $$ hf $$
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is visible light the only type of EM radiation that can cause the photoelectric effect?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which aspects of the photoelectric effect cannot be explained without photons? Which can be explained without photons? Are the latter inconsistent with the existence of photons?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the photoelectric effect a direct consequence of the wave character of EM radiation or of the particle character of EM radiation? Explain briefly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Insulators (nonmetals) have a higher BE than metals, and it is more difficult for photons to eject electrons from insulators. Discuss how this relates to the free charges in metals that make them good conductors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you pick up and shake a piece of metal that has electrons in it free to move as a current, no electrons fall out. Yet if you heat the metal, electrons can be boiled off. Explain both of these facts as they relate to the amount and distribution of energy involved with shaking the object as compared with heating it.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the longest-wavelength EM radiation that can eject a photoelectron from silver, given that the binding energy is 4.73 eV? Is this in the visible range?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -316,15 +346,19 @@ This wavelength of 262 nm is in the ultraviolet range, well below the visible sp
 
 263 nm, no this is not visible (UV radiation)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the longest-wavelength photon that can eject an electron from potassium, given that the binding energy is 2.24 eV. Is this visible EM radiation?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -356,15 +390,19 @@ This wavelength of 554 nm is in the visible range, specifically in the green-yel
 
 554 nm, yes this is visible (green-yellow light)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the binding energy in eV of electrons in magnesium, if the longest-wavelength photon that can eject electrons is 337 nm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -390,15 +428,19 @@ Magnesium has a binding energy of 3.68 eV, which falls between that of potassium
 
 3.69 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the binding energy in eV of electrons in aluminum, if the longest-wavelength photon that can eject them is 304 nm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -424,15 +466,19 @@ Aluminum has a binding energy of 4.08 eV, which is higher than that of potassium
 
 4.08 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the maximum kinetic energy in eV of electrons ejected from sodium metal by 450-nm EM radiation, given that the binding energy is 2.28 eV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -458,15 +504,19 @@ The 450-nm blue light photons have just barely enough energy (2.76 eV) to overco
 
 0.483 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 UV radiation having a wavelength of 120 nm falls on gold metal, to which electrons are bound by 4.82 eV. What is the maximum kinetic energy of the ejected photoelectrons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -492,15 +542,19 @@ The UV photon has sufficient energy (10.33 eV) to overcome the binding energy of
 
 5.51 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Violet light of wavelength 400 nm ejects electrons with a maximum kinetic energy of 0.860 eV from sodium metal. What is the binding energy of electrons to sodium metal?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -526,15 +580,19 @@ This value of 2.24 eV matches the known work function of sodium within experimen
 
 2.25 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 UV radiation having a 300-nm wavelength falls on uranium metal, ejecting 0.500-eV electrons. What is the binding energy of electrons to uranium metal?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -560,15 +618,19 @@ Uranium metal has a binding energy of 3.63 eV for its outermost electrons. This 
 
 3.63 eV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of EM radiation that ejects 2.00-eV electrons from calcium metal, given that the binding energy is 2.71 eV? What type of EM radiation is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -598,15 +660,19 @@ The 263-nm UV photons carry 4.71 eV of energy, with 2.71 eV used to overcome cal
 
 (b) Ultraviolet
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the wavelength of photons that eject 0.100-eV electrons from potassium, given that the binding energy is 2.24 eV. Are these photons visible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -632,15 +698,19 @@ These photons have a wavelength of 530 nm, which is in the visible spectrum—sp
 
 530 nm, yes these photons are visible (green light)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the maximum velocity of electrons ejected from a material by 80-nm photons, if they are bound to the material by 4.73 eV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -673,15 +743,20 @@ Use $${\text{KE}} = \frac{1}{2}mv^2$$ to find velocity:
 The 80-nm UV photons carry significant energy (15.5 eV), producing fast-moving photoelectrons with velocities near 2 million m/s—about 0.6% of the speed of light. This is fast enough that we're approaching the regime where relativistic effects begin to matter (though still well within the non-relativistic approximation). The high electron velocity demonstrates the substantial energy transfer possible with short-wavelength UV radiation, which is why UV photodetectors can produce strong electrical signals.
 
  $$ 1.95 \times 10^{6}  \text{m/s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 420-nm photons. Once ejected, how long does it take these electrons to travel 2.50 cm to a detection device?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -725,15 +800,19 @@ The photoelectrons travel at about 0.1% the speed of light (290 km/s), which is 
 
  $$ 8.62 \times 10^{-8} \text{ s}$$  or 86.2 ns
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected onto calcium metal. (a) How many electrons per second are ejected? (b) What power is carried away by the electrons, given that the binding energy is 2.71 eV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -774,16 +853,20 @@ The laser produces about 4 trillion electrons per second, but the electrons carr
 (a)  $$ 4.02 \times 10^{15}  \text{/s} $$
 (b) 0.256 mW
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the number of photoelectrons per second ejected from a 1.00-mm <sup>2</sup> area of sodium metal by 500-nm EM radiation having an intensity of  $$1.30 {\text{kW/m}}^{2} $$
  (the intensity of sunlight above the Earth's atmosphere). (b) Given that the binding energy is 2.28 eV, what power is carried away by the electrons? (c) The electrons carry away less power than brought in by the photons. Where does the other power go? How can it be recovered?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -843,11 +926,14 @@ Only about 8% of the incident photon energy is carried away as kinetic energy of
 
 (c) The remaining power (1.20 W) heats the sodium metal. It can be recovered as thermal energy or dissipated through cooling.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Red light having a wavelength of 700 nm is projected onto magnesium metal to
@@ -856,26 +942,32 @@ to calculate the kinetic energy of the ejected electrons. (b) What is
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$-1.90 \text{eV} $$
 (b) Negative kinetic energy
 
 (c) That the electrons would be knocked free.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) What is the binding energy of electrons to a material from which 4.00-eV
 electrons are ejected by 400-nm EM radiation? (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -909,10 +1001,12 @@ The assumption that is unreasonable is that 400-nm photons can eject electrons w
 
 (c) The assumption that 400-nm photons (3.10 eV) can produce 4.00-eV electrons violates energy conservation
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -930,4 +1024,4 @@ binding energy
 : also called the _work function_; the amount of energy necessary to eject an
 electron from a material
 
-</div>
+:::

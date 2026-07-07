@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the image formation by the eye.
 * Explain why peripheral images lack detail and color.
 * Define refractive indices.
 * Analyze the accommodation of the eye for distant and near vision.
-</div>
+
+:::
 
 Early thinkers had a wide array of theories regarding vision. Euclid and Ptolemy believed that the eyes emitted rays of light; others promoted the idea that objects gave off some particle or substance that was discerned by the eye. Ibn al-Haytham (sometimes called Alhazen), who was mentioned earlier as an originator of the scientific method, conducted a number of experiments to illustrate how the anatomical construction of the eye led to its ability to form images. He recognized that light reflected from objects entered the eye through the lens and was passed to the optic nerve. Al-Haytham did not fully understand the mechanisms involved, but many subsequent discoveries in vision, reflection, and magnification built on his discoveries and methods.
 
@@ -106,22 +107,26 @@ We understand that $${d}_{\text{i}} $$ must equal the lens-to-retina distance to
 obtain clear vision, and that normal vision is possible for objects at distances
 $${d}\_{o}=25 \text{cm} $$ to infinity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: The Pupil
 </div>
+
 Look at the central transparent area of someone’s eye, the pupil, in normal room light. Estimate the diameter of the pupil. Now turn off the lights and darken the room. After a few minutes turn on the lights and promptly estimate the diameter of the pupil. What happens to the pupil as the eye adjusts to the room light? Explain your observations.
 
-</div>
+:::
 
 The eye can detect an impressive amount of detail, considering how small the
 image is on the retina. To get some idea of how small the image can be, consider
 the following example.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Size of Image on Retina
 </div>
+
 What is the size of the image on the retina of a  $$ 1.20 \times 10^{-2}  $$
  cm diameter human hair, held at arm’s length (60.0 cm) away? Take the lens-to-retina distance to be 2.00 cm.
 
@@ -141,16 +146,19 @@ The only unknown variable in the equation $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o
 <div class="equation" >
  $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}. $$
 </div>
+
 Rearranging to isolate  $${h}_{\text{i}} $$  yields
 
 <div class="equation" >
  $${h}_{\text{i}}=-{h}_{\text{o}}\cdot \frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}. $$
 </div>
+
 Substituting the known values gives
 
 <div class="equation" >
  $$\begin{array}{lll}{h}_{\text{i}}& =& -\left( 1.20 \times 10^{-2}  \text{cm}\right)\frac{2.00 \text{cm}}{60.0 \text{cm}}\\ & =&  -4.00 \times 10^{-4}  \text{cm}.\end{array} $$
 </div>
+
 **Discussion**
 
 This truly small image is not the smallest discernible—that is, the limit to
@@ -159,12 +167,14 @@ with the wave properties of light and will be discussed in the next chapter.
 Some limitation is also due to the inherent anatomy of the eye and processing
 that occurs in our brain.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Power Range of the Eye
 </div>
+
 Calculate the power of the eye when viewing objects at the greatest and smallest distances possible with normal vision, assuming a lens-to-retina distance of 2.00 cm (a typical value).
 
 **Strategy**
@@ -182,15 +192,18 @@ For distant vision,
 <div class="equation" >
  $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{\infty }+\frac{1}{0.0200 \text{m}}\text{.} $$
 </div>
+
 Since  $$1/\infty =0 $$ ,  this gives
 <div class="equation" >
  $$P=0+ 50.0/\text{m}=50.0 \text{D (distant vision).} $$
 </div>
+
 Now, for close vision,
 
 <div class="equation" >
  $$\begin{array}{lll}P& =& \frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.250 \text{m}}+\frac{1}{0.0200 \text{m}}\\ P & =& \frac{4.00}{\text{m}}+\frac{50.0}{\text{m}}=4.00 \text{D}+50.0 \text{D}\\ P & =& 54.0 \text{D (close vision).}\end{array} $$ 
 </div>
+
 **Discussion**
 
 For an eye with this typical 2.00 cm lens-to-retina distance, the power of the
@@ -209,7 +222,7 @@ defect, we place a converging, positive power lens in front of the eye, such as
 found in reading glasses. Commonly available reading glasses are rated by their
 power in diopters, typically ranging from 1.0 to 3.5 D.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -229,11 +242,14 @@ power in diopters, typically ranging from 1.0 to 3.5 D.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the lens of a person's eye is removed because of cataracts (as has been done since ancient times), why would you expect a spectacle lens of about 16 D to be prescribed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -265,15 +281,19 @@ Modern cataract surgery involves replacing the clouded natural lens with an arti
 
 The physical principle demonstrated here is that the total power of a compound optical system (cornea plus lens) equals the sum of the individual powers when the optical elements are close together. Removing one element requires external compensation to maintain proper image formation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A cataract is cloudiness in the lens of the eye. Is light dispersed or diffused by it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -312,15 +332,19 @@ Understanding this scattering mechanism has practical implications for cataract 
 
 This question also illustrates an important principle in optics: not all interactions between light and matter involve dispersion. While refraction at interfaces causes dispersion to some degree, the dominant effect of irregular, inhomogeneous media is diffuse scattering. This same principle applies to fog, clouds, frosted glass, and other translucent materials where structural irregularities scatter light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 When laser light is shone into a relaxed normal-vision eye to repair a tear by spot-welding the retina to the back of the eye, the rays entering the eye must be parallel. Why?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -364,15 +388,19 @@ This same principle applies to other ophthalmic procedures and diagnostic techni
 
 The question also reinforces the concept that object distance and ray geometry are intimately connected: distant objects produce parallel rays, nearby objects produce diverging rays. By controlling the ray geometry entering the eye, physicians can control where light focuses without requiring the patient to actively accommodate, resulting in safer, more precise medical procedures.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the power of a dry contact lens compare with its power when resting on the tear layer of the eye? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -432,15 +460,19 @@ This principle also applies to intraocular lenses (IOLs) used in cataract surger
 
 Understanding this concept reinforces the general principle that the optical power of any lens system depends not just on the lens geometry and material, but critically on the refractive indices of the surrounding media. This is why the same physical lens can have different effective powers in different environments.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is your vision so blurry when you open your eyes while swimming under water? How does a face mask enable clear vision?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -498,7 +530,8 @@ This question also explains why prescription swim goggles exist for people with 
 
 From a physics perspective, this demonstrates that optical power arises from refractive index discontinuities, not from the absolute value of the refractive index. A lens or curved surface has power only insofar as it creates an index difference. This principle applies universally to all optical systems and explains why glasses work (glass-air interface), why oil immersion microscopy improves resolution (reducing the index step), and why anti-reflection coatings are designed with intermediate refractive indices (to minimize index discontinuities).
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
@@ -506,11 +539,14 @@ From a physics perspective, this demonstrates that optical power arises from ref
 **Unless otherwise stated, the lens-to-retina distance is 2.00 cm.**
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the power of the eye when viewing an object 50.0 cm away?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -546,15 +582,19 @@ Substituting the known values:
 
 The power of the eye when viewing an object 50.0 cm away is 52.0 D. This represents a 2.0 D increase over the relaxed eye power of 50.0 D (for distant vision at infinity). This 2.0 D of accommodation is well within the normal range—a typical young adult can accommodate up to 4.0 D. The calculation shows that reading at arm's length (approximately 50 cm) requires moderate accommodation. This distance is comfortable for extended reading, which is why many people naturally hold books and devices at about this distance. As people age and lose accommodation ability (presbyopia), this 50 cm distance may become the closest they can see clearly without reading glasses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the power of the eye when viewing an object 3.00 m away.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -590,11 +630,14 @@ Substituting the known values:
 
 The power of the eye when viewing an object 3.00 m away is 50.3 D, which is only slightly greater than the 50.0 D required for distant vision (at infinity). This makes sense because 3.00 m is relatively far from the eye, so the eye is nearly completely relaxed. The small additional 0.3 D of power represents minimal accommodation compared to the 4.0 D increase needed for close vision at 25 cm. This demonstrates that objects beyond a few meters require essentially the same eye power as viewing objects at infinity, which is why distant objects from 3 m to infinity are all in clear focus for a relaxed eye.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The print in many books averages 3.50 mm in height. How high is the image of the print on the retina when the book is held 30.0 cm from the eye?
 
 (b) Compare the size of the print to the sizes of rods and cones in the fovea
@@ -602,8 +645,9 @@ and discuss the possible details observable in the letters. (The eye-brain
 system can perform better because of interconnections and higher order image
 processing.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -653,16 +697,20 @@ Part (b): Since each 3.50 mm letter produces an image spanning approximately 78-
 
 The fovea contains approximately 200,000 cones packed into a ~1.5 mm diameter area, giving exceptional acuity for central vision. The fact that the image of a single letter spans dozens of cones explains why we can read small print clearly. The eye-brain system performs even better than this simple calculation suggests due to lateral inhibition, edge detection, pattern recognition, and higher-order visual processing in the visual cortex. This is why we can sometimes read print even smaller than 3.50 mm under good lighting conditions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Suppose a certain person's visual acuity is such that he can see objects clearly that form an image  $$4.00 \mu m $$
  high on his retina. What is the maximum distance at which he can read the 75.0 cm high letters on the side of an airplane?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -713,11 +761,14 @@ This person can read the 75.0 cm high letters from a maximum distance of 3.75 km
 
 This calculation assumes ideal viewing conditions (clear air, good contrast, proper lighting). In practice, atmospheric effects, contrast limitations, and other factors would likely reduce the actual reading distance. Nevertheless, this problem illustrates why large letters are used on aircraft and why they remain legible from considerable distances. The linear relationship between object size and viewing distance means that doubling the letter size would double the maximum readable distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 People who do very detailed work close up, such as jewellers, often can see objects clearly at much closer distance than the normal 25 cm.
 
 (a) What is the power of the eyes of a woman who can see an object clearly at a
@@ -729,8 +780,9 @@ ring, held at this distance?
 (c) What would the size of the image be if the object were held at the normal
 25.0 cm distance?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -784,10 +836,12 @@ Part (c): At the normal 25.0 cm distance, the same object would produce only a 0
 
 This problem illustrates why jewellers and others doing fine detail work benefit from exceptional near vision. The ability to work at 8.00 cm instead of 25.0 cm provides more than 3× magnification "for free" without requiring magnifying glasses. However, this extreme accommodation cannot be maintained for long periods without eye strain, which is why professional jewellers often supplement their natural vision with magnifying loupes or microscopes for extended detailed work.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -798,4 +852,4 @@ presbyopia
 : a condition in which the lens of the eye becomes progressively unable to focus
 on objects close to the viewer
 
-</div>
+:::

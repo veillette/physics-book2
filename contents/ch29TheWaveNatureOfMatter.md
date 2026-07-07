@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the Davisson-Germer experiment, and explain how it provides evidence for the wave nature of electrons.
-</div>
+
+:::
 
 ### De Broglie Wavelength
 
@@ -60,13 +61,15 @@ patterns. These patterns are exactly consistent with interference of electrons
 having the de Broglie wavelength and are somewhat analogous to light interacting
 with a diffraction grating. (See [[Figure 1]](#Figure1).)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Waves
 </div>
+
 All microscopic particles, whether massless, like photons, or having mass, like electrons, have wave properties. The relationship between momentum and wavelength is fundamental for all particles.
 
-</div>
+:::
 
 De Broglie’s proposal of a wave nature for all particles initiated a remarkably
 productive era in which the foundations for quantum mechanics were laid. In
@@ -85,10 +88,12 @@ hypothesis.
 ![Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.](../resources/Figure_29_06_01.jpg 'This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)')
 {: #Figure1}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Electron Wavelength versus Velocity and Energy
 </div>
+
 For an electron having a de Broglie wavelength of 0.167 nm (appropriate for interacting with crystal lattice structures that are about this size): (a) Calculate the electron’s velocity, assuming it is nonrelativistic. (b) Calculate the electron’s kinetic energy in eV.
 
 **Strategy**
@@ -106,16 +111,19 @@ into the de Broglie wavelength gives
 <div class="equation" >
  $$\lambda =\frac{h}{p}=\frac{h}{mv}. $$
 </div>
+
 Solving for  $$v $$  gives
 
 <div class="equation" >
  $$v=\frac{h}{m\lambda }. $$
 </div>
+
 Substituting known values yields
 
 <div class="equation" >
  $$v=\frac{ 6.63 \times 10^{-34} \text{J}\cdot \text{s}}{\left(9.11 \times 10^{-31} \text{kg}\right)\left( 0.167 \times 10^{-9} \text{m}\right)}=4.36 \times 10^{6}  \text{m/s}. $$
 </div>
+
 **Solution for (b)**
 
 While fast compared with a car, this electron’s speed is not highly
@@ -125,6 +133,7 @@ electron’s kinetic energy and convert it to eV as requested.
 <div class="equation" >
  $$\begin{array}{lll}\text{KE}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right) {\left( 4.36 \times 10^{6}  \text{m/s}\right)}^{2}\\ & =& \left( 86.4 \times 10^{-18} \text{J} \right) \left(\frac{1 \text{eV}}{1.602 \times 10^{-19} \text{J}}\right)\\ & =& 54.0 \text{eV}\end{array} $$
 </div>
+
 **Discussion**
 
 This low energy means that these 0.167-nm electrons could be obtained by
@@ -135,7 +144,7 @@ energy is about 0.01% of the rest energy of an electron (0.511 MeV). If the
 electrons had turned out to be relativistic, we would have had to use more
 involved calculations employing relativistic formulas.
 
-</div>
+:::
 
 ### Electron Microscopes
 
@@ -187,10 +196,12 @@ the precision with which we may make predictions, regardless of how hard we try.
 There are even limits to the precision with which we may measure an object’s
 location or energy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: A Submicroscopic Diffraction Grating
 </div>
+
 The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in [[Figure 3]](#Figure3).
 
 Atoms are spaced at regular intervals in a crystal as parallel planes, as shown
@@ -223,7 +234,7 @@ macroscopic phenomenon such as Bragg reflection. Similarly, the wavelength of
 light is a submicroscopic characteristic that explains the macroscopic
 phenomenon of diffraction patterns.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -235,44 +246,62 @@ phenomenon of diffraction patterns.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the interference of water waves differ from the interference of electrons? How are they analogous?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe one type of evidence for the wave nature of matter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe one type of evidence for the particle nature of EM radiation.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what velocity will an electron have a wavelength of 1.00 m?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$7.28 \times 10^{-4} \text{m} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of an electron moving at 3.00% of the speed of light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -298,25 +327,35 @@ At 3% of light speed, the electron has a wavelength of 0.0809 nm, comparable to 
 
 0.0809 nm or $$ 8.09 \times 10^{-11} \text{ m}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer =  $$ 10^{-15} \text{m} \text{.}  $$ )
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 6.62 \times 10^{7}  \text{m/s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 cm (large enough for it to interfere with other billiard balls)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -334,25 +373,35 @@ This velocity is absurdly small—about $$10^{-32}$$ m/s! For comparison, this i
 
  $$ 2.21 \times 10^{-32} \text{ m/s}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the wavelength of a proton moving at 1.00% of the speed of light.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
  $$1.32 \times 10^{-13} \text{m} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Experiments are performed with ultracold neutrons having velocities as small as 1.00 m/s. (a) What is the wavelength of such a neutron? (b) What is its kinetic energy in eV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,26 +433,36 @@ Ultracold neutrons have a remarkable wavelength of 396 nm—in the visible light
 
 (b) $$ 5.23 \times 10^{-9} \text{ eV}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron's kinetic energy in MeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 6.62 \times 10^{7}  \text{m/s} $$
 (b)  $$22.9 \text{MeV} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the wavelength of an electron accelerated through a 30.0-kV potential, as in a TV tube?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -435,28 +494,37 @@ Electrons in a 30-kV TV tube have a wavelength of 0.00706 nm, which is much smal
 
 0.00706 nm or $$ 7.06 \times 10^{-12} \text{ m}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength?
 
-</div>
+:::
+
 <div class="solution" >
 <div class="equation" >
 15.1 keV
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the velocity of an electron that has a wavelength of  $$1.00 \text{μm.} $$
  (b) Through what voltage must the electron be accelerated to have this velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -488,29 +556,38 @@ An electron with a 1-μm wavelength moves at only 728 m/s and requires accelerat
 
 (b) $$ 1.51 \times 10^{-6} \text{ V}$$ or 1.51 μV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of the speed of light. (a) What is the proton’s wavelength? (b) What is its kinetic energy, assuming it is nonrelativistic? (c) What was the equivalent voltage through which it was accelerated?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 5.29 fm
 
 (b) $$ 4.70 \times 10^{-12} \text{J} $$
 (c) 29.4 MV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The kinetic energy of an electron accelerated in an x-ray tube is 100 keV. Assuming it is nonrelativistic, what is its wavelength?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -548,11 +625,14 @@ A 100-keV electron has a wavelength of 0.0123 nm, suitable for X-ray wavelengths
 
 0.0123 nm or $$ 1.23 \times 10^{-11} \text{ m}$$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Assuming it is nonrelativistic, calculate the velocity of an electron with a
@@ -560,22 +640,26 @@ A 100-keV electron has a wavelength of 0.0123 nm, suitable for X-ray wavelengths
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 7.28 \times 10^{12}  \text{m/s} $$
 (b) This is thousands of times the speed of light (an impossibility).
 
 (c) The assumption that the electron is non-relativistic is unreasonable at this
 wavelength.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 de Broglie wavelength
 : the wavelength possessed by a particle of matter, calculated by $$\lambda =h/p $$
 
-</div>
+:::

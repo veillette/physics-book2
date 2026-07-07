@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define matter and antimatter.
 * Outline the differences between hadrons and leptons.
 * State the differences between mesons and baryons.
-</div>
+
+:::
 
 In the early 1930s only a small number of subatomic particles were known to
 exist—the proton, neutron, electron, photon and, indirectly, the neutrino.
@@ -686,10 +687,12 @@ weak force and do not conserve strangeness. All of this also has implications
 for the carrier particles, since they transmit forces and are thus involved in
 these decays.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Quantum Numbers in Two Decays
 </div>
+
 (a) The most common decay mode of the  $${\text{Ξ}}^{-} $$
  particle is  $${\text{Ξ}}^{-}\to {\text{Λ}}^{0}+{\pi }^{-} $$ .
  Using the quantum numbers in the table given above, show that strangeness changes by 1, baryon number and charge are conserved, and lepton family numbers are unaffected.
@@ -737,7 +740,7 @@ This decay is not only allowed by our reckoning, it is, in fact, the primary
 decay mode of the $${K}^{+} $$ meson and is caused by the weak force, consistent
 with the long $$ 1.24 \times 10^{-8} \text{-s} $$ lifetime.
 
-</div>
+:::
 
 There are hundreds of particles, all hadrons, not listed in [[Table 1]](#Table1)
 , most of which have shorter lifetimes. The systematics of those particle
@@ -775,97 +778,132 @@ the basics of the underlying quark building blocks.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Large quantities of antimatter isolated from normal matter should behave exactly like normal matter. An antiatom, for example, composed of positrons, antiprotons, and antineutrons should have the same atomic spectrum as its matter counterpart. Would you be able to tell it is antimatter by its emission of antiphotons? Explain briefly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Massless particles are not only neutral, they are chargeless (unlike the neutron). Why is this so?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Massless particles must travel at the speed of light, while others cannot reach this speed. Why are all massless particles stable? If evidence is found that neutrinos spontaneously decay into other particles, would this imply they have mass?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a star erupts in a supernova explosion, huge numbers of electron neutrinos are formed in nuclear reactions. Such neutrinos from the 1987A supernova in the relatively nearby Magellanic Cloud were observed within hours of the initial brightening, indicating they traveled to earth at approximately the speed of light. Explain how this data can be used to set an upper limit on the mass of the neutrino, noting that if the mass is small the neutrinos could travel very close to the speed of light and have a reasonable energy (on the order of MeV).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Theorists have had spectacular success in predicting previously unknown particles. Considering past theoretical triumphs, why should we bother to perform experiments?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What lifetime do you expect for an antineutron isolated from normal matter?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does the  $${\eta }^{0} $$
  meson have such a short lifetime compared to most other mesons?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Is a hadron always a baryon?
 
 (b) Is a baryon always a hadron?
 
 (c) Can an unstable baryon decay into a meson, leaving no other baryon?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how conservation of baryon number is responsible for conservation of total atomic mass (total number of nucleons) in nuclear decay and reactions.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The  $${\pi }^{0} $$
  is its own antiparticle and decays in the following manner:  $${\pi }^{0}\to \gamma +\gamma  $$ .
  What is the energy of each  $$\gamma  $$
  ray if the  $${\pi }^{0} $$
  is at rest when it decays?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 67.5 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The primary decay mode for the negative pion is  $${\pi }^{-}\to {\mu }^{-}+{\stackrel{-}{\nu }}_{\mu } $$ .
  What is the energy release in MeV in this decay?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -887,11 +925,14 @@ $$Q = (139.6 - 105.7 - 0) \text{ MeV} = 33.9 \text{ MeV}$$
 
 The decay releases 33.9 MeV of energy, which is shared between the kinetic energy of the muon and the energy carried away by the massless muon antineutrino. This represents about 24% of the pion's rest mass energy being converted into kinetic energy of the decay products. The fact that this decay is energetically favorable (positive Q-value) means it can occur spontaneously. This is the dominant decay mode of the $${\pi}^{-}$$, occurring about 99.99% of the time. The energy is shared unequally between the products due to momentum conservation—since the neutrino is massless and the muon is massive, the neutrino carries away most of the energy while the muon carries most of the momentum. The muon itself is unstable and will subsequently decay via $${\mu}^{-} \to e^{-} + \overline{\nu}_e + \nu_{\mu}$$, but with a much longer lifetime ($$2.20 \times 10^{-6}$$ s compared to the pion's $$2.60 \times 10^{-8}$$ s).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The mass of a theoretical particle that may be associated with the unification of the electroweak and strong forces is  $$ 10^{14} \text{GeV/}{c}^{2} $$.
 
 (a) How many proton masses is this?
@@ -900,23 +941,30 @@ The mass of a theoretical particle that may be associated with the unification o
 the accelerator would have to be in order to make the particle, and how large
 the relativistic quantity $$\gamma $$ would have to be.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$1 \times 10^{14} $$
 (b)  $$2 \times 10^{17} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The decay mode of the negative muon is  $${\mu }^{-}\to {e}^{-}+{\stackrel{-}{\nu }}_{e}+{\nu }_{\mu } $$.
 
 (a) Find the energy released in MeV.
 
 (b) Verify that charge and lepton family numbers are conserved.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -957,11 +1005,14 @@ $$Q = (105.7 - 0.511 - 0 - 0) \text{ MeV} = 105.2 \text{ MeV}$$
 
 Nearly all of the muon's rest mass energy (105.2 out of 105.7 MeV, or 99.5%) is released in this decay, shared among the three decay products. The electron receives some kinetic energy, while the two neutrinos carry away the rest. This decay demonstrates the weak force in action—the creation of leptons and the relatively long lifetime ($$2.20 \times 10^{-6}$$ s) are characteristic of weak interactions. The conservation of lepton family numbers is a fundamental principle: the electron antineutrino is created to balance the electron family number when an electron is created, and the muon neutrino preserves the muon family number from the original muon. This decay mode has been studied extensively and provides precise tests of the Standard Model of particle physics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The decay mode of the positive tau is  $${\tau }^{+}\to {\mu }^{+}+{\nu }_{\mu }+{\stackrel{-}{\nu }}_{\tau } $$.
 
 (a) What energy is released?
@@ -972,16 +1023,22 @@ The decay mode of the positive tau is  $${\tau }^{+}\to {\mu }^{+}+{\nu }_{\mu }
 that all the decay products of the $${\tau }^{+} $$ are the antiparticles of
 those in the decay of the $${\tau }^{-} $$ given in the text.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$1671 \text{MeV} $$
 (b)  $$\begin{array}{}Q=1, Q^{\prime}=1+0+0=1. {L}_{\tau }=-1; L^{\prime}{\tau }_{}=-1; L{\mu }_{}=0; L^{\prime}{\mu }_{}=-1+1=0\\ \end{array} $$
 (c)  $$\begin{array}{}{\tau }^{-}\to {\mu }^{-}+{\nu}_{\mu}+{\overline{v}}_{\tau }\\ ⇒{\mu }^{-}\text{  antiparticle of }{\mu }^{+}\mathrm{; }{\nu}_{\mu}\text{  of }{\overline{v}}_{\mu }\mathrm{; }{\overline{v}}_{\tau }\text{  of }{v}_{\tau }\end{array} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The principal decay mode of the sigma zero is  $${\text{Σ}}^{0}\to {\text{Λ}}^{0}+\gamma  $$.
 
 (a) What energy is released?
@@ -995,8 +1052,9 @@ decay.
 (d) Considering the preceding and the short lifetime, can the weak force be
 responsible? State why or why not.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1030,11 +1088,14 @@ This is an electromagnetic decay of an excited baryon state, analogous to an ato
 
 This decay is a beautiful example of how particle physics mirrors atomic physics. Just as atoms have excited states that decay by photon emission, baryons can also exist in excited states. The $${\Sigma}^{0}$$ is essentially a $${\Lambda}^{0}$$ with its quarks in an excited configuration—perhaps with different relative spins or orbital angular momenta. The electromagnetic force mediates the transition, conserving strangeness (unlike weak decays), and the process is very rapid (unlike weak decays). The photon carries away the 76.9 MeV excitation energy. After this electromagnetic decay, the $${\Lambda}^{0}$$ itself will eventually decay via the weak force (which can change strangeness) with its much longer lifetime of $$2.63 \times 10^{-10}$$ s.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the uncertainty in the energy released in the decay of a  $${\pi }^{0} $$
  due to its short lifetime?
 
@@ -1042,24 +1103,31 @@ This decay is a beautiful example of how particle physics mirrors atomic physics
 $${\pi }^{0}\to \gamma +\gamma $$
 (so that all the $${\pi }^{0} $$ mass is destroyed)?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a) 3.9 eV
 
 (b)  $$ 2.9 \times 10^{-8} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the uncertainty in the energy released in the decay of a  $${\tau }^{-} $$
  due to its short lifetime?
 
 (b) Is the uncertainty in this energy greater than or less than the uncertainty
 in the mass of the tau neutrino? Discuss the source of the uncertainty.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1101,30 +1169,29 @@ The energy uncertainty from the tau's finite lifetime is about 1.1 millielectron
 
 The fact that the lifetime-induced uncertainty is negligible compared to the neutrino mass uncertainty means that the tau's finite lifetime doesn't significantly hamper our ability to measure the neutrino mass—the limitation is purely experimental. Recent experiments suggest the tau neutrino mass is actually much smaller than 31 MeV, possibly even zero like its counterparts, but this remains an area of active research.
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$\mp $$ or $$± $$ symbols are the values for antiparticles.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Lifetimes are
+* [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$\mp $$ or $$± $$ symbols are the values for antiparticles.</span> {: class="footnote-ref" #footnote1}
+* [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">Lifetimes are
   traditionally given as $${t}_{1/2}/ 0.693 $$
-  (which is $$1/\lambda $$ , the inverse of the decay constant).</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Neutrino masses may be
-  zero. Experimental upper limits are given in parentheses.</span>
-* {: class="footnote-ref" #footnote4} [4](#footnote-ref4){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">Experimental lower
+  (which is $$1/\lambda $$ , the inverse of the decay constant).</span> {: class="footnote-ref" #footnote2}
+* [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Neutrino masses may be
+  zero. Experimental upper limits are given in parentheses.</span> {: class="footnote-ref" #footnote3}
+* [4](#footnote-ref4){: class=" footnote-ref-link"} <span class="footnote-ref-content">Experimental lower
   limit is $$>5 \times 10^{32} $$ for proposed mode of decay.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote4}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1180,4 +1247,4 @@ tau family number
 : the number $$±1 $$ that is assigned to all members of the tau family, or the
 number 0 that is assigned to all particles not in the tau family
 
-</div>
+:::

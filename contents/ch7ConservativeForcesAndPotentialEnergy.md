@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 7
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Define conservative force, potential energy, and mechanical energy.
 * Explain the potential energy of a spring in terms of its compression when Hooke’s law applies.
 * Use the work-energy theorem to show how having only conservative forces implies conservation of mechanical energy.
 
-</div>
+::::
 
 ### Potential Energy and Conservative Forces
 
@@ -31,10 +31,12 @@ conservative force results in stored or potential energy. Gravitational
 potential energy is one example, as is the energy stored in a spring. We will
 also see how conservative forces are related to the conservation of energy.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Potential Energy and Conservative Forces
 </div>
+
 Potential energy is the energy a system has due to position, shape, or configuration.
 It is stored energy that is completely recoverable.
 
@@ -46,7 +48,7 @@ force. The work done against a conservative force to reach a final configuration
 depends on the configuration, not the path followed, and is the potential energy
 added.
 
-</div>
+::::
 
 ### Potential Energy of a Spring
 
@@ -65,7 +67,7 @@ where $$ k $$ is the spring’s force constant. The force increases linearly fro
 $$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 that the area under a graph of $$ F $$ vs. $$ x $$ is the work done by the
-force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be <div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
+force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be &lt;div class="equation"&gt; $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
 </div>
 
 where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement
@@ -154,10 +156,12 @@ conservative forces, there is a potential energy associated with each force, and
 the energy only changes form between $$ \KE $$ and the various types of $$ \PE $$
 , with the total energy remaining constant.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Using Conservation of Mechanical Energy to Calculate the Speed of a Toy Car
 </div>
+
 A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure 3](#Figure3). The car follows a track that
 rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
 
@@ -176,11 +180,13 @@ $$
 \KE_{\text{f}}+\PE_{\text{f}} $$
 
 </div>
+
 or
 
 <div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}+ mgh_{i}+ \frac{1}{2} k x_{i}^{2}= \frac{1}{2} m v_{f}^{2}+ mgh_{f}+ \frac{1}{2} k x_{f}^{2}, $$ 
 </div>
+
 where $$ h $$ is the height (vertical position) and $$ x $$
 is the compression of the spring. This general statement looks complex but
 becomes much simpler when we start considering specific situations. First, we
@@ -199,6 +205,7 @@ the conservation of mechanical energy equation are zero and it simplifies to
 <div class="equation">
  $$ \frac{1}{2}k x_{i}^{2}=\frac{1}{2} m v_{f}^{2}. $$
 </div>
+
 In other words, the initial potential energy in the spring is converted completely
 to kinetic energy in the absence of friction.
 Solving for the final speed and entering known values yields
@@ -222,6 +229,7 @@ becomes
 <div class="equation">
  $$ \frac{1}{2} kx_\text{i}^{2}=\frac{1}{2} m v_\text{f}^{2}+mgh_\text{f}. $$
 </div>
+
 This form of the equation means that the spring’s initial potential energy is
 converted partly to gravitational potential energy and partly to kinetic
 energy. The final speed at the top of the slope will be less than at the bottom.
@@ -242,7 +250,7 @@ Another way to solve this problem is to realize that the car’s kinetic energy
 before it goes up the slope is converted partly to potential energy—that is, to
 take the final conditions in part (a) to be the initial conditions in part (b).
 
-</div>
+::::
 
 Note that, for conservative forces, we do not directly calculate the work they
 do; rather, we consider their effects through their corresponding potential
@@ -252,20 +260,24 @@ important (as long as the path is not impossible). This assumption is usually a
 tremendous simplification, because the path may be complicated and forces may
 vary along the way.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Energy Skate Park
 </div>
+
 Learn about conservation of energy with a skater dude! Build tracks, ramps and jumps for the skater and view the kinetic energy, potential energy and friction as he moves. You can also take the skater to different planets or even space!
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Energy Skate Park
 </figcaption>
 
-</figure>
-</div>
+:::
+
+::::
 
 ### Section Summary
 
@@ -294,46 +306,62 @@ of mechanical energy.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is a conservative force?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The force exerted by a diving board is conservative, provided the internal friction is negligible.
 Assuming friction is negligible, describe changes in the potential energy of a diving board as a
 swimmer dives from it, starting just before the swimmer steps on the board until just after her
 feet leave it.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Define mechanical energy. What is the relationship of mechanical energy to nonconservative forces? What happens to mechanical energy if only conservative forces act?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is the relationship of potential energy to conservative force?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A $$ 5.00 \times 10^{5}\text{-kg} $$ subway train is brought to a stop from a speed of 0.500 m/s in 0.400 m by a
 large spring bumper at the end of its track. What is the force constant $$ k $$
 of the spring?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^2 = \frac{1}{2}kx^2 $$.
@@ -375,19 +403,23 @@ The spring constant of $$ 7.81 \times 10^{5} $$ N/m is quite large, which is nec
 
 The spring constant is $$ k = 7.81 \times 10^{5}\text{ N/m} $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A pogo stick has a spring with a force constant of $$ 2.50 \times 10^{4}\text{N/m} $$,
 which can be compressed 12.0 cm. To what maximum height can a child jump on
 the stick using only the energy in the spring, if the child and stick have a
 total mass of 40.0 kg? Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Energy](./ch7ConservationOfEnergy#problemSolving).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -438,10 +470,12 @@ The child can jump to a maximum height of approximately 0.46 m (46 cm) above the
 
 The maximum height the child can jump is **0.459 m** (or **45.9 cm**) above the compressed position.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -464,4 +498,4 @@ constant if only conservative forces act on and within a system
 mechanical energy
 : the sum of kinetic energy and potential energy
 
-</div>
+::::

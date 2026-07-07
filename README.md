@@ -57,7 +57,7 @@ For local PDF generation with parallel processing, see [PDF Generation Documenta
 ```bash
 # Quick method (30 minutes for all PDFs)
 npm run generate:pdf:install  # First time only
-bundle exec jekyll serve      # Terminal 1
+npm run serve                 # Terminal 1
 node scripts/generate-pdf-parallel.js  # Terminal 2
 ```
 
@@ -65,8 +65,8 @@ node scripts/generate-pdf-parallel.js  # Terminal 2
 
 This modern, interactive textbook is built with:
 
-- **Jekyll**: A powerful static site generator.
-- **Kramdown**: A superset of Markdown for rich text formatting.
+- **Eleventy (11ty) v4**: A fast, Node-based static site generator.
+- **markdown-it**: The Markdown renderer (with custom math/typography plugins).
 - **MathJax v4**: For advanced mathematical and scientific notation.
 - **Vercel & GitHub Pages**: For seamless publishing and distribution.
 
@@ -80,8 +80,7 @@ Want to contribute or run a local copy? It's easy!
 
 #### Prerequisites
 
-- **Ruby** 2.7 or higher ([Installation Guide](https://www.ruby-lang.org/en/documentation/installation/))
-- **Node.js** 18+ (for utility scripts)
+- **Node.js** 22.15 or higher (runs Eleventy v4 and all tooling)
 - **Python** 3.x (optional, for physics calculation verification)
 - **Git** for version control
 
@@ -90,19 +89,15 @@ Want to contribute or run a local copy? It's easy!
 ```console
 # 1. Clone or fork the repository
 git clone https://github.com/veillette/physics-book2.git
-cd physics-book
+cd physics-book2
 
-# 2. Install Ruby dependencies
-gem install bundler jekyll
-bundle install
-
-# 3. Install Node.js dependencies
+# 2. Install Node.js dependencies
 npm install
 
-# 4. Start the local Jekyll server
-bundle exec jekyll serve --incremental
+# 3. Start the local dev server
+npm run serve
 
-# 5. View your local copy at http://localhost:4000/physics-book2/
+# 4. View your local copy at http://localhost:4000/physics-book2/
 ```
 
 ### Useful Development Commands
@@ -132,11 +127,10 @@ npm run check:equations       # Equation validation
 # Content fixes
 npm run fix:content           # Fix content issues
 npm run fix:equations         # Fix equation issues
-npm run fix:liquid            # Fix Liquid syntax in math
 
 # Generate assets
 npm run generate:icons        # Generate PWA icons
-npm run generate:pdf          # Generate PDF chapters (requires Jekyll server)
+npm run generate:pdf          # Generate PDF chapters (requires the dev server)
 npm run generate:search-index # Build search index
 
 # Code quality
@@ -152,7 +146,7 @@ This project is automatically deployed to two platforms:
 - **Vercel**: The primary, production-ready version of the book. Deploys from the `main` branch.
 - **GitHub Pages**: A secondary version for redundancy and testing. Deploys from the `main` branch.
 
-Configuration files for each platform (`vercel.json` and `_config.yml`) manage the specific build settings required.
+Configuration for each platform (`vercel.json` for Vercel, `eleventy.config.js` for the build) manages the specific build settings required.
 
 ## 👥 Contributing
 
@@ -163,7 +157,7 @@ We welcome contributions from the physics education community! Your help makes t
 1.  **Fork the repository** to your own GitHub account.
 2.  **Create a feature branch** for your changes (`git checkout -b feature/your-improvement`).
 3.  **Make your changes**, following the existing style and formatting.
-4.  **Test your changes locally** by running `bundle exec jekyll serve --incremental` and using the quality assurance scripts (e.g., `npm run audit`).
+4.  **Test your changes locally** by running `npm run serve` and using the quality assurance scripts (e.g., `npm run audit`).
 5.  **Commit your changes** with a clear and descriptive message.
 6.  **Push your branch** to your fork (`git push origin feature/your-improvement`).
 7.  **Submit a pull request** to the main repository.

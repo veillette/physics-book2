@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 6
 chapterNumber: 25
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * List the rules for ray tracing for thin lenses.
 * Illustrate the formation of images using the technique of ray tracing.
 * Determine power of a lens given the focal length.
-</div>
+
+:::
 
 Lenses are found in a huge array of optical instruments, ranging from a simple
 magnifying glass to the eye to a camera’s zoom lens. In this section, we will
@@ -38,29 +39,35 @@ small spot.
 ![The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.](../resources/Figure_25_06_01.jpg 'Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens’s focal length ( f ) . An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.')
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Converging or Convex Lens
 </div>
+
 The lens in which light rays that enter it parallel to its axis cross one another at a single point on the opposite side with a converging effect is called converging lens.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Focal Point F
 </div>
+
 The point at which the light rays cross is called the focal point F of the lens.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Focal Length  $$f $$
 </div>
+
 The distance from the center of the lens to its focal point is called focal length  $$f $$.
 
-</div>
+:::
 
 ![A person’s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.](../resources/Figure_25_06_02.jpg 'Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. ')
 {: #Figure2}
@@ -75,28 +82,33 @@ equation form, this is
  $$P=\frac{1}{f}. $$
 </div>
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Power  $$P $$
 </div>
+
 The **power**  $$P $$
  of a lens is defined to be the inverse of its focal length. In equation form, this is
 
 <div class="equation" >
  $$P=\frac{1}{f}\text{.} $$
 </div>
+
 where  $$f $$
  is the focal length of the lens, which must be given in meters (and not cm or mm). The power of a lens  $$P $$
  has the unit diopters (D), provided that the focal length is given in meters. That is,  $$1 \text{D}=1/\text{m} $$ ,
  or  $${1 \text{m}}^{-1} $$ .
  (Note that this power (optical power, actually) is not the same as power in watts defined in [Work, Energy, and Energy Resources](../contents/ch7WorkEnergyAndEnergyResources). It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.
 
-</div>
+:::
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 What is the Power of a Common Magnifying Glass?
 </div>
+
 Suppose you take a magnifying glass out on a sunny day and you find that it concentrates sunlight to a small spot 8.00 cm away from the lens. What are the focal length and power of the lens?
 
 **Strategy**
@@ -116,11 +128,13 @@ spot, given to be 8.00 cm. Thus,
 <div class="equation" >
  $$f=8.00 cm. $$
 </div>
+
 To find the power of the lens, we must first convert the focal length to meters; then, we substitute this value into the equation for power. This gives
 
 <div class="equation" >
  $$P=\frac{1}{f}=\frac{1}{0.0800 \text{m}}= 12.5 D. $$
 </div>
+
 **Discussion**
 
 This is a relatively powerful lens. The power of a lens in diopters should not
@@ -130,7 +144,7 @@ examine a prescription for eyeglasses, you will note lens powers given in
 diopters. If you examine the label on a motor, you will note energy consumption
 rate given as a power in watts.
 
-</div>
+:::
 
 [[Figure 3]](#Figure3) shows a concave lens and the effect it has on rays of
 light that enter it parallel to its axis (the path taken by ray 2 in the figure
@@ -150,13 +164,15 @@ refraction, causes the ray to follow its particular path and be diverged.
 ![The figure on the top shows an expanded view of refraction for ray 1 falling on a concave lens. The angle of incidence is theta 1 and angle of refraction theta 2. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. Perpendiculars are shown as dotted lines. The figure at the bottom shows a concave lens. Three rays, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. Rays 1 and 3 after refraction appear to come from a point F on the axis. The distance from the center of the lens to F is small f and is measured from the same side as the incident rays. Ray 2 on the axis goes undeviated.](../resources/Figure_25_06_03.jpg "Rays of light entering a diverging lens parallel to its axis are diverged, and all appear to originate at its focal point \( F \) . The dashed lines are not rays&#x2014;they indicate the directions from which the rays appear to come. The focal length \( f \) of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
 {: #Figure3}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Diverging Lens
 </div>
+
 A lens that causes the light rays to bend away from its axis is called a diverging lens.
 
-</div>
+:::
 
 As noted in the initial discussion of the law of refraction
 in [The Law of Refraction](../contents/ch25TheLawOfRefraction), the paths of light rays are exactly
@@ -187,21 +203,25 @@ distance from the lens. (See [[Figure 5]](#Figure5).) Another important
 characteristic of a thin lens is that light rays through its center are
 deflected by a negligible amount, as seen in [[Figure 6]](#Figure6).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Thin Lens
 </div>
+
 A thin lens is defined to be one whose thickness allows rays to refract but does not allow properties such as dispersion and aberrations.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: A Visit to the Optician
 </div>
+
 Look through your eyeglasses (or those of a friend) backward and forward and comment on whether they act like thin lenses.
 
-</div>
+:::
 
 ![Figure (a) shows three parallel rays incident on the right side of a convex lens; after refraction they converge at F on the left side of the lens. The distance from the center of the lens to F is small f. Figure (b) shows three parallel rays incident on the right side of a concave lens; after refraction they appear to have come from F on the right side of the lens. The distance from the center of the lens to F is small f.](../resources/Figure_25_06_05.jpg "Thin lenses have the same focal length on either side. (a) Parallel light rays entering a converging lens from the right cross at its focal point on the left. (b) Parallel light rays entering a diverging lens from the right seem to come from the focal point on the right. ")
 {: #Figure5}
@@ -227,17 +247,19 @@ the illustrations already discussed:
    opposite side exits parallel to the axis. (The reverse of rays 1 and 3
    in [[Figure 3]](#Figure3).)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Rules for Ray Tracing
 </div>
+
 1.   A ray entering a converging lens parallel to its axis passes through the focal point F of the lens on the other side.
 2.   A ray entering a diverging lens parallel to its axis seems to come from the focal point F.
 3.   A ray passing through the center of either a converging or a diverging lens does not change direction.
 4.   A ray entering a converging lens through its focal point exits parallel to its axis.
 5.   A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis.
 
-</div>
+:::
 
 ### Image Formation by Thin Lenses
 
@@ -279,13 +301,15 @@ such an image would be projected onto film by a camera lens. This figure also
 shows how a real image is projected onto the retina by the lens of an eye. Note
 that the image is there whether it is projected onto a screen or not.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Real Image
 </div>
+
 The image in which light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye is called a real image.
 
-</div>
+:::
 
 ![Figure (a) shows incident rays coming from an object (a girl) and falling on a convex lens in a camera. The rays after refraction produce an inverted, real, and diminished image on the film of the camera. Figure (b) shows the same object in front of a human eye. The rays from the object fall on the convex lens and on refraction produce a real, inverted, and diminished image on the retina of the eyeball.](../resources/Figure_25_06_08.jpg "Real images can be projected. (a) A real image of the person is projected onto film. (b) The converging nature of the multiple surfaces that make up the eye result in the projection of a real image on the retina.")
 {: #Figure8}
@@ -321,30 +345,37 @@ equations are broadly applicable to all situations involving thin lenses (and
 “thin” mirrors, as we will see later). We will explore many features of image
 formation in the following worked examples.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Image Distance
 </div>
+
 The distance of the image from the center of the lens is called image distance.
 
-</div>
+:::
 
 <div class="note" data-has-label="true" data-label="">
 <div class="title">
 Thin Lens Equations and Magnification
 </div>
+
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{f} $$
 </div>
+
 <div class="equation" >
  $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$
 </div>
+
 </div>
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens Equations
 </div>
+
 A clear glass light bulb is placed 0.750 m from a convex lens having a 0.500 m focal length, as shown in [[Figure 9]](#Figure9). Use ray tracing to get an approximate location for the image. Then use the thin lens equations to calculate (a) the location of the image and (b) its magnification. Verify that ray tracing and the thin lens equations produce consistent results.
 
 ![A light bulb at d sub o equals 0.75 m is placed in front of a convex lens of f equals 0.50 meter. The convex lens produces a real, inverted, and enlarged image on a screen at d sub I equals 1.50 meters.](../resources/Figure_25_06_09.jpg "A light bulb placed 0.750 m from a lens having a 0.500 m focal length produces a real image on a poster board as discussed in the example above. Ray tracing predicts the image location and size. ")
@@ -374,34 +405,40 @@ information:
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}\text{.} $$
 </div>
+
 Rearranging to isolate  $${d}_{\text{i}} $$  gives
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{o}}}\text{.} $$
 </div>
+
 Entering known quantities gives a value for  $$1/{d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.500 \text{m}}-\frac{1}{0.750 \text{m}}=\frac{0.667}{\text{m}}\text{.} $$
 </div>
+
 This must be inverted to find  $${d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $${d}_{\text{i}}=\frac{\text{m}}{0.667}=1.50 \text{m}\text{.} $$
 </div>
+
 Note that another way to find  $${d}_{\text{i}} $$
  is to rearrange the equation:
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{o}}}\text{.} $$
 </div>
+
 This yields the equation for the image distance as:
 
 <div class="equation" >
  $${d}_{\text{i}}=\frac{ {\text{fd}}_{\text{o}}}{ {d}_{\text{o}}-f}\text{.} $$
 </div>
+
 Note that there is no inverting here.
 
 The thin lens equations can be used to find the magnification $$m $$ , since
@@ -411,6 +448,7 @@ values gives
 <div class="equation" >
  $$m=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{1.50 \text{m}}{0.750 \text{m}}= -2.00. $$
 </div>
+
 **Discussion**
 
 Note that the minus sign causes the magnification to be negative when the image
@@ -420,7 +458,7 @@ limited only by the accuracy of the given information. Ray tracing is limited by
 the accuracy with which you can draw, but it is highly useful both conceptually
 and visually.
 
-</div>
+:::
 
 Real images, such as the one considered in the previous example, are formed by
 converging lenses whenever an object is farther from the lens than its focal
@@ -462,18 +500,22 @@ the object, meaning that the magnification is positive and greater than 1.
 ![Ray tracing predicts the image location and size for an object held closer to a converging lens than its focal length. Ray 1 enters parallel to the axis and exits through the focal point on the opposite side, while ray 2 passes through the center of the lens without changing path. The two rays continue to diverge on the other side of the lens, but both appear to come from a common point, locating the upright, magnified, virtual image. This is a case 2 image.](../resources/Figure_25_06_11.jpg "Ray tracing predicts the image location and size for an object held closer to a converging lens than its focal length. Ray 1 enters parallel to the axis and exits through the focal point on the opposite side, while ray 2 passes through the center of the lens without changing path. The two rays continue to diverge on the other side of the lens, but both appear to come from a common point, locating the upright, magnified, virtual image. This is a case 2 image. ")
 {: #Figure11}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Virtual Image
 </div>
+
 An image that is on the same side of the lens as the object and cannot be projected on a screen is called a virtual image.
 
-</div>
+:::
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Image Produced by a Magnifying Glass
 </div>
+
 Suppose the book page in [[Figure 11]](#Figure11) (a) is held 7.50 cm from a convex lens of focal length 10.0 cm, such as a typical magnifying glass might have. What magnification is produced?
 
 **Strategy and Concept**
@@ -495,18 +537,21 @@ isolate $${d}_{\text{i}} $$ gives
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{o}}}\text{.} $$
 </div>
+
 Entering known values, we obtain a value for  $$1/{d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{10.0 \text{cm}}-\frac{1}{7.50 \text{cm}}=\frac{ -0.0333}{\text{cm}}\text{.} $$
 </div>
+
 This must be inverted to find  $${d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $${d}_{\text{i}}=-\frac{\text{cm}}{ 0.0333}=-30.0 \text{cm}. $$
 </div>
+
 Now the thin lens equation can be used to find the magnification  $$m $$ ,
  since both  $${d}_{\text{i}} $$
  and  $${d}_{\text{o}} $$
@@ -515,6 +560,7 @@ Now the thin lens equation can be used to find the magnification  $$m $$ ,
 <div class="equation" >
  $$m=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{- 30.0 \text{cm}}{ 7.50 \text{cm}}=4.00 . $$
 </div>
+
 **Discussion**
 
 A number of results in this example are true of all case 2 images, as well as
@@ -531,7 +577,7 @@ image is bigger than the object, you may think the image is closer than the
 object. But the image is farther away, a fact that is useful in correcting
 farsightedness, as we shall see in a later section.
 
-</div>
+:::
 
 A third type of image is formed by a diverging or concave lens. Try looking
 through eyeglasses meant to correct nearsightedness. (
@@ -549,10 +595,12 @@ lens.
 ![Figure (a) shows an upright object placed at d sub o equals seven point five cm and in front of a concave lens of on its left side. Parallel ray 1 falls on the lens and gets refracted and dotted backwards to pass through point F on the left side. Figure (b) shows ray 2 going straight through the center of the lens. Figure (c) combines both figures (a) and (b) and the dotted line and the solid line meet at a point on the left side of the lens forming a virtual image which is erect and diminished. Here h sub o is the height of the object above the axis and h sub i is the height of the image above the axis. The distance from the center to the image is d sub i equals 4.29 cm.](../resources/Figure_25_06_13.jpg "Ray tracing predicts the image location and size for a concave or diverging lens. Ray 1 enters parallel to the axis and is bent so that it appears to originate from the focal point. Ray 2 passes through the center of the lens without changing path. The two rays appear to come from a common point, locating the upright image. This is a case 3 image, which is closer to the lens than the object and smaller in height. ")
 {: #Figure13}
 
-<div id="Example4" class="example" markdown="1">
+::: example {"id":"Example4","class":"example"}
+
 <div class="title">
 Image Produced by a Concave Lens
 </div>
+
 Suppose an object such as a book page is held 7.50 cm from a concave lens of focal length –10.0 cm. Such a lens could be used in eyeglasses to correct pronounced nearsightedness. What magnification is produced?
 
 **Strategy and Concept**
@@ -568,11 +616,13 @@ To find the magnification $$m $$ , we must first find the image distance $${d}_{
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{o}}}\text{,} $$
 </div>
+
 or its alternative rearrangement
 
 <div class="equation" >
  $${d}_{i}=\frac{ fd_{\text{o}}}{ {d}_{\text{o}}-f}\text{.} $$
 </div>
+
 We are given that  $$f=-10.0 \text{cm} $$
  and  $${d}_{\text{o}}=7.50 \text{cm} $$ .
  Entering these yields a value for  $$1/{d}_{\text{i}} $$
@@ -581,17 +631,20 @@ We are given that  $$f=-10.0 \text{cm} $$
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{−10.0 \text{cm}}-\frac{1}{7.50 \text{cm}}=\frac{ -0.2333}{\text{cm}}\text{.} $$
 </div>
+
 This must be inverted to find  $${d}_{\text{i}} $$
 \:
 
 <div class="equation" >
  $${d}_{\text{i}}=-\frac{\text{cm}}{ 0.2333}=-4.29 \text{cm}\text{.} $$
 </div>
+
 Or
 
 <div class="equation" >
  $${d}_{\text{i}}=\frac{\left( 7.5\right)\left(-10\right)}{\left( 7.5-\left(-10\right)\right)}=-75/ 17.5=-4.29 \text{cm}\text{.} $$
 </div>
+
 Now the magnification equation can be used to find the magnification  $$m $$ ,
  since both  $${d}_{\text{i}} $$
  and  $${d}_{\text{o}} $$
@@ -600,6 +653,7 @@ Now the magnification equation can be used to find the magnification  $$m $$ ,
 <div class="equation" >
  $$m=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=-\frac{-4.29 \text{cm}}{7.50 \text{cm}}= 0.571\text{.} $$
 </div>
+
 **Discussion**
 
 A number of results in this example are true of all case 3 images, as well as
@@ -614,7 +668,7 @@ a concave lens. In fact, since the image is smaller than the object, you may
 think it is farther away. But the image is closer than the object, a fact that
 is useful in correcting nearsightedness, as we shall see in a later section.
 
-</div>
+:::
 
 [[Table 1]](#Table1) summarizes the three types of images formed by single thin
 lenses. These are referred to as case 1, 2, and 3 images. Convex (converging)
@@ -659,13 +713,15 @@ to form a real image.
 In [Image Formation by Mirrors](../contents/ch25ImageFormationByMirrors), we shall see that mirrors can form
 exactly the same types of images as lenses.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Concentrating Sunlight
 </div>
+
 Find several lenses and determine whether they are converging or diverging. In general those that are thicker near the edges are diverging and those that are thicker near the center are converging. On a bright sunny day take the converging lenses outside and try focusing the sunlight onto a piece of paper. Determine the focal lengths of the lenses. Be careful because the paper may start to burn, depending on the type of lens you have selected.
 
-</div>
+:::
 
 ### Problem-Solving Strategies for Lenses
 {: #Note1}
@@ -697,31 +753,35 @@ Step 7. Check to see if the answer is reasonable: Does it make sense*?* If you
 have identified the type of image (case 1, 2, or 3), you should assess whether
 your answer is consistent with the type of image, magnification, and so on.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert
 </div>
+
 We do not realize that light rays are coming from every part of the object, passing through every part of the lens, and all can be used to form the final image.
 
 We generally feel the entire lens, or mirror, is needed to form an image.
 Actually, half a lens will form the same, though a fainter, image.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Geometric Optics
 </div>
+
 How does a lens form an image? See how light rays are refracted by a lens. Watch how the image changes when you adjust the focal length of the lens, move the object, move the lens, or move the screen.
 {: class="newline"}
-
 
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -756,50 +816,68 @@ How does a lens form an image? See how light rays are refracted by a lens. Watch
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 It can be argued that a flat piece of glass, such as in a window, is like a lens with an infinite focal length. If so, where does it form an image? That is, how are  $${d}_{\text{i}} $$
  and  $${d}_{\text{o}} $$
  related?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can often see a reflection when looking at a sheet of glass, particularly if it is darker on the other side. Explain why you can often see a double image in such circumstances.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When you focus a camera, you adjust the distance of the lens from the film. If the camera lens acts like a thin lens, why can it not be a fixed distance from the film for both near and distant objects?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A thin lens has two focal points, one on either side, at equal distances from its center, and should behave the same for light entering from either side. Look through your eyeglasses (or those of a friend) backward and forward and comment on whether they are thin lenses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Will the focal length of a lens change when it is submerged in water? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the power in diopters of a camera lens that has a 50.0 mm focal length?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -823,15 +901,19 @@ $$P = \frac{1}{f} = \frac{1}{0.0500 \text{ m}} = 20.0 \text{ D}$$
 
 A 50 mm lens is considered a "normal" focal length for 35 mm film cameras, providing a field of view similar to human vision. The positive power indicates this is a converging lens. Camera lenses typically range from about 5 D (200 mm telephoto) to 50 D (20 mm wide-angle), with the 50 mm lens (20 D) in the middle range.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Your camera's zoom lens has an adjustable focal length ranging from 80.0 to 200 mm. What is its range of powers?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -863,15 +945,19 @@ $$P_{\text{max}} = \frac{1}{0.0800 \text{ m}} = 12.5 \text{ D}$$
 
 The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (wide-angle, shorter focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200mm zoom, which in 35mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the focal length of 1.75 D reading glasses found on the rack in a pharmacy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -889,15 +975,19 @@ $$f = \frac{1}{P} = \frac{1}{1.75 \text{ D}} = 0.571 \text{ m} = 57.1 \text{ cm}
 
 Reading glasses with +1.75 D are for people with mild presbyopia (age-related farsightedness). The relatively long focal length (57 cm) means these glasses help bring close objects (like books or phones) into focus at comfortable reading distances. The positive power indicates these are converging lenses that help the eye focus on nearby objects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You note that your prescription for new eyeglasses is –4.50 D. What will their focal length be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -915,15 +1005,19 @@ $$f = \frac{1}{P} = \frac{1}{-4.50 \text{ D}} = -0.222 \text{ m} = -22.2 \text{ 
 
 The negative focal length confirms these are diverging (concave) lenses used to correct myopia (nearsightedness). People with myopia can see nearby objects clearly but have difficulty focusing on distant objects because their eye's lens system is too powerful, focusing light in front of the retina. The diverging lenses spread the light slightly before it enters the eye, moving the focal point back onto the retina. A −4.50 D prescription represents moderate myopia. The relatively short focal length (22.2 cm) means these lenses will noticeably reduce the apparent size of objects when looking through them.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How far from the lens must the film in a camera be, if the lens has a 35.0 mm focal length and is being used to photograph a flower 75.0 cm away? Explicitly show how you follow the steps in the Problem-Solving Strategy for lenses.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -960,54 +1054,73 @@ $$d_i = \frac{1}{0.2724} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
 
 Notice that even though the flower is 750 mm away (more than 21 times the focal length), the film needs to be only 1.7 mm beyond the focal point. This demonstrates why camera focusing mechanisms need only small adjustments for objects at different distances—the lens-to-film distance doesn't change much as object distance varies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain slide projector has a 100 mm focal length lens. (a) How far away is the screen, if a slide is placed 103 mm from the lens and produces a sharp image? (b) If the slide is 24.0 by 36.0 mm, what are the dimensions of the image? Explicitly show how you follow the steps in the Problem-Solving Strategy for lenses.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 3.43 m
 
 (b) 0.800 by 1.20 m
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A doctor examines a mole with a 15.0 cm focal length magnifying glass held 13.5 cm from the mole (a) Where is the image? (b) What is its magnification? (c) How big is the image of a 5.00 mm diameter mole?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$-1.35 \text{m} $$
  (on the object side of the lens).
 
 (b) $$+ 10.0 $$
 (c) 5.00 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How far from a piece of paper must you hold your father’s 2.25 D reading glasses to try to burn a hole in the paper with sunlight?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 44.4 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A camera with a 50.0 mm focal length lens is being used to photograph a person standing 3.00 m away. (a) How far from the lens must the film be? (b) If the film is 36.0 mm high, what fraction of a 1.75 m tall person will fit on it? (c) Discuss how reasonable this seems, based on your experience in taking or posing for photographs.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1063,28 +1176,37 @@ This means the entire person (100%) plus 22% more would fit, so the entire perso
 
 The film needs to be only slightly farther from the lens (50.8 mm) than the focal length (50.0 mm) because the object is relatively far away (60 times the focal length). This small adjustment is why cameras need focusing mechanisms. The 50 mm lens at 3 m gives good perspective for portraits without distortion, which is why 50 mm is considered the "normal" focal length for 35 mm film cameras.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A camera lens used for taking close-up photographs has a focal length of 22.0 mm. The farthest it can be placed from the film is 33.0 mm. (a) What is the closest object that can be photographed? (b) What is the magnification of this closest object?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 6.60 cm
 
 (b) –0.333
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose your 50.0 mm focal length camera lens is 51.0 mm away from the film in the camera. (a) How far away is an object that is in focus? (b) What is the height of the object if its image is 2.00 cm high?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1121,28 +1243,37 @@ $$h_o = \frac{h_i}{m} = \frac{-20.0 \text{ mm}}{-0.0200} = 1000 \text{ mm} = 1.0
 
 When the film is moved just 1.0 mm farther from the lens (from 50.0 mm to 51.0 mm), the object in focus moves from infinity to 2.55 m. This demonstrates that small adjustments in lens-to-film distance allow focusing on objects at finite distances. The magnification of −0.0200 means the image is 1/50th the size of the object and inverted, which is typical for camera photography. A 1.00 m tall object creating a 2.00 cm image on film is very reasonable for portrait or documentary photography.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the focal length of a magnifying glass that produces a magnification of 3.00 when held 5.00 cm from an object, such as a rare coin? (b) Calculate the power of the magnifier in diopters. (c) Discuss how this power compares to those for store-bought reading glasses (typically 1.0 to 4.0 D). Is the magnifier’s power greater, and should it be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$+7.50 \text{cm} $$
 (b)  $$13.3 \text{D} $$
 (c) Much greater
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What magnification will be produced by a lens of power –4.00 D (such as might be used to correct myopia) if an object is held 25.0 cm away?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1179,15 +1310,20 @@ $$m = -\frac{d_i}{d_o} = -\frac{-12.5 \text{ cm}}{25.0 \text{ cm}} = +0.500$$
 
 The positive magnification indicates an upright virtual image, and the magnitude less than 1 means the image is smaller than the object (half the size). This is characteristic of diverging lenses (case 3 images). When you hold an object 25 cm from a −4.00 D lens (used for myopia correction), you see a virtual image that appears half the size and 12.5 cm from the lens (on the same side as the object). This is why nearsighted people's eyes appear smaller when viewed through their glasses—the diverging lenses create reduced images.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In [[Example 4]](#Example4), the magnification of a book held 7.50 cm from a 10.0 cm focal length lens was found to be 3.00. (a) Find the magnification for the book when it is held 8.50 cm from the magnifier. (b) Do the same for when it is held 9.50 cm from the magnifier. (c) Comment on the trend in m as the object distance increases as in these two calculations.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) +6.67
 
 (b) +20.0
@@ -1195,15 +1331,19 @@ In [[Example 4]](#Example4), the magnification of a book held 7.50 cm from a 10.
 (c) The magnification increases without limit (to infinity) as the object
 distance increases to the limit of the focal distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a 200 mm focal length telephoto lens is being used to photograph mountains 10.0 km away. (a) Where is the image? (b) What is the height of the image of a 1000 m high cliff on one of the mountains?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1242,27 +1382,37 @@ $$h_i = m \cdot h_o = (-2.00 \times 10^{-5})(1000 \text{ m}) = -0.0200 \text{ m}
 
 When photographing distant objects (10 km is 50,000 times the focal length), the image forms essentially at the focal point. This is why landscape photographers rarely need to adjust focus when photographing distant scenes—everything from about 30 m to infinity focuses at nearly the same point. The 1000 m cliff creates only a 20 mm image on the film/sensor, demonstrating why telephoto lenses are needed for distant subjects. Even with a 200 mm telephoto, distant mountains create relatively small images.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A camera with a 100 mm focal length lens is used to photograph the sun and moon. What is the height of the image of the sun on the film, given the sun is  $$ 1.40 \times 10^{6}  \text{km} $$
  in diameter and is  $$ 1.50 \times 10^{8}  \text{km} $$
  away?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$-0.933 \text{mm} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Combine thin lens equations to show that the magnification for a thin lens is determined by its focal length and the object distance and is given by  $$m=f/\left(f-{d}_{\text{o}}\right) $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1312,10 +1462,12 @@ This alternative form of the magnification equation is useful because it directl
 
 This form makes it easy to calculate magnification without first finding the image distance.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1347,4 +1499,4 @@ real image
 virtual image
 : image that cannot be projected
 
-</div>
+:::

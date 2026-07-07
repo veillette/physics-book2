@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 25
 ---
-
 ### Geometric Optics
 
 Light from this page or screen is formed into an image by the lens of your eye,
@@ -45,6 +44,8 @@ such situations. When light interacts with smaller objects, it has very
 prominent wave characteristics, such as constructive and destructive
 interference. [Wave Optics](../contents/ch27WaveOptics) will concentrate on such situations.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SOqdetf1Izg"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

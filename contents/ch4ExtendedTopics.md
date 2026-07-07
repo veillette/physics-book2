@@ -4,11 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 4
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Understand the four basic forces that underlie the processes in nature.
 
-</div>
+:::
 
 One of the most remarkable simplifications in physics is that only four distinct
 forces account for all known phenomena. In fact, nearly all of the forces we
@@ -36,16 +36,19 @@ determine the number of electrons it has and, thus, indirectly determine the
 chemistry of the atom. More will be said of all of these topics in later
 chapters.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Concept Connections: The Four Basic Forces
 </div>
+
 The four basic forces will be encountered in more detail as you progress in you study.
 The gravitational force is defined in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation).
 On a macroscopic scale, electromagnetism and gravity are the basis for all forces.
 The nuclear forces are vital to the substructure of matter, but they are not directly
 experienced on the macroscopic scale.
-</div>
+
+:::
 
 #### Table 1: Properties of the Four Basic Forces
 
@@ -83,17 +86,19 @@ interactions of atoms and molecules. It is still convenient to consider these
 forces separately in specific applications, however, because of the ways they
 manifest themselves.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Concept Connections: Unifying Forces
 </div>
+
 Attempts to unify the four basic forces are discussed in relation to elementary particles later
 in this text. By “unify” we mean finding connections between the forces that show that they are
 different manifestations of a single force. Even if such unification is achieved, the forces will
 retain their separate characteristics on the macroscopic scale and may be identical only under
 extreme conditions such as those existing in the early universe.
 
-</div>
+:::
 
 Physicists are now exploring whether the four basic forces are in some way
 related. Attempts to unify all forces into one come under the rubric of Grand
@@ -135,14 +140,17 @@ See [Figure 1](#Figure1).)
 ![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg 'The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.')
 {: #Figure1}
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Concept Connections: Force Fields
 </div>
+
 The concept of a **force field** is also used in connection with electric charge. It is also a
 useful idea for all the basic forces. Fields help us to visualize forces and how they
 are transmitted, as well as to describe them with precision and to link forces with subatomic carrier particles.
-</div>
+
+:::
 
 The field concept has been applied very successfully; we can calculate motions
 and describe nature to high precision using field equations. As useful as the
@@ -243,33 +251,49 @@ physics that will be covered in much greater depth in later chapters.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain, in terms of the properties of the four basic forces,
 why people notice the gravitational force acting on their bodies if it is such a comparatively
 weak force.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the dominant force between astronomical objects? Why are the other three basic forces less significant over these very large distances?
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give a detailed example of how the exchange of a particle can result in an **attractive** force. (For example, consider one child pulling a toy out of the hands of another.)
-</div>
+
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the strength of the weak nuclear force relative to the strong nuclear force?
 (b) What is the strength of the weak nuclear force relative to the electromagnetic force? Since the weak nuclear force acts at only very short distances, such as inside nuclei, where the strong and electromagnetic forces also act, it might seem surprising that we have any knowledge of it at all. We have such knowledge because the weak nuclear force is responsible for beta decay, a type of nuclear decay not explained by other forces.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -316,16 +340,21 @@ The weak force's extremely short range (about $$ 10^{-18} $$ m, even shorter tha
 
 (b) The strength of the weak nuclear force relative to the electromagnetic force is approximately **$$ 1 \times 10^{-11} $$** (or about one-hundred-billionth as strong).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the ratio of the strength of the gravitational force to that of the strong nuclear force?
 (b) What is the ratio of the strength of the gravitational force to that of the weak nuclear force?
 (c) What is the ratio of the strength of the gravitational force to that of the electromagnetic force? What do your answers imply about the influence of the gravitational force on atomic nuclei?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -380,14 +409,19 @@ The weakness of gravity at the atomic scale means that:
 
 These extremely small ratios imply that **gravitational force has essentially no influence on atomic nuclei**—the nuclear and electromagnetic forces completely dominate at atomic scales.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the ratio of the strength of the strong nuclear force to that of the electromagnetic force? Based on this ratio, you might expect that the strong force dominates the nucleus, which is true for small nuclei. Large nuclei, however, have sizes greater than the range of the strong nuclear force. At these sizes, the electromagnetic force begins to affect nuclear stability. These facts will be used to explain nuclear fusion and fission later in this text.
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -435,10 +469,12 @@ The 100:1 ratio sets the fundamental scale for nuclear stability and determines 
 
 The ratio of the strength of the strong nuclear force to the electromagnetic force is **$$ 10^{2} $$** (or **100**). This means the strong force is 100 times stronger than the electromagnetic force, which explains why small nuclei are stable despite proton-proton repulsion, but also why very large nuclei become unstable as electromagnetic repulsion accumulates over long distances while the short-range strong force cannot compensate.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -449,4 +485,4 @@ field; photons are carrier particles of the electromagnetic force
 force field
 : a region in which a test particle will experience a force
 
-</div>
+:::

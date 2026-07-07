@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 5
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define antinode, node, fundamental, overtones, and harmonics.
 * Identify instances of sound interference in everyday situations.
 * Describe how sound interference occurring inside open and closed tubes changes the characteristics of the sound, and how this applies to sounds produced by musical instruments.
 * Calculate the length of a tube using sound wave measurements.
-</div>
+
+:::
 
 ![Photograph of a pair of headphones and the jack used to connect it to the sound system.](../resources/Figure_17_05_01.jpg 'Some types of headphones use the phenomena of constructive and destructive interference to cancel out outside noises. (credit: JVC America, Flickr)')
 {: #Figure1}
@@ -45,13 +46,15 @@ over a bottle, to the characteristic flavor of a violin’s sounding box, to the
 recognizability of a great singer’s voice, resonance and standing waves play a
 vital role.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Interference
 </div>
+
 Interference is such a fundamental aspect of waves that observing interference is proof that something is a wave. The wave nature of light was established by experiments showing interference. Similarly, when electrons scattered from crystals exhibited interference, their wave nature was confirmed to be exactly as predicted by symmetry with certain wave characteristics of light.
 
-</div>
+:::
 
 Suppose we hold a tuning fork near the end of a tube that is closed at the other
 end, as shown in [[Figure 3]](#Figure3), [[Figure 4]](#Figure4)
@@ -161,10 +164,12 @@ sound and, hence, on temperature. This dependence poses a noticeable problem for
 organs in old unheated cathedrals, and it is also the reason why musicians
 commonly bring their wind instruments to room temperature before playing them.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Find the Length of a Tube with a 128 Hz Fundamental
 </div>
+
 (a) What length should a tube closed at one end have on a day when the air temperature, is  $$22.0ºC $$ ,
  if its fundamental frequency is to be 128 Hz (C below middle C)?
 
@@ -186,21 +191,25 @@ The length $$L $$ can be found from the relationship in $${f}_{n}=n\frac{ {v}_{w
 <div class="equation" >
  $${f}_{1}=\frac{ {v}_{w}}{4L} $$
 </div>
+
 (3) Solve this equation for length.
 
 <div class="equation" >
  $$L=\frac{ {v}_{w}}{ {4f}_{1}} $$
 </div>
+
 (4) Find the speed of sound using  $${v}_{w}=\left(331 \text{m/s}\right)\sqrt{\frac{T}{273 \text{K}}} $$ .
 
 <div class="equation" >
  $${v}_{w}=\left(331 \text{m/s}\right)\sqrt{\frac{295 \text{K}}{273 \text{K}}}=344 \text{m/s} $$
 </div>
+
 (5) Enter the values of the speed of sound and frequency into the expression for  $$L $$.
 
 <div class="equation" >
  $$L=\frac{ {v}_{w}}{ {4f}_{1}}=\frac{344 \text{m/s}}{4\left(128 \text{Hz}\right)}=0.672 \text{m} $$
 </div>
+
 **Discussion on (a)**
 
 Many wind instruments are modified tubes that have finger holes, valves, and
@@ -221,13 +230,14 @@ tubas, require tubes so long that they are coiled into loops.
 <div class="equation" >
  $${f}_{9}=9\frac{ {v}_{w}}{4L}={9f}_{1}=1.15 \text{kHz} $$
 </div>
+
 **Discussion on (b)**
 
 Whether this overtone occurs in a simple tube or a musical instrument depends on
 how it is stimulated to vibrate and the details of its shape. The trombone, for
 example, does not produce its fundamental frequency and only makes overtones.
 
-</div>
+:::
 
 Another type of tube is one that is _open_ at both ends. Examples are some organ
 pipes, flutes, and oboes. The resonances of tubes open at both ends can be
@@ -256,13 +266,15 @@ played because they have different overtones. Middle C, for example, would sound
 richer played on an open tube, because it has even multiples of the fundamental
 as well as odd. A closed tube has only odd multiples.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Real-World Applications: Resonance in Everyday Systems
 </div>
+
 Resonance occurs in many different systems, including strings, air columns, and atoms. Resonance is the driven or forced oscillation of a system at its natural frequency. At resonance, energy is transferred rapidly to the oscillating system, and the amplitude of its oscillations grows until the system can no longer be described by Hooke’s law. An example of this is the distorted sound intentionally produced in certain types of rock music.
 
-</div>
+:::
 
 Wind instruments use resonance in air columns to amplify tones made by lips or
 vibrating reeds. Other instruments also use air resonance in clever ways to
@@ -295,41 +307,54 @@ characteristics apply to such a wide range of physical systems.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe how noise-canceling headphones differ from standard headphones used to block outside sounds.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Regular headphones only block sound waves with a physical barrier. Noise-canceling headphones use destructive interference to reduce the loudness of outside sounds.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 How is it possible to use a standing wave's node and antinode to determine the length of a closed-end tube?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 When the tube resonates at its natural frequency, the wave's node is located at the closed end of the tube, and the antinode is located at the open end. The length of the tube is equal to one-fourth of the wavelength of this wave. Thus, if we know the wavelength of the wave, we can determine the length of the tube.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Sound
 </div>
+
 This simulation lets you see sound waves. Adjust the frequency or volume and you can see and hear how the wave changes. Move the listener around and hear what she hears.
 {: class="newline"}
 
 <div class="media"  data-alt="sound">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/sound/#sim-single-source"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -355,35 +380,49 @@ $${f}_{1} $$ is the fundamental and $$L $$ is the length of the tube.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does an unamplified guitar produce sounds so much more intense than those of a plucked string held taut by a simple stick?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 A guitar produces a much more intense sound because its body acts as a **sounding box** or resonator. The vibrations of the plucked string are transferred through the bridge to the large surface of the guitar's body. This large surface moves a much greater volume of air than the thin string alone, resulting in a more intense (louder) sound wave. Additionally, the air inside the guitar's body has its own resonant frequencies, which selectively amplify certain harmonics of the string's vibrations, giving the guitar its rich, characteristic timbre. A simple stick lacks this large resonating surface and therefore cannot efficiently transfer the string's vibrational energy to the air.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are given two wind instruments of identical length. One is open at both ends, whereas the other is closed at one end. Which is able to produce the lowest frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The instrument that is **closed at one end** is able to produce the lowest frequency.
 
 The fundamental frequency of a tube closed at one end is given by $$f_1 = \frac{v_w}{4L}$$, whereas the fundamental frequency of a tube open at both ends is $$f_1 = \frac{v_w}{2L}$$. Since the lengths ($$L$$) and the speed of sound ($$v_w$$) are the same for both instruments, the tube closed at one end has a fundamental frequency that is half the frequency of the tube open at both ends.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between an overtone and a harmonic? Are all harmonics overtones? Are all overtones harmonics?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Harmonics** are all integer multiples of the fundamental frequency ($$f_1, 2f_1, 3f_1, ...$$). The fundamental is the first harmonic.
 
 **Overtones** are all resonant frequencies higher than the fundamental. The first overtone is the first frequency above the fundamental, the second overtone is the second frequency above the fundamental, and so on.
@@ -392,17 +431,22 @@ What is the difference between an overtone and a harmonic? Are all harmonics ove
 
 - **Are all overtones harmonics?** In many simple instruments, like a tube open at both ends, the overtones are integer multiples of the fundamental, so they are harmonics (e.g., the first overtone is the second harmonic). However, for a tube closed at one end, the overtones are only the *odd* harmonics (3rd, 5th, etc.). In this case, all overtones are harmonics, but not all harmonics are present as overtones. For more complex instruments (like a drum), the overtones are not simple integer multiples of the fundamental, and in that case, the overtones are not harmonics.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A "showy" custom-built car has two brass horns that are supposed to produce the same frequency but actually emit 263.8 and 264.5 Hz. What beat frequency is produced?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When two sound waves of slightly different frequencies are played simultaneously, they interfere to produce a phenomenon called beats. The beat frequency is the absolute value of the difference between the two frequencies. This occurs because the waves alternate between constructive interference (when they are in phase) and destructive interference (when they are out of phase), creating a pulsing or "beating" sound that we can hear.
@@ -431,15 +475,20 @@ The beat frequency of 0.7 Hz means that the sound intensity will rise and fall 0
 
 The final answer is: **The beat frequency produced is 0.7 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What beat frequencies will be present: (a) If the musical notes A and C are played together (frequencies of 220 and 264 Hz)? (b) If D and F are played together (frequencies of 297 and 352 Hz)? (c) If all four are played together?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Beat frequencies occur when two or more sound waves of different frequencies interfere. For any pair of frequencies, the beat frequency is the absolute value of their difference. When more than two frequencies are present, we must consider all possible pairs to find all the beat frequencies that will be produced.
@@ -479,15 +528,20 @@ In part (c), when all four notes are played together, the sound becomes quite co
 
 The final answers are: **(a) 44 Hz; (b) 55 Hz; (c) 33 Hz, 44 Hz, 55 Hz, 77 Hz, 88 Hz, and 132 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What beat frequencies result if a piano hammer hits three strings that emit frequencies of 127.8, 128.1, and 128.3 Hz?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 A single piano key often has multiple strings (usually 2 or 3) that are struck simultaneously to produce a richer sound. When these strings are slightly out of tune with each other, they produce beats. With three strings, we have three possible pairs, and each pair will produce its own beat frequency. We calculate the beat frequency for each pair as the absolute value of the difference between the two frequencies.
@@ -523,15 +577,20 @@ For reference, this note is close to C below middle C (C3), which has a frequenc
 
 The final answer is: **The beat frequencies are 0.3 Hz, 0.2 Hz, and 0.5 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A piano tuner hears a beat every 2.00 s when listening to a 264.0-Hz tuning fork and a single piano string. What are the two possible frequencies of the string?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When a tuner hears one beat every 2.00 seconds, this means the beat frequency is $$f_{\text{beat}} = 1/(2.00\text{ s}) = 0.50\text{ Hz}$$. The beat frequency equals the absolute value of the difference between the two frequencies. Since we know the tuning fork frequency and the beat frequency, the string frequency could be either higher or lower than the fork frequency by the beat frequency amount.
@@ -580,15 +639,20 @@ This ambiguity is a fundamental limitation of the beat frequency method—it tel
 
 The final answer is: **The two possible frequencies of the string are 263.5 Hz and 264.5 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the fundamental frequency of a 0.672-m-long tube, open at both ends, on a day when the speed of sound is 344 m/s? (b) What is the frequency of its second harmonic?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 A tube open at both ends has antinodes (maximum air displacement) at both open ends. The fundamental frequency (first harmonic, $$n=1$$) corresponds to the longest wavelength that fits this boundary condition, which is when the tube length equals one-half wavelength. For a tube open at both ends, the resonant frequencies are given by $$f_n = n\frac{v_w}{2L}$$, where $$n = 1, 2, 3,...$$ The second harmonic corresponds to $$n=2$$.
@@ -631,15 +695,20 @@ It's interesting to compare this with a tube closed at one end of the same lengt
 
 The final answers are: **(a) The fundamental frequency is 256 Hz. (b) The second harmonic frequency is 512 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a wind instrument, such as a tuba, has a fundamental frequency of 32.0 Hz, what are its first three overtones? It is closed at one end. (The overtones of a real tuba are more complex than this example, because it is a tapered tube.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a tube closed at one end, the resonant frequencies follow the pattern $$f_n = n\frac{v_w}{4L}$$ where $$n = 1, 3, 5, 7,...$$ (only odd integers). The fundamental frequency corresponds to $$n=1$$. The first overtone is $$n=3$$ (the third harmonic), the second overtone is $$n=5$$ (the fifth harmonic), and the third overtone is $$n=7$$ (the seventh harmonic). An important distinction: overtones are numbered by how many overtones above the fundamental they are, while harmonics are numbered by the value of $$n$$.
@@ -679,15 +748,20 @@ The fundamental frequency of 32.0 Hz is very low—it's approximately the note C
 
 The final answer is: **The first three overtones are 96.0 Hz (third harmonic), 160 Hz (fifth harmonic), and 224 Hz (seventh harmonic).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the first three overtones of a bassoon that has a fundamental frequency of 90.0 Hz? It is open at both ends. (The overtones of a real bassoon are more complex than this example, because its double reed makes it act more like a tube closed at one end.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a tube open at both ends, the resonant frequencies are $$f_n = n\frac{v_w}{2L}$$ where $$n = 1, 2, 3, 4,...$$ (all positive integers). The fundamental is the first harmonic ($$n=1$$), the first overtone is the second harmonic ($$n=2$$), the second overtone is the third harmonic ($$n=3$$), and the third overtone is the fourth harmonic ($$n=4$$). Since all harmonics are present, each overtone frequency is simply an integer multiple of the fundamental.
@@ -733,16 +807,21 @@ The fundamental frequency of 90.0 Hz is quite low, corresponding roughly to the 
 
 The final answer is: **The first three overtones are 180 Hz (second harmonic), 270 Hz (third harmonic), and 360 Hz (fourth harmonic).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How long must a flute be in order to have a fundamental frequency of 262 Hz (this frequency corresponds to middle C on the evenly tempered chromatic scale) on a day when air temperature is  $$20.0ºC $$ ?
  It is open at both ends.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 A flute is modeled as a tube open at both ends. For such a tube, the fundamental frequency is given by $$f_1 = \frac{v_w}{2L}$$, where $$v_w$$ is the speed of sound in air and $$L$$ is the length of the tube. We need to first calculate the speed of sound at the given temperature, then solve for the length $$L$$. The speed of sound in air depends on temperature according to $$v_w = (331\text{ m/s})\sqrt{\frac{T}{273\text{ K}}}$$, where $$T$$ is the absolute temperature in Kelvin.
@@ -793,15 +872,20 @@ In practice, flutes produce different notes by opening and closing tone holes, w
 
 The final answer is: **The flute must be 0.655 m (or 65.5 cm) long.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What length should an oboe have to produce a fundamental frequency of 110 Hz on a day when the speed of sound is 343 m/s? It is open at both ends.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 An oboe, modeled as a tube open at both ends, has a fundamental frequency given by $$f_1 = \frac{v_w}{2L}$$. We are given the fundamental frequency and the speed of sound, so we can solve directly for the length $$L$$ by rearranging this equation.
@@ -841,15 +925,20 @@ If we modeled the oboe as a tube closed at one end (which is actually more accur
 
 Nonetheless, for the idealized open tube model given in the problem, the final answer is: **The oboe should be 1.56 m long.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the length of a tube that has a fundamental frequency of 176 Hz and a first overtone of 352 Hz if the speed of sound is 343 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First, we need to determine what type of tube this is by examining the relationship between the fundamental and first overtone frequencies. For a tube open at both ends, the first overtone is twice the fundamental ($$f_2 = 2f_1$$). For a tube closed at one end, the first overtone is three times the fundamental ($$f_3 = 3f_1$$). Once we identify the tube type, we can use the appropriate formula to find the length.
@@ -902,16 +991,21 @@ The fundamental frequency of 176 Hz is approximately the note F3, and a tube of 
 
 The final answer is: **The tube is 0.97 m long and is open at both ends.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the length of an organ pipe closed at one end that produces a fundamental frequency of 256 Hz when air temperature is  $$18.0ºC $$ .
  (b) What is its fundamental frequency at  $$25.0ºC $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use the formula for a tube closed at one end: $$f_1 = \frac{v_w}{4L}$$. We first need to calculate the speed of sound at 18.0°C, then solve for the length. For part (b), we calculate the speed of sound at the new temperature and find the new fundamental frequency. Since the pipe length remains constant, we can also use the ratio of speeds to find the new frequency more directly.
@@ -992,17 +1086,22 @@ This is why organs in old, unheated cathedrals can go significantly out of tune 
 
 The final answers are: **(a) The organ pipe must be 0.334 m long. (b) The fundamental frequency at 25.0°C is 259 Hz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 By what fraction will the frequencies produced by a wind instrument change when air temperature goes from  $$10.0ºC $$
  to  $$30.0ºC $$ ?
  That is, find the ratio of the frequencies at those temperatures.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For any wind instrument (whether open or closed), the resonant frequencies are proportional to the speed of sound: $$f \propto v_w$$. Since the instrument's physical length doesn't change with temperature, the ratio of frequencies at two different temperatures equals the ratio of sound speeds at those temperatures. We can use $$v_w = (331\text{ m/s})\sqrt{T/273\text{ K}}$$ to find this ratio.
@@ -1067,16 +1166,21 @@ This is why orchestras and bands "warm up" their instruments before performing�
 
 The final answer is: **The ratio of frequencies is $$f_2/f_1 = 1.036$$, representing a 3.6% increase in frequency.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The ear canal resonates like a tube closed at one end. (See [[Figure 5]](../contents/ch17Hearing#Figure5).) If ear canals range in length from 1.80 to 2.60 cm in an average population, what is the range of fundamental resonant frequencies? Take air temperature to be  $$37.0ºC $$ ,
  which is the same as body temperature. How does this result correlate with the intensity versus frequency graph ([[Figure 3]](../contents/ch17Hearing#Figure3) of the human ear?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The ear canal acts as a tube closed at one end (closed by the eardrum), so its fundamental frequency is $$f_1 = \frac{v_w}{4L}$$. We need to calculate the speed of sound at body temperature (37.0°C), then find the fundamental frequencies for both the shortest (1.80 cm) and longest (2.60 cm) ear canals. The shortest canal will have the highest frequency, and the longest will have the lowest.
@@ -1129,16 +1233,21 @@ The variation in ear canal length (1.80 to 2.60 cm) accounts for differences bet
 
 The final answer is: **The range of fundamental resonant frequencies is 3.39 kHz to 4.90 kHz, which correlates well with the peak sensitivity range of human hearing.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the first overtone in an ear canal, which resonates like a 2.40-cm-long tube closed at one end, by taking air temperature to be  $$37.0ºC $$ .
  Is the ear particularly sensitive to such a frequency? (The resonances of the ear canal are complicated by its nonuniform shape, which we shall ignore.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a tube closed at one end, the first overtone is the third harmonic ($$n=3$$). The resonant frequencies follow $$f_n = n\frac{v_w}{4\text{ L}}$$ where $$n = 1, 3, 5,...$$ We first need to calculate the speed of sound at body temperature (37.0\text{ °C}), then use $$n=3$$ to find the first overtone frequency.
@@ -1193,16 +1302,21 @@ This is why the fundamental resonance of the ear canal (around 3-4 kHz) is the d
 
 The final answer is: **The first overtone is 11.0 kHz. The ear is not particularly sensitive to this frequency, as human hearing sensitivity has already declined significantly by 11 kHz compared to the peak sensitivity around 3-4 kHz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A crude approximation of voice production is to consider the breathing passages and mouth to be a resonating tube closed at one end. (See [[Figure 10]](#Figure10).) (a) What is the fundamental frequency if the tube is 0.240-m long, by taking air temperature to be  $$37.0ºC $$ ?
  (b) What would this frequency become if the person replaced the air with helium? Assume the same temperature dependence for helium as for air.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The vocal tract can be approximated as a tube closed at one end (closed at the vocal cords, open at the mouth), with fundamental frequency $$f_1 = \frac{v_w}{4L}$$. For part (a), we calculate the speed of sound in air at body temperature. For part (b), we need to account for helium's different properties. The speed of sound in helium at a given temperature is approximately 2.96 times faster than in air due to helium's lower molecular mass.
@@ -1265,15 +1379,20 @@ This simplified model treats the vocal tract as a uniform tube, but real vocal t
 
 The final answers are: **(a) The fundamental frequency with air is 367 Hz. (b) The fundamental frequency with helium is 1.07 kHz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Students in a physics lab are asked to find the length of an air column in a tube closed at one end that has a fundamental frequency of 256 Hz. They hold the tube vertically and fill it with water to the top, then lower the water while a 256-Hz tuning fork is rung and listen for the first resonance. What is the air temperature if the resonance occurs for a length of 0.336 m? (b) At what length will they observe the second resonance (first overtone)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a classic resonance tube experiment. The water surface acts as the closed end, and the top of the tube is open. For part (a), the first resonance occurs at the fundamental frequency where $$L = \lambda/4$$. We can use $$f_1 = \frac{v_w}{4L}$$ to find the speed of sound, then determine the temperature from $$v_w = (331\text{ m/s})\sqrt{T/273\text{ K}}$$. For part (b), the second resonance (first overtone) occurs at the third harmonic where $$L = 3\lambda/4$$.
@@ -1366,16 +1485,21 @@ In practice, students would need to account for an "end correction"—the antino
 
 The final answers are: **(a) The air temperature is 22°C. (b) The second resonance (first overtone) occurs at a length of 1.01 m.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What frequencies will a 1.80-m-long tube produce in the audible range at  $$20.0ºC $$
  if: (a) The tube is closed at one end? (b) It is open at both ends?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The audible range for humans is approximately 20 Hz to 20,000 Hz (20 kHz). For a tube closed at one end, resonant frequencies are $$f_n = n\frac{v_w}{4L}$$ where $$n = 1, 3, 5,...$$ (odd integers only). For a tube open at both ends, $$f_n = n\frac{v_w}{2L}$$ where $$n = 1, 2, 3,...$$ (all positive integers). We first calculate the speed of sound at 20.0°C, then determine which harmonics fall within the audible range.
@@ -1476,10 +1600,12 @@ The difference in timbre between these two configurations would be dramatic: the
 
 The final answers are: **(a) $$f_n = n(47.6\text{ Hz})$$ where $$n = 1, 3, 5, ..., 419$$ (odd integers). (b) $$f_n = n(95.3\text{ Hz})$$ where $$n = 1, 2, 3, ..., 210$$ (all integers).**
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1498,4 +1624,4 @@ overtones
 harmonics
 : the term used to refer collectively to the fundamental and its overtones
 
-</div>
+:::

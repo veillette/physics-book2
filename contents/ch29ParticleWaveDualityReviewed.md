@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the concept of particle-wave duality, and its scope.
-</div>
+
+:::
 
 **Particle-wave duality**—the fact that all particles have wave properties—is
 one of the cornerstones of quantum mechanics. We first came across it in the
@@ -73,22 +74,26 @@ following topics are involved in some or all of the problems in this section:
 - [Wave Optics](../contents/ch27WaveOptics)
 - [Special Relativity](../contents/ch28SpecialRelativity)
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategy
 </div>
+
 1.   Identify which physical principles are involved.
 2.   Solve the problem using strategies outlined in the text.
 
-</div>
+:::
 
 [[Example 1]](#Example1) illustrates how these strategies are applied to an
 integrated-concept problem.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Recoil of a Dust Particle after Absorbing a Photon
 </div>
+
 The following topics are involved in this integrated concepts worked example:
 
 <table id="" aria-describedby="Table 30_08_2"><caption><span class="title">Topics</span></caption><tbody><tr>
@@ -119,12 +124,14 @@ The momentum of a photon is related to its wavelength by the equation:
 <div class="equation" >
  $$p=\frac{h}{\lambda }. $$
 </div>
+
 Entering the known value for Planck’s constant  $$h $$
  and given the wavelength  $$\lambda  $$ ,  we obtain
 
 <div class="equation" >
  $$\begin{array}{lll}p& =& \frac{ 6.63 \times 10^{-34}  \text{J}\cdot s}{550 \times 10^{-9} \text{m}}\\ & =&  1.21 \times 10^{-27}  \text{kg}\cdot \text{m/s}\text{.}\end{array} $$
 </div>
+
 **Discussion for (a)**
 
 This momentum is small, as expected from discussions in the text and the fact
@@ -139,11 +146,13 @@ be analyzed using the equation:
 <div class="equation" >
  $${p}_{1}+{p}_{2}=p^{\prime}_{1}+p^{\prime}_{2}\left({F}_{\text{net}}=0\right). $$
 </div>
+
 The net external force is zero, since the dust is in outer space. Let 1 represent the photon and 2 the dust particle. Before the collision, the dust is at rest (relative to some observer); after the collision, there is no photon (it is absorbed). So conservation of momentum can be written
 
 <div class="equation" >
  $${p}_{1}=p^{\prime}_{2}=mv, $$
 </div>
+
 where  $${p}_{1} $$
  is the photon momentum before the collision and  $$p^{\prime}_{2} $$
  is the dust momentum after the collision. The mass and recoil velocity of the dust are  $$m $$
@@ -154,6 +163,7 @@ where  $${p}_{1} $$
 <div class="equation" >
  $$v=\frac{p}{m}, $$
 </div>
+
 where  $$p $$
  is the photon momentum found in part (a). Entering known values (noting that a microgram is  $$10^{-9} \text{kg} $$ ) 
 gives
@@ -161,6 +171,7 @@ gives
 <div class="equation" >
  $$\begin{array}{lll}v& =& \frac{ 1.21 \times 10^{-27}  \text{kg}\cdot \text{m/s}}{ 1.00 \times 10^{-9} \text{kg}}\\ & =&  1.21 \times 10^{-18} \text{m/s} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 The recoil velocity of the particle of dust is extremely small. As we have
@@ -168,7 +179,7 @@ noted, however, there are immense numbers of photons in sunlight and other
 macroscopic sources. In time, collisions and absorption of many photons could
 cause a significant recoil of the dust, as observed in comet tails.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -179,24 +190,30 @@ cause a significant recoil of the dust, as observed in comet tails.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions" class="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In what ways are matter and energy related that were not known before the development of relativity and quantum mechanics?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The 54.0-eV electron in [[Example 1]](../contents/ch29TheWaveNatureOfMatter#Example1) has a 0.167-nm
 wavelength. If such electrons are passed through a double slit and have their
 first maximum at an angle of $$ 25.0º $$ , what is the slit separation $$d $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -216,19 +233,23 @@ The slit separation (0.395 nm) is only about 2.4 times the electron wavelength. 
 
 0.395 nm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 An electron microscope produces electrons with a 2.00-pm wavelength. If these
 are passed through a 1.00-nm single slit, at what angle will the first
 diffraction minimum be found?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -254,11 +275,14 @@ The first diffraction minimum occurs at only 0.115°, a very small angle. This t
 
 0.115° or $$ 2.00 \times 10^{-3}$$ rad
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A certain heat lamp emits 200 W of mostly IR radiation averaging 1500 nm in
@@ -268,16 +292,22 @@ $$ 2.0\text{ºC} $$ , assuming the affected mass is 4.0 kg with a specific heat
 of $$0.83\text{ kcal}\text{/kg}\cdot \text{ºC} $$ . Also assume no other
 significant heat transfer. (c) How long does this take?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.3 \times 10^{-19}  \text{J} $$
 (b)  $$ 2.1 \times 10^{23}  $$
 (c)  $$ 1.4 \times 10^{2}  \text{s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 On its high power setting, a microwave oven produces 900 W of 2560 MHz
@@ -285,8 +315,9 @@ microwaves. (a) How many photons per second is this? (b) How many photons are
 required to increase the temperature of a 0.500-kg mass of pasta by $$ 45.0\text{ºC} $$ , assuming a specific heat of $$0.900 \text{kcal/kg}\cdot \text{ºC} $$ ? Neglect all other heat transfer. (c) How long must the microwave
 operator wait for their pasta to be ready?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -344,11 +375,14 @@ The microwave oven emits over $$5 \times 10^{26}$$ photons per second, yet it ta
 
 (c) 94.3 s or 1.57 min
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Calculate the amount of microwave energy in joules needed to raise the
@@ -357,25 +391,32 @@ temperature of 1.00 kg of soup from $$ 20.0\text{ºC} $$ to $$100\text{ºC} $$ .
 this? (c) Calculate the velocity of a 1.00-kg mass with the same momentum. (d)
 What is the kinetic energy of this mass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 3.35 \times 10^{5}  \text{J} $$
 (b)  $$ 1.12 \times 10^{-3} \text{kg}\cdot \text{m/s} $$
 (c)  $$ 1.12 \times 10^{-3} \text{m/s} $$
 (d)  $$6.23 \times 10^{-7} \text{J} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What is $$\gamma $$ for an electron emerging from the Stanford Linear
 Accelerator with a total energy of 50.0 GeV? (b) Find its momentum. (c) What is
 the electron's wavelength?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -411,35 +452,45 @@ This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at 
 
 (c) $$ 2.48 \times 10^{-17} \text{ m}$$ or 0.0248 fm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What is $$\gamma $$ for a proton having an energy of 1.00 TeV, produced by
 the Fermilab accelerator? (b) Find its momentum. (c) What is the proton’s
 wavelength?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.06 \times 10^{3}  $$
 (b)  $$ 5.33 \times 10^{-16}  \text{kg}\cdot \text{m/s} $$
 (c)  $$ 1.24 \times 10^{-18}  \text{m} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 An electron microscope passes 1.00-pm-wavelength electrons through a circular
 aperture $$2.00 \text{μm} $$ in diameter. What is the angle between two
 just-resolvable point sources for this microscope?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -469,11 +520,14 @@ The electron microscope can resolve points separated by an angle as small as $$6
 
 $$ 6.10 \times 10^{-7} \text{ rad}$$ or $$ 3.49 \times 10^{-5}°$$ or 0.126 arcsec
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Calculate the velocity of electrons that form the same pattern as 450-nm
@@ -481,8 +535,10 @@ light when passed through a double slit. (b) Calculate the kinetic energy of
 each and compare them. (c) Would either be easier to generate than the other?
 Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.62 \times 10^{3}  \text{m/s} $$
 (b)  $$ 4.42 \times 10^{-19}  \text{J} $$
  for photon,  $$ 1.19 \times 10^{-24}  \text{J} $$
@@ -493,26 +549,35 @@ Explain.
 easy to make. Creating electrons with $$7.43 \mu eV $$ of energy would not be
 difficult, but would require a vacuum.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What is the separation between double slits that produces a second-order
 minimum at $$ 45.0º $$ for 650-nm light? (b) What slit separation is needed to
 produce the same pattern for 1.00-keV protons.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 2.30 \times 10^{-6}  \text{m} $$
 (b)  $$ 3.20 \times 10^{-12}  \text{m} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected
@@ -522,8 +587,9 @@ eV? (c) Calculate the current of ejected electrons. (d) If the photoelectric
 material is electrically insulated and acts like a 2.00-pF capacitor, how long
 will current flow before the capacitor voltage stops it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -597,11 +663,14 @@ The photoelectric effect produces a current of 0.645 mA, but this current is sel
 
 (d) 1.21 ns
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 One problem with X-rays is that they are not sensed. Calculate the temperature
@@ -612,14 +681,20 @@ tissue, the specific heat of which is $$0.830 \text{kcal/kg}\cdot \text{ºC} $$ 
 (Note that medical diagnostic x-ray machines **cannot** produce an intensity
 this great.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 3.69 \times 10^{-4}  \mathrm{ºC} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A 1.00-fm photon has a wavelength short enough to detect some information about
@@ -627,8 +702,9 @@ nuclei. (a) What is the photon momentum? (b) What is its energy in joules and
 MeV? (c) What is the (relativistic) velocity of an electron with the same
 momentum? (d) Calculate the electron's kinetic energy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -686,11 +762,14 @@ This 1-fm gamma ray carries enormous energy (1.24 GeV), typical of nuclear proce
 
 (d) 1240 MeV (1.24 GeV)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The momentum of light is exactly reversed when reflected straight back from a
@@ -701,19 +780,24 @@ to the mirror? (c) Using the most general form of Newton’s second law, what is
 the force on the mirror? (d) Does the assumption of no mirror recoil seem
 reasonable?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 2.00 kJ
 
 (b) $$ 1.33 \times 10^{-5} \text{kg}\cdot \text{m/s} $$
 (c)  $$ 1.33 \times 10^{-5} \text{N} $$
 (d) yes
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Sunlight above the Earth's atmosphere has an intensity of $$ 1.30 {\text{kW/m}}^{2} $$ . If this is reflected straight back from a mirror that has
@@ -725,8 +809,9 @@ per square meter of the spaceship is 0.100 kg. Find the acceleration of the
 spaceship if all other forces are balanced. (c) How fast is it moving 24 hours
 later?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -772,5 +857,6 @@ Solar sailing is a real spacecraft propulsion concept! The radiation pressure pr
 
 (c) 7.49 m/s or about 27 km/h
 
-</div>
+:::
+
 </div>

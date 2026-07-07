@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 11
 ---
-
 ![A swimmer in a pool doing the backstroke.](../resources/Figure_11_00_01.jpg 'The fluid essential to all life has a beauty of its own. It also helps support the weight of this swimmer. (credit: Terren, Wikimedia Commons)')
 {: #Figure1}
 
@@ -17,6 +16,8 @@ behavior are the topics of this
 chapter. [Fluid Dynamics and Its Biological and Medical Applications](../contents/ch12FluidDynamicsAndItsBiologicalApplications)
 explores aspects of fluid flow.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iShUultAD9M"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

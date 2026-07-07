@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 6
 chapterNumber: 28
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Compute total energy of a relativistic object.
 * Compute the kinetic energy of a relativistic object.
 * Describe rest energy, and explain how it can be converted to other forms.
 * Explain why massive particles cannot reach C.
-</div>
+
+:::
 
 ![This photo shows the outside of the fusion reactor of the National Spherical Torus Experiment at the Princeton Plasma Physics Laboratory. The reactor, which sits in a large room, is connected to numerous tubes and instruments.](../resources/Figure_28_06_01.jpg 'The National Spherical Torus Experiment (NSTX) has a fusion reactor in which hydrogen isotopes undergo fusion to produce helium. In this process, a relatively small mass of fuel is converted into a large amount of energy. (credit: Princeton Plasma Physics Laboratory)')
 {: #Figure1}
@@ -39,16 +40,19 @@ The first postulate of relativity states that the laws of physics are the same
 in all inertial frames. Einstein showed that the law of conservation of energy
 is valid relativistically, if we define energy to include a relativistic factor.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Total Energy
 </div>
+
 <strong class="term" >Total energy </strong> $$E$$
  is defined to be
 
 <div class="equation" >
  $$E=\gamma mc^{2}, $$
 </div>
+
 where  $$m$$  is mass,  $$c$$
  is the speed of light,  $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$ ,
  and  $$v$$
@@ -58,18 +62,21 @@ where  $$m$$  is mass,  $$c$$
  is related to relativistic momentum. But first, note that at rest, total energy is not zero. Rather, when  $$v=0 $$ ,
  we have  $$\gamma =1 $$ ,  and an object has rest energy.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Rest Energy
 </div>
+
 **Rest energy** is
 
 <div class="equation" >
  $${E}_{0}=mc^{2}. $$
 </div>
-</div>
+
+:::
 
 This is the correct form of Einstein’s most famous equation, which for the first
 time showed that energy is related to the mass of an object at rest. For
@@ -81,10 +88,12 @@ nor was the experimental proof that they are correct widely recognized at first.
 Einstein, it should be noted, did understand and describe the meanings and
 implications of his theory.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Rest Energy: Rest Energy is Very Large
 </div>
+
 Calculate the rest energy of a 1.00-g mass.
 
 **Strategy**
@@ -99,7 +108,7 @@ rest energy.
 3. Choose the appropriate equation. $${E}_{0}=mc^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3}
+   $$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3}
    \text{kg}\right) { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}\\ & =&
    9.00 \times 10^{13} \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}\end{array} $$
    </div>
@@ -121,7 +130,7 @@ aircraft carrier. If a way can be found to convert rest mass energy into some
 other form (and all forms of energy can be converted into one another), then
 huge amounts of energy can be obtained from the destruction of mass.
 
-</div>
+:::
 
 Today, the practical applications of **the conversion of mass into another form
 of energy**, such as in nuclear weapons and nuclear power plants, are well
@@ -156,10 +165,12 @@ mass (meaning total mass is constant) was one of the great laws verified by
 19th-century science. Why was it not noticed to be incorrect? The following
 example helps answer these questions.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Rest Mass: A Small Mass Increase due to Energy Input
 </div>
+
 A car battery is rated to be able to move 600 ampere-hours  $$\left(A·h\right) $$
  of charge at 12.0 V. (a) Calculate the increase in rest mass of such a battery when it is taken from being fully depleted to being fully charged. (b) What percent increase is this, given the battery’s mass is 20.0 kg?
 
@@ -176,7 +187,7 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
 
 1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $$\Delta m $$
 3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
-   {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. <div class="equation" > $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
+   {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. &lt;div class="equation" &gt; $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0
    \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array} $$
@@ -185,10 +196,10 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
    Write amperes A as coulombs per second (C/s), and convert hours to seconds.
 
     <div class="equation" >
-$$\begin{array}{lll}
+    $$\begin{array}{lll}
     \Delta m& =& \frac{600 \text{C/s}\cdot \text{h} \left( \frac{3600 \text{s}}{1 \text{h}} \right) \left(12.0 \text{J/C}\right) }
     { { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\\
-& =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
+    & =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
     </div>
 
    Using the conversion $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$, we can write the mass as
@@ -202,7 +213,7 @@ $$\begin{array}{lll}
 3. Choose the appropriate equation. $$ \text{\% increase}=\frac{\Delta m}{m}×100 \% $$
 4. Plug the knowns into the equation.
    <div class="equation" >
- $$\begin{array}{lll}\text{\% increase}& =& \frac{\Delta m}{m}×100 \%\\ & =& \frac{ 2.88 \times 10^{-10} \text{kg}}{20.0 \text{kg}}×100 \%\\ & =& 1.44 \times 10^{-9} \%\text{.}\end{array} $$ 
+   $$\begin{array}{lll}\text{\% increase}& =& \frac{\Delta m}{m}×100 \%\\ & =& \frac{ 2.88 \times 10^{-10} \text{kg}}{20.0 \text{kg}}×100 \%\\ & =& 1.44 \times 10^{-9} \%\text{.}\end{array} $$ 
    </div>
 
 **Discussion**
@@ -221,7 +232,7 @@ has decreased. This is also the case when you use the energy stored in a
 battery, except that the stored energy is much greater in nuclear processes,
 making the change in mass measurable in practice as well as in theory.
 
-</div>
+:::
 
 ### Kinetic Energy and the Ultimate Speed Limit
 
@@ -244,16 +255,19 @@ increases this to the total energy $$E=\gamma mc^{2} $$ . Thus,
 
 Relativistically, we have $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Relativistic Kinetic Energy
 </div>
+
 **Relativistic kinetic energy** is
 
 <div class="equation" >
  $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2}. $$
 </div>
-</div>
+
+:::
 
 When motionless, we have $$v=0 $$ and
 
@@ -295,13 +309,15 @@ light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
 of light.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Speed of Light
 </div>
+
 **No object with mass can attain the speed of light.**
 
-</div>
+:::
 
 So the speed of light is the ultimate speed limit for any particle having mass.
 All of this is consistent with the fact that velocities less than $$c$$ always
@@ -313,10 +329,12 @@ velocity can only approach—not reach—the speed of light.
 ![In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed v (m/s). On the x-axis, velocity of the object is shown in terms of the speed of light starting from zero at origin to c, where c is the speed of light. The y-axis is labeled as Kinetic Energy K E (J). On the y-axis, relativistic kinetic energy is shown starting from 0 at origin to 1.0. The graph K sub r e l of relativistic kinetic energy is concave up and moving upward along the vertical line at x equals c. This graph shows that relativistic kinetic energy approaches infinity as the velocity of an object approaches the speed of light. Also shown is that when the speed of the object is equal to the speed of light c the kinetic energy is known as classical kinetic energy, which is denoted as K E sub class.](../resources/Figure_28_06_03.jpg 'This graph of ( \\text{KE}_\\text{rel} ) versus velocity shows how kinetic energy approaches infinity as velocity approaches the speed of light. It is thus not possible for an object having mass to reach the speed of light. Also shown is ( \\text{KE}_\\text{class} ), the classical kinetic energy, which is similar to relativistic kinetic energy at low velocities. Note that much more energy is required to reach high velocities than predicted classically. ')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Comparing Kinetic Energy: Relativistic Energy Versus Classical Kinetic Energy
 </div>
+
 An electron has a velocity  $$v= 0.990c $$ .
  (a) Calculate the kinetic energy in MeV of the electron. (b) Compare this with the classical value for kinetic energy at this velocity. (The mass of an electron is  $$ 9.11 \times 10^{-31}  \text{kg} $$ .)
 
@@ -348,7 +366,7 @@ and see that it is not the same.
 
 5. Convert units.
    <div class="equation" >
- $$\begin{array}{lll}{\text{KE}}_{\text{rel}}& =& \left(4.99 \times 10^{-13} \text{J}\right)\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 3.12 \text{MeV}\end{array} $$ 
+   $$\begin{array}{lll}{\text{KE}}_{\text{rel}}& =& \left(4.99 \times 10^{-13} \text{J}\right)\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 3.12 \text{MeV}\end{array} $$ 
    </div>
 
 **Solution for (b)**
@@ -358,12 +376,12 @@ and see that it is not the same.
 3. Choose the appropriate equation. $${\text{KE}}_{\text{class}}=\frac{1}{2}mv^{2}$$
 4. Plug the knowns into the equation.
    <div class="equation" >
- $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){\left(0.990 \right)}^{2}{\left( 3.00 \times 10^{8} \text{m/s} \right) }^{2}\\ & =& 4.02 \times 10^{-14} \text{J}\end{array} $$ 
+   $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){\left(0.990 \right)}^{2}{\left( 3.00 \times 10^{8} \text{m/s} \right) }^{2}\\ & =& 4.02 \times 10^{-14} \text{J}\end{array} $$ 
    </div>
 
 5. Convert units.
    <div class="equation" >
- $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& 4.02 \times 10^{-14} \text{J}\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 0.251 \text{MeV}\end{array} $$ 
+   $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& 4.02 \times 10^{-14} \text{J}\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 0.251 \text{MeV}\end{array} $$ 
    </div>
 
 **Discussion**
@@ -397,7 +415,7 @@ in [Particle Physics](../contents/ch33ParticlePhysics).
 ![An aerial view of the Fermi National Accelerator Laboratory. The accelerator has two large, ring shaped structures. There are circular ponds near the rings.](../resources/Figure_28_06_04.jpg 'The Fermi National Accelerator Laboratory, near Batavia, Illinois, was a subatomic particle collider that accelerated protons and antiprotons to attain energies up to 1 Tev (a trillion electronvolts). The circular ponds near the rings were built to dissipate waste heat. This accelerator was shut down in September 2011. (credit: Fermilab, Reidar Hahn)')
 {: #Figure4}
 
-</div>
+:::
 
 ### Relativistic Energy and Momentum
 
@@ -438,10 +456,12 @@ speed $$c$$ . While it is beyond the scope of this text to examine the
 relationship in the equation $${E}^{2}={\left( pc \right)}^{2}+{\left( mc^{2}\right)}^{2}, $$ in detail, we can see that the relationship has important
 implications in special relativity.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Problem-Solving Strategies for Relativity
 </div>
+
 1.   <em> Examine the situation to determine that it is necessary to use relativity</em>. Relativistic effects are related to
      $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$  , the quantitative relativistic factor. If $$\gamma  $$
     is very close to 1, then relativistic effects are small and differ very little from the usually easier classical calculations.
@@ -453,24 +473,30 @@ Problem-Solving Strategies for Relativity
 7.   <em> Check the answer to see if it is reasonable: Does it make sense?</em> This may be more difficult for relativity, since we do not encounter it directly. But you can look for velocities greater than $$c$$ or relativistic effects that are in the wrong direction (such as a time contraction where a dilation was expected).
 { type="1" .stepwise}
 
-</div>
+:::
 
 <div class="exercise"  data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem"  markdown="1">
+
+::: problem
+
 A photon decays into an electron-positron pair. What is the kinetic energy of the electron if its speed is  $$0.992c $$ ?
 
-</div>
+:::
+
 <div class="solution" >
 <div class="title">
 Answer
 </div>
+
 <div class="equation" >
  $$\begin{array}{lll}{\text{KE}}_{\text{rel}}& =& \left(\gamma -1\right)mc^{2}=\left(\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}-1\right)mc^{2}\\ & =& \left(\frac{1}{\sqrt{1-\frac{ {\left(0.992c \right)}^{2}}{ {c}^{2}}}}-1\right)\left( 9.11 \times 10^{-31}  \text{kg}\right) {\left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}= 5.67 \times 10^{-13}  \text{J}\end{array} $$
 </div>
+
 </div>
+
 </div>
 
 ### Section Summary
@@ -499,65 +525,89 @@ Answer
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How are the classical laws of conservation of energy and conservation of mass modified by modern relativity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What happens to the mass of water in a pot when it cools, assuming no molecules escape or are added? Is this observable in practice? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a thought experiment. You place an expanded balloon of air on weighing scales outside in the early morning. The balloon stays on the scales and you are able to measure changes in its mass. Does the mass of the balloon change as the day progresses? Discuss the difficulties in carrying out this experiment.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The mass of the fuel in a nuclear reactor decreases by an observable amount as it puts out energy. Is the same true for the coal and oxygen combined in a conventional power plant? If so, is this observable in practice for the coal and oxygen? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 We know that the velocity of an object with mass has an upper limit of  $$c$$ .
  Is there an upper limit on its momentum? Its energy? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Given the fact that light travels at  $$c$$ ,
  can it have mass? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you use an Earth-based telescope to project a laser beam onto the Moon, you can move the spot across the Moon’s surface at a velocity greater than the speed of light. Does this violate modern relativity? (Note that light is being sent from the Earth to the Moon, not across the surface of the Moon.)
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the rest energy of an electron, given its mass is  $$ 9.11 \times 10^{-31}  \text{kg} $$ ?
  Give your answer in joules and MeV.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -577,15 +627,19 @@ $$E_0 = \frac{8.20 \times 10^{-14} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV
 
 The electron's rest energy of 0.512 MeV (or 511 keV) is one of the most important constants in physics. This value represents the minimum energy required to create an electron-positron pair from pure energy, and it's the energy released when an electron and positron annihilate. The 0.512 MeV value is so fundamental that particle physicists often use it as a unit comparison—energies much greater than 0.512 MeV indicate relativistic electrons. This rest energy is also why beta decay can occur: when a neutron decays to a proton, the 1.29 MeV mass-energy difference is more than enough to create the electron (0.512 MeV) plus kinetic energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the rest energy in joules and MeV of a proton, given its mass is  $$ 1.67 \times 10^{-27}  \text{kg} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -605,15 +659,19 @@ $$E_0 = \frac{1.503 \times 10^{-10} \text{ J}}{1.602 \times 10^{-13} \text{ J/Me
 
 The proton's rest mass energy is approximately 938 MeV, a fundamental constant in particle physics. This is the minimum energy required to create a proton-antiproton pair from pure energy, and it represents the energy that would be released if a proton could be completely annihilated. The value 938 MeV is used so frequently in nuclear and particle physics that it's worth memorizing. It's about 1836 times larger than the electron's rest energy (0.511 MeV), reflecting the proton's greater mass.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the rest energies of a proton and a neutron (the two constituents of nuclei) are 938.3 and 939.6 MeV respectively, what is the difference in their masses in kilograms?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -639,16 +697,20 @@ $$\Delta m = 2.3 \times 10^{-30} \text{ kg}$$
 
 The neutron is heavier than the proton by about 1.3 MeV/c², or $$2.3 \times 10^{-30}$$ kg. This tiny mass difference (about 0.14% of the proton's mass) has profound consequences. It's why free neutrons are unstable—they decay via beta decay into a proton, electron, and antineutrino with a half-life of about 10 minutes. Inside stable nuclei, however, the nuclear binding energy can make neutrons stable. The mass difference is also crucial for understanding why hydrogen fusion in stars produces energy: four protons (plus two electrons) have more mass than a helium nucleus, with the difference released as energy. This 1.3 MeV difference is measurable with modern mass spectrometry and was one of the early confirmations of Einstein's mass-energy equivalence.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The Big Bang that began the universe is estimated to have released  $${10}^{68} \text{J} $$
  of energy. How many stars could half this energy create, assuming the average star's mass is  $$ 4.00 \times 10^{30}  \text{kg} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -676,18 +738,22 @@ Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$
 
 This problem illustrates the mind-boggling energy scale of the Big Bang and demonstrates that mass-energy conversion, while incredibly powerful at human scales, operates on scales matched by cosmic events.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A supernova explosion of a  $$ 2.00 \times 10^{31}  \text{kg} $$
  star produces  $$ 1.00 \times 10^{44}  \text{J} $$
  of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio  $$\Delta m/m $$
  of mass destroyed to the original mass of the star?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -711,15 +777,19 @@ About $$1.11 \times 10^{27}$$ kg of mass—roughly 0.6% of Earth's mass or 1/180
 
 Most supernova energy comes from gravitational collapse releasing the star's gravitational binding energy, not from mass directly converting to energy in the explosion itself. The actual mass defect in the nuclear reactions forming iron-peak elements is much smaller. This problem illustrates the immense energy scales involved in stellar death—$$10^{44}$$ J is roughly the energy output of our Sun over several million years, all released in seconds!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using data from [[Table]](../contents/ch7ConservationOfEnergy#Table1), calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass,  $$\Delta m/m $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -743,17 +813,21 @@ Less than one-tenth of one percent (0.089%) of the uranium's mass is converted t
 
 The small mass loss (0.89 grams per kilogram) explains why mass-energy equivalence wasn't discovered earlier—the mass decrease is measurable with modern precision balances but would have been impossible to detect in the 19th century. This also explains why nuclear reactors don't visibly "shrink" as they operate—the spent fuel looks nearly identical in mass to fresh fuel, despite having released tremendous energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using data from [[Table1]](../contents/ch7ConservationOfEnergy#Table1), calculate the amount of mass converted to energy by the fusion of 1.00 kg of hydrogen. (b) What is the ratio of mass destroyed to the original mass,  $$\Delta m/m $$ ?
  (c) How does this compare with  $$\Delta m/m $$
  for the fission of 1.00 kg of uranium?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -783,17 +857,21 @@ Fusion converts 0.71% of hydrogen's mass to energy—about 8 times more efficien
 
 The mass converted (7.1 grams per kilogram) is substantial enough to be measurable with precision balances. If we could fusion 1 kg of hydrogen, it would release $$6.4 \times 10^{14}$$ J—enough to power a city for days. The challenge is achieving the extreme temperatures (tens of millions of degrees) and pressures needed to overcome electrostatic repulsion between nuclei. Despite being much more efficient than fission, controlled fusion for power generation remains an engineering challenge, though significant progress is being made in facilities like ITER and the National Ignition Facility.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There is approximately  $${10}^{34} \text{J} $$
  of energy available from fusion of hydrogen in the world's oceans. (a) If  $${10}^{33} \text{J} $$
  of this energy were utilized, what would be the decrease in mass of the oceans? Assume that 0.08% of the mass of a water molecule is converted to energy during the fusion of hydrogen. (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -821,16 +899,20 @@ $$\frac{m_{\text{water}}}{m_{\text{oceans}}} = \frac{1.39 \times 10^{19}}{1.4 \t
 
 Remarkably, utilizing just 10% of the available fusion energy ($$10^{33}$$ out of $$10^{34}$$ J) would consume only about 1% of the ocean's water! This demonstrates the incredible energy density of fusion. The volume involved ($$1.4 \times 10^{13}$$ km³) sounds enormous, but it's tiny compared to the total ocean volume ($$1.4 \times 10^9$$ km³). If fusion power becomes practical, the deuterium in Earth's oceans could power human civilization for millions of years without significantly depleting the oceans. This is one reason fusion is considered the "ultimate" energy source—the fuel is virtually inexhaustible and readily available.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron's kinetic energy, find  $$\gamma  $$
  for the electron. (b) What is the electron's velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -868,18 +950,22 @@ The electron from muon decay emerges with $$\gamma = 207$$, traveling at 99.9988
 
 Such energetic electrons from muon decay are important in cosmic ray physics and particle detectors. The problem simplifies reality—actual muon decay produces an electron, electron antineutrino, and muon neutrino, with the energy shared among all three. But this illustrates the extreme velocities achievable when light particles receive energy from heavy particle decays. The electron's enormous $$\gamma$$ factor means relativistic effects dominate: its momentum, time dilation, and length contraction are all increased by a factor of ~200 compared to classical predictions.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $$\pi  $$
 -meson is a particle that decays into a muon and a massless particle. The  $$\pi  $$
 -meson has a rest mass energy of 139.6 MeV, and the muon has a rest mass energy of 105.7 MeV. Suppose the  $$\pi  $$
 -meson is at rest and all of the missing mass goes into the muon's kinetic energy. How fast will the muon move?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -915,15 +1001,19 @@ $$v = 0.653c$$
 
 The muon emerges traveling at about 65% the speed of light. This problem illustrates several important principles: (1) energy conservation applies to particle decays, (2) "missing mass" is converted to kinetic energy, and (3) momentum conservation also applies (the massless particle—a neutrino—carries away momentum to balance the muon's momentum). The fact that the muon takes most of the available energy but not all of it is due to momentum conservation: in the pion's rest frame, the products must have equal and opposite momenta, so the massless neutrino (traveling at $$c$$) must carry significant energy despite having no mass.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the relativistic kinetic energy of a 1000-kg car moving at 30.0 m/s if the speed of light were only 45.0 m/s. (b) Find the ratio of the relativistic kinetic energy to classical.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -957,16 +1047,20 @@ In this imaginary universe with $$c = 45$$ m/s (about 100\text{ mph}), everyday 
 
 This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30\text{ m}/s represents only $$10^{-7}c$$, giving $$\gamma = 1.0000000000005$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45\text{ m}/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of  $$ 6.80 \times 10^{-27}  \text{kg} $$
  and is given 5.00 MeV of kinetic energy, what is its velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -994,15 +1088,19 @@ As a fraction of $$c$$: $$v = \frac{1.54 \times 10^7}{3.00 \times 10^8} = 0.0513
 
 The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At this velocity, relativistic corrections are only about $$\frac{1}{2}\gamma^2 v^2/c^2 \approx 0.13\%$$, confirming that classical mechanics is adequate. This velocity is typical for alpha particles from radioactive decay. While 5% of $$c$$ seems fast, it's slow enough that alpha particles can be stopped by a sheet of paper or a few centimeters of air. This low penetration (despite high energy) is due to the alpha particle's relatively large mass and double positive charge, which cause strong interactions with matter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Beta decay is nuclear decay in which an electron is emitted. If the electron is given 0.750 MeV of kinetic energy, what is its velocity? (b) Comment on how the high velocity is consistent with the kinetic energy as it compares to the rest mass energy of the electron.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1038,15 +1136,19 @@ Beta particles (electrons from nuclear decay) with 0.75 MeV kinetic energy are h
 
 In beta decay, electrons are emitted with a continuous energy spectrum from near zero up to a maximum determined by the nuclear transition energy. A 0.75 MeV electron would be near the high end of many beta spectra. The relativistic velocity has practical implications: beta particle detectors must account for time dilation and length contraction effects, and shielding calculations must use relativistic kinematics rather than classical formulas.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A positron is an antimatter version of the electron, having exactly the same mass. When a positron and an electron meet, they annihilate, converting all of their mass into energy. (a) Find the energy released, assuming negligible kinetic energy before the annihilation. (b) If this energy is given to a proton in the form of kinetic energy, what is its velocity? (c) If this energy is given to another electron in the form of kinetic energy, what is its velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1088,18 +1190,22 @@ $$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{9}} = c\sqrt{\frac{8}{9}}
 
 Part (a) shows that electron-positron annihilation releases 1.02 MeV, which appears as two gamma-ray photons in practice (to conserve momentum). Part (b) demonstrates that this energy barely accelerates a proton—only to 4.7% of $$c$$—because the proton is 1836 times heavier than the electron. Part (c) shows that the same energy accelerates an electron to 94% of $$c$$, illustrating how particle mass dramatically affects the velocity achieved for a given energy. This is why particle accelerators use electrons for certain experiments: they reach relativistic speeds with much less energy than protons require.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the kinetic energy in MeV of a  $$\pi  $$
 -meson that lives  $$1.40 \times 10^{-16} \text{s} $$
  as measured in the laboratory, and  $$0.840 \times 10^{-16} \text{s} $$
  when at rest relative to an observer, given that its rest energy is 135 MeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1123,15 +1229,19 @@ The pion's lifetime measured in the lab ($$1.40 \times 10^{-16}$$ s) is 1.67 tim
 
 This problem beautifully illustrates the connection between time dilation and energy. The pion's extended lifetime in the lab frame is a direct consequence of its high energy and velocity. Such relativistic pions are commonly produced in particle accelerators and cosmic ray interactions. The fact that we can infer the pion's kinetic energy simply by measuring how long it lives (compared to its known rest lifetime) is a practical application of relativity in particle physics. Detectors routinely use lifetime measurements to determine particle energies and velocities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s, given its rest energy is 939.6 MeV, and rest life span is 900s.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1153,19 +1263,23 @@ $$KE = (1.294)(939.6) = 1216 \text{ MeV} = 1.22 \text{ GeV}$$
 
 This relativistic neutron has kinetic energy of about 1.22 GeV, which is greater than its rest mass energy (940 MeV). At this energy, $$\gamma = 2.3$$, meaning the neutron's lifetime is extended by that factor, allowing it to travel much farther before decaying than it would at rest. Such high-energy neutrons are produced in cosmic ray interactions and particle accelerators. The extended lifetime due to time dilation is crucial for detecting these particles—without relativistic effects, they would decay before reaching detectors. This problem beautifully connects time dilation with energy, showing how measuring a particle's lifetime can reveal its kinetic energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Show that  $${\left(pc\right)}^{2}/{\left(mc^{2}\right)}^{2}=\gamma^{2}-1 $$ .
  This means that at large velocities  $$pc \gg mc^{2} $$ .
  (b) Is  $$E\approx \text{pc} $$
  when  $$\gamma = 30.0 $$ ,
  as for the astronaut discussed in the twin paradox?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1209,17 +1323,21 @@ Part (b) shows that at $$\gamma = 30$$, the total energy (30$$mc^2$$) is almost 
 
 This relation is crucial in particle physics: at high energies (GeV to TeV scales), all particles effectively behave as if massless, and $$E = pc$$ becomes an excellent approximation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One cosmic ray neutron has a velocity of  $$0.250c $$
  relative to the Earth. (a) What is the neutron's total energy in MeV? (b) Find its momentum. (c) Is  $$E\approx \text{pc} $$
  in this situation? Discuss in terms of the equation given in part (a) of the previous problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1259,16 +1377,20 @@ The approximation $$E \approx pc$$ is only valid when $$pc \gg mc^2$$, i.e., whe
 
 At $$v = 0.250c$$, the neutron is mildly relativistic but not ultra-relativistic. The total energy is dominated by rest mass (97% rest energy, only 3% kinetic energy). For the approximation $$E \approx pc$$ to hold, we typically need $$\gamma > 10$$, where kinetic energy far exceeds rest energy. This problem illustrates the transition from non-relativistic ($$E \approx mc^2$$) to ultra-relativistic ($$E \approx pc$$) regimes, with this neutron falling in between.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is  $$\gamma  $$
  for a proton having a mass energy of 938.3 MeV accelerated through an effective potential of 1.0 TV (teravolt) at Fermilab outside Chicago?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1294,16 +1416,20 @@ At Fermilab's Tevatron collider (now decommissioned), protons were accelerated t
 
 At this energy, the protons' momentum, time dilation, and length contraction are all magnified by a factor of ~1000 compared to rest values. From the proton's perspective, the Tevatron ring (about 6 km circumference) appears contracted to only 6 meters! These ultra-relativistic protons, when collided with anti-protons (also at 1 TeV), provided collision energies up to 2 TeV, allowing discovery of the top quark and detailed studies of the Standard Model. Today, the Large Hadron Collider achieves even higher energies (up to 7 TeV per proton), with $$\gamma \approx 7500$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the effective accelerating potential for electrons at the Stanford Linear Accelerator, if  $$\gamma = 1.00 \times 10^{5}  $$
  for them? (b) What is their total energy (nearly the same as kinetic in this case) in GeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1333,16 +1459,20 @@ Note that $$KE \approx E$$ since $$\gamma \gg 1$$ (rest energy is negligible com
 
 At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v = c\sqrt{1-\frac{1}{\gamma^2}} \approx c(1 - 5 \times 10^{-11})$$, differing from light speed by less than one part in 10 billion! The 51 GeV energy was typical for SLAC's highest-energy experiments. At this energy, the electron's kinetic energy is 100,000 times its rest mass, demonstrating the ultra-relativistic regime where essentially all energy goes into kinetic energy rather than increasing rest mass. This is why particle physicists often quote energies in GeV rather than speeds—at these energies, everything travels at essentially $$c$$, so energy is the more meaningful parameter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using data from [[Table]](../contents/ch7ConservationOfEnergy#Table1), find the mass destroyed when the energy in a barrel of crude oil is released. (b) Given these barrels contain 200 liters and assuming the density of crude oil is  $$750 kg{\text{/m}}^{3} $$ ,
  what is the ratio of mass destroyed to original mass,  $$\Delta m/m $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1376,15 +1506,19 @@ Burning a 200-liter barrel of crude oil releases about 5.9 billion joules, which
 
 Compare this to nuclear fission ($$\Delta m/m \approx 10^{-3}$$) or fusion ($$\Delta m/m \approx 10^{-2}$$): chemical reactions are a million times less efficient at converting mass to energy. Nevertheless, that tiny 65 nanogram mass loss represents enough energy to drive a car several hundred kilometers. If we could convert the entire 150 kg barrel to energy (rather than just 0.00000001% of it), the energy released would equal several thousand nuclear weapons!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the energy released by the destruction of 1.00 kg of mass. (b) How many kilograms could be lifted to a 10.0 km height by this amount of energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1413,15 +1547,19 @@ Complete conversion of just 1 kg of mass releases $$9 \times 10^{16}$$ J—enoug
 
 This staggering energy density explains why even tiny amounts of mass-energy conversion (as in nuclear reactions) produce enormous energy outputs, and why complete matter-antimatter annihilation would be the ultimate energy source—if we could harness it practically.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A Van de Graaff accelerator utilizes a 50.0 MV potential difference to accelerate charged particles such as protons. (a) What is the velocity of a proton accelerated by such a potential? (b) An electron?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1461,17 +1599,21 @@ In stark contrast, the same potential accelerates electrons to 99.995% of light 
 
 Van de Graaff accelerators can achieve potentials up to about 25 MV in practice, so this 50 MV example is at the high end. These accelerators are used for nuclear physics research, ion implantation, and radiation therapy. The vastly different final velocities for protons vs. electrons affect beam focusing, shielding requirements, and applications.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you use an average of  $$500 kW·h $$
  of electric energy per month in your home. (a) How long would 1.00 g of mass converted to electric energy with an efficiency of 38.0% last you? (b) How many homes could be supplied at the  $$500 kW·h $$
  per month rate for one year by the energy from the described mass conversion?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1505,15 +1647,19 @@ $$N = \frac{9.50 \times 10^6}{6000} = 1583 \text{ homes}$$
 
 One gram of mass, converted to electricity at 38% efficiency (typical for a good power plant), could power your home for over 1500 years, or power 1583 homes for an entire year! This demonstrates the incredible energy density inherent in mass. For comparison, a typical coal plant burns about 2-3 million kg of coal per year to produce similar energy output. The 38% efficiency assumed is realistic for modern power plants, where much energy is lost as waste heat. If we could achieve 100% efficiency, that single gram would last over 4000 years!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A nuclear power plant converts energy from nuclear fission into electricity with an efficiency of 35.0%. How much mass is destroyed in one year to produce a continuous 1000 MW of electric power? (b) Do you think it would be possible to observe this mass loss if the total mass of the fuel is  $${10}^{4} \text{kg} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1551,16 +1697,20 @@ However, this mass loss IS routinely measured in practice. Nuclear fuel is weigh
 
 For perspective, consuming 1 kg/year means the plant converts mass to energy at $$\Delta m/\Delta t = 32$$ nanograms per second—tiny, yet sufficient to power a city. If coal plants could convert mass with the same efficiency, 1 kg of coal would power the same city for over a year instead of for seconds!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket's mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of  $$1.00 \times 10^{5}  \text{kg} $$
  (100 tons), what total yield nuclear explosion in tons of TNT is needed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1600,16 +1750,20 @@ This is why nuclear rockets were seriously considered in the 1960s (Project Orio
 
 Chemical rockets burn thousands of tons of fuel to reach orbit because chemical reactions convert only $$~10^{-10}$$ of fuel mass to energy, while nuclear reactions could theoretically convert $$~10^{-3}$$ (10,000 times more efficient). Modern nuclear rocket research focuses on nuclear thermal (heating propellant) rather than direct mass conversion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The Sun produces energy at a rate of  $$ 4.00 \times 10^{26}  $$
  W by the fusion of hydrogen. (a) How many kilograms of hydrogen undergo fusion each second? (b) If the Sun is 90.0% hydrogen and half of this can undergo fusion before the Sun changes character, how long could it produce energy at its current rate? (c) How many kilograms of mass is the Sun losing per second? (d) What fraction of its mass will it have lost in the time found in part (b)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1652,11 +1806,14 @@ At this rate, the Sun can shine for 45 billion years before exhausting its fusio
 
 Over its 10-billion-year main sequence lifetime, the Sun will lose only 0.32% of its mass—a tiny fraction, yet representing $$6 \times 10^{27}$$ kg, or 3000 times Earth's mass! This lost mass becomes the light, heat, and solar wind that make life on Earth possible. Every photon we receive from the Sun represents a tiny piece of the Sun's vanishing mass, converted to energy 150 million kilometers away.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A proton has a mass of $$ 1.67 \times 10^{-27} \text{kg} $$ . A physicist
@@ -1664,8 +1821,9 @@ measures the proton's total energy to be 50.0 MeV. (a) What is the proton's
 kinetic energy? (b) What is unreasonable about this result? (c) Which
 assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1691,11 +1849,14 @@ The physicist may have mistakenly measured the kinetic energy (50 MeV is a reaso
 
 This "unreasonable results" problem teaches an important lesson about total vs. kinetic energy in relativity. In classical physics, where rest energy isn't considered, we might casually use "energy" to mean kinetic energy. In relativity, we must be precise: total energy $$E = \gamma mc^2$$ always exceeds rest energy $$mc^2$$, with the difference being kinetic energy. Any measurement showing total energy less than rest energy signals an error in measurement or interpretation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a highly relativistic particle. Discuss what is meant by the term
@@ -1707,11 +1868,14 @@ be considered are the rest energy of the particle (it should be a known
 particle) and its total energy, which should be large compared to its rest
 energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider an astronaut traveling to another star at a relativistic velocity.
@@ -1723,10 +1887,12 @@ velocity, and the mass of the astronaut and ship. Unless your instructor directs
 you otherwise, do not include any energy given to other masses, such as rocket
 propellants.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1741,4 +1907,4 @@ relativistic kinetic energy
 : the kinetic energy of an object moving at relativistic speeds:
 $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
-</div>
+:::

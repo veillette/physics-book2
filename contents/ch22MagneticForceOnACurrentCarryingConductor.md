@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the effects of a magnetic force on a current-carrying conductor.
 * Calculate the magnetic force on a current-carrying conductor.
-</div>
+
+:::
 
 Because charges ordinarily cannot escape a conductor, the magnetic force on
 charges moving in a conductor is transmitted to the conductor itself.
@@ -50,10 +51,12 @@ points in the direction of $$F $$ , as in [[Figure 2]](#Figure2).
 ![Illustration of the right hand rule 1 showing the thumb pointing right in the direction of current I, the fingers pointing into the page with magnetic field B, and the force directed up, away from the palm.](../resources/Figure_22_07_02.jpg 'The force on a current-carrying wire in a magnetic field is ( F=IlB \\sin \\theta ) . Its direction is given by RHR-1. ')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Magnetic Force on a Current-Carrying Wire: A Strong Magnetic Field
 </div>
+
 Calculate the force on the wire shown in [[Figure 1]](#Figure1), given  $$B=1.50 \text{T} $$ ,
   $$l=5.00 \text{cm} $$ ,  and  $$I= 20.0 \text{A} $$.
 **Strategy**
@@ -67,16 +70,18 @@ Entering the given values into $$F=IlB \sin \theta $$ yields
 <div class="equation" >
  $$F=IlB \sin \theta =\left(20.0\text{A}\right)\left(0.0500 \text{m}\right)\left(1.50 \text{T}\right)\left(1\right)\text{.} $$
 </div>
+
 The units for tesla are  $$1 \text{T}=\frac{N}{\text{A}\cdot \text{m}} $$ ;  thus,
 
 <div class="equation" >
  $$F=1.50 \text{N} \text{.}  $$
 </div>
+
 **Discussion**
 
 This large magnetic field creates a significant force on a small length of wire.
 
-</div>
+:::
 
 Magnetic force on current-carrying conductors is used to convert electric energy
 to work. (Motors are a prime example—they employ loops of wire and are
@@ -118,44 +123,59 @@ inefficient—much development work is needed.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Draw a sketch of the situation in [[Figure 1]](#Figure1) showing the direction of electrons carrying the current, and use RHR-1 to verify the direction of the force on the wire.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that the direction of the force in an MHD drive, such as that in [[Figure 3]](#Figure3), does not depend on the sign of the charges carrying the current across the fluid.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why would a magnetohydrodynamic drive work better in ocean water than in fresh water? Also, why would superconducting magnets be desirable?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Which is more likely to interfere with compass readings, AC current in your refrigerator or DC current when you start your car? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the direction of the magnetic force on the current in each of the six cases in [[Figure 5]](#Figure5)?
 
 ![Figure a shows the magnetic field B out of the page and the current I downward. Figure b shows B toward the right and I upward. Figure c shows B into the page and I toward the right. Figure d shows B toward the right and I toward the left. Figure e shows B upward and I into the page. Figure f shows B toward the left and I out of the page.](../resources/Figure_22_07_05.jpg ' ')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -181,18 +201,22 @@ These are the same results as for positive charges moving in the same directions
 
 **(a) West (left); (b) Into page; (c) North (up); (d) No force; (e) East (right); (f) South (down).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the direction of a current that experiences the magnetic force shown in each of the three cases in [[Figure 6]](#Figure6), assuming the current runs perpendicular to  $$B $$ ?
 
 ![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_22_07_06.jpg ' ')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -212,19 +236,23 @@ This inverse problem-solving technique is useful for designing electromagnetic d
 
 **(a) East (right); (b) Out of the page; (c) South (down).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the direction of the magnetic field that produces the magnetic force shown on the currents in each of the three cases in [[Figure 7]](#Figure7), assuming  $$\vb{B} $$
  is perpendicular to  $$\vb{I} $$ ?
 
 ![Figure a show the current I vector pointing upward and the force F vector pointing left. Figure b shows the current vector pointing down and F directed into the page. Figure c shows the current pointing left and force pointing up.](../resources/Figure_22_07_07.jpg ' ')
 {: #Figure7}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -244,16 +272,20 @@ Finding the magnetic field direction from known force and current is important f
 
 **(a) Into the page; (b) West (left); (c) Out of the page.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the force per meter on a lightning bolt at the equator that carries 20 000 A perpendicular to the Earth's  $$ 3.00 \times 10^{-5} \text{-T} $$
  field? (b) What is the direction of the force if the current is straight up and the Earth's field direction is due north, parallel to the ground?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -286,17 +318,21 @@ The force of 0.6 N/m seems modest for such an enormous current (20,000 A), but t
 
 **(b) The force direction is west (toward the left when facing north).**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A DC power line for a light-rail system carries 1000 A at an angle of  $$30.0 ^\circ $$
  to the Earth’s  $$ 5.00 \times 10^{-5}  \text{-T} $$
  field. What is the force on a 100-m section of this line? (b) Discuss practical concerns this presents, if any.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -337,15 +373,19 @@ If the wire were oriented perpendicular to the field ($$\theta = 90°$$), the fo
 
 **(b) This force is negligible compared to the wire's weight and other structural loads. No special concerns arise from this magnetic force.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What force is exerted on the water in an MHD drive utilizing a 25.0-cm-diameter tube, if 100-A current is passed across the tube that is perpendicular to a 2.00-T magnetic field? (The relatively small size of this force indicates the need for very large currents and magnetic fields to make practical MHD drives.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -376,15 +416,19 @@ The Japanese experimental ship *Yamato 1* (1992) used a 4 T superconducting magn
 
 **The force on the water is 50.0 N, which is relatively small for propulsion purposes.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A wire carrying a 30.0-A current passes between the poles of a strong magnet that is perpendicular to its field and experiences a 2.16-N force on the 4.00 cm of wire in the field. What is the average field strength?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -412,18 +456,22 @@ A field strength of 1.80 T is quite strong—achievable with high-quality perman
 
 **The average magnetic field strength is 1.80 T.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of  $$60 ^\circ $$
  with the Earth's  $$ 5.50 \times 10^{-5}  \text{T} $$
  field. What is the current when the wire experiences a force of  $$ 7.00 \times 10^{-3}  \text{N} $$ ?
  (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -471,16 +519,20 @@ The 196 A current is very high—typical of starter motor currents, which must d
 
 **(b) The force on the 5.00-cm segment in the 1.75-T field is 17.2 N.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the angle between a wire carrying an 8.00-A current and the 1.20-T field it is in if 50.0 cm of the wire experiences a magnetic force of 2.40 N? (b) What is the force on the wire if it is rotated to make an angle of  $$90 ^\circ $$
  with the field?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -522,18 +574,22 @@ The force doubles when the wire is rotated from 30° to 90°. This is because $$
 
 **(b) The force on the wire at 90° is 4.80 N.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The force on the rectangular loop of wire in the magnetic field in [[Figure 8]](#Figure8) can be used to measure field strength. The field is uniform, and the plane of the loop is perpendicular to the field. (a) What is the direction of the magnetic force on the loop? Justify the claim that the forces on the sides of the loop are equal and opposite, independent of how much of the loop is in the field and do not affect the net force on the loop. (b) If a current of 5.00 A is used, what is the force per tesla on the 20.0-cm-wide loop?
 
 ![Diagram showing a rectangular loop of wire, one end of which is within a magnetic field that is present within a circular area. The field B is oriented out of the page. The current I runs in the plane of the page, down the left side of the circuit, toward the right at the bottom of the circuit, and upward on the right side of the circuit. The length of the segment of wire that runs left to right at the bottom of the circuit is twenty centimeters long.](../resources/Figure_22_07_08.jpg 'A rectangular loop of wire carrying a current is perpendicular to a magnetic field. The field is uniform in the region shown and is zero outside that region.')
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -574,5 +630,6 @@ This configuration is the basis of a current balance, used historically to defin
 
 **(b) The force per tesla on the loop is 1.00 N/T.**
 
-</div>
+:::
+
 </div>

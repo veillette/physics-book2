@@ -7,10 +7,9 @@ import { createMarkdown } from './lib/eleventy/markdown.js';
 const PATH_PREFIX = process.env.VERCEL ? '/' : '/physics-book2/';
 
 export default function (eleventyConfig) {
-  // src/contents/ is a gitignored build artifact (D4) that the converter generates,
-  // but Eleventy must still build from it — so do NOT let .gitignore drive Eleventy's
-  // input ignores. Exclusions live in .eleventyignore instead. (Eleventy always
-  // ignores node_modules regardless.)
+  // Input is the repo root, so drive input exclusions explicitly from .eleventyignore
+  // rather than .gitignore (which would also drop tracked things we DO build). Eleventy
+  // always ignores node_modules regardless.
   eleventyConfig.setUseGitIgnore(false);
 
   // Custom markdown-it stack (math passthrough, IAL attrs, Kramdown slugs,
@@ -39,7 +38,7 @@ export default function (eleventyConfig) {
   // with /SUMMARY.html etc.) — roadmap section 2.3.
   eleventyConfig.addFilter('trimSlash', v => String(v).replace(/\/+$/, ''));
 
-  // Passthrough paths are relative to the project root (input is src/).
+  // Passthrough paths are relative to the project root.
   eleventyConfig.addPassthroughCopy({
     assets: 'assets', // includes js/mathjax, pwa, pdf (when present)
     resources: 'resources',
@@ -49,12 +48,12 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      input: 'src',
+      input: '.',
       includes: '_includes',
       layouts: '_includes/layouts',
       data: '_data',
     },
-    templateFormats: ['md', 'njk', 'html'],
+    templateFormats: ['md', 'njk'], // no .html templates (index/sw are .njk now)
     markdownTemplateEngine: false, // D2: nothing touches markdown bodies (protects math)
     htmlTemplateEngine: 'njk',
     pathPrefix: PATH_PREFIX,

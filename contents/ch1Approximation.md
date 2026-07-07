@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 4
 chapterNumber: 1
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Make reasonable approximations based on given data.
-</div>
+
+:::
 
 On many occasions, physicists, other scientists, and engineers need to make
 **approximations** or “guesstimates” for a particular quantity. What is the
@@ -23,10 +24,12 @@ us to rule out certain scenarios or unrealistic numbers. Approximations also
 allow us to challenge others and guide us in our approaches to our scientific
 world. Let us do two examples to illustrate this concept.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Approximate the Height of a Building
 </div>
+
 Can you approximate the height of one of the buildings on your campus, or in your neighborhood? Let us make an approximation based upon the height of a person. In this example, we will calculate the height of a 39-story building.
 
 **Strategy**
@@ -51,12 +54,14 @@ You can use known quantities to determine an approximate measurement of unknown
 quantities. If your hand measures 10 cm across, how many hand lengths equal the
 width of your desk? What other measurements can you approximate besides length?
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Approximating Vast Numbers: a Trillion Dollars
 </div>
+
 ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred  \$100 bills, and is worth  \$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #Figure1}
 
 The U.S. federal deficit in the 2019 fiscal year was a little greater than $$ 1 $$
@@ -90,6 +95,7 @@ $$ \begin{array}{lll}
 \text{volume of stack}=9 \text{in.}^{3} .
 \end{array} $$
 </div>
+
 (2) Calculate the number of stacks. Note that a trillion dollars is equal to  $$ \$1\times 10^{12} , $$
 and a stack of one-hundred  \$100 bills is equal to  \$10 000, 
 or  $$  \$1\times 10^{4}  $$. The number of stacks you will have is:
@@ -97,6 +103,7 @@ or  $$  \$1\times 10^{4}  $$. The number of stacks you will have is:
 <div class="equation">
   $$ \frac{ \$1 \times 10^{12}  \left( \text{ a trillion dollars } \right)}{1 \times 10^{4} \$ \text{per stack} } =1\times 10^{8}\text{stacks.}  $$
 </div>
+
 (3) Calculate the area of a football field in square inches. The area of a football field is
  $$ 100 \text{yd} \times 50 \text{yd} \text{,}   $$
 which gives  $$ 5000 \text{yd}^{2}.  $$
@@ -111,6 +118,7 @@ $$ \begin{array}{lll}
 \text{Area} \approx 6\times 10^{6} \text{in.}^{2}.
 \end{array} $$
 </div>
+
 This conversion gives us  $$ 6\times 10^{6}\text{in.}^{2}  $$
 for the area of the field. (Note that we are using only one significant figure
 in these calculations.)
@@ -128,6 +136,7 @@ $$ \begin{array}{lll}
 \text{Height of money}& \approx & 1\times 10^{2}\text{in.}=100 \text{in.}
 \end{array} $$
 </div>
+
 The height of the money will be about 100 in. high. Converting this value to feet gives
 
 <div class="equation">
@@ -141,21 +150,26 @@ the other early estimate of 10 ft (120 in.) was roughly correct. How did the
 approximation measure up to your first guess? What can this exercise tell you in
 terms of rough “guesstimates” versus carefully calculated approximations?
 
-</div>
+:::
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approximation.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 An average male is about two meters tall. It would take approximately 15 men
 laid out end to end to cover the length, and about 7 to cover the width. That gives an approximate area of  $$ 420 \mm  $$.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -166,11 +180,15 @@ and analyze systems.
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many heartbeats are there in a lifetime?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 To estimate heartbeats in a lifetime, we need to estimate the average heart rate and average lifespan.
@@ -197,15 +215,20 @@ This enormous number of approximately 3 billion heartbeats illustrates the remar
 
 Sample answer: $$ 2\times 10^{9} $$ to $$ 3\times 10^{9} $$ heartbeats
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Estimate the time since year 0 AD, then divide by the length of a generation.
@@ -235,16 +258,21 @@ The relatively small number of only 80 generations shows how recent human record
 
 Approximately __80 generations__ have passed since the year 0 AD (assuming about 25 years per generation).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many times longer than the mean life of an extremely unstable atomic
 nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of  $$ 10^{-22} \s  $$.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to compare the human lifetime to the lifetime of an unstable atomic nucleus by finding their ratio.
@@ -269,17 +297,22 @@ This truly astronomical factor of $$ 10^{31} $$ illustrates the vast range of ti
 
 Sample answer: $$ 2\times 10^{31} $$ times longer (if an average human lifetime is taken to be about 70 years).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten
 times the mass of a hydrogen atom. (Hint: The mass of a hydrogen atom is on the order of  $$ 10^{-27}\kg  $$
 and the mass of a bacterium is on the order of  $$ 10^{-15} \kg  $$) .
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Divide the total mass of the bacterium by the average mass of an atom to find the number of atoms.
@@ -308,18 +341,23 @@ The result of approximately 100 billion atoms reveals that even the tiniest livi
 
 A bacterium contains approximately __10¹¹ atoms__ (or about 100 billion atoms).
 
-</div>
+:::
+
 </div>
 
 ![A magnified image of the bacterium Salmonella attacking a human cell. The bacterium is rod shaped and about zero point seven to one point five micrometers in diameter and two to five micrometers in length.](../resources/Figure_01_04_02.jpg 'This color-enhanced photo shows Salmonella typhimurium (red) attacking human cells. These bacteria are commonly known for causing foodborne illness. Can you estimate the number of atoms in each bacterium? (credit: Rocky Mountain Laboratories, NIAID, NIH)')
 {: #Figure2}
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to estimate how many atoms fit across the thickness of a cell membrane, given that the atoms are about twice the size of a hydrogen atom.
@@ -346,16 +384,21 @@ The remarkably small thickness of only about 50 atoms demonstrates how incredibl
 
 Sample answer: 50 atoms
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What fraction of Earth's diameter is the greatest ocean depth?
 (b) The greatest mountain height?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use Table 3 to find the relevant values, then calculate the ratios.
@@ -392,16 +435,21 @@ The tiny ratio of 1/1000 for both ocean depths and mountain heights reveals that
 
 Both the deepest ocean trenches and highest mountains are tiny compared to Earth's diameter, representing only about 0.1% of it.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium.
 (b) Making the same assumption, how many cells are there in a human?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We need to estimate the number of cells by dividing the total mass by the mass of a single cell (which is 10 times the mass of a bacterium).
@@ -441,15 +489,20 @@ Sample answers:
 
 (b) $$ 10^{16} $$ cells/human
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From Table 3, find the duration of a nerve impulse, then calculate the maximum firing rate.
@@ -473,14 +526,16 @@ The maximum firing rate of a nerve is approximately __1000 impulses per second__
 
 This is consistent with known biological limits - most neurons fire at rates well below 1000 Hz, with typical maximum rates being a few hundred Hz for most neurons.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
 approximation
 : an estimated value based on prior experience and reasoning
 
-</div>
+:::

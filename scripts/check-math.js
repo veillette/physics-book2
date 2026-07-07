@@ -15,6 +15,7 @@
  */
 
 import path from 'path';
+import { pathToFileURL } from 'url';
 
 import {
   printHeader,
@@ -62,8 +63,11 @@ function countDelimiters(line) {
       const remainingText = line.substring(i + 1);
 
       // First check: is there a closing $ within a reasonable distance (likely inline math)?
+      // A nearby `$<digit>` is another currency amount (e.g. "$10, $20"), not a math
+      // closing delimiter, so it does not count.
+      const nearbyIdx = remainingText.indexOf('$');
       const hasNearbyClosingDollar =
-        remainingText.indexOf('$') !== -1 && remainingText.indexOf('$') < 50;
+        nearbyIdx !== -1 && nearbyIdx < 50 && !/^\$\d/.test(remainingText.substring(nearbyIdx));
 
       // Simple currency: digits, optional decimal, followed by space/punctuation/end
       // But NOT followed by backslash (LaTeX), math symbols, or degree sign
@@ -73,8 +77,9 @@ function countDelimiters(line) {
       if (match && !hasNearbyClosingDollar) {
         const afterNumber = remainingText.substring(match[0].length);
         // Check what comes after the number
-        // If it's followed by: word boundary + normal text (not LaTeX or math symbols), treat as currency
-        const isFollowedByText = /^(\s|\/|,|\)|;|\.|\s+[a-z])/i.test(afterNumber);
+        // If it's followed by: word boundary + normal text (not LaTeX or math symbols), or
+        // the end of the line, treat as currency.
+        const isFollowedByText = /^(\s|\/|,|\)|;|\.|\s+[a-z]|$)/i.test(afterNumber);
         const isFollowedByMath = /^(\s*\\|\s*\^|\s*_|\{|°|\s+times|\s+text)/.test(afterNumber);
 
         if (isFollowedByText && !isFollowedByMath) {
@@ -169,28 +174,30 @@ class MathDelimiterValidator {
   }
 }
 
-// CLI Configuration
-runCli({
-  name: 'check-math',
-  description: `Validates math delimiters ($...$) in markdown files:
+// CLI Configuration — only run when executed directly, not when imported by tests.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain)
+  runCli({
+    name: 'check-math',
+    description: `Validates math delimiters ($...$) in markdown files:
 - Checks for balanced $ delimiters
 - Accounts for escaped \\$ characters
 - Ignores currency amounts (e.g., $5, $2.37)`,
-  flags: {
-    strict: STANDARD_FLAGS.strict,
-  },
-  examples: [
-    'node scripts/check-math.js',
-    'node scripts/check-math.js --strict',
-    'node scripts/check-math.js contents/',
-  ],
-  run: async options => {
-    const validator = new MathDelimiterValidator({
-      strict: options.strict,
-    });
-    return validator.validate(options.directory);
-  },
-});
+    flags: {
+      strict: STANDARD_FLAGS.strict,
+    },
+    examples: [
+      'node scripts/check-math.js',
+      'node scripts/check-math.js --strict',
+      'node scripts/check-math.js contents/',
+    ],
+    run: async options => {
+      const validator = new MathDelimiterValidator({
+        strict: options.strict,
+      });
+      return validator.validate(options.directory);
+    },
+  });
 
 // Export functions for testing
 export { countDelimiters };

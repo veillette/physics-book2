@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 3
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Observe that motion in two dimensions consists of horizontal and vertical components.
 * Understand the independence of horizontal and vertical vectors in two-dimensional motion.
 
-</div>
+::::
 
 ![A busy traffic intersection in New York showing vehicles moving on the road.](../resources/Figure_03_01_01.jpg 'Walkers and drivers in a city like New York are rarely able to travel in straight lines to reach their destinations. Instead, they must follow roads and sidewalks, making two-dimensional, zigzagged paths. (credit: Margaret W. Carruthers)')
 {: #Figure1}
@@ -85,13 +85,15 @@ walks east and then north (two perpendicular directions). How far they walk east
 is only affected by their motion eastward. Similarly, how far they walk north is
 only affected by their motion northward.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Independence of Motion
 </div>
+
 The horizontal and vertical components of two-dimensional motion are independent of each other. Any motion in the horizontal direction does not affect motion in the vertical direction, and vice versa.
 
-</div>
+::::
 
 This is true in a simple scenario like that of walking in one direction first,
 followed by another. It is also true of more complicated motion involving
@@ -128,21 +130,26 @@ in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSu
 and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 . We will find such techniques to be useful in many areas of physics.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Ladybug Motion 2D
 </div>
+
 Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration,
 and see how the vectors change. Choose linear, circular or elliptical motion, and record
 and playback the motion to analyze the behavior.
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Ladybug Motion 2D
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Summary
 
@@ -153,7 +160,8 @@ Ladybug Motion 2D
   another. Motion in the horizontal direction does not affect motion in the
   vertical direction, and vice versa.
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -161,4 +169,4 @@ vector
 : a quantity that has both magnitude and direction; an arrow used to represent
 quantities with both magnitude and direction
 
-</div>
+::::

@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 5
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the single slit diffraction pattern.
-</div>
+
+:::
 
 Light passing through a single slit forms a diffraction pattern somewhat
 different from those formed by double slits or diffraction
@@ -71,10 +72,12 @@ single slit interference, and it is apparent that the maxima on either side of
 the central maximum are much less intense and not as wide. This is consistent
 with the illustration in [[Figure 1]](#Figure1)(b).
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Single Slit Diffraction
 </div>
+
 Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of  $$45.0 ^\circ $$
  relative to the incident direction of the light. (a) What is the width of the slit? (b) At what angle is the first minimum produced?
 
@@ -95,6 +98,7 @@ $$D $$ and substituting known values gives
 <div class="equation" >
  $$\begin{array}{lll}D& =& \frac{\m \lambda}{ \sin {\theta }_{2}}=\frac{2\left(550 \text{nm}\right)}{\sin 45.0\text{º}}\\ D & =& \frac{1100 \times 10^{-9} \text{m}}{0.707}\\ D & =& 1.56 \times 10^{-6} \text{m} .\end{array} $$ 
 </div>
+
 **Solution for (b)**
 
 Solving the equation $$D \sin \theta = m \lambda $$ for $$\sin {\theta }_{1} $$
@@ -103,11 +107,13 @@ and substituting the known values gives
 <div class="equation" >
  $$\sin {\theta }_{1}=\frac{m \lambda}{D}=\frac{1\left(550 \times 10^{-9}  \text{m}\right)}{ 1.56 \times 10^{-6}  \text{m}}\text{.} $$
 </div>
+
 Thus the angle  $${\theta }_{1} $$  is
 
 <div class="equation" >
  $${\theta }_{1}={\sin}^{-1} 0.354=20.7 \text{º.} $$
 </div>
+
 **Discussion**
 
 We see that the slit is narrow (it is only a few times greater than the
@@ -119,7 +125,7 @@ original beam, for a width of about $$41 ^\circ $$ . The angle between the
 first and second minima is only about $$24 ^\circ \left(45.0 \text{º}-20.7º\right) $$ . Thus the second maximum is only about half as wide as
 the central maximum.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -133,21 +139,27 @@ the central maximum.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 As the width of the slit producing a single-slit diffraction pattern is reduced, how will the diffraction pattern produced change?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what angle is the first minimum for 550-nm light falling on a single slit of width  $$ 1.00 \text{μm} $$ ?
  (b) Will there be a second minimum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -187,16 +199,20 @@ Since $$\sin \theta$$ cannot exceed 1, **there is no second minimum.** The value
 
 When the slit width is comparable to the wavelength (D ≈ λ), the diffraction pattern becomes very broad. In this case, D = 1.00 μm and λ = 550 nm, giving a ratio of D/λ ≈ 1.82. The first minimum appears at 33.4°, which is a large angle indicating significant spreading of light. For a second minimum to exist, we would need D ≥ 2λ, but here D < 2λ (1000 nm < 1100 nm). This demonstrates that narrower slits produce wider diffraction patterns. When D < 2λ, only the central maximum and first-order minima exist; the diffraction pattern has only three regions: one minimum on each side of the central maximum.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the angle at which a  $$ 2.00\text{-μm} $$
 -wide slit produces its first minimum for 410-nm violet light. (b) Where is the first minimum for 700-nm red light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -237,16 +253,20 @@ $$\theta = \sin^{-1}(0.350) = 20.5°$$
 
 The first minimum for red light (20.5°) occurs at a larger angle than for violet light (11.8°), which makes sense because red light has a longer wavelength. This illustrates the wavelength dependence of diffraction: longer wavelengths diffract more. The central maximum for red light is therefore wider than for violet light. This is why when white light passes through a single slit, the central maximum appears white but has reddish edges (red diffracts farther) and bluish/violet closer to the center.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How wide is a single slit that produces its first minimum for 633-nm light at an angle of  $$ 28.0º $$ ?
  (b) At what angle will the second minimum be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -301,16 +321,20 @@ $$\theta_2 = \arcsin(0.938) = 69.9°$$
 
 The slit width of 1.35 μm is about twice the wavelength (633 nm), which allows for a second minimum to exist. The large angle for the second minimum (69.9°) means it's very close to the theoretical maximum of 90°. A third minimum would require sin θ₃ = 3λ/D = 1.41, which is impossible, so this diffraction pattern has only two minima on each side of the central maximum. The 633-nm wavelength is characteristic of a helium-neon (He-Ne) laser, commonly used in diffraction experiments due to its monochromaticity and coherence.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the width of a single slit that produces its first minimum at  $$ 60.0º $$
  for 600-nm light? (b) Find the wavelength of light that has its first minimum at  $$ 62.0º $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -353,16 +377,20 @@ The slit width of 693 nm is remarkably small - just slightly larger than the wav
 
 For part (b), the slightly larger angle (62.0° vs 60.0°) corresponds to a slightly longer wavelength (612 nm vs 600 nm), which makes physical sense. Both wavelengths are in the orange-red portion of the visible spectrum. This problem demonstrates that when the slit width is comparable to the wavelength, single-slit diffraction effects are very pronounced.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the wavelength of light that has its third minimum at an angle of  $$ 48.6º $$
  when it falls on a single slit of width  $$ 3.00 \text{μm} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -401,16 +429,20 @@ $$\lambda = 7.50 \times 10^{-7} \text{ m} = 750 \text{ nm}$$
 
 A wavelength of 750 nm is at the red end of the visible spectrum (approximately 620-750 nm). The relatively large slit width (3.00 μm = 4 wavelengths) allows multiple minima to exist on each side of the central maximum. For m = 3 to occur at a reasonable angle (48.6°), the ratio D/λ = 4.0, which means the slit is exactly 4 wavelengths wide. This is a favorable condition for observing multiple diffraction orders. If we checked for a fourth minimum (m = 4), we would find sin θ₄ = 4(750)/3000 = 1.0, meaning the fourth minimum just barely exists at θ = 90° (grazing angle along the screen).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the wavelength of light that produces its first minimum at an angle of  $$ 36.9º $$
  when falling on a single slit of width  $$ 1.00 \text{μm} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -445,16 +477,20 @@ The wavelength of 600 nm corresponds to orange light, which is in the visible sp
 
 This problem nicely demonstrates that sin(36.9°) = 0.6 = 3/5, which comes from a 3-4-5 right triangle, a common value that appears in physics problems. The result is reasonable because it falls within the visible light range (380-760 nm).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Sodium vapor light averaging 589 nm in wavelength falls on a single slit of width  $$ 7.50 \text{μm} $$ .
  At what angle does it produce its second minimum? (b) What is the highest-order minimum produced?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -510,18 +546,22 @@ For m = 13: $$\sin \theta_{13} = \frac{13(589)}{7500} = 1.021 > 1$$ (impossible)
 
 Sodium vapor light (589 nm average of the D-line doublet at 589.0 and 589.6 nm) is commonly used in spectroscopy and diffraction experiments. The relatively large slit width (7.50 μm ≈ 12.7λ) allows many diffraction orders. The small angle for the second minimum (9.04°) indicates that higher-order minima are closely spaced near the central maximum but spread out at larger angles. The 12th-order minimum appears at about 70.6°, showing how the diffraction pattern extends over a wide angular range. This creates a complex pattern with 13 bright regions: the central maximum plus 12 secondary maxima on each side.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the angle of the third diffraction minimum for 633-nm light falling on a slit of width  $$ 20.0 \text{μm} $$ .
  (b) What slit width would place this minimum at  $$ 85.0º $$ ?
  Explicitly show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -574,16 +614,20 @@ The third minimum at only 5.45° for a 20.0-μm slit indicates that D is much la
 
 For part (b), placing the third minimum at 85.0° (near grazing angle) requires a much smaller slit (1.91 μm), comparable to the wavelength. This demonstrates that smaller slits produce more spreading. The ratio D/λ changes from 31.6 in part (a) to only 3.0 in part (b), showing how dramatically the pattern spreads when the slit width decreases.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the angle between the first minima for the two sodium vapor lines, which have wavelengths of 589.1 and 589.6 nm, when they fall upon a single slit of width  $$ 2.00 \text{μm} $$ .
  (b) What is the distance between these minima if the diffraction pattern falls on a screen 1.00 m from the slit? (c) Discuss the ease or difficulty of measuring such a distance.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -658,17 +702,21 @@ This measurement demonstrates the resolving power of single-slit diffraction. Th
 
 The small angular separation (0.0150°) between the two sodium D-lines highlights the challenge of spectral resolution. The wavelength difference is Δλ = 0.5 nm out of λ ≈ 589 nm, giving a fractional difference of about 0.08%. The ability to distinguish these lines depends on having sharp, well-defined minima, which requires coherent, monochromatic light sources. Sodium vapor lamps produce these doublet lines due to the fine structure of sodium's electronic energy levels. This problem demonstrates why high-resolution spectroscopy requires careful optical design and precise measurements.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the minimum width of a single slit (in multiples of  $$\lambda  $$ )
 that will produce a first minimum for a wavelength  $$\lambda  $$ ?
  (b) What is its minimum width if it produces 50 minima? (c) 1000 minima?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -729,16 +777,20 @@ This makes physical sense: wider slits (in units of wavelength) produce more clo
 
 For visible light (λ ≈ 500 nm), a slit width of 1000λ = 0.5 mm would produce 1000 minima on each side, for 2000 minima total (plus the central maximum), creating an extremely dense pattern. In practice, these higher-order minima become very faint and difficult to observe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If a single slit produces a first minimum at  $$ 14.5º $$ ,
  at what angle is the second-order minimum? (b) What is the angle of the third-order minimum? (c) Is there a fourth-order minimum? (d) Use your answers to illustrate how the angular width of the central maximum is about twice the angular width of the next maximum (which is the angle between the first and second minima).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -817,18 +869,24 @@ This 2:1 width ratio is a characteristic feature of single-slit diffraction patt
 
 The fact that the slit width D ≈ 4λ means this pattern has exactly three observable minima (m = 1, 2, 3) before reaching the limit at 90°. The progression of angles (14.5°, 30.1°, 48.7°) shows how minima become increasingly spread out at higher orders, a consequence of the nonlinear relationship between θ and m through the sine function.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A double slit produces a diffraction pattern that is a combination of single and double slit interference. Find the ratio of the width of the slits to the separation between them, if the first minimum of the single slit pattern falls on the fifth maximum of the double slit pattern. (This will greatly reduce the intensity of the fifth maximum.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A water break at the entrance to a harbor consists of a rock barrier with a
@@ -836,8 +894,9 @@ A water break at the entrance to a harbor consists of a rock barrier with a
 straight on. At what angle to the incident direction are the boats inside the
 harbor most protected against wave action?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -892,11 +951,14 @@ This same principle applies to:
 
 The key insight is that diffraction provides natural "quiet zones" at specific angles, and harbor design can exploit this by positioning docks and moorings at these protected angles. For ocean waves with typical wavelengths of 10-30 m, harbor entrances of 25-100 m create significant diffraction effects.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 An aircraft maintenance technician walks past a tall hangar door that acts like
@@ -906,8 +968,9 @@ what angle with the door will the technician observe the first minimum in sound
 intensity if the vertical opening is 0.800 m wide and the speed of sound is 340
 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -950,10 +1013,12 @@ This explains why the technician can hear the jet engine even when not directly 
 
 This problem beautifully illustrates why sound "bends around corners" while light appears to travel in straight lines - it's all about the ratio of wavelength to obstacle size.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -962,4 +1027,4 @@ destructive interference for a single slit
 width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative
 to the original direction of the light, and $$m $$ is the order of the minimum
 
-</div>
+:::

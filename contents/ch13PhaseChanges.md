@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 5
 chapterNumber: 13
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Interpret a phase diagram.
 * State Dalton’s law.
 * Identify and describe the triple point of a gas from its phase diagram.
 * Describe the state of equilibrium between a liquid and a gas, a liquid and a solid, and a gas and a solid.
-</div>
+
+:::
 
 Up to now, we have considered the behavior of ideal gases. Real gases are like
 ideal gases at high temperatures. At lower temperatures, however, the
@@ -341,15 +342,20 @@ at $$ 20.0\text{ºC} $$ , at a temperature below the boiling temperature.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why a cup of water (or soda) with ice cubes stays at  $$0\text{ºC} $$ ,
  even on a hot summer day.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The ice and liquid water are in thermal equilibrium, so that the temperature stays at the freezing temperature as long as ice remains in the liquid. (Once all of the ice melts, the water temperature will start to rise.)
 
-</div>
+:::
+
 </div>
 
 ### Vapor Pressure, Partial Pressure, and Dalton’s Law
@@ -378,27 +384,35 @@ crystals (frost) form.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Is energy transfer involved in a phase change? If so, will energy have to be supplied to change phase from solid to liquid and liquid to gas? What about gas to liquid and liquid to solid? Why do they spray the orange trees with water in Florida when the temperatures are near or just below freezing?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Yes, energy transfer is involved in a phase change. We know that atoms and molecules in solids and liquids are bound to each other because we know that force is required to separate them. So in a phase change from solid to liquid and liquid to gas, a force must be exerted, perhaps by collision, to separate atoms and molecules. Force exerted through a distance is work, and energy is needed to do work to go from solid to liquid and liquid to gas. This is intuitively consistent with the need for energy to melt ice or boil water. The converse is also true. Going from gas to liquid or liquid to solid involves atoms and molecules pushing together, doing work and releasing energy.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true" class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: States of Matter—Basics
 </div>
+
 Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.
 {: class="newline"}
 
 <div class="media"  data-alt="states of matter">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -421,11 +435,15 @@ Heat, cool, and compress atoms and molecules and watch as they change between so
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A pressure cooker contains water and steam in equilibrium at a pressure greater than atmospheric pressure. How does this greater pressure increase cooking speed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the relationship between pressure and boiling point, and how temperature affects cooking.
 
@@ -436,15 +454,21 @@ This higher temperature significantly increases cooking speed because chemical r
 
 **Discussion:**
 The pressure cooker takes advantage of the phase diagram for water—moving along the liquid-gas boundary to higher pressures allows liquid water to exist at higher temperatures. This is particularly useful for cooking foods that normally require long cooking times, such as tough cuts of meat, dried beans, or root vegetables. The elevated temperature breaks down proteins and softens fibers much faster than boiling at atmospheric pressure.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Why does condensation form most rapidly on the coldest object in a room—for example, on a glass of ice water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the relationship between temperature, vapor pressure, and the dew point.
 
@@ -457,18 +481,24 @@ The colder the object, the lower its surface temperature, and the more likely it
 
 **Discussion:**
 This is why glasses of cold drinks "sweat" on humid days, why bathroom mirrors fog up during hot showers, and why dew forms on grass during cool nights. The coldest surfaces act as condensation nuclei, extracting water vapor from the air and converting it to liquid.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the vapor pressure of solid carbon dioxide (dry ice) at  $$ - 78.5\text{ºC} $$ ?
 
 ![The phase diagram (pressure versus temperature graph showing the three phases) for carbon dioxide. The triple point is five point one one atmospheres and negative fifty-six point six degrees Celsius. The critical point is seventy-three atmospheres and thirty-one degrees C. The phase change from solid to vapor at standard pressure of one atmosphere is negative seventy-eight point five degrees C.](../resources/Figure_13_05_08.jpg 'The phase diagram for carbon dioxide. The axes are nonlinear, and the graph is not to scale. Dry ice is solid carbon dioxide and has a sublimation temperature of ( -78.5 \\text{ºC} ) .')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the phase diagram for carbon dioxide. At −78.5ºC, find where the solid-gas boundary intersects this temperature.
 
@@ -479,15 +509,21 @@ This means the vapor pressure of solid CO₂ at −78.5ºC is exactly 1.0 atm. A
 
 **Discussion:**
 This is why dry ice sublimes (converts directly from solid to gas) at atmospheric pressure and this temperature, rather than melting. The triple point of CO₂ is at 5.11 atm and −56.6ºC, which is above atmospheric pressure. This means at standard atmospheric pressure (1 atm), there is no liquid phase—CO₂ exists only as solid below −78.5ºC and as gas above this temperature. This property makes dry ice useful for cooling without creating liquid mess, as it goes directly from solid to gas.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can carbon dioxide be liquefied at room temperature ( $$20\text{ºC} $$)? If so, how? If not, why not? (See [[Figure 5]](#Figure5).)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Examine the phase diagram for CO₂ and determine if liquid phase exists at 20ºC. Compare this temperature to the critical temperature.
 
@@ -498,15 +534,21 @@ To liquefy CO₂ at 20ºC, you would need to increase the pressure significantly
 
 **Discussion:**
 This is exactly how CO₂ fire extinguishers work—they store liquid CO₂ at room temperature under high pressure (typically around 60 atm). When released, the pressure drops to atmospheric, and the liquid CO₂ rapidly converts to gas and solid (the white "snow" you see), which helps suppress fires. If the temperature were above 31ºC (the critical temperature), no amount of pressure could liquefy the CO₂—it would exist only as a supercritical fluid.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Oxygen cannot be liquefied at room temperature by placing it under a large enough pressure to force its molecules together. Explain why this is.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the concept of critical temperature and what it means for phase transitions.
 
@@ -517,15 +559,21 @@ The critical temperature is the temperature above which a substance cannot exist
 
 **Discussion:**
 This is why oxygen must be cooled below 154.8 K (−118.4ºC) before it can be liquefied, even under high pressure. Liquid oxygen (LOX) used in rockets and medical applications must be stored at cryogenic temperatures well below its critical temperature. The same principle applies to other gases with low critical temperatures, such as nitrogen (−146.9ºC) and helium (−267.9ºC), which all require significant cooling before they can be liquefied.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the distinction between gas and vapor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the relationship between the gas phase and the boiling temperature of a substance.
 
@@ -542,10 +590,13 @@ For example, at 20ºC and atmospheric pressure:
 
 **Discussion:**
 This distinction is useful because vapors are relatively close to their liquid phase and can be liquefied more easily than gases. In everyday usage, "gas" is often used generically to refer to any substance in the gaseous state, but technically "vapor" is more precise when discussing a substance below its boiling point. The phase diagram helps clarify this: a vapor exists in the region where a small increase in pressure or decrease in temperature would cause condensation to liquid.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -586,4 +637,4 @@ Dalton’s law of partial pressures
 : the physical law that states that the total pressure of a gas is the sum of
 partial pressures of the component gases
 
-</div>
+:::

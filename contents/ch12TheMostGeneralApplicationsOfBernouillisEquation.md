@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 12
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate using Torricelli’s theorem.
 * Calculate power in fluid flow.
-</div>
+
+:::
 
 ### Torricelli’s Theorem
 
@@ -64,10 +65,12 @@ conditions, such as constant height or constant pressure. The next example is a
 more general application of Bernoulli’s equation in which pressure, velocity,
 and height all change. (See [[Figure 2]](#Figure2).)
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Pressure: A Fire Hose Nozzle
 </div>
+
 Fire hoses used in major structure fires have inside diameters of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of  $$ 1.62 \times 10^{6}  {\text{N/m}}^{2} $$ .
  The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Assuming negligible resistance, what is the pressure in the nozzle?
 
@@ -83,6 +86,7 @@ Bernoulli’s equation states
 <div class="equation">
  $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}+\rho gh_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}+\rho gh_{2}\text{,} $$
 </div>
+
 where the subscripts 1 and 2 refer to the initial conditions at ground level and the final conditions inside the nozzle, respectively. We must first find the speeds  $${v}_{1} $$
  and  $${v}_{2} $$ .
  Since  $$Q={A}_{1}{v}_{1} $$ , we get
@@ -90,11 +94,13 @@ where the subscripts 1 and 2 refer to the initial conditions at ground level and
 <div class="equation">
  $${v}_{1}=\frac{Q}{ {A}_{1}}=\frac{ 40.0 \times 10^{-3}  {\text{m}}^{3}\text{/s}}{\pi {\left( 3.20 \times 10^{-2}  \text{m} \right)}^{2}}= 12.4 \text{m/s}\text{.} $$
 </div>
+
 Similarly, we find
 
 <div class="equation">
  $${v}_{2}=56.6 \text{m/s}\text{.} $$
 </div>
+
 (This rather large speed is helpful in reaching the fire.) Now, taking  $${h}_{1} $$
  to be zero, we solve Bernoulli’s equation for  $${P}_{2} $$
 \:
@@ -102,18 +108,20 @@ Similarly, we find
 <div class="equation">
  $${P}_{2}={P}_{1}+\frac{1}{2}\rho \left({v}_{1}^{2}-{v}_{2}^{2}\right)-\rho gh_{2}\text{.} $$
 </div>
+
 Substituting known values yields
 
 <div class="equation">
  $${P}_{2}= 1.62 \times 10^{6}  {\text{N/m}}^{2}+\frac{1}{2}\left(1000 {\text{kg/m}}^{3}\right)\left[  { \left( 12.4 \text{m/s} \right)}^{2}-{\left(  56.6 \text{m/s} \right)}^{2}\right]  -\left(1000 {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 10.0 \text{m}\right)=0\text{.} $$
 </div>
+
 **Discussion**
 
 This value is a gauge pressure, since the initial pressure was given as a gauge
 pressure. Thus, the nozzle pressure equals atmospheric pressure, as it must
 because the water exits into the atmosphere without changes in its conditions.
 
-</div>
+:::
 
 ### Power in Fluid Flow
 
@@ -140,18 +148,22 @@ Similarly, $$\frac{1}{2}\rho v^{2}Q $$ is the power supplied to a fluid to give
 it its kinetic energy. And $$\rho g h Q $$ is the power going to
 gravitational potential energy.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Power
 </div>
+
 Power is defined as the rate of energy transferred, or  $$E/t $$ . Fluid flow involves several types of power. Each type of power is identified with a specific type of energy being expended or changed in form.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Power in a Moving Fluid
 </div>
+
 Suppose the fire hose in the previous example is fed by a pump that receives water through a hose with a 6.40-cm diameter coming from a hydrant with a pressure of  $$ 0.700 \times 10^{6}  {\text{N/m}}^{2} $$ .
  What power does the pump supply to the water?
 
@@ -170,6 +182,7 @@ As discussed above, the power associated with pressure is
 <div class="equation">
  $$\begin{array}{lll}\text{power}& =& P Q\\ \text{power} & =& \left( 0.920 \times 10^{6} {\text{N/m}}^{2}\right)\left( 40.0 \times 10^{-3} {\text{m}}^{3}\text{/s}\right)\text{.}\\ \text{power} & =& 3.68 \times 10^{4} \text{W}= 36.8 \text{kW}\end{array} $$ 
 </div>
+
 **Discussion**
 
 Such a substantial amount of power requires a large pump, such as is found on
@@ -178,7 +191,7 @@ this example increases only the water’s pressure. If a pump—such as the
 heart—directly increases velocity and height as well as pressure, we would have
 to calculate all three terms to find the power it supplies.
 
-</div>
+:::
 
 ### Summary
 
@@ -189,11 +202,15 @@ to calculate all three terms to find the power it supplies.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Based on Bernoulli's equation, what are three forms of energy in a fluid? (Note that these forms are conservative, unlike heat transfer and other dissipative forms not included in Bernoulli's equation.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We analyze each term in Bernoulli's equation and identify the type of energy it represents.
@@ -211,15 +228,21 @@ Bernoulli's equation $$P + \frac{1}{2}\rho v^2 + \rho gh = \text{constant}$$ con
 **Discussion**
 
 All three forms are conservative—they can be converted back and forth without energy loss (in an ideal, frictionless fluid). Bernoulli's equation states that the sum of these three energy forms remains constant along a streamline, which is a statement of energy conservation for ideal fluids.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water that has emerged from a hose into the atmosphere has a gauge pressure of zero. Why? When you put your hand in front of the emerging stream you feel a force, yet the water's gauge pressure is zero. Explain where the force comes from in terms of energy.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We consider what happens when water transitions from confined flow to free flow, and identify the source of force on an obstruction.
@@ -239,18 +262,24 @@ The force you feel comes from the water's **kinetic energy**, not its pressure. 
 **Discussion**
 
 This is an excellent example of the difference between pressure and kinetic energy in a fluid. A fire hose can knock someone down not because of high pressure (which is zero once the water exits), but because of the high kinetic energy of the fast-moving water. The power delivered equals the kinetic energy per unit volume times the flow rate: $$\frac{1}{2}\rho v^2 \times Q$$.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The old rubber boot shown in [[Figure 3]](#Figure3) has two leaks. To what maximum height can the water squirt from Leak 1? How does the velocity of water emerging from Leak 2 differ from that of leak 1? Explain your responses in terms of energy.
 
 ![The picture shows a boot filled with water. The water is shown emerging from two leaks in the old boot, one in front and another at the back. The leaks are at the same height. The leaks are labeled as Leak 1 and Leak 2 respectively.](../resources/Figure_12_03_03.jpg 'Water emerges from two leaks in an old boot.')
 {: #Figure3}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Torricelli's theorem, recognizing that the velocity of efflux depends on the height of water above the leak, and the maximum height of the spray depends on converting kinetic energy back to potential energy.
@@ -270,15 +299,21 @@ Both streams have the same kinetic energy per unit volume because they come from
 **Discussion**
 
 This problem illustrates that the exit velocity depends only on the depth below the surface, not on the direction of the opening or the shape of the container. The energy analysis shows perfect conversion between potential and kinetic energy in an ideal (frictionless) situation.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Water pressure inside a hose nozzle can be less than atmospheric pressure due to the Bernoulli effect. Explain in terms of energy how the water can emerge from the nozzle against the opposing atmospheric pressure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply energy conservation (Bernoulli's equation) to explain how water with sub-atmospheric pressure can still exit against atmospheric pressure.
@@ -302,18 +337,24 @@ At the exit point, some kinetic energy is converted to pressure energy as the wa
 **Discussion**
 
 This explains why nozzles are effective despite creating regions of sub-atmospheric pressure—the energy has simply been transformed from pressure form to kinetic form, and the total remains conserved. The high-velocity stream can still exert large forces on objects it strikes because it retains substantial kinetic energy.
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Hoover Dam on the Colorado River is the highest dam in the United States at 221 m, with an output of 1300 MW. The dam generates electricity with water taken from a depth of 150 m and an average flow rate of  $$650 {\text{m}}^{3}\text{/s} $$ .
  (a) Calculate the power in this flow. (b) What is the ratio of this power to the facility's average of 680 MW?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The power in the flow comes primarily from the gravitational potential energy of the water. We use the power formula $$\text{Power} = \rho g h Q$$ for the potential energy component.
@@ -337,16 +378,22 @@ $$\text{Ratio} = \frac{956 \text{ MW}}{680 \text{ MW}} = 1.41 \approx 1.4$$
 **Discussion**
 
 The power in the water flow is **(a) 9.56 × 10⁸ W (956 MW)**, and the ratio to the facility's average output is **(b) 1.4**. The fact that the ratio exceeds 1 indicates energy losses in the system—about 29% of the available power is lost to turbine inefficiency, friction, generator losses, and other factors. This ~70% efficiency is typical for large hydroelectric facilities.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A frequently quoted rule of thumb in aircraft design is that wings should produce about 1000 N of lift per square meter of wing. (The fact that a wing has a top and bottom surface does not double its area.) (a) At takeoff, an aircraft travels at 60.0 m/s, so that the air speed relative to the bottom of the wing is 60.0 m/s. Given the sea level density of air to be  $$ 1.29 {\text{kg/m}}^{3} $$ ,
  how fast must it move over the upper surface to create the ideal lift? (b) How fast must air move over the upper surface at a cruising speed of 245 m/s and at an altitude where air density is one-fourth that at sea level? (Note that this is not all of the aircraft's lift—some comes from the body of the plane, some from engine thrust, and so on. Furthermore, Bernoulli's principle gives an approximate answer because flow over the wing creates turbulence.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's principle: the pressure difference between upper and lower wing surfaces creates lift. The lift per unit area equals the pressure difference.
@@ -375,16 +422,22 @@ $$v_{top} = \sqrt{(245)^2 + \frac{2(1000)}{0.323}} = \sqrt{60,025 + 6192} = \sqr
 **Discussion**
 
 At takeoff, air must move at **(a) 71.8 m/s** over the upper surface (about 20% faster than the bottom). At cruising altitude, the upper surface speed must be **(b) 257 m/s** (only about 5% faster than the bottom). At higher altitudes, the lower air density means a larger velocity difference is needed for the same lift, but since the plane is already moving much faster, a smaller *percentage* increase is sufficient. The wing shape (camber and angle of attack) creates these velocity differences.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The left ventricle of a resting adult's heart pumps blood at a flow rate of  $$ 83.0 {\text{cm}}^{3}\text{/s} $$ ,
  increasing its pressure by 110 mm Hg, its speed from zero to 30.0 cm/s, and its height by 5.00 cm. (All numbers are averaged over the entire heartbeat.) Calculate the total power output of the left ventricle. Note that most of the power is used to increase blood pressure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The total power output includes three components from Bernoulli's equation: power to increase pressure, power to increase kinetic energy, and power to increase potential energy.
@@ -413,16 +466,22 @@ $$P_{total} = P_1 + P_2 + P_3 = 1.21 + 0.004 + 0.043 = 1.26 \text{ W}$$
 **Discussion**
 
 The total power output of the left ventricle is approximately **1.26 W**. As noted, most of this power (about 96%) goes to increasing blood pressure. The kinetic and potential energy contributions are relatively small. This is about 1/5 of the total heart power output (both ventricles), and the heart operates continuously for a lifetime—a remarkable feat of engineering!
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A sump pump (used to drain water from the basement of houses built below the water table) is draining a flooded basement at the rate of 0.750 L/s, with an output pressure of  $$ 3.00 \times 10^{5}  {\text{N/m}}^{2} $$ .
  (a) The water enters a hose with a 3.00-cm inside diameter and rises 2.50 m above the pump. What is its pressure at this point? (b) The hose goes over the foundation wall, losing 0.500 m in height, and widens to 4.00 cm in diameter. What is the pressure now? You may neglect frictional losses in both parts of the problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Bernoulli's equation between points, accounting for changes in height and velocity (due to diameter changes). For each part, we calculate velocities using continuity, then apply Bernoulli's equation.
@@ -459,5 +518,7 @@ $$P_2 = 3.00 \times 10^5 + 384 - 1.96 \times 10^4 = 2.81 \times 10^5 \text{ N/m}
 **Discussion**
 
 The pressure at the top of the rise is **(a) 2.76 × 10⁵ N/m²**, and after going over the wall it is **(b) 2.81 × 10⁵ N/m²**. The pressure increases slightly after going over the wall for two reasons: the height decreased by 0.50 m, and the hose widened, reducing velocity. Both effects increase pressure according to Bernoulli's equation.
-</div>
+
+:::
+
 </div>

@@ -4,15 +4,15 @@ layout: page
 sectionNumber: 3
 chapterNumber: 5
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * State Hooke’s law.
 * Explain Hooke’s law using graphical representation between deformation and applied force.
 * Discuss the three types of deformations such as changes in length, sideways shear and changes in volume.
 * Describe with examples the young’s modulus, shear modulus and bulk modulus.
 * Determine the change in length given mass, length and radius.
 
-</div>
+::::
 
 We now move from consideration of forces that affect the motion of an object (
 such as friction and drag) to those that affect an object’s shape. If a
@@ -48,13 +48,16 @@ large enough stress to the material will cause it to break or fracture.
 **Tensile strength** is the breaking stress that will cause permanent deformation
 or fracture of a material.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Hooke’s Law
 </div>
+
 <div class="equation">
  $$ F= k\Delta L, $$
 </div>
+
 where $$ \Delta L $$ is the amount of deformation (the change in length, for example)
 produced by the force $$ F $$, and $$ k $$
 is a proportionality constant that depends on the shape and composition of the
@@ -63,7 +66,8 @@ object and the direction of the force.
 <div class="equation">
  $$ \Delta L=\frac{F}{k} $$
 </div>
-</div>
+
+::::
 
 ![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation ( \\Delta L ) versus applied force ( F ) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is ( k ). For larger forces, the graph is curved but the deformation is still elastic— ( \\Delta L ) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force ( F ) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in ( F ) is producing a large increase in ( L ) near the fracture.')
 {: #Figure1}
@@ -81,16 +85,18 @@ or about 1 part in $$ 10^{3} $$.
 ![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg 'The same force, in this case a weight ( ( w ) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
 {: #Figure2}
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Stretch Yourself a Little
 </div>
+
 How would you go about measuring the proportionality constant $$ k $$ of a rubber band? If a rubber band stretched 3 cm when a 100-g mass was attached
 to it, then how much would it stretch if two similar rubber bands were attached
 to the same mass—even if put together in parallel or alternatively if tied
 together in series?
 
-</div>
+::::
 
 We now consider three specific types of deformations: changes in length (tension
 and compression), sideways shear (
@@ -171,10 +177,12 @@ For example, the strings in [Figure 3](#Figure3) are being pulled down by a forc
 of magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 The Stretch of a Long Cable
 </div>
+
 Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#Figure4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
 
 ![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_05_03_04.jpg 'Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)')
@@ -202,7 +210,7 @@ $$ \begin{array}{lll}
 This is quite a stretch, but only about 0.6% of the unsupported length. Effects
 of temperature upon length might be important in these environments.
 
-</div>
+::::
 
 Bones, on the whole, do not fracture due to tension or compression. Rather they
 generally fracture due to sideways impact or bending, resulting in the bone
@@ -252,10 +260,12 @@ young. A young person can go from 100 kg to 60 kg with no visible sag in their
 skins. The elasticity of all organs reduces with age. Gradual physiological
 aging through reduction in elasticity starts in the early 20s.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Deformation: How Much Does Your Leg Shorten When You Stand on It?
 </div>
+
 Calculate the change in length of the upper leg bone (the femur) when a 70.0 kg
 man supports 62.0 kg of his mass on it, assuming the bone to be equivalent to a
 uniform rod that is 40.0 cm long and 2.00 cm in radius.
@@ -267,6 +277,7 @@ The force is equal to the weight supported, or
 <div class="equation">
  $$ F=mg =\left(62.0 \kg \right)\left(9.80 \mss \right)=607.6 \N , $$
 </div>
+
 and the cross-sectional area is $$ \pi r^{2}=1.257 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$
 can be used to find the change in length.
 
@@ -291,7 +302,7 @@ Although bone is rigid compared with fat or muscle, several of the substances
 listed in [Table 1](#Table1) have larger values of Young’s modulus $$ Y $$. In
 other words, they are more rigid.
 
-</div>
+::::
 
 The equation for change in length is traditionally rearranged and written in the
 following form:
@@ -328,26 +339,31 @@ This general idea—that force and the deformation it causes are proportional fo
 small deformations—applies to changes in length, sideways bending, and changes
 in volume.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Stress
 </div>
+
 The ratio of force to area, $$ \frac{F}{A} $$, is defined as stress measured
 in $$\text{N/m}^2$$.
 
-</div>
+::::
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Strain
 </div>
+
 The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
 is defined as strain (a unitless quantity). In other words,
 
 <div class="equation">
  $$ \text{stress}=Y×\text{strain}. $$
 </div>
-</div>
+
+::::
 
 ### Sideways Stress: Shear Modulus
 
@@ -372,18 +388,21 @@ $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel rods (
 large $$ S $$ ).
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Shear Deformation
 </div>
+
 <div class="equation">
  $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
 </div>
+
 where $$ S $$ is the shear modulus and $$ F $$
 is the force applied perpendicular to $$ L_{0} $$
 and parallel to the cross-sectional area $$ A $$.
 
-</div>
+::::
 
 ![Bookcase sheared by a force applied at the bottom right toward the bottom left, and at the top left toward the top right.](../resources/Figure_05_03_06.jpg "Shearing forces are applied perpendicular to the length \( L_0 \) and parallel to the area \( A \), producing a deformation \( \Delta x \). Vertical forces are not shown, but it should be kept in mind that in addition to the two shearing forces, \( F \) , there must be supporting forces to keep the object from rotating. The distorting effects of these supporting forces are ignored in this treatment. The weight of the object also is not shown, since it is usually negligible compared with forces large enough to cause significant deformations.")
 {: #Figure6}
@@ -416,10 +435,12 @@ possible by the use of steel and steel-reinforced concrete. Almost by
 definition, liquids and gases have shear moduli near zero, because they flow in
 response to shearing forces.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Force Required to Deform: That Nail Does Not Bend Much Under a Load
 </div>
+
 Find the mass of the picture hanging from a steel nail as shown in [Figure 7](#Figure7),
 given that the nail bends only $$ 1.80\times 10^{-6} \m $$. (Assume the shear
 modulus is known to two significant figures.)
@@ -442,6 +463,7 @@ see that all other quantities can be found:
 <div class="equation">
  $$ F= \frac{S A}{L_{0}} \Delta x. $$
 </div>
+
 *S* is found in [Table 1](#Table1) and is
 $$ S=80 \times 10^{9} \text{N/m}^{2} $$. The radius $$ r $$
 is 0.750 mm (as seen in the figure), so the cross-sectional area is
@@ -449,11 +471,13 @@ is 0.750 mm (as seen in the figure), so the cross-sectional area is
 <div class="equation">
  $$ A=\pi r^{2}=1.77 \times 10^{-6} \mm. $$
 </div>
+
 The value for $$ L_{0} $$ is also shown in the figure. Thus,
 
 <div class="equation">
  $$ F=\frac{ \left(80 \times 10^{9} \text{N/m}^{2}\right)\left(1.77 \times 10^{-6} \mm\right)}{\left(5.00 \times 10^{-3}\m \right)}\left(1.80 \times 10^{-6}\m \right)=51 \N . $$
 </div>
+
 This 51 N force is the weight $$ w $$ of the picture, so the picture’s mass is
 
 <div class="equation">
@@ -465,7 +489,7 @@ This 51 N force is the weight $$ w $$ of the picture, so the picture’s mass is
 This is a fairly massive picture, and it is impressive that the nail flexes only
 $$ 1.80\times 10^{-6} \m $$ —an amount undetectable to the unaided eye.
 
-</div>
+::::
 
 ### Changes in Volume: Bulk Modulus
 
@@ -512,10 +536,12 @@ deep parts of the oceans. Water exerts an inward force on all surfaces of a
 submerged object, and even on the water itself. At great depths, water is
 measurably compressed, as the following example illustrates.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Change in Volume with Deformation: How Much Is Water Compressed at Great Ocean Depths?
 </div>
+
 Calculate the fractional decrease in volume ( $$ \frac{ \Delta V}{ V_{0}} $$ )
 for seawater at 5.00 km depth, where the force per unit area is $$ 5.00 \times 10^{7} \N/ \mm $$.
 
@@ -531,6 +557,7 @@ Solving for the unknown $$ \frac{ \Delta V}{ V_{0}} $$ gives
 <div class="equation">
  $$ \frac{ \Delta V}{ V_{0}}=\frac{1}{B}\frac{F}{A}. $$
 </div>
+
 Substituting known values with the value for the bulk modulus
 $$ B $$ from [Table 1](#Table1),
 
@@ -548,7 +575,7 @@ Although measurable, this is not a significant decrease in volume considering
 that the force per unit area is about 500 atmospheres (1 million pounds per
 square foot). Liquids and solids are extraordinarily difficult to compress.
 
-</div>
+::::
 
 Conversely, very large forces are created by liquids and solids when they try to
 expand but are constrained from doing so—which is equivalent to compressing them
@@ -562,23 +589,29 @@ biological cell, or crack an engine block that gets in its way.
 Other types of deformations, such as torsion or twisting, behave analogously to
 the tension, shear, and bulk deformations considered here.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Hooke's Law
 </div>
+
 Stretch and compress springs to explore the relationships between force,
 spring constant and displacement.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.
 edu/sims/html/hookes-law/latest/hookes-law_en.html" width="600"
 height="450"  allowfullscreen></iframe>
 <figcaption>
 Hooke's Law
 </figcaption>
-</figure>
+
+:::
+
 { Figure9}
-</div>
+
+::::
 
 ### Section Summary
 
@@ -627,79 +660,106 @@ surfaces.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The elastic properties of the arteries are essential for blood flow. Explain the importance of this in terms of the characteristics of the flow of blood (pulsating or continuous).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What are you feeling when you feel your pulse? Measure your pulse rate for 10 s and for 1 min. Is there a factor of 6 difference?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Examine different types of shoes, including sports shoes and thongs. In terms of physics, why are the bottom surfaces designed as they are? What differences will dry and wet conditions make for these surfaces?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Would you expect your height to be different depending upon the time of day? Why or why not?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Explain why pregnant women often suffer from back strain late in their pregnancy.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 An old carpenter’s trick to keep nails from bending when they are pounded into hard
 materials is to grip the center of the nail firmly with pliers. Why does this help?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 When a glass bottle full of vinegar warms up, both the vinegar and the glass expand,
 but vinegar expands significantly more with temperature than glass. The bottle will
 break if it was filled to its tightly capped lid. Explain why, and also explain how
 a pocket of air above the vinegar would prevent the break. (This is the function of
 the air above liquids in glass containers.)
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 During a circus act, one performer swings upside down hanging from a trapeze
 holding another, also upside-down, performer by the legs. If the upward force on
 the lower performer is three times her weight, how much do the bones (the femurs)
 in her upper legs stretch? You may assume each is equivalent to a uniform
 rod 35.0 cm long and 1.80 cm in radius. Her mass is 60.0 kg.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -726,6 +786,7 @@ $$ A = \pi r^2 = \pi(0.0180 \m)^2 = 1.018 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(882 \N)(0.350 \m)}{(1.018 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{308.7}{1.629 \times 10^{7}} = 1.90 \times 10^{-5} \m = 1.90 \times 10^{-3} \text{ cm} $$
 </div>
@@ -734,18 +795,22 @@ $$ \Delta L = \frac{308.7}{1.629 \times 10^{7}} = 1.90 \times 10^{-5} \m = 1.90 
 
 Each femur stretches by $$ 1.90 \times 10^{-3} \text{ cm} $$ or about $$ 19 \text{ μm} $$. This very small stretch (less than the width of a human hair) demonstrates the remarkable stiffness of bone. Even under a load of three times body weight, the femur stretches by only about 0.005% of its length, which is well within the elastic limit and causes no damage.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 During a wrestling match, a 150 kg wrestler briefly stands on one hand during a
 maneuver designed to perplex his already moribund adversary. By how much does
 the upper arm bone shorten in length? The bone can be represented by a uniform
 rod 38.0 cm in length and 2.10 cm in radius.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -767,6 +832,7 @@ $$ A = \pi r^2 = \pi(0.0210 \m)^2 = 1.385 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{558.6}{2.216 \times 10^{7}} = 2.52 \times 10^{-5} \m = 0.0252 \text{ mm} $$
 </div>
@@ -775,11 +841,14 @@ $$ \Delta L = \frac{558.6}{2.216 \times 10^{7}} = 2.52 \times 10^{-5} \m = 0.025
 
 The upper arm bone shortens by $$ 0.0252 \text{ mm} $$ or about $$ 25 \text{ μm} $$, which is less than 0.01% of its length. Despite supporting the full weight of a 150-kg wrestler, the bone compression is minuscule, demonstrating bone's excellent compressive strength. This is well within the elastic limit—the bone returns to its original length as soon as the wrestler shifts position.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) The "lead" in pencils is a graphite composition with a Young's modulus of
 about $$ 1\times 10^{9}\text{N/m}^{2} $$. Calculate the change in length of the
 lead in an automatic pencil if you tap it straight into the pencil with a force
@@ -787,8 +856,9 @@ of 4.0 N. The lead is 0.50 mm in diameter and 60 mm long.
 (b) Is the answer reasonable? That is, does it seem to
 be consistent with what you have observed when using pencils?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -807,6 +877,7 @@ $$ A = \pi r^2 = \pi(0.25 \times 10^{-3} \m)^2 = 1.96 \times 10^{-7} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(4.0 \N)(0.060 \m)}{(1.96 \times 10^{-7} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{0.24}{196} = 1.22 \times 10^{-3} \m \approx 1 \text{ mm} $$
 </div>
@@ -819,18 +890,22 @@ A compression of about 1 mm is approximately 1.7% of the original 60 mm length. 
 
 The pencil lead compresses by approximately $$ 1 \text{ mm} $$ under a 4.0 N force. This relatively large deformation (compared to metals or bone) reflects the low Young's modulus of graphite ($$ 10^9 \text{ N/m}^2 $$), which is about 200 times less stiff than steel. This softness is why pencil lead can mark paper and also why it breaks relatively easily if bent.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 TV broadcast antennas are the tallest artificial structures on Earth. In 1987,
 a 72.0-kg physicist placed himself and 400 kg of equipment at the top of one
 610-m high antenna to perform gravity experiments. By how much was the antenna
 compressed, if we consider it to be equivalent to a steel cylinder 0.150 m in radius?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -852,6 +927,7 @@ $$ A = \pi r^2 = \pi(0.150 \m)^2 = 0.0707 \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(4626 \N)(610 \m)}{(0.0707 \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{2.82 \times 10^6}{1.48 \times 10^{10}} = 1.90 \times 10^{-4} \m = 0.190 \text{ mm} $$
 </div>
@@ -860,18 +936,22 @@ $$ \Delta L = \frac{2.82 \times 10^6}{1.48 \times 10^{10}} = 1.90 \times 10^{-4}
 
 The antenna is compressed by only $$ 0.19 \text{ mm} $$ despite the 610-m height and nearly 500-kg load at the top. This tiny compression (about 0.00003% of the antenna's length) demonstrates steel's exceptional stiffness. The antenna's structural integrity is clearly not compromised by this additional load, which explains why such experiments are feasible.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) By how much does a 65.0-kg mountain climber stretch her 0.800-cm diameter
 nylon rope when she hangs 35.0 m below a rock outcropping?
 (b) Does the answer seem to be consistent with what you have observed for
 nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -895,6 +975,7 @@ $$ A = \pi r^2 = \pi(0.00400 \m)^2 = 5.03 \times 10^{-5} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(637 \N)(35.0 \m)}{(5.03 \times 10^{-5} \mm)(5 \times 10^9 \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{22295}{2.515 \times 10^5} = 0.089 \m \approx 9 \text{ cm} $$
 </div>
@@ -907,18 +988,22 @@ A stretch of 9 cm for a 35-m rope is about 0.26% stretch, which is reasonable fo
 
 The nylon rope stretches by approximately $$ 9 \text{ cm} $$ under the climber's weight. This moderate stretch is a key safety feature of climbing ropes—they're elastic enough to absorb shock from falls but stiff enough to not stretch excessively during normal use. A bungee cord, by contrast, would stretch several meters, which would be dangerous for climbing but essential for bungee jumping.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A 20.0-m tall hollow aluminum flagpole is equivalent in stiffness to a solid
 cylinder 4.00 cm in diameter. A strong wind bends the pole much as a horizontal
 force of 900 N exerted at the top would. How far to the side does the top of
 the pole flex?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -935,9 +1020,11 @@ $$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.257 \times 10^{-7} \te
 <div class="equation">
 $$ \delta = \frac{FL^3}{3YI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-7} \text{ m}^4)} $$
 </div>
+
 <div class="equation">
 $$ \delta = \frac{(900)(8000)}{3(7.0 \times 10^{10})(1.257 \times 10^{-7})} = \frac{7.2 \times 10^6}{2.64 \times 10^4} $$
 </div>
+
 <div class="equation">
 $$ \delta = 273 \m $$
 </div>
@@ -949,6 +1036,7 @@ Using shear: $$ \Delta x = \frac{FL}{AS} $$, where $$ S $$ is the shear modulus.
 <div class="equation">
 $$ A = \pi r^2 = \pi(0.0200)^2 = 1.257 \times 10^{-3} \mm $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{(900 \N)(20.0 \m)}{(1.257 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} = \frac{18000}{3.14 \times 10^7} = 5.7 \times 10^{-4} \m $$
 </div>
@@ -957,19 +1045,23 @@ $$ \Delta x = \frac{(900 \N)(20.0 \m)}{(1.257 \times 10^{-3} \mm)(2.5 \times 10^
 
 The top of the flagpole flexes approximately $$ 0.57 \text{ mm} $$ to the side under the 900 N horizontal wind force. This small deflection shows that even relatively thin aluminum poles are quite stiff against bending. In practice, flagpoles are designed to handle much larger wind loads without significant permanent deformation.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 As an oil well is drilled, each new section of drill pipe supports its own
 weight and that of the pipe and drill bit beneath it. Calculate the stretch in
 a new 6.00 m length of steel pipe that supports 3.00 km of pipe having a mass
 of 20.0 kg/m and a 100-kg drill bit. The pipe is equivalent in stiffness to a
 solid cylinder 5.00 cm in diameter.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -996,6 +1088,7 @@ $$ A = \pi r^2 = \pi(0.0250 \m)^2 = 1.96 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{FL_0}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \times 10^{-3} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{3.53 \times 10^6}{4.12 \times 10^8} = 8.59 \times 10^{-3} \m = 8.59 \text{ mm} $$
 </div>
@@ -1004,15 +1097,19 @@ $$ \Delta L = \frac{3.53 \times 10^6}{4.12 \times 10^8} = 8.59 \times 10^{-3} \m
 
 The 6-meter section of drill pipe stretches by $$ 8.59 \text{ mm} $$ while supporting 3 km of pipe and a drill bit. This represents a strain of about 0.14%, which is within steel's elastic limit. In deep drilling operations, engineers must account for the cumulative stretch of thousands of meters of pipe, which can add up to several meters of total elongation.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Calculate the force a piano tuner applies to stretch a steel piano wire 8.00 mm, if the wire is originally 0.850 mm in diameter and 1.35 m long.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1034,6 +1131,7 @@ $$ \Delta L = 8.00 \text{ mm} = 8.00 \times 10^{-3} \m $$
 <div class="equation">
 $$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} = \frac{(8.00 \times 10^{-3} \m)(5.67 \times 10^{-7} \mm)(2.1 \times 10^{11} \text{ N/m}^2)}{1.35 \m} $$
 </div>
+
 <div class="equation">
 $$ F = \frac{9.53 \times 10^2}{1.35} = 706 \N $$
 </div>
@@ -1042,16 +1140,20 @@ $$ F = \frac{9.53 \times 10^2}{1.35} = 706 \N $$
 
 The piano tuner applies a force of approximately $$ 706 \N $$ (about 159 pounds) to stretch the wire by 8 mm. This significant tension is what allows piano wires to vibrate at precise frequencies. Piano frames must be built extremely strong (often cast iron) to withstand the combined tension of all strings, which can exceed 20 tons for a grand piano.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A vertebra is subjected to a shearing force of 500 N. Find the shear deformation,
 taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1068,6 +1170,7 @@ $$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta x = \frac{FL_0}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(8.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{15.0}{1.006 \times 10^{8}} = 1.49 \times 10^{-7} \m $$
 </div>
@@ -1076,19 +1179,23 @@ $$ \Delta x = \frac{15.0}{1.006 \times 10^{8}} = 1.49 \times 10^{-7} \m $$
 
 The vertebra experiences a shear deformation of $$ 1.49 \times 10^{-7} \m $$ or about $$ 0.15 \text{ μm} $$—less than a wavelength of visible light! This incredibly small deformation under a 500 N shearing force demonstrates the remarkable resistance of bone to shear. The spine's structure is well-designed to handle the complex combination of compressive and shearing forces it experiences during daily activities.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A disk between vertebrae in the spine is subjected to a shearing force of 600 N.
 Find its shear deformation, taking
 it to have the shear modulus of $$ 1\times 10^{9}\text{N/m}^{2} $$.
 The disk is equivalent to a solid cylinder 0.700 cm high and 4.00 cm in
 diameter.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1105,6 +1212,7 @@ $$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta x = \frac{FL_0}{AS} = \frac{(600 \N)(0.00700 \m)}{(1.257 \times 10^{-3} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{4.20}{1.257 \times 10^6} = 3.34 \times 10^{-6} \m = 3.34 \text{ μm} $$
 </div>
@@ -1113,19 +1221,23 @@ $$ \Delta x = \frac{4.20}{1.257 \times 10^6} = 3.34 \times 10^{-6} \m = 3.34 \te
 
 The intervertebral disk experiences a shear deformation of $$ 3.34 \text{ μm} $$. This is about 20 times larger than the vertebra deformation from the previous problem, reflecting the disk's much lower shear modulus. Intervertebral disks are made of softer, more flexible material than bone, which allows them to act as shock absorbers between vertebrae while still providing structural support.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 When using a pencil eraser, you exert a vertical force of 6.00 N at a distance of 2.00 cm from the
 hardwood-eraser joint. The pencil is 6.00 mm in diameter and is held at an angle of $$ 20.0^\circ $$
 to the horizontal.
 (a) By how much does the wood flex perpendicular to its length?
 (b) How much is it compressed lengthwise?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1147,6 +1259,7 @@ $$ A = \pi r^2 = \pi(0.00300 \m)^2 = 2.83 \times 10^{-5} \mm $$
 <div class="equation">
 $$ \Delta x = \frac{F_\perp L}{AS} = \frac{(5.64 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{0.1128}{2.83 \times 10^5} = 3.99 \times 10^{-7} \m $$
 </div>
@@ -1156,6 +1269,7 @@ $$ \Delta x = \frac{0.1128}{2.83 \times 10^5} = 3.99 \times 10^{-7} \m $$
 <div class="equation">
 $$ \Delta L = \frac{F_\parallel L}{AY} = \frac{(2.05 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.5 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{0.0410}{4.24 \times 10^5} = 9.67 \times 10^{-8} \m $$
 </div>
@@ -1164,11 +1278,14 @@ $$ \Delta L = \frac{0.0410}{4.24 \times 10^5} = 9.67 \times 10^{-8} \m $$
 
 The pencil wood flexes by $$ 3.99 \times 10^{-7} \m $$ perpendicular to its length and compresses by $$ 9.67 \times 10^{-8} \m $$ along its length. Both deformations are extremely small (less than a micrometer) and completely imperceptible during normal use. The shear deformation is about 4 times larger than the compression because the shear component of force is larger and the shear modulus is slightly lower than Young's modulus.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 To consider the effect of wires hung on poles, we take data
 from [Example 2](./ch4FurtherApplicationsOfNewtonsLawsOfMotion), in which tensions in wires
 supporting a traffic light were calculated. The left wire made an angle $$ 30.0^\circ $$
@@ -1178,8 +1295,9 @@ diameter solid cylinder.
 (a) How far is it bent to the side?
 (b) By how much is it compressed?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1201,6 +1319,7 @@ $$ A = \pi r^2 = \pi(0.0225 \m)^2 = 1.59 \times 10^{-3} \mm $$
 <div class="equation">
 $$ \Delta x = \frac{F_H L}{AS} = \frac{(93.5 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{1122}{3.98 \times 10^7} = 2.82 \times 10^{-5} \m = 0.0282 \text{ mm} $$
 </div>
@@ -1210,6 +1329,7 @@ $$ \Delta x = \frac{1122}{3.98 \times 10^7} = 2.82 \times 10^{-5} \m = 0.0282 \t
 <div class="equation">
 $$ \Delta L = \frac{F_V L}{AY} = \frac{(54.0 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(7.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \text{ mm} $$
 </div>
@@ -1218,11 +1338,14 @@ $$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \t
 
 The pole bends $$ 0.028 \text{ mm} $$ to the side and is compressed by $$ 0.006 \text{ mm} $$. These tiny deformations are completely negligible and demonstrate why aluminum poles are suitable for supporting traffic lights and power lines despite the constant tension from the wires.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A farmer making grape juice fills a glass bottle to the brim and caps it tightly.
 The juice expands more than the glass when it warms up, in such a way that the volume
 increases by 0.2% (that is, $$ \Delta V/ V_{0}=2\times 10^{-3} $$)
@@ -1230,8 +1353,9 @@ relative to the space available. Calculate the magnitude of the normal force
 exerted by the juice per square centimeter if its bulk modulus is $$ 1.8\times 10^{9}\text{N/m}^{2} $$, assuming the bottle does not break. In view of your
 answer, do you think the bottle will survive?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1248,6 +1372,7 @@ $$ B = -\frac{\Delta P}{\Delta V/V_0} $$
 <div class="equation">
 $$ \Delta P = B \times \frac{\Delta V}{V_0} = (1.8 \times 10^9 \text{ N/m}^2)(2 \times 10^{-3}) $$
 </div>
+
 <div class="equation">
 $$ \Delta P = 3.6 \times 10^6 \text{ N/m}^2 \approx 4 \times 10^6 \text{ N/m}^2 $$
 </div>
@@ -1261,11 +1386,14 @@ $$ \Delta P = 4 \times 10^6 \text{ Pa} = 40 \text{ bar} \approx 36 \text{ atm} $
 
 The pressure exerted by the juice on the bottle is approximately $$ 4 \times 10^6 \text{ N/m}^2 $$ or about 36 atmospheres. A typical glass bottle can withstand only about 10-20 atm before failing. The bottle will almost certainly break! This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) When water freezes, its volume increases by 9.05%
 (that is, $$ \Delta V/ V_{0}=9.05 \times 10^{-2} $$).
 What force per unit area is water capable of exerting on a container when it
@@ -1273,8 +1401,9 @@ freezes? (It is acceptable to use the bulk modulus of water in this problem.)
 (b) Is it surprising that such forces can fracture engine blocks, boulders, and
 the like?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1287,6 +1416,7 @@ We use the same approach as the previous problem, applying the bulk modulus rela
 <div class="equation">
 $$ \Delta P = B \times \frac{\Delta V}{V_0} = (2.2 \times 10^9 \text{ N/m}^2)(9.05 \times 10^{-2}) $$
 </div>
+
 <div class="equation">
 $$ \Delta P = 1.99 \times 10^8 \text{ N/m}^2 \approx 2.0 \times 10^8 \text{ N/m}^2 $$
 </div>
@@ -1305,19 +1435,23 @@ This pressure of about 2000 atmospheres is enormous—roughly 200 times greater 
 
 Water freezing in a confined space can exert a pressure of approximately $$ 2.0 \times 10^8 \text{ N/m}^2 $$ (about 2000 atm). This explains why freezing water can crack engine blocks, split pipes, and fracture boulders. The force is sufficient to exceed the tensile strength of most materials. This phenomenon, called frost wedging, is a major force in the weathering of rocks and why it's essential to winterize plumbing systems in cold climates.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 This problem returns to the tightrope walker studied
 in Example 2 of [Normal Tension and Other Examples Of Forces](./ch4NormalTensionAndOtherExamplesOfForces),
 who created a tension of $$ 3.94 \times 10^{3}N $$ in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1334,6 +1468,7 @@ $$ A = \pi r^2 = \pi(0.0025 \m)^2 = 1.96 \times 10^{-5} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{TL_0}{AY} = \frac{(3.94 \times 10^3 \N)(15 \m)}{(1.96 \times 10^{-5} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{5.91 \times 10^4}{4.12 \times 10^6} = 1.44 \times 10^{-2} \m = 1.4 \text{ cm} $$
 </div>
@@ -1342,11 +1477,14 @@ $$ \Delta L = \frac{5.91 \times 10^4}{4.12 \times 10^6} = 1.44 \times 10^{-2} \m
 
 The steel wire stretches by approximately $$ 1.4 \text{ cm} $$ under the tightrope walker's weight. This represents a strain of about 0.1%, which is within steel's elastic limit. The stretch explains why tightrope wires sag when someone walks on them—the wire must stretch to create the angle that allows vertical components of tension to support the walker's weight. Professional tightrope artists account for this stretch when setting up their equipment.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The pole in [Figure 10](#Figure10) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
@@ -1360,8 +1498,9 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 ![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_05_03_10.jpg 'This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.')
 {: #Figure10}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1388,6 +1527,7 @@ $$ A = \pi r^2 = \pi(0.090 \m)^2 = 2.54 \times 10^{-2} \mm $$
 <div class="equation">
 $$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(7.5 \times 10^9)} $$
 </div>
+
 <div class="equation">
 $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
 </div>
@@ -1397,6 +1537,7 @@ $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m
 <div class="equation">
 $$ \Delta x = \frac{F_{H,net} \cdot L_0}{AS} = \frac{(5.57 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(5.0 \times 10^9)} $$
 </div>
+
 <div class="equation">
 $$ \Delta x = \frac{8.36 \times 10^5}{1.27 \times 10^8} = 6.6 \times 10^{-3} \m = 6.6 \text{ mm} $$
 </div>
@@ -1410,6 +1551,7 @@ The guy wire must provide a horizontal force component equal to $$ F\_{H,net} $$
 <div class="equation">
 $$ T_{guy}\sin 30° = F_{H,net} $$
 </div>
+
 <div class="equation">
 $$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11 \times 10^5 \N $$
 </div>
@@ -1418,10 +1560,12 @@ $$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11
 
 The pole is compressed by $$ 1.1 \text{ mm} $$ and bends $$ 6.6 \text{ mm} $$ in the direction bisecting the 90° bend. To keep the pole straight, a guy wire with tension $$ 1.11 \times 10^5 \N $$ (about 25,000 lbs) is needed. This substantial force explains why guy wires at corner poles must be anchored very securely, often to large concrete blocks buried in the ground.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1445,4 +1589,4 @@ strain
 shear deformation
 : deformation perpendicular to the original length of an object
 
-</div>
+::::

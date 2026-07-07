@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss different types of fission and thermonuclear bombs.
 * Explain the ill effects of nuclear explosion.
-</div>
+
+:::
 
 The world was in turmoil when fission was discovered in 1938. The discovery of
 fission, made by two German physicists, Otto Hahn and Fritz Strassman, was
@@ -187,55 +188,75 @@ accountability crucial.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are some of the reasons that plutonium rather than uranium is used in all fission bombs and as the trigger in all fusion bombs?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Use the laws of conservation of momentum and energy to explain how a shape charge can direct most of the energy released in an explosion in a specific direction. (Note that this is similar to the situation in guns and cannons—most of the energy goes into the bullet.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the lithium deuteride in the thermonuclear bomb shown in [[Figure 5]](#Figure5) supply tritium  $$\left({}^{3}\text{H}\right) $$
  as well as deuterium  $$\left({}^{2}\text{H}\right) $$ ?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Fallout from nuclear weapons tests in the atmosphere is mainly  $${}^{90}\text{Sr} $$
  and  $${}^{137}\text{Cs} $$ ,
  which have 28.6- and 32.2-y half-lives, respectively. Atmospheric tests were terminated in most countries in 1963, although China only did so in 1980. It has been found that environmental activities of these two isotopes are decreasing faster than their half-lives. Why might this be?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the mass converted into energy by a 12.0-kT bomb.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 0.56 g
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What mass is converted into energy by a 1.00-MT bomb?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -259,23 +280,31 @@ $$ m = \frac{E}{c^{2}} = \frac{4.184 \times 10^{15}}{(3.00 \times 10^{8})^{2}} =
 
 Only 46.5 grams of mass—about 1.6 ounces—is converted to energy in a 1-megaton nuclear explosion! This demonstrates the incredible mass-energy equivalence of $$E=mc^{2}$$. A typical thermonuclear bomb contains several kilograms of nuclear fuel, but only a tiny fraction (about 1%) of that mass is actually converted to energy through fission and fusion reactions. The rest remains as fission products and unconsumed fuel. This small mass conversion releases energy equivalent to one million tons of TNT, capable of destroying an entire city. Compare this to chemical explosives where molecular bonds rearrange but no mass is converted—nuclear reactions are millions of times more energy-dense.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Fusion bombs use neutrons from their fission trigger to create tritium fuel in the reaction  $$n{+}^{6}\text{Li}{\to }^{3}\text{H}{+}^{4}\text{He} $$ .
  What is the energy released by this reaction in MeV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 4.781 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 It is estimated that the total explosive yield of all the nuclear bombs in existence currently is about 4 000 MT.
 
 (a) Convert this amount of energy to kilowatt-hours, noting that $$1 \text{kW}\cdot \text{h}= 3.60 \times 10^{6} \text{J} $$.
@@ -283,8 +312,9 @@ It is estimated that the total explosive yield of all the nuclear bombs in exist
 (b) What would the monetary value of this energy be if it could be converted to
 electricity costing 10 cents per kW·h?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -314,31 +344,40 @@ $$ \text{Value} = (4.65 \times 10^{12} \text{ kWh})(\$0.10/\text{kWh}) = \$4.65 
 
 The world's nuclear arsenal contains energy worth about $465 billion if it could be peacefully converted to electricity—equivalent to about half a trillion dollars. To put this in perspective, world annual electricity consumption is about 25,000 TWh = $$2.5 \times 10^{13}$$ kWh, so these weapons contain enough energy to power the world for about 2-3 weeks. However, this comparison is somewhat misleading: nuclear weapons release their energy in microseconds in an uncontrolled explosion, while peaceful power generation requires controlled, sustained reactions over months or years. The uranium and plutonium in weapons could theoretically be "downblended" and used as reactor fuel, and some weapons-grade material has indeed been converted for civilian power use under nonproliferation agreements. This problem highlights both the enormous destructive potential and the tragic waste represented by nuclear arsenals—energy that could power cities instead threatens to destroy them.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A radiation-enhanced nuclear weapon (or neutron bomb) can have a smaller total yield and still produce more prompt radiation than a conventional nuclear bomb. This allows the use of neutron bombs to kill nearby advancing enemy forces with radiation without blowing up your own forces with the blast. For a 0.500-kT radiation-enhanced weapon and a 1.00-kT conventional nuclear bomb: (a) Compare the blast yields. (b) Compare the prompt radiation yields.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) Blast yields  $$ 2.1 \times 10^{12}  \text{J} $$
  to  $$ 8.4 \times 10^{11}  \text{J} $$ ,
  or 2.5 to 1, conventional to radiation enhanced.
 
 (b) Prompt radiation yields $$ 6.3 \times 10^{11} \text{J} $$ to $$ 2.1 \times 10^{11} \text{J} $$ , or 3 to 1, radiation enhanced to conventional.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How many  $${}^{239}\text{Pu} $$
  nuclei must fission to produce a 20.0-kT yield, assuming 200 MeV per fission? (b) What is the mass of this much  $${}^{239}\text{Pu} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -374,11 +413,14 @@ $$ m = \frac{2.61 \times 10^{24}}{6.022 \times 10^{23}} \times 239 = 1.04 \times
 
 Only about 1 kilogram of $${}^{239}\text{Pu}$$ needs to fission to produce a 20-kiloton explosion like the Nagasaki bomb. However, an actual weapon requires several kilograms of plutonium because: (1) Not all nuclei fission—efficiency is typically 10-20%, so the bomb needs 5-10 kg total; (2) A critical mass must be assembled to sustain the chain reaction; (3) Some material is blown apart before it can fission. The fact that about 1 kg actually fissioned in the Nagasaki bomb means roughly 80-85% of the plutonium did NOT fission but was scattered as radioactive fallout. This is why nuclear weapons are so "dirty"—they spread kilograms of unfissioned plutonium across the environment. Modern weapons achieve higher efficiency (up to 50%), requiring less material and producing less fallout, but even these convert only a fraction of their nuclear fuel. This calculation shows why plutonium is such a proliferation concern: just a few kilograms can make a devastating weapon.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assume one-fourth of the yield of a typical 320-kT strategic bomb comes from fission reactions averaging 200 MeV and the remainder from fusion reactions averaging 20 MeV.
 
 (a) Calculate the number of fissions and the approximate mass of uranium and
@@ -392,8 +434,10 @@ to be 5.
 could carry 10 warheads? Discuss, noting that the nuclear fuel is only a part of
 the mass of a warhead.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.1 \times 10^{25}  \text{fissions} $$ , 4.4 kg
 
 (b) $$ 3.2 \times 10^{26} \text{fusions} $$ , 2.7 kg
@@ -405,15 +449,19 @@ would be only 1500 lbs. If the fuel for the missiles weighs 5 times the total
 weight of the warheads, the missile would weigh about 9000 lbs or 4.5 tons. This
 is not an unreasonable weight for a missile.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 This problem gives some idea of the magnitude of the energy yield of a small tactical bomb. Assume that half the energy of a 1.00-kT nuclear depth charge set off under an aircraft carrier goes into lifting it out of the water—that is, into gravitational potential energy. How high is the carrier lifted if its mass is 90 000 tons?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -443,22 +491,31 @@ $$ h = \frac{E}{mg} = \frac{2.09 \times 10^{12}}{(8.16 \times 10^{7})(9.8)} = 2.
 
 The aircraft carrier would be lifted 2.6 kilometers (about 1.6 miles) into the air! This astonishing result—lifting a 90,000-ton warship higher than many mountains—demonstrates the incredible energy density of nuclear weapons. Of course, in reality the carrier wouldn't be lifted as a rigid body to this height. Instead, the explosion would: (1) Create a massive bubble of superheated steam and gas that expands rapidly; (2) Shock the hull, breaking it apart; (3) Lift fragments in a chaotic spray rather than the whole ship intact. Nevertheless, this calculation shows why nuclear depth charges are so devastating to surface ships—even a "small" 1-kiloton weapon underwater releases enough energy to completely destroy the largest vessels. The water coupling makes underwater nuclear explosions particularly effective: the incompressible water transmits the shock wave with little attenuation, and the expanding gas bubble creates a powerful lifting force. This is why nuclear depth charges were developed during the Cold War for anti-submarine warfare—one bomb could sink an entire carrier battle group.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 It is estimated that weapons tests in the atmosphere have deposited approximately 9 MCi of  $${}^{90}\text{Sr} $$
  on the surface of the earth. Find the mass of this amount of  $${}^{90}\text{Sr} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$7 \times 10^{4}  \text{g} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 1.00-MT bomb exploded a few kilometers above the ground deposits 25.0% of its energy into radiant heat.
 
 (a) Find the calories per $${\text{cm}}^{2} $$ at a distance of 10.0 km by
@@ -467,8 +524,9 @@ assuming a uniform distribution over a spherical surface of that radius.
 (b) If this heat falls on a person's body, what temperature increase does it
 cause in the affected tissue, assuming it is absorbed in a layer 1.00-cm deep?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -510,11 +568,14 @@ $$ \Delta T = \frac{Q}{mc} = \frac{19.8 \text{ cal}}{(1 \text{ g})(1 \text{ cal/
 
 At 10 km from a 1-megaton airburst, exposed skin receives about 20 cal/cm², causing a temperature rise of 20°C. This is enough to cause second-degree burns (blistering) on exposed skin. The thermal pulse lasts only a few seconds, but delivers intense heat almost instantaneously. This explains the horrific burn injuries at Hiroshima and Nagasaki—people 10 km away received severe burns on exposed skin facing the blast. Closer distances are far worse: at 5 km the energy scales as $$1/r^{2}$$, giving ~80 cal/cm² and nearly instant third-degree burns. At 2 km, it's ~500 cal/cm²—enough to ignite clothing and vaporize skin. This thermal radiation, traveling at the speed of light, arrives before the blast wave, giving no warning. The combination of thermal and blast effects creates a zone of near-total lethality extending kilometers from a large nuclear explosion. This problem demonstrates why nuclear weapons cause such widespread casualties—the thermal effects alone can inflict mass casualties over enormous areas.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 One scheme to put nuclear weapons to nonmilitary use is to explode them
@@ -527,10 +588,13 @@ with an efficiency of 10.0%:
 
 (b) How many years would the arsenal last at this rate?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 4.86 \times 10^{9}  \text{W} $$
 (b) 11.0 y
 
-</div>
+:::
+
 </div>

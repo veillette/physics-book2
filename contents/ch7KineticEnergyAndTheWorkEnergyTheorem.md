@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 7
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain work as a transfer of energy and net work as the work done by the net force.
 * Explain and apply the work-energy theorem.
 
-</div>
+:::
 
 ### Work Transfers Energy
 
@@ -116,16 +116,19 @@ displacement. The theorem implies that the net work on a system equals the
 change in the quantity $$ \frac{1}{2}m v^{2} $$. This quantity is our first
 example of a form of energy.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 The Work-Energy Theorem
 </div>
+
 The net work on a system equals the change in the quantity $$ \frac{1}{2}m v^{2} $$.
 
 <div class="equation">
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2} $$
 </div>
-</div>
+
+:::
 
 The quantity $$ \frac{1}{2}m v^{2} $$ in the work-energy theorem is defined to
 be the translational **kinetic energy** (KE) of a mass $$ m $$ moving at a speed
@@ -149,10 +152,12 @@ has at 50 km/h, helping to explain why high-speed collisions are so devastating.
 We will now consider a series of examples to illustrate various aspects of work
 and energy.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating the Kinetic Energy of a Package
 </div>
+
 Suppose a 30.0-kg package on the roller belt conveyor system in [Figure 2](#Figure2) is moving at 0.500 m/s. What is its kinetic energy?
 
 **Strategy**
@@ -167,11 +172,13 @@ The kinetic energy is given by
 <div class="equation">
  $$ \KE=\frac{1}{2}m v^{2}. $$
 </div>
+
 Entering known values gives
 
 <div class="equation">
  $$ \KE=0.5\left(30.0 \kg \right)\left(0.500 \ms \right)^{2}, $$
 </div>
+
 which yields
 
 <div class="equation">
@@ -186,12 +193,14 @@ this is a fairly massive package, its kinetic energy is not large at this
 relatively low speed. This fact is consistent with the observation that people
 can move packages like this without exhausting themselves.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Determining the Work to Accelerate a Package
 </div>
+
 Suppose that you push on the 30.0-kg package in [Figure 2](#Figure2) with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.
 (a) Calculate the net work done on the package.
 (b) Solve the same problem as in part (a), this time by finding the work done by each force that contributes to
@@ -241,6 +250,7 @@ W_{\text{app}}&=& \left(120 \N \right)\left(0.800 \m \right)\\
 W_{\text{app}}&=& 96.0 \J
 \end{array} $$
 </div>
+
 The friction force and displacement are in opposite directions, so that $$ \theta =180^\circ $$,
 and the work done by friction is
 
@@ -251,6 +261,7 @@ W_{\text{fr}}&=& -\left(5.00 \N \right)\left(0.800 \m \right)\\
 W_{\text{fr}}&=& -4.00 \J .
 \end{array} $$
 </div>
+
 So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,
 
 <div class="equation">
@@ -261,6 +272,7 @@ W_{\text{app}}&=& 96.0 \J  ,\\
 W_{\text{fr}}&=& -4.00 \J .
 \end{array} $$
 </div>
+
 The total work done as the sum of the work done by each force is then seen to be
 
 <div class="equation">
@@ -274,12 +286,14 @@ force agrees, as expected, with the work $$ W_{\text{net}} $$ done by the net
 force. The work done by a collection of forces acting on an object can be
 calculated by either approach.
 
-</div>
+:::
 
-<div class="example" id="example3" markdown="1">
+::: example {"class":"example","id":"example3"}
+
 <div class="title">
 Determining Speed from Work and Energy
 </div>
+
 Find the speed of the package in [Figure 2](#Figure2) at the end of the push, using work and energy concepts.
 
 **Strategy**
@@ -295,16 +309,19 @@ The work-energy theorem in equation form is
 <div class="equation">
  $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2}{m v_{0}}^{2}. $$
 </div>
+
 Solving for $$ \frac{1}{2}m v^{2} $$ gives
 
 <div class="equation">
  $$ \frac{1}{2}m v^{2}=W_{\text{net}}+\frac{1}{2}{m v_{0}}^{2}. $$
 </div>
+
 Thus,
 
 <div class="equation">
  $$ \frac{1}{2}m v^{2}=92.0 \J+3.75 \J =95.75 \J . $$
 </div>
+
 Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
@@ -320,12 +337,14 @@ Using work and energy, we not only arrive at an answer, we see that the final
 kinetic energy is the sum of the initial kinetic energy and the net work done on
 the package. This means that the work indeed adds to the energy of the package.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Work and Energy Can Reveal Distance, Too
 </div>
+
 How far does the package in [Figure 2](#Figure2) coast after the push, assuming friction remains constant? Use work and energy considerations.
 
 **Strategy**
@@ -350,6 +369,7 @@ is the distance it takes to stop. Thus,
 <div class="equation">
  $$ d^{\prime} =-\frac{ W_{\text{fr}}}{f}=-\frac{-95.75 \J }{5.00 \N }, $$
 </div>
+
 and so
 
 <div class="equation">
@@ -363,7 +383,7 @@ friction-free conveyor system. Note that the work done by friction is negative (
 the force is in the opposite direction of motion), so it removes the kinetic
 energy.
 
-</div>
+:::
 
 Some of the examples in this section can be solved without considering energy,
 but at the expense of missing out on gaining insights about what work and energy
@@ -383,38 +403,50 @@ generally shorter and easier than those using kinematics and dynamics alone.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The person in [Figure 3](#Figure3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy?
 
 ![A person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta below the horizontal and distance moved by the mover is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person, W, is equal to F d cosine theta.](../resources/Figure_07_02_03.jpg 'Person pushing a lawn mower.')
 {: #Figure3}
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Work done on a system puts energy into it. Work done by a system removes energy from it. Give an example for each statement.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When solving for speed in [Example 3](#example3), we kept only the positive root. Why?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Compare the kinetic energy of a 20 000-kg truck moving at 110 km/h with that of an 80.0-kg
 astronaut in orbit moving at 27 500 km/h.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -457,18 +489,22 @@ The truck's kinetic energy is only 1/250th that of the astronaut in orbit. Even 
 
 The truck has a kinetic energy of $$ 9.37 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How fast must a 3000-kg elephant move to have the same kinetic energy
 as a 65.0-kg sprinter running at 10.0 m/s?
 (b) Discuss how the larger energies
 needed for the movement of larger animals would relate to metabolic rates.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -512,17 +548,21 @@ Even though the elephant moves more slowly, it requires significant energy to mo
 
 (b) Larger animals require greater absolute metabolic rates to move their larger masses, though metabolic rate per unit mass decreases with increasing body size according to Kleiber's law.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm the value given for the kinetic energy of an aircraft
 carrier in [Table 1 of Conservation of Energy](./ch7ConservationOfEnergy#Table1).
 You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -554,16 +594,20 @@ The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value i
 
 The kinetic energy of the aircraft carrier is $$ 1.1 \times 10^{10} \J $$ (11 billion joules), confirming the value given in Table 1.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the force needed to bring a 950-kg car to rest from a speed of 90.0 km/h in a distance of 120 m (a fairly typical distance for a non-panic stop).
 (b) Suppose instead the car hits a concrete abutment at full speed and is brought to a stop in 2.00 m. Calculate the force exerted on the car and compare it with the force found in part (a).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -623,19 +667,23 @@ This dramatic increase demonstrates the inverse relationship between stopping di
 
 (b) The force when hitting the abutment is $$ 1.5 \times 10^{5} \N $$ (150,000 N), which is 60 times larger than the braking force.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A car's bumper is designed to withstand a 4.0-km/h (1.1-m/s) collision with an
 immovable object without damage to the body of the car.
 The bumper cushions the shock by absorbing the force over a distance.
 Calculate the magnitude of the average force on a bumper that collapses 0.200 m
 while bringing a 900-kg car to rest from an initial speed of 1.1 m/s.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -667,11 +715,14 @@ The average force on the bumper is approximately 2700 N (about 610 pounds). This
 
 The average force on the bumper is $$ 2.7 \times 10^{3} \N $$ (approximately 2700 N or 610 pounds).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Boxing gloves are padded to lessen the force of a blow.
 (a) Calculate the force exerted by a boxing glove on an opponent's face,
 if the glove and face compress 7.50 cm during a blow in which the 7.00-kg arm and glove are
@@ -682,8 +733,9 @@ were used and the knuckles and face would compress only 2.00 cm.
 Does it seem high enough
 to cause damage even though it is lower than the force with no glove?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -732,18 +784,22 @@ However, even with a glove, 4700 N is still a very substantial force—equivalen
 
 (c) Yes, even the reduced force with a glove (4700 N or about 1000 pounds) is high enough to cause significant damage including concussions and facial injuries.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using energy considerations, calculate the average force a 60.0-kg
 sprinter exerts backward on the track to accelerate from 2.00 to 8.00 m/s
 in a distance of 25.0 m, if he encounters a headwind that exerts an average
 force of 30.0 N against him.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -781,10 +837,12 @@ The sprinter exerts an average force of 102 N backward on the track (by Newton's
 
 The average force the sprinter exerts backward on the track is $$ 102 \N $$.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -800,4 +858,4 @@ kinetic energy
 : the energy an object has by reason of its motion, equal to $$ \frac{1}{2}m v^{2} $$ for the translational (i.e., non-rotational) motion of an object of
 mass $$ m $$ moving at speed $$ v $$
 
-</div>
+:::

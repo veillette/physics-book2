@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 21
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Compare and contrast the voltage and the electromagnetic force of an electric power source.
 * Describe what happens to the terminal voltage, current, and power delivered to a load as internal resistance of the voltage source increases (due to aging of batteries, for example).
 * Explain why it is beneficial to use more than one voltage source connected in parallel.
-</div>
+
+:::
 
 When you forget to turn off your car lights, they slowly dim as the battery runs
 down. Why don’t they simply blink off when the battery’s energy is gone? Their
@@ -78,10 +79,12 @@ temperature, and even its history. The internal resistance of rechargeable
 nickel-cadmium cells, for example, depends on how many times and how deeply they
 have been depleted.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Things Great and Small: The Submicroscopic Origin of Battery Potential
 </div>
+
 Various types of batteries are available, with emfs determined by the combination of chemicals involved. We can view this as a molecular reaction (what much of chemistry is about) that separates charge.
 
 The lead-acid battery used in cars and other vehicles is one of the most common
@@ -111,7 +114,7 @@ resistance, it is not possible to create the emf without an internal resistance.
 ![The diagram shows a simplified view of a battery depicting a rectangular container containing two thin upright metal plates immersed in a liquid. An enlarged view of the metal plates is also shown. One plate has positive charges on it shown as small spheres enclosing a positive sign. The other plate has negative charge on it shown as small spheres enclosing an electron. The electrons are shown to move from the positive plate to the negative plate using arrows through a molecular reaction in the liquid.](../resources/Figure_21_02_04.jpg 'Artist’s conception of two electrons being forced onto the anode of a cell and two electrons being removed from the cathode of the cell. The chemical reaction in a lead-acid battery places two electrons on the anode and removes two from the cathode. It requires a closed circuit to proceed, since the two electrons must be supplied to the cathode.')
 {: #Figure4}
 
-</div>
+:::
 
 Why are the chemicals able to produce a unique potential difference? Quantum
 mechanical descriptions of molecules, which take into account the types of atoms
@@ -160,10 +163,12 @@ the greater the current the voltage source supplies to its load $${R}_{\text{loa
 becomes a significant fraction of the load resistance, then the current is
 significantly reduced, as the following example illustrates.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Terminal Voltage, Power Dissipation, Current, and Resistance: Terminal Voltage and Load
 </div>
+
 A certain battery has a 12.0-V emf and an internal resistance of  $$ 0.100 \Omega  $$ .
  (a) Calculate its terminal voltage when connected to a  $$10.0 \text{-}\Omega  $$
  load. (b) What is the terminal voltage when connected to a  $$0.500\text{-}\Omega  $$
@@ -187,12 +192,14 @@ into the expression above yields
 <div class="equation" >
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}=\frac{ 12.0 \text{V}}{ 10.1  \Omega }= 1.188 \text{A}. $$
 </div>
+
 Enter the known values into the equation  $$V=\text{emf}-Ir $$
  to get the terminal voltage:
 
 <div class="equation" >
  $$\begin{array}{lll}V& =& \text{emf}-Ir=12.0 \text{V}-\left(1.188 \text{A}\right)\left(0.100 \text{Ω}\right)\\ & =& 11.9 \text{V} \text{.} \end{array} $$
 </div>
+
 **Discussion for (a)**
 
 The terminal voltage here is only slightly lower than the emf, implying that $$ 10.0 \Omega $$ is a light load for this particular battery.
@@ -204,11 +211,13 @@ Similarly, with $${R}_{\text{load}}= 0.500 \Omega $$ , the current is
 <div class="equation" >
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}=\frac{ 12.0 \text{V}}{ 0.600 \Omega }= 20.0 \text{A}. $$
 </div>
+
 The terminal voltage is now
 
 <div class="equation" >
  $$\begin{array}{lll}V& =& \text{emf}-Ir=12.0 \text{V}-\left(20.0 \text{A}\right)\left(0.100 \text{Ω}\right)\\ & =& 10.0 \text{V} \text{.} \end{array} $$
 </div>
+
 **Discussion for (b)**
 
 This terminal voltage exhibits a more significant reduction compared with emf,
@@ -222,6 +231,7 @@ formula $$P={I}^{2}R $$ . Entering the known values gives
 <div class="equation" >
  $${P}_{\text{load}}={I}^{2}{R}_{\text{load}}={\left(20.0 \text{A}\right)}^{2}\left(0.500\text{ Ω}\right)=2.00 \times 10^{2}  \text{W}. $$
 </div>
+
 **Discussion for (c)**
 
 Note that this power can also be obtained using the expressions $$\frac{ {V}^{2}}{R} $$ or $$IV $$ , where $$V $$ is the terminal voltage (10.0 V in this
@@ -237,22 +247,25 @@ yielding
 <div class="equation" >
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}=\frac{ 12.0 \text{V}}{ 1.00 \Omega }= 12.0 \text{A}. $$
 </div>
+
 Now the terminal voltage is
 
 <div class="equation" >
  $$\begin{array}{lll}V& =& \text{emf}-Ir=12.0 \text{V}-\left(12.0 \text{A}\right)\left(0.500 \text{Ω}\right)\\ & =& 6.00 \text{V} \text{,} \end{array} $$
 </div>
+
 and the power dissipated by the load is
 
 <div class="equation" >
  $${P}_{\text{load}}={I}^{2}{R}_{\text{load}}={\left(12.0 \text{A}\right)}^{2}\left( 0.500 \Omega \right)= 72.0 \text{W}. $$
 </div>
+
 **Discussion for (d)**
 
 We see that the increased internal resistance has significantly decreased
 terminal voltage, current, and power delivered to a load.
 
-</div>
+:::
 
 Battery testers, such as those in [[Figure 6]](#Figure6), use small load
 resistors to intentionally draw current to determine whether the terminal
@@ -314,13 +327,15 @@ series with emfs in the same sense are connected to a load $${R}_{\text{load}} $
 ![Part a shows a flashlight glowing when connected to two cells joined in series with the positive end of one cell connected to the negative end of the other. Part b shows the schematic circuit for part a. There is a series combination of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two connected to a load resistor R sub load.](../resources/Figure_21_02_11.jpg 'This schematic represents a flashlight with two cells (voltage sources) and a single bulb (load resistance) in series. The current that flows is ( I=  ( \\text{emf}_1 + \\text{emf}_2 )/(r_1+r_2 +R_\\text{load}) ). (Note that each emf is represented by script E in the figure.)')
 {: #Figure11}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Flashlight Batteries
 </div>
+
 Find a flashlight that uses several batteries and find new and old batteries. Based on the discussions in this module, predict the brightness of the flashlight when different combinations of batteries are used. Do your predictions match what you observe? Now place new batteries in the flashlight and leave the flashlight switched on for several hours. Is the flashlight still quite bright? Do the same with the old batteries. Is the flashlight as bright when left on for the same length of time with old and new batteries? What does this say for the case when you are limited in the number of available new batteries?
 
-</div>
+:::
 
 [[Figure 12]](#Figure12) shows two voltage sources with identical emfs in
 parallel and connected to a load resistance. In this simple case, the total emf
@@ -393,16 +408,18 @@ required, so a device called an inverter must be used to convert the DC to AC.
 Any extra output can then be passed on to the outside electrical grid for sale
 to the utility.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Virtual Solar Cells
 </div>
+
 One can assemble a “virtual” solar cell array by using playing cards, or business or index cards, to represent a solar cell. Combinations of these cards in series and/or parallel can model the required array output. Assume each card has an output of 0.5 V and a current (under bright light) of 2 A. Using your cards, how would you arrange them to produce an output of 6 A at 3 V (18 W)?
 
 Suppose you were told that you needed only 18 W (but no required voltage). Would
 you need more cards to make this arrangement?
 
-</div>
+:::
 
 ### Section Summary
 
@@ -425,69 +442,96 @@ you need more cards to make this arrangement?
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is every emf a potential difference? Is every potential difference an emf? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain which battery is doing the charging and which is being charged in [[Figure 14]](#Figure14).
 
-</div>
+:::
+
 </div>
 
 ![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_21_02_14.jpg ' ')
 {: #Figure14}
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Given a battery, an assortment of resistors, and a variety of voltage and current measuring devices, describe how you would determine the internal resistance of the battery.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two different 12-V automobile batteries on a store shelf are rated at 600 and 850 “cold cranking amps.” Which has the smallest internal resistance?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the advantages and disadvantages of connecting batteries in series? In parallel?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Semitractor trucks use four large 12-V batteries. The starter system requires 24 V, while normal operation of the truck’s other electrical components utilizes 12 V. How could the four batteries be connected to produce 24 V? To produce 12 V? Why is 24 V better than 12 V for starting the truck’s engine (a very heavy load)?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Standard automobile batteries have six lead-acid cells in series, creating a total emf of 12.0 V. What is the emf of an individual lead-acid cell?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 2.00 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Carbon-zinc dry cells (sometimes referred to as non-alkaline cells) have an emf of 1.54 V, and they are produced as single cells or in various combinations to form other voltages. (a) How many 1.54-V cells are needed to make the common 9-V battery used in many small electronic devices? (b) What is the actual emf of the approximately 9-V battery? (c) Discuss how internal resistance in the series connection of cells will affect the terminal voltage of this approximately 9-V battery.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), divide the desired voltage by the voltage of each cell. For part (b), multiply the number of cells by the emf of each cell. For part (c), consider that internal resistances add in series.
@@ -528,27 +572,37 @@ A "9-V" battery actually delivers 9.24 V when fresh and unloaded. The six-fold i
 
 (a) 6 cells, (b) 9.24 V, (c) Internal resistances add in series, increasing voltage drop and reducing terminal voltage under load.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the output voltage of a 3.0000-V lithium cell in a digital wristwatch that draws 0.300 mA, if the cell’s internal resistance is  $$ 2.00 \Omega  $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 2.9994 V
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the terminal voltage of a large 1.54-V alkaline dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell's internal resistance is  $$0.100 \text{Ω} $$ ?
  (b) How much electrical power does the cell produce? (c) What power goes to its load?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use $$V = \text{emf} - Ir$$ for terminal voltage. Power produced by the cell is $$P = I \times \text{emf}$$, while power delivered to the load is $$P = IV$$ (where $$V$$ is terminal voltage).
@@ -583,26 +637,37 @@ The cell produces 3.08 W total, but only 2.68 W (87%) reaches the load. The rema
 
 (a) 1.34 V, (b) 3.08 W, (c) 2.68 W.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the internal resistance of an automobile battery that has an emf of 12.0 V and a terminal voltage of 15.0 V while a current of 8.00 A is charging it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 0.375 \Omega  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the terminal voltage of a 12.0-V motorcycle battery having a  $$0.600\text{-Ω} $$
  internal resistance, if it is being charged by a current of 10.0 A. (b) What is the output voltage of the battery charger?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When a battery is being charged, current flows into it (opposite to discharge direction). The terminal voltage is higher than the emf: $$V = \text{emf} + Ir$$. The charger voltage must equal the terminal voltage.
@@ -625,16 +690,21 @@ During charging, the 10.0 A current flows through the internal resistance in the
 
 (a) 18.0 V, (b) 18.0 V.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A car battery with a 12-V emf and an internal resistance of  $$ 0.050 \Omega  $$
  is being charged with a current of 60 A. Note that in this process the battery is being charged. (a) What is the potential difference across its terminals? (b) At what rate is thermal energy being dissipated in the battery? (c) At what rate is electric energy being converted to chemical energy? (d) What are the answers to (a) and (b) when the battery is used to supply 60 A to the starter motor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When charging: $$V = \text{emf} + Ir$$ (current into battery). When discharging: $$V = \text{emf} - Ir$$ (current out of battery). Thermal power dissipated is $$P = I^2r$$. Power converted to chemical energy is the difference between input electrical power and thermal dissipation.
@@ -677,36 +747,46 @@ During charging, the battery's terminal voltage (15 V) exceeds its emf (12 V) be
 
 (a) 15 V, (b) 180 W, (c) 720 W, (d) 9.0 V and 180 W.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The hot resistance of a flashlight bulb is  $$ 2.30 \Omega  $$ ,
  and it is run by a 1.58-V alkaline cell having a  $$0.100\text{-Ω} $$
  internal resistance. (a) What current flows? (b) Calculate the power supplied to the bulb using  $${I}^{2}{R}_{\text{bulb}} $$ .
  (c) Is this power the same as calculated using  $$\frac{ {V}^{2}}{ {R}_{\text{bulb}}} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 0.658 A
 
 (b) 0.997 W
 
 (c) 0.997 W; yes
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. The radio has a  $$3.20\text{-Ω} $$
  resistance. (a) Draw a circuit diagram of the radio and its batteries. Now, calculate the power delivered to the radio. (b) When using Nicad cells each having an internal resistance of  $$0.0400 \text{Ω} $$ .
  (c) When using alkaline cells each having an internal resistance of  $$0.200 \text{Ω} $$ .
  (d) Does this difference seem significant, considering that the radio's effective resistance is lowered when its volume is turned up?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Assume the radio uses two cells in series. Calculate total resistance, current, and power for each battery type using $$I = \text{emf}_{\text{total}}/(R_{\text{load}} + r_{\text{total}})$$ and $$P = I^2 R_{\text{load}}$$.
@@ -737,18 +817,23 @@ Despite higher emf, alkaline cells have 5× higher internal resistance than NiCa
 
 (a) See circuit description, (b) 1.86 W, (c) 2.47 W, (d) Difference is moderate and decreases at higher volumes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An automobile starter motor has an equivalent resistance of  $$ 0.0500 \Omega  $$
  and is supplied by a 12.0-V battery with a  $$0.0100\text{-Ω} $$
  internal resistance. (a) What is the current to the motor? (b) What voltage is applied to it? (c) What power is supplied to the motor? (d) Repeat these calculations for when the battery connections are corroded and add  $$ 0.0900 \Omega  $$
  to the circuit. (Significant problems are caused by even small amounts of unwanted resistance in low-voltage, high-current applications.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 200 A
 
 (b) 10.0 V
@@ -757,18 +842,23 @@ An automobile starter motor has an equivalent resistance of  $$ 0.0500 \Omega  $
 
 (d) $$ 0.1000 \Omega ; 80.0 \text{A}, 4.0 \text{V}, 320 \text{W} $$
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A child's electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of  $$ 0.0200 \Omega  $$
  in series with a 1.53-V alkaline dry cell having a  $$0.100\text{-Ω} $$
  internal resistance. The load resistance is  $$ 10.0 \Omega  $$ .
  (a) Draw a circuit diagram of the toy and its batteries. (b) What current flows? (c) How much power is supplied to the load? (d) What is the internal resistance of the dry cell if it goes bad, resulting in only 0.500 W being supplied to the load?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Four cells in series: three identical 1.58-V cells and one 1.53-V cell. Add emfs and internal resistances, then calculate current and power.
@@ -830,30 +920,40 @@ The normal internal resistance is only 0.160 Ω (1.6% of total), so most power r
 
 (a) Four cells in series with 10-Ω load, (b) 0.617 A, (c) 3.81 W, (d) 17.9 Ω.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the internal resistance of a voltage source if its terminal voltage drops by 2.00 V when the current supplied increases by 5.00 A? (b) Can the emf of the voltage source be found with the information supplied?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$0.400 \text{Ω} $$
 (b) No, there is only one independent equation, so only  $$r $$
  can be found.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A person with body resistance between his hands of  $$ 10.0 \text{k}\Omega  $$
  accidentally grasps the terminals of a 20.0-kV power supply. (Do NOT do this!) (a) Draw a circuit diagram to represent the situation. (b) If the internal resistance of the power supply is  $$2000 \Omega  $$ ,
  what is the current through his body? (c) What is the power dissipated in his body? (d) If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be 1.00 mA or less? (e) Will this modification compromise the effectiveness of the power supply for driving low-resistance devices? Explain your reasoning.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Model as series circuit with emf = 20.0 kV, internal resistance $$r$$, and body resistance 10.0 kΩ. Calculate current and power, then determine safe internal resistance.
@@ -898,20 +998,26 @@ The original configuration (2-kΩ internal resistance) allows a lethal 1.67 A th
 
 (a) See circuit description, (b) 1.67 A (lethal!), (c) 27.9 kW, (d) 20.0 MΩ, (e) Yes, makes supply ineffective for normal use.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Electric fish generate current with biological cells called electroplaques, which are physiological emf devices. The electroplaques in the South American eel are arranged in 140 rows, each row stretching horizontally along the body and each containing 5000 electroplaques. Each electroplaque has an emf of 0.15 V and internal resistance of  $$ 0.25 \Omega  $$ .
  If the water surrounding the fish has resistance of  $$800 \Omega  $$ ,
  how much current can the eel produce in water from near its head to near its tail?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A 12.0-V emf automobile battery has a terminal voltage of 16.0 V when being
@@ -921,11 +1027,14 @@ $$\text{º}\text{C/min} $$ )
 will its temperature increase if its mass is 20.0 kg and it has a specific heat
 of $$ 0.300 \text{kcal/kg}\cdot\text{ºC} $$ , assuming no heat escapes?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A 1.58-V alkaline cell with a $$0.200\text{-Ω} $$ internal resistance is
@@ -933,8 +1042,10 @@ supplying 8.50 A to a load. (a) What is its terminal voltage? (b) What is the
 value of the load resistance? (c) What is unreasonable about these results? (d)
 Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) –0.120 V
 
 (b) $$ -1.41 \times 10^{-2} \Omega $$
@@ -943,21 +1054,26 @@ Which assumptions are unreasonable or inconsistent?
 (d) The assumption that such a cell could provide 8.50 A is inconsistent with
 its internal resistance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) What is the internal resistance of a 1.54-V dry cell that supplies 1.00 W of
 power to a $$ 15.0-\Omega $$ bulb? (b) What is unreasonable about this result? (
 c) Which assumptions are unreasonable or inconsistent?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -975,4 +1091,4 @@ circuit, measured in volts
 terminal voltage
 : the voltage measured across the terminals of a source of potential difference
 
-</div>
+:::

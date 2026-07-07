@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 6
 chapterNumber: 15
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes.
 * Explain the expected fate of the universe in entropic terms.
 * Calculate the increasing disorder of a system.
-</div>
+
+:::
 
 ![Photograph shows a glass of a beverage with ice cubes and a straw, placed on a paper napkin on the table. There is a piece of sliced lemon at the edge of the glass. There is condensate around the outside surface of the glass, giving the appearance that the ice is melting.](../resources/Figure_15_06_01.jpg 'The ice in this drink is slowly melting. Eventually the liquid will reach thermal equilibrium, as predicted by the second law of thermodynamics. (credit: Jon Sullivan, PDPhoto.org)')
 {: #Figure1}
@@ -22,13 +23,15 @@ disordered and for less energy to be available for use as work. The entropy of a
 system can in fact be shown to be a measure of its disorder and of the
 unavailability of energy to do work.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Entropy, Energy, and Work
 </div>
+
 Recall that the simple definition of energy is the ability to do work. Entropy is a measure of how much energy is not available to do work. Although all forms of energy are interconvertible, and all can be used to do work, it is not always possible, even in principle, to convert the entire available energy into work. That unavailable energy is of interest in thermodynamics, because the field of thermodynamics arose from efforts to convert heat to work.
 
-</div>
+:::
 
 We can see how entropy is defined by recalling our discussion of the Carnot
 engine. We noted that for a Carnot cycle, and hence for any reversible
@@ -98,10 +101,12 @@ though, and they do change total entropy. We can, however, use hypothetical
 reversible processes to determine the value of entropy in real, irreversible
 processes. The following example illustrates this point.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Entropy Increases in an Irreversible (Real) Process
 </div>
+
 Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at  $${T}_{\text{h}}=600 \text{K}\left(327 \text{ºC}\right) $$
  to a cold reservoir at  $${T}_{\text{c}}=250 \text{K}\left(-23 \text{ºC}\right) $$ ,
  assuming there is no temperature change in either reservoir. (See [[Figure 2]](#Figure2).)
@@ -128,16 +133,19 @@ heat transfer from the hot reservoir,
 <div class="equation" >
  $$\Delta {S}_{\text{h}}=\frac{-{Q}_{\text{h}}}{ {T}_{\text{h}}}=\frac{-4000 \text{J}}{600 \text{K}}= -6.67 \text{J/K}\text{.} $$
 </div>
+
 And for the cold reservoir,
 
 <div class="equation" >
  $$\Delta {S}_{\text{c}}=\frac{ {Q}_{\text{c}}}{ {T}_{\text{c}}}=\frac{4000 \text{J}}{250 \text{K}}= 16.0 \text{J/K}\text{.} $$
 </div>
+
 Thus the total is
 
 <div class="equation" >
  $$\begin{array}{ccc}\Delta {S}_{\text{tot}}& =& \Delta {S}_{\text{h}}+\Delta {S}_{\text{c}}\\ & =& \left(-6.67 +16.0\right) \text{J/K}\\ & =& 9.33 \text{J/K} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 There is an _increase_ in entropy for the system of two heat reservoirs
@@ -148,7 +156,7 @@ increased, and energy has become unavailable to do work.
 ![Part a of the figure shows the irreversible heat transfer from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow from hot reservoir to cold reservoir as shown by a continuous bold arrow pointing downward. The heat is a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. Part b of the figure shows two reversible heat transfers from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow out of the hot reservoir, and an equal amount of heat Q is shown to flow into the cold reservoir as shown by two arrows representing two reversible processes and not a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. ](../resources/Figure_15_06_03.jpg '(a) Heat transfer from a hot object to a cold one is an irreversible process that produces an overall increase in entropy. (b) The same final state and, thus, the same change in entropy is achieved for the objects if reversible heat transfer processes occur between the two objects whose temperatures are the same as the temperatures of the corresponding objects in the irreversible process. ')
 {: #Figure3}
 
-</div>
+:::
 
 It is reasonable that entropy increases for heat transfer from hot to cold.
 Since the change in entropy is $$Q/T $$ , there is a larger change at lower
@@ -182,10 +190,12 @@ reason is that entropy is directly related to the fact that not all heat
 transfer can be converted into work. The next example gives some indication of
 how an increase in entropy results in less heat transfer into work.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Less Work is Produced by a Given Heat Transfer When Entropy Change is Greater
 </div>
+
 (a) Calculate the work output of a Carnot engine operating between temperatures of 600 K and 100 K for 4000 J of heat transfer to the engine. (b) Now suppose that the 4000 J of heat transfer occurs first from the 600 K reservoir to a 250 K reservoir (without doing any work, and this produces the increase in entropy calculated above) before transferring into a Carnot engine operating between 250 K and 100 K. What work output is produced? (See [[Figure 3]](#Figure3).)
 
 **Strategy**
@@ -200,21 +210,25 @@ The Carnot efficiency is given by
 <div class="equation" >
  $${\text{Eff}}_{\text{C}}=1-\frac{ {T}_{\text{c}}}{ {T}_{\text{h}}}\text{.} $$
 </div>
+
 Substituting the given temperatures yields
 
 <div class="equation" >
  $${\text{Eff}}_{\text{C}}=1-\frac{100 \text{K}}{600 \text{K}}= 0.833 \text{.} $$
 </div>
+
 Now the work output can be calculated using the definition of efficiency for any heat engine as given by
 
 <div class="equation" >
  $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}}\text{.} $$
 </div>
+
 Solving for  $$W $$  and substituting known terms gives
 
 <div class="equation" >
  $$\begin{array}{lll}W& =& {\text{Eff}}_{\text{C}}{Q}_{\text{h}}\\ & =& \left(0.833\right)\left(4000 \text{J}\right)=3333 \text{J} \text{.} \end{array} $$
 </div>
+
 **Solution (b)**
 
 Similarly,
@@ -222,11 +236,13 @@ Similarly,
 <div class="equation" >
  $${\text{Eff}\prime }_{\text{C}}=1-\frac{ {T}_{\text{c}}}{ {\text{T′}}_{\text{c}}}=1-\frac{100 \text{K}}{250 \text{K}}=0.600, $$
 </div>
+
 so that
 
 <div class="equation" >
  $$\begin{array}{lll}W& =& {\text{Eff}\prime }_{\text{C}}{Q}_{h}\\ & =& \left(0.600\right)\left(4000 \text{J}\right)=2400 \text{J} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 There is 933 J less work from the same heat transfer in the second process. This
@@ -238,7 +254,7 @@ associated with the *un*availability of energy to do work.
 ![Part a of the diagram shows a schematic diagram of a Carnot engine shown as a circle. The hot reservoir is shown as a rectangular section above the circle at temperature T sub h equals six hundred Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c equals one hundred Kelvin. A heat Q sub h from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from the hot reservoir. A part of it leaves as work W equals three thousand three hundred thirty three joules from the engine. The remaining heat Q sub c equals six hundred sixty seven joules is returned back to the cold reservoir as shown by a bold arrow toward it. Part b of the diagram shows a schematic diagram of a Carnot engine shown as a circle. This engine is shown to have a greater entropy level. An initial heat transfer of four thousand joules occurs from a hot reservoir shown as a rectangular section above the circle toward left at temperature T sub h equals six hundred Kelvin to another rectangular section above the circle at temperature T sub h prime equals two fifty Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c prime equals one hundred Kelvin. A heat Q sub h prime from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from this hot reservoir. A part of it leaves as work W equals two thousand four hundred joules from the engine. The remaining heat Q sub c equals one thousand six hundred joules is returned back to the cold reservoir as shown by a bold arrow toward it.](../resources/Figure_15_06_04.jpg '(a) A Carnot engine working at between 600 K and 100 K has 4000 J of heat transfer and performs 3333 J of work. (b) The 4000 J of heat transfer occurs first irreversibly to a 250 K reservoir and then goes into a Carnot engine. The increase in entropy caused by the heat transfer to a colder reservoir results in a smaller work output of 2400 J. There is a permanent loss of 933 J of energy for the purpose of doing work.')
 {: #Figure4}
 
-</div>
+:::
 
 When entropy increases, a certain amount of energy becomes _permanently_
 unavailable to do work. The energy is not lost, but its character is changed, so
@@ -322,10 +338,12 @@ disorderly liquid in which molecules have no fixed positions. (
 See [[Figure 5]](#Figure5).) There is a large increase in entropy in the
 process, as seen in the following example.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Entropy Associated with Disorder
 </div>
+
 Find the increase in entropy of 1.00 kg of ice originally at  $$0º C $$
  that is melted to form water at  $$0º C $$.
 
@@ -341,12 +359,14 @@ The change in entropy is defined as:
 <div class="equation" >
  $$ \Delta S =\frac{Q}{T}\text{.} $$
 </div>
+
 Here  $$Q $$
  is the heat transfer necessary to melt 1.00 kg of ice and is given by
 
 <div class="equation" >
  $$Q=m L_{\text{f}}\text{,} $$
 </div>
+
 where  $$m $$
  is the mass and  $${L}_{\text{f}} $$
  is the latent heat of fusion.  $${L}_{\text{f}}=334 \text{kJ/kg} $$
@@ -355,11 +375,13 @@ where  $$m $$
 <div class="equation" >
  $$Q=\left(1.00 \text{kg}\right)\left(334 \text{kJ/kg}\right)= 3.34 \times 10^{5}  \text{J} \text{.}  $$
 </div>
+
 Now the change in entropy is positive, since heat transfer occurs into the ice to cause the phase change; thus,
 
 <div class="equation" >
  $$\Delta S=\frac{Q}{T}=\frac{ 3.34 \times 10^{5}  \text{J}}{T}\text{.} $$
 </div>
+
  $$T $$
  is the melting temperature of ice. That is,  $$T=0\text{ºC}=273 \text{K} $$ .
  So the change in entropy is
@@ -367,11 +389,12 @@ Now the change in entropy is positive, since heat transfer occurs into the ice t
 <div class="equation" >
  $$\begin{array}{lll}\Delta S& =& \frac{ 3.34 \times 10^{5}  \text{J}}{273 \text{K}}\\ & =&  1.22 \times 10^{3}  \text{J/K} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 This is a significant increase in entropy accompanying an increase in disorder.
 
-</div>
+:::
 
 ![The diagram has two images. The first image shows molecules of ice. They are represented as tiny spheres joined to form a floral pattern. The system is shown as ordered. The second image shows what happens when ice melts. The change in entropy delta S is marked between the two images shown by an arrow pointing from first image toward the second image with change in entropy delta S shown greater than zero. The second image represents water shown as tiny spheres moving in a random state. The system is marked as disordered.](../resources/Figure_15_06_06.jpg 'When ice melts, it becomes more disordered and less structured. The systematic arrangement of molecules in a crystal structure is replaced by a more random and less orderly movement of molecules without fixed locations or orientations. Its entropy increases because heat transfer occurs into it. Entropy is a measure of disorder.')
 {: #Figure5}
@@ -440,16 +463,19 @@ entropy. (See [[Figure 6]](#Figure6).)
 ![The figure shows the schematic diagram for heat transfer from the Sun into deep space. The picture of the Sun is shown at the left most end of the diagram. The temperature of the Sun is marked as T sub h. The heat Q is shown to flow as a bold arrow pointing till the right end of the diagram which is labeled as deep space. The temperature here is shown as T sub c equals three Kelvin. The Earth is shown as a sphere at the middle of this bold arrow stream between Sun and deep space. The Earth is shown to receive an internal energy delta U. The change in entropy of Earth delta S is shown to be less than zero with a question mark.](../resources/Figure_15_06_07.jpg 'Earth’s entropy may decrease in the process of intercepting a small part of the heat transfer from the Sun into deep space. Entropy for the entire process increases greatly while Earth becomes more structured with living systems and stored energy in various forms.')
 {: #Figure6}
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Reversible Reactions
 </div>
+
 Watch a reaction proceed over time. How does total energy affect a reaction rate? Vary temperature, barrier height, and potential energies. Record concentrations and time in order to extract rate coefficients. Do temperature dependent studies to extract Arrhenius parameters. This simulation is best used with teacher guidance because it presents an analogy of chemical reactions.
 
 <div class="media" id="PhET_module" data-alt="Reversible Reactions">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/ideal-gas/latest/ideal-gas.html?simulation=reversible-reactions"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -467,79 +493,109 @@ Watch a reaction proceed over time. How does total energy affect a reaction rate
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A woman shuts her summer cottage up in September and returns in June. No one has entered the cottage in the meantime. Explain what she is likely to find, in terms of the second law of thermodynamics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Consider a system with a certain energy content, from which we wish to extract as much work as possible. Should the system’s entropy be high or low? Is this orderly or disorderly? Structured or uniform? Explain briefly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does a gas become more orderly when it liquefies? Does its entropy change? If so, does the entropy increase or decrease? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how water’s entropy can decrease when it freezes without violating the second law of thermodynamics. Specifically, explain what happens to the entropy of its surroundings.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is a uniform-temperature gas more or less orderly than one with several different temperatures? Which is more structured? In which can heat transfer result in work done without heat transfer from another system?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a spontaneous process in which a system becomes less ordered and energy becomes less available to do work. What happens to the system’s entropy in this process?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the change in entropy in an adiabatic process? Does this imply that adiabatic processes are reversible? Can a process be precisely adiabatic for a macroscopic system?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the entropy of a star increase or decrease as it radiates? Does the entropy of the space into which it radiates (which has a temperature of about 3 K) increase or decrease? What does this do to the entropy of the universe?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why a building made of bricks has smaller entropy than the same bricks in a disorganized pile. Do this by considering the number of ways that each could be formed (the number of microstates in each macrostate).
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) On a winter day, a certain house loses  $$ 5.00 \times 10^{8}  \text{J} $$
  of heat to the outside (about 500 000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of  $$21.0 \text{ºC} $$
  and an average outdoor temperature of  $$5.00º C $$ ?
  (b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -564,18 +620,22 @@ $$\Delta S_{total} = -1.70 \times 10^{6} + 1.80 \times 10^{6} = 9.78 \times 10^{
 
 The positive total entropy change (97,800 J/K) confirms this is an irreversible process. Though the house loses energy, the outside gains more entropy than the house loses due to lower temperature. This unavailable energy represents why heating is expensive—we must continuously supply energy to counteract heat loss.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On a hot summer day,  $$ 4.00 \times 10^{6}  \text{J} $$
  of heat transfer into a parked car takes place, increasing its temperature from  $$35.0 \text{ºC} $$
  to  $$45.0 \text{ºC} $$ .
  What is the increase in entropy of the car due to this heat transfer alone?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -595,17 +655,21 @@ $$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6}}{313} = 1.28 \times 10
 
 The car's entropy increases by 12,800 J/K as it heats. This represents increased molecular disorder at higher temperature. The irreversible heating makes this energy less useful for work.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC} $$
  to  $$40.0 \text{ºC} $$ ,
  and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -621,17 +685,21 @@ The negative sign indicates heat leaves the rock.
 
 The rock releases 801 kJ as it cools. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When  $$ 1.60 \times 10^{5}  \text{J} $$
  of heat transfer occurs into a meat pie initially at  $$20.0 \text{ºC} $$ ,
  its entropy increases by 480 J/K. What is its final temperature?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -647,18 +715,22 @@ $$T_f = 2(333) - 293 = 373 \text{ K} = 100°\text{C}$$
 
 The pie heats to 100°C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
  from its  $$5500 \text{ºC} $$
  surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is  $$-270 \text{ºC} $$ .
  (a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -748,18 +820,22 @@ Part (b): Of the $$3.28 \times 10^{31}$$ J radiated daily, essentially all of it
 
 For Earth specifically, we receive about 1.7 × 10^{17} W of solar power, which is only 0.000000045% of the Sun's total output. This minuscule fraction still drives all weather, ocean currents, photosynthesis, and sustains life on Earth. The vast majority of the Sun's energy simply heats up the cold vacuum of space, increasing the universe's entropy while making that energy permanently unavailable for organized work. This is a profound illustration of the second law of thermodynamics in action on a cosmic scale.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at  $$40.0 \text{ºC} $$
  when it is placed in contact with 1.00 kg of  $$20.0 \text{ºC} $$
  water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be  $$20.0 \text{ºC} $$ ?
  Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -779,16 +855,20 @@ Total: $$\Delta S = 5 \text{ J/K}$$
 
 The positive entropy change (5 J/K) confirms irreversibility. About 1.5 kJ becomes unavailable for work—this is the "cost" of irreversible mixing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of  $$35.0 \text{ºC} $$ ,
  assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -802,16 +882,20 @@ $$\Delta S = -\frac{(0.025)(2.45 \times 10^{6})}{308} = -199 \text{ J/K}$$
 
 Entropy decreases by 199 J/K as water vapor becomes liquid—a more ordered state. The environment's entropy increases more, making total entropy positive.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its boiling temperature, boils, and warms to  $$20.0 \text{ºC} $$
  at constant pressure.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -829,11 +913,14 @@ $$\Delta S_{total} = 2597 + 1340 = 3937 \text{ J/K} \approx 3.94 \times 10^{3} \
 
 Most entropy increase (66%) comes from phase change, reflecting the dramatic disorder increase from liquid to gas.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station,  $${Q}_{\text{h}} $$ ,
  in one day. (b) How much heat transfer  $${Q}_{\text{c}} $$
  occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from  $$35.0 \text{ºC} $$
@@ -843,8 +930,9 @@ A large electrical power station generates 1000 MW of electricity with an effici
  lowest temperature? (Part of  $${Q}_{\text{c}} $$
  could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -950,11 +1038,14 @@ Part (d): Of the 160 TJ of waste heat, 8.29 TJ becomes permanently unavailable f
 
 This problem illustrates why improving power plant efficiency is crucial—not only does it reduce fuel consumption, but it also reduces thermal pollution. A 40% efficient plant would need only 216 TJ input for the same 86.4 TJ output, reducing waste heat from 160 TJ to 130 TJ daily, lessening environmental impact.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much heat transfer occurs from 20.0 kg of  $$90.0 \text{ºC} $$
  water placed in contact with 20.0 kg of  $$10.0 \text{ºC} $$
  water, producing a final temperature of  $$50.0 \text{ºC} $$ ?
@@ -966,8 +1057,9 @@ This problem illustrates why improving power plant efficiency is crucial—not o
  and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1). (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -993,10 +1085,12 @@ This is 48% of the Carnot work, showing significant work loss from irreversible 
 
 This problem powerfully illustrates entropy's practical meaning: irreversible processes destroy work potential. The 1,250 J/K entropy increase makes 354 kJ unavailable—nearly half what a Carnot engine could extract. This is why engineers carefully manage heat flows in power plants.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1010,4 +1104,4 @@ second law of thermodynamics stated in terms of entropy
 : the total entropy of a system either increases or remains constant; it never
 decreases
 
-</div>
+:::

@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 18
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define electric charge, and describe how the two types of charge interact.
 * Describe three common situations that generate static electricity.
 * State the law of conservation of charge.
-</div>
+
+:::
 
 ![This piece of gold-colored amber from Malaysia has been rubbed and polished to a smooth, rounded shape.](../resources/Figure_18_01_01.jpg 'Borneo amber was mined in Sabah, Malaysia, from shale-sandstone-mudstone veins. When a piece of amber is rubbed with a piece of silk, the amber gains more electrons, giving it a net negative charge. At the same time, the silk, having lost electrons, becomes positively charged. (credit: Sebakoamber, Wikimedia Commons)')
 {: #Figure1}
@@ -110,13 +111,15 @@ smallest bit of charge. There is no directly observed charge smaller than $$\mid
 see [Things Great and Small: The Submicroscopic Origin of Charge](#Note1))
 , and all observed charges are integral multiples of $$\mid {q}_{e}\mid $$.
 
-<div id="Note1" class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"id":"Note1","class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Things Great and Small: The Submicroscopic Origin of Charge
 </div>
+
 With the exception of exotic, short-lived particles, all charge in nature is carried by electrons and protons. Electrons carry the charge we have named negative. Protons carry an equal-magnitude charge that we call positive. (See [[Figure 4]](#Figure4).) Electron and proton charges are considered fundamental building blocks, since all other charges are integral multiples of those carried by electrons and protons. Electrons and protons are also two of the three fundamental building blocks of ordinary matter. The neutron is the third and has zero total charge.
 
-</div>
+:::
 
 [[Figure 4]](#Figure4) shows a person touching a Van de Graaff generator and
 receiving excess positive charge. The expanded view of a hair shows the
@@ -163,13 +166,15 @@ been discussing. Rather, existing charges are moved about. In fact, in all
 situations the total amount of charge is always constant. This universally
 obeyed law of nature is called the **law of conservation of charge**.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Law of Conservation of Charge
 </div>
+
 Total charge is constant in any process.
 
-</div>
+:::
 
 In more exotic situations, such as in particle accelerators, mass, $$\Delta m $$
 , can be created from energy in the amount $$\Delta m=\frac{E}{ {c}^{2}} $$ .
@@ -187,13 +192,15 @@ E_, again obeying the relationship $$\Delta m=\frac{E}{ {c}^{2}} $$ . Since the
 two particles have equal and opposite charge, the total charge is zero before
 and after the annihilation; thus, total charge is conserved.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Conservation Laws
 </div>
+
 Only a limited number of physical quantities are universally conserved. Charge is one—energy, momentum, and angular momentum are others. Because they are conserved, these physical quantities are used to explain more phenomena and form more connections than other, less basic quantities. We find that conserved quantities give us great insight into the rules followed by nature and hints to the organization of nature. Discoveries of conservation laws have led to further discoveries, such as the weak nuclear force and the quark substructure of protons and other particles.
 
-</div>
+:::
 
 ![Here energy is shown by a vector. Initially electrostatic charge q tot is equal to zero. Now energy gets converted into matter and creates one electron and antielectron pair but final electrostatic charge is equal to zero so change in mass delta m is equal to two m e, which is equal to E divided by c square. (b) In this figure, Electron and antielectron are colliding with each other. The electrostatic charge q tot before collision is zero and after collision it will remain zero.](../resources/Figure_18_01_07.jpg '(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron–antielectron pair. (( m_{e} ) is the electron’s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation.')
 {: #Figure7}
@@ -203,17 +210,20 @@ violated. Charge, then, is a special physical quantity, joining a very short
 list of other quantities in nature that are always conserved. Other conserved
 quantities include energy, momentum, and angular momentum.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Balloons and Static Electricity
 </div>
+
 Why does a balloon stick to your sweater? Rub a balloon on a sweater, then let go of the balloon and it flies over and sticks to the sweater. View the charges in the sweater, balloons, and the wall.
 {: class="newline"}
 
 <div class="media"  data-alt="balloons and static electricity">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -247,28 +257,37 @@ Why does a balloon stick to your sweater? Rub a balloon on a sweater, then let g
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 There are very large numbers of charged particles in most objects. Why, then, don’t most objects exhibit static electricity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why do most objects tend to contain nearly equal numbers of positive and negative charges?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Common static electricity involves charges ranging from nanocoulombs to microcoulombs. (a) How many electrons are needed to form a charge of  $$-2.00 \text{nC} $$
  (b) How many electrons must be removed from a neutral object to leave a net charge of  $$0.500 µ\text{C} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -294,16 +313,20 @@ Part (a): About 12.5 billion electrons are needed to form a charge of −2.00 nC
 
 Part (b): About 3.13 trillion electrons must be removed to leave a net charge of +0.500 μC. This larger charge requires removing about 250 times more electrons than in part (a), consistent with the charge being 250 times larger. These numbers show that even small static charges involve enormous numbers of electrons, yet they represent only a tiny fraction of the total electrons in a macroscopic object.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If  $$ 1.80 \times 10^{20}  $$
  electrons move through a pocket calculator during a full day's operation, how many coulombs of charge moved through it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -321,16 +344,20 @@ The total charge moved through the calculator:
 
 The charge that moved through the calculator during a full day's operation is −28.8 C. The negative sign indicates that electrons (which carry negative charge) moved through the circuit. This is a substantial amount of charge for such a small device, but spread over an entire day (86,400 seconds), it represents a very small average current of about 0.33 milliamperes, which is reasonable for a low-power device like a calculator.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To start a car engine, the car battery moves  $$ 3.75 \times 10^{21}  $$
  electrons through the starter motor. How many coulombs of charge were moved?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -348,16 +375,20 @@ The total charge moved:
 
 The car battery moved −600 C of charge through the starter motor. This is a very large amount of charge, which makes sense because starting a car requires a large current (often 100-200 amperes) for a few seconds. If the starter operates for 3 seconds at 200 amperes, the total charge would be $$Q = It = (200 \text{ A})(3 \text{ s}) = 600 \text{ C}$$, which matches our result. The negative sign indicates electron flow (conventional current flows in the opposite direction).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain lightning bolt moves 40.0 C of charge. How many fundamental units of charge  $$\mid {q}_{e}\mid  $$
  is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -375,10 +406,12 @@ The number of fundamental charge units:
 
 A lightning bolt moving 40.0 C of charge involves 2.50 × 10²⁰ fundamental charge units. This enormous number is consistent with the dramatic nature of lightning. The charge could be carried by this many electrons, protons, or ions, or some combination thereof. In reality, lightning involves the movement of electrons through ionized air. This result demonstrates that even though the fundamental charge is extremely small, macroscopic electrical phenomena involve truly astronomical numbers of these fundamental charges.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -400,4 +433,4 @@ proton
 magnitude and opposite in sign to the amount of negative charge carried by an
 electron
 
-</div>
+:::

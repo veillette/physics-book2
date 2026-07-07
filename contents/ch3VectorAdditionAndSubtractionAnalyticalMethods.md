@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 3
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Understand the rules of vector addition and subtraction using analytical methods.
 * Apply analytical methods to determine vertical and horizontal component vectors.
 * Apply analytical methods to determine the magnitude and direction of a resultant vector.
 
-</div>
+::::
 
 **Analytical methods** of vector addition and subtraction employ geometry and
 simple trigonometry rather than the ruler and protractor of graphical methods.
@@ -121,10 +121,12 @@ with the example of the person walking in a city. Finally, the direction is
 
 $$ \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Determining Vectors and Vector Components with Analytical Methods
 </div>
+
 Equations $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$
 are used to find the perpendicular components of a vector—that is, to go from
 $$ A $$ and $$ \theta $$ to $$ A_{x} $$ and $$ A_{y} $$.
@@ -135,7 +137,7 @@ $$ A_{x} $$ and $$ A_{y} $$ to $$ A $$ and $$ \theta $$.
 Both processes are crucial to analytical methods of vector addition and
 subtraction.
 
-</div>
+::::
 
 ### Adding Vectors Using Analytical Methods
 
@@ -209,10 +211,12 @@ $$ \theta ={\tan}^{-1} \left( R_{y}/R_{x} \right). $$
 The following example illustrates this technique for adding vectors using
 perpendicular components.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Adding Vectors Using Analytical Methods
 </div>
+
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
 shown in [Figure 8](#Figure8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
@@ -243,6 +247,7 @@ A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
 A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
 \end{array} $$
 </div>
+
 and
 
 <div class="equation">
@@ -251,6 +256,7 @@ B_{x}&=& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
 \end{array} $$
 </div>
+
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
 <div class="equation">
@@ -259,6 +265,7 @@ A_{y}&=& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\
 A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
 \end{array} $$
 </div>
+
 and
 
 <div class="equation">
@@ -267,31 +274,37 @@ B_{y}&=& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 B_{y}&=&\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
 \end{array} $$
 </div>
+
 The **x**- and **y**-components of the resultant are thus
 
 <div class="equation">
  $$ R_{x}= A_{x}+B_{x}=49.8 \m +15.4 \m =65.2 \m $$
 </div>
+
 and
 
 <div class="equation">
  $$ R_{y}= A_{y}+B_{y}=18.1 \m  +30.3 \m =48.4  \m . $$
 </div>
+
 Now we can find the magnitude of the resultant by using the Pythagorean theorem:
 
 <div class="equation">
  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }= \sqrt{ \left( 65.2 \m \right)^{2}+\left(48.4 \m \right)^{2} } $$ 
 </div>
+
 so that
 
 <div class="equation">
  $$ R=81.2 \m $$
 </div>
+
 Finally, we find the direction of the resultant:
 
 <div class="equation">
  $$ \theta ={\tan}^{-1}\left( \frac{ R_{y}}{R_{x}} \right)= +{\tan}^{-1}\left( \frac{48.4 \m}{65.2\m}\right) . $$
 </div>
+
 Thus,
 
 <div class="equation">
@@ -316,14 +329,16 @@ the resultant $$ \vb{A}-\vb{B} = \vb{R} $$ are thus
 <div class="equation">
  $$ R_{x}= A_{x}+\left(- B_{x}\right) $$
 </div>
+
 and
 
 <div class="equation">
  $$ R_{y}= A_{y}+\left(- B_{y}\right) $$
 </div>
+
 and the rest of the method outlined above is identical to that for addition. (See [Figure 10](#Figure10).)
 
-</div>
+::::
 
 Analyzing vectors using perpendicular components is very useful in many areas of
 physics, because perpendicular quantities are often independent of one another.
@@ -331,23 +346,27 @@ The next module, [Projectile Motion](./ch3ProjectileMotion), is one
 of many in which using perpendicular components helps make the picture clear and
 simplifies the physics.
 
-![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10.jpg "The subtraction of the two vectors shown in <a href="#Figure8">Figure 8</a>. The components of &#x2013; \( B \) are the negatives of the components of \( B \) . The method of subtraction is the same as that for addition.")
+![In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.](../resources/Figure_03_03_10.jpg 'The subtraction of the two vectors shown in <a href="#Figure8">Figure 8</a>. The components of &#x2013; \( B \) are the negatives of the components of \( B \) . The method of subtraction is the same as that for addition.')
 {: #Figure10}
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Vector Addition
 </div>
+
 Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Vector Addition
 </figcaption>
 
-</figure>
-</div>
+:::
+
+::::
 
 ### Summary
 
@@ -360,16 +379,16 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
- $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta} \end{array} $$ 
+  $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta} \end{array} $$ 
   </div>
 
 and
 
   <div class="equation">
-$$ \begin{array}{lll}
-A_{y}&=& A\sin{\theta} \\ 
-B_{y}&=& B\sin{\theta} .
-\end{array} $$
+  $$ \begin{array}{lll}
+  A_{y}&=& A\sin{\theta} \\ 
+  B_{y}&=& B\sin{\theta} .
+  \end{array} $$
   </div>
 
 Step 2: Add the horizontal and vertical components of each vector to determine
@@ -377,57 +396,68 @@ the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R} $$
 :
 
   <div class="equation">
- $$ R_{x}= A_{x}+B_{x} $$
+  $$ R_{x}= A_{x}+B_{x} $$
   </div>
 
 and
 
   <div class="equation">
- $$ R_{y}= A_{y}+B_{y} . $$
+  $$ R_{y}= A_{y}+B_{y} . $$
   </div>
 
 Step 3: Use the Pythagorean theorem to determine the magnitude, $$ R $$, of the
 resultant vector $$ \vb{R} $$:
 
   <div class="equation">
- $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
+  $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2}}. $$
   </div>
 
 Step 4: Use a trigonometric identity to determine the direction, $$ \theta $$,
 of $$ \vb{R} $$:
 
   <div class="equation">
- $$ \theta ={\tan}^{-1}\left( R_{y}/ R_{x}\right). $$
+  $$ \theta ={\tan}^{-1}\left( R_{y}/ R_{x}\right). $$
   </div>
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you add two vectors $$ \vb{A} $$ and $$ \vb{B} $$. What relative direction between them produces the resultant with the greatest
 magnitude? What is the maximum magnitude? What relative direction between them
 produces the resultant with the smallest magnitude? What is the minimum
 magnitude?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Give an example of a nonzero vector that has a component of zero.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Explain why a vector cannot have a component greater than its own magnitude.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If the vectors $$ \vb{A} $$ and $$ \vb{B} $$
 are perpendicular, what is the component of $$ \vb{A} $$
 along the direction of $$ \vb{B} $$
@@ -435,20 +465,24 @@ along the direction of $$ \vb{B} $$
 along the direction of $$ \vb{A} $$
 ?
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the following for path C in [Figure 11](#Figure11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
 ![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.](../resources/Figure_03_03_11.jpg "The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.")
 {: #Figure11}
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -506,15 +540,19 @@ Despite traveling 1560 m along a winding path, the person ends up only 120 m fro
 
 (b) The displacement is 120 m directed due east.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the following for path D in [Figure 11](#Figure11): (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -572,18 +610,22 @@ The total distance (1600 m) is much greater than the displacement magnitude (949
 
 **(b)** The displacement is **949 m** (or **0.949 km**) at **18.4° south of east**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Find the north and east components of the displacement from San Francisco to Sacramento shown in [Figure 12](#Figure12).
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_03_12.jpg)
 {: #Figure12}
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -621,11 +663,14 @@ At 45°, the displacement is equally divided between the north and east directio
 
 The north component of the displacement is 87.0 km, and the east component is 87.0 km.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" id="problem" data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#Figure13), then this problem asks you to
 find their sum
@@ -639,8 +684,9 @@ Note that you can also solve this graphically. Discuss why the analytical
 technique for solving this problem is potentially more accurate than the
 graphical technique.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -697,18 +743,22 @@ The graphical method would involve drawing vectors to scale, measuring with a ru
 
 You are **30.8 m** from your starting point, in a compass direction of **35.8° west of north**. The analytical technique is more accurate because it eliminates drawing and measurement errors inherent in graphical solutions.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 Repeat the previous [Problem](#problem) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
 overcome an obstacle blocking your other path.
 
-</div>
-<div class="solution"  markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -760,11 +810,14 @@ Regarding obstacles: if one path is blocked, you can take another path to reach 
 
 The displacement is 30.8 m at 35.8° west of north, confirming that **B** + **A** = **A** + **B**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 You drive $$ 7.50 \text{km} $$ in a straight line in a direction $$ 15^\circ $$
 east of north.
 (a) Find the distances you would have to drive straight east and
@@ -774,8 +827,9 @@ directions.)
 (b) Show that you still arrive at the same point if the east and
 north legs are reversed in order.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -826,11 +880,14 @@ The angle is measured from north toward east, so we use cosine for the north com
 
 **(b)** Reversing the order (north then east, or east then north) results in the same final position, confirming the commutative property of vector addition.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Do [Problem](#problem) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
 straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
@@ -839,8 +896,9 @@ from $$ \vb{A} $$
 (b) Repeat again, but now you first walk $$ 25.0 \m $$ north and then $$ 18.0 \m $$ east. (This is equivalent to subtract $$ \vb{A} $$ from $$ \vb{B} $$ —that
 is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -985,11 +1043,14 @@ Part (a) and part (b) give opposite results, as expected for vector subtraction:
 
 (b) Walking 25.0 m north then 18.0 m east gives a displacement of 30.8 m at 54.2° north of east.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors $$ \vb{A} $$ from $$ \vb{B} $$
 in [Figure 14](#Figure14). She then correctly calculates the length and
 orientation of the third side $$ \text{C} $$. What is her result?
@@ -997,8 +1058,9 @@ orientation of the third side $$ \text{C} $$. What is her result?
 ![In the given figure the sides of a triangular piece of land are shown in vector form. West corner is at origin. A vector starts from the origin towards south east direction and makes an angle twenty-one degrees with the horizontal. Then from the head of this vector another vector B making an angle eleven degrees with the vertical is drawn upwards. Then another vector C from the head of the vector B to the tail of the initial vector is drawn. The length and orientation of side C is indicated as unknown, represented by a question mark.](../resources/Figure_03_03_14.jpg)
 {: #Figure14}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1011,6 +1073,7 @@ The three sides form a closed triangle: A + B + C = 0, so C = -(A + B). Find com
 <div class="equation">
 $$ A_E = 80.0\cos(21°) = 80.0(0.934) = 74.7 \m $$
 </div>
+
 <div class="equation">
 $$ A_N = -80.0\sin(21°) = -80.0(0.358) = -28.6 \m $$
 </div>
@@ -1020,6 +1083,7 @@ $$ A_N = -80.0\sin(21°) = -80.0(0.358) = -28.6 \m $$
 <div class="equation">
 $$ B_E = 105\sin(11°) = 105(0.191) = 20.1 \m $$
 </div>
+
 <div class="equation">
 $$ B_N = 105\cos(11°) = 105(0.982) = 103 \m $$
 </div>
@@ -1029,6 +1093,7 @@ $$ B_N = 105\cos(11°) = 105(0.982) = 103 \m $$
 <div class="equation">
 $$ (A+B)_E = 74.7 + 20.1 = 94.8 \m $$
 </div>
+
 <div class="equation">
 $$ (A+B)_N = -28.6 + 103 = 74.4 \m $$
 </div>
@@ -1038,6 +1103,7 @@ $$ (A+B)_N = -28.6 + 103 = 74.4 \m $$
 <div class="equation">
 $$ C_E = -94.8 \m $$
 </div>
+
 <div class="equation">
 $$ C_N = -74.4 \m $$
 </div>
@@ -1064,11 +1130,14 @@ The third side closes the triangle by connecting the end of B back to the start 
 
 The third side **C** is **121 m** long at **38.1° south of west**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 You fly $$ 32.0 \text{km} $$ in a straight line in still air in the direction $$ 35.0^\circ $$
 south of west.
 (a) Find the distances you would have to fly straight south and
@@ -1080,8 +1149,9 @@ south of west and then in a direction $$ 45.0^\circ $$
 west of north. These are the components of the displacement along a different
 set of axes—one rotated $$ 45^\circ $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1137,11 +1207,14 @@ Part (a) gives standard components. Part (b) shows that the same vector has diff
 
 **(b)** In the rotated axes: **31.5 km at 45.0° south of west**, then **5.56 km at 45.0° east of south** (or equivalently, away from 45° west of north).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 A farmer wants to fence off their four-sided plot of flat land.
 They measure the first three sides, shown as $$ \vb{A}, $$
 $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$ \vb{D} $$. What is their result?
@@ -1149,8 +1222,9 @@ $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly cal
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
 {: #Figure15}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1163,6 +1237,7 @@ For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate co
 <div class="equation">
 $$ A_E = -4.70\cos(7.5°) = -4.70(0.991) = -4.66 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ A_N = -4.70\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
 </div>
@@ -1172,6 +1247,7 @@ $$ A_N = -4.70\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
 <div class="equation">
 $$ B_E = -2.48\sin(16°) = -2.48(0.276) = -0.684 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ B_N = 2.48\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
 </div>
@@ -1181,6 +1257,7 @@ $$ B_N = 2.48\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
 <div class="equation">
 $$ C_E = -3.02\cos(19°) = -3.02(0.946) = -2.86 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ C_N = 3.02\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
 </div>
@@ -1190,6 +1267,7 @@ $$ C_N = 3.02\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
 <div class="equation">
 $$ (A+B+C)_E = -4.66 + (-0.684) + (-2.86) = -8.20 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ (A+B+C)_N = -0.616 + 2.38 + 0.984 = 2.75 \text{ km} $$
 </div>
@@ -1199,6 +1277,7 @@ $$ (A+B+C)_N = -0.616 + 2.38 + 0.984 = 2.75 \text{ km} $$
 <div class="equation">
 $$ D_E = 8.20 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ D_N = -2.75 \text{ km} $$
 </div>
@@ -1225,11 +1304,14 @@ The fourth side closes the quadrilateral, connecting C back to the start. Its ea
 
 The fourth side **D** is **8.65 km** long at **18.5° south of east**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 In an attempt to escape his island, Gilligan builds a raft and sets to sea.
 The wind shifts a great deal during the day, and he is blown along the following straight lines: $$ 2.50 \text{km} $$,
 $$ 45.0^\circ $$ north of west; then $$ 4.70 \text{km} $$, $$ 60.0^\circ $$ south
@@ -1237,8 +1319,9 @@ of east; then $$ 1.30\text{km} $$,$$ 25.0^\circ $$ south of west; then $$ 5.10 \
 north; then $$ 7.20 \text{km} $$, $$ 55.0^\circ $$ south of west; and finally $$ 2.80 \text{km} $$, $$ 10.0^\circ $$ north of east. What is his final position
 relative to the island?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1288,11 +1371,14 @@ After seven displacements totaling 25.3 km of travel, Gilligan ends up only 7.34
 
 Gilligan's final position is **7.34 km** at **63.5° south of east** from the island.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose a pilot flies $$ 40.0 \text{km} $$ in a direction $$ 60^\circ $$
 north of east and then flies $$ 30.0 \text{km} $$
 in a direction $$ 15^\circ $$
@@ -1307,8 +1393,9 @@ mass.
 ![A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated.](../resources/Figure_03_03_16.jpg)
 {: #Figure16}
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1321,6 +1408,7 @@ Find components of both flight segments, sum them, then calculate the resultant 
 <div class="equation">
 $$ A_E = 40.0\cos(60°) = 40.0(0.500) = 20.0 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ A_N = 40.0\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
 </div>
@@ -1330,6 +1418,7 @@ $$ A_N = 40.0\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
 <div class="equation">
 $$ B_E = 30.0\cos(15°) = 30.0(0.966) = 29.0 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ B_N = 30.0\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
 </div>
@@ -1339,6 +1428,7 @@ $$ B_N = 30.0\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
 <div class="equation">
 $$ R_E = 20.0 + 29.0 = 49.0 \text{ km} $$
 </div>
+
 <div class="equation">
 $$ R_N = 34.6 + 7.77 = 42.4 \text{ km} $$
 </div>
@@ -1378,10 +1468,12 @@ The total displacement (64.8 km) is less than the sum of individual displacement
 
 The pilot's total distance from the starting point is **64.8 km** at **40.9° north of east**. A wind from the north would push the plane southward, requiring the pilot to aim more northward to compensate, with the effect depending on the ratio of wind speed to airspeed.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1389,4 +1481,4 @@ analytical method
 : the method of determining the magnitude and direction of a resultant vector
 using the Pythagorean theorem and trigonometric identities
 
-</div>
+::::

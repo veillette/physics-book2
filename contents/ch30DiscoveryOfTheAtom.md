@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 1
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the basic structure of the atom, the substructure of all matter.
-</div>
+
+:::
 
 How do we know that atoms are really there if we cannot see them with our eyes?
 A brief account of the progression from the proposal of atoms by the Greeks to
@@ -54,13 +55,15 @@ Avogadro’s number in his honor. The Austrian physicist Johann Josef Loschmidt
 was the first to measure the value of the constant in 1865 using the kinetic
 theory of gases.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Patterns and Systematics
 </div>
+
 The recognition and appreciation of patterns has enabled us to make many discoveries. The periodic table of elements was proposed as an organized summary of the known elements long before all elements had been discovered, and it led to many other discoveries. We shall see in later chapters that patterns in the properties of subatomic particles led to the proposal of quarks as their underlying structure, an idea that is still bearing fruit.
 
-</div>
+:::
 
 Knowledge of the properties of elements and compounds grew, culminating in the
 mid-19th-century development of the periodic table of the elements by Dmitri
@@ -152,34 +155,46 @@ basic structure to matter, will be explored in later parts of the text.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Name three different types of evidence for the existence of atoms.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why patterns observed in the periodic table of the elements are evidence for the existence of atoms, and why Brownian motion is a more direct type of evidence for their existence.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If atoms exist, why can’t we see them with visible light?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the given charge-to-mass ratios for electrons and protons, and knowing the magnitudes of their charges are equal, what is the ratio of the proton's mass to the electron's? (Note that since the charge-to-mass ratios are given to only three-digit accuracy, your answer may differ from the accepted ratio in the fourth digit.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -214,15 +229,19 @@ Therefore, the proton is approximately **1840 times** more massive than the elec
 
 This result shows that the proton is nearly 2000 times heavier than the electron, despite both particles having the same magnitude of electric charge. This enormous mass difference has profound implications for atomic structure. It explains why the nucleus, which contains protons (and neutrons, which have similar mass), accounts for essentially all the mass of an atom even though it occupies only a tiny fraction of the atom's volume. The electron, being so much lighter, can be easily accelerated and deflected by electric and magnetic fields, which is why cathode rays (electron beams) were relatively easy to manipulate in Thomson's experiments. The modern accepted value of the proton-to-electron mass ratio is 1836.15, which differs slightly from our result in the fourth digit, as expected given the three-digit accuracy of the charge-to-mass ratios provided. This mass ratio is one of the fundamental constants of nature and plays a crucial role in determining the properties of atoms, molecules, and ultimately all matter in the universe.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the mass of a proton using the charge-to-mass ratio given for it in this chapter and its known charge. (b) How does your result compare with the proton mass given in this chapter?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -246,15 +265,19 @@ $$ m_p = 1.67 \times 10^{-27} \text{ kg} $$
 
 The fact that we can calculate the proton mass from its charge-to-mass ratio and its charge demonstrates the consistency of the experimental measurements. This mass is approximately 1836 times the mass of an electron, which makes sense given that the charge-to-mass ratio of the electron is about 1836 times larger than that of the proton (while both have the same magnitude of charge). The proton's much larger mass compared to the electron is fundamental to understanding atomic structure—it explains why the nucleus, despite being tiny, contains essentially all the mass of an atom. This large mass ratio also justifies Bohr's assumption that the nucleus remains essentially stationary while the electron orbits around it, which simplifies the analysis of atomic structure significantly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If someone wanted to build a scale model of the atom with a nucleus 1.00 m in diameter, how far away would the nearest electron need to be?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -295,10 +318,12 @@ The nearest electron would be approximately **50 km** away.
 
 This calculation dramatically illustrates how empty atoms actually are. If the nucleus were scaled up to the size of a basketball (1 m diameter), the nearest electron would be 50 kilometers away! This means that atoms are mostly empty space—a fact that was completely unexpected before Rutherford's gold foil experiment. This emptiness explains why most alpha particles in Rutherford's experiment passed straight through the gold foil without deflection: they simply didn't encounter anything substantial. Only the rare alpha particles that happened to pass very close to a nucleus experienced significant deflection. This model also helps us understand why matter can't be compressed much under normal conditions—when you push on an object, you're really dealing with the electromagnetic forces between electron clouds, not actual contact between solid matter. The vast emptiness of atoms also explains why neutrinos (which interact very weakly with matter) can pass through the entire Earth without hitting anything. If atoms were solid throughout, the world would be a very different place: we couldn't see through anything, and all matter would be incredibly dense.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -310,4 +335,4 @@ Brownian motion
 : the continuous random movement of particles of matter suspended in a liquid or
 gas
 
-</div>
+:::

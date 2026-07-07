@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 7
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State and discuss the Zeeman effect.
 * Define orbital magnetic field.
 * Define orbital angular momentum.
 * Define space quantization.
-</div>
+
+:::
 
 High-resolution measurements of atomic and molecular spectra show that the
 spectral lines are even more complex than they first appear. In this section, we
@@ -113,13 +114,17 @@ fundamentals.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the Zeeman effect, and what type of quantization was discovered because of this effect?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -146,4 +151,4 @@ intrinsic magnetic field
 orbital magnetic field
 : the magnetic field generated due to the orbital motion of electrons
 
-</div>
+:::

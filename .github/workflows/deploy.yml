@@ -65,11 +65,6 @@ jobs:
             echo "::warning::No 'pdfs' release found; deploying without chapter PDFs (download buttons will 404)."
           fi
 
-      # Generate the Eleventy input tree from the canonical Kramdown source. Remove this
-      # step after the P10 cutover, when converted content lives in the repo directly.
-      - name: Convert content
-        run: npm run migrate:content
-
       - name: Build with Eleventy
         run: npx @11ty/eleventy
 

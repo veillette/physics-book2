@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 6
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Define arc length, rotation angle, radius of curvature and angular velocity.
 * Calculate the angular velocity of a car wheel spin.
 
-</div>
+::::
 
 In [Kinematics](./ch2Kinematics), we studied motion along a
 straight line and introduced such concepts as displacement, velocity, and
@@ -145,10 +145,12 @@ for the car.
 ![The given figure shows the front wheel of a car. The radius of the car wheel, r, is shown as an arrow and the linear velocity, v, is shown with a green horizontal arrow pointing rightward. The angular velocity, omega, is shown with a clockwise-curved arrow over the wheel.](../resources/Figure_06_01_04.jpg "A car moving at a velocity \( v \) to the right has a tire rotating with an angular velocity \( \omega \). The speed of the tread of the tire relative to the axle is \( v \) , the same as if the car were jacked up. Thus the car moves forward at linear velocity \( r \omega \) , where \( r \) is the tire radius. A larger angular velocity for the tire means a greater velocity for the car. ")
 {: #Figure4}
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 How Fast Does a Car Tire Spin?
 </div>
+
 Calculate the angular velocity of a 0.300 m radius car tire when the car travels at $$ 15.0 \ms $$
 (about $$54 \text{km/h} $$). See [Figure 4](#Figure4).
 
@@ -165,6 +167,7 @@ To calculate the angular velocity, we will use the following relationship:
 <div class="equation">
  $$ \omega =\frac{v}{r}. $$
 </div>
+
 Substituting the knowns,
 
 <div class="equation">
@@ -183,37 +186,45 @@ its tires would rotate more slowly. They would have an angular velocity
 <div class="equation">
  $$ \omega =\left(15.0 \ms \right)/\left(1.20\m \right)=12.5\text{rad/s.} $$
 </div>
-</div>
+
+::::
 
 Both $$ \omega $$ and $$ v $$ have directions (hence they are angular and
 linear *velocities*, respectively). Angular velocity has only two directions
 with respect to the axis of rotation—it is either clockwise or counterclockwise.
 Linear velocity is tangent to the path, as illustrated in [Figure 5](#Figure5).
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 Tie an object to the end of a string and swing it around in a horizontal circle above your head (swing at your wrist). Maintain uniform speed as the object swings and measure the angular velocity of the motion. What is the approximate speed of the object? Identify a point close to your hand and take appropriate measurements to calculate the linear speed at this point. Identify other circular motions and measure their angular velocities.
 
-</div>
+::::
 
 ![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](../resources/Figure_06_01_05.jpg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
 {: #Figure5}
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Ladybug Revolution
 </div>
-<figure markdown="1">
+
+::: figure {}
+
 <figcaption>
 Ladybug Revolution
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.html?simulation=rotation" width="600" height="450"  allowfullscreen></iframe>
-</figure>
+
+:::
+
 Join the ladybug in an exploration of rotational motion. Rotate the merry-go-round to change its angle, or choose a constant angular velocity or angular acceleration. Explore how circular motion relates to the bug\'s x,y position, velocity, and acceleration using vectors or graphs.
 
-</div>
+::::
 
 ### Section Summary
 
@@ -228,7 +239,7 @@ where arc length $$ \Delta s $$ is distance traveled along a circular path and
 $$ r $$ is the radius of curvature of the circular path. The quantity $$ \Delta\theta $$ is measured in units of radians (rad), for which
 
   <div class="equation">
- $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
+  $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
   </div>
 
 * The conversion between radians and degrees is $$ 1\text{ rad}=57.3^\circ $$.
@@ -241,26 +252,32 @@ where a rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$. The
 units of angular velocity are radians per second (rad/s). Linear velocity $$ v $$ and angular velocity $$ \omega $$ are related by
 
   <div class="equation">
- $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
+  $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
   </div>
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 There is an analogy between rotational and linear physical quantities. What rotational quantities are analogous to distance and velocity?
 
-</div>
+::::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Semi-trailer trucks have an odometer on one hub of a trailer wheel. The hub is weighted so that it does not rotate, but it contains gears to count the number of wheel revolutions—it then calculates the distance traveled. If the wheel has a 1.15 m diameter and goes through 200 000 rotations, how many kilometers should the odometer read?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -290,15 +307,19 @@ $$ s = 7.23 \times 10^5\text{ m} \times \frac{1\text{ km}}{1000\text{ m}} = 723\
 
 The odometer should read 723 km, which is a reasonable distance for a semi-trailer truck to travel before needing maintenance or inspection. This calculation demonstrates the relationship between rotational motion (number of wheel revolutions) and linear distance traveled, which is fundamental to how mechanical odometers work.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Microwave ovens rotate at a rate of about 6 rev/min. What is this in revolutions per second? What is the angular velocity in radians per second?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -322,15 +343,19 @@ $$ 0.10\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} =
 
 The microwave oven turntable rotates at 0.10 revolutions per second, which corresponds to an angular velocity of 0.628 rad/s or approximately 0.63 rad/s.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 An automobile with 0.260 m radius tires travels 80 000 km before wearing them out. How many revolutions do the tires make, neglecting any backing up and any change in radius due to wear?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -360,17 +385,21 @@ $$ N = \frac{s}{C} = \frac{8.00 \times 10^7\text{ m}}{1.63\text{ m}} = 4.91 \tim
 
 The tires make approximately 50 million revolutions before wearing out after traveling 80,000 km. This enormous number of rotations explains why tire tread wears down over time and why tires need to be replaced periodically. The calculation also assumes the tire radius remains constant, though in reality, tire wear would slightly reduce the radius, affecting the actual number of revolutions.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) What is the period of rotation of Earth in seconds?
 (b) What is the angular velocity of Earth?
 (c) Given that Earth has a radius of $$ 6.4\times 10^{6}\m $$ at its equator, what is the linear velocity at Earth's surface?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -402,15 +431,19 @@ $$ v = r\omega = \left(6.4 \times 10^{6}\text{ m}\right)\left(7.27 \times 10^{-5
 
 Earth completes one rotation in 86,400 seconds (24 hours) with an angular velocity of $$ 7.27 \times 10^{-5} $$ rad/s. At the equator, the linear velocity of Earth's surface is approximately 465 m/s or about 1674 km/h, which is quite substantial but not noticeable in everyday life because we rotate along with Earth.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A baseball pitcher brings his arm forward during a pitch, rotating the forearm about the elbow. If the velocity of the ball in the pitcher's hand is 35.0 m/s and the ball is 0.300 m from the elbow joint, what is the angular velocity of the forearm?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -428,15 +461,19 @@ $$ \omega = \frac{v}{r} = \frac{35.0\text{ m/s}}{0.300\text{ m}} = 117\text{ rad
 
 The angular velocity of the forearm is 117 rad/s, which is quite large. To put this in perspective, we can convert to revolutions per second: $$ \omega = 117\text{ rad/s} \times \frac{1\text{ rev}}{2\pi\text{ rad}} = 18.6\text{ rev/s} $$, or about 19 revolutions per second. This high angular velocity, combined with the radius from the elbow to the ball, produces the high linear velocity needed for a fast pitch. Professional pitchers achieve these impressive velocities through coordinated whole-body motion, not just arm rotation.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 In lacrosse, a ball is thrown from a net on the end of a stick by rotating the stick and forearm about the elbow. If the angular velocity of the ball about the elbow joint is 30.0 rad/s and the ball is 1.30 m from the elbow joint, what is the velocity of the ball?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -454,15 +491,19 @@ $$ v = r\omega = (1.30\text{ m})(30.0\text{ rad/s}) = 39.0\text{ m/s} $$
 
 The velocity of the lacrosse ball is 39.0 m/s, which is greater than the baseball pitcher's velocity of 35.0 m/s in the earlier problem, despite having a lower angular velocity (30.0 rad/s compared to 117 rad/s). This is because the ball is much farther from the axis of rotation (1.30 m compared to 0.300 m), demonstrating that linear velocity is directly proportional to both angular velocity and radius.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A truck with 0.420-m-radius tires travels at 32.0 m/s. What is the angular velocity of the rotating tires in radians per second? What is this in rev/min?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -486,11 +527,13 @@ $$ \omega = 76.2\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text
 
 The angular velocity of the truck's tires is 76.2 rad/s or 728 rpm. This rotation rate is typical for vehicles traveling at highway speeds. Notice that the angular velocity depends on both the linear speed and the tire radius - larger tires would rotate more slowly at the same linear speed, while smaller tires would rotate faster.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Integrated Concepts**
 When kicking a football, the kicker rotates his leg about the hip joint.
@@ -505,8 +548,9 @@ velocity?
 
 (c) Find the maximum range of the football, neglecting air resistance.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -542,11 +586,13 @@ $$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\te
 
 The angular velocity of the kicker's leg is 33.3 rad/s, which combined with the 1.05 m radius produces a shoe tip velocity of 35.0 m/s. The average force on the football during the brief 20 ms contact is 500 N (about 112 lb), which accelerates the football to 20.0 m/s. At the optimal 45° launch angle, the football can travel a maximum distance of 40.8 m (about 45 yards), which is a reasonable distance for a punt or field goal attempt in American football.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
 
 **Construct Your Own Problem**
 
@@ -559,10 +605,12 @@ down the wall. Include a free body diagram of a single rider. Among the
 variables to consider are the radius of the cylinder and the coefficients of
 friction between the riders’ clothing and the wall.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -587,4 +635,4 @@ angular velocity
 : $$ \omega $$, the rate of change of the angle with which an object moves on a
 circular path
 
-</div>
+::::

@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 9
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * State the first condition of equilibrium.
 * Explain static equilibrium.
 * Explain dynamic equilibrium.
 
-</div>
+::::
 
 The first condition necessary to achieve equilibrium is the one already
 mentioned: the net external force on the system must be zero. Expressed as an
@@ -59,21 +59,26 @@ equilibrium is achieved. This will be explored further in the next section.
 ![A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](../resources/Figure_09_01_04.jpg 'The same forces are applied at other points and the stick rotates—in fact, it experiences an accelerated rotation. Here ( \\text{net }F=0 ) but the system is not at equilibrium. Hence, the ( \\text{net }F=0 ) is a necessary—but not sufficient—condition for achieving equilibrium.')
 {: #Figure4}
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Torque
 </div>
+
 Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Torque
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.
 html?simulation=torque" width="800" height="600"
 allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -86,11 +91,15 @@ allowfullscreen></iframe>
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What can you say about the velocity of a moving body that is in dynamic equilibrium? Draw a sketch of such a body using clearly labeled arrows to represent all external forces on the body.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 To address this question, we apply the definition of dynamic equilibrium: a state where the net external force is zero while the object is in motion. This means the object must have constant velocity (both constant speed and constant direction).
@@ -113,15 +122,20 @@ A sketch of such a body would show:
 
 The key insight is that equilibrium does not mean the object is at rest—it means the object has zero acceleration. Dynamic equilibrium is common in everyday situations: a plane flying at constant cruising speed, a car on cruise control on a flat highway, or a skydiver who has reached terminal velocity. In all these cases, forces are present but perfectly balanced.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Under what conditions can a rotating body be in equilibrium? Give an example.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 We need to consider both conditions for equilibrium: the first condition (net force equals zero) and the second condition (net torque equals zero). For a rotating body, equilibrium means no angular acceleration, not necessarily zero rotation.
@@ -147,10 +161,12 @@ Other examples include:
 
 This is analogous to dynamic equilibrium for linear motion. Just as a car moving at constant velocity has zero net force, a body rotating at constant angular velocity has zero net torque. The body is not accelerating (linearly or rotationally), even though it is definitely in motion. This concept is crucial in designing rotating machinery, where engineers must ensure that torques balance to prevent unwanted acceleration or deceleration.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -162,4 +178,4 @@ dynamic equilibrium
 : a state of equilibrium in which the net external force and torque on a system
 moving with constant velocity are zero
 
-</div>
+::::

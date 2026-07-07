@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Use both versions of Heisenberg’s uncertainty principle in calculations.
 * Explain the implications of Heisenberg’s uncertainty principle for measurements.
-</div>
+
+:::
 
 ### Probability Distribution
 
@@ -148,10 +149,12 @@ referred to as electron clouds or orbitals. The shapes of these orbitals are
 often shown in general chemistry texts and are discussed
 in [The Wave Nature of Matter Causes Quantization](../contents/ch30TheWaveNatureOfMatterCausesQuantization).
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Heisenberg Uncertainty Principle in Position and Momentum for an Atom
 </div>
+
 (a) If the position of an electron in an atom is measured to an accuracy of 0.0100 nm, what is the electron’s uncertainty in velocity? (b) If the electron has this velocity, what is its kinetic energy in eV?
 
 **Strategy**
@@ -168,21 +171,25 @@ uncertainty, we have
 <div class="equation" >
  $$\Delta x\Delta p=\frac{h}{4\pi }. $$
 </div>
+
 Solving for  $$\Delta p $$  and substituting known values gives
 
 <div class="equation" >
  $$\Delta p=\frac{h}{4\pi \Delta x}=\frac{6.63 \times 10^{-34} \text{J}\cdot \text{s}}{4\pi \left(1.00 \times 10^{-11} \text{m}\right)}= 5.28  \times 10^{-24} \text{kg}\cdot \text{m/s}\text{.} $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $$\Delta p= 5.28  \times 10^{-24} \text{kg}\cdot \text{m/s}=m\Delta v. $$
 </div>
+
 Solving for  $$\Delta v $$  and substituting the mass of an electron gives
 
 <div class="equation" >
  $$\Delta v=\frac{\Delta p}{m}=\frac{ 5.28 \times 10^{-24} \text{kg}\cdot \text{m/s}}{ 9.11 \times 10^{-31} \text{kg}}=5.79 \times 10^{6}  \text{m/s}\text{.} $$
 </div>
+
 **Solution for (b)**
 
 Although large, this velocity is not highly relativistic, and so the electron’s
@@ -191,6 +198,7 @@ kinetic energy is
 <div class="equation" >
  $$\begin{array}{lll}{\text{KE}}_{e}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){ \left( 5.79 \times 10^{6}  \text{m/s}\right)}^{2}\\ & =& \left( 1.53 \times 10^{-17} \text{J} \right) \left(\frac{1 \text{eV}}{1.60 \times 10^{-19} \text{J}}\right)=95.5 \text{eV} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 Since atoms are roughly 0.1 nm in size, knowing the position of an electron to
@@ -205,7 +213,7 @@ atoms (see [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectr
 get a meaningful energy for the electron if we know its position even moderately
 well.
 
-</div>
+:::
 
 Why don’t we notice Heisenberg’s uncertainty principle in everyday life? The
 answer is that Planck’s constant is very small. Thus the lower limit in the
@@ -234,10 +242,12 @@ may be the amount of time we take to make the measurement, or it could be the
 amount of time a particular state exists, as in the next [[Example 2]](#Example2)
 .
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Heisenberg Uncertainty Principle for Energy and Time for an Atom
 </div>
+
 An atom in an excited state temporarily stores energy. If the lifetime of this excited state is measured to be  $${1.0 \text{×10}}^{-10} s $$ ,
  what is the minimum uncertainty in the energy of the state in eV?
 
@@ -256,11 +266,13 @@ values gives
 <div class="equation" >
  $$\Delta E=\frac{h}{4\pi \Delta t}=\frac{ 6.63 \times 10^{-34} \text{J}\cdot \text{s}}{4\pi \left(1.0 \times 10^{-10} \text{s}\right)}= 5.3  \times 10^{-25} \text{J} \text{.}  $$
 </div>
+
 Now converting to eV yields
 
 <div class="equation" >
  $$\Delta E= \left( 5.3 \times 10^{-25} \text{J} \right) \left(\frac{1 \text{eV}}{ 1.6 \times 10^{-19} \text{J}}\right)= 3.3  \times 10^{-6} \text{eV}\text{.} $$
 </div>
+
 **Discussion**
 
 The lifetime of $$ 10^{-10} \text{s} $$ is typical of excited states in atoms—on
@@ -270,7 +282,7 @@ compared with typical excitation energies in atoms, which are on the order of 1
 eV. So here the uncertainty principle limits the accuracy with which we can
 measure the lifetime and energy of such states, but not very significantly.
 
-</div>
+:::
 
 The uncertainty principle for energy and time can be of great significance if
 the lifetime of a system is very short. Then $$\Delta t $$ is very small, and
@@ -329,21 +341,28 @@ we affect the traveling.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the Heisenberg uncertainty principle? Does it place limits on what can be known?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 (a) If the position of an electron in a membrane is measured to an accuracy of  $$1.00 \text{μm} $$ ,
  what is the electron’s minimum uncertainty in velocity? (b) If the electron has this velocity, what is its kinetic energy in eV? (c) What are the implications of this energy, comparing it to typical molecular binding energies?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 57.9 m/s
 
 (b) $$ 9.55 \times 10^{-9} \text{eV} $$
@@ -352,17 +371,21 @@ molecular binding energies range from about 1eV to 10 eV, therefore the result
 in part (b) is approximately 9 orders of magnitude smaller than typical
 molecular binding energies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 (a) If the position of a chlorine ion in a membrane is measured to an accuracy of  $$1.00 \text{μm} $$ ,
  what is its minimum uncertainty in velocity, given its mass is  $$ 5.86 \times 10^{-26}  \text{kg} $$ ?
  (b) If the ion has this velocity, what is its kinetic energy in eV, and how does this compare with typical molecular binding energies?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -396,16 +419,20 @@ The chlorine ion's minimum velocity uncertainty is only 0.9 mm/s—very small. T
 
 (b) $$ 1.48 \times 10^{-13} \text{ eV}$$, approximately $$10^{13}$$ times smaller than molecular binding energies
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 Suppose the velocity of an electron in an atom is known to an accuracy of  $$ 2.0 \times 10^{3}  \text{m/s} $$
  (reasonably accurate compared with orbital velocities). What is the electron's minimum uncertainty in position, and how does this compare with the approximate 0.1-nm size of the atom?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -437,15 +464,19 @@ The minimum uncertainty in position (29 nm) is 290 times larger than the typical
 
 29 nm, 290 times greater
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 The velocity of a proton in an accelerator is known to an accuracy of 0.250% of the speed of light. (This could be small compared with its velocity.) What is the smallest possible uncertainty in its position?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -471,15 +502,19 @@ The minimum uncertainty in the proton's position is 42.1 femtometers (fm), about
 
 $$ 4.21 \times 10^{-14} \text{ m}$$ or 42.1 fm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What is the minimum uncertainty in its energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -502,16 +537,21 @@ Converting to eV:
 This extremely small energy uncertainty ($$1.10 \times 10^{-13}$$ eV) results from the long 3.00-ms lifetime. The energy-time uncertainty principle shows that long-lived states have well-defined energies, producing sharp spectral lines. Conversely, short-lived states have large energy uncertainties and broad spectral lines. This is why metastable states like this are useful for precision spectroscopy and atomic clocks—their narrow linewidths allow extremely precise frequency measurements.
 
  $$ 1.10 \times 10^{-13}  \text{eV} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 (a) The lifetime of a highly unstable nucleus is  $$ 10^{-20} \text{s} $$ .
  What is the smallest uncertainty in its decay energy? (b) Compare this with the rest energy of an electron.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -543,15 +583,19 @@ The energy uncertainty (33 keV) is about 6.5% of an electron's rest energy (511 
 
 (b) About 6.46% of electron rest energy
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to its short lifetime. What is the smallest lifetime it can have?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -576,15 +620,20 @@ Solve for minimum lifetime:
 This incredibly short lifetime ($$3.3 \times 10^{-22}$$ s) is typical for unstable elementary particles. For comparison, this is the time it takes light to travel about 0.1 femtometers—less than the diameter of a proton! Such short-lived particles cannot be directly observed; their existence is inferred from the energy distribution of their decay products, which reflects the MeV-scale energy uncertainty predicted by the uncertainty principle.
 
  $$ 3.3 \times 10^{-22}  \text{s} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 The decay energy of a short-lived nuclear excited state has an uncertainty of 2.0 eV due to its short lifetime. What is the smallest lifetime it can have?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -614,15 +663,19 @@ A nuclear excited state with a 2.0-eV energy width must have a lifetime of at le
 
 $$ 1.65 \times 10^{-16} \text{ s}$$ or 165 fs
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 What is the approximate uncertainty in the mass of a muon, as determined from its decay lifetime?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -647,11 +700,15 @@ Convert to mass uncertainty using $$\Delta m = \frac{\Delta E}{c^2}$$:
 The mass uncertainty ($$2.67 \times 10^{-46}$$ kg) is incredibly small—about $$10^{-18}$$ times the muon's rest mass ($$1.88 \times 10^{-28}$$ kg). This tiny uncertainty results from the muon's relatively long lifetime of 2.2 microseconds. Despite this small uncertainty, it's measurable and places a fundamental limit on how precisely we can determine the muon's mass. This demonstrates that even "stable" (long-lived) particles have inherent mass uncertainties due to quantum mechanics.
 
  $$ 2.66 \times 10^{-46}  \text{kg} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 Derive the approximate form of Heisenberg's uncertainty principle for energy and time,  $$\Delta E\Delta t\approx h $$ ,
  using the following arguments: Since the position of a particle is uncertain by  $$\Delta x\approx \lambda  $$ ,
  where  $$\lambda  $$
@@ -660,8 +717,9 @@ Derive the approximate form of Heisenberg's uncertainty principle for energy and
  Find  $$\Delta t $$
  and  $$\Delta E $$ ;  then multiply them to give the approximate uncertainty principle.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -699,10 +757,12 @@ This derivation shows how the energy-time uncertainty principle emerges from bas
 
 Derived: $$\Delta E \Delta t \approx h$$
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -730,4 +790,4 @@ probability distribution
 : the overall spatial distribution of probabilities to find a particle at a
 given location
 
-</div>
+:::

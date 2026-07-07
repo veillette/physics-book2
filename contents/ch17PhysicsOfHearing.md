@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 17
 ---
-
 ![Photograph of an old tree in a forest that had fallen some time ago.](../resources/Figure_17_00_01.jpg 'This tree fell some time ago. When it fell, atoms in the air were disturbed. Physicists would call this disturbance sound whether someone was around to hear it or not. (credit: B.A. Bowen Photography)')
 {: #Figure1}
 
@@ -21,6 +20,8 @@ will be considered in this text. We shall explore both sound and hearing; they
 are related, but are not the same thing. We will also explore the many practical
 uses of sound waves, such as in medical imaging.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9YgcdK0qY8w"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

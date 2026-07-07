@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 1
 chapterNumber: 13
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define temperature.
 * Convert temperatures between the Celsius, Fahrenheit, and Kelvin scales.
 * Define thermal equilibrium.
 * State the zeroth law of thermodynamics.
-</div>
+
+:::
 
 The concept of temperature has evolved from the common concepts of hot and cold.
 Human perception of what feels hot or cold is a relative one. For example, if
@@ -29,10 +30,12 @@ discuss temperature, its measurement by thermometers, and its relationship to
 thermal equilibrium. Again, temperature is the quantity measured by a
 thermometer.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Misconception Alert: Human Perception vs. Reality
 </div>
+
 On a cold winter morning, a wooden bench feels warmer than a metal bench. The wood and metal are in thermal equilibrium with the outside air, and are thus the same temperature. They **feel** different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in [Conduction](../contents/ch14Conduction)). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.
 
 Another factor that affects our perception of temperature is humidity. Most
@@ -41,7 +44,7 @@ because on humid days, sweat does not evaporate from the skin and in our lungs a
 it does on dry days. It is the evaporation of sweat (or water from a sprinkler
 or pool) as well as water in the lungs that cools us off.
 
-</div>
+:::
 
 Any physical property that depends on temperature, and whose response to
 temperature is reproducible, can be used as the basis of a thermometer. Because
@@ -167,10 +170,12 @@ Notice that the conversions between Fahrenheit and Kelvin look quite
 complicated. In fact, they are simple combinations of the conversions between
 Fahrenheit and Celsius, and the conversions between Celsius and Kelvin.
 
-<div class="example"  markdown="1">
+::: example
+
 <div class="title">
 Converting between Temperature Scales: Room Temperature
 </div>
+
 “Room temperature” is generally defined to be  $$25\text{ºC} $$ .
  (a) What is room temperature in  $$\text{ºF} $$ ?
  (b) What is it in K?
@@ -188,11 +193,13 @@ equations and plug in the known values.
 <div class="equation" >
  $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32\text{.} $$
 </div>
+
 2. Plug the known value into the equation and solve:
 
 <div class="equation" >
  $${T}_{\text{ºF}}=\frac{9}{5}25\text{ºC}+32=77\text{ºF}\text{.} $$
 </div>
+
 **Solution for (b)**
 
 1. Choose the right equation. To convert from $$\text{ºC} $$ to K, use the
@@ -201,17 +208,21 @@ equations and plug in the known values.
 <div class="equation" >
  $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 \text{.} $$
 </div>
+
 2. Plug the known value into the equation and solve:
 
 <div class="equation" >
  $${T}_{\text{K}}=25\text{ºC}+ 273.15 =298 \text{K}\text{.} $$
 </div>
-</div>
 
-<div class="example"  markdown="1">
+:::
+
+::: example
+
 <div class="title">
 Converting between Temperature Scales: the Reaumur Scale
 </div>
+
 The Reaumur scale is a temperature scale that was used widely in Europe in the 18th and 19th centuries. On the Reaumur temperature scale, the freezing point of water is  $$0\text{ºR} $$
  and the boiling temperature is  $$80\text{ºR} $$ .
  If “room temperature” is  $$25\text{ºC} $$
@@ -233,12 +244,14 @@ on the two scales.
 <div class="equation" >
  $${T}_{\text{ºR}}=\frac{ 0.8\text{ºR}}{\text{ºC}} × {T}_{\text{ºC}}\text{.} $$
 </div>
+
 2. Plug the known value into the equation and solve:
 
 <div class="equation" >
  $${T}_{\text{ºR}}=\frac{ 0.8\text{ºR}}{\text{ºC}} × 25\text{ºC}=20\text{ºR}\text{.} $$
 </div>
-</div>
+
+:::
 
 ### Temperature Ranges in the Universe
 
@@ -265,15 +278,17 @@ Nebula, with a temperature of 1 K.
 ![The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.](../resources/Figure_13_01_06.jpg "Each increment on this logarithmic scale indicates an increase by a factor of ten, and thus illustrates the tremendous range of temperatures in nature. Note that zero on a logarithmic scale would occur off the bottom of the page at infinity.")
 {: #Figure6}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Absolute Zero
 </div>
+
 What is absolute zero? Absolute zero is the temperature at which all molecular motion has ceased. The concept of absolute zero arises from the behavior of gases. [[Figure 7]](#Figure7) shows how the pressure of gases at a constant volume decreases as temperature decreases. Various scientists have noted that the pressures of gases extrapolate to zero at the same temperature,  $$ - 273.15 \text{ºC} $$ .
  This extrapolation implies that there is a lowest temperature. This temperature is called *absolute zero*. Today we know that most gases first liquefy and then freeze, and it is not actually possible to reach absolute zero. The numerical value of absolute zero temperature is  $$ - 273.15 \text{ºC} $$
  or 0 K.
 
-</div>
+:::
 
 ![Line graph of pressure versus temperature of five gases. Each graph is linear with a positive slope. Each line extrapolates to a pressure of zero at a temperature of negative two hundred seventy three point one five degrees Celsius.](../resources/Figure_13_01_07.jpg "Graph of pressure versus temperature for various gases kept at a constant volume. Note that all of the graphs extrapolate to zero pressure at the same temperature.")
 {: #Figure7}
@@ -301,13 +316,15 @@ third system C, then A is also in thermal equilibrium with C. This conclusion
 may seem obvious, because all three have the same temperature, but it is basic
 to thermodynamics. It is called the **zeroth law of thermodynamics**.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Zeroth Law of Thermodynamics
 </div>
+
 If two systems, A and B, are in thermal equilibrium with each other, and B is in thermal equilibrium with a third system, C, then A is also in thermal equilibrium with C.
 
-</div>
+:::
 
 This law was postulated in the 1930s, after the first and second laws of
 thermodynamics had been developed and named. It is called the *zeroth law*
@@ -323,14 +340,19 @@ temperature to keep the baby comfortable.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the temperature of a body depend on its size?
 
-</div>
-<div class="solution"  data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 No, the system can be divided into smaller parts each of which is at the same temperature. We say that the temperature is an *intensive* quantity. Intensive quantities are independent of size.
 
-</div>
+:::
+
 </div>
 
 #### Section Summary
@@ -368,11 +390,15 @@ No, the system can be divided into smaller parts each of which is at the same te
 #### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What does it mean to say that two systems are in thermal equilibrium?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider what happens when two objects at different temperatures are brought into thermal contact.
 
@@ -387,15 +413,21 @@ More specifically, thermal equilibrium means:
 
 **Discussion:**
 Thermal equilibrium is the basis for temperature measurement. When a thermometer is placed in contact with an object, heat flows between them until they reach thermal equilibrium. The thermometer then reads the temperature of the object. The zeroth law of thermodynamics formalizes this concept: if system A is in thermal equilibrium with system C, and system B is in thermal equilibrium with system C, then A and B are in thermal equilibrium with each other (and all three have the same temperature).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a physical property that varies with temperature and describe how it is used to measure temperature.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Think of properties that change predictably and measurably with temperature.
 
@@ -412,15 +444,21 @@ Many physical properties vary with temperature and can be used for thermometry. 
 
 **Discussion:**
 Different temperature-dependent properties are useful in different ranges and applications. Mercury thermometers work well for everyday temperatures but are limited by mercury's freezing (−39ºC) and boiling (357ºC) points. Thermocouples can measure very high temperatures (up to 2000ºC), while resistance thermometers offer high precision for scientific work.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a cold alcohol thermometer is placed in a hot liquid, the column of alcohol goes **down** slightly before going up. Explain why.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider which part of the thermometer heats up first and how thermal expansion occurs at different rates for glass and alcohol.
 
@@ -433,15 +471,21 @@ After this brief moment, heat conducts through the glass to the alcohol. The alc
 
 **Discussion:**
 This effect is transient and only noticeable when there's a large temperature difference between the thermometer and the liquid. It demonstrates the different rates of thermal expansion for different materials and the time required for heat to transfer through materials. Good thermometer design minimizes this effect by using thin glass bulbs that heat quickly and by choosing liquid-glass combinations with very different expansion coefficients.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you add boiling water to a cup at room temperature, what would you expect the final equilibrium temperature of the unit to be? You will need to include the surroundings as part of the system. Consider the zeroth law of thermodynamics.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider all components that will exchange heat: the boiling water, the cup, and the surrounding air. Apply the principle that heat flows from hot to cold until thermal equilibrium is reached.
 
@@ -460,18 +504,24 @@ The final equilibrium temperature will be somewhere between room temperature and
 
 **Discussion:**
 By the zeroth law of thermodynamics, when thermal equilibrium is reached, all parts of the system will be at the same temperature. In practice, in an open room with good air circulation, the final temperature will be very close to room temperature, though the room itself might warm slightly. If the system were perfectly insulated from its surroundings, the equilibrium temperature would be determined by the relative heat capacities and masses of the water and cup alone.
-</div>
+
+:::
+
 </div>
 
 #### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the Fahrenheit temperature of a person with a  $$ 39.0\text{ºC} $$
  fever?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the conversion equation from Celsius to Fahrenheit.
 
@@ -483,16 +533,22 @@ Using the equation $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32$$:
 
 **Discussion:**
 A temperature of 102ºF represents a significant fever. Normal body temperature is 98.6ºF (37.0ºC), so a fever of 102ºF is about 3.6ºF above normal. This level of fever indicates the body is fighting an infection and would typically warrant medical attention, especially if sustained or accompanied by other symptoms.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Frost damage to most plants occurs at temperatures of  $$ 28.0\text{ºF} $$
  or lower. What is this temperature on the Kelvin scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 First convert from Fahrenheit to Celsius, then from Celsius to Kelvin.
 
@@ -509,17 +565,23 @@ Convert ºC to K:
 
 **Discussion:**
 This temperature of 271 K is just below the freezing point of water (273.15 K or 0ºC or 32ºF). Plants can often survive brief exposures to temperatures slightly below freezing, but prolonged exposure causes ice crystals to form in plant cells, rupturing cell walls and causing permanent damage. This is why farmers monitor frost warnings carefully and may use protective measures like covering plants or using heaters when temperatures approach 28ºF.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To conserve energy, room temperatures are kept at  $$ 68.0\text{ºF} $$
  in the winter and  $$ 78.0\text{ºF} $$
  in the summer. What are these temperatures on the Celsius scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the conversion equation from Fahrenheit to Celsius for each temperature.
 
@@ -538,15 +600,21 @@ Summer temperature:
 
 **Discussion:**
 These temperatures (20.0ºC in winter and 25.6ºC in summer) represent a reasonable range for energy-efficient building temperatures. The 10ºF (5.6ºC) difference between winter and summer settings reflects the fact that people dress more warmly in winter and more lightly in summer, so comfort can be maintained at different temperatures. This temperature difference also reduces heating costs in winter and cooling costs in summer, contributing to significant energy savings.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A tungsten light bulb filament may operate at 2900 K. What is its Fahrenheit temperature? What is this on the Celsius scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
 
@@ -563,15 +631,21 @@ Convert ºC to ºF:
 
 **Discussion:**
 This extremely high temperature (nearly 2627ºC or 4761ºF) explains why tungsten is used for incandescent light bulb filaments—it has the highest melting point of all metals (3422ºC). At this operating temperature, the filament glows white-hot, emitting visible light along with significant infrared radiation (heat). This is also why incandescent bulbs are inefficient—much of the energy goes into heat rather than visible light. The tungsten filament must be enclosed in an inert gas (argon or nitrogen) or vacuum to prevent oxidation at these extreme temperatures.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 The surface temperature of the Sun is about 5750 K. What is this temperature on the Fahrenheit scale?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
 
@@ -588,16 +662,22 @@ Convert ºC to ºF:
 
 **Discussion:**
 This extremely high surface temperature of the Sun (5750 K or about 5477ºC or 9890ºF) is what causes the Sun to emit visible light and heat. At this temperature, the Sun's surface glows white-hot, emitting radiation across the entire electromagnetic spectrum with peak intensity in the visible range. This is why the Sun appears yellowish-white to our eyes. The core of the Sun is even hotter, at about 15 million kelvin, where nuclear fusion reactions occur. Understanding the Sun's temperature is crucial for astrophysics and for understanding how stars generate energy.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 One of the hottest temperatures ever recorded on the surface of Earth was  $$134\text{ºF} $$
  in Death Valley, CA. What is this temperature in Celsius degrees? What is this temperature in Kelvin?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Convert from Fahrenheit to Celsius first, then to Kelvin.
 
@@ -614,27 +694,39 @@ Convert ºC to K:
 
 **Discussion:**
 This temperature of 56.7ºC (134ºF or 330 K) is extremely hot and life-threatening for humans without proper precautions. At such temperatures, the human body's cooling mechanisms (primarily evaporative cooling through sweating) are severely challenged, especially if humidity is also high. Death Valley holds this record due to its below-sea-level elevation, surrounding mountains that trap heat, and desert conditions that prevent cloud cover and evaporative cooling. For comparison, normal human body temperature is 37ºC, so this environmental temperature is nearly 20ºC higher than body temperature, making heat gain from the environment a serious concern.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Suppose a cold front blows into your locale and drops the temperature by 40.0 Fahrenheit degrees. How many degrees Celsius does the temperature decrease when there is a  $$ 40.0\text{ºF} $$
  decrease in temperature? (b) Show that any change in temperature in Fahrenheit degrees is nine-fifths the change in Celsius degrees.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 22.2\text{ºC} $$
 (b)  $$\begin{array}{lll}\Delta T\left(\text{ºF}\right)& =& {T}_{2}\left(\text{ºF}\right)-{T}_{1}\left(\text{ºF}\right)\\ & =& \frac{9}{5}{T}_{2}\left(\text{ºC}\right)+ 32.0\text{º}-\left(\frac{9}{5}{T}_{1}\left(\text{ºC}\right)+ 32.0\text{º}\right)\\ & =& \frac{9}{5}\left({T}_{2}\left(\text{ºC}\right)-{T}_{1}\left(\text{ºC}\right)\right) =\frac{9}{5}\Delta T\left(\text{ºC}\right)\end{array} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what temperature do the Fahrenheit and Celsius scales have the same numerical value? (b) At what temperature do the Fahrenheit and Kelvin scales have the same numerical value?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Set $$T_{\text{ºF}}=T_{\text{ºC}}=T$$ and solve using the conversion equation. (b) Set $$T_{\text{ºF}}=T_{\text{K}}=T$$ and solve using the appropriate conversions.
 
@@ -687,10 +779,13 @@ Substituting into the second equation:
 
 **Discussion:**
 The temperature of −40 degrees is the unique point where Celsius and Fahrenheit scales intersect, making it a memorable reference point. This temperature is encountered in very cold climates like Antarctica or northern Canada in winter. The Fahrenheit-Kelvin equivalence at 574.6 degrees occurs at a very high temperature (301.4ºC), well above the boiling point of water. These equivalence points are mathematical curiosities that arise from the different zero points and scale sizes of the temperature systems.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -728,4 +823,4 @@ zeroth law of thermodynamics
 object is in thermal equilibrium with one of those objects, it is also in
 thermal equilibrium with the other object
 
-</div>
+:::

@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 34
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the effect of gravity on light.
 * Discuss black hole.
 * Explain quantum gravity.
-</div>
+
+:::
 
 When we talk of black holes or the unification of forces, we are actually
 discussing aspects of general relativity and quantum gravity. We know
@@ -294,6 +295,7 @@ the [Superstrings](../contents/ch34Superstrings).
   <div class="equation" >
    $${R}_{\text{S}}=\frac{2GM}{ {c}^{2}}\text{,} $$
   </div>
+
      where  $$G $$ is the universal gravitational constant, and  $$M $$
      is the mass of the body.
 
@@ -314,67 +316,93 @@ the [Superstrings](../contents/ch34Superstrings).
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Quantum gravity, if developed, would be an improvement on both general relativity and quantum mechanics, but more mathematically difficult. Under what circumstances would it be necessary to use quantum gravity? Similarly, under what circumstances could general relativity be used? When could special relativity, quantum mechanics, or classical physics be used?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does observed gravitational lensing correspond to a converging or diverging lens? Explain briefly.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you measure the red shifts of all the images produced by gravitational lensing, such as in [[Figure 3]](#Figure3). You find that the central image has a red shift less than the outer images, and those all have the same red shift. Discuss how this not only shows that the images are of the same object, but also implies that the red shift is not affected by taking different paths through space. Does it imply that cosmological red shifts are not caused by traveling through space (light getting tired, perhaps)?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are gravitational waves, and have they yet been observed either directly or indirectly?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the event horizon of a black hole the actual physical surface of the object?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose black holes radiate their mass away and the lifetime of a black hole created by a supernova is about  $$ 10^{67} $$
  years. How does this lifetime compare with the accepted age of the universe? Is it surprising that we do not observe the predicted characteristic radiation?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the Schwarzschild radius of a black hole that has a mass eight times that of our Sun? Note that stars must be more massive than the Sun to form black holes as a result of a supernova.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 23.6 km
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Black holes with masses smaller than those formed in supernovas may have been created in the Big Bang. Calculate the radius of one that has a mass equal to the Earth's.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -411,26 +439,35 @@ This calculation reveals the extreme nature of black holes. For an object to bec
 
 Small primordial black holes like this (if they exist) would have formed in the extremely dense conditions of the early Big Bang, not through stellar collapse. A black hole with Earth's mass would be too small to form from normal astrophysical processes. According to Hawking radiation theory, such a small black hole would also evaporate relatively quickly (on cosmic timescales)—in roughly $$ 10^{50} $$ years. While this is still an enormous amount of time (far longer than the current age of the universe), it's much shorter than the lifetime of solar-mass black holes, which would take $$ 10^{67} $$ years or more to evaporate. The existence of primordial black holes remains hypothetical, but they are actively searched for as potential dark matter candidates.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Supermassive black holes are thought to exist at the center of many galaxies.
 
 (a) What is the radius of such an object if it has a mass of $$10^{9} $$ Suns?
 
 (b) What is this radius in light years?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 (a)  $$ 2.95 \times 10^{12} \text{m} $$
 (b)  $$ 3.12 \times 10^{-4}  \text{ly} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a supermassive black hole near the center of a galaxy. Calculate the
@@ -439,8 +476,9 @@ reasonable for these large objects, and which is now nearly directly observed. (
 Information on black holes posted on the Web by NASA and other agencies is
 reliable, for example.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Sample Problem**
 
@@ -499,10 +537,12 @@ Students constructing their own version should choose masses in the realistic ra
 
 The corresponding Schwarzschild radii range from about 300,000 km (smaller than the Sun-Mercury distance) to 30 billion km (about 200 AU, or 5 times Neptune's orbit) for the largest. These calculations have been confirmed by direct observations, including the Event Horizon Telescope's imaging of the supermassive black hole in M87 (mass $$ \sim 6.5 \times 10^9 M_{\odot} $$) in 2019, providing stunning visual confirmation of Einstein's predictions.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -544,4 +584,4 @@ Quantum gravity
 : the theory that deals with particle exchange of gravitons as the mechanism for
 the force
 
-</div>
+:::

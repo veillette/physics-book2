@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 5
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and discuss fluorescence.
 * Define metastable.
 * Describe how laser emission is produced.
 * Explain population inversion.
 * Define and discuss holography.
-</div>
+
+:::
 
 Many properties of matter and phenomena in nature are directly related to atomic
 energy levels and their associated excitations and de-excitations. The color of
@@ -102,13 +103,15 @@ water by observing it under UV light.
 ![A beaker of water in which fluorescent powder is added. Near the beaker an ultraviolet light source is placed. In this ultraviolet light, the fluorescent powder in the water glows like green smoke.](../resources/Figure_30_05_03.jpg 'Here, fluorescent powder is added to a beaker of water. The mixture gives off a bright glow under ultraviolet light. (credit: Bricksnite, Wikimedia Commons)')
 {: #Figure4}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Nano-Crystals
 </div>
+
 Recently, a new class of fluorescent materials has appeared—“nano-crystals.” These are single-crystal molecules less than 100 nm in size. The smallest of these are called “quantum dots.” These semiconductor indicators are very small (2–6 nm) and provide improved brightness. They also have the advantage that all colors can be excited with the same incident wavelength. They are brighter and more stable than organic dyes and have a longer lifetime than conventional phosphors. They have become an excellent tool for long-term studies of cells, including migration and morphology. ([[Figure 5]](#Figure5).)
 
-</div>
+:::
 
 ![A colorful microscope image of chicken cells is shown. The nuclei of cells glow blue while the neurofilaments that connect these cells glow green under ultraviolet light.](../resources/Figure_30_05_04.jpg 'Microscopic image of chicken cells using nano-crystals of a fluorescent dye. Cell nuclei exhibit blue fluorescence while neurofilaments exhibit green. (credit: Weerapong Prasongchean, Wikimedia Commons)')
 {: #Figure5}
@@ -383,62 +386,86 @@ holographic images of internal organs and tissues can be made.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Atomic and molecular spectra are discrete. What does discrete mean, and how are discrete spectra related to the quantization of energy and electron orbits in atoms and molecules?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Hydrogen gas can only absorb EM radiation that has an energy corresponding to a transition in the atom, just as it can only emit these discrete energies. When a spectrum is taken of the solar corona, in which a broad range of EM wavelengths are passed through very hot hydrogen gas, the absorption spectrum shows all the features of the emission spectrum. But when such EM radiation passes through room-temperature hydrogen gas, only the Lyman series is absorbed. Explain the difference.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Lasers are used to burn and read CDs. Explain why a laser that emits blue light would be capable of burning and reading more information than one that emits infrared.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The coating on the inside of fluorescent light tubes absorbs ultraviolet light and subsequently emits visible light. An inventor claims that he is able to do the reverse process. Is the inventor’s claim possible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between fluorescence and phosphorescence?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How can you tell that a hologram is a true three-dimensional image and that those in 3-D movies are not?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 10]](#Figure10) shows the energy-level diagram for neon. (a) Verify that the energy of the photon emitted when neon goes from its metastable state to the one immediately below is equal to 1.96 eV. (b) Show that the wavelength of this radiation is 633 nm. (c) What wavelength is emitted when the neon makes a direct transition to its ground state?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -480,15 +507,19 @@ The wavelength emitted is **60.0 nm**, which is in the extreme ultraviolet (EUV)
 
 The 633 nm red light from the neon transition is what makes helium-neon lasers produce their characteristic red beam, which is widely used in laser pointers, barcode scanners, and laboratory demonstrations. The metastable state at 20.66 eV is crucial for laser operation—its relatively long lifetime allows a population inversion to build up. The direct transition to ground state (60.0 nm) is in the UV range and is much more energetic than the visible red emission. This UV wavelength matches the energy needed to initially excite helium atoms in the He-Ne laser (as shown in Figure 10), creating a closed energy cycle. The fact that neon preferentially emits at 633 nm rather than 60 nm is due to the quantum mechanical selection rules and the availability of the intermediate energy level at 18.70 eV.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A helium-neon laser is pumped by electric discharge. What wavelength electromagnetic radiation would be needed to pump it? See [[Figure 10]](#Figure10) for energy-level information.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -512,18 +543,22 @@ $$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{20.61 \text{ eV}} = 60.2 
 
 This wavelength of 60.2 nm is in the extreme ultraviolet (EUV) region of the electromagnetic spectrum, far below the visible range (400–700 nm). In practice, helium-neon lasers use electrical discharge rather than optical pumping because it's more practical to excite helium atoms through collisions with electrons in the discharge rather than trying to produce intense EUV radiation. Once the helium atoms are excited to their metastable state, they transfer energy to neon atoms through collisions, which is why helium-neon lasers work so efficiently. The laser output at 633 nm (red light) comes from the neon atoms, not the helium.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Ruby lasers have chromium atoms doped in an aluminum oxide crystal. The energy level diagram for chromium in a ruby is shown in [[Figure 17]](#Figure17). What wavelength is emitted by a ruby laser?
 
 ![The figure shows energy levels of chromium atoms in an aluminum oxide crystal. Ground state is at zero point zero electron volts, first metastable state is at one point seventy nine electron volts, second state is at two point three electron volts, and the third state is at three point zero electron volts.](../resources/Figure_30_05_16.jpg "Chromium atoms in an aluminum oxide crystal have these energy levels, one of which is metastable. This is the basis of a ruby laser. Visible light can pump the atom into an excited state above the metastable state to achieve a population inversion.")
 {: #Figure17}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -549,15 +584,19 @@ The ruby laser emits light with a wavelength of **693 nm**.
 
 This wavelength of 693 nm is in the deep red portion of the visible spectrum, which is why ruby lasers produce a characteristic red beam. Ruby was the material used in the very first laser, built by Theodore Maiman in 1960. The chromium atoms (which give ruby its red color) are the active lasing medium. Visible light (green and blue wavelengths around 400-600 nm) from a flash lamp is absorbed to pump chromium atoms from the ground state to higher excited states at 2.3 eV and 3.0 eV. These atoms quickly relax non-radiatively to the metastable state at 1.79 eV, where they remain for a relatively long time (on the order of milliseconds). This allows a population inversion to build up. When stimulated emission begins, all the stored energy is released coherently as intense red light at 693 nm. Ruby lasers typically operate in pulsed mode rather than continuously because it's difficult to maintain a population inversion continuously. Despite being the first type of laser ever built, ruby lasers are still used today in applications such as holography, tattoo removal, and as pump sources for other lasers.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What energy photons can pump chromium atoms in a ruby laser from the ground state to its second and third excited states? (b) What are the wavelengths of these photons? Verify that they are in the visible part of the spectrum.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -599,19 +638,23 @@ Both wavelengths fall within the visible range of approximately 400–700 nm, co
 
 This is why ruby lasers can be pumped with visible light, typically using intense white light from a flash lamp. The chromium atoms absorb the green and violet/blue components of the white light, becoming excited to the higher energy states. They then quickly relax to the metastable state at 1.79 eV through non-radiative transitions. Once a population inversion is achieved in the metastable state, stimulated emission produces the characteristic red laser light at 693 nm (from the 1.79 eV transition back to ground state). The ability to pump with visible light makes ruby lasers relatively practical compared to systems requiring UV pumping. The green (539 nm) absorption is particularly strong, which is why ruby crystals appear red—they absorb the green light and reflect/transmit the red.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some of the most powerful lasers are based on the energy levels of neodymium in solids, such as glass, as shown in [[Figure 18]](#Figure18). (a) What average wavelength light can pump the neodymium into the levels above its metastable state? (b) Verify that the 1.17 eV transition produces  $$1.06 \text{μm} $$
  radiation.
 
 ![The figure shows different energy levels of neodymium atoms in glass. The ground state is at zero electron volts, first state is at zero point five zero electron volts, the metastable second state is at one point sixty seven electron volts, and the group state levels above metastable second are at two point one electron volts. The photons release one point seventeen electron volts at wavelength of one point zero six micro meters while coming from the metastable second state to first state.](../resources/Figure_30_05_17.jpg "Neodymium atoms in glass have these energy levels, one of which is metastable. The group of levels above the metastable state is convenient for achieving a population inversion, since photons of many different energies can be absorbed by atoms in the ground state.")
 {: #Figure18}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -651,10 +694,12 @@ This verifies that the 1.17 eV transition produces **1.06 μm** radiation.
 
 Neodymium lasers (Nd:YAG or Nd:glass) are among the most powerful and versatile lasers available. The 1.06 μm wavelength is in the near-infrared, just beyond the visible red end of the spectrum. This makes the beam invisible to the human eye, which is both an advantage (no visible glare) and a safety concern (operators cannot see the beam). Neodymium lasers are widely used in materials processing (cutting, welding, marking), medical procedures (surgery, dentistry, dermatology), military applications (range finding, target designation), and scientific research. The pump wavelength of 590 nm (yellow-orange) is convenient because it can be provided by flashlamps or by laser diodes. The "group of levels" around 2.1 eV is particularly advantageous because atoms can be pumped to any of several closely-spaced levels, making the laser less sensitive to the exact pump wavelength—this is called broadband pumping. After being pumped to these upper levels, atoms quickly relax non-radiatively to the metastable state at 1.67 eV, where they accumulate to create a population inversion. The lasing transition brings atoms down to 0.50 eV, from which they quickly relax to the ground state, ready to be pumped again. This four-level laser scheme is very efficient and allows continuous operation at high power levels. Neodymium lasers can be Q-switched or mode-locked to produce extremely short, intense pulses, making them valuable for applications requiring precise energy delivery in very short time intervals.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -697,4 +742,4 @@ fluorescence
 : any process in which an atom or molecule, excited by a photon of a given
 energy, de-excites by emission of a lower-energy photon
 
-</div>
+:::

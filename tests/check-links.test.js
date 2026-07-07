@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import LinkChecker from '../scripts/check-links.js';
+import { getLineNumber } from '../scripts/lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -114,18 +115,18 @@ External link: [Wikipedia](https://en.wikipedia.org)
   describe('getLineNumber', () => {
     it('should return correct line number for single line', () => {
       const content = 'Hello world';
-      expect(checker.getLineNumber(content, 0)).toBe(1);
+      expect(getLineNumber(content, 0)).toBe(1);
     });
 
     it('should return correct line number for multiple lines', () => {
       const content = 'Line 1\nLine 2\nLine 3';
-      expect(checker.getLineNumber(content, 0)).toBe(1);
-      expect(checker.getLineNumber(content, 7)).toBe(2);
-      expect(checker.getLineNumber(content, 14)).toBe(3);
+      expect(getLineNumber(content, 0)).toBe(1);
+      expect(getLineNumber(content, 7)).toBe(2);
+      expect(getLineNumber(content, 14)).toBe(3);
     });
 
     it('should handle empty content', () => {
-      expect(checker.getLineNumber('', 0)).toBe(1);
+      expect(getLineNumber('', 0)).toBe(1);
     });
   });
 

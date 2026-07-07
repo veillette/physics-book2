@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 1
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 * Calculate the percent uncertainty of a measurement.
-</div>
+
+::::
 
 ![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg 'A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The “known masses” are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)')
 {: #Figure1}
@@ -90,10 +91,12 @@ other. At any rate, the uncertainty in a measurement must be based on a careful
 consideration of all the factors that might contribute and their possible
 effects.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Real-World Connections – Fevers or Chills?
 </div>
+
 Uncertainty is a critical piece of information, both in physics and
 in many other real-world applications. Imagine you are caring for a sick child.
 You suspect the child has a fever, so you check their temperature with a thermometer.
@@ -104,7 +107,7 @@ If the child’s temperature reading was  $$ 37.0^\circ \text{C}  $$
 from a hypothermic  $$ 34.0^\circ \text{C}  $$ to a dangerously high  $$ 40.0^\circ \text{C}  $$. A thermometer with an uncertainty of  $$ 3.0^\circ \text{C}  $$ would
 be useless.
 
-</div>
+::::
 
 #### Percent Uncertainty
 
@@ -116,10 +119,12 @@ is defined to be
   $$ \% \text{unc} = \frac{ \delta A}{A} \times 100 \% .  $$
 </div>
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Calculating Percent Uncertainty: A Bag of Apples
 </div>
+
 A grocery store sells  $$ 5\text{-lb}  $$ bags of apples. You purchase four bags over the course of a month and weigh the
 apples each time. You obtain the following measurements:
 
@@ -161,7 +166,7 @@ future calculations: when calculating percent uncertainty, always remember that
 you must multiply the fraction by 100%. If you do not do this, you will have a
 decimal quantity, not a percent value.
 
-</div>
+::::
 
 #### Uncertainties in Calculations
 
@@ -184,17 +189,22 @@ the floor is given to a tenth of a square meter.)
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of  $$ \pm  0.05 \s  $$. Runners on the track coach’s team regularly clock 100-m sprints of  $$ 11.49 \s    $$
 to  $$ 15.01 \s  $$. At the school’s last track meet, the first-place sprinter came in at  $$ 12.04 \s    $$
 and the second-place sprinter came in at  $$ 12.07 \s  $$. Will the coach’s new stopwatch be helpful in timing the sprint team? Why or
 why not?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-print-placement":"here"}
+
 No, the uncertainty in the stopwatch is too great to effectively differentiate between the sprint times.
 
-</div>
+::::
+
 </div>
 
 ### Precision of Measuring Tools and Significant Figures
@@ -242,7 +252,9 @@ notation.) **Zeros are significant except when they serve only as placekeepers**
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 Determine the number of significant figures in the following measurements:
 
 (a) 0.0009
@@ -251,8 +263,10 @@ Determine the number of significant figures in the following measurements:
 (d) 87.990
 (d) 30.42
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-print-placement":"here"}
+
 (a) 1; the zeros in this number are placekeepers that indicate the decimal point
 
 (b) 6; here, the zeros indicate that a measurement was made to the 0.1 decimal
@@ -267,7 +281,8 @@ point, so it is significant
 (e) 4; any zeros located in between significant figures in a number are also
 significant
 
-</div>
+::::
+
 </div>
 
 #### Significant Figures in Calculations
@@ -341,7 +356,9 @@ such as the two in the formula for the circumference of a circle, $$ c=2\pi r $$
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 Perform the following calculations and express your answer using the correct number of significant digits.
 
 (a) A woman has two bags, each weighing 13.5 pounds and one bag with a weight of 10.2
@@ -351,29 +368,37 @@ pounds. What is the total weight of the bags?
 its acceleration $$ a $$. If a wagon with mass 55\text{ kg} accelerates at a rate of $$ 0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
 newton, and it is expressed with the symbol N.)
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+::::
+
+:::: solution {"class":"solution","data-print-placement":"here"}
+
 (a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures.
 
 (b) 1.4 N; Because the value 55 kg has only two significant figures, the final
 value must also contain two significant figures.
 
-</div>
+::::
+
 </div>
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Estimation
 </div>
+
 Explore size estimation in one, two, and three dimensions! Multiple levels of difficulty allow for progressive skill improvement.
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Estimation
 </figcaption>
 <iframe loading="lazy" src="https://phet-dev.colorado.edu/html/estimation/1.0.0-dev.3/estimation_en.html" width="600" height="450"  allowfullscreen></iframe>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Summary
 
@@ -394,17 +419,23 @@ Estimation
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is the relationship between the accuracy and uncertainty of a measurement?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Prescriptions for vision correction are given in units called **diopters** (D). Determine the meaning of that unit. Obtain information (perhaps by calling an optometrist or performing an internet search) on the minimum uncertainty with which corrections in diopters are determined and the accuracy with which corrective lenses can be produced. Discuss the sources of uncertainties in both the prescription and accuracy in the manufacture of lenses.
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -413,11 +444,15 @@ Prescriptions for vision correction are given in units called **diopters** (D). 
 significant figures and proper units.**
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose that your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 The uncertainty can be found by multiplying the measured value by the percent uncertainty (expressed as a decimal).
@@ -434,15 +469,20 @@ A 3% uncertainty is relatively typical for bathroom scales, which are generally 
 
 **Answer:** 2 kg
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the percent uncertainty formula: %unc = (δA/A) × 100%. Convert units so they match before calculating.
@@ -465,16 +505,22 @@ This is a very small percent uncertainty (about 1 part in 4000), indicating a hi
 
 **Answer:** 0.025%
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) A car speedometer has a  $$ 5.0 \%  $$ uncertainty. What is the range of
 possible speeds when it reads  $$ 90\text{km/h}  $$ ?
 (b) Convert this range to miles per hour.  $$ \left(1 \text{km}= 0.6214 \text{mi}\right)  $$
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Find the uncertainty by multiplying the reading by the percent uncertainty, then calculate the range by adding and subtracting from the reading.
@@ -492,9 +538,11 @@ $$ \delta v = 90 \text{ km/h} \times \frac{5.0\%}{100\%} = 90 \text{ km/h} \time
 <div class="equation">
 $$ v = 90 \pm 4.5 \text{ km/h} $$
 </div>
+
 <div class="equation">
 $$ \text{Minimum: } 90 - 4.5 = 85.5 \approx 85 \text{ km/h} $$
 </div>
+
 <div class="equation">
 $$ \text{Maximum: } 90 + 4.5 = 94.5 \approx 95 \text{ km/h} $$
 </div>
@@ -505,6 +553,7 @@ Using 1 km = 0.6214 mi:
 <div class="equation">
 $$ 85 \text{ km/h} \times 0.6214 = 53 \text{ mi/h} $$
 </div>
+
 <div class="equation">
 $$ 95 \text{ km/h} \times 0.6214 = 59 \text{ mi/h} $$
 </div>
@@ -518,15 +567,22 @@ A 5% uncertainty in speedometer readings is quite significant - it represents a 
 (a) $$ 85\text{ to } 95 \text{ km/h} $$
 
 (b) $$ 53\text{ to } 59 \text{ mi/h} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 An infant's pulse rate is measured to be  $$ 130  \pm  5  $$ beats/min.
 What is the percent uncertainty in this measurement?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the percent uncertainty formula with the measured value and its uncertainty.
@@ -543,17 +599,23 @@ A 4% uncertainty is reasonable for a manual pulse measurement on an infant, who 
 
 **Answer:** 4%
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Suppose that a person has an average heart rate of 72.0 beats/min.
 How many beats do they have in 2.0 y?
 (b) In 2.00 y?
 (c) In 2.000 y?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate total beats by multiplying heart rate by time. The answer should reflect the significant figures in the given values.
@@ -569,6 +631,7 @@ $$ 1 \text{ year} = 365.25 \text{ days} \times 24 \text{ h/day} \times 60 \text{
 <div class="equation">
 $$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.0 \text{ y} \times 5.26 \times 10^{5} \frac{\text{min}}{\text{y}} = 7.57 \times 10^{7} \text{ beats} $$
 </div>
+
 Rounded to 2 significant figures: $$ 7.6 \times 10^{7} \text{ beats} $$
 
 **(b) For 2.00 years (3 significant figures):**
@@ -580,6 +643,7 @@ $$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.00 \text{ y} \ti
 <div class="equation">
 $$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.000 \text{ y} \times 5.26 \times 10^{5} \frac{\text{min}}{\text{y}} = 7.57 \times 10^{7} \text{ beats} $$
 </div>
+
 (Limited to 3 significant figures by the heart rate of 72.0 beats/min)
 
 **Discussion**
@@ -593,14 +657,21 @@ This problem illustrates how the precision of input values (as indicated by sign
 (b) $$ 7.57 \times 10^{7}\text{beats} $$
 
 (c) $$ 7.57 \times 10^{7}\text{beats} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A can contains 375 mL of soda. How much is left after 308 mL is removed?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Subtract the amount removed from the original amount. For subtraction, the answer cannot have more decimal places than the least precise measurement.
@@ -617,17 +688,23 @@ Both values are given to the ones place (no decimal places), so the answer is al
 
 **Answer:** 67 mL
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 State how many significant figures are proper in the results of the following calculations:
 a.  $$ \left(106.7\right)\left(98.2\right)/\left(46.210\right)\left(1.01\right)  $$
 b.  $$ \left(18.7\right)^{2}  $$
 c.  $$ \left(1.60 \times 10^{-19}\right) \left( 3712\right)  $$.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 For multiplication and division, the result should have the same number of significant figures as the quantity with the fewest significant figures.
@@ -663,18 +740,24 @@ Understanding how to count significant figures in compound calculations is cruci
 (b) 3
 
 (c) 3
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) How many significant figures are in the numbers 99 and 100?
 (b) If the uncertainty in each number is 1, what is the percent uncertainty in each?
 (c) Which is a more meaningful way to express the accuracy of these two numbers,
 significant figures or percent uncertainties?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Count significant figures using standard rules. Calculate percent uncertainties and compare the two methods of expressing precision.
@@ -705,18 +788,23 @@ Percent uncertainty is more meaningful in this case. Both numbers have the same 
 
 This example illustrates a limitation of significant figures: they can be ambiguous (as with 100) and don't always accurately convey precision. Percent uncertainty provides a clearer, more quantitative measure of measurement quality.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) If your speedometer has an uncertainty of  $$ 2.0\text{km/h}  $$
 at a speed of  $$ 90\text{km/h}  $$, what is the percent uncertainty?
 (b) If it has the same percent uncertainty
 when it reads  $$ 60\text{km/h}  $$, what is the range of speeds you could be going?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the percent uncertainty formula, then apply the same percent uncertainty to the second reading to find the range.
@@ -739,6 +827,7 @@ $$ \delta v = 60 \text{ km/h} \times \frac{2.2\%}{100\%} = 60 \text{ km/h} \time
 <div class="equation">
 $$ \text{Minimum: } 60 - 1 = 59 \text{ km/h} $$
 </div>
+
 <div class="equation">
 $$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
 </div>
@@ -752,18 +841,24 @@ This problem demonstrates that percent uncertainty remains constant for a given 
 (a) $$ 2.2 \% $$
 
 (b) $$ 59 \text{ to 61 km/h} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) A person's blood pressure is measured to be  $$ 120  \pm  2\text{mm Hg}  $$.
 What is its percent uncertainty?
 (b) Assuming the same percent uncertainty, what is the uncertainty in a
 blood pressure measurement of  $$80 \text{mm Hg}  $$ ?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the percent uncertainty formula for part (a), then apply the same percentage to find the uncertainty in part (b).
@@ -792,18 +887,23 @@ This uncertainty level (about 2%) is typical for manual blood pressure measureme
 
 (b) The uncertainty in the 80 mm Hg measurement is **1 mm Hg**, so the measurement would be reported as **80 ± 1 mm Hg**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A person measures their heart rate by counting the number of beats in
  $$30 \s  $$. If  $$ 40 \pm 1  $$ beats are counted in
  $$ 30.0 \pm 0.5\s   $$,
 what is the heart rate and its uncertainty in beats per minute?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the heart rate, then use the method of adding percent uncertainties to find the total uncertainty.
@@ -840,15 +940,21 @@ $$ \delta(\text{heart rate}) = 80 \text{ beats/min} \times 0.04 = 3.2 \text{ bea
 This problem illustrates how uncertainties propagate in calculations involving division. The 4% combined uncertainty in the heart rate arises from both the counting uncertainty and the timing uncertainty. Manual pulse measurements over short intervals are inherently imprecise, and this 3 beats/min uncertainty is typical for such measurements. For more accurate heart rate monitoring, longer measurement periods or electronic devices would be preferable.
 
 **Answer:** $$ 80 \pm 3\text{ beats/min} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is the area of a circle  $$ 3.102\text{cm}  $$ in diameter?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the area using A = πr², where r = d/2. Report the answer with the appropriate number of significant figures.
@@ -873,15 +979,20 @@ This calculation demonstrates proper significant figure handling in area calcula
 
 **Answer:** The area of the circle is **7.557 cm²**.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If a marathon runner averages 9.5 mi/h, how long does it take them to run a 26.22-mi marathon?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Use the relationship: time = distance / speed. Report the answer with appropriate significant figures.
@@ -901,11 +1012,15 @@ $$ 2.8\text{ h} $$
 This problem highlights how the least precise measurement limits the precision of calculated results. Although the marathon distance is known quite precisely (26.22 mi, four significant figures), the average speed is only known to two significant figures (9.5 mi/h), which limits our answer to two significant figures. This 2.8 hours (about 2 hours and 48 minutes) represents a reasonable time for a recreational marathon runner.
 
 **Answer:** $$ 2.8\text{ h} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A marathon runner completes a  $$ 42.188\text{-km}  $$ course in  $$ 2\text{h}  $$,
 30 min, and  $$12 \s  $$. There is an uncertainty of  $$25 \m  $$
 in the distance traveled and an uncertainty of 1 s in the elapsed time.
@@ -914,8 +1029,10 @@ in the distance traveled and an uncertainty of 1 s in the elapsed time.
 (c) What is the average speed in meters per second?
 (d) What is the uncertainty in the average speed?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate percent uncertainties for distance and time, then use them to find the uncertainty in the calculated average speed.
@@ -974,17 +1091,22 @@ The extremely small percent uncertainties (0.06% and 0.01%) reflect the high pre
 
 (d) The uncertainty in the average speed is **0.003 m/s**, so the speed is **4.681 ± 0.003 m/s** (or approximately **4.68 ± 0.01 m/s** to 3 significant figures).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The sides of a small rectangular box are measured to be  $$ 1.80 \pm 0.01\text{cm}  $$,
  $$ 2.05 \pm 0.02\text{cm} $$,and  $$3.0 \pm 0.1 \text{cm}  $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the volume using V = length × width × height, then find the uncertainty using the method of adding percent uncertainties.
@@ -1000,9 +1122,11 @@ $$ V = 1.80 \text{ cm} \times 2.05 \text{ cm} \times 3.0 \text{ cm} = 11.07 \tex
 <div class="equation">
 $$ \%\text{unc}_{1} = \frac{0.01 \text{ cm}}{1.80 \text{ cm}} \times 100\% = 0.56\% $$
 </div>
+
 <div class="equation">
 $$ \%\text{unc}_{2} = \frac{0.02 \text{ cm}}{2.05 \text{ cm}} \times 100\% = 0.98\% $$
 </div>
+
 <div class="equation">
 $$ \%\text{unc}_{3} = \frac{0.1 \text{ cm}}{3.0 \text{ cm}} \times 100\% = 3.3\% $$
 </div>
@@ -1027,11 +1151,15 @@ $$ V = 11 \pm 1 \text{ cm}^{3} $$
 This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 5% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11 cm³ with ±1 cm³ uncertainty means the actual volume could range from 10 to 12 cm³, nearly a 20% range.
 
 **Answer:** $$ 11 \pm 1 \text{ cm}^{3} $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 When non-metric units were used in the United Kingdom, a unit of mass called
 the **pound-mass** (lbm) was employed, where  $$ 1\text{lbm}=0.4539\kg  $$.
 (a) If there is an uncertainty of  $$ 0.0001\kg   $$
@@ -1039,8 +1167,10 @@ in the pound-mass unit, what is its percent uncertainty?
 (b) Based on that percent uncertainty, what mass in pound-mass has an uncertainty of 1 kg when
 converted to kilograms?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the percent uncertainty in the conversion factor, then find what mass would have 1 kg uncertainty with that same percent uncertainty.
@@ -1080,16 +1210,22 @@ This problem illustrates how conversion factors have their own uncertainties tha
 
 (b) A mass of approximately **10,000 lbm** (or **4500 kg**) would have an uncertainty of 1 kg when converted to kilograms.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The length and width of a rectangular room are measured to be
  $$ 3.955 \pm 0.005\m  $$ and  $$ 3.050 \pm 0.005\m  $$.
 Calculate the area of the room and its uncertainty in square meters.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the area using A = length × width, then find the uncertainty using the method of adding percent uncertainties.
@@ -1105,6 +1241,7 @@ $$ A = 3.955 \m \times 3.050 \m = 12.063 \mm $$
 <div class="equation">
 $$ \%\text{unc}_{\text{length}} = \frac{0.005 \m}{3.955 \m} \times 100\% = 0.126\% $$
 </div>
+
 <div class="equation">
 $$ \%\text{unc}_{\text{width}} = \frac{0.005 \m}{3.050 \m} \times 100\% = 0.164\% $$
 </div>
@@ -1129,11 +1266,15 @@ $$ A = 12.06 \pm 0.04 \mm $$
 The very small percent uncertainty (0.3%) indicates high-quality measurements, likely made with a precision measuring tape or laser distance meter. The absolute uncertainty of 0.04 m² means the actual area could range from about 12.02 to 12.10 m², which is excellent precision for a room measurement. This level of accuracy would be important for applications like ordering flooring materials where precise quantities are needed.
 
 **Answer:** $$ 12.06 \pm 0.04 \mm $$
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A car engine moves a piston with a circular cross-section of
  $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
 to compress the gas in the cylinder.
@@ -1141,8 +1282,10 @@ to compress the gas in the cylinder.
 volume in cubic centimeters?
 (b) Find the uncertainty in this volume.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Calculate the volume using V = πr²h, where r = d/2 and h is the distance moved. Find the uncertainty using the method of adding percent uncertainties.
@@ -1199,10 +1342,12 @@ The very small percent uncertainty (0.09%) reflects the precision needed in auto
 
 (b) The uncertainty in this volume is **0.1 cm³**, so the volume change is **143.6 ± 0.1 cm³** (or **144 ± 1 cm³** to three significant figures).
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1229,4 +1374,4 @@ uncertainty
 : a quantitative measure of how much your measured values deviate from a
 standard or expected value
 
-</div>
+::::

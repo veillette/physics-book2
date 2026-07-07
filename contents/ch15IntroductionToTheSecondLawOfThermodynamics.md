@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 15
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * State the expressions of the second law of thermodynamics.
 * Calculate the efficiency and carbon dioxide emission of a coal-fired electricity plant, using second law characteristics.
 * Describe and define the Otto cycle.
-</div>
+
+:::
 
 ![Photograph of melting ice floes in the Arctic.](../resources/Figure_15_03_01.jpg 'These ice floes melt during the Arctic summer. Some of them refreeze in the winter, but the second law of thermodynamics predicts that it would be extremely unlikely for the water molecules contained in these particular floes to reform the distinctive alligator-like shape they formed when the picture was taken in the summer of 2009. (credit: Patrick Kelley, U.S. Coast Guard, U.S. Geological Survey) ')
 {: #Figure1}
@@ -50,13 +51,15 @@ processes.
 The already familiar direction of heat transfer from hot to cold is the basis of
 our first version of the **second law of thermodynamics**.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Second Law of Thermodynamics (first expression)
 </div>
+
 Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction.
 
-</div>
+:::
 
 Another way of stating this: It is impossible for any process to have as its
 sole result heat transfer from a cooler to a hotter object.
@@ -82,13 +85,15 @@ to the environment ( $${Q}_{\text{c}}=0 $$ ). Unfortunately, this is impossible.
 The **second law of thermodynamics** also states, with regard to using heat
 transfer to do work (the second expression of the second law):
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Second Law of Thermodynamics (second expression)
 </div>
+
 It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.
 
-</div>
+:::
 
 A **cyclical process** brings a system, such as the gas in a cylinder, back to
 its original state at the end of every cycle. Most heat engines, such as
@@ -156,10 +161,12 @@ no heat transfer to the environment ( $${Q}_{\text{c}}=0 $$ ). Note that all $$Q
 minus sign. For example, $${Q}_{\text{c}} $$ is out of the system and so is
 preceded by a minus sign.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide Emissions
 </div>
+
 A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has  $$ 2.50 \times 10^{14} \text{J} $$
  of heat transfer from coal and  $$ 1.48 \times 10^{14} \text{J} $$
  of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $$\text{C}+{\text{O}}_{2}\to {\text{CO}}_{2} $$. This implies that every 12\text{ kg} of coal puts 12\text{ kg} + 16\text{ kg} + 16\text{ kg} = 44\text{ kg} of carbon dioxide into the atmosphere. Assuming that 1\text{ kg} of coal can provide  $$ 2.5 \times 10^{6}  \text{J} $$
@@ -180,11 +187,13 @@ Work output is given by:
 <div class="equation" >
  $$W={Q}_{\text{h}}-{Q}_{\text{c}}\text{.} $$
 </div>
+
 Substituting the given values:
 
 <div class="equation" >
  $$\begin{array}{lll}W& =&  2.50 \times 10^{14} \text{J} - 1.48 \times 10^{14} \text{J}\\ & =&  1.02 \times 10^{14} \text{J}\text{.}\end{array} $$
 </div>
+
 <strong> Strategy for (b)</strong>
 
 The efficiency can be calculated with $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$
@@ -202,6 +211,7 @@ $$\begin{array}{lll}
    & =&  0.408\text{, or } 40.8\% \end{array} $$
 
 </div>
+
 **Strategy for (c)**
 
 The daily consumption of coal is calculated using the information that each day
@@ -217,11 +227,13 @@ The daily coal consumption is
 <div class="equation" >
  $$\frac{ 2.50 \times 10^{14} \text{J}}{ 2.50 \times 10^{6}  \text{J/kg}}= 1.0 \times 10^{8}  \text{kg} \text{.}  $$
 </div>
+
 Assuming that the coal is pure and that all the coal goes toward producing carbon dioxide, the carbon dioxide produced per day is
 
 <div class="equation" >
  $$ 1.0 \times 10^{8}  \text{kg coal}×\frac{ {44 \text{kg CO}}_{2}}{12 \text{kg coal}}= 3.7 \times 10^{8}  {\text{kg CO}}_{2}\text{.} $$
 </div>
+
 This is 370 000 metric tons of $${\text{CO}}_{2} $$ produced every day.
 
 **Discussion**
@@ -241,7 +253,7 @@ of the waste heat transfer from most heat engines. Coal-fired power plants
 produce the greatest amount of $${\text{CO}}_{2} $$ per unit energy output (
 compared to natural gas or oil), making coal the least efficient fossil fuel.
 
-</div>
+:::
 
 With the information given in [[Example 1]](#Example1), we can find
 characteristics such as the efficiency of a heat engine without any knowledge of
@@ -318,41 +330,56 @@ engine is, and how it is related to temperature.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Imagine you are driving a car up Pike’s Peak in Colorado. To raise a car weighing 1000 kilograms a distance of 100 meters would require about a million joules. You could raise a car 12.5 kilometers with the energy in a gallon of gas. Driving up Pike's Peak (a mere 3000-meter climb) should consume a little less than a quart of gas. But other considerations have to be taken into account. Explain, in terms of efficiency, what factors may keep you from realizing your ideal energy use on this trip.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is a temperature difference necessary to operate a heat engine? State why or why not.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Definitions of efficiency vary depending on how energy is being converted. Compare the definitions of efficiency for the human body and heat engines. How does the definition of efficiency in each relate to the type of energy being converted into doing work?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why—other than the fact that the second law of thermodynamics says reversible engines are the most efficient—should heat engines employing reversible processes be more efficient than those employing irreversible processes? Consider that dissipative mechanisms are one cause of irreversibility.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A certain heat engine does 10.0 kJ of work and 8.50 kJ of heat transfer occurs to the environment in a cyclical process. (a) What was the heat transfer into this engine? (b) What was the engine’s efficiency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -378,17 +405,21 @@ Given: $$W = 10.0 \text{ kJ}$$, $$Q_{out} = 8.50 \text{ kJ}$$
 
 This engine has 54.1% efficiency, which is quite good for a real heat engine. The efficiency tells us that 54.1% of input energy becomes useful work, while 45.9% is rejected as waste heat (8.50 kJ out of 18.5 kJ input). This efficiency is higher than typical car engines (20-30%) but lower than large power station turbines (40-60%). For the numbers to be realistic, this engine would need to operate between a large temperature difference, approaching Carnot efficiency limits.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 With  $$ 2.56 \times 10^{6}  \text{J} $$
  of heat transfer into this engine, a given cyclical heat engine can do only  $$ 1.50 \times 10^{5}  \text{J} $$
  of work. (a) What is the engine's efficiency? (b) How much heat transfer to the environment takes place?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -414,16 +445,20 @@ Given: $$Q_{in} = 2.56 \times 10^{6} \text{ J}$$, $$W = 1.50 \times 10^{5} \text
 
 This engine has very low efficiency (5.86%), meaning 94.1% of input energy is wasted as heat. This could represent an old steam engine or a small inefficient motor. The low efficiency means that of 2.56 MJ input, only 150 kJ becomes useful work while 2.41 MJ is rejected to the environment. Such low efficiency is economically wasteful and environmentally problematic due to excessive waste heat.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the work output of a cyclical heat engine having a 22.0% efficiency and  $$ 6.00 \times 10^{9}  \text{J} $$
  of heat transfer into the engine? (b) How much heat transfer occurs to the environment?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -449,15 +484,19 @@ Given: $$\eta = 22.0\% = 0.220$$, $$Q_{in} = 6.00 \times 10^{9} \text{ J}$$
 
 With 22% efficiency, this engine produces 1.32 GJ of work from 6.00 GJ of heat input, while rejecting 4.68 GJ (78%) as waste heat. This efficiency is typical for automotive engines or small power plants. The large waste heat (4.68 GJ) must be dissipated through cooling systems—radiators, cooling towers, or heat exchangers. This illustrates why heat engines are thermodynamically limited: even a well-designed engine operating between practical temperature limits cannot convert all input heat to work.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the efficiency of a cyclical heat engine in which 75.0 kJ of heat transfer occurs to the environment for every 95.0 kJ of heat transfer into the engine? (b) How much work does it produce for 100 kJ of heat transfer into the engine?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -483,17 +522,21 @@ Given: $$Q_{out} = 75.0 \text{ kJ}$$ per $$Q_{in} = 95.0 \text{ kJ}$$
 
 This engine has 21.1% efficiency, typical for gasoline car engines. For every 100 kJ of fuel energy, only 21.1 kJ becomes useful work to move the car, while 78.9 kJ is wasted as heat through the exhaust and cooling system. This low efficiency explains why cars get hot during operation and why fuel economy is inherently limited. Modern hybrid vehicles improve overall efficiency by capturing some waste energy (regenerative braking) but cannot overcome the fundamental thermodynamic limits of heat engines.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The engine of a large ship does  $$ 2.00 \times 10^{8}  \text{J} $$
  of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces  $$ 6.00 \times 10^{9}  \text{J} $$
  of heat transfer when burned?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -525,16 +568,20 @@ First find heat input:
 
 This large ship engine is very inefficient at only 5%, typical for marine diesel engines operating at low speeds for fuel economy and durability. Of 4.00 GJ consumed, only 200 MJ (5%) becomes propulsion work, while 3.80 GJ (95%) heats the ocean via cooling systems. The 0.667 barrels consumed for 200 MJ of work shows why shipping is fuel-intensive. However, ships are still the most fuel-efficient transport per ton-kilometer due to low water resistance. Marine engines prioritize reliability and longevity over efficiency, running continuously for months.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much heat transfer occurs to the environment by an electrical power station that uses  $$ 1.25 \times 10^{14} \text{J} $$
  of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -566,16 +613,20 @@ Given: $$Q_{in} = 1.25 \times 10^{14} \text{ J}$$, $$\eta = 42.0\% = 0.420$$
 
 This power station produces 52.5 TJ of electrical work from 125 TJ of heat input, with 42% efficiency—good for a coal or nuclear plant. The waste heat of 72.5 TJ is 1.38 times the useful output, requiring massive cooling towers or water cooling. For every joule of electricity produced, 1.38 joules heat the environment. This thermal pollution can affect local ecosystems, warming rivers or creating fog from cooling towers. The 42% efficiency represents the upper range for real thermal power stations, limited by material constraints and Carnot efficiency for practical operating temperatures.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assume that the turbines at a coal-powered power plant were upgraded, resulting in an improvement in efficiency of 3.32%. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at  $$ 2.50 \times 10^{14} \text{J} $$ .
  (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -617,16 +668,20 @@ The negative sign indicates a reduction in heat transfer to the environment.
 
 The 3.32% efficiency improvement produces 8.30 TJ more electricity daily while reducing environmental heat by the same amount. This seemingly small improvement is huge for a power plant: over a year, it's 3.03 PJ (petajoules) of additional electricity, powering thousands of homes. The reduced thermal pollution (8.30 TJ/day less) benefits ecosystems near the plant. This demonstrates why utilities invest heavily in efficiency upgrades—even small percentage gains yield enormous benefits when applied to large-scale operations. The upgrade might involve better turbine blades, improved steam conditions, or waste heat recovery systems.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day,  $$ 2.50 \times 10^{14} \text{J} $$ .
  (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -676,10 +731,12 @@ The more efficient (40%) power station produces 15 TJ more electricity daily whi
 
 The reduced thermal pollution (15 TJ/day less) significantly decreases environmental impact on water bodies used for cooling. However, as noted, gas-cooled reactors achieving this efficiency have reliability issues. This illustrates the engineering trade-off: higher efficiency is desirable but must be balanced against reliability, safety, and economic viability. Water-cooled reactors at 34% efficiency have proven more dependable, explaining their dominance despite lower efficiency.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -699,4 +756,4 @@ Otto cycle
 of isochoric processes, that converts heat into work, e.g., the four-stroke
 engine cycle of intake, compression, ignition, and exhaust
 
-</div>
+:::

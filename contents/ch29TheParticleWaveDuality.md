@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 5
 chapterNumber: 29
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain what the term particle-wave duality means, and why it is applied to EM radiation.
-</div>
+
+:::
 
 We have long known that EM radiation is a wave, capable of interference and
 diffraction. We now see that light can be modeled as photons, which are massless
@@ -42,23 +43,27 @@ If the EM radiation we once thought to be a pure wave has particle properties,
 is it possible that matter has wave properties? The answer is yes. The
 consequences are tremendous, as we will begin to see in the next section.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Quantum Wave Interference
 </div>
+
 When do photons, electrons, and atoms behave like particles and when do they behave like waves? Watch waves spread out and interfere as they pass through a double slit, then get detected on a screen as tiny dots. Use quantum detectors to explore how measurements change the waves and the patterns they produce on the screen.
 
 <div class="media" id="PhET_module" data-alt="quantum Wave Interference">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/quantum-wave-interference/latest/quantum-wave-interference.html?simulation=quantum-wave-interference"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
 - EM radiation can behave like either a particle or a wave.
 - This is termed particle-wave duality.
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -66,4 +71,4 @@ particle-wave duality
 : the property of behaving like either a particle or a wave; the term for the
 phenomenon that all particles have wave characteristics
 
-</div>
+:::

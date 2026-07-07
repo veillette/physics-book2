@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 32
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the concept of radiotherapy and list typical doses for cancer therapy.
-</div>
+
+:::
 
 Therapeutic applications of ionizing radiation, called radiation therapy or **radiotherapy**, have existed since the discovery of X-rays and nuclear
 radioactivity. Today, radiotherapy is used almost exclusively for cancer
@@ -148,27 +149,42 @@ such as the inducement of another cancer.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Radiotherapy is more likely to be used to treat cancer in elderly patients than in young ones. Explain why. Why is radiotherapy used to treat young people at all?
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is directed onto a 0.200-kg tumor and gives it a 2.00-Sv dose, how many nitrogen nuclei were stopped? (Use an RBE of 20 for heavy ions.)
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$ 7.44 \times 10^{8}  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If the average molecular mass of compounds in food is 50.0 g, how many molecules are there in 1.00 kg of food? (b) How many ion pairs are created in 1.00 kg of food, if it is exposed to 1000 Sv and it takes 32.0 eV to create an ion pair? (c) Find the ratio of ion pairs to molecules. (d) If these ion pairs recombine into a distribution of 2000 new compounds, how many parts per billion is each?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -230,23 +246,32 @@ $$ \text{Parts per billion} = \frac{9.75 \times 10^{16}}{1.20 \times 10^{25}} \t
 
 This problem illustrates the chemical effects of food irradiation. Even at the massive dose of 1000 Sv (which would be instantly lethal to a human), only about 1 in 61,500 molecules is ionized. This relatively small fraction nevertheless creates $$1.95 \times 10^{20}$$ ion pairs, which can recombine to form new chemical compounds. If these reorganize into 2000 different new compounds (a reasonable estimate), each compound would be present at about 8 parts per billion. These trace amounts are generally considered safe and are similar to or less than concentrations of compounds formed during conventional food processing like cooking, canning, or freezing. The key safety consideration is whether any of these new compounds are harmful at such low concentrations. Extensive testing has shown that irradiated food is safe because: (1) the concentrations of radiolytic products are very low, (2) most such products are also formed during cooking, and (3) the compounds formed are generally simple and well-characterized. Food irradiation at much lower doses (typically 0.1-10 kGy or 0.1-10 Sv for RBE=1) is used to kill pathogens, extend shelf life, and control insects, making it a valuable food safety tool that has been approved by the FDA and WHO.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the dose in Sv to the chest of a patient given an x-ray under the following conditions. The x-ray beam intensity is  $$1.50 \text{W}{\text{/m}}^{2} $$ ,
  the area of the chest exposed is  $$0.0750 {\text{m}}^{2} $$ ,
  35.0% of the X-rays are absorbed in 20.0 kg of tissue, and the exposure time is 0.250 s.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
  $$4.92 \times 10^{-4}  \text{Sv} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) A cancer patient is exposed to  $$\gamma  $$
  rays from a 5000-Ci  $${}^{60}\text{Co} $$
  transillumination unit for 32.0 s. The  $$\gamma  $$
@@ -254,8 +279,9 @@ Calculate the dose in Sv to the chest of a patient given an x-ray under the foll
  energy per decay is 1.25 MeV? None of the  $$\beta  $$
  s from the decay reach the patient. (b) Is the dose consistent with stated therapeutic doses?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -311,23 +337,31 @@ $$ \text{Dose in rem} = (158 \text{ rad})(1) = 158 \text{ rem} = 1.58 \text{ Sv}
 
 This problem demonstrates a realistic cancer radiotherapy scenario. The 5000-Ci (185 TBq) $${}^{60}\text{Co}$$ source produces an enormous number of decays—nearly 6 quadrillion in just 32 seconds! However, careful collimation ensures that only 1% of the radiation strikes the patient, and only 20% of that is absorbed in the tumor, so that only 0.2% of the emitted radiation energy is actually deposited in the tumor. This geometric focusing, achieved by rotating the source around the patient as shown in Figure 2, is critical for delivering high doses to the tumor while minimizing exposure to healthy tissue. The dose of 158 rem to the tumor in a single 32-second exposure is substantial but safe when localized. This would typically be one of multiple fractionated treatments delivered over several weeks, with the tumor receiving total cumulative doses of 50-80 Sv or more depending on cancer type and location. The fact that no beta particles reach the patient is important because $${}^{60}\text{Co}$$ emits both beta particles and gamma rays; the betas are easily stopped by the source housing and collimator, while the 1.17 and 1.33\text{ MeV} gamma rays penetrate to reach the tumor. Modern linear accelerators have largely replaced $${}^{60}\text{Co}$$ units in developed countries, but cobalt-60 therapy remains important in developing nations due to its simplicity, reliability, and lower cost.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the mass of  $${}^{60}\text{Co} $$
  in a cancer therapy transillumination unit containing 5.00 kCi of  $${}^{60}\text{Co} $$ ?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 4.43 g
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Large amounts of  $${}^{65}\text{Zn} $$
  are produced in copper exposed to accelerator beams. While machining contaminated copper, a physicist ingests  $$50.0 \mu Ci $$
  of  $${}^{65}\text{Zn} $$ .
@@ -335,8 +369,9 @@ Large amounts of  $${}^{65}\text{Zn} $$
  decay emits an average  $$\gamma  $$
 -ray energy of 0.550 MeV, 40.0% of which is absorbed in the scientist's 75.0-kg body. What dose in mSv is caused by this in one day?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,34 +419,43 @@ $$ \text{Dose in Sv} = 7.52 \times 10^{-5} \text{ Sv} = 0.0752 \text{ mSv} $$
 
 The dose of 0.075 mSv in one day is relatively small but not negligible. To put this in perspective, the average annual background radiation dose is about 3 mSv, so this one-day dose from ingested $${}^{65}\text{Zn}$$ represents about 2.5% of the annual background dose. However, this calculation only accounts for one day's exposure. The actual total dose depends on how long the zinc-65 remains in the body. With a radiological half-life of 244 days, $${}^{65}\text{Zn}$$ decays relatively slowly, but biological elimination removes zinc from the body with a biological half-life of about 300-500 days. The effective half-life (combining radioactive decay and biological elimination) is approximately 140 days. Over this longer period, the cumulative dose would be significantly higher—roughly 150 times the one-day dose, or about 11 mSv total. This cumulative dose is still well below occupational limits (20-50 mSv/y) but represents a serious contamination incident that would require medical follow-up and investigation. This problem underscores the importance of proper safety protocols when machining or handling materials that have been exposed to radiation. Even if the copper appears "cold" (low external radiation), internal contamination from ingested or inhaled particulates can deliver significant doses. The 40% absorption fraction is realistic for gamma rays from an internally distributed source, as some gammas escape the body without interacting.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Naturally occurring  $${}^{40}\text{K} $$
  is listed as responsible for 16 mrem/y of background radiation. Calculate the mass of  $${}^{40}\text{K} $$
  that must be inside the 55-kg body of a woman to produce this dose. Each  $${}^{40}\text{K} $$
  decay emits a 1.32-MeV  $$\beta  $$ ,
  and 50% of the energy is absorbed inside the body.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 0.010 g
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Background radiation due to  $${}^{226}\text{Ra} $$
  averages only 0.01 mSv/y, but it can range upward depending on where a person lives. Find the mass of  $${}^{226}\text{Ra} $$
  in the 80.0-kg body of a man who receives a dose of 2.50-mSv/y from it, noting that each  $${}^{226}\text{Ra} $$
  decay emits a 4.80-MeV  $$\alpha  $$
  particle. You may neglect dose due to daughters and assume a constant amount, evenly distributed due to balanced ingestion and bodily elimination. (b) Is it surprising that such a small mass could cause a measurable radiation dose? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -473,11 +517,14 @@ $$ m = \frac{N}{N_A} \times M = \frac{3.00 \times 10^{13}}{6.022 \times 10^{23}}
 
 This problem illustrates why alpha emitters are particularly hazardous when ingested or inhaled. A mass of only 11.3 nanograms—invisible to the naked eye and containing only 30 trillion atoms—produces 412 decays per second continuously over years. Because alpha particles have a range of only about 40 micrometers in tissue, they deposit all 4.80 MeV of energy locally, and their high ionization density (RBE = 20) makes them 20 times more damaging than gamma rays for the same energy deposition. The actual average background dose from $${}^{226}\text{Ra}$$ is only 0.01 mSv/y, which would correspond to a body burden of only 0.045 ng—an incredibly tiny amount. The elevated dose of 2.50 mSv/y in this problem could occur in regions with high natural radium in soil and groundwater, such as certain areas with granite geology. Radium is chemically similar to calcium and concentrates in bones when ingested, where its alpha emissions can damage bone marrow and potentially cause bone cancer or leukemia. This is what tragically occurred to the "Radium Girls" who painted watch dials with radium-containing luminous paint in the 1920s and ingested radium by licking their brushes. Their cases led to improved occupational safety standards and our modern understanding of internal alpha emitter hazards.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The annual radiation dose from  $${}^{14}\text{C} $$
  in our bodies is 0.01 mSv/y. Each  $${}^{14}\text{C} $$
  decay emits a  $${\beta }^{-} $$
@@ -486,20 +533,26 @@ The annual radiation dose from  $${}^{14}\text{C} $$
  of normal  $${}^{12}\text{C} $$ ,
  and assuming the body is 13% carbon, estimate the fraction of the decay energy absorbed. (The rest escapes, exposing those close to you.)
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 95%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If everyone in Australia received an extra 0.05 mSv per year of radiation, what would be the increase in the number of cancer deaths per year? (Assume that time had elapsed for the effects to become apparent.) Assume that there are  $$200 \times 10^{-4}  $$
  deaths per Sv of radiation per year. What percent of the actual number of cancer deaths recorded is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -537,10 +590,12 @@ $$ \text{Percent increase} = \frac{26}{28,600} \times 100\% = 0.091\% \approx 0.
 
 An additional 26 cancer deaths per year from an extra 0.05 mSv annual dose across Australia's entire population would represent only about 0.09% of the natural cancer death rate. This increase would be completely undetectable statistically, lost in the natural variations in cancer rates that occur from year to year and region to region. This calculation demonstrates several important points about low-dose radiation risk: (1) Even a population-wide exposure produces effects that are statistically invisible against the natural cancer rate; (2) The linear hypothesis predicts that collective doses matter—26 million people each receiving a tiny dose has the same predicted effect as 26 people each receiving a large dose; (3) Individual risk remains very small—each person's additional risk is only $$0.05 \text{ mSv} \times 0.0200 \text{ deaths/Sv} = 10^{-6}$$ or one in a million. This level of dose and risk is comparable to natural variations in background radiation between locations (for example, moving from sea level to a mile-high city increases annual dose by about 0.5 mSv). The inability to detect such small increases in cancer rates is one reason why the health effects of low-dose radiation remain controversial—we must rely on extrapolation from high-dose data using the linear hypothesis, which may overestimate risks at very low doses. Nevertheless, radiation protection standards use this conservative approach to minimize all unnecessary exposures following the ALARA principle (As Low As Reasonably Achievable).
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -550,4 +605,4 @@ radiotherapy
 therapeutic ratio
 : the ratio of abnormal cells killed to normal cells killed
 
-</div>
+:::

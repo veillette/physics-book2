@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 3
 chapterNumber: 8
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the principle of conservation of momentum.
 * Derive an expression for the conservation of momentum.
 * Explain conservation of momentum with examples.
 * Explain the principle of conservation of momentum as it relates to atomic and subatomic particles.
 
-</div>
+:::
 
 Momentum is an important quantity because it is conserved. Yet it was not
 conserved in the examples in [Impulse](./ch8Impulse)
@@ -113,19 +113,23 @@ defined to be one for which the net external force is zero $$ \left(\vb{F}\_{\te
 <div class="title">
 Conservation of Momentum Principle
 </div>
+
 <div class="equation">
  $$ \begin{array}{lll} \vb{p}_{\text{tot}}&=& \text{constant}\\ \vb{p}_{\text{tot}}&=& {\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right)\end{array} $$ 
 </div>
+
 </div>
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Isolated System
 </div>
+
 An isolated system is defined to be one for which the net external force
 is zero $$ \left(\vb{F}_{\text{net}}=0\right). $$
 
-</div>
+:::
 
 Perhaps an easier way to see that momentum is conserved for an isolated system
 is to consider Newton’s second law in terms of momentum, $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}_{\text{tot}}}{\Delta t} $$. For an isolated
@@ -151,18 +155,22 @@ conserved by simply including the source of the external force. For example, in
 the collision of two cars considered above, the two-car system conserves
 momentum while each one-car system does not.
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Drop of Tennis Ball and a Basketball
 </div>
+
 Hold a tennis ball side by side and in contact with a basketball. Drop the balls together. (Be careful!) What happens? Explain your observations. Now hold the tennis ball above and in contact with the basketball. What happened? Explain your observations. What do you think will happen if the basketball ball is held above and in contact with the tennis ball?
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Investigation—Two Tennis Balls in a Ballistic Trajectory
 </div>
+
 Tie two tennis balls together with a string about a foot long. Hold one ball and let the other hang down and throw it in a ballistic trajectory. Explain your observations. Now mark the center of the string with bright ink or attach a brightly colored sticker to it and throw again. What happened? Explain your observations.
 
 Some aquatic animals such as jellyfish move around based on the principles of
@@ -185,15 +193,17 @@ heart. However, the electrocardiogram (ECG or EKG) and the echocardiogram (
 cardiac ECHO or ECHO; a technique that uses ultrasound to see an image of the
 heart) are more widely used in the practice of cardiology.
 
-</div>
+:::
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Conservation of Momentum and Collision
 </div>
+
 Conservation of momentum is quite useful in describing collisions. Momentum is crucial to our understanding of atomic and subatomic particles because much of what we know about these particles comes from collision experiments.
 
-</div>
+:::
 
 ### Subatomic Collisions and Momentum
 
@@ -239,7 +249,7 @@ works so well on the large scale.
 or
 
   <div class="equation">
- $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
+  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
 
 $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time later.
@@ -255,7 +265,8 @@ $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime} 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -263,59 +274,78 @@ If you dive into water, you reach greater depths than if you do a belly flop.
 Explain this difference in depth using the concept of conservation of energy.
 Explain this difference in depth using what you have learned in this chapter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Under what circumstances is momentum conserved?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can momentum be conserved for a system if there are external forces acting on the system? If so, under what conditions? If not, why not?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Momentum for a system can be conserved in one direction while not being conserved in another. What is the angle between the directions? Give an example.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
 Explain in terms of momentum and Newton’s laws how a car’s air resistance is due
 in part to the fact that it pushes air in its direction of motion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can objects in a system have momentum while the momentum of the system is zero? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Must the total energy of a system be conserved whenever its momentum is conserved? Explain why or why not.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -325,8 +355,10 @@ loaded train cars are moving toward one another, the first having a mass of 150
 and a velocity of $$ -0.120 \ms $$. (The minus indicates direction of motion.)
 What is their final velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When the cars couple together, they undergo a perfectly inelastic collision. We apply conservation of momentum, with the final velocity being the same for both cars since they stick together.
@@ -357,17 +389,22 @@ The final velocity of the coupled train cars is 0.122 m/s in the direction of th
 
 The positive final velocity indicates the coupled cars move in the direction of the heavier, faster car (car 1). The first car had more momentum (45,000 kg·m/s) than the second car (13,200 kg·m/s), so the net momentum is in the direction of the first car. This is a typical coupling operation where cars are gently bumped together at low speeds to minimize damage.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a clay model of a koala bear has a mass of 0.200 kg and slides on ice at a speed of 0.750 m/s.
 It runs into another clay model, which is initially motionless and has a mass of 0.350 kg.
 Both being soft clay, they naturally stick together. What is their final velocity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where two objects stick together. We apply conservation of momentum, recognizing that one object is initially at rest.
@@ -394,11 +431,13 @@ The final velocity of the combined clay models is 0.273 m/s in the direction of 
 
 The final velocity is less than the initial velocity of the moving koala, as expected when momentum is shared with a stationary object. The combined mass is 2.75 times the moving koala's mass, so the final velocity is reduced by approximately this factor (0.750/2.75 ≈ 0.273). This is a classic example of a perfectly inelastic collision where objects stick together and move as one unit afterward.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Professional Application**
 
@@ -409,8 +448,10 @@ answer to this question be different if the car with the 70-kg passenger had
 collided with a car that has a mass equal to and is traveling in the opposite
 direction and at the same speed? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First, solve the tree collision problem using impulse-momentum. Then, analyze the car-car collision using conservation of momentum to determine if the passenger experiences the same momentum change.
@@ -441,15 +482,20 @@ Both cars come to rest. The passenger's change in momentum is the same: from $$ 
 
 The change in momentum is identical in both cases—the passenger goes from 10 m/s to 0. However, the **force** depends on the collision time, which may differ between the two scenarios. A car-car collision might have different deformation characteristics than hitting a rigid tree, potentially changing the stopping time. If the collision time in the car-car crash were longer (due to crumple zones in both cars absorbing energy over a longer distance), the force would be reduced. If shorter, the force would be greater. Without knowing the collision time for the car-car scenario, we cannot definitively compare the forces, but the momentum change remains the same.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the velocity of a 900-kg car initially moving at 30.0 m/s, just after it hits a 150-kg deer initially running at 12.0 m/s in the same direction? Assume the deer remains on the car.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a perfectly inelastic collision where the deer remains on the car. Both objects are moving in the same direction initially. We apply conservation of momentum.
@@ -480,15 +526,20 @@ The velocity of the car with the deer is 27.4 m/s in the original direction of m
 
 The final velocity (27.4 m/s) is less than the car's initial velocity (30.0 m/s) but greater than the deer's initial velocity (12.0 m/s), as expected when two objects moving in the same direction collide and stick together. The car loses about 2.6 m/s of speed. Since both were moving in the same direction, the velocity change is less severe than a head-on collision would produce.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 1.80-kg falcon catches a 0.650-kg dove from behind in midair. What is their velocity after impact if the falcon's velocity is initially 28.0 m/s and the dove's velocity is 7.00 m/s in the same direction?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 When the falcon catches the dove, they move together as one object—a perfectly inelastic collision. Both birds are moving in the same direction, so we apply conservation of momentum with all velocities positive.
@@ -519,10 +570,12 @@ The velocity of the falcon and dove after impact is 22.4 m/s in the same directi
 
 The final velocity (22.4 m/s) is between the initial velocities of the falcon (28.0 m/s) and the dove (7.00 m/s), as expected for a perfectly inelastic collision where both objects are moving in the same direction. The falcon slows down from 28.0 m/s to 22.4 m/s upon catching the dove. The falcon dominates the outcome because it has both greater mass and greater velocity, contributing 92% of the total initial momentum.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -536,4 +589,4 @@ isolated system
 quark
 : fundamental constituent of matter and an elementary particle
 
-</div>
+:::

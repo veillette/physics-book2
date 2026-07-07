@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe how electrons were discovered.
 * Explain the Millikan oil drop experiment.
 * Describe Rutherford’s gold foil experiment.
 * Describe Rutherford’s planetary model of the atom.
-</div>
+
+:::
 
 Just as atoms are a substructure of matter, electrons and nuclei are
 substructures of the atom. The experiments that were used to discover electrons
@@ -18,13 +19,15 @@ and nuclei reveal some of the basic properties of atoms and can be readily
 understood using ideas such as electrostatic and magnetic force, already covered
 in previous chapters.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Charges and Electromagnetic Forces
 </div>
+
 In previous discussions, we have noted that positive charge is associated with nuclei and negative charge with electrons. We have also covered many aspects of the electric and magnetic forces that affect charges. We will now explore the discovery of the electron and nucleus as substructures of the atom and examine their contributions to the properties of atoms.
 
-</div>
+:::
 
 ### The Electron
 
@@ -357,10 +360,12 @@ chapters, we will follow this quest in the discussion of quarks and other
 elementary particles, and we will look at the direction the search seems now to
 be heading.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Rutherford Scattering
 </div>
+
 How did Rutherford figure out the structure of the atom without being able to see it? Simulate the famous experiment in which he disproved the Plum Pudding model of the atom by observing alpha particles bouncing off atoms and determining that they must have a small core. 
 {: class="newline"}
 
@@ -369,7 +374,8 @@ How did Rutherford figure out the structure of the atom without being able to se
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/rutherford-scattering/latest/rutherford-scattering_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -402,7 +408,9 @@ How did Rutherford figure out the structure of the atom without being able to se
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What two pieces of evidence allowed the first calculation of  $${m}_{e} $$ ,
  the mass of the electron?
 
@@ -414,25 +422,32 @@ What two pieces of evidence allowed the first calculation of  $${m}_{e} $$ ,
 
 Justify your response.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Rutherford found the size of the nucleus to be about  $$ 10^{-15} \text{m} $$ .
  This implied a huge density. What would this density be for gold?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -465,17 +480,21 @@ Rounding to one significant figure: $$ \rho \approx 6 \times 10^{20} \text{ kg/m
 
 This density is absolutely enormous—about $$ 6 \times 10^{17} $$ times greater than the density of ordinary matter! For comparison, gold metal has a density of about $$ 1.9 \times 10^4 \text{ kg/m}^3 $$ , water has a density of $$ 10^3 \text{ kg/m}^3 $$ , and even the densest stable element (osmium) is only about $$ 2.3 \times 10^4 \text{ kg/m}^3 $$ . A single cubic centimeter of nuclear matter would have a mass of about $$ 6 \times 10^{14} \text{ kg} $$ or 600 million metric tons! This incredible density was one of the most surprising discoveries from Rutherford's experiment. It explained why alpha particles could be scattered backwards—they were encountering something incredibly massive and concentrated in an extremely small volume. This nuclear density is essentially the same for all nuclei (it's approximately constant at about $$ 2 \times 10^{17} \text{ kg/m}^3 $$ ), which means that nuclear volume is proportional to the number of nucleons (protons plus neutrons). Only in exotic astrophysical objects like neutron stars do we find densities comparable to nuclear density. The existence of such high density confined to such a tiny volume also implied the existence of previously unknown nuclear forces—the gravitational and electromagnetic forces alone could not explain how the nucleus stays together, given the enormous electrostatic repulsion between protons packed into such a small space.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 In Millikan's oil-drop experiment, one looks at a small oil drop held motionless between two plates. Take the voltage between the plates to be 2033 V, and the plate separation to be 2.00 cm. The oil drop (of density  $$0.81 \text{g/cm}^{3} $$ )
 has a diameter of  $$ 4.0 \times 10^{-6}  \text{m} $$ .
  Find the charge on the drop, in terms of electron units.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -518,17 +537,21 @@ The charge on the drop is approximately **16 electron units** (or 16e).
 
 The result that the charge is approximately 16 times the elementary charge demonstrates Millikan's crucial discovery: electric charge is quantized in units of the electron charge. In his experiments, Millikan observed that the charge on any oil drop was always an integer multiple of the elementary charge $$ e $$ , never a fractional value. This provided direct evidence that charge comes in discrete units. Our calculation gives 16.3, which rounds to 16, showing that this particular drop carries 16 excess electrons (or is missing 16 electrons, depending on the sign). The slight deviation from a perfect integer (16.3 vs 16) can be attributed to experimental uncertainties in measuring the drop's diameter, the voltage, the plate separation, or the density. Millikan's painstaking measurements of thousands of oil drops, combined with careful statistical analysis, allowed him to determine the elementary charge to within 1% accuracy, a remarkable achievement that earned him the 1923 Nobel Prize in Physics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" >
-<div class="problem"  markdown="1">
+
+::: problem
+
 (a) An aspiring physicist wants to build a scale model of a hydrogen atom for her science fair project. If the atom is 1.00 m in diameter, how big should she try to make the nucleus?
 
 (b) How easy will this be to do?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -564,10 +587,12 @@ However, making it **exactly** 10.0 μm would be quite difficult and would requi
 
 This problem beautifully illustrates the vast emptiness of the atom. In a model where the atom is 1 meter across (about the width of a doorway), the nucleus would be only 10 micrometers—barely visible to the naked eye! This is like having a grain of dust in the center of a sphere the size of a large room. The rest of the atom is essentially empty space where the electron probability cloud exists. This visualization helps explain several phenomena: (1) Why most alpha particles in Rutherford's experiment passed straight through the gold foil—they were passing through mostly empty space; (2) Why X-rays and other high-energy radiation can penetrate matter—there's very little solid material to stop them; (3) Why matter seems solid despite being mostly empty—the electromagnetic forces from electron clouds extend throughout the atomic volume, creating effective "boundaries" even though there's no solid material there. This scale model also demonstrates that if we could somehow remove all the empty space from atoms, all the matter in a human body could be compressed into a volume smaller than a grain of sand (though its mass would remain the same). Such "collapsed" matter actually exists in neutron stars, where gravitational forces are strong enough to overcome the electromagnetic forces that normally keep atomic matter spread out.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -577,4 +602,4 @@ cathode-ray tube
 planetary model of the atom
 : the most familiar model or illustration of the structure of the atom
 
-</div>
+:::

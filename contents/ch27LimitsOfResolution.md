@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the Rayleigh criterion.
-</div>
+
+:::
 
 Light diffracts as it moves through space, bending around obstacles, interfering
 constructively and destructively. While this can be used as a spectroscopic
@@ -43,13 +44,15 @@ aperture of diameter $$D $$ does. So diffraction limits the resolution of any
 system having a lens or mirror. Telescopes are also limited by diffraction,
 because of the finite diameter $$D $$ of their primary mirror.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Resolution of the Eye
 </div>
+
 Draw two lines on a white sheet of paper (several mm apart). How far away can you be and still distinguish the two lines? What does this tell you about the size of the eye's pupil? Can you be quantitative? (The size of an adult's pupil is discussed in [Physics of the Eye](./ch26PhysicsOfTheEye).)
 
-</div>
+:::
 
 Just what is the limit? To answer that question, consider the diffraction
 pattern for a circular aperture, which has a central maximum that is wider and
@@ -79,18 +82,22 @@ radians.
 ![Part a of the figure shows a graph of intensity versus theta. The curve has a central maximum at theta equals zero and its first minima occur at plus one point two two lambda over D and minus one point two two lambda over D. Farther from the central peak, several small peaks occur, but they are much much smaller than the central maximum. Part b of the figure shows a drawing in which two light bulbs, labeled object one and object two, appear in the foreground positioned next to each other. Two rays of light, one from each light bulb, pass through a pinhole aperture and continue on to strike a screen that is farther back in the drawing. On the screen is an x y plot of the two resulting intensity patterns. Because the rays cross in the pinhole, the ray from the left light bulb makes the right-hand intensity pattern, and vice versa. The angle between the rays coming from the light bulbs is labeled theta min. Each ray hits the screen at the central maximum of the intensity pattern that corresponds to the object from which the ray came. The central maximum of object one is at the same position as the first minimum of object two, and vice versa.](../resources/Figure_27_06_02.jpg '(a) Graph of intensity of the diffraction pattern for a circular aperture. Note that, similar to a single slit, the central maximum is wider and brighter than those to the sides. (b) Two point objects produce overlapping diffraction patterns. Shown here is the Rayleigh criterion for being just resolvable. The central maximum of one pattern lies on the first minimum of the other.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Connections: Limits to Knowledge
 </div>
+
 All attempts to observe the size and shape of objects are limited by the wavelength of the probe. Even the small wavelength of light prohibits exact precision. When extremely small wavelength probes as with an electron microscope are used, the system is disturbed, still limiting our knowledge, much as making an electrical measurement alters a circuit. Heisenberg’s uncertainty principle asserts that this limit is fundamental and inescapable, as we shall see in quantum mechanics.
 
-</div>
+:::
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Diffraction Limits of the Hubble Space Telescope
 </div>
+
 The primary mirror of the orbiting Hubble Space Telescope has a diameter of 2.40 m. Being in orbit, this telescope avoids the degrading effects of atmospheric distortion on its resolution. (a) What is the angle between two just-resolvable point light sources (perhaps two stars)? Assume an average light wavelength of 550 nm. (b) If these two stars are at the 2 million light year distance of the Andromeda galaxy, how close together can they be and still be resolved? (A light year, or ly, is the distance light travels in 1 year.)
 
 **Strategy**
@@ -107,11 +114,13 @@ The Rayleigh criterion for the minimum resolvable angle is
 <div class="equation" >
  $$\theta =1.22\frac{\lambda }{D}. $$
 </div>
+
 Entering known values gives
 
 <div class="equation" >
  $$\begin{array}{}\theta =1.22\frac{550 \times 10^{-9}  \text{m}}{2.40 \text{m}}\\ = 2.80 \times 10^{-7}  \text{rad} \text{.} \end{array} $$
 </div>
+
 **Solution for (b)**
 
 The distance $$s $$ between two objects a distance $$r $$ away and separated by
@@ -122,6 +131,7 @@ Substituting known values gives
 <div class="equation" >
  $$\begin{array}{lll}s& =& \left( 2.0 \times 10^{6}  \text{ly}\right)\left( 2.80 \times 10^{-7}  \text{rad}\right)\\ s & =& 0.56\text{ ly.}\end{array} $$
 </div>
+
 **Discussion**
 
 The angle found in part (a) is extraordinarily small (less than 1/50 000 of a
@@ -150,7 +160,7 @@ another mirror used to observe radio waves from outer space.
 ![The figure shows a photograph from above looking into the Arecibo Telescope in Puerto Rico. It is a huge bowl-shaped structure lined with reflecting material. The diameter of the bowl is three times as long as a football field. Trees can be seen around the bowl, but they do not shade the bowl significantly.](../resources/Figure_27_06_04.jpg 'A 305-m-diameter natural bowl at Arecibo in Puerto Rico is lined with reflective material, making it into a radio telescope. It is the largest curved focusing dish in the world. Although ( D ) for Arecibo is much larger than for the Hubble Telescope, it detects much longer wavelength radiation and its diffraction limit is significantly poorer than Hubble’s. Arecibo is still very useful, because important information is carried by radio waves that is not carried by visible light. (credit: Tatyana Temirbulatova, Flickr)')
 {: #Figure4}
 
-</div>
+:::
 
 Diffraction is not only a problem for optical instruments but also for the
 electromagnetic radiation itself. Any beam of light having a finite diameter $$D $$ and a wavelength $$\lambda $$ exhibits diffraction spreading. The beam
@@ -260,16 +270,21 @@ becomes a true point.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A beam of light always spreads out. Why can a beam not be created with parallel rays to prevent spreading? Why can lenses, mirrors, or apertures not be used to correct the spreading?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The 300-m-diameter Arecibo radio telescope pictured in [[Figure 4]](#Figure4) detects radio waves with a 4.00 cm average wavelength.
 
 (a) What is the angle between two just-resolvable point sources for this
@@ -278,8 +293,9 @@ telescope?
 (b) How close together could these point sources be at the 2 million light year
 distance of the Andromeda galaxy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -320,15 +336,19 @@ $$s = \frac{3.08 \times 10^{18}}{9.46 \times 10^{15}} = 326 \text{ ly}$$
 
 Despite Arecibo's enormous 300-m diameter, radio waves have much longer wavelengths than visible light (4 cm vs ~550 nm, a factor of ~70,000 times longer). This gives relatively poor angular resolution (1.63 × 10⁻⁴ rad) compared to optical telescopes. At Andromeda's distance, the telescope can only resolve features separated by 326 light years—larger than the distance between many nearby stars. This demonstrates why radio astronomy often uses interferometric arrays (like the VLA) to achieve better resolution by effectively increasing D.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assuming the angular resolution found for the Hubble Telescope in [[Example 1]](#Example1), what is the smallest detail that could be observed on the Moon?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -344,15 +364,19 @@ $$s = r\theta = (3.84 \times 10^8 \text{ m})(2.80 \times 10^{-7} \text{ rad}) = 
 
 Hubble can resolve details as small as 108 m (about the length of a football field) on the Moon. This is why Hubble cannot see the Apollo landing sites - the lunar modules and equipment are only a few meters in size, far below this resolution limit.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Diffraction spreading for a flashlight is insignificant compared with other limitations in its optics, such as spherical aberrations in its mirror. To show this, calculate the minimum angular spreading of a flashlight beam that is originally 5.00 cm in diameter with an average wavelength of 600 nm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,11 +408,14 @@ This extremely small diffraction angle (0.00146 milliradians or about 3 arcsecon
 
 The diffraction limit would only become important for very high-quality, nearly perfect optical systems. For a flashlight at 100 m distance, diffraction would spread the beam by only s = (100)(1.46 × 10⁻⁵) = 1.5 mm, which is completely insignificant compared to the beam's actual spread of several meters due to optical imperfections.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the minimum angular spread of a 633-nm wavelength He-Ne laser beam that is originally 1.00 mm in diameter?
 
 (b) If this laser is aimed at a mountain cliff 15.0 km away, how big will the
@@ -399,8 +426,9 @@ effects? (This might be done to hit a corner reflector to measure the round-trip
 time and, hence, distance.) Explicitly show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -430,11 +458,14 @@ $$s = (3.84 \times 10^8)(7.72 \times 10^{-4}) = 2.96 \times 10^5 \text{ m} = 296
 
 A 296-km spot on the Moon from a 1-mm beam shows significant diffraction spreading. To reduce this, lasers sent to the Moon are expanded through telescopes to increase D, reducing θ = 1.22λ/D.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A telescope can be used to enlarge the diameter of a laser beam and limit diffraction spreading. The laser beam is sent through the telescope in opposite the normal direction and can then be projected onto a satellite or the Moon.
 
 (a) If this is done with the Mount Wilson telescope, producing a 2.54-m-diameter
@@ -444,8 +475,9 @@ beam of 633-nm light, what is the minimum angular spread of the beam?
 make on the Moon, assuming a lunar distance of $$ 3.84 \times 10^{8} \text{m} $$
 ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -482,11 +514,14 @@ By expanding the laser beam to 2.54 m diameter using the telescope, the diffract
 
 This technique is actually used in lunar laser ranging experiments, where pulses from Earth-based lasers reflect off corner retroreflectors left by Apollo astronauts. The expanded beam reduces diffraction spreading, allowing more photons to hit the small retroreflector targets and return to Earth for precise distance measurements (accurate to a few centimeters).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The limit to the eye's acuity is actually related to diffraction by the pupil.
 
 (a) What is the angle between two just-resolvable points of light for a
@@ -502,8 +537,9 @@ length (0.800 m) from your eye?
 (d) How does your answer to (c) compare to details you normally observe in
 everyday circumstances?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **(a) Minimum resolvable angle:**
 <div class="equation">
@@ -524,15 +560,19 @@ $$s = r\theta = (0.800)(2.24 \times 10^{-4}) = 1.79 \times 10^{-4} \text{ m} = 0
 
 **(d) Comparison:** 0.18 mm is about twice the width of a human hair (~0.1 mm) and matches our everyday experience - we can barely distinguish two dots separated by this distance at arm's length. This is consistent with typical human visual acuity of about 20/20 vision.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the minimum diameter mirror on a telescope that would allow you to see details as small as 5.00 km on the Moon some 384 000 km away? Assume an average wavelength of 550 nm for the light received.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -569,15 +609,19 @@ A surprisingly small telescope mirror of only 5.15 cm (about 2 inches) diameter 
 
 However, in practice, atmospheric turbulence (seeing) limits ground-based telescopes to resolution of about 1 arcsecond (roughly 2 km on the Moon), regardless of aperture size. This is why even large telescopes on Earth can't significantly outperform small ones for lunar observations unless adaptive optics is used to compensate for atmospheric effects. Space-based telescopes like Hubble avoid this problem entirely.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are told not to shoot until you see the whites of their eyes. If the eyes are separated by 6.5 cm and the diameter of your pupil is 5.0 mm, at what distance can you resolve the two eyes using light of wavelength 555 nm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -597,11 +641,14 @@ $$r = \frac{s}{\theta} = \frac{0.065}{1.35 \times 10^{-4}} = 481 \text{ m}$$
 
 You could resolve the two eyes at distances up to about 480 m. This is remarkably far - nearly half a kilometer! Of course, in practice, other factors like atmospheric turbulence and the need to see details smaller than eye separation would limit the actual distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The planet Pluto and its Moon Charon are separated by 19 600 km. Neglecting atmospheric effects, should the 5.08-m-diameter Mount Palomar telescope be able to resolve these bodies when they are  $$ 4.50 \times 10^{9}  \text{km} $$
  from Earth? Assume an average wavelength of 550 nm.
 
@@ -609,8 +656,9 @@ You could resolve the two eyes at distances up to about 480 m. This is remarkabl
 are separate bodies using an Earth-based telescope. What are the reasons for
 this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -658,15 +706,19 @@ The diffraction limit (1.32 × 10⁻⁷ rad) is 30-60 times better than atmosphe
 
 This problem dramatically illustrates how Earth's atmosphere, not optics, limits most ground-based astronomical observations. A perfect 5-meter telescope in space would easily resolve Pluto-Charon, but from Earth's surface, atmospheric turbulence reduces the effective resolution by a factor of 30 or more, making the observation just barely possible.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The headlights of a car are 1.3 m apart. What is the maximum distance at which the eye can resolve these two headlights? Take the pupil diameter to be 0.40 cm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -686,15 +738,19 @@ $$r = \frac{s}{\theta} = \frac{1.3}{1.68 \times 10^{-4}} = 7740 \text{ m} \appro
 
 The maximum distance is about 7.7 km. At night with dilated pupils (larger D), this distance would be somewhat shorter. In practice, atmospheric effects, haze, and the need to see the headlights' size (not just their separation) reduce the effective distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When dots are placed on a page from a laser printer, they must be close enough so that you do not see the individual dots of ink. To do this, the separation of the dots must be less than Raleigh's criterion. Take the pupil of the eye to be 3.0 mm and the distance from the paper to the eye of 35 cm; find the minimum separation of two dots such that they cannot be resolved. How many dots per inch (dpi) does this correspond to?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -719,11 +775,14 @@ $$\text{dpi} = \frac{1 \text{ inch}}{s} = \frac{0.0254 \text{ m}}{7.84 \times 10
 
 A resolution of about 300-324 dpi is sufficient to make individual dots unresolvable at normal reading distance (35 cm). This is why 300 dpi became the standard for laser printers - it exceeds the eye's diffraction-limited resolution. Higher dpi (600, 1200) improves quality for closer viewing or finer details but isn't necessary for normal reading.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 An amateur astronomer wants to build a telescope with a diffraction limit that
@@ -737,8 +796,9 @@ wavelength of light averages 600 nm.
 
 (c) Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -780,11 +840,14 @@ A mirror diameter of **550 km** is absurdly large:
 
 This illustrates why we can't see fine details on distant planets. Even Hubble (2.4 m) can only resolve features ~150 km on Jupiter. To see people (meter-scale) would require space-based interferometry with baseline separations of hundreds of kilometers, far beyond amateur (or even professional single-telescope) capabilities.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider diffraction limits for an electromagnetic wave interacting with a
@@ -796,10 +859,12 @@ specific distance from the device. Among the things to be considered are the
 wavelength of electromagnetic radiation used, the size of the circular object,
 and the distance to the system or phenomenon being observed.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -807,4 +872,4 @@ Rayleigh criterion
 : two images are just resolvable when the center of the diffraction pattern of
 one is directly over the first minimum of the diffraction pattern of the other
 
-</div>
+:::

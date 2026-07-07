@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run migrate:content && npx @11ty/eleventy",
+  "buildCommand": "npm run build",
   "outputDirectory": "_site",
   "installCommand": "npm ci",
   "cleanUrls": true

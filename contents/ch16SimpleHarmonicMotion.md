@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 16
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe a simple harmonic oscillator.
 * Explain the link between simple harmonic motion and waves.
-</div>
+
+:::
 
 The oscillations of a system in which the net force can be described by Hooke’s
 law are of special importance, because they are very common. They are also the
@@ -27,13 +28,15 @@ pressure (and other types of oscillations have yet other units). Because
 amplitude is the maximum displacement, it is related to the energy in the
 oscillation.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: SHM and the Marble
 </div>
+
 Find a bowl or basin that is shaped like a hemisphere on the inside. Place a marble inside the bowl and tilt the bowl periodically so the marble rolls from the bottom of the bowl to equally high points on the sides of the bowl. Get a feel for the force required to maintain this periodic motion. What is the restoring force and what role does the force you apply play in the simple harmonic motion (SHM) of the marble?
 
-</div>
+:::
 
 ![The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.](../resources/Figure_16_03_01.jpg 'An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude ( X ) and a period ( T ) . The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period ( T ) . The greater the mass of the object is, the greater the period ( T ) .')
 {: #Figure1}
@@ -56,37 +59,45 @@ light one.
 In fact, the mass $$m $$ and the force constant $$k $$ are the _only_ factors
 that affect the period and frequency of simple harmonic motion.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Period of Simple Harmonic Oscillator
 </div>
+
 The *period of a simple harmonic oscillator* is given by
 
 <div class="equation" >
  $$T=2\pi \sqrt{\frac{m}{k}} $$
 </div>
+
 and, because  $$f=1/T $$ ,
  the *frequency of a simple harmonic oscillator* is
 
 <div class="equation" >
  $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}}. $$
 </div>
+
 Note that neither  $$T $$  nor  $$f $$  has any dependence on amplitude.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Mass and Ruler Oscillations
 </div>
+
 Find two identical wooden or plastic rulers. Tape one end of each ruler firmly to the edge of a table so that the length of each ruler that protrudes from the table is the same. On the free end of one ruler tape a heavy object such as a few large coins. Pluck the ends of the rulers at the same time and observe which one undergoes more cycles in a time period, and measure the period of oscillation of each of the rulers.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate the Frequency and Period of Oscillations: Bad Shock Absorbers in a Car
 </div>
+
 If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See [[Figure 2]](#Figure2)). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant ( $$k $$ ) of the suspension system is  $$ 6.53 \times 10^{4}  \text{N/m} $$.
 
 **Strategy**
@@ -104,7 +115,7 @@ The mass and the force constant are both given.
 
 2. Calculate the frequency:
    <div class="equation" >
- $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{2}}= 1.3656/{\text{s}} \approx 1.36/\text{s}=1.36 \text{Hz}. $$ 
+   $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{2}}= 1.3656/{\text{s}} \approx 1.36/\text{s}=1.36 \text{Hz}. $$ 
    </div>
 
 3. You could use $$T=2\pi \sqrt{\frac{m}{k}} $$ to calculate the period, but it
@@ -120,7 +131,7 @@ The values of $$T $$ and $$f $$ both seem about right for a bouncing car. You
 can observe these oscillations if you push down hard on the end of a car and let
 go.
 
-</div>
+:::
 
 ### The Link between Simple Harmonic Motion and Waves
 
@@ -190,43 +201,56 @@ visualizing how waves add with one another.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you pluck a banjo string. You hear a single note that starts out loud and slowly quiets over time. Describe what happens to the sound waves in terms of period, frequency and amplitude as the sound decreases in volume.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Frequency and period remain essentially unchanged. Only amplitude decreases as volume decreases.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 A babysitter is pushing a child on a swing. At the point where the swing reaches  $$x $$ ,
  where would the corresponding point on a wave of this motion be located?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
  $$x $$
  is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Masses and Springs
 </div>
+
 A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
 {: class="newline"}
 
 <div class="media"  data-alt="masses and spring">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -243,58 +267,79 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What conditions must be met to produce simple harmonic motion?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) If frequency is not constant for some oscillation, can the oscillation be simple harmonic motion?
 
 (b) Can you think of any examples of harmonic motion where the frequency may
 depend on the amplitude?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Give an example of a simple harmonic oscillator, specifically noting how its frequency is independent of amplitude.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why you expect an object made of a stiff material to vibrate at a higher frequency than a similar object made of a spongy material.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 As you pass a freight truck with a trailer on a highway, you notice that its trailer is bouncing up and down slowly. Is it more likely that the trailer is heavily loaded or nearly empty? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some people modify cars to be much closer to the ground than when manufactured. Should they install stiffer springs? Explain your answer.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A type of cuckoo clock keeps time by having a mass bouncing on a spring, usually something cute like a cherub in a chair. What force constant is needed to produce a period of 0.500 s for a 0.0150-kg mass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -340,15 +385,20 @@ A stiffer spring would require either a heavier mass or would oscillate too quic
 
 To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015)(9.8)}{2.37} = 0.062$$ m or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the spring constant of a simple harmonic oscillator is doubled, by what factor will the mass of the system need to change in order for the frequency of the motion to remain the same?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The frequency of a simple harmonic oscillator is given by $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$. We need to find how mass must change when $$k$$ is doubled such that $$f$$ remains constant.
@@ -385,15 +435,20 @@ The mass must be doubled to keep the frequency constant when the spring constant
 
 The mass must be increased by a factor of 2.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" >
-<div class="problem" markdown="1">
+
+::: problem
+
 A 0.500-kg mass suspended from a spring oscillates with a period of 1.50 s. How much mass must be added to the object to change the period to 2.00 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The period of a mass-spring system is $$T = 2\pi\sqrt{\frac{m}{k}}$$. The spring constant $$k$$ remains the same, so we can find it from the initial conditions, then use it to find the final mass needed for the new period.
@@ -426,15 +481,20 @@ Adding 0.389 kg (about 78% more mass) to the original 0.500 kg increases the per
 
 0.389 kg
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 By how much leeway (both percentage and mass) would you have in the selection of the mass of the object in the previous problem if you did not wish the new period to be greater than 2.01 s or less than 1.99 s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From the previous problem, we found that adding 0.389 kg to the 0.500 kg mass gives a period of 2.00 s (total mass = 0.889 kg). We need to find the range of total mass that produces periods between 1.99 s and 2.01 s. Since $$T = 2\pi\sqrt{\frac{m}{k}}$$, we first find $$k$$, then calculate the mass range.
@@ -481,18 +541,23 @@ Mass leeway: ±9 g or ±0.009 kg
 
 Percentage leeway: ±1.0%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you attach the object with mass  $$m $$
  to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring's original rest length. (a) Show that the spring exerts an upward force of  $$2.00 \mathrm{mg} $$
  on the object at its lowest point. (b) If the spring has a force constant of  $$ 10.0 \text{N/m} $$
  and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use energy conservation and force analysis. The object starts at the spring's natural length and falls to a lowest point where all gravitational potential energy converts to elastic potential energy. For part (b), we find the amplitude using the equilibrium position. For part (c), we use the relationship $${v}_{\text{max}} = X\sqrt{k/m}$$.
@@ -549,15 +614,20 @@ The result in part (a) is remarkable: regardless of the mass or spring constant,
 
 (c) 1.55 m/s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0 kg and the period of her motion is 0.800 s. The next diver is a male whose period of simple harmonic oscillation is 1.05 s. What is his mass if the mass of the board is negligible?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Since both divers use the same diving board, the spring constant $$k$$ is the same for both. We can use the first diver's data to find $$k$$, then use it with the second diver's period to find his mass.
@@ -584,15 +654,20 @@ The male diver's mass of 94.6 kg is significantly larger than the female diver's
 
 94.7 kg
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a diving board with no one on it bounces up and down in a simple harmonic motion with a frequency of 4.00 Hz. The board has an effective mass of 10.0 kg. What is the frequency of the simple harmonic motion of a 75.0-kg diver on the board?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We can find the spring constant of the diving board from its initial frequency and mass. Then, we calculate the new frequency when the diver's mass is added to the system.
@@ -629,11 +704,14 @@ The frequency decreases significantly from 4.00 Hz to 1.37 Hz when the diver sta
 
 1.37 Hz
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 ![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_16_03_05.jpg "This child&#x2019;s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)"){: #Figure5}
 
 The device pictured in [[Figure 5]](#Figure5) entertains infants while keeping
@@ -646,8 +724,10 @@ its spring constant?
 (b) What is the time for one complete bounce of this child? (c) What is the
 child's maximum velocity if the amplitude of her bounce is 0.200 m?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), at equilibrium the spring force equals the child's weight, so we can use Hooke's law. For part (b), we use the period formula for a simple harmonic oscillator. For part (c), we use the relationship between maximum velocity, amplitude, and the system parameters.
@@ -688,18 +768,23 @@ The spring constant of 314 N/m is reasonable for a child's toy—stiff enough to
 
 (c) 1.25 m/s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first, as seen in [[Figure 6]](#Figure6).
 
 ![The figure shows two skydivers midway through the air, with both with open having their parachutes open.](../resources/Figure_16_03_06.jpg 'The oscillations of one skydiver are about to be affected by a second skydiver. (credit: U.S. Army, www.army.mil)')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The parachute-skydiver system acts like a spring with constant $$k$$. When the mass increases from $$m_1$$ to $$m_2 = m_1 + 60.0$$ kg, the period changes. We can use the ratio relationship for periods.
@@ -726,10 +811,12 @@ When the second skydiver grabs onto the first, the total mass increases from 90.
 
 1.94 s
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -746,4 +833,4 @@ simple harmonic oscillator
 spring, with the other end of the spring being connected to a rigid support such
 as a wall
 
-</div>
+:::

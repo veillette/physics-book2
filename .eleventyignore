@@ -1,10 +1,16 @@
-# Eleventy input exclusions (we run with setUseGitIgnore(false), so .gitignore no
-# longer drives these). During migration dir.input is src/, so most of these are
-# outside the input tree already; they matter once input flips to the repo root at
-# cutover (P10). node_modules is always ignored by Eleventy regardless.
+# Eleventy input exclusions. Input is the repo root (dir.input: '.') and we run with
+# setUseGitIgnore(false), so everything that is NOT site content must be listed here.
+# Eleventy only processes templateFormats (md, njk); node_modules is always ignored.
+# Built/vendored trees
 _site
 _site_jekyll_baseline
 vendor
+.jekyll-cache
+pdf-output
+# Passthrough-copied (do not template-process; addPassthroughCopy still copies them)
+assets
+resources
+# Repo docs / meta markdown (not site pages)
 README.md
 CONTRIBUTE.md
 CHANGELOG.md
@@ -12,6 +18,8 @@ claude.md
 roadmap.md
 LICENSE.txt
 doc
+# Tooling
 scripts
 tests
 hooks
+lib

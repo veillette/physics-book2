@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 28
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe proper length.
 * Calculate length contraction.
 * Explain why we don’t notice these effects at everyday scales.
-</div>
+
+:::
 
 ![A long isolated double-lane road banked by barren land on both sides.](../resources/Figure_28_03_01.jpg 'People might describe distances differently, but at relativistic speeds, the distances really are different. (credit: Corey Leopold, Flickr)')
 {: #Figure1}
@@ -49,14 +50,16 @@ $$2.20 \mu s $$ . It has enough time to travel only
 The distance between the same two events (production and decay of a muon)
 depends on who measures it and how they are moving relative to it.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Proper Length
 </div>
+
 <strong class="term" >Proper length </strong> $${L}_{0} $$
  is the distance between two points measured by an observer who is at rest relative to both of the points.
 
-</div>
+:::
 
 The Earth-bound observer measures the proper length $${L}_{0} $$ , because the
 points at which the muon is produced and decays are stationary relative to the
@@ -101,17 +104,20 @@ into the relationship above gives
 Substituting for $$\gamma $$ gives an equation relating the distances measured
 by different observers.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 **Length Contraction**
 </div>
+
 <strong class="term" >Length contraction </strong> $$L $$
  is the shortening of the measured length of an object moving relative to the observer’s frame.
 
 <div class="equation" >
  $$L={L}_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}. $$
 </div>
-</div>
+
+:::
 
 If we measure the length of anything moving relative to our frame, we find its
 length $$L $$ to be smaller than the proper length $${L}_{0} $$ that would be
@@ -121,10 +127,12 @@ decayed is shorter. Those points are fixed relative to the Earth but moving
 relative to the muon. Clouds and other objects are also contracted along the
 direction of motion in the muon’s reference frame.
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Length Contraction: The Distance between Stars Contracts when You Travel at High Velocity
 </div>
+
 Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilation](../contents/ch28SimultaneityAndTimeDilation), travels so fast that  $$\gamma = 30.00  $$ .
  (a) She travels from the Earth to the nearest star system, Alpha Centauri, 4.300 light years (ly) away as measured by an Earth-bound observer. How far apart are the Earth and Alpha Centauri as measured by the astronaut? (b) In terms of  $$c $$ ,
  what is her velocity relative to the Earth? You may neglect the motion of the Earth relative to the Sun. (See [[Figure 3]](#Figure3).)
@@ -151,7 +159,7 @@ $$\gamma $$ to express $$v $$ in terms of $$c $$.
 3. Choose the appropriate equation. $$L=\frac{ {L}_{0}}{\gamma } $$
 4. Rearrange the equation to solve for the unknown.
    <div class="equation" >
- $$\begin{array}{lll}L& =& \frac{ {L}_{0}}{\gamma }\\ & =& \frac{4.300 \text{ly}}{30.00}\\ & =& 0.1433 \text{ly}\end{array} $$ 
+   $$\begin{array}{lll}L& =& \frac{ {L}_{0}}{\gamma }\\ & =& \frac{4.300 \text{ly}}{30.00}\\ & =& 0.1433 \text{ly}\end{array} $$ 
    </div>
 
 **Solution for (b)**
@@ -169,14 +177,17 @@ $$\gamma $$ to express $$v $$ in terms of $$c $$.
    <div class="equation" >
     $$ 900.0=\frac{1}{1-\frac{ {v}^{2}}{ {c}^{2}}} $$
    </div>
+
         so that     
    <div class="equation" >
     $$1-\frac{ {v}^{2}}{ {c}^{2}}=\frac{1}{ 900.0} $$
    </div>
+
         and     
    <div class="equation" >
     $$\frac{ {v}^{2}}{ {c}^{2}}=1-\frac{1}{ 900.0}= 0.99888\text{...}. $$
    </div>
+
    Taking the square root, we find
 
    <div class="equation" >
@@ -199,7 +210,7 @@ $$\text{γ=} 30.00 $$ ), and we see that $$v $$ is approaching (not equaling) th
 speed of light. Since the distance as measured by the astronaut is so much
 smaller, the astronaut can travel it in much less time in her frame.
 
-</div>
+:::
 
 People could be sent very large distances (thousands or even millions of light
 years) and age only a few years on the way if they traveled at extremely high
@@ -236,19 +247,25 @@ Relativity.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem"  markdown="1">
+
+::: problem
+
 A particle is traveling through the Earth’s atmosphere at a speed of  $$ 0.750c $$ .
  To an Earth-bound observer, the distance it travels is 2.50 km. How far does the particle travel in the particle’s frame of reference?
 
-</div>
+:::
+
 <div class="solution" >
 <div class="title">
 Answer
 </div>
+
 <div class="equation" >
  $$L=L_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\left(2.50 \text{km}\right)\sqrt{1-\frac{ {\left( 0.750c \right)}^{2}}{ {c}^{2}}}=1.65 \text{km} $$
 </div>
+
 </div>
+
 </div>
 
 ### Summary
@@ -268,35 +285,47 @@ Answer
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 To whom does an object seem greater in length, an observer moving with the object or an observer moving relative to the object? Which observer measures the object’s proper length?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Relativistic effects such as time dilation and length contraction are present for cars and airplanes. Why do these effects seem strange to us?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose an astronaut is moving relative to the Earth at a significant fraction of the speed of light. (a) Does he observe the rate of his clocks to have slowed? (b) What change in the rate of Earth-bound clocks does he see? (c) Does his ship seem to him to shorten? (d) What about the distance between stars that lie on lines parallel to his motion? (e) Do he and an Earth-bound observer agree on his velocity relative to the Earth?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A spaceship, 200 m long as seen on board, moves by the Earth at  $$ 0.970c $$ .
  What is its length as measured by an Earth-bound observer?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -326,15 +355,19 @@ $$L = L_0\sqrt{1-\frac{v^2}{c^2}} = (200 \text{ m})\sqrt{1-0.9409} = (200 \text{
 
 At 97% the speed of light, the spaceship appears dramatically compressed to less than one-quarter of its rest length! From the Earth observer's perspective, the 200 m spaceship looks only 48.6 m long—a contraction of over 75%. This extreme length contraction occurs only in the direction of motion; dimensions perpendicular to the motion remain unchanged. From the spaceship's perspective, the situation is reversed: the astronauts see themselves in a normal 200 m ship, but they observe the Earth and everything on it contracted in the direction of motion by the same factor. This symmetry is a fundamental feature of special relativity—neither reference frame is "special." Such dramatic length contractions are observed in particle accelerators, where fast-moving particles effectively see shortened beam pipes and target materials.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How fast would a 6.0 m-long sports car have to be going past you in order for it to appear only 5.5 m long?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -366,15 +399,20 @@ $$v = c\sqrt{0.1597} = 0.400c$$
 
 The sports car would have to be traveling at 40% the speed of light, or approximately $$1.20 \times 10^8$$ m/s (120,000 km/s), for its length to contract from 6.0 m to 5.5 m. This is an enormous velocity—far beyond anything achievable with current technology. The 0.5 m contraction (about 8.3% of the original length) requires this incredibly high speed, illustrating why we never observe length contraction in everyday life. Even our fastest spacecraft travel at less than 0.01% the speed of light, producing completely negligible length contractions of much less than the width of an atom.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How far does the muon in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) travel according to the Earth-bound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction  $$\text{γ=} 3.20 $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 1.387 km = 1.39 km
 
 (b) 0.433 km
@@ -382,16 +420,20 @@ The sports car would have to be traveling at 40% the speed of light, or approxim
 (c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4\text{ m}=0.433 \text{km}\end{array} $$ Thus, the distances
 in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How long would the muon in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
  (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon's frame?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -423,16 +465,22 @@ $$L = \frac{L_0}{\gamma} = \frac{33.0 \text{ m}}{1.0013} = 33.0 \text{ m}$$
 
 At only 5% the speed of light, relativistic effects are minuscule. The time dilation factor $$\gamma = 1.0013$$ means the muon lives only 0.13% longer than its rest lifetime, and the distances in parts (b) and (c) are essentially identical (both 33.0\text{ m} to three significant figures). This demonstrates that at low velocities ($$v \ll c$$), relativistic and classical predictions converge. The muon would travel only 33 meters before decaying—much less than the distance in the high-speed example where $$v = 0.950c$$ and the muon traveled over 2000 meters due to significant time dilation.
 
+:::
+
 </div>
-</div>
+
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How long does it take the astronaut in [[Example 1]](#Example1) to travel 4.30 ly at  $$0.99944c $$
  (as measured by the Earth-bound observer)? (b) How long does it take according to the astronaut? (c) Verify that these two times are related through time dilation with  $$\text{γ}= 30.00  $$
  as given.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 4.303 y (to four digits to show any effect)
 
 (b) 0.1434 y
@@ -440,15 +488,19 @@ At only 5% the speed of light, relativistic effects are minuscule. The time dila
 (c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_{0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
 related when $$\text{γ} = 30.00 $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How fast would an athlete need to be running for a 100-m race to look 100 yd long? (b) Is the answer consistent with the fact that relativistic effects are difficult to observe in ordinary circumstances? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -482,11 +534,14 @@ $$v = (0.405)(3.00 \times 10^8 \text{ m/s}) = 1.21 \times 10^8 \text{ m/s}$$
 
 This problem beautifully illustrates why special relativity seemed counterintuitive when first proposed. The speed required for even modest length contractions (8.56% in this case) is so enormous that no human experience prior to particle physics could have revealed these effects. It's only in the realm of particle accelerators and cosmic rays, where particles routinely travel at significant fractions of $$c$$, that length contraction becomes observable and must be accounted for in experimental design and data analysis.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Find the value of $$\gamma $$ for the following situation. An astronaut
@@ -494,8 +549,10 @@ measures the length of her spaceship to be 25.0 m, while an Earth-bound observer
 measures it to be 100 m. (b) What is unreasonable about this result? (c) Which
 assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 0.250
 
 (b) $$\gamma $$ must be ≥1
@@ -503,11 +560,14 @@ assumptions are unreasonable or inconsistent?
 (c) The Earth-bound observer must measure a shorter length, so it is
 unreasonable to assume a longer length.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A spaceship is heading directly toward the Earth at a velocity of $$ 0.800c $$ .
@@ -515,8 +575,9 @@ The astronaut on board claims that he can send a canister toward the Earth at $$
 have relative to the spaceship. (b) What is unreasonable about this result? (c)
 Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -554,10 +615,12 @@ So the maximum possible velocity relative to Earth is $$c$$, not $$1.20c$$.
 
 This problem illustrates the fundamental difference between classical and relativistic velocity addition. Classically, we might add $$0.800c + 0.400c = 1.20c$$ without concern, but special relativity forbids velocities exceeding $$c$$. The relativistic velocity addition formula ensures that no combination of subluminal velocities can produce a velocity ≥ $$c$$ in any reference frame, protecting the speed of light as the ultimate speed limit. This "unreasonable results" problem helps students recognize when their assumptions violate relativistic principles.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -572,4 +635,4 @@ length contraction
 to the observer’s frame:
 $$L=L_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\frac{ {L}_{0}}{\gamma } $$
 
-</div>
+:::

@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 9
 chapterNumber: 7
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the distinction between renewable and nonrenewable energy sources.
 * Explain why the inevitable conversion of energy to less useful forms makes it necessary to conserve energy resources.
 
-</div>
+:::
 
 Energy is an important ingredient in all phases of society. We live in a very
 interdependent world, and access to adequate and reliable energy resources is
@@ -152,23 +152,30 @@ transformation.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the difference between energy conservation and the law of conservation of energy? Give some examples of each.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the efficiency of a coal-fired electrical generating plant is 35%, then what do we mean when we say that energy is a conserved quantity?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -184,8 +191,9 @@ in [Work, Energy, and Power in Humans](./ch7WorkEnergyAndPowerInHumans)
 ![A woman is doing push-ups. Her weight w is acting on her center of gravity , shown by a vector pointing downwards. Her center of gravity  is zero point nine zero meters from her feet and reaction force F acting on her arms is shown by the vector pointing upward along her arms. The distance of reaction force from the feet is one point five zero meters.](../resources/Figure_07_09_05.jpg 'Forces involved in doing push-ups. The woman’s weight acts as a force exerted downward on her center of gravity (CG).')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -257,11 +265,13 @@ The force exerted by the woman's arms (294 N) is 60% of her body weight, which m
 
 (c) Her useful power output is **49.0 W**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -273,8 +283,9 @@ for work done against the gravitational force and air resistance.
 resistance when he reaches a level area, how long will it take him to reach a
 velocity of 10.0 m/s?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -343,11 +354,13 @@ Part (c) reveals an interesting result: when the skier reaches level ground whil
 
 (c) It will take approximately **15.6 seconds** to accelerate to 10.0 m/s on level ground.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -362,8 +375,9 @@ each 1.80 m long stroke.
 ![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person’s hand tip in one stroke is one point eight meters.](../resources/Figure_07_09_06.jpg 'A person swimming with a stroke of 1.80m')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -417,11 +431,13 @@ The initial acceleration of 0.500 m/s² is significant but manageable for a comp
 
 (c) Water resistance appears to increase **faster than linearly with velocity**, consistent with the v² dependence expected for fluid drag.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -433,8 +449,9 @@ How much force is needed to compress the spring?
 away at the same height as the gun?
 (d) What is the gun's maximum range on level ground?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -511,11 +528,13 @@ The maximum force of 21.0 N (about 4.7 lbs) is easily achievable for compressing
 
 (d) The gun's maximum range on level ground is **14.9 m**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -526,8 +545,9 @@ elevator is 1500 kg?
 (c) What is the final speed of the elevator if it starts from rest?
 (d) How much work went into thermal energy?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -585,11 +605,13 @@ The cable must exert 16,100 N, which is about 1.1 times the elevator's weight, t
 
 (d) **4.00 kJ** of work is converted to thermal energy due to friction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Unreasonable Results**
 
@@ -601,8 +623,9 @@ are known to three significant figures.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, or which premises are inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -666,11 +689,13 @@ In reality, such a trip would require approximately 3-4 gallons of gasoline for 
 
 (c) The premises are **inconsistent**. The fuel consumption of 1.0 gallon is far too low for the described trip. Realistically, this trip would require **3-4 gallons of gasoline** for a conventional car.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Unreasonable Results**
 
@@ -684,8 +709,9 @@ the rate of 0.500 kg in 2.00 h.
 (c) What is unreasonable about the results?
 (d) Which premise is unreasonable, or which premises are inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -727,11 +753,13 @@ A realistic fat loss rate through exercise would be about 0.1-0.2 kg per 2-hour 
 
 (d) The premise is **unreasonable**—it is physiologically impossible to maintain this power output for 2 hours. Realistic fat loss would be about **0.1-0.2 kg per 2-hour session**, not 0.500 kg.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
 
 **Construct Your Own Problem**
 
@@ -743,8 +771,9 @@ a faster rate for a nearly unlimited time in spite of the fact that very similar
 forces are exerted going down as going up. (This points to a fundamentally
 different process for descending versus climbing stairs.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Guidance for Constructing This Problem**
 
@@ -767,6 +796,7 @@ Use the relationship between power, work, and time. The work done climbing stair
    <div class="equation">
    $$ P = \frac{mgh}{t} $$
    </div>
+
    where h is the total height climbed in time t
 
 2. Determine how many steps can be climbed per minute given the person's sustainable power output
@@ -789,11 +819,13 @@ For a 70 kg person with sustainable power output of 175 W climbing stairs with 0
 - Steps per minute: (0.255 m/s × 60 s/min) / 0.20 m = 76 steps/min
 - This person could descend 2-3 times faster (150-200 steps/min) with less fatigue due to the lower metabolic cost of eccentric muscle work
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Construct Your Own Problem**
 
@@ -804,8 +836,9 @@ the things to consider are the power output that is reasonable using the legs,
 rest time, and the need for electricity 24 hours per day. Discuss the practical
 implications of your results.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Guidance for Constructing This Problem**
 
@@ -861,11 +894,13 @@ For a 1000 MW (1 × 10⁹ W) power plant:
 
 This demonstrates why human-powered electricity generation is impractical at scale—it would require enormous numbers of people and consume more energy (in food) than it produces.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
 
 **Integrated Concepts**
 
@@ -878,8 +913,9 @@ floor.
 support their weight as well as that to accelerate them.)
 (c) What was the player's power output during the acceleration phase?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -946,10 +982,12 @@ The efficiency of this movement is also worth noting—the player's muscles must
 
 (c) The player's power output during the acceleration phase is approximately **8.93 kW** (about 12 hp), achievable for brief explosive movements.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -959,4 +997,4 @@ renewable forms of energy
 fossil fuels
 : oil, natural gas, and coal
 
-</div>
+:::

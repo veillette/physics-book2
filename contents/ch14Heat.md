@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 1
 chapterNumber: 14
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define heat as transfer of energy.
-</div>
+
+:::
 
 In [Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources), we defined work as force times
 distance and learned that work done on an object changes its kinetic energy. We
@@ -89,14 +90,19 @@ transfer” to emphasize its nature.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Two samples (A and B) of the same substance are kept in a lab. Someone adds 10 kilojoules (kJ) of heat to one sample, while 10 kJ of work is done on the other sample. How can you tell to which sample the heat was added?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Heat and work both change the internal energy of the substance. However, the properties of the sample only depend on the internal energy so that it is impossible to tell whether heat was added to sample A or B.
 
-</div>
+:::
+
 </div>
 
 ### Summary
@@ -112,27 +118,37 @@ Heat and work both change the internal energy of the substance. However, the pro
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How is heat transfer related to temperature?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe a situation in which heat transfer occurs. What are the resulting forms of energy?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When heat transfers into a system, is the energy stored as heat? Explain briefly.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -145,4 +161,4 @@ kilocalorie
 mechanical equivalent of heat
 : the work needed to produce the same effects as heat transfer
 
-</div>
+:::

@@ -4,14 +4,14 @@ layout: page
 sectionNumber: 6
 chapterNumber: 13
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the relationship between vapor pressure of water and the capacity of air to hold water vapor.
 * Explain the relationship between relative humidity and partial pressure of water vapor in the air.
 * Calculate vapor density using vapor pressure.
 * Calculate humidity and dew point.
 
-</div>
+:::
 
 ![Dew drops on a banana leaf.](../resources/Figure_13_06_00.jpg 'Dew drops like these, on a banana leaf photographed just after sunrise, form when the air temperature drops to or below the dew point. At the dew point, the rate at which water molecules join together is greater than the rate at which they separate, and some of the water condenses to form droplets. (credit: Aaron Escobar, Flickr) ')
 {: #Figure1}
@@ -233,10 +233,12 @@ pressure of water and has nothing to do with the properties of air.
           </tr>
         </tbody></table>
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Density Using Vapor Pressure
 </div>
+
 [[Table 1]](#Table1) gives the vapor pressure of water at  $$ 20.0\text{ºC} $$
  as  $$ 2.33 \times 10^{3}  \text{Pa}\text{.} $$
  Use the ideal gas law to calculate the density of water vapor in  $$\text{g}/{\text{m}}^{3} $$
@@ -250,6 +252,7 @@ pressure follows the ideal gas law,
 <div class="equation" >
  $$PV= nRT, $$
 </div>
+
 where  $$n $$
  is the number of moles. If we solve this equation for  $$n/V $$
  to calculate the number of moles per cubic meter, we can then convert this quantity to grams per cubic meter as requested. To do this, we need to use the molecular mass of water, which is given in the periodic table.
@@ -268,16 +271,19 @@ where  $$n $$
 <div class="equation" >
  $$\frac{n}{V}=\frac{P}{RT} $$
 </div>
+
 3. Substitute known values into the equation and solve for  $$n/V $$.
 
 <div class="equation" >
  $$\frac{n}{V}=\frac{P}{RT}=\frac{ 2.33 \times 10^{3}  \text{Pa}}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(293 \text{K}\right)}= 0.957 {\text{mol/m}}^{3} $$
 </div>
+
 4. Convert the density in moles per cubic meter to grams per cubic meter.
 
 <div class="equation" >
  $$\rho =\left( 0.957\frac{\text{mol}}{ {\text{m}}^{3}}\right)\left(\frac{18.0 \text{g}}{\text{mol}}\right)= 17.2 {\text{g/m}}^{3} $$
 </div>
+
 **Discussion**
 
 The density is obtained by assuming a pressure equal to the vapor pressure of
@@ -290,27 +296,32 @@ density in the table is correct). The saturation vapor densities listed
 in [[Table 1]](#Table1) are the maximum amounts of water vapor that air can hold
 at various temperatures.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Percent Relative Humidity
 </div>
+
 We define **percent relative humidity** as the ratio of vapor density to saturation vapor density, or
 
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 $$
 </div>
-</div>
+
+:::
 
 We can use this and the data in [[Table 1]](#Table1) to do a variety of
 interesting calculations, keeping in mind that relative humidity is based on the
 comparison of the partial pressure of water vapor in air and ice.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Humidity and Dew Point
 </div>
+
 (a) Calculate the percent relative humidity on a day when the temperature is  $$ 25.0\text{ºC} $$
  and the air contains 9.40 g of water vapor per  $${\text{m}}^{3} $$ .
  (b) At what temperature will this air reach 100% relative humidity (the saturation density)? This temperature is the dew point. (c) What is the humidity when the air temperature is  $$ 25.0\text{ºC} $$
@@ -324,6 +335,7 @@ saturation vapor density.
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{\text{vapor density}}{\text{saturation vapor density}}×100 $$
 </div>
+
 The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
  and the second is found in [[Table 1]](#Table1) to be  $$23.0 {\text{g/m}}^{3} $$ .
  Thus,
@@ -331,6 +343,7 @@ The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{9.40 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 40.9 \text{.%} $$
 </div>
+
 (b) The air contains  $$9.40 {\text{g/m}}^{3} $$
  of water vapor. The relative humidity will be 100% at a temperature where  $$9.40 {\text{g/m}}^{3} $$
  is the saturation density. Inspection of [[Table 1]](#Table1) reveals this to be the case at  $$ 10.0\text{ºC} $$ ,
@@ -342,6 +355,7 @@ Using [[Table 1]](#Table1), we see that the vapor density is $$2.36 {\text{g/m}}
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 10.3\% \text{.} $$
 </div>
+
 **Discussion**
 
 The importance of dew point is that air temperature cannot drop below $$ 10.0\text{ºC} $$ in part (b), or $$ - 10.0\text{ºC} $$ in part (c), without
@@ -358,7 +372,7 @@ humidity. Likewise, at high temperatures, liquid droplets do not evaporate, so
 that no heat is removed from the gas to the liquid phase. This explains the
 large range of temperature in arid regions.
 
-</div>
+:::
 
 Why does water boil at $$100\text{ºC} $$ ? You will note
 from [[Table 1]](#Table1) that the vapor pressure of water at $$100\text{ºC} $$
@@ -385,27 +399,35 @@ the surface—we call this boiling! (See [[Figure 3]](#Figure3).)
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Freeze drying is a process in which substances, such as foods, are dried by placing them in a vacuum chamber and lowering the atmospheric pressure around them. How does the lowered atmospheric pressure speed the drying process, and why does it cause the temperature of the food to drop?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 Decreased the atmospheric pressure results in decreased partial pressure of water, hence a lower humidity. So evaporation of water from food, for example, will be enhanced. The molecules of water most likely to break away from the food will be those with the greatest velocities. Those remaining thus have a lower average velocity and a lower temperature. This can (and does) result in the freezing and drying of the food; hence the process is aptly named freeze drying.
 
-</div>
+:::
+
 </div>
 
-<div class="note" data-has-label="true" class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: States of Matter
 </div>
+
 Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.
 {: class="newline"}
 
 <div class="media"  data-alt="states of matter">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/states-of-matter/latest/states-of-matter_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -424,12 +446,16 @@ Watch different types of molecules form a solid, liquid, or gas. Add or remove h
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Because humidity depends only on water's vapor pressure and temperature, are the saturation vapor densities listed in [[Table 1]](#Table1) valid in an atmosphere of helium at a pressure of  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$ ,
  rather than air? Are those values affected by altitude on Earth?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the fundamental principles governing vapor pressure and saturation vapor density. These properties depend on the water molecules themselves and their interactions with each other, not on the surrounding gas.
 
@@ -440,16 +466,22 @@ Similarly, these values are not affected by altitude on Earth. While atmospheric
 
 **Discussion:**
 This independence from the surrounding gas is a consequence of Dalton's law of partial pressures. Each gas component behaves independently, creating its own partial pressure. The water vapor will reach saturation when its partial pressure equals the vapor pressure at that temperature, regardless of what other gases are present or what the total pressure is.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does a beaker of  $$ 40.0\text{ºC} $$
  water placed in a vacuum chamber start to boil as the chamber is evacuated (air is pumped out of the chamber)? At what pressure does the boiling begin? Would food cook any faster in such a beaker?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider what causes boiling and the relationship between vapor pressure and atmospheric pressure. Use Table 1 to find the vapor pressure of water at 40.0ºC.
 
@@ -460,15 +492,21 @@ Food would **not** cook faster in such a beaker. In fact, it would cook more slo
 
 **Discussion:**
 This demonstrates an important distinction between boiling and high temperature. Boiling is simply the transition from liquid to gas when vapor pressure equals atmospheric pressure, and it can occur at any temperature if the pressure is low enough. This is why water boils at lower temperatures at high altitudes, and why pressure cookers can raise the boiling point by increasing pressure.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why does rubbing alcohol evaporate much more rapidly than water at STP (standard temperature and pressure)?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider the relationship between vapor pressure and evaporation rate. The rate of evaporation depends on how easily molecules escape from the liquid phase into the gas phase.
 
@@ -479,17 +517,23 @@ The higher vapor pressure means that alcohol molecules have weaker intermolecula
 
 **Discussion:**
 This is why rubbing alcohol feels cool when applied to skin—it evaporates rapidly, absorbing heat energy from your skin in the process (latent heat of vaporization). Water also has a cooling effect when it evaporates, but because it evaporates more slowly, the cooling sensation is less immediate. The strong hydrogen bonding in water makes it require more energy for molecules to break free, resulting in slower evaporation and a higher boiling point (100ºC) compared to isopropyl alcohol (82.6ºC).
-</div>
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Dry air is 78.1% nitrogen. What is the partial pressure of nitrogen when the atmospheric pressure is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use Dalton's law of partial pressures. The partial pressure of a component gas is the percentage of that gas times the total pressure.
 
@@ -500,18 +544,24 @@ Use Dalton's law of partial pressures. The partial pressure of a component gas i
 
 **Discussion:**
 Nitrogen comprises about 78% of the atmosphere by volume (and by partial pressure), making it the most abundant gas in Earth's atmosphere. This partial pressure of 78,900 Pa (about 0.78 atm) is what determines the concentration of nitrogen dissolved in liquids like blood and water. This is important for scuba divers—at depth, the increased pressure increases nitrogen's partial pressure, causing more nitrogen to dissolve in body tissues. If a diver ascends too quickly, this dissolved nitrogen can form bubbles, causing decompression sickness ("the bends").
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the vapor pressure of water at  $$ 20.0\text{ºC} $$ ?
  (b) What percentage of atmospheric pressure does this correspond to? (c) What percent of  $$ 20.0\text{ºC} $$
  air is water vapor if it has 100% relative humidity? (The density of dry air at  $$ 20.0\text{ºC} $$
  is  $$ 1.20 {\text{kg/m}}^{3} $$ .)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Look up the vapor pressure in Table 1. (b) Compare to standard atmospheric pressure. (c) Use the saturation vapor density from Table 1 and compare to the density of dry air.
 
@@ -538,28 +588,40 @@ The percentage of water vapor is:
 
 **Discussion:**
 Even at 100% relative humidity, water vapor comprises only a small fraction of air by mass (about 1.4%) and an even smaller fraction by pressure (about 2.3%). This shows that air can hold only a limited amount of water vapor at room temperature. The partial pressure of water vapor is much less than atmospheric pressure, which is why water doesn't spontaneously evaporate into air at normal conditions.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Pressure cookers increase cooking speed by raising the boiling temperature of water above its value at atmospheric pressure. (a) What pressure is necessary to raise the boiling point to  $$ 120.0\text{ºC} $$ ?
  (b) What gauge pressure does this correspond to?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.99 \times 10^{5}  \text{Pa} $$
 (b) 0.97 atm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At what temperature does water boil at an altitude of 1500 m (about 5000 ft) on a day when atmospheric pressure is  $$ 8.59 \times 10^{4}  {\text{N/m}}^{2} $$ ?
  (b) What about at an altitude of 3000 m (about 10 000 ft) when atmospheric pressure is  $$ 7.00 \times 10^{4}  {\text{N/m}}^{2} $$ ?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy:**
 Water boils when its vapor pressure equals the atmospheric pressure. Use Table 1 to find the temperature at which the vapor pressure of water equals the given atmospheric pressures.
 
@@ -570,14 +632,21 @@ Water boils when its vapor pressure equals the atmospheric pressure. Use Table 1
 
 **Discussion:**
 As altitude increases, atmospheric pressure decreases, and water boils at progressively lower temperatures. This has practical implications for cooking—at high altitudes, water boils at lower temperatures, so food takes longer to cook. This is why cooking instructions often include altitude adjustments, and why pressure cookers are particularly useful in mountainous regions. The 5-10ºC decrease in boiling point at moderate altitudes can significantly affect cooking times.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the atmospheric pressure on top of Mt. Everest on a day when water boils there at a temperature of  $$ 70.0\text{ºC}$$ ?
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy:**
 Water boils when its vapor pressure equals the atmospheric pressure. Find the vapor pressure of water at 70.0ºC from Table 1.
 
@@ -588,16 +657,22 @@ Since water boils when its vapor pressure equals atmospheric pressure, the atmos
 
 **Discussion:**
 This atmospheric pressure of about 31,200 Pa is typical for the summit of Mt. Everest (8,849 m above sea level), where the pressure is roughly one-third of sea-level pressure. At this pressure, water boils at only 70ºC instead of the normal 100ºC, making it very difficult to cook food properly. This reduced boiling point is one of many challenges faced by mountain climbers at extreme altitudes. The low atmospheric pressure also means climbers receive less oxygen with each breath, requiring them to use supplemental oxygen above about 8,000 m (the "death zone").
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At a spot in the high Andes, water boils at  $$ 80.0\text{ºC} $$ ,
  greatly reducing the cooking speed of potatoes, for example. What is atmospheric pressure at this location?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Water boils when its vapor pressure equals atmospheric pressure. Find the vapor pressure of water at 80.0ºC from Table 1.
 
@@ -608,17 +683,23 @@ Since water boils when its vapor pressure equals atmospheric pressure, the atmos
 
 **Discussion:**
 This atmospheric pressure is less than half of standard atmospheric pressure (1.01 × 10⁵ Pa), indicating a very high altitude—approximately 5500-6000 m above sea level. At this pressure, water boils 20ºC below its sea-level boiling point, making cooking very difficult. Potatoes and other foods require much longer cooking times at such altitudes, which is why pressure cookers are essential in high-altitude regions like the Andes.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the relative humidity on a  $$ 25.0\text{ºC} $$
  day when the air contains  $$ 18.0 {\text{g/m}}^{3} $$
  of water vapor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the definition of relative humidity as the ratio of actual vapor density to saturation vapor density. Find the saturation vapor density at 25.0ºC from Table 1.
 
@@ -631,17 +712,23 @@ From Table 1, the saturation vapor density at 25.0ºC is 23.0 g/m³.
 
 **Discussion:**
 A relative humidity of 78.3% indicates the air is holding about three-quarters of the maximum water vapor it can contain at 25ºC. This would feel quite humid and muggy, as evaporation of perspiration from skin would be inhibited, making it harder for the body to cool itself. For comparison, comfortable indoor humidity is typically 30-50%. At 100% relative humidity, the air is saturated and cannot hold any more water vapor, so sweat cannot evaporate and cooling becomes very difficult.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the density of water vapor in  $${\text{g/m}}^{3} $$
  on a hot dry day in the desert when the temperature is  $$ 40.0\text{ºC} $$
  and the relative humidity is 6.00%?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the definition of relative humidity as the ratio of actual vapor density to saturation vapor density. Find the saturation vapor density at 40.0ºC from Table 1, then calculate the actual vapor density.
 
@@ -666,30 +753,43 @@ Solving for actual vapor density:
 
 **Discussion:**
 Even though the temperature is high (40.0ºC), the very low relative humidity (6.00%) means there is very little water vapor in the air. This extremely dry condition is typical of desert environments and explains why deserts feel so dry and why water evaporates very rapidly there. For comparison, at 100% relative humidity and 40.0ºC, the air would contain 51.1 g/m³ of water vapor—more than 16 times as much.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A deep-sea diver should breathe a gas mixture that has the same oxygen partial pressure as at sea level, where dry air contains 20.9% oxygen and has a total pressure of  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$ .
  (a) What is the partial pressure of oxygen at sea level? (b) If the diver breathes a gas mixture at a pressure of  $$ 2.00 \times 10^{6}  {\text{N/m}}^{2} $$ ,
  what percent oxygen should it be to have the same oxygen partial pressure as at sea level?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 2.12 \times 10^{4}  \text{Pa} $$
 (b)  $$ 1.06 \% $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The vapor pressure of water at  $$ 40.0\text{ºC} $$
  is  $$ 7.34 \times 10^{3}  {\text{N/m}}^{2} $$ .
  Using the ideal gas law, calculate the density of water vapor in  $${\text{g/m}}^{3} $$
  that creates a partial pressure equal to this vapor pressure. The result should be the same as the saturation vapor density at that temperature  $$\left(51.1 {\text{g/m}}^{3}\right)\text{.} $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
+
 **Strategy:**
 Use the ideal gas law $$PV=nRT$$ to find the number of moles per unit volume, then convert to density in g/m³ using the molecular mass of water (18.0 g/mol).
 
@@ -711,17 +811,23 @@ Use the ideal gas law $$PV=nRT$$ to find the number of moles per unit volume, th
 
 **Discussion:**
 The calculated value of 50.8 g/m³ is very close to the tabulated value of 51.1 g/m³, with the small difference due to rounding. This confirms that water vapor behaves as an ideal gas under these conditions and that the ideal gas law accurately predicts the relationship between pressure, temperature, and density for water vapor. This verification demonstrates the consistency between kinetic theory and experimental measurements.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Air in human lungs has a temperature of  $$ 37.0\text{ºC} $$
  and a saturation vapor density of  $$44.0 {\text{g/m}}^{3} $$ .
  (a) If 2.00 L of air is exhaled and very dry air inhaled, what is the maximum loss of water vapor by the person? (b) Calculate the partial pressure of water vapor having this density, and compare it with the vapor pressure of  $$ 6.31 \times 10^{3}  {\text{N/m}}^{2} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Calculate mass from density and volume. (b) Use the ideal gas law to find pressure from density.
 
@@ -748,17 +854,23 @@ This is nearly identical to the vapor pressure of $$ 6.31 \times 10^{3} $$ Pa fr
 
 **Discussion:**
 Part (a) shows that with each exhalation of 2 L, we lose about 0.088 g of water vapor if we inhale completely dry air. Over a day with about 20,000 breaths, this could amount to significant water loss (about 880 g or nearly 1 liter). In reality, inhaled air usually contains some moisture, so actual losses are less. Part (b) confirms that the ideal gas law accurately predicts the relationship between vapor density and pressure, validating the table values. This is why breathing passages must stay moist—the lungs saturate inhaled air with water vapor at body temperature.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If the relative humidity is 90.0% on a muggy summer morning when the temperature is  $$ 20.0\text{ºC} $$ ,
  what will it be later in the day when the temperature is  $$ 30.0\text{ºC} $$ ,
  assuming the water vapor density remains constant?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Find the actual vapor density at the initial conditions, then calculate what relative humidity this represents at the higher temperature using the new saturation vapor density.
 
@@ -779,17 +891,23 @@ Relative humidity at 30.0ºC:
 
 **Discussion:**
 The relative humidity drops significantly from 90.0% to 51.0% as temperature increases, even though the actual amount of water vapor in the air remains constant. This is because warmer air can hold more water vapor—the saturation vapor density nearly doubles from 20ºC to 30ºC. This explains why muggy mornings often feel less humid (more comfortable) as the day heats up, and why heated indoor air in winter feels very dry even if no moisture is removed.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Late on an autumn day, the relative humidity is 45.0% and the temperature is  $$ 20.0\text{ºC} $$ .
  What will the relative humidity be that evening when the temperature has dropped to  $$ 10.0\text{ºC} $$ ,
  assuming constant water vapor density?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Find the actual vapor density at the initial conditions, then calculate what relative humidity this represents at the lower temperature.
 
@@ -810,17 +928,23 @@ Relative humidity at 10.0ºC:
 
 **Discussion:**
 The relative humidity nearly doubles from 45% to 82% as the temperature drops by just 10ºC, even though the actual amount of water vapor in the air remains constant. This is because cooler air can hold less water vapor at saturation—the saturation vapor density drops from 17.2 to 9.40 g/m³. This is why relative humidity typically rises in the evening as temperatures drop, and why dew often forms overnight when the temperature drops to the dew point. If the temperature dropped a bit more (to about 5-6ºC), the air would reach 100% humidity and dew would start to form.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Atmospheric pressure atop Mt. Everest is  $$ 3.30 \times 10^{4}  {\text{N/m}}^{2} $$ .
  (a) What is the partial pressure of oxygen there if it is 20.9% of the air? (b) What percent oxygen should a mountain climber breathe so that its partial pressure is the same as at sea level, where atmospheric pressure is  $$ 1.01 \times 10^{5}  {\text{N/m}}^{2} $$ ?
  (c) One of the most severe problems for those climbing very high mountains is the extreme drying of breathing passages. Why does this drying occur?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Calculate the partial pressure using Dalton's law. (b) Find what percentage gives the same partial pressure as at sea level. (c) Consider the relationship between total pressure, partial pressure of water vapor, and relative humidity.
 
@@ -844,15 +968,21 @@ To achieve this partial pressure at Mt. Everest:
 
 **Discussion:**
 Part (b) shows why supplemental oxygen is essential for climbing Mt. Everest—the oxygen concentration must be increased to about 64% (compared to 21% at sea level) to maintain the same oxygen partial pressure. The drying effect in part (c) is one of many physiological challenges of high-altitude climbing, contributing to the extreme difficulty and danger of climbing peaks above 8000 m (the "death zone").
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the dew point (the temperature at which 100% relative humidity would occur) on a day when relative humidity is 39.0% at a temperature of  $$ 20.0\text{ºC} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the actual vapor density at current conditions. Then find the temperature at which this vapor density equals the saturation vapor density using Table 1.
 
@@ -872,17 +1002,23 @@ By interpolation between these values, the dew point is approximately **4.77ºC*
 
 **Discussion:**
 The dew point of 4.77ºC is the temperature at which the current water vapor in the air would saturate the air (100% relative humidity). If the temperature drops to this point or below, water vapor will begin to condense as dew, fog, or frost. The large difference between the current temperature (20ºC) and the dew point (4.77ºC) indicates relatively dry conditions—the air is holding only 39% of the maximum water it could hold at 20ºC. Meteorologists use dew point as an important indicator: dew points above 20ºC feel very humid and uncomfortable, while dew points below 10ºC feel dry and comfortable.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 On a certain day, the temperature is  $$ 25.0\text{ºC} $$
  and the relative humidity is 90.0%. How many grams of water must condense out of each cubic meter of air if the temperature falls to  $$ 15.0\text{ºC} $$ ?
  Such a drop in temperature can, thus, produce heavy dew or fog.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 First calculate the actual vapor density at 25.0ºC with 90.0% relative humidity. Then find the saturation vapor density at 15.0ºC. The difference is the amount that must condense.
 
@@ -904,19 +1040,25 @@ When the temperature drops to 15.0ºC, the air can hold only 12.8 g/m³ at 100% 
 
 **Discussion:**
 This significant amount of condensation (7.9 g/m³) explains why heavy dew or fog can form when air cools at night. The water vapor in the air exceeds the saturation point at the lower temperature, forcing the excess to condense into liquid droplets. This is why fog often forms in valleys on clear nights when radiative cooling drops the temperature, and why dew forms on grass and car windshields in the early morning.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 The boiling point of water increases with depth because pressure increases with
 depth. At what depth will fresh water have a boiling point of $$150\text{ºC} $$
 , if the surface of the water is at sea level?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Water boils when its vapor pressure equals the surrounding pressure. Find the vapor pressure at 150ºC from Table 1. This pressure must equal atmospheric pressure plus the hydrostatic pressure from the water column. Use $$P=P_{\text{atm}}+\rho gh$$ to find depth.
 
@@ -940,11 +1082,15 @@ Solving for $$h$$:
 
 **Discussion:**
 At a depth of 38.3 meters below the surface, the pressure is high enough (4.76 atm) that water will boil at 150ºC instead of the normal 100ºC. This principle is important in deep-sea hydrothermal vents, where water can remain liquid at temperatures well above 100ºC due to the immense pressure. It's also relevant for geothermal energy systems and industrial processes. The increased boiling point at depth is the same principle used in pressure cookers, but achieved through water depth rather than a sealed container.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) At what depth in fresh water is the critical pressure of water reached,
@@ -952,8 +1098,10 @@ given that the surface is at sea level? (b) At what temperature will this water
 boil? (c) Is a significantly higher temperature needed to boil water at a
 greater depth?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) From Table 1 in the Phase Changes section, find the critical pressure of water and use the hydrostatic pressure formula to find depth. (b) At the critical temperature, water cannot exist as a liquid. (c) Consider what happens above the critical point.
 
@@ -976,11 +1124,15 @@ Using $$P=\rho gh$$ with $$\rho = 1000 \text{ kg/m}^{3}$$ for water:
 
 **Discussion:**
 The depth of about 2.2 km is relatively shallow in oceanic terms (average ocean depth is about 3.7 km). However, at this depth and the critical temperature, water behavior changes fundamentally. This has implications for hydrothermal vents on the ocean floor, where superheated water emerges from Earth's crust.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 To get an idea of the small effect that temperature has on Archimedes’
@@ -988,16 +1140,21 @@ principle, calculate the fraction of a copper block’s weight that is supported
 by the buoyant force in $$0\text{ºC} $$ water and compare this fraction with the
 fraction supported in $$ 95.0\text{ºC} $$ water.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$\frac{\left({F}_{\text{B}}/{w}_{\text{Cu}}\right)}{ {\left({F}_{\text{B}}/{w}_{\text{Cu}}\right)}^{\prime }}= 1.02 $$ .
  The buoyant force supports nearly the exact same amount of force on the copper block in both circumstances.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 If you want to cook in water at $$150\text{ºC} $$ , you need a pressure cooker
@@ -1006,8 +1163,10 @@ boiling point of water to be this high? (b) If the lid of the pressure cooker is
 a disk 25.0 cm in diameter, what force must it be able to withstand at this
 pressure?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Water boils when its vapor pressure equals the surrounding pressure. Find the vapor pressure of water at 150ºC from Table 1. (b) Calculate the force using $$F=PA$$, but use the gauge pressure (excess above atmospheric) since atmospheric pressure pushes on both sides of the lid.
 
@@ -1033,30 +1192,39 @@ Force on the lid:
 
 **Discussion:**
 The required pressure is about 4.7 atm (about 70 psi), which is typical for pressure cookers. The force of 18,400 N (about 4100 pounds or 1.9 tons) is enormous! This is why pressure cooker lids must lock securely and why the seals must be in good condition. This also explains why pressure cookers have safety valves—if the pressure gets too high, the valve releases steam before the force can rupture the cooker. The high pressure allows water to remain liquid at 150ºC, significantly speeding up cooking compared to normal boiling at 100ºC.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) How many moles per cubic meter of an ideal gas are there at a pressure of $$ 1.00 \times 10^{14} {\text{N/m}}^{2} $$ and at $$0\text{ºC} $$ ?
 (b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 4.41 \times 10^{10} {\text{mol/m}}^{3} $$
 (b) It’s unreasonably large.
 
 (c) At high pressures such as these, the ideal gas law can no longer be applied.
 As a result, unreasonable answers come up when it is used.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) An automobile mechanic claims that an aluminum rod fits loosely into its
@@ -1065,8 +1233,10 @@ If the hole is 10.0% bigger in diameter than the $$ 22.0\text{ºC} $$ rod, at
 what temperature will the rod be the same size as the hole? (b) What is
 unreasonable about this temperature? (c) Which premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Use thermal expansion to find what temperature would make the hole 10% larger. Since both rod and hole are aluminum, they expand at the same rate, so the mechanic's explanation doesn't work. Calculate anyway to show why. (b) and (c) Analyze the result.
 
@@ -1098,11 +1268,15 @@ Temperature of the engine block:
 
 **Discussion:**
 This problem reveals a common misconception about thermal expansion. If the rod fits loosely, it's more likely due to: (1) manufacturing tolerances, (2) wear, (3) the rod and block being made of different materials with different expansion coefficients, or (4) differential temperature if they've been in different environments. The fact that both are aluminum means thermal expansion cannot explain the loose fit if both are at the same temperature.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 The temperature inside a supernova explosion is said to be $$ 2.00 \times 10^{13} \text{K} $$ .
@@ -1110,8 +1284,10 @@ The temperature inside a supernova explosion is said to be $$ 2.00 \times 10^{13
 be? (b) What is unreasonable about this velocity? (c) Which premise or
 assumption is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 7.03 \times 10^{8}  \text{m/s} $$
 (b) The velocity is too high—it’s greater than the speed of light.
 
@@ -1120,11 +1296,14 @@ responsible, because of the great temperature and density in the core of a star.
 Furthermore, when a velocity greater than the speed of light is obtained,
 classical physics must be replaced by relativity, a subject not yet covered.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Suppose the relative humidity is 80% on a day when the temperature is $$ 30.0\text{ºC} $$ .
@@ -1132,8 +1311,10 @@ Suppose the relative humidity is 80% on a day when the temperature is $$ 30.0\te
 and the vapor density remains constant? (b) What is unreasonable about this
 result? (c) Which premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 (a) Find the actual vapor density at 30.0ºC with 80% humidity, then calculate what relative humidity this represents at 25.0ºC. (b) and (c) Analyze whether the result makes physical sense.
 
@@ -1160,10 +1341,13 @@ The dew point for air at 30.0ºC with 80% humidity occurs when the temperature d
 
 **Discussion:**
 This problem illustrates why dew forms on grass and car windshields on cool mornings, why fog forms when warm moist air cools, and why clouds form when rising air expands and cools. The atmosphere cannot maintain water vapor densities above saturation—excess moisture must condense. This is a fundamental principle in meteorology and explains many weather phenomena.
-</div>
+
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1180,4 +1364,4 @@ percent relative humidity
 relative humidity
 : the amount of water in the air relative to the maximum amount the air can hold
 
-</div>
+:::

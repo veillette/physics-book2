@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 20
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define thermal hazard, shock hazard, and short circuit.
 * Explain what effects various levels of current have on the human body.
-</div>
+
+:::
 
 There are two known hazards of electricity—thermal and shock. A **thermal
 hazard** is one where excessive electric power causes undesired thermal effects,
@@ -239,98 +240,138 @@ in [Electrical Safety: Systems and Devices](../contents/ch23ElectricalSafetySyst
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using an ohmmeter, a student measures the resistance between various points on his body. He finds that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the two major hazards of electricity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why isn’t a short circuit a shock hazard?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What determines the severity of a shock? Can you say that a certain voltage is hazardous without further information?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An electrified needle is used to burn off warts, with the circuit being completed by having the patient sit on a large butt plate. Why is this plate large?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some surgery is performed with high-voltage electricity passing from a metal scalpel through the tissue being cut. Considering the nature of electric fields at the surface of conductors, why would you expect most of the current to flow from the sharp edge of the scalpel? Do you think high- or low-frequency AC is used?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Some devices often used in bathrooms, such as hairdryers, often have safety messages saying “Do not use when the bathtub or basin is full of water.” Why is this so?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 We are often advised to not flick electric switches with wet hands, dry your hand first. We are also advised to never throw water on an electric fire. Why is this so?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Before working on a power transmission line, linemen will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Why is the resistance of wet skin so much smaller than dry, and why do blood and other bodily fluids have low resistances?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Could a person on intravenous infusion (an IV) be microshock sensitive?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In view of the small currents that cause shock hazards and the larger currents that circuit breakers and fuses interrupt, how do they play a role in preventing shock hazards?
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) How much power is dissipated in a short circuit of 240-V AC through a resistance of  $$ 0.250 \Omega  $$?
 (b) What current flows?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For a short circuit, we can use the power formula $$P = V^{2}/R$$ to find the power dissipated, and Ohm's law $$I = V/R$$ to find the current flowing through the short circuit.
@@ -361,15 +402,20 @@ The power dissipated in this short circuit (230 kW) is enormous—equivalent to 
 
 (a) The power dissipated in the short circuit is **230 kW**. (b) The current flowing through the short circuit is **960 A**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What voltage is involved in a 1.44-kW short circuit through a  $$ 0.100 \text{-} \Omega  $$ resistance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use the power equation $$P = V^{2}/R$$ and solve for voltage. This will give us the voltage that produces the specified power dissipation through the low-resistance short circuit.
@@ -392,15 +438,20 @@ This result shows that even a relatively low voltage of 12.0 V can cause signifi
 
 The voltage involved in the short circuit is 12.0 V.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of $$300 \text{k}\Omega  $$ ;  (b) if she is standing barefoot on wet grass and has a resistance of only  $$4500 \Omega  $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use Ohm's law $$I = V/R$$ to calculate the current through the person in both scenarios, then compare the results to Table 1 to determine the physiological effects.
@@ -431,15 +482,20 @@ This problem dramatically illustrates the critical importance of resistance in e
 
 (a) The current is **0.400 mA**, which produces **no effect** (below sensation threshold). (b) The current is **26.7 mA**, which causes **sustained muscular contraction** (can't let go), and may stop breathing during the shock.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of  $$4000 \Omega  $$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use Ohm's law $$V = IR$$ with the threshold current for ventricular fibrillation. From Table 1, ventricular fibrillation can occur at currents as low as 100 mA. We use this minimum threshold to find the smallest dangerous voltage.
@@ -462,15 +518,20 @@ A voltage of 400 V on the radio case could cause ventricular fibrillation. Howev
 
 The smallest voltage that could cause ventricular fibrillation is 400 V.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Foolishly trying to fish a burning piece of bread from a toaster with a metal butter knife, a man comes into contact with 120-V AC. He does not even feel it since, luckily, he is wearing rubber-soled shoes. What is the minimum resistance of the path the current follows through the person?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The man doesn't feel the shock, meaning the current is below the threshold of sensation (1 mA from Table 1). Use Ohm's law $$R = V/I$$ with the maximum current he wouldn't feel to find the minimum resistance.
@@ -499,17 +560,22 @@ It's worth emphasizing that while the man was fortunate, his action was extremel
 
 The minimum resistance of the path through the person is **120 kΩ** (or $$1.20 \times 10^{5} \text{ Ω}$$).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) During surgery, a current as small as  $$20.0 \text{μA} $$
  applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is  $$300 \Omega  $$ ,
  what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use Ohm's law $$V = IR$$ to find the minimum voltage that would cause the dangerous microampere-level current through the exposed heart tissue.
@@ -538,16 +604,21 @@ This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than househo
 
 (a) The smallest voltage that could cause ventricular fibrillation is 6.00 mV. (b) Yes, extremely stringent electrical safety precautions are essential during surgery.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the resistance of a 220-V AC short circuit that generates a peak power of 96.8 kW?
 (b) What would the average power be if the voltage was 120 V AC?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) For AC circuits, peak power occurs when the instantaneous voltage is at its peak value. Use $$P = V^{2}/R$$ rearranged to find resistance. For 220-V AC, the stated voltage is the RMS value, and peak voltage is $$V_{\text{peak}} = \sqrt{2} \times V_{\text{RMS}}$$. However, if "220-V AC" refers to peak voltage, use it directly. Given the problem states "peak power," we'll assume 220 V is the RMS value.
@@ -596,15 +667,20 @@ Both power levels are extremely dangerous and represent serious fire hazards. A 
 
 (a) The resistance of the short circuit is **1.00 Ω**. (b) The average power at 120-V AC would be **14.4 kW**.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A heart defibrillator passes 10.0 A through a patient's torso for 5.00 ms in an attempt to restore normal beating. (a) How much charge passed? (b) What voltage was applied if 500 J of energy was dissipated? (c) What was the path's resistance? (d) Find the temperature increase caused in the 8.00 kg of affected tissue.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 (a) Use the definition of current $$I = \Delta Q/\Delta t$$ to find charge. (b) Use energy and charge to find voltage via $$E = QV$$. (c) Use Ohm's law $$R = V/I$$. (d) Use the heat equation $$Q = mc\Delta T$$ with the specific heat of body tissue (approximately that of water, $$c = 3500 \text{ J/kg·°C}$$).
@@ -643,11 +719,14 @@ The temperature rise of only 0.018°C is negligible and explains why defibrillat
 
 (a) 50.0 mC of charge passed through the patient. (b) A voltage of 10.0 kV was applied. (c) The path's resistance was 1.00 kΩ. (d) The temperature increase in the affected tissue was 0.018°C.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A short circuit in a 120-V appliance cord has a $$ 0.500\text{-}\Omega $$
@@ -655,8 +734,10 @@ resistance. Calculate the temperature rise of the 2.00 g of surrounding
 materials, assuming their specific heat capacity is $$0.200 \text{cal/g}\cdot \text{ºC} $$ and that it takes 0.0500 s for a circuit breaker to interrupt the
 current. Is this likely to be damaging?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Calculate the current using Ohm's law, then find the power dissipated in the short circuit. Use this power and the time duration to find the total energy deposited in the surrounding material. Finally, use the heat equation $$Q = mc\Delta T$$ to find the temperature rise. Note that we need to convert between calories and joules: $$1 \text{ cal} = 4.186 \text{ J}$$.
@@ -709,11 +790,14 @@ In practice, as the temperature rises, the situation could worsen: melting insul
 
 The temperature rises by **860°C** in 0.0500 seconds. **Yes, this is extremely likely to be damaging**—it would cause fires, melt insulation, and potentially vaporize the conductor.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a person working in an environment where electric currents might pass
@@ -723,22 +807,24 @@ considered are the voltage to which the person might be exposed, likely body
 resistance (dry, wet, …), and acceptable currents (safe but sensed, safe and
 unfelt, …).
 
-</div>
+:::
+
 </div>
 
-<div class="footnote-refs" markdown="1">
+::: footnote-refs
+
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">For an average male
+* [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">For an average male
   shocked through trunk of body for 1 s by 60-Hz AC. Values for females are
   60–80% of those listed.</span>
-  { data-list-type="bulleted" data-bullet-style="none"}
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
 
-</div>
+:::
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -757,4 +843,4 @@ microshock sensitive
 medical procedure, rendering the person vulnerable to electrical shock at
 currents about 1/1000 the normally required level
 
-</div>
+:::

@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 10
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the current in an RL circuit after a specified number of characteristic time steps.
 * Calculate the characteristic time of an RL circuit.
 * Sketch the current in an RL circuit over time.
-</div>
+
+:::
 
 We know that the current through an inductor $$L $$ cannot be turned on or off
 instantaneously. The change in current changes flux, inducing an emf opposing
@@ -79,10 +80,12 @@ the current falls to 0.368 of the preceding value, and in a few multiples of
 $$\tau $$ , the current becomes very close to zero, as seen in the graph
 in [[Figure 1]](#Figure1)(c).
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Characteristic Time and Current in an *RL* Circuit
 </div>
+
 (a) What is the characteristic time constant for a 7.50 mH inductor in series with a  $$3.00 \text{Ω} $$
  resistor? (b) Find the current 5.00 ms after the switch is moved to position 2 to disconnect the battery, if it is initially 10.0 A.
 
@@ -98,6 +101,7 @@ yields
 <div class="equation" >
  $$\tau =\frac{L}{R}=\frac{7.50 \text{mH}}{3.00 \Omega }=2.50 \text{ms}. $$
 </div>
+
 **Discussion for (a)**
 
 This is a small but definitely finite time. The coil will be very close to its
@@ -117,18 +121,20 @@ is
 <div class="equation" >
  $$\begin{array}{lll}I& =&  0.368{I}_{0}=\left( 0.368\right)\left(10.0 \text{A}\right)\\ & =& 3.68 \text{A at }t= 2.50\text{ ms.}\end{array} $$
 </div>
+
 After another 2.50 ms, or a total of 5.00 ms, the current declines to 0.368 of the value just found. That is,
 
 <div class="equation" >
  $$\begin{array}{lll}I^{\prime}& =&  0.368I=\left( 0.368\right)\left(3.68 \text{A}\right)\\ & =&  1.35\text{ A at }t= 5.00\text{ ms.}\end{array} $$
 </div>
+
 **Discussion for (b)**
 
 After another 5.00 ms has passed, the current will be 0.183 A (
 see [[Exercise 4]](#Exercise4)); so, although it does die out, the current
 certainly does not go to zero instantaneously.
 
-</div>
+:::
 
 In summary, when the voltage applied to an inductor is changed, the current also
 changes, **but the change in current lags the change in voltage in an RL
@@ -144,6 +150,7 @@ we explore how an _RL_ circuit behaves when a sinusoidal AC voltage is applied.
   <div class="equation" >
    $$I={I}_{0}\left(1-{e}^{-t/\tau }\right)\text{    (turning on).} $$
   </div>
+
      where
    $${I}_{0}=V/R $$ is the final current.
 
@@ -157,6 +164,7 @@ we explore how an _RL_ circuit behaves when a sinusoidal AC voltage is applied.
   <div class="equation" >
    $$I={I}_{0}{e}^{-t/\tau }\text{    (turning off).} $$
   </div>
+
      Here
    $${I}_{0} $$ is the initial current.
 
@@ -166,24 +174,33 @@ we explore how an _RL_ circuit behaves when a sinusoidal AC voltage is applied.
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you want a characteristic *RL* time constant of 1.00 s, and you have a  $$500 \text{Ω} $$
  resistor, what value of self-inductance is needed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 500 H
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Your *RL* circuit has a characteristic time constant of 20.0 ns, and a resistance of  $$5.00 \text{MΩ} $$ .
  (a) What is the inductance of the circuit? (b) What resistance would give you a 1.00 ns time constant, perhaps needed for quick response in an oscilloscope?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\tau = L/R$$ to find $$L$$ in part (a) and $$R$$ in part (b).
@@ -208,25 +225,36 @@ The large inductance (100 mH) combined with the high resistance (5 MΩ) gives th
 
 (a) 0.100 H or 100 mH; (b) 100 MΩ.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large superconducting magnet, used for magnetic resonance imaging, has a 50.0 H inductance. If you want current through it to be adjustable with a 1.00 s characteristic time constant, what is the minimum resistance of system?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$50.0 \text{Ω} $$
-</div>
+
+:::
+
 </div>
 
 <div id="Exercise4" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that after a time of 10.0 ms, the current for the situation considered in [[Example 1]](#Example1) will be 0.183 A as stated.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From [[Example 1]](#Example1), $$\tau = 2.50 \text{ ms}$$ and $$I_0 = 10.0 \text{ A}$$. At $$t = 10.0 \text{ ms}$$, we use $$I = I_0 e^{-t/\tau}$$.
@@ -249,30 +277,40 @@ After four time constants (10.0 ms = 4τ), the current has decayed to 1.83% of i
 
 Verified: $$I = 0.183 \text{ A}$$ at $$t = 10.0 \text{ ms}$$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and resistors ranging from  $$0.100 \text{Ω} $$
  to  $$1.00 \text{MΩ} $$ .
  What is the range of characteristic *RL* time constants you can produce by connecting a single resistor to a single inductor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 1.00 \times 10^{-18} \text{s} $$
  to 0.100 s
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What is the characteristic time constant of a 25.0 mH inductor that has a resistance of  $$4.00 \text{Ω} $$ ?
  (b) If it is connected to a 12.0 V battery, what is the current after 12.5 ms?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\tau = L/R$$ for the time constant, and $$I = I_0(1 - e^{-t/\tau})$$ for current growth, where $$I_0 = V/R$$.
@@ -305,29 +343,39 @@ After two time constants, the current has reached 86.5% of its final value, demo
 
 (a) 6.25 ms; (b) 2.60 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What percentage of the final current  $${I}_{0} $$
  flows through an inductor  $$L $$  in series with a resistor  $$R $$ ,
  three time constants after the circuit is completed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 95.0%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The 5.00 A current through a 1.50 H inductor is dissipated by a  $$2.00 \text{Ω} $$
  resistor in a circuit like that in [[Figure 1]](#Figure1) with the switch in position 2. (a) What is the initial energy in the inductor? (b) How long will it take the current to decline to 5.00% of its initial value? (c) Calculate the average power dissipated, and compare it with the initial power dissipated by the resistor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Energy in an inductor is $$U = \frac{1}{2}LI^2$$. For decay, $$I = I_0 e^{-t/\tau}$$ where $$\tau = L/R$$. Average power equals total energy divided by time.
@@ -380,17 +428,22 @@ The average power is much less than the initial power because the current (and t
 
 (a) 18.8 J; (b) 2.25 s; (c) 8.36 W average, compared to 50.0 W initially (ratio = 0.167).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Use the exact exponential treatment to find how much time is required to bring the current through an 80.0 mH inductor in series with a  $$15.0 \text{Ω} $$
  resistor to 99.0% of its final value, starting from zero. (b) Compare your answer to the approximate treatment using integral numbers of  $$\tau  $$ .
  (c) Discuss how significant the difference is.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 24.6 ms
 
 (b) 26.7 ms
@@ -398,17 +451,22 @@ The average power is much less than the initial power because the current (and t
 (c) 9% difference, which is greater than the inherent uncertainty in the given
 parameters.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Using the exact exponential treatment, find the time required for the current through a 2.00 H inductor in series with a  $$0.500 \text{Ω} $$
  resistor to be reduced to 0.100% of its original value. (b) Compare your answer to the approximate treatment using integral numbers of  $$\tau  $$ .
  (c) Discuss how significant the difference is.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$I = I_0 e^{-t/\tau}$$ with $$\tau = L/R$$. For 0.100%, $$I/I_0 = 0.00100$$.
@@ -455,10 +513,12 @@ The approximate method slightly overestimates the time (28.0 s vs 27.6 s exact),
 
 (a) 27.6 s; (b) 28.0 s using 7τ; (c) 1.4% difference, which is insignificant for most purposes.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -467,4 +527,4 @@ characteristic time constant
 $$\tau =\frac{L}{R} $$ , where $$L $$ is the inductance and $$R $$ is the
 resistance
 
-</div>
+:::

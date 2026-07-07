@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 6
 chapterNumber: 19
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Derive expressions for total capacitance in series and in parallel.
 * Identify series and parallel parts in the combination of connection of capacitors.
 * Calculate the effective capacitance in series and parallel given individual capacitances.
-</div>
+
+:::
 
 Several capacitors may be connected together in a variety of applications.
 Multiple connections of capacitors act like a single equivalent capacitor. The
@@ -75,19 +76,23 @@ connected in series. An expression of this form always results in a total
 capacitance $${C}_{\text{S}} $$ that is less than any of the individual
 capacitances $${C}_{1} $$ , $${C}_{2} $$ , ..., as the next example illustrates.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Total Capacitance in Series,
  $${C}_{\text{s}} $$
 </div>
+
 Total capacitance in series:  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Is the Series Capacitance?
 </div>
+
 Find the total capacitance for three capacitors connected in series, given their individual capacitances are 1.000, 5.000, and 8.000  $$\text{µF} $$.
 
 **Strategy**
@@ -97,8 +102,9 @@ equation for capacitance in series.
 
 **Solution**
 
-Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$. <div class="equation" > $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
+Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$. &lt;div class="equation" &gt; $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
+
 Inverting to find  $${C}_{\text{S}} $$  yields 
  $${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
 
@@ -114,12 +120,14 @@ whole-number calculations) is 40. Thus,
 <div class="equation" >
  $$\frac{1}{ {C}_{\text{S}}}=\frac{40}{40 \text{µF}}+\frac{8}{40 \text{µF}}+\frac{5}{40 \text{µF}}=\frac{53}{40 \text{µF}}, $$
 </div>
+
 so that
 
 <div class="equation" >
  $${C}_{\text{S}}=\frac{40 \text{µF}}{53}=0.755 \text{µF}. $$
 </div>
-</div>
+
+:::
 
 ### Capacitors in Parallel
 
@@ -167,13 +175,16 @@ The equivalent capacitor for a parallel connection has an effectively larger
 plate area and, thus, a larger capacitance, as illustrated
 in [[Figure 2]](#Figure2)(b).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Total Capacitance in Parallel,
  $${C}_{\text{p}} $$
 </div>
+
 Total capacitance in parallel  $${C}_{\text{p}}={C}_{1}+{C}_{2}+{C}_{3}+\text{...} $$
-</div>
+
+:::
 
 More complicated connections of capacitors can sometimes be combinations of
 series and parallel. (See [[Figure 3]](#Figure3).) To find the total capacitance
@@ -183,10 +194,12 @@ capacitances, and then find the total.
 ![The first figure has two capacitors, C sub1 and C sub2 in series and the third capacitor C sub 3 is parallel to C sub 1 and C sub 2. The second figure shows C sub S, the equivalent capacitance of C sub 1 and C sub 2, in parallel to C sub 3. The third figure represents the total capacitance of C sub S and C sub 3.](../resources/Figure_19_06_03.jpg '(a) This circuit contains both series and parallel connections of capacitors. See Worked out Example for the calculation of the overall capacitance of the circuit. (b) ( C_1 ) and ( C_2 ) are in series; their equivalent capacitance ( C_S ) is less than either of them. (c) Note that ( C_S ) is in parallel with ( C_3 ) . The total capacitance is, thus, the sum of ( C_S ) and ( C_3 ) .')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 A Mixture of Series and Parallel Capacitance
 </div>
+
 Find the total capacitance of the combination of capacitors shown in [[Figure 3]](#Figure3). Assume the capacitances in [[Figure 3]](#Figure3) are known to three decimal places (  $${C}_{1}=1.000 µF $$ ,
   $${C}_{2}=5.000 µF $$ ,
  and  $${C}_{3}=8.000 µF $$ ), 
@@ -207,22 +220,25 @@ given by $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac
 <div class="equation" >
  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}=\frac{1}{ 1.000 \text{μF}}+\frac{1}{ 5.000 \text{μF}}=\frac{ 1.200}{\text{μF}}. $$
 </div>
+
 Inverting gives
 
 <div class="equation" >
  $${C}_{\text{S}}=0.833 \text{µF}. $$
 </div>
+
 This equivalent series capacitance is in parallel with the third capacitor; thus, the total is the sum
 
 <div class="equation" >
  $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\ {C}_{\text{tot}}& =& 0.833 \text{μF}+ 8.000 \text{μF}\\ {C}_{\text{tot}}& =& 8.833 \text{μF}.\end{array} $$ 
 </div>
+
 **Discussion**
 
 This technique of analyzing the combinations of capacitors piece by piece until
 a total is obtained can be applied to larger combinations of capacitors.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -236,23 +252,30 @@ a total is obtained can be applied to larger combinations of capacitors.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you wish to store a large amount of energy in a capacitor bank, would you connect capacitors in series or parallel? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the total capacitance of the combination of capacitors in [[Figure 4]](#Figure4).
 
 ![A circuit is shown with three capacitors. Two capacitors, of ten microfarad and two point five microfarad capacitance, are in parallel to each other, and their combination is in series with a zero point three zero microfarad capacitor.](../resources/Figure_19_06_04.jpg 'A combination of series and parallel connections of capacitors.')
 {: #Figure4}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This circuit has a combination of series and parallel connections. First, identify the capacitors in parallel (10 μF and 2.5 μF), find their equivalent capacitance, then combine this result with the 0.30 μF capacitor in series.
@@ -280,15 +303,21 @@ The total capacitance is dominated by the smallest capacitor in the series porti
 **Final Answer**
 
 The total capacitance of the combination is **0.293 μF**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you want a capacitor bank with a total capacitance of 0.750 F and you possess numerous 1.50 mF capacitors. What is the smallest number you could hook together to achieve your goal, and how would you connect them?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 To achieve a larger total capacitance from smaller individual capacitors, we must connect them in parallel (series connections would reduce the total capacitance). We need to find how many 1.50 mF capacitors connected in parallel will yield 0.750 F.
@@ -314,17 +343,23 @@ $$n = \frac{0.750}{0.00150} = 500$$
 **Final Answer**
 
 The smallest number needed is **500 capacitors**, and they must all be connected **in parallel**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What total capacitances can you make by connecting a  $$5.00 \text{µF} $$
  and an  $$8.00 \text{µF} $$
  capacitor together?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 With two capacitors, there are two possible simple connections: series and parallel. Each produces a different total capacitance. For series, use $$\frac{1}{C_S} = \frac{1}{C_1} + \frac{1}{C_2}$$; for parallel, use $$C_P = C_1 + C_2$$.
@@ -350,18 +385,24 @@ The series capacitance (3.08 μF) is less than either individual capacitor, whil
 **Final Answer**
 
 The two possible total capacitances are **3.08 μF** (series) and **13.0 μF** (parallel).
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the total capacitance of the combination of capacitors shown in [[Figure 5]](#Figure5).
 
 ![The circuit includes three capacitors. A zero point three zero microfarad capacitor and a ten microfarad capacitor are connected in series, and together they are connected in parallel with a two point five microfarad capacitor.](../resources/Figure_19_06_05.jpg 'A combination of series and parallel connections of capacitors.')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 First identify the circuit structure: the 0.30 μF and 10 μF capacitors are in series, and their combination is in parallel with the 2.5 μF capacitor. We'll find the series equivalent first, then add it to the parallel capacitor.
@@ -387,18 +428,24 @@ Comparing this to Problem 1, the same three capacitors are connected differently
 **Final Answer**
 
 The total capacitance of the combination is **2.79 μF**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the total capacitance of the combination of capacitors shown in [[Figure 6]](#Figure6).
 
 ![The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.](../resources/Figure_19_06_06.jpg 'A combination of series and parallel connections of capacitors.')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This complex circuit has three branches in parallel. We need to find the equivalent capacitance of each branch, then add them together:
@@ -441,11 +488,15 @@ The middle branch dominates the total capacitance because it contains the larges
 **Final Answer**
 
 The total capacitance of the combination is **11.4 μF**.
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) An $$8.00 \text{µF} $$ capacitor is connected in parallel to another
@@ -453,8 +504,10 @@ capacitor, producing a total capacitance of $$5.00 \text{µF} $$ . What is the
 capacitance of the second capacitor? (b) What is unreasonable about this
 result? (c) Which assumptions are unreasonable or inconsistent?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 This is a critical thinking problem. We'll use the parallel capacitance formula to solve for the unknown capacitor, then examine whether the result makes physical sense.
@@ -496,5 +549,7 @@ This problem illustrates an important check: parallel combinations always increa
 (b) Negative capacitance is physically impossible—capacitance must always be positive.
 
 (c) The assumption that the capacitors are connected in parallel is incorrect. A parallel connection always produces a total capacitance greater than any individual capacitor. Since 5.00 μF < 8.00 μF, the connection must be in series, not parallel.
-</div>
+
+:::
+
 </div>

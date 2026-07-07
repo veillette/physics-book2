@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 17
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define Doppler effect, Doppler shift, and sonic boom.
 * Calculate the frequency of a sound heard by someone observing Doppler shift.
 * Describe the sounds produced by objects moving faster than the speed of sound.
-</div>
+
+:::
 
 The characteristic sound of a motorcycle buzzing by is an example of the **Doppler effect**. The high-pitch scream shifts dramatically to a lower-pitch
 roar as the motorcycle passes by a stationary observer. The closer the
@@ -73,13 +74,15 @@ source and observer toward one another increases the received frequency.
 Relative motion apart decreases frequency. The greater the relative speed is,
 the greater the effect.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 The Doppler Effect
 </div>
+
 The Doppler effect occurs not only for sound but for any wave when there is relative motion between the observer and the source. There are Doppler shifts in the frequency of sound, light, and water waves, for example. Doppler shifts can be used to determine velocity, such as when ultrasound is reflected from blood in a medical diagnostic. The recession of galaxies is determined by the shift in the frequencies of light received from them and has implied much about the origins of the universe. Modern physics has been profoundly affected by observations of Doppler shifts.
 
-</div>
+:::
 
 For a stationary observer and a moving source, the frequency _f_<sub>obs</sub>
 received by the observer can be shown to be
@@ -104,10 +107,12 @@ where $${v}_{\text{obs}} $$ is the speed of the observer along a line joining
 the source and observer. Here the plus sign is for motion toward the source, and
 the minus is for motion away from the source.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculate Doppler Shift: A Train Horn
 </div>
+
 Suppose a train that has a 150-Hz horn is moving at 35.0 m/s in still air on a day when the speed of sound is 340 m/s.
 
 (a) What frequencies are observed by a stationary person at the side of the
@@ -129,21 +134,25 @@ the other for a moving observer.
 <div class="equation" >
  $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}-{v}_{s}}\right)=\left(150 \text{Hz}\right)\left(\frac{340 \text{m/s}}{340 \text{m/s} - 35.0 \text{m/s}}\right) $$
 </div>
+
 (2) Calculate the frequency observed by a stationary person as the train approaches.
 
 <div class="equation" >
  $${f}_{obs}=\left(150 \text{Hz}\right)\left(1.11\right)=167 \text{Hz} $$
 </div>
+
 (3) Use the same equation with the plus sign to find the frequency heard by a stationary person as the train recedes.
 
 <div class="equation" >
  $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}+{v}_{s}}\right)=\left(150 \text{Hz}\right)\left(\frac{340 \text{m/s}}{340 \text{m/s}+35.0 \text{m/s}}\right) $$
 </div>
+
 (4) Calculate the second frequency.
 
 <div class="equation" >
  $${f}_{obs}=\left(150 \text{Hz}\right)\left(0.907\right)=136 \text{Hz} $$
 </div>
+
 **Discussion on (a)**
 
 The numbers calculated are valid when the train is far enough away that the
@@ -166,6 +175,7 @@ motion toward and 14.0 Hz for motion away. The shifts are not symmetric.
 <div class="equation" >
  $${f}_{\text{obs}}=\left[{f}_{s}\left(\frac{ {v}_{w}±{v}_{\text{obs}}}{ {v}_{w}}\right)\right]\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right). $$
 </div>
+
 The quantity in the square brackets is the Doppler-shifted frequency due to a moving observer. The factor on the right is the effect of the moving source.
 
 (3) Because the train engineer is moving in the direction toward the horn, we
@@ -178,6 +188,7 @@ cancels, yielding
 <div class="equation" >
  $${f}_{\text{obs}}={f}_{s}. $$
 </div>
+
 **Discussion for (b)**
 
 We may expect that there is no change in frequency when source and observer move
@@ -187,7 +198,7 @@ People talking when a wind moves the air between them also observe no Doppler
 shift in their conversation. The crucial point is that source and observer are
 not moving relative to each other.
 
-</div>
+:::
 
 ### Sonic Booms to Bow Wakes
 
@@ -269,28 +280,38 @@ has allowed us to estimate the age of the universe (from the Big Bang) as about
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Why did scientist Christian Doppler observe musicians both on a moving train and also from a stationary point not on the train?
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 Doppler needed to compare the perception of sound when the observer is stationary and the sound source moves, as well as when the sound source and the observer are both in motion.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Describe a situation in your life when you might rely on the Doppler shift to help you either while driving a car or walking near traffic.
 
-</div>
-<div class="solution" data-print-placement="here" markdown="1">
+:::
+
+::: solution {"class":"solution","data-print-placement":"here"}
+
 If I am driving and I hear Doppler shift in an ambulance siren, I would be able to tell when it was getting closer and also if it has passed by. This would help me to know whether I needed to pull over and let the ambulance through.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -307,6 +328,7 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
   <div class="equation" >
    $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right), $$
   </div>
+
      where
    $${f}_{s} $$ is the frequency of the source,
    $${v}_{s} $$ is the speed of the source, and
@@ -315,53 +337,73 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
   <div class="equation" >
    $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}±{v}_{\text{obs}}}{ {v}_{w}}\right), $$
   </div>
+
   where $${v}_{\text{obs}} $$ is the speed of the observer.
 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Is the Doppler shift real or just a sensory illusion?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The Doppler shift is a **real physical phenomenon**, not a sensory illusion. The frequency of the sound waves arriving at the observer is physically different from the frequency emitted by the source. The relative motion between the source and observer causes the wavefronts to be compressed (higher frequency) or stretched (lower frequency). This change in frequency can be measured by instruments, so it is not just a product of our perception. For example, police radar guns use the Doppler shift of radio waves to measure the speed of vehicles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Due to efficiency considerations related to its bow wake, the supersonic transport aircraft must maintain a cruising speed that is a constant ratio to the speed of sound (a constant Mach number). If the aircraft flies from warm air into colder air, should it increase or decrease its speed? Explain your answer.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 The aircraft should **decrease** its speed.
 
 The speed of sound is lower in colder air. To maintain a constant Mach number (which is the ratio of the aircraft's speed to the speed of sound), the aircraft must decrease its speed proportionally as the speed of sound decreases.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When you hear a sonic boom, you often cannot see the plane that made it. Why is that?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 This is because the airplane is traveling faster than the speed of sound, while the sonic boom (the shock wave) travels at the speed of sound. By the time the shock wave reaches an observer on the ground, the airplane that created it has already traveled a significant distance ahead of the boom.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What frequency is received by a person watching an oncoming ambulance moving at 110 km/h and emitting a steady 800-Hz sound from its siren? The speed of sound on this day is 345 m/s. (b) What frequency does she receive after the ambulance has passed?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 This problem involves a moving source (ambulance) and a stationary observer. We must use the formula for a moving source: $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right)$$. For part (a), the ambulance is approaching, so we use the minus sign in the denominator. For part (b), the ambulance is receding, so we use the plus sign. First, we must convert the ambulance speed from km/h to m/s to match the units of the speed of sound.
@@ -398,15 +440,20 @@ Part (b): For the receding ambulance, use the plus sign:
 
 The approaching ambulance produces a frequency shift of +78 Hz (about 9.8% higher), while the receding ambulance produces a shift of -65 Hz (about 8.1% lower). These shifts are quite noticeable to the human ear, which is why emergency vehicles sound distinctly different when approaching versus receding. Note that the shifts are asymmetric—the increase when approaching is larger than the decrease when receding, even though the speed is the same. This asymmetry arises from the mathematical form of the Doppler equation. The observer hears a frequency of 878 Hz when the ambulance approaches, which is significantly higher than the emitted 800 Hz, and 735 Hz when it recedes. This dramatic change helps pedestrians and drivers identify the location and motion of emergency vehicles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) At an air show a jet flies directly toward the stands at a speed of 1200 km/h, emitting a frequency of 3500 Hz, on a day when the speed of sound is 342 m/s. What frequency is received by the observers? (b) What frequency do they receive as the plane flies directly away from them?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 This is a moving source (jet) with stationary observers problem. We use the formula $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right)$$, with the minus sign for approach and plus sign for recession. First, we must convert the jet speed from km/h to m/s. An important feature of this problem is that the jet is traveling at nearly the speed of sound, which will produce a dramatic Doppler shift.
@@ -445,15 +492,20 @@ Part (b): For the receding jet, use the plus sign:
 
 The results are dramatic! When approaching, the frequency shifts from 3500 Hz to 138,000 Hz—an increase by a factor of about 39. This enormous shift occurs because the jet is traveling at nearly the speed of sound, making the denominator $${v}_{w}-{v}_{s}$$ very small. This is why the Doppler formula predicts an infinite frequency when the source travels exactly at the speed of sound (the denominator becomes zero). When receding, the frequency drops to 1770 Hz, about half the emitted frequency. The massive asymmetry between approach and recession frequencies is characteristic of sources moving at near-sonic speeds. In reality, much of this shifted sound would be outside the range of human hearing (20-20,000 Hz), but the jet's engine produces a wide spectrum of frequencies, so observers would still hear an intense, high-pitched sound on approach and a much lower rumble as it recedes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What frequency is received by a mouse just before being dispatched by a hawk flying at it at 25.0 m/s and emitting a screech of frequency 3500 Hz? Take the speed of sound to be 331 m/s.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 This problem involves a moving source (the hawk) approaching a stationary observer (the mouse). We use the Doppler shift formula for a moving source: $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right)$$. Since the hawk is approaching the mouse, we use the minus sign in the denominator, which increases the observed frequency.
@@ -474,16 +526,22 @@ The hawk is moving toward the mouse, so we apply the formula with the minus sign
 
 The mouse perceives a frequency about 8.2% higher than the hawk actually emits. This frequency shift of 290 Hz is readily audible and represents a shift of about 4 musical semitones. From an evolutionary perspective, many prey animals have developed acute hearing to detect approaching predators through such Doppler shifts—the rising pitch of a predator's call provides crucial information about whether the predator is approaching. The relatively modest speed of the hawk (25.0 m/s, or about 90 km/h) compared to the speed of sound (331 m/s) means the Doppler shift is noticeable but not extreme. The perceived frequency of 3790 Hz is well within the hearing range of most small mammals, which typically extends to much higher frequencies than human hearing.
 
+:::
+
 </div>
-</div>
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A spectator at a parade receives an 888-Hz tone from an oncoming trumpeter who is playing an 880-Hz note. At what speed is the musician approaching if the speed of sound is 338 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 This problem involves a moving source (trumpeter) and a stationary observer (spectator). We know the source frequency $${f}_{s}=880$$ Hz, the observed frequency $${f}_{\text{obs}}=888$$ Hz, and the speed of sound $${v}_{w}=338$$ m/s. We need to find the source speed $${v}_{s}$$. Since the musician is approaching, we use the Doppler formula $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}-{v}_{s}}\right)$$ and solve for $${v}_{s}$$.
@@ -536,15 +594,20 @@ Solve for $${v}_{s}$$:
 
 The trumpeter is moving at approximately 3.0 m/s (about 11 km/h or 7 mph), which is a reasonable walking/marching speed for a parade. The frequency shift is only 8 Hz (about 0.9%), which is quite small but still noticeable to a trained ear—musicians can typically detect pitch differences of about 0.5% or less. This small shift corresponds to the modest speed of the source relative to the speed of sound. The calculation demonstrates an important application of the Doppler effect: if we can measure the frequency shift, we can determine the speed of the source. This principle is used in radar guns (for measuring vehicle speeds), Doppler weather radar (for measuring wind speeds), and medical ultrasound (for measuring blood flow velocity).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A commuter train blows its 200-Hz horn as it approaches a crossing. The speed of sound is 335 m/s. (a) An observer waiting at the crossing receives a frequency of 208 Hz. What is the speed of the train? (b) What frequency does the observer receive as the train moves away?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 Part (a) requires finding the source velocity from the observed Doppler shift. We know $${f}_{s}=200$$ Hz, $${f}_{\text{obs}}=208$$ Hz (approaching), and $${v}_{w}=335$$ m/s. We use the approaching source formula and solve for $${v}_{s}$$. For part (b), we use the same source speed but apply the receding source formula to find the new observed frequency.
@@ -601,15 +664,20 @@ Part (b): Now use the receding source formula with $${v}_{s}=12.9$$ m/s:
 
 The train is traveling at 12.9 m/s (about 46 km/h or 29 mph), which is a reasonable speed for a commuter train approaching a crossing—trains typically slow down near crossings for safety. The frequency increases by 8 Hz (4%) when approaching and decreases by 7 Hz (3.5%) when receding. The asymmetry in the shifts (+8 Hz vs. -7 Hz) is characteristic of the Doppler effect. A person waiting at the crossing would clearly hear the pitch drop from 208 Hz to 193 Hz as the train passes—a change of 15 Hz. This distinctive pitch change is one of the most familiar examples of the Doppler effect in everyday life. The calculation in part (a) demonstrates an inverse Doppler problem, where we work backward from the observed frequency shift to determine the source speed—this is exactly how police radar guns work, though they use electromagnetic waves instead of sound.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can you perceive the shift in frequency produced when you pull a tuning fork toward you at 10.0 m/s on a day when the speed of sound is 344 m/s? To answer this question, calculate the factor by which the frequency shifts and see if it is greater than 0.300%.
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 When you pull a tuning fork toward yourself, you create relative motion between the source and observer. We can analyze this as a moving source approaching a stationary observer (considering the sound waves emitted by the fork). We use the formula $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}-{v}_{s}}\right)$$ to find the shift factor, then calculate the percentage change. If this percentage exceeds 0.300%, the shift is perceptible.
@@ -640,15 +708,20 @@ Since 2.99% >> 0.300%, yes, you can perceive the shift.
 
 The frequency shift of approximately 3.0% is about ten times larger than the 0.300% threshold for perceptibility, so it would be clearly audible. To put this in musical terms, a 3% shift corresponds to about half a semitone (one semitone is about 6%), which musicians can easily detect. This demonstrates that even relatively modest speeds (10 m/s is about 36 km/h or 22 mph) can produce noticeable Doppler shifts when the motion is along the line connecting source and observer. The 0.300% threshold mentioned in the problem represents the approximate limit of human pitch discrimination—most people can detect frequency differences of about 0.3% to 0.5%, while trained musicians can often detect even smaller differences. This problem illustrates why you can hear pitch changes when waving a sound source (like a buzzer or whistle) back and forth, and why the Doppler effect is so prominent in everyday experience with moving sound sources.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Two eagles fly directly toward one another, the first at 15.0 m/s and the second at 20.0 m/s. Both screech, the first one emitting a frequency of 3200 Hz and the second one emitting a frequency of 3800 Hz. What frequencies do they receive if the speed of sound is 330 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 This problem involves both a moving source and a moving observer, since both eagles are moving and both are emitting and receiving sound. We must use the general Doppler formula: $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}±{v}_{\text{obs}}}{ {v}_{w}∓{v}_{s}}\right)$$. Since both eagles are flying toward each other, we use the plus sign for $${v}_{\text{obs}}$$ (observer moving toward source) and the minus sign for $${v}_{s}$$ (source moving toward observer). We need to calculate two separate frequencies: what the first eagle hears from the second, and what the second eagle hears from the first.
@@ -683,15 +756,20 @@ For the second eagle hearing the first eagle's screech:
 
 Both eagles hear significantly higher frequencies than what is being emitted because they are approaching each other. The first eagle hears a frequency 430 Hz higher (an 11.3% increase), while the second eagle hears a frequency 360 Hz higher (an 11.1% increase). These shifts are quite substantial and demonstrate that when both source and observer are moving toward each other, the Doppler shift is enhanced—the combined effect is greater than either motion alone would produce. This is why head-on collisions between vehicles with sirens produce the most dramatic pitch changes. The fact that the two shifts are similar (both around 11%) despite different speeds reflects the symmetry in their relative motion. In nature, such bidirectional Doppler shifts are important for predator-prey interactions and for communication between animals in flight. The general Doppler formula used here combines both effects multiplicatively: the observer's motion changes the rate at which wave crests are encountered, while the source's motion changes the spacing between crests.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the minimum speed at which a source must travel toward you for you to be able to hear that its frequency is Doppler shifted? That is, what speed produces a shift of 0.300% on a day when the speed of sound is 331 m/s?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
+
 **Strategy**
 
 We need to find the source speed that produces exactly a 0.300% frequency shift, which represents the threshold of human pitch perception. A 0.300% shift means the observed frequency is 1.00300 times the source frequency (or a shift factor of 1.003). We use the approaching source formula $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}-{v}_{s}}\right)$$ and solve for $${v}_{s}$$ when $${f}_{\text{obs}}/{f}_{s}=1.003$$.
@@ -742,10 +820,12 @@ Therefore, the minimum perceptible speed is approximately 1.0 m/s.
 
 The minimum speed of about 1.0 m/s (3.6 km/h or 2.2 mph) is quite slow—roughly a leisurely walking pace. This demonstrates that the human ear is remarkably sensitive to pitch changes. Even at this slow speed, a trained listener can detect the Doppler shift in the frequency of a sound source. This sensitivity explains why we can easily hear Doppler shifts in everyday situations: a person walking past you while talking on a phone, a cyclist ringing a bell as they pass, or a car driving slowly down a residential street. The 0.300% threshold represents the just-noticeable difference (JND) for pitch perception in most people—trained musicians can often detect even smaller differences, down to about 0.1% to 0.2%. This remarkable auditory acuity evolved as a survival mechanism, helping our ancestors detect the motion of both predators and prey. The calculation shows that perceptible Doppler shifts occur at speeds far below those typically associated with dramatic pitch changes (like emergency vehicles), making the Doppler effect a ubiquitous phenomenon in our acoustic environment.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -764,4 +844,4 @@ bow wake
 : V-shaped disturbance created when the wave source moves faster than the wave
 propagation speed
 
-</div>
+:::

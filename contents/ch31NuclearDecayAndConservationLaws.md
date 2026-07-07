@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 4
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and discuss nuclear decay.
 * State the conservation laws.
 * Explain parent and daughter nucleus.
 * Calculate the energy emitted during nuclear decay.
-</div>
+
+:::
 
 Nuclear **decay**{: class="term"} has provided an amazing window into the realm
 of the very small. Nuclear decay gave the first indication of the connection
@@ -118,10 +119,12 @@ endothermic ( $$\Delta m $$ is negative) and must be induced with an energy
 input. For $$\alpha $$ decay to be spontaneous, the decay products must have
 smaller mass than the parent.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Alpha Decay Energy Found from Nuclear Masses
 </div>
+
 Find the energy emitted in the  $$\alpha  $$
  decay of  $${}^{239}\text{Pu} $$.
 
@@ -139,6 +142,7 @@ The decay equation was given earlier for $${}^{239}\text{Pu} $$ ; it is
 <div class="equation" >
  $${}^{239}\text{Pu}\to {}^{235}\text{U}+{}^{4}\text{He}. $$
 </div>
+
 Thus the pertinent masses are those of  $${}^{239}\text{Pu} $$ ,
   $${}^{235}\text{U} $$ ,
  and the  $$\alpha  $$
@@ -150,6 +154,7 @@ Thus the pertinent masses are those of  $${}^{239}\text{Pu} $$ ,
 <div class="equation" >
  $$\begin{array}{lll}\Delta m& =& m\left({}^{239}\text{Pu}\right)-\left[m\left({}^{235}\text{U}\right)+m\left({}^{4}\text{He}\right)\right]\\ & =&  239.052157 \text{u}-239.046526 \text{u}\\ & =& 0.005631 \text{u} \text{.} \end{array} $$
 </div>
+
 Now we can find  $$E $$
  by entering  $$\Delta m $$
  into the equation:
@@ -157,12 +162,14 @@ Now we can find  $$E $$
 <div class="equation" >
  $$E=\left(\Delta m\right){c}^{2}=\left(0.005631\text{ u}\right){c}^{2}. $$
 </div>
+
 We know  $$1 \text{u}=931.5 \text{MeV/}{c}^{2} $$ ,
  and so
 
 <div class="equation" >
  $$E=\left(0.005631\right)\left(931.5 \text{MeV}/{c}^{2}\right)\left({c}^{2}\right)=5.25 \text{MeV}. $$
 </div>
+
 **Discussion**
 
 The energy released in this $$\alpha $$ decay is in the $$\text{MeV} $$ range,
@@ -180,7 +187,7 @@ atoms, including their electrons. The mass of the electrons is the same before
 and after $$\alpha $$ decay, and so their masses subtract out when finding
 $$\Delta m $$ . In this case, there are 94 electrons before and after the decay.
 
-</div>
+:::
 
 ### Beta Decay
 
@@ -280,10 +287,12 @@ the decay. Note that total $$A $$ is also conserved in $$\alpha $$ decay. Also
 note that the total number of protons changes, as does the total number of
 neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta }^{-} $$ decay can be calculated given the masses of the parent and products. 
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
  $${\beta }^{-} $$ Decay Energy from Masses
 </div>
+
 Find the energy emitted in the  $${\beta }^{-} $$
  decay of  $${}^{60}\text{Co} $$.
 
@@ -303,6 +312,7 @@ atomic mass of Ni. Thus,
 <div class="equation" >
  $$\Delta m=m\left({}^{60}\text{Co}\right)-m\left({}^{60}\text{Ni}\right). $$
 </div>
+
 **Solution**
 
 The $${\beta }^{-} $$ decay equation for $${}^{60}\text{Co} $$ is
@@ -310,27 +320,32 @@ The $${\beta }^{-} $$ decay equation for $${}^{60}\text{Co} $$ is
 <div class="equation" >
  $${}_{27}^{60}{\text{Co}}_{33}\to {}_{28}^{60}{\text{Ni}}_{32}+{\beta }^{-}+{\overline{\nu }}_{e}. $$
 </div>
+
 As noticed,
 
 <div class="equation" >
  $$\Delta m=m\left({}^{60}\text{Co}\right)-m\left({}^{60}\text{Ni}\right). $$
 </div>
+
 Entering the masses found in [Appendix A](../contents/appendixA) gives
 
 <div class="equation" >
  $$\Delta m=59.933820 \text{u}-59.930789 \text{u}=0.003031 \text{u}. $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $$E=\left(\Delta m\right){c}^{2}=\left(0.003031 \text{u}\right){c}^{2}. $$
 </div>
+
 Using  $$1 u=931.5\text{ MeV}/{c}^{2} $$ ,
  we obtain
 
 <div class="equation" >
  $$E=\left(0.003031\right)\left(931.5 MeV/{c}^{2}\right)\left({c}^{2}\right)=2.82 \text{MeV} \text{.}  $$
 </div>
+
 **Discussion and Implications**
 
 Perhaps the most difficult thing about this example is convincing yourself that
@@ -342,7 +357,7 @@ remaining energy goes to the electron and neutrino, since the recoil kinetic
 energy of the daughter nucleus is small. One final note: the electron emitted in
 $${\beta }^{-} $$ decay is created in the nucleus at the time of decay.
 
-</div>
+:::
 
 The second type of beta decay is less common than the first. It is $${\beta }^{+} $$ decay. Certain nuclides decay by the emission of a *positive* electron.
 This is **antielectron** or **positron decay** (see [[Figure 5]](#Figure5)).
@@ -507,31 +522,43 @@ $$\gamma $$ is a high-energy photon originating in a nucleus.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Star Trek fans have often heard the term “antimatter drive.” Describe how you could use a magnetic field to trap antimatter, such as produced by nuclear decay, and later combine it with matter to produce energy. Be specific about the type of antimatter, the need for vacuum storage, and the fraction of matter converted into energy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What conservation law requires an electron’s neutrino to be produced in electron capture? Note that the electron no longer exists after it is captured by the nucleus.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Neutrinos are experimentally determined to have an extremely small mass. Huge numbers of neutrinos are created in a supernova at the same time as massive amounts of light are first produced. When the 1987A supernova occurred in the Large Magellanic Cloud, visible primarily in the Southern Hemisphere and some 100 000 light-years away from Earth, neutrinos from the explosion were observed at about the same time as the light from the blast. How could the relative arrival times of neutrinos and light be used to place limits on the mass of neutrinos?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What do the three types of beta decay have in common that is distinctly different from alpha decay?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -541,91 +568,123 @@ nuclide in the complete $${}_{Z}^{A}{X}_{N} $$ notation. Refer to the periodic
 table for values of $$Z $$.
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{-} $$
  decay of  $${}^{3}\text{H} $$
  (tritium), a manufactured isotope of hydrogen used in some digital watch displays, and manufactured primarily for use in hydrogen bombs.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{1}^{3}{\text{H}}_{2}\to {}_{2}^{3}{\text{He}}_{1}+{\beta }^{-}+{\overline{\nu }}_{e} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{-} $$
  decay of  $${}^{40}K $$ ,
  a naturally occurring rare isotope of potassium responsible for some of our exposure to background radiation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{+} $$
  decay of  $${}^{50}\text{Mn} $$.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{25}^{50}{M}_{25}\to {}_{24}^{50}{\text{Cr}}_{26}+{\beta }^{+}+{\nu }_{e} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{+} $$
  decay of  $${}^{52}\text{Fe} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Electron capture by  $${}^{7}\text{Be} $$.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{4}^{7}{\text{Be}}_{3}+{e}^{-}\to {}_{3}^{7}{\text{Li}}_{4}+{\nu }_{e} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Electron capture by  $${}^{106}\text{In} $$.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $$\alpha  $$
  decay of  $${}^{210}\text{Po} $$ ,
  the isotope of polonium in the decay series of  $${}^{238}\text{U} $$
  that was discovered by the Curies. A favorite isotope in physics labs, since it has a short half-life and decays to a stable nuclide.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{84}^{210}{\text{Po}}_{126}\to {}_{82}^{206}{\text{Pb}}_{124}+{}_{2}^{4}{\text{He}}_{2} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $$\alpha  $$
  decay of  $${}^{226}\text{Ra} $$ ,
  another isotope in the decay series of  $${}^{238}\text{U} $$ ,
  first recognized as a new element by the Curies. Poses special problems because its daughter is a radioactive noble gas.
 
-</div>
+:::
+
 </div>
 
 In the following four problems, identify the parent nuclide and write the
@@ -633,63 +692,83 @@ complete decay equation in the $${}_{Z}^{A}{X}_{N} $$ notation. Refer to the
 periodic table for values of $$Z $$.
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{-} $$
  decay producing  $${}^{137}\text{Ba} $$ .
  The parent nuclide is a major waste product of reactors and has chemistry similar to potassium and sodium, resulting in its concentration in your cells if ingested.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{55}^{137}{\text{Cs}}_{82}\to {}_{56}^{137}{\text{Ba}}_{81}+{\beta }^{-}+{\overline{\nu }}_{e} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${\beta }^{-} $$
  decay producing  $${}^{90}\text{Y} $$ .
  The parent nuclide is a major waste product of reactors and has chemistry similar to calcium, so that it is concentrated in bones if ingested ( $${}^{90}\text{Y} $$
  is also radioactive.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $$\alpha  $$
  decay producing  $${}^{228}\text{Ra} $$ .
  The parent nuclide is nearly 100% of the natural element and is found in gas lantern mantles and in metal alloys used in jets ( $${}^{228}\text{Ra} $$
  is also radioactive).
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $${}_{90}^{232}{\text{Th}}_{142}\to {}_{88}^{228}{\text{Ra}}_{140}+{}_{2}^{4}{\text{He}}_{2} $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $$\alpha  $$
  decay producing  $${}^{208}\text{Pb} $$ .
  The parent nuclide is in the decay series produced by  $${}^{232}\text{Th} $$ ,
  the only naturally occurring isotope of thorium.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 When an electron and positron annihilate, both their masses are destroyed, creating two equal energy photons to preserve momentum. (a) Confirm that the annihilation equation  $${e}^{+}+{e}^{-}\to \gamma +\gamma  $$
 ** conserves charge, electron family number, and total number of nucleons. To do this, identify the values of each before and after the annihilation. (b) Find the energy of each  $$\gamma  $$
  ray, assuming the electron and positron are initially nearly at rest. (c) Explain why the two  $$\gamma  $$
  rays travel in exactly opposite directions if the center of mass of the electron-positron system is initially at rest.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$\text{charge:}\left(+1\right)+\left(-1\right)=0;   \text{electron family number:} \left(+1\right)+\left(-1\right)=0;   A: 0+0=0 $$
 (b) 0.511 MeV
 
@@ -697,139 +776,185 @@ When an electron and positron annihilate, both their masses are destroyed, creat
 to conserve momentum, since initially there is zero momentum if the center of
 mass is initially at rest.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for  $$\alpha  $$
  decay given in the equation  $${}_{Z}^{A}{X}_{N}\to {}_{Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ .
  To do this, identify the values of each before and after the decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for  $${\beta }^{-} $$
  decay given in the equation  $${}_{Z}^{A}{X}_{N}\to {}_{Z+1}^{A}{\text{Y}}_{N-1}+{\beta }^{-}+{\overline{\nu }}_{e} $$ .
  To do this, identify the values of each before and after the decay.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$Z=\left(Z+1\right)-1;   A=A\text{;}   \text{efn : 0}=\left(+1\right)+\left(-1\right) $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for  $${\beta }^{-} $$
  decay given in the equation  $${}_{Z}^{A}{X}_{N}\to {}_{Z-1}^{A}{\text{Y}}_{N-1}+{\beta }^{-}+{\nu }_{e} $$ .
  To do this, identify the values of each before and after the decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for electron capture given in the equation  $${}_{Z}^{A}{X}_{N}+{e}^{-}\to {}_{Z-1}^{A}{\text{Y}}_{N+1}+{\nu }_{e} $$ .
  To do this, identify the values of each before and after the capture.
 
-</div>
+:::
+
 <div class="solution">
 <div class="equation" >
  $$Z-1=Z-1;   A=A;   \text{efn :}\left(+1\right)=\left(+1\right) $$
 </div>
+
 </div>
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A rare decay mode has been observed in which  $${}^{222}\text{Ra} $$
  emits a  $${}^{14}\text{C}$$  nucleus. (a) The decay equation is  $${}^{222}\text{Ra}{\to }^{A}{\text{X+}}^{14}\text{C} $$ .
  Identify the nuclide  $${}^{A}\text{X} $$ .
  (b) Find the energy emitted in the decay. The mass of  $${}^{222}\text{Ra} $$
  is 222.015353 u.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete  $$\alpha  $$
  decay equation for  $${}^{226}\text{Ra} $$.
 
 (b) Find the energy released in the decay.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $${}_{88}^{226}{\text{Ra}}_{138}\to {}_{86}^{222}{\text{Rn}}_{136}+{}_{2}^{4}{\text{He}}_{2} $$
 (b) 4.87 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete  $$\alpha  $$
  decay equation for  $${}^{249}\text{Cf} $$.
 
 (b) Find the energy released in the decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete  $${\beta }^{-} $$
  decay equation for the neutron. (b) Find the energy released in the decay.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$\text{n}\to \text{p}+{\beta }^{-}+{\overline{\nu }}_{e} $$
 (b) ) 0.783 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete  $${\beta }^{-} $$
  decay equation for  $${}^{90}\text{Sr} $$ ,
  a major waste product of nuclear reactors. (b) Find the energy released in the decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the energy released in the  $${\beta }^{+} $$
  decay of  $${}^{22}\text{Na} $$ ,
  the equation for which is given in the text. The masses of  $${}^{22}\text{Na} $$
  and  $${}^{22}\text{Ne} $$
  are 21.994434 and 21.991383 u, respectively.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 1.82 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete  $${\beta }^{+} $$
  decay equation for  $${}^{11}\text{C} $$.
 
 (b) Calculate the energy released in the decay. The masses of $${}^{11}\text{C} $$ and $${}^{11}\text{B} $$ are 11.011433 and 11.009305 u, respectively.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the energy released in the  $$\alpha  $$
  decay of  $${}^{238}\text{U} $$.
 
@@ -839,8 +964,10 @@ the decay? The mass of $${}^{234}\text{Th} $$ is 234.043593 u.
 (c) Although the fractional mass loss is large for a single nucleus, it is
 difficult to observe for an entire macroscopic sample of uranium. Why is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 4.274 MeV
 
 (b)  $$ 1.927 \times 10^{-5} $$
@@ -849,32 +976,42 @@ nuclei decay on human timescales; therefore, although those nuclei that decay
 lose a noticeable fraction of their mass, the change in the total mass of the
 sample is not detectable for a macroscopic sample.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete reaction equation for electron capture by  $${}^{7}\text{Be} \text{.}  $$
 (b) Calculate the energy released.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the complete reaction equation for electron capture by  $${}^{15}\text{O} $$.
 
 (b) Calculate the energy released.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $${}_{8}^{15}{O}_{7}+{e}^{-}\to {}_{7}^{15}{N}_{8}+{\nu }_{e} $$
 (b) 2.754 MeV
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -938,4 +1075,4 @@ and simultaneously emits a neutrino
 electron capture equation
 : equation representing the electron capture
 
-</div>
+:::

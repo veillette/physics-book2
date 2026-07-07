@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the pattern obtained from diffraction grating.
 * Explain diffraction grating effects.
-</div>
+
+:::
 
 An interesting thing happens if you pass light through a large number of evenly
 spaced parallel slits, called a **diffraction grating**. An interference pattern
@@ -78,20 +79,24 @@ where fibers are designed to provide optimum performance at specific
 wavelengths. A range of diffraction gratings are available for selecting
 specific wavelengths for such use.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Rainbows on a CD
 </div>
+
 The spacing  $$d $$
  of the grooves in a CD or DVD can be well determined by using a laser and the equation  $$d \sin \theta =m \lambda, \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,}\dots  $$ .
  However, we can still make a good estimate of this spacing by using white light and the rainbow of colors that comes from the interference. Reflect sunlight from a CD onto a wall and use your best judgment of the location of a strongly diffracted color to find the separation  $$d $$.
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Typical Diffraction Grating Effects
 </div>
+
 Diffraction gratings with 10 000 lines per centimeter are readily available. Suppose you have one, and you send a beam of white light through it to a screen 2.00 m away. (a) Find the angles for the first-order diffraction of the shortest and longest wavelengths of visible light (380 and 760 nm). (b) What is the distance between the ends of the rainbow of visible light produced on the screen for first-order interference? (See [[Figure 5]](#Figure5).)
 
 ![The image shows a vertical black bar at the left labeled grating. From the midpoint of this bar four lines fan out to the right, with two lines angled above the horizontal centerline and two lines angled symmetrically below the horizontal centerline. These four lines hit a vertical black line to the right that is labeled screen. On the screen between the two upper lines is a rainbow region, with violet nearer the centerline and red farther from the centerline. The same is true for the two lower lines, except that they are below the centerline instead of above. The distance from the centerline to the upper violet zone is labeled y sub v equals question mark and the distance from the centerline to the upper red zone is labeled y sub r equals question mark. The angle between the centerline and the line leading to the upper violet zone is labeled theta V equals question mark and the angle between the line leading to the upper red zone is labeled theta R equals question mark. The distance between the grating and the screen is labeled x equals two point zero zero meters.](../resources/Figure_27_04_05.jpg 'The diffraction grating considered in this example produces a rainbow of colors on a screen a distance ( x=2.00m ) from the grating. The distances along the screen are measured perpendicular to the ( x ) -direction. In other words, the rainbow pattern extends out of the page.')
@@ -104,6 +109,7 @@ The angles can be found using the equation
 <div class="equation" >
  $$d \sin \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$
 </div>
+
 once a value for the slit spacing  $$d $$
  has been determined. Since there are 10 000 lines per centimeter, each line is separated by  $$1/10 000 $$
  of a centimeter. Once the angles are found, the distances along the screen can be found using simple trigonometry.
@@ -117,6 +123,7 @@ red (760 nm). Solving the equation $$d\sin {\theta }_{\text{V}}=\mathrm{m\lambda
 <div class="equation" >
  $$\sin {\theta }_{\text{V}}=\frac{ m\lambda_{\text{V}}}{d}\text{,} $$
 </div>
+
 where  $$m=1 $$
  for first order and  $${\lambda }_{\text{V}}=380 \text{nm}= 3.80 \times 10^{-7}  \text{m} $$ .
  Substituting these values gives
@@ -124,21 +131,25 @@ where  $$m=1 $$
 <div class="equation" >
  $$\sin {\theta }_{\text{V}}=\frac{ 3.80 \times 10^{-7}  \text{m}}{ 1.00 \times 10^{-6}  \text{m}}=0.380\text{.} $$
 </div>
+
 Thus the angle  $${\theta }_{\text{V}} $$  is
 
 <div class="equation" >
  $${\theta }_{\text{V}}={\sin}^{-1}  0.380= 22.33º. $$
 </div>
+
 Similarly,
 
 <div class="equation" >
  $$\sin {\theta }_{\text{R}}=\frac{ 7.60 \times 10^{-7}  \text{m}}{ 1.00 \times 10^{-6}  \text{m}}. $$
 </div>
+
 Thus the angle  $${\theta }_{\text{R}} $$  is
 
 <div class="equation" >
  $${\theta }_{\text{R}}={\sin}^{-1}  0.760=49.46 \text{º.} $$
 </div>
+
 Notice that in both equations, we reported the results of these intermediate calculations to four significant figures to use with the calculation in part (b).
 
 **Solution for (b)**
@@ -149,16 +160,19 @@ for $${y}_{\text{V}} $$ and $${y}_{\text{R}} $$ . That is,
 <div class="equation" >
  $${y}_{\text{V}}=x \tan {\theta }_{\text{V}}=\left(2.00 m\right)\left(\tan 22.33\text{º}\right)=0.815 \text{m} $$
 </div>
+
 and
 
 <div class="equation" >
  $${y}_{\text{R}}=x \tan {\theta }_{\text{R}}=\left(2.00 \text{m}\right)\left(\tan 49.46\text{º}\right)=2.338 \text{m} \text{.}  $$
 </div>
+
 The distance between them is therefore
 
 <div class="equation" >
  $${y}_{\text{R}}-{y}_{\text{V}}=1.52 m. $$
 </div>
+
 **Discussion**
 
 The large distance between the red and violet ends of the rainbow produced from
@@ -168,7 +182,7 @@ dispersion), the more detail can be seen in a spectrum. This depends on the
 quality of the diffraction grating—it must be very precisely made in addition to
 having closely spaced lines.
 
-</div>
+:::
 
 ### Section Summary
 
@@ -182,62 +196,86 @@ having closely spaced lines.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the advantage of a diffraction grating over a double slit in dispersing light into a spectrum?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the advantages of a diffraction grating over a prism in dispersing light for spectral analysis?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can the lines in a diffraction grating be too close together to be useful as a spectroscopic tool for visible light? If so, what type of EM radiation would the grating be suitable for? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a beam of white light passes through a diffraction grating with vertical lines, the light is dispersed into rainbow colors on the right and left. If a glass prism disperses white light to the right into a rainbow, how does the sequence of colors compare with that produced on the right by a diffraction grating?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose pure-wavelength light falls on a diffraction grating. What happens to the interference pattern if the same light falls on a grating that has more lines per centimeter? What happens to the interference pattern if a longer-wavelength light falls on the same grating? Explain how these two effects are consistent in terms of the relationship of wavelength to the distance between slits.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose a feather appears green but has no green pigment. Explain in terms of diffraction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 It is possible that there is no minimum in the interference pattern of a single slit. Explain why. Is the same true of double slits and diffraction gratings?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A diffraction grating has 2000 lines per centimeter. At what angle will the first-order maximum be for 520-nm-wavelength green light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -280,15 +318,19 @@ $$\theta = \arcsin(0.104) = 5.97°$$
 
 The small angle (5.97°) for the first-order maximum indicates that the grating constant (5.00 μm) is about 10 times the wavelength (520 nm). Diffraction gratings with 2000 lines/cm are relatively coarse gratings. Finer gratings (e.g., 10,000 lines/cm) would produce larger diffraction angles and better spectral separation. The green wavelength (520 nm) falls in the middle of the visible spectrum. Higher orders (m = 2, 3, ...) would appear at larger angles: the second order at about 11.96° and the third at about 18.05°.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the angle for the third-order maximum for 580-nm-wavelength yellow light falling on a diffraction grating having 1500 lines per centimeter.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -327,15 +369,19 @@ $$\theta = \sin^{-1}(0.261) = 15.1°$$
 
 The third-order maximum appears at 15.1°. With a grating spacing of 6.67 μm (about 11.5 wavelengths), this grating can produce several orders of maxima. We can check: the maximum order would be m_max = d/λ = 6.67/0.580 ≈ 11.5, so up to 11 orders are theoretically possible (though higher orders become very dim and widely separated).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many lines per centimeter are there on a diffraction grating that gives a first-order maximum for 470-nm blue light at an angle of  $$ 25.0º $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -370,15 +416,19 @@ $$N = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{1.112 \times 10^{-6} \text{
 
 A grating with approximately 9000 lines/cm is a moderately fine diffraction grating. This spacing of about 1.11 μm (about 2.4 wavelengths of blue light) produces the first-order maximum at 25.0°, which is a convenient angle for observation. This is close to commercial gratings often available with 5000-10,000 lines/cm. Higher orders would appear at larger angles: the second order at about 57.1° and the third order at about 80.8°, with a maximum possible order of m_max = d/λ ≈ 2.4, meaning only orders 0, 1, and 2 would be fully observable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the distance between lines on a diffraction grating that produces a second-order maximum for 760-nm red light at an angle of  $$ 60.0º $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -409,16 +459,20 @@ We can verify this makes sense: if the second-order maximum is at 60°, the firs
 
 For this grating, the maximum order observable would be: m_max = d/λ = 1.76/0.76 ≈ 2.3, so only second-order maxima (and possibly a dim third-order) would be observable before reaching 90°.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the wavelength of light that has its second-order maximum at  $$ 45.0º $$
  when falling on a diffraction grating that has 5000 lines per centimeter.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -459,11 +513,14 @@ The wavelength of 707 nm falls in the red region of the visible spectrum (near t
 
 We can verify this is reasonable: the first-order maximum would appear at an angle where sin θ₁ = λ/d = 707/2000 = 0.354, giving θ₁ = 20.7°. The third-order would be at sin θ₃ = 3λ/d = 2121/2000 = 1.06 > 1, which is impossible, so no third-order maximum exists. This grating can show at most the zeroth, first, and second orders for this wavelength.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An electric current through hydrogen gas produces several distinct wavelengths of visible light. What are the wavelengths of the hydrogen spectrum, if they form first-order maxima at angles of  $$ 24.2º $$ ,
   $$ 25.7º $$ ,
   $$ 29.1º $$ ,
@@ -471,8 +528,9 @@ An electric current through hydrogen gas produces several distinct wavelengths o
  when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -526,15 +584,19 @@ These wavelengths correspond to prominent lines in the hydrogen Balmer series:
 
 The H-alpha line at 656 nm is the brightest and most famous line in the visible hydrogen spectrum. These emission lines result from electrons transitioning from higher energy levels (n = 3, 4, 5, 6) down to n = 2. This spectral "fingerprint" is characteristic of hydrogen and is observed in stars, nebulae, and laboratory hydrogen discharge tubes. The precision of diffraction gratings makes them invaluable tools for spectroscopy and identifying elements.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) What do the four angles in the above problem become if a 5000-line-per-centimeter diffraction grating is used? (b) Using this grating, what would the angles be for the second-order maxima? (c) Discuss the relationship between integral reductions in lines per centimeter and the new angles of various order maxima.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -616,15 +678,19 @@ In this case, halving the line density (10,000 → 5000 lines/cm) means doubling
 
 This scaling relationship is very useful in diffraction grating design. It shows that using a coarser grating with higher-order maxima can produce the same angular positions as using a finer grating with lower-order maxima. However, higher orders are generally dimmer and may suffer from overlapping spectra from different orders. The 5000 lines/cm grating produces more widely spaced orders, making them easier to observe separately, while the 10,000 lines/cm grating provides better resolution within each order.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the maximum number of lines per centimeter a diffraction grating can have and produce a complete first-order spectrum for visible light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -660,17 +726,21 @@ Let's verify: with d = 760 nm:
 
 This grating would spread the complete visible spectrum from 30° to 90° in first order. Commercial gratings often have fewer lines/cm (~5000-10,000) to ensure good visibility of the complete spectrum at more convenient angles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The yellow light from a sodium vapor lamp *seems* to be of pure wavelength, but it produces two first-order maxima at  $$ 36.093 ^\circ $$
  and  $$ 36.129 ^\circ $$
  when projected on a 10 000 line per centimeter diffraction grating. What are the two wavelengths to an accuracy of 0.1 nm?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -720,16 +790,20 @@ The doublet arises from the fine structure of sodium's electron energy levels: t
 
 This problem demonstrates the high resolving power of diffraction gratings. The angular separation is only 0.036°, yet the grating cleanly separates the two lines. The ability to resolve such closely spaced wavelengths is crucial for spectroscopic analysis in astronomy, chemistry, and physics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the spacing between structures in a feather that acts as a reflection grating, given that they produce a first-order maximum for 525-nm light at a  $$ 30.0º $$
  angle?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -760,15 +834,19 @@ The iridescent colors in peacock feathers, hummingbird feathers, and butterfly w
 
 This biological "engineering" produces brilliant colors without pigments - the colors are purely structural and result from wave interference. These colors often don't fade over time like pigment-based colors do, which is why museum specimens of iridescent birds and butterflies remain colorful for centuries.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Structures on a bird feather act like a reflection grating having 8000 lines per centimeter. What is the angle of the first-order maximum for 600-nm light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -809,16 +887,20 @@ The first-order maximum for orange-red light (600 nm) appears at 28.7° from the
 
 Birds with iridescent feathers (like hummingbirds, peacocks, and starlings) have microscopic structures on their feather barbules that act as natural diffraction gratings. As the bird moves and the viewing angle changes, different wavelengths satisfy the constructive interference condition, causing the brilliant color shifts characteristic of iridescence. For this feather, shorter wavelengths (blue, violet) would appear at smaller angles, while longer wavelengths (red) would appear at larger angles, creating a rainbow effect with changing perspective.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An opal such as that shown in [[Figure 2]](#Figure2) acts like a reflection grating with rows separated by about  $$8 \text{μm} $$ .
  If the opal is illuminated normally, (a) at what angle will red light be seen and (b) at what angle will blue light be seen?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -858,15 +940,19 @@ The complete visible spectrum would spread from about 3° (violet) to 5° (red).
 
 Opals contain tiny silica spheres arranged in regular patterns, creating these natural diffraction gratings. The spacing of 8 μm is roughly 10-20 wavelengths of visible light, perfect for producing brilliant iridescent colors.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angle does a diffraction grating produces a second-order maximum for light having a first-order maximum at  $$ 20.0º $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -912,15 +998,19 @@ The second-order maximum appears at 43.2°, more than twice the first-order angl
 
 This result is general: for any diffraction grating, if the first-order maximum is at angle θ₁, the second-order maximum is at θ₂ = sin⁻¹(2 sin θ₁). Notice that the second-order angle exists only if 2 sin θ₁ ≤ 1, which requires θ₁ ≤ 30°. Since 20° < 30°, the second-order maximum is observable. If θ₁ were greater than 30°, no second-order maximum would exist (consistent with our earlier proof).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that a diffraction grating cannot produce a second-order maximum for a given wavelength of light unless the first-order maximum is at an angle less than  $$ 30.0º $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -972,16 +1062,20 @@ This result has important practical implications for diffraction grating design.
 
 For example, if violet light (380 nm) produces its first maximum at 35°, the grating spacing is only about 600 nm, and no higher orders can be observed for visible light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a diffraction grating produces a first-order maximum for the shortest wavelength of visible light at  $$ 30.0º $$ ,
  at what angle will the first-order maximum be for the longest wavelength of visible light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1023,15 +1117,19 @@ Notice that the grating spacing d = 760 nm exactly equals the wavelength of red 
 
 This grating with d = 760 nm produces a complete visible spectrum spreading from 30° (violet) to 90° (red) in first order. The complete visible spectrum is compressed into a 60° angular range. This is actually the finest-spacing grating that can show the complete visible spectrum in first order - any finer and the red end would be cut off.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the maximum number of lines per centimeter a diffraction grating can have and produce a maximum for the smallest wavelength of visible light. (b) Would such a grating be useful for ultraviolet spectra? (c) For infrared spectra?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1091,15 +1189,19 @@ Since sin θ cannot exceed 1, **no first-order maximum exists** for 760 nm IR li
 
 This problem illustrates an important principle: gratings with very fine spacing (high line density) are excellent for short wavelengths (UV, violet) but useless for long wavelengths (IR, red). The ideal grating depends on the wavelength range of interest. For IR spectroscopy, gratings with much wider spacing (fewer lines/cm) are needed.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Show that a 30 000-line-per-centimeter grating will not produce a maximum for visible light. (b) What is the longest wavelength for which it does produce a first-order maximum? (c) What is the greatest number of lines per centimeter a diffraction grating can have and produce a complete second-order spectrum for visible light?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1167,15 +1269,19 @@ For part (c), the result shows that to observe a complete second-order visible s
 
 Practical commercial gratings typically have 300-10,000 lines/cm, comfortably within the range to show complete visible spectra in both first and second orders.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A He–Ne laser beam is reflected from the surface of a CD onto a wall. The brightest spot is the reflected beam at an angle equal to the angle of incidence. However, fringes are also observed. If the wall is 1.50 m from the CD, and the first fringe is 0.600 m from the central maximum, what is the spacing of grooves on the CD?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1226,19 +1332,23 @@ The groove spacing of 1.71 μm is typical for CDs. The actual standard spacing f
 
 This demonstrates how CDs can be used as inexpensive diffraction gratings for educational demonstrations. The regular spacing of pits and lands on a CD creates a periodic structure that diffracts laser light, producing the colorful iridescent patterns you see when white light reflects from a CD surface.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The analysis shown in the figure below also applies to diffraction gratings with lines separated by a distance  $$d $$ .
  What is the distance between fringes produced by a diffraction grating having 125 lines per centimeter for 600-nm light, if the screen is 1.50 m away?
 
 ![The figure shows a schematic of a double slit experiment. A double slit is at the left and a screen is at the right. The slits are separated by a distance d. From the midpoint between the slits a horizontal line labeled x extends to the screen. From the same point, a line angled upward at an angle theta above the horizontal also extends to the screen. The distance between where the horizontal line hits the screen and where the angled line hits the screen is marked y, and the distance between adjacent fringes is given by delta y, which equals x times lambda over d](../resources/Figure_27_04_06.jpg 'The distance between adjacent fringes is ( \\Delta y=x \\lambda/d ), assuming the slit separation ( d ) is large compared with ( \\lambda ).')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1282,11 +1392,14 @@ The fringe spacing of 1.13 cm is quite large and easily observable. This is beca
 
 With adjacent fringes separated by over 1 cm at a distance of 1.5 m, this pattern would be very easy to observe and measure. Finer gratings (more lines/cm) would produce smaller fringe spacings. For example, a 1000 lines/cm grating would have fringes separated by only 1.4 mm at the same distance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Red light of wavelength of 700 nm falls on a double slit separated by 400 nm. (
@@ -1294,8 +1407,9 @@ a) At what angle is the first-order maximum in the diffraction pattern? (b) What
 is unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1342,19 +1456,23 @@ In this problem, d = 400 nm < λ = 700 nm. When the slit separation is smaller t
 
 This problem illustrates an important physical limitation: you cannot create interference patterns of a certain order if the wavelength exceeds the slit separation. In practical terms, attempting this experiment would result in only seeing a broad central diffraction maximum with no side fringes - essentially no interference pattern. This is why diffraction gratings and double-slit apparatus must have appropriate spacing for the wavelength being studied.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) What visible wavelength has its fourth-order maximum at an angle of $$25.0 \text{º} $$ when projected on a 25 000-line-per-centimeter diffraction
 grating? (b) What is unreasonable about this result? (c) Which assumptions are
 unreasonable or inconsistent?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1428,11 +1546,14 @@ A grating with 25,000 lines/cm (d = 400 nm) is at the very edge of what can be m
 
 This problem highlights the importance of matching grating spacing to wavelength. The grating spacing should be several times larger than the wavelength of interest to produce observable higher-order maxima. A grating with d = 400 nm is appropriate for ultraviolet or extreme ultraviolet radiation (wavelengths < 100 nm), not for visible light. For visible light and fourth-order maxima, a grating with d ≥ 4 × 760 nm = 3040 nm (corresponding to ~3300 lines/cm or fewer) would be more appropriate.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a spectrometer based on a diffraction grating. Construct a problem in
@@ -1443,10 +1564,12 @@ the diffraction grating, and the distance from the grating to the screen or
 detector. Discuss the practicality of the device in terms of being able to
 discern between wavelengths of interest.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1457,4 +1580,4 @@ satisfied, where $$d $$ is the distance between slits in the grating, $$\lambda 
 diffraction grating
 : a large number of evenly spaced parallel slits
 
-</div>
+:::

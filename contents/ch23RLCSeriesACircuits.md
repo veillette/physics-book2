@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 12
 chapterNumber: 23
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Calculate the impedance, phase angle, resonant frequency, power, power factor, voltage, and/or current in a RLC series circuit.
 * Draw the circuit diagram for an RLC series circuit.
 * Explain the significance of the resonant frequency.
-</div>
+
+:::
 
 ### Impedance
 
@@ -28,8 +29,7 @@ are the basis of many applications, such as radio tuners.
 {: #Figure1}
 
 The combined effect of resistance $$R $$ , inductive reactance $${X}_{L} $$ ,
-and capacitive reactance $${X}_{C} $$ is defined to be **impedance**{: class="
-term"}, an AC analogue to resistance in a DC circuit. Current, voltage, and
+and capacitive reactance $${X}_{C} $$ is defined to be **impedance**{: class=" term"}, an AC analogue to resistance in a DC circuit. Current, voltage, and
 impedance in an _RLC_ circuit are related by an AC version of Ohm’s law:
 
 <div class="equation" >
@@ -72,7 +72,7 @@ where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
 definitions
 from [Reactance, Inductive and Capacitive](../contents/ch23ReactanceInductiveAndCapacitive),
-we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_{0}R $$ , $${V}_{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding <div class="equation" > $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
+we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_{0}R $$ , $${V}_{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding &lt;div class="equation" &gt; $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
 </div>
 
 $${I}_{0} $$ cancels to yield an expression for $$Z $$ \:
@@ -88,10 +88,12 @@ and for those without a capacitor, take $${X}_{C}=0 $$.
 ![The figure shows graphs showing the relationships of the voltages in an RLC circuit to the current. It has five graphs on the left and two graphs on the right. The first graph on the right is for current I versus time t. Current is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The second graph is on the right is for voltage V R versus time t. Voltage V R is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The third graph is on the right is for voltage V L versus time t. Voltage V L is plotted along Y axis and time is along X axis. The curve is a smooth progressive cosine wave. The fourth graph is on the right is for voltage V C versus time t. Voltage V C is plotted along Y axis and time t is along X axis. The curve is a smooth progressive cosine wave starting from negative Y axis. The fifth graph shows the voltage V verses time t for the R L C circuit. Voltage V is plotted along Y axis and time t is along X axis. The curve is a smooth progressive sine wave starting from a point near to origin on negative X axis. The first and the fifth graphs are again shown on the right and their amplitudes and phases compared. The current graph is shown to have a lesser amplitude.](../resources/Figure_23_12_02.jpg 'This graph shows the relationships of the voltages in an RLC circuit to the current. The voltages across the circuit elements add to equal the voltage of the source, which is seen to be out of phase with the current.')
 {: #Figure2}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Impedance and Current
 </div>
+
 An *RLC* series circuit has a  $$40.0 \text{Ω} $$
  resistor, a 3.00 mH inductor, and a  $$5.00 \text{μF} $$
  capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for  $$L $$
@@ -117,6 +119,7 @@ yields
 <div class="equation" >
  $$\begin{array}{lll}Z& =& \sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\\ & =& \sqrt{ {\left(  40.0 \Omega  \right)}^{2}+{\left(  1.13 \Omega -531 \Omega  \right)}^{2}}\\ & =& 531 \Omega \text{ at} 60. \text{Hz}\text{.}\end{array} $$
 </div>
+
 Similarly, at 10.0 kHz,  $${X}_{L}=188 \Omega  $$
  and  $${X}_{C}= 3.18 \Omega  $$ ,
  so that
@@ -124,6 +127,7 @@ Similarly, at 10.0 kHz,  $${X}_{L}=188 \Omega  $$
 <div class="equation" >
  $$\begin{array}{lll}Z& =& \sqrt{ {\left(  40.0 \Omega  \right)}^{2}+{\left( 188 \Omega  -3.18 \Omega  \right)}^{2}}\\ & =& 190 \Omega \text{ at } 10.0 \text{kHz} \text{.} \end{array} $$
 </div>
+
 **Discussion for (a)**
 
 In both cases, the result is nearly the same as the largest value, and the
@@ -151,7 +155,7 @@ different from that found for the inductor alone
 in [[Example 1]](../contents/ch23ReactanceInductiveAndCapacitive#Example1). The
 inductor dominates at high frequency.
 
-</div>
+:::
 
 ### Resonance in *RLC* Series AC Circuits
 
@@ -206,10 +210,12 @@ would not be as selective in a radio receiver, for example.
 ![The figure describes a graph of current I versus frequency f. Current I r m s is plotted along Y axis and frequency f is plotted along X axis. Two curves are shown. The upper curve is for small resistance and lower curve is for large resistance. Both the curves have a smooth rise and a fall. The peaks are marked for frequency f zero. The curve for smaller resistance has a higher value of peak than the curve for large resistance.](../resources/Figure_23_12_03.jpg "A graph of current versus frequency for two RLC series circuits differing only in the amount of resistance. Both have a resonance at \( f_{0} \) , but that for the higher resistance is lower and broader. The driving AC voltage source has a fixed amplitude \( V_{0} \) .")
 {: #Figure3}
 
-<div id="Example2" class="example" markdown="1">
+::: example {"id":"Example2","class":"example"}
+
 <div class="title">
 Calculating Resonant Frequency and Current
 </div>
+
 For the same *RLC* series circuit having a  $$40.0 \text{Ω} $$
  resistor, a 3.00 mH inductor, and a  $$5.00 \text{μF} $$
  capacitor: (a) Find the resonant frequency. (b) Calculate  $${I}_{\text{rms}} $$
@@ -229,6 +235,7 @@ $${f}_{0} $$ in $${f}_{0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$ yields
 <div class="equation" >
  $$\begin{array}{lll}{f}_{0}& =& \frac{1}{2\pi \sqrt{\text{LC}}}\\ & =& \frac{1}{2\pi \sqrt{\left( 3.00 \times 10^{-3}  \text{H}\right)\left( 5.00 \times 10^{-6}  \text{F}\right)}}= 1.30 \text{kHz}\text{.}\end{array} $$
 </div>
+
 **Discussion for (a)**
 
 We see that the resonant frequency is between 60.0 Hz and 10.0 kHz, the two
@@ -244,12 +251,13 @@ and cancel, so that the impedance equals the resistance alone. Thus,
 <div class="equation" >
  $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{ 40.0  \Omega }= 3.00 \text{A} \text{.}  $$
 </div>
+
 **Discussion for (b)**
 
 At resonance, the current is greater than at the higher and lower frequencies
 considered for the same circuit in the preceding example.
 
-</div>
+:::
 
 ### Power in *RLC* Series AC Circuits
 
@@ -279,10 +287,12 @@ Thus $$\cos \varphi $$ is called the **power factor**, which can range from 0 to
 1. Power factors near 1 are desirable when designing an efficient motor, for
    example. At the resonant frequency, $$\cos \varphi =1 $$.
 
-<div id="Example3" class="example" markdown="1">
+::: example {"id":"Example3","class":"example"}
+
 <div class="title">
 Calculating the Power Factor and Power
 </div>
+
 For the same *RLC* series circuit having a  $$40.0 \Omega  $$
  resistor, a 3.00 mH inductor, a  $$5.00 \text{μF} $$
  capacitor, and a voltage source with a  $${V}_{\text{rms}} $$
@@ -296,17 +306,20 @@ The power factor at 60.0 Hz is found from
 <div class="equation" >
  $$\cos \varphi =\frac{R}{Z}\text{.} $$
 </div>
+
 We know  $$Z= 531 \text{ Ω} $$
  from [[Example 1]](#Example1), so that
 
 <div class="equation" >
  $$\cos \varphi =\frac{ 40.0 \Omega }{531 \Omega }=0.0753 \text{at}  60.0 \text{Hz} \text{.}  $$
 </div>
+
 This small value indicates the voltage and current are significantly out of phase. In fact, the phase angle is
 
 <div class="equation" >
  $$\varphi ={\cos}^{-1}  0.0753=85.7 \text{º at 60.0 Hz.} $$
 </div>
+
 **Discussion for (a)**
 
 The phase angle is close to $$90 ^\circ $$ , consistent with the fact that the
@@ -320,12 +333,14 @@ The average power at 60.0 Hz is
 <div class="equation" >
  $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}}\cos \varphi . $$
 </div>
+
  $${I}_{\text{rms}} $$
  was found to be 0.226 A in [[Example 1]](#Example1). Entering the known values gives
 
 <div class="equation" >
  $${P}_{\text{ave}}=\left( 0.226 \text{A}\right)\left(120 \text{V}\right)\left( 0.0753\right)= 2.04 \text{W at 60.0 Hz.} $$
 </div>
+
 **Strategy and Solution for (c)**
 
 At the resonant frequency, we know $$\cos \varphi =1 $$ , and $${I}_{\text{rms}} $$ was found to be 3.00 A in [[Example 2]](#Example2). Thus,
@@ -337,7 +352,7 @@ $${P}_{\text{ave}}=\left( 3.00 \text{A}\right)\left(120 \text{V}\right)\left( 1\
 Both the current and the power factor are greater at resonance, producing
 significantly greater power than at higher and lower frequencies.
 
-</div>
+:::
 
 Power delivered to an *RLC* series AC circuit is dissipated by the resistance
 alone. The inductor and capacitor have energy input and output but do not
@@ -372,16 +387,19 @@ mass on a spring.
 ![The figure describes four stages of an L C oscillation circuit compared to a mass oscillating on a spring. Part a of the figure shows a mass attached to a horizontal spring. The spring is attached to a fixed support on the left. The mass is at rest as shown by velocity v equals zero. The energy of the spring is shown as potential energy. This is compared with a circuit containing a capacitor C and inductor L connected together. The energy is shown as stored in the electric field E of the capacitor between the plates. One plate is shown to have a negative polarity and other plate is shown to have a positive polarity. Part b of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The mass is shown to move horizontal toward the fixed support with velocity v. The energy here is stored as the kinetic energy of the spring. This is compared with a circuit containing a capacitor C and inductor L connected together. A current is shown in the circuit and energy is stored as magnetic field B in the inductor. Part c of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The spring is shown as not stretched and the energy is shown as potential energy of the spring. The mass is show to have displaced toward left. This is compared with a circuit containing a capacitor C and inductor L connected together. The energy is shown as stored in the electric field E of the capacitor between the plates. One plate is shown to have a negative polarity and other plate is shown to have a positive polarity. But the polarities are reverse of the first case in part a. Part d of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The mass is shown to move toward right with velocity v. the energy of the spring is kinetic energy. This is compared with a circuit containing a capacitor C and inductor L connected together. A current is shown in the circuit opposite to that in part b and energy is stored as magnetic field B in the inductor.](../resources/Figure_23_12_05.jpg "An LC circuit is analogous to a mass oscillating on a spring with no friction and no driving force. Energy moves back and forth between the inductor and capacitor, just as it moves from kinetic to potential in the mass-spring system.")
 {: #Figure5}
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Circuit Construction Kit (AC+DC), Virtual Lab
 </div>
+
 Build circuits with capacitors, inductors, resistors and AC or DC voltage sources, and inspect them using lab instruments such as voltmeters and ammeters.
 
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -391,6 +409,7 @@ Build circuits with capacitors, inductors, resistors and AC or DC voltage source
   <div class="equation" >
    $${I}_{0}=\frac{ {V}_{0}}{Z} \text{ or } {I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}, $$
   </div>
+
      where
    $${I}_{0} $$ is the peak current and
    $${V}_{0} $$ is the peak source voltage.
@@ -423,30 +442,40 @@ $$\cos \varphi $$ is called the power factor, which ranges from 0 to 1.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the resonant frequency of an AC circuit depend on the peak voltage of the AC source? Explain why or why not.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a motor with a power factor significantly less than 1. Explain why it would be better to improve the power factor as a method of improving the motor’s output, rather than to increase the voltage input.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RL* circuit consists of a  $$40.0 \Omega  $$
  resistor and a 3.00 mH inductor. (a) Find its impedance  $$Z $$
  at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
  with those found in [[Example 1]](#Example1) in which there was also a capacitor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$40.02 \Omega  $$
  at 60.0 Hz,  $$193 \Omega  $$  at 10.0 kHz
 
@@ -455,18 +484,23 @@ without the capacitor. The capacitor makes a large difference at low
 frequencies. At 10 kHz, with a capacitor $$Z=190 \Omega $$ , about the same as
 without the capacitor. The capacitor has a smaller effect at high frequencies.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RC* circuit consists of a  $$40.0 \Omega  $$
  resistor and a  $$5.00 \text{μF} $$
  capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
  with those found in [[Example 1]](#Example1), in which there was also an inductor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For an RC circuit, the impedance is given by $$Z=\sqrt{R^2 + X_C^2}$$, where the capacitive reactance is $$X_C = 1/(2\pi fC)$$. We calculate $$X_C$$ at each frequency and then find $$Z$$.
@@ -507,18 +541,23 @@ At low frequencies, capacitive reactance dominates both circuits, making their i
 
 The impedance of the RC circuit is 532 Ω at 60.0 Hz and 40.1 Ω at 10.0 kHz.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *LC* circuit consists of a  $$ 3.00 \text{mH} $$
  inductor and a  $$ 5.00\mu\text{F} $$
  capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of  $$Z $$
  with those found in [[Example 1]](#Example1) in which there was also a resistor.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$529 \Omega  $$
  at 60.0 Hz,  $$185 \Omega  $$  at 10.0 kHz
 
@@ -527,16 +566,21 @@ because at low frequency the capacitor dominates and at high frequency the
 inductor dominates. So in both cases the resistor makes little contribution to
 the total impedance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the resonant frequency of a 0.500 mH inductor connected to a  $$40.0 \text{μF} $$
  capacitor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The resonant frequency is given by $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. We substitute the given values for $$L$$ and $$C$$.
@@ -559,16 +603,21 @@ This frequency falls in the audio range and is typical for circuits in audio equ
 
 The resonant frequency is 1.13 kHz.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To receive AM radio, you want an *RLC* circuit that can be made to resonate at any frequency between 500 and 1650 kHz. This is accomplished with a fixed  $$1.00 \text{μH} $$
  inductor connected to a variable capacitor. What range of capacitance is needed?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. Solving for $$C$$: $$C = \frac{1}{4\pi^2 f_0^2 L}$$. To cover the frequency range, we need maximum capacitance at the lowest frequency and minimum capacitance at the highest frequency.
@@ -603,15 +652,20 @@ Variable capacitors in AM radios typically use rotating plates to adjust capacit
 
 The capacitance must range from 9.30 nF to 101 nF.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and capacitors ranging from 1.00 pF to 0.100 F. What is the range of resonant frequencies that can be achieved from combinations of a single inductor and a single capacitor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. To find the maximum frequency, use the smallest values of $$L$$ and $$C$$. To find the minimum frequency, use the largest values of $$L$$ and $$C$$.
@@ -646,15 +700,20 @@ This enormous range covers everything from very slow oscillations (less than onc
 
 The range of resonant frequencies is from 0.159 Hz to 5.03 GHz.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What capacitance do you need to produce a resonant frequency of 1.00 GHz, when using an 8.00 nH inductor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the resonant frequency formula $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$C$$.
@@ -685,16 +744,21 @@ This very small capacitance is typical for high-frequency circuits operating in 
 
 The required capacitance is 3.17 pF.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What inductance do you need to produce a resonant frequency of 60.0 Hz, when using a  $$2.00 \mu\text{F} $$
  capacitor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use the resonant frequency formula $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$L$$.
@@ -728,15 +792,20 @@ This is a fairly large inductance, which makes sense given the low frequency. Po
 
 The required inductance is 3.52 H.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The lowest frequency in the FM radio band is 88.0 MHz. (a) What inductance is needed to produce this resonant frequency if it is connected to a 2.50 pF capacitor? (b) The capacitor is variable, to allow the resonant frequency to be adjusted to as high as 108 MHz. What must the capacitance be at this frequency?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 For part (a), we use $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$L$$. For part (b), we use the same formula with the inductance found in part (a) and solve for $$C$$ at the new frequency.
@@ -779,11 +848,14 @@ FM radio receivers use a variable capacitor to tune across the FM band. The capa
 
 (a) The required inductance is 1.31 μH; (b) the capacitance must be 1.66 pF at 108 MHz.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RLC* series circuit has a  $$\mathrm{2.50 \Omega } $$
  resistor, a  $$\mathrm{100 \mu H} $$
  inductor, and an  $$\mathrm{80.0 \mu F} $$
@@ -792,8 +864,10 @@ An *RLC* series circuit has a  $$\mathrm{2.50 \Omega } $$
  at each frequency? (d) What is the resonant frequency of the circuit? (e) What is  $${I}_{\text{rms}} $$
  at resonance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/(2\pi fC)$$. Current is found from $$I_{\text{rms}} = V_{\text{rms}}/Z$$, and resonant frequency from $$f_0 = 1/(2\pi\sqrt{LC})$$.
@@ -858,11 +932,14 @@ The current is maximum at resonance, as expected. The capacitor dominates at 120
 
 (a) 16.7 Ω at 120 Hz; (b) 3.71 Ω at 5.00 kHz; (c) 0.335 A at 120 Hz, 1.51 A at 5.00 kHz; (d) 1.78 kHz; (e) 2.24 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  resistor, a  $$150 \mu\text{H} $$
  inductor, and a 25.0 nF capacitor. (a) Find the circuit's impedance at 500 Hz. (b) Find the circuit's impedance at 7.50 kHz. (c) If the voltage source has  $${V}_{\text{rms}}=408 \text{V} $$ ,
@@ -870,8 +947,10 @@ An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  at each frequency? (d) What is the resonant frequency of the circuit? (e) What is  $${I}_{\text{rms}} $$
  at resonance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/(2\pi fC)$$. Current is found from $$I_{\text{rms}} = V_{\text{rms}}/Z$$, and resonant frequency from $$f_0 = 1/(2\pi\sqrt{LC})$$.
@@ -946,11 +1025,14 @@ At 500 Hz (well below resonance), the capacitive reactance dominates and the imp
 
 (a) 12.8 kΩ at 500 Hz; (b) 1.31 kΩ at 7.50 kHz; (c) 32.0 mA at 500 Hz, 312 mA at 7.50 kHz; (d) 82.2 kHz; (e) 0.408 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RLC* series circuit has a  $$2.50 \Omega $$ resistor, a $$100 \mu\text{H} $$
  inductor, and an  $$80.0 \mu\text{F} $$ capacitor.
 (a) Find the power factor at  $$f=120 \text{Hz} $$ .
@@ -958,8 +1040,10 @@ An *RLC* series circuit has a  $$2.50 \Omega $$ resistor, a $$100 \mu\text{H} $$
 (c) What is the average power at 120 Hz?
 (d) Find the average power at the circuit's resonant frequency.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The power factor is $$\cos\varphi = R/Z$$, and average power is $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi$$. We use results from the previous problem where $$Z = 16.7 \Omega$$ at 120 Hz, $$I_{\text{rms}} = 0.335 \text{ A}$$, $$V_{\text{rms}} = 5.60 \text{ V}$$, and $$f_0 = 1.78 \text{ kHz}$$.
@@ -998,18 +1082,23 @@ At 120 Hz, the large phase angle (81.4°) indicates voltage and current are near
 
 (a) Power factor is 0.150; (b) phase angle is 81.4°; (c) average power is 0.281 W at 120 Hz; (d) average power is 12.5 W at resonance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  resistor, a  $$150 \mu\text{H} $$
  inductor, and a 25.0 nF capacitor. (a) Find the power factor at  $$f=7.50 \text{kHz} $$ .
  (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit's resonant frequency.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 The power factor is $$\cos\varphi = R/Z$$, and average power is $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = I_{\text{rms}}^2 R$$. From the previous problem, at 7.50 kHz we have $$Z = 1.31 \text{ k}\Omega$$, $$I_{\text{rms}} = 312 \text{ mA}$$, $$V_{\text{rms}} = 408 \text{ V}$$, and $$f_0 = 82.2 \text{ kHz}$$.
@@ -1056,18 +1145,23 @@ At 7.50 kHz, which is below the resonant frequency of 82.2 kHz, the circuit is c
 
 (a) Power factor is 0.763; (b) phase angle is 40.3°; (c) average power is 97.1 W at 7.50 kHz; (d) average power is 166 W at resonance.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An *RLC* series circuit has a  $$200 \Omega  $$
  resistor and a 25.0 mH inductor. At 8000 Hz, the phase angle is  $$45.0\text{º} $$ .
  (a) What is the impedance? (b) Find the circuit's capacitance. (c) If  $${V}_{\text{rms}}=408 \text{V} $$
  is applied, what is the average power supplied?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use $$\cos\varphi = R/Z$$ to find impedance. Then from $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ we can find the difference $$(X_L - X_C)$$, and knowing $$X_L$$ we can find $$X_C$$ and hence $$C$$.
@@ -1128,15 +1222,20 @@ The 45° phase angle indicates equal contributions from resistance and net react
 
 (a) The impedance is 283 Ω; (b) the capacitance is 18.9 nF; (c) the average power is 416 W.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Referring to [[Example 3]](#Example3), find the average power at 10.0 kHz.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 From [[Example 3]](#Example3), the circuit has $$R = 40.0 \Omega$$, $$L = 3.00 \text{ mH}$$, $$C = 5.00 \text{ μF}$$, and $$V_{\text{rms}} = 120 \text{ V}$$. From [[Example 1]](#Example1), at 10.0 kHz we have $$Z = 190 \Omega$$ and $$I_{\text{rms}} = 0.633 \text{ A}$$. We use $$P_{\text{ave}} = I_{\text{rms}}^2 R$$ to find the average power.
@@ -1169,10 +1268,12 @@ At 10.0 kHz, the circuit is well above its resonant frequency of 1.30 kHz (from 
 
 The average power at 10.0 kHz is 16.0 W.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1194,4 +1295,4 @@ power factor
 theoretical maximum of the circuit due to voltage and current being out of
 phase; calculated by $$\cos \varphi $$
 
-</div>
+:::

@@ -4,14 +4,15 @@ layout: page
 sectionNumber: 3
 chapterNumber: 30
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the mysteries of atomic spectra.
 * Explain Bohr’s theory of the hydrogen atom.
 * Explain Bohr’s planetary model of the atom.
 * Illustrate energy state using the energy-level diagram.
 * Describe the triumphs and limits of Bohr’s theory.
-</div>
+
+:::
 
 The great Danish physicist Niels Bohr (1885–1962) made immediate use of
 Rutherford’s planetary model of the atom. ([[Figure 1]](#Figure1)). Bohr became
@@ -89,10 +90,12 @@ was missing.
 ![The figure shows three horizontal lines at small distances from each other. Between the two lower lines, the Lyman series, with four vertical red bands in compact form, is shown. The value of the constant n sub f is 1 and the wavelengths are ninety-one nanometers to one hundred nanometers. The Balmer series is shown to the right side of this series. The value of the constant n sub f is two, and the range of wavelengths is from three hundred sixty five to six hundred fifty six nanometers. At the right side of this, the Paschen series bands are shown. The value of the constant n sub f is three, and the range of the wavelengths is from eight hundred twenty nanometers to one thousand eight hundred and seventy five nanometers.](../resources/Figure_30_03_03.jpg 'A schematic of the hydrogen spectrum shows several series named for those who contributed most to their determination. Part of the Balmer series is in the visible spectrum, while the Lyman series is entirely in the UV, and the Paschen series and others are in the IR. Values of ( n_{f} ) and ( n_{f} ) are shown for some of the lines.')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Wave Interference of a Hydrogen Line
 </div>
+
 What is the distance between the slits of a grating that produces a first-order maximum for the second Balmer line at an angle of  $$15 ^\circ $$ ?
 
 **Strategy and Concept**
@@ -111,11 +114,13 @@ yields
 <div class="equation" >
  $$\begin{array}{lll}\frac{1}{\lambda }& =& R\left(\frac{1}{ {n}_{f}^{2}}-\frac{1}{ {n}_{i}^{2}}\right)\\ & =& \left( 1.097 \times 10^{7}  {\text{m}}^{-1}\right)\left(\frac{1}{ {2}^{2}}-\frac{1}{ {4}^{2}}\right)\\ & =&  2.057 \times 10^{6}  {\text{m}}^{-1}\text{.}\end{array} $$
 </div>
+
 Inverting to find  $$\lambda  $$  gives
 
 <div class="equation" >
  $$\begin{array}{lll}\lambda & =& \frac{1}{ 2.057 \times 10^{6}  {\text{m}}^{-1}}=486 \times 10^{-9}  \text{m}\\ & =& 486 \text{nm} \text{.} \end{array} $$
 </div>
+
 **Discussion for (a)**
 
 This is indeed the experimentally observed wavelength, corresponding to the
@@ -133,6 +138,7 @@ equation
 <div class="equation" >
  $$d \sin \theta =m \lambda\text{,} $$
 </div>
+
 where  $$d $$
  is the distance between slits and  $$\theta  $$
  is the angle from the original direction of the beam. The number  $$m $$
@@ -142,13 +148,14 @@ where  $$d $$
 <div class="equation" >
  $$d=\frac{\left(1\right)\left(486 \text{nm}\right)}{\sin 15\text{º}}= 1.88 \times 10^{-6}  \text{m}. $$
 </div>
+
 **Discussion for (b)**
 
 This number is similar to those used in the interference examples
 of [Introduction to Quantum Physics](../contents/ch29QuantumPhysics) (and is close to the spacing
 between slits in commonly used diffraction glasses).
 
-</div>
+:::
 
 ### Bohr’s Solution for Hydrogen
 
@@ -385,10 +392,12 @@ Bohr did not fail. Rather, he made very important steps along the path to
 greater knowledge and laid the foundation for all of atomic physics that has
 since evolved.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Models of the Hydrogen Atom
 </div>
+
 How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results.
 {: class="newline"}
 
@@ -397,7 +406,8 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="860" height="671.4" src="https://veillette.github.io/simulations/hydrogen-atom/#sim-hydrogen-atom"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -408,6 +418,7 @@ How did scientists figure out the structure of atoms without looking at them? Tr
   <div class="equation" >
    $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right), $$
   </div>
+
      where
    $$\lambda  $$ is the wavelength of the emitted EM radiation and
    $$R $$ is the Rydberg constant, which has the value
@@ -422,6 +433,7 @@ How did scientists figure out the structure of atoms without looking at them? Tr
   <div class="equation" >
    $$\Delta E= hf={E}_{\text{i}}-{E}_{\text{f}}, $$
   </div>
+
   where $$\Delta E $$ is the change in energy between the initial and final orbits and $$ hf $$ is the energy of an absorbed or emitted photon. It is useful to plot orbital energies on a vertical graph called an energy-level diagram.
 * Bohr proposed that the allowed orbits are circular and must have quantized
   orbital angular momentum given by
@@ -462,34 +474,46 @@ How did scientists figure out the structure of atoms without looking at them? Tr
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how Bohr’s rule for the quantization of electron orbital angular momentum differs from the actual rule.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is a hydrogen-like atom, and how are the energies and radii of its electron orbits related to those in hydrogen?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 By calculating its wavelength, show that the first line in the Lyman series is UV radiation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -523,15 +547,19 @@ Since 122 nm is much less than 400 nm (the lower limit of visible light), this i
 
 The entire Lyman series lies in the ultraviolet region because these transitions all end at the ground state (n = 1), involving relatively large energy changes. The first line at 122 nm (also called Lyman-alpha) is the longest wavelength and lowest energy transition in this series. As we move to higher lines in the series (from n = 3, 4, 5, ... to n = 1), the wavelengths get progressively shorter, approaching the series limit at 91.2 nm as n approaches infinity. This UV radiation from hydrogen is important in astronomy—Lyman-alpha is one of the most studied spectral lines in astrophysics, used to probe distant galaxies, intergalactic medium, and the early universe. However, because Earth's atmosphere absorbs UV radiation, these lines must be observed from space-based telescopes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the wavelength of the third line in the Lyman series, and identify the type of EM radiation.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -569,17 +597,21 @@ This wavelength of 97.2 nm is in the **ultraviolet (UV)** region of the electrom
 
 The entire Lyman series lies in the UV region, which makes sense because these transitions all end at the ground state (n = 1), which means they involve relatively large energy changes. As we move to higher lines in the series (from the first to the second to the third, etc.), the wavelength increases (the photon energy decreases) because the energy difference between successive levels decreases. The third line at 97.2 nm is still well into the UV (UV extends from about 10 nm to 400 nm), though it's longer than the first line (121 nm) and second line (103 nm). The series limit (as $$ n_i \to \infty $$ ) approaches 91.2 nm, which represents the minimum energy needed to ionize hydrogen from its ground state.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Look up the values of the quantities in  $${a}_{\text{B}}=\frac{ h^{2} }{ 4\pi^{2}{m}_{e} k q_{e}^{2} } $$ ,
  and verify that the Bohr radius  $${a}_{\text{B}} $$
  is  $$ 0.529 \times 10^{-10}  \text{m} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -611,15 +643,20 @@ This verifies that the Bohr radius is **$$ 0.529 \times 10^{-10} \text{ m} $$ or
 
 The Bohr radius represents the most probable distance of the electron from the nucleus in the ground state of the hydrogen atom. This fundamental length scale emerges naturally from the combination of quantum mechanics (Planck's constant $$ h $$ ), the properties of the electron (its mass $$ m_e $$ and charge $$ q_e $$ ), and the electromagnetic force (Coulomb's constant $$ k $$ ). The fact that this theoretical prediction matches experimental measurements of the hydrogen atom's size was one of the great triumphs of Bohr's theory. The Bohr radius serves as a natural unit for expressing atomic distances—for example, in hydrogen-like atoms, the radius of the n-th orbit is $$ r_n = n^2 a_{\text{B}}/Z $$ . The small value (about 0.05 nm or half an angstrom) explains why atoms are invisible to the naked eye and why we need powerful microscopes or indirect methods to study atomic structure. It's worth noting that in modern quantum mechanics, we no longer think of the electron as orbiting at a fixed radius; instead, the Bohr radius represents the peak of the radial probability distribution for finding the electron in the ground state.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify that the ground state energy  $${E}_{0} $$
  is 13.6 eV by using  $${E}_{0}=\frac{ {2\pi }^{2}{q}_{e}^{4}{m}_{e}{k}^{2}}{ {h}^{2}}\text{.} $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -663,16 +700,20 @@ This verifies that the ground state energy of hydrogen is indeed **13.6 eV**.
 
 This result is fundamental to atomic physics. The ground state energy of –13.6 eV (negative because it represents a bound state) means that 13.6 eV of energy is required to ionize a hydrogen atom from its ground state. This value emerges directly from the fundamental constants of nature—the electron's charge and mass, Planck's constant, and Coulomb's constant. The fact that Bohr could derive this experimentally known value from first principles was a major triumph of his theory and provided strong support for the quantum model of the atom. The energy levels for excited states are given by $$ E_n = E_0/n^2 $$ , so all hydrogen energy levels can be calculated from this single fundamental value.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If a hydrogen atom has its electron in the  $$n=4 $$
  state, how much energy in eV is needed to ionize it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -698,15 +739,19 @@ Therefore, **0.850 eV** of energy is needed to ionize a hydrogen atom from the $
 
 This energy is much less than the 13.6 eV needed to ionize hydrogen from its ground state ( $$ n = 1 $$ ). The higher the energy level, the less tightly the electron is bound to the nucleus, and therefore the less energy is required to ionize it. This makes physical sense because the electron in the $$ n = 4 $$ state is farther from the nucleus (the orbital radius increases as $$ n^2 $$ ) and experiences a weaker attractive force. The ionization energy decreases as $$ 1/n^2 $$ : for $$ n = 2 $$ it's 3.4 eV, for $$ n = 3 $$ it's 1.51 eV, and for $$ n = 4 $$ it's 0.850 eV. As $$ n \to \infty $$ , the ionization energy approaches zero, meaning the electron is barely bound. This is why highly excited atoms (high $$ n $$ ) are easily ionized by collisions, electric fields, or photons, and why such "Rydberg atoms" are important in studying quantum-to-classical transitions and in applications like quantum computing.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A hydrogen atom in an excited state can be ionized with less energy than when it is in its ground state. What is  $$n $$  for a hydrogen atom if 0.850 eV of energy can ionize it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -736,16 +781,20 @@ Therefore, the hydrogen atom is in the **n = 4** energy level.
 
 This result makes physical sense. The higher the energy level (larger $$ n $$ ), the less tightly bound the electron is to the nucleus, and therefore the less energy is required to ionize it. For the ground state (n = 1), we need 13.6 eV to ionize hydrogen. For n = 2, we need 13.6/4 = 3.4 eV. For n = 3, we need 13.6/9 = 1.51 eV. And for n = 4, we need 13.6/16 = 0.850 eV, which matches the given ionization energy. As $$ n $$ approaches infinity, the ionization energy approaches zero, which makes sense because the electron is already nearly free at very high quantum numbers. This problem demonstrates why excited atoms are more easily ionized than ground-state atoms—a fact that's important in understanding phenomena like flame tests, gas discharge tubes, and ionized gases in stars.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the radius of a hydrogen atom in the  $$n=2 $$
  state according to Bohr’s theory.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -765,16 +814,20 @@ The radius of the $$ n = 2 $$ state is **$$ 2.12 \times 10^{-10} \text{ m} $$ or
 
 The $$ n = 2 $$ state has a radius exactly 4 times larger than the ground state ( $$ n = 1 $$ ), demonstrating the $$ n^2 $$ scaling of orbital radius in Bohr's model. This is the first excited state of hydrogen. When an atom transitions from $$ n = 2 $$ to $$ n = 1 $$ , it emits a photon at 121.6 nm (Lyman-alpha), the first line of the Lyman series. In modern quantum mechanics, we interpret this radius as the location of the peak in the radial probability distribution for the 2s orbital, or the average radius for 2p orbitals. The larger radius of excited states explains why excited atoms are physically bigger and more easily perturbed by external fields than ground-state atoms. The $$ n^2 $$ scaling also explains why very high-n "Rydberg atoms" can be macroscopically large—for example, atoms with $$ n = 100 $$ would have radii of about 0.5 micrometers, large enough to be affected by room-temperature thermal radiation.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that  $$\left(13.6 \text{eV}\right)/hc= 1.097 \times 10^{7}  \text{m}=R $$
  (Rydberg's constant), as discussed in the text.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -808,15 +861,19 @@ $$ \frac{1}{\lambda} = R \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right) $$
 
 The fact that Bohr's theory could not only explain the existence of discrete spectral lines but also derive the previously mysterious Rydberg constant from first principles was one of the theory's greatest triumphs. It showed that quantum mechanics could make precise quantitative predictions, not just qualitative explanations, and established the validity of the quantum approach to atomic structure.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the smallest-wavelength line in the Balmer series? Is it in the visible part of the spectrum?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -846,15 +903,19 @@ The smallest wavelength in the Balmer series is **365 nm**, which is in the **ul
 
 The Balmer series limit at 365 nm represents the minimum energy photon that can ionize a hydrogen atom from the $$ n = 2 $$ state. All transitions in the Balmer series that we observe have wavelengths longer than 365 nm. The first four lines of the Balmer series are in the visible region (H-alpha at 656 nm is red, H-beta at 486 nm is blue-green, H-gamma at 434 nm is violet, and H-delta at 410 nm is deep violet), but as we move to higher transitions (higher initial $$ n $$ values), the wavelengths get shorter and eventually cross into the UV at 365 nm. This series limit is important historically—Balmer discovered the empirical formula for hydrogen spectral lines by studying these visible lines, and his work laid the foundation for Bohr's quantum theory of the atom. The fact that the series has a well-defined limit (rather than continuing indefinitely) was one of the key clues that atomic energy levels are quantized.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that the entire Paschen series is in the infrared part of the spectrum. To do this, you only need to calculate the shortest wavelength in the series.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -888,15 +949,19 @@ Since the infrared region begins at wavelengths greater than about 700 nm, and t
 
 This result demonstrates why the Paschen series was discovered later than the Balmer series—it's not visible to the human eye. The visible spectrum extends from approximately 400 nm (violet) to 700 nm (red), while infrared radiation has wavelengths longer than 700 nm. Since 820 nm is the *shortest* wavelength in the Paschen series, all other lines in the series (corresponding to transitions from $$ n_i = 4, 5, 6, ... $$ to $$ n_f = 3 $$ ) must have even longer wavelengths and therefore are also in the infrared. For example, the first line of the Paschen series (from $$ n_i = 4 $$ to $$ n_f = 3 $$ ) has a wavelength of 1875 nm, which is well into the infrared. This series is important in astronomy for studying stellar atmospheres and in understanding the complete hydrogen spectrum.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Do the Balmer and Lyman series overlap? To answer this, calculate the shortest-wavelength Balmer line and the longest-wavelength Lyman line.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -930,21 +995,23 @@ Since **365 nm > 122 nm**, the Balmer and Lyman series **do not overlap**.
 
 The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), while the Lyman series spans from 91.2 nm (series limit) to 122 nm (Lyman-alpha). There's a clear gap of 243 nm (from 122 nm to 365 nm) between these two series. This gap is significant—it's nearly twice the width of the Lyman series itself. This separation makes sense because the Balmer series involves transitions to $$ n = 2 $$ while Lyman involves transitions to $$ n = 1 $$ , and the energy difference between these final states is substantial (10.2 eV). The non-overlapping nature of hydrogen's spectral series made it easier for early spectroscopists to identify and categorize the different series. In contrast, for heavier hydrogen-like ions with larger $$ Z $$ values, the energy levels scale as $$ Z^2 $$ , which can cause different series to overlap in wavelength even though they correspond to different transitions.
 
+:::
 
-
-</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Which line in the Balmer series is the first one in the UV part of the spectrum?
 
 (b) How many Balmer series lines are in the visible part of the spectrum?
 
 (c) How many are in the UV?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -962,6 +1029,7 @@ For $$ n_i = 3 $$ (H-alpha line):
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{9} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{5}{36} \right) = 1.524 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda = 656 \text{ nm (red, visible)} $$
 </div>
@@ -970,6 +1038,7 @@ For $$ n_i = 4 $$ (H-beta line):
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{16} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{3}{16} \right) = 2.057 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda = 486 \text{ nm (blue-green, visible)} $$
 </div>
@@ -978,6 +1047,7 @@ For $$ n_i = 5 $$ (H-gamma line):
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{25} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{21}{100} \right) = 2.304 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda = 434 \text{ nm (violet, visible)} $$
 </div>
@@ -986,6 +1056,7 @@ For $$ n_i = 6 $$ (H-delta line):
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{36} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{8}{36} \right) = 2.438 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda = 410 \text{ nm (violet, visible)} $$
 </div>
@@ -994,6 +1065,7 @@ For $$ n_i = 7 $$ (H-epsilon line):
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{49} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{45}{196} \right) = 2.519 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda = 397 \text{ nm (UV)} $$
 </div>
@@ -1008,18 +1080,22 @@ $$ \lambda = 397 \text{ nm (UV)} $$
 
 The Balmer series is special because it's the only hydrogen spectral series with lines in the visible region—this is why it was discovered first and studied most extensively in early spectroscopy. The four visible lines (H-alpha at 656 nm appearing red, H-beta at 486 nm appearing blue-green, H-gamma at 434 nm appearing violet, and H-delta at 410 nm appearing violet) can be seen with the naked eye in hydrogen discharge tubes and in astronomical observations of nebulae and stars. The fact that only four lines are visible while infinitely many are in the UV illustrates how the energy levels become more closely spaced as $$ n $$ increases. The series limit (as $$ n_i \to \infty $$ ) is at 365 nm, representing the energy needed to ionize hydrogen from the $$ n = 2 $$ state. This wavelength marks the shortest possible Balmer line and separates discrete spectral lines from the continuum that appears beyond the series limit.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A wavelength of  $$4.653 \text{μm} $$
  is observed in a hydrogen spectrum for a transition that ends in the  $${n}_{\text{f}}=5 $$
  level. What was  $${n}_{\text{i}} $$
  for the initial level of the electron?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1073,16 +1149,20 @@ The electron was initially in the **n = 7** level.
 
 This transition from $$ n = 7 $$ to $$ n = 5 $$ produces infrared radiation at 4.653 μm, which is well beyond the visible range. This is part of what we might call an extended Pfund series (transitions ending at $$ n = 5 $$ ). The Pfund series includes several lines in the mid-infrared, all invisible to the human eye but detectable with infrared spectrometers. The long wavelength (low energy) of this transition makes sense because both initial and final states are highly excited, so the energy difference is relatively small. Transitions between high-lying states are important in astrophysics for studying the conditions in stellar atmospheres and interstellar gas clouds, where hydrogen atoms can be excited to these high levels by the intense radiation fields. These infrared hydrogen lines are also used to study the kinematics of gas in galaxies through Doppler shifts.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A singly ionized helium ion has only one electron and is denoted  $${\text{He}}^{+} $$ .
  What is the ion's radius in the ground state compared to the Bohr radius of hydrogen atom?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1112,11 +1192,14 @@ $$ r_1 = 0.5 \times (0.529 \times 10^{-10} \text{ m}) = 0.265 \times 10^{-10} \t
 
 This result makes physical sense: the helium nucleus has twice the positive charge of the hydrogen nucleus, so it exerts a stronger attractive force on the electron. This stronger force pulls the electron into a tighter orbit, reducing the orbital radius by a factor of 2. More generally, for any hydrogen-like ion in the ground state, the radius is inversely proportional to the atomic number: $$ r_1 = a_{\text{B}}/Z $$ . This means that highly ionized atoms (large $$ Z $$ ) have very small radii. For example, $$\text{Li}^{2+}$$ (lithium with two electrons removed, $$ Z = 3 $$ ) would have a ground-state radius of $$ a_{\text{B}}/3 $$ . The same principle applies to energy levels: the binding energy of $$\text{He}^+$$ is proportional to $$ Z^2 = 4 $$ , making it four times more tightly bound than hydrogen (54.4 eV compared to 13.6 eV for hydrogen).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A beryllium ion with a single electron (denoted  $${\text{Be}}^{3+} $$ )
 is in an excited state with radius the same as that of the ground state of hydrogen.
 
@@ -1124,8 +1207,9 @@ is in an excited state with radius the same as that of the ground state of hydro
 
 (b) How much energy in eV is needed to ionize the ion from this excited state?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1177,11 +1261,14 @@ The ionization energy is **54.4 eV**.
 
 This problem beautifully illustrates how the $$ Z^2 $$ scaling affects both orbital radii and energies in hydrogen-like ions. The Be³⁺ ion has $$ Z = 4 $$ , so its orbitals are compressed by a factor of $$ Z = 4 $$ (radius scales as $$ 1/Z $$ ) compared to hydrogen at the same $$ n $$ . To match hydrogen's ground state radius, the Be³⁺ electron must be in $$ n = 2 $$ , which is its first excited state. However, despite having the same radius as hydrogen's ground state, the Be³⁺ ion in $$ n = 2 $$ is much more tightly bound—it requires 54.4 eV to ionize, exactly 4 times the 13.6 eV needed for hydrogen's ground state (energy scales as $$ Z^2 $$ ). This shows that nuclear charge dominates the binding energy. Be³⁺ is created in very hot environments like stellar interiors or in high-energy laboratory plasmas. The high ionization energy of 54.4 eV (even from an excited state!) means that only very energetic photons (in the soft X-ray region, around 23 nm wavelength) or very energetic collisions can ionize it. For comparison, the ground state ($$ n = 1 $$ ) of Be³⁺ would require 217.6 eV to ionize, placing it in the extreme UV to soft X-ray spectral region.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Atoms can be ionized by thermal collisions, such as at the high temperatures found in the solar corona. One such ion is  $${C}^{+5} $$ ,
  a carbon atom with only a single electron.
 
@@ -1192,8 +1279,9 @@ those of hydrogen?
 
 (c) What type of EM radiation is this?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1241,17 +1329,21 @@ $$ \lambda = \frac{1240 \text{ eV·nm}}{23.8 \text{ eV}} = 52.1 \text{ nm} $$
 
 This problem illustrates how hydrogen-like ions with high atomic numbers produce much higher energy transitions than hydrogen itself. The factor of 36 increase in energy (due to $$ Z^2 = 36 $$ ) means that what would be an infrared transition in hydrogen (the Paschen series) becomes an extreme ultraviolet transition in $$\text{C}^{+5}$$ . For comparison, the first line of the Paschen series in hydrogen has a wavelength of 1875 nm (infrared), while the same transition in $$\text{C}^{+5}$$ has a wavelength 36 times shorter: 52.1 nm (extreme UV). This is exactly what we expect since $$ \lambda \propto 1/(\Delta E) \propto 1/Z^2 $$ . Such highly ionized carbon atoms are found in the solar corona and other high-temperature astrophysical plasmas where temperatures exceed one million Kelvin. The extreme UV radiation from these ions is important for understanding solar physics and space weather, though it is absorbed by Earth's atmosphere and must be observed from space-based telescopes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Verify Equations  $${r}_{n}=\frac{ {n}^{2}}{Z}{a}_{\text{B}} $$
  and  $${a}_{B}=\frac{ {h}^{2}}{ {4\pi }^{2}{m}_{e} k q_{e}^{2}}= 0.529 \times 10^{-10}  \text{m} $$
  using the approach stated in the text. That is, equate the Coulomb and centripetal forces and then insert an expression for velocity from the condition for angular momentum quantization.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1325,16 +1417,20 @@ This verifies both equations.
 
 This derivation is at the heart of Bohr's atomic model and represents a brilliant synthesis of classical and quantum ideas. The force balance equation (Coulomb force = centripetal force) is pure classical mechanics, while the quantization condition $$ L = n\frac{h}{2\pi} $$ introduces quantum mechanics. The resulting formula $$ r_n = \frac{n^2}{Z} a_{\text{B}} $$ has profound implications: (1) Orbital radii are quantized and scale as $$ n^2 $$ , explaining why higher energy states are much larger; (2) For hydrogen-like ions, the radius scales as $$ 1/Z $$ , meaning higher nuclear charge squeezes the electron orbits inward; (3) The Bohr radius $$ a_{\text{B}} $$ emerges as a natural length scale built from fundamental constants, representing the ground state size of hydrogen. At the time (1913), this theory successfully explained the Rydberg formula for hydrogen spectral lines and predicted the radii of excited states. Although superseded by full quantum mechanics, Bohr's model remains pedagogically valuable and gives surprisingly accurate results for hydrogen and hydrogen-like ions. The approach also introduced the revolutionary idea that quantum numbers (like $$ n $$ ) determine discrete atomic properties—a concept that became central to all of quantum physics.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The wavelength of the four Balmer series lines for hydrogen are found to be 410.3, 434.2, 486.3, and 656.5 nm. What average percentage difference is found between these wavelength numbers and those predicted by  $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ ?
  It is amazing how well a simple formula (disconnected originally from theory) could duplicate this phenomenon.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1352,9 +1448,11 @@ For the Balmer series with $$ R = 1.097 \times 10^7 \text{ m}^{-1} $$ and $$ n_f
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{36} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{8}{36} \right) = 2.438 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda_{\text{theory}} = 410.2 \text{ nm} $$
 </div>
+
 <div class="equation">
 $$ \text{Percentage difference} = \left| \frac{410.3 - 410.2}{410.2} \right| \times 100\% = 0.024\% $$
 </div>
@@ -1363,9 +1461,11 @@ $$ \text{Percentage difference} = \left| \frac{410.3 - 410.2}{410.2} \right| \ti
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{25} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{21}{100} \right) = 2.304 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda_{\text{theory}} = 434.1 \text{ nm} $$
 </div>
+
 <div class="equation">
 $$ \text{Percentage difference} = \left| \frac{434.2 - 434.1}{434.1} \right| \times 100\% = 0.023\% $$
 </div>
@@ -1374,9 +1474,11 @@ $$ \text{Percentage difference} = \left| \frac{434.2 - 434.1}{434.1} \right| \ti
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{16} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{3}{16} \right) = 2.057 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda_{\text{theory}} = 486.1 \text{ nm} $$
 </div>
+
 <div class="equation">
 $$ \text{Percentage difference} = \left| \frac{486.3 - 486.1}{486.1} \right| \times 100\% = 0.041\% $$
 </div>
@@ -1385,9 +1487,11 @@ $$ \text{Percentage difference} = \left| \frac{486.3 - 486.1}{486.1} \right| \ti
 <div class="equation">
 $$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{9} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{5}{36} \right) = 1.524 \times 10^6 \text{ m}^{-1} $$
 </div>
+
 <div class="equation">
 $$ \lambda_{\text{theory}} = 656.3 \text{ nm} $$
 </div>
+
 <div class="equation">
 $$ \text{Percentage difference} = \left| \frac{656.5 - 656.3}{656.3} \right| \times 100\% = 0.030\% $$
 </div>
@@ -1403,10 +1507,12 @@ The average percentage difference is approximately **0.03%** or about **0.3 part
 
 This remarkably small average percentage difference (only about 0.03%) demonstrates the extraordinary accuracy of the Rydberg formula in predicting hydrogen spectral lines. The fact that such a simple empirical formula—originally developed by Balmer and Rydberg before the development of quantum mechanics—could predict wavelengths to within a few hundredths of a percent is truly remarkable. This agreement provided strong evidence that there was a fundamental physical principle underlying atomic spectra, even before Bohr developed his quantum theory of the hydrogen atom. The small discrepancies that do exist (all less than 0.05%) can be attributed to several factors: experimental uncertainties in measuring wavelengths, the finite mass of the nucleus (which we assumed to be infinite in the simple Bohr model), and relativistic corrections for the electron's motion. When Bohr showed that his quantum theory could derive the Rydberg formula from first principles and explain *why* it worked so well, it was a watershed moment in physics that validated the quantum approach to atomic structure.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1439,4 +1545,4 @@ energies of hydrogen-like atoms
 $${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
 \right)$$
 
-</div>
+:::

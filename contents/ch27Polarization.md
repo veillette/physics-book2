@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 8
 chapterNumber: 27
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the meaning of polarization.
 * Discuss the property of optical activity of certain materials.
-</div>
+
+:::
 
 Polaroid sunglasses are familiar to most of us. They have a special ability to
 cut the glare of light reflected from water or glass (
@@ -93,10 +94,12 @@ the filter. (The above equation is known as Malus’s law.)
 ![This schematic is another variation of the schematic first introduced two figures prior. To the left of the vertically oriented polarizing filter is a double headed blue arrow oriented in the plane perpendicular to the propagation direction and at an angle theta with the vertical. After the polarizing filter a smaller vertical double headed arrow appears, which is labeled E cosine theta.](../resources/Figure_27_08_07.jpg 'A polarizing filter transmits only the component of the wave parallel to its axis, ( E \\cos \\theta ), reducing the intensity of any light not polarized parallel to its axis. ')
 {: #Figure7}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Intensity Reduction by a Polarizing Filter
 </div>
+
 What angle is needed between the direction of polarized light and the axis of a polarizing filter to reduce its intensity by  $$ 90.0%  $$ ?
 
 **Strategy**
@@ -114,11 +117,13 @@ substituting with the relationship between $$I $$ and $${I}_{0} $$ gives
 <div class="equation" >
  $$\cos \theta =\sqrt{\frac{I}{ {I}_{0}}}=\sqrt{\frac{ 0.100{I}_{0}}{ {I}_{0}}}=0.3162 \text{.} $$
 </div>
+
 Solving for  $$\theta  $$  yields
 
 <div class="equation" >
  $$\theta ={\cos}^{-1 } 0.3162= 71.6º. $$
 </div>
+
 **Discussion**
 
 A fairly large angle between the direction of polarization and the filter axis
@@ -131,7 +136,7 @@ zero, and that at an angle of $$ 18.4º $$ the intensity is reduced to $$ 90.0% 
 of its original value (as you will also show in Problems &amp; Exercises),
 giving evidence of symmetry.
 
-</div>
+:::
 
 ### Polarization by Reflection
 
@@ -172,10 +177,12 @@ interface that reflects the light. This equation is known as **Brewster’s law*
 and $${\theta }_{\text{b}} $$ is known as **Brewster’s angle**, named after the
 19th-century Scottish physicist who discovered them.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Things Great and Small: Atomic Explanation of Polarizing Filters
 </div>
+
 Polarizing filters have a polarization axis that acts as a slit. This slit passes electromagnetic waves (often visible light) that have an electric field parallel to the axis. This is accomplished with long molecules aligned perpendicular to the axis as shown in [[Figure 8]](#Figure8).
 
 ![The schematic shows a stack of long identical horizontal molecules. A vertical axis is drawn over the molecules.](../resources/Figure_27_08_09.jpg "Long molecules are aligned perpendicular to the axis of a polarizing filter. The component of the electric field in an EM wave perpendicular to these molecules passes through the filter, while the component parallel to the molecules is absorbed.")
@@ -200,12 +207,14 @@ filter is perpendicular to the length of the molecule.
 ![The figure contains two schematics. The first schematic shows a long molecule. An EM wave goes through the molecule. The ray of the EM wave is at ninety degrees to the molecular axis and the electric field of the EM wave oscillates along the molecular axis. After passing the long molecule, the magnitude of the oscillations of the EM wave are significantly reduced. The second schematic shows a similar drawing, except that the EM wave oscillates perpendicular to the axis of the long molecule. After passing the long molecule, the magnitude of the oscillation of the EM wave is unchanged.](../resources/Figure_27_08_10.jpg "Artist&#x2019;s conception of an electron in a long molecule oscillating parallel to the molecule. The oscillation of the electron absorbs energy and reduces the intensity of the component of the EM wave that is parallel to the molecule.")
 {: #Figure10}
 
-</div>
+:::
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 Calculating Polarization by Reflection
 </div>
+
 (a) At what angle will light traveling in air be completely polarized horizontally when reflected from water? (b) From glass?
 
 **Strategy**
@@ -222,17 +231,20 @@ Putting the known quantities into the equation
 <div class="equation" >
  $$\tan {\theta }_{\text{b}}=\frac{ {n}_{2}}{ {n}_{1}} $$
 </div>
+
 gives
 
 <div class="equation" >
  $$\tan {\theta }_{\text{b}}=\frac{ {n}_{2}}{ {n}_{1}}=\frac{1.333}{1.00}=1.333 \text{.} $$
 </div>
+
 Solving for the angle  $${\theta }_{\text{b}} $$
  yields
 
 <div class="equation" >
  $${\theta }_{\text{b}}={\tan}^{-1}  1.333= 53.1º. $$
 </div>
+
 **Solution for (b)**
 
 Similarly, for crown glass and air,
@@ -240,11 +252,13 @@ Similarly, for crown glass and air,
 <div class="equation" >
  $${\tan \theta^{\prime} }_{\text{b}}=\frac{ n^{\prime}_{2}}{ {n}_{1}}=\frac{1.520}{1.00}=1.52 \text{.} $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $${\theta^{\prime} }_{\text{b}}={\tan}^{-1 } 1.52=56.7 \text{º.} $$
 </div>
+
 **Discussion**
 
 Light reflected at these angles could be completely blocked by a good polarizing
@@ -257,7 +271,7 @@ will not be completely polarized vertically, because only a small fraction of
 the incident light is reflected, and so a significant amount of horizontally
 polarized light is refracted.
 
-</div>
+:::
 
 ### Polarization by Scattering
 
@@ -295,13 +309,15 @@ lenses are embedded with organic microcrystalline molecules that change their
 properties when exposed to UV in sunlight, but become clear in artificial
 lighting with no UV.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Polarization
 </div>
+
 Find Polaroid sunglasses and rotate one while holding the other still and look at different surfaces and objects. Explain your observations. What is the difference in angle from when you see a maximum intensity to when you see a minimum intensity? Find a reflective glass surface and do the same. At what angle does the glass need to be oriented to give minimum glare?
 
-</div>
+:::
 
 ### Liquid Crystals and Other Polarization Effects in Materials
 
@@ -397,66 +413,90 @@ to further pursue the numerous properties of materials related to polarization.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Under what circumstances is the phase of light changed by reflection? Is the phase related to polarization?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Can a sound wave in air be polarized? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 No light passes through two perfect polarizing filters with perpendicular axes. However, if a third polarizing filter is placed between the original two, some light can pass. Why is this? Under what circumstances does most of the light pass?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain what happens to the energy carried by light that it is dimmed by passing it through two crossed polarizing filters.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When particles scattering light are much smaller than its wavelength, the amount of scattering is proportional to  $$1/{\lambda }^{4} $$ .
  Does this mean there is more scattering for small  $$\lambda  $$
  than large  $$\lambda  $$ ?
  How does this relate to the fact that the sky is blue?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Using the information given in the preceding question, explain why sunsets are red.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When light is reflected at Brewster’s angle from a smooth surface, it is  $$100 \%  $$
  polarized parallel to the surface. Part of the light will be refracted into the surface. Describe how you would do an experiment to determine the polarization of the refracted light. What direction would you expect the polarization to have and would you expect it to be  $$100 \%  $$ ?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What angle is needed between the direction of polarized light and the axis of a polarizing filter to cut its intensity in half?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -486,16 +526,20 @@ $$\theta = \cos^{-1}(0.7071) = 45.0°$$
 
 The 45° angle is exactly halfway between parallel (0°, maximum transmission) and perpendicular (90°, zero transmission). This symmetric position naturally corresponds to 50% transmission. This relationship is important in many optical applications, including variable neutral density filters and light intensity modulators where precise control over light intensity is needed.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The angle between the axes of two polarizing filters is  $$ 45.0º $$ .
  By how much does the second filter reduce the intensity of the light coming through the first?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -519,17 +563,21 @@ The second filter reduces the intensity to 50.0% of the value after the first fi
 
 This 50% reduction at 45° is a special case. At θ = 0° (parallel axes), no reduction occurs (I = I₀). At θ = 90° (perpendicular axes), complete extinction occurs (I = 0). The 45° angle represents the midpoint where exactly half the intensity passes through. This property is used in variable neutral density filters and light modulators.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you have completely polarized light of intensity  $$150 \text{W}/{\text{m}}^{2} $$ ,
  what will its intensity be after passing through a polarizing filter with its axis at an  $$ 89.0º $$
  angle to the light's polarization direction?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -553,16 +601,20 @@ $$I = 0.0457 \text{ W/m}^2 = 45.7 \text{ mW/m}^2$$
 
 At 89.0°, the filter axis is nearly perpendicular to the polarization direction (only 1° from complete extinction). The transmitted intensity is reduced to about 0.03% of the original—a dramatic reduction. This demonstrates how sensitive polarization effects are near 90°. Just one degree away from perpendicular allows a small but measurable amount of light to pass through.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What angle would the axis of a polarizing filter need to make with the direction of polarized light of intensity  $$ 1.00 {\text{kW/m}}^{2} $$
  to reduce the intensity to  $$ 10.0 {\text{W/m}}^{2} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -588,17 +640,21 @@ $$\theta = \cos^{-1}(0.100) = 84.3°$$
 
 The angle of 84.3° is close to 90° (perpendicular), which makes sense for such a large intensity reduction (to 1% of original). This is just 5.7° away from complete extinction.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At the end of [[Example 1]](#Example1), it was stated that the intensity of polarized light is reduced to  $$ 90.0%  $$
  of its original value by passing through a polarizing filter with its axis at an angle of  $$ 18.4º $$
  to the direction of polarization. Verify this statement.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -620,18 +676,22 @@ Therefore, $$I = 90.0\% \text{ of } I_0$$, **which verifies the statement.**
 
 This confirms the symmetric relationship mentioned in Example 1: at 18.4° from the polarization direction, the intensity is reduced to 90% (meaning 10% is blocked). At 71.6° (which is 18.4° from perpendicular), the intensity is reduced to 10% (meaning 90% is blocked). These complementary angles (18.4° + 71.6° = 90°) demonstrate the symmetry of the cosine-squared function in Malus's law.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that if you have three polarizing filters, with the second at an angle of  $$45 ^\circ $$
  to the first and the third at an angle of  $$ 90.0º $$
  to the first, the intensity of light passed by the first will be reduced to  $$ 25.0%  $$
  of its value. (This is in contrast to having only the first and third, which reduces the intensity to zero, so that placing the second between them increases the intensity of the transmitted light.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -657,11 +717,14 @@ Therefore, the final intensity is **25.0%** of I₀. **Q.E.D.**
 
 With only the first and third filters (at 90°), I = I₀ cos²(90°) = 0 (no light passes). But inserting a 45° filter between them allows 25% transmission! This counterintuitive result occurs because the middle filter "rotates" the polarization direction, allowing some light to pass through the final filter.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Prove that, if  $$I $$
  is the intensity of light transmitted by two polarizing filters with axes at an angle  $$\theta  $$
  and  $$I^{\prime} $$
@@ -670,8 +733,9 @@ Prove that, if  $$I $$
  the original intensity. (Hint: Use the trigonometric identities  $$\cos \left(90.0º-\theta \right)=\sin \theta  $$
  and  $${\cos}^{2} \theta +{\sin}^{2} \theta =1. $$ )
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -714,15 +778,19 @@ $$I + I' = I_0 (1) = I_0$$
 
 This beautiful result shows that complementary polarizer angles transmit intensities that sum to the original intensity. For example, if a 30° filter transmits 75% of the light, then a 60° filter (90° - 30°) transmits the remaining 25%. This conservation of energy makes physical sense: the total transmitted light through the two complementary orientations equals what would pass if there were no angular selectivity at all.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angle will light reflected from diamond be completely polarized?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -742,15 +810,19 @@ $$\theta_b = \tan^{-1}(2.419) = 67.5°$$
 
 Diamond's high refractive index (2.419) produces a large Brewster angle of 67.5°, close to grazing incidence. This is why diamonds sparkle brilliantly - their high index causes strong refraction and internal reflection at most angles.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is Brewster's angle for light traveling in water that is reflected from crown glass?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -770,15 +842,19 @@ $$\theta_b = \tan^{-1}(1.140) = 48.8°$$
 
 Brewster's angle of 48.8° applies when light travels through water and reflects off crown glass (such as the glass wall of an aquarium). This is smaller than Brewster's angle for air-to-glass reflection (56.7°) because the difference in refractive indices is smaller when starting from water (n = 1.333) rather than air (n = 1.00). The smaller index contrast means the reflected light becomes completely polarized at a smaller angle from the normal.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A scuba diver sees light reflected from the water's surface. At what angle will this light be completely polarized?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -798,15 +874,19 @@ $$\theta_b = \tan^{-1}(0.752) = 36.9°$$
 
 The Brewster angle of 36.9° from the normal (measured underwater) is relatively small. This is the complement of the Brewster angle for light going from air to water (53.1°), since 36.9° + 53.1° = 90°.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 At what angle is light inside crown glass completely polarized when reflected from water, as in a fish tank?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -826,16 +906,20 @@ $$\theta_b = \tan^{-1}(0.8770) = 41.2°$$
 
 This is Brewster's angle for light traveling inside the glass wall of a fish tank and reflecting off the water inside. Notice that this angle (41.2°) is the complement of the water-to-glass Brewster angle (48.8°), and indeed 41.2° + 48.8° = 90.0°, confirming the reciprocal relationship $$\theta_b + \theta'_b = 90°$$ for reflections from opposite sides of an interface. Light at this angle inside the glass would see complete polarization of the reflection from the water surface.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Light reflected at  $$ 55.6º $$
  from a window is completely polarized. What is the window's index of refraction and the likely substance of which it is made?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -851,16 +935,20 @@ $$n_2 = n_1 \tan \theta_b = (1.00) \tan 55.6° = 1.46$$
 
 An index of refraction of 1.46 is typical of **window glass** (common soda-lime glass has n ≈ 1.46-1.52). This could also be Plexiglas (n ≈ 1.49) or other transparent plastics used in windows.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Light reflected at  $$ 62.5º $$
  from a gemstone in a ring is completely polarized. Can the gem be a diamond? (b) At what angle would the light be completely polarized if the gem was in water?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -896,16 +984,21 @@ $$\theta_b = \tan^{-1}(1.440) = 55.2°$$
 
 The index of refraction is a definitive way to identify gemstones. Diamond's exceptionally high index (2.419) would give a Brewster angle of 67.5°, much larger than the observed 62.5°. The calculated index of 1.92 rules out diamond and suggests zircon or a synthetic simulant. When the gem is immersed in water, Brewster's angle decreases from 62.5° to 55.2° because the refractive index contrast is reduced.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 If  $${\theta }_{\text{b}} $$
  is Brewster's angle for light reflected from the top of an interface between two substances, and  $${\theta^{\prime} }_{\text{b}} $$
  is Brewster's angle for light reflected from below, prove that  $${\theta }_{\text{b}}+{\theta^{\prime} }_{\text{b}}= 90.0º. $$
-</div>
-<div class="solution" markdown="1">
+
+:::
+
+::: solution
 
 **Strategy**
 
@@ -936,18 +1029,22 @@ Therefore: $$\theta_b + \theta'_b = 90.0°$$ **Q.E.D.**
 
 This complementary relationship means Brewster's angles from opposite sides of an interface always sum to 90°. For example, air-to-water (θ_b ≈ 53°) and water-to-air (θ'_b ≈ 37°) sum to 90°.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 If a polarizing filter reduces the intensity of polarized light to $$ 50.0\% $$
 of its original value, by how much are the electric and magnetic fields reduced?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -981,11 +1078,14 @@ Similarly: $$B_2 = 0.707 B_1$$
 
 The square-root relationship between field amplitude and intensity is fundamental to wave physics. When intensity drops by half, the fields don't drop by half—they drop by a factor of √2 ≈ 0.707. This same relationship applies to all waves where intensity is proportional to amplitude squared, including sound waves and water waves.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Suppose you put on two pairs of Polaroid sunglasses with their axes at an angle
@@ -993,8 +1093,9 @@ of $$ 15.0º $$ . How much longer will it take the light to deposit a given
 amount of energy in your eye compared with a single pair of sunglasses? Assume
 the lenses are clear except for their polarizing characteristics.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1020,11 +1121,14 @@ The two pairs take **7% longer** (or equivalently, 1.07 times as long) to deposi
 
 At only 15° misalignment, the second pair blocks relatively little additional light (cos²15° ≈ 0.93). The time difference is small. At 90° misalignment, no light would pass and it would take infinite time!
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) On a day when the intensity of sunlight is $$ 1.00 \text{kW}/{\text{m}}^{2} $$ , a circular lens 0.200 m in diameter focuses light onto water in a black
@@ -1035,18 +1139,22 @@ the water in $$\text{ºC}/\text{s} $$ , assuming it is $$ 80.0\% $$ absorbed? Th
 aluminum beaker has a mass of 30.0 grams and contains 250 grams of water. (b) Do
 the polarizing filters get hot? Explain.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$2.07 \times 10^{-2} $$
  ºC/s
 
 (b) Yes, the polarizing filters get hot because they absorb some of the lost
 energy from the sunlight.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1095,4 +1203,4 @@ unpolarized
 vertically polarized
 : the oscillations are in a vertical plane
 
-</div>
+:::

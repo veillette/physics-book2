@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 2
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Describe the effects of gravity on objects in motion.
 * Describe the motion of objects that are in free fall.
 * Calculate the position and velocity of objects in free fall.
 
-</div>
+::::
 
 Falling objects form an interesting class of motion problems. For example, we
 can estimate the depth of a vertical mine shaft by dropping a rock into it and
@@ -80,21 +80,27 @@ displacement.
 <div class="title">
 Kinematic Equations for Objects in Free-Fall where Acceleration = -*g*
 </div>
+
 <div class="equation">
  $$ v=v_{0}-g t $$
 </div>
+
 <div class="equation">
  $$ y=y_{0}+v_{0}t-\frac{1}{2}g t^{2} $$
 </div>
+
 <div class="equation">
  $$ v^{2}=v_{0}^{2}-2g\left(y-y_{0}\right) $$
 </div>
+
 </div>
 
-<div class="example" id="example1" markdown="1">
+:::: example {"class":"example","id":"example1"}
+
 <div class="title">
 Calculating Position and Velocity of a Falling Object: A Rock Thrown Upward
 </div>
+
 A person standing on the edge of a
 high cliff throws a rock straight up with an initial velocity of 13.0 m/s.
 The rock misses the edge of the cliff as it falls back to earth.
@@ -196,20 +202,24 @@ constant the entire time. Astronauts training in the famous Vomit Comet, for
 example, experience free-fall while arcing up as well as down, as we will
 discuss in more detail later.
 
-</div>
+::::
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Making Connections: Take-Home Experiment—Reaction Time
 </div>
+
 A simple experiment can be done to determine your reaction time. Have a friend hold a ruler between your thumb and index finger, separated by about 1 cm. Note the mark on the ruler that is right between your fingers. Have your friend drop the ruler unexpectedly, and try to catch it between your two fingers. Note the new reading on the ruler. Assuming acceleration is that due to gravity, calculate your reaction time. How far would you travel in a car (moving at 30 m/s) if the time it took your foot to go from the gas pedal to the brake was twice this reaction time?
 
-</div>
+::::
 
-<div class="example" id="example2" markdown="1">
+:::: example {"class":"example","id":"example2"}
+
 <div class="title">
 Calculating Velocity of a Falling Object: A Rock Thrown Down
 </div>
+
 What happens if the person on the cliff throws the rock straight down, instead of straight up? To explore this question, calculate the velocity of the rock when it is 5.10 m below the starting point, and has been thrown downward with an initial speed of 13.0 m/s.
 
 **Strategy**
@@ -238,6 +248,7 @@ only unknown in it is $$ v $$. (We will plug $$ y\_{1} $$ in for $$ y $$.)
 <div class="equation">
  $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$ 
 </div>
+
 where we have retained extra significant figures because this is an intermediate result.
 
 Taking the square root, and noting that a square root can be positive or
@@ -246,6 +257,7 @@ negative, gives
 <div class="equation">
  $$ v= \pm  16.4 \ms . $$
 </div>
+
 The negative root is chosen to indicate that the rock is still heading down. Thus,
 
 <div class="equation">
@@ -267,7 +279,7 @@ signs are meaningful; the positive value occurs when the rock is at 8.10 m and
 heading up, and the negative value occurs when the rock is at 8.10 m and heading
 back down. It has the same _speed_ but the opposite direction.
 
-![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock’s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_07_05.jpg "(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ")
+![Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock’s trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.](../resources/Figure_02_07_05.jpg '(a) A person throws a rock straight up, as explored in <a href="#example1">Example 1</a>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <a href="#example2">Example 2</a>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. ')
 {: #Figure5}
 
 Another way to look at it is this: In [Example 1](#example1), the rock is thrown
@@ -279,12 +291,14 @@ at $$ -13.0 \ms $$. The velocity of the rock on its way down from $$ y=0 $$ is
 the same whether we have thrown it up or down to start with, as long as the
 speed with which it was initially thrown is the same.
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Find *g* from Data on a Falling Object
 </div>
+
 The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#Figure6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
 
 ![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_07_06.jpg 'Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.')
@@ -315,21 +329,25 @@ values.
 <div class="equation">
  $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
+
 3\. Substitute 0 for $$ v_{0} $$ and rearrange the equation to solve for $$ a $$. Substituting 0 for $$ v_{0} $$ yields
 
 <div class="equation">
  $$ y=y_{0}+\frac{1}{2}a t^{2}. $$
 </div>
+
 Solving for $$ a $$ gives
 
 <div class="equation">
  $$ a=\frac{2\left(y-y_{0}\right)}{ t^{2}}. $$
 </div>
+
 4\. Substitute known values yields
 
 <div class="equation">
  $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$ 
 </div>
+
 so, because $$ a=-g $$ with the directions we have chosen,
 
 <div class="equation">
@@ -345,18 +363,23 @@ into the calculation are relatively precise, this value for $$ g $$ is more
 precise than the average value of $$ 9.80 \mss $$; it represents the local value
 for the acceleration due to gravity.
 
-</div>
+::::
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+:::: problem
+
 A chunk of ice breaks off a glacier and falls 30.0 meters before it hits the
 water. Assuming it falls freely (there is no air resistance), how long does
 it take to hit the water?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
+
 We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation
 $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
 
@@ -368,24 +391,33 @@ t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
 80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
 \end{array} $$
 </div>
+
 where we take the positive value as the physically relevant answer.
 Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
-</div>
+
+::::
+
 </div>
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
 Kinematics of an Elevator
 </div>
+
 The three kinematic variables, position, velocity, and acceleration are all related. See how they evolve graphically.
-<figure markdown="1">
+
+::: figure {}
+
 <iframe loading="lazy" src="https://ccny-physics-sims.github.io/sims/plot-elevator/"
 width ="600" height="1000" allowfullscreen ></iframe >
 <figcaption>
 Kinematics of an Elevator
 </figcaption>
-</figure>
-</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -409,48 +441,68 @@ Kinematics of an Elevator
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What is the acceleration of a rock thrown straight upward on the way up? At the top of its flight? On the way down?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 An object that is thrown straight up falls back to Earth. This is one-dimensional motion.
 (a) When is its velocity zero?
 (b) Does its velocity change direction?
 (c) Does the acceleration due to gravity have the same sign on the way up as on the way down?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the rock misses on the way up but hits the coconut on the way down. Neglecting air resistance, how does the speed of the rock when it hits the coconut on the way down compare with what it would have been if it had hit the coconut on the way up? Is it more likely to dislodge the coconut on the way up or down? Explain.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If an object is thrown straight up and air resistance is negligible, then its speed when it returns to the starting point is the same as when it was released. If air resistance were not negligible, how would its speed upon return compare with its initial speed? How would the maximum height to which it rises be affected?
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 The severity of a fall depends on your speed when you strike the ground. All
 factors but the acceleration due to gravity being the same, how many times higher could a safe fall on the Moon be than on Earth (gravitational acceleration on the Moon is about 1/6 that of the Earth)?
-</div>
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 How many times higher could an astronaut jump on the Moon than on Earth if
 his takeoff speed is the same in both locations (gravitational acceleration on the Moon is about 1/6 of $$ g $$ on Earth)?
-</div>
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -458,15 +510,19 @@ his takeoff speed is the same in both locations (gravitational acceleration on t
 Assume air resistance is negligible unless otherwise stated.
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Calculate the displacement and velocity at times of
 (a) 0.500,
 (b) 1.00,
 (c) 1.50, and
 (d) 2.00 s for a ball thrown straight up with an initial velocity of 15.0 m/s.
 Take the point of release to be $$ y_{0}=0 $$.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -530,19 +586,24 @@ At t = 1.50 s, the velocity is nearly zero, indicating the ball is near its maxi
 
 (d) At 2.00 s, the ball is at $$ y_4 = 10.4 \m $$ with velocity $$ v_4 = 4.60 \ms $$ downward.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Calculate the displacement and velocity at times of
 (a) 0.500,
 (b) 1.00,
 (c) 1.50,
 (d) 2.00, and
 (e) 2.50 s for a rock thrown straight down with an initial velocity of 14.0 m/s from the Verrazano Narrows Bridge in New York City. The roadway of this bridge is 70.0 m above the water.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -618,16 +679,21 @@ At 2.50 s, the rock has fallen 65.6 m, which is still above the water (70.0 m be
 
 (e) At 2.50 s: displacement = 65.6 m, velocity = 38.5 m/s downward.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A basketball referee tosses the ball straight up for the starting tip-off.
 At what minimum velocity must a basketball player leave the ground to rise 1.25 m
 above the floor in an attempt to get the ball?
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -665,17 +731,21 @@ This is a reasonable jumping speed for an athlete. The calculation shows that to
 
 The basketball player must leave the ground with a minimum velocity of $$ 4.95 \ms $$ (about 5.0 m/s) to rise 1.25 m above the floor.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A rescue helicopter is hovering over a person whose boat has sunk. One of the rescuers throws a life preserver straight down to the victim with an initial velocity of 1.40 m/s and observes that it takes 1.8 s to reach the water.
 (a) List the knowns in this problem.
 (b) How high above the water was the preserver released? Note that the downdraft of the helicopter reduces the effects of air resistance on the falling life preserver, so that an acceleration equal to that of gravity is reasonable.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -720,18 +790,23 @@ The helicopter was hovering about 18 meters above the water. This is a reasonabl
 
 (b) The life preserver was released from a height of approximately $$ 18 \m $$ above the water.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A dolphin in an aquatic show jumps straight up out of the water at a velocity of 13.0 m/s.
 (a) List the knowns in this problem.
 (b) How high does his body rise above the water? To solve this part, first note that the final velocity is now a known and identify its value. Then identify the unknown, and discuss how you chose the appropriate equation to solve for it. After choosing the equation, show your steps in solving for the unknown, checking units, and discuss whether the answer is reasonable.
 (c) How long is the dolphin in the air? Neglect any effects due to his size or orientation.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 (a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0 \m $$ (b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
 where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ because it contains all known values except for $$ y $$, so we can solve for
 $$ y $$. Solving for $$ y $$ gives
@@ -743,23 +818,28 @@ v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
 y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
 \end{array} $$
 </div>
+
 Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.
 
 (c) $$ 2.65 \s $$
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A swimmer bounces straight up from a diving board and falls feet first into a pool.
 She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above the pool.
 (a) How long are her feet in the air?
 (b) What is her highest point above the board?
 (c) What is her velocity when her feet hit the water?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -872,16 +952,21 @@ The swimmer is in the air for about 1.1 seconds, which is reasonable for a dive.
 
 (c) Her velocity when her feet hit the water is $$ 7.16 \ms $$ downward.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate the height of a cliff if it takes 2.35 s for a rock to hit the ground when it is thrown straight up from the cliff with an initial velocity of 8.00 m/s.
 (b) How long would it take to reach the ground if it is thrown straight down with the same speed?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 ![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
 
 **Strategy**
@@ -959,17 +1044,21 @@ When thrown downward, the rock takes much less time (0.717 s vs. 2.35 s) because
 
 (b) If thrown straight down with the same speed, it takes $$ 0.717 \s $$ to reach the ground.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A very strong, but inept, shot putter puts the shot straight up vertically with an initial
 velocity of 11.0 m/s. How long does he have to get out of the way if the shot was released at a height of 2.20 m,
 and he is 1.80 m tall?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1040,15 +1129,20 @@ The negative time solution represents when the shot would have been at head heig
 
 The shot putter has $$ 2.28 \s $$ (about 2.3 seconds) to get out of the way before the shot comes back down to head level.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a tree branch on the way up at a height of 7.00 m. How much additional time will pass before the ball passes the tree branch on the way back down?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Take upward as positive. The ball passes the tree branch twice: once on the way up and once on the way down. We need to find both times when the ball is at height 7.00 m, then calculate the difference between these times.
@@ -1115,17 +1209,21 @@ The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on 
 
 The ball will pass the tree branch on the way down __1.91 s__ after passing it on the way up.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A kangaroo can jump over an object 2.50 m high.
 (a) Calculate its vertical speed when it leaves the ground.
 (b) How long is it in the air?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1200,18 +1298,22 @@ A takeoff speed of 7.00 m/s (about 25 km/h) is quite impressive for an animal ju
 
 (b) The kangaroo is in the air for $$ 1.43 \s $$ (about 1.4 seconds).
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Standing at the base of one of the cliffs of Mt. Arapiles in Victoria, Australia, a hiker hears a rock break loose from
 a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
 (a) How far above the hiker is the rock when he can see it?
 (b) How much time does he have to move before the rock hits his head?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1285,18 +1387,22 @@ The rock falls 11.0 m in the first 1.50 seconds, leaving it 94.0 m above the hik
 
 (b) He has 3.13 s to move before the rock hits his head.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 An object is dropped from a height of 75.0 m above ground level.
 (a) Determine the distance traveled during the first second.
 (b) Determine the final velocity at which the object hits the ground.
 (c) Determine the distance traveled during the last second of motion before hitting the ground.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1394,17 +1500,21 @@ The object falls only 4.90 m in the first second but travels 33.5 m in the last 
 
 (c) The object travels $$ 33.5 \m $$ during the last second of motion before hitting the ground.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 There is a 250-m-high cliff at Half Dome in Yosemite National Park in California. Suppose a boulder breaks loose from the top of this cliff.
 (a) How fast will it be going when it strikes the ground?
 (b) Assuming a reaction time of 0.300 s, how long will a tourist at the bottom have to get out of the way after hearing the sound of the rock breaking loose (neglecting the height of the tourist, which would become negligible anyway if hit)? The speed of sound is 335 m/s on this day.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1482,14 +1592,19 @@ The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is
 
 (b) The tourist has 6.10 s to get out of the way.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the ground on its path up and takes 0.312 s to go past the window. What was the ball's initial velocity? Hint: First consider only the distance along the window, and solve for the ball's velocity at the bottom of the window. Next, consider only the distance from the ground to the bottom of the window, and solve for the initial velocity using the velocity at the bottom of the window as the final velocity.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1575,16 +1690,21 @@ The ball was thrown with an initial velocity of 14.5 m/s. By the time it reaches
 
 The ball's initial velocity was $$ 14.5 \ms $$ upward.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose you drop a rock into a dark well and, using precision equipment, you measure the time for the sound of a splash to return.
 (a) Neglecting the time required for sound to travel up the well, calculate the distance to the water if the sound returns in 2.0000 s.
 (b) Now calculate the distance taking into account the time for sound to travel up the well. The speed of sound is 332.00 m/s in this well.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1688,11 +1808,14 @@ When we account for the time it takes sound to travel up the well, the calculate
 
 (b) Accounting for the time sound takes to travel up the well, the distance to the water is 18.5 m.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.45 m.
 (a) Calculate its velocity just before it strikes the floor.
 (b) Calculate its velocity just after it leaves the floor on its way back up.
@@ -1700,8 +1823,9 @@ A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds t
 (d) How much did the ball compress during its collision with the floor,
 assuming the floor is absolutely rigid?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1840,17 +1964,22 @@ The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same s
 
 (d) The ball compressed approximately $$ 4.0 \times 10^{-6} \m $$ or $$ 4.0 \text{ μm} $$ during its collision with the floor.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A coin is dropped from a hot-air balloon that is 300 m above the ground and rising at 10.0 m/s upward. For the coin, find
 (a) the maximum height reached,
 (b) its position and velocity 4.00 s after being released, and
 (c) the time before it hits the ground.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -1976,11 +2105,14 @@ This problem demonstrates motion with an initial upward velocity. The coin doesn
 
 (c) The coin hits the ground 8.91 s after being released from the balloon.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.10 m.
 (a) Calculate its velocity just before it strikes the floor.
 (b) Calculate its velocity just after it leaves the floor on its way back up.
@@ -1988,8 +2120,9 @@ A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebo
 (d) How much did the ball compress during its collision with the floor,
 assuming the floor is absolutely rigid?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -2132,10 +2265,12 @@ The soft tennis ball shows markedly different behavior from the steel ball. It h
 
 (d) The ball compressed approximately $$ 1.4 \times 10^{-3} \m $$ or $$ 1.4 \text{ mm} $$ during its collision with the floor.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -2145,4 +2280,4 @@ free-fall
 acceleration due to gravity
 : acceleration of an object as a result of gravity
 
-</div>
+::::

@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define half-life.
 * Define dating.
 * Calculate age of old objects by radioactive dating.
-</div>
+
+:::
 
 Unstable nuclei decay. However, some nuclides decay faster than others. For
 example, radium and polonium, discovered by the Curies, decay faster than
@@ -114,10 +115,12 @@ living tissues, allowing the shroud to be dated (see [[Figure 2]](#Figure2)).
 ![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_31_05_02.jpg 'Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)')
 {: #Figure2}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 How Old Is the Shroud of Turin?
 </div>
+
 Calculate the age of the Shroud of Turin given that the amount of  $${}^{14}\text{C} $$
  found in it is 92% of that in living tissue.
 
@@ -136,26 +139,31 @@ Solving the equation $$N={N}_{0}{e}^{-\lambda t} $$ for $$N/{N}_{0} $$ gives
 <div class="equation" >
  $$\frac{N}{ {N}_{0}}={e}^{-\lambda t}\text{.} $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $$ 0.92={e}^{-\lambda t}\text{.} $$
 </div>
+
 Taking the natural logarithm of both sides of the equation yields
 
 <div class="equation" >
  $$\ln  0.92=-\lambda t $$
 </div>
+
 so that
 
 <div class="equation" >
  $$ -0.0834=-\lambda t\text{.} $$
 </div>
+
 Rearranging to isolate  $$t $$  gives
 
 <div class="equation" >
  $$t=\frac{ 0.0834}{\lambda }\text{.} $$
 </div>
+
 Now, the equation  $$\lambda =\frac{ 0.693}{ {t}_{1/2}} $$
  can be used to find  $$\lambda  $$
  for  $${}^{14}\text{C} $$ .
@@ -165,12 +173,14 @@ Now, the equation  $$\lambda =\frac{ 0.693}{ {t}_{1/2}} $$
 <div class="equation" >
  $$\lambda =\frac{ 0.693}{ {t}_{1/2}}=\frac{ 0.693}{5730 \text{y}}\text{.} $$
 </div>
+
 We enter this value into the previous equation to find  $$t $$
 \:
 
 <div class="equation" >
  $$t=\frac{ 0.0834}{\frac{ 0.693}{5730 \text{y}}}=690 \text{y} \text{.}  $$
 </div>
+
 **Discussion**
 
 This dates the material in the shroud to 1988–690 = a.d. 1300. Our calculation
@@ -183,7 +193,7 @@ independent measurements). It is meaningful that the date of the shroud is
 consistent with the first record of its existence and inconsistent with the
 period in which Jesus lived.
 
-</div>
+:::
 
 There are other forms of radioactive dating. Rocks, for example, can sometimes
 be dated based on the decay of $${}^{238}\text{U} $$ . The decay series for
@@ -246,11 +256,13 @@ where $$N $$ is the number of radioactive nuclei present, having half-life
 $${t}\_{1/2} $$ . This relationship is useful in a variety of calculations, as
 the next two examples illustrate.
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 How Great Is the
  $${}^{14}\text{C} $$ Activity in Living Tissue?
 </div>
+
 Calculate the activity due to  $${}^{14}\text{C} $$
  in 1.00 kg of carbon found in a living organism. Express the activity in units of Bq and Ci.
 
@@ -273,11 +285,13 @@ table.) Thus the number of carbon nuclei in a kilogram is
 <div class="equation" >
  $$N\left({}^{12}\text{C}\right)=\frac{ 6.02 \times 10^{23}  {\text{mol}}^{-1}}{12.0 g/mol}× \left( 1000 \text{g} \right)= 5.02 \times 10^{25} \text{.} $$
 </div>
+
 So the number of  $${}^{14}\text{C} $$  nuclei in 1 kg of carbon is
 
 <div class="equation" >
  $$N\left({}^{14}\text{C}\right)=\left( 5.02 \times 10^{25} \right)\left(1.3 \times 10^{\text{−12}}\right)= 6.52 \times 10^{13} \text{.} $$
 </div>
+
 Now the activity  $$R $$
  is found using the equation  $$R=\frac{ 0.693N}{ {t}_{1/2}} $$.
 
@@ -286,23 +300,27 @@ Entering known values gives
 <div class="equation" >
  $$R=\frac{ 0.693\left( 6.52 \times 10^{13} \right)}{5730 \text{y}}= 7.89 \times 10^{9}  {\text{y}}^{-1}, $$
 </div>
+
 or  $$ 7.89 \times 10^{9}  $$
  decays per year. To convert this to the unit Bq, we simply convert years to seconds. Thus,
 
 <div class="equation" >
  $$R=\left( 7.89 \times 10^{9}  {\text{y}}^{-1}\right)\frac{1.00 \text{y}}{ 3.16 \times 10^{7}  \text{s}}=250 \text{Bq} \text{,}  $$
 </div>
+
 or 250 decays per second. To express  $$R $$
  in curies, we use the definition of a curie,
 
 <div class="equation" >
  $$R=\frac{250 \text{Bq}}{ 3.7 \times 10^{10}  \text{Bq/Ci}}= 6.76 \times 10^{-9}  \text{Ci} \text{.}  $$
 </div>
+
 Thus,
 
 <div class="equation" >
  $$R=6.76 \text{nCi} \text{.}  $$
 </div>
+
 **Discussion**
 
 Our own bodies contain kilograms of carbon, and it is intriguing to think there
@@ -318,7 +336,7 @@ reduce background noise. This becomes more difficult with an old tissue sample,
 since it contains less $${}^{14}\text{C} $$ , and for samples more than 50
 thousand years old, it is impossible.
 
-</div>
+:::
 
 Human-made (or artificial) radioactivity has been produced for decades and has
 many uses. Some of these include medical therapy for cancer, medical imaging and
@@ -340,11 +358,13 @@ released was about 100 million curies.
 ![A person holding a hand held radiation detector near the Chernobyl reactor.](../resources/Figure_31_05_03.jpg 'The Chernobyl reactor. More than 100 people died soon after its meltdown, and there will be thousands of deaths from radiation-induced cancer in the future. While the accident was due to a series of human errors, the cleanup efforts were heroic. Most of the immediate fatalities were firefighters and reactor personnel. (credit: Elena Filatova)')
 {: #Figure3}
 
-<div class="example" markdown="1">
+::: example
+
 <div class="title">
 What Mass of
  $${}^{137}\text{Cs} $$ Escaped Chernobyl?
 </div>
+
 It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text{Cs} $$
  into the environment. Calculate the mass of  $${}^{137}\text{Cs} $$
  released.
@@ -363,16 +383,19 @@ Solving the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$ for $$N $$ gives
 <div class="equation" >
  $$N=\frac{ {\text{Rt}}_{1/2}}{0.693}\text{.} $$
 </div>
+
 Entering the given values yields
 
 <div class="equation" >
  $$N=\frac{\left(6.0 MCi\right)\left( 30.2 y\right)}{ 0.693}\text{.} $$
 </div>
+
 Converting curies to becquerels and years to seconds, we get
 
 <div class="equation" >
  $$\begin{array}{lll}N& =& \frac{\left( 6.0 \times 10^{6}  \text{Ci}\right)\left( 3.7 \times 10^{10}  \text{Bq/Ci}\right)\left(30.2 \text{y}\right)\left( 3.16 \times 10^{7}  \text{s/y}\right)}{0.693}\\ & =&   3.1 \times 10^{26} \text{.}\end{array} $$
 </div>
+
 One mole of a nuclide  $${}^{A}X $$  has a mass of  $$A $$
  grams, so that one mole of  $${}^{137}\text{Cs} $$
  has a mass of 137 g. A mole has  $$ 6.02 \times 10^{23}  $$
@@ -382,6 +405,7 @@ One mole of a nuclide  $${}^{A}X $$  has a mass of  $$A $$
 <div class="equation" >
  $$\begin{array}{lll}m& =& \left(\frac{137 \text{g}}{ 6.02 \times 10^{23} }\right)\left( 3.1 \times 10^{26} \right)=70 \times 10^{3}  \text{g}\\ & =&  70 \text{kg}\text{.}\end{array} $$
 </div>
+
 **Discussion**
 
 While 70 kg of material may not be a very large mass compared to the amount of
@@ -394,7 +418,7 @@ requiring greater caution than was used. More will be said about safe reactor
 design in the next chapter, but it should be noted that Western reactors have a
 fundamentally safer design.
 
-</div>
+:::
 
 Activity $$R $$ decreases in time, going to half its original value in one
 half-life, then to one-fourth its original value in the next half-life, and so
@@ -414,16 +438,19 @@ half-lives, to 0.125 mCi in three half-lives, and so on. For times other than
 whole half-lives, the equation $$R={R}_{0}{e}^{-\lambda t} $$ must be used to
 find $$R $$.
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Alpha Decay
 </div>
+
 Watch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life.
 
 <div class="media" id="PhET_module" data-alt="Alpha Decay">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/alpha-decay/latest/alpha-decay.html?simulation=alpha-decay"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -433,6 +460,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
   <div class="equation" >
    $$N={N}_{0}{e}^{-\lambda t}, $$
   </div>
+
      where
    $${N}_{0} $$ is the number present at
    $$t=0 $$ ,  and
@@ -473,6 +501,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
   <div class="equation" >
    $$R={R}_{0}{e}^{-\lambda t}, $$
   </div>
+
      where
    $${R}_{0} $$ is the activity at
    $$t=0 $$ .
@@ -480,7 +509,9 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 In a  $$3 \times 10^{9}  $$
 -year-old rock that originally contained some  $${}^{238}\text{U} $$ ,
  which has a half-life of  $$ 4.5 \times 10^{9}  $$
@@ -490,52 +521,71 @@ In a  $$3 \times 10^{9}  $$
  and  $${}^{210}\text{Po} $$
  also found in such a rock, even though they have much shorter half-lives (1600 years, 3.8 days, and 138 days, respectively)?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Does the number of radioactive nuclei in a sample decrease to *exactly* half its original value in one half-life? Explain in terms of the statistical nature of radioactive decay.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Radioactivity depends on the nucleus and not the atom or its chemical state. Why, then, is one kilogram of uranium more radioactive than one kilogram of uranium hexafluoride?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain how a bound system can have less mass than its components. Why is this not observed classically, say for a building made of bricks?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Spontaneous radioactive decay occurs only when the decay products have less mass than the parent, and it tends to produce a daughter that is more stable than the parent. Explain how this is related to the fact that more tightly bound nuclei are more stable. (Consider the binding energy per nucleon.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 To obtain the most precise value of BE from the equation  $$\text{BE=}\left[ \text{ZM}\left({}^{1}\text{H}\right)+N m_{n}\right]  {c}^{2}-m\left({}^{A}X\right){c}^{2} $$ ,
  we should take into account the binding energy of the electrons in the neutral atoms. Will doing this produce a larger or smaller value for BE? Why is this effect usually negligible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How does the finite range of the nuclear force relate to the fact that  $$\text{BE}/A $$
  is greatest for  $$A $$
  near 60?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -544,149 +594,207 @@ Data from the appendices and the periodic table may be needed for these
 problems.
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 An old campfire is uncovered during an archaeological dig. Its charcoal is found to contain less than 1/1000 the normal amount of  $${}^{14}\text{C} $$ .
  Estimate the minimum age of the charcoal, noting that  $${2}^{10}=1024 $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 57 300 y
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $${}^{60}\text{Co} $$
  source is labeled 4.00 mCi, but its present activity is found to be  $$ 1.85 \times 10^{7}  $$
  Bq. (a) What is the present activity in mCi? (b) How long ago did it actually have a 4.00-mCi activity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Calculate the activity  $$R $$
  in curies of 1.00 g of  $${}^{226}\text{Ra} $$ .
  (b) Discuss why your answer is not exactly 1.00 Ci, given that the curie was originally supposed to be exactly the activity of a gram of radium.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 0.988 Ci
 
 (b) The half-life of $${}^{226}\text{Ra} $$ is now better known.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Show that the activity of the  $${}^{14}\text{C} $$
  in 1.00 g of  $${}^{12}\text{C} $$
  found in living tissue is 0.250 Bq.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Mantles for gas lanterns contain thorium, because it forms an oxide that can survive being heated to incandescence for long periods of time. Natural thorium is almost 100%  $${}^{232}\text{Th} $$ ,
  with a half-life of  $$ 1.405 \times 10^{10}  \text{y} $$ .
  If an average lantern mantle contains 300 mg of thorium, what is its activity?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 1.22 \times 10^{3}  \text{Bq} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Cow’s milk produced near nuclear reactors can be tested for as little as 1.00 pCi of  $${}^{131}\text{I} $$
  per liter, to check for possible reactor leakage. What mass of  $${}^{131}\text{I} $$
  has this activity?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Natural potassium contains  $${}^{40}\text{K} $$ ,
  which has a half-life of  $$ 1.277 \times 10^{9}  $$
  y. What mass of  $${}^{40}\text{K} $$
  in a person would have a decay rate of 4140 Bq? (b) What is the fraction of  $${}^{40}\text{K} $$
  in natural potassium, given that the person has 140 g in his body? (These numbers are typical for a 70-kg adult.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 16.0 mg
 
 (b) 0.0114%
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 There is more than one isotope of natural uranium. If a researcher isolates 1.00 mg of the relatively scarce  $${}^{235}\text{U} $$
  and finds this mass to have an activity of 80.0 Bq, what is its half-life in years?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
  $${}^{50}\text{V} $$
  has one of the longest known radioactive half-lives. In a difficult experiment, a researcher found that the activity of 1.00 kg of  $${}^{50}\text{V} $$
  is 1.75 Bq. What is the half-life in years?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 1.48 \times 10^{17}  \text{y} $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 You can sometimes find deep red crystal vases in antique stores, called uranium glass because their color was produced by doping the glass with uranium. Look up the natural isotopes of uranium and their half-lives, and calculate the activity of such a vase assuming it has 2.00 g of uranium in it. Neglect the activity of any daughter nuclides.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A tree falls in a forest. How many years must pass before the  $${}^{14}\text{C} $$
  activity in 1.00 g of the tree’s carbon drops to 1.00 decay per hour?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
  $$ 5.6 \times 10^{4}  y $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What fraction of the  $${}^{40}\text{K} $$
  that was on Earth when it formed  $$ 4.5 \times 10^{9}  $$
  years ago is left today?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A 5000-Ci  $${}^{60}\text{Co} $$
  source used for cancer therapy is considered too weak to be useful when its activity falls to 3500 Ci. How long after its manufacture does this happen?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 2.71 y
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise14" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Natural uranium is 0.7200%  $${}^{235}\text{U} $$
  and 99.27%  $${}^{238}\text{U} $$ .
  What were the percentages of  $${}^{235}\text{U} $$
@@ -694,89 +802,117 @@ Natural uranium is 0.7200%  $${}^{235}\text{U} $$
  in natural uranium when Earth formed  $$ 4.5 \times 10^{9}  $$
  years ago?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 The  $${\beta }^{-} $$
  particles emitted in the decay of  $${}^{3}\text{H} $$
  (tritium) interact with matter to create light in a glow-in-the-dark exit sign. At the time of manufacture, such a sign contains 15.0 Ci of  $${}^{3}\text{H} $$ .
  (a) What is the mass of the tritium? (b) What is its activity 5.00 y after manufacture?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a) 1.56 mg
 
 (b) 11.3 Ci
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 World War II aircraft had instruments with glowing radium-painted dials 
 (see [[Figure 2]](../contents/ch31NuclearRadioactivity#Figure2)). The activity of one such instrument was  $$ 1.0 \times 10^{5}  $$
  Bq when new. (a) What mass of  $${}^{226}\text{Ra} $$
  was present? (b) After some years, the phosphors on the dials deteriorated chemically, but the radium did not escape. What is the activity of this instrument 57.0 years after it was made?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) The  $${}^{210}\text{Po} $$
  source used in a physics laboratory is labeled as having an activity of  $$1.0 \mu \text{Ci} $$
  on the date it was prepared. A student measures the radioactivity of this source with a Geiger counter and observes 1500 counts per minute. She notices that the source was prepared 120 days before her lab. What fraction of the decays is she observing with her apparatus? (b) Identify some of the reasons that only a fraction of the  $$\alpha  $$
  s emitted are observed by the detector.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$ 1.23 \times 10^{-3}  $$
 (b) Only part of the emitted radiation goes in the direction of the detector. Only a fraction of that causes a response in the detector. Some of the emitted radiation (mostly  $$\alpha  $$
  particles) is observed within the source. Some is absorbed within the source, some is absorbed by the detector, and some does not penetrate the detector.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Armor-piercing shells with depleted uranium cores are fired by aircraft at tanks. (The high density of the uranium makes them effective.) The uranium is called depleted because it has had its  $${}^{235}\text{U} $$
  removed for reactor use and is nearly pure  $${}^{238}\text{U} $$ .
  Depleted uranium has been erroneously called non-radioactive. To demonstrate that this is wrong: (a) Calculate the activity of 60.0 g of pure  $${}^{238}\text{U} $$ .
  (b) Calculate the activity of 60.0 g of natural uranium, neglecting the  $${}^{234}\text{U} $$
  and all daughter nuclides.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The ceramic glaze on a red-orange Fiestaware plate is  $${\text{U}}_{2}{\text{O}}_{3} $$
  and contains 50.0 grams of  $${}^{238}\text{U} $$ , but very little  $${}^{235}\text{U} $$ .
  (a) What is the activity of the plate? (b) Calculate the total energy that will be released by the  $${}^{238}\text{U} $$
  decay. (c) If energy is worth 12.0 cents per  $$\text{kW}\cdot \text{h} $$ ,
  what is the monetary value of the energy emitted? (These plates went out of production some 30 years ago, but are still available as collectibles.)
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a)  $$1.68 \times 10^{-5}  \text{Ci} $$
 (b)  $$8.65 \times 10^{10}  \text{J} $$
 (c)  $$2.9 \times 10^{3}  $$
-</div>
+
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Large amounts of depleted uranium ( $${}^{238}\text{U} $$ ) 
 are available as a by-product of uranium processing for reactor fuel and weapons. Uranium is very dense and makes good counter weights for aircraft. Suppose you have a 4000-kg block of  $${}^{238}\text{U} $$ .
  (a) Find its activity. (b) How many calories per day are generated by thermalization of the decay energy? (c) Do you think you could detect this as heat? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" id="exercise" data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 The *Galileo* space probe was launched on its long journey past several planets in 1989, with an ultimate goal of Jupiter. Its power source is 11.0 kg of  $${}^{238}\text{Pu} $$ ,
  a by-product of nuclear weapons plutonium production. Electrical energy is generated thermoelectrically from the heat produced when the 5.59-MeV  $$\text{α} $$
  particles emitted in each decay crash to a halt inside the plutonium and its shielding. The half-life of  $${}^{238}\text{Pu} $$
@@ -784,18 +920,23 @@ The *Galileo* space probe was launched on its long journey past several planets 
  in becquerel? (b) What power was emitted in kilowatts? (c) What power was emitted 12.0 y after launch? You may neglect any extra energy from daughter nuclides and any losses from escaping  $$\text{γ} $$
  rays.
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a)  $$6.97 \times 10^{15}  \text{Bq} $$
 (b) 6.24 kW
 
 (c) 5.67 kW
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider the generation of electricity by a radioactive isotope in a space
@@ -805,11 +946,14 @@ power for a long space flight. Among the things to consider are the isotope
 chosen, its half-life and decay energy, the power needs of the probe and the
 length of the flight.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A nuclear physicist finds $$1.0 \mu \text{g} $$ of $${}^{236}\text{U} $$ in a
@@ -819,11 +963,14 @@ Earth when it formed $$4.5 \times 10^{9} \text{y} $$ ago for $$1.0 \mu \text{g} 
 to be left today. (b) What is unreasonable about this result? (c) What
 assumption is responsible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Repeat [[Exercise 14]](#Exercise14)
@@ -831,11 +978,14 @@ $${}^{234}\text{U} $$ with its $$2.45 \times 10^{5} \text{y} $$ half-life. (b)
 What is unreasonable about this result? (c) What assumption is responsible? (d)
 Where does the $${}^{234}\text{U} $$ come from if it is not primordial?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 The manufacturer of a smoke alarm decides that the smallest current of
@@ -844,8 +994,10 @@ $$\text{α} $$ radiation he can detect is $$1.00 \mu \text{A} $$ .
 $$1.00 \mu \text{A} $$ current of $$\text{α} $$ particles. (b) What is
 unreasonable about this result? (c) What assumption is responsible?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a) 84.5 Ci
 
 (b) An extremely large activity, many orders of magnitude greater than permitted
@@ -854,10 +1006,12 @@ for home use.
 (c) The assumption of $$1.00 \text{μA} $$ is unreasonably large. Other methods
 can detect much smaller decay rates.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -888,4 +1042,4 @@ curie
 : the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10} $$
 \text{Bq}
 
-</div>
+:::

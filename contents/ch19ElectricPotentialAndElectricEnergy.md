@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 19
 ---
-
 ![Air Force officials practice using an automated external defibrillator (AED). Electric potential energy is stored in the defibrillator unit and sent to resuscitate the patient.](../resources/Figure_19_00_01.jpg 'Automated external defibrillator unit (AED) (credit: U.S. Defense Department photo/Tech. Sgt. Suzanne M. Day)')
 {: #Figure1}
 
@@ -23,6 +22,8 @@ much larger car battery, yet each has the same voltage. In this chapter, we
 shall examine the relationship between voltage and electrical energy and begin
 to explore some of the many applications of electricity.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/COKBImkkJKw"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

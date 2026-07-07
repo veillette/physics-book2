@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 3
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the simple theory of color vision.
 * Outline the coloring properties of light sources.
 * Describe the retinex theory of color vision.
-</div>
+
+:::
 
 The gift of vision is made richer by the existence of color. Objects and lights
 abound with thousands of hues that stimulate our eyes, brains, and emotions. Two
@@ -40,14 +41,16 @@ ability to discern grey scales.
 (a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)')
 {: #Figure1}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Rods and Cones
 </div>
+
 1.   Go into a darkened room from a brightly lit room, or from outside in the Sun. How long did it take to start seeing shapes more clearly? What about color? Return to the bright room. Did it take a few minutes before you could see things clearly?
 2.   Demonstrate the sensitivity of foveal vision. Look at the letter G in the word ROGERS. What about the clarity of the letters on either side of G?
 
-</div>
+:::
 
 Cones are most concentrated in the fovea, the central region of the retina.
 There are no rods here. The fovea is at the center of the macula, a 5 mm
@@ -102,13 +105,15 @@ viewing the light source directly or when illuminating a white object with them.
 All of this fits neatly into the simplified theory that a combination of
 wavelengths produces various hues.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Exploring Color Addition
 </div>
+
 This activity is best done with plastic sheets of different colors as they allow more light to pass through to our eyes. However, thin sheets of paper and fabric can also be used. Overlay different colors of the material and hold them up to a white light. Using the theory described above, explain the colors you observe. You could also try mixing different crayon colors.
 
-</div>
+:::
 
 ![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_26_03_04.jpg 'Emission spectra for various light sources are shown. Curve A is average sunlight at Earth’s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra—a topic that will be explored later.')
 {: #Figure4}
@@ -159,10 +164,12 @@ the black-and-white and red images. Color vision is not completely understood or
 explained, and the retinex theory is not totally accepted. It is apparent that
 color vision is much subtler than what a first look might imply.
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Color Vision
 </div>
+
 Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons.
 {: class="newline"}
 
@@ -171,7 +178,8 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 <div class="media" id="PhET_module" data-alt="">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/color-vision/latest/color-vision_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -195,11 +203,14 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A pure red object on a black background seems to disappear when illuminated with pure green light. Explain why.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -240,15 +251,19 @@ The experiment can be reversed: a pure green object illuminated with pure red li
 
 This also explains why under monochromatic sodium vapor street lights (which emit primarily yellow light), it's difficult to distinguish colors—cars, clothing, and other objects all appear in shades of yellow, orange, and grey because there are no blue, green, or red wavelengths for those colored objects to reflect.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is color constancy, and what are its limitations?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -332,15 +347,19 @@ Understanding these limitations is crucial for:
 
 The very existence of color constancy demonstrates that color perception is not a simple one-to-one mapping of wavelength to sensation, but rather a sophisticated computational process that attempts to extract invariant object properties from varying sensory input.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 There are different types of color blindness related to the malfunction of different types of cones. Why would it be particularly useful to study those rare individuals who are color blind only in one eye or who have a different type of color blindness in each eye?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -421,15 +440,19 @@ These individuals essentially provide **ground truth** for color vision science�
 
 From a research methodology perspective, this is similar to the value of studying identical twins reared apart (eliminating genetic variation) or split-brain patients (revealing hemispheric specialization)—rare naturally occurring conditions that provide experimental controls impossible to achieve through designed experiments.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Propose a way to study the function of the rods alone, given they can sense light about 1000 times dimmer than the cones.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -565,10 +588,12 @@ These techniques have practical applications:
 
 Historically, these methods were crucial in establishing the duplicity theory of vision (the concept that rods and cones are separate systems with different functions), particularly through the work of Johannes von Kries in the late 19th century and subsequent researchers who precisely characterized rod and cone contributions to vision.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -595,4 +620,4 @@ responsible for the processing of visual information
 retinex theory of color vision
 : the ability to perceive color in an ambient-colored environment
 
-</div>
+:::

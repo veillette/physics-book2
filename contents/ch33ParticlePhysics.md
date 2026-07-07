@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 0
 chapterNumber: 33
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explore the substructures of matter.
 * Define particle physics.
-</div>
+
+:::
 
 ![Inside part of the Large Hadron Collider; complex system of machinery and electronics, with a person for scale](../resources/Figure_33_00_01.jpg 'Part of the Large Hadron Collider at CERN, on the border of Switzerland and France. The LHC is a particle accelerator, designed to study fundamental particles. (credit: Image Editor, Flickr)')
 {: #Figure1}
@@ -49,7 +50,8 @@ not only fantastic, it is real.
 - Particle physics is the study of and the quest for those truly fundamental
   particles having no substructure.
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -57,4 +59,4 @@ particle physics
 : the study of and the quest for those truly fundamental particles having no
 substructure
 
-</div>
+:::

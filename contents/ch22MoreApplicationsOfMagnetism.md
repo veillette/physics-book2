@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 11
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Describe some applications of magnetism.
-</div>
+
+:::
 
 ### Mass Spectrometry
 
@@ -203,17 +204,20 @@ cleansing the blood to giving the patient more energy, but clinical studies have
 not verified these claims, nor is there an identifiable mechanism by which such
 benefits might occur.
 
-<div class="note" data-has-label="true" class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Magnet and Compass
 </div>
+
 Ever wonder how a compass worked to point you to the Arctic? Explore the interactions between a compass and bar magnet, and then add the Earth and find the surprising answer! Vary the magnet\'s strength, and see how things change both inside and outside. Use the field meter to measure how the magnetic field changes.
 {: class="newline"}
 
 <div class="media"  data-alt="Other medical uses for magnetic field">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/magnet-and-compass/#sim-bar-magnet"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -227,58 +231,79 @@ Ever wonder how a compass worked to point you to the Arctic? Explore the interac
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Measurements of the weak and fluctuating magnetic fields associated with brain activity are called magnetoencephalograms (MEGs). Do the brain’s magnetic fields imply coordinated or uncoordinated nerve impulses? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Discuss the possibility that a Hall voltage would be generated on the moving heart of a patient during MRI imaging. Also discuss the same effect on the wires of a pacemaker. (The fact that patients with pacemakers are not given MRIs is significant.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A patient in an MRI unit turns his head quickly to one side and experiences momentary dizziness and a strange taste in his mouth. Discuss the possible causes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 You are told that in a certain region there is either a uniform electric or magnetic field. What measurement or observation could you make to determine the type? (Ignore the Earth’s magnetic field.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty water). This fluid interacts with the Earth’s magnetic field to produce a potential difference between the two river banks. How would you go about calculating the potential difference?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Draw gravitational field lines between 2 masses, electric field lines between a positive and a negative charge, electric field lines between 2 positive charges and magnetic field lines around a magnet. Qualitatively describe the differences between the fields and the entities responsible for the field lines.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div id="Exercise1" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current.
 
 ![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_22_11_03.jpg ' ')
 {: #Figure3}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -308,18 +333,22 @@ This problem illustrates how the right-hand rule consistently determines magneti
 
 **(a) Right side: into page; Left side: out of page. (b) Right side: out of page; Left side: into page. (c) Right side: out of page; Left side: into page.**
 
-</div>
+:::
+
 </div>
 
 <div id="Exercise2" class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What are the directions of the fields in the center of the loop and coils shown in [[Figure 4]](#Figure4)?
 
 ![Figure a shows current in a loop, running counterclockwise. Figure b shows current in a coil running from left to right. Figure c shows current in a coil running from right to left.](../resources/Figure_22_11_04.jpg ' ')
 {: #Figure4}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -348,18 +377,22 @@ The magnetic field inside a coil (solenoid) is uniform and parallel to the axis.
 
 **(a) Out of the page. (b) To the left. (c) To the right.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 What are the directions of the currents in the loop and coils shown in [[Figure 5]](#Figure5)?
 
 ![Figure a shows the magnetic field into the page in the middle of a loop. Figure b shows the magnetic field within a coil running from left to right. Figure c shows B running from right to left within a coil.](../resources/Figure_22_11_05.jpg ' ')
 {: #Figure5}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -388,17 +421,21 @@ This inverse application of the right-hand rule is essential for designing elect
 
 **(a) Clockwise. (b) Clockwise as seen from the left. (c) Clockwise as seen from the right.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 To see why an MRI utilizes iron to increase the magnetic field created by a coil, calculate the current needed in a 400-loop-per-meter circular coil 0.660 m in radius to create a 1.20-T field (typical of an MRI instrument) at its center with no iron present. The magnetic field of a proton is approximately like that of a circular current loop  $$ 0.650 \times 10^{-15}  m $$
  in radius carrying  $$ 1.05 \times 10^{4}  A $$ .
  What is the field at the center of such a loop?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -440,15 +477,19 @@ The magnetic field at the "center" of a proton (modeled as a tiny current loop) 
 
 **The magnetic field at the center of the proton's equivalent current loop is $1.01 \times 10^{13}$ T.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 Inside a motor, 30.0 A passes through a 250-turn circular loop that is 10.0 cm in radius. What is the magnetic field strength created at its center?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -478,15 +519,19 @@ This field of about 47 mT is quite strong for an air-core coil—about 1000 time
 
 **The magnetic field at the center of the motor coil is $4.71 \times 10^{-2}$ T or 47.1 mT.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Nonnuclear submarines use batteries for power when submerged. (a) Find the magnetic field 50.0 cm from a straight wire carrying 1200 A from the batteries to the drive mechanism of a submarine. (b) What is the field if the wires to and from the drive mechanism are side by side? (c) Discuss the effects this could have for a compass on the submarine that is not shielded.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -521,15 +566,19 @@ This problem illustrates why electrical wiring is almost always run as paired co
 
 **(a) $4.80 \times 10^{-4}$ T. (b) Zero (fields cancel). (c) The unpaired wire creates a field about 10 times Earth's field, severely disrupting compass navigation.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 How strong is the magnetic field inside a solenoid with 10 000 turns per meter that carries 20.0 A?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -556,16 +605,20 @@ This field of about 0.25 T is quite strong—roughly 5000 times Earth's magnetic
 
 **The magnetic field inside the solenoid is 0.251 T or 251 mT.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What current is needed in the solenoid described in [[Exercise 1]](#Exercise1) to produce a magnetic field  $$10^{4} $$
  times the Earth’s magnetic field of  $$ 5.00 \times 10^{-5} \text{T} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -593,16 +646,20 @@ A current of about 40 A is substantial but achievable with ordinary conductors (
 
 **A current of 39.8 A is needed to produce a magnetic field $10^4$ times Earth's field.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 How far from the starter cable of a car, carrying 150 A, must you be to experience a field less than the Earth's  $$\left( 5.00 \times 10^{-5} \text{T}\right)$$ ?
  Assume a long straight wire carries the current. (In practice, the body of your car shields the dashboard compass.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -633,15 +690,19 @@ You must be at least 60 cm (about 2 feet) from the starter cable for the wire's 
 
 **You must be at least 0.600 m (60.0 cm) from the starter cable for the field to be less than Earth's.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Measurements affect the system being measured, such as the current loop in [[Figure 8]](../contents/ch23MagneticForceOnACurrentCarryingConductor#Figure8). (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -675,11 +736,14 @@ This problem illustrates an important principle in measurement science: the meas
 
 **(a) The loop creates a field of $3.14 \times 10^{-5}$ T at its center. (b) The smallest field measurable with less than 0.0100% perturbation is 0.314 T.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 [[Figure 6]](#Figure6) shows a long straight wire just touching a loop carrying a current  $${I}_{1} $$ .
  Both lie in the same plane. (a) What direction must the current  $${I}_{2} $$
  in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of  $${I}_{1}/{I}_{2} $$
@@ -688,8 +752,9 @@ This problem illustrates an important principle in measurement science: the meas
 ![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_22_11_06.jpg ' ')
 {: #Figure6}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -726,15 +791,19 @@ This problem illustrates that magnetic field cancellation at one point doesn't g
 
 **(a) $I_2$ must flow from lower left to upper right. (b) $I_1/I_2 = 1/\pi \approx 0.318$. (c) The field above the loop points at an angle, with components both along and perpendicular to the axis.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[Figure 5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(a), using the rules of vector addition to sum the contributions from each wire.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -766,15 +835,19 @@ Vector addition of magnetic fields is essential when multiple current sources ar
 
 **The net magnetic field is $7.55 \times 10^{-5}$ T at an angle of $23.4°$.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[Figure 5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(b), using the rules of vector addition to sum the contributions from each wire.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -806,15 +879,19 @@ The specific numerical answer depends on the currents and geometry in Figure 5(b
 
 **The net magnetic field direction and magnitude are found by vector addition of the individual wire contributions.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What current is needed in the top wire in [[Figure5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(a) to produce a field of zero at the point equidistant from the wires, if the currents in the bottom two wires are both 10.0 A into the page?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -843,15 +920,19 @@ This symmetric result makes intuitive sense: with equal currents in all three wi
 
 **A current of 10.0 A is needed in the top wire (directed out of the page) to produce zero field at the equidistant point.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the size of the magnetic field 20 m below a high voltage power line. The line carries 450 MW at a voltage of 300 000 V.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -882,11 +963,14 @@ This field of $15 \mu\text{T}$ is about 30% of Earth's magnetic field ($\sim 50 
 
 **The magnetic field 20 m below the power line is $1.50 \times 10^{-5}$ T or 15.0 μT.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) A pendulum is set up so that its bob (a thin copper disk) swings between the
@@ -901,8 +985,9 @@ a free-body diagram as part of your analysis.
 ![Diagram showing a pendulum swinging between the poles of a magnet. The magnetic field B runs from the north to the south pole.](../resources/Figure_22_11_07.jpg ' ')
 {: #Figure7}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -947,11 +1032,14 @@ The magnetic force is incredibly small compared to gravity. The weight is about 
 
 **(a) The magnetic force is $9.09 \times 10^{-7}$ N directed upward. (b) The acceleration due to this force is $3.03 \times 10^{-5}$ m/s².**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What voltage will accelerate electrons to a speed of $$ 6.00 \times 10^{-7} \text{m/s} $$ ?
@@ -959,8 +1047,9 @@ The magnetic force is incredibly small compared to gravity. The weight is about 
 this potential in a 0.500-T field and compare this with the radius of curvature
 of an electron accelerated through the same potential.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1004,18 +1093,22 @@ The proton's path has a radius about 43 times larger than the electron's, despit
 
 **(a) The accelerating voltage is about $1.02 \times 10^4$ V. (b) The proton's radius is 0.0292 m (2.92 cm), about 43 times larger than the electron's radius of 0.683 mm.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 Find the radius of curvature of the path of a 25.0-MeV proton moving
 perpendicularly to the 1.20-T field of a cyclotron.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1049,11 +1142,14 @@ A radius of about 60 cm is typical for cyclotrons accelerating protons to energi
 
 **The radius of curvature of the 25.0-MeV proton's path is 60.2 cm.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 To construct a nonmechanical water meter, a 0.500-T magnetic field is placed
@@ -1062,8 +1158,9 @@ Find the flow rate in liters per second through a 3.00-cm-diameter pipe if the
 Hall voltage is 60.0 mV. (b) What would the Hall voltage be for the same flow
 rate through a 10.0-cm-diameter pipe with the same field applied?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1103,11 +1200,14 @@ The Hall voltage decreases in the larger pipe because the water flows slower (to
 
 **(a) The flow rate is 2.83 L/s. (b) The Hall voltage would be 18.0 mV in the 10.0-cm pipe.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Using the values given for an MHD drive in [[Exercise 2]](#Exercise2), and
@@ -1115,8 +1215,9 @@ assuming the force is uniformly applied to the fluid, calculate the pressure
 created in $${\text{N/m}}^{2}\text{.} $$
 (b) Is this a significant fraction of an atmosphere?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1157,11 +1258,14 @@ The pressure of about 1000 Pa (roughly 0.01 atm or 0.15 psi) is quite small. Thi
 
 **(a) The MHD drive creates a pressure of $1.02 \times 10^3$ N/m². (b) This is only about 1% of atmospheric pressure—not a significant fraction.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 **Integrated Concepts**
 
 (a) Calculate the maximum torque on a 50-turn, 1.50 cm radius circular current
@@ -1170,8 +1274,9 @@ used in a galvanometer that reads $$50 \text{μA} $$ full scale, what force
 constant spring must be used, if it is attached 1.00 cm from the axis of
 rotation and is stretched by the $$60 ^\circ $$ arc moved?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1209,11 +1314,14 @@ The maximum torque is extremely small (less than 1 μN·m), which is why galvano
 
 **(a) The maximum torque is $8.84 \times 10^{-7}$ N·m. (b) The spring force constant must be $8.42 \times 10^{-3}$ N/m.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" data-element-type="problems-exercises" markdown="1">
+
+::: problem {"class":"problem","data-element-type":"problems-exercises"}
+
 **Integrated Concepts**
 
 A current balance used to define the ampere is designed so that the current
@@ -1221,8 +1329,9 @@ through it is constant, as is the distance between wires. Even so, if the wires
 change length with temperature, the force between them will change. What percent
 change in force per degree will occur if the wires are copper?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1255,11 +1364,14 @@ The force changes by about 0.0017% per degree Celsius. This is a very small effe
 
 **The force changes by $17.0 \times 10^{-4}$ %/°C due to thermal expansion of the copper wires.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) Show that the period of the circular orbit of a charged particle moving
@@ -1271,8 +1383,9 @@ orbit and, hence, of the energy of the particle. ([[Figure 8]](#Figure8).)
 ![Diagram of a cyclotron.](../resources/Figure_22_11_08.jpg 'Cyclotrons accelerate charged particles orbiting in a magnetic field by placing an AC voltage on the metal Dees, between which the particles move, so that energy is added twice each orbit. The frequency is constant, since it is independent of the particle energy—the radius of the orbit simply increases with energy until the particles approach the edge and are extracted for various experiments and applications.')
 {: #Figure8}
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1313,19 +1426,23 @@ These results are remarkable: the period, frequency, and angular velocity depend
 
 **(a) $T = 2\pi m/(qB)$. (b) $f = qB/(2\pi m)$. (c) $\omega = qB/m$. All are independent of velocity and energy.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A cyclotron accelerates charged particles as shown in [[Figure 8]](#Figure8).
 Using the results of the previous problem, calculate the frequency of the
 accelerating voltage needed for a proton in a 1.20-T field.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1350,11 +1467,14 @@ This frequency of 18.3 MHz is in the radio frequency (RF) range, specifically in
 
 **The accelerating frequency for protons in a 1.20-T cyclotron is 18.3 MHz.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) A 0.140-kg baseball, pitched at 40.0 m/s horizontally and perpendicular to
@@ -1363,8 +1483,9 @@ charge on it. What distance is it deflected from its path by the magnetic force,
 after traveling 30.0 m horizontally? (b) Would you suggest this as a secret
 technique for a pitcher to throw curve balls?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1403,11 +1524,14 @@ Real curveballs are produced by spinning the ball, which creates differential ai
 
 **(a) The deflection is approximately $4 \times 10^{-10}$ m (0.4 nm). (b) No—this deflection is far too small to be useful; real curveballs use the Magnus effect from spin.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 (a) What is the direction of the force on a wire carrying a current due east in
@@ -1417,8 +1541,9 @@ field strength is $$ 3.00 \times 10^{-5} \text{T} $$ .
 (c) What diameter copper wire would have its weight supported by this force? (d)
 Calculate the resistance per meter and the voltage per meter needed.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1465,11 +1590,14 @@ The wire diameter of about 94 μm is extremely thin—about the diameter of a hu
 
 **(a) Straight up. (b) $6.00 \times 10^{-4}$ N/m. (c) 94.1 μm diameter. (d) 2.47 Ω/m resistance; 49.4 V/m voltage required.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 One long straight wire is to be held directly above another by repulsion between
@@ -1480,8 +1608,9 @@ the Earth's $$ 3.00 \times 10^{-5} \text{T} $$ field is parallel to the ground
 and is not neglected? (c) Is the supported wire in a stable or unstable
 equilibrium if displaced vertically? If displaced horizontally?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1527,11 +1656,14 @@ A current of 1730 A is enormous for a 10-gauge wire, which is rated for only abo
 
 **(a) About 1730 A is needed (impractically high). (b) Earth's field provides negligible assistance. (c) The equilibrium is unstable both vertically and horizontally.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 (a) Find the charge on a baseball, thrown at 35.0 m/s perpendicular to the
@@ -1539,8 +1671,9 @@ Earth’s $$ 5.00 \times 10^{-5} \text{T} $$ field, that experiences a 1.00-N
 magnetic force. (b) What is unreasonable about this result? (c) Which assumption
 or premise is responsible?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1575,11 +1708,14 @@ This problem demonstrates the limits of magnetic forces in everyday situations. 
 
 **(a) The required charge is 571 C. (b) This is impossibly large—no small object can hold such enormous separated charge. (c) The premise that a 1.00-N force can occur in Earth's weak field is unreasonable.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A charged particle having mass $$ 6.64 \times 10^{-27} \text{kg} $$
@@ -1588,8 +1724,9 @@ perpendicular to a 1.50-T magnetic field travels in a circular path of radius
 16.0 mm. (a) What is the charge of the particle? (b) What is unreasonable about
 this result? (c) Which assumptions are responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1632,11 +1769,14 @@ This "unreasonable results" problem reinforces the quantization of charge. In an
 
 **(a) The calculated charge is $2.41 \times 10^{-19}$ C or about 1.5e. (b) Charge must be an integer multiple of e; 1.5e is impossible. (c) The given radius is inconsistent with any real helium ion; it's between the He⁺ and He²⁺ values.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 An inventor wants to generate 120-V power by moving a 1.00-m-long wire
@@ -1644,8 +1784,9 @@ perpendicular to the Earth’s $$ 5.00 \times 10^{-5} \text{T} $$ field. (a) Fin
 the speed with which the wire must move. (b) What is unreasonable about this
 result? (c) Which assumption is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1681,11 +1822,14 @@ This explains why generators don't use Earth's field—they need fields tens of 
 
 **(a) $2.40 \times 10^6$ m/s is required. (b) This is nearly 1% of light speed—completely impractical. (c) The idea of generating significant voltage with Earth's weak field is fundamentally flawed.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 Frustrated by the small Hall voltage obtained in blood flow measurements, a
@@ -1694,8 +1838,9 @@ a 0.500-V output for blood moving at 30.0 cm/s in a 1.50-cm-diameter vessel. (a)
 What magnetic field strength is needed? (b) What is unreasonable about this
 result? (c) Which premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1731,11 +1876,14 @@ Real blood flow meters using the Hall effect work with millivolt signals and sop
 
 **(a) A field of 111 T would be required. (b) This exceeds the strongest magnetic fields ever produced by humans. (c) The premise of wanting 0.500 V Hall voltage is unreasonable; actual measurements use millivolts.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A surveyor 100 m from a long straight 200-kV DC power line suspects that its
@@ -1743,8 +1891,9 @@ magnetic field may equal that of the Earth and affect compass readings. (a)
 Calculate the current in the wire needed to create a $$ 5.00 \times 10^{-5} \text{T} $$ field at this distance. (b) What is unreasonable about this
 result? (c) Which assumption or premise is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -1784,11 +1933,14 @@ Power lines do produce magnetic fields, but their effect on compasses is minimal
 
 **(a) A current of 25.0 kA would be required. (b) This implies 5 GW of power—unreasonably high for any transmission line. (c) The 100 m distance is too great for significant effects, and real power lines use field-canceling configurations.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a mass separator that applies a magnetic field perpendicular to the
@@ -1801,8 +1953,9 @@ field, and a reasonable value for the radius of curvature of the paths they
 follow. In addition, calculate the separation distance between the ions at the
 point where they are detected.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Sample Problem Construction**
 
@@ -1839,11 +1992,14 @@ The 1.2 cm separation is measurable but small, reflecting the challenge of urani
 
 **For the sample problem: (a) B = 0.494 T. (b) r₂₃₅ = 0.494 m. (c) Separation = 1.2 cm at the detector.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider using the torque on a current-carrying coil in a magnetic field to
@@ -1856,8 +2012,9 @@ torque produced is large enough to be effectively measured. Your instructor may
 also wish for you to consider the effects, if any, of the field produced by the
 coil on the surroundings that could affect detection of the small field.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Sample Problem Construction**
 
@@ -1905,10 +2062,12 @@ Sensitive magnetometers must carefully balance the need for a measurable torque 
 
 **For the sample problem: (a) Maximum torque = $7.85 \times 10^{-9}$ N·m. (b) Yes, measurable with precision torsion instruments. (c) The coil produces 12.6 μT, much larger than the detected field—this must be accounted for in measurements.**
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1926,4 +2085,4 @@ magnetocardiogram (MCG)
 magnetoencephalogram (MEG)
 : a measurement of the brain’s magnetic field
 
-</div>
+:::

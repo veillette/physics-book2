@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 26
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Outline the invention of a telescope.
 * Describe the working of a telescope.
-</div>
+
+:::
 
 Telescopes are meant for viewing distant objects, producing an image that is
 larger than the image that can be seen with the unaided eye. Telescopes gather
@@ -142,6 +143,7 @@ correction is a current area of research.
   <div class="equation" >
    $$M=\frac{\theta^{\prime} }{\theta }=-\frac{ {f}_{\text{o}}}{ {f}_{\text{e}}}\text{,} $$
   </div>
+
      where
    $$\theta  $$ is the angle subtended by an object viewed by the unaided eye,
    $$\theta^{\prime}  $$ is the angle subtended by a magnified image, and
@@ -151,11 +153,14 @@ correction is a current area of research.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 If you want your microscope or telescope to project a real image onto a screen, how would you change the placement of the eyepiece relative to the objective?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -261,7 +266,8 @@ The key conceptual distinction is between **visual observation** and **projectio
 
 The fundamental principle applies to both microscopes and telescopes because both instruments work on the same optical principles: an objective creates a real intermediate image, and an eyepiece processes that image. Changing from a virtual final image (for viewing) to a real final image (for projection) simply requires repositioning the eyepiece relative to the intermediate image so it operates in case 1 rather than case 2 configuration.
 
-</div>
+:::
+
 </div>
 
 ### Problem Exercises
@@ -269,11 +275,14 @@ The fundamental principle applies to both microscopes and telescopes because bot
 **Unless otherwise stated, the lens-to-retina distance is 2.00 cm.**
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the angular magnification of a telescope that has a 100 cm focal length objective and a 2.50 cm focal length eyepiece?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -311,15 +320,19 @@ For terrestrial viewing where an upright image is desired, a third lens (erectin
 
 This magnification represents a good balance: high enough for detailed observation but not so high that atmospheric turbulence ("seeing") significantly degrades the image quality. Beyond about 50-60× magnification, atmospheric effects often limit what can be seen, regardless of the telescope's optical quality.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the distance between the objective and eyepiece lenses in the telescope in the above problem needed to produce a final image very far from the observer, where vision is most relaxed. Note that a telescope is normally used to view very distant objects.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -345,17 +358,21 @@ The lenses should be separated by 102.5 cm (just over 1 meter) for comfortable v
 
 This is why the tube length of a simple refracting telescope approximately equals the sum of the focal lengths of its two lenses. The relatively short eyepiece focal length (2.50 cm) compared to the objective (100 cm) is what provides the telescope's high angular magnification of -40.0×. The physical length of 1.025 m makes this a reasonably portable telescope suitable for amateur astronomy.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A large reflecting telescope has an objective mirror with a  $$ 10.0 \text{m} $$
  radius of curvature. What angular magnification does it produce when a  $$3.00 \text{m} $$
  focal length eyepiece is used?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -398,15 +415,19 @@ $$M = -5.00/0.025 = -200$$, which is more typical for visual astronomy.
 
 The negative sign indicates an inverted image. For reflecting telescopes, additional mirrors are often used to fold the light path and make the telescope more compact, which can also affect image orientation. The 5.00 m focal length with 10.0 m radius of curvature follows the mirror equation perfectly, confirming this is a spherical or parabolic primary mirror typical of large research telescopes.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A small telescope has a concave mirror with a 2.00 m radius of curvature for its objective. Its eyepiece is a 4.00 cm focal length lens. (a) What is the telescope's angular magnification? (b) What angle is subtended by a 25 000 km diameter sunspot? (c) What is the angle of its telescopic image?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -466,17 +487,21 @@ Part (c): Through the telescope, the sunspot image subtends 14.3 arc minutes (0.
 
 This problem demonstrates the power of even modest telescopes for solar astronomy. However, it's crucial to note that **observing the Sun directly through a telescope without proper solar filters is extremely dangerous and can cause permanent eye damage or blindness**. Professional solar observations use specialized equipment with appropriate filters.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A  $$7.5× $$
  binocular produces an angular magnification of  $$ -7.50 $$ ,
  acting like a telescope. (Mirrors are used to make the image upright.) If the binoculars have objective lenses with a 75.0 cm focal length, what is the focal length of the eyepiece lenses?
 
-</div>
-<div class="solution" data-element-type="problems-exercises" markdown="1">
+:::
+
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy**
 
@@ -529,11 +554,14 @@ The 75 cm focal length with standard 50 mm objectives would make these rather la
 
 The 10 cm eyepiece focal length is quite generous, contributing to a comfortable eye relief (distance from eye to eyepiece) and wide apparent field of view.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider a telescope of the type used by Galileo, having a convex objective and
@@ -544,8 +572,9 @@ relative placements as well as the size and location of the object. Verify that
 the angular magnification is greater than one. That is, the angle subtended at
 the eye by the image is greater than the angle subtended by the object.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Guidance for Constructing This Problem**
 
@@ -589,10 +618,12 @@ When constructing a problem for a Galilean telescope (convex objective + concave
 
 This construction demonstrates why Galileo's design was revolutionary—it provided magnification with an upright image in a compact package.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -604,4 +635,4 @@ angular magnification
 : a ratio related to the focal lengths of the objective and eyepiece and given
 as $$M=-\frac{ {f}_{\text{o}}}{ {f}_{\text{e}}} $$
 
-</div>
+:::

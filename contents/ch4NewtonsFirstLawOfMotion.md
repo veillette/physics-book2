@@ -4,25 +4,27 @@ layout: page
 sectionNumber: 2
 chapterNumber: 4
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define mass and inertia.
 * Understand Newton\'s first law of motion.
 
-</div>
+:::
 
 Experience suggests that an object at rest will remain at rest if left alone,
 and that an object in motion tends to slow down and stop unless some effort is
 made to keep it moving. What **Newton’s first law of motion** states, however,
 is the following:
 
-<div class="note" data-label="" markdown="1">
+::: note {"class":"note","data-label":""}
+
 <div class="title">
 Newton’s First Law of Motion
 </div>
+
 A body at rest remains at rest, or, if in motion, remains in motion at a constant velocity unless acted on by a net external force.
 
-</div>
+:::
 
 Note the repeated use of the verb “remains.” We can think of this law as
 preserving the status quo of motion.
@@ -86,17 +88,23 @@ with the standard kilogram.
 <div class="title">
 Check Your Understanding
 </div>
-<div class="problem" markdown="1">
+
+::: problem
+
 Which has more mass: a kilogram of cotton balls or a kilogram of gold?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 <div class="title">
 Answer
 </div>
+
 They are equal. A kilogram of one substance is equal in mass to a kilogram of another substance. The quantities that might differ between them are volume and density.
 
-</div>
+:::
+
 </div>
 
 ### Section Summary
@@ -112,20 +120,27 @@ They are equal. A kilogram of one substance is equal in mass to a kilogram of an
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How are inertia and mass related?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the relationship between weight and mass? Which is an intrinsic, unchanging property of a body?
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -143,4 +158,4 @@ Newton’s first law of motion
 constant velocity unless acted on by a net external force; also known as the law
 of inertia
 
-</div>
+:::

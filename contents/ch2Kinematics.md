@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 2
 ---
-
 ![A cheetah running at the Cincinnati zoo](../resources/Figure_02_00_01.jpg 'The motion of a cheetah can be described by the animal’s displacement, speed, velocity, and acceleration. When it runs in a straight line without any change in direction, its motion is said to be one dimensional. (credit: Mark Dumont, Wikimedia Commons)')
 {: #Figure1}
 
@@ -33,6 +32,8 @@ In [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics), we
 apply concepts developed here to study motion along curved paths (two- and
 three-dimensional motion); for example, that of a car rounding a curve.
 
-<div class="note" data-label="Video" markdown="1">
+::: note {"class":"note","data-label":"Video"}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bkbG8BJsInE"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+:::

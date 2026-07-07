@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 22
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define ferromagnet.
 * Describe the role of magnetic domains in magnetization.
 * Explain the significance of the Curie temperature.
 * Describe the relationship between electricity and magnetism.
-</div>
+
+:::
 
 ### Ferromagnets
 
@@ -127,28 +128,33 @@ monopoles should not exist—they are simply never observed—and so searches at
 subnuclear level continue. If they do _not_ exist, we would like to find out why
 not. If they _do_ exist, we would like to see evidence of them.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Electric Currents and Magnetism
 </div>
+
 Electric current is the source of all magnetism.
 
-</div>
+:::
 
 ![Two atomic models that describe the relationship between the movement of electrons and magnetism.](../resources/Figure_22_02_07.jpg '(a) In the planetary model of the atom, an electron orbits a nucleus, forming a closed-current loop and producing a magnetic field with a north pole and a south pole. (b) Electrons have spin and can be crudely pictured as rotating charge, forming a current that produces a magnetic field with a north pole and a south pole. Neither the planetary model nor the image of a spinning electron is completely consistent with modern physics. However, they do provide a useful way of understanding phenomena. ')
 {: #Figure7}
 
-<div class="note" data-has-label="true" class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Magnets and Electromagnets
 </div>
+
 Explore the interactions between a compass and bar magnet. Discover how you can use a battery and wire to make a magnet! Can you make it a stronger magnet? Can you make the magnetic field reverse?
 {: class="newline"}
 
 <div class="media"  data-alt="magnets and electromagnets">
 <iframe width="660" height="371.4" src="https://veillette.github.io/simulations/magnets-and-electromagnets/#sim-bar-magnet"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -167,7 +173,8 @@ Explore the interactions between a compass and bar magnet. Discover how you can 
 - Electromagnets employ electric currents to make magnetic fields, often aided
   by induced fields in ferromagnetic materials.
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -195,4 +202,4 @@ magnetic monopoles
 : an isolated magnetic pole; a south pole without a north pole, or vice versa (
 no magnetic monopole has ever been observed)
 
-</div>
+:::

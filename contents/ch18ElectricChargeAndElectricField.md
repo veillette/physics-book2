@@ -4,7 +4,6 @@ layout: page
 sectionNumber: 0
 chapterNumber: 18
 ---
-
 ![A child swoops down a plastic playground slide, his hair standing on end.](../resources/Figure_18_00_01.jpg 'Static electricity from this plastic slide causes the child’s hair to stand on end. The sliding motion stripped electrons away from the child’s body, leaving an excess of positive charges, which repel each other along each strand of hair. (credit: Ken Bosma/Wikimedia Commons)')
 {: #Figure1}
 
@@ -63,11 +62,14 @@ electricity, and magnetism—collectively known as electromagnetism. In this
 chapter, we begin with the study of electric phenomena due to charges that are
 at least temporarily stationary, called electrostatics, or static electricity.
 
-<div class="note" data-label="Video" markdown="1">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SglzRDD1oNI"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+::: note {"class":"note","data-label":"Video"}
 
-<div class="glossary" markdown="1">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SglzRDD1oNI"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+:::
+
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -78,4 +80,4 @@ electromagnetic force
 : one of the four fundamental forces of nature; the electromagnetic force
 consists of static electricity, moving electricity and magnetism
 
-</div>
+:::

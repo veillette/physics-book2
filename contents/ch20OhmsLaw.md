@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 2
 chapterNumber: 20
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Explain the origin of Ohm’s law.
 * Calculate voltages, currents, or resistances with Ohm’s law.
 * Explain what an ohmic material is.
 * Describe a simple circuit.
-</div>
+
+:::
 
 What drives current? We can think of various devices—such as batteries,
 generators, wall outlets, and so on—which are necessary to maintain a current.
@@ -76,10 +77,12 @@ resistance, or their resistance can be included in $$R $$.
 ![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg 'A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.')
 {: #Figure1}
 
-<div id="Example1" class="example" markdown="1">
+::: example {"id":"Example1","class":"example"}
+
 <div class="title">
 Calculating Resistance: An Automobile Headlight
 </div>
+
 What is the resistance of an automobile headlight through which 2.50 A flows when 12.0 V is applied to it?
 
 **Strategy**
@@ -94,6 +97,7 @@ Rearranging $$I=V/R $$ and substituting known values gives
 <div class="equation" >
  $$R=\frac{V}{I}=\frac{12.0 \text{V}}{2.50 \text{A}}=4.80 \text{Ω}\text{.} $$
 </div>
+
 **Discussion**
 
 This is a relatively small resistance, but it is larger than the cold resistance
@@ -103,7 +107,7 @@ usually increases with temperature, and so the bulb has a lower resistance when
 it is first switched on and will draw considerably more current during its brief
 warm-up period.
 
-</div>
+:::
 
 Resistances range over many orders of magnitude. Some ceramic insulators, such
 as those used to support power lines, have resistances of $$10^{12} \Omega $$ or
@@ -141,25 +145,30 @@ are equal. (See [[Figure 2]](#Figure2).)
 ![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg 'The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.')
 {: #Figure2}
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Making Connections: Conservation of Energy
 </div>
+
 In a simple electrical circuit, the sole resistor converts energy supplied by the source into another form. Conservation of energy is evidenced here by the fact that all of the energy supplied by the source is converted to another form by the resistor alone. We will find that conservation of energy has other important applications in circuits and is a powerful tool in circuit analysis.
 
-</div>
+:::
 
-<div class="note" data-has-label="true"  class="interactive" data-label="" markdown="1">
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Ohm's Law
 </div>
+
 See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm\'s law. The sizes of the symbols in the equation change to match the circuit diagram.
 {: class="newline"}
 
 <div class="media"  data-alt="ohm's law">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -178,29 +187,39 @@ See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the 
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 The  $$IR $$
  drop across a resistor means that there is a change in potential or voltage across the resistor. Is there any change in current as it passes through a resistor? Explain.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 How is the  $$IR $$
  drop in a resistor similar to the pressure drop in a fluid flowing through a pipe?
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What current flows through the bulb of a 3.00-V flashlight when its hot resistance is  $$3.60 \text{Ω} $$ ?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
@@ -219,15 +238,20 @@ This current of 0.833 A (833 mA) is typical for a small incandescent flashlight 
 
 The current flowing through the flashlight bulb is 0.833 A.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Calculate the effective resistance of a pocket calculator that has a 1.35-V battery and through which 0.200 mA flows.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Ohm's law in the form $$R = \frac{V}{I}$$ to find the resistance. The current must be converted from milliamperes to amperes to get resistance in ohms.
@@ -252,15 +276,20 @@ This resistance of 6.75 kΩ is quite high compared to most circuit components, w
 
 The effective resistance of the pocket calculator is 6.75 kΩ.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 What is the effective resistance of a car’s starter motor when 150 A flows through it as the car battery applies 11.0 V to the motor?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 Use Ohm's law rearranged for resistance: $$R = V/I$$. The large current indicates a low resistance device.
@@ -279,16 +308,21 @@ The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starte
 
 The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ Ω (73.3 mΩ).
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How many volts are supplied to operate an indicator light on a DVD player that has a resistance of  $$140 \Omega  $$ ,
  given that 25.0 mA passes through it?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We use Ohm's law in the form $$V = IR$$ to find the voltage across the indicator light. The current must be converted from milliamperes to amperes.
@@ -313,17 +347,21 @@ A voltage of 3.50 V is typical for small indicator LEDs used in consumer electro
 
 A voltage of 3.50 V is supplied to operate the DVD player's indicator light.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Find the voltage drop in an extension cord having a  $$0.0600\text{-}\Omega  $$
  resistance and through which 5.00 A is flowing. (b) A cheaper cord utilizes thinner wire and has a resistance of  $$0.300 \Omega  $$ .
  What is the voltage drop in it when 5.00 A flows? (c) Why is the voltage to whatever appliance is being used reduced by this amount? What is the effect on the appliance?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
 
 **Strategy**
 
@@ -384,16 +422,21 @@ The effect is amplified at higher currents. At 10 A, the cheap cord would drop 3
 
 **Answers: (a) 0.300 V, (b) 1.50 V, (c) The voltage available to the appliance is reduced, decreasing its power output and potentially causing malfunction or safety hazards.**
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A power transmission line is hung from metal towers with glass insulators having a resistance of  $$ 1.00 \times 10^{9}  \Omega . $$
  What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy**
 
 We apply Ohm's law $$I = \frac{V}{R}$$ to find the leakage current through the insulator. The voltage must be converted from kilovolts to volts.
@@ -418,10 +461,12 @@ This tiny current of 0.200 mA represents the leakage current through a single in
 
 A current of 0.200 mA (or $$2.00 \times 10^{-4}$$ A) flows through the insulator.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -443,4 +488,4 @@ ohmic
 simple circuit
 : a circuit with a single voltage source and a single resistor
 
-</div>
+:::

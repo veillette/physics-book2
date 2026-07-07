@@ -4,12 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 9
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Discuss the applications of Statics in real life.
 * State and discuss various problem-solving strategies in Statics.
 
-</div>
+::::
 
 Statics can be applied to a variety of situations, ranging from raising a
 drawbridge to bad posture and back strain. We begin with a discussion of
@@ -19,10 +19,12 @@ the special strategies for Newton’s laws, discussed
 in [Problem-Solving Strategies](./ch4ProblemSolvingStrategies),
 still apply.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
+
 1.  The first step is to determine whether or not the system is in **static equilibrium**. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
 2.  It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
 3.  Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
@@ -39,7 +41,7 @@ projecting forces.
    to judge reasonableness. These judgments become progressively easier with
    experience.
 
-</div>
+::::
 
 Now let us apply this problem-solving strategy for the pole vaulter shown in the
 three figures below. The pole is uniform and has a mass of 5.00 kg.
@@ -89,10 +91,12 @@ If the pole vaulter holds the pole from near the end of the
 pole ([Figure 3](#Figure3)), the direction of the force applied by the right hand
 of the vaulter reverses its direction.
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 What Force Is Needed to Support a Weight Held Near Its CG?
 </div>
+
 For the situation shown in [Figure 2](#Figure2), calculate:
 (a) $$ F_{R} $$, the force exerted by the right hand, and
 (b) $$ F_{L} $$, the force exerted by the left hand. The hands are 0.900 m apart, and the cg of the pole is 0.600 m
@@ -120,6 +124,7 @@ counterclockwise torques,
 <div class="equation">
  $$ \text{net} \tau_{\text{cw}}=\text{-net} \tau_{\text{ccw}} . $$
 </div>
+
 or the algebraic sum of the torques is zero.
 
 Here this is
@@ -127,6 +132,7 @@ Here this is
 <div class="equation">
  $$ \tau_{R}=-\tau_{\text{w}} $$
 </div>
+
 since the weight of the pole creates a counterclockwise torque and the right hand counters with a clockwise torque.
 Using the definition of torque, $$ \tau =rF\sin{\theta} $$, noting that $$ \theta =90^\circ $$,
 and substituting known values, we obtain
@@ -134,6 +140,7 @@ and substituting known values, we obtain
 <div class="equation">
  $$ \left(0.900 \m \right)\left(F_{R}\right)=\left(0.600 \m \right)\left(mg\right). $$
 </div>
+
 Thus,
 
 <div class="equation">
@@ -153,11 +160,13 @@ figure. This implies that by Newton’s second law:
 <div class="equation">
 $$ F_{L}+F_{R}-mg =0 $$
 </div>
+
 From this we can conclude:
 
 <div class="equation">
 $$ F_{L}+F_{R}=w=mg $$
 </div>
+
 Solving for $$ F_{L} $$, we obtain
 
 <div class="equation">
@@ -174,34 +183,40 @@ F_{L}&=& 16.3 \N
 $$ F_{L} $$ is seen to be exactly half of $$ F_{R} $$, as we might have guessed,
 since $$ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
 
-</div>
+::::
 
 If the pole vaulter holds the pole as he might at the start of a run, shown
 in [Figure 3](#Figure3), the forces change again. Both are considerably greater,
 and one force reverses direction.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment
 </div>
+
 This is an experiment to perform while standing in a bus or a train. Stand facing sideways. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Now stand facing forward. How do you move your body to readjust the distribution of your mass as the bus accelerates and decelerates? Why is it easier and safer to stand facing sideways rather than forward? Note: For your safety (and those around you), make sure you are holding onto something while you carry out this activity!
 
-</div>
+::::
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Balancing Act
 </div>
+
 Play with objects on a teeter totter to learn about balance. Test what you\'ve learned by trying the Balance Challenge game.
 
-<figure markdown="1">
+::: figure {}
+
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Balancing Act
 </figcaption>
 
-</figure>
-</div>
+:::
+
+::::
 
 ### Summary
 
@@ -216,11 +231,15 @@ Balancing Act
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 When visiting some countries, you may see a person balancing a load on the head. Explain why the center of mass of the load needs to be directly above the person's neck vertebrae.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 We analyze the conditions for equilibrium when a load is balanced on the head. If the center of mass of the load is not directly above the point of support (the neck vertebrae), a net torque will result.
@@ -245,17 +264,22 @@ This carrying technique, common in many cultures, is remarkably efficient. Studi
 
 The center of mass of the load must be directly above the person's neck vertebrae to ensure zero torque about the point of support, allowing the load to be carried efficiently without muscular effort to prevent rotation.
 
-</div>
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (mass 10.0 kg) against the house on a concrete pad with the base of the ladder 2.00 m from the house. The ladder rests against a plastic rain gutter, which we can assume to be frictionless. Because the gutter is round, the ladder is tangent to it and therefore the normal force by the gutter is perpendicular to the ladder. The center of mass of the ladder is 2.00 m from the bottom, measured parallel to the ladder. The person is standing 3.00 m from the bottom, again measured parallel to the ladder. What are the magnitudes of the forces on the ladder at the top and bottom?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 This is a classic ladder problem. The ladder is in static equilibrium, so we apply both conditions for equilibrium. The frictionless wall means the force at the top is purely horizontal (normal to the wall). We first need to determine the geometry, then set up the force and torque equations.
@@ -365,11 +389,14 @@ The force at the bottom is nearly vertical because it must support the total wei
 
 The magnitude of the force at the top of the ladder (from the wall) is 133 N, directed horizontally. The magnitude of the force at the bottom of the ladder (from the ground) is 795 N, directed at 9.6° from vertical.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+
+:::: problem
+
 In [Figure 3](#Figure3), the cg of the pole held by the pole vaulter is 2.00 m from the left hand, and
 the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
@@ -380,8 +407,10 @@ is satisfied for a pivot other than the one located at the center of gravity of
 the pole. Explicitly show how you follow the steps in the Problem-Solving
 Strategy for static equilibrium described above.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
+
 **Strategy**
 
 Following the Problem-Solving Strategy for static equilibrium:
@@ -513,10 +542,12 @@ Parts (a) and (b) show that when the cg is far from the hands (as in Figure 3), 
 
 (c) The second condition for equilibrium is satisfied for any choice of pivot point, as demonstrated by verifying that the net torque equals zero when choosing the right hand as the pivot point.
 
-</div>
+::::
+
 </div>
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -524,4 +555,4 @@ static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated
 rotation does not occur
 
-</div>
+::::

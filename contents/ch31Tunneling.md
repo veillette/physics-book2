@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 7
 chapterNumber: 31
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define and discuss tunneling.
 * Define potential barrier.
 * Explain quantum tunneling.
-</div>
+
+:::
 
 Protons and neutrons are _bound_ inside nuclei, that means energy must be
 supplied to break them away. The situation is analogous to a marble in a bowl
@@ -83,16 +84,19 @@ detection of individual atoms as shown in [[Figure 4]](#Figure4).
 ![Figure a shows a wavy surface with a taper cylindrical probe traveling horizontally toward right. Wherever there is a crest the barrier between probe and surface is thick and the barrier is thin when there is a hill on the surface. Figure b shows a scanning tunneling electron microscope image of an insect.](../resources/Figure_31_07_04.jpg '(a) A scanning tunneling electron microscope can detect extremely small variations in dimensions, such as individual atoms. Electrons tunnel quantum mechanically between the probe and the sample. The probability of tunneling is extremely sensitive to barrier thickness, so that the electron current is a sensitive indicator of surface features. (b) Head and mouthparts of Coleoptera Chrysomelidea as seen through an electron microscope (credit: Louisa Howard, Dartmouth College) ')
 {: #Figure4}
 
-<div class="note" data-has-label="true"  data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 PhET Explorations: Quantum Tunneling and Wave Packets
 </div>
+
 Watch quantum \"particles\" tunnel through barriers. Explore the properties of the wave functions that describe these particles.
 
 <div class="media" id="PhET_module" data-alt="Quantum Tunneling">
 <iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/quantum-tunneling/latest/quantum-tunneling.html?simulation=quantum-tunneling"></iframe>
 </div>
-</div>
+
+:::
 
 ### Section Summary
 
@@ -103,25 +107,33 @@ Watch quantum \"particles\" tunnel through barriers. Explore the properties of t
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 A physics student caught breaking conservation laws is imprisoned. She leans against the cell wall hoping to tunnel out quantum mechanically. Explain why her chances are negligible. (This is so in any classical situation.)
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 When a nucleus  $$\alpha  $$
  decays, does the  $$\alpha  $$
  particle move continuously from inside the nucleus to outside? That is, does it travel each point along an imaginary line from inside to out? Explain.
 
-</div>
+:::
+
 </div>
 
 ### Problems-Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Derive an approximate relationship between the energy of  $$\alpha  $$
  decay and half-life using the following data. It may be useful to graph the log of  $${t}_{1/2} $$
  against  $${E}_{\alpha } $$
@@ -130,11 +142,9 @@ Derive an approximate relationship between the energy of  $$\alpha  $$
 <table id="Table1" aria-describedby="Table lists five nuclides in column 1. Their energies in M e V are listed in column 2, and their half-lives are listed in column 3."><caption><span class="title">Energy and Half-Life for  $$\alpha  $$       Decay   </span></caption><thead>
 <tr>
 <th>Nuclide</th>
-
 <th> 
  $${E}_{\text{α}} \text{(MeV)} $$
 </th>
-
 <th> $${t}_{1 \text{/2}} $$
 </th>
 </tr>
@@ -185,43 +195,57 @@ Derive an approximate relationship between the energy of  $$\alpha  $$
 </td>
   </tr>
 </tbody></table>
-</div>
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Integrated Concepts**
 
 A 2.00-T magnetic field is applied perpendicular to the path of charged
 particles in a bubble chamber. What is the radius of curvature of the path of a
 10 MeV proton in this field? Neglect any slowing along its path.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 22.8 cm
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Write the decay equation for the  $$\alpha  $$
  decay of  $${}^{235}\text{U} $$ .
  (b) What energy is released in this decay? The mass of the daughter nuclide is 231.036298 u. (c) Assuming the residual nucleus is formed in its ground state, how much energy goes to the  $$\alpha  $$
  particle?
 
-</div>
-<div class="solution"  markdown="1">
+:::
+
+::: solution
+
 (a)  $${}_{92}^{235}{\text{U}}_{143}\to {}_{90}^{231}{\text{Th}}_{141}+{}_{2}^{4}{\text{He}}_{2} $$
 (b) 4.679 MeV
 
 (c) 4.599 MeV
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 The relatively scarce naturally occurring calcium isotope $${}^{48}\text{Ca} $$
@@ -230,11 +254,14 @@ has a half-life of about $$2 \times 10^{16} \text{y} $$ .
 What is the mass of the $${}^{48}\text{Ca} $$ in the sample? (b) What is
 unreasonable about this result? (c) What assumption is responsible?
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A physicist scatters $$\gamma $$ rays from a substance and sees evidence of a
@@ -242,8 +269,10 @@ nucleus $$7.5 \times 10^{-13} \text{m} $$ in radius. (a) Find the atomic mass of
 such a nucleus. (b) What is unreasonable about this result? (c) What is
 unreasonable about the assumption?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 a)  $$ 2.4 \times 10^{8}  $$  u
 
 (b) The greatest known atomic masses are about 260. This result found in (a) is
@@ -251,11 +280,14 @@ extremely large.
 
 (c) The assumed radius is much too large to be reasonable.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Unreasonable Results**
 
 A frazzled theoretical physicist reckons that all conservation laws are obeyed
@@ -264,19 +296,24 @@ reaction as a possible end of the universe due to the spontaneous decay of
 protons. (a) What energy is released in this decay? (b) What is unreasonable
 about this result? (c) What assumption is responsible?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 (a)  $$-1.805 \text{MeV} $$
 (b) Negative energy implies energy input is necessary and the reaction cannot be spontaneous.
 
 (c) Although all conversation laws are obeyed, energy must be supplied, so the
 assumption of spontaneous decay is incorrect.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 **Construct Your Own Problem**
 
 Consider the decay of radioactive substances in the Earth’s interior. The energy
@@ -288,10 +325,12 @@ surface if the power is dissipated at the same rate as it is generated. Among
 the things to consider are the activity per cubic meter, the energy per decay,
 and the size of the Earth.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -308,4 +347,4 @@ pass over the barrier; also called barrier penetration
 tunneling
 : a quantum mechanical process of potential energy barrier penetration
 
-</div>
+:::

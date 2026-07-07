@@ -4,13 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 4
 ---
+:::: abstract
 
-<div class="abstract" markdown="1">
 * Define normal and tension forces.
 * Apply Newton\'s laws of motion to solve problems involving a variety of forces.
 * Use trigonometric identities to resolve weight into components.
 
-</div>
+::::
 
 Forces are given many names, such as push, pull, thrust, lift, weight, friction,
 and tension. Traditionally, forces have been grouped into several categories and
@@ -53,10 +53,12 @@ The word _normal_ means perpendicular to a surface. The normal force can be less
 than the object’s weight if the object is on an incline, as you will see in the
 next example.
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Common Misconception: Normal Force (N) vs. Newton (N)
 </div>
+
 In this section we have introduced the quantity normal force, which is represented by the variable $$ \vb{N} $$. This should not be confused with the symbol for the newton, which is also
 represented by the letter N. These symbols are particularly important to
 distinguish because the units of a normal force ( $$ \vb{N} $$)
@@ -66,12 +68,14 @@ will encounter more similarities among variables and units as you proceed in
 physics. Another example of this is the quantity work ( $$ W $$)
 and the unit watts (W).
 
-</div>
+::::
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 Weight on an Incline, a Two-Dimensional Problem
 </div>
+
 Consider the skier on a slope shown in [Figure 2](#Figure2). Her mass including equipment is 60.0 kg.
 (a) What is her acceleration if friction is negligible?
 (b) What is her acceleration if friction is known to be 45.0 N?
@@ -117,14 +121,17 @@ subscripts to denote quantities parallel to the slope,
 <div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m} $$
 </div>
+
 where $$ F_{\text{net}\parallel }=w_{\parallel }=mg \sin\left(25^\circ\right) $$, assuming no friction for this part, so that
 
 <div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m}=\frac{mg \sin\left(25^\circ\right)}{m}=g\sin\left(25^\circ\right) $$
 </div>
+
 <div class="equation">
  $$ \left(9.80\mss \right)\left(0.4226\right)=4.14\mss $$
 </div>
+
 is the acceleration.
 
 (b) Including friction. We now have a given value for friction, and we know its
@@ -134,21 +141,25 @@ contact. So the net external force is now
 <div class="equation">
 $$ F_{\text{net}\parallel }=w_{\parallel }-f, $$
 </div>
+
 and substituting this into Newton’s second law, $$ a_{\parallel }=\frac{ F_{\text{net}\parallel }}{m} $$, gives
 
 <div class="equation">
  $$ a_{\parallel }=\frac{ F_{\text{net}\mid \mid }}{m}=\frac{ w_{\parallel }-f}{m}=\frac{mg \sin\left(25^\circ\right)-f}{m}. $$
 </div>
+
 We substitute known values to obtain
 
 <div class="equation">
  $$ a_{\parallel }=\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(0.4226\right)-45.0 \N }{60.0 \kg }, $$
 </div>
+
 which yields
 
 <div class="equation">
  $$ a_{\parallel }=3.39 \mss , $$
 </div>
+
 which is the acceleration parallel to the incline when there is 45.0 N of opposing friction.
 
 **Discussion**
@@ -162,12 +173,14 @@ the absence of air resistance. Similarly, all objects, regardless of mass, slide
 down a frictionless incline with the same acceleration (if the angle is the
 same).
 
-</div>
+::::
 
-<div class="note" data-label="" markdown="1">
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Resolving Weight into Components
 </div>
+
 ![Vector arrow W for weight is acting downward. It is resolved into components that are parallel and perpendicular to a surface that has a slope at angle theta to the horizontal. The coordinate direction x is labeled parallel to the sloped surface, with positive x pointing uphill. The coordinate direction y is labeled perpendicular to the sloped surface, with positive y pointing up from the surface. The components of w are w parallel, represented by an arrow pointing downhill along the sloped surface, and w perpendicular, represented by an arrow pointing into the sloped surface. W parallel is equal to w sine theta, which is equal to m g sine theta. W perpendicular is equal to w cosine theta, which is equal to m g cosine theta.](../resources/Figure_04_05_03.jpg "An object rests on an incline that makes an angle &#x3B8; with the horizontal."){: #Figure3}
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
@@ -181,11 +194,13 @@ horizontal, then the magnitudes of the weight components are
 <div class="equation">
  $$ w_{\parallel }=w\sin\left(\theta \right)=mg \sin\left(\theta \right) $$
 </div>
+
 and
 
 <div class="equation">
  $$ w_{\perp }=w\cos\left(\theta \right)=mg \cos\left(\theta \right). $$
 </div>
+
 Instead of memorizing these equations, it is helpful to be able to
 determine them from reason. To do this,
 draw the right triangle formed by the three weight vectors. Notice that the angle $$ \theta $$
@@ -198,17 +213,20 @@ of the weight components:
 $$ \begin{array}{lll}
 \cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
 w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
-\end{array} $$ </div> <div class="equation"> $$ \begin{array}{lll}
+\end{array} $$ &lt;/div&gt; &lt;div class="equation"&gt; $$ \begin{array}{lll}
 \sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
 \end{array} $$
 </div>
-</div>
 
-<div class="note" data-label="" markdown="1">
+::::
+
+:::: note {"class":"note","data-label":""}
+
 <div class="title">
 Take-Home Experiment: Force Parallel
 </div>
+
 To investigate how a force parallel to an inclined plane changes,
 find a rubber band, some objects to hang
 from the end of the rubber band, and a board you can position at different angles.
@@ -217,7 +235,8 @@ Now place the board at an angle so that the object slides off when placed on the
 How much does the rubber band extend if it is lined up parallel to the
 board and used to hold the object stationary on the board?
 Try two more angles. What does this show?
-</div>
+
+::::
 
 ### Tension
 
@@ -274,10 +293,12 @@ illustrated in [Figure 5](#Figure5) (a) and (b).
 ![The internal structure of a finger with tendon, extensor muscle, and flexor muscle is shown. The force in the muscles is shown by arrows pointing along the tendon. In the second figure, part of a bicycle with a brake cable is shown. Three tension vectors are shown by the arrows along the brake cable, starting from the handle to the wheels. The tensions have the same magnitude but different directions.](../resources/Figure_04_05_05.jpg '(a) Tendons in the finger carry force ( T ) from the muscles to other parts of the finger, usually changing the force’s direction, but not its magnitude (the tendons are relatively friction free). (b) The brake cable on a bicycle carries the tension ( T ) from the handlebars to the brake mechanism. Again, the direction but not the magnitude of ( T ) is changed. ')
 {: #Figure5 height="325"}
 
-<div class="example" markdown="1">
+:::: example
+
 <div class="title">
 What Is the Tension in a Tightrope?
 </div>
+
 Calculate the tension in the wire supporting the 70.0-kg tightrope walker shown in [Figure 6](#Figure6).
 
 ![A tightrope walker is walking on a wire. His weight W is acting downward, shown by a vector arrow. The wire sags and makes a five-degree angle with the horizontal at both ends. T sub R, shown by a vector arrow, is toward the right along the wire. T sub L is shown by an arrow toward the left along the wire. All three vectors W, T sub L, and T sub R start from the foot of the person on the wire. In a free-body diagram, W is acting downward, T sub R is acting toward the right with a small inclination, and T sub L is acting toward the left with a small inclination.](../resources/Figure_04_05_06.jpg 'The weight of a tightrope walker causes a wire to sag by 5.0 degrees. The system of interest here is the point in the wire at which the tightrope walker is standing.')
@@ -324,6 +345,7 @@ Consider the horizontal components of the forces
 <div class="equation">
 $$ F_{\text{net}x}=T_{\text{L}x}-T_{\text{R}x}. $$
 </div>
+
 The net external horizontal force $$ F_{\text{net}x}=0 $$,
 since the person is stationary. Thus,
 
@@ -333,6 +355,7 @@ F_{\text{net}x}=0&=& T_{\text{L}x}-T_{\text{R}x}\\
 T_{\text{L}x}&=& T_{\text{R}x}.
 \end{array} $$
 </div>
+
 Now, observe [Figure 7](#Figure7). You can use trigonometry
 to determine the magnitude of $$ T_{\text{L}} $$
 and $$ T_{\text{R}} $$. Notice that:
@@ -345,16 +368,19 @@ T_{\text{L}x}&=& T_{\text{L}}\cos\left(5.0^\circ \right)\\
 T_{\text{R}x}&=& T_{\text{R}}\cos\left(5.0^\circ \right).
 \end{array} $$
 </div>
+
 Equating $$ T_{\text{L}x} $$ and $$ T_{\text{R}x} $$:
 
 <div class="equation">
  $$ T_{\text{L}}\cos\left(5.0^\circ \right)=T_{\text{R}}\cos\left(5.0^\circ \right). $$
 </div>
+
 Thus,
 
 <div class="equation">
  $$ T_{\text{L}}=T_{\text{R}}=T, $$
 </div>
+
 as predicted. Now, considering the vertical components
 (denoted by a subscript $$ y $$ ), we can solve for $$ T $$. Again, since the person is stationary, Newton’s
 second law implies that net $$ F_{y}=0 $$. Thus, as illustrated in the free-body
@@ -363,6 +389,7 @@ diagram in [Figure 7](#Figure7),
 <div class="equation">
 $$ F_{\text{net}y}=T_{\text{L}y}+T_{\text{R}y}-w=0. $$
 </div>
+
 Observing [Figure 7](#Figure7), we can use trigonometry
 to determine the relationship between $$ T_{\text{L}y} $$,
 $$ T_{\text{R}y} $$, and $$ T $$. As we determined from the analysis in the
@@ -376,6 +403,7 @@ T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \r
 T_{\text{R}y}=T_{\text{R}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right).
 \end{array} $$
 </div>
+
 Now, we can substitute the values for $$ T_{\text{L}y} $$
 and $$ T_{\text{R}y} $$, into the net force equation in the vertical
 direction:
@@ -383,16 +411,19 @@ direction:
 <div class="equation">
  $$ \begin{array}{lll} {F}_{\text{net}y}&=& T_{\text{L}y}+T_{\text{R}y}-w=0\\ {F}_{\text{net}y}&=& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w&=& 0\\ 2T\sin\left(5.0^\circ \right)&=& w\end{array} $$ 
 </div>
+
 and
 
 <div class="equation">
  $$ T=\frac{w}{2\sin\left(5.0^\circ \right)}=\frac{mg }{2\sin\left(5.0^\circ \right)}, $$
 </div>
+
 so that
 
 <div class="equation">
  $$ T=\frac{ \left(70.0 \kg \right)\left(9.80 \mss \right)}{2\left(0.0872\right)}, $$
 </div>
+
 and the tension is
 <div class="equation">
  $$ T=3900 \N . $$
@@ -408,7 +439,7 @@ wire. The large horizontal components are in opposite directions and cancel, and
 so most of the tension in the wire is not used to support the weight of the
 tightrope walker.
 
-</div>
+::::
 
 If we wish to _create_ a very large tension, all we have to do is exert a force
 perpendicular to a flexible connector, as illustrated in [Figure 8](#Figure8). As
@@ -435,7 +466,7 @@ to sag, since an infinite tension would result if it were horizontal (
 i.e., $$ \theta =0 $$ and $$ \sin{\theta} =0 $$).
 (See [Figure 8](#Figure8).)
 
-![A car stuck in mud is being pulled out by a chain tied to a tree trunk. A force perpendicular to the length of the chain is applied, represented by an arrow. The tension T along the chain makes an angle with the horizontal line.](../resources/Figure_04_05_08.jpg "We can create a very large tension in the chain by pushing on it perpendicular to its length, as shown. Suppose we wish to pull a car out of the mud when no tow truck is available. Each time the car moves forward, the chain is tightened to keep it as nearly straight as possible. The tension in the chain is given by \( T= \frac{F*{\perp}}{2 \sin{ \theta }} \), since \( \theta \) is small, \( T \) is very large. This situation is analogous to the tightrope walker shown in <a href="#Figure6">Figure 6</a>, except that the tensions shown here are those transmitted to the car and the tree rather than those acting at the point where \( F\_\perp \) is applied.")
+![A car stuck in mud is being pulled out by a chain tied to a tree trunk. A force perpendicular to the length of the chain is applied, represented by an arrow. The tension T along the chain makes an angle with the horizontal line.](../resources/Figure_04_05_08.jpg 'We can create a very large tension in the chain by pushing on it perpendicular to its length, as shown. Suppose we wish to pull a car out of the mud when no tow truck is available. Each time the car moves forward, the chain is tightened to keep it as nearly straight as possible. The tension in the chain is given by \( T= \frac{F*{\perp}}{2 \sin{ \theta }} \), since \( \theta \) is small, \( T \) is very large. This situation is analogous to the tightrope walker shown in <a href="#Figure6">Figure 6</a>, except that the tensions shown here are those transmitted to the car and the tree rather than those acting at the point where \( F\_\perp \) is applied.')
 {: #Figure8}
 
 ![A picture of the Golden Gate Bridge.](../resources/Figure_04_05_09.jpg 'Unless an infinite tension is exerted, any flexible connector—such as the chain at the bottom of the picture—will sag under its own weight, giving a characteristic curve when the weight is evenly distributed along the length. Suspension bridges—such as the Golden Gate Bridge shown in this image—are essentially very heavy flexible connectors. The weight of the bridge is evenly distributed along the length of flexible connectors, usually cables, which take on the characteristic shape. (credit: Leaflet, Wikimedia Commons)')
@@ -478,22 +509,28 @@ to find in physics is in the long list of forces. Are some more basic than
 others? Are some different manifestations of the same underlying force? The
 answer to both questions is yes, as will be seen in the next few sections.
 
-<div class="note" data-label="PhET Exploration" markdown="1">
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
 <div class="title">
  Forces in 1 Dimension
 </div>
+
 Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. View a free-body diagram of all the forces (including gravitational and normal forces).
 
-<figure markdown="1">
+::: figure {}
+
 <figcaption>
 Forces in 1 Dimension
 </figcaption>
 <iframe loading="lazy" src="https://phet.colorado.
 edu/sims/cheerpj/forces-1d/latest/forces-1d.html?simulation=forces-1d"
 width="800" height="600"  allowfullscreen></iframe>
-</figure>
+
+:::
+
 {: #Figure10}
-</div>
+
+::::
 
 ### Section Summary
 
@@ -516,7 +553,7 @@ width="800" height="600"  allowfullscreen></iframe>
    </div>
 
    <div class="equation">
-  $$ w_{\perp }=w\cos\left(\theta \right)=mg \cos\left(\theta \right). $$
+   $$ w_{\perp }=w\cos\left(\theta \right)=mg \cos\left(\theta \right). $$
    </div>
 
 - The pulling force that acts along a stretched flexible connector, such as a
@@ -534,32 +571,41 @@ width="800" height="600"  allowfullscreen></iframe>
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 If a leg is suspended by a traction setup as shown in [Figure 11](#Figure11), what is the tension in the rope?
 
 ![Diagram of a leg in traction.](../resources/Figure_04_05_10.jpg 'A leg is suspended by a traction system in which wires are used to transmit forces. Frictionless pulleys change the direction of the force T without changing its magnitude.')
 {: #Figure11 height="275"}
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+:::: problem
+
 In a traction setup for a broken bone, with pulleys and rope available, how might we be able to increase the force along the tibia using the same weight? (See [Figure 10](#Figure10).) (Note that the tibia is the shin bone shown in this image.)
 
-</div>
+::::
+
 </div>
 
 ### Problem Exercises
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Two teams of nine members each engage in a tug of war. Each of the first team's members has an average mass of 68 kg and exerts an average force of 1350 N horizontally. Each of the second team's members has an average mass of 73 kg and exerts an average force of 1365 N horizontally.
 (a) What is magnitude of the acceleration of the two teams?
 (b) What is the tension in the section of rope between the teams?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -608,16 +654,21 @@ The tension in the rope (about 12,200 N) is much larger than the net force (135 
 
 (b) The tension in the rope between the teams is $$ 1.2 \times 10^4 \N $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 What force does a trampoline have to apply to a 45.0-kg gymnast to accelerate her straight up at $$ 7.50 \mss  $$?
 Note that the answer is independent of the velocity of the gymnast—she can be
 moving either up or down, or be stationary.
-</div>
-<div class="solution" markdown="1">
+
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -655,11 +706,14 @@ The trampoline must exert a force greater than the gymnast's weight (441 N) beca
 
 The trampoline must apply a force of $$ 779 \N $$ upward on the gymnast.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 (a) Calculate the tension in a vertical strand of spider web if a spider of
 mass $$ 8.00 \times 10^{-5}\kg $$ hangs motionless on it.
 (b) Calculate the tension in a horizontal strand of
@@ -668,8 +722,9 @@ tightrope walker in [Figure 6](#Figure6). The strand sags at an
 angle of $$ 12^\circ $$ below the horizontal. Compare this with the tension in
 the vertical strand (find their ratio).
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -732,17 +787,21 @@ The tension in the horizontal strand is 2.41 times greater than in the vertical 
 
 (b) The tension in the horizontal strand is **1.89 × 10⁻³ N**, which is **2.41 times** the tension in the vertical strand.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Suppose a 60.0-kg gymnast climbs a rope.
 (a) What is the tension in the rope if he climbs at a constant speed?
 (b) What is the tension in the rope if he accelerates upward at a rate of $$ 1.50 \mss  $$?
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -790,18 +849,22 @@ When climbing at constant speed, the tension equals the gymnast's weight. When a
 
 (b) When accelerating upward at 1.50 m/s², the rope tension is $$ 678 \N $$.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Show that, as stated in the text, a force $$ \vb{F}_{\perp } $$
 exerted on a flexible medium at its center and perpendicular to its length (such
 as on the tightrope wire in [Figure 6](#Figure6)) gives rise to a
 tension of magnitude $$ T=\frac{ F_{\perp }}{2\sin\left( \theta \right)} $$.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -861,11 +924,14 @@ For small angles, $$ \sin(\theta) \approx \theta $$ (in radians), and tension in
 
 The derivation shows that a perpendicular force $$ F_{\perp} $$ applied at the center of a flexible medium produces a tension of magnitude $$ T = \frac{F_{\perp}}{2\sin(\theta)} $$, where $$ \theta $$ is the angle the medium makes with the horizontal.
 
-</div>
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
-<div class="problem" markdown="1">
+
+:::: problem
+
 Consider the baby being weighed in [Figure 12](#Figure12).
 (a) What is the mass of the child and basket if a scale reading of 55 N is
 observed?
@@ -874,8 +940,9 @@ observed?
 (d) Draw a sketch of the situation indicating the system of interest used to
 solve each part. The masses of the cords are negligible.
 
-</div>
-<div class="solution" markdown="1">
+::::
+
+:::: solution
 
 **Strategy**
 
@@ -976,13 +1043,15 @@ This problem demonstrates how forces propagate through a system. The bottom cord
 
 (d) System sketches are shown above.
 
-</div>
+::::
+
 </div>
 
 ![A vertical spring scale measuring the weight of a baby is shown. The scale is hung from the ceiling by a cord. The weight W of the baby is shown by a vector arrow acting downward and tension T sub one acting in the cord is shown by an arrow upward. The tension in the cord T sub two attached to the ceiling is represented by an arrow upward from the spring scale and downward from the ceiling.](../resources/Figure_04_05_14.jpg 'A baby is weighed using a spring scale.')
 {: #Figure12}
 
-<div class="glossary" markdown="1">
+:::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -1000,4 +1069,4 @@ tension
 connector, such as a rope or cable; when a rope supports the weight of an
 object, the force on the object due to the rope is called a tension force
 
-</div>
+::::

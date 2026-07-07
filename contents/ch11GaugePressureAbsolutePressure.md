@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 11
 ---
+::: abstract
 
-<div class="abstract" markdown="1">
 * Define gauge pressure and absolute pressure.
 * Understand the working of aneroid and open-tube barometers.
-</div>
+
+:::
 
 If you limp into a gas station with a nearly flat tire, you will notice the tire
 gauge on the airline reads nearly zero when you begin to fill it. In fact, if
@@ -31,13 +32,15 @@ pressure—that is, to read zero at atmospheric pressure. We therefore define **
 pressure is positive for pressures above atmospheric pressure, and negative for
 pressures below it.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Gauge Pressure
 </div>
+
 Gauge pressure is the pressure relative to atmospheric pressure. Gauge pressure is positive for pressures above atmospheric pressure, and negative for pressures below it.
 
-</div>
+:::
 
 In fact, atmospheric pressure does add to the pressure in any fluid not enclosed
 in a rigid container. This happens because of Pascal’s principle. The total
@@ -49,13 +52,15 @@ your tire gauge reads 34 psi (pounds per square inch), then the absolute
 pressure is 34 psi plus 14.7 psi ( $${P}_{\text{atm}} $$ in psi), or 48.7 psi (
 equivalent to 336 kPa).
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Absolute Pressure
 </div>
+
 Absolute pressure is the sum of gauge pressure and atmospheric pressure.
 
-</div>
+:::
 
 For reasons we will explore later, in most cases the absolute pressure in fluids
 cannot be negative. Fluids push rather than pull, so the smallest absolute
@@ -129,29 +134,35 @@ manometer. This reduced height can make measurements difficult, so mercury
 manometers are used to measure larger pressures, such as blood pressure. The
 density of mercury is such that $$1.0 \text{mm Hg}=133 \text{Pa} $$.
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Systolic Pressure
 </div>
+
 Systolic pressure is the maximum blood pressure.
 
-</div>
+:::
 
-<div class="note" data-has-label="true" data-label="" markdown="1">
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
 <div class="title">
 Diastolic Pressure
 </div>
+
 Diastolic pressure is the minimum blood pressure.
 
-</div>
+:::
 
 ![U.S. Army Spc. Monica Brown takes a soldier's blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03.jpg 'In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\\4TH BCT)')
 {: #Figure3}
 
-<div class="example"  markdown="1">
+::: example
+
 <div class="title">
 Calculating Height of IV Bag: Blood Pressure and Intravenous Infusions
 </div>
+
 Intravenous infusions are usually made with the help of the gravitational force. Assuming that the density of the fluid being administered is 1.00 g/ml, at what height should the IV bag be placed above the entry point so that the fluid just enters the vein if the blood pressure in the vein is 18 mm Hg above atmospheric pressure? Assume that the IV bag is collapsible.
 
 **Strategy for (a)**
@@ -167,6 +178,7 @@ We first need to convert the pressure into SI units. Since $$1.0 \text{mm Hg}=13
 <div class="equation" >
  $$P=18 \text{mm Hg}×\frac{133 \text{Pa}}{1.0 \text{mm Hg}}=2400 \text{Pa}\text{.} $$
 </div>
+
 Rearranging  $${P}_{\text{g}}=h \rho g $$  for  $$h $$
  gives  $$h=\frac{ {P}_{\text{g}}}{\rho g} $$ .
  Substituting known values into this equation gives
@@ -174,6 +186,7 @@ Rearranging  $${P}_{\text{g}}=h \rho g $$  for  $$h $$
 <div class="equation" >
  $$\begin{array}{lll}h& =& \frac{2400 \text{N}{\text{/m}}^{2}}{\left( 1.0 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\\ & =& 0.24 \text{m} \text{.} \end{array} $$
 </div>
+
 **Discussion**
 
 The IV bag must be placed at 0.24 m above the entry point into the arm for the
@@ -182,7 +195,7 @@ may have noticed that the bags used for blood collection are placed below the
 donor to allow blood to flow easily from the arm to the bag, which is the
 opposite direction of flow than required in the example presented here.
 
-</div>
+:::
 
 A _barometer_ is a device that measures atmospheric pressure. A mercury
 barometer is shown in [[Figure 4]](#Figure4). This device measures atmospheric
@@ -290,11 +303,15 @@ conversion factors for some of the more commonly used units of pressure.
 ### Conceptual Questions
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Explain why the fluid reaches equal levels on either side of a manometer if both sides are open to the atmosphere, even if the tubes are of different diameters.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Consider that pressure depends on depth, not on the diameter of the tube or volume of fluid above.
 
@@ -316,15 +333,20 @@ The tube diameter doesn't appear in the pressure formula because:
 **Discussion:**
 This is related to the hydrostatic paradox. A thin tube of water and a wide lake at the same height exert the same pressure at their bases. This principle is why water towers work regardless of their tank width, and why communicating vessels (like a series of connected containers) always have the same fluid level.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
-<div class="problem"  markdown="1">
+
+::: problem
+
 [[Figure 3]](#Figure3) shows how a common measurement of arterial blood pressure is made. Is there any effect on the measured pressure if the manometer is lowered? What is the effect of raising the arm above the shoulder? What is the effect of placing the cuff on the upper leg with the person standing? Explain your answers in terms of pressure created by the weight of a fluid.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Apply the hydrostatic pressure relationship $$ P = \rho g h $$ to understand how changes in height affect blood pressure measurements.
 
@@ -354,15 +376,20 @@ Blood pressure might read ~182/142 instead of 120/80.
 **Discussion:**
 This is why standard blood pressure measurement protocol specifies that the cuff should be at heart level. Variations in measurement position explain why some people have different readings at different clinics, and why patients are asked to keep their arm at heart level during measurement. These effects are purely hydrostatic and don't indicate any cardiovascular problem.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
-<div class="problem" markdown="1">
+
+::: problem
+
 Considering the magnitude of typical arterial blood pressures, why are mercury rather than water manometers used for these measurements?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Compare the column heights required for mercury versus water manometers for typical blood pressure values.
 
@@ -387,18 +414,23 @@ For the extreme case (300 mm Hg):
 **Discussion:**
 The 12-cm mercury column is compact and easily readable on a desk-mounted device. A 163-cm water column would require a floor-to-ceiling installation, making it impractical for clinical use. Additionally, mercury doesn't evaporate significantly at room temperature (unlike water), ensuring accurate readings. While mercury's toxicity has led to its phase-out in many clinical settings in favor of digital devices, the principle explains why mercury was historically the standard.
 
-</div>
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Find the gauge and absolute pressures in the balloon and peanut jar shown in [[Figure 2]](#Figure2), assuming the manometer connected to the balloon uses water whereas the manometer connected to the jar contains mercury. Express in units of centimeters of water for the balloon and millimeters of mercury for the jar, taking  $$h=0.0500 \text{m} $$
  for each.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 For the balloon, the fluid rises on the side connected to the balloon, indicating positive gauge pressure equal to $$ h \rho g $$ in cm H₂O. For the jar, the fluid is depressed, indicating negative gauge pressure (vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
 
@@ -448,16 +480,21 @@ Jar:
 **Discussion:**
 The balloon has slightly elevated pressure (5 cm H₂O ≈ 0.0048 atm or about 0.5% above atmospheric), typical for an inflated balloon. The peanut jar has reduced internal pressure (about 93% of atmospheric), indicating it's vacuum-packed. The jar's rigidity prevents atmospheric pressure from collapsing it despite the pressure difference. The negative gauge pressure in the jar is why vacuum-packed containers make a "pop" when opened—atmospheric pressure rushes in to equalize the pressure difference.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 (a) Convert normal blood pressure readings of 120 over 80 mm Hg to newtons per meter squared using the relationship for pressure due to the weight of a fluid  $$\left(P=h \rho g\right) $$
  rather than a conversion factor. (b) Discuss why blood pressures for an infant could be smaller than those for an adult. Specifically, consider the smaller height to which blood must be pumped.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use $$ P = h \rho g $$ with the density of mercury and the given heights in mm Hg. For part (b), consider the hydrostatic pressure requirements for circulation.
 
@@ -499,15 +536,20 @@ Infant blood pressures are typically 60-90/40-60 mm Hg, significantly lower than
 **Discussion:**
 The answers are **16.0 kPa (systolic) and 10.7 kPa (diastolic)**. These pressures, while seeming moderate, are sufficient to circulate blood throughout the body. An infant's much smaller body means blood needs to be pumped much shorter distances, both vertically (against gravity) and horizontally (through shorter vessels), explaining their lower blood pressure requirements.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 How tall must a water-filled manometer be to measure blood pressures as high as 300 mm Hg?
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the relationship $$ P = \rho g h $$ for both mercury and water to find the equivalent water column height.
 
@@ -528,16 +570,21 @@ $$ h_{\text{water}} = \frac{4.00 \times 10^4}{9.80 \times 10^3} \text{ m} = 4.08
 **Discussion:**
 The water manometer must be approximately **4.08 meters tall** (about 13.4 feet). This is much taller than a mercury manometer, which would only need 0.30 m (30 cm) for the same pressure. The ratio of heights equals the inverse ratio of densities: water is 13.6 times less dense than mercury, so it requires a column 13.6 times taller to create the same pressure. This is why mercury is traditionally used for blood pressure measurements—its high density allows for compact instruments. A 4-meter water manometer would be impractical in clinical settings, though water manometers are sometimes used in research or when mercury's toxicity is a concern.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Pressure cookers have been around for more than 300 years, although their use has strongly declined in recent years (early models had a nasty habit of exploding). How much force must the latches holding the lid onto a pressure cooker be able to withstand if the circular lid is  $$25.0 \text{cm} $$
  in diameter and the gauge pressure inside is 300 atm? Neglect the weight of the lid.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the area of the circular lid, convert gauge pressure to pascals, then use $$ F = PA $$ to find the force.
 
@@ -564,15 +611,20 @@ $$ F = 1.49 \times 10^6 \text{ N} $$
 **Discussion:**
 The latches must withstand approximately **1.49 × 10⁶ N** (about 335,000 pounds or 150 tons of force!). This explains why early pressure cookers were dangerous—if the latches or seals failed under such enormous force, the lid would become a deadly projectile. Modern pressure cookers typically operate at only 1-2 atm gauge pressure (force ~5,000-10,000 N), with multiple safety mechanisms. The given 300 atm would represent an extreme industrial application, not a kitchen device. Note that atmospheric pressure acts on the outside of the lid as well, so only the *gauge* pressure contributes to the net outward force.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Suppose you measure a standing person's blood pressure by placing the cuff on his leg 0.500 m below the heart. Calculate the pressure you would observe (in units of mm Hg) if the pressure at the heart were 120 over 80 mm Hg. Assume that there is no loss of pressure due to resistance in the circulatory system (a reasonable assumption, since major arteries are large).
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Use the hydrostatic pressure formula $$ \Delta P = \rho g h $$ to find the additional pressure due to the height difference between heart and leg. Add this to both systolic and diastolic pressures.
 
@@ -613,15 +665,20 @@ This demonstrates why standard blood pressure measurements specify that the cuff
 
 For a standing person, this also explains why blood tends to pool in the legs (leading to swelling during long periods of standing) and why varicose veins commonly occur in the legs where pressures are highest. The cardiovascular system must work against this gravitational effect to return blood from the feet to the heart, which is why leg muscles (the "muscle pump") and one-way valves in veins are essential for venous return.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 A submarine is stranded on the bottom of the ocean with its hatch 25.0 m below the surface. Calculate the force needed to open the hatch from the inside, given it is circular and 0.450 m in diameter. Air pressure inside the submarine is 1.00 atm.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 Calculate the water pressure at depth 25.0 m, find the pressure difference between outside (water) and inside (1 atm air), then calculate the net force on the hatch.
 
@@ -657,15 +714,20 @@ $$ F = 3.99 \times 10^4 \text{ N} \approx 4.0 \times 10^4 \text{ N} $$
 **Discussion:**
 The force needed to open the hatch from inside is approximately **4.0 × 10⁴ N** (about 9,000 pounds or 4.5 tons). This is humanly impossible to achieve by pushing! This is why submarines that sink with intact hulls cannot simply open their hatches to escape—the water pressure is too great. Rescue operations require either pressurizing the submarine interior to match external pressure, or using escape capsules. The atmospheric pressure inside cancels part of the water pressure, but the hydrostatic pressure from 25 m of water ($$ \rho g h = 2.51 \times 10^5 \text{ Pa} $$ ≈ 2.5 atm) still creates an enormous net inward force.
 
-</div>
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
-<div class="problem" markdown="1">
+
+::: problem
+
 Assuming bicycle tires are perfectly flexible and support the weight of bicycle and rider by pressure alone, calculate the total area of the tires in contact with the ground. The bicycle plus rider has a mass of 80.0 kg, and the gauge pressure in the tires is  $$ 3.50 \times 10^{5}  \text{Pa} $$.
 
-</div>
-<div class="solution" markdown="1">
+:::
+
+::: solution
+
 **Strategy:**
 The upward force from tire pressure must equal the weight of the bicycle and rider. Use $$ F = PA $$ to solve for contact area.
 
@@ -691,10 +753,12 @@ $$ A = 2.24 \times 10^{-3} \text{ m}^2 \times \left(\frac{100 \text{ cm}}{1 \tex
 **Discussion:**
 The total tire contact area is approximately **22.4 cm²** (about 3.5 square inches). This is surprisingly small—roughly the combined area of two postage stamps supporting an 80-kg system! The high tire pressure (3.50 × 10⁵ Pa ≈ 51 psi, typical for a road bike) allows this small contact area to support the weight. For comparison, car tires operate at lower pressures (~30 psi) and have much larger contact patches. The small contact area of high-pressure bicycle tires reduces rolling resistance, improving efficiency, but also makes them more susceptible to punctures and provides less traction. Mountain bike tires use lower pressures (~30 psi) for larger contact patches and better grip.
 
-</div>
+:::
+
 </div>
 
-<div class="glossary" markdown="1">
+::: glossary
+
 ### Glossary
 {: class="glossary-title"}
 
@@ -710,4 +774,4 @@ gauge pressure
 systolic pressure
 : the maximum blood pressure in the artery
 
-</div>
+:::
