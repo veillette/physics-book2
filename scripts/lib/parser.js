@@ -74,24 +74,44 @@ export class ContentParser {
       };
     }
 
-    // Track display math blocks ($$)
-    if (trimmedLine.startsWith('$$')) {
-      this.inMathBlock = !this.inMathBlock;
-      return {
-        isContent: false,
-        isMathBlockDelimiter: true,
-        state: this.getState(),
-      };
-    }
-
-    // Inside math block
+    // Track display math blocks ($$). This content uses several $$ shapes and the old
+    // "a line that starts with $$ toggles the state" rule mishandled most of them,
+    // desyncing every following line (a trailing `{: #id}` IAL would then be misread as
+    // "inside math" and skipped). The shapes:
+    //   * lone delimiter line `$$` opening/closing a block;
+    //   * single-line block `$$ x = y $$` (opens AND closes on one line — no net change);
+    //   * inline pair mid-prose `where $$\theta$$ is [Figure 1](#Figure1)` (has real
+    //     content — a cross-reference — that must still be validated);
+    //   * multi-line block that opens `$$\begin{array}…` and closes `…\end{array}$$`
+    //     on a line that does NOT start with $$ (the close the old rule never saw).
     if (this.inMathBlock) {
+      // Inside a multi-line block: it stays open until a line contains a closing `$$`
+      // (which may sit at the END of the line, e.g. `\end{array}$$`).
+      if (line.includes('$$')) {
+        this.inMathBlock = false;
+      }
       return {
         isContent: false,
         isMathBlock: true,
         state: this.getState(),
       };
     }
+    if (trimmedLine.startsWith('$$')) {
+      // A line-initial `$$` opens a block only if the `$$` markers on the line are
+      // unpaired (odd count); a self-contained `$$ x $$` (even count) opens and closes
+      // at once and must not change the state.
+      const markers = (line.match(/\$\$/g) || []).length;
+      if (markers % 2 === 1) {
+        this.inMathBlock = true;
+      }
+      return {
+        isContent: false,
+        isMathBlockDelimiter: true,
+        state: this.getState(),
+      };
+    }
+    // A line with only an inline `$$…$$` pair mid-prose does not start with `$$`, so it
+    // falls through to be treated as content (its cross-references are validated).
 
     // Regular content line
     return {

@@ -138,6 +138,22 @@ class CrossReferenceValidator {
       if (kramdownIdMatch) {
         anchors.add(kramdownIdMatch[1]);
       }
+
+      // Fenced container attributes (`::: example {"id":"example1", …}` / `:::: note {…}`) —
+      // the migrated Kramdown-div syntax. The Eleventy build (lib/eleventy/containers.js)
+      // renders these to `<div id="…">`, so the JSON blob's id is a valid anchor target.
+      // Parse it the same way containers.js does.
+      const fenceMatch = line.match(/^:{3,}\s*[\w-]+\s+(\{.*\})\s*$/);
+      if (fenceMatch) {
+        try {
+          const fenceAttrs = JSON.parse(fenceMatch[1]);
+          if (fenceAttrs && fenceAttrs.id) {
+            anchors.add(fenceAttrs.id);
+          }
+        } catch {
+          // Not a JSON attribute blob — ignore (some fences carry only a class name).
+        }
+      }
     }
 
     this.anchors.set(fileName, anchors);
@@ -180,8 +196,15 @@ class CrossReferenceValidator {
           continue;
         }
 
-        // Skip image links
-        if (linkTarget.match(/\.(png|jpg|jpeg|gif|svg|webp)(\s|$|['"])/i)) {
+        // Skip static-asset links (images, generated PDFs, other media). These are
+        // validated by check:links against the actual files/output, not as markdown-to-
+        // markdown cross-references. In particular /assets/pdf/*.pdf are gitignored build
+        // artifacts that never exist as .md files, so treating them as content references
+        // produces false "<name>.pdf.md not found" errors.
+        if (linkTarget.match(/\.(png|jpg|jpeg|gif|svg|webp|pdf|zip|css|js|json)(\s|$|['"#?])/i)) {
+          continue;
+        }
+        if (linkTarget.startsWith('/assets/') || linkTarget.startsWith('/resources/')) {
           continue;
         }
 

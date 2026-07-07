@@ -117,7 +117,7 @@ light approaches the Earth using relativistic velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
    {c}^{2}}}\\ & =& \frac{0.500c+c}{1+\frac{\left(0.500c\right)\left(c\right)}{
    {c}^{2}}}\\ & =& \frac{\left(0.500+1\right)c}{1+\frac{0.500{c}^{2}}{
    {c}^{2}}}\\ & =& \frac{1.500c}{1+0.500}\\ & =& \frac{1.500c}{1.500}\\ & =&
@@ -163,7 +163,7 @@ relativistic velocity addition instead of simple velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
    {c}^{2}}}\\ & =& \frac{0.500\text{c +}0.750c}{1+\frac{\left(0.500c\right)
    \left(0.750c\right)}{ {c}^{2}}}\\ & =& \frac{1.250c}{1+0.375}\\ & =&
    0.909c\end{array} $$
@@ -176,7 +176,7 @@ relativistic velocity addition instead of simple velocity addition.
 3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
+   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
    {c}^{2}}}\\ & =& \frac{0.500\mathrm{c +}\left(-0.750c\right)}{1+\frac{\left(
    0.500c\right)\left(-0.750c\right)}{ {c}^{2}}}\\ & =&
    \frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$

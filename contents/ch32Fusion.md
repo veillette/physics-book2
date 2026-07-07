@@ -604,7 +604,7 @@ $${}^{4}\text{He} $$ or $${}^{2}\text{H} $$.
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
- $$\begin{array}{lll}E& =& \left({m}_{\text{i}}-{m}_{\text{f}}\right){c}^{2}\\ {E}_{1}& =& \left(1.008665+3.016030-4.002603\right)\left(931.5 \text{MeV}\right)\\ & =& 20.58 \text{MeV}\\ {E}_{2}& =& \left( 1.008665+ 1.007825 -2.014102\right)\left(931.5 \text{MeV}\right)\\ & =& 2.224 \text{MeV}\end{array} $${}^{4}\text{He is more tightly bound, since this reaction gives off more energy per nucleon.} $$
+ $$\begin{array}{lll}E& =& \left({m}_{\text{i}}-{m}_{\text{f}}\right){c}^{2}\\ {E}_{1}& =& \left(1.008665+3.016030-4.002603\right)\left(931.5 \text{MeV}\right)\\ & =& 20.58 \text{MeV}\\ {E}_{2}& =& \left( 1.008665+ 1.007825 -2.014102\right)\left(931.5 \text{MeV}\right)\\ & =& 2.224 \text{MeV}\end{array} $$ $${}^{4}\text{He}$$ is more tightly bound, since this reaction gives off more energy per nucleon.
 
 :::
 

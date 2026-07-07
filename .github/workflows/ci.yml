@@ -67,6 +67,12 @@ jobs:
       - name: Check accessibility
         run: npm run check:accessibility
 
+      - name: Check cross-references
+        run: npm run check:cross-refs
+
+      - name: Check equations
+        run: npm run check:equations
+
   physics-checks:
     name: Physics Calculations
     runs-on: ubuntu-latest

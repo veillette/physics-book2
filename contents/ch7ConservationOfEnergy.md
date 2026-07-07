@@ -88,7 +88,7 @@ other forms of energy can be converted into one another and can do work.
 various objects and in various phenomena. The range of energies and the variety
 of types and situations is impressive.
 
-:::: note {"class":"note","data-label":""}
+:::: note {"class":"note","id":"problemSolving","data-label":""}
 
 <div class="title">
 Problem-Solving Strategies for Energy

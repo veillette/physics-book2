@@ -25,8 +25,9 @@
  */
 
 import path from 'path';
+import { pathToFileURL } from 'url';
 import matter from '@11ty/gray-matter';
-import { createIssue, countUnescaped } from './lib/parser.js';
+import { createIssue, checkBraceBalance, getLineNumber } from './lib/parser.js';
 import {
   printHeader,
   printDivider,
@@ -41,7 +42,50 @@ import {
   printOverview,
 } from './lib/reporter.js';
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
-import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
+import { findMarkdownFiles, readFile } from './lib/files.js';
+
+/**
+ * Blank out front matter and fenced code blocks (preserving line count) so that only real
+ * body text — where $$…$$ math can appear — remains. Line numbers are preserved because each
+ * removed line becomes an empty string rather than being deleted.
+ * @param {string} content - Full file content
+ * @returns {string} - Content with non-math regions replaced by empty lines
+ */
+function maskNonMath(content) {
+  let inCode = false;
+  let inFront = false;
+  let frontEnded = false;
+
+  return content
+    .split('\n')
+    .map(line => {
+      const t = line.trim();
+      if (t === '---' && !frontEnded) {
+        inFront = !inFront;
+        if (!inFront) frontEnded = true;
+        return '';
+      }
+      if (inFront) return '';
+      if (t.startsWith('```') || t.startsWith('~~~')) {
+        inCode = !inCode;
+        return '';
+      }
+      return inCode ? '' : line;
+    })
+    .join('\n');
+}
+
+/**
+ * Net \left − \right count in a math expression. \leftarrow/\rightarrow (and other commands
+ * whose name continues with a letter) are excluded via the (?![a-zA-Z]) guard.
+ * @param {string} s - Math expression
+ * @returns {number} - Positive if more \left, negative if more \right, 0 if balanced
+ */
+function leftRightImbalance(s) {
+  const left = (s.match(/\\left(?![a-zA-Z])/g) || []).length;
+  const right = (s.match(/\\right(?![a-zA-Z])/g) || []).length;
+  return left - right;
+}
 
 /**
  * Equation validator and fixer class.
@@ -114,8 +158,15 @@ class EquationProcessor {
    */
   checkFile(filePath, content, fileName) {
     const { data } = matter(content);
-    const lines = content.split('\n');
 
+    // Math in this project is delimited by $$…$$ ONLY (a single $ is literal text, e.g.
+    // currency). A $$…$$ span may cover several lines (display blocks / arrays), so it must
+    // be validated as a whole rather than line-by-line. See validateMathSpans.
+    this.validateMathSpans(fileName, content);
+
+    // Per-line checks that don't depend on span boundaries: equation numbering (\tag) and
+    // the sub/superscript style warnings.
+    const lines = content.split('\n');
     let inCodeBlock = false;
     let inFrontMatter = false;
     let frontMatterEnded = false;
@@ -124,7 +175,6 @@ class EquationProcessor {
       const line = lines[i];
       const lineNum = i + 1;
 
-      // Track front matter
       if (line.trim() === '---') {
         if (!frontMatterEnded) {
           inFrontMatter = !inFrontMatter;
@@ -132,174 +182,103 @@ class EquationProcessor {
         }
         continue;
       }
-
       if (inFrontMatter) continue;
 
-      // Track code blocks
       if (line.trim().startsWith('```')) {
         inCodeBlock = !inCodeBlock;
         continue;
       }
-
       if (inCodeBlock) continue;
 
-      // Check for standalone $$ lines (likely broken inline math)
-      if (line.trim() === '$$') {
-        this.errors.push(
-          createIssue({
-            file: fileName,
-            line: lineNum,
-            message: 'Standalone $$ delimiter - inline math should be on one line',
-            text: line.trim(),
-          })
-        );
-        continue;
-      }
-
-      // Check inline math
-      this.validateInlineMath(fileName, lineNum, line);
-
-      // Check for equation numbering
       this.checkEquationNumbering(fileName, lineNum, line, data.chapterNumber);
-
-      // Check for common LaTeX errors
       this.checkCommonLatexErrors(fileName, lineNum, line);
     }
   }
 
   /**
    * Fix a file for equation issues.
+   *
+   * Auto-fixing math is intentionally disabled. The math delimiter in this project is $$…$$
+   * (a lone $ is literal text, e.g. currency), and a standalone `$$` on its own line is a
+   * valid display-block delimiter. The previous heuristics — merging a standalone `$$` into
+   * the preceding line, and deleting `$$\s*$$` — both corrupted correct content (they broke
+   * display blocks and merged adjacent inline spans such as `$$A$$ $$B$$`). The structural
+   * problems this script now detects (unbalanced braces/\left-\right, unclosed blocks, stray
+   * delimiters) require human judgement to repair, so they are reported, not rewritten.
+   *
    * @param {string} filePath - Path to file
    * @param {string} content - File content
    * @param {string} fileName - File name
    */
   fixFile(filePath, content, fileName) {
-    const { data, content: bodyContent } = matter(content);
-    const lines = bodyContent.split('\n');
-
-    let modified = false;
-    let inCodeBlock = false;
-
-    const newLines = [];
-    let i = 0;
-
-    while (i < lines.length) {
-      const line = lines[i];
-
-      // Track code blocks
-      if (line.trim().startsWith('```')) {
-        inCodeBlock = !inCodeBlock;
-        newLines.push(line);
-        i++;
-        continue;
-      }
-
-      if (inCodeBlock) {
-        newLines.push(line);
-        i++;
-        continue;
-      }
-
-      // Fix standalone $$ delimiter (broken inline math)
-      if (line.trim() === '$$' && i > 0 && i < lines.length - 1) {
-        const prevLine = lines[i - 1];
-        const nextLine = lines[i + 1];
-
-        const shouldMerge =
-          (prevLine.includes('$$') &&
-            !prevLine.trim().startsWith('$$') &&
-            !prevLine.trim().startsWith('<div class="equation">')) ||
-          (prevLine.trim().length > 0 &&
-            nextLine.trim().length > 0 &&
-            prevLine.trim().length < 100 &&
-            !prevLine.trim().startsWith('#'));
-
-        if (shouldMerge) {
-          const prevDollarCount = (prevLine.match(/\$\$/g) || []).length;
-
-          if (prevDollarCount % 2 === 1) {
-            const mergedLine = `${prevLine.trimEnd()}$$ ${nextLine.trimStart()}`;
-
-            newLines.pop();
-            newLines.push(mergedLine);
-
-            modified = true;
-            this.fixes.push({
-              file: fileName,
-              line: i,
-              type: 'Merged broken inline math',
-              before: `${prevLine}\\n$$\\n${nextLine}`,
-              after: mergedLine,
-            });
-
-            i += 2;
-            continue;
-          }
-        }
-      }
-
-      // Fix empty inline math and extra spaces
-      let fixedLine = line;
-      fixedLine = fixedLine.replace(/\$\$\s*\$\$/g, '');
-
-      if (fixedLine !== line) {
-        modified = true;
-        const changeType = line.includes('$$ $$')
-          ? 'Removed empty inline math'
-          : 'Fixed math spacing';
-
-        this.fixes.push({
-          file: fileName,
-          line: i + 1,
-          type: changeType,
-          before: line.trim(),
-          after: fixedLine.trim(),
-        });
-        newLines.push(fixedLine);
-      } else {
-        newLines.push(line);
-      }
-
-      i++;
-    }
-
-    if (modified) {
-      this.filesModified++;
-      const newContent = matter.stringify(newLines.join('\n'), data);
-      writeFile(filePath, newContent);
-    }
+    // No-op: report only. See method doc for why auto-fixing math is unsafe here.
+    void filePath;
+    void content;
+    void fileName;
   }
 
   // ===== VALIDATION METHODS =====
 
-  validateInlineMath(file, line, text) {
-    const count = countUnescaped(text, '$');
+  /**
+   * Validate every $$…$$ math span in a file. Spans may cross line boundaries, so this works
+   * on the whole (front-matter- and code-block-masked) content rather than per line.
+   * @param {string} file - File name
+   * @param {string} content - Full file content
+   */
+  validateMathSpans(file, content) {
+    const masked = maskNonMath(content);
+    const positions = [];
+    const re = /\$\$/g;
+    let m;
+    while ((m = re.exec(masked)) !== null) positions.push(m.index);
 
-    if (count % 2 !== 0) {
+    // An odd number of $$ markers means one delimiter is unpaired: a display block was opened
+    // and never closed (or a stray $$ was left behind). Downstream pairing is meaningless.
+    if (positions.length % 2 !== 0) {
+      const last = positions[positions.length - 1];
       this.errors.push(
         createIssue({
           file,
-          line,
-          message: 'Unbalanced inline math delimiters ($)',
-          text: text.trim(),
+          line: getLineNumber(masked, last),
+          message: 'Unclosed $$ math block (odd number of $$ delimiters)',
+          text: masked.slice(last, last + 60).replace(/\n/g, ' '),
         })
       );
+      return;
     }
 
-    // Check for empty inline math
-    const inlineMathRegex = /\$([^$]+)\$/g;
-    let match;
+    for (let i = 0; i + 1 < positions.length; i += 2) {
+      const inner = masked.slice(positions[i] + 2, positions[i + 1]);
+      const line = getLineNumber(masked, positions[i]);
+      const preview = inner.replace(/\n/g, ' ').trim();
 
-    while ((match = inlineMathRegex.exec(text)) !== null) {
-      const mathContent = match[1];
+      if (inner.trim().length === 0) {
+        this.errors.push(
+          createIssue({ file, line, message: 'Empty math expression ($$ $$)', text: preview })
+        );
+        continue;
+      }
 
-      if (mathContent.trim().length === 0) {
+      const { balanced, count } = checkBraceBalance(inner);
+      if (!balanced) {
         this.errors.push(
           createIssue({
             file,
             line,
-            message: 'Empty inline math',
-            text: text.trim(),
+            message: `Unbalanced braces in math (${count > 0 ? '+' : ''}${count})`,
+            text: preview,
+          })
+        );
+      }
+
+      const lr = leftRightImbalance(inner);
+      if (lr !== 0) {
+        this.errors.push(
+          createIssue({
+            file,
+            line,
+            message: `Unbalanced \\left/\\right in math (${lr > 0 ? '+' : ''}${lr})`,
+            text: preview,
           })
         );
       }
@@ -352,27 +331,10 @@ class EquationProcessor {
     // Skip image markdown lines
     if (text.trim().startsWith('![')) return;
 
+    // Only style WARNINGS live here. Structural errors (unbalanced braces, unclosed blocks,
+    // stray delimiters) are detected per math span in validateMathSpans — line-anchored regexes
+    // like /\\frac\{[^}]*\}\{[^}]*$/ produced false positives on legitimate multi-line arrays.
     const errorPatterns = [
-      {
-        pattern: /\\frac\{[^}]*\}\{[^}]*$/,
-        message: 'Incomplete \\frac command - missing closing brace',
-      },
-      {
-        pattern: /\\sqrt\{[^}]*$/,
-        message: 'Incomplete \\sqrt command - missing closing brace',
-      },
-      {
-        pattern: /\\text\{[^}]*$/,
-        message: 'Incomplete \\text command - missing closing brace',
-      },
-      {
-        pattern: /_{(?:[^}]*$|[^}]*\n)/,
-        message: 'Incomplete subscript - missing closing brace',
-      },
-      {
-        pattern: /\^{(?:[^}]*$|[^}]*\n)/,
-        message: 'Incomplete superscript - missing closing brace',
-      },
       {
         pattern: /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/,
         message: 'Multi-character subscript without braces (use _{...})',
@@ -471,32 +433,39 @@ class EquationProcessor {
   }
 }
 
-// CLI Configuration
-const flags = createCheckFixFlags();
+// CLI Configuration — only runs when this file is executed directly, so tests can import the
+// class without triggering the CLI.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
 
-runCli({
-  name: 'equations',
-  description: `Validates and fixes equation issues including:
+if (isMain) {
+  const flags = createCheckFixFlags();
+
+  runCli({
+    name: 'equations',
+    description: `Validates and fixes equation issues including:
 - Equation numbering consistency
 - LaTeX syntax errors
 - Unbalanced delimiters (braces, $, \\left/\\right)
 - Equation references
 - Common LaTeX mistakes
 - Broken inline math`,
-  flags,
-  examples: [
-    'node scripts/equations.js                    # Check only',
-    'node scripts/equations.js --fix              # Apply fixes',
-    'node scripts/equations.js --strict           # Stricter validation',
-    'node scripts/equations.js contents/ch10*.md  # Check specific files',
-  ],
-  run: async options => {
-    const mode = getMode(options);
-    const processor = new EquationProcessor({
-      strict: options.strict,
-      fix: mode === 'fix' || mode === 'both',
-    });
+    flags,
+    examples: [
+      'node scripts/equations.js                    # Check only',
+      'node scripts/equations.js --fix              # Apply fixes',
+      'node scripts/equations.js --strict           # Stricter validation',
+      'node scripts/equations.js contents/ch10*.md  # Check specific files',
+    ],
+    run: async options => {
+      const mode = getMode(options);
+      const processor = new EquationProcessor({
+        strict: options.strict,
+        fix: mode === 'fix' || mode === 'both',
+      });
 
-    return processor.process(options.directory);
-  },
-});
+      return processor.process(options.directory);
+    },
+  });
+}
+
+export default EquationProcessor;
