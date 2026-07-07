@@ -108,9 +108,18 @@ class OrphanFileFinder {
   async scanFiles() {
     console.log(chalk.gray('Scanning files for references...\n'));
 
-    // Find all files that might contain references
-    const patterns = ['**/*.md', '**/*.html', '**/*.json', '**/*.js', '**/*.css'];
-    const ignorePatterns = ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'];
+    // Find all files that might contain references.
+    // .njk templates replaced .html layouts after the Eleventy migration
+    // (head.njk, index.njk, sw.njk, manifest.njk, etc.) and contain the
+    // <link>/<script>/<img> references to favicons, scripts, and images.
+    const patterns = ['**/*.md', '**/*.html', '**/*.njk', '**/*.json', '**/*.js', '**/*.css'];
+    const ignorePatterns = [
+      'node_modules/**',
+      '_site/**',
+      '_site_jekyll_baseline/**',
+      '.jekyll-cache/**',
+      'scripts/**',
+    ];
 
     for (const pattern of patterns) {
       const files = await glob(pattern, {
