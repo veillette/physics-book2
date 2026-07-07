@@ -624,7 +624,7 @@ A bag containing  $$0\text{ºC} $$
 
 **Strategy**
 
-For part (a), we use $$Q = mc\Delta T$$ to find the heat needed to warm water. For part (b), we must first melt the ice using $$Q = mL_f$$, then warm the resulting water using $$Q = mc\Delta T$$. Part (c) requires comparing the two results.
+For part (a), we use $$Q = mc\Delta T$$ to find the heat needed to warm water. For part (b), we must first melt the ice using $$Q = mL_{f}$$, then warm the resulting water using $$Q = mc\Delta T$$. Part (c) requires comparing the two results.
 
 **Solution**
 
@@ -638,7 +638,7 @@ Given:
 **(a)** Heat to warm 0.800 kg of water from 0ºC to 30.0ºC:
 
 <div class="equation">
-$$Q_1 = mc_w\Delta T = (0.800 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(30.0\text{ºC})$$
+$$Q_1 = mc_{w}\Delta T = (0.800 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(30.0\text{ºC})$$
 </div>
 
 <div class="equation">
@@ -649,7 +649,7 @@ $$Q_1 = 100500 \text{ J} = 101 \text{ kJ}$$
 
 First, melt the ice:
 <div class="equation">
-$$Q_{melt} = mL_f = (0.800 \text{ kg})(334000 \text{ J/kg}) = 267200 \text{ J}$$
+$$Q_{melt} = mL_{f} = (0.800 \text{ kg})(334000 \text{ J/kg}) = 267200 \text{ J}$$
 </div>
 
 Then, warm the water from 0ºC to 30.0ºC (this is the same as part a):
@@ -697,7 +697,7 @@ The high latent heat of fusion also explains why ice on lakes takes a long time 
 
 This problem involves both heating (temperature change) and phase change (boiling). We must:
 1. Heat both the aluminum pot and water from 30.0°C to 100°C using $$Q = mc\Delta T$$
-2. Boil away 0.750 kg of water using $$Q = mL_v$$
+2. Boil away 0.750 kg of water using $$Q = mL_{v}$$
 3. Sum all heat transfers
 4. Use $$P = Q/t$$ to find the time required
 
@@ -786,7 +786,7 @@ The formation of condensation on a glass of ice water causes the ice to melt fas
 
 **Strategy**
 
-When water vapor condenses, it releases energy equal to $$Q = mL_v$$. This energy is transferred to the ice, melting it according to $$Q = mL_f$$. We equate the heat released by condensation to the heat absorbed during melting.
+When water vapor condenses, it releases energy equal to $$Q = mL_{v}$$. This energy is transferred to the ice, melting it according to $$Q = mL_{f}$$. We equate the heat released by condensation to the heat absorbed during melting.
 
 **Solution**
 
@@ -840,7 +840,7 @@ On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in y
 
 **Strategy**
 
-The ice melts at constant temperature (0°C), so all the heat entering the cooler goes into the phase change. We use $$Q = mL_f$$ to find the total heat absorbed, then divide by time to find power: $$P = Q/t$$.
+The ice melts at constant temperature (0°C), so all the heat entering the cooler goes into the phase change. We use $$Q = mL_{f}$$ to find the total heat absorbed, then divide by time to find power: $$P = Q/t$$.
 
 **Solution**
 
@@ -851,7 +851,7 @@ Given:
 
 Calculate heat absorbed to melt all the ice:
 <div class="equation">
-$$Q = mL_f = (3.50 \text{ kg})(334000 \text{ J/kg}) = 1169000 \text{ J} = 1.169 \text{ MJ}$$
+$$Q = mL_{f} = (3.50 \text{ kg})(334000 \text{ J/kg}) = 1169000 \text{ J} = 1.169 \text{ MJ}$$
 </div>
 
 Calculate average power:
@@ -1002,7 +1002,7 @@ ice absorbs an average of $$100 {\text{W/m}}^{2} $$ , 12.00 h per day?
 
 **Strategy**
 
-We calculate the volume from given dimensions, then mass from density. The heat needed is $$Q = mL_f$$. For the time, we find total energy absorbed per day from the power and time, then divide total heat by daily energy absorption.
+We calculate the volume from given dimensions, then mass from density. The heat needed is $$Q = mL_{f}$$. For the time, we find total energy absorbed per day from the power and time, then divide total heat by daily energy absorption.
 
 **Solution**
 
@@ -1024,7 +1024,7 @@ $$m = \rho V = (917)(1.60 \times 10^{12}) = 1.47 \times 10^{15} \text{ kg}$$
 
 **(b)** Heat needed to melt:
 <div class="equation">
-$$Q = mL_f = (1.47 \times 10^{15})(3.34 \times 10^5) = 4.91 \times 10^{20} \text{ J}$$
+$$Q = mL_{f} = (1.47 \times 10^{15})(3.34 \times 10^5) = 4.91 \times 10^{20} \text{ J}$$
 </div>
 
 **(c)** Time to melt:
@@ -1115,7 +1115,7 @@ The energy released from condensation in thunderstorms can be very large. Calcul
 
 **Strategy**
 
-We calculate the volume and mass of water precipitated, then use $$Q = mL_v$$ to find the energy released when that water vapor condenses to form rain.
+We calculate the volume and mass of water precipitated, then use $$Q = mL_{v}$$ to find the energy released when that water vapor condenses to form rain.
 
 **Solution**
 
@@ -1142,7 +1142,7 @@ $$m = \rho V = (1000)(3.14 \times 10^4) = 3.14 \times 10^7 \text{ kg}$$
 
 Calculate energy released by condensation:
 <div class="equation">
-$$Q = mL_v = (3.14 \times 10^7 \text{ kg})(2256 \times 10^3 \text{ J/kg}) = 7.08 \times 10^{13} \text{ J}$$
+$$Q = mL_{v} = (3.14 \times 10^7 \text{ kg})(2256 \times 10^3 \text{ J/kg}) = 7.08 \times 10^{13} \text{ J}$$
 </div>
 
 **Discussion**
@@ -1779,7 +1779,7 @@ Some gun fanciers make their own bullets, which involves melting and casting the
 
 **Strategy**
 
-We need to calculate heat in two stages: (1) raising the temperature of solid lead from 25.0ºC to its melting point of 327ºC, and (2) melting the lead at 327ºC. We use $$Q = mc\Delta T$$ for heating and $$Q = mL_f$$ for melting.
+We need to calculate heat in two stages: (1) raising the temperature of solid lead from 25.0ºC to its melting point of 327ºC, and (2) melting the lead at 327ºC. We use $$Q = mc\Delta T$$ for heating and $$Q = mL_{f}$$ for melting.
 
 **Solution**
 
@@ -1803,7 +1803,7 @@ $$Q_1 = 19328 \text{ J} = 19.3 \text{ kJ}$$
 **Step 2:** Melt lead at 327ºC:
 
 <div class="equation">
-$$Q_2 = mL_f = (0.500)(24500) = 12250 \text{ J} = 12.3 \text{ kJ}$$
+$$Q_2 = mL_{f} = (0.500)(24500) = 12250 \text{ J} = 12.3 \text{ kJ}$$
 </div>
 
 **Step 3:** Total heat transfer:

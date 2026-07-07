@@ -518,7 +518,7 @@ $$ g = \frac{GM}{r^2} $$
 Solve for Earth's mass $$ M $$:
 
 <div class="equation">
-$$ M = \frac{gr^2}{G} $$
+$$ M = \frac{gr^{2}}{G} $$
 </div>
 
 Convert radius to meters:
@@ -730,7 +730,7 @@ they are equal and why they should or should not be.
 **Strategy**
 
 (a) We'll use $$ a = G\frac{M}{r^2} $$ to find the Moon's gravitational acceleration at the center of mass, using the distance from the center of mass to the Moon.
-(b) We'll calculate the centripetal acceleration using $$ a_c = r\omega^2 $$ where $$ r = 4700 $$ km is the radius of Earth's orbit around the center of mass.
+(b) We'll calculate the centripetal acceleration using $$ a_c = r\omega^{2} $$ where $$ r = 4700 $$ km is the radius of Earth's orbit around the center of mass.
 
 **Solution**
 
@@ -764,7 +764,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3\text{ days}} = \frac{2\pi}{27.3 \t
 The centripetal acceleration is:
 
 <div class="equation">
-$$ a_c = r_1\omega^2 = (4.70 \times 10^{6}\text{ m})(2.66 \times 10^{-6}\text{ rad/s})^2 $$
+$$ a_c = r_1\omega^{2} = (4.70 \times 10^{6}\text{ m})(2.66 \times 10^{-6}\text{ rad/s})^2 $$
 </div>
 
 <div class="equation">
@@ -799,7 +799,7 @@ Solve part (b) of [Example 1](#example1) using $$ \ac =v^2/r $$.
 
 **Strategy**
 
-Example 1 part (b) calculated the centripetal acceleration of the Moon using $$ a_c = r\omega^2 $$. Now we'll solve it using $$ a_c = \frac{v^2}{r} $$ instead. We need to find the Moon's orbital velocity first using $$ v = \frac{2\pi r}{T} $$.
+Example 1 part (b) calculated the centripetal acceleration of the Moon using $$ a_c = r\omega^{2} $$. Now we'll solve it using $$ a_c = \frac{v^2}{r} $$ instead. We need to find the Moon's orbital velocity first using $$ v = \frac{2\pi r}{T} $$.
 
 **Solution**
 
@@ -819,7 +819,7 @@ $$ a_c = \frac{v^2}{r} = \frac{(1.02 \times 10^{3}\text{ m/s})^2}{3.84 \times 10
 
 **Discussion**
 
-Using the alternative formula $$ a_c = \frac{v^2}{r} $$, we obtain $$ 2.71 \times 10^{-3} $$ m/s² for the Moon's centripetal acceleration, which matches (within rounding error) the value of $$ 2.72 \times 10^{-3} $$ m/s² found in Example 1 using $$ a_c = r\omega^2 $$. This confirms that both formulas for centripetal acceleration are equivalent and yield the same result, as expected.
+Using the alternative formula $$ a_c = \frac{v^2}{r} $$, we obtain $$ 2.71 \times 10^{-3} $$ m/s² for the Moon's centripetal acceleration, which matches (within rounding error) the value of $$ 2.72 \times 10^{-3} $$ m/s² found in Example 1 using $$ a_c = r\omega^{2} $$. This confirms that both formulas for centripetal acceleration are equivalent and yield the same result, as expected.
 
 ::::
 
@@ -978,7 +978,7 @@ answer surprise you?
 
 **Strategy**
 
-(a) Use the relationship for centripetal acceleration $$ a_c = \frac{v^2}{r} = \frac{4\pi^2 r}{T^2} $$, converting all units appropriately.
+(a) Use the relationship for centripetal acceleration $$ a_c = \frac{v^2}{r} = \frac{4\pi^{2} r}{T^2} $$, converting all units appropriately.
 (b) Use $$ v = \frac{2\pi r}{T} $$ to find the orbital speed.
 
 **Solution**
@@ -1008,7 +1008,7 @@ $$ r = 3.00 \times 10^{4}\text{ ly} \times 9.47 \times 10^{15}\text{ m/ly} = 2.8
 **(a) Centripetal acceleration:**
 
 <div class="equation">
-$$ a_c = \frac{4\pi^2 r}{T^2} = \frac{4\pi^2 (2.84 \times 10^{20}\text{ m})}{(8.21 \times 10^{15}\text{ s})^2} $$
+$$ a_c = \frac{4\pi^{2} r}{T^2} = \frac{4\pi^{2} (2.84 \times 10^{20}\text{ m})}{(8.21 \times 10^{15}\text{ s})^2} $$
 </div>
 
 <div class="equation">

@@ -513,7 +513,7 @@ the Moon because gravity is weaker there. The range $$ R $$ of a projectile
 on **level ground** for which air resistance is negligible is given by
 
 <div class="equation">
- $$ R=\frac{ v_0^2\sin{ 2\theta_0 }}{g}, $$
+ $$ R=\frac{ v_0^2\sin{ 2\theta_{0} }}{g}, $$
 </div>
 
 where $$ v_{0} $$ is the initial speed and $$\theta_{0} $$ is the initial angle
@@ -639,7 +639,7 @@ Projectile Motion
   angle $$\theta_{0} $$ above the horizontal with initial speed $$ v\_{0} $$ is
   given by
   <div class="equation">
-    $$ R=\frac{ v_0^2 \sin{2\theta_0} }{g}. $$
+    $$ R=\frac{ v_0^2 \sin{2\theta_{0}} }{g}. $$
   </div>
 
 ### Conceptual Questions
@@ -725,11 +725,11 @@ Resolve the initial velocity into horizontal and vertical components. Use the ki
 
 1. Find the initial velocity components:
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta_0 = (50.0 \ms)(\cos 30.0°) = (50.0 \ms)(0.866) = 43.3 \ms $$
+$$ v_{0x} = v_0 \cos\theta_{0} = (50.0 \ms)(\cos 30.0°) = (50.0 \ms)(0.866) = 43.3 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta_0 = (50.0 \ms)(\sin 30.0°) = (50.0 \ms)(0.500) = 25.0 \ms $$
+$$ v_{0y} = v_0 \sin\theta_{0} = (50.0 \ms)(\sin 30.0°) = (50.0 \ms)(0.500) = 25.0 \ms $$
 </div>
 
 2. Calculate the horizontal distance (no acceleration horizontally):
@@ -739,7 +739,7 @@ $$ x = v_{0x} \cdot t = (43.3 \ms)(3.00 \s) = 130 \m = 1.30 \times 10^2 \m $$
 
 3. Calculate the vertical distance (using $$ a_y = -g $$):
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^2 = (25.0 \ms)(3.00 \s) - \frac{1}{2}(9.80 \mss)(3.00 \s)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (25.0 \ms)(3.00 \s) - \frac{1}{2}(9.80 \mss)(3.00 \s)^2 $$
 </div>
 
 <div class="equation">
@@ -858,7 +858,7 @@ Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
 Using the vertical motion equation with $$ v\_{0y} = 0 $$ and taking downward as positive:
 
 <div class="equation">
-$$ y - y_0 = v_{0y}t + \frac{1}{2}gt^2 $$
+$$ y - y_0 = v_{0y}t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -944,13 +944,13 @@ Since the takeoff and landing heights are equal, use the range equation for leve
 
 **Solution**
 
-Given: $$ v_0 = 40.0 \ms $$, $$ \theta_0 = 32° $$, bus length = 20.0 m
+Given: $$ v_0 = 40.0 \ms $$, $$ \theta_{0} = 32° $$, bus length = 20.0 m
 
 **(a) Number of buses:**
 
 1. Calculate the range using the range equation:
 <div class="equation">
-$$ R = \frac{v_0^2 \sin(2\theta_0)}{g} = \frac{(40.0 \ms)^2 \sin(64°)}{9.80 \mss} $$
+$$ R = \frac{v_0^2 \sin(2\theta_{0})}{g} = \frac{(40.0 \ms)^2 \sin(64°)}{9.80 \mss} $$
 </div>
 
 <div class="equation">
@@ -1055,7 +1055,7 @@ $$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \times 0.316 = 11.1
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^2 = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 $$
 </div>
 
 <div class="equation">
@@ -1458,7 +1458,7 @@ $$ v_{0y} = v_0 \sin(60°) = 30 \ms \times 0.866 = 26.0 \ms $$
 Using the vertical position equation:
 
 <div class="equation">
-$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -1720,7 +1720,7 @@ $$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9}{47.2 \cos\theta} $$
 Height at the net:
 
 <div class="equation">
-$$ y_{net} = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y_{net} = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -1995,7 +1995,7 @@ $$ v_{0y} = v_0\sin\theta = 275\sin(0.372°) = 275 \times 0.00649 = 1.786 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^2 = (1.786)(0.545) - \frac{1}{2}(9.80)(0.545)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (1.786)(0.545) - \frac{1}{2}(9.80)(0.545)^2 $$
 </div>
 
 <div class="equation">
@@ -2174,7 +2174,7 @@ $$ v_{0y} = v_0 \sin(30°) = 3.50 \times 0.500 = 1.75 \ms $$ (downward)
 Using the vertical motion equation (taking down as positive):
 
 <div class="equation">
-$$ y = v_{0y}t + \frac{1}{2}gt^2 $$
+$$ y = v_{0y}t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -2274,7 +2274,7 @@ $$ t = \frac{x}{v_{0x}} = \frac{30}{0.766 v_0} = \frac{39.2}{v_0} $$
 **Step 3: Use vertical motion equation**
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 Substituting known values:
@@ -2456,7 +2456,7 @@ $$ t = \frac{4.57}{8.15\cos\theta} $$
 **Vertical motion:**
 
 <div class="equation">
-$$ \Delta y = v_{0y}t - \frac{1}{2}gt^2 $$
+$$ \Delta y = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -2472,29 +2472,29 @@ $$ 0.61 = 8.15\sin\theta \left(\frac{4.57}{8.15\cos\theta}\right) - 4.90\left(\f
 </div>
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 4.90\left(\frac{20.9}{66.4\cos^2\theta}\right) $$
+$$ 0.61 = 4.57\tan\theta - 4.90\left(\frac{20.9}{66.4\cos^{2}\theta}\right) $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - \frac{102.4}{66.4\cos^2\theta} $$
+$$ 0.61 = 4.57\tan\theta - \frac{102.4}{66.4\cos^{2}\theta} $$
 </div>
 
-Using $$ \sec^2\theta = 1 + \tan^2\theta $$, so $$ \frac{1}{\cos^2\theta} = 1 + \tan^2\theta $$:
+Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$, so $$ \frac{1}{\cos^{2}\theta} = 1 + \tan^{2}\theta $$:
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54(1 + \tan^2\theta) $$
-</div>
-
-<div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54 - 1.54\tan^2\theta $$
+$$ 0.61 = 4.57\tan\theta - 1.54(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 1.54\tan^2\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
+$$ 0.61 = 4.57\tan\theta - 1.54 - 1.54\tan^{2}\theta $$
 </div>
 
 <div class="equation">
-$$ 1.54\tan^2\theta - 4.57\tan\theta + 2.15 = 0 $$
+$$ 1.54\tan^{2}\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
+</div>
+
+<div class="equation">
+$$ 1.54\tan^{2}\theta - 4.57\tan\theta + 2.15 = 0 $$
 </div>
 
 Using the quadratic formula with $$ u = \tan\theta $$:
@@ -2510,11 +2510,11 @@ $$ u = \frac{4.57 \pm \sqrt{20.9 - 13.2}}{3.08} = \frac{4.57 \pm \sqrt{7.7}}{3.0
 Two solutions:
 
 <div class="equation">
-$$ u_1 = \frac{4.57 + 2.77}{3.08} = \frac{7.34}{3.08} = 2.38 \Rightarrow \theta_1 = \tan^{-1}(2.38) = 67.2° $$
+$$ u_1 = \frac{4.57 + 2.77}{3.08} = \frac{7.34}{3.08} = 2.38 \Rightarrow \theta_{1} = \tan^{-1}(2.38) = 67.2° $$
 </div>
 
 <div class="equation">
-$$ u_2 = \frac{4.57 - 2.77}{3.08} = \frac{1.80}{3.08} = 0.584 \Rightarrow \theta_2 = \tan^{-1}(0.584) = 30.3° $$
+$$ u_2 = \frac{4.57 - 2.77}{3.08} = \frac{1.80}{3.08} = 0.584 \Rightarrow \theta_{2} = \tan^{-1}(0.584) = 30.3° $$
 </div>
 
 **Discussion**
@@ -2585,7 +2585,7 @@ $$ t = \frac{R}{v_{0x}} = \frac{24.77}{0.788 v_0} = \frac{31.4}{v_0} $$
 **Step 3: Apply vertical motion equation**
 
 <div class="equation">
-$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 At landing, $$ y = 0 $$:
@@ -2868,7 +2868,7 @@ $$ x = v_{0x}t $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 **Step 1: Solve for t from the x-equation:**
@@ -2891,25 +2891,25 @@ $$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v_{0x}^2}x^2 $$
 
 **Step 4: Identify constants:**
 
-This is in the form $$ y = ax + bx^2 $$ where:
+This is in the form $$ y = ax + bx^{2} $$ where:
 
 <div class="equation">
-$$ a = \frac{v_{0y}}{v_{0x}} = \tan\theta_0 $$
+$$ a = \frac{v_{0y}}{v_{0x}} = \tan\theta_{0} $$
 </div>
 
 <div class="equation">
 $$ b = -\frac{g}{2v_{0x}^2} $$
 </div>
 
-Since $$ v_{0x} = v_0\cos\theta_0 $$ and $$ v_{0y} = v_0\sin\theta_0 $$:
+Since $$ v_{0x} = v_0\cos\theta_{0} $$ and $$ v_{0y} = v_0\sin\theta_{0} $$:
 
 <div class="equation">
-$$ y = (\tan\theta_0)x - \frac{g}{2v_0^2\cos^2\theta_0}x^2 $$
+$$ y = (\tan\theta_{0})x - \frac{g}{2v_0^2\cos^{2}\theta_{0}}x^2 $$
 </div>
 
 **Discussion**
 
-This equation has the form $$ y = ax + bx^2 $$, which is a parabola. The coefficient $$ a $$ represents the initial slope (tangent of launch angle), while $$ b $$ is always negative (since g is positive), causing the parabola to open downward. This mathematical form confirms what we observe: projectiles follow parabolic paths. The shape depends on initial velocity and launch angle—shallow angles give wide, flat parabolas; steep angles give narrow, tall parabolas.
+This equation has the form $$ y = ax + bx^{2} $$, which is a parabola. The coefficient $$ a $$ represents the initial slope (tangent of launch angle), while $$ b $$ is always negative (since g is positive), causing the parabola to open downward. This mathematical form confirms what we observe: projectiles follow parabolic paths. The shape depends on initial velocity and launch angle—shallow angles give wide, flat parabolas; steep angles give narrow, tall parabolas.
 
 **Answer**
 
@@ -2941,29 +2941,29 @@ For a projectile launched on level ground, we find when it returns to the ground
 Starting with the vertical position equation:
 
 <div class="equation">
-$$ y - y_0 = v_{0y}t - \frac{1}{2}gt^2 $$
+$$ y - y_0 = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
-When the projectile returns to ground level, $$ y - y_0 = 0 $$. Also, $$ v_{0y} = v_0\sin{\theta_0} $$, so:
+When the projectile returns to ground level, $$ y - y_0 = 0 $$. Also, $$ v_{0y} = v_0\sin{\theta_{0}} $$, so:
 
 <div class="equation">
-$$ 0 = \left(v_0\sin{\theta_0}\right)t - \frac{1}{2}gt^2 = t\left(v_0\sin{\theta_0} - \frac{1}{2}gt\right) $$
+$$ 0 = \left(v_0\sin{\theta_{0}}\right)t - \frac{1}{2}gt^{2} = t\left(v_0\sin{\theta_{0}} - \frac{1}{2}gt\right) $$
 </div>
 
-This gives two solutions: $$ t = 0 $$ (launch) and $$ t = \frac{2v_0\sin{\theta_0}}{g} $$ (landing).
+This gives two solutions: $$ t = 0 $$ (launch) and $$ t = \frac{2v_0\sin{\theta_{0}}}{g} $$ (landing).
 
 **Step 2: Find the horizontal range**
 
 The horizontal distance traveled is:
 
 <div class="equation">
-$$ R = x - x_0 = v_{0x}t = \left(v_0\cos{\theta_0}\right)t $$
+$$ R = x - x_0 = v_{0x}t = \left(v_0\cos{\theta_{0}}\right)t $$
 </div>
 
 Substituting the landing time:
 
 <div class="equation">
-$$ R = v_0\cos{\theta_0} \cdot \frac{2v_0\sin{\theta_0}}{g} = \frac{2v_0^2\sin{\theta_0}\cos{\theta_0}}{g} $$
+$$ R = v_0\cos{\theta_{0}} \cdot \frac{2v_0\sin{\theta_{0}}}{g} = \frac{2v_0^2\sin{\theta_{0}}\cos{\theta_{0}}}{g} $$
 </div>
 
 **Step 3: Simplify using trigonometric identity**
@@ -2971,16 +2971,16 @@ $$ R = v_0\cos{\theta_0} \cdot \frac{2v_0\sin{\theta_0}}{g} = \frac{2v_0^2\sin{\
 Using the double-angle identity $$ 2\sin{\theta}\cos{\theta} = \sin{2\theta} $$:
 
 <div class="equation">
-$$ R = \frac{v_0^2\sin{2\theta_0}}{g} $$
+$$ R = \frac{v_0^2\sin{2\theta_{0}}}{g} $$
 </div>
 
 **Discussion**
 
-This formula reveals several important insights about projectile motion. First, the range depends on the square of the initial velocity, meaning doubling the launch speed quadruples the range. Second, the $$ \sin{2\theta_0} $$ term explains why the maximum range occurs at $$ \theta_0 = 45° $$ (since $$ \sin{90°} = 1 $$ is the maximum value of sine). Third, complementary angles (e.g., 30° and 60°) produce the same range because $$ \sin{2 \times 30°} = \sin{60°} = \sin{120°} = \sin{2 \times 60°} $$. This symmetry is characteristic of projectile motion on level ground. Finally, the inverse relationship with g explains why projectiles travel much farther on the Moon (where g ≈ 1.6 m/s²) than on Earth. This formula is fundamental for applications ranging from artillery to sports to planetary science, though it assumes negligible air resistance.
+This formula reveals several important insights about projectile motion. First, the range depends on the square of the initial velocity, meaning doubling the launch speed quadruples the range. Second, the $$ \sin{2\theta_{0}} $$ term explains why the maximum range occurs at $$ \theta_{0} = 45° $$ (since $$ \sin{90°} = 1 $$ is the maximum value of sine). Third, complementary angles (e.g., 30° and 60°) produce the same range because $$ \sin{2 \times 30°} = \sin{60°} = \sin{120°} = \sin{2 \times 60°} $$. This symmetry is characteristic of projectile motion on level ground. Finally, the inverse relationship with g explains why projectiles travel much farther on the Moon (where g ≈ 1.6 m/s²) than on Earth. This formula is fundamental for applications ranging from artillery to sports to planetary science, though it assumes negligible air resistance.
 
 **Answer**
 
-The range formula is derived as: $$ R = \frac{v_0^2\sin{2\theta_0}}{g} $$
+The range formula is derived as: $$ R = \frac{v_0^2\sin{2\theta_{0}}}{g} $$
 
 ::::
 
@@ -3015,10 +3015,10 @@ Use the range formula for projectile motion, then analyze whether the result is 
 
 The range formula is:
 <div class="equation">
-$$ R = \frac{v_0^2\sin(2\theta_0)}{g} $$
+$$ R = \frac{v_0^2\sin(2\theta_{0})}{g} $$
 </div>
 
-Maximum range occurs at $$ \theta_0 = 45° $$, where $$ \sin(2\theta_0) = \sin(90°) = 1 $$:
+Maximum range occurs at $$ \theta_{0} = 45° $$, where $$ \sin(2\theta_{0}) = \sin(90°) = 1 $$:
 
 Given: $$ v_0 = 4.0 \text{ km/s} = 4000 \ms $$, $$ g = 9.80 \mss $$
 
@@ -3104,29 +3104,29 @@ A baseball player throws a ball to clear a 3.0 m high fence. The fence is 20.0 m
 
 **Trajectory equation:**
 <div class="equation">
-$$ y - y_0 = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta} $$
+$$ y - y_0 = x\tan\theta - \frac{gx^{2}}{2v_0^2\cos^{2}\theta} $$
 </div>
 
 At the fence ($$ x = 20.0 \m $$, $$ y - y_0 = 1.0 \m $$):
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{(9.80)(20.0)^2}{2(15.0)^2\cos^2\theta} $$
+$$ 1.0 = 20.0\tan\theta - \frac{(9.80)(20.0)^2}{2(15.0)^2\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{3920}{450\cos^2\theta} $$
+$$ 1.0 = 20.0\tan\theta - \frac{3920}{450\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{8.71}{\cos^2\theta} $$
+$$ 1.0 = 20.0\tan\theta - \frac{8.71}{\cos^{2}\theta} $$
 </div>
 
-Using $$ \sec^2\theta = 1 + \tan^2\theta $$:
+Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$:
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^2\theta) $$
+$$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 8.71\tan^2\theta - 20.0\tan\theta + 9.71 = 0 $$
+$$ 8.71\tan^{2}\theta - 20.0\tan\theta + 9.71 = 0 $$
 </div>
 
 **Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 $$, $$ c = 9.71 $$:
@@ -3136,11 +3136,11 @@ $$ \tan\theta = \frac{20.0 \pm \sqrt{400 - 338}}{17.4} = \frac{20.0 \pm \sqrt{62
 
 **Two solutions:**
 <div class="equation">
-$$ \tan\theta_1 = \frac{27.9}{17.4} = 1.60 \quad \Rightarrow \quad \theta_1 = 58.0° $$
+$$ \tan\theta_{1} = \frac{27.9}{17.4} = 1.60 \quad \Rightarrow \quad \theta_{1} = 58.0° $$
 </div>
 
 <div class="equation">
-$$ \tan\theta_2 = \frac{12.1}{17.4} = 0.695 \quad \Rightarrow \quad \theta_2 = 34.8° $$
+$$ \tan\theta_{2} = \frac{12.1}{17.4} = 0.695 \quad \Rightarrow \quad \theta_{2} = 34.8° $$
 </div>
 
 **Discussion**
@@ -3151,7 +3151,7 @@ This problem demonstrates several key concepts:
 
 2. **Choosing vs. calculating**: We chose $$ v_0 = 15.0 \ms $$ and calculated angles. Alternatively, we could choose an angle and calculate the required speed. However, we cannot independently choose both—they're constrained by the trajectory equation.
 
-3. **Minimum speed**: There exists a minimum initial speed below which no angle works. This occurs when the discriminant equals zero: $$ v_0^{\text{min}} = \sqrt{\frac{gx_f^2}{2(x_f\sin(2\alpha) - \Delta y\cos^2\alpha)}} $$ where $$ \alpha = 45° $$ gives the minimum.
+3. **Minimum speed**: There exists a minimum initial speed below which no angle works. This occurs when the discriminant equals zero: $$ v_0^{\text{min}} = \sqrt{\frac{gx_{f}^2}{2(x_f\sin(2\alpha) - \Delta y\cos^{2}\alpha)}} $$ where $$ \alpha = 45° $$ gives the minimum.
 
 4. **Physical reasonableness**: Both angles are realistic for throwing. The steeper angle gives a higher, shorter trajectory; the shallower angle gives a longer, flatter trajectory.
 

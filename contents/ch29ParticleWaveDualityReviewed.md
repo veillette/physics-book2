@@ -420,12 +420,12 @@ the electron's wavelength?
 
 **Strategy**
 
-(a) Use $$\gamma = \frac{E_{\text{total}}}{mc^2}$$ where $$mc^2 = 0.511$$ MeV for an electron. (b) Use the relativistic energy-momentum relation. (c) Use $$\lambda = \frac{h}{p}$$.
+(a) Use $$\gamma = \frac{E_{\text{total}}}{mc^{2}}$$ where $$mc^{2} = 0.511$$ MeV for an electron. (b) Use the relativistic energy-momentum relation. (c) Use $$\lambda = \frac{h}{p}$$.
 
 **Solution for (a)**
 
 <div class="equation">
- $$\gamma = \frac{E_{\text{total}}}{mc^2} = \frac{50.0 \times 10^{3} \text{ MeV}}{0.511 \text{ MeV}} = 9.78 \times 10^{4}$$
+ $$\gamma = \frac{E_{\text{total}}}{mc^{2}} = \frac{50.0 \times 10^{3} \text{ MeV}}{0.511 \text{ MeV}} = 9.78 \times 10^{4}$$
 </div>
 
 **Solution for (b)**
@@ -708,7 +708,7 @@ momentum? (d) Calculate the electron's kinetic energy.
 
 **Strategy**
 
-(a) Use $$p = h/\lambda$$. (b) Use $$E = pc$$ for the photon. (c) Use relativistic momentum $$p = \gamma mv$$ and solve for $$v$$. (d) Use relativistic kinetic energy $$\text{KE} = (\gamma - 1)mc^2$$.
+(a) Use $$p = h/\lambda$$. (b) Use $$E = pc$$ for the photon. (c) Use relativistic momentum $$p = \gamma mv$$ and solve for $$v$$. (d) Use relativistic kinetic energy $$\text{KE} = (\gamma - 1)mc^{2}$$.
 
 **Solution for (a)**
 
@@ -730,24 +730,24 @@ Converting to MeV:
 
 **Solution for (c)**
 
-For a relativistic electron, use $$E^2 = (pc)^2 + (mc^2)^2$$:
+For a relativistic electron, use $$E^2 = (pc)^2 + (mc^{2})^2$$:
 
 <div class="equation">
- $$E_e = \sqrt{(pc)^2 + (mc^2)^2} = \sqrt{(1.99 \times 10^{-10})^2 + (8.19 \times 10^{-14})^2} \approx 1.99 \times 10^{-10} \text{ J}$$
+ $$E_e = \sqrt{(pc)^2 + (mc^{2})^2} = \sqrt{(1.99 \times 10^{-10})^2 + (8.19 \times 10^{-14})^2} \approx 1.99 \times 10^{-10} \text{ J}$$
 </div>
 
-Then $$\gamma = E_e/(mc^2) = 1.99 \times 10^{-10}/(8.19 \times 10^{-14}) = 2430$$
+Then $$\gamma = E_e/(mc^{2}) = 1.99 \times 10^{-10}/(8.19 \times 10^{-14}) = 2430$$
 
 From $$\gamma = 1/\sqrt{1-v^2/c^2}$$:
 
 <div class="equation">
- $$v = c\sqrt{1 - 1/\gamma^2} = c\sqrt{1 - 1/2430^2} \approx 0.99999991c$$
+ $$v = c\sqrt{1 - 1/\gamma^{2}} = c\sqrt{1 - 1/2430^2} \approx 0.99999991c$$
 </div>
 
 **Solution for (d)**
 
 <div class="equation">
- $$\text{KE} = (\gamma - 1)mc^2 = (2430 - 1)(0.511 \text{ MeV}) = 1240 \text{ MeV} = 1.24 \text{ GeV}$$
+ $$\text{KE} = (\gamma - 1)mc^{2} = (2430 - 1)(0.511 \text{ MeV}) = 1240 \text{ MeV} = 1.24 \text{ GeV}$$
 </div>
 
 **Discussion**

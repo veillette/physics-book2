@@ -357,7 +357,7 @@ given that the lake has an average height of 40.0 m above the generators?
 
 **Strategy**
 
-(a) Use the gravitational potential energy formula$$\PE_g = mgh$$with the given mass and height.
+(a) Use the gravitational potential energy formula$$\PE_{g} = mgh$$with the given mass and height.
 (b) Compare this to the energy of a 9-megaton fusion bomb, where 1 megaton TNT equivalent =$$4.18 \times 10^{15}$$J.
 
 **Solution**
@@ -369,11 +369,11 @@ given that the lake has an average height of 40.0 m above the generators?
 - Average height above generators:$$h = 40.0\text{ m}$$
 
 <div class="equation">
-$$\PE_g = mgh = (5.00 \times 10^{13}\text{ kg})(9.80\mss)(40.0\text{ m})$$
+$$\PE_{g} = mgh = (5.00 \times 10^{13}\text{ kg})(9.80\mss)(40.0\text{ m})$$
 </div>
 
 <div class="equation">
-$$\PE_g = 1.96 \times 10^{16}\text{ J}$$
+$$\PE_{g} = 1.96 \times 10^{16}\text{ J}$$
 </div>
 
 **(b) Comparison with 9-megaton fusion bomb:**
@@ -385,7 +385,7 @@ $$E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J
 
 Ratio:
 <div class="equation">
-$$\frac{\PE_g}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52$$
+$$\frac{\PE_{g}}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52$$
 </div>
 
 **Discussion**
@@ -577,11 +577,11 @@ Use conservation of mechanical energy for a frictionless surface. The initial ki
 Apply conservation of energy, taking the initial position as the reference level ($$h_0 = 0$$):
 
 <div class="equation">
-$$\frac{1}{2}mv_0^2 + mgh_0 = \frac{1}{2}mv_f^2 + mgh$$
+$$\frac{1}{2}mv_{0}^2 + mgh_{0} = \frac{1}{2}mv_{f}^2 + mgh$$
 </div>
 
 <div class="equation">
-$$\frac{1}{2}mv_0^2 + 0 = \frac{1}{2}mv_f^2 + mgh$$
+$$\frac{1}{2}mv_{0}^2 + 0 = \frac{1}{2}mv_{f}^2 + mgh$$
 </div>
 
 Divide by$$m$$and solve for$$v_f$$:

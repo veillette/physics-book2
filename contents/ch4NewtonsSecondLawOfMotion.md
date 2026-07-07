@@ -639,7 +639,7 @@ $$ v = \sqrt{168 \mmss} = 12.96 \ms $$
 
 2. Find the time for the acceleration phase:
 <div class="equation">
-$$ v = v_0 + at_1 \Rightarrow t_1 = \frac{v - v_0}{a} = \frac{12.96 \ms}{4.20 \mss} = 3.09 \s $$
+$$ v = v_0 + at_{1} \Rightarrow t_1 = \frac{v - v_0}{a} = \frac{12.96 \ms}{4.20 \mss} = 3.09 \s $$
 </div>
 
 **Phase 2: Constant velocity for 80 m**

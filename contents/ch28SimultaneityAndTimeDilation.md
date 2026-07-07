@@ -655,13 +655,13 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
 Squaring both sides:
 
 <div class="equation">
-$$\gamma^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+$$\gamma^{2} = \frac{1}{1-\frac{v^2}{c^2}}$$
 </div>
 
 Rearranging:
 
 <div class="equation">
-$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2} = \frac{1}{(1.667)^2} = \frac{1}{2.779} = 0.3600$$
+$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^{2}} = \frac{1}{(1.667)^2} = \frac{1}{2.779} = 0.3600$$
 </div>
 
 <div class="equation">
@@ -706,13 +706,13 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
 
 Squaring both sides:
 
-$$\gamma^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+$$\gamma^{2} = \frac{1}{1-\frac{v^2}{c^2}}$$
 
 Rearranging:
 
-$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2}$$
+$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^{2}}$$
 
-$$\frac{v^2}{c^2} = 1 - \frac{1}{\gamma^2} = 1 - \frac{1}{(2.294)^2} = 1 - \frac{1}{5.263} = 1 - 0.1900 = 0.8100$$
+$$\frac{v^2}{c^2} = 1 - \frac{1}{\gamma^{2}} = 1 - \frac{1}{(2.294)^2} = 1 - \frac{1}{5.263} = 1 - 0.1900 = 0.8100$$
 
 $$\frac{v}{c} = \sqrt{0.8100} = 0.900$$
 

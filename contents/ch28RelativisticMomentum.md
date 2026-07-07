@@ -476,11 +476,11 @@ This problem beautifully illustrates the vast difference between atomic and macr
 
 **Strategy**
 
-(a) Use $$p = \gamma mu$$ to find $$\gamma = \frac{p}{mu}$$, but we don't know $$u$$ yet. Instead, use the energy-momentum relation or recognize that $$\gamma = \frac{p}{m_0c}\cdot\frac{c}{u}$$. Better approach: From $$p = \gamma mu$$ and $$\gamma = \frac{E}{mc^2}$$, we can derive $$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2}$$. (b) Once we have $$\gamma$$, solve for $$u$$.
+(a) Use $$p = \gamma mu$$ to find $$\gamma = \frac{p}{mu}$$, but we don't know $$u$$ yet. Instead, use the energy-momentum relation or recognize that $$\gamma = \frac{p}{m_0c}\cdot\frac{c}{u}$$. Better approach: From $$p = \gamma mu$$ and $$\gamma = \frac{E}{mc^{2}}$$, we can derive $$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2}$$. (b) Once we have $$\gamma$$, solve for $$u$$.
 
 **Solution**
 
-(a) Using the relation $$\gamma^2 = 1 + \left(\frac{p}{mc}\right)^2$$:
+(a) Using the relation $$\gamma^{2} = 1 + \left(\frac{p}{mc}\right)^2$$:
 
 $$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2} = \sqrt{1 + \left(\frac{1.00}{(1.67 \times 10^{-27})(3.00 \times 10^8)}\right)^2}$$
 
@@ -492,7 +492,7 @@ $$\gamma = \sqrt{1 + 3.984 \times 10^{36}} \approx \sqrt{3.984 \times 10^{36}} =
 
 (b) From $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$:
 
-$$1 - \frac{u^2}{c^2} = \frac{1}{\gamma^2} = \frac{1}{(1.996 \times 10^{18})^2} = 2.51 \times 10^{-37}$$
+$$1 - \frac{u^2}{c^2} = \frac{1}{\gamma^{2}} = \frac{1}{(1.996 \times 10^{18})^2} = 2.51 \times 10^{-37}$$
 
 $$\frac{u^2}{c^2} = 1 - 2.51 \times 10^{-37} \approx 0.999999999999999999999999999999999999$$
 
@@ -504,7 +504,7 @@ Or more practically: $$u \approx c - 3.8 \times 10^{-29}$$ m/s
 
 **Discussion**
 
-This ultra-relativistic proton has $$\gamma \approx 2 \times 10^{18}$$—an almost incomprehensibly large Lorentz factor! Its speed differs from $$c$$ by less than one part in $$10^{36}$$. Such particles, known as ultra-high-energy cosmic rays, are among the most energetic particles ever detected. Their kinetic energy is roughly $$\gamma mc^2 \approx (2 \times 10^{18})(938 \text{ MeV}) \approx 10^{21}$$ eV or 1 ZeV (zettaelectronvolt)—equivalent to the kinetic energy of a baseball traveling at 100 km/h, concentrated in a single proton!
+This ultra-relativistic proton has $$\gamma \approx 2 \times 10^{18}$$—an almost incomprehensibly large Lorentz factor! Its speed differs from $$c$$ by less than one part in $$10^{36}$$. Such particles, known as ultra-high-energy cosmic rays, are among the most energetic particles ever detected. Their kinetic energy is roughly $$\gamma mc^{2} \approx (2 \times 10^{18})(938 \text{ MeV}) \approx 10^{21}$$ eV or 1 ZeV (zettaelectronvolt)—equivalent to the kinetic energy of a baseball traveling at 100 km/h, concentrated in a single proton!
 
 The origins of such particles remain mysterious. They require acceleration mechanisms far more powerful than any human-made accelerator. Possible sources include active galactic nuclei, gamma-ray bursts, or exotic physics beyond the Standard Model. The detection of even a single such proton is a significant scientific event, as they are extraordinarily rare and provide insights into the most violent astrophysical processes in the universe.
 

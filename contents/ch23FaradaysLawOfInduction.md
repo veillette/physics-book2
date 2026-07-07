@@ -716,7 +716,7 @@ relative to the MRI's field?
 
 **Strategy**
 
-From the previous problem, the induced emf is 3.04 mV. We use Ohm's law to find current, $$P = I^2R$$ for power, and the equation for magnetic field at the center of a circular loop: $$B = \frac{\mu_0 I}{2r}$$.
+From the previous problem, the induced emf is 3.04 mV. We use Ohm's law to find current, $$P = I^2R$$ for power, and the equation for magnetic field at the center of a circular loop: $$B = \frac{\mu_{0} I}{2r}$$.
 
 **Solution for (a)**
 
@@ -737,7 +737,7 @@ Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3})^2}{0.0
 The radius is $$r = d/2 = 0.0220/2 = 0.0110 \text{ m}$$:
 
 <div class="equation">
-$$B = \frac{\mu_0 I}{2r} = \frac{(4\pi \times 10^{-7})(0.304)}{2(0.0110)} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
+$$B = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7})(0.304)}{2(0.0110)} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
 </div>
 
 **Solution for (d)**
@@ -769,7 +769,7 @@ An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth's 
 
 **Strategy**
 
-When the coil plane is perpendicular to the Earth's field, maximum flux passes through it: $$\Phi_i = BA\cos(0°) = BA$$. When rotated to be parallel to the field, no flux passes through: $$\Phi_f = BA\cos(90°) = 0$$. We use Faraday's law $$\text{emf} = N\frac{\Delta\Phi}{\Delta t}$$ to find the average induced emf.
+When the coil plane is perpendicular to the Earth's field, maximum flux passes through it: $$\Phi_{i} = BA\cos(0°) = BA$$. When rotated to be parallel to the field, no flux passes through: $$\Phi_{f} = BA\cos(90°) = 0$$. We use Faraday's law $$\text{emf} = N\frac{\Delta\Phi}{\Delta t}$$ to find the average induced emf.
 
 **Solution**
 
@@ -788,19 +788,19 @@ $$A = \pi r^2 = \pi(0.100)^2 = 0.0314 \text{ m}^2$$
 The initial flux (perpendicular orientation):
 
 <div class="equation">
-$$\Phi_i = BA = (5.00 \times 10^{-5})(0.0314) = 1.57 \times 10^{-6} \text{ Wb}$$
+$$\Phi_{i} = BA = (5.00 \times 10^{-5})(0.0314) = 1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The final flux (parallel orientation):
 
 <div class="equation">
-$$\Phi_f = 0$$
+$$\Phi_{f} = 0$$
 </div>
 
 The change in flux:
 
 <div class="equation">
-$$\Delta\Phi = \Phi_f - \Phi_i = 0 - 1.57 \times 10^{-6} = -1.57 \times 10^{-6} \text{ Wb}$$
+$$\Delta\Phi = \Phi_{f} - \Phi_{i} = 0 - 1.57 \times 10^{-6} = -1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The magnitude of average induced emf:
@@ -890,35 +890,35 @@ depend on the distance of the center of the loop from the wire?
 
 **Strategy**
 
-The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$, where $$r$$ is the distance from the wire. For a small loop at distance $$r$$, the flux is approximately $$\Phi \approx BA$$, where $$A$$ is the loop area. When the current changes, the induced emf depends on how the flux changes: $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
+The magnetic field from a long straight wire is $$B = \frac{\mu_{0} I}{2\pi r}$$, where $$r$$ is the distance from the wire. For a small loop at distance $$r$$, the flux is approximately $$\Phi \approx BA$$, where $$A$$ is the loop area. When the current changes, the induced emf depends on how the flux changes: $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
 
 **Solution**
 
 The magnetic field from the wire at distance $$r$$ is:
 
 <div class="equation">
-$$B = \frac{\mu_0 I}{2\pi r}$$
+$$B = \frac{\mu_{0} I}{2\pi r}$$
 </div>
 
 For a loop of area $$A$$ positioned at distance $$r$$ from the wire (assuming the loop is small compared to $$r$$):
 
 <div class="equation">
-$$\Phi \approx BA = \frac{\mu_0 I A}{2\pi r}$$
+$$\Phi \approx BA = \frac{\mu_{0} I A}{2\pi r}$$
 </div>
 
 When the current changes by $$\Delta I$$ in time $$\Delta t$$:
 
 <div class="equation">
-$$\Delta\Phi = \frac{\mu_0 A \Delta I}{2\pi r}$$
+$$\Delta\Phi = \frac{\mu_{0} A \Delta I}{2\pi r}$$
 </div>
 
 The induced emf is:
 
 <div class="equation">
-$$\text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{\mu_0 A}{2\pi r} \cdot \frac{\Delta I}{\Delta t}$$
+$$\text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{\mu_{0} A}{2\pi r} \cdot \frac{\Delta I}{\Delta t}$$
 </div>
 
-Since $$\mu_0$$, $$A$$, and $$\frac{\Delta I}{\Delta t}$$ are constants (or specified parameters), we can write:
+Since $$\mu_{0}$$, $$A$$, and $$\frac{\Delta I}{\Delta t}$$ are constants (or specified parameters), we can write:
 
 <div class="equation">
 $$\text{emf} \propto \frac{1}{r}$$
@@ -960,14 +960,14 @@ consequences.
 
 **Strategy**
 
-The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$. The flux through a horizontal loop of area $$A$$ is approximately $$\Phi \approx BA$$. The induced emf is $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
+The magnetic field from a long straight wire is $$B = \frac{\mu_{0} I}{2\pi r}$$. The flux through a horizontal loop of area $$A$$ is approximately $$\Phi \approx BA$$. The induced emf is $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
 
 **Solution for (a)**
 
 The magnetic field at distance $$r = 50.0 \text{ m}$$ from the lightning bolt:
 
 <div class="equation">
-$$B = \frac{\mu_0 I}{2\pi r} = \frac{(4\pi \times 10^{-7})(2.00 \times 10^6)}{2\pi(50.0)} = \frac{8.00 \times 10^{-1}}{100\pi} = 2.55 \times 10^{-3} \text{ T}$$
+$$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7})(2.00 \times 10^6)}{2\pi(50.0)} = \frac{8.00 \times 10^{-1}}{100\pi} = 2.55 \times 10^{-3} \text{ T}$$
 </div>
 
 The loop area is:

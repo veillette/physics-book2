@@ -356,19 +356,19 @@ Starting with the period formula:
 Squaring both sides:
 
 <div class="equation">
- $$T^2 = 4\pi^2\frac{m}{k}$$
+ $$T^2 = 4\pi^{2}\frac{m}{k}$$
 </div>
 
 Solving for $$k$$:
 
 <div class="equation">
- $$k = \frac{4\pi^2 m}{T^2}$$
+ $$k = \frac{4\pi^{2} m}{T^2}$$
 </div>
 
 Substituting the given values ($$m = 0.0150$$ kg, $$T = 0.500$$ s):
 
 <div class="equation">
- $$k = \frac{4\pi^2(0.0150 \text{ kg})}{(0.500 \text{ s})^2}$$
+ $$k = \frac{4\pi^{2}(0.0150 \text{ kg})}{(0.500 \text{ s})^2}$$
 </div>
 
 <div class="equation">
@@ -458,13 +458,13 @@ The period of a mass-spring system is $$T = 2\pi\sqrt{\frac{m}{k}}$$. The spring
 From the initial conditions, solve for $$k$$:
 
 <div class="equation">
- $$k = \frac{4\pi^2 m_1}{T_1^2} = \frac{4\pi^2(0.500)}{(1.50)^2} = \frac{19.74}{2.25} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = \frac{19.74}{2.25} = 8.77 \text{ N/m}$$
 </div>
 
 For the new period $$T_2 = 2.00$$ s, find the total mass needed:
 
 <div class="equation">
- $$m_2 = \frac{kT_2^2}{4\pi^2} = \frac{(8.77)(2.00)^2}{4\pi^2} = \frac{35.08}{39.48} = 0.889 \text{ kg}$$
+ $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(8.77)(2.00)^2}{4\pi^{2}} = \frac{35.08}{39.48} = 0.889 \text{ kg}$$
 </div>
 
 The mass to be added is:
@@ -504,19 +504,19 @@ From the previous problem, we found that adding 0.389 kg to the 0.500 kg mass gi
 From the previous problem, $$T_1 = 1.50$$ s with $$m_1 = 0.500$$ kg. Using $$T = 2\pi\sqrt{\frac{m}{k}}$$:
 
 <div class="equation">
- $$k = \frac{4\pi^2 m_1}{T_1^2} = \frac{4\pi^2(0.500)}{(1.50)^2} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = 8.77 \text{ N/m}$$
 </div>
 
 For $$T = 1.99$$ s:
 
 <div class="equation">
- $$m_{\text{min}} = \frac{kT^2}{4\pi^2} = \frac{(8.77)(1.99)^2}{4\pi^2} = 0.878 \text{ kg}$$
+ $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(1.99)^2}{4\pi^{2}} = 0.878 \text{ kg}$$
 </div>
 
 For $$T = 2.01$$ s:
 
 <div class="equation">
- $$m_{\text{max}} = \frac{kT^2}{4\pi^2} = \frac{(8.77)(2.01)^2}{4\pi^2} = 0.896 \text{ kg}$$
+ $$m_{\text{max}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(2.01)^2}{4\pi^{2}} = 0.896 \text{ kg}$$
 </div>
 
 The target mass is 0.889 kg, so the leeway is:
@@ -564,7 +564,7 @@ For part (a), we use energy conservation and force analysis. The object starts a
 
 **Solution**
 
-(a) When attached to the vertical spring, the object settles to an equilibrium position where $$kx_0 = mg$$. From the natural length (release point) to the lowest point, the object falls a distance $$x_{\text{low}}$$. Using energy conservation with the release point as the reference:
+(a) When attached to the vertical spring, the object settles to an equilibrium position where $$kx_{0} = mg$$. From the natural length (release point) to the lowest point, the object falls a distance $$x_{\text{low}}$$. Using energy conservation with the release point as the reference:
 
 <div class="equation">
  $$0 = -mg x_{\text{low}} + \frac{1}{2}k x_{\text{low}}^2$$
@@ -637,13 +637,13 @@ Since both divers use the same diving board, the spring constant $$k$$ is the sa
 From the female diver's data, find the spring constant:
 
 <div class="equation">
- $$k = \frac{4\pi^2 m_1}{T_1^2} = \frac{4\pi^2(55.0)}{(0.800)^2} = \frac{2168}{0.640} = 3387 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(55.0)}{(0.800)^2} = \frac{2168}{0.640} = 3387 \text{ N/m}$$
 </div>
 
 Now use this spring constant with the male diver's period:
 
 <div class="equation">
- $$m_2 = \frac{kT_2^2}{4\pi^2} = \frac{(3387)(1.05)^2}{4\pi^2} = \frac{3734}{39.48} = 94.6 \text{ kg}$$
+ $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(3387)(1.05)^2}{4\pi^{2}} = \frac{3734}{39.48} = 94.6 \text{ kg}$$
 </div>
 
 **Discussion**
@@ -677,7 +677,7 @@ We can find the spring constant of the diving board from its initial frequency a
 First, find the spring constant using the board's frequency without a diver. From $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$:
 
 <div class="equation">
- $$k = 4\pi^2 f^2 m = 4\pi^2(4.00)^2(10.0) = 6320 \text{ N/m}$$
+ $$k = 4\pi^{2} f^2 m = 4\pi^{2}(4.00)^2(10.0) = 6320 \text{ N/m}$$
 </div>
 
 When the 75.0-kg diver stands on the board, the total mass becomes:

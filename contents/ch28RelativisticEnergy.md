@@ -430,7 +430,7 @@ Relativistically, we can obtain a relationship between energy and momentum by
 algebraically manipulating their definitions. This produces
 
 <div class="equation" >
- $${E}^{2}={\left(pc \right)}^{2}+{\left(mc^2 \right)}^{2}, $$
+ $${E}^{2}={\left(pc \right)}^{2}+{\left(mc^{2} \right)}^{2}, $$
 </div>
 
 where $$E$$ is the relativistic total energy and $$p$$ is the relativistic
@@ -611,11 +611,11 @@ What is the rest energy of an electron, given its mass is  $$ 9.11 \times 10^{-3
 
 **Strategy**
 
-Use Einstein's rest energy formula $$E_0 = mc^2$$ and convert from joules to MeV using $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert from joules to MeV using $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
 
 **Solution**
 
-$$E_0 = mc^2 = (9.11 \times 10^{-31} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+$$E_0 = mc^{2} = (9.11 \times 10^{-31} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
 $$E_0 = (9.11 \times 10^{-31})(9.00 \times 10^{16}) = 8.20 \times 10^{-14} \text{ J}$$
 
@@ -643,11 +643,11 @@ Find the rest energy in joules and MeV of a proton, given its mass is  $$ 1.67 \
 
 **Strategy**
 
-Use Einstein's rest energy formula $$E_0 = mc^2$$ and convert the result from joules to MeV using the conversion factor $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert the result from joules to MeV using the conversion factor $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
 
 **Solution**
 
-$$E_0 = mc^2 = (1.67 \times 10^{-27} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+$$E_0 = mc^{2} = (1.67 \times 10^{-27} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
 $$E_0 = (1.67 \times 10^{-27})(9.00 \times 10^{16}) = 1.503 \times 10^{-10} \text{ J}$$
 
@@ -714,13 +714,13 @@ The Big Bang that began the universe is estimated to have released  $${10}^{68} 
 
 **Strategy**
 
-Half the Big Bang energy available is $$E = 0.5 \times 10^{68} = 5 \times 10^{67}$$ J. Each star requires $$E_{\text{star}} = mc^2$$ to create from pure energy. Divide the available energy by the energy per star.
+Half the Big Bang energy available is $$E = 0.5 \times 10^{68} = 5 \times 10^{67}$$ J. Each star requires $$E_{\text{star}} = mc^{2}$$ to create from pure energy. Divide the available energy by the energy per star.
 
 **Solution**
 
 Energy per star:
 
-$$E_{\text{star}} = mc^2 = (4.00 \times 10^{30} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+$$E_{\text{star}} = mc^{2} = (4.00 \times 10^{30} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
 $$E_{\text{star}} = (4.00 \times 10^{30})(9.00 \times 10^{16}) = 3.60 \times 10^{47} \text{ J}$$
 
@@ -793,7 +793,7 @@ Most supernova energy comes from gravitational collapse releasing the star's gra
 
 **Strategy**
 
-From energy tables, uranium fission releases approximately $$8.0 \times 10^{13}$$ J/kg. Use $$E = \Delta mc^2$$ to find the mass converted. Then calculate the ratio $$\Delta m/m$$.
+From energy tables, uranium fission releases approximately $$8.0 \times 10^{13}$$ J/kg. Use $$E = \Delta mc^{2}$$ to find the mass converted. Then calculate the ratio $$\Delta m/m$$.
 
 **Solution**
 
@@ -875,7 +875,7 @@ There is approximately  $${10}^{34} \text{J} $$
 
 **Strategy**
 
-(a) Use $$E = \Delta mc^2$$ to find mass decrease. (b) If 0.08% of water mass is converted, the total water mass involved is $$m_{\text{water}} = \Delta m / 0.0008$$. Convert to volume using water density (1000\text{ kg}/m³). (c) Compare to ocean mass (~$$1.4 \times 10^{21}$$ kg).
+(a) Use $$E = \Delta mc^{2}$$ to find mass decrease. (b) If 0.08% of water mass is converted, the total water mass involved is $$m_{\text{water}} = \Delta m / 0.0008$$. Convert to volume using water density (1000\text{ kg}/m³). (c) Compare to ocean mass (~$$1.4 \times 10^{21}$$ kg).
 
 **Solution**
 
@@ -916,7 +916,7 @@ A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a
 
 **Strategy**
 
-The energy available for kinetic energy is the mass difference between muon and electron: $$\Delta E = E_{\mu} - E_e = 105.7 - 0.511 = 105.2$$ MeV. This becomes the electron's kinetic energy. Use $$KE = (\gamma - 1)m_ec^2$$ to find $$\gamma$$.
+The energy available for kinetic energy is the mass difference between muon and electron: $$\Delta E = E_{\mu} - E_e = 105.7 - 0.511 = 105.2$$ MeV. This becomes the electron's kinetic energy. Use $$KE = (\gamma - 1)m_ec^{2}$$ to find $$\gamma$$.
 
 **Solution**
 
@@ -924,7 +924,7 @@ The energy available for kinetic energy is the mass difference between muon and 
 
 $$KE = E_{\mu} - E_{e,\text{rest}} = 105.7 - 0.511 = 105.2 \text{ MeV}$$
 
-Using $$KE = (\gamma - 1)m_ec^2$$:
+Using $$KE = (\gamma - 1)m_ec^{2}$$:
 
 $$105.2 = (\gamma - 1)(0.511)$$
 
@@ -969,7 +969,7 @@ A  $$\pi  $$
 
 **Strategy**
 
-Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at rest, $$E_{\pi} = 139.6$$ MeV. The muon has rest energy 105.7\text{ MeV} plus kinetic energy. The missing mass-energy ($$139.6 - 105.7 = 33.9$$ MeV) goes into kinetic energy. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$, then solve for $$v$$.
+Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at rest, $$E_{\pi} = 139.6$$ MeV. The muon has rest energy 105.7\text{ MeV} plus kinetic energy. The missing mass-energy ($$139.6 - 105.7 = 33.9$$ MeV) goes into kinetic energy. Use $$KE = (\gamma - 1)mc^{2}$$ to find $$\gamma$$, then solve for $$v$$.
 
 **Solution**
 
@@ -977,7 +977,7 @@ Kinetic energy of muon:
 
 $$KE_{\mu} = E_{\pi} - E_{\mu,\text{rest}} = 139.6 - 105.7 = 33.9 \text{ MeV}$$
 
-Using $$KE = (\gamma - 1)mc^2$$:
+Using $$KE = (\gamma - 1)mc^{2}$$:
 
 $$33.9 = (\gamma - 1)(105.7)$$
 
@@ -1017,7 +1017,7 @@ The muon emerges traveling at about 65% the speed of light. This problem illustr
 
 **Strategy**
 
-In this hypothetical universe where $$c = 45.0$$ m/s, the car at 30\text{ m}/s is highly relativistic ($$v = 0.667c$$). Calculate $$\gamma$$ and use $$KE_{\text{rel}} = (\gamma - 1)mc^2$$. Compare to classical $$KE = \frac{1}{2}mv^2$$.
+In this hypothetical universe where $$c = 45.0$$ m/s, the car at 30\text{ m}/s is highly relativistic ($$v = 0.667c$$). Calculate $$\gamma$$ and use $$KE_{\text{rel}} = (\gamma - 1)mc^{2}$$. Compare to classical $$KE = \frac{1}{2}mv^{2}$$.
 
 **Solution**
 
@@ -1029,13 +1029,13 @@ $$\gamma = \frac{1}{\sqrt{1-0.4444}} = \frac{1}{\sqrt{0.5556}} = \frac{1}{0.7454
 
 Relativistic kinetic energy:
 
-$$KE_{\text{rel}} = (\gamma - 1)mc^2 = (1.342 - 1)(1000)(45.0)^2$$
+$$KE_{\text{rel}} = (\gamma - 1)mc^{2} = (1.342 - 1)(1000)(45.0)^2$$
 
 $$KE_{\text{rel}} = (0.342)(1000)(2025) = 6.92 \times 10^5 \text{ J}$$
 
 (b) Classical kinetic energy:
 
-$$KE_{\text{class}} = \frac{1}{2}mv^2 = \frac{1}{2}(1000)(30.0)^2 = 4.50 \times 10^5 \text{ J}$$
+$$KE_{\text{class}} = \frac{1}{2}mv^{2} = \frac{1}{2}(1000)(30.0)^2 = 4.50 \times 10^5 \text{ J}$$
 
 Ratio:
 
@@ -1064,19 +1064,19 @@ Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium
 
 **Strategy**
 
-First check if relativistic treatment is needed by comparing KE to rest energy. The helium nucleus (alpha particle) has rest energy $$E_0 = mc^2$$. If $$KE \ll E_0$$, classical formula $$KE = \frac{1}{2}mv^2$$ suffices. Otherwise, use relativistic $$KE = (\gamma - 1)mc^2$$.
+First check if relativistic treatment is needed by comparing KE to rest energy. The helium nucleus (alpha particle) has rest energy $$E_0 = mc^{2}$$. If $$KE \ll E_0$$, classical formula $$KE = \frac{1}{2}mv^{2}$$ suffices. Otherwise, use relativistic $$KE = (\gamma - 1)mc^{2}$$.
 
 **Solution**
 
 Rest energy of alpha particle:
 
-$$E_0 = mc^2 = (6.80 \times 10^{-27})(3.00 \times 10^8)^2 = 6.12 \times 10^{-10} \text{ J}$$
+$$E_0 = mc^{2} = (6.80 \times 10^{-27})(3.00 \times 10^8)^2 = 6.12 \times 10^{-10} \text{ J}$$
 
 Converting to MeV: $$E_0 = \frac{6.12 \times 10^{-10}}{1.602 \times 10^{-13}} = 3820 \text{ MeV}$$
 
 Since $$KE = 5.00$$ MeV $$\ll 3820$$ MeV, classical treatment is adequate:
 
-$$KE = \frac{1}{2}mv^2$$
+$$KE = \frac{1}{2}mv^{2}$$
 
 $$v = \sqrt{\frac{2 \cdot KE}{m}} = \sqrt{\frac{2(5.00 \times 1.602 \times 10^{-13})}{6.80 \times 10^{-27}}}$$
 
@@ -1086,7 +1086,7 @@ As a fraction of $$c$$: $$v = \frac{1.54 \times 10^7}{3.00 \times 10^8} = 0.0513
 
 **Discussion**
 
-The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At this velocity, relativistic corrections are only about $$\frac{1}{2}\gamma^2 v^2/c^2 \approx 0.13\%$$, confirming that classical mechanics is adequate. This velocity is typical for alpha particles from radioactive decay. While 5% of $$c$$ seems fast, it's slow enough that alpha particles can be stopped by a sheet of paper or a few centimeters of air. This low penetration (despite high energy) is due to the alpha particle's relatively large mass and double positive charge, which cause strong interactions with matter.
+The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At this velocity, relativistic corrections are only about $$\frac{1}{2}\gamma^{2} v^2/c^2 \approx 0.13\%$$, confirming that classical mechanics is adequate. This velocity is typical for alpha particles from radioactive decay. While 5% of $$c$$ seems fast, it's slow enough that alpha particles can be stopped by a sheet of paper or a few centimeters of air. This low penetration (despite high energy) is due to the alpha particle's relatively large mass and double positive charge, which cause strong interactions with matter.
 
 :::
 
@@ -1104,11 +1104,11 @@ The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At th
 
 **Strategy**
 
-(a) Use $$KE = (\gamma - 1)m_ec^2$$ where $$m_ec^2 = 0.511$$ MeV. Solve for $$\gamma$$, then find $$v$$ from $$\gamma$$. (b) Compare KE to rest energy.
+(a) Use $$KE = (\gamma - 1)m_ec^{2}$$ where $$m_ec^{2} = 0.511$$ MeV. Solve for $$\gamma$$, then find $$v$$ from $$\gamma$$. (b) Compare KE to rest energy.
 
 **Solution**
 
-(a) From $$KE = (\gamma - 1)m_ec^2$$:
+(a) From $$KE = (\gamma - 1)m_ec^{2}$$:
 
 $$0.750 = (\gamma - 1)(0.511)$$
 
@@ -1128,7 +1128,7 @@ $$\frac{v^2}{c^2} = 0.8358$$
 
 $$v = 0.914c$$
 
-(b) The electron's kinetic energy (0.750 MeV) is about 147% of its rest energy (0.511 MeV). Whenever $$KE > m_ec^2$$, the particle must be highly relativistic with $$v$$ close to $$c$$. Indeed, at $$v = 0.914c$$, the electron is traveling at over 90% light speed. This high velocity is consistent with the large kinetic energy: classical physics would predict $$v = \sqrt{2KE/m}$$, which would give $$v > c$$ (impossible!), confirming that relativistic treatment is essential.
+(b) The electron's kinetic energy (0.750 MeV) is about 147% of its rest energy (0.511 MeV). Whenever $$KE > m_ec^{2}$$, the particle must be highly relativistic with $$v$$ close to $$c$$. Indeed, at $$v = 0.914c$$, the electron is traveling at over 90% light speed. This high velocity is consistent with the large kinetic energy: classical physics would predict $$v = \sqrt{2KE/m}$$, which would give $$v > c$$ (impossible!), confirming that relativistic treatment is essential.
 
 **Discussion**
 
@@ -1152,19 +1152,19 @@ A positron is an antimatter version of the electron, having exactly the same mas
 
 **Strategy**
 
-(a) Two electron rest masses (electron + positron) are converted: $$E = 2m_ec^2$$. (b) For proton: $$KE = (\gamma - 1)m_pc^2 = 2m_ec^2$$, solve for $$v$$. (c) Similarly for electron: $$(\gamma - 1)m_ec^2 = 2m_ec^2$$, giving $$\gamma = 3$$.
+(a) Two electron rest masses (electron + positron) are converted: $$E = 2m_ec^{2}$$. (b) For proton: $$KE = (\gamma - 1)m_pc^{2} = 2m_ec^{2}$$, solve for $$v$$. (c) Similarly for electron: $$(\gamma - 1)m_ec^{2} = 2m_ec^{2}$$, giving $$\gamma = 3$$.
 
 **Solution**
 
 (a) Energy released:
 
-$$E = 2m_ec^2 = 2(9.11 \times 10^{-31})(3.00 \times 10^8)^2 = 1.64 \times 10^{-13} \text{ J}$$
+$$E = 2m_ec^{2} = 2(9.11 \times 10^{-31})(3.00 \times 10^8)^2 = 1.64 \times 10^{-13} \text{ J}$$
 
 In MeV: $$E = 2(0.511) = 1.02 \text{ MeV}$$
 
 (b) For proton ($$m_p = 1.67 \times 10^{-27}$$ kg, rest energy 938 MeV):
 
-$$KE = (\gamma - 1)m_pc^2 = 1.02 \text{ MeV}$$
+$$KE = (\gamma - 1)m_pc^{2} = 1.02 \text{ MeV}$$
 
 $$\gamma - 1 = \frac{1.02}{938} = 0.001088$$
 
@@ -1172,19 +1172,19 @@ $$\gamma = 1.001088$$
 
 Since $$\gamma \approx 1$$, use classical approximation:
 
-$$v = c\sqrt{1-\frac{1}{\gamma^2}} \approx c\sqrt{2(\gamma-1)} = c\sqrt{2(0.001088)} = 0.0467c$$
+$$v = c\sqrt{1-\frac{1}{\gamma^{2}}} \approx c\sqrt{2(\gamma-1)} = c\sqrt{2(0.001088)} = 0.0467c$$
 
 Or $$v = 1.40 \times 10^7 \text{ m/s}$$
 
 (c) For electron:
 
-$$(\gamma - 1)m_ec^2 = 2m_ec^2$$
+$$(\gamma - 1)m_ec^{2} = 2m_ec^{2}$$
 
 $$\gamma - 1 = 2$$
 
 $$\gamma = 3$$
 
-$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{9}} = c\sqrt{\frac{8}{9}} = 0.943c$$
+$$v = c\sqrt{1-\frac{1}{\gamma^{2}}} = c\sqrt{1-\frac{1}{9}} = c\sqrt{\frac{8}{9}} = 0.943c$$
 
 **Discussion**
 
@@ -1209,7 +1209,7 @@ What is the kinetic energy in MeV of a  $$\pi  $$
 
 **Strategy**
 
-Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0}$$. Then use $$KE = (\gamma - 1)mc^2$$ where $$mc^2 = 135$$ MeV.
+Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0}$$. Then use $$KE = (\gamma - 1)mc^{2}$$ where $$mc^{2} = 135$$ MeV.
 
 **Solution**
 
@@ -1219,7 +1219,7 @@ $$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{1.40 \times 10^{-16}}{0.840 \time
 
 Kinetic energy:
 
-$$KE = (\gamma - 1)mc^2 = (1.667 - 1)(135 \text{ MeV})$$
+$$KE = (\gamma - 1)mc^{2} = (1.667 - 1)(135 \text{ MeV})$$
 
 $$KE = (0.667)(135) = 90.0 \text{ MeV}$$
 
@@ -1245,7 +1245,7 @@ Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s,
 
 **Strategy**
 
-Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{2065}{900}$$. Then use $$KE = (\gamma - 1)mc^2$$ where $$mc^2 = 939.6$$ MeV.
+Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{2065}{900}$$. Then use $$KE = (\gamma - 1)mc^{2}$$ where $$mc^{2} = 939.6$$ MeV.
 
 **Solution**
 
@@ -1255,7 +1255,7 @@ $$\gamma = \frac{2065 \text{ s}}{900 \text{ s}} = 2.294$$
 
 Kinetic energy:
 
-$$KE = (\gamma - 1)mc^2 = (2.294 - 1)(939.6 \text{ MeV})$$
+$$KE = (\gamma - 1)mc^{2} = (2.294 - 1)(939.6 \text{ MeV})$$
 
 $$KE = (1.294)(939.6) = 1216 \text{ MeV} = 1.22 \text{ GeV}$$
 
@@ -1283,43 +1283,43 @@ This relativistic neutron has kinetic energy of about 1.22 GeV, which is greater
 
 **Strategy**
 
-(a) Start with the energy-momentum relation $$E^2 = (pc)^2 + (mc^2)^2$$ and the total energy $$E = \gamma mc^2$$. Substitute and simplify. (b) Calculate the ratio $$(pc)/(mc^2)$$ when $$\gamma = 30$$ and compare $$E$$ to $$pc$$.
+(a) Start with the energy-momentum relation $$E^2 = (pc)^2 + (mc^{2})^2$$ and the total energy $$E = \gamma mc^{2}$$. Substitute and simplify. (b) Calculate the ratio $$(pc)/(mc^{2})$$ when $$\gamma = 30$$ and compare $$E$$ to $$pc$$.
 
 **Solution**
 
-(a) Starting with $$E^2 = (pc)^2 + (mc^2)^2$$ and $$E = \gamma mc^2$$:
+(a) Starting with $$E^2 = (pc)^2 + (mc^{2})^2$$ and $$E = \gamma mc^{2}$$:
 
-$$(\gamma mc^2)^2 = (pc)^2 + (mc^2)^2$$
+$$(\gamma mc^{2})^2 = (pc)^2 + (mc^{2})^2$$
 
-$$\gamma^2 m^2c^4 = (pc)^2 + m^2c^4$$
+$$\gamma^{2} m^2c^4 = (pc)^2 + m^2c^4$$
 
-$$(pc)^2 = \gamma^2 m^2c^4 - m^2c^4 = (\gamma^2 - 1)m^2c^4$$
+$$(pc)^2 = \gamma^{2} m^2c^4 - m^2c^4 = (\gamma^{2} - 1)m^2c^4$$
 
-Dividing both sides by $$(mc^2)^2$$:
+Dividing both sides by $$(mc^{2})^2$$:
 
-$$\frac{(pc)^2}{(mc^2)^2} = \gamma^2 - 1$$
+$$\frac{(pc)^2}{(mc^{2})^2} = \gamma^{2} - 1$$
 
-This shows that as $$\gamma$$ becomes large, $$(pc)^2 \approx \gamma^2(mc^2)^2$$, so $$pc \approx \gamma mc^2 \gg mc^2$$.
+This shows that as $$\gamma$$ becomes large, $$(pc)^2 \approx \gamma^{2}(mc^{2})^2$$, so $$pc \approx \gamma mc^{2} \gg mc^{2}$$.
 
 (b) When $$\gamma = 30.0$$:
 
-$$\frac{(pc)^2}{(mc^2)^2} = \gamma^2 - 1 = 900 - 1 = 899$$
+$$\frac{(pc)^2}{(mc^{2})^2} = \gamma^{2} - 1 = 900 - 1 = 899$$
 
-$$\frac{pc}{mc^2} = \sqrt{899} = 29.98 \approx 30$$
+$$\frac{pc}{mc^{2}} = \sqrt{899} = 29.98 \approx 30$$
 
-Total energy: $$E = \gamma mc^2 = 30mc^2$$
+Total energy: $$E = \gamma mc^{2} = 30mc^{2}$$
 
-Momentum term: $$pc = 29.98mc^2 \approx 30mc^2$$
+Momentum term: $$pc = 29.98mc^{2} \approx 30mc^{2}$$
 
 Therefore $$E \approx pc$$ (they differ by only 0.07%).
 
-More precisely: $$E = \sqrt{(pc)^2 + (mc^2)^2} = \sqrt{899 + 1}(mc^2) = 30.00mc^2$$
+More precisely: $$E = \sqrt{(pc)^2 + (mc^{2})^2} = \sqrt{899 + 1}(mc^{2}) = 30.00mc^{2}$$
 
 **Discussion**
 
-Part (a) proves that for ultra-relativistic particles ($$\gamma \gg 1$$), the momentum energy $$pc$$ dominates over rest energy $$mc^2$$. Specifically, $$pc/mc^2 = \sqrt{\gamma^2 - 1} \approx \gamma$$ when $$\gamma$$ is large.
+Part (a) proves that for ultra-relativistic particles ($$\gamma \gg 1$$), the momentum energy $$pc$$ dominates over rest energy $$mc^{2}$$. Specifically, $$pc/mc^{2} = \sqrt{\gamma^{2} - 1} \approx \gamma$$ when $$\gamma$$ is large.
 
-Part (b) shows that at $$\gamma = 30$$, the total energy (30$$mc^2$$) is almost entirely kinetic, with rest energy ($$mc^2$$) contributing only about 3%. The approximation $$E \approx pc$$ holds to within 0.07%. This is the ultra-relativistic regime where particles behave almost like massless particles (photons). The astronaut in the twin paradox traveling at $$\gamma = 30$$ has so much kinetic energy that treating the spaceship as nearly massless simplifies calculations without significant error.
+Part (b) shows that at $$\gamma = 30$$, the total energy (30$$mc^{2}$$) is almost entirely kinetic, with rest energy ($$mc^{2}$$) contributing only about 3%. The approximation $$E \approx pc$$ holds to within 0.07%. This is the ultra-relativistic regime where particles behave almost like massless particles (photons). The astronaut in the twin paradox traveling at $$\gamma = 30$$ has so much kinetic energy that treating the spaceship as nearly massless simplifies calculations without significant error.
 
 This relation is crucial in particle physics: at high energies (GeV to TeV scales), all particles effectively behave as if massless, and $$E = pc$$ becomes an excellent approximation.
 
@@ -1341,7 +1341,7 @@ One cosmic ray neutron has a velocity of  $$0.250c $$
 
 **Strategy**
 
-(a) Calculate $$\gamma$$ for $$v = 0.250c$$, then $$E = \gamma mc^2$$ where neutron rest energy is 939.6\text{ MeV}. (b) Use $$p = \gamma mv$$. (c) Compare $$E$$ to $$pc$$ and discuss using $$E^2 = (pc)^2 + (mc^2)^2$$.
+(a) Calculate $$\gamma$$ for $$v = 0.250c$$, then $$E = \gamma mc^{2}$$ where neutron rest energy is 939.6\text{ MeV}. (b) Use $$p = \gamma mv$$. (c) Compare $$E$$ to $$pc$$ and discuss using $$E^2 = (pc)^2 + (mc^{2})^2$$.
 
 **Solution**
 
@@ -1351,7 +1351,7 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.250c)^
 
 Total energy:
 
-$$E = \gamma mc^2 = (1.033)(939.6 \text{ MeV}) = 970.6 \text{ MeV}$$
+$$E = \gamma mc^{2} = (1.033)(939.6 \text{ MeV}) = 970.6 \text{ MeV}$$
 
 (b) Momentum (neutron mass $$m = 1.675 \times 10^{-27}$$ kg):
 
@@ -1365,17 +1365,17 @@ In MeV/c units: $$pc = \gamma mvc = (1.033)(939.6 \text{ MeV})(0.250) = 242.5 \t
 
 $$E = 970.6 \text{ MeV}, \quad pc = 242.5 \text{ MeV}$$
 
-Clearly $$E \not\approx pc$$. Using $$E^2 = (pc)^2 + (mc^2)^2$$:
+Clearly $$E \not\approx pc$$. Using $$E^2 = (pc)^2 + (mc^{2})^2$$:
 
 $$(970.6)^2 = (242.5)^2 + (939.6)^2$$
 
 $$942,064 = 58,806 + 882,848 = 941,654$$ ✓ (close agreement within rounding)
 
-The approximation $$E \approx pc$$ is only valid when $$pc \gg mc^2$$, i.e., when $$\gamma \gg 1$$. Here $$\gamma = 1.033$$ (barely relativistic), so the rest energy term dominates: $$mc^2 = 939.6$$ MeV is much larger than the momentum term $$pc = 242.5$$ MeV.
+The approximation $$E \approx pc$$ is only valid when $$pc \gg mc^{2}$$, i.e., when $$\gamma \gg 1$$. Here $$\gamma = 1.033$$ (barely relativistic), so the rest energy term dominates: $$mc^{2} = 939.6$$ MeV is much larger than the momentum term $$pc = 242.5$$ MeV.
 
 **Discussion**
 
-At $$v = 0.250c$$, the neutron is mildly relativistic but not ultra-relativistic. The total energy is dominated by rest mass (97% rest energy, only 3% kinetic energy). For the approximation $$E \approx pc$$ to hold, we typically need $$\gamma > 10$$, where kinetic energy far exceeds rest energy. This problem illustrates the transition from non-relativistic ($$E \approx mc^2$$) to ultra-relativistic ($$E \approx pc$$) regimes, with this neutron falling in between.
+At $$v = 0.250c$$, the neutron is mildly relativistic but not ultra-relativistic. The total energy is dominated by rest mass (97% rest energy, only 3% kinetic energy). For the approximation $$E \approx pc$$ to hold, we typically need $$\gamma > 10$$, where kinetic energy far exceeds rest energy. This problem illustrates the transition from non-relativistic ($$E \approx mc^{2}$$) to ultra-relativistic ($$E \approx pc$$) regimes, with this neutron falling in between.
 
 :::
 
@@ -1394,7 +1394,7 @@ What is  $$\gamma  $$
 
 **Strategy**
 
-The proton gains kinetic energy equal to its charge times the potential: $$KE = eV = 1.0$$ TeV $$= 1.0 \times 10^6$$ MeV. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$.
+The proton gains kinetic energy equal to its charge times the potential: $$KE = eV = 1.0$$ TeV $$= 1.0 \times 10^6$$ MeV. Use $$KE = (\gamma - 1)mc^{2}$$ to find $$\gamma$$.
 
 **Solution**
 
@@ -1402,7 +1402,7 @@ Kinetic energy gained:
 
 $$KE = 1.0 \text{ TeV} = 1.0 \times 10^6 \text{ MeV}$$
 
-Using $$KE = (\gamma - 1)mc^2$$:
+Using $$KE = (\gamma - 1)mc^{2}$$:
 
 $$1.0 \times 10^6 = (\gamma - 1)(938.3)$$
 
@@ -1412,7 +1412,7 @@ $$\gamma = 1066.8 \approx 1.07 \times 10^3$$
 
 **Discussion**
 
-At Fermilab's Tevatron collider (now decommissioned), protons were accelerated to 1 TeV, giving $$\gamma \approx 1066$$. These protons were traveling at $$v = c\sqrt{1-1/\gamma^2} \approx c(1 - 4.4 \times 10^{-7})$$, differing from light speed by less than one part in two million! Their kinetic energy was over 1000 times their rest energy.
+At Fermilab's Tevatron collider (now decommissioned), protons were accelerated to 1 TeV, giving $$\gamma \approx 1066$$. These protons were traveling at $$v = c\sqrt{1-1/\gamma^{2}} \approx c(1 - 4.4 \times 10^{-7})$$, differing from light speed by less than one part in two million! Their kinetic energy was over 1000 times their rest energy.
 
 At this energy, the protons' momentum, time dilation, and length contraction are all magnified by a factor of ~1000 compared to rest values. From the proton's perspective, the Tevatron ring (about 6 km circumference) appears contracted to only 6 meters! These ultra-relativistic protons, when collided with anti-protons (also at 1 TeV), provided collision energies up to 2 TeV, allowing discovery of the top quark and detailed studies of the Standard Model. Today, the Large Hadron Collider achieves even higher energies (up to 7 TeV per proton), with $$\gamma \approx 7500$$.
 
@@ -1433,13 +1433,13 @@ At this energy, the protons' momentum, time dilation, and length contraction are
 
 **Strategy**
 
-(a) The kinetic energy equals the energy gained from the accelerating potential: $$KE = eV$$, where $$e$$ is the electron charge and $$V$$ is the potential. Use $$KE = (\gamma - 1)m_ec^2$$. (b) Total energy is $$E = \gamma m_ec^2$$.
+(a) The kinetic energy equals the energy gained from the accelerating potential: $$KE = eV$$, where $$e$$ is the electron charge and $$V$$ is the potential. Use $$KE = (\gamma - 1)m_ec^{2}$$. (b) Total energy is $$E = \gamma m_ec^{2}$$.
 
 **Solution**
 
 (a) Kinetic energy of electron:
 
-$$KE = (\gamma - 1)m_ec^2 = (1.00 \times 10^5 - 1)(0.511 \text{ MeV})$$
+$$KE = (\gamma - 1)m_ec^{2} = (1.00 \times 10^5 - 1)(0.511 \text{ MeV})$$
 
 $$KE \approx (1.00 \times 10^5)(0.511 \text{ MeV}) = 51,100 \text{ MeV} = 51.1 \text{ GeV}$$
 
@@ -1451,13 +1451,13 @@ Or $$V = 5.11 \times 10^{10}$$ V
 
 (b) Total energy:
 
-$$E = \gamma m_ec^2 = (1.00 \times 10^5)(0.511 \text{ MeV}) = 51,100 \text{ MeV} = 51.1 \text{ GeV}$$
+$$E = \gamma m_ec^{2} = (1.00 \times 10^5)(0.511 \text{ MeV}) = 51,100 \text{ MeV} = 51.1 \text{ GeV}$$
 
 Note that $$KE \approx E$$ since $$\gamma \gg 1$$ (rest energy is negligible compared to total energy).
 
 **Discussion**
 
-At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v = c\sqrt{1-\frac{1}{\gamma^2}} \approx c(1 - 5 \times 10^{-11})$$, differing from light speed by less than one part in 10 billion! The 51 GeV energy was typical for SLAC's highest-energy experiments. At this energy, the electron's kinetic energy is 100,000 times its rest mass, demonstrating the ultra-relativistic regime where essentially all energy goes into kinetic energy rather than increasing rest mass. This is why particle physicists often quote energies in GeV rather than speeds—at these energies, everything travels at essentially $$c$$, so energy is the more meaningful parameter.
+At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v = c\sqrt{1-\frac{1}{\gamma^{2}}} \approx c(1 - 5 \times 10^{-11})$$, differing from light speed by less than one part in 10 billion! The 51 GeV energy was typical for SLAC's highest-energy experiments. At this energy, the electron's kinetic energy is 100,000 times its rest mass, demonstrating the ultra-relativistic regime where essentially all energy goes into kinetic energy rather than increasing rest mass. This is why particle physicists often quote energies in GeV rather than speeds—at these energies, everything travels at essentially $$c$$, so energy is the more meaningful parameter.
 
 :::
 
@@ -1476,7 +1476,7 @@ At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v =
 
 **Strategy**
 
-(a) From energy tables, crude oil releases about $$4.2 \times 10^7$$ J/kg. Calculate mass of 200 L of oil, multiply by energy density, then use $$E = \Delta mc^2$$. (b) Calculate the ratio.
+(a) From energy tables, crude oil releases about $$4.2 \times 10^7$$ J/kg. Calculate mass of 200 L of oil, multiply by energy density, then use $$E = \Delta mc^{2}$$. (b) Calculate the ratio.
 
 **Solution**
 
@@ -1522,13 +1522,13 @@ Compare this to nuclear fission ($$\Delta m/m \approx 10^{-3}$$) or fusion ($$\D
 
 **Strategy**
 
-(a) Use $$E = mc^2$$. (b) Work done lifting mass is $$W = mgh$$. Set $$W = E$$ and solve for mass.
+(a) Use $$E = mc^{2}$$. (b) Work done lifting mass is $$W = mgh$$. Set $$W = E$$ and solve for mass.
 
 **Solution**
 
 (a) Energy from 1.00 kg:
 
-$$E = mc^2 = (1.00 \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{16} \text{ J}$$
+$$E = mc^{2} = (1.00 \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{16} \text{ J}$$
 
 (b) Mass that can be lifted to 10.0 km:
 
@@ -1567,27 +1567,27 @@ The kinetic energy gained equals the charge times voltage: $$KE = eV = 50.0$$ Me
 
 **Solution**
 
-(a) Proton: $$KE = 50.0$$ MeV, $$m_pc^2 = 938$$ MeV
+(a) Proton: $$KE = 50.0$$ MeV, $$m_pc^{2} = 938$$ MeV
 
-Since $$KE < m_pc^2$$, we could use either formula. Using relativistic:
+Since $$KE < m_pc^{2}$$, we could use either formula. Using relativistic:
 
-$$KE = (\gamma - 1)m_pc^2$$
+$$KE = (\gamma - 1)m_pc^{2}$$
 
 $$50.0 = (\gamma - 1)(938)$$
 
 $$\gamma = 1 + \frac{50.0}{938} = 1.0533$$
 
-$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{1.0533^2}} = c\sqrt{1-0.9009} = c\sqrt{0.0991}$$
+$$v = c\sqrt{1-\frac{1}{\gamma^{2}}} = c\sqrt{1-\frac{1}{1.0533^2}} = c\sqrt{1-0.9009} = c\sqrt{0.0991}$$
 
 $$v = 0.315c$$
 
-(b) Electron: $$KE = 50.0$$ MeV, $$m_ec^2 = 0.511$$ MeV
+(b) Electron: $$KE = 50.0$$ MeV, $$m_ec^{2} = 0.511$$ MeV
 
 $$50.0 = (\gamma - 1)(0.511)$$
 
 $$\gamma = 1 + \frac{50.0}{0.511} = 1 + 97.85 = 98.85$$
 
-$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{(98.85)^2}} = c\sqrt{1-1.023 \times 10^{-4}}$$
+$$v = c\sqrt{1-\frac{1}{\gamma^{2}}} = c\sqrt{1-\frac{1}{(98.85)^2}} = c\sqrt{1-1.023 \times 10^{-4}}$$
 
 $$v = c\sqrt{0.9999} = 0.99995c$$
 
@@ -1617,13 +1617,13 @@ Suppose you use an average of  $$500 kW·h $$
 
 **Strategy**
 
-(a) Total energy from 1.00 g is $$E = mc^2$$. With 38% efficiency, available energy is $$0.38E$$. Divide by monthly usage. (b) Calculate total energy for all homes for one year and divide into available energy.
+(a) Total energy from 1.00 g is $$E = mc^{2}$$. With 38% efficiency, available energy is $$0.38E$$. Divide by monthly usage. (b) Calculate total energy for all homes for one year and divide into available energy.
 
 **Solution**
 
 (a) Energy from 1.00 g = $$10^{-3}$$ kg:
 
-$$E = mc^2 = (10^{-3})(3.00 \times 10^8)^2 = 9.00 \times 10^{13} \text{ J}$$
+$$E = mc^{2} = (10^{-3})(3.00 \times 10^8)^2 = 9.00 \times 10^{13} \text{ J}$$
 
 Useful energy (38% efficient):
 
@@ -1714,7 +1714,7 @@ Nuclear-powered rockets were researched for some years before safety concerns be
 
 **Strategy**
 
-(a) Calculate orbital velocity at 250 km, find $$KE = \frac{1}{2}mv^2$$ and $$PE = mgh$$ (approximation for small h), total energy $$E = KE + PE$$, then $$\Delta m = E/c^2$$. (b) Convert energy to TNT equivalent (1 ton TNT $$\approx 4.2 \times 10^9$$ J).
+(a) Calculate orbital velocity at 250 km, find $$KE = \frac{1}{2}mv^{2}$$ and $$PE = mgh$$ (approximation for small h), total energy $$E = KE + PE$$, then $$\Delta m = E/c^2$$. (b) Convert energy to TNT equivalent (1 ton TNT $$\approx 4.2 \times 10^9$$ J).
 
 **Solution**
 
@@ -1724,7 +1724,7 @@ $$v_{\text{orb}} = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11})(5.97
 
 For 100,000 kg rocket:
 
-Kinetic energy: $$KE = \frac{1}{2}mv^2 = \frac{1}{2}(10^5)(7750)^2 = 3.00 \times 10^{12} \text{ J}$$
+Kinetic energy: $$KE = \frac{1}{2}mv^{2} = \frac{1}{2}(10^5)(7750)^2 = 3.00 \times 10^{12} \text{ J}$$
 
 Potential energy: $$PE = mgh = (10^5)(9.8)(2.5 \times 10^5) = 2.45 \times 10^{11} \text{ J}$$
 
@@ -1767,7 +1767,7 @@ The Sun produces energy at a rate of  $$ 4.00 \times 10^{26}  $$
 
 **Strategy**
 
-(a) From earlier problems, fusion converts 0.7% of hydrogen mass to energy. Use $$P = E/t$$ to find mass/time. (c) Direct use of $$E = \Delta mc^2$$. (b) Calculate fusionable hydrogen and divide by consumption rate. (d) Find fraction lost.
+(a) From earlier problems, fusion converts 0.7% of hydrogen mass to energy. Use $$P = E/t$$ to find mass/time. (c) Direct use of $$E = \Delta mc^{2}$$. (b) Calculate fusionable hydrogen and divide by consumption rate. (d) Find fraction lost.
 
 **Solution**
 
@@ -1833,21 +1833,21 @@ assumptions are unreasonable or inconsistent?
 
 (a) Proton rest energy:
 
-$$E_0 = m_pc^2 = 938 \text{ MeV}$$
+$$E_0 = m_pc^{2} = 938 \text{ MeV}$$
 
 Kinetic energy:
 
 $$KE = E - E_0 = 50.0 - 938 = -888 \text{ MeV}$$
 
-(b) **This result is unreasonable because kinetic energy cannot be negative.** Kinetic energy represents the energy of motion and must always be ≥ 0. A negative kinetic energy would imply that the proton has less than its rest energy, which violates the fundamental relation $$E = \gamma mc^2$$ where $$\gamma \geq 1$$.
+(b) **This result is unreasonable because kinetic energy cannot be negative.** Kinetic energy represents the energy of motion and must always be ≥ 0. A negative kinetic energy would imply that the proton has less than its rest energy, which violates the fundamental relation $$E = \gamma mc^{2}$$ where $$\gamma \geq 1$$.
 
-(c) The unreasonable assumption is that the **total energy is only 50.0 MeV**. The total energy of any massive particle must be at least its rest energy. For a proton, $$E_{\text{min}} = m_pc^2 = 938$$ MeV. A measured total energy of 50 MeV is less than the rest energy, which is impossible.
+(c) The unreasonable assumption is that the **total energy is only 50.0 MeV**. The total energy of any massive particle must be at least its rest energy. For a proton, $$E_{\text{min}} = m_pc^{2} = 938$$ MeV. A measured total energy of 50 MeV is less than the rest energy, which is impossible.
 
 The physicist may have mistakenly measured the kinetic energy (50 MeV is a reasonable KE for a proton) and called it total energy, or there was an error in the measurement. If the proton truly has $$KE = 50$$ MeV, its total energy would be $$E = 938 + 50 = 988$$ MeV.
 
 **Discussion**
 
-This "unreasonable results" problem teaches an important lesson about total vs. kinetic energy in relativity. In classical physics, where rest energy isn't considered, we might casually use "energy" to mean kinetic energy. In relativity, we must be precise: total energy $$E = \gamma mc^2$$ always exceeds rest energy $$mc^2$$, with the difference being kinetic energy. Any measurement showing total energy less than rest energy signals an error in measurement or interpretation.
+This "unreasonable results" problem teaches an important lesson about total vs. kinetic energy in relativity. In classical physics, where rest energy isn't considered, we might casually use "energy" to mean kinetic energy. In relativity, we must be precise: total energy $$E = \gamma mc^{2}$$ always exceeds rest energy $$mc^{2}$$, with the difference being kinetic energy. Any measurement showing total energy less than rest energy signals an error in measurement or interpretation.
 
 :::
 

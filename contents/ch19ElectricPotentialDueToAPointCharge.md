@@ -545,9 +545,9 @@ $$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4})(0.100)}{8.99 \times 10^{9}} = 2.
 
 The droplet starts at the sphere's potential and ends at ground (0 V). Using energy conservation:
 
-$$q \cdot V = \frac{1}{2}mv^2$$
+$$q \cdot V = \frac{1}{2}mv^{2}$$
 
-$$q = \frac{mv^2}{2V} = \frac{(1.00 \times 10^{-7})(10.0)^2}{2(2.50 \times 10^{4})} = \frac{1.00 \times 10^{-5}}{5.00 \times 10^{4}} = 2.00 \times 10^{-10} \text{ C}$$
+$$q = \frac{mv^{2}}{2V} = \frac{(1.00 \times 10^{-7})(10.0)^2}{2(2.50 \times 10^{4})} = \frac{1.00 \times 10^{-5}}{5.00 \times 10^{4}} = 2.00 \times 10^{-10} \text{ C}$$
 
 **Discussion**
 
@@ -707,7 +707,7 @@ This calculated velocity is about **10 times the speed of light** ($$c = 3.00 \t
 **(c) Which assumptions are responsible:**
 
 The unreasonable assumption is using **classical (Newtonian) mechanics** for a highly relativistic situation. Classical mechanics assumes:
-- Kinetic energy = $$\frac{1}{2}mv^2$$
+- Kinetic energy = $$\frac{1}{2}mv^{2}$$
 - Mass is constant
 
 For electrons accelerated through 25 MV, the kinetic energy (25 MeV) is about 50 times the electron's rest mass energy (0.511 MeV). At such high energies, relativistic effects dominate:

@@ -785,56 +785,56 @@ The general conversion factor is: $$1 \text{ W/m}^2 = 10^{-4} \text{ W/cm}^2$$.
 
 **Strategy**
 
-For both parts, we need to understand how changes in intensity relate to changes in decibel level. We can use the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, which follows from the definition of decibels. In part (a), $$I_2/I_1 = 2$$, and in part (b), $$I_2/I_1 = 1/5 = 0.2$$.
+For both parts, we need to understand how changes in intensity relate to changes in decibel level. We can use the relationship $$\beta_{2} - \beta_{1} = 10\log_{10}(I_2/I_1)$$, which follows from the definition of decibels. In part (a), $$I_2/I_1 = 2$$, and in part (b), $$I_2/I_1 = 1/5 = 0.2$$.
 
 **Solution**
 
 **Part (a):** Sound twice as intense
 
 Given:
-- Original sound level: $$\beta_1 = 90.0 \text{ dB}$$
+- Original sound level: $$\beta_{1} = 90.0 \text{ dB}$$
 - Intensity ratio: $$I_2/I_1 = 2$$
 
 The difference in decibel levels is:
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(2)$$
+$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(2)$$
 </div>
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10(0.301) = 3.01 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = 10(0.301) = 3.01 \text{ dB}$$
 </div>
 
 Therefore:
 
 <div class="equation">
-$$\beta_2 = \beta_1 + 3.01 \text{ dB} = 90.0 \text{ dB} + 3.01 \text{ dB} = 93.0 \text{ dB}$$
+$$\beta_{2} = \beta_{1} + 3.01 \text{ dB} = 90.0 \text{ dB} + 3.01 \text{ dB} = 93.0 \text{ dB}$$
 </div>
 
 **Part (b):** Sound one-fifth as intense
 
 Given:
-- Original sound level: $$\beta_1 = 90.0 \text{ dB}$$
+- Original sound level: $$\beta_{1} = 90.0 \text{ dB}$$
 - Intensity ratio: $$I_2/I_1 = 1/5 = 0.2$$
 
 The difference in decibel levels is:
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(0.2)$$
+$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(0.2)$$
 </div>
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10\log_{10}(2 \times 10^{-1}) = 10[\log_{10}(2) + \log_{10}(10^{-1})]$$
+$$\beta_{2} - \beta_{1} = 10\log_{10}(2 \times 10^{-1}) = 10[\log_{10}(2) + \log_{10}(10^{-1})]$$
 </div>
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10[0.301 - 1] = 10(-0.699) = -6.99 \text{ dB} \approx -7.0 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = 10[0.301 - 1] = 10(-0.699) = -6.99 \text{ dB} \approx -7.0 \text{ dB}$$
 </div>
 
 Therefore:
 
 <div class="equation">
-$$\beta_2 = \beta_1 - 7.0 \text{ dB} = 90.0 \text{ dB} - 7.0 \text{ dB} = 83.0 \text{ dB}$$
+$$\beta_{2} = \beta_{1} - 7.0 \text{ dB} = 90.0 \text{ dB} - 7.0 \text{ dB} = 83.0 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -870,7 +870,7 @@ An important observation: the new decibel level depends only on the ratio of int
 
 **Strategy**
 
-We need to work backwards from decibel differences to intensity ratios. Using the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, we can solve for the intensity ratio: $$I_2/I_1 = 10^{(\beta_2-\beta_1)/10}$$. Then we multiply by the given intensity to find the new intensity.
+We need to work backwards from decibel differences to intensity ratios. Using the relationship $$\beta_{2} - \beta_{1} = 10\log_{10}(I_2/I_1)$$, we can solve for the intensity ratio: $$I_2/I_1 = 10^{(\beta_{2}-\beta_{1})/10}$$. Then we multiply by the given intensity to find the new intensity.
 
 **Solution**
 
@@ -878,12 +878,12 @@ We need to work backwards from decibel differences to intensity ratios. Using th
 
 Given:
 - Original intensity: $$I_1 = 4.00 \times 10^{-9} \text{ W/m}^2$$
-- Decibel change: $$\beta_2 - \beta_1 = -7.00 \text{ dB}$$
+- Decibel change: $$\beta_{2} - \beta_{1} = -7.00 \text{ dB}$$
 
 Finding the intensity ratio:
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">
@@ -912,12 +912,12 @@ $$I_2 = 8.00 \times 10^{-10} \text{ W/m}^2$$
 
 Given:
 - Original intensity: $$I_1 = 4.00 \times 10^{-9} \text{ W/m}^2$$
-- Decibel change: $$\beta_2 - \beta_1 = +3.00 \text{ dB}$$
+- Decibel change: $$\beta_{2} - \beta_{1} = +3.00 \text{ dB}$$
 
 Finding the intensity ratio:
 
 <div class="equation">
-$$\frac{I_2}{I_1} = 10^{(\beta_2-\beta_1)/10} = 10^{3.00/10} = 10^{0.300} = 2.00$$
+$$\frac{I_2}{I_1} = 10^{(\beta_{2}-\beta_{1})/10} = 10^{3.00/10} = 10^{0.300} = 2.00$$
 </div>
 
 Therefore:
@@ -960,19 +960,19 @@ The original intensity of $$4.00 \times 10^{-9}$$ W/m² corresponds to a very qu
 
 **Strategy**
 
-Both parts ask us to find intensity ratios from decibel differences. We use the relationship $$\beta_2 - \beta_1 = 10\log_{10}(I_2/I_1)$$, which we can rearrange to $$I_2/I_1 = 10^{(\beta_2-\beta_1)/10}$$.
+Both parts ask us to find intensity ratios from decibel differences. We use the relationship $$\beta_{2} - \beta_{1} = 10\log_{10}(I_2/I_1)$$, which we can rearrange to $$I_2/I_1 = 10^{(\beta_{2}-\beta_{1})/10}$$.
 
 **Solution**
 
 **Part (a):** Sound 17.0 dB higher
 
 Given:
-- Decibel difference: $$\beta_2 - \beta_1 = 17.0 \text{ dB}$$
+- Decibel difference: $$\beta_{2} - \beta_{1} = 17.0 \text{ dB}$$
 
 Finding the intensity ratio:
 
 <div class="equation">
-$$\frac{I_2}{I_1} = 10^{(\beta_2-\beta_1)/10} = 10^{17.0/10} = 10^{1.70}$$
+$$\frac{I_2}{I_1} = 10^{(\beta_{2}-\beta_{1})/10} = 10^{17.0/10} = 10^{1.70}$$
 </div>
 
 We can evaluate this as:
@@ -984,12 +984,12 @@ $$10^{1.70} = 10^1 \times 10^{0.70} = 10 \times 5.01 = 50.1$$
 **Part (b):** Sound 23.0 dB less
 
 Given:
-- Decibel difference: $$\beta_2 - \beta_1 = -23.0 \text{ dB}$$
+- Decibel difference: $$\beta_{2} - \beta_{1} = -23.0 \text{ dB}$$
 
 Finding the intensity ratio:
 
 <div class="equation">
-$$\frac{I_2}{I_1} = 10^{(\beta_2-\beta_1)/10} = 10^{-23.0/10} = 10^{-2.30}$$
+$$\frac{I_2}{I_1} = 10^{(\beta_{2}-\beta_{1})/10} = 10^{-23.0/10} = 10^{-2.30}$$
 </div>
 
 We can evaluate this as:
@@ -1115,14 +1115,14 @@ When multiple identical sound sources emit incoherently (with negligible interfe
 **Solution**
 
 Given:
-- Sound level of one fly: $$\beta_1 = 40.0 \text{ dB}$$
+- Sound level of one fly: $$\beta_{1} = 40.0 \text{ dB}$$
 - Number of flies: $$N = 1000$$
 - Reference intensity: $$I_0 = 10^{-12} \text{ W/m}^2$$
 
 **Step 1:** Find the intensity of one fly.
 
 <div class="equation">
-$$I_1 = I_0 \times 10^{\beta_1/10} = (10^{-12} \text{ W/m}^2) \times 10^{40.0/10}$$
+$$I_1 = I_0 \times 10^{\beta_{1}/10} = (10^{-12} \text{ W/m}^2) \times 10^{40.0/10}$$
 </div>
 
 <div class="equation">
@@ -1219,15 +1219,15 @@ $$I_1 = \frac{I_{\text{total}}}{N} = \frac{1 \text{ W/m}^2}{10} = 0.1 \text{ W/m
 **Step 3:** Convert the single-source intensity to decibels.
 
 <div class="equation">
-$$\beta_1 = 10\log_{10}\left(\frac{I_1}{I_0}\right)$$
+$$\beta_{1} = 10\log_{10}\left(\frac{I_1}{I_0}\right)$$
 </div>
 
 <div class="equation">
-$$\beta_1 = 10\log_{10}\left(\frac{10^{-1}}{10^{-12}}\right) = 10\log_{10}(10^{11})$$
+$$\beta_{1} = 10\log_{10}\left(\frac{10^{-1}}{10^{-12}}\right) = 10\log_{10}(10^{11})$$
 </div>
 
 <div class="equation">
-$$\beta_1 = 10 \times 11 = 110 \text{ dB}$$
+$$\beta_{1} = 10 \times 11 = 110 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -1269,7 +1269,7 @@ Given:
 **Step 1:** Find the intensity ratio from the decibel change.
 
 <div class="equation">
-$$\Delta\beta = \beta_2 - \beta_1 = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$\Delta\beta = \beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">

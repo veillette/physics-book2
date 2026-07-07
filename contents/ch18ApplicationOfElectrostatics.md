@@ -527,7 +527,7 @@ Using the electric field formula for a sphere:
 Solving for the charge magnitude:
 
 <div class="equation">
- $$q = \frac{Er_E^2}{k} = \frac{(150 \text{ N/C})(6.37 \times 10^6 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}$$
+ $$q = \frac{Er_{E}^2}{k} = \frac{(150 \text{ N/C})(6.37 \times 10^6 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}$$
 </div>
 
 <div class="equation">
@@ -780,7 +780,7 @@ force is supplied by Coulomb attraction.
 
 **Strategy**
 
-This problem combines electrostatics with circular motion. The Coulomb force provides the centripetal force needed for circular motion. We set $$F_c = F_e$$ where $$F_c = m\omega^2 r$$ and $$F_e = k\frac{e^2}{r^2}$$, then solve for the angular velocity $$\omega$$.
+This problem combines electrostatics with circular motion. The Coulomb force provides the centripetal force needed for circular motion. We set $$F_c = F_e$$ where $$F_c = m\omega^{2} r$$ and $$F_e = k\frac{e^2}{r^2}$$, then solve for the angular velocity $$\omega$$.
 
 **Solution**
 
@@ -799,23 +799,23 @@ The Coulomb force between electron and proton:
 The centripetal force required for circular motion:
 
 <div class="equation">
- $$F_c = m_e \omega^2 r$$
+ $$F_c = m_e \omega^{2} r$$
 </div>
 
 Setting them equal:
 
 <div class="equation">
- $$m_e \omega^2 r = k\frac{e^2}{r^2}$$
+ $$m_e \omega^{2} r = k\frac{e^2}{r^2}$$
 </div>
 
 Solving for $$\omega$$:
 
 <div class="equation">
- $$\omega^2 = \frac{ke^2}{m_e r^3}$$
+ $$\omega^{2} = \frac{ke^{2}}{m_e r^3}$$
 </div>
 
 <div class="equation">
- $$\omega = \sqrt{\frac{ke^2}{m_e r^3}}$$
+ $$\omega = \sqrt{\frac{ke^{2}}{m_e r^3}}$$
 </div>
 
 Substituting values:
@@ -1334,14 +1334,14 @@ Setting this equal to the weight:
 Solving for $$q$$:
 
 <div class="equation">
- $$q = \frac{3\sqrt{6}mgd^2}{8kQ}$$
+ $$q = \frac{3\sqrt{6}mgd^{2}}{8kQ}$$
 </div>
 
 **(b)** This equilibrium is **unstable** in the vertical direction. If $$Q$$ is displaced slightly upward, the electrostatic forces decrease (inverse square law), so weight dominates and pulls it back. However, if displaced downward, the electrostatic forces increase and can't restore it—gravity pulls it further down. Additionally, any horizontal displacement leads to a net horizontal force away from center (no restoring force), making the equilibrium unstable laterally as well.
 
 **Discussion**
 
-Part (a): The required charge on each corner is $$q = \frac{3\sqrt{6}mgd^2}{8kQ}$$. This expression shows that $$q$$ is proportional to the mass (heavier objects need stronger electrostatic support), proportional to $$d^2$$ (larger separation requires more charge to compensate for weaker fields), and inversely proportional to $$Q$$ (larger central charge experiences stronger forces from given corner charges).
+Part (a): The required charge on each corner is $$q = \frac{3\sqrt{6}mgd^{2}}{8kQ}$$. This expression shows that $$q$$ is proportional to the mass (heavier objects need stronger electrostatic support), proportional to $$d^2$$ (larger separation requires more charge to compensate for weaker fields), and inversely proportional to $$Q$$ (larger central charge experiences stronger forces from given corner charges).
 
 Part (b): While this configuration can theoretically support the weight, it's unstable—any perturbation grows rather than diminishes. This is similar to balancing a ball on top of a hill. In practice, such a levitation system would require active feedback control to maintain stability, making it impractical for passive levitation.
 

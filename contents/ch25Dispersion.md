@@ -243,7 +243,7 @@ We use Snell's law for each wavelength separately. From [[Table 1]](#Table1), wa
 
 For red light (660 nm):
 <div class="equation">
-$$n_{\text{air}} \sin \theta_1 = n_{\text{red}} \sin \theta_{2,\text{red}}$$
+$$n_{\text{air}} \sin \theta_{1} = n_{\text{red}} \sin \theta_{2,\text{red}}$$
 </div>
 
 <div class="equation">
@@ -285,7 +285,7 @@ By how much do the critical angles for red (660 nm) and violet (410 nm) light di
 
 **Strategy**
 
-We calculate the critical angle for each wavelength using $$\theta_c = \sin^{-1}(n_{\text{air}}/n_{\text{diamond}})$$ and find the difference.
+We calculate the critical angle for each wavelength using $$\theta_{c} = \sin^{-1}(n_{\text{air}}/n_{\text{diamond}})$$ and find the difference.
 
 **Solution**
 
@@ -305,7 +305,7 @@ $$\theta_{c,\text{violet}} = \sin^{-1}\left(\frac{1.00}{2.458}\right) = \sin^{-1
 
 Difference:
 <div class="equation">
-$$\Delta \theta_c = 24.5° - 24.0° = 0.5°$$
+$$\Delta \theta_{c} = 24.5° - 24.0° = 0.5°$$
 </div>
 
 **Answer:** The critical angles differ by **0.5°**.
@@ -407,7 +407,7 @@ We apply Snell's law for each wavelength separately and find the difference in r
 
 For orange light:
 <div class="equation">
-$$n_{\text{quartz}} \sin \theta_1 = n_{\text{water}} \sin \theta_{2,\text{orange}}$$
+$$n_{\text{quartz}} \sin \theta_{1} = n_{\text{water}} \sin \theta_{2,\text{orange}}$$
 </div>
 
 <div class="equation">
@@ -461,28 +461,28 @@ First find the angle of refraction for 610 nm light in fused quartz using Snell'
 
 For 610 nm (orange) light in fused quartz:
 <div class="equation">
-$$n_{\text{air}} \sin(55.0°) = n_{\text{quartz}} \sin \theta_2$$
+$$n_{\text{air}} \sin(55.0°) = n_{\text{quartz}} \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{\sin(55.0°)}{1.456} = \frac{0.8192}{1.456} = 0.5626$$
+$$\sin \theta_{2} = \frac{\sin(55.0°)}{1.456} = \frac{0.8192}{1.456} = 0.5626$$
 </div>
 
 <div class="equation">
-$$\theta_2 = 34.2°$$
+$$\theta_{2} = 34.2°$$
 </div>
 
 Now for 470 nm (blue) light in flint glass with the same refraction angle:
 <div class="equation">
-$$n_{\text{air}} \sin \theta_1 = n_{\text{flint}} \sin(34.2°)$$
+$$n_{\text{air}} \sin \theta_{1} = n_{\text{flint}} \sin(34.2°)$$
 </div>
 
 <div class="equation">
-$$\sin \theta_1 = 1.684 \times \sin(34.2°) = 1.684 \times 0.5626 = 0.9474$$
+$$\sin \theta_{1} = 1.684 \times \sin(34.2°) = 1.684 \times 0.5626 = 0.9474$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \sin^{-1}(0.9474) = 71.3°$$
+$$\theta_{1} = \sin^{-1}(0.9474) = 71.3°$$
 </div>
 
 **Answer:** The 470 nm light must enter flint glass at **71.3°** to have the same angle of refraction.
@@ -536,7 +536,7 @@ $$\theta_{2,\text{blue}} = 19.2°$$
 
 The lateral displacement for each color is:
 <div class="equation">
-$$d = \frac{t \sin(\theta_1 - \theta_2)}{\cos \theta_2}$$
+$$d = \frac{t \sin(\theta_{1} - \theta_{2})}{\cos \theta_{2}}$$
 </div>
 
 For red:
@@ -616,7 +616,7 @@ $$\theta_{2,\text{violet}} = 27.52°$$
 
 **Second surface (exit):**
 
-For an equilateral prism, the angle at which the refracted ray hits the second surface is $$\theta_3 = 60° - \theta_2$$.
+For an equilateral prism, the angle at which the refracted ray hits the second surface is $$\theta_{3} = 60° - \theta_{2}$$.
 
 For red: $$\theta_{3,\text{red}} = 60° - 27.88° = 32.12°$$
 

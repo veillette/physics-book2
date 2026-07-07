@@ -446,7 +446,7 @@ $$ \Delta m = 2m({}^{1}\text{H}) - [m({}^{2}\text{H}) + m_e] = 2(1.007825) - [2.
 $$ E_1 = (0.000999)(931.5) = 0.931 \text{ MeV} $$
 </div>
 
-However, the positron will annihilate with an electron, releasing $$2m_ec^2 = 1.022$$ MeV, but this is external to the nucleus. The nuclear energy release is 0.931 MeV. The text gives 0.42 MeV, which is the energy carried away by the positron and neutrino (kinetic energy), not the total Q-value. Let me recalculate using the Q-value approach properly:
+However, the positron will annihilate with an electron, releasing $$2m_ec^{2} = 1.022$$ MeV, but this is external to the nucleus. The nuclear energy release is 0.931 MeV. The text gives 0.42 MeV, which is the energy carried away by the positron and neutrino (kinetic energy), not the total Q-value. Let me recalculate using the Q-value approach properly:
 
 <div class="equation">
 $$ Q = [2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e]c^2 = [2(1.007825) - 2.014102 - 2(0.000549)] \times 931.5 = 0.420 \text{ MeV} $$
@@ -760,11 +760,11 @@ annihilate electrons to form more  $$\gamma  $$  rays.
 
 **Strategy**
 
-Calculate using $$E = (4m({}^{1}\text{H}) - m({}^{4}\text{He}))c^{2}$$, which is the same as for the p-p cycle since the carbon is just a catalyst. Add 2 positron annihilations ($$2 \times 2m_ec^2 = 2.044$$ MeV).
+Calculate using $$E = (4m({}^{1}\text{H}) - m({}^{4}\text{He}))c^{2}$$, which is the same as for the p-p cycle since the carbon is just a catalyst. Add 2 positron annihilations ($$2 \times 2m_ec^{2} = 2.044$$ MeV).
 
 **Solution**
 
-(a) Net reaction: $$4{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_e + 7\gamma$$
+(a) Net reaction: $$4{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_{e} + 7\gamma$$
 
 Nuclear energy: $$E = [4(1.007825) - 4.002603] \times 931.5 = 26.73 \text{ MeV}$$
 

@@ -378,12 +378,12 @@ The 5.00 A current through a 1.50 H inductor is dissipated by a  $$2.00 \text{Ω
 
 **Strategy**
 
-Energy in an inductor is $$U = \frac{1}{2}LI^2$$. For decay, $$I = I_0 e^{-t/\tau}$$ where $$\tau = L/R$$. Average power equals total energy divided by time.
+Energy in an inductor is $$U = \frac{1}{2}LI^{2}$$. For decay, $$I = I_0 e^{-t/\tau}$$ where $$\tau = L/R$$. Average power equals total energy divided by time.
 
 **Solution for (a)**
 
 <div class="equation">
-$$U = \frac{1}{2}LI_0^2 = \frac{1}{2}(1.50)(5.00)^2 = \frac{1}{2}(1.50)(25.0) = 18.8 \text{ J}$$
+$$U = \frac{1}{2}LI_{0}^2 = \frac{1}{2}(1.50)(5.00)^2 = \frac{1}{2}(1.50)(25.0) = 18.8 \text{ J}$$
 </div>
 
 **Solution for (b)**

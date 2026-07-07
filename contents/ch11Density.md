@@ -681,8 +681,8 @@ A trash compactor can reduce the volume of its contents to 0.350 their original 
 Since mass is conserved (neglecting expelled air), use the density formula $$ \rho = m/V $$ to find how density changes when volume decreases.
 
 **Solution:**
-Let the original density be $$ \rho_0 $$ with original volume $$ V_0 $$ and mass $$ m $$:
-$$ \rho_0 = \frac{m}{V_0} $$
+Let the original density be $$ \rho_{0} $$ with original volume $$ V_0 $$ and mass $$ m $$:
+$$ \rho_{0} = \frac{m}{V_0} $$
 
 After compaction, the new volume is:
 $$ V_{\text{new}} = 0.350 \cdot V_0 $$
@@ -691,7 +691,7 @@ The new density (with mass unchanged) is:
 $$ \rho_{\text{new}} = \frac{m}{V_{\text{new}}} = \frac{m}{0.350 \cdot V_0} $$
 
 The ratio of new density to original density:
-$$ \frac{\rho_{\text{new}}}{\rho_0} = \frac{m/(0.350 \cdot V_0)}{m/V_0} = \frac{1}{0.350} = 2.86 $$
+$$ \frac{\rho_{\text{new}}}{\rho_{0}} = \frac{m/(0.350 \cdot V_0)}{m/V_0} = \frac{1}{0.350} = 2.86 $$
 
 **Discussion:**
 The density of the compacted rubbish is increased by a factor of approximately **2.86** (or about 2.9). This makes physical sense: if the volume is reduced to about one-third while mass stays constant, the density must roughly triple. Trash compactors are effective because they reduce waste volume significantly, allowing more trash to fit in the same container or landfill space. The expelled air has negligible mass compared to the solid waste, making our assumption reasonable.

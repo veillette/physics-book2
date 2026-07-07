@@ -528,13 +528,13 @@ According to the text, at a given frequency, it is possible to discern differenc
 **Solution**
 
 Given:
-- Current intensity level: $$\beta_1 = 85 \text{ dB}$$
+- Current intensity level: $$\beta_{1} = 85 \text{ dB}$$
 - Minimum clearly noticeable change: $$\Delta \beta = 3 \text{ dB}$$
 
 The next lowest clearly distinguishable intensity level is:
 
 <div class="equation">
-$$\beta_2 = \beta_1 - \Delta \beta = 85 \text{ dB} - 3 \text{ dB} = 82 \text{ dB}$$
+$$\beta_{2} = \beta_{1} - \Delta \beta = 85 \text{ dB} - 3 \text{ dB} = 82 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -562,8 +562,8 @@ We need to determine if a 3 dB change in sound intensity level is perceptible. A
 **Solution**
 
 Given:
-- Initial intensity level: $$\beta_1 = 70 \text{ dB}$$
-- Final intensity level: $$\beta_2 = 73 \text{ dB}$$
+- Initial intensity level: $$\beta_{1} = 70 \text{ dB}$$
+- Final intensity level: $$\beta_{2} = 73 \text{ dB}$$
 - Change in intensity level: $$\Delta \beta = 73 - 70 = 3 \text{ dB}$$
 
 Since the text states that "a change of 3 dB is easily noticed," yes, you would be able to tell that your roommate turned up the sound.
@@ -571,7 +571,7 @@ Since the text states that "a change of 3 dB is easily noticed," yes, you would 
 To understand what this change represents in terms of actual intensity, we can calculate the intensity ratio:
 
 <div class="equation">
-$$\beta_2 - \beta_1 = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
 </div>
 
 <div class="equation">

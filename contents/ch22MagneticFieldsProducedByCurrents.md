@@ -41,12 +41,12 @@ The **magnetic field strength (magnitude) produced by a long straight
 current-carrying wire** is found by experiment to be
 
 <div class="equation" >
- $$B=\frac{ \mu_0 I}{2 \pi r} \left(\text{long straight wire}\right), $$
+ $$B=\frac{ \mu_{0} I}{2 \pi r} \left(\text{long straight wire}\right), $$
 </div>
 
 where $$I $$ is the current, $$r $$ is the shortest distance to the wire, and
-the constant $$\mu_0 =4\pi \times 10^{-7} \text{T} \cdot \text{m/A} $$ is the **permeability of free space**. ( $$\mu_0 $$ is one of the basic constants in
-nature. We will see later that $$\mu_0 $$ is related to the speed of light.)
+the constant $$\mu_{0} =4\pi \times 10^{-7} \text{T} \cdot \text{m/A} $$ is the **permeability of free space**. ( $$\mu_{0} $$ is one of the basic constants in
+nature. We will see later that $$\mu_{0} $$ is related to the speed of light.)
 Since the wire is very long, the magnitude of the field depends only on distance
 from the wire $$r $$ , not on position along the wire.
 
@@ -61,7 +61,7 @@ Find the current in a long straight wire that would produce a magnetic field twi
 **Strategy**
 
 The Earth’s field is about $$ 5.0 \times 10^{-5} \text{T} $$ , and so here $$B $$ due to the wire is taken to be $$ 1.0 \times 10^{-4} \text{T} $$ . The
-equation $$B=\frac{ \mu_0 I}{2 \pi r} $$ can be used to find $$I $$ , since all
+equation $$B=\frac{ \mu_{0} I}{2 \pi r} $$ can be used to find $$I $$ , since all
 other quantities are known.
 
 **Solution**
@@ -69,7 +69,7 @@ other quantities are known.
 Solving for $$I $$ and entering known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}I& =& \frac{2\pi \text{rB}}{ \mu_0 }=\frac{2\pi \left( 5.0 \times 10^{-2}  m\right)\left( 1.0 \times 10^{-4} \text{T}\right)}{4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}}\\ & =& 25 \text{A} \text{.} \end{array} $$
+ $$\begin{array}{lll}I& =& \frac{2\pi \text{rB}}{ \mu_{0} }=\frac{2\pi \left( 5.0 \times 10^{-2}  m\right)\left( 1.0 \times 10^{-4} \text{T}\right)}{4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}}\\ & =& 25 \text{A} \text{.} \end{array} $$
 </div>
 
 **Discussion**
@@ -127,7 +127,7 @@ are needed for more detail. There is a simple formula for the **magnetic field
 strength at the center of a circular loop**. It is
 
 <div class="equation" >
- $$B=\frac{ \mu_0 I}{2R} \left(\text{at center of loop}\right)\text{,} $$
+ $$B=\frac{ \mu_{0} I}{2R} \left(\text{at center of loop}\right)\text{,} $$
 </div>
 
 where $$R $$ is the radius of the loop. This equation is very similar to that
@@ -158,7 +158,7 @@ direction. The field outside has similar complexities to flat loops and bar
 magnets, but the **magnetic field strength inside a solenoid** is simply
 
 <div class="equation" >
- $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
+ $$B=\mu_{0} \text{nI}  \left(\text{inside a solenoid}\right), $$
 </div>
 
 where $$n $$ is the number of loops per unit length of the solenoid $$\left( n=N/l \right) $$ , with $$N $$ being the number of loops and $$l $$ the length.
@@ -176,7 +176,7 @@ What is the field inside a 2.00-m-long solenoid that has 2000 loops and carries 
 
 **Strategy**
 
-To find the field strength inside a solenoid, we use $$B=\mu_0 \text{nI} $$ .
+To find the field strength inside a solenoid, we use $$B=\mu_{0} \text{nI} $$ .
 First, we note the number of loops per unit length is
 
 <div class="equation" >
@@ -188,7 +188,7 @@ First, we note the number of loops per unit length is
 Substituting known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}B& =& \mu_0 \text{nI}=\left(4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}\right)\left(1000 {m}^{-1}\right)\left(1600 \text{A}\right)\\ & =& 2.01 \text{T} \text{.} \end{array} $$
+ $$\begin{array}{lll}B& =& \mu_{0} \text{nI}=\left(4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}\right)\left(1000 {m}^{-1}\right)\left(1600 \text{A}\right)\\ & =& 2.01 \text{T} \text{.} \end{array} $$
 </div>
 
 **Discussion**
@@ -237,12 +237,12 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   is given by
 
   <div class="equation" >
-   $$B=\frac{ \mu_0 I}{2 \pi r}\left(\text{long straight wire}\right), $$
+   $$B=\frac{ \mu_{0} I}{2 \pi r}\left(\text{long straight wire}\right), $$
   </div>
 
    where $$I $$ is the current,
    $$r $$ is the shortest distance to the wire, and the constant
-   $$\mu_0 =4\pi  \times 10^{-7} \text{T}\cdot \text{m/A} $$ is the permeability of free space.
+   $$\mu_{0} =4\pi  \times 10^{-7} \text{T}\cdot \text{m/A} $$ is the permeability of free space.
 
 - The direction of the magnetic field created by a long straight wire is given
   by right-hand rule 2 (RHR-2): _Point the thumb of the right hand in the
@@ -254,15 +254,15 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
   current and field known as Ampere’s law.
 - The magnetic field strength at the center of a circular loop is given by
   <div class="equation" >
-   $$B=\frac{ \mu_0 I}{2R} \left(\text{at center of loop}\right), $$
+   $$B=\frac{ \mu_{0} I}{2R} \left(\text{at center of loop}\right), $$
   </div>
 
    where $$R $$ is the radius of the loop. This equation becomes
-   $$B=\mu_0 \text{nI}/\left(2R\right) $$ for a flat coil of
+   $$B=\mu_{0} \text{nI}/\left(2R\right) $$ for a flat coil of
    $$N $$ loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.
 - The magnetic field strength inside a solenoid is
   <div class="equation" >
-   $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
+   $$B=\mu_{0} \text{nI}  \left(\text{inside a solenoid}\right), $$
   </div>
 
   where $$n $$ is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.
@@ -290,20 +290,20 @@ current-carrying wire: Point the thumb of the right hand in the direction of
 current, and the fingers curl in the direction of the magnetic field loops
 
 magnetic field strength (magnitude) produced by a long straight current-carrying wire
-: defined as $$B=\frac{ \mu_0 I}{2 \pi r} $$ , where $$I $$ is the current, $$r $$ is the shortest distance to the wire, and $$\mu_0 $$ is the permeability of free space
+: defined as $$B=\frac{ \mu_{0} I}{2 \pi r} $$ , where $$I $$ is the current, $$r $$ is the shortest distance to the wire, and $$\mu_{0} $$ is the permeability of free space
 
 permeability of free space
-: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant $$\mu_0 =4\pi \times 10^{-7} \text{T}\cdot \text{m/A} $$
+: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant $$\mu_{0} =4\pi \times 10^{-7} \text{T}\cdot \text{m/A} $$
 
 magnetic field strength at the center of a circular loop
-: defined as $$B=\frac{ \mu_0 I}{2R} $$ where $$R $$ is the radius of the loop
+: defined as $$B=\frac{ \mu_{0} I}{2R} $$ where $$R $$ is the radius of the loop
 
 solenoid
 : a thin wire wound into a coil that produces a magnetic field when an electric
 current is passed through it
 
 magnetic field strength inside a solenoid
-: defined as $$B=\mu_0 \text{nI} $$ where $$n $$ is the number of loops per unit
+: defined as $$B=\mu_{0} \text{nI} $$ where $$n $$ is the number of loops per unit
 length of the solenoid $$\left(n=N/l \right) $$ , with $$N $$ being the number
 of loops and $$l $$ the length
 

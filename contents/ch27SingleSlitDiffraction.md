@@ -174,15 +174,15 @@ Given:
 **(a) First minimum (m = 1):**
 
 <div class="equation">
-$$D \sin \theta_1 = m\lambda = (1)\lambda$$
+$$D \sin \theta_{1} = m\lambda = (1)\lambda$$
 </div>
 
 <div class="equation">
-$$\sin \theta_1 = \frac{\lambda}{D} = \frac{550 \times 10^{-9}}{1.00 \times 10^{-6}} = 0.550$$
+$$\sin \theta_{1} = \frac{\lambda}{D} = \frac{550 \times 10^{-9}}{1.00 \times 10^{-6}} = 0.550$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \arcsin(0.550) = 33.4°$$
+$$\theta_{1} = \arcsin(0.550) = 33.4°$$
 </div>
 
 **The first minimum occurs at 33.4°.**
@@ -190,7 +190,7 @@ $$\theta_1 = \arcsin(0.550) = 33.4°$$
 **(b) Second minimum (m = 2):**
 
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(550 \times 10^{-9})}{1.00 \times 10^{-6}} = 1.10$$
+$$\sin \theta_{2} = \frac{2\lambda}{D} = \frac{2(550 \times 10^{-9})}{1.00 \times 10^{-6}} = 1.10$$
 </div>
 
 Since $$\sin \theta$$ cannot exceed 1, **there is no second minimum.** The value of 1.10 is physically impossible.
@@ -276,7 +276,7 @@ This problem gives us the angle of the first minimum and asks us to find the sli
 
 Given:
 - Wavelength: $$\lambda = 633 \text{ nm} = 633 \times 10^{-9} \text{ m}$$
-- First minimum angle: $$\theta_1 = 28.0°$$
+- First minimum angle: $$\theta_{1} = 28.0°$$
 - First minimum: $$m = 1$$
 
 **(a) Slit width:**
@@ -284,13 +284,13 @@ Given:
 For the first minimum:
 
 <div class="equation">
-$$D \sin \theta_1 = m\lambda = (1)\lambda$$
+$$D \sin \theta_{1} = m\lambda = (1)\lambda$$
 </div>
 
 Solving for D:
 
 <div class="equation">
-$$D = \frac{\lambda}{\sin \theta_1} = \frac{633 \times 10^{-9}}{\sin 28.0°} = \frac{633 \times 10^{-9}}{0.469}$$
+$$D = \frac{\lambda}{\sin \theta_{1}} = \frac{633 \times 10^{-9}}{\sin 28.0°} = \frac{633 \times 10^{-9}}{0.469}$$
 </div>
 
 <div class="equation">
@@ -304,15 +304,15 @@ $$D = 1.35 \times 10^{-6} \text{ m} = 1.35 \text{ μm}$$
 For the second minimum (m = 2):
 
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(633 \times 10^{-9})}{1.35 \times 10^{-6}} = \frac{1266 \times 10^{-9}}{1.35 \times 10^{-6}}$$
+$$\sin \theta_{2} = \frac{2\lambda}{D} = \frac{2(633 \times 10^{-9})}{1.35 \times 10^{-6}} = \frac{1266 \times 10^{-9}}{1.35 \times 10^{-6}}$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = 0.938$$
+$$\sin \theta_{2} = 0.938$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \arcsin(0.938) = 69.9°$$
+$$\theta_{2} = \arcsin(0.938) = 69.9°$$
 </div>
 
 **The second minimum occurs at 69.9°.**
@@ -636,7 +636,7 @@ For each sodium D-line wavelength, we calculate the angle of the first minimum u
 **Solution**
 
 Given:
-- Wavelengths: $$\lambda_1 = 589.1 \text{ nm}$$ and $$\lambda_2 = 589.6 \text{ nm}$$
+- Wavelengths: $$\lambda_{1} = 589.1 \text{ nm}$$ and $$\lambda_{2} = 589.6 \text{ nm}$$
 - Slit width: $$D = 2.00 \text{ μm} = 2.00 \times 10^{-6} \text{ m}$$
 - Screen distance: $$L = 1.00 \text{ m}$$
 
@@ -645,25 +645,25 @@ Given:
 For the first minimum (m = 1) of each wavelength:
 
 <div class="equation">
-$$\sin \theta_1 = \frac{\lambda_1}{D} = \frac{589.1 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29455$$
+$$\sin \theta_{1} = \frac{\lambda_{1}}{D} = \frac{589.1 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29455$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \arcsin(0.29455) = 17.125°$$
+$$\theta_{1} = \arcsin(0.29455) = 17.125°$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{\lambda_2}{D} = \frac{589.6 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29480$$
+$$\sin \theta_{2} = \frac{\lambda_{2}}{D} = \frac{589.6 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29480$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \arcsin(0.29480) = 17.140°$$
+$$\theta_{2} = \arcsin(0.29480) = 17.140°$$
 </div>
 
 The angle difference is:
 
 <div class="equation">
-$$\Delta \theta = \theta_2 - \theta_1 = 17.140° - 17.125° = 0.0150°$$
+$$\Delta \theta = \theta_{2} - \theta_{1} = 17.140° - 17.125° = 0.0150°$$
 </div>
 
 **The angle between the first minima is 0.0150°.**
@@ -794,16 +794,16 @@ For visible light (λ ≈ 500 nm), a slit width of 1000λ = 0.5 mm would produce
 
 **Strategy**
 
-Given the first minimum angle, we can determine the ratio D/λ. From this, we calculate angles for higher-order minima using $$D \sin \theta_m = m\lambda$$, which can be rewritten as $$\sin \theta_m = m \sin \theta_1$$ since $$D = \lambda/\sin \theta_1$$.
+Given the first minimum angle, we can determine the ratio D/λ. From this, we calculate angles for higher-order minima using $$D \sin \theta_{m} = m\lambda$$, which can be rewritten as $$\sin \theta_{m} = m \sin \theta_{1}$$ since $$D = \lambda/\sin \theta_{1}$$.
 
 **Solution**
 
 Given:
-- First minimum angle: $$\theta_1 = 14.5°$$
+- First minimum angle: $$\theta_{1} = 14.5°$$
 
 From the first minimum (m = 1):
 <div class="equation">
-$$D \sin \theta_1 = \lambda$$
+$$D \sin \theta_{1} = \lambda$$
 </div>
 
 <div class="equation">
@@ -813,11 +813,11 @@ $$\frac{D}{\lambda} = \frac{1}{\sin 14.5°} = \frac{1}{0.2504} = 3.994$$
 **(a) Second-order minimum (m = 2):**
 
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{D} = 2 \sin \theta_1 = 2(0.2504) = 0.5008$$
+$$\sin \theta_{2} = \frac{2\lambda}{D} = 2 \sin \theta_{1} = 2(0.2504) = 0.5008$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \arcsin(0.5008) = 30.1°$$
+$$\theta_{2} = \arcsin(0.5008) = 30.1°$$
 </div>
 
 **The second-order minimum occurs at 30.1°.**
@@ -825,11 +825,11 @@ $$\theta_2 = \arcsin(0.5008) = 30.1°$$
 **(b) Third-order minimum (m = 3):**
 
 <div class="equation">
-$$\sin \theta_3 = \frac{3\lambda}{D} = 3 \sin \theta_1 = 3(0.2504) = 0.7512$$
+$$\sin \theta_{3} = \frac{3\lambda}{D} = 3 \sin \theta_{1} = 3(0.2504) = 0.7512$$
 </div>
 
 <div class="equation">
-$$\theta_3 = \arcsin(0.7512) = 48.7°$$
+$$\theta_{3} = \arcsin(0.7512) = 48.7°$$
 </div>
 
 **The third-order minimum occurs at 48.7°.**
@@ -837,29 +837,29 @@ $$\theta_3 = \arcsin(0.7512) = 48.7°$$
 **(c) Fourth-order minimum (m = 4):**
 
 <div class="equation">
-$$\sin \theta_4 = 4 \sin \theta_1 = 4(0.2504) = 1.002 > 1$$
+$$\sin \theta_{4} = 4 \sin \theta_{1} = 4(0.2504) = 1.002 > 1$$
 </div>
 
 Since $$\sin \theta$$ cannot exceed 1, **there is no fourth-order minimum.**
 
 **(d) Comparison of angular widths:**
 
-The **central maximum** extends from $$-\theta_1$$ to $$+\theta_1$$, so its angular width is:
+The **central maximum** extends from $$-\theta_{1}$$ to $$+\theta_{1}$$, so its angular width is:
 <div class="equation">
-$$\text{Width of central maximum} = 2\theta_1 = 2(14.5°) = 29.0°$$
+$$\text{Width of central maximum} = 2\theta_{1} = 2(14.5°) = 29.0°$$
 </div>
 
 The **first secondary maximum** lies between the first and second minima, so its angular width is:
 <div class="equation">
-$$\text{Width of first secondary maximum} = \theta_2 - \theta_1 = 30.1° - 14.5° = 15.6°$$
+$$\text{Width of first secondary maximum} = \theta_{2} - \theta_{1} = 30.1° - 14.5° = 15.6°$$
 </div>
 
 Comparing these:
 <div class="equation">
-$$\frac{2\theta_1}{\theta_2 - \theta_1} = \frac{29.0°}{15.6°} = 1.86 \approx 2$$
+$$\frac{2\theta_{1}}{\theta_{2} - \theta_{1}} = \frac{29.0°}{15.6°} = 1.86 \approx 2$$
 </div>
 
-Alternatively: $$2(\theta_2 - \theta_1) = 2(15.6°) = 31.2° \approx 29.0°$$
+Alternatively: $$2(\theta_{2} - \theta_{1}) = 2(15.6°) = 31.2° \approx 29.0°$$
 
 This demonstrates that **the central maximum is approximately twice as wide as the first secondary maximum.**
 
@@ -913,27 +913,27 @@ Boats are most protected at the minima of the diffraction pattern:
 **First minimum (m = 1):**
 
 <div class="equation">
-$$\sin \theta_1 = \frac{\lambda}{D} = \frac{20.0 \text{ m}}{50.0 \text{ m}} = 0.400$$
+$$\sin \theta_{1} = \frac{\lambda}{D} = \frac{20.0 \text{ m}}{50.0 \text{ m}} = 0.400$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \arcsin(0.400) = 23.6°$$
+$$\theta_{1} = \arcsin(0.400) = 23.6°$$
 </div>
 
 **Second minimum (m = 2):**
 
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(20.0 \text{ m})}{50.0 \text{ m}} = 0.800$$
+$$\sin \theta_{2} = \frac{2\lambda}{D} = \frac{2(20.0 \text{ m})}{50.0 \text{ m}} = 0.800$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \arcsin(0.800) = 53.1°$$
+$$\theta_{2} = \arcsin(0.800) = 53.1°$$
 </div>
 
 **Check for third minimum (m = 3):**
 
 <div class="equation">
-$$\sin \theta_3 = \frac{3\lambda}{D} = \frac{3(20.0)}{50.0} = 1.20 > 1 \text{ (impossible)}$$
+$$\sin \theta_{3} = \frac{3\lambda}{D} = \frac{3(20.0)}{50.0} = 1.20 > 1 \text{ (impossible)}$$
 </div>
 
 **Boats inside the harbor are most protected at angles of 23.6° and 53.1° from the incident direction.**

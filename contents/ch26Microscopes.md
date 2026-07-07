@@ -651,7 +651,7 @@ When light exits the specimen (with refractive index $$n \approx 1.5$$ for biolo
 - Large refractive index mismatch causes significant refraction
 - Light rays at steep angles undergo **total internal reflection** at the glass-air interface
 - These rays never reach the objective lens
-- Critical angle: $$\theta_c = \sin^{-1}(n_{\text{air}}/n_{\text{glass}}) = \sin^{-1}(1.00/1.52) \approx 41°$$
+- Critical angle: $$\theta_{c} = \sin^{-1}(n_{\text{air}}/n_{\text{glass}}) = \sin^{-1}(1.00/1.52) \approx 41°$$
 
 **With oil immersion:**
 - Immersion oil ($$n \approx 1.51$$) closely matches the coverslip ($$n \approx 1.52$$)
@@ -1142,38 +1142,38 @@ Given values:
 
 **For the 1.40 NA 60× objective:**
 
-Calculate the half-angle $$\alpha_1$$:
+Calculate the half-angle $$\alpha_{1}$$:
 
 <div class="equation">
- $$\sin \alpha_1 = \frac{\text{NA}_1}{n} = \frac{1.40}{1.51} = 0.927$$
+ $$\sin \alpha_{1} = \frac{\text{NA}_1}{n} = \frac{1.40}{1.51} = 0.927$$
 </div>
 
 <div class="equation">
- $$\alpha_1 = \arcsin(0.927) = 68.0°$$
+ $$\alpha_{1} = \arcsin(0.927) = 68.0°$$
 </div>
 
 The full acceptance angle for the first objective:
 
 <div class="equation">
- $$\theta_1 = 2\alpha_1 = 2(68.0°) = 136°$$
+ $$\theta_{1} = 2\alpha_{1} = 2(68.0°) = 136°$$
 </div>
 
 **For the 0.35 NA 20× objective:**
 
-Calculate the half-angle $$\alpha_2$$:
+Calculate the half-angle $$\alpha_{2}$$:
 
 <div class="equation">
- $$\sin \alpha_2 = \frac{\text{NA}_2}{n} = \frac{0.35}{1.51} = 0.232$$
+ $$\sin \alpha_{2} = \frac{\text{NA}_2}{n} = \frac{0.35}{1.51} = 0.232$$
 </div>
 
 <div class="equation">
- $$\alpha_2 = \arcsin(0.232) = 13.4°$$
+ $$\alpha_{2} = \arcsin(0.232) = 13.4°$$
 </div>
 
 The full acceptance angle for the second objective:
 
 <div class="equation">
- $$\theta_2 = 2\alpha_2 = 2(13.4°) = 26.8°$$
+ $$\theta_{2} = 2\alpha_{2} = 2(13.4°) = 26.8°$$
 </div>
 
 **Comparison:**
@@ -1328,29 +1328,29 @@ Given values:
 **For the 0.10 NA, 4× objective:**
 
 <div class="equation">
- $$\sin \alpha_1 = \frac{\text{NA}_1}{n} = \frac{0.10}{1.00} = 0.10$$
+ $$\sin \alpha_{1} = \frac{\text{NA}_1}{n} = \frac{0.10}{1.00} = 0.10$$
 </div>
 
 <div class="equation">
- $$\alpha_1 = \arcsin(0.10) = 5.74°$$
+ $$\alpha_{1} = \arcsin(0.10) = 5.74°$$
 </div>
 
 <div class="equation">
- $$\theta_1 = 2\alpha_1 = 2(5.74°) = 11.5°$$
+ $$\theta_{1} = 2\alpha_{1} = 2(5.74°) = 11.5°$$
 </div>
 
 **For the 0.65 NA, 40× objective:**
 
 <div class="equation">
- $$\sin \alpha_2 = \frac{\text{NA}_2}{n} = \frac{0.65}{1.00} = 0.65$$
+ $$\sin \alpha_{2} = \frac{\text{NA}_2}{n} = \frac{0.65}{1.00} = 0.65$$
 </div>
 
 <div class="equation">
- $$\alpha_2 = \arcsin(0.65) = 40.5°$$
+ $$\alpha_{2} = \arcsin(0.65) = 40.5°$$
 </div>
 
 <div class="equation">
- $$\theta_2 = 2\alpha_2 = 2(40.5°) = 81.0°$$
+ $$\theta_{2} = 2\alpha_{2} = 2(40.5°) = 81.0°$$
 </div>
 
 **Discussion**

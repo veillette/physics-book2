@@ -843,7 +843,7 @@ $$ v = 0 + (4.50)(2.40) = 10.8 \ms $$
 The position as a function of time for constant acceleration starting from rest is given by:
 
 <div class="equation">
-$$ x = \frac{1}{2}at^2 = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
+$$ x = \frac{1}{2}at^{2} = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
 </div>
 
 This is a parabolic function, as shown in the graph below. The position increases quadratically with time, and the slope of the graph (which represents velocity) increases linearly with time.
@@ -1098,7 +1098,7 @@ A car starts from rest (initial position $$x_0 = 0$$, initial velocity $$v_0 = 0
 **Choosing the equation:** We have $$ v_0 $$, $$ a $$, and $$ t $$, and we need to find $$ x $$. The most appropriate equation is:
 
 <div class="equation">
-$$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 This equation is ideal because it relates displacement to acceleration and time without requiring knowledge of final velocity.
@@ -1108,7 +1108,7 @@ This equation is ideal because it relates displacement to acceleration and time 
 Since $$ x_0 = 0 $$ and $$ v_0 = 0 $$, the equation simplifies to:
 
 <div class="equation">
-$$ x = \frac{1}{2}at^2 $$
+$$ x = \frac{1}{2}at^{2} $$
 </div>
 
 Substituting the known values:
@@ -1205,7 +1205,7 @@ The runner decelerates at a constant rate. For part (a), we use the kinematic eq
 
 2. Use the kinematic equation:
 <div class="equation">
-$$ x = v_0 t + \frac{1}{2}at^2 $$
+$$ x = v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -1465,7 +1465,7 @@ $$ a = \frac{v - v_0}{t} = \frac{26.8 \ms - 0}{3.90 \s} = 6.87 \mss $$
 Use the kinematic equation:
 
 <div class="equation">
-$$ x = x_0 + v_0 t + \frac{1}{2}at^2 = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)^2 $$
+$$ x = x_0 + v_0 t + \frac{1}{2}at^{2} = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)^2 $$
 </div>
 
 <div class="equation">
@@ -1545,7 +1545,7 @@ $$ t = \frac{v - v_0}{a} = \frac{0 - 28.0}{-0.550} = \frac{-28.0}{-0.550} = 50.9
 **Distance during acceleration (8.00 min = 480 s):**
 
 <div class="equation">
-$$ x_{\text{accel}} = v_0 t + \frac{1}{2}at^2 $$
+$$ x_{\text{accel}} = v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
@@ -1559,7 +1559,7 @@ $$ x_{\text{accel}} = 1920 + \frac{1}{2}(0.0500)(230400) = 1920 + 5760 = 7680 \m
 **Distance during deceleration (50.9 s):**
 
 <div class="equation">
-$$ x_{\text{decel}} = v_0 t + \frac{1}{2}at^2 $$
+$$ x_{\text{decel}} = v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
@@ -2132,7 +2132,7 @@ The train decelerates at a constant rate as it passes through the station. We ne
 
 The nose travels a distance of 210 m. We know $$ v_0 $$, $$ a $$, and $$ x - x_0 $$, and need to find $$ t $$.
 
-**Choosing the equation:** Use $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$
+**Choosing the equation:** Use $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 Taking $$ x_0 = 0 $$:
 
@@ -2193,7 +2193,7 @@ $$ v_{\text{nose}} = \sqrt{421} = 20.5 \ms $$ ✓
 
 The end of the train must travel the station length plus the train length: $$ 210 + 130 = 340 \m $$
 
-Using $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$:
+Using $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
 $$ 340 = 22.0 t - 0.0750 t^2 $$
@@ -2388,7 +2388,7 @@ $$ v = 11.5 \ms + (0.500 \mss)(7.00 \s) = 11.5 + 3.50 = 15.0 \ms $$
 
 **Unknown:** Time saved
 
-First, calculate distance covered during acceleration using $$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$:
+First, calculate distance covered during acceleration using $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
 $$ x_{\text{accel}} = (11.5 \ms)(7.00 \s) + \frac{1}{2}(0.500 \mss)(7.00 \s)^2 $$

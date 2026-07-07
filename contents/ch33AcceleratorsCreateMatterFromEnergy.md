@@ -361,7 +361,7 @@ A proton and an antiproton collide head-on, with each having a kinetic energy of
 
 **Strategy**
 
-The total collision energy available includes the kinetic energy of both particles plus their rest mass energies. When a proton and antiproton annihilate, both their masses are converted to energy according to $$E = mc^2$$. The rest mass energy of a proton (or antiproton) is 938.3 MeV or 0.9383 GeV.
+The total collision energy available includes the kinetic energy of both particles plus their rest mass energies. When a proton and antiproton annihilate, both their masses are converted to energy according to $$E = mc^{2}$$. The rest mass energy of a proton (or antiproton) is 938.3 MeV or 0.9383 GeV.
 
 **Solution**
 
@@ -372,7 +372,7 @@ The total collision energy is the sum of:
 - Rest mass energy of the antiproton: 0.938 GeV
 
 <div class="equation">
-$$E_{\text{total}} = KE_p + KE_{\overline{p}} + m_p c^2 + m_{\overline{p}} c^2$$
+$$E_{\text{total}} = KE_{p} + KE_{\overline{p}} + m_p c^2 + m_{\overline{p}} c^2$$
 </div>
 
 <div class="equation">

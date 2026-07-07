@@ -256,7 +256,7 @@ Let:
 For balance, the torques must be equal in magnitude:
 
 <div class="equation">
-$$ \tau_1 = \tau_2 $$
+$$ \tau_{1} = \tau_{2} $$
 </div>
 
 <div class="equation">
@@ -357,7 +357,7 @@ Given:
 Choose the pivot at the location of $$ F_1 $$ (the end of the plank). Then $$ F_1 $$ produces no torque.
 
 The torque due to the weight (at 1.00 m from the pivot) is clockwise (negative):
-$$ \tau_W = -W \times 1.00 \m = -(196 \N)(1.00 \m) = -196 \text{ N·m} $$
+$$ \tau_{W} = -W \times 1.00 \m = -(196 \N)(1.00 \m) = -196 \text{ N·m} $$
 
 The torque due to $$ F_2 $$ (at 0.500 m from the pivot) is counterclockwise (positive):
 $$ \tau_{F_2} = F_2 \times 0.500 \m $$
@@ -447,13 +447,13 @@ Given:
 
 Taking torques about the pivot point (the foot):
 
-- The weight creates a clockwise torque: $$ \tau_W = W \times d_x $$
+- The weight creates a clockwise torque: $$ \tau_{W} = W \times d_x $$
 - The wind force creates a counterclockwise torque: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
 
 For equilibrium:
 
 <div class="equation">
-$$ \tau_{\text{wind}} = \tau_W $$
+$$ \tau_{\text{wind}} = \tau_{W} $$
 </div>
 
 <div class="equation">
@@ -700,7 +700,7 @@ The leg makes an angle with the vertical. From the geometry:
 - The cg of the leg is at half these values from the foot: 0.275 m horizontal, 0.65 m vertical
 
 Torque due to weight (clockwise, about foot):
-$$ \tau_W = W \times 0.275 \m = (39.2 \N)(0.275 \m) = 10.78 \text{ N·m} $$
+$$ \tau_{W} = W \times 0.275 \m = (39.2 \N)(0.275 \m) = 10.78 \text{ N·m} $$
 
 Torque due to horizontal hinge force (counterclockwise, about foot):
 $$ \tau_{Fh} = F_{h,horizontal} \times 1.30 \m $$

@@ -265,12 +265,12 @@ Since $$ p_i = p_f = mv $$, momentum is conserved.
 **Check kinetic energy conservation:**
 
 Initial kinetic energy:
-$$ \KE_i = \frac{1}{2}mv^2 + \frac{1}{2}m(0)^2 = \frac{1}{2}mv^2 $$
+$$ \KE_{i} = \frac{1}{2}mv^{2} + \frac{1}{2}m(0)^2 = \frac{1}{2}mv^{2} $$
 
 Final kinetic energy:
-$$ \KE_f = \frac{1}{2}m(0)^2 + \frac{1}{2}mv^2 = \frac{1}{2}mv^2 $$
+$$ \KE_{f} = \frac{1}{2}m(0)^2 + \frac{1}{2}mv^{2} = \frac{1}{2}mv^{2} $$
 
-Since $$ \KE_i = \KE_f = \frac{1}{2}mv^2 $$, kinetic energy is conserved.
+Since $$ \KE_{i} = \KE_{f} = \frac{1}{2}mv^{2} $$, kinetic energy is conserved.
 
 Both momentum and kinetic energy are conserved, confirming this is an elastic collision.
 

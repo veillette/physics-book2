@@ -310,9 +310,9 @@ $$ L = mvr = (0.0500 \kg)(30.0 \text{ m/s})(0.100 \m) = 0.150 \kg \cdot \mms $$
 
 Final moment of inertia (stick + disk about the nail):
 
-For the stick rotating about one end: $$ I_{\text{stick}} = \frac{1}{3}ML^2 = \frac{1}{3}(2.00 \kg)(1.20 \m)^2 = 0.960 \kg \cdot \mm $$
+For the stick rotating about one end: $$ I_{\text{stick}} = \frac{1}{3}ML^{2} = \frac{1}{3}(2.00 \kg)(1.20 \m)^2 = 0.960 \kg \cdot \mm $$
 
-For the disk at r = 0.100 m: $$ I_{\text{disk}} = mr^2 = (0.0500 \kg)(0.100 \m)^2 = 5.00 \times 10^{-4} \kg \cdot \mm $$
+For the disk at r = 0.100 m: $$ I_{\text{disk}} = mr^{2} = (0.0500 \kg)(0.100 \m)^2 = 5.00 \times 10^{-4} \kg \cdot \mm $$
 
 Total: $$ I' = 0.960 + 0.000500 = 0.9605 \kg \cdot \mm $$
 
@@ -325,13 +325,13 @@ $$ \omega' = \frac{L}{I'} = \frac{0.150 \kg \cdot \mms}{0.9605 \kg \cdot \mm} = 
 **(b)** Initial kinetic energy:
 
 <div class="equation">
-$$ KE_i = \frac{1}{2}mv^2 = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
+$$ KE_{i} = \frac{1}{2}mv^{2} = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
-$$ KE_f = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(0.9605 \kg \cdot \mm)(0.156 \text{ rad/s})^2 = 1.17 \times 10^{-2} \J $$
+$$ KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(0.9605 \kg \cdot \mm)(0.156 \text{ rad/s})^2 = 1.17 \times 10^{-2} \J $$
 </div>
 
 **(c)** Linear momentum before collision:
@@ -389,7 +389,7 @@ New information: disk radius R = 1.50 cm = 0.0150 m, initial spin ω₀ = 1000 r
 Convert disk's spin to rad/s:
 
 <div class="equation">
-$$ \omega_0 = 1000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 105 \text{ rad/s} $$
+$$ \omega_{0} = 1000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 105 \text{ rad/s} $$
 </div>
 
 Initial angular momentum has two parts:
@@ -403,13 +403,13 @@ $$ L_{\text{orbital}} = mvr = (0.0500 \kg)(30.0 \text{ m/s})(1.20 \m) = 1.80 \kg
 **Spin** (disk rotating about its own axis, treating as a disk):
 
 <div class="equation">
-$$ I_{\text{disk}} = \frac{1}{2}mR^2 = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 5.625 \times 10^{-6} \kg \cdot \mm $$
+$$ I_{\text{disk}} = \frac{1}{2}mR^{2} = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 5.625 \times 10^{-6} \kg \cdot \mm $$
 </div>
 
 Since the disk spins clockwise (negative direction):
 
 <div class="equation">
-$$ L_{\text{spin}} = -I_{\text{disk}}\omega_0 = -(5.625 \times 10^{-6})(105) = -5.91 \times 10^{-4} \kg \cdot \mms $$
+$$ L_{\text{spin}} = -I_{\text{disk}}\omega_{0} = -(5.625 \times 10^{-6})(105) = -5.91 \times 10^{-4} \kg \cdot \mms $$
 </div>
 
 Total initial angular momentum:
@@ -472,7 +472,7 @@ $$ L_{\text{total}} = 2 \times 140 = 280 \kg \cdot \mms $$
 After locking hands, the moment of inertia (treating each as a point mass):
 
 <div class="equation">
-$$ I = 2mr^2 = 2(70.0 \kg)(0.800 \m)^2 = 89.6 \kg \cdot \mm $$
+$$ I = 2mr^{2} = 2(70.0 \kg)(0.800 \m)^2 = 89.6 \kg \cdot \mm $$
 </div>
 
 Final angular velocity:
@@ -484,13 +484,13 @@ $$ \omega = \frac{L_{\text{total}}}{I} = \frac{280 \kg \cdot \mms}{89.6 \kg \cdo
 **(b)** Initial kinetic energy (both skaters):
 
 <div class="equation">
-$$ KE_i = 2 \times \frac{1}{2}mv^2 = 2 \times \frac{1}{2}(70.0 \kg)(2.50 \text{ m/s})^2 = 438 \J $$
+$$ KE_{i} = 2 \times \frac{1}{2}mv^{2} = 2 \times \frac{1}{2}(70.0 \kg)(2.50 \text{ m/s})^2 = 438 \J $$
 </div>
 
 Final kinetic energy (rotational):
 
 <div class="equation">
-$$ KE_f = \frac{1}{2}I\omega^2 = \frac{1}{2}(89.6 \kg \cdot \mm)(3.13 \text{ rad/s})^2 = 438 \J $$
+$$ KE_{f} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(89.6 \kg \cdot \mm)(3.13 \text{ rad/s})^2 = 438 \J $$
 </div>
 
 **Discussion**
@@ -585,7 +585,7 @@ $$ \omega = \frac{L}{I_{\text{total}}} = \frac{3.375 \kg \cdot \mms}{3.875 \kg \
 **(c)** Initial kinetic energy (ball only):
 
 <div class="equation">
-$$ KE_i = \frac{1}{2}m_{\text{ball}}v_{\text{ball}}^2 = \frac{1}{2}(0.250 \kg)(15.0 \text{ m/s})^2 = 28.1 \J $$
+$$ KE_{i} = \frac{1}{2}m_{\text{ball}}v_{\text{ball}}^2 = \frac{1}{2}(0.250 \kg)(15.0 \text{ m/s})^2 = 28.1 \J $$
 </div>
 
 Final kinetic energy (translational + rotational):
@@ -595,11 +595,11 @@ $$ KE_{\text{trans}} = \frac{1}{2}(m_{\text{ball}} + m_{\text{person}})v'^2 = \f
 </div>
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I_{\text{total}}\omega^2 = \frac{1}{2}(3.875 \kg \cdot \mm)(0.871 \text{ rad/s})^2 = 1.47 \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I_{\text{total}}\omega^{2} = \frac{1}{2}(3.875 \kg \cdot \mm)(0.871 \text{ rad/s})^2 = 1.47 \J $$
 </div>
 
 <div class="equation">
-$$ KE_f = 0.100 + 1.47 = 1.57 \J $$
+$$ KE_{f} = 0.100 + 1.47 = 1.57 \J $$
 </div>
 
 **Discussion**
@@ -653,13 +653,13 @@ $$ \omega = 1.70 \text{ rad/s} $$
 **(b)** Initial kinetic energy:
 
 <div class="equation">
-$$ KE_i = \frac{1}{2}mv^2 = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
+$$ KE_{i} = \frac{1}{2}mv^{2} = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
 </div>
 
 Final kinetic energy (translational plus rotational about CM):
 
 <div class="equation">
-$$ KE_f = 2.04 \J $$
+$$ KE_{f} = 2.04 \J $$
 </div>
 
 **(c)** Linear momentum is conserved:

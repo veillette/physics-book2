@@ -426,7 +426,7 @@ This problem builds on the merry-go-round example. We'll use the angular acceler
 Using the rotational kinematic equation:
 
 <div class="equation">
-$$ \omega = \omega_0 + \alpha t $$
+$$ \omega = \omega_{0} + \alpha t $$
 </div>
 
 With ω₀ = 0:
@@ -438,7 +438,7 @@ $$ t = \frac{\omega}{\alpha} = \frac{1.50 \text{ rad/s}}{4.44 \radss} = 0.338 \s
 **(b)** To find the angular displacement (in revolutions):
 
 <div class="equation">
-$$ \theta = \omega_0 t + \frac{1}{2}\alpha t^2 = 0 + \frac{1}{2}(4.44 \radss)(0.338 \s)^2 = 0.253 \text{ rad} $$
+$$ \theta = \omega_{0} t + \frac{1}{2}\alpha t^2 = 0 + \frac{1}{2}(4.44 \radss)(0.338 \s)^2 = 0.253 \text{ rad} $$
 </div>
 
 Converting to revolutions:
@@ -504,7 +504,7 @@ We calculate the moment of inertia using the formulas for standard shapes. For p
 **(a)** For the skater approximated as a cylinder (M = 60.0 kg, R = 0.110 m):
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(60.0 \kg)(0.110 \m)^2 = 0.363 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(60.0 \kg)(0.110 \m)^2 = 0.363 \kg \cdot \mm $$
 </div>
 
 **(b)** For the skater with arms extended:
@@ -512,13 +512,13 @@ $$ I = \frac{1}{2}MR^2 = \frac{1}{2}(60.0 \kg)(0.110 \m)^2 = 0.363 \kg \cdot \mm
 First, find the moment of inertia of the body (cylinder with M = 52.5 kg, R = 0.110 m):
 
 <div class="equation">
-$$ I_{\text{body}} = \frac{1}{2}MR^2 = \frac{1}{2}(52.5 \kg)(0.110 \m)^2 = 0.318 \kg \cdot \mm $$
+$$ I_{\text{body}} = \frac{1}{2}MR^{2} = \frac{1}{2}(52.5 \kg)(0.110 \m)^2 = 0.318 \kg \cdot \mm $$
 </div>
 
 Next, find the moment of inertia of each arm (rod with m = 3.75 kg, L = 0.900 m, rotating about one end):
 
 <div class="equation">
-$$ I_{\text{arm}} = \frac{1}{3}mL^2 = \frac{1}{3}(3.75 \kg)(0.900 \m)^2 = 1.01 \kg \cdot \mm $$
+$$ I_{\text{arm}} = \frac{1}{3}mL^{2} = \frac{1}{3}(3.75 \kg)(0.900 \m)^2 = 1.01 \kg \cdot \mm $$
 </div>
 
 For two arms:
@@ -664,7 +664,7 @@ $$ \tau = Fr = (180 \N)(0.280 \m) = 50.4 \N \cdot \m $$
 **(b)** First, calculate the moment of inertia of the solid disk:
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(75.0 \kg)(0.280 \m)^2 = 2.94 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(75.0 \kg)(0.280 \m)^2 = 2.94 \kg \cdot \mm $$
 </div>
 
 The angular acceleration with no friction:
@@ -761,7 +761,7 @@ $$ a_t = R_2 \alpha = (0.330 \m)(98.2 \radss) = 32.4 \text{ m/s}^2 $$
 **(c)** Time to reach ω = 80.0 rad/s from rest:
 
 <div class="equation">
-$$ t = \frac{\omega - \omega_0}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{98.2 \radss} = 0.815 \s $$
+$$ t = \frac{\omega - \omega_{0}}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{98.2 \radss} = 0.815 \s $$
 </div>
 
 **Discussion**
@@ -811,7 +811,7 @@ Following the Problem-Solving Strategy for Rotational Dynamics:
 First, determine the initial and final angular velocities:
 
 <div class="equation">
-$$ \omega_0 = \frac{2\pi}{T_0} = \frac{2\pi}{24.0 \times 3600 \s} = 7.27 \times 10^{-5} \text{ rad/s} $$
+$$ \omega_{0} = \frac{2\pi}{T_0} = \frac{2\pi}{24.0 \times 3600 \s} = 7.27 \times 10^{-5} \text{ rad/s} $$
 </div>
 
 <div class="equation">
@@ -821,13 +821,13 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{28.0 \times 3600 \s} = 6.24 \times 10^{
 The required change in angular velocity:
 
 <div class="equation">
-$$ \Delta\omega = \omega_0 - \omega = 7.27 \times 10^{-5} - 6.24 \times 10^{-5} = 1.03 \times 10^{-5} \text{ rad/s} $$
+$$ \Delta\omega = \omega_{0} - \omega = 7.27 \times 10^{-5} - 6.24 \times 10^{-5} = 1.03 \times 10^{-5} \text{ rad/s} $$
 </div>
 
 Earth's moment of inertia (approximating as a uniform solid sphere, M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m):
 
 <div class="equation">
-$$ I = \frac{2}{5}MR^2 = \frac{2}{5}(5.97 \times 10^{24} \kg)(6.37 \times 10^6 \m)^2 = 9.69 \times 10^{37} \kg \cdot \mm $$
+$$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(5.97 \times 10^{24} \kg)(6.37 \times 10^6 \m)^2 = 9.69 \times 10^{37} \kg \cdot \mm $$
 </div>
 
 The torque Zorch produces at the equator:
@@ -894,7 +894,7 @@ Now calculate the moment of inertia for each component:
 
 Disk (wheel center):
 <div class="equation">
-$$ I_{\text{disk}} = \frac{1}{2}MR^2 = \frac{1}{2}(15.0 \kg)(0.180 \m)^2 = 0.243 \kg \cdot \mm $$
+$$ I_{\text{disk}} = \frac{1}{2}MR^{2} = \frac{1}{2}(15.0 \kg)(0.180 \m)^2 = 0.243 \kg \cdot \mm $$
 </div>
 
 Tire walls (annular ring):
@@ -904,7 +904,7 @@ $$ I_{\text{walls}} = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(2.00 \kg)\left[(
 
 Tread (hoop):
 <div class="equation">
-$$ I_{\text{tread}} = MR^2 = (10.0 \kg)(0.330 \m)^2 = 1.089 \kg \cdot \mm $$
+$$ I_{\text{tread}} = MR^{2} = (10.0 \kg)(0.330 \m)^2 = 1.089 \kg \cdot \mm $$
 </div>
 
 Moment of inertia per wheel:
@@ -919,12 +919,12 @@ $$ I_{\text{wheels}} = 2 \times 1.467 = 2.934 \kg \cdot \mm $$
 
 **For the axle** (solid cylinder, 14.0 kg, R = 0.0200 m):
 <div class="equation">
-$$ I_{\text{axle}} = \frac{1}{2}MR^2 = \frac{1}{2}(14.0 \kg)(0.0200 \m)^2 = 0.00280 \kg \cdot \mm $$
+$$ I_{\text{axle}} = \frac{1}{2}MR^{2} = \frac{1}{2}(14.0 \kg)(0.0200 \m)^2 = 0.00280 \kg \cdot \mm $$
 </div>
 
 **For the drive shaft** (solid cylinder, 30.0 kg, R = 0.0320 m):
 <div class="equation">
-$$ I_{\text{shaft}} = \frac{1}{2}MR^2 = \frac{1}{2}(30.0 \kg)(0.0320 \m)^2 = 0.0154 \kg \cdot \mm $$
+$$ I_{\text{shaft}} = \frac{1}{2}MR^{2} = \frac{1}{2}(30.0 \kg)(0.0320 \m)^2 = 0.0154 \kg \cdot \mm $$
 </div>
 
 **Total moment of inertia:**
@@ -989,7 +989,7 @@ these rotations.
 
 **Strategy**
 
-We can use the parallel axis theorem to relate the moment of inertia about an axis through the end of the rod to the moment of inertia about an axis through the center. The parallel axis theorem states that $$ I = I_{\text{center}} + Md^2 $$, where d is the distance between the parallel axes. For a rod of length ℓ, the distance from the center to the end is ℓ/2.
+We can use the parallel axis theorem to relate the moment of inertia about an axis through the end of the rod to the moment of inertia about an axis through the center. The parallel axis theorem states that $$ I = I_{\text{center}} + Md^{2} $$, where d is the distance between the parallel axes. For a rod of length ℓ, the distance from the center to the end is ℓ/2.
 
 **Solution**
 
@@ -999,20 +999,20 @@ Applying the parallel axis theorem to relate rotation about the end to rotation 
 $$ I_{\text{end}} = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
 </div>
 
-We know that $$ I_{\text{end}} = \frac{1}{3}M\ell^2 $$, so:
+We know that $$ I_{\text{end}} = \frac{1}{3}M\ell^{2} $$, so:
 
 <div class="equation">
-$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
+$$ \frac{1}{3}M\ell^{2} = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + \frac{1}{4}M\ell^2 $$
+$$ \frac{1}{3}M\ell^{2} = I_{\text{center}} + \frac{1}{4}M\ell^{2} $$
 </div>
 
 Solving for $$ I_{\text{center}} $$:
 
 <div class="equation">
-$$ I_{\text{center}} = \frac{1}{3}M\ell^2 - \frac{1}{4}M\ell^2 = \frac{4M\ell^2 - 3M\ell^2}{12} = \frac{1}{12}M\ell^2 $$
+$$ I_{\text{center}} = \frac{1}{3}M\ell^{2} - \frac{1}{4}M\ell^{2} = \frac{4M\ell^{2} - 3M\ell^{2}}{12} = \frac{1}{12}M\ell^{2} $$
 </div>
 
 **Discussion**
@@ -1053,7 +1053,7 @@ We use the rotational form of Newton's second law and the relationship between t
 **(a)** The change in angular velocity is:
 
 <div class="equation">
-$$ \Delta\omega = \omega_f - \omega_i = -10.0 - 10.0 = -20.0 \text{ rad/s} $$
+$$ \Delta\omega = \omega_{f} - \omega_{i} = -10.0 - 10.0 = -20.0 \text{ rad/s} $$
 </div>
 
 Using $$ \tau = I\alpha = I\frac{\Delta\omega}{\Delta t} $$:
@@ -1109,25 +1109,25 @@ The car's final kinetic energy must equal 95% of the flywheel's initial rotation
 **(a)** The car's kinetic energy at 30.0 m/s:
 
 <div class="equation">
-$$ KE_{\text{car}} = \frac{1}{2}mv^2 = \frac{1}{2}(800 \kg)(30.0 \text{ m/s})^2 = 3.60 \times 10^5 \J $$
+$$ KE_{\text{car}} = \frac{1}{2}mv^{2} = \frac{1}{2}(800 \kg)(30.0 \text{ m/s})^2 = 3.60 \times 10^5 \J $$
 </div>
 
 This must equal 95% of the flywheel's rotational energy:
 
 <div class="equation">
-$$ 0.950 \times \frac{1}{2}I\omega^2 = 3.60 \times 10^5 \J $$
+$$ 0.950 \times \frac{1}{2}I\omega^{2} = 3.60 \times 10^5 \J $$
 </div>
 
 For a disk flywheel:
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(20.0 \kg)(0.150 \m)^2 = 0.225 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(20.0 \kg)(0.150 \m)^2 = 0.225 \kg \cdot \mm $$
 </div>
 
 Solving for ω:
 
 <div class="equation">
-$$ \omega^2 = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5}{0.214} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5}{0.214} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -1137,7 +1137,7 @@ $$ \omega = 1834 \text{ rad/s} = 1834 \times \frac{60}{2\pi} \text{ rpm} = 17,50
 **(b)** This angular velocity is unreasonably high. At the edge of the disk (r = 0.150 m), the centripetal acceleration would be:
 
 <div class="equation">
-$$ a_c = \omega^2 r = (1834)^2(0.150) = 5.04 \times 10^5 \text{ m/s}^2 = 51,400g $$
+$$ a_c = \omega^{2} r = (1834)^2(0.150) = 5.04 \times 10^5 \text{ m/s}^2 = 51,400g $$
 </div>
 
 This is over 50,000 times the acceleration due to gravity. No ordinary material could withstand such forces without flying apart. Additionally, 17,500 rpm is far beyond typical flywheel speeds.

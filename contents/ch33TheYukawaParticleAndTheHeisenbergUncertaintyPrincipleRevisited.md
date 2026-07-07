@@ -189,7 +189,7 @@ Calculate the mass in  $$\text{GeV/}{c}^{2} $$
 
 **Strategy**
 
-The approach is similar to the worked example in this section. We'll use the Heisenberg uncertainty principle to find the energy uncertainty $$\Delta E$$ based on the time uncertainty $$\Delta t$$ during which the virtual particle can exist. The range of the particle is related to the distance it can travel at approximately the speed of light during this time: $$d \approx c\Delta t$$. Once we find $$\Delta E$$, we can determine the mass using $$\Delta E = mc^2$$.
+The approach is similar to the worked example in this section. We'll use the Heisenberg uncertainty principle to find the energy uncertainty $$\Delta E$$ based on the time uncertainty $$\Delta t$$ during which the virtual particle can exist. The range of the particle is related to the distance it can travel at approximately the speed of light during this time: $$d \approx c\Delta t$$. Once we find $$\Delta E$$, we can determine the mass using $$\Delta E = mc^{2}$$.
 
 **Solution**
 

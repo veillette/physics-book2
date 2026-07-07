@@ -870,20 +870,20 @@ $$ S_z = m_s \frac{h}{2\pi} = \pm \frac{1}{2} \frac{h}{2\pi} $$
 
 For $$ m_s = +1/2 $$ (spin up):
 <div class="equation">
-$$ \cos \theta_1 = \frac{S_z}{S} = \frac{+\frac{1}{2} \frac{h}{2\pi}}{\frac{\sqrt{3}}{2} \frac{h}{2\pi}} = \frac{1/2}{\sqrt{3}/2} = \frac{1}{\sqrt{3}} = 0.5774 $$
+$$ \cos \theta_{1} = \frac{S_z}{S} = \frac{+\frac{1}{2} \frac{h}{2\pi}}{\frac{\sqrt{3}}{2} \frac{h}{2\pi}} = \frac{1/2}{\sqrt{3}/2} = \frac{1}{\sqrt{3}} = 0.5774 $$
 </div>
 
 <div class="equation">
-$$ \theta_1 = \cos^{-1}(0.5774) = 54.7° $$
+$$ \theta_{1} = \cos^{-1}(0.5774) = 54.7° $$
 </div>
 
 For $$ m_s = -1/2 $$ (spin down):
 <div class="equation">
-$$ \cos \theta_2 = \frac{S_z}{S} = \frac{-\frac{1}{2} \frac{h}{2\pi}}{\frac{\sqrt{3}}{2} \frac{h}{2\pi}} = \frac{-1/2}{\sqrt{3}/2} = -\frac{1}{\sqrt{3}} = -0.5774 $$
+$$ \cos \theta_{2} = \frac{S_z}{S} = \frac{-\frac{1}{2} \frac{h}{2\pi}}{\frac{\sqrt{3}}{2} \frac{h}{2\pi}} = \frac{-1/2}{\sqrt{3}/2} = -\frac{1}{\sqrt{3}} = -0.5774 $$
 </div>
 
 <div class="equation">
-$$ \theta_2 = \cos^{-1}(-0.5774) = 125.3° $$
+$$ \theta_{2} = \cos^{-1}(-0.5774) = 125.3° $$
 </div>
 
 The electron spin can make only two angles with the $$ z $$ -axis: **54.7°** and **125.3°**.

@@ -370,18 +370,18 @@ Using energy considerations and assuming negligible air resistance, show that a 
 
 **Strategy**
 
-Use conservation of mechanical energy. Since air resistance is negligible, only conservative forces act (gravity), so the total mechanical energy is conserved: $$ \KE_i + \PE_i = \KE_f + \PE_f $$. The initial kinetic energy depends only on the magnitude of velocity, not its direction, and the change in potential energy depends only on the vertical height change.
+Use conservation of mechanical energy. Since air resistance is negligible, only conservative forces act (gravity), so the total mechanical energy is conserved: $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$. The initial kinetic energy depends only on the magnitude of velocity, not its direction, and the change in potential energy depends only on the vertical height change.
 
 **Solution**
 
 Starting with conservation of energy:
 
 <div class="equation">
-$$ \KE_i + \PE_i = \KE_f + \PE_f $$
+$$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$
 </div>
 
 <div class="equation">
-$$ \frac{1}{2}mv_0^2 + mgh = \frac{1}{2}mv_f^2 + 0 $$
+$$ \frac{1}{2}mv_{0}^2 + mgh = \frac{1}{2}mv_{f}^2 + 0 $$
 </div>
 
 where we set the water level as the zero potential energy reference ($$ h_f = 0 $$). Canceling mass and solving for $$ v_f $$:

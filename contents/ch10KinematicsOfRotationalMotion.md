@@ -79,9 +79,9 @@ translational counterparts):
 | Rotational                                      | Translational                       | Conditions                          |
 | ----------------------------------------------- | ----------------------------------- | ----------------------------------- |
 | $$\theta= \overline{\omega} t $$                | $$ x = \overline{v} t $$            |                                     |
-| $$\omega=\omega_0 + \alpha t $$                 | $$v = v_0 + a t $$                  | constant $$\alpha$$, constant $$a$$ |
-| $$\theta=\omega_0 t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
-| $$\omega^2= \omega_0^2 + 2 \alpha \theta $$     | $$ v^2 =v_0^2 + 2 a x $$            | constant $$\alpha$$, constant $$a$$ |
+| $$\omega=\omega_{0} + \alpha t $$                 | $$v = v_0 + a t $$                  | constant $$\alpha$$, constant $$a$$ |
+| $$\theta=\omega_{0} t + \frac{1}{2} \alpha t^2 $$ | $$ x = v_0 t + \frac{1}{2} a t^2 $$ | constant $$\alpha$$, constant $$a$$ |
+| $$\omega^{2}= \omega_{0}^2 + 2 \alpha \theta $$     | $$ v^2 =v_0^2 + 2 a x $$            | constant $$\alpha$$, constant $$a$$ |
 
 {: #Table1}
 
@@ -450,7 +450,7 @@ For part (a), we use the definition of angular acceleration: α = Δω/Δt. For 
 $$ \alpha = \frac{\Delta\omega}{\Delta t} = \frac{32 \text{ rad/s} - 0}{0.40 \s} = 80 \radss $$
 </div>
 
-**(b)** Using the kinematic equation $$ \theta = \omega_0 t + \frac{1}{2}\alpha t^2 $$ with $$ \omega_0 = 0 $$:
+**(b)** Using the kinematic equation $$ \theta = \omega_{0} t + \frac{1}{2}\alpha t^2 $$ with $$ \omega_{0} = 0 $$:
 
 <div class="equation">
 $$ \theta = 0 + \frac{1}{2}(80 \radss)(0.40 \s)^2 = \frac{1}{2}(80)(0.16) = 6.4 \text{ rad} $$
@@ -542,16 +542,16 @@ The gyroscope is decelerating, so α = −0.700 rad/s². For part (a), we use ω
 
 **Solution**
 
-**(a)** Using $$ \omega = \omega_0 + \alpha t $$ with $$ \omega = 0 $$:
+**(a)** Using $$ \omega = \omega_{0} + \alpha t $$ with $$ \omega = 0 $$:
 
 <div class="equation">
-$$ t = \frac{\omega - \omega_0}{\alpha} = \frac{0 - 32.0 \text{ rad/s}}{-0.700 \radss} = 45.7 \s $$
+$$ t = \frac{\omega - \omega_{0}}{\alpha} = \frac{0 - 32.0 \text{ rad/s}}{-0.700 \radss} = 45.7 \s $$
 </div>
 
-**(b)** Using $$ \omega^2 = \omega_0^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
+**(b)** Using $$ \omega^{2} = \omega_{0}^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
 
 <div class="equation">
-$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(32.0 \text{ rad/s})^2}{2(-0.700 \radss)} = \frac{-1024}{-1.40} = 731 \text{ rad} $$
+$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(32.0 \text{ rad/s})^2}{2(-0.700 \radss)} = \frac{-1024}{-1.40} = 731 \text{ rad} $$
 </div>
 
 Converting to revolutions:
@@ -616,10 +616,10 @@ $$ \alpha = \frac{a}{r} = \frac{-7.00 \text{ m/s}^2}{0.280 \m} = -25.0 \radss $$
 
 The negative sign indicates the tires are decelerating.
 
-**(b)** Using $$ \omega^2 = \omega_0^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
+**(b)** Using $$ \omega^{2} = \omega_{0}^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
 
 <div class="equation">
-$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(95.0 \text{ rad/s})^2}{2(-25.0 \radss)} = 180.5 \text{ rad} $$
+$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(95.0 \text{ rad/s})^2}{2(-25.0 \radss)} = 180.5 \text{ rad} $$
 </div>
 
 Converting to revolutions:
@@ -628,10 +628,10 @@ Converting to revolutions:
 $$ \theta = \frac{180.5 \text{ rad}}{2\pi \text{ rad/rev}} = 28.7 \text{ rev} $$
 </div>
 
-**(c)** Using $$ \omega = \omega_0 + \alpha t $$ with $$ \omega = 0 $$:
+**(c)** Using $$ \omega = \omega_{0} + \alpha t $$ with $$ \omega = 0 $$:
 
 <div class="equation">
-$$ t = \frac{-\omega_0}{\alpha} = \frac{-95.0 \text{ rad/s}}{-25.0 \radss} = 3.80 \s $$
+$$ t = \frac{-\omega_{0}}{\alpha} = \frac{-95.0 \text{ rad/s}}{-25.0 \radss} = 3.80 \s $$
 </div>
 
 **(d)** The distance traveled is:
@@ -643,7 +643,7 @@ $$ x = r\theta = (0.280 \m)(180.5 \text{ rad}) = 50.5 \m $$
 **(e)** The car's initial velocity was:
 
 <div class="equation">
-$$ v_0 = r\omega_0 = (0.280 \m)(95.0 \text{ rad/s}) = 26.6 \text{ m/s} $$
+$$ v_0 = r\omega_{0} = (0.280 \m)(95.0 \text{ rad/s}) = 26.6 \text{ m/s} $$
 </div>
 
 **(f)** Yes, the values are reasonable. The initial velocity of 26.6 m/s is about 96 km/h (60 mph), which is a typical highway speed. Stopping in 3.80 s over a distance of 50.5 m (about 166 feet) with a deceleration of 7.00 m/s² (about 0.7g) represents a hard but achievable emergency stop for a car with good brakes and tires.
@@ -700,10 +700,10 @@ The string wraps around the center shaft, so the linear acceleration of the yo-y
 $$ \alpha = \frac{a}{r} = \frac{1.50 \mss}{0.00250 \m} = 600 \radss $$
 </div>
 
-**(b)** Starting from rest ($$ \omega_0 = 0 $$), after t = 0.750 s:
+**(b)** Starting from rest ($$ \omega_{0} = 0 $$), after t = 0.750 s:
 
 <div class="equation">
-$$ \omega = \omega_0 + \alpha t = 0 + (600 \radss)(0.750 \s) = 450 \text{ rad/s} $$
+$$ \omega = \omega_{0} + \alpha t = 0 + (600 \radss)(0.750 \s) = 450 \text{ rad/s} $$
 </div>
 
 **(c)** At the outer edge, R = 3.50 cm = 0.0350 m:

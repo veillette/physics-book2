@@ -351,16 +351,16 @@ Verify that the critical angle for light going from water to air is  $$48.6 ^\ci
 
 **Strategy**
 
-We use the formula for critical angle: $$\theta_c = \sin^{-1}(n_2/n_1)$$ where $$n_1 > n_2$$. For water to air, $$n_1 = 1.333$$ (water) and $$n_2 = 1.00$$ (air).
+We use the formula for critical angle: $$\theta_{c} = \sin^{-1}(n_2/n_1)$$ where $$n_1 > n_2$$. For water to air, $$n_1 = 1.333$$ (water) and $$n_2 = 1.00$$ (air).
 
 **Solution**
 
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right) = \sin^{-1}\left(\frac{1.00}{1.333}\right)$$
+$$\theta_{c} = \sin^{-1}\left(\frac{n_2}{n_1}\right) = \sin^{-1}\left(\frac{1.00}{1.333}\right)$$
 </div>
 
 <div class="equation">
-$$\theta_c = \sin^{-1}(0.7502) = 48.6°$$
+$$\theta_{c} = \sin^{-1}(0.7502) = 48.6°$$
 </div>
 
 **Discussion**
@@ -384,20 +384,20 @@ This confirms that the critical angle for light going from water to air is $$48.
 
 **Strategy**
 
-We use $$\theta_c = \sin^{-1}(n_2/n_1)$$ for both materials. From tables, $$n_{\text{diamond}} = 2.419$$ and $$n_{\text{zircon}} = 1.923$$.
+We use $$\theta_{c} = \sin^{-1}(n_2/n_1)$$ for both materials. From tables, $$n_{\text{diamond}} = 2.419$$ and $$n_{\text{zircon}} = 1.923$$.
 
 **Solution**
 
 **(a)** For diamond to air:
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{1.00}{2.419}\right) = \sin^{-1}(0.4135) = 24.4°$$
+$$\theta_{c} = \sin^{-1}\left(\frac{1.00}{2.419}\right) = \sin^{-1}(0.4135) = 24.4°$$
 </div>
 
 This verifies the stated value.
 
 **(b)** For zircon to air:
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.923}\right) = \sin^{-1}(0.5200) = 31.3°$$
+$$\theta_{c} = \sin^{-1}\left(\frac{1.00}{1.923}\right) = \sin^{-1}(0.5200) = 31.3°$$
 </div>
 
 **Discussion**
@@ -436,16 +436,16 @@ At what minimum angle will you get total internal reflection of light traveling 
 
 **Strategy**
 
-Light travels from water ($$n_1 = 1.333$$) to ice ($$n_2 = 1.309$$). Since $$n_1 > n_2$$, total internal reflection is possible. We use $$\theta_c = \sin^{-1}(n_2/n_1)$$.
+Light travels from water ($$n_1 = 1.333$$) to ice ($$n_2 = 1.309$$). Since $$n_1 > n_2$$, total internal reflection is possible. We use $$\theta_{c} = \sin^{-1}(n_2/n_1)$$.
 
 **Solution**
 
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{n_{\text{ice}}}{n_{\text{water}}}\right) = \sin^{-1}\left(\frac{1.309}{1.333}\right)$$
+$$\theta_{c} = \sin^{-1}\left(\frac{n_{\text{ice}}}{n_{\text{water}}}\right) = \sin^{-1}\left(\frac{1.309}{1.333}\right)$$
 </div>
 
 <div class="equation">
-$$\theta_c = \sin^{-1}(0.9820) = 79.1°$$
+$$\theta_{c} = \sin^{-1}(0.9820) = 79.1°$$
 </div>
 
 **Answer:** The minimum angle for total internal reflection is **79.1°** from the normal.
@@ -488,21 +488,21 @@ You can determine the index of refraction of a substance by determining its crit
 
 **Strategy**
 
-**(a)** We use $$\sin \theta_c = n_2/n_1$$ where the substance is medium 1 and water is medium 2. Solve for $$n_1$$.
+**(a)** We use $$\sin \theta_{c} = n_2/n_1$$ where the substance is medium 1 and water is medium 2. Solve for $$n_1$$.
 **(b)** Use the found index to calculate the critical angle in air.
 
 **Solution**
 
 **(a)** Rearranging the critical angle formula:
 <div class="equation">
-$$n_1 = \frac{n_2}{\sin \theta_c} = \frac{1.333}{\sin(68.4°)} = \frac{1.333}{0.9304} = 1.433$$
+$$n_1 = \frac{n_2}{\sin \theta_{c}} = \frac{1.333}{\sin(68.4°)} = \frac{1.333}{0.9304} = 1.433$$
 </div>
 
 From [[Table 1]](../contents/ch25TheLawOfRefraction#Table1), this corresponds to **fluorite** ($$n = 1.434$$).
 
 **(b)** For fluorite in air:
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.433}\right) = \sin^{-1}(0.6979) = 44.3°$$
+$$\theta_{c} = \sin^{-1}\left(\frac{1.00}{1.433}\right) = \sin^{-1}(0.6979) = 44.3°$$
 </div>
 
 **Discussion**
@@ -547,25 +547,25 @@ A light ray entering an optical fiber surrounded by air is first refracted and t
 
 **Strategy**
 
-We need to show that for crown glass ($$n = 1.52$$), the angle $$\theta_3$$ at which light hits the fiber's side wall is always greater than the critical angle, regardless of the incident angle $$\theta_1$$.
+We need to show that for crown glass ($$n = 1.52$$), the angle $$\theta_{3}$$ at which light hits the fiber's side wall is always greater than the critical angle, regardless of the incident angle $$\theta_{1}$$.
 
 **Solution**
 
 First, find the critical angle for crown glass-air interface:
 <div class="equation">
-$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.52}\right) = \sin^{-1}(0.6579) = 41.1°$$
+$$\theta_{c} = \sin^{-1}\left(\frac{1.00}{1.52}\right) = \sin^{-1}(0.6579) = 41.1°$$
 </div>
 
 When light enters the fiber end (perpendicular to the sides), it refracts according to Snell's law:
 <div class="equation">
-$$n_{\text{air}} \sin \theta_1 = n_{\text{glass}} \sin \theta_2$$
+$$n_{\text{air}} \sin \theta_{1} = n_{\text{glass}} \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{\sin \theta_1}{1.52}$$
+$$\sin \theta_{2} = \frac{\sin \theta_{1}}{1.52}$$
 </div>
 
-The maximum value of $$\theta_2$$ occurs when $$\theta_1 = 90°$$:
+The maximum value of $$\theta_{2}$$ occurs when $$\theta_{1} = 90°$$:
 <div class="equation">
 $$\sin \theta_{2,\text{max}} = \frac{1}{1.52} = 0.6579$$
 </div>
@@ -574,17 +574,17 @@ $$\sin \theta_{2,\text{max}} = \frac{1}{1.52} = 0.6579$$
 $$\theta_{2,\text{max}} = 41.1°$$
 </div>
 
-When the ray hits the side of the fiber, the angle $$\theta_3$$ (measured from the normal to the side) is complementary to $$\theta_2$$:
+When the ray hits the side of the fiber, the angle $$\theta_{3}$$ (measured from the normal to the side) is complementary to $$\theta_{2}$$:
 <div class="equation">
-$$\theta_3 = 90° - \theta_2$$
+$$\theta_{3} = 90° - \theta_{2}$$
 </div>
 
-The minimum value of $$\theta_3$$ is:
+The minimum value of $$\theta_{3}$$ is:
 <div class="equation">
 $$\theta_{3,\text{min}} = 90° - 41.1° = 48.9°$$
 </div>
 
-Since $$\theta_{3,\text{min}} = 48.9° > \theta_c = 41.1°$$, total internal reflection will always occur at the fiber's sides, regardless of the incident angle $$\theta_1$$.
+Since $$\theta_{3,\text{min}} = 48.9° > \theta_{c} = 41.1°$$, total internal reflection will always occur at the fiber's sides, regardless of the incident angle $$\theta_{1}$$.
 
 **Discussion**
 

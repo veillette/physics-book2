@@ -168,7 +168,7 @@ Show that when light passes from air to water, its wavelength decreases to 0.750
 
 **Strategy**
 
-When light enters a medium, its wavelength changes according to the relationship $$\lambda_n = \lambda/n$$, where $$\lambda_n$$ is the wavelength in the medium, $$\lambda$$ is the wavelength in vacuum (or air), and $$n$$ is the index of refraction. For water, $$n = 1.333$$.
+When light enters a medium, its wavelength changes according to the relationship $$\lambda_{n} = \lambda/n$$, where $$\lambda_{n}$$ is the wavelength in the medium, $$\lambda$$ is the wavelength in vacuum (or air), and $$n$$ is the index of refraction. For water, $$n = 1.333$$.
 
 **Solution**
 
@@ -212,7 +212,7 @@ Find the range of visible wavelengths of light in crown glass.
 
 **Strategy**
 
-The wavelength of light changes when it enters a medium according to $$\lambda_n = \lambda/n$$, where $$\lambda$$ is the wavelength in vacuum, $$n$$ is the index of refraction, and $$\lambda_n$$ is the wavelength in the medium. For crown glass, $$n = 1.52$$. The visible range in vacuum is 380 nm to 760 nm.
+The wavelength of light changes when it enters a medium according to $$\lambda_{n} = \lambda/n$$, where $$\lambda$$ is the wavelength in vacuum, $$n$$ is the index of refraction, and $$\lambda_{n}$$ is the wavelength in the medium. For crown glass, $$n = 1.52$$. The visible range in vacuum is 380 nm to 760 nm.
 
 **Solution**
 
@@ -222,19 +222,19 @@ Given:
 
 For the shortest visible wavelength (violet):
 <div class="equation">
- $$\lambda_n = \frac{\lambda}{n} = \frac{380 \text{ nm}}{1.52} = 250 \text{ nm}$$
+ $$\lambda_{n} = \frac{\lambda}{n} = \frac{380 \text{ nm}}{1.52} = 250 \text{ nm}$$
 </div>
 
 For the longest visible wavelength (red):
 <div class="equation">
- $$\lambda_n = \frac{\lambda}{n} = \frac{760 \text{ nm}}{1.52} = 500 \text{ nm}$$
+ $$\lambda_{n} = \frac{\lambda}{n} = \frac{760 \text{ nm}}{1.52} = 500 \text{ nm}$$
 </div>
 
 **The range of visible wavelengths in crown glass is 250 nm to 500 nm.**
 
 **Discussion**
 
-Notice that wavelengths in crown glass are about 66% (or 1/1.52) of their values in vacuum. Even though the wavelengths change significantly, the colors we perceive remain the same because color is determined by frequency, which does not change when light enters a medium. The speed and wavelength both decrease by the factor $$n$$, but their ratio ($$v = f\lambda_n$$) maintains the same frequency.
+Notice that wavelengths in crown glass are about 66% (or 1/1.52) of their values in vacuum. Even though the wavelengths change significantly, the colors we perceive remain the same because color is determined by frequency, which does not change when light enters a medium. The speed and wavelength both decrease by the factor $$n$$, but their ratio ($$v = f\lambda_{n}$$) maintains the same frequency.
 
 :::
 
@@ -252,16 +252,16 @@ What is the index of refraction of a material for which the wavelength of light 
 
 **Strategy**
 
-We use the relationship $$\lambda_n = \lambda/n$$ to find the index of refraction $$n$$. Rearranging gives $$n = \lambda/\lambda_n$$. Given that $$\lambda_n = 0.671\lambda$$, we can find $$n$$ and compare it to known values for common materials.
+We use the relationship $$\lambda_{n} = \lambda/n$$ to find the index of refraction $$n$$. Rearranging gives $$n = \lambda/\lambda_{n}$$. Given that $$\lambda_{n} = 0.671\lambda$$, we can find $$n$$ and compare it to known values for common materials.
 
 **Solution**
 
 Given:
-- $$\lambda_n = 0.671 \times \lambda$$
+- $$\lambda_{n} = 0.671 \times \lambda$$
 
-From $$\lambda_n = \lambda/n$$:
+From $$\lambda_{n} = \lambda/n$$:
 <div class="equation">
- $$n = \frac{\lambda}{\lambda_n} = \frac{\lambda}{0.671\lambda} = \frac{1}{0.671}$$
+ $$n = \frac{\lambda}{\lambda_{n}} = \frac{\lambda}{0.671\lambda} = \frac{1}{0.671}$$
 </div>
 
 <div class="equation">
@@ -296,17 +296,17 @@ Analysis of an interference effect in a clear solid shows that the wavelength of
 
 **Strategy**
 
-We can find the index of refraction of the unknown substance using $$\lambda_n = \lambda/n$$, which gives $$n = \lambda/\lambda_n$$. Then compare this value to known indices of refraction: zircon ($$n \approx 1.92$$) and diamond ($$n \approx 2.42$$).
+We can find the index of refraction of the unknown substance using $$\lambda_{n} = \lambda/n$$, which gives $$n = \lambda/\lambda_{n}$$. Then compare this value to known indices of refraction: zircon ($$n \approx 1.92$$) and diamond ($$n \approx 2.42$$).
 
 **Solution**
 
 Given:
 - Wavelength in air (approximately vacuum): $$\lambda = 633 \text{ nm}$$
-- Wavelength in the solid: $$\lambda_n = 329 \text{ nm}$$
+- Wavelength in the solid: $$\lambda_{n} = 329 \text{ nm}$$
 
 Calculate the index of refraction:
 <div class="equation">
- $$n = \frac{\lambda}{\lambda_n} = \frac{633 \text{ nm}}{329 \text{ nm}} = 1.92$$
+ $$n = \frac{\lambda}{\lambda_{n}} = \frac{633 \text{ nm}}{329 \text{ nm}} = 1.92$$
 </div>
 
 Comparing to known values:
@@ -335,7 +335,7 @@ What is the ratio of thicknesses of crown glass and water that would contain the
 
 **Strategy**
 
-The number of wavelengths that fit in a given thickness $$t$$ is $$N = t/\lambda_n$$. For the same number of wavelengths in both materials, we need $$t_{\text{glass}}/\lambda_{\text{glass}} = t_{\text{water}}/\lambda_{\text{water}}$$. Using $$\lambda_n = \lambda/n$$, we can find the thickness ratio.
+The number of wavelengths that fit in a given thickness $$t$$ is $$N = t/\lambda_{n}$$. For the same number of wavelengths in both materials, we need $$t_{\text{glass}}/\lambda_{\text{glass}} = t_{\text{water}}/\lambda_{\text{water}}$$. Using $$\lambda_{n} = \lambda/n$$, we can find the thickness ratio.
 
 **Solution**
 
@@ -348,7 +348,7 @@ For the same number of wavelengths:
  $$\frac{t_{\text{glass}}}{\lambda_{\text{glass}}} = \frac{t_{\text{water}}}{\lambda_{\text{water}}}$$
 </div>
 
-Since $$\lambda_n = \lambda/n$$:
+Since $$\lambda_{n} = \lambda/n$$:
 <div class="equation">
  $$\frac{t_{\text{glass}}}{\lambda/n_{\text{glass}}} = \frac{t_{\text{water}}}{\lambda/n_{\text{water}}}$$
 </div>

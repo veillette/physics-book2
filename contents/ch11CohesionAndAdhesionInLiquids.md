@@ -1024,18 +1024,18 @@ Use the bubble pressure formula $$ P = \frac{4\gamma}{r} $$ with surface tension
 Given: $$ r = 2.00 \text{ cm} = 0.0200 \text{ m} $$
 
 From Table 1:
-- Water at 20°C: $$ \gamma_w = 0.0728 \text{ N/m} $$
-- Ethyl alcohol: $$ \gamma_a = 0.0223 \text{ N/m} $$
+- Water at 20°C: $$ \gamma_{w} = 0.0728 \text{ N/m} $$
+- Ethyl alcohol: $$ \gamma_{a} = 0.0223 \text{ N/m} $$
 - Soapy water: $$ \gamma_{sw} = 0.0370 \text{ N/m} $$
 
 **Water bubble:**
 <div class="equation">
-$$ P_w = \frac{4\gamma_w}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912}{0.0200} = 14.6 \text{ Pa} $$
+$$ P_w = \frac{4\gamma_{w}}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912}{0.0200} = 14.6 \text{ Pa} $$
 </div>
 
 **Alcohol bubble:**
 <div class="equation">
-$$ P_a = \frac{4\gamma_a}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892}{0.0200} = 4.46 \text{ Pa} $$
+$$ P_a = \frac{4\gamma_{a}}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892}{0.0200} = 4.46 \text{ Pa} $$
 </div>
 
 **Soapy water bubble:**
@@ -1069,7 +1069,7 @@ Suppose water is raised by capillary action to a height of 5.00 cm in a glass tu
 
 **Strategy**
 
-From the capillary rise equation $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$, we see that for the same liquid (same $$\gamma$$, $$\rho$$) in tubes of the same radius, the height is proportional to $$\cos\theta$$. We can use the ratio of heights: $$ \frac{h_2}{h_1} = \frac{\cos\theta_2}{\cos\theta_1} $$.
+From the capillary rise equation $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$, we see that for the same liquid (same $$\gamma$$, $$\rho$$) in tubes of the same radius, the height is proportional to $$\cos\theta$$. We can use the ratio of heights: $$ \frac{h_2}{h_1} = \frac{\cos\theta_{2}}{\cos\theta_{1}} $$.
 
 **Solution**
 
@@ -1236,11 +1236,11 @@ For capillary rise: $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$
 
 For the same tube, the ratio is:
 <div class="equation">
-$$ \frac{h_{\text{water}}}{h_{\text{mercury}}} = \frac{\gamma_w \cos\theta_w}{\gamma_{Hg} \cos\theta_{Hg}} \times \frac{\rho_{Hg}}{\rho_w} $$
+$$ \frac{h_{\text{water}}}{h_{\text{mercury}}} = \frac{\gamma_{w} \cos\theta_{w}}{\gamma_{Hg} \cos\theta_{Hg}} \times \frac{\rho_{Hg}}{\rho_{w}} $$
 </div>
 
 From Tables 1 and 2:
-- Water: $$ \gamma_w = 0.0728 \text{ N/m} $$, $$ \theta_w = 0° $$ (so $$ \cos\theta_w = 1 $$), $$ \rho_w = 1000 \text{ kg/m}^3 $$
+- Water: $$ \gamma_{w} = 0.0728 \text{ N/m} $$, $$ \theta_{w} = 0° $$ (so $$ \cos\theta_{w} = 1 $$), $$ \rho_{w} = 1000 \text{ kg/m}^3 $$
 - Mercury: $$ \gamma_{Hg} = 0.465 \text{ N/m} $$, $$ \theta_{Hg} = 140° $$ (so $$ \cos\theta_{Hg} = \cos(140°) = -0.766 $$), $$ \rho_{Hg} = 13,600 \text{ kg/m}^3 $$
 
 Substitute values:

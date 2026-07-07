@@ -831,7 +831,7 @@ $$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
 
 **(b) Distance traveled:**
 
-Using $$ x = v_0t + \frac{1}{2}at^2 $$:
+Using $$ x = v_0t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
 $$ x = 0 + \frac{1}{2}(9.29)(0.800)^2 = \frac{1}{2}(9.29)(0.640) = 2.97 \m $$
@@ -1286,7 +1286,7 @@ $$ v_1 = v_0 + at = 0 + (1.20 \mss)(1.50 \s) = 1.80 \ms $$
 </div>
 
 <div class="equation">
-$$ \Delta y_1 = v_0 t + \frac{1}{2}at^2 = 0 + \frac{1}{2}(1.20 \mss)(1.50 \s)^2 = 1.35 \m $$
+$$ \Delta y_1 = v_0 t + \frac{1}{2}at^{2} = 0 + \frac{1}{2}(1.20 \mss)(1.50 \s)^2 = 1.35 \m $$
 </div>
 
 **Phase 2 (constant velocity for 8.50 s):**
@@ -1302,7 +1302,7 @@ $$ v_f = v_1 + at = 1.80 \ms + (-0.600 \mss)(3.00 \s) = 0 \ms $$
 </div>
 
 <div class="equation">
-$$ \Delta y_3 = v_1 t + \frac{1}{2}at^2 = (1.80 \ms)(3.00 \s) + \frac{1}{2}(-0.600 \mss)(3.00 \s)^2 $$
+$$ \Delta y_3 = v_1 t + \frac{1}{2}at^{2} = (1.80 \ms)(3.00 \s) + \frac{1}{2}(-0.600 \mss)(3.00 \s)^2 $$
 </div>
 
 <div class="equation">

@@ -411,20 +411,20 @@ One type of BB gun uses a spring-driven plunger to blow the BB from its barrel. 
 
 **Strategy**
 
-For part (a), we use energy conservation. The elastic potential energy stored in the compressed spring is completely converted to kinetic energy of the plunger: $$\frac{1}{2}kx^2 = \frac{1}{2}mv^2$$. We solve for the spring constant $$k$$. For part (b), we use Hooke's law $$F = kx$$ with the spring constant from part (a).
+For part (a), we use energy conservation. The elastic potential energy stored in the compressed spring is completely converted to kinetic energy of the plunger: $$\frac{1}{2}kx^{2} = \frac{1}{2}mv^{2}$$. We solve for the spring constant $$k$$. For part (b), we use Hooke's law $$F = kx$$ with the spring constant from part (a).
 
 **Solution**
 
 **(a)** From energy conservation:
 
 <div class="equation">
- $$\frac{1}{2}kx^2 = \frac{1}{2}mv^2$$
+ $$\frac{1}{2}kx^{2} = \frac{1}{2}mv^{2}$$
 </div>
 
 Solving for $$k$$:
 
 <div class="equation">
- $$k = \frac{mv^2}{x^2} = \frac{(0.0500 \text{ kg})(20.0 \text{ m/s})^2}{(0.150 \text{ m})^2}$$
+ $$k = \frac{mv^{2}}{x^2} = \frac{(0.0500 \text{ kg})(20.0 \text{ m/s})^2}{(0.150 \text{ m})^2}$$
 </div>
 
 <div class="equation">

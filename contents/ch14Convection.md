@@ -557,7 +557,7 @@ perspiration, assuming the relative humidity of the surrounding air is low?
 
 **Strategy**
 
-The heat removed by evaporation ($$Q = mL_v$$) must equal the heat lost from the body ($$Q = mc\Delta T$$). We solve for the mass of water that must evaporate.
+The heat removed by evaporation ($$Q = mL_{v}$$) must equal the heat lost from the body ($$Q = mc\Delta T$$). We solve for the mass of water that must evaporate.
 
 **Solution**
 
@@ -622,7 +622,7 @@ follow the steps in the
 
 **Strategy**
 
-We follow the problem-solving strategy outlined in the referenced section. The heat from the Sun must equal the heat required for evaporation. We use $$Q = mL_v$$ where $$L_v$$ is the latent heat of vaporization for water, and solve for the mass $$m$$.
+We follow the problem-solving strategy outlined in the referenced section. The heat from the Sun must equal the heat required for evaporation. We use $$Q = mL_{v}$$ where $$L_v$$ is the latent heat of vaporization for water, and solve for the mass $$m$$.
 
 **Solution**
 
@@ -649,7 +649,7 @@ $$Q = \frac{Q}{t} \times t = (1000 \text{ W/m}^2)(3600 \text{ s}) = 3.60 \times 
 
 For phase change (evaporation):
 <div class="equation">
-$$Q = mL_v$$
+$$Q = mL_{v}$$
 </div>
 
 Solve for mass:
@@ -932,7 +932,7 @@ the heat of vaporization to be 2340 kJ/kg.
 
 **Strategy**
 
-For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ to solve for the temperature difference across the glass, then add this to the inside temperature to get the outside (bottom) temperature. For part (b), we use $$Q = mL_v$$ to find how much water evaporates.
+For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ to solve for the temperature difference across the glass, then add this to the inside temperature to get the outside (bottom) temperature. For part (b), we use $$Q = mL_{v}$$ to find how much water evaporates.
 
 **Solution**
 
@@ -977,7 +977,7 @@ In one minute, energy transferred:
 $$Q = (50.0 \text{ W})(60 \text{ s}) = 3000 \text{ J}$$
 </div>
 
-Using $$Q = mL_v$$:
+Using $$Q = mL_{v}$$:
 <div class="equation">
 $$m = \frac{Q}{L_v} = \frac{3000 \text{ J}}{2.34 \times 10^6 \text{ J/kg}} = 1.28 \times 10^{-3} \text{ kg} = 1.28 \text{ g}$$
 </div>

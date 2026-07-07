@@ -405,7 +405,7 @@ Experiments are performed with ultracold neutrons having velocities as small as 
 
 **Strategy**
 
-(a) Use $$\lambda = \frac{h}{mv}$$. (b) Calculate kinetic energy using $$\text{KE} = \frac{1}{2}mv^2$$ and convert to eV.
+(a) Use $$\lambda = \frac{h}{mv}$$. (b) Calculate kinetic energy using $$\text{KE} = \frac{1}{2}mv^{2}$$ and convert to eV.
 
 **Solution for (a)**
 
@@ -416,7 +416,7 @@ Experiments are performed with ultracold neutrons having velocities as small as 
 **Solution for (b)**
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(1.00 \text{ m/s})^2 = 8.375 \times 10^{-28} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv^{2} = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(1.00 \text{ m/s})^2 = 8.375 \times 10^{-28} \text{ J}$$
 </div>
 
 Converting to eV:
@@ -476,7 +476,7 @@ Kinetic energy equals the potential energy:
  $$\text{KE} = eV = 30.0 \text{ keV} = 30.0 \times 10^{3} \times 1.60 \times 10^{-19} \text{ J} = 4.80 \times 10^{-15} \text{ J}$$
 </div>
 
-Find velocity from $$\text{KE} = \frac{1}{2}mv^2$$:
+Find velocity from $$\text{KE} = \frac{1}{2}mv^{2}$$:
 
 <div class="equation">
  $$v = \sqrt{\frac{2\text{KE}}{m}} = \sqrt{\frac{2(4.80 \times 10^{-15} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 1.03 \times 10^{8} \text{ m/s}$$
@@ -528,7 +528,7 @@ What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength
 
 **Strategy**
 
-(a) Use $$v = \frac{h}{m\lambda}$$. (b) The voltage accelerates the electron to kinetic energy $$\text{KE} = \frac{1}{2}mv^2 = eV$$.
+(a) Use $$v = \frac{h}{m\lambda}$$. (b) The voltage accelerates the electron to kinetic energy $$\text{KE} = \frac{1}{2}mv^{2} = eV$$.
 
 **Solution for (a)**
 
@@ -539,7 +539,7 @@ What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength
 **Solution for (b)**
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(728 \text{ m/s})^2 = 2.42 \times 10^{-25} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv^{2} = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(728 \text{ m/s})^2 = 2.42 \times 10^{-25} \text{ J}$$
 </div>
 
 Converting to eV to find voltage:
@@ -595,7 +595,7 @@ Find the electron's momentum from its kinetic energy, then use $$\lambda = \frac
 
 **Solution**
 
-From $$\text{KE} = \frac{1}{2}mv^2 = \frac{p^2}{2m}$$, solve for momentum:
+From $$\text{KE} = \frac{1}{2}mv^{2} = \frac{p^2}{2m}$$, solve for momentum:
 
 <div class="equation">
  $$p = \sqrt{2m \cdot \text{KE}}$$

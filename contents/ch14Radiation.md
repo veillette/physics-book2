@@ -1029,13 +1029,13 @@ increase could this cause in dry air?
 
 **Strategy**
 
-This problem requires understanding vapor pressure, relative humidity, and phase change. Part (a): We find the absolute humidity at both temperatures using relative humidity and saturation vapor pressure data. The difference is the condensed water. Part (b): We use $$Q = mL_c$$ where $$L_c$$ is the latent heat of condensation (equal to $$L_v$$). Part (c): We use $$Q = mc\Delta T$$ for dry air.
+This problem requires understanding vapor pressure, relative humidity, and phase change. Part (a): We find the absolute humidity at both temperatures using relative humidity and saturation vapor pressure data. The difference is the condensed water. Part (b): We use $$Q = mL_{c}$$ where $$L_c$$ is the latent heat of condensation (equal to $$L_v$$). Part (c): We use $$Q = mc\Delta T$$ for dry air.
 
 **Solution**
 
 Given:
 - Initial temperature: $$T_1 = 30.0\text{ºC}$$
-- Initial relative humidity: $$RH_1 = 75.0\%$$
+- Initial relative humidity: $$RH_{1} = 75.0\%$$
 - Final temperature: $$T_2 = 20.0\text{ºC}$$
 - Volume: $$V = 1.00 \text{ m}^3$$
 - Latent heat of vaporization/condensation: $$L_v = L_c = 2256 \times 10^3 \text{ J/kg}$$
@@ -1048,17 +1048,17 @@ From standard tables, saturation vapor densities:
 
 Initial absolute humidity (75% of saturation at 30ºC):
 <div class="equation">
-$$\rho_1 = 0.75 \times 30.4 = 22.8 \text{ g/m}^3$$
+$$\rho_{1} = 0.75 \times 30.4 = 22.8 \text{ g/m}^3$$
 </div>
 
 At 20ºC, air can hold maximum (100% saturation):
 <div class="equation">
-$$\rho_2 = 17.3 \text{ g/m}^3$$
+$$\rho_{2} = 17.3 \text{ g/m}^3$$
 </div>
 
 Mass condensed per cubic meter:
 <div class="equation">
-$$m_{cond} = \rho_1 - \rho_2 = 22.8 - 17.3 = 5.5 \text{ g/m}^3$$
+$$m_{cond} = \rho_{1} - \rho_{2} = 22.8 - 17.3 = 5.5 \text{ g/m}^3$$
 </div>
 
 **(b)** Heat transfer by condensation:
@@ -1070,7 +1070,7 @@ $$m = 5.5 \text{ g} = 0.0055 \text{ kg}$$
 
 Heat released by condensation:
 <div class="equation">
-$$Q = mL_c = (0.0055)(2256 \times 10^3) = 12,408 \text{ J} \approx 12.4 \text{ kJ}$$
+$$Q = mL_{c} = (0.0055)(2256 \times 10^3) = 12,408 \text{ J} \approx 12.4 \text{ kJ}$$
 </div>
 
 **(c)** Temperature increase in dry air:
@@ -1696,7 +1696,7 @@ are unreasonable?
 
 **Strategy**
 
-We calculate the waste heat from burning gasoline, then determine how much ice this could melt using $$Q = mL_f$$. We evaluate whether this is practical.
+We calculate the waste heat from burning gasoline, then determine how much ice this could melt using $$Q = mL_{f}$$. We evaluate whether this is practical.
 
 **Solution**
 

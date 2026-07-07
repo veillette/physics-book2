@@ -584,13 +584,13 @@ Find the two possible capacitances (series and parallel) and the two possible re
 
 **Four time constants:**
 
-1. $$\tau_1 = R_s C_p = (125 \times 10^{3})(9.50 \times 10^{-6}) = 1.19 \text{ s}$$
+1. $$\tau_{1} = R_s C_p = (125 \times 10^{3})(9.50 \times 10^{-6}) = 1.19 \text{ s}$$
 
-2. $$\tau_2 = R_s C_s = (125 \times 10^{3})(1.58 \times 10^{-6}) = 0.198 \text{ s}$$
+2. $$\tau_{2} = R_s C_s = (125 \times 10^{3})(1.58 \times 10^{-6}) = 0.198 \text{ s}$$
 
-3. $$\tau_3 = R_p C_p = (20.0 \times 10^{3})(9.50 \times 10^{-6}) = 0.190 \text{ s}$$
+3. $$\tau_{3} = R_p C_p = (20.0 \times 10^{3})(9.50 \times 10^{-6}) = 0.190 \text{ s}$$
 
-4. $$\tau_4 = R_p C_s = (20.0 \times 10^{3})(1.58 \times 10^{-6}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
+4. $$\tau_{4} = R_p C_s = (20.0 \times 10^{3})(1.58 \times 10^{-6}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
 
 **Discussion**
 

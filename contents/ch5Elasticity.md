@@ -763,7 +763,7 @@ rod 35.0 cm long and 1.80 cm in radius. Her mass is 60.0 kg.
 
 **Strategy**
 
-We use the relationship $$ \Delta L = \frac{FL_0}{AY} $$, where $$ F $$ is the tensile force, $$ L_0 $$ is the original length, $$ A $$ is the cross-sectional area, and $$ Y $$ is Young's modulus. From Table 3, Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$. The total force of 3 times her weight is distributed between two femurs.
+We use the relationship $$ \Delta L = \frac{FL_{0}}{AY} $$, where $$ F $$ is the tensile force, $$ L_0 $$ is the original length, $$ A $$ is the cross-sectional area, and $$ Y $$ is Young's modulus. From Table 3, Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$. The total force of 3 times her weight is distributed between two femurs.
 
 **Solution**
 
@@ -784,7 +784,7 @@ $$ A = \pi r^2 = \pi(0.0180 \m)^2 = 1.018 \times 10^{-3} \mm $$
 
 4. Apply the stretch formula:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(882 \N)(0.350 \m)}{(1.018 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(882 \N)(0.350 \m)}{(1.018 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -814,7 +814,7 @@ rod 38.0 cm in length and 2.10 cm in radius.
 
 **Strategy**
 
-The upper arm bone (humerus) is under compression from supporting the wrestler's weight. We use $$ \Delta L = \frac{FL_0}{AY} $$, where $$ F = mg $$ is the compressive force (the wrestler's weight), and Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$.
+The upper arm bone (humerus) is under compression from supporting the wrestler's weight. We use $$ \Delta L = \frac{FL_{0}}{AY} $$, where $$ F = mg $$ is the compressive force (the wrestler's weight), and Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -830,7 +830,7 @@ $$ A = \pi r^2 = \pi(0.0210 \m)^2 = 1.385 \times 10^{-3} \mm $$
 
 3. Calculate the compression:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -862,7 +862,7 @@ be consistent with what you have observed when using pencils?
 
 **Strategy**
 
-We use the deformation formula $$ \Delta L = \frac{FL_0}{AY} $$. The force is applied along the length of the lead, causing compression. Given values: $$ F = 4.0 \N $$, $$ L_0 = 60 \text{ mm} = 0.060 \m $$, diameter $$ = 0.50 \text{ mm} $$, and $$ Y = 1 \times 10^9 \text{ N/m}^2 $$.
+We use the deformation formula $$ \Delta L = \frac{FL_{0}}{AY} $$. The force is applied along the length of the lead, causing compression. Given values: $$ F = 4.0 \N $$, $$ L_0 = 60 \text{ mm} = 0.060 \m $$, diameter $$ = 0.50 \text{ mm} $$, and $$ Y = 1 \times 10^9 \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -875,7 +875,7 @@ $$ A = \pi r^2 = \pi(0.25 \times 10^{-3} \m)^2 = 1.96 \times 10^{-7} \mm $$
 
 2. Calculate the compression:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(4.0 \N)(0.060 \m)}{(1.96 \times 10^{-7} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(4.0 \N)(0.060 \m)}{(1.96 \times 10^{-7} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -909,7 +909,7 @@ compressed, if we consider it to be equivalent to a steel cylinder 0.150 m in ra
 
 **Strategy**
 
-We use $$ \Delta L = \frac{FL_0}{AY} $$ to find the compression. The force is the total weight of the physicist and equipment. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$ from Table 3.
+We use $$ \Delta L = \frac{FL_{0}}{AY} $$ to find the compression. The force is the total weight of the physicist and equipment. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$ from Table 3.
 
 **Solution**
 
@@ -925,7 +925,7 @@ $$ A = \pi r^2 = \pi(0.150 \m)^2 = 0.0707 \mm $$
 
 3. Calculate the compression:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(4626 \N)(610 \m)}{(0.0707 \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(4626 \N)(610 \m)}{(0.0707 \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -955,7 +955,7 @@ nylon ropes? Would it make sense if the rope were actually a bungee cord?
 
 **Strategy**
 
-We use $$ \Delta L = \frac{FL_0}{AY} $$ to find how much the rope stretches under the climber's weight. From Table 3, Young's modulus for nylon is $$ Y = 5 \times 10^9 \text{ N/m}^2 $$.
+We use $$ \Delta L = \frac{FL_{0}}{AY} $$ to find how much the rope stretches under the climber's weight. From Table 3, Young's modulus for nylon is $$ Y = 5 \times 10^9 \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -973,7 +973,7 @@ $$ A = \pi r^2 = \pi(0.00400 \m)^2 = 5.03 \times 10^{-5} \mm $$
 
 3. Calculate the stretch:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(637 \N)(35.0 \m)}{(5.03 \times 10^{-5} \mm)(5 \times 10^9 \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(637 \N)(35.0 \m)}{(5.03 \times 10^{-5} \mm)(5 \times 10^9 \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -1007,7 +1007,7 @@ the pole flex?
 
 **Strategy**
 
-This is a bending problem, where a horizontal force at the top causes the pole to flex sideways. For a cantilever beam (fixed at one end, force at the other), the deflection is given by $$ \delta = \frac{FL^3}{3YI} $$, where $$ I = \frac{\pi r^4}{4} $$ is the moment of inertia for a circular cross-section. From Table 3, Young's modulus for aluminum is $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
+This is a bending problem, where a horizontal force at the top causes the pole to flex sideways. For a cantilever beam (fixed at one end, force at the other), the deflection is given by $$ \delta = \frac{FL^{3}}{3YI} $$, where $$ I = \frac{\pi r^4}{4} $$ is the moment of inertia for a circular cross-section. From Table 3, Young's modulus for aluminum is $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1018,7 +1018,7 @@ $$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.257 \times 10^{-7} \te
 
 2. Calculate the deflection:
 <div class="equation">
-$$ \delta = \frac{FL^3}{3YI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-7} \text{ m}^4)} $$
+$$ \delta = \frac{FL^{3}}{3YI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-7} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
@@ -1065,7 +1065,7 @@ solid cylinder 5.00 cm in diameter.
 
 **Strategy**
 
-The top section of pipe must support the weight of all the pipe below it plus the drill bit. We use $$ \Delta L = \frac{FL_0}{AY} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+The top section of pipe must support the weight of all the pipe below it plus the drill bit. We use $$ \Delta L = \frac{FL_{0}}{AY} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1086,7 +1086,7 @@ $$ A = \pi r^2 = \pi(0.0250 \m)^2 = 1.96 \times 10^{-3} \mm $$
 
 4. Calculate the stretch:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \times 10^{-3} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \times 10^{-3} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -1113,7 +1113,7 @@ Calculate the force a piano tuner applies to stretch a steel piano wire 8.00 mm,
 
 **Strategy**
 
-We rearrange $$ \Delta L = \frac{FL_0}{AY} $$ to solve for force: $$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+We rearrange $$ \Delta L = \frac{FL_{0}}{AY} $$ to solve for force: $$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} $$. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1157,7 +1157,7 @@ taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
 **Strategy**
 
-For shear deformation, we use $$ \Delta x = \frac{FL_0}{AS} $$, where $$ S $$ is the shear modulus. From Table 3, the shear modulus for bone is $$ S = 8.0 \times 10^{10} \text{ N/m}^2 $$.
+For shear deformation, we use $$ \Delta x = \frac{FL_{0}}{AS} $$, where $$ S $$ is the shear modulus. From Table 3, the shear modulus for bone is $$ S = 8.0 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1168,7 +1168,7 @@ $$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 
 2. Calculate the shear deformation:
 <div class="equation">
-$$ \Delta x = \frac{FL_0}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(8.0 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta x = \frac{FL_{0}}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(8.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -1199,7 +1199,7 @@ diameter.
 
 **Strategy**
 
-We use the shear deformation formula $$ \Delta x = \frac{FL_0}{AS} $$, where $$ S = 1 \times 10^9 \text{ N/m}^2 $$ is given for the intervertebral disk (much softer than bone).
+We use the shear deformation formula $$ \Delta x = \frac{FL_{0}}{AS} $$, where $$ S = 1 \times 10^9 \text{ N/m}^2 $$ is given for the intervertebral disk (much softer than bone).
 
 **Solution**
 
@@ -1210,7 +1210,7 @@ $$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 
 2. Calculate the shear deformation:
 <div class="equation">
-$$ \Delta x = \frac{FL_0}{AS} = \frac{(600 \N)(0.00700 \m)}{(1.257 \times 10^{-3} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
+$$ \Delta x = \frac{FL_{0}}{AS} = \frac{(600 \N)(0.00700 \m)}{(1.257 \times 10^{-3} \mm)(1 \times 10^9 \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
@@ -1455,7 +1455,7 @@ was originally 15 m long and 0.50 cm in diameter.
 
 **Strategy**
 
-We use $$ \Delta L = \frac{FL_0}{AY} $$ to find the stretch. The tension $$ T = 3.94 \times 10^3 \N $$ acts along the wire. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
+We use $$ \Delta L = \frac{FL_{0}}{AY} $$ to find the stretch. The tension $$ T = 3.94 \times 10^3 \N $$ acts along the wire. For steel, Young's modulus is $$ Y = 2.1 \times 10^{11} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1466,7 +1466,7 @@ $$ A = \pi r^2 = \pi(0.0025 \m)^2 = 1.96 \times 10^{-5} \mm $$
 
 2. Calculate the stretch:
 <div class="equation">
-$$ \Delta L = \frac{TL_0}{AY} = \frac{(3.94 \times 10^3 \N)(15 \m)}{(1.96 \times 10^{-5} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{TL_{0}}{AY} = \frac{(3.94 \times 10^3 \N)(15 \m)}{(1.96 \times 10^{-5} \mm)(2.1 \times 10^{11} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">

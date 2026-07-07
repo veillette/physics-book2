@@ -530,7 +530,7 @@ Use the kinematic equations for free-fall with upward as positive. Since the bal
 
 **Solution**
 
-For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^2 = v_0 t - \frac{1}{2}gt^2 $$
+For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} = v_0 t - \frac{1}{2}gt^{2} $$
 
 For velocity: $$ v = v_0 + at = v_0 - gt $$
 
@@ -611,7 +611,7 @@ Take downward as positive since the rock is thrown downward. This means the init
 
 **Solution**
 
-For position: $$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = v_0 t + \frac{1}{2}gt^2 $$
+For position: $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} = v_0 t + \frac{1}{2}gt^{2} $$
 
 For velocity: $$ v = v_0 + gt $$
 
@@ -765,7 +765,7 @@ __(b) Height above water:__
 Use the kinematic equation:
 
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 Substitute the known values:
@@ -857,7 +857,7 @@ __(a) Time in the air:__
 
 2. Use the kinematic equation for displacement:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -985,7 +985,7 @@ __(a) Height of the cliff:__
 
 2. Use the kinematic equation for displacement:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -1012,7 +1012,7 @@ __(b) Time if thrown straight down:__
 
 2. Use the kinematic equation and solve for time:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
@@ -1074,7 +1074,7 @@ Take upward as positive. The shot is released at height 2.20 m with initial upwa
 
 2. Use the kinematic equation for displacement:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -1157,7 +1157,7 @@ Given:
 
 1. Use the kinematic equation for position:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 2. Substitute the known values:
@@ -1331,7 +1331,7 @@ Take downward as positive. The rock falls from rest at height 105 m. After 1.50 
 
 2. Find the distance fallen in 1.50 s:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = 0 + 0 + \frac{1}{2}(9.80)(1.50)^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} = 0 + 0 + \frac{1}{2}(9.80)(1.50)^2 $$
 </div>
 
 <div class="equation">
@@ -1352,7 +1352,7 @@ $$ v = v_0 + gt = 0 + (9.80)(1.50) = 14.7 \ms $$
 
 2. Use the kinematic equation for the remaining fall:
 <div class="equation">
-$$ y = v_0 t + \frac{1}{2}gt^2 $$
+$$ y = v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -1420,7 +1420,7 @@ __(a) Distance traveled during the first second:__
 
 2. Use the kinematic equation for displacement:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -1463,7 +1463,7 @@ First, find the total time to fall 75.0 m:
 
 1. Use the kinematic equation:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -1556,7 +1556,7 @@ $$ v = -70.0 \ms $$ (downward)
 
 1. First, find the time for the boulder to fall:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
@@ -1626,7 +1626,7 @@ The window is 2.00 m high and the ball takes 0.312 s to pass through it.
 
 2. Use the kinematic equation:
 <div class="equation">
-$$ \Delta y = v_{bottom} t + \frac{1}{2}at^2 $$
+$$ \Delta y = v_{bottom} t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute and solve for $$ v\_{bottom} $$:
@@ -1722,7 +1722,7 @@ __(a) Neglecting sound travel time:__
 
 2. Use the kinematic equation:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 3. Substitute the known values:
@@ -1936,7 +1936,7 @@ The magnitude of compression is:
 $$ |\Delta y| = 3.6 \times 10^{-6} \m = 3.6 \text{ μm} $$
 </div>
 
-Alternatively, using $$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$:
+Alternatively, using $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
 $$ \Delta y = (-5.42)(8.00 \times 10^{-5}) + \frac{1}{2}(1.34 \times 10^{5})(8.00 \times 10^{-5})^2 $$
@@ -2025,7 +2025,7 @@ __(b) Position and velocity at t = 4.00 s:__
 
 1. Position after 4.00 s:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
@@ -2059,7 +2059,7 @@ __(c) Time before hitting the ground:__
 
 1. When the coin hits the ground, $$ y = 0 $$. Use:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
@@ -2215,7 +2215,7 @@ __(d) Distance the ball compressed during collision:__
 
 1. Use the kinematic equation:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 2. Substitute the known values:

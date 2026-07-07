@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import EquationProcessor from '../scripts/equations.js';
+import EquationProcessor, { fixSubSupBraces } from '../scripts/equations.js';
 
 // The project's ONLY math delimiter is $$…$$ (a lone $ is literal text, e.g. currency), and a
 // $$…$$ span may cross line boundaries. These tests lock in that behavior so the checker does
@@ -72,5 +72,70 @@ describe('EquationProcessor.validateMathSpans', () => {
     const content = ['```', '$$ unbalanced {', '```'].join('\n');
     proc.validateMathSpans('t.md', content);
     expect(proc.errors).toHaveLength(0);
+  });
+});
+
+describe('fixSubSupBraces', () => {
+  it('wraps multi-character subscripts', () => {
+    expect(fixSubSupBraces(String.raw`\tau_L = F_L \times 2d`)).toBe(
+      String.raw`\tau_{L} = F_L \times 2d`
+    );
+  });
+
+  it('wraps multi-character superscripts', () => {
+    expect(fixSubSupBraces(String.raw`\frac{1}{2}mv^2`)).toBe(String.raw`\frac{1}{2}mv^{2}`);
+  });
+
+  it('leaves single-character scripts unchanged', () => {
+    expect(fixSubSupBraces(String.raw`x_1 + y^2`)).toBe(String.raw`x_1 + y^2`);
+  });
+
+  it('does not double-wrap already-braced scripts', () => {
+    expect(fixSubSupBraces(String.raw`\tau_{1} + mv^{2}`)).toBe(String.raw`\tau_{1} + mv^{2}`);
+  });
+});
+
+describe('EquationProcessor.fixSubSupInMathSpans', () => {
+  let proc;
+
+  beforeEach(() => {
+    proc = new EquationProcessor({ fix: true });
+  });
+
+  it('fixes only inside $$ spans, not URLs or prose', () => {
+    const content = ['see lunar-lander_en.html for the sim.', '$$ \\tau_L = F_L $$'].join('\n');
+    const { content: fixed, fixes } = proc.fixSubSupInMathSpans(content, 't.md');
+    expect(fixed).toContain(String.raw`\tau_{L} = F_L`);
+    expect(fixed).toContain('lunar-lander_en.html');
+    expect(fixes).toHaveLength(1);
+  });
+
+  it('ignores sub/sup issues inside fenced code blocks', () => {
+    const content = ['```', String.raw`$$\tau_L$$`, '```'].join('\n');
+    const { content: fixed, fixes } = proc.fixSubSupInMathSpans(content, 't.md');
+    expect(fixed).toBe(content);
+    expect(fixes).toHaveLength(0);
+  });
+});
+
+describe('EquationProcessor sub/sup warnings', () => {
+  let proc;
+
+  beforeEach(() => {
+    proc = new EquationProcessor();
+  });
+
+  it('warns inside math spans', () => {
+    proc.validateMathSpans('t.md', String.raw`$$ \tau_L = 1 $$`);
+    expect(proc.warnings.some(w => w.message.includes('subscript'))).toBe(true);
+  });
+
+  it('does not warn on iframe URLs outside math', () => {
+    proc.checkFile(
+      't.md',
+      '<iframe src="https://phet.colorado.edu/sims/lunar-lander/lunar-lander_en.html">',
+      't.md'
+    );
+    expect(proc.warnings).toHaveLength(0);
   });
 });

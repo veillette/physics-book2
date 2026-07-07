@@ -813,7 +813,7 @@ Final conditions: $$T_f = -50.0ºC = 223 K$$, $$V_f = 20V_0$$, $$P_f = ?$$
 
 Using ideal gas law for both states:
 <div class="equation" >
- $$\frac{P_0V_0}{T_0}=\frac{P_fV_f}{T_f} $$
+ $$\frac{P_0V_0}{T_0}=\frac{P_fV_{f}}{T_f} $$
 </div>
 
 Solving for $$P_f$$:

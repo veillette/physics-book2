@@ -156,13 +156,13 @@ What happens to the energy stored in a capacitor connected to a battery when a d
 
 **Strategy**
 
-For part (a), we use the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^2$$ since we know capacitance and voltage. For part (b), we use $$Q = CV$$ to find the stored charge.
+For part (a), we use the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^{2}$$ since we know capacitance and voltage. For part (b), we use $$Q = CV$$ to find the stored charge.
 
 **Solution**
 
 **(a)** Calculate the stored energy:
 
-$$E_{\text{cap}} = \frac{1}{2}CV^2$$
+$$E_{\text{cap}} = \frac{1}{2}CV^{2}$$
 
 $$E_{\text{cap}} = \frac{1}{2}(10.0 \times 10^{-6} \text{ F})(9.00 \times 10^{3} \text{ V})^2$$
 
@@ -203,13 +203,13 @@ In open-heart surgery, a much smaller amount of energy will defibrillate the hea
 
 **Strategy**
 
-For part (a), we rearrange the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^2$$ to solve for voltage. For part (b), we use $$Q = CV$$ with the voltage found in part (a).
+For part (a), we rearrange the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^{2}$$ to solve for voltage. For part (b), we use $$Q = CV$$ with the voltage found in part (a).
 
 **Solution**
 
 **(a)** Solve for voltage from the energy equation:
 
-$$E_{\text{cap}} = \frac{1}{2}CV^2$$
+$$E_{\text{cap}} = \frac{1}{2}CV^{2}$$
 
 $$V = \sqrt{\frac{2E_{\text{cap}}}{C}}$$
 
@@ -252,11 +252,11 @@ A  $$165 \text{µF} $$
 
 **Strategy**
 
-We have the capacitance and voltage, so we use the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^2$$ to find the stored energy.
+We have the capacitance and voltage, so we use the energy formula $$E_{\text{cap}} = \frac{1}{2}CV^{2}$$ to find the stored energy.
 
 **Solution**
 
-$$E_{\text{cap}} = \frac{1}{2}CV^2$$
+$$E_{\text{cap}} = \frac{1}{2}CV^{2}$$
 
 $$E_{\text{cap}} = \frac{1}{2}(165 \times 10^{-6} \text{ F})(119 \text{ V})^2$$
 
@@ -351,13 +351,13 @@ A nervous physicist worries that the two metal shelves of his wood frame bookcas
 
 **Strategy**
 
-The metal shelves act as a parallel plate capacitor with air between them. We use $$C = \epsilon_0\text{ A}/d$$ for part (a), $$V = Q/C$$ for part (b), and $$E = \frac{1}{2}QV$$ for part (c).
+The metal shelves act as a parallel plate capacitor with air between them. We use $$C = \epsilon_{0}\text{ A}/d$$ for part (a), $$V = Q/C$$ for part (b), and $$E = \frac{1}{2}QV$$ for part (c).
 
 **Solution**
 
 **(a)** Calculate the capacitance:
 
-$$C = \epsilon_0 \frac{A}{d} = (8.85 \times 10^{-12} \text{ F/m}) \frac{1.00 \times 10^{2} \text{ m}^2}{0.200 \text{ m}}$$
+$$C = \epsilon_{0} \frac{A}{d} = (8.85 \times 10^{-12} \text{ F/m}) \frac{1.00 \times 10^{2} \text{ m}^2}{0.200 \text{ m}}$$
 
 $$C = (8.85 \times 10^{-12} \text{ F/m})(500 \text{ m})$$
 
@@ -420,11 +420,11 @@ We need to express the maximum energy in terms of the dielectric volume. The max
 
 The energy stored in a capacitor is:
 
-$$U = \frac{1}{2}CV^2$$
+$$U = \frac{1}{2}CV^{2}$$
 
 For a parallel plate capacitor with dielectric:
 
-$$C = \kappa\epsilon_0 \frac{A}{d}$$
+$$C = \kappa\epsilon_{0} \frac{A}{d}$$
 
 The maximum voltage before breakdown is:
 
@@ -432,27 +432,27 @@ $$V_{\text{max}} = E_{\text{max}} \cdot d$$
 
 Substituting into the energy equation:
 
-$$U_{\text{max}} = \frac{1}{2}CV_{\text{max}}^2 = \frac{1}{2}\left(\kappa\epsilon_0 \frac{A}{d}\right)(E_{\text{max}} \cdot d)^2$$
+$$U_{\text{max}} = \frac{1}{2}CV_{\text{max}}^2 = \frac{1}{2}\left(\kappa\epsilon_{0} \frac{A}{d}\right)(E_{\text{max}} \cdot d)^2$$
 
-$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_0 \frac{A}{d} \cdot E_{\text{max}}^2 \cdot d^2$$
+$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_{0} \frac{A}{d} \cdot E_{\text{max}}^2 \cdot d^2$$
 
-$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2 \cdot A \cdot d$$
+$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2 \cdot A \cdot d$$
 
 Since Volume = $$A \cdot d$$:
 
-$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2 \cdot \text{Volume}$$
+$$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2 \cdot \text{Volume}$$
 
 **Discussion**
 
-For a given dielectric material, $$\kappa$$, $$\epsilon_0$$, and $$E_{\text{max}}$$ are all constants. Therefore:
+For a given dielectric material, $$\kappa$$, $$\epsilon_{0}$$, and $$E_{\text{max}}$$ are all constants. Therefore:
 
-$$U_{\text{max}} = \left(\frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2\right) \cdot \text{Volume}$$
+$$U_{\text{max}} = \left(\frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2\right) \cdot \text{Volume}$$
 
-This shows that $$U_{\text{max}} \propto \text{Volume}$$. The factor $$\frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2$$ represents the maximum energy density (energy per unit volume) that the dielectric can store. Materials with high dielectric constants AND high dielectric strengths make the best capacitor dielectrics because they maximize this energy density.
+This shows that $$U_{\text{max}} \propto \text{Volume}$$. The factor $$\frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2$$ represents the maximum energy density (energy per unit volume) that the dielectric can store. Materials with high dielectric constants AND high dielectric strengths make the best capacitor dielectrics because they maximize this energy density.
 
 **Final Answer**
 
-The maximum energy stored is $$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2 (Ad)$$, which proves that maximum energy is directly proportional to the volume of dielectric, with the proportionality constant being $$\frac{1}{2}\kappa\epsilon_0 E_{\text{max}}^2$$.
+The maximum energy stored is $$U_{\text{max}} = \frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2 (Ad)$$, which proves that maximum energy is directly proportional to the volume of dielectric, with the proportionality constant being $$\frac{1}{2}\kappa\epsilon_{0} E_{\text{max}}^2$$.
 
 :::
 
@@ -483,7 +483,7 @@ A hospital defibrillator uses a 32 μF capacitor and can deliver energies rangin
 
 **Strategy**
 
-Use the energy equation $$E = \frac{1}{2}CV^2$$ to find voltage, and $$Q = CV$$ to find charge.
+Use the energy equation $$E = \frac{1}{2}CV^{2}$$ to find voltage, and $$Q = CV$$ to find charge.
 
 **Solution**
 
@@ -538,13 +538,13 @@ result? (c) Which assumptions are responsible?
 
 **Strategy**
 
-Use the energy equation $$E = \frac{1}{2}CV^2$$ and solve for capacitance. Then evaluate whether the result is physically reasonable.
+Use the energy equation $$E = \frac{1}{2}CV^{2}$$ and solve for capacitance. Then evaluate whether the result is physically reasonable.
 
 **Solution**
 
 **(a)** Solve for capacitance:
 
-$$E = \frac{1}{2}CV^2$$
+$$E = \frac{1}{2}CV^{2}$$
 
 $$C = \frac{2E}{V^2} = \frac{2(9.60 \times 10^3 \text{ J})}{(12.0 \text{ V})^2}$$
 

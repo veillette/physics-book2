@@ -657,7 +657,7 @@ A large research solenoid has a self-inductance of 25.0 H. (a) What induced emf 
 **Strategy**
 
 (a) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the induced emf.
-(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^2$$.
+(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^{2}$$.
 (c) Find the power by dividing the stored energy by the time interval: $$P = E/\Delta t$$.
 (d) Evaluate whether the power level is reasonable for rapid shutdown.
 
@@ -679,7 +679,7 @@ $$\left|\text{emf}\right|=(25.0)(1250 \text{ A/s})=31,250 \text{ V}=31.3 \text{ 
 **(b)** Using $$I = 100 \text{ A}$$:
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(25.0 \text{ H})(100 \text{ A})^2$$
+$${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(25.0 \text{ H})(100 \text{ A})^2$$
 </div>
 
 <div class="equation">
@@ -724,8 +724,8 @@ This problem illustrates the challenges of working with large research electroma
 
 **Strategy**
 
-(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
-(b) Use the energy formula $${E}_{\text{ind}}=\frac{1}{2}LI^2$$ with the inductance from part (a).
+(a) Use the solenoid inductance formula $$L=\frac{\mu_{0} N^2 A}{\ell}$$ to find the self-inductance.
+(b) Use the energy formula $${E}_{\text{ind}}=\frac{1}{2}LI^{2}$$ with the inductance from part (a).
 (c) Use $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the minimum time required.
 
 **Solution**
@@ -735,10 +735,10 @@ This problem illustrates the challenges of working with large research electroma
 - $$\ell = 50.0 \text{ cm} = 0.500 \text{ m}$$
 - $$d = 10.0 \text{ cm}$$, so $$r = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 - $$A = \pi r^2 = \pi (0.0500 \text{ m})^2 = 7.85 \times 10^{-3} \text{ m}^2$$
-- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+- $$\mu_{0} = 4\pi \times 10^{-7} \text{ T·m/A}$$
 
 <div class="equation">
-$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(1000)^2(7.85 \times 10^{-3} \text{ m}^2)}{0.500 \text{ m}}$$
+$$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(1000)^2(7.85 \times 10^{-3} \text{ m}^2)}{0.500 \text{ m}}$$
 </div>
 
 <div class="equation">
@@ -748,7 +748,7 @@ $$L=\frac{(1.257 \times 10^{-6})(10^6)(7.85 \times 10^{-3})}{0.500}=\frac{9.87}{
 **(b)** Using the energy formula with $$I = 20.0 \text{ A}$$:
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})^2$$
+$${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})^2$$
 </div>
 
 <div class="equation">
@@ -789,7 +789,7 @@ A precision laboratory resistor is made of a coil of wire 1.50 cm in diameter an
 
 **Strategy**
 
-(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
+(a) Use the solenoid inductance formula $$L=\frac{\mu_{0} N^2 A}{\ell}$$ to find the self-inductance.
 (b) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ with the inductance from part (a).
 (c) Analyze what happens when the coil is counter-wound with two layers in opposite directions.
 
@@ -800,10 +800,10 @@ A precision laboratory resistor is made of a coil of wire 1.50 cm in diameter an
 - $$\ell = 4.00 \text{ cm} = 0.0400 \text{ m}$$
 - $$d = 1.50 \text{ cm}$$, so $$r = 0.750 \text{ cm} = 7.50 \times 10^{-3} \text{ m}$$
 - $$A = \pi r^2 = \pi (7.50 \times 10^{-3} \text{ m})^2 = 1.77 \times 10^{-4} \text{ m}^2$$
-- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+- $$\mu_{0} = 4\pi \times 10^{-7} \text{ T·m/A}$$
 
 <div class="equation">
-$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(500)^2(1.77 \times 10^{-4} \text{ m}^2)}{0.0400 \text{ m}}$$
+$$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(500)^2(1.77 \times 10^{-4} \text{ m}^2)}{0.0400 \text{ m}}$$
 </div>
 
 <div class="equation">
@@ -857,8 +857,8 @@ The heating coils in a hair dryer are 0.800 cm in diameter, have a combined leng
 
 **Strategy**
 
-(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$.
-(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^2$$.
+(a) Use the solenoid inductance formula $$L=\frac{\mu_{0} N^2 A}{\ell}$$.
+(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^{2}$$.
 (c) Find the induced emf using $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$.
 
 **Solution**
@@ -868,10 +868,10 @@ The heating coils in a hair dryer are 0.800 cm in diameter, have a combined leng
 - $$\ell = 1.00 \text{ m}$$
 - $$d = 0.800 \text{ cm} = 8.00 \times 10^{-3} \text{ m}$$, so $$r = 4.00 \times 10^{-3} \text{ m}$$
 - $$A = \pi r^2 = \pi (4.00 \times 10^{-3} \text{ m})^2 = 5.03 \times 10^{-5} \text{ m}^2$$
-- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+- $$\mu_{0} = 4\pi \times 10^{-7} \text{ T·m/A}$$
 
 <div class="equation">
-$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(400)^2(5.03 \times 10^{-5} \text{ m}^2)}{1.00 \text{ m}}$$
+$$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(400)^2(5.03 \times 10^{-5} \text{ m}^2)}{1.00 \text{ m}}$$
 </div>
 
 <div class="equation">
@@ -881,7 +881,7 @@ $$L=\frac{(1.257 \times 10^{-6})(1.60 \times 10^5)(5.03 \times 10^{-5})}{1.00}=1
 **(b)** Using $$I = 6.00 \text{ A}$$:
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(6.00 \text{ A})^2$$
+$${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(6.00 \text{ A})^2$$
 </div>
 
 <div class="equation">
@@ -994,7 +994,7 @@ $$\Delta t=\frac{(0.250 \text{ H})(150 \text{ A})}{75.0 \text{ V}}=\frac{37.5 \t
 
 **Discussion**
 
-The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^2 = \frac{1}{2}(0.250)(150)^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
+The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^{2} = \frac{1}{2}(0.250)(150)^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
 
 **Final Answer**
 
@@ -1023,7 +1023,7 @@ heat is $$200 \text{J/kg·ºC} $$ ?
 
 **Strategy**
 
-(a) Use the energy storage formula $${E}_{\text{ind}}=\frac{1}{2}LI^2$$ and solve for $$L$$.
+(a) Use the energy storage formula $${E}_{\text{ind}}=\frac{1}{2}LI^{2}$$ and solve for $$L$$.
 (b) Use the thermal energy formula $$Q = mc\Delta T$$ where the thermal energy equals the stored magnetic energy.
 
 **Solution**

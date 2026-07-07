@@ -619,7 +619,7 @@ $$ E_3 = 3.0 \text{ eV} - 0.0 \text{ eV} = 3.0 \text{ eV} $$
 (b) The wavelength corresponding to the 2.3 eV photon is:
 
 <div class="equation">
-$$ \lambda_2 = \frac{hc}{E_2} = \frac{1240 \text{ eV·nm}}{2.3 \text{ eV}} = 539 \text{ nm} $$
+$$ \lambda_{2} = \frac{hc}{E_2} = \frac{1240 \text{ eV·nm}}{2.3 \text{ eV}} = 539 \text{ nm} $$
 </div>
 
 This is in the green portion of the visible spectrum.
@@ -627,7 +627,7 @@ This is in the green portion of the visible spectrum.
 The wavelength corresponding to the 3.0 eV photon is:
 
 <div class="equation">
-$$ \lambda_3 = \frac{hc}{E_3} = \frac{1240 \text{ eV·nm}}{3.0 \text{ eV}} = 413 \text{ nm} $$
+$$ \lambda_{3} = \frac{hc}{E_3} = \frac{1240 \text{ eV·nm}}{3.0 \text{ eV}} = 413 \text{ nm} $$
 </div>
 
 This is in the violet portion of the visible spectrum.

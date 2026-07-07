@@ -122,7 +122,7 @@ We need to apply the law of reflection (angle of incidence equals angle of refle
 
 **Solution**
 
-Consider an incoming ray that strikes the first mirror at an angle $$\theta_1$$ with respect to the normal to that mirror surface. By the law of reflection, it reflects at the same angle $$\theta_1$$ on the other side of the normal.
+Consider an incoming ray that strikes the first mirror at an angle $$\theta_{1}$$ with respect to the normal to that mirror surface. By the law of reflection, it reflects at the same angle $$\theta_{1}$$ on the other side of the normal.
 
 Since the two mirrors meet at a right angle (90°), the normals to the two mirror surfaces are also perpendicular to each other.
 
@@ -218,24 +218,24 @@ We consider two rays emanating from a common point and striking a flat mirror at
 Let two rays originate from a common point S and strike a flat mirror at points A and B. Let the angle between these two incident rays be $$\theta$$.
 
 For ray 1 (striking at point A):
-- Let the angle of incidence be $$\alpha_1$$ (measured from the normal)
-- By the law of reflection, the angle of reflection is also $$\alpha_1$$
+- Let the angle of incidence be $$\alpha_{1}$$ (measured from the normal)
+- By the law of reflection, the angle of reflection is also $$\alpha_{1}$$
 
 For ray 2 (striking at point B):
-- Let the angle of incidence be $$\alpha_2$$ (measured from the normal)
-- By the law of reflection, the angle of reflection is also $$\alpha_2$$
+- Let the angle of incidence be $$\alpha_{2}$$ (measured from the normal)
+- By the law of reflection, the angle of reflection is also $$\alpha_{2}$$
 
 Since the mirror is flat (plane), the normal at every point on the mirror is parallel to the normal at every other point. This means both normals are parallel.
 
 The angle between the two incident rays is:
-$$\theta = |\alpha_1 - \alpha_2|$$
+$$\theta = |\alpha_{1} - \alpha_{2}|$$
 
 For the reflected rays, using the law of reflection and the fact that the normals are parallel:
-- Ray 1 reflects at angle $$\alpha_1$$ on the opposite side of the normal
-- Ray 2 reflects at angle $$\alpha_2$$ on the opposite side of the normal
+- Ray 1 reflects at angle $$\alpha_{1}$$ on the opposite side of the normal
+- Ray 2 reflects at angle $$\alpha_{2}$$ on the opposite side of the normal
 
 By geometric construction, since both rays reflect according to the same law and the normals are parallel, the angle between the reflected rays is also:
-$$\theta' = |\alpha_1 - \alpha_2| = \theta$$
+$$\theta' = |\alpha_{1} - \alpha_{2}| = \theta$$
 
 This can be verified by noting that the reflected rays, when extended backward, appear to originate from a virtual image point that is the same distance behind the mirror as the object point is in front of it. The geometry ensures that the angle between the rays remains unchanged.
 

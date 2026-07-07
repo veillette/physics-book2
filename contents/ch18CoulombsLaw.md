@@ -663,7 +663,7 @@ We follow the problem-solving strategy for electrostatics:
 **Step 3:** Use Newton's second law to find acceleration.
 
 <div class="equation">
- $$F = ma \Rightarrow a = \frac{F}{m} = \frac{ke^2}{mr^2}$$
+ $$F = ma \Rightarrow a = \frac{F}{m} = \frac{ke^{2}}{mr^{2}}$$
 </div>
 
 **Step 4:** Substitute numerical values.
@@ -810,7 +810,7 @@ Therefore:
 To verify this is a maximum, check the second derivative:
 
 <div class="equation">
- $$\frac{d^2f}{dx^2} = -2 < 0$$
+ $$\frac{d^2f}{dx^{2}} = -2 < 0$$
 </div>
 
 This confirms a maximum.
@@ -874,11 +874,11 @@ For the tape to be supported, the electrostatic force must equal the weight:
 Solving for $$q$$:
 
 <div class="equation">
- $$q^2 = \frac{mgr^2}{k}$$
+ $$q^2 = \frac{mgr^{2}}{k}$$
 </div>
 
 <div class="equation">
- $$q = \sqrt{\frac{mgr^2}{k}} = r\sqrt{\frac{mg}{k}}$$
+ $$q = \sqrt{\frac{mgr^{2}}{k}} = r\sqrt{\frac{mg}{k}}$$
 </div>
 
 Substituting values:
@@ -923,7 +923,7 @@ Part (b): This charge magnitude is entirely consistent with static electricity o
 
 **Strategy**
 
-For both electrons and protons, we calculate the ratio of electrostatic force to gravitational force. The electrostatic force is $$F_e = k\frac{e^2}{r^2}$$ and the gravitational force is $$F_g = G\frac{m^2}{r^2}$$, where $$m$$ is the mass of the particle. The ratio will be $$\frac{F_e}{F_g} = \frac{ke^2}{Gm^2}$$.
+For both electrons and protons, we calculate the ratio of electrostatic force to gravitational force. The electrostatic force is $$F_e = k\frac{e^2}{r^2}$$ and the gravitational force is $$F_g = G\frac{m^2}{r^2}$$, where $$m$$ is the mass of the particle. The ratio will be $$\frac{F_e}{F_g} = \frac{ke^{2}}{Gm^{2}}$$.
 
 **Solution**
 
@@ -937,7 +937,7 @@ Known constants:
 **(a)** For two electrons:
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{ke^2/r^2}{Gm_e^2/r^2} = \frac{ke^2}{Gm_e^2}$$
+ $$\frac{F_e}{F_g} = \frac{ke^{2}/r^2}{Gm_{e}^2/r^2} = \frac{ke^{2}}{Gm_{e}^2}$$
 </div>
 
 <div class="equation">
@@ -955,7 +955,7 @@ Known constants:
 **(b)** For two protons:
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{ke^2}{Gm_p^2}$$
+ $$\frac{F_e}{F_g} = \frac{ke^{2}}{Gm_{p}^2}$$
 </div>
 
 <div class="equation">
@@ -1013,11 +1013,11 @@ Set up the equation:
 Solve for $$r$$:
 
 <div class="equation">
- $$r^2 = \frac{ke^2}{m_p g}$$
+ $$r^2 = \frac{ke^{2}}{m_p g}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{ke^2}{m_p g}}$$
+ $$r = \sqrt{\frac{ke^{2}}{m_p g}}$$
 </div>
 
 Substitute the values:
@@ -1083,7 +1083,7 @@ The electrostatic force must equal the weight:
 </div>
 
 <div class="equation">
- $$q = \sqrt{\frac{wr^2}{k}} = r\sqrt{\frac{w}{k}}$$
+ $$q = \sqrt{\frac{wr^{2}}{k}} = r\sqrt{\frac{w}{k}}$$
 </div>
 
 <div class="equation">
@@ -1165,7 +1165,7 @@ From Coulomb's law:
 </div>
 
 <div class="equation">
- $$q_1 q_2 = \frac{Fr^2}{k} = \frac{(0.150)(0.500)^2}{8.99 \times 10^9}$$
+ $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.150)(0.500)^2}{8.99 \times 10^9}$$
 </div>
 
 <div class="equation">
@@ -1397,7 +1397,7 @@ Given:
 From Coulomb's law:
 
 <div class="equation">
- $$q_1 q_2 = \frac{Fr^2}{k} = \frac{(0.075)(3.00)^2}{8.99 \times 10^9}$$
+ $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.075)(3.00)^2}{8.99 \times 10^9}$$
 </div>
 
 <div class="equation">

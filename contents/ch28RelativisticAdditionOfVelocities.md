@@ -554,7 +554,7 @@ If a galaxy moving away from the Earth has a speed of  $$1000 \text{km/s} $$
 
 **Strategy**
 
-(a) Use the relativistic Doppler formula $$\lambda_{\text{obs}} = \lambda_s\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$ with $$u = 1000$$ km/s (positive for recession) and $$\lambda_s = 656$$ nm. (b) Identify the wavelength range. (c) Compare Earth's orbital speed to the galaxy's recession speed.
+(a) Use the relativistic Doppler formula $$\lambda_{\text{obs}} = \lambda_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$ with $$u = 1000$$ km/s (positive for recession) and $$\lambda_{s} = 656$$ nm. (b) Identify the wavelength range. (c) Compare Earth's orbital speed to the galaxy's recession speed.
 
 **Solution**
 
@@ -813,12 +813,12 @@ Near the center of our galaxy, hydrogen gas is moving directly away from us in i
 
 **Strategy**
 
-Use the relativistic Doppler formula for wavelength: $$\lambda_{\text{obs}} = \lambda_s\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$ where $$\lambda_{\text{obs}} = 1900$$ nm (observed, red-shifted), $$\lambda_s = 1875$$ nm (emitted), and $$u$$ is the recession speed (positive for motion away). Solve for $$u$$.
+Use the relativistic Doppler formula for wavelength: $$\lambda_{\text{obs}} = \lambda_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$ where $$\lambda_{\text{obs}} = 1900$$ nm (observed, red-shifted), $$\lambda_{s} = 1875$$ nm (emitted), and $$u$$ is the recession speed (positive for motion away). Solve for $$u$$.
 
 **Solution**
 
 <div class="equation">
-$$\frac{\lambda_{\text{obs}}}{\lambda_s} = \sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$
+$$\frac{\lambda_{\text{obs}}}{\lambda_{s}} = \sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$
 </div>
 
 <div class="equation">

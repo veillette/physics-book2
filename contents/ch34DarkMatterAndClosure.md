@@ -318,7 +318,7 @@ energies.
 
 **Strategy**
 
-(a) To convert mass density from kg/m³ to eV/c²·m³, we use the mass-energy equivalence relation $$ E = mc^2 $$. We need to convert kg to eV/c² using the conversion factor between joules and electron volts.
+(a) To convert mass density from kg/m³ to eV/c²·m³, we use the mass-energy equivalence relation $$ E = mc^{2} $$. We need to convert kg to eV/c² using the conversion factor between joules and electron volts.
 
 (b) If neutrinos with mass $$ m_\nu = 7 \text{ eV}/c^2 $$ make up the critical density, we can find the number density by dividing the critical density (in eV/c²·m³) by the mass of a single neutrino.
 
@@ -328,7 +328,7 @@ energies.
 
 The energy equivalent of 1 kg is:
 <div class="equation">
-$$ E = mc^2 = 1 \text{ kg} \times (3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{16} \text{ J} $$
+$$ E = mc^{2} = 1 \text{ kg} \times (3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{16} \text{ J} $$
 </div>
 
 Converting to eV (using $$ 1 \text{ eV} = 1.60 \times 10^{-19} \text{ J} $$):
@@ -340,12 +340,12 @@ Therefore: $$ 1 \text{ kg} = 5.625 \times 10^{35} \text{ eV}/c^2 $$
 
 Now converting the critical density:
 <div class="equation">
-$$ \rho_c = 10^{-26} \text{ kg/m}^3 \times 5.625 \times 10^{35} \frac{\text{eV}/c^2}{\text{kg}} = 5.6 \times 10^9 \text{ eV}/(c^2 \cdot \text{m}^3) $$
+$$ \rho_{c} = 10^{-26} \text{ kg/m}^3 \times 5.625 \times 10^{35} \frac{\text{eV}/c^2}{\text{kg}} = 5.6 \times 10^9 \text{ eV}/(c^2 \cdot \text{m}^3) $$
 </div>
 
 (b) The number density of neutrinos needed is:
 <div class="equation">
-$$ n = \frac{\rho_c}{m_\nu} = \frac{5.6 \times 10^9 \text{ eV}/(c^2 \cdot \text{m}^3)}{7 \text{ eV}/c^2} = 8.0 \times 10^8 \text{ neutrinos/m}^3 $$
+$$ n = \frac{\rho_{c}}{m_\nu} = \frac{5.6 \times 10^9 \text{ eV}/(c^2 \cdot \text{m}^3)}{7 \text{ eV}/c^2} = 8.0 \times 10^8 \text{ neutrinos/m}^3 $$
 </div>
 
 **Discussion**
@@ -413,7 +413,7 @@ stars in the arms of the Milky Way.
 
 (a) The volume the Sun's mass would occupy at critical density:
 <div class="equation">
-$$ V = \frac{M_{\text{Sun}}}{\rho_c} = \frac{2.0 \times 10^{30} \text{ kg}}{10^{-26} \text{ kg/m}^3} = 2.0 \times 10^{56} \text{ m}^3 $$
+$$ V = \frac{M_{\text{Sun}}}{\rho_{c}} = \frac{2.0 \times 10^{30} \text{ kg}}{10^{-26} \text{ kg/m}^3} = 2.0 \times 10^{56} \text{ m}^3 $$
 </div>
 
 (b) For a sphere, $$ V = \frac{4}{3}\pi r^3 $$, so:

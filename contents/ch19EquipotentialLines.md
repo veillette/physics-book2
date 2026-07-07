@@ -516,7 +516,7 @@ The naturally occurring charge on the ground on a fine day out in the open count
 
 **Strategy**
 
-The electric field near an infinite plane of charge is given by $$E = \sigma/(2\epsilon_0)$$. However, for the ground (which is a conductor with an image charge effect), the field is $$E = \sigma/\epsilon_0$$. The potential is found using $$V = Ed$$ for a uniform field.
+The electric field near an infinite plane of charge is given by $$E = \sigma/(2\epsilon_{0})$$. However, for the ground (which is a conductor with an image charge effect), the field is $$E = \sigma/\epsilon_{0}$$. The potential is found using $$V = Ed$$ for a uniform field.
 
 **Solution**
 
@@ -524,7 +524,7 @@ The electric field near an infinite plane of charge is given by $$E = \sigma/(2\
 
 For a conductor (ground), the electric field just above the surface is:
 
-$$E = \frac{\sigma}{\epsilon_0} = \frac{1.00 \times 10^{-9} \text{ C/m}^2}{8.85 \times 10^{-12} \text{ C}^2/(\text{N·m}^2)}$$
+$$E = \frac{\sigma}{\epsilon_{0}} = \frac{1.00 \times 10^{-9} \text{ C/m}^2}{8.85 \times 10^{-12} \text{ C}^2/(\text{N·m}^2)}$$
 
 $$E = 113 \text{ V/m}$$
 

@@ -952,17 +952,17 @@ Suppose you hit a steel nail with a 0.500-kg hammer, initially moving at  $$15.0
 
 **Strategy:**
 (a) Use the work-energy theorem: the work done by the average force equals the change in kinetic energy.
-(b) Use the relationship for compression: $$ \Delta L = \frac{FL_0}{AY} $$ where Y is Young's modulus for steel.
+(b) Use the relationship for compression: $$ \Delta L = \frac{FL_{0}}{AY} $$ where Y is Young's modulus for steel.
 (c) Calculate pressure using the tip area: $$ P = F/A_{\text{tip}} $$.
 
 **Solution:**
 
 **(a) Average force on the nail:**
 
-Using work-energy theorem: $$ F_{\text{avg}} \cdot d = \Delta KE = \frac{1}{2}mv^2 $$
+Using work-energy theorem: $$ F_{\text{avg}} \cdot d = \Delta KE = \frac{1}{2}mv^{2} $$
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{mv^2}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{56.25}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
+$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{56.25}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
 </div>
 
 **(b) Compression of the nail:**
@@ -974,7 +974,7 @@ $$ A = \pi r^2 = \pi (1.25 \times 10^{-3} \text{ m})^2 = 4.91 \times 10^{-6} \te
 
 Using Young's modulus for steel $$ Y = 2.0 \times 10^{11} \text{ Pa} $$:
 <div class="equation">
-$$ \Delta L = \frac{FL_0}{AY} = \frac{(2.01 \times 10^{4} \text{ N})(0.0600 \text{ m})}{(4.91 \times 10^{-6} \text{ m}^2)(2.0 \times 10^{11} \text{ Pa})} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(2.01 \times 10^{4} \text{ N})(0.0600 \text{ m})}{(4.91 \times 10^{-6} \text{ m}^2)(2.0 \times 10^{11} \text{ Pa})} $$
 </div>
 
 <div class="equation">
@@ -1086,7 +1086,7 @@ $$ \tau_{\text{arm}} = -W_{\text{arm}} \times r_{\text{arm}} \cos(30°) = -(150 
 
 Torque from cylinder (acts perpendicular to arm):
 <div class="equation">
-$$ \tau_F = F \times r_F = F(0.30 \text{ m}) $$
+$$ \tau_{F} = F \times r_F = F(0.30 \text{ m}) $$
 </div>
 
 For equilibrium: $$ \sum \tau = 0 $$

@@ -944,9 +944,9 @@ $$ m = \rho V = (19\,100)(1.06 \times 10^{-4}) = 2.02 \kg $$
 
 Using the work-energy theorem, where the projectile penetrates distance $$ d = 0.060 \m $$:
 
-$$ F \cdot d = \frac{1}{2}mv^2 $$
+$$ F \cdot d = \frac{1}{2}mv^{2} $$
 
-$$ F = \frac{mv^2}{2d} = \frac{(2.02 \kg)(1500 \ms)^2}{2(0.060 \m)} = 3.79 \times 10^{7} \N $$
+$$ F = \frac{mv^{2}}{2d} = \frac{(2.02 \kg)(1500 \ms)^2}{2(0.060 \m)} = 3.79 \times 10^{7} \N $$
 
 Average force: $$ 37.9 \text{ MN} $$ (about 3860 tons-force)
 

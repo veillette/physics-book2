@@ -1426,17 +1426,17 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
 
 Finding a common denominator:
 <div class="equation">
-$$\frac{1}{d_i} = \frac{d_o - f}{fd_o}$$
+$$\frac{1}{d_i} = \frac{d_o - f}{fd_{o}}$$
 </div>
 
 Inverting:
 <div class="equation">
-$$d_i = \frac{fd_o}{d_o - f}$$
+$$d_i = \frac{fd_{o}}{d_o - f}$$
 </div>
 
 Substituting into the magnification equation:
 <div class="equation">
-$$m = -\frac{d_i}{d_o} = -\frac{1}{d_o} \cdot \frac{fd_o}{d_o - f}$$
+$$m = -\frac{d_i}{d_o} = -\frac{1}{d_o} \cdot \frac{fd_{o}}{d_o - f}$$
 </div>
 
 <div class="equation">

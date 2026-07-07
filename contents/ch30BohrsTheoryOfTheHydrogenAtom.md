@@ -615,7 +615,7 @@ Look up the values of the quantities in  $${a}_{\text{B}}=\frac{ h^{2} }{ 4\pi^{
 
 **Strategy**
 
-We'll substitute the known values of fundamental constants into the equation $$ a_{\text{B}} = \frac{h^2}{4\pi^2 m_e k q_e^2} $$ and verify that the result is $$ 0.529 \times 10^{-10} \text{ m} $$ . The constants we need are:
+We'll substitute the known values of fundamental constants into the equation $$ a_{\text{B}} = \frac{h^2}{4\pi^{2} m_e k q_e^2} $$ and verify that the result is $$ 0.529 \times 10^{-10} \text{ m} $$ . The constants we need are:
 - Planck's constant: $$ h = 6.626 \times 10^{-34} \text{ J·s} $$
 - Electron mass: $$ m_e = 9.109 \times 10^{-31} \text{ kg} $$
 - Coulomb's constant: $$ k = 8.988 \times 10^9 \text{ N·m}^2/\text{C}^2 $$
@@ -626,7 +626,7 @@ We'll substitute the known values of fundamental constants into the equation $$ 
 Substituting these values into the Bohr radius equation:
 
 <div class="equation">
-$$ a_{\text{B}} = \frac{h^2}{4\pi^2 m_e k q_e^2} = \frac{(6.626 \times 10^{-34} \text{ J·s})^2}{4\pi^2 (9.109 \times 10^{-31} \text{ kg})(8.988 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.602 \times 10^{-19} \text{ C})^2} $$
+$$ a_{\text{B}} = \frac{h^2}{4\pi^{2} m_e k q_e^2} = \frac{(6.626 \times 10^{-34} \text{ J·s})^2}{4\pi^{2} (9.109 \times 10^{-31} \text{ kg})(8.988 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.602 \times 10^{-19} \text{ C})^2} $$
 </div>
 
 <div class="equation">
@@ -671,11 +671,11 @@ We'll substitute the known fundamental constants into the given equation and cal
 Substituting these values into the equation:
 
 <div class="equation">
-$$ E_0 = \frac{2\pi^2 q_e^4 m_e k^2}{h^2} $$
+$$ E_0 = \frac{2\pi^{2} q_e^4 m_e k^2}{h^2} $$
 </div>
 
 <div class="equation">
-$$ E_0 = \frac{2\pi^2 (1.602 \times 10^{-19} \text{ C})^4 (9.109 \times 10^{-31} \text{ kg}) (8.988 \times 10^9 \text{ N·m}^2/\text{C}^2)^2}{(6.626 \times 10^{-34} \text{ J·s})^2} $$
+$$ E_0 = \frac{2\pi^{2} (1.602 \times 10^{-19} \text{ C})^4 (9.109 \times 10^{-31} \text{ kg}) (8.988 \times 10^9 \text{ N·m}^2/\text{C}^2)^2}{(6.626 \times 10^{-34} \text{ J·s})^2} $$
 </div>
 
 Working through the calculation step by step:
@@ -1354,17 +1354,17 @@ We'll follow Bohr's approach by: (1) equating the electrostatic Coulomb force to
 Starting with the force balance equation, the Coulomb attractive force equals the centripetal force:
 
 <div class="equation">
-$$ \frac{kZq_e^2}{r_n^2} = \frac{m_e v^2}{r_n} $$
+$$ \frac{kZq_{e}^2}{r_n^2} = \frac{m_e v^2}{r_n} $$
 </div>
 
 Multiplying both sides by $$ r_n $$ and rearranging:
 
 <div class="equation">
-$$ kZq_e^2 = m_e v^2 r_n $$
+$$ kZq_{e}^2 = m_e v^2 r_n $$
 </div>
 
 <div class="equation">
-$$ r_n = \frac{kZq_e^2}{m_e v^2} $$
+$$ r_n = \frac{kZq_{e}^2}{m_e v^2} $$
 </div>
 
 From Bohr's quantization condition:
@@ -1382,27 +1382,27 @@ $$ v = \frac{nh}{2\pi m_e r_n} $$
 Substituting this expression for $$ v $$ into our equation for $$ r_n $$ :
 
 <div class="equation">
-$$ r_n = \frac{kZq_e^2}{m_e} \cdot \frac{1}{v^2} = \frac{kZq_e^2}{m_e} \cdot \frac{4\pi^2 m_e^2 r_n^2}{n^2 h^2} $$
+$$ r_n = \frac{kZq_{e}^2}{m_e} \cdot \frac{1}{v^2} = \frac{kZq_{e}^2}{m_e} \cdot \frac{4\pi^{2} m_e^2 r_n^2}{n^2 h^2} $$
 </div>
 
 Simplifying:
 
 <div class="equation">
-$$ r_n = \frac{kZq_e^2 \cdot 4\pi^2 m_e r_n^2}{m_e n^2 h^2} $$
+$$ r_n = \frac{kZq_{e}^2 \cdot 4\pi^{2} m_e r_n^2}{m_e n^2 h^2} $$
 </div>
 
 <div class="equation">
-$$ 1 = \frac{kZq_e^2 \cdot 4\pi^2 m_e r_n}{n^2 h^2} $$
+$$ 1 = \frac{kZq_{e}^2 \cdot 4\pi^{2} m_e r_n}{n^2 h^2} $$
 </div>
 
 <div class="equation">
-$$ r_n = \frac{n^2 h^2}{4\pi^2 m_e k Z q_e^2} = \frac{n^2}{Z} \cdot \frac{h^2}{4\pi^2 m_e k q_e^2} $$
+$$ r_n = \frac{n^2 h^2}{4\pi^{2} m_e k Z q_e^2} = \frac{n^2}{Z} \cdot \frac{h^2}{4\pi^{2} m_e k q_e^2} $$
 </div>
 
 Defining the Bohr radius as:
 
 <div class="equation">
-$$ a_{\text{B}} = \frac{h^2}{4\pi^2 m_e k q_e^2} = 0.529 \times 10^{-10} \text{ m} $$
+$$ a_{\text{B}} = \frac{h^2}{4\pi^{2} m_e k q_e^2} = 0.529 \times 10^{-10} \text{ m} $$
 </div>
 
 We obtain the general formula:

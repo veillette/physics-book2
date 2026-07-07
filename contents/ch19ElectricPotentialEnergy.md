@@ -516,7 +516,7 @@ $$\text{KE} = qV$$
 
 For a particle starting from rest:
 
-$$\frac{1}{2}mv^2 = qV$$
+$$\frac{1}{2}mv^{2} = qV$$
 
 Solving for velocity:
 
@@ -618,7 +618,7 @@ A bare helium nucleus (alpha particle) has two protons and two neutrons, with a 
 
 **(a) Kinetic energy in joules:**
 
-$$\text{KE} = \frac{1}{2}mv^2$$
+$$\text{KE} = \frac{1}{2}mv^{2}$$
 
 $$\text{KE} = \frac{1}{2}(6.64 \times 10^{-27} \text{ kg})(6.00 \times 10^{6} \text{ m/s})^2$$
 
@@ -1007,7 +1007,7 @@ This problem requires calculating the total energy needed for three phases of th
 
 Energy needed equals the kinetic energy gained:
 
-$$E_1 = \frac{1}{2}mv^2 = \frac{1}{2}(750 \text{ kg})(25.0 \text{ m/s})^2 = 234,375 \text{ J}$$
+$$E_1 = \frac{1}{2}mv^{2} = \frac{1}{2}(750 \text{ kg})(25.0 \text{ m/s})^2 = 234,375 \text{ J}$$
 
 **Phase 2: Climbing 200 m hill**
 
@@ -1091,7 +1091,7 @@ $$\text{PE} = 2.30 \times 10^{-16} \text{ J}$$
 
 This can also be written as:
 
-$$\text{PE} = \frac{kq^2}{r} = \frac{(8.99 \times 10^{9})(1.60 \times 10^{-19})^2}{1.00 \times 10^{-12}} = 2.30 \times 10^{-16} \text{ J}$$
+$$\text{PE} = \frac{kq^{2}}{r} = \frac{(8.99 \times 10^{9})(1.60 \times 10^{-19})^2}{1.00 \times 10^{-12}} = 2.30 \times 10^{-16} \text{ J}$$
 
 Or in electron volts: $$\text{PE} = 1.44 \text{ keV}$$
 

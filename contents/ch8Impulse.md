@@ -333,7 +333,7 @@ We apply the impulse-momentum theorem. The passenger has initial momentum from m
 
 Calculate the initial momentum of the passenger:
 
-$$ p_i = mv_i = (70 \kg)(10 \ms) = 700 \kg \cdot \ms $$
+$$ p_i = mv_{i} = (70 \kg)(10 \ms) = 700 \kg \cdot \ms $$
 
 The final momentum is zero (passenger comes to rest):
 
@@ -533,7 +533,7 @@ Let positive direction be toward the wall (initial direction of motion). The wal
 
 1. Calculate initial momentum:
 <div class="equation">
-$$ p_i = mv_i = (200 \kg)(2.80 \ms) = 560 \kg \cdot \ms $$
+$$ p_i = mv_{i} = (200 \kg)(2.80 \ms) = 560 \kg \cdot \ms $$
 </div>
 
 2. The impulse is negative (away from wall):
@@ -814,7 +814,7 @@ $$ \Delta t = \frac{\Delta x}{v\_{\text{avg}}} = \frac{6.00 \m}{0.375 \ms} = 16.
 
 Calculate the ship's initial momentum:
 
-$$ p_i = mv_i = (1.00 \times 10^{7} \kg)(0.750 \ms) = 7.50 \times 10^{6} \kg \cdot \ms $$
+$$ p_i = mv_{i} = (1.00 \times 10^{7} \kg)(0.750 \ms) = 7.50 \times 10^{6} \kg \cdot \ms $$
 
 Apply the impulse-momentum theorem:
 
@@ -855,7 +855,7 @@ $$ J = F \Delta t = (-1.76 \times 10^{4} \N)(5.50 \times 10^{-2} \s) = -968 \kg 
 
 Calculate the initial momentum:
 
-$$ p_i = mv_i = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
+$$ p_i = mv_{i} = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
 
 Find the final momentum:
 
@@ -985,7 +985,7 @@ as a function of its momentum.
 
 **Strategy**
 
-We start with the definitions of momentum ($$ p = mv $$) and kinetic energy ($$ \KE = \frac{1}{2}mv^2 $$) and algebraically eliminate velocity to express kinetic energy in terms of momentum and mass.
+We start with the definitions of momentum ($$ p = mv $$) and kinetic energy ($$ \KE = \frac{1}{2}mv^{2} $$) and algebraically eliminate velocity to express kinetic energy in terms of momentum and mass.
 
 **Solution**
 
@@ -999,7 +999,7 @@ $$ v = \frac{p}{m} $$
 
 Substitute into the kinetic energy equation:
 
-$$ \KE = \frac{1}{2}mv^2 = \frac{1}{2}m\left(\frac{p}{m}\right)^2 $$
+$$ \KE = \frac{1}{2}mv^{2} = \frac{1}{2}m\left(\frac{p}{m}\right)^2 $$
 
 $$ \KE = \frac{1}{2}m \cdot \frac{p^2}{m^2} = \frac{p^2}{2m} $$
 

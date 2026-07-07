@@ -434,7 +434,7 @@ second and kilometers per hour) of an 80.0-kg skydiver falling in a pike
 
 **Strategy**
 
-At terminal velocity, the drag force equals the weight, so acceleration is zero. We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^2 $$ and set it equal to $$ mg $$ to solve for $$ v $$. For a pike (headfirst) position, we use the drag coefficient $$ C = 0.70 $$ from Table 1 (skydiver feet first). The density of air is $$ \rho = 1.21 \text{ kg/m}^3 $$.
+At terminal velocity, the drag force equals the weight, so acceleration is zero. We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^{2} $$ and set it equal to $$ mg $$ to solve for $$ v $$. For a pike (headfirst) position, we use the drag coefficient $$ C = 0.70 $$ from Table 1 (skydiver feet first). The density of air is $$ \rho = 1.21 \text{ kg/m}^3 $$.
 
 **Solution**
 
@@ -444,7 +444,7 @@ $$ F_{\text{D}} = mg $$
 </div>
 
 <div class="equation">
-$$ \frac{1}{2}C\rho Av_t^2 = mg $$
+$$ \frac{1}{2}C\rho Av_{t}^2 = mg $$
 </div>
 
 2. Solve for terminal velocity:
@@ -620,7 +620,7 @@ Assume all values are accurate to three significant digits.
 
 **Strategy**
 
-We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^2 $$. From Table 1, the Toyota Camry has $$ C = 0.28 $$ and the Hummer H2 has $$ C = 0.64 $$. We use $$ \rho = 1.21 \text{ kg/m}^3 $$ for air density. First convert speeds from km/h to m/s.
+We use the drag force equation $$ F\_{\text{D}} = \frac{1}{2}C\rho Av^{2} $$. From Table 1, the Toyota Camry has $$ C = 0.28 $$ and the Hummer H2 has $$ C = 0.64 $$. We use $$ \rho = 1.21 \text{ kg/m}^3 $$ for air density. First convert speeds from km/h to m/s.
 
 **Solution**
 

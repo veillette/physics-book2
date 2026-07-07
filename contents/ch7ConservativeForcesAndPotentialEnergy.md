@@ -364,7 +364,7 @@ of the spring?
 
 **Strategy**
 
-The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^2 = \frac{1}{2}kx^2 $$.
+The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^{2} = \frac{1}{2}kx^{2} $$.
 
 **Solution**
 
@@ -376,13 +376,13 @@ The kinetic energy of the moving train is converted entirely into elastic potent
 Apply conservation of energy (kinetic energy → spring potential energy):
 
 <div class="equation">
-$$ \frac{1}{2}mv^2 = \frac{1}{2}kx^2 $$
+$$ \frac{1}{2}mv^{2} = \frac{1}{2}kx^{2} $$
 </div>
 
 Solve for the spring constant $$ k $$:
 
 <div class="equation">
-$$ k = \frac{mv^2}{x^2} $$
+$$ k = \frac{mv^{2}}{x^2} $$
 </div>
 
 Substitute the values:

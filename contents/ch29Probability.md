@@ -400,7 +400,7 @@ molecular binding energies.
 **Solution for (b)**
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(5.86 \times 10^{-26} \text{ kg})(9.00 \times 10^{-4} \text{ m/s})^2 = 2.37 \times 10^{-32} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv^{2} = \frac{1}{2}(5.86 \times 10^{-26} \text{ kg})(9.00 \times 10^{-4} \text{ m/s})^2 = 2.37 \times 10^{-32} \text{ J}$$
 </div>
 
 Converting to eV:
@@ -679,7 +679,7 @@ What is the approximate uncertainty in the mass of a muon, as determined from it
 
 **Strategy**
 
-Use $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ to find energy uncertainty, then use $$E = mc^2$$ to convert to mass uncertainty. The muon lifetime is $$\tau = 2.20 \times 10^{-6}$$ s.
+Use $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ to find energy uncertainty, then use $$E = mc^{2}$$ to convert to mass uncertainty. The muon lifetime is $$\tau = 2.20 \times 10^{-6}$$ s.
 
 **Solution**
 

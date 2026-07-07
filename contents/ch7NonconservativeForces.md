@@ -345,7 +345,7 @@ Use the work-energy theorem including friction. The initial kinetic energy is co
 - Mass: $$ m = 60.0\text{ kg} $$
 - Initial speed: $$ v_i = 12.0\ms $$
 - Height rise: $$ h = 2.50\text{ m} $$
-- Coefficient of friction: $$ \mu_k = 0.0800 $$
+- Coefficient of friction: $$ \mu_{k} = 0.0800 $$
 - Slope angle: $$ \theta = 35° $$ (from the figure)
 
 **Step 1: Find the distance traveled along the incline**
@@ -359,7 +359,7 @@ The normal force on an incline: $$ N = mg\cos\theta $$
 
 Friction force:
 <div class="equation">
-$$ f_k = \mu_k N = \mu_k mg\cos\theta = (0.0800)(60.0)(9.80)\cos(35°) = (0.0800)(60.0)(9.80)(0.819) = 38.5\text{ N} $$
+$$ f_k = \mu_{k} N = \mu_{k} mg\cos\theta = (0.0800)(60.0)(9.80)\cos(35°) = (0.0800)(60.0)(9.80)(0.819) = 38.5\text{ N} $$
 </div>
 
 **Step 3: Calculate work done by friction**
@@ -370,11 +370,11 @@ $$ W_f = -f_k d = -(38.5\text{ N})(4.36\text{ m}) = -168\text{ J} $$
 **Step 4: Apply the work-energy theorem**
 
 <div class="equation">
-$$ \frac{1}{2}mv_i^2 + W_f = \frac{1}{2}mv_f^2 + mgh $$
+$$ \frac{1}{2}mv_{i}^2 + W_f = \frac{1}{2}mv_{f}^2 + mgh $$
 </div>
 
 <div class="equation">
-$$ \frac{1}{2}mv_f^2 = \frac{1}{2}mv_i^2 + W_f - mgh $$
+$$ \frac{1}{2}mv_{f}^2 = \frac{1}{2}mv_{i}^2 + W_f - mgh $$
 </div>
 
 Calculate each term:
@@ -383,7 +383,7 @@ Calculate each term:
 - Potential energy gained: $$ (60.0)(9.80)(2.50) = 1470\text{ J} $$
 
 <div class="equation">
-$$ \frac{1}{2}mv_f^2 = 4320 - 168 - 1470 = 2682\text{ J} $$
+$$ \frac{1}{2}mv_{f}^2 = 4320 - 168 - 1470 = 2682\text{ J} $$
 </div>
 
 <div class="equation">

@@ -872,7 +872,7 @@ What is the decrease in entropy of 25.0 g of water that condenses on a bathroom 
 
 **Strategy**
 
-For phase change at constant T: $$\Delta S = -\frac{mL_v}{T}$$ (negative for condensation).
+For phase change at constant T: $$\Delta S = -\frac{mL_{v}}{T}$$ (negative for condensation).
 
 **Solution**
 
@@ -899,7 +899,7 @@ Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its bo
 
 **Strategy**
 
-Two stages: (1) boiling at -196°C: $$\Delta S_1 = \frac{mL_v}{T_b}$$; (2) warming gas: $$\Delta S_2 = mc_p\ln\frac{T_f}{T_b}$$. Use $$L_v = 2.0 \times 10^{5} \text{ J/kg}$$, $$c_p = 1040 \text{ J/(kg·K)}$$.
+Two stages: (1) boiling at -196°C: $$\Delta S_1 = \frac{mL_{v}}{T_b}$$; (2) warming gas: $$\Delta S_2 = mc_{p}\ln\frac{T_f}{T_b}$$. Use $$L_v = 2.0 \times 10^{5} \text{ J/kg}$$, $$c_p = 1040 \text{ J/(kg·K)}$$.
 
 **Solution**
 
@@ -1063,13 +1063,13 @@ the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpre
 
 **Strategy**
 
-(a) $$Q = mc\Delta T$$. (b) Carnot work: $$W_C = \eta_C Q_h = (1-\frac{283}{363})(Q)$$. (c) $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for each. (d) Unavailable work = $$T_C \Delta S$$. (e) Discuss irreversibility.
+(a) $$Q = mc\Delta T$$. (b) Carnot work: $$W_C = \eta_{C} Q_h = (1-\frac{283}{363})(Q)$$. (c) $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for each. (d) Unavailable work = $$T_C \Delta S$$. (e) Discuss irreversibility.
 
 **Solution**
 
 **(a)** $$Q = (20.0)(4186)(40.0) = 3.35 \times 10^{6} \text{ J}$$
 
-**(b)** $$\eta_C = 1 - \frac{283}{363} = 0.220$$
+**(b)** $$\eta_{C} = 1 - \frac{283}{363} = 0.220$$
 $$W_C = 0.220 \times 3.35 \times 10^{6} = 7.37 \times 10^{5} \text{ J}$$
 
 **(c)** Hot: $$\Delta S_h = (20)(4186)\ln\frac{323}{363} = -9,610 \text{ J/K}$$

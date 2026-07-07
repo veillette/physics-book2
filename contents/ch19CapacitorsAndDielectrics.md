@@ -883,7 +883,7 @@ $$C = 667 \text{ pF}$$
 
 **Discussion**
 
-Despite the extremely high voltage (12 million volts!) and substantial charge (8 millicoulombs), the capacitance is remarkably small—only 667 picofarads. This is characteristic of isolated spherical conductors, whose capacitance depends only on their radius: $$C = 4\pi\epsilon_0 r$$. For this capacitance, the terminal would have a radius of about 6 meters. Van de Graaff generators are used in nuclear physics research and particle accelerators, where these high voltages accelerate charged particles to high energies.
+Despite the extremely high voltage (12 million volts!) and substantial charge (8 millicoulombs), the capacitance is remarkably small—only 667 picofarads. This is characteristic of isolated spherical conductors, whose capacitance depends only on their radius: $$C = 4\pi\epsilon_{0} r$$. For this capacitance, the terminal would have a radius of about 6 meters. Van de Graaff generators are used in nuclear physics research and particle accelerators, where these high voltages accelerate charged particles to high energies.
 
 **Final Answer**
 
@@ -906,15 +906,15 @@ Find the capacitance of a parallel plate capacitor having plates of area  $$ 5.0
 
 **Strategy**
 
-For a parallel plate capacitor with a dielectric material between the plates, the capacitance is given by $$C = \kappa\epsilon_0\text{ A}/d$$, where $$\kappa$$ is the dielectric constant. From Table 1, Teflon has $$\kappa = 2.1$$.
+For a parallel plate capacitor with a dielectric material between the plates, the capacitance is given by $$C = \kappa\epsilon_{0}\text{ A}/d$$, where $$\kappa$$ is the dielectric constant. From Table 1, Teflon has $$\kappa = 2.1$$.
 
 **Solution**
 
 Using the parallel plate capacitor formula with dielectric:
 
-$$C = \kappa\epsilon_0 \frac{A}{d}$$
+$$C = \kappa\epsilon_{0} \frac{A}{d}$$
 
-Substituting the values ($$\kappa = 2.1$$ for Teflon, $$\epsilon_0 = 8.85 \times 10^{-12}$$ F/m):
+Substituting the values ($$\kappa = 2.1$$ for Teflon, $$\epsilon_{0} = 8.85 \times 10^{-12}$$ F/m):
 
 $$C = (2.1)(8.85 \times 10^{-12} \text{ F/m}) \frac{5.00 \text{ m}^2}{0.100 \times 10^{-3} \text{ m}}$$
 
@@ -951,13 +951,13 @@ The capacitance of the parallel plate capacitor with 5.00 m² plates separated b
 
 **Strategy**
 
-This is a two-part problem. Part (a) requires calculating the capacitance using $$C = \kappa\epsilon_0\text{ A}/d$$ with neoprene rubber as the dielectric ($$\kappa = 6.7$$ from Table 1). Part (b) uses the capacitance from part (a) to find the stored charge via $$Q = CV$$.
+This is a two-part problem. Part (a) requires calculating the capacitance using $$C = \kappa\epsilon_{0}\text{ A}/d$$ with neoprene rubber as the dielectric ($$\kappa = 6.7$$ from Table 1). Part (b) uses the capacitance from part (a) to find the stored charge via $$Q = CV$$.
 
 **Solution**
 
 **(a)** Calculate the capacitance:
 
-$$C = \kappa\epsilon_0 \frac{A}{d}$$
+$$C = \kappa\epsilon_{0} \frac{A}{d}$$
 
 Substituting values ($$\kappa = 6.7$$ for neoprene rubber):
 
@@ -1008,13 +1008,13 @@ flesh? Is it reasonable to assume no phase change?
 
 **Strategy**
 
-This problem connects capacitor energy storage with thermodynamics. The energy stored in the capacitor is converted to heat in the flesh. We'll use the capacitor energy formula $$U = \frac{1}{2}CV^2$$ to find the energy released, then apply the heat equation $$Q = mc\Delta T$$ to find the temperature rise. We'll assume flesh has similar thermal properties to water (specific heat $$c \approx 3500$$ J/(kg·°C) for tissue, or we can use 4186 J/(kg·°C) for water as an approximation).
+This problem connects capacitor energy storage with thermodynamics. The energy stored in the capacitor is converted to heat in the flesh. We'll use the capacitor energy formula $$U = \frac{1}{2}CV^{2}$$ to find the energy released, then apply the heat equation $$Q = mc\Delta T$$ to find the temperature rise. We'll assume flesh has similar thermal properties to water (specific heat $$c \approx 3500$$ J/(kg·°C) for tissue, or we can use 4186 J/(kg·°C) for water as an approximation).
 
 **Solution**
 
 First, calculate the energy stored in the capacitor:
 
-$$U = \frac{1}{2}CV^2$$
+$$U = \frac{1}{2}CV^{2}$$
 
 $$U = \frac{1}{2}(80.0 \times 10^{-6} \text{ F})(450 \text{ V})^2$$
 
@@ -1072,9 +1072,9 @@ This is an "Unreasonable Results" problem designed to develop critical thinking.
 
 **Solution**
 
-**(a)** First, calculate the capacitance using $$C = \kappa\epsilon_0\text{ A}/d$$ with $$\kappa = 3.4$$ for nylon:
+**(a)** First, calculate the capacitance using $$C = \kappa\epsilon_{0}\text{ A}/d$$ with $$\kappa = 3.4$$ for nylon:
 
-$$C = \kappa\epsilon_0 \frac{A}{d}$$
+$$C = \kappa\epsilon_{0} \frac{A}{d}$$
 
 $$C = (3.4)(8.85 \times 10^{-12} \text{ F/m}) \frac{4.00 \text{ m}^2}{0.0100 \times 10^{-3} \text{ m}}$$
 

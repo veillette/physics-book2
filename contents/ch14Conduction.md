@@ -598,7 +598,7 @@ A man consumes 3000 kcal of food in one day, converting most of it to maintain b
 
 **Strategy**
 
-Half of the food energy (3000 kcal) is lost through water evaporation. We use $$Q = mL_v$$ to find the mass of water that evaporates, where $$L_v$$ is the latent heat of vaporization at body temperature.
+Half of the food energy (3000 kcal) is lost through water evaporation. We use $$Q = mL_{v}$$ to find the mass of water that evaporates, where $$L_v$$ is the latent heat of vaporization at body temperature.
 
 **Solution**
 
@@ -609,7 +609,7 @@ Given:
 
 Convert to consistent units (already in kcal).
 
-Using $$Q = mL_v$$, solve for mass:
+Using $$Q = mL_{v}$$, solve for mass:
 <div class="equation">
 $$m = \frac{Q}{L_v} = \frac{1500 \text{ kcal}}{580 \text{ kcal/kg}} = 2.59 \text{ kg}$$
 </div>

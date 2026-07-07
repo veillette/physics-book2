@@ -271,7 +271,7 @@ We connect temperature to molecular kinetic energy and speed, then relate molecu
 The rate of diffusion increases with temperature because **higher temperature means faster molecular motion**.
 
 **Physical basis:**
-- Temperature is a measure of average kinetic energy: $$\frac{1}{2}mv^2 = \frac{3}{2}k_B T$$
+- Temperature is a measure of average kinetic energy: $$\frac{1}{2}mv^{2} = \frac{3}{2}k_B T$$
 - At higher temperatures, molecules move faster: $$v_{\text{rms}} \propto \sqrt{T}$$
 - Faster molecules cover more distance in the same time
 - The diffusion constant $$D$$ increases with temperature

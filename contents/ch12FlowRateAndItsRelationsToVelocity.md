@@ -592,7 +592,7 @@ Given:
 - Each branch area: $$A_2 = 0.400 \text{ cm}^2$$
 
 The total cross-sectional area of all branches:
-$$A_{\text{total}} = nA_2 = 18 \times 0.400 \text{ cm}^2 = 7.20 \text{ cm}^2$$
+$$A_{\text{total}} = nA_{2} = 18 \times 0.400 \text{ cm}^2 = 7.20 \text{ cm}^2$$
 
 From continuity: $$A_1 v_1 = A_{\text{total}} v_2$$
 

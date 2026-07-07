@@ -171,7 +171,7 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 There is a relationship between photon momentum $$p $$ and photon energy $$E $$
 that is consistent with the relation given previously for the relativistic total
-energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes &lt;div class="equation" &gt; $$E=\text{pc}, $$
+energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2} \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^{2} \right)}^{2} $$ becomes &lt;div class="equation" &gt; $$E=\text{pc}, $$
 </div>
 
 or
@@ -229,7 +229,7 @@ get
 This value for momentum is the same as found before (note that unrounded values
 are used in all calculations to avoid even small rounding errors), an expected
 verification of the relationship $$p=E/c $$ . This also means the relationship
-between energy, momentum, and mass given by $${E}^{2}={ \left(pc \right) }^{2}+{\left(mc^2 \right)}^{2} $$ applies to both matter and photons. Once
+between energy, momentum, and mass given by $${E}^{2}={ \left(pc \right) }^{2}+{\left(mc^{2} \right)}^{2} $$ applies to both matter and photons. Once
 again, note that $$p $$ is not zero, even when $$m $$ is.
 
 :::
@@ -519,7 +519,7 @@ Electron velocity with same momentum:
 Electron kinetic energy:
 
 <div class="equation">
- $${\text{KE}}_e = \frac{1}{2}mv^2 = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(7.28 \times 10^{4} \text{ m/s})^2 = 2.41 \times 10^{-21} \text{ J}$$
+ $${\text{KE}}_e = \frac{1}{2}mv^{2} = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(7.28 \times 10^{4} \text{ m/s})^2 = 2.41 \times 10^{-21} \text{ J}$$
 </div>
 
 Photon energy:
@@ -579,7 +579,7 @@ This 10-nm X-ray photon has momentum 250 times greater than the 2.50-μm IR phot
 
 **Strategy**
 
-(a) Use $$p = \frac{E}{c}$$ for a photon. (b) Use $$p = mv$$ to find the neutron velocity. (c) Calculate the neutron's kinetic energy using $$\text{KE} = \frac{1}{2}mv^2$$.
+(a) Use $$p = \frac{E}{c}$$ for a photon. (b) Use $$p = mv$$ to find the neutron velocity. (c) Calculate the neutron's kinetic energy using $$\text{KE} = \frac{1}{2}mv^{2}$$.
 
 **Solution for (a)**
 
@@ -602,7 +602,7 @@ Neutron velocity (mass = $$ 1.675 \times 10^{-27}$$ kg):
 Neutron kinetic energy:
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(3.18 \times 10^{4} \text{ m/s})^2 = 8.47 \times 10^{-19} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv^{2} = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(3.18 \times 10^{4} \text{ m/s})^2 = 8.47 \times 10^{-19} \text{ J}$$
 </div>
 
 Converting to keV:

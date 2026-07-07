@@ -500,18 +500,18 @@ What angle is needed between the direction of polarized light and the axis of a 
 
 **Strategy**
 
-Use Malus's law: $$I = I_0 \cos^2 \theta$$. For the intensity to be cut in half, I = I₀/2.
+Use Malus's law: $$I = I_0 \cos^{2} \theta$$. For the intensity to be cut in half, I = I₀/2.
 
 **Solution**
 
 Setting I = I₀/2:
 
 <div class="equation">
-$$\frac{I_0}{2} = I_0 \cos^2 \theta$$
+$$\frac{I_0}{2} = I_0 \cos^{2} \theta$$
 </div>
 
 <div class="equation">
-$$\cos^2 \theta = \frac{1}{2} = 0.500$$
+$$\cos^{2} \theta = \frac{1}{2} = 0.500$$
 </div>
 
 <div class="equation">
@@ -543,14 +543,14 @@ The angle between the axes of two polarizing filters is  $$ 45.0º $$ .
 
 **Strategy**
 
-Use Malus's law: $$I = I_0 \cos^2 \theta$$ where θ = 45.0° is the angle between the polarizer axes.
+Use Malus's law: $$I = I_0 \cos^{2} \theta$$ where θ = 45.0° is the angle between the polarizer axes.
 
 **Solution**
 
 After passing through the first polarizing filter, the light is fully polarized with intensity I₀. When this polarized light passes through the second filter at angle θ = 45.0°:
 
 <div class="equation">
-$$I = I_0 \cos^2 \theta = I_0 \cos^2 45.0°$$
+$$I = I_0 \cos^{2} \theta = I_0 \cos^{2} 45.0°$$
 </div>
 
 <div class="equation">
@@ -581,12 +581,12 @@ If you have completely polarized light of intensity  $$150 \text{W}/{\text{m}}^{
 
 **Strategy**
 
-Use Malus's law: $$I = I_0 \cos^2 \theta$$ with I₀ = 150 W/m² and θ = 89.0°.
+Use Malus's law: $$I = I_0 \cos^{2} \theta$$ with I₀ = 150 W/m² and θ = 89.0°.
 
 **Solution**
 
 <div class="equation">
-$$I = I_0 \cos^2 \theta = (150 \text{ W/m}^2) \cos^2 89.0°$$
+$$I = I_0 \cos^{2} \theta = (150 \text{ W/m}^2) \cos^{2} 89.0°$$
 </div>
 
 <div class="equation">
@@ -618,14 +618,14 @@ What angle would the axis of a polarizing filter need to make with the direction
 
 **Strategy**
 
-Use Malus's law $$I = I_0 \cos^2 \theta$$ and solve for θ.
+Use Malus's law $$I = I_0 \cos^{2} \theta$$ and solve for θ.
 
 **Solution**
 
 Given: I₀ = 1.00 kW/m² = 1000 W/m², I = 10.0 W/m²
 
 <div class="equation">
-$$I = I_0 \cos^2 \theta$$
+$$I = I_0 \cos^{2} \theta$$
 </div>
 
 <div class="equation">
@@ -658,12 +658,12 @@ At the end of [[Example 1]](#Example1), it was stated that the intensity of pola
 
 **Strategy**
 
-Use Malus's law: $$I = I_0 \cos^2 \theta$$ with θ = 18.4° and verify that I/I₀ = 0.900.
+Use Malus's law: $$I = I_0 \cos^{2} \theta$$ with θ = 18.4° and verify that I/I₀ = 0.900.
 
 **Solution**
 
 <div class="equation">
-$$I = I_0 \cos^2 18.4° = I_0 (0.9483)^2$$
+$$I = I_0 \cos^{2} 18.4° = I_0 (0.9483)^2$$
 </div>
 
 <div class="equation">
@@ -703,12 +703,12 @@ Let I₀ be the intensity after the first polarizer.
 
 **After second filter (45° from first):**
 <div class="equation">
-$$I_2 = I_0 \cos^2 45° = I_0 (0.7071)^2 = 0.500 I_0$$
+$$I_2 = I_0 \cos^{2} 45° = I_0 (0.7071)^2 = 0.500 I_0$$
 </div>
 
 **After third filter (90° from first, so 45° from second):**
 <div class="equation">
-$$I_3 = I_2 \cos^2 45° = (0.500 I_0)(0.500) = 0.250 I_0$$
+$$I_3 = I_2 \cos^{2} 45° = (0.500 I_0)(0.500) = 0.250 I_0$$
 </div>
 
 Therefore, the final intensity is **25.0%** of I₀. **Q.E.D.**
@@ -745,29 +745,29 @@ Apply Malus's law to both angle configurations and use the given trigonometric i
 
 For the first configuration at angle θ:
 <div class="equation">
-$$I = I_0 \cos^2 \theta$$
+$$I = I_0 \cos^{2} \theta$$
 </div>
 
 For the second configuration at angle (90° - θ):
 <div class="equation">
-$$I' = I_0 \cos^2(90° - \theta)$$
+$$I' = I_0 \cos^{2}(90° - \theta)$$
 </div>
 
 Using the identity $$\cos(90° - \theta) = \sin \theta$$:
 <div class="equation">
-$$I' = I_0 \sin^2 \theta$$
+$$I' = I_0 \sin^{2} \theta$$
 </div>
 
 Now add the two intensities:
 <div class="equation">
-$$I + I' = I_0 \cos^2 \theta + I_0 \sin^2 \theta$$
+$$I + I' = I_0 \cos^{2} \theta + I_0 \sin^{2} \theta$$
 </div>
 
 <div class="equation">
-$$I + I' = I_0 (\cos^2 \theta + \sin^2 \theta)$$
+$$I + I' = I_0 (\cos^{2} \theta + \sin^{2} \theta)$$
 </div>
 
-Using the fundamental identity $$\cos^2 \theta + \sin^2 \theta = 1$$:
+Using the fundamental identity $$\cos^{2} \theta + \sin^{2} \theta = 1$$:
 <div class="equation">
 $$I + I' = I_0 (1) = I_0$$
 </div>
@@ -794,16 +794,16 @@ At what angle will light reflected from diamond be completely polarized?
 
 **Strategy**
 
-Use Brewster's law: $$\tan \theta_b = n_2/n_1$$ where n₁ = 1.00 (air) and n₂ = 2.419 (diamond).
+Use Brewster's law: $$\tan \theta_{b} = n_2/n_1$$ where n₁ = 1.00 (air) and n₂ = 2.419 (diamond).
 
 **Solution**
 
 <div class="equation">
-$$\tan \theta_b = \frac{2.419}{1.00} = 2.419$$
+$$\tan \theta_{b} = \frac{2.419}{1.00} = 2.419$$
 </div>
 
 <div class="equation">
-$$\theta_b = \tan^{-1}(2.419) = 67.5°$$
+$$\theta_{b} = \tan^{-1}(2.419) = 67.5°$$
 </div>
 
 **Discussion**
@@ -826,16 +826,16 @@ What is Brewster's angle for light traveling in water that is reflected from cro
 
 **Strategy**
 
-Use Brewster's law: $$\tan \theta_b = n_2/n_1$$ where n₁ = 1.333 (water) and n₂ = 1.52 (crown glass).
+Use Brewster's law: $$\tan \theta_{b} = n_2/n_1$$ where n₁ = 1.333 (water) and n₂ = 1.52 (crown glass).
 
 **Solution**
 
 <div class="equation">
-$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.52}{1.333} = 1.140$$
+$$\tan \theta_{b} = \frac{n_2}{n_1} = \frac{1.52}{1.333} = 1.140$$
 </div>
 
 <div class="equation">
-$$\theta_b = \tan^{-1}(1.140) = 48.8°$$
+$$\theta_{b} = \tan^{-1}(1.140) = 48.8°$$
 </div>
 
 **Discussion**
@@ -863,11 +863,11 @@ The diver is underwater looking up at the water-air interface. Use Brewster's la
 **Solution**
 
 <div class="equation">
-$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.00}{1.33} = 0.752$$
+$$\tan \theta_{b} = \frac{n_2}{n_1} = \frac{1.00}{1.33} = 0.752$$
 </div>
 
 <div class="equation">
-$$\theta_b = \tan^{-1}(0.752) = 36.9°$$
+$$\theta_{b} = \tan^{-1}(0.752) = 36.9°$$
 </div>
 
 **Discussion**
@@ -895,16 +895,16 @@ Use Brewster's law with light traveling in crown glass (n₁ = 1.52) and reflect
 **Solution**
 
 <div class="equation">
-$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.333}{1.52} = 0.8770$$
+$$\tan \theta_{b} = \frac{n_2}{n_1} = \frac{1.333}{1.52} = 0.8770$$
 </div>
 
 <div class="equation">
-$$\theta_b = \tan^{-1}(0.8770) = 41.2°$$
+$$\theta_{b} = \tan^{-1}(0.8770) = 41.2°$$
 </div>
 
 **Discussion**
 
-This is Brewster's angle for light traveling inside the glass wall of a fish tank and reflecting off the water inside. Notice that this angle (41.2°) is the complement of the water-to-glass Brewster angle (48.8°), and indeed 41.2° + 48.8° = 90.0°, confirming the reciprocal relationship $$\theta_b + \theta'_b = 90°$$ for reflections from opposite sides of an interface. Light at this angle inside the glass would see complete polarization of the reflection from the water surface.
+This is Brewster's angle for light traveling inside the glass wall of a fish tank and reflecting off the water inside. Notice that this angle (41.2°) is the complement of the water-to-glass Brewster angle (48.8°), and indeed 41.2° + 48.8° = 90.0°, confirming the reciprocal relationship $$\theta_{b} + \theta'_b = 90°$$ for reflections from opposite sides of an interface. Light at this angle inside the glass would see complete polarization of the reflection from the water surface.
 
 :::
 
@@ -923,12 +923,12 @@ Light reflected at  $$ 55.6º $$
 
 **Strategy**
 
-Since the light is completely polarized, θ = 55.6° is Brewster's angle. Use $$\tan \theta_b = n_2/n_1$$ with n₁ = 1.00 (air).
+Since the light is completely polarized, θ = 55.6° is Brewster's angle. Use $$\tan \theta_{b} = n_2/n_1$$ with n₁ = 1.00 (air).
 
 **Solution**
 
 <div class="equation">
-$$n_2 = n_1 \tan \theta_b = (1.00) \tan 55.6° = 1.46$$
+$$n_2 = n_1 \tan \theta_{b} = (1.00) \tan 55.6° = 1.46$$
 </div>
 
 **Discussion**
@@ -958,10 +958,10 @@ For part (a), use Brewster's law to find the index of refraction and compare to 
 
 **(a) Can the gem be a diamond?**
 
-Since the light is completely polarized, θ = 62.5° is Brewster's angle. Using $$\tan \theta_b = n_2/n_1$$ with n₁ = 1.00 (air):
+Since the light is completely polarized, θ = 62.5° is Brewster's angle. Using $$\tan \theta_{b} = n_2/n_1$$ with n₁ = 1.00 (air):
 
 <div class="equation">
-$$n_2 = n_1 \tan \theta_b = (1.00) \tan 62.5° = 1.92$$
+$$n_2 = n_1 \tan \theta_{b} = (1.00) \tan 62.5° = 1.92$$
 </div>
 
 Diamond has n = 2.419, which is significantly higher than 1.92. Therefore, **this gem cannot be diamond**.
@@ -973,11 +973,11 @@ The index of 1.92 is consistent with **zircon** (n ≈ 1.92-1.98) or **cubic zir
 Using n₁ = 1.333 (water) and n₂ = 1.92 (from part a):
 
 <div class="equation">
-$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.92}{1.333} = 1.440$$
+$$\tan \theta_{b} = \frac{n_2}{n_1} = \frac{1.92}{1.333} = 1.440$$
 </div>
 
 <div class="equation">
-$$\theta_b = \tan^{-1}(1.440) = 55.2°$$
+$$\theta_{b} = \tan^{-1}(1.440) = 55.2°$$
 </div>
 
 **Discussion**
@@ -1002,13 +1002,13 @@ If  $${\theta }_{\text{b}} $$
 
 **Strategy**
 
-Use Brewster's law for both directions and the trigonometric identity $$\tan \theta + \tan(90° - \theta) = \infty$$ or $$\tan \theta_1 \cdot \tan \theta_2 = 1$$ when $$\theta_1 + \theta_2 = 90°$$.
+Use Brewster's law for both directions and the trigonometric identity $$\tan \theta + \tan(90° - \theta) = \infty$$ or $$\tan \theta_{1} \cdot \tan \theta_{2} = 1$$ when $$\theta_{1} + \theta_{2} = 90°$$.
 
 **Solution**
 
 For light from medium 1 (n₁) to medium 2 (n₂):
 <div class="equation">
-$$\tan \theta_b = \frac{n_2}{n_1}$$
+$$\tan \theta_{b} = \frac{n_2}{n_1}$$
 </div>
 
 For light from medium 2 to medium 1 (reverse direction):
@@ -1018,12 +1018,12 @@ $$\tan \theta'_b = \frac{n_1}{n_2}$$
 
 Notice that:
 <div class="equation">
-$$\tan \theta_b \cdot \tan \theta'_b = \frac{n_2}{n_1} \cdot \frac{n_1}{n_2} = 1$$
+$$\tan \theta_{b} \cdot \tan \theta'_b = \frac{n_2}{n_1} \cdot \frac{n_1}{n_2} = 1$$
 </div>
 
-From trigonometry, when $$\tan \theta_b \cdot \tan \theta'_b = 1$$, this occurs when $$\theta_b + \theta'_b = 90°$$ (since $$\tan \theta \cdot \tan(90° - \theta) = \tan \theta \cdot \cot \theta = 1$$).
+From trigonometry, when $$\tan \theta_{b} \cdot \tan \theta'_b = 1$$, this occurs when $$\theta_{b} + \theta'_b = 90°$$ (since $$\tan \theta \cdot \tan(90° - \theta) = \tan \theta \cdot \cot \theta = 1$$).
 
-Therefore: $$\theta_b + \theta'_b = 90.0°$$ **Q.E.D.**
+Therefore: $$\theta_{b} + \theta'_b = 90.0°$$ **Q.E.D.**
 
 **Discussion**
 
@@ -1107,7 +1107,7 @@ Compare the intensity (power) transmitted through one vs. two pairs. Time to dep
 
 **Two pairs at 15°:** First polarizer transmits I₀/2, then Malus's law for the second:
 <div class="equation">
-$$I_2 = \frac{I_0}{2} \cos^2 15.0° = \frac{I_0}{2}(0.9659)^2 = 0.467 I_0$$
+$$I_2 = \frac{I_0}{2} \cos^{2} 15.0° = \frac{I_0}{2}(0.9659)^2 = 0.467 I_0$$
 </div>
 
 Time ratio (since Power = Energy/time):

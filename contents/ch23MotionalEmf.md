@@ -604,7 +604,7 @@ much energy is stored in it when stretched by the 100 N force?
 
 **Strategy**
 
-(a) Use $$\Delta L=\frac{FL_0}{YA}$$ where $$ Y $$ is Young's modulus for steel ($$2.0 \times 10^{11} \text{ N/m}^2$$).
+(a) Use $$\Delta L=\frac{FL_{0}}{YA}$$ where $$ Y $$ is Young's modulus for steel ($$2.0 \times 10^{11} \text{ N/m}^2$$).
 (b) Calculate $$ k=F/\Delta L $$.
 (c) Use $$ E=\frac{1}{2}k(\Delta L)^2$$.
 
@@ -617,7 +617,7 @@ much energy is stored in it when stretched by the 100 N force?
 -$$ Y = 2.0 \times 10^{11} \text{ N/m}^2$$
 
 <div class="equation">
-$$\Delta L=\frac{FL_0}{YA}=\frac{(100)(2.00 \times 10^4)}{(2.0 \times 10^{11})(4.91 \times 10^{-6})}=\frac{2.00 \times 10^6}{9.82 \times 10^5}=2.04 \text{ m}$$
+$$\Delta L=\frac{FL_{0}}{YA}=\frac{(100)(2.00 \times 10^4)}{(2.0 \times 10^{11})(4.91 \times 10^{-6})}=\frac{2.00 \times 10^6}{9.82 \times 10^5}=2.04 \text{ m}$$
 </div>
 
 **(b)** &lt;div class="equation"&gt;

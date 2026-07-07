@@ -249,7 +249,7 @@ A fairground ride spins its occupants inside a flying saucer-shaped container. I
 
 **Strategy**
 
-We need to find the angular velocity that produces a centripetal acceleration of $$ a_c = 1.50g $$. We'll use $$ a_c = r\omega^2 $$ and solve for $$ \omega $$, then convert from rad/s to rev/min.
+We need to find the angular velocity that produces a centripetal acceleration of $$ a_c = 1.50g $$. We'll use $$ a_c = r\omega^{2} $$ and solve for $$ \omega $$, then convert from rad/s to rev/min.
 
 **Solution**
 
@@ -259,10 +259,10 @@ The centripetal acceleration is:
 $$ a_c = 1.50g = 1.50(9.80\text{ m/s}^2) = 14.7\text{ m/s}^2 $$
 </div>
 
-Using $$ a_c = r\omega^2 $$ and solving for $$ \omega $$:
+Using $$ a_c = r\omega^{2} $$ and solving for $$ \omega $$:
 
 <div class="equation">
-$$ \omega^2 = \frac{a_c}{r} = \frac{14.7\text{ m/s}^2}{8.00\text{ m}} = 1.84\text{ rad}^2\text{/s}^2 $$
+$$ \omega^{2} = \frac{a_c}{r} = \frac{14.7\text{ m/s}^2}{8.00\text{ m}} = 1.84\text{ rad}^2\text{/s}^2 $$
 </div>
 
 <div class="equation">
@@ -385,7 +385,7 @@ of $$ g $$.
 
 (a) We'll convert from rev/min to rad/s using the conversion factors: 1 revolution = $$ 2\pi $$ radians and 1 minute = 60 seconds.
 (b) We'll use $$ v = r\omega $$ where the radius is half the diameter.
-(c) We'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration, then divide by $$ g = 9.80 $$ m/s² to express it as a multiple of g.
+(c) We'll use $$ a_c = r\omega^{2} $$ to find the centripetal acceleration, then divide by $$ g = 9.80 $$ m/s² to express it as a multiple of g.
 
 **Solution**
 
@@ -408,7 +408,7 @@ $$ v = r\omega = (1.15\text{ m})(126\text{ rad/s}) = 145\text{ m/s} $$
 (c) Calculate the centripetal acceleration:
 
 <div class="equation">
-$$ a_c = r\omega^2 = (1.15\text{ m})(126\text{ rad/s})^2 = (1.15\text{ m})(15{,}876\text{ rad}^2\text{/s}^2) = 1.83 \times 10^4\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (1.15\text{ m})(126\text{ rad/s})^2 = (1.15\text{ m})(15{,}876\text{ rad}^2\text{/s}^2) = 1.83 \times 10^4\text{ m/s}^2 $$
 </div>
 
 Express as a multiple of g:
@@ -442,7 +442,7 @@ meters per second squared and convert it to multiples of $$ g $$.
 
 **Strategy**
 
-(a) We'll convert the angular velocity from rev/min to rad/s, then use $$ a_c = r\omega^2 $$ to find the centripetal acceleration.
+(a) We'll convert the angular velocity from rev/min to rad/s, then use $$ a_c = r\omega^{2} $$ to find the centripetal acceleration.
 (b) We'll use $$ v = r\omega $$ to find the linear speed.
 
 **Solution**
@@ -456,7 +456,7 @@ $$ \omega = 6500\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\te
 (a) Calculate the centripetal acceleration (with radius in meters: $$ r = 0.0750 $$ m):
 
 <div class="equation">
-$$ a_c = r\omega^2 = (0.0750\text{ m})(681\text{ rad/s})^2 = (0.0750)(464{,}000) = 3.47 \times 10^4\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.0750\text{ m})(681\text{ rad/s})^2 = (0.0750)(464{,}000) = 3.47 \times 10^4\text{ m/s}^2 $$
 </div>
 
 Express as a multiple of $$ g $$:
@@ -497,7 +497,7 @@ m/s).
 
 **Strategy**
 
-(a) First, we'll convert the angular velocity from rev/min to rad/s. Then we'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration at the tip.
+(a) First, we'll convert the angular velocity from rev/min to rad/s. Then we'll use $$ a_c = r\omega^{2} $$ to find the centripetal acceleration at the tip.
 (b) We'll calculate the linear speed using $$ v = r\omega $$ and compare it to the speed of sound.
 
 **Solution**
@@ -511,7 +511,7 @@ $$ \omega = 300\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 Calculate the centripetal acceleration:
 
 <div class="equation">
-$$ a_c = r\omega^2 = (4.00\text{ m})(31.4\text{ rad/s})^2 = (4.00\text{ m})(986\text{ rad}^2\text{/s}^2) = 3.95 \times 10^3\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (4.00\text{ m})(31.4\text{ rad/s})^2 = (4.00\text{ m})(986\text{ rad}^2\text{/s}^2) = 3.95 \times 10^3\text{ m/s}^2 $$
 </div>
 
 (b) Calculate the linear speed at the tip:
@@ -559,7 +559,7 @@ Button ruptured small blood vessels during his spins.
 **Strategy**
 
 (a) We'll convert from rev/s to rad/s using the conversion factor: 1 revolution = $$ 2\pi $$ radians.
-(b) and (c) We'll use $$ a_c = r\omega^2 $$ to find the centripetal acceleration for each skater.
+(b) and (c) We'll use $$ a_c = r\omega^{2} $$ to find the centripetal acceleration for each skater.
 (d) We'll compare these accelerations to $$ g = 9.80 $$ m/s² to understand the physical stress.
 
 **Solution**
@@ -573,7 +573,7 @@ $$ \omega = 5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ r
 (b) Calculate the centripetal acceleration for the Olympic skater:
 
 <div class="equation">
-$$ a_c = r\omega^2 = (0.120\text{ m})(31.4\text{ rad/s})^2 = (0.120)(986) = 118\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.120\text{ m})(31.4\text{ rad/s})^2 = (0.120)(986) = 118\text{ m/s}^2 $$
 </div>
 
 (c) For Dick Button spinning at 9 rev/s:
@@ -583,7 +583,7 @@ $$ \omega = 9\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ r
 </div>
 
 <div class="equation">
-$$ a_c = r\omega^2 = (0.120\text{ m})(56.5\text{ rad/s})^2 = (0.120)(3192) = 383\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.120\text{ m})(56.5\text{ rad/s})^2 = (0.120)(3192) = 383\text{ m/s}^2 $$
 </div>
 
 (d) Compare to gravity:
@@ -724,7 +724,7 @@ A rotating space station is said to create "artificial gravity"—a loosely-defi
 
 **Strategy**
 
-We need to find the angular velocity that produces a centripetal acceleration equal to $$ g = 9.80 $$ m/s² at the rim of the space station. We'll use the formula $$ a_c = r\omega^2 $$ and solve for $$ \omega $$. The radius is half the diameter.
+We need to find the angular velocity that produces a centripetal acceleration equal to $$ g = 9.80 $$ m/s² at the rim of the space station. We'll use the formula $$ a_c = r\omega^{2} $$ and solve for $$ \omega $$. The radius is half the diameter.
 
 **Solution**
 
@@ -737,11 +737,11 @@ $$ r = \frac{d}{2} = \frac{200\text{ m}}{2} = 100\text{ m} $$
 Using the centripetal acceleration formula and solving for $$ \omega $$:
 
 <div class="equation">
-$$ a_c = r\omega^2 $$
+$$ a_c = r\omega^{2} $$
 </div>
 
 <div class="equation">
-$$ \omega^2 = \frac{a_c}{r} = \frac{9.80\text{ m/s}^2}{100\text{ m}} = 0.0980\text{ rad}^2\text{/s}^2 $$
+$$ \omega^{2} = \frac{a_c}{r} = \frac{9.80\text{ m/s}^2}{100\text{ m}} = 0.0980\text{ rad}^2\text{/s}^2 $$
 </div>
 
 <div class="equation">
@@ -779,7 +779,7 @@ cling to the rim?
 
 (a) We'll use $$ \omega = \frac{v}{r} $$ to find angular velocity, then convert to rev/min.
 (b) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration.
-(c) We'll use $$ F_c = ma_c $$ to find the centripetal force.
+(c) We'll use $$ F_c = ma_{c} $$ to find the centripetal force.
 (d) We'll calculate weight using $$ w = mg $$ and find the ratio.
 
 **Solution**
@@ -807,7 +807,7 @@ $$ a_c = \frac{v^2}{r} = \frac{(60.0\text{ m/s})^2}{0.425\text{ m}} = \frac{3600
 (c) Calculate the centripetal force on the bacterium:
 
 <div class="equation">
-$$ F_c = ma_c = (1.00 \times 10^{-15}\text{ kg})(8.47 \times 10^3\text{ m/s}^2) = 8.47 \times 10^{-12}\text{ N} $$
+$$ F_c = ma_{c} = (1.00 \times 10^{-15}\text{ kg})(8.47 \times 10^3\text{ m/s}^2) = 8.47 \times 10^{-12}\text{ N} $$
 </div>
 
 (d) Calculate the bacterium's weight and the ratio:
@@ -857,7 +857,7 @@ weight.
 
 (a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration with the given values $$ v = 39.2 $$ m/s and $$ r = 39.2 $$ m.
 (b) We'll draw forces acting on the rider: weight downward and normal force upward.
-(c) We'll use Newton's second law in the radial direction: $$ N - mg = ma_c $$.
+(c) We'll use Newton's second law in the radial direction: $$ N - mg = ma_{c} $$.
 (d) We'll evaluate whether the result makes physical sense.
 
 **Solution**
@@ -878,11 +878,11 @@ The rider experiences two forces: the normal force $$ N $$ upward from the seat,
 (c) Applying Newton's second law in the vertical direction (upward is positive):
 
 <div class="equation">
-$$ N - mg = ma_c $$
+$$ N - mg = ma_{c} $$
 </div>
 
 <div class="equation">
-$$ N = mg + ma_c = m(g + a_c) $$
+$$ N = mg + ma_{c} = m(g + a_c) $$
 </div>
 
 <div class="equation">
@@ -936,7 +936,7 @@ is 18.0 kg?
 **Strategy**
 
 (a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration.
-(b) We'll use Newton's second law: $$ N - mg = ma_c $$ to find the normal force, which equals the force the child exerts on the seat by Newton's third law.
+(b) We'll use Newton's second law: $$ N - mg = ma_{c} $$ to find the normal force, which equals the force the child exerts on the seat by Newton's third law.
 (c) We'll examine whether the results are physically reasonable.
 (d) We'll identify which assumptions or values are problematic.
 
@@ -951,7 +951,7 @@ $$ a_c = \frac{v^2}{r} = \frac{(9.00\text{ m/s})^2}{2.00\text{ m}} = \frac{81.0}
 (b) Apply Newton's second law at the bottom of the swing (upward positive):
 
 <div class="equation">
-$$ N - mg = ma_c $$
+$$ N - mg = ma_{c} $$
 </div>
 
 <div class="equation">
@@ -967,7 +967,7 @@ The centripetal acceleration of 40.5 m/s² is about **4.1 times gravity**—this
 The speed of 9.00 m/s at the bottom is far too large for a typical swing. To check this, we can use energy conservation. At the bottom, the child has kinetic energy:
 
 <div class="equation">
-$$ KE = \frac{1}{2}mv^2 = \frac{1}{2}(18.0)(9.00)^2 = 729\text{ J} $$
+$$ KE = \frac{1}{2}mv^{2} = \frac{1}{2}(18.0)(9.00)^2 = 729\text{ J} $$
 </div>
 
 For the child to swing up to the top of a circular arc (height $$ h = 2r = 4.00 $$ m above the bottom), the potential energy needed would be:

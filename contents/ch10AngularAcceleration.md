@@ -491,7 +491,7 @@ $$ a_t = r\alpha = (0.0950 \m)(87.3 \radss) = 8.29 \text{ m/s}^2 $$
 **(c)** The radial (centripetal) acceleration at full speed:
 
 <div class="equation">
-$$ a_c = \omega^2 r = (10472 \text{ rad/s})^2(0.0950 \m) = 1.04 \times 10^7 \text{ m/s}^2 $$
+$$ a_c = \omega^{2} r = (10472 \text{ rad/s})^2(0.0950 \m) = 1.04 \times 10^7 \text{ m/s}^2 $$
 </div>
 
 In multiples of g:
@@ -542,7 +542,7 @@ The friction force creates a torque that decelerates the grindstone. We find the
 **(a)** The friction force is:
 
 <div class="equation">
-$$ f = \mu_k N = (0.20)(20.0 \N) = 4.0 \N $$
+$$ f = \mu_{k} N = (0.20)(20.0 \N) = 4.0 \N $$
 </div>
 
 The torque from friction (acting at the rim, R = 0.340 m):
@@ -554,7 +554,7 @@ $$ \tau = fR = (4.0 \N)(0.340 \m) = 1.36 \N \cdot \m $$
 The moment of inertia of the disk:
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(90.0 \kg)(0.340 \m)^2 = 5.20 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(90.0 \kg)(0.340 \m)^2 = 5.20 \kg \cdot \mm $$
 </div>
 
 The angular acceleration (negative because it opposes the rotation):
@@ -566,13 +566,13 @@ $$ \alpha = -\frac{\tau}{I} = -\frac{1.36 \N \cdot \m}{5.20 \kg \cdot \mm} = -0.
 **(b)** First, convert the initial angular velocity:
 
 <div class="equation">
-$$ \omega_0 = 90.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 9.42 \text{ rad/s} $$
+$$ \omega_{0} = 90.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 9.42 \text{ rad/s} $$
 </div>
 
 Using ω² = ω₀² + 2αθ with ω = 0:
 
 <div class="equation">
-$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(9.42)^2}{2(-0.26)} = 171 \text{ rad} $$
+$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(9.42)^2}{2(-0.26)} = 171 \text{ rad} $$
 </div>
 
 Converting to revolutions:

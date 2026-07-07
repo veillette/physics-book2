@@ -211,7 +211,7 @@ for the ratio$$r^{3}/ T^{2}$$. We obtain a relationship that can be used to
 determine the mass$$M$$of a parent body from the orbits of its satellites:
 
 <div class="equation">
- $$\frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^2 }M.$$
+ $$\frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2} }M.$$
 </div>
 
 If$$r$$and$$T$$are known for a satellite, then the mass$$M$$of the
@@ -446,7 +446,7 @@ the value obtained with the Sun's actual mass.
 
 **Strategy**
 
-We'll use the relationship$$M = \frac{4\pi^2 r^3}{GT^2}$$derived from Kepler's third law. We know Earth's orbital radius is$$1.50 \times 10^{11}$$m and its period is 1 year.
+We'll use the relationship$$M = \frac{4\pi^{2} r^3}{GT^{2}}$$derived from Kepler's third law. We know Earth's orbital radius is$$1.50 \times 10^{11}$$m and its period is 1 year.
 
 **Solution**
 
@@ -459,11 +459,11 @@ $$T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \frac
 Calculate the Sun's mass:
 
 <div class="equation">
-$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (1.50 \times 10^{11}\text{ m})^3}{(6.67 \times 10^{-11}\text{ N·m}^2\text{/kg}^2)(3.156 \times 10^7\text{ s})^2}$$
+$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (1.50 \times 10^{11}\text{ m})^3}{(6.67 \times 10^{-11}\text{ N·m}^2\text{/kg}^2)(3.156 \times 10^7\text{ s})^2}$$
 </div>
 
 <div class="equation">
-$$M = \frac{4\pi^2 (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg}$$
+$$M = \frac{4\pi^{2} (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg}$$
 </div>
 
 The actual mass of the Sun is$$1.989 \times 10^{30}$$kg.
@@ -488,7 +488,7 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 
 **Strategy**
 
-We'll use the relationship$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$derived from Kepler's third law to find Jupiter's mass$$M$$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
+We'll use the relationship$$\frac{r^3}{T^2} = \frac{GM}{4\pi^{2}}$$derived from Kepler's third law to find Jupiter's mass$$M$$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
 
 **Solution**
 
@@ -503,14 +503,14 @@ Convert the period to seconds:
 $$T = 0.00485\text{ y} \times \frac{365.25\text{ d}}{1\text{ y}} \times \frac{24\text{ h}}{1\text{ d}} \times \frac{3600\text{ s}}{1\text{ h}} = 1.53 \times 10^5\text{ s}$$
 </div>
 
-Solve for Jupiter's mass using$$M = \frac{4\pi^2 r^3}{GT^2}$$:
+Solve for Jupiter's mass using$$M = \frac{4\pi^{2} r^3}{GT^{2}}$$:
 
 <div class="equation">
-$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2}$$
+$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2}$$
 </div>
 
 <div class="equation">
-$$M = \frac{4\pi^2 (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg}$$
+$$M = \frac{4\pi^{2} (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg}$$
 </div>
 
 The actual mass of Jupiter is$$1.90 \times 10^{27}$$kg.
@@ -535,7 +535,7 @@ Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1
 
 **Strategy**
 
-We'll use Kepler's third law in the form$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow$$G$$and$$4\pi^2$$to cancel, leaving us with the mass ratio.
+We'll use Kepler's third law in the form$$\frac{r^3}{T^2} = \frac{GM}{4\pi^{2}}$$for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow$$G$$and$$4\pi^{2}$$to cancel, leaving us with the mass ratio.
 
 **Solution**
 
@@ -543,12 +543,12 @@ From Kepler's third law:
 
 For Earth and its Moon:
 <div class="equation">
-$$\frac{r_{\text{Moon}}^3}{T_{\text{Moon}}^2} = \frac{GM_{\text{Earth}}}{4\pi^2}$$
+$$\frac{r_{\text{Moon}}^3}{T_{\text{Moon}}^2} = \frac{GM_{\text{Earth}}}{4\pi^{2}}$$
 </div>
 
 For Jupiter and one of its moons (using Io):
 <div class="equation">
-$$\frac{r_{\text{Io}}^3}{T_{\text{Io}}^2} = \frac{GM_{\text{Jupiter}}}{4\pi^2}$$
+$$\frac{r_{\text{Io}}^3}{T_{\text{Io}}^2} = \frac{GM_{\text{Jupiter}}}{4\pi^{2}}$$
 </div>
 
 Taking the ratio:
@@ -592,8 +592,8 @@ very massive black holes at the centers of some galaxies.
 
 **Strategy**
 
-(a) We'll use$$T^2 = \frac{4\pi^2}{GM}r^3$$to find the orbital period. We need to convert units: 1 solar mass$$= 1.99 \times 10^{30}$$kg, and 1 light year$$= 9.46 \times 10^{15}$$m.
-(b) We'll use the same equation solved for mass:$$M = \frac{4\pi^2 r^3}{GT^2}$$.
+(a) We'll use$$T^2 = \frac{4\pi^{2}}{GM}r^3$$to find the orbital period. We need to convert units: 1 solar mass$$= 1.99 \times 10^{30}$$kg, and 1 light year$$= 9.46 \times 10^{15}$$m.
+(b) We'll use the same equation solved for mass:$$M = \frac{4\pi^{2} r^3}{GT^{2}}$$.
 
 **Solution**
 
@@ -605,7 +605,7 @@ very massive black holes at the centers of some galaxies.
 Calculate the orbital period:
 
 <div class="equation">
-$$T^2 = \frac{4\pi^2 r^3}{GM} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})}$$
+$$T^2 = \frac{4\pi^{2} r^3}{GM} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})}$$
 </div>
 
 <div class="equation">
@@ -621,7 +621,7 @@ $$T = 2.62 \times 10^{15}\text{ s} = 2.62 \times 10^{15}\text{ s} \times \frac{1
 Convert period to seconds:$$T = 6.0 \times 10^7 \times 3.156 \times 10^7 = 1.89 \times 10^{15}$$s
 
 <div class="equation">
-$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2}$$
+$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2}$$
 </div>
 
 <div class="equation">
@@ -745,13 +745,13 @@ __(a) Calculate the orbital radius:__
 Using Kepler's third law for Earth satellites:
 
 <div class="equation">
-$$T^2 = \frac{4\pi^2}{GM_{\text{Earth}}}r^3$$
+$$T^2 = \frac{4\pi^{2}}{GM_{\text{Earth}}}r^3$$
 </div>
 
 Solving for$$r$$:
 
 <div class="equation">
-$$r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^2}\right)^{1/3}$$
+$$r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^{2}}\right)^{1/3}$$
 </div>
 
 __Given:__
@@ -760,7 +760,7 @@ __Given:__
 -$$M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg}$$
 
 <div class="equation">
-$$r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^2}\right)^{1/3}$$
+$$r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^{2}}\right)^{1/3}$$
 </div>
 
 <div class="equation">

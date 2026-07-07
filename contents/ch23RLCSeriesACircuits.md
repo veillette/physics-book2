@@ -628,8 +628,8 @@ For the minimum frequency (500 kHz), we need maximum capacitance:
 
 <div class="equation">
 $$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\ $$
-& = & \frac{1}{4\pi^2(500 \times 10^3 \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})}\\
-& = & \frac{1}{4\pi^2(2.50 \times 10^{11})(1.00 \times 10^{-6})}\\
+& = & \frac{1}{4\pi^{2}(500 \times 10^3 \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})}\\
+& = & \frac{1}{4\pi^{2}(2.50 \times 10^{11})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{9.870 \times 10^6}\\
 & = & 1.01 \times 10^{-7} \text{ F} = 101 \text{ nF}\end{array} $$
 </div>
@@ -637,7 +637,7 @@ $$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\ $
 For the maximum frequency (1650 kHz), we need minimum capacitance:
 
 <div class="equation">
-$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^2 f_{\text{max}}^2 L}\\ $$
+$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^{2} f_{\text{max}}^2 L}\\ $$
 & = & \frac{1}{4\pi^2(1650 \times 10^3)^2(1.00 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(2.7225 \times 10^{12})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{1.075 \times 10^8}\\
@@ -730,8 +730,8 @@ Substituting the given values:
 
 <div class="equation">
 $$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\ $$
-& = & \frac{1}{4\pi^2(1.00 \times 10^{18})(8.00 \times 10^{-9})}\\
-& = & \frac{1}{4\pi^2(8.00 \times 10^9)}\\
+& = & \frac{1}{4\pi^{2}(1.00 \times 10^{18})(8.00 \times 10^{-9})}\\
+& = & \frac{1}{4\pi^{2}(8.00 \times 10^9)}\\
 & = & \frac{1}{3.158 \times 10^{11}}\\
 & = & 3.17 \times 10^{-12} \text{ F} = 3.17 \text{ pF}\end{array} $$
 </div>
@@ -768,17 +768,17 @@ We use the resonant frequency formula $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solv
 Squaring both sides and rearranging:
 
 <div class="equation">
-$$f_0^2 = \frac{1}{4\pi^2 LC}$$
+$$f_0^2 = \frac{1}{4\pi^{2} LC}$$
 </div>
 
 <div class="equation">
-$$L = \frac{1}{4\pi^2 f_0^2 C}$$
+$$L = \frac{1}{4\pi^{2} f_0^2 C}$$
 </div>
 
 Substituting values:
 
 <div class="equation">
-$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\ $$
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^{2}(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\ $$
 & = & \frac{1}{4(9.870)(3600)(2.00 \times 10^{-6})}\\
 & = & \frac{1}{2.838 \times 10^{-1}}\\
 & = & 3.52 \text{ H}\end{array} $$
@@ -822,8 +822,8 @@ Substituting values:
 
 <div class="equation">
 $$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\ $$
-& = & \frac{1}{4\pi^2(7.744 \times 10^{15})(2.50 \times 10^{-12})}\\
-& = & \frac{1}{4\pi^2(1.936 \times 10^4)}\\
+& = & \frac{1}{4\pi^{2}(7.744 \times 10^{15})(2.50 \times 10^{-12})}\\
+& = & \frac{1}{4\pi^{2}(1.936 \times 10^4)}\\
 & = & \frac{1}{7.641 \times 10^5}\\
 & = & 1.31 \times 10^{-6} \text{ H} = 1.31 \text{ μH}\end{array} $$
 </div>
@@ -833,7 +833,7 @@ $$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 
 Using the inductance from part (a) at the higher frequency:
 
 <div class="equation">
-$$\begin{array}{lll}C & = & \frac{1}{4\pi^2 f^2 L}\\ $$
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^{2} f^2 L}\\ $$
 & = & \frac{1}{4\pi^2(108 \times 10^6)^2(1.31 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(1.166 \times 10^{16})(1.31 \times 10^{-6})}\\
 & = & \frac{1}{6.029 \times 10^{11}}\\

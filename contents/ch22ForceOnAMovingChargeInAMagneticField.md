@@ -273,7 +273,7 @@ A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
 
 **Strategy**
 
-When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides the centripetal force for circular motion. We equate the magnetic force $$F = qvB$$ to the centripetal force $$F_c = mv^2/r$$ and solve for the radius $$r = mv/(qB)$$.
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides the centripetal force for circular motion. We equate the magnetic force $$F = qvB$$ to the centripetal force $$F_c = mv^{2}/r$$ and solve for the radius $$r = mv/(qB)$$.
 
 **Solution**
 

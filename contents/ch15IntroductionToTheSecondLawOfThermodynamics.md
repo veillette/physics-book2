@@ -689,7 +689,7 @@ Calculate work output for both stations using $$W = \eta \times Q_{in}$$, then f
 
 **Solution**
 
-Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_1 = 34.0\% = 0.340$$, $$\eta_2 = 40.0\% = 0.400$$
+Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{1} = 34.0\% = 0.340$$, $$\eta_{2} = 40.0\% = 0.400$$
 
 Work from 34% efficient station:
 

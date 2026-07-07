@@ -639,14 +639,14 @@ From the referenced example: merry-go-round mass M = 50.0 kg, radius R = 1.50 m,
 
 **Solution**
 
-**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^2 + mr^2 = 56.25 + 28.13 = 84.38 \kg \cdot \mm $$
+**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 + 28.13 = 84.38 \kg \cdot \mm $$
 
 Convert angular velocity: $$ \omega = 20.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 2.09 \text{ rad/s} $$
 
 Rotational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(84.38 \kg \cdot \mm)(2.09 \text{ rad/s})^2 = 185 \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(84.38 \kg \cdot \mm)(2.09 \text{ rad/s})^2 = 185 \J $$
 </div>
 
 **(b)** Work done equals the change in kinetic energy: $$ W = \Delta KE = 185 - 0 = 185 \J $$
@@ -720,13 +720,13 @@ We use conservation of energy. The initial potential energy converts to both tra
 Conservation of energy gives:
 
 <div class="equation">
-$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$
+$$ mgh = \frac{1}{2}mv^{2} + \frac{1}{2}I\omega^{2} $$
 </div>
 
-For a hoop, $$ I = MR^2 $$, and with no slipping, $$ \omega = v/R $$:
+For a hoop, $$ I = MR^{2} $$, and with no slipping, $$ \omega = v/R $$:
 
 <div class="equation">
-$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}(MR^2)\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^2 + \frac{1}{2}mv^2 = mv^2 $$
+$$ mgh = \frac{1}{2}mv^{2} + \frac{1}{2}(MR^{2})\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^{2} + \frac{1}{2}mv^{2} = mv^{2} $$
 </div>
 
 Solving for v:
@@ -771,7 +771,7 @@ Data: M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m, period T = 24 hours = 86,400 
 Moment of inertia (sphere):
 
 <div class="equation">
-$$ I = \frac{2}{5}MR^2 = \frac{2}{5}(5.97 \times 10^{24} \kg)(6.37 \times 10^6 \m)^2 = 9.69 \times 10^{37} \kg \cdot \mm $$
+$$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(5.97 \times 10^{24} \kg)(6.37 \times 10^6 \m)^2 = 9.69 \times 10^{37} \kg \cdot \mm $$
 </div>
 
 Angular velocity:
@@ -783,7 +783,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{86400 \s} = 7.27 \times 10^{-5} \text{ 
 Rotational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(9.69 \times 10^{37})(7.27 \times 10^{-5})^2 = 2.57 \times 10^{29} \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37})(7.27 \times 10^{-5})^2 = 2.57 \times 10^{29} \J $$
 </div>
 
 **(b)** Earth's orbital kinetic energy:
@@ -799,7 +799,7 @@ $$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 
 Orbital kinetic energy (translational):
 
 <div class="equation">
-$$ KE_{\text{orbital}} = \frac{1}{2}Mv^2 = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})^2 = 2.65 \times 10^{33} \J $$
+$$ KE_{\text{orbital}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})^2 = 2.65 \times 10^{33} \J $$
 </div>
 
 **Discussion**
@@ -831,7 +831,7 @@ and $$R_2 = 0.330 \m $$.
 
 **Strategy**
 
-The motorcycle wheel is modeled as an annular ring (ring with inner and outer radii). We first calculate the moment of inertia using $$ I = \frac{1}{2}M(R_1^2 + R_2^2) $$, then use $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$.
+The motorcycle wheel is modeled as an annular ring (ring with inner and outer radii). We first calculate the moment of inertia using $$ I = \frac{1}{2}M(R_1^2 + R_2^2) $$, then use $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} $$.
 
 **Solution**
 
@@ -848,7 +848,7 @@ $$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg
 Now calculate the rotational kinetic energy:
 
 <div class="equation">
-$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(1.12 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.12)(14400) \J = 8.06 \times 10^3 \J $$
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.12 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.12)(14400) \J = 8.06 \times 10^3 \J $$
 </div>
 
 **Discussion**
@@ -902,7 +902,7 @@ than the tip of the shoe (necessary for a decent kick distance).
 
 **Strategy**
 
-For part (a), we solve $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$ for ω. For part (b), we use v = rω. Part (c) requires understanding energy transfer in collisions.
+For part (a), we solve $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} $$ for ω. For part (b), we use v = rω. Part (c) requires understanding energy transfer in collisions.
 
 **Solution**
 
@@ -960,25 +960,25 @@ For part (a), the bus needs translational kinetic energy ½Mv². This must equal
 **(a)** The bus needs kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{bus}} = \frac{1}{2}Mv^2 = \frac{1}{2}(10000 \kg)(20.0 \text{ m/s})^2 = 2.00 \times 10^6 \J $$
+$$ KE_{\text{bus}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(10000 \kg)(20.0 \text{ m/s})^2 = 2.00 \times 10^6 \J $$
 </div>
 
 This equals 90% of the flywheel's rotational energy:
 
 <div class="equation">
-$$ 0.900 \times \frac{1}{2}I\omega^2 = 2.00 \times 10^6 \J $$
+$$ 0.900 \times \frac{1}{2}I\omega^{2} = 2.00 \times 10^6 \J $$
 </div>
 
 For a disk flywheel:
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(1500 \kg)(0.600 \m)^2 = 270 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(1500 \kg)(0.600 \m)^2 = 270 \kg \cdot \mm $$
 </div>
 
 Solving for ω:
 
 <div class="equation">
-$$ \omega^2 = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6}{243} = 16,460 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6}{243} = 16,460 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -995,13 +995,13 @@ $$ \omega = 128 \text{ rad/s} $$
 Initial state: flywheel spinning at 128 rad/s
 
 <div class="equation">
-$$ E_i = \frac{1}{2}I\omega^2 = \frac{1}{2}(270)(128)^2 = 2.21 \times 10^6 \J $$
+$$ E_i = \frac{1}{2}I\omega^{2} = \frac{1}{2}(270)(128)^2 = 2.21 \times 10^6 \J $$
 </div>
 
 Final state: bus at speed 3.00 m/s at height h
 
 <div class="equation">
-$$ E_f = \frac{1}{2}Mv_f^2 + Mgh = \frac{1}{2}(10000)(3.00)^2 + (10000)(9.80)h $$
+$$ E_f = \frac{1}{2}Mv_{f}^2 + Mgh = \frac{1}{2}(10000)(3.00)^2 + (10000)(9.80)h $$
 </div>
 
 <div class="equation">
@@ -1056,18 +1056,18 @@ We use conservation of energy. For part (a), initial kinetic energy (both transl
 
 **Solution**
 
-**(a)** For a rolling spherical shell, the moment of inertia is $$ I = \frac{2}{3}MR^2 $$. With no slipping, $$ \omega = v/R $$.
+**(a)** For a rolling spherical shell, the moment of inertia is $$ I = \frac{2}{3}MR^{2} $$. With no slipping, $$ \omega = v/R $$.
 
 Initial energy:
 
 <div class="equation">
-$$ E_i = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{2}{3}MR^2\right)\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^2 + \frac{1}{3}mv^2 = \frac{5}{6}mv^2 $$
+$$ E_i = \frac{1}{2}mv^{2} + \frac{1}{2}I\omega^{2} = \frac{1}{2}mv^{2} + \frac{1}{2}\left(\frac{2}{3}MR^{2}\right)\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^{2} + \frac{1}{3}mv^{2} = \frac{5}{6}mv^{2} $$
 </div>
 
 At maximum height, all energy is potential:
 
 <div class="equation">
-$$ mgh = \frac{5}{6}mv^2 $$
+$$ mgh = \frac{5}{6}mv^{2} $$
 </div>
 
 Solving for h:
@@ -1079,7 +1079,7 @@ $$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \
 **(b)** If the ball slides without rolling, only translational kinetic energy is present:
 
 <div class="equation">
-$$ mgh = \frac{1}{2}mv^2 $$
+$$ mgh = \frac{1}{2}mv^{2} $$
 </div>
 
 <div class="equation">
@@ -1145,7 +1145,7 @@ $$ \tau_{\text{net}} = 45.0 - 27.4 = 17.6 \N \cdot \m $$
 Total moment of inertia (leg plus weight):
 
 <div class="equation">
-$$ I_{\text{total}} = I_{\text{leg}} + mr^2 = 0.900 + (10.0)(0.280)^2 = 0.900 + 0.784 = 1.684 \kg \cdot \mm $$
+$$ I_{\text{total}} = I_{\text{leg}} + mr^{2} = 0.900 + (10.0)(0.280)^2 = 0.900 + 0.784 = 1.684 \kg \cdot \mm $$
 </div>
 
 Angular acceleration:
@@ -1276,13 +1276,13 @@ We use conservation of energy throughout. Both cylinders start with the same pot
 
 **Solution**
 
-**(a)** Both cylinders start with potential energy $$ PE_i = mgh $$ at height h.
+**(a)** Both cylinders start with potential energy $$ PE_{i} = mgh $$ at height h.
 
 For the **sliding** cylinder (no friction): All PE converts to translational KE at the bottom, then all KE converts back to PE on the second incline, reaching height h.
 
 For the **rolling** cylinder: At the bottom, PE converts to both translational and rotational KE. On the second incline, both forms of KE convert back to PE. Since no energy is lost to friction (rolling without slipping is frictionless in the rotational sense), it also reaches height h.
 
-In both cases: $$ mgh_i = mgh_f $$, so $$ h_f = h_i = h $$.
+In both cases: $$ mgh_{i} = mgh_{f} $$, so $$ h_f = h_i = h $$.
 
 **(b)** For a solid cylinder rolling down, $$ v_{\text{roll}} = \sqrt{\frac{4gh}{3}} $$
 
@@ -1333,39 +1333,39 @@ where $$ M $$ is the mass of the object and $$ R $$ is its radius.
 
 **Strategy**
 
-We use conservation of energy: $$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$. With $$ \omega = v/R $$ for rolling without slipping, we can solve for I in terms of MR².
+We use conservation of energy: $$ mgh = \frac{1}{2}mv^{2} + \frac{1}{2}I\omega^{2} $$. With $$ \omega = v/R $$ for rolling without slipping, we can solve for I in terms of MR².
 
 **Solution**
 
 Starting with energy conservation:
 
 <div class="equation">
-$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$
+$$ mgh = \frac{1}{2}mv^{2} + \frac{1}{2}I\omega^{2} $$
 </div>
 
 Substituting $$ \omega = v/R $$:
 
 <div class="equation">
-$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\frac{v^2}{R^2} $$
+$$ mgh = \frac{1}{2}mv^{2} + \frac{1}{2}I\frac{v^2}{R^2} $$
 </div>
 
 Solving for I:
 
 <div class="equation">
-$$ 2mgh - mv^2 = I\frac{v^2}{R^2} $$
+$$ 2mgh - mv^{2} = I\frac{v^2}{R^2} $$
 </div>
 
 <div class="equation">
-$$ I = \frac{R^2(2mgh - mv^2)}{v^2} = \frac{mR^2(2gh - v^2)}{v^2} $$
+$$ I = \frac{R^2(2mgh - mv^{2})}{v^2} = \frac{mR^{2}(2gh - v^2)}{v^2} $$
 </div>
 
 Substituting values:
 
 <div class="equation">
-$$ I = \frac{mR^2\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^2(39.2 - 36.0)}{36.0} = \frac{3.2mR^2}{36.0} = 0.0889 MR^2 $$
+$$ I = \frac{mR^{2}\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^{2}(39.2 - 36.0)}{36.0} = \frac{3.2mR^{2}}{36.0} = 0.0889 MR^{2} $$
 </div>
 
-Rounding: $$ I \approx 0.0900 MR^2 $$ or $$ I = \frac{1}{11}MR^2 $$
+Rounding: $$ I \approx 0.0900 MR^{2} $$ or $$ I = \frac{1}{11}MR^{2} $$
 
 **Discussion**
 
@@ -1400,7 +1400,7 @@ We use conservation of energy. The motorcycle has both translational KE and rota
 **(a)** Initial translational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{trans}} = \frac{1}{2}mv^2 = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
+$$ KE_{\text{trans}} = \frac{1}{2}mv^{2} = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
 </div>
 
 For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.9 \text{ rad/s} $$
@@ -1408,7 +1408,7 @@ For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.9 \text{ rad/s} $$
 Rotational KE for both wheels:
 
 <div class="equation">
-$$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^2 = 2 \times \frac{1}{2}(1.12 \kg \cdot \mm)(90.9 \text{ rad/s})^2 = 9240 \J $$
+$$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^{2} = 2 \times \frac{1}{2}(1.12 \kg \cdot \mm)(90.9 \text{ rad/s})^2 = 9240 \J $$
 </div>
 
 Total initial KE:
@@ -1484,7 +1484,7 @@ $$ \omega = \frac{v}{r} = \frac{38.6 \text{ m/s}}{0.600 \m} = 64.3 \text{ rad/s}
 Rotational kinetic energy of the arm:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(0.720 \kg \cdot \mm)(64.3 \text{ rad/s})^2 = 1490 \J = 1.49 \text{ kJ} $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(0.720 \kg \cdot \mm)(64.3 \text{ rad/s})^2 = 1490 \J = 1.49 \text{ kJ} $$
 </div>
 
 **(b)** Assuming the arm accelerates through approximately θ = π radians during the pitch, the work done equals the rotational kinetic energy:

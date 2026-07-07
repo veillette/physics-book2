@@ -635,7 +635,7 @@ $$\theta = \sin^{-1}(0.0360) = 2.06°$$
 
 **Discussion**
 
-The fourth-order maximum appears at 2.06°, which is four times the angle of the first-order maximum (0.516° from Exercise 1). This linear relationship ($$\theta_m \approx m\theta_1$$ for small angles) is characteristic of the small-angle approximation, where $$\sin \theta \approx \theta$$ in radians. The angle is still quite small, confirming that many orders of maxima are visible in this double-slit configuration. The slit separation being about 111 wavelengths allows for many observable interference fringes.
+The fourth-order maximum appears at 2.06°, which is four times the angle of the first-order maximum (0.516° from Exercise 1). This linear relationship ($$\theta_{m} \approx m\theta_{1}$$ for small angles) is characteristic of the small-angle approximation, where $$\sin \theta \approx \theta$$ in radians. The angle is still quite small, confirming that many orders of maxima are visible in this double-slit configuration. The slit separation being about 111 wavelengths allows for many observable interference fringes.
 
 **Answer**
 
@@ -800,8 +800,8 @@ $$d_{\text{min}} = 1440 \times 10^{-9} \text{ m} = 1.44 \times 10^{-6} \text{ m}
 If the slit separation were smaller than 1.44 μm, the second-order maximum would require $$\sin \theta > 1$$, which is impossible. Therefore, 1.44 μm is the minimum separation needed to observe a second-order maximum with 720-nm light.
 
 For this minimum separation:
-- The first-order maximum appears at $$\theta_1 = \sin^{-1}(720/1440) = \sin^{-1}(0.5) = 30°$$
-- The second-order maximum appears at $$\theta_2 = 90°$$
+- The first-order maximum appears at $$\theta_{1} = \sin^{-1}(720/1440) = \sin^{-1}(0.5) = 30°$$
+- The second-order maximum appears at $$\theta_{2} = 90°$$
 
 This means the second-order maximum would barely be observable at the edge of the interference pattern. For practical observation, the slit separation should be somewhat larger than this minimum value. This principle is important in designing diffraction gratings and other optical devices where specific orders need to be observable.
 
@@ -858,9 +858,9 @@ With this separation:
 Part (a) asks for the minimum separation to observe **any** visible second-order maximum. Since violet has the shortest wavelength, it requires the smallest slit separation (760 nm). With slits separated by 760 nm, only violet light would show a second-order maximum (at 90°), while longer wavelengths would not.
 
 Part (b) asks for the minimum separation to observe second-order maxima for **all** visible wavelengths. This requires accommodating the longest wavelength (red at 760 nm), giving d = 1520 nm. With this separation:
-- Red (760 nm): $$\theta_2 = 90°$$
-- Green (550 nm): $$\theta_2 = \sin^{-1}(2 \times 550/1520) = \sin^{-1}(0.724) = 46.4°$$
-- Violet (380 nm): $$\theta_2 = \sin^{-1}(2 \times 380/1520) = \sin^{-1}(0.500) = 30.0°$$
+- Red (760 nm): $$\theta_{2} = 90°$$
+- Green (550 nm): $$\theta_{2} = \sin^{-1}(2 \times 550/1520) = \sin^{-1}(0.724) = 46.4°$$
+- Violet (380 nm): $$\theta_{2} = \sin^{-1}(2 \times 380/1520) = \sin^{-1}(0.500) = 30.0°$$
 
 All visible wavelengths would have observable second-order maxima.
 
@@ -895,7 +895,7 @@ From the first-order maximum, we can find the ratio d/λ. We then use this ratio
 
 For the first-order maximum:
 <div class="equation">
-$$d \sin \theta_1 = \lambda$$
+$$d \sin \theta_{1} = \lambda$$
 </div>
 
 So:
@@ -905,11 +905,11 @@ $$\frac{d}{\lambda} = \frac{1}{\sin 10.0°} = \frac{1}{0.1736} = 5.759$$
 
 For the second-order maximum (m = 2):
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{d} = \frac{2}{5.759} = 0.3472$$
+$$\sin \theta_{2} = \frac{2\lambda}{d} = \frac{2}{5.759} = 0.3472$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \sin^{-1}(0.3472) = 20.3°$$
+$$\theta_{2} = \sin^{-1}(0.3472) = 20.3°$$
 </div>
 
 **(b) First minimum:**
@@ -1033,9 +1033,9 @@ The fringe spacing of 23.7 mm (about 2.4 cm) is easily observable with the naked
 The ratio x/d = 3.00 m / 0.0800 mm = 37,500 is very large, which greatly magnifies the fringe pattern.
 
 We can verify our result makes sense by checking the small angle approximation. For the first-order maximum:
-$$\sin \theta_1 = \lambda/d = 633 \times 10^{-9} / 8.00 \times 10^{-5} = 7.91 \times 10^{-3}$$
+$$\sin \theta_{1} = \lambda/d = 633 \times 10^{-9} / 8.00 \times 10^{-5} = 7.91 \times 10^{-3}$$
 
-This gives $$\theta_1 = 0.453°$$, which is indeed small, validating our use of the small angle approximation. The angle can also be found from $$\tan \theta_1 = y_1/x = 0.0237/3.00 = 7.90 \times 10^{-3}$$, confirming our calculation.
+This gives $$\theta_{1} = 0.453°$$, which is indeed small, validating our use of the small angle approximation. The angle can also be found from $$\tan \theta_{1} = y_1/x = 0.0237/3.00 = 7.90 \times 10^{-3}$$, confirming our calculation.
 
 :::
 

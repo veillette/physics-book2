@@ -554,22 +554,22 @@ $$d = \frac{1 \text{ cm}}{10,000 \text{ lines}} = \frac{0.01 \text{ m}}{10,000} 
 
 **Angle 1: θ = 24.2°**
 <div class="equation">
-$$\lambda_1 = d \sin \theta = (1.00 \times 10^{-6}) \sin 24.2° = (1.00 \times 10^{-6})(0.4101) = 410 \text{ nm (violet)}$$
+$$\lambda_{1} = d \sin \theta = (1.00 \times 10^{-6}) \sin 24.2° = (1.00 \times 10^{-6})(0.4101) = 410 \text{ nm (violet)}$$
 </div>
 
 **Angle 2: θ = 25.7°**
 <div class="equation">
-$$\lambda_2 = (1.00 \times 10^{-6}) \sin 25.7° = (1.00 \times 10^{-6})(0.4337) = 434 \text{ nm (violet-blue)}$$
+$$\lambda_{2} = (1.00 \times 10^{-6}) \sin 25.7° = (1.00 \times 10^{-6})(0.4337) = 434 \text{ nm (violet-blue)}$$
 </div>
 
 **Angle 3: θ = 29.1°**
 <div class="equation">
-$$\lambda_3 = (1.00 \times 10^{-6}) \sin 29.1° = (1.00 \times 10^{-6})(0.4861) = 486 \text{ nm (blue-green)}$$
+$$\lambda_{3} = (1.00 \times 10^{-6}) \sin 29.1° = (1.00 \times 10^{-6})(0.4861) = 486 \text{ nm (blue-green)}$$
 </div>
 
 **Angle 4: θ = 41.0°**
 <div class="equation">
-$$\lambda_4 = (1.00 \times 10^{-6}) \sin 41.0° = (1.00 \times 10^{-6})(0.6561) = 656 \text{ nm (red)}$$
+$$\lambda_{4} = (1.00 \times 10^{-6}) \sin 41.0° = (1.00 \times 10^{-6})(0.6561) = 656 \text{ nm (red)}$$
 </div>
 
 **Step 6:** All results are in the visible range (380-760 nm), which is reasonable for hydrogen emission lines.
@@ -618,22 +618,22 @@ Using $$\sin \theta = \frac{m\lambda}{d}$$ with m = 1:
 
 **For λ = 410 nm:**
 <div class="equation">
-$$\sin \theta_1 = \frac{410 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.205 \quad \Rightarrow \quad \theta_1 = 11.8°$$
+$$\sin \theta_{1} = \frac{410 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.205 \quad \Rightarrow \quad \theta_{1} = 11.8°$$
 </div>
 
 **For λ = 434 nm:**
 <div class="equation">
-$$\sin \theta_2 = \frac{434 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.217 \quad \Rightarrow \quad \theta_2 = 12.5°$$
+$$\sin \theta_{2} = \frac{434 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.217 \quad \Rightarrow \quad \theta_{2} = 12.5°$$
 </div>
 
 **For λ = 486 nm:**
 <div class="equation">
-$$\sin \theta_3 = \frac{486 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.243 \quad \Rightarrow \quad \theta_3 = 14.1°$$
+$$\sin \theta_{3} = \frac{486 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.243 \quad \Rightarrow \quad \theta_{3} = 14.1°$$
 </div>
 
 **For λ = 656 nm:**
 <div class="equation">
-$$\sin \theta_4 = \frac{656 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.328 \quad \Rightarrow \quad \theta_4 = 19.2°$$
+$$\sin \theta_{4} = \frac{656 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.328 \quad \Rightarrow \quad \theta_{4} = 19.2°$$
 </div>
 
 **First-order angles: 11.8°, 12.5°, 14.1°, 19.2°**
@@ -644,22 +644,22 @@ Using $$\sin \theta = \frac{m\lambda}{d}$$ with m = 2:
 
 **For λ = 410 nm:**
 <div class="equation">
-$$\sin \theta_1 = \frac{(2)(410 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.410 \quad \Rightarrow \quad \theta_1 = 24.2°$$
+$$\sin \theta_{1} = \frac{(2)(410 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.410 \quad \Rightarrow \quad \theta_{1} = 24.2°$$
 </div>
 
 **For λ = 434 nm:**
 <div class="equation">
-$$\sin \theta_2 = \frac{(2)(434 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.434 \quad \Rightarrow \quad \theta_2 = 25.7°$$
+$$\sin \theta_{2} = \frac{(2)(434 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.434 \quad \Rightarrow \quad \theta_{2} = 25.7°$$
 </div>
 
 **For λ = 486 nm:**
 <div class="equation">
-$$\sin \theta_3 = \frac{(2)(486 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.486 \quad \Rightarrow \quad \theta_3 = 29.1°$$
+$$\sin \theta_{3} = \frac{(2)(486 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.486 \quad \Rightarrow \quad \theta_{3} = 29.1°$$
 </div>
 
 **For λ = 656 nm:**
 <div class="equation">
-$$\sin \theta_4 = \frac{(2)(656 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.656 \quad \Rightarrow \quad \theta_4 = 41.0°$$
+$$\sin \theta_{4} = \frac{(2)(656 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.656 \quad \Rightarrow \quad \theta_{4} = 41.0°$$
 </div>
 
 **Second-order angles: 24.2°, 25.7°, 29.1°, 41.0°**
@@ -750,8 +750,8 @@ Use $$d \sin \theta = m\lambda$$ to find each wavelength from its angle. First, 
 
 Given:
 - Line density: 10,000 lines/cm
-- $$\theta_1 = 36.093°$$
-- $$\theta_2 = 36.129°$$
+- $$\theta_{1} = 36.093°$$
+- $$\theta_{2} = 36.129°$$
 - $$m = 1$$ (first-order maxima)
 
 **Step 1: Find the grating spacing**
@@ -765,21 +765,21 @@ $$d = \frac{1 \text{ cm}}{10,000 \text{ lines}} = \frac{0.01 \text{ m}}{10,000} 
 Using $$\lambda = d \sin \theta / m$$:
 
 <div class="equation">
-$$\lambda_1 = d \sin \theta_1 = (1.00 \times 10^{-6} \text{ m}) \sin 36.093°$$
+$$\lambda_{1} = d \sin \theta_{1} = (1.00 \times 10^{-6} \text{ m}) \sin 36.093°$$
 </div>
 
 <div class="equation">
-$$\lambda_1 = (1.00 \times 10^{-6})(0.58906) = 5.891 \times 10^{-7} \text{ m} = 589.1 \text{ nm}$$
+$$\lambda_{1} = (1.00 \times 10^{-6})(0.58906) = 5.891 \times 10^{-7} \text{ m} = 589.1 \text{ nm}$$
 </div>
 
 **Step 3: Find the second wavelength**
 
 <div class="equation">
-$$\lambda_2 = d \sin \theta_2 = (1.00 \times 10^{-6} \text{ m}) \sin 36.129°$$
+$$\lambda_{2} = d \sin \theta_{2} = (1.00 \times 10^{-6} \text{ m}) \sin 36.129°$$
 </div>
 
 <div class="equation">
-$$\lambda_2 = (1.00 \times 10^{-6})(0.58963) = 5.896 \times 10^{-7} \text{ m} = 589.6 \text{ nm}$$
+$$\lambda_{2} = (1.00 \times 10^{-6})(0.58963) = 5.896 \times 10^{-7} \text{ m} = 589.6 \text{ nm}$$
 </div>
 
 **Discussion**
@@ -961,19 +961,19 @@ Use $$d \sin \theta = m\lambda$$ for both orders. From the first-order angle, fi
 **Solution**
 
 Given:
-- $$\theta_1 = 20.0°$$ (first-order maximum)
-- Find: $$\theta_2$$ (second-order maximum)
+- $$\theta_{1} = 20.0°$$ (first-order maximum)
+- Find: $$\theta_{2}$$ (second-order maximum)
 
 **Step 1: Find the ratio λ/d from the first-order condition**
 
 For the first-order maximum (m = 1):
 
 <div class="equation">
-$$d \sin \theta_1 = (1)\lambda$$
+$$d \sin \theta_{1} = (1)\lambda$$
 </div>
 
 <div class="equation">
-$$\frac{\lambda}{d} = \sin \theta_1 = \sin 20.0° = 0.342$$
+$$\frac{\lambda}{d} = \sin \theta_{1} = \sin 20.0° = 0.342$$
 </div>
 
 **Step 2: Find the second-order angle**
@@ -981,15 +981,15 @@ $$\frac{\lambda}{d} = \sin \theta_1 = \sin 20.0° = 0.342$$
 For the second-order maximum (m = 2):
 
 <div class="equation">
-$$d \sin \theta_2 = 2\lambda$$
+$$d \sin \theta_{2} = 2\lambda$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{2\lambda}{d} = 2 \times 0.342 = 0.684$$
+$$\sin \theta_{2} = \frac{2\lambda}{d} = 2 \times 0.342 = 0.684$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \sin^{-1}(0.684) = 43.2°$$
+$$\theta_{2} = \sin^{-1}(0.684) = 43.2°$$
 </div>
 
 **Discussion**
@@ -1020,16 +1020,16 @@ We use $$d \sin \theta = m\lambda$$ for both first and second orders. For the se
 
 For the **first-order maximum** (m = 1):
 <div class="equation">
-$$d \sin \theta_1 = \lambda$$
+$$d \sin \theta_{1} = \lambda$$
 </div>
 
 For the **second-order maximum** (m = 2) to be observable, it must occur at some angle θ₂ < 90°. At the limiting case where θ₂ = 90°:
 
 <div class="equation">
-$$d \sin \theta_2 = 2\lambda$$
+$$d \sin \theta_{2} = 2\lambda$$
 </div>
 
-With $$\sin \theta_2 = \sin 90° = 1$$:
+With $$\sin \theta_{2} = \sin 90° = 1$$:
 
 <div class="equation">
 $$d = 2\lambda$$
@@ -1038,18 +1038,18 @@ $$d = 2\lambda$$
 Now substitute this back into the first-order equation:
 
 <div class="equation">
-$$2\lambda \sin \theta_1 = \lambda$$
+$$2\lambda \sin \theta_{1} = \lambda$$
 </div>
 
 <div class="equation">
-$$\sin \theta_1 = \frac{1}{2} = 0.500$$
+$$\sin \theta_{1} = \frac{1}{2} = 0.500$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \sin^{-1}(0.500) = 30.0°$$
+$$\theta_{1} = \sin^{-1}(0.500) = 30.0°$$
 </div>
 
-**Therefore:** If θ₁ = 30.0°, the second-order maximum just barely appears at θ₂ = 90°. If θ₁ > 30.0°, then d < 2λ, which would require $$\sin \theta_2 > 1$$ for the second-order maximum - which is impossible.
+**Therefore:** If θ₁ = 30.0°, the second-order maximum just barely appears at θ₂ = 90°. If θ₁ > 30.0°, then d < 2λ, which would require $$\sin \theta_{2} > 1$$ for the second-order maximum - which is impossible.
 
 **Conclusion:** A second-order maximum can only exist if the first-order maximum appears at θ₁ < 30.0°. **Q.E.D.**
 
@@ -1084,29 +1084,29 @@ Use $$d \sin \theta = m\lambda$$ for both wavelengths. Find d from the violet co
 **Solution**
 
 Given:
-- Shortest visible wavelength: $$\lambda_V = 380 \text{ nm}$$ (violet)
-- Longest visible wavelength: $$\lambda_R = 760 \text{ nm}$$ (red)
-- $$\theta_V = 30.0°$$ for violet light
+- Shortest visible wavelength: $$\lambda_{V} = 380 \text{ nm}$$ (violet)
+- Longest visible wavelength: $$\lambda_{R} = 760 \text{ nm}$$ (red)
+- $$\theta_{V} = 30.0°$$ for violet light
 - $$m = 1$$ (first-order maximum)
 
 **Step 1: Find the grating spacing from the violet condition**
 
 <div class="equation">
-$$d \sin \theta_V = m\lambda_V$$
+$$d \sin \theta_{V} = m\lambda_{V}$$
 </div>
 
 <div class="equation">
-$$d = \frac{m\lambda_V}{\sin \theta_V} = \frac{(1)(380 \text{ nm})}{\sin 30.0°} = \frac{380}{0.500} = 760 \text{ nm}$$
+$$d = \frac{m\lambda_{V}}{\sin \theta_{V}} = \frac{(1)(380 \text{ nm})}{\sin 30.0°} = \frac{380}{0.500} = 760 \text{ nm}$$
 </div>
 
 **Step 2: Find the angle for red light**
 
 <div class="equation">
-$$\sin \theta_R = \frac{m\lambda_R}{d} = \frac{(1)(760 \text{ nm})}{760 \text{ nm}} = 1.00$$
+$$\sin \theta_{R} = \frac{m\lambda_{R}}{d} = \frac{(1)(760 \text{ nm})}{760 \text{ nm}} = 1.00$$
 </div>
 
 <div class="equation">
-$$\theta_R = \sin^{-1}(1.00) = 90.0°$$
+$$\theta_{R} = \sin^{-1}(1.00) = 90.0°$$
 </div>
 
 **Discussion**
@@ -1178,7 +1178,7 @@ IR wavelengths are longer than visible light. For example, near-IR is around 760
 For λ_IR = 760 nm with d = 380 nm:
 
 <div class="equation">
-$$\sin \theta_1 = \frac{(1)(760 \text{ nm})}{380 \text{ nm}} = 2$$
+$$\sin \theta_{1} = \frac{(1)(760 \text{ nm})}{380 \text{ nm}} = 2$$
 </div>
 
 Since sin θ cannot exceed 1, **no first-order maximum exists** for 760 nm IR light.

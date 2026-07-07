@@ -719,26 +719,26 @@ A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]
 
 **Strategy**
 
-We use Snell's law to find the angle in air. Light is traveling from air into water, so $$n_1 = 1.00$$ (air) and $$n_2 = 1.333$$ (water). We're given $$\theta_2 = 25.0°$$ and need to find $$\theta_1$$.
+We use Snell's law to find the angle in air. Light is traveling from air into water, so $$n_1 = 1.00$$ (air) and $$n_2 = 1.333$$ (water). We're given $$\theta_{2} = 25.0°$$ and need to find $$\theta_{1}$$.
 
 **Solution**
 
 Snell's law states:
 <div class="equation">
-$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
+$$n_1 \sin \theta_{1} = n_2 \sin \theta_{2}$$
 </div>
 
-Solving for $$\theta_1$$:
+Solving for $$\theta_{1}$$:
 <div class="equation">
-$$\sin \theta_1 = \frac{n_2}{n_1} \sin \theta_2 = \frac{1.333}{1.00} \sin(25.0°)$$
-</div>
-
-<div class="equation">
-$$\sin \theta_1 = 1.333 \times 0.4226 = 0.5634$$
+$$\sin \theta_{1} = \frac{n_2}{n_1} \sin \theta_{2} = \frac{1.333}{1.00} \sin(25.0°)$$
 </div>
 
 <div class="equation">
-$$\theta_1 = \sin^{-1}(0.5634) = 34.3°$$
+$$\sin \theta_{1} = 1.333 \times 0.4226 = 0.5634$$
+</div>
+
+<div class="equation">
+$$\theta_{1} = \sin^{-1}(0.5634) = 34.3°$$
 </div>
 
 **Answer:** The ray from the instructor's face makes an angle of **34.3°** with the perpendicular to the water surface.
@@ -801,25 +801,25 @@ Although this seems like an incredibly short time, it's significant in high-spee
 
 **Strategy**
 
-From [[Figure 5]](#Figure5), we can use geometry and Snell's law. The horizontal distance from the point where the ray enters the water to the instructor is 2.00 m. We first find the angle in air using Snell's law (from the previous problem, $$\theta_1 = 34.3°$$), then use trigonometry.
+From [[Figure 5]](#Figure5), we can use geometry and Snell's law. The horizontal distance from the point where the ray enters the water to the instructor is 2.00 m. We first find the angle in air using Snell's law (from the previous problem, $$\theta_{1} = 34.3°$$), then use trigonometry.
 
 **Solution**
 
-**(a)** From the previous problem, we found $$\theta_1 = 34.3°$$.
+**(a)** From the previous problem, we found $$\theta_{1} = 34.3°$$.
 
 The horizontal distance is 2.00 m. Using trigonometry:
 <div class="equation">
-$$\tan \theta_1 = \frac{\text{horizontal distance}}{\text{height}} = \frac{2.00 \text{ m}}{h}$$
+$$\tan \theta_{1} = \frac{\text{horizontal distance}}{\text{height}} = \frac{2.00 \text{ m}}{h}$$
 </div>
 
 <div class="equation">
 $$h = \frac{2.00 \text{ m}}{\tan(34.3°)} = \frac{2.00 \text{ m}}{0.6822} = 2.93 \text{ m}$$
 </div>
 
-**(b)** For the diver, the horizontal distance underwater is also 2.00 m, and $$\theta_2 = 25.0°$$:
+**(b)** For the diver, the horizontal distance underwater is also 2.00 m, and $$\theta_{2} = 25.0°$$:
 
 <div class="equation">
-$$\tan \theta_2 = \frac{2.00 \text{ m}}{d}$$
+$$\tan \theta_{2} = \frac{2.00 \text{ m}}{d}$$
 </div>
 
 <div class="equation">
@@ -852,13 +852,13 @@ Suppose you have an unknown clear substance immersed in water, and you wish to i
 
 **Strategy**
 
-Light travels from water ($$n_1 = 1.333$$) into the unknown substance ($$n_2$$). We use Snell's law: $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$ with $$\theta_1 = 45.0°$$ and $$\theta_2 = 40.3°$$.
+Light travels from water ($$n_1 = 1.333$$) into the unknown substance ($$n_2$$). We use Snell's law: $$n_1 \sin \theta_{1} = n_2 \sin \theta_{2}$$ with $$\theta_{1} = 45.0°$$ and $$\theta_{2} = 40.3°$$.
 
 **Solution**
 
 Apply Snell's law:
 <div class="equation">
-$$n_2 = n_1 \frac{\sin \theta_1}{\sin \theta_2} = 1.333 \times \frac{\sin(45.0°)}{\sin(40.3°)}$$
+$$n_2 = n_1 \frac{\sin \theta_{1}}{\sin \theta_{2}} = 1.333 \times \frac{\sin(45.0°)}{\sin(40.3°)}$$
 </div>
 
 <div class="equation">
@@ -954,36 +954,36 @@ The ray refracts when entering the glass and again when leaving it. We need to f
 
 Entering the glass from air ($$n_1 = 1.00$$, $$n_2 = 1.52$$):
 <div class="equation">
-$$\sin \theta_2 = \frac{n_1}{n_2} \sin \theta_1 = \frac{1.00}{1.52} \sin(40.0°) = \frac{0.6428}{1.52} = 0.4229$$
+$$\sin \theta_{2} = \frac{n_1}{n_2} \sin \theta_{1} = \frac{1.00}{1.52} \sin(40.0°) = \frac{0.6428}{1.52} = 0.4229$$
 </div>
 
 <div class="equation">
-$$\theta_2 = \sin^{-1}(0.4229) = 25.0°$$
+$$\theta_{2} = \sin^{-1}(0.4229) = 25.0°$$
 </div>
 
 The ray travels through the glass at angle $$25.0°$$ to the normal. The distance traveled through the glass:
 <div class="equation">
-$$d = \frac{t}{\cos \theta_2} = \frac{1.00 \text{ cm}}{\cos(25.0°)} = \frac{1.00 \text{ cm}}{0.9063} = 1.103 \text{ cm}$$
+$$d = \frac{t}{\cos \theta_{2}} = \frac{1.00 \text{ cm}}{\cos(25.0°)} = \frac{1.00 \text{ cm}}{0.9063} = 1.103 \text{ cm}$$
 </div>
 
 The horizontal displacement within the glass:
 <div class="equation">
-$$\Delta x = d \sin \theta_2 = 1.103 \text{ cm} \times \sin(25.0°) = 1.103 \times 0.4226 = 0.466 \text{ cm}$$
+$$\Delta x = d \sin \theta_{2} = 1.103 \text{ cm} \times \sin(25.0°) = 1.103 \times 0.4226 = 0.466 \text{ cm}$$
 </div>
 
 However, we need to subtract the horizontal distance if the ray had traveled straight:
 <div class="equation">
-$$\Delta x = t(\tan \theta_2 - \tan \theta_1) = 1.00(\tan 25.0° - \tan 40.0°)$$
+$$\Delta x = t(\tan \theta_{2} - \tan \theta_{1}) = 1.00(\tan 25.0° - \tan 40.0°)$$
 </div>
 
 Actually, the correct lateral displacement is:
 <div class="equation">
-$$\Delta x = t \sin(\theta_1 - \theta_2) \frac{\sin \theta_1}{\cos \theta_2}$$
+$$\Delta x = t \sin(\theta_{1} - \theta_{2}) \frac{\sin \theta_{1}}{\cos \theta_{2}}$$
 </div>
 
 Let me recalculate more carefully. The lateral displacement for a parallel-sided plate is:
 <div class="equation">
-$$\Delta x = \frac{t \sin(\theta_1 - \theta_2)}{\cos \theta_2}$$
+$$\Delta x = \frac{t \sin(\theta_{1} - \theta_{2})}{\cos \theta_{2}}$$
 </div>
 
 <div class="equation">

@@ -157,7 +157,7 @@ The car is bouncing at the equilibrium position with an initial velocity of 0.80
 The kinetic energy of the car at equilibrium is:
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv^2$$
+ $$\text{KE} = \frac{1}{2}mv^{2}$$
 </div>
 
 Substituting the given values:
@@ -195,14 +195,14 @@ If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}
 
 **Strategy**
 
-The oscillation starts with maximum displacement, so all the energy is initially stored as elastic potential energy in the suspension. To dampen the oscillation completely (bring it to rest), the shocks must remove all this energy. We use $$\text{PE}_{\text{el}} = \frac{1}{2}kx^2$$.
+The oscillation starts with maximum displacement, so all the energy is initially stored as elastic potential energy in the suspension. To dampen the oscillation completely (bring it to rest), the shocks must remove all this energy. We use $$\text{PE}_{\text{el}} = \frac{1}{2}kx^{2}$$.
 
 **Solution**
 
 The initial energy stored in the suspension is:
 
 <div class="equation">
- $$E = \frac{1}{2}kx^2 = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
+ $$E = \frac{1}{2}kx^{2} = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
 </div>
 
 <div class="equation">
@@ -233,7 +233,7 @@ The shocks must remove 141 J of energy to completely dampen the oscillation. Wit
 
 **Strategy**
 
-For part (a), when the object hangs motionless, the spring force balances the weight: $$kx = mg$$. For part (b), we calculate the change in gravitational potential energy using $$\Delta PE_g = mgh$$ (negative because the object descends). For part (c), we find the elastic potential energy stored in the spring using $$PE_{el} = \frac{1}{2}kx^2$$ and compare it to the gravitational energy change.
+For part (a), when the object hangs motionless, the spring force balances the weight: $$kx = mg$$. For part (b), we calculate the change in gravitational potential energy using $$\Delta PE_{g} = mgh$$ (negative because the object descends). For part (c), we find the elastic potential energy stored in the spring using $$PE_{el} = \frac{1}{2}kx^{2}$$ and compare it to the gravitational energy change.
 
 **Solution**
 
@@ -250,17 +250,17 @@ For part (a), when the object hangs motionless, the spring force balances the we
 **(b)** The gravitational PE decreases as the object descends:
 
 <div class="equation">
- $$\Delta PE_g = -mgh = -(0.500 \text{ kg})(9.80 \text{ m/s}^2)(0.123 \text{ m})$$
+ $$\Delta PE_{g} = -mgh = -(0.500 \text{ kg})(9.80 \text{ m/s}^2)(0.123 \text{ m})$$
 </div>
 
 <div class="equation">
- $$\Delta PE_g = -0.602 \text{ J} \approx -0.600 \text{ J}$$
+ $$\Delta PE_{g} = -0.602 \text{ J} \approx -0.600 \text{ J}$$
 </div>
 
 **(c)** Energy stored in the spring:
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}kx^2 = \frac{1}{2}(40.0 \text{ N/m})(0.123 \text{ m})^2$$
+ $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(40.0 \text{ N/m})(0.123 \text{ m})^2$$
 </div>
 
 <div class="equation">
@@ -278,11 +278,11 @@ Comparing energies:
 
 The energy analysis reveals an interesting result: exactly half the gravitational potential energy goes into elastic potential energy, and half is dissipated. This 50-50 split is not a coincidence but arises from the work-energy relationship.
 
-As the object descends distance $$x$$, the spring force increases linearly from 0 to $$kx$$. The average force during descent is $$\frac{1}{2}kx$$. The work done against this average force is $$W = (\frac{1}{2}kx)(x) = \frac{1}{2}kx^2$$, which is exactly the elastic PE stored.
+As the object descends distance $$x$$, the spring force increases linearly from 0 to $$kx$$. The average force during descent is $$\frac{1}{2}kx$$. The work done against this average force is $$W = (\frac{1}{2}kx)(x) = \frac{1}{2}kx^{2}$$, which is exactly the elastic PE stored.
 
-Meanwhile, gravity does work $$W_g = mgx = (kx)(x) = kx^2$$ (since $$mg = kx$$ at equilibrium). Notice that $$kx^2 = 2(\frac{1}{2}kx^2)$$—gravity's work is exactly twice the elastic energy stored.
+Meanwhile, gravity does work $$W_g = mgx = (kx)(x) = kx^{2}$$ (since $$mg = kx$$ at equilibrium). Notice that $$kx^{2} = 2(\frac{1}{2}kx^{2})$$—gravity's work is exactly twice the elastic energy stored.
 
-The "missing" energy ($$kx^2 - \frac{1}{2}kx^2 = \frac{1}{2}kx^2$$) must have gone into kinetic energy that was then dissipated by damping. If we gently lowered the mass with our hand (providing an external damping force), we would feel warmth in our muscles—this is the 0.300 J being dissipated.
+The "missing" energy ($$kx^{2} - \frac{1}{2}kx^{2} = \frac{1}{2}kx^{2}$$) must have gone into kinetic energy that was then dissipated by damping. If we gently lowered the mass with our hand (providing an external damping force), we would feel warmth in our muscles—this is the 0.300 J being dissipated.
 
 In a real scenario where the mass is simply released, it would initially overshoot the equilibrium position, oscillate, and gradually settle as damping dissipates energy. The final state has 0.300 J in the spring and 0.300 J dissipated as heat during the oscillations.
 
@@ -311,11 +311,11 @@ For part (a), the maximum stretch occurs when the spring force equals the maximu
 (a) At the maximum stretch without moving, the spring force equals the static friction force:
 
 <div class="equation">
- $$kx = \mu_s mg$$
+ $$kx = \mu_{s} mg$$
 </div>
 
 <div class="equation">
- $$x = \frac{\mu_s mg}{k} = \frac{(0.100)(0.750)(9.80)}{150} = \frac{0.735}{150} = 0.00490 \text{ m} = 4.90 \text{ mm}$$
+ $$x = \frac{\mu_{s} mg}{k} = \frac{(0.100)(0.750)(9.80)}{150} = \frac{0.735}{150} = 0.00490 \text{ m} = 4.90 \text{ mm}$$
 </div>
 
 (b) The initial amplitude is $$X = 2x = 2(0.00490) = 0.00980 \text{ m}$$
@@ -323,23 +323,23 @@ For part (a), the maximum stretch occurs when the spring force equals the maximu
 Initial elastic potential energy:
 
 <div class="equation">
- $$E_i = \frac{1}{2}kX^2 = \frac{1}{2}(150)(0.00980)^2 = 7.20 \times 10^{-3} \text{ J}$$
+ $$E_i = \frac{1}{2}kX^{2} = \frac{1}{2}(150)(0.00980)^2 = 7.20 \times 10^{-3} \text{ J}$$
 </div>
 
 Work done by kinetic friction over total distance $$d$$:
 
 <div class="equation">
- $$W_f = \mu_k mg \cdot d$$
+ $$W_f = \mu_{k} mg \cdot d$$
 </div>
 
 Setting the initial energy equal to the work done by friction:
 
 <div class="equation">
- $$\frac{1}{2}kX^2 = \mu_k mg \cdot d$$
+ $$\frac{1}{2}kX^{2} = \mu_{k} mg \cdot d$$
 </div>
 
 <div class="equation">
- $$d = \frac{kX^2}{2\mu_k mg} = \frac{(150)(0.00980)^2}{2(0.0850)(0.750)(9.80)}$$
+ $$d = \frac{kX^{2}}{2\mu_{k} mg} = \frac{(150)(0.00980)^2}{2(0.0850)(0.750)(9.80)}$$
 </div>
 
 <div class="equation">
@@ -374,14 +374,14 @@ Engineering Application: A suspension bridge oscillates with an effective force 
 
 **Strategy**
 
-For part (a), the energy in a harmonic oscillator at maximum displacement is purely elastic potential energy: $$E = \frac{1}{2}kx^2$$. For part (b), we first calculate the energy needed to increase amplitude from 0.100 m to 0.500 m, then divide by the power input to find the time required.
+For part (a), the energy in a harmonic oscillator at maximum displacement is purely elastic potential energy: $$E = \frac{1}{2}kx^{2}$$. For part (b), we first calculate the energy needed to increase amplitude from 0.100 m to 0.500 m, then divide by the power input to find the time required.
 
 **Solution**
 
 (a) Energy needed for 0.100 m amplitude:
 
 <div class="equation">
- $$E_1 = \frac{1}{2}kx_1^2 = \frac{1}{2}(1.00 \times 10^8)(0.100)^2$$
+ $$E_1 = \frac{1}{2}kx_{1}^2 = \frac{1}{2}(1.00 \times 10^8)(0.100)^2$$
 </div>
 
 <div class="equation">
@@ -391,7 +391,7 @@ For part (a), the energy in a harmonic oscillator at maximum displacement is pur
 (b) Energy at 0.500 m amplitude:
 
 <div class="equation">
- $$E_2 = \frac{1}{2}kx_2^2 = \frac{1}{2}(1.00 \times 10^8)(0.500)^2$$
+ $$E_2 = \frac{1}{2}kx_{2}^2 = \frac{1}{2}(1.00 \times 10^8)(0.500)^2$$
 </div>
 
 <div class="equation">

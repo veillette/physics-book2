@@ -765,10 +765,10 @@ With all other factors constant:
 $$Q \propto \frac{1}{\eta}$$
 
 Therefore:
-$$\frac{Q_2}{Q_1} = \frac{\eta_1}{\eta_2}$$
+$$\frac{Q_2}{Q_1} = \frac{\eta_{1}}{\eta_{2}}$$
 
-Given that $$\eta_2 = 2.50 \eta_1$$:
-$$Q_2 = Q_1 \times \frac{\eta_1}{\eta_2} = Q_1 \times \frac{1}{2.50} = \frac{4.00 \text{ cm}^3/\text{min}}{2.50} = 1.60 \text{ cm}^3/\text{min}$$
+Given that $$\eta_{2} = 2.50 \eta_{1}$$:
+$$Q_2 = Q_1 \times \frac{\eta_{1}}{\eta_{2}} = Q_1 \times \frac{1}{2.50} = \frac{4.00 \text{ cm}^3/\text{min}}{2.50} = 1.60 \text{ cm}^3/\text{min}$$
 
 **Discussion**
 
@@ -1047,28 +1047,28 @@ At terminal velocity, the net force is zero:
 $$F_{\text{net}} = F_{\text{gravity}} - F_{\text{buoyant}} - F_{\text{drag}} = 0$$
 
 **Gravitational force:**
-$$F_{\text{gravity}} = m_s g = \rho_s V g = \rho_s \left(\frac{4}{3}\pi R^3\right) g$$
+$$F_{\text{gravity}} = m_s g = \rho_{s} V g = \rho_{s} \left(\frac{4}{3}\pi R^3\right) g$$
 
 **Buoyant force** (weight of displaced fluid):
-$$F_{\text{buoyant}} = \rho_1 V g = \rho_1 \left(\frac{4}{3}\pi R^3\right) g$$
+$$F_{\text{buoyant}} = \rho_{1} V g = \rho_{1} \left(\frac{4}{3}\pi R^3\right) g$$
 
 **Stokes drag force:**
 $$F_{\text{drag}} = 6\pi R \eta v$$
 
 Setting the net force to zero:
-$$\rho_s \left(\frac{4}{3}\pi R^3\right) g - \rho_1 \left(\frac{4}{3}\pi R^3\right) g - 6\pi R \eta v = 0$$
+$$\rho_{s} \left(\frac{4}{3}\pi R^3\right) g - \rho_{1} \left(\frac{4}{3}\pi R^3\right) g - 6\pi R \eta v = 0$$
 
 Factor out common terms:
-$$\frac{4}{3}\pi R^3 g (\rho_s - \rho_1) = 6\pi R \eta v$$
+$$\frac{4}{3}\pi R^3 g (\rho_{s} - \rho_{1}) = 6\pi R \eta v$$
 
 Solve for $$v$$:
-$$v = \frac{4\pi R^3 g (\rho_s - \rho_1)}{3 \times 6\pi R \eta} = \frac{4R^3 g (\rho_s - \rho_1)}{18R \eta}$$
+$$v = \frac{4\pi R^3 g (\rho_{s} - \rho_{1})}{3 \times 6\pi R \eta} = \frac{4R^3 g (\rho_{s} - \rho_{1})}{18R \eta}$$
 
 Simplify:
-$$v = \frac{4R^2 g (\rho_s - \rho_1)}{18\eta} = \frac{2R^2 g (\rho_s - \rho_1)}{9\eta}$$
+$$v = \frac{4R^2 g (\rho_{s} - \rho_{1})}{18\eta} = \frac{2R^2 g (\rho_{s} - \rho_{1})}{9\eta}$$
 
 This proves the desired result:
-$$v = \frac{2R^2 g}{9\eta}(\rho_s - \rho_1)$$
+$$v = \frac{2R^2 g}{9\eta}(\rho_{s} - \rho_{1})$$
 
 **Discussion**
 
@@ -1097,15 +1097,15 @@ We use the terminal velocity formula derived in the previous problem and solve f
 Given:
 - Radius: $$R = 0.8 \text{ mm} = 8.0 \times 10^{-4} \text{ m}$$
 - Terminal speed: $$v = 4.32 \text{ cm/s} = 0.0432 \text{ m/s}$$
-- Steel ball density: $$\rho_s = 7.86 \text{ g/mL} = 7860 \text{ kg/m}^3$$
-- Oil density: $$\rho_1 = 0.88 \text{ g/mL} = 880 \text{ kg/m}^3$$
+- Steel ball density: $$\rho_{s} = 7.86 \text{ g/mL} = 7860 \text{ kg/m}^3$$
+- Oil density: $$\rho_{1} = 0.88 \text{ g/mL} = 880 \text{ kg/m}^3$$
 - Gravitational acceleration: $$g = 9.80 \text{ m/s}^2$$
 
 From the previous problem, we have:
-$$v = \frac{2R^2 g}{9\eta}(\rho_s - \rho_1)$$
+$$v = \frac{2R^2 g}{9\eta}(\rho_{s} - \rho_{1})$$
 
 Solving for $$\eta$$:
-$$\eta = \frac{2R^2 g (\rho_s - \rho_1)}{9v}$$
+$$\eta = \frac{2R^2 g (\rho_{s} - \rho_{1})}{9v}$$
 
 Substitute known values:
 $$\eta = \frac{2(8.0 \times 10^{-4} \text{ m})^2 (9.80 \text{ m/s}^2)(7860 - 880) \text{ kg/m}^3}{9(0.0432 \text{ m/s})}$$
@@ -1417,15 +1417,15 @@ From Poiseuille's law:
 $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$
 
 For constant length, comparing exercise to rest:
-$$\frac{Q_2}{Q_1} = \frac{\Delta P_2}{\Delta P_1} \times \frac{\eta_1}{\eta_2} \times \left(\frac{r_2}{r_1}\right)^4$$
+$$\frac{Q_2}{Q_1} = \frac{\Delta P_2}{\Delta P_1} \times \frac{\eta_{1}}{\eta_{2}} \times \left(\frac{r_2}{r_1}\right)^4$$
 
 Given:
 - $$Q_2 = 10.0 Q_1$$ (flow increased to 10 times resting)
-- $$\eta_2 = 0.950 \eta_1$$ (viscosity dropped to 95%)
+- $$\eta_{2} = 0.950 \eta_{1}$$ (viscosity dropped to 95%)
 - $$\Delta P_2 = 1.50 \Delta P_1$$ (pressure increased by 50%)
 
 Substitute:
-$$10.0 = 1.50 \times \frac{\eta_1}{0.950 \eta_1} \times \left(\frac{r_2}{r_1}\right)^4$$
+$$10.0 = 1.50 \times \frac{\eta_{1}}{0.950 \eta_{1}} \times \left(\frac{r_2}{r_1}\right)^4$$
 
 $$10.0 = 1.50 \times \frac{1}{0.950} \times \left(\frac{r_2}{r_1}\right)^4$$
 

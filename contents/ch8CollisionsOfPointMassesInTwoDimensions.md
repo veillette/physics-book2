@@ -166,7 +166,7 @@ conservation of momentum in the $$ x $$- and $$ y $$ -directions.
 **Solution**
 
 Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_{2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_{1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
-in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$ \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
+in which $$ \theta_{2} $$ is the only unknown quantity. Applying the identity $$ \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
 
 <div class="equation">
  $$ \tan{\theta_{2}}=\frac{ v^{\prime}_{1}\sin{\theta_{1}}}{ v^{\prime}_{1}\cos{\theta_{1}}- v_{1}}. $$
@@ -344,10 +344,10 @@ For elastic collisions between identical masses where one is initially at rest, 
 
 **Solution**
 
-Part (a): Given that $$ \theta_1 = 30.0^\circ $$ above the x-axis and using the result that $$ \theta_1 - \theta_2 = 90^\circ $$ for elastic collisions of identical masses:
+Part (a): Given that $$ \theta_{1} = 30.0^\circ $$ above the x-axis and using the result that $$ \theta_{1} - \theta_{2} = 90^\circ $$ for elastic collisions of identical masses:
 
 <div class="equation">
- $$ \theta_2 = \theta_1 - 90^\circ = 30.0^\circ - 90^\circ = -60.0^\circ $$
+ $$ \theta_{2} = \theta_{1} - 90^\circ = 30.0^\circ - 90^\circ = -60.0^\circ $$
 </div>
 
 So the second puck moves at $$ 60.0^\circ $$ below the x-axis.
@@ -405,16 +405,16 @@ Part (b): To confirm the collision is elastic, we find $$ v'_1 $$ and compare ki
 Initial kinetic energy (using m = 1 kg for simplicity):
 
 <div class="equation">
- $$ \KE_i = \frac{1}{2}m v_1^2 = \frac{1}{2}(1\kg)(6.00\ms)^2 = 18.0 \J $$
+ $$ \KE_{i} = \frac{1}{2}m v_1^2 = \frac{1}{2}(1\kg)(6.00\ms)^2 = 18.0 \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
- $$ \KE_f = \frac{1}{2}m {v'_1}^2 + \frac{1}{2}m {v'_2}^2 = \frac{1}{2}(1\kg)(5.20\ms)^2 + \frac{1}{2}(1\kg)(3.00\ms)^2 = 13.5 \J + 4.50 \J = 18.0 \J $$
+ $$ \KE_{f} = \frac{1}{2}m {v'_1}^2 + \frac{1}{2}m {v'_2}^2 = \frac{1}{2}(1\kg)(5.20\ms)^2 + \frac{1}{2}(1\kg)(3.00\ms)^2 = 13.5 \J + 4.50 \J = 18.0 \J $$
 </div>
 
-Since $$ \KE_i = \KE_f = 18.0 \J $$, the collision is elastic.
+Since $$ \KE_{i} = \KE_{f} = 18.0 \J $$, the collision is elastic.
 
 **Discussion**
 
@@ -442,7 +442,7 @@ both the $$ x $$- and $$ y $$-directions.
 
 **Strategy**
 
-From Example 1: $$ m_1 = 0.250 \kg $$, $$ m_2 = 0.400 \kg $$, $$ v_1 = 2.00 \ms $$, $$ v'\_1 = 1.50 \ms $$, $$ \theta_1 = 45.0^\circ $$, $$ v'\_2 = 0.886 \ms $$, $$ \theta_2 = -48.5^\circ $$ (or 312°). We verify conservation of momentum in both directions.
+From Example 1: $$ m_1 = 0.250 \kg $$, $$ m_2 = 0.400 \kg $$, $$ v_1 = 2.00 \ms $$, $$ v'\_1 = 1.50 \ms $$, $$ \theta_{1} = 45.0^\circ $$, $$ v'\_2 = 0.886 \ms $$, $$ \theta_{2} = -48.5^\circ $$ (or 312°). We verify conservation of momentum in both directions.
 
 **Solution**
 
@@ -635,25 +635,25 @@ The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
 Part (b): Calculate the initial kinetic energy:
 
 <div class="equation">
- $$ \KE_i = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 223 \J $$
+ $$ \KE_{i} = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 223 \J $$
 </div>
 
 Calculate the final kinetic energy:
 
 <div class="equation">
- $$ \KE_f = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.10\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
+ $$ \KE_{f} = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.10\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
 </div>
 
 <div class="equation">
- $$ \KE_f = 228 \J + 95.6 \J = 324 \J $$
+ $$ \KE_{f} = 228 \J + 95.6 \J = 324 \J $$
 </div>
 
-Since $$ \KE_f > \KE_i $$, the collision is NOT elastic. The linear kinetic energy actually increased!
+Since $$ \KE_{f} > \KE_{i} $$, the collision is NOT elastic. The linear kinetic energy actually increased!
 
 Part (c): The increase in linear kinetic energy is:
 
 <div class="equation">
- $$ \Delta \KE = \KE_f - \KE_i = 324 \J - 223 \J = 101 \J $$
+ $$ \Delta \KE = \KE_{f} - \KE_{i} = 324 \J - 223 \J = 101 \J $$
 </div>
 
 This increase comes from the rotational kinetic energy of the spinning bowling ball. During the collision, friction between the ball and pin converts some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
@@ -703,11 +703,11 @@ This is an elastic collision between a light helium nucleus and a much heavier g
 Part (a): First, find the initial speed of the helium nucleus from its kinetic energy:
 
 <div class="equation">
- $$ \KE_i = \frac{1}{2}m_{\text{He}} v_{\text{He}}^2 $$
+ $$ \KE_{i} = \frac{1}{2}m_{\text{He}} v_{\text{He}}^2 $$
 </div>
 
 <div class="equation">
- $$ v_{\text{He}} = \sqrt{\frac{2\KE_i}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mss} = 1.55\times 10^{7}\ms $$
+ $$ v_{\text{He}} = \sqrt{\frac{2\KE_{i}}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mss} = 1.55\times 10^{7}\ms $$
 </div>
 
 Apply conservation of momentum in the x-direction:
@@ -852,23 +852,23 @@ The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.
 Part (b): Calculate the initial kinetic energy:
 
 <div class="equation">
- $$ \KE_i = \frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}(1200\kg)(8.00\ms)^2 + \frac{1}{2}(850\kg)(17.0\ms)^2 $$
+ $$ \KE_{i} = \frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}(1200\kg)(8.00\ms)^2 + \frac{1}{2}(850\kg)(17.0\ms)^2 $$
 </div>
 
 <div class="equation">
- $$ \KE_i = 38400 \J + 122825 \J = 161225 \J \approx 1.61 \times 10^{5} \J $$
+ $$ \KE_{i} = 38400 \J + 122825 \J = 161225 \J \approx 1.61 \times 10^{5} \J $$
 </div>
 
 Calculate the final kinetic energy:
 
 <div class="equation">
- $$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(2050\kg)(8.46\ms)^2 = 73400 \J \approx 7.34 \times 10^{4} \J $$
+ $$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(2050\kg)(8.46\ms)^2 = 73400 \J \approx 7.34 \times 10^{4} \J $$
 </div>
 
 The kinetic energy lost is:
 
 <div class="equation">
- $$ \Delta \KE = \KE_i - \KE_f = 161225 \J - 73400 \J = 87825 \J \approx 8.78 \times 10^{4} \J $$
+ $$ \Delta \KE = \KE_{i} - \KE_{f} = 161225 \J - 73400 \J = 87825 \J \approx 8.78 \times 10^{4} \J $$
 </div>
 
 Approximately 87.8 kJ of kinetic energy is lost in the collision.
@@ -933,13 +933,13 @@ v_{1}^{2}&=& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\
 \end{array} $$
 </div>
 
-Add these two equations and use the trigonometric identity $$ \sin^2\theta + \cos^2\theta = 1 $$:
+Add these two equations and use the trigonometric identity $$ \sin^{2}\theta + \cos^{2}\theta = 1 $$:
 
 <div class="equation">
  $$ v_{1}^{2} = { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right) $$
 </div>
 
-Now apply the trigonometric identity $$ \cos(\theta_1 - \theta_2) = \cos\theta_1\cos\theta_2 + \sin\theta_1\sin\theta_2 $$:
+Now apply the trigonometric identity $$ \cos(\theta_{1} - \theta_{2}) = \cos\theta_{1}\cos\theta_{2} + \sin\theta_{1}\sin\theta_{2} $$:
 
 <div class="equation">
  $$ v_{1}^{2} = { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
@@ -955,7 +955,7 @@ This is the desired result, showing that for elastic collisions between equal ma
 
 **Discussion**
 
-This result is crucial for understanding elastic collisions between equal masses. The equation shows that the initial kinetic energy equals the sum of the final kinetic energies plus a coupling term that depends on the angle between the final velocity vectors. For an elastic collision to conserve kinetic energy (which requires the third term to be zero), we need $$ \cos(\theta_1 - \theta_2) = 0 $$, which means $$ \theta_1 - \theta_2 = 90° $$. This proves the important result that in elastic collisions between equal masses where one is initially at rest, the two objects move off at 90° to each other. This is commonly observed in billiards and pool.
+This result is crucial for understanding elastic collisions between equal masses. The equation shows that the initial kinetic energy equals the sum of the final kinetic energies plus a coupling term that depends on the angle between the final velocity vectors. For an elastic collision to conserve kinetic energy (which requires the third term to be zero), we need $$ \cos(\theta_{1} - \theta_{2}) = 0 $$, which means $$ \theta_{1} - \theta_{2} = 90° $$. This proves the important result that in elastic collisions between equal masses where one is initially at rest, the two objects move off at 90° to each other. This is commonly observed in billiards and pool.
 
 **Answer**
 

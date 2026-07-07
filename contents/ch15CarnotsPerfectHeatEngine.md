@@ -214,7 +214,7 @@ A certain gasoline engine has an efficiency of 30.0%. What would the hot reservo
 
 **Strategy**
 
-Use the Carnot efficiency formula $$\eta_C = 1 - \frac{T_C}{T_H}$$ where temperatures must be in Kelvin. Solve for $$T_H$$ given $$\eta_C = 0.300$$ and $$T_C = 200°\text{C} = 473 \text{ K}$$.
+Use the Carnot efficiency formula $$\eta_{C} = 1 - \frac{T_C}{T_H}$$ where temperatures must be in Kelvin. Solve for $$T_H$$ given $$\eta_{C} = 0.300$$ and $$T_C = 200°\text{C} = 473 \text{ K}$$.
 
 **Solution**
 
@@ -223,13 +223,13 @@ Given: $$\eta = 30.0\% = 0.300$$, $$T_C = 200°\text{C} = 473 \text{ K}$$
 Carnot efficiency formula:
 
 <div class="equation">
- $$\eta_C = 1 - \frac{T_C}{T_H}$$
+ $$\eta_{C} = 1 - \frac{T_C}{T_H}$$
 </div>
 
 Solving for $$T_H$$:
 
 <div class="equation">
- $$\frac{T_C}{T_H} = 1 - \eta_C = 1 - 0.300 = 0.700$$
+ $$\frac{T_C}{T_H} = 1 - \eta_{C} = 1 - 0.300 = 0.700$$
 </div>
 
 <div class="equation">
@@ -264,7 +264,7 @@ A gas-cooled nuclear reactor operates between hot and cold reservoir temperature
 
 **Strategy**
 
-For part (a), use $$\eta_C = 1 - \frac{T_C}{T_H}$$ with $$T_H = 700°\text{C} = 973 \text{ K}$$ and $$T_C = 27.0°\text{C} = 300 \text{ K}$$. For part (b), compare to standard nuclear reactor efficiency from Example 1.
+For part (a), use $$\eta_{C} = 1 - \frac{T_C}{T_H}$$ with $$T_H = 700°\text{C} = 973 \text{ K}$$ and $$T_C = 27.0°\text{C} = 300 \text{ K}$$. For part (b), compare to standard nuclear reactor efficiency from Example 1.
 
 **Solution**
 
@@ -273,7 +273,7 @@ Given: $$T_H = 973 \text{ K}$$, $$T_C = 300 \text{ K}$$
 **(a)** Maximum (Carnot) efficiency:
 
 <div class="equation">
- $$\eta_C = 1 - \frac{T_C}{T_H} = 1 - \frac{300}{973} = 1 - 0.308 = 0.692 = 69.2\%$$
+ $$\eta_{C} = 1 - \frac{T_C}{T_H} = 1 - \frac{300}{973} = 1 - 0.308 = 0.692 = 69.2\%$$
 </div>
 
 **(b)** Assuming Example 1 shows standard nuclear reactor Carnot efficiency of ~41.5%, the ratio is:
@@ -311,7 +311,7 @@ Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
 
 **(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300}{0.580} = 517 \text{ K} = 244°\text{C}$$
 
-**(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_C$$, so $$\eta_C = 0.600$$
+**(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_{C}$$, so $$\eta_{C} = 0.600$$
 Then $$T_H = \frac{300}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
 
 **(c)** Yes, car engines cannot sustain 477°C without overheating, limiting practical efficiency to well below 42%.
@@ -401,7 +401,7 @@ Calculate Carnot efficiency for given temperatures, then find what percentage 38
 Given: $$\eta_{actual} = 38\% = 0.38$$, $$T_H = 550°\text{C} = 823 \text{ K}$$, $$T_C = 20°\text{C} = 293 \text{ K}$$
 
 Carnot efficiency:
-$$\eta_C = 1 - \frac{293}{823} = 0.644 = 64.4\%$$
+$$\eta_{C} = 1 - \frac{293}{823} = 0.644 = 64.4\%$$
 
 Percentage of maximum:
 $$\frac{0.38}{0.644} \times 100\% = 59.0\%$$
@@ -537,22 +537,22 @@ unreasonable about the temperature? (c) Which premise is unreasonable?
 
 **Strategy**
 
-Use the Carnot efficiency formula $$\eta_C = 1 - \frac{T_c}{T_h}$$ and solve for $$T_c$$. Then evaluate whether the result is physically reasonable for a steam engine's cold reservoir (typically the local environment).
+Use the Carnot efficiency formula $$\eta_{C} = 1 - \frac{T_c}{T_h}$$ and solve for $$T_c$$. Then evaluate whether the result is physically reasonable for a steam engine's cold reservoir (typically the local environment).
 
 **Solution**
 
 Given values:
 - Hot reservoir temperature: $$T_h = 450\text{°C} = 723 \text{ K}$$
-- Carnot efficiency: $$\eta_C = 0.700$$
+- Carnot efficiency: $$\eta_{C} = 0.700$$
 
 **(a)** Solve for cold reservoir temperature:
 
 <div class="equation">
- $$\eta_C = 1 - \frac{T_c}{T_h}$$
+ $$\eta_{C} = 1 - \frac{T_c}{T_h}$$
 </div>
 
 <div class="equation">
- $$\frac{T_c}{T_h} = 1 - \eta_C = 1 - 0.700 = 0.300$$
+ $$\frac{T_c}{T_h} = 1 - \eta_{C} = 1 - 0.700 = 0.300$$
 </div>
 
 <div class="equation">
@@ -584,7 +584,7 @@ The assumed efficiency of 70% (0.700) is unreasonably high for a steam engine. R
 - **Best steam turbines**: About 40% actual efficiency when Carnot limit might be 60-65%
 
 A 70% Carnot efficiency with $$T_h = 450\text{°C}$$ would require an impossibly low cold reservoir temperature. More reasonable efficiencies for this hot temperature would be:
-- With $$T_c = 20\text{°C}$$ (293 K): $$\eta_C = 1 - \frac{293}{723} = 59.5\%$$ (Carnot)
+- With $$T_c = 20\text{°C}$$ (293 K): $$\eta_{C} = 1 - \frac{293}{723} = 59.5\%$$ (Carnot)
 - Actual efficiency would be about 35-42%
 
 **Discussion**

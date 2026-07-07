@@ -455,9 +455,9 @@ This problem has two parts. First, we use the solenoid field formula $B = \mu_0 
 
 Using the solenoid formula:
 
-$$B = \mu_0 n I$$
+$$B = \mu_{0} n I$$
 
-$$I = \frac{B}{\mu_0 n} = \frac{1.20 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(400 \text{ m}^{-1})}$$
+$$I = \frac{B}{\mu_{0} n} = \frac{1.20 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(400 \text{ m}^{-1})}$$
 
 $$I = \frac{1.20}{5.03 \times 10^{-4}} = 2390 \text{ A}$$
 
@@ -467,7 +467,7 @@ This is an enormous current, which is why MRI machines use superconducting coils
 
 For a circular current loop, the field at the center is:
 
-$$B_p = \frac{\mu_0 I_p}{2r_p} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1.05 \times 10^{4} \text{ A})}{2(0.650 \times 10^{-15} \text{ m})}$$
+$$B_p = \frac{\mu_{0} I_p}{2r_p} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1.05 \times 10^{4} \text{ A})}{2(0.650 \times 10^{-15} \text{ m})}$$
 
 $$B_p = \frac{1.32 \times 10^{-2}}{1.30 \times 10^{-15}} = 1.01 \times 10^{13} \text{ T}$$
 
@@ -505,7 +505,7 @@ For a circular coil with $N$ turns, the magnetic field at the center is $N$ time
 
 The magnetic field at the center of a multi-turn coil is:
 
-$$B = \frac{N\mu_0 I}{2r}$$
+$$B = \frac{N\mu_{0} I}{2r}$$
 
 $$B = \frac{(250)(4\pi \times 10^{-7} \text{ T·m/A})(30.0 \text{ A})}{2(0.100 \text{ m})}$$
 
@@ -547,7 +547,7 @@ For part (a), we use the formula for the magnetic field around a long straight w
 
 **(a)** For a single straight wire:
 
-$$B = \frac{\mu_0 I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{2\pi (0.500 \text{ m})}$$
+$$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{2\pi (0.500 \text{ m})}$$
 
 $$B = \frac{(4 \times 10^{-7})(1200)}{1.00} = 4.80 \times 10^{-4} \text{ T}$$
 
@@ -593,7 +593,7 @@ The magnetic field inside an ideal solenoid is uniform and given by $B = \mu_0 n
 
 Using the solenoid field formula:
 
-$$B = \mu_0 n I = (4\pi \times 10^{-7} \text{ T·m/A})(10^4 \text{ m}^{-1})(20.0 \text{ A})$$
+$$B = \mu_{0} n I = (4\pi \times 10^{-7} \text{ T·m/A})(10^4 \text{ m}^{-1})(20.0 \text{ A})$$
 
 $$B = (1.257 \times 10^{-6})(10^4)(20.0)$$
 
@@ -634,9 +634,9 @@ We need to find the current required in a solenoid to produce a field $10^4$ tim
 
 Using the solenoid formula:
 
-$$B = \mu_0 n I$$
+$$B = \mu_{0} n I$$
 
-$$I = \frac{B}{\mu_0 n} = \frac{0.500 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(10^4 \text{ m}^{-1})}$$
+$$I = \frac{B}{\mu_{0} n} = \frac{0.500 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(10^4 \text{ m}^{-1})}$$
 
 $$I = \frac{0.500}{1.257 \times 10^{-2}} = 39.8 \text{ A}$$
 
@@ -674,11 +674,11 @@ We use the formula for the magnetic field around a straight wire, $B = \mu_0 I /
 
 From the wire field formula:
 
-$$B = \frac{\mu_0 I}{2\pi r}$$
+$$B = \frac{\mu_{0} I}{2\pi r}$$
 
 Solving for $r$:
 
-$$r = \frac{\mu_0 I}{2\pi B} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(150 \text{ A})}{2\pi (5.00 \times 10^{-5} \text{ T})}$$
+$$r = \frac{\mu_{0} I}{2\pi B} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(150 \text{ A})}{2\pi (5.00 \times 10^{-5} \text{ T})}$$
 
 $$r = \frac{4 \times 10^{-7} \times 150}{2 \times 5.00 \times 10^{-5}} = \frac{6.00 \times 10^{-5}}{10^{-4}}$$
 
@@ -718,7 +718,7 @@ For part (a), we calculate the magnetic field at the center of a current loop us
 
 **(a)** Field at the center of the loop:
 
-$$B_{\text{loop}} = \frac{\mu_0 I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(5.00 \text{ A})}{2(0.100 \text{ m})}$$
+$$B_{\text{loop}} = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(5.00 \text{ A})}{2(0.100 \text{ m})}$$
 
 $$B_{\text{loop}} = \frac{6.28 \times 10^{-6}}{0.200} = 3.14 \times 10^{-5} \text{ T}$$
 
@@ -768,13 +768,13 @@ For the straight wire to create a field pointing into the page at the center of 
 - The wire must carry current **in the same direction as the loop current at the point of tangency** (i.e., if the loop current flows upward at the tangent point, $I_2$ should flow upward, or from lower left to upper right in the figure)
 
 **(b)** At the center, the loop creates:
-$$B_{\text{loop}} = \frac{\mu_0 I_1}{2R}$$
+$$B_{\text{loop}} = \frac{\mu_{0} I_1}{2R}$$
 
 The straight wire at distance $R$ creates:
-$$B_{\text{wire}} = \frac{\mu_0 I_2}{2\pi R}$$
+$$B_{\text{wire}} = \frac{\mu_{0} I_2}{2\pi R}$$
 
 For zero net field, these must be equal:
-$$\frac{\mu_0 I_1}{2R} = \frac{\mu_0 I_2}{2\pi R}$$
+$$\frac{\mu_{0} I_1}{2R} = \frac{\mu_{0} I_2}{2\pi R}$$
 
 $$\frac{I_1}{I_2} = \frac{1}{\pi}$$
 
@@ -819,9 +819,9 @@ From Figure 5(a) in the chapter on magnetic force between parallel conductors, w
 
 The magnitude of the field from each wire:
 
-$$B_1 = \frac{\mu_0 I_1}{2\pi r} = \frac{(4\pi \times 10^{-7})(5.00)}{2\pi(0.100)} = 1.00 \times 10^{-5} \text{ T}$$
+$$B_1 = \frac{\mu_{0} I_1}{2\pi r} = \frac{(4\pi \times 10^{-7})(5.00)}{2\pi(0.100)} = 1.00 \times 10^{-5} \text{ T}$$
 
-$$B_2 = \frac{\mu_0 I_2}{2\pi r} = \frac{(4\pi \times 10^{-7})(10.0)}{2\pi(0.100)} = 2.00 \times 10^{-5} \text{ T}$$
+$$B_2 = \frac{\mu_{0} I_2}{2\pi r} = \frac{(4\pi \times 10^{-7})(10.0)}{2\pi(0.100)} = 2.00 \times 10^{-5} \text{ T}$$
 
 Using the right-hand rule to find directions and adding vectorially (the angle between them depends on the wire geometry), the resultant field magnitude and direction are:
 
@@ -867,8 +867,8 @@ The geometry determines that the fields from wires with parallel currents partia
 
 Using vector addition with the appropriate geometry:
 
-$$B_x = \sum B_i \cos\theta_i$$
-$$B_y = \sum B_i \sin\theta_i$$
+$$B_x = \sum B_i \cos\theta_{i}$$
+$$B_y = \sum B_i \sin\theta_{i}$$
 $$B_{\text{net}} = \sqrt{B_x^2 + B_y^2}$$
 
 The direction is given by $\tan^{-1}(B_y/B_x)$.
@@ -953,7 +953,7 @@ $$I = \frac{P}{V} = \frac{4.50 \times 10^8 \text{ W}}{3.00 \times 10^5 \text{ V}
 
 *Step 2: Calculate the magnetic field*
 
-$$B = \frac{\mu_0 I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{2\pi (20 \text{ m})}$$
+$$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{2\pi (20 \text{ m})}$$
 
 $$B = \frac{(4 \times 10^{-7})(1500)}{40} = \frac{6.00 \times 10^{-4}}{40} = 1.50 \times 10^{-5} \text{ T}$$
 
@@ -1004,7 +1004,7 @@ This is an integrated concepts problem combining energy conservation (to find th
 
 **(a)** *Step 1: Find the velocity at the bottom using energy conservation*
 
-$$mgh = \frac{1}{2}mv^2$$
+$$mgh = \frac{1}{2}mv^{2}$$
 $$v = \sqrt{2gh} = \sqrt{2(9.80)(0.300)} = \sqrt{5.88} = 2.42 \text{ m/s}$$
 
 *Step 2: Calculate the magnetic force*
@@ -1192,7 +1192,7 @@ $$Q = 2.83 \times 10^{-3} \text{ m}^3/\text{s} \times \frac{1000 \text{ L}}{1 \t
 
 $$v_2 = \frac{Q}{A_2} = \frac{2.83 \times 10^{-3}}{\pi(0.0500)^2} = \frac{2.83 \times 10^{-3}}{7.85 \times 10^{-3}} = 0.360 \text{ m/s}$$
 
-$$\varepsilon_2 = Bv_2 d_2 = (0.500)(0.360)(0.100) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
+$$\varepsilon_{2} = Bv_{2} d_2 = (0.500)(0.360)(0.100) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
 
 **Discussion**
 
@@ -1344,13 +1344,13 @@ The force between parallel wires is $F/L = \mu_0 I_1 I_2/(2\pi r)$. If the wires
 
 The force between two parallel wires of length $L$ carrying currents $I_1$ and $I_2$ separated by distance $r$ is:
 
-$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+$$F = \frac{\mu_{0} I_1 I_2 L}{2\pi r}$$
 
 When temperature increases by $\Delta T$, the wire length changes:
 $$L' = L(1 + \alpha \Delta T)$$
 
 The new force (assuming current and separation remain constant):
-$$F' = \frac{\mu_0 I_1 I_2 L'}{2\pi r} = \frac{\mu_0 I_1 I_2 L(1 + \alpha \Delta T)}{2\pi r} = F(1 + \alpha \Delta T)$$
+$$F' = \frac{\mu_{0} I_1 I_2 L'}{2\pi r} = \frac{\mu_{0} I_1 I_2 L(1 + \alpha \Delta T)}{2\pi r} = F(1 + \alpha \Delta T)$$
 
 The fractional change in force per degree:
 $$\frac{\Delta F/F}{\Delta T} = \alpha = 17.0 \times 10^{-6} \text{ /°C}$$
@@ -1395,7 +1395,7 @@ Start with the circular motion relation $r = mv/(qB)$ and use the relationship b
 
 **(a)** For a charged particle in a magnetic field, the magnetic force provides the centripetal force:
 
-$$qvB = \frac{mv^2}{r}$$
+$$qvB = \frac{mv^{2}}{r}$$
 
 This gives the radius:
 $$r = \frac{mv}{qB}$$
@@ -1514,7 +1514,7 @@ $$t = \frac{x}{v} = \frac{30.0}{40.0} = 0.750 \text{ s}$$
 
 *Step 4: Calculate the deflection*
 
-$$y = \frac{1}{2}at^2 = \frac{1}{2}(1.43 \times 10^{-9})(0.750)^2 = 4.02 \times 10^{-10} \text{ m}$$
+$$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9})(0.750)^2 = 4.02 \times 10^{-10} \text{ m}$$
 
 **(b)** The deflection is about $4 \times 10^{-10}$ m, or 0.4 nanometers—about the size of a few atoms! This is completely undetectable and utterly useless as a technique for throwing curve balls. **No, this would not work as a secret pitching technique.**
 
@@ -1579,7 +1579,7 @@ $$d = 9.33 \times 10^{-5} \text{ m} = 93.3 \text{ μm} \approx 94.1 \text{ μm}$
 $$A = \frac{\pi d^2}{4} = \frac{\pi (9.41 \times 10^{-5})^2}{4} = 6.95 \times 10^{-9} \text{ m}^2$$
 
 Resistance per meter:
-$$\frac{R}{L} = \frac{\rho_e}{A} = \frac{1.72 \times 10^{-8}}{6.95 \times 10^{-9}} = 2.47 \text{ Ω/m}$$
+$$\frac{R}{L} = \frac{\rho_{e}}{A} = \frac{1.72 \times 10^{-8}}{6.95 \times 10^{-9}} = 2.47 \text{ Ω/m}$$
 
 Voltage per meter:
 $$\frac{V}{L} = I \cdot \frac{R}{L} = (20.0)(2.47) = 49.4 \text{ V/m}$$
@@ -1632,15 +1632,15 @@ $$\frac{w}{L} = (8960)(9.80)(5.26 \times 10^{-6}) = 0.462 \text{ N/m}$$
 
 **(a)** For magnetic levitation, the repulsive force equals weight:
 
-$$\frac{\mu_0 I_1 I_2}{2\pi r} = \frac{w}{L}$$
+$$\frac{\mu_{0} I_1 I_2}{2\pi r} = \frac{w}{L}$$
 
-$$I_2 = \frac{2\pi r (w/L)}{\mu_0 I_1} = \frac{2\pi (0.0750)(0.462)}{(4\pi \times 10^{-7})(100)}$$
+$$I_2 = \frac{2\pi r (w/L)}{\mu_{0} I_1} = \frac{2\pi (0.0750)(0.462)}{(4\pi \times 10^{-7})(100)}$$
 
 $$I_2 = \frac{0.218}{1.26 \times 10^{-4}} = 1730 \text{ A}$$
 
 **(b)** With Earth's field assisting (if oriented to push upward on the upper wire):
 
-$$\frac{\mu_0 I_1 I_2}{2\pi r} + B_E I_2 = \frac{w}{L}$$
+$$\frac{\mu_{0} I_1 I_2}{2\pi r} + B_E I_2 = \frac{w}{L}$$
 
 The Earth's field contribution: $B_E I_2 = (3.00 \times 10^{-5}) I_2$
 
@@ -1909,9 +1909,9 @@ Use the straight wire magnetic field formula $B = \mu_0 I/(2\pi r)$ to find the 
 
 **(a)** From the straight wire field formula:
 
-$$B = \frac{\mu_0 I}{2\pi r}$$
+$$B = \frac{\mu_{0} I}{2\pi r}$$
 
-$$I = \frac{2\pi r B}{\mu_0} = \frac{2\pi (100)(5.00 \times 10^{-5})}{4\pi \times 10^{-7}}$$
+$$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100)(5.00 \times 10^{-5})}{4\pi \times 10^{-7}}$$
 
 $$I = \frac{2 \times 100 \times 5.00 \times 10^{-5}}{4 \times 10^{-7}} = \frac{0.0100}{4 \times 10^{-7}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
 
@@ -2046,7 +2046,7 @@ This torque of about 8 nN·m is extremely small but detectable with modern instr
 
 **(c)** Coil's self-generated field at center:
 
-$$B_{\text{coil}} = \frac{N\mu_0 I}{2r} = \frac{(100)(4\pi \times 10^{-7})(0.0100)}{2(0.0500)}$$
+$$B_{\text{coil}} = \frac{N\mu_{0} I}{2r} = \frac{(100)(4\pi \times 10^{-7})(0.0100)}{2(0.0500)}$$
 
 $$B_{\text{coil}} = \frac{1.26 \times 10^{-6}}{0.100} = 1.26 \times 10^{-5} \text{ T} = 12.6 \text{ μT}$$
 

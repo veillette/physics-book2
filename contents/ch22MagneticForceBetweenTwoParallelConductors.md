@@ -191,7 +191,7 @@ Electric field lines can be shielded by the Faraday cage effect. Can we have mag
 
 **Strategy**
 
-The force per unit length between two parallel current-carrying wires is given by $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$. Since both wires carry the same current (it's a circuit), $$I_1 = I_2 = I$$. The total force on a length $$L$$ is $$F = \frac{\mu_0 I^2 L}{2\pi r}$$. The currents flow in opposite directions (supply and return), so the force is repulsive.
+The force per unit length between two parallel current-carrying wires is given by $$\frac{F}{L} = \frac{\mu_{0} I_1 I_2}{2\pi r}$$. Since both wires carry the same current (it's a circuit), $$I_1 = I_2 = I$$. The total force on a length $$L$$ is $$F = \frac{\mu_{0} I^2 L}{2\pi r}$$. The currents flow in opposite directions (supply and return), so the force is repulsive.
 
 **Solution**
 
@@ -199,11 +199,11 @@ The force per unit length between two parallel current-carrying wires is given b
 - Current: $$I = 800 \text{ A}$$
 - Separation: $$r = 75.0 \text{ cm} = 0.750 \text{ m}$$
 - Wire length: $$L = 50.0 \text{ m}$$
-- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+- $$\mu_{0} = 4\pi \times 10^{-7} \text{ T·m/A}$$
 
 **(a) Force magnitude:**
 
-$$F = \frac{\mu_0 I^2 L}{2\pi r}$$
+$$F = \frac{\mu_{0} I^2 L}{2\pi r}$$
 
 $$F = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(800 \text{ A})^2(50.0 \text{ m})}{2\pi (0.750 \text{ m})}$$
 
@@ -246,7 +246,7 @@ The force per meter between the two wires of a jumper cable being used to start 
 
 **Strategy**
 
-We use $$\frac{F}{L} = \frac{\mu_0 I^2}{2\pi r}$$ (since both wires carry the same current in a circuit) and solve for $$I$$.
+We use $$\frac{F}{L} = \frac{\mu_{0} I^2}{2\pi r}$$ (since both wires carry the same current in a circuit) and solve for $$I$$.
 
 **Solution**
 
@@ -256,9 +256,9 @@ We use $$\frac{F}{L} = \frac{\mu_0 I^2}{2\pi r}$$ (since both wires carry the sa
 
 **(a) Current:**
 
-$$\frac{F}{L} = \frac{\mu_0 I^2}{2\pi r}$$
+$$\frac{F}{L} = \frac{\mu_{0} I^2}{2\pi r}$$
 
-$$I^2 = \frac{2\pi r (F/L)}{\mu_0}$$
+$$I^2 = \frac{2\pi r (F/L)}{\mu_{0}}$$
 
 $$I = \sqrt{\frac{2\pi (0.0200)(0.225)}{4\pi \times 10^{-7}}}$$
 
@@ -294,7 +294,7 @@ A 2.50-m segment of wire supplying current to the motor of a submerged submarine
 
 **Strategy**
 
-We use $$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$ and solve for $$I_2$$. Since the force is repulsive, the currents must be in opposite directions.
+We use $$F = \frac{\mu_{0} I_1 I_2 L}{2\pi r}$$ and solve for $$I_2$$. Since the force is repulsive, the currents must be in opposite directions.
 
 **Solution**
 
@@ -304,7 +304,7 @@ We use $$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$ and solve for $$I_2$$. Since the f
 - Wire length: $$L = 2.50 \text{ m}$$
 - Separation: $$r = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 
-$$I_2 = \frac{2\pi r F}{\mu_0 I_1 L}$$
+$$I_2 = \frac{2\pi r F}{\mu_{0} I_1 L}$$
 
 $$I_2 = \frac{2\pi (0.0500)(4.00)}{(4\pi \times 10^{-7})(1000)(2.50)}$$
 
@@ -335,7 +335,7 @@ The wire carrying 400 A to the motor of a commuter train feels an attractive for
 
 **Strategy**
 
-We use $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$ and solve for $$r$$. The attractive nature of the force tells us about the current directions.
+We use $$\frac{F}{L} = \frac{\mu_{0} I_1 I_2}{2\pi r}$$ and solve for $$r$$. The attractive nature of the force tells us about the current directions.
 
 **Solution**
 
@@ -346,7 +346,7 @@ We use $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$ and solve for $$r$$. The a
 
 **(a) Distance between wires:**
 
-$$r = \frac{\mu_0 I_1 I_2}{2\pi (F/L)}$$
+$$r = \frac{\mu_{0} I_1 I_2}{2\pi (F/L)}$$
 
 $$r = \frac{(4\pi \times 10^{-7})(400)(5.00)}{2\pi (4.00 \times 10^{-3})}$$
 
@@ -384,7 +384,7 @@ An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carr
 
 **Strategy**
 
-For AC current, the instantaneous current varies as $$I = I_0\sin(\omega t)$$. The force per meter is $$\frac{F}{L} = \frac{\mu_0 I^2}{2\pi r}$$. For AC, we need to find the average of $$I^2$$ (which is $$I_{rms}^2 = I_0^2/2$$) and the maximum (which occurs when $$I = I_0$$).
+For AC current, the instantaneous current varies as $$I = I_0\sin(\omega t)$$. The force per meter is $$\frac{F}{L} = \frac{\mu_{0} I^2}{2\pi r}$$. For AC, we need to find the average of $$I^2$$ (which is $$I_{rms}^2 = I_0^2/2$$) and the maximum (which occurs when $$I = I_0$$).
 
 **Solution**
 
@@ -397,7 +397,7 @@ For AC current, the instantaneous current varies as $$I = I_0\sin(\omega t)$$. T
 
 The average of $$I^2$$ for AC is $$I_{rms}^2$$:
 
-$$\frac{F_{avg}}{L} = \frac{\mu_0 I_{rms}^2}{2\pi r}$$
+$$\frac{F_{avg}}{L} = \frac{\mu_{0} I_{rms}^2}{2\pi r}$$
 
 $$\frac{F_{avg}}{L} = \frac{(4\pi \times 10^{-7})(5.00)^2}{2\pi (0.00300)}$$
 
@@ -409,7 +409,7 @@ $$\frac{F_{avg}}{L} = \frac{2 \times 10^{-7} \times 25.0}{0.00300} = 1.67 \times
 
 Maximum occurs when $$I = I_0 = \sqrt{2} I_{rms}$$:
 
-$$\frac{F_{max}}{L} = \frac{\mu_0 I_0^2}{2\pi r} = 2 \times \frac{F_{avg}}{L}$$
+$$\frac{F_{max}}{L} = \frac{\mu_{0} I_0^2}{2\pi r} = 2 \times \frac{F_{avg}}{L}$$
 
 $$\frac{F_{max}}{L} = 2 \times 1.67 \times 10^{-3} = 3.33 \times 10^{-3} \text{ N/m}$$
 
@@ -468,13 +468,13 @@ We calculate the force on each segment of the loop due to the long straight wire
 
 Top segment: Current flows right-to-left, same direction as $$I_1$$ is irrelevant—we check: in the top segment of the loop, current flows **left** (opposite to $$I_1$$). Force is **repulsive** (away from wire = downward).
 
-$$F_{top} = \frac{\mu_0 I_1 I_2 L}{2\pi r_1} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.0750)}$$
+$$F_{top} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_1} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.0750)}$$
 
 $$F_{top} = \frac{2 \times 10^{-7} \times 15.0 \times 30.0 \times 0.300}{0.0750} = 3.60 \times 10^{-4} \text{ N}$$ (downward)
 
 Bottom segment: Current flows **right** (same as $$I_1$$). Force is **attractive** (toward wire = upward).
 
-$$F_{bottom} = \frac{\mu_0 I_1 I_2 L}{2\pi r_2} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.175)}$$
+$$F_{bottom} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_2} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.175)}$$
 
 $$F_{bottom} = \frac{2 \times 10^{-7} \times 15.0 \times 30.0 \times 0.300}{0.175} = 1.54 \times 10^{-4} \text{ N}$$ (upward)
 
@@ -509,7 +509,7 @@ Find the direction and magnitude of the force that each wire experiences in [[Fi
 
 **Strategy**
 
-Each wire experiences forces from the other two wires. We calculate the force per unit length from each pair using $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$, determine directions using the attraction/repulsion rule, then add vectors.
+Each wire experiences forces from the other two wires. We calculate the force per unit length from each pair using $$\frac{F}{L} = \frac{\mu_{0} I_1 I_2}{2\pi r}$$, determine directions using the attraction/repulsion rule, then add vectors.
 
 **Solution**
 
@@ -520,7 +520,7 @@ Each wire experiences forces from the other two wires. We calculate the force pe
 - Separation: $$r = 10.0 \text{ cm} = 0.100 \text{ m}$$
 
 The force per meter between wires is:
-$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r} = \frac{(2 \times 10^{-7})I_1 I_2}{r}$$
+$$\frac{F}{L} = \frac{\mu_{0} I_1 I_2}{2\pi r} = \frac{(2 \times 10^{-7})I_1 I_2}{r}$$
 
 **Top wire (5.00 A out):**
 - Force from lower left (opposite currents, repulsive): $$F_{12}/L = \frac{(2 \times 10^{-7})(5)(10)}{0.100} = 1.00 \times 10^{-4}$$ N/m, directed 60° above horizontal to the right

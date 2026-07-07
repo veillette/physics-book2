@@ -437,7 +437,7 @@ merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center?
 
 **Strategy**
 
-We'll convert angular velocities to rad/s, then use$$F_c = mr\omega^2$$to calculate the centripetal force. We'll compare each to the child's weight$$w = mg$$.
+We'll convert angular velocities to rad/s, then use$$F_c = mr\omega^{2}$$to calculate the centripetal force. We'll compare each to the child's weight$$w = mg$$.
 
 **Solution**
 
@@ -448,7 +448,7 @@ $$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^2 = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N}$$
 </div>
 
 (b) For the amusement park ride:
@@ -458,7 +458,7 @@ $$\omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^2 = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N}$$
 </div>
 
 (c) Calculate the child's weight and compare:
@@ -495,7 +495,7 @@ Calculate the centripetal force on the end of a 100 m (radius) wind turbine blad
 
 **Strategy**
 
-We need to find the centripetal force using$$F_c = mr\omega^2$$. First, we'll convert the angular velocity from rev/s to rad/s, then calculate the centripetal force.
+We need to find the centripetal force using$$F_c = mr\omega^{2}$$. First, we'll convert the angular velocity from rev/s to rad/s, then calculate the centripetal force.
 
 **Solution**
 
@@ -508,7 +508,7 @@ $$\omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ 
 Calculate the centripetal force:
 
 <div class="equation">
-$$F_c = mr\omega^2 = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N}$$
+$$F_c = mr\omega^{2} = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N}$$
 </div>
 
 **Discussion**
@@ -714,7 +714,7 @@ roadway—that is,$$\theta ={\tan}^{-1}{v}^{2}/rg$$
 (a) The horizontal component of the ground force is the friction$$f$$, which provides the centripetal force:
 
 <div class="equation">
-$$f = \frac{mv^2}{r}$$
+$$f = \frac{mv^{2}}{r}$$
 </div>
 
 The vertical component is the normal force$$N$$, which equals the weight:
@@ -726,7 +726,7 @@ $$N = mg$$
 The angle$$\theta$$that the resultant force makes with the vertical is:
 
 <div class="equation">
-$$\tan\theta = \frac{f}{N} = \frac{mv^2/r}{mg} = \frac{v^2}{rg}$$
+$$\tan\theta = \frac{f}{N} = \frac{mv^{2}/r}{mg} = \frac{v^2}{rg}$$
 </div>
 
 Therefore:
@@ -779,19 +779,19 @@ what the angle$$\theta$$should be.)
 
 **Strategy**
 
-(a) We'll use$$a_c = r\omega^2$$with$$a_c = 10g = 98.0$$m/s² and solve for$$\omega$$.
+(a) We'll use$$a_c = r\omega^{2}$$with$$a_c = 10g = 98.0$$m/s² and solve for$$\omega$$.
 (b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry,$$\tan\theta = \frac{g}{a_c}$$.
 
 **Solution**
 
-(a) Using$$a_c = r\omega^2$$, solve for$$\omega$$:
+(a) Using$$a_c = r\omega^{2}$$, solve for$$\omega$$:
 
 <div class="equation">
 $$a_c = 10g = 10(9.80\text{ m/s}^2) = 98.0\text{ m/s}^2$$
 </div>
 
 <div class="equation">
-$$\omega^2 = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\text{ rad}^2\text{/s}^2$$
+$$\omega^{2} = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\text{ rad}^2\text{/s}^2$$
 </div>
 
 <div class="equation">
@@ -801,13 +801,13 @@ $$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
 (b) Draw a free body diagram: The cage experiences its weight$$mg$$downward and the arm force$$F$$at angle$$\theta$$below horizontal. The horizontal component of$$F$$provides centripetal force, while the vertical component balances weight:
 
 <div class="equation">
-$$F\cos\theta = ma_c \quad \text{and} \quad F\sin\theta = mg$$
+$$F\cos\theta = ma_{c} \quad \text{and} \quad F\sin\theta = mg$$
 </div>
 
 Dividing the second equation by the first:
 
 <div class="equation">
-$$\frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_c}$$
+$$\frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_{c}}$$
 </div>
 
 <div class="equation">
@@ -870,7 +870,7 @@ $$v = 20.0\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \t
 At this slower speed, the car tends to slide down the bank. The required centripetal force is less than what the banked curve would naturally provide, so friction must act up the slope. Using force balance equations for a banked curve with friction:
 
 <div class="equation">
-$$\mu_s = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}}$$
+$$\mu_{s} = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}}$$
 </div>
 
 Calculate$$\frac{v^2}{rg}$$:
@@ -879,10 +879,10 @@ Calculate$$\frac{v^2}{rg}$$:
 $$\frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316$$
 </div>
 
-Now calculate$$\mu_s$$:
+Now calculate$$\mu_{s}$$:
 
 <div class="equation">
-$$\mu_s = \frac{0.268 - 0.0316}{1 + (0.0316)(0.268)} = \frac{0.236}{1.0085} = 0.234$$
+$$\mu_{s} = \frac{0.268 - 0.0316}{1 + (0.0316)(0.268)} = \frac{0.236}{1.0085} = 0.234$$
 </div>
 
 **Discussion**
@@ -971,17 +971,17 @@ For an unbanked curve, friction provides the centripetal force. We'll set up the
 
 The centripetal force is provided by friction:
 <div class="equation">
-$$f = \mu_s N = \mu_s mg$$
+$$f = \mu_{s} N = \mu_{s} mg$$
 </div>
 
 This must equal the required centripetal force:
 <div class="equation">
-$$\mu_s mg = \frac{mv^2}{r}$$
+$$\mu_{s} mg = \frac{mv^{2}}{r}$$
 </div>
 
 Solving for the coefficient of friction (mass cancels):
 <div class="equation">
-$$\mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84$$
+$$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84$$
 </div>
 
 **(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.

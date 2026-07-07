@@ -365,21 +365,21 @@ The average force on the ball is 86.4 N directed away from the bumper (opposite 
 
 Initial kinetic energy:
 
-$$ \KE_i = \frac{1}{2}mv_i^2 = \frac{1}{2}(0.240 \kg)(3.00 \ms)^2 = 1.08 \J $$
+$$ \KE_{i} = \frac{1}{2}mv_{i}^2 = \frac{1}{2}(0.240 \kg)(3.00 \ms)^2 = 1.08 \J $$
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2}mv_f^2 = \frac{1}{2}(0.240 \kg)(2.40 \ms)^2 = 0.691 \J $$
+$$ \KE_{f} = \frac{1}{2}mv_{f}^2 = \frac{1}{2}(0.240 \kg)(2.40 \ms)^2 = 0.691 \J $$
 
 Energy lost:
 
-$$ \Delta \KE = \KE_i - \KE_f = 1.08 \J - 0.691 \J = 0.389 \J $$
+$$ \Delta \KE = \KE_{i} - \KE_{f} = 1.08 \J - 0.691 \J = 0.389 \J $$
 
 The kinetic energy lost during the collision is 0.389 J.
 
 **Part (c)**
 
-$$ \text{Percent remaining} = \frac{\KE_f}{\KE_i} \times 100\% = \frac{0.691 \J}{1.08 \J} \times 100\% = 64.0\% $$
+$$ \text{Percent remaining} = \frac{\KE_{f}}{\KE_{i}} \times 100\% = \frac{0.691 \J}{1.08 \J} \times 100\% = 64.0\% $$
 
 64.0% of the original kinetic energy remains after the collision.
 
@@ -429,15 +429,15 @@ The final velocity of the pair is 1.78 m/s in the direction of the leaping skate
 
 Initial kinetic energy (only the leaping skater is moving):
 
-$$ \KE_i = \frac{1}{2}m_1 v_1^2 = \frac{1}{2}(60.0 \kg)(4.00 \ms)^2 = 480 \J $$
+$$ \KE_{i} = \frac{1}{2}m_1 v_1^2 = \frac{1}{2}(60.0 \kg)(4.00 \ms)^2 = 480 \J $$
 
 Final kinetic energy (both skaters moving together):
 
-$$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(135 \kg)(1.78 \ms)^2 = 214 \J $$
+$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(135 \kg)(1.78 \ms)^2 = 214 \J $$
 
 Kinetic energy lost:
 
-$$ \Delta \KE = \KE_i - \KE_f = 480 \J - 214 \J = 266 \J $$
+$$ \Delta \KE = \KE_{i} - \KE_{f} = 480 \J - 214 \J = 266 \J $$
 
 The kinetic energy lost during the catch is 266 J.
 
@@ -491,9 +491,9 @@ The final velocity is 8.06 m/s in the original direction.
 
 **Part (b) - Energy loss (same direction)**
 
-$$ \KE_i = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)^2 = 3520 \J + 128 \J = 3648 \J $$
+$$ \KE_{i} = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)^2 = 3520 \J + 128 \J = 3648 \J $$
 
-$$ \KE_f = \frac{1}{2}(110.41 \kg)(8.06 \ms)^2 = 3586 \J $$
+$$ \KE_{f} = \frac{1}{2}(110.41 \kg)(8.06 \ms)^2 = 3586 \J $$
 
 $$ \Delta \KE = 3586 \J - 3648 \J = -62 \J $$
 
@@ -511,7 +511,7 @@ $$ v_f = \frac{869.75 \kg \cdot \ms}{110.41 \kg} = 7.88 \ms $$
 
 Energy loss for opposite direction:
 
-$$ \KE_f = \frac{1}{2}(110.41 \kg)(7.88 \ms)^2 = 3428 \J $$
+$$ \KE_{f} = \frac{1}{2}(110.41 \kg)(7.88 \ms)^2 = 3428 \J $$
 
 $$ \Delta \KE = 3428 \J - 3648 \J = -220 \J $$
 
@@ -562,15 +562,15 @@ The recoil velocity of the battleship is $$ 1.05 \times 10^{-2} \ms $$ (about 1 
 
 **Part (b)**
 
-Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
+Initial kinetic energy: $$ \KE_{i} = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v\_{\text{ship}}^2 $$
+$$ \KE_{f} = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v\_{\text{ship}}^2 $$
 
-$$ \KE_f = \frac{1}{2}(1100 \kg)(575 \ms)^2 + \frac{1}{2}(6.00 \times 10^{7} \kg)(1.05 \times 10^{-2} \ms)^2 $$
+$$ \KE_{f} = \frac{1}{2}(1100 \kg)(575 \ms)^2 + \frac{1}{2}(6.00 \times 10^{7} \kg)(1.05 \times 10^{-2} \ms)^2 $$
 
-$$ \KE_f = 1.82 \times 10^{8} \J + 3.31 \times 10^{3} \J = 1.82 \times 10^{8} \J $$
+$$ \KE_{f} = 1.82 \times 10^{8} \J + 3.31 \times 10^{3} \J = 1.82 \times 10^{8} \J $$
 
 The increase in internal kinetic energy is $$ 1.82 \times 10^{8} \J $$ (182 MJ).
 
@@ -640,19 +640,19 @@ The final velocity is 0.163 m/s in the direction of motion of the more massive s
 Initial kinetic energy (only satellite 2 is moving in this frame):
 
 <div class="equation">
-$$ \KE_i = \frac{1}{2} m_2 v_2^2 = \frac{1}{2}(7.50 \times 10^3 \kg)(0.250 \ms)^2 = 234 \J $$
+$$ \KE_{i} = \frac{1}{2} m_2 v_2^2 = \frac{1}{2}(7.50 \times 10^3 \kg)(0.250 \ms)^2 = 234 \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
-$$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(11.5 \times 10^3 \kg)(0.163 \ms)^2 = 153 \J $$
+$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(11.5 \times 10^3 \kg)(0.163 \ms)^2 = 153 \J $$
 </div>
 
 Energy lost:
 
 <div class="equation">
-$$ \Delta \KE = \KE_f - \KE_i = 153 \J - 234 \J = -81 \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 153 \J - 234 \J = -81 \J $$
 </div>
 
 The kinetic energy lost is approximately 81.6 J.
@@ -684,13 +684,13 @@ Energy loss in this frame:
 Initial kinetic energy:
 
 <div class="equation">
-$$ \KE_i = \frac{1}{2} m_1 v_1^2 = \frac{1}{2}(4.00 \times 10^3 \kg)(0.250 \ms)^2 = 125 \J $$
+$$ \KE_{i} = \frac{1}{2} m_1 v_1^2 = \frac{1}{2}(4.00 \times 10^3 \kg)(0.250 \ms)^2 = 125 \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
-$$ \KE_f = \frac{1}{2}(11.5 \times 10^3 \kg)(0.0870 \ms)^2 = 43.5 \J $$
+$$ \KE_{f} = \frac{1}{2}(11.5 \times 10^3 \kg)(0.0870 \ms)^2 = 43.5 \J $$
 </div>
 
 <div class="equation">
@@ -746,15 +746,15 @@ The final velocity of the loaded freight car is 0.182 m/s.
 
 Initial kinetic energy:
 
-$$ \KE_i = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10800 \J $$
+$$ \KE_{i} = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10800 \J $$
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2}(140000 \kg)(0.182 \ms)^2 = 2320 \J $$
+$$ \KE_{f} = \frac{1}{2}(140000 \kg)(0.182 \ms)^2 = 2320 \J $$
 
 Kinetic energy lost:
 
-$$ \Delta \KE = \KE_f - \KE_i = 2320 \J - 10800 \J = -8480 \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 2320 \J - 10800 \J = -8480 \J $$
 
 Approximately 8500 J of kinetic energy is lost.
 
@@ -1024,19 +1024,19 @@ The Moon recoils at approximately $$ 1.02 \times 10^{-6} \ms $$ (about 1 microme
 Initial kinetic energy (only asteroid moving):
 
 <div class="equation">
-$$ \KE_i = \frac{1}{2} m_a v_a^2 = \frac{1}{2}(5.00 \times 10^{12} \kg)(1.50 \times 10^4 \ms)^2 = 5.625 \times 10^{20} \J $$
+$$ \KE_{i} = \frac{1}{2} m_a v_a^2 = \frac{1}{2}(5.00 \times 10^{12} \kg)(1.50 \times 10^4 \ms)^2 = 5.625 \times 10^{20} \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
-$$ \KE_f = \frac{1}{2}(m_a + m_M) v_f^2 \approx \frac{1}{2}(7.36 \times 10^{22} \kg)(1.02 \times 10^{-6} \ms)^2 = 3.83 \times 10^{10} \J $$
+$$ \KE_{f} = \frac{1}{2}(m_a + m_M) v_f^2 \approx \frac{1}{2}(7.36 \times 10^{22} \kg)(1.02 \times 10^{-6} \ms)^2 = 3.83 \times 10^{10} \J $$
 </div>
 
 Energy lost:
 
 <div class="equation">
-$$ \Delta \KE = \KE_f - \KE_i = 3.83 \times 10^{10} \J - 5.625 \times 10^{20} \J \approx -5.63 \times 10^{20} \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 3.83 \times 10^{10} \J - 5.625 \times 10^{20} \J \approx -5.63 \times 10^{20} \J $$
 </div>
 
 Essentially all of the asteroid's kinetic energy ($$ 5.63 \times 10^{20} \J $$) is lost, converted to heat, crater formation, vaporization, and seismic waves.
@@ -1058,11 +1058,11 @@ The Moon's recoil velocity is $$ 6.79 \times 10^{-17} \ms $$ (essentially unmeas
 Energy lost:
 
 <div class="equation">
-$$ \KE_i = \frac{1}{2}(2000 \kg)(2500 \ms)^2 = 6.25 \times 10^9 \J $$
+$$ \KE_{i} = \frac{1}{2}(2000 \kg)(2500 \ms)^2 = 6.25 \times 10^9 \J $$
 </div>
 
 <div class="equation">
-$$ \KE_f = \frac{1}{2}(7.36 \times 10^{22} \kg)(6.79 \times 10^{-17} \ms)^2 = 1.7 \times 10^{-10} \J $$
+$$ \KE_{f} = \frac{1}{2}(7.36 \times 10^{22} \kg)(6.79 \times 10^{-17} \ms)^2 = 1.7 \times 10^{-10} \J $$
 </div>
 
 Energy lost is approximately $$ 6.25 \times 10^9 \J $$ (6.25 GJ).
@@ -1233,15 +1233,15 @@ The mass of the barbell is 4.00 kg.
 
 **Part (b)**
 
-Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
+Initial kinetic energy: $$ \KE_{i} = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_f = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v\_{\text{barbell}}^2 $$
+$$ \KE_{f} = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v\_{\text{barbell}}^2 $$
 
-$$ \KE_f = \frac{1}{2}(80.0 \kg)(0.500 \ms)^2 + \frac{1}{2}(4.00 \kg)(10.0 \ms)^2 $$
+$$ \KE_{f} = \frac{1}{2}(80.0 \kg)(0.500 \ms)^2 + \frac{1}{2}(4.00 \kg)(10.0 \ms)^2 $$
 
-$$ \KE_f = 10.0 \J + 200 \J = 210 \J $$
+$$ \KE_{f} = 10.0 \J + 200 \J = 210 \J $$
 
 The kinetic energy gained is 210 J.
 

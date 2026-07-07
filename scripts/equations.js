@@ -32,7 +32,6 @@ import {
   printHeader,
   printDivider,
   printFileCount,
-  printDryRunNotice,
   printStrictModeNotice,
   printErrors,
   printWarnings,
@@ -42,7 +41,50 @@ import {
   printOverview,
 } from './lib/reporter.js';
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
-import { findMarkdownFiles, readFile } from './lib/files.js';
+import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
+
+/** Multi-char subscript/superscript patterns (style warnings only). */
+const SUBSCRIPT_PATTERN = /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/g;
+const SUPERSCRIPT_PATTERN = /([a-zA-Z]{2,})\^([a-zA-Z0-9]+)(?![\^{])/g;
+
+/**
+ * Wrap bare multi-character subscripts/superscripts in braces.
+ * @param {string} s - Math expression inner content (no $$ delimiters)
+ * @returns {string}
+ */
+export function fixSubSupBraces(s) {
+  return s.replace(SUBSCRIPT_PATTERN, '$1_{$2}').replace(SUPERSCRIPT_PATTERN, '$1^{$2}');
+}
+
+/**
+ * Mask front matter and fenced code (preserving character positions) so $$ scanning
+ * aligns with the original file. Unlike maskNonMath, blanked regions keep their width.
+ * @param {string} content
+ * @returns {string}
+ */
+function maskNonMathPreserveLength(content) {
+  let inCode = false;
+  let inFront = false;
+  let frontEnded = false;
+
+  return content
+    .split('\n')
+    .map(line => {
+      const t = line.trim();
+      if (t === '---' && !frontEnded) {
+        inFront = !inFront;
+        if (!inFront) frontEnded = true;
+        return ' '.repeat(line.length);
+      }
+      if (inFront) return ' '.repeat(line.length);
+      if (t.startsWith('```') || t.startsWith('~~~')) {
+        inCode = !inCode;
+        return ' '.repeat(line.length);
+      }
+      return inCode ? ' '.repeat(line.length) : line;
+    })
+    .join('\n');
+}
 
 /**
  * Blank out front matter and fenced code blocks (preserving line count) so that only real
@@ -113,7 +155,7 @@ class EquationProcessor {
     printHeader(emoji, title);
 
     if (this.fix) {
-      printDryRunNotice();
+      // --fix applies safe cosmetic sub/sup brace fixes (see fixSubSupInMathSpans).
     } else if (this.strict) {
       printStrictModeNotice();
     }
@@ -191,30 +233,71 @@ class EquationProcessor {
       if (inCodeBlock) continue;
 
       this.checkEquationNumbering(fileName, lineNum, line, data.chapterNumber);
-      this.checkCommonLatexErrors(fileName, lineNum, line);
     }
   }
 
   /**
-   * Fix a file for equation issues.
+   * Fix cosmetic subscript/superscript style inside $$…$$ spans.
    *
-   * Auto-fixing math is intentionally disabled. The math delimiter in this project is $$…$$
-   * (a lone $ is literal text, e.g. currency), and a standalone `$$` on its own line is a
-   * valid display-block delimiter. The previous heuristics — merging a standalone `$$` into
-   * the preceding line, and deleting `$$\s*$$` — both corrupted correct content (they broke
-   * display blocks and merged adjacent inline spans such as `$$A$$ $$B$$`). The structural
-   * problems this script now detects (unbalanced braces/\left-\right, unclosed blocks, stray
-   * delimiters) require human judgement to repair, so they are reported, not rewritten.
+   * Structural math issues (unbalanced braces, unclosed blocks, stray delimiters) are
+   * reported only — they require human judgement. See validateMathSpans.
    *
    * @param {string} filePath - Path to file
    * @param {string} content - File content
    * @param {string} fileName - File name
    */
   fixFile(filePath, content, fileName) {
-    // No-op: report only. See method doc for why auto-fixing math is unsafe here.
-    void filePath;
-    void content;
-    void fileName;
+    const { content: fixed, fixes } = this.fixSubSupInMathSpans(content, fileName);
+    if (fixes.length === 0) return;
+
+    this.fixes.push(...fixes);
+    this.filesModified++;
+    writeFile(filePath, fixed);
+  }
+
+  /**
+   * Apply subscript/superscript brace fixes inside every $$…$$ span.
+   * Structural issues (unbalanced braces, unclosed blocks) are left untouched.
+   * @param {string} content
+   * @param {string} fileName
+   * @returns {{ content: string, fixes: Array }}
+   */
+  fixSubSupInMathSpans(content, fileName) {
+    const masked = maskNonMathPreserveLength(content);
+    const positions = [];
+    const re = /\$\$/g;
+    let m;
+    while ((m = re.exec(masked)) !== null) positions.push(m.index);
+
+    if (positions.length % 2 !== 0) {
+      return { content, fixes: [] };
+    }
+
+    const fixes = [];
+    let result = content;
+
+    for (let i = positions.length - 2; i >= 0; i -= 2) {
+      const open = positions[i];
+      const close = positions[i + 1];
+      const innerStart = open + 2;
+      const innerEnd = close;
+      const inner = result.slice(innerStart, innerEnd);
+      const fixedInner = fixSubSupBraces(inner);
+
+      if (fixedInner !== inner) {
+        const line = getLineNumber(content, open);
+        fixes.push({
+          file: fileName,
+          line,
+          before: inner.replace(/\n/g, ' ').trim().slice(0, 70),
+          after: fixedInner.replace(/\n/g, ' ').trim().slice(0, 70),
+          type: 'sub/sup braces',
+        });
+        result = result.slice(0, innerStart) + fixedInner + result.slice(innerEnd);
+      }
+    }
+
+    return { content: result, fixes };
   }
 
   // ===== VALIDATION METHODS =====
@@ -282,6 +365,39 @@ class EquationProcessor {
           })
         );
       }
+
+      this.checkSubSupStyle(file, line, inner, preview);
+    }
+  }
+
+  /**
+   * Warn on multi-character subscripts/superscripts missing braces (inside a math span).
+   */
+  checkSubSupStyle(file, line, inner, preview) {
+    const patterns = [
+      {
+        pattern: SUBSCRIPT_PATTERN,
+        message: 'Multi-character subscript without braces (use _{...})',
+      },
+      {
+        pattern: SUPERSCRIPT_PATTERN,
+        message: 'Multi-character superscript without braces (use ^{...})',
+      },
+    ];
+
+    for (const { pattern, message } of patterns) {
+      pattern.lastIndex = 0;
+      if (pattern.test(inner)) {
+        this.warnings.push(
+          createIssue({
+            file,
+            line,
+            message,
+            text: preview,
+            severity: 'warning',
+          })
+        );
+      }
     }
   }
 
@@ -324,45 +440,6 @@ class EquationProcessor {
           severity: 'warning',
         })
       );
-    }
-  }
-
-  checkCommonLatexErrors(file, line, text) {
-    // Skip image markdown lines
-    if (text.trim().startsWith('![')) return;
-
-    // Only style WARNINGS live here. Structural errors (unbalanced braces, unclosed blocks,
-    // stray delimiters) are detected per math span in validateMathSpans — line-anchored regexes
-    // like /\\frac\{[^}]*\}\{[^}]*$/ produced false positives on legitimate multi-line arrays.
-    const errorPatterns = [
-      {
-        pattern: /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/,
-        message: 'Multi-character subscript without braces (use _{...})',
-        warning: true,
-      },
-      {
-        pattern: /([a-zA-Z]{2,})\^([a-zA-Z0-9]+)(?![\^{])/,
-        message: 'Multi-character superscript without braces (use ^{...})',
-        warning: true,
-      },
-    ];
-
-    for (const { pattern, message, warning } of errorPatterns) {
-      if (pattern.test(text)) {
-        const issue = createIssue({
-          file,
-          line,
-          message,
-          text: text.trim(),
-          severity: warning ? 'warning' : 'error',
-        });
-
-        if (warning) {
-          this.warnings.push(issue);
-        } else {
-          this.errors.push(issue);
-        }
-      }
     }
   }
 

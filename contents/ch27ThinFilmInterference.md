@@ -1020,7 +1020,7 @@ Repeat [[Exercise 1]](#Exercise1), but take the light to be incident at a  $$45 
 
 **Strategy**
 
-Exercise 1 involves calculating wavelengths for thin film interference. At non-normal incidence, we must account for the angle of refraction in the film using Snell's law, and the path length in the film changes. The condition becomes $$2tn\cos \theta_2 = (m + \frac{1}{2})\lambda$$ where θ₂ is the refraction angle in the film.
+Exercise 1 involves calculating wavelengths for thin film interference. At non-normal incidence, we must account for the angle of refraction in the film using Snell's law, and the path length in the film changes. The condition becomes $$2tn\cos \theta_{2} = (m + \frac{1}{2})\lambda$$ where θ₂ is the refraction angle in the film.
 
 **Solution**
 
@@ -1029,19 +1029,19 @@ Exercise 1 asks about interference from a thin film. When light is incident at 4
 Using Snell's law at the air-film interface (assuming n_film ~ 1.33 for soap):
 
 <div class="equation">
-$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
+$$n_1 \sin \theta_{1} = n_2 \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$(1.00) \sin 45° = (1.33) \sin \theta_2$$
+$$(1.00) \sin 45° = (1.33) \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{0.7071}{1.33} = 0.532$$
+$$\sin \theta_{2} = \frac{0.7071}{1.33} = 0.532$$
 </div>
 
 <div class="equation">
-$$\theta_2 = 32.1°$$
+$$\theta_{2} = 32.1°$$
 </div>
 
 The optical path length in the film is now 2tn cos θ₂ (where the cos factor accounts for the longer path at an angle).
@@ -1049,7 +1049,7 @@ The optical path length in the film is now 2tn cos θ₂ (where the cos factor a
 For constructive interference with one phase change:
 
 <div class="equation">
-$$2tn\cos \theta_2 = \left(m + \frac{1}{2}\right)\lambda$$
+$$2tn\cos \theta_{2} = \left(m + \frac{1}{2}\right)\lambda$$
 </div>
 
 Compared to normal incidence where $$2tn = (m + \frac{1}{2})\lambda$$, the factor $$\cos 32.1° = 0.846$$ means the effective optical path is reduced by about 15%.
@@ -1077,43 +1077,43 @@ Repeat [[Exercise 2]](#Exercise2), but take the light to be incident at a  $$45 
 
 **Strategy**
 
-Exercise 2 involved a 120-nm-thick oil slick (n = 1.40) on water that appeared red (672 nm) at normal incidence. At 45° incidence, we must account for the refraction angle in the oil using Snell's law, and the optical path length changes by a factor of cos θ₂. The constructive interference condition becomes: $$2tn\cos\theta_2 = (m + \frac{1}{2})\lambda$$.
+Exercise 2 involved a 120-nm-thick oil slick (n = 1.40) on water that appeared red (672 nm) at normal incidence. At 45° incidence, we must account for the refraction angle in the oil using Snell's law, and the optical path length changes by a factor of cos θ₂. The constructive interference condition becomes: $$2tn\cos\theta_{2} = (m + \frac{1}{2})\lambda$$.
 
 **Solution**
 
 Given (from Exercise 2):
 - Thickness: $$t = 120 \text{ nm}$$
 - Index of refraction of oil: $$n = 1.40$$
-- Incident angle: $$\theta_1 = 45°$$
+- Incident angle: $$\theta_{1} = 45°$$
 
 First, find the refraction angle in the oil using Snell's law:
 
 <div class="equation">
-$$n_{\text{air}} \sin \theta_1 = n_{\text{oil}} \sin \theta_2$$
+$$n_{\text{air}} \sin \theta_{1} = n_{\text{oil}} \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$(1.00) \sin 45° = (1.40) \sin \theta_2$$
+$$(1.00) \sin 45° = (1.40) \sin \theta_{2}$$
 </div>
 
 <div class="equation">
-$$\sin \theta_2 = \frac{0.7071}{1.40} = 0.505$$
+$$\sin \theta_{2} = \frac{0.7071}{1.40} = 0.505$$
 </div>
 
 <div class="equation">
-$$\theta_2 = 30.3°, \quad \cos \theta_2 = 0.862$$
+$$\theta_{2} = 30.3°, \quad \cos \theta_{2} = 0.862$$
 </div>
 
 For constructive interference with one phase change at oblique incidence:
 
 <div class="equation">
-$$2tn\cos\theta_2 = \left(m + \frac{1}{2}\right)\lambda$$
+$$2tn\cos\theta_{2} = \left(m + \frac{1}{2}\right)\lambda$$
 </div>
 
 Solving for wavelength:
 
 <div class="equation">
-$$\lambda = \frac{2tn\cos\theta_2}{m + \frac{1}{2}} = \frac{2(120)(1.40)(0.862)}{m + 0.5} = \frac{290}{m + 0.5} \text{ nm}$$
+$$\lambda = \frac{2tn\cos\theta_{2}}{m + \frac{1}{2}} = \frac{2(120)(1.40)(0.862)}{m + 0.5} = \frac{290}{m + 0.5} \text{ nm}$$
 </div>
 
 Calculate for different orders:

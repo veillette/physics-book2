@@ -369,7 +369,7 @@ this time?
 
 **Strategy**
 
-For part (a), we'll use the relativistic energy relation $$E = \gamma m c^2$$ to find $$\gamma$$. For parts (b) and (c), we'll use time dilation: the pion's lifetime in the lab frame is $$\tau_{\text{lab}} = \gamma \tau_0$$, where $$\tau_0 = 2.60 \times 10^{-8}$$ s is the pion's rest lifetime.
+For part (a), we'll use the relativistic energy relation $$E = \gamma m c^2$$ to find $$\gamma$$. For parts (b) and (c), we'll use time dilation: the pion's lifetime in the lab frame is $$\tau_{\text{lab}} = \gamma \tau_{0}$$, where $$\tau_{0} = 2.60 \times 10^{-8}$$ s is the pion's rest lifetime.
 
 **Solution**
 
@@ -385,10 +385,10 @@ Using $$E = \gamma m_p c^2$$:
 $$\gamma = \frac{E}{m_p c^2} = \frac{1000.938 \text{ GeV}}{0.938 \text{ GeV}} = 1067 \approx 1.07 \times 10^{3}$$
 </div>
 
-(b) The $${\pi}^{+}$$ rest lifetime is $$\tau_0 = 2.60 \times 10^{-8}$$ s. In the laboratory frame, time dilation gives:
+(b) The $${\pi}^{+}$$ rest lifetime is $$\tau_{0} = 2.60 \times 10^{-8}$$ s. In the laboratory frame, time dilation gives:
 
 <div class="equation">
-$$\tau_{\text{lab}} = \gamma \tau_0 = (1067)(2.60 \times 10^{-8} \text{ s}) = 2.77 \times 10^{-5} \text{ s} = 27.7 \text{ μs}$$
+$$\tau_{\text{lab}} = \gamma \tau_{0} = (1067)(2.60 \times 10^{-8} \text{ s}) = 2.77 \times 10^{-5} \text{ s} = 27.7 \text{ μs}$$
 </div>
 
 (c) The distance traveled is:
@@ -403,7 +403,7 @@ $$d = 8.31 \times 10^{3} \text{ m} = 8.31 \text{ km}$$
 
 **Discussion**
 
-The $$\gamma$$ factor of 1067 indicates the proton is traveling at extremely relativistic speeds, very close to the speed of light. At this speed, $$v/c = \sqrt{1 - 1/\gamma^2} \approx 0.999999560$$ or 99.999956% the speed of light.
+The $$\gamma$$ factor of 1067 indicates the proton is traveling at extremely relativistic speeds, very close to the speed of light. At this speed, $$v/c = \sqrt{1 - 1/\gamma^{2}} \approx 0.999999560$$ or 99.999956% the speed of light.
 
 Time dilation dramatically extends the observed lifetime of the pion from 26 nanoseconds in its rest frame to 27.7 microseconds in the lab frame—over 1000 times longer. This allows the pion to travel 8.31 km before decaying, compared to only about 7.8 meters it would travel without time dilation.
 
@@ -455,7 +455,7 @@ in this time?
 
 **Strategy**
 
-We'll use the charged kaon $$K^{+}$$ (or $$K^{-}$$) with mass 493.7 MeV/$$c^2$$ and rest lifetime $$1.24 \times 10^{-8}$$ s. For part (a), use $$KE = (\gamma - 1)mc^2$$. For parts (b) and (c), apply time dilation.
+We'll use the charged kaon $$K^{+}$$ (or $$K^{-}$$) with mass 493.7 MeV/$$c^2$$ and rest lifetime $$1.24 \times 10^{-8}$$ s. For part (a), use $$KE = (\gamma - 1)mc^{2}$$. For parts (b) and (c), apply time dilation.
 
 **Solution**
 
@@ -471,16 +471,16 @@ Solving for $$\gamma$$:
 $$\gamma = 1 + \frac{KE}{m_K c^2} = 1 + \frac{500 \text{ MeV}}{493.7 \text{ MeV}} = 1 + 1.013 = 2.013 \approx 2.01$$
 </div>
 
-(b) The K-meson's rest lifetime is $$\tau_0 = 1.24 \times 10^{-8}$$ s. In the laboratory:
+(b) The K-meson's rest lifetime is $$\tau_{0} = 1.24 \times 10^{-8}$$ s. In the laboratory:
 
 <div class="equation">
-$$\tau_{\text{lab}} = \gamma \tau_0 = (2.01)(1.24 \times 10^{-8} \text{ s}) = 2.49 \times 10^{-8} \text{ s}$$
+$$\tau_{\text{lab}} = \gamma \tau_{0} = (2.01)(1.24 \times 10^{-8} \text{ s}) = 2.49 \times 10^{-8} \text{ s}$$
 </div>
 
 (c) First, find the velocity from $$\gamma$$:
 
 <div class="equation">
-$$v = c\sqrt{1 - \frac{1}{\gamma^2}} = c\sqrt{1 - \frac{1}{(2.01)^2}} = c\sqrt{1 - 0.247} = 0.868c$$
+$$v = c\sqrt{1 - \frac{1}{\gamma^{2}}} = c\sqrt{1 - \frac{1}{(2.01)^2}} = c\sqrt{1 - 0.247} = 0.868c$$
 </div>
 
 The distance traveled is:
@@ -554,26 +554,26 @@ find _v_ for the neutrino, since its $$\gamma $$ is so large.)
 
 **Strategy**
 
-For part (a), use $$KE = (\gamma - 1)mc^2$$ with $$m = 7$$ eV/$$c^2$$ and $$KE = 700$$ keV = $$7 \times 10^5$$ eV. For part (b), find the neutrino's velocity, calculate travel times for both neutrino and photon, and find the difference.
+For part (a), use $$KE = (\gamma - 1)mc^{2}$$ with $$m = 7$$ eV/$$c^2$$ and $$KE = 700$$ keV = $$7 \times 10^5$$ eV. For part (b), find the neutrino's velocity, calculate travel times for both neutrino and photon, and find the difference.
 
 **Solution**
 
 (a) Using the kinetic energy relation:
 
 <div class="equation">
-$$\gamma = 1 + \frac{KE}{mc^2} = 1 + \frac{700,000 \text{ eV}}{7 \text{ eV}} = 1 + 100,000 = 100,001 \approx 1.0 \times 10^{5}$$
+$$\gamma = 1 + \frac{KE}{mc^{2}} = 1 + \frac{700,000 \text{ eV}}{7 \text{ eV}} = 1 + 100,000 = 100,001 \approx 1.0 \times 10^{5}$$
 </div>
 
 (b) To find the neutrino's velocity, use:
 
 <div class="equation">
-$$v = c\sqrt{1 - \frac{1}{\gamma^2}}$$
+$$v = c\sqrt{1 - \frac{1}{\gamma^{2}}}$$
 </div>
 
 Since $$\gamma$$ is very large ($$10^5$$), use the approximation $$\sqrt{1-x} \approx 1 - \frac{x}{2}$$ for small $$x$$:
 
 <div class="equation">
-$$v \approx c\left(1 - \frac{1}{2\gamma^2}\right) = c\left(1 - \frac{1}{2(10^5)^2}\right) = c\left(1 - 5 \times 10^{-11}\right)$$
+$$v \approx c\left(1 - \frac{1}{2\gamma^{2}}\right) = c\left(1 - \frac{1}{2(10^5)^2}\right) = c\left(1 - 5 \times 10^{-11}\right)$$
 </div>
 
 The distance is $$d = 120,000$$ light years. Travel times are:

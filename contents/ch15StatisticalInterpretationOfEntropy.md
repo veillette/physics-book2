@@ -745,7 +745,7 @@ In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment 
 
 **Strategy**
 
-For part (a), we use the latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$. The heat absorbed during melting is $$ Q = mL_f $$, so we can solve for mass. For part (b), we use the result from part (a) to find the equivalent operating time. For part (c), we compare the cost of ice to the cost of electricity for running the air conditioner.
+For part (a), we use the latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$. The heat absorbed during melting is $$ Q = mL_{f} $$, so we can solve for mass. For part (b), we use the result from part (a) to find the equivalent operating time. For part (c), we compare the cost of ice to the cost of electricity for running the air conditioner.
 
 **Solution**
 

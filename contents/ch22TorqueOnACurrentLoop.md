@@ -174,17 +174,17 @@ Since torque is$$\tau = NIAB\sin\theta$$, it is directly proportional to the mag
 
 Since$$\tau \propto B$$:
 
-$$\frac{\Delta\tau}{\tau_0} = \frac{\Delta B}{B_0}$$
+$$\frac{\Delta\tau}{\tau_{0}} = \frac{\Delta B}{B_0}$$
 
 If$$B$$ decreases by 5.00%, then$$\tau$$ also **decreases by 5.00%**.
 
 **(b) Required current increase:**
 
-Let$$ B' = 0.950 B_0$$ (5% reduction). For the torque to return to$$\tau_0$$:
+Let$$ B' = 0.950 B_0$$ (5% reduction). For the torque to return to$$\tau_{0}$$:
 
-$$\tau_0 = NI'AB'\sin\theta = NI'A(0.950 B_0)\sin\theta$$
+$$\tau_{0} = NI'AB'\sin\theta = NI'A(0.950 B_0)\sin\theta$$
 
-Since originally$$\tau_0 = NI_0AB_0\sin\theta$$:
+Since originally$$\tau_{0} = NI_{0A}B_0\sin\theta$$:
 
 $$ I' = \frac{I_0}{0.950} = 1.0526 I_0$$
 
@@ -570,7 +570,7 @@ $$\theta = 90° + 45° = 135°$$ from moment to field...
 
 Actually, more simply: the moment is perpendicular to the horizontal, so the torque comes from the horizontal component of$$B$$:
 
-$$\tau = NIAB_H = NIA(B\cos 45°)$$
+$$\tau = NIAB_{H} = NIA(B\cos 45°)$$
 
 $$\tau = (200)(100)(0.785)(6.00 \times 10^{-5})(\cos 45°)$$
 

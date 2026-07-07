@@ -853,7 +853,7 @@ Calculate the time it takes the coin to fall 1.50 m, then use that time and the 
 
 1. Find the time to fall 1.50 m using free-fall equation (starting from rest vertically):
 <div class="equation">
-$$ y = \frac{1}{2}gt^2 \Rightarrow t = \sqrt{\frac{2y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
+$$ y = \frac{1}{2}gt^{2} \Rightarrow t = \sqrt{\frac{2y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
 </div>
 
 2. Calculate horizontal distance using the plane's velocity:
@@ -896,7 +896,7 @@ The ball's velocity relative to the quarterback equals the ball's velocity relat
 
 - Quarterback's velocity: $$ v\_{QB} = 2.00 \ms $$ backward (negative forward direction)
 - Range: R = 18.0 m
-- Launch angle (relative to ground): $$ \theta_g = 25.0° $$
+- Launch angle (relative to ground): $$ \theta_{g} = 25.0° $$
 
 **Step 1: Find ball's initial speed relative to ground**
 

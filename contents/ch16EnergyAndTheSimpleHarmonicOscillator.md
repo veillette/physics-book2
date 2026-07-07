@@ -287,18 +287,18 @@ For part (a), the frequency of oscillation for a mass-spring system is $$f = \fr
 
 Initial energy (at top of fall): $$E_i = mg(h + x)$$
 
-Final energy (at bottom): $$E_f = \frac{1}{2}kx^2$$
+Final energy (at bottom): $$E_f = \frac{1}{2}kx^{2}$$
 
 <div class="equation">
- $$mg(h + x) = \frac{1}{2}kx^2$$
+ $$mg(h + x) = \frac{1}{2}kx^{2}$$
 </div>
 
 <div class="equation">
- $$mgh + mgx = \frac{1}{2}kx^2$$
+ $$mgh + mgx = \frac{1}{2}kx^{2}$$
 </div>
 
 <div class="equation">
- $$\frac{1}{2}kx^2 - mgx - mgh = 0$$
+ $$\frac{1}{2}kx^{2} - mgx - mgh = 0$$
 </div>
 
 Substituting values:
@@ -384,7 +384,7 @@ stored in the springs for a 2.00-m displacement from equilibrium?
 
 **Strategy**
 
-For part (a), we use the relationship between period and spring constant for a mass-spring oscillator: $$T = 2\pi\sqrt{\frac{m}{k}}$$. We solve for $$k$$. For part (b), the elastic potential energy stored in the springs is $$PE_{el} = \frac{1}{2}kx^2$$, where $$x$$ is the displacement from equilibrium.
+For part (a), we use the relationship between period and spring constant for a mass-spring oscillator: $$T = 2\pi\sqrt{\frac{m}{k}}$$. We solve for $$k$$. For part (b), the elastic potential energy stored in the springs is $$PE_{el} = \frac{1}{2}kx^{2}$$, where $$x$$ is the displacement from equilibrium.
 
 **Solution**
 
@@ -397,29 +397,29 @@ For part (a), we use the relationship between period and spring constant for a m
 Square both sides:
 
 <div class="equation">
- $$T^2 = 4\pi^2\frac{m}{k}$$
+ $$T^2 = 4\pi^{2}\frac{m}{k}$$
 </div>
 
 Solve for $$k$$:
 
 <div class="equation">
- $$k = \frac{4\pi^2 m}{T^2}$$
+ $$k = \frac{4\pi^{2} m}{T^2}$$
 </div>
 
 Substitute the given values:
 
 <div class="equation">
- $$k = \frac{4\pi^2(4.00 \times 10^{5})}{(2.00)^2} = \frac{4(9.870)(4.00 \times 10^{5})}{4.00}$$
+ $$k = \frac{4\pi^{2}(4.00 \times 10^{5})}{(2.00)^2} = \frac{4(9.870)(4.00 \times 10^{5})}{4.00}$$
 </div>
 
 <div class="equation">
- $$k = 4\pi^2(1.00 \times 10^{5}) = 3.95 \times 10^{6} \text{ N/m}$$
+ $$k = 4\pi^{2}(1.00 \times 10^{5}) = 3.95 \times 10^{6} \text{ N/m}$$
 </div>
 
 **(b)** The elastic potential energy for a displacement of $$x = 2.00$$ m:
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}kx^2 = \frac{1}{2}(3.95 \times 10^{6})(2.00)^2$$
+ $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(3.95 \times 10^{6})(2.00)^2$$
 </div>
 
 <div class="equation">

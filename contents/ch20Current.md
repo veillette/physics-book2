@@ -1089,7 +1089,7 @@ Repeat the above example on [[Example 3]](#Example3), but for a wire made of sil
 
 **Strategy**
 
-We follow the same approach as Example 3: calculate the drift velocity using $$I = nqAv_d$$, solving for $$v_d = \frac{I}{nqA}$$. We need the density of silver ($$10.49 \times 10^{3}$$ kg/m³) and its atomic mass (107.87 g/mol) to find the free electron density $$n$$. We use the same 12-gauge wire (diameter 2.053 mm) and 20.0-A current as in Example 3.
+We follow the same approach as Example 3: calculate the drift velocity using $$I = nqAv_{d}$$, solving for $$v_d = \frac{I}{nqA}$$. We need the density of silver ($$10.49 \times 10^{3}$$ kg/m³) and its atomic mass (107.87 g/mol) to find the free electron density $$n$$. We use the same 12-gauge wire (diameter 2.053 mm) and 20.0-A current as in Example 3.
 
 **Solution**
 
@@ -1190,7 +1190,7 @@ A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows 
 
 **Strategy**
 
-We use the current-drift velocity relationship $$I = nqAv_d$$ directly. From Example 3, we know the free electron density in copper is $$n = 8.342 \times 10^{28}$$ electrons/m³. We need to calculate the cross-sectional area of the 14-gauge wire and convert the drift velocity to SI units.
+We use the current-drift velocity relationship $$I = nqAv_{d}$$ directly. From Example 3, we know the free electron density in copper is $$n = 8.342 \times 10^{28}$$ electrons/m³. We need to calculate the cross-sectional area of the 14-gauge wire and convert the drift velocity to SI units.
 
 **Solution**
 
@@ -1214,7 +1214,7 @@ Now calculate the current (using the magnitude of charge):
 
 <div class="equation">
 $$\begin{array}{lll}
-I &=& n|q|Av_d \\
+I &=& n|q|Av_{d} \\
 I &=& (8.342 \times 10^{28} \text{ /m}^{3})(1.60 \times 10^{-19} \text{ C})(2.082 \times 10^{-6} \text{ m}^{2})(1.00 \times 10^{-3} \text{ m/s}) \\
 I &=& 27.8 \text{ A}
 \end{array} $$

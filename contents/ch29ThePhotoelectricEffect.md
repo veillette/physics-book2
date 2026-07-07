@@ -714,7 +714,7 @@ What is the maximum velocity of electrons ejected from a material by 80-nm photo
 
 **Strategy**
 
-First find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$, then use $${\text{KE}} = \frac{1}{2}mv^2$$ to find velocity.
+First find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$, then use $${\text{KE}} = \frac{1}{2}mv^{2}$$ to find velocity.
 
 **Solution**
 
@@ -732,7 +732,7 @@ Find the kinetic energy of ejected electrons:
 
 Convert to joules: $${\text{KE}}_e = 10.77 \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV} = 1.72 \times 10^{-18} \text{ J}$$
 
-Use $${\text{KE}} = \frac{1}{2}mv^2$$ to find velocity:
+Use $${\text{KE}} = \frac{1}{2}mv^{2}$$ to find velocity:
 
 <div class="equation">
  $$v = \sqrt{\frac{2{\text{KE}}}{m_e}} = \sqrt{\frac{2(1.72 \times 10^{-18} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 1.94 \times 10^{6} \text{ m/s}$$
@@ -760,7 +760,7 @@ Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 4
 
 **Strategy**
 
-First, find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$. Then convert this to velocity using $${\text{KE}}_e = \frac{1}{2}mv^2$$, assuming nonrelativistic speeds. Finally, use $$t = \frac{d}{v}$$ to find the time.
+First, find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$. Then convert this to velocity using $${\text{KE}}_e = \frac{1}{2}mv^{2}$$, assuming nonrelativistic speeds. Finally, use $$t = \frac{d}{v}$$ to find the time.
 
 **Solution**
 
@@ -782,7 +782,7 @@ Convert to joules:
  $${\text{KE}}_e = 0.24 \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV} = 3.84 \times 10^{-20} \text{ J}$$
 </div>
 
-Solve for velocity from $${\text{KE}}_e = \frac{1}{2}mv^2$$:
+Solve for velocity from $${\text{KE}}_e = \frac{1}{2}mv^{2}$$:
 
 <div class="equation">
  $$v = \sqrt{\frac{2{\text{KE}}_e}{m}} = \sqrt{\frac{2(3.84 \times 10^{-20} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 2.90 \times 10^{5} \text{ m/s}$$

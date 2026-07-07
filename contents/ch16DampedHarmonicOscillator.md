@@ -296,11 +296,11 @@ the question.
 
    **Strategy**
 
-   The mechanical energy of a harmonic oscillator is proportional to the square of the amplitude: $$E = \frac{1}{2}kA^2$$. If the amplitude decreases by 3.0%, the new amplitude is 97.0% of the original. We calculate the energy after one cycle and find the percentage decrease.
+   The mechanical energy of a harmonic oscillator is proportional to the square of the amplitude: $$E = \frac{1}{2}kA^{2}$$. If the amplitude decreases by 3.0%, the new amplitude is 97.0% of the original. We calculate the energy after one cycle and find the percentage decrease.
 
    **Solution**
 
-   Let the initial amplitude be $$A_0$$ and the initial energy be $$E_0 = \frac{1}{2}kA_0^2$$.
+   Let the initial amplitude be $$A_0$$ and the initial energy be $$E_0 = \frac{1}{2}kA_{0}^2$$.
 
    After one cycle, the amplitude decreases by 3.0%, so:
 
@@ -311,7 +311,7 @@ the question.
    The energy after one cycle is:
 
    <div class="equation">
-   $$E_1 = \frac{1}{2}kA_1^2 = \frac{1}{2}k(0.970 A_0)^2 = \frac{1}{2}k(0.9409)A_0^2$$
+   $$E_1 = \frac{1}{2}kA_{1}^2 = \frac{1}{2}k(0.970 A_0)^2 = \frac{1}{2}k(0.9409)A_0^2$$
    </div>
 
    <div class="equation">

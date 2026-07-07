@@ -249,19 +249,19 @@ We can use the formula for the period of a simple pendulum $$T = 2\pi\sqrt{\frac
 Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
 
 <div class="equation">
- $$T^2 = 4\pi^2\frac{L}{g}$$
+ $$T^2 = 4\pi^{2}\frac{L}{g}$$
 </div>
 
 Solving for $$L$$:
 
 <div class="equation">
- $$L = \frac{gT^2}{4\pi^2}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}}$$
 </div>
 
 Substituting the known values $$g = 9.80 \text{ m/s}^2$$ and $$T = 0.500 \text{ s}$$:
 
 <div class="equation">
- $$L = \frac{(9.80)(0.500)^2}{4\pi^2} = \frac{(9.80)(0.250)}{39.48} = \frac{2.45}{39.48} = 0.0621 \text{ m}$$
+ $$L = \frac{(9.80)(0.500)^2}{4\pi^{2}} = \frac{(9.80)(0.250)}{39.48} = \frac{2.45}{39.48} = 0.0621 \text{ m}$$
 </div>
 
 Converting to centimeters: $$L = 6.21 \text{ cm}$$
@@ -301,13 +301,13 @@ We can use the formula for the period of a simple pendulum $$T = 2\pi\sqrt{\frac
 Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
 
 <div class="equation">
- $$T^2 = 4\pi^2\frac{L}{g}$$
+ $$T^2 = 4\pi^{2}\frac{L}{g}$$
 </div>
 
 Solving for $$L$$:
 
 <div class="equation">
- $$L = \frac{gT^2}{4\pi^2} = \frac{(9.80)(1.00)^2}{4\pi^2} = \frac{9.80}{39.48} = 0.248 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(1.00)^2}{4\pi^{2}} = \frac{9.80}{39.48} = 0.248 \text{ m}$$
 </div>
 
 **Discussion**
@@ -612,13 +612,13 @@ Since the length of the pendulum doesn't change, we can use the relationship bet
 First, find the length using the original location data:
 
 <div class="equation">
- $$L = \frac{gT^2}{4\pi^2} = \frac{(9.80)(2.00000)^2}{4\pi^2} = \frac{39.2}{39.478} = 0.9930 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(2.00000)^2}{4\pi^{2}} = \frac{39.2}{39.478} = 0.9930 \text{ m}$$
 </div>
 
 Now use this length with the new period to find $$g_{\text{new}}$$:
 
 <div class="equation">
- $$g_{\text{new}} = \frac{4\pi^2 L}{T_{\text{new}}^2} = \frac{4\pi^2(0.9930)}{(1.99796)^2} = \frac{39.198}{3.9918} = 9.82 \text{ m/s}^2$$
+ $$g_{\text{new}} = \frac{4\pi^{2} L}{T_{\text{new}}^2} = \frac{4\pi^{2}(0.9930)}{(1.99796)^2} = \frac{39.198}{3.9918} = 9.82 \text{ m/s}^2$$
 </div>
 
 Alternatively, using the ratio method:

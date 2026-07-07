@@ -772,7 +772,7 @@ $$ L_{\text{orbit}} = Mvr = (7.35 \times 10^{22} \kg)(1022 \text{ m/s})(3.84 \ti
 
 Moon's radius R = 1.74 × 10⁶ m. The Moon rotates once per orbit (27.3 days) to keep one face toward Earth.
 
-Moment of inertia (sphere): $$ I = \frac{2}{5}MR^2 = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.87 \times 10^{34} \kg \cdot \mm $$
+Moment of inertia (sphere): $$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.87 \times 10^{34} \kg \cdot \mm $$
 
 Rotational angular momentum:
 
@@ -863,19 +863,19 @@ Angular momentum is conserved because there's negligible external torque. We use
 Initial moment of inertia (merry-go-round only, disk):
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(120 \kg)(1.80 \m)^2 = 194.4 \kg \cdot \mm $$
+$$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(120 \kg)(1.80 \m)^2 = 194.4 \kg \cdot \mm $$
 </div>
 
 Initial angular velocity:
 
 <div class="equation">
-$$ \omega_0 = 0.500 \text{ rev/s} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} = 3.14 \text{ rad/s} $$
+$$ \omega_{0} = 0.500 \text{ rev/s} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} = 3.14 \text{ rad/s} $$
 </div>
 
 Initial angular momentum:
 
 <div class="equation">
-$$ L = I\omega_0 = (194.4 \kg \cdot \mm)(3.14 \text{ rad/s}) = 611 \kg \cdot \mms $$
+$$ L = I\omega_{0} = (194.4 \kg \cdot \mm)(3.14 \text{ rad/s}) = 611 \kg \cdot \mms $$
 </div>
 
 Final moment of inertia (merry-go-round + child at edge):
@@ -927,7 +927,7 @@ Angular momentum is conserved because there's no external torque. We calculate t
 Initial moment of inertia (disk plus three point masses at edge):
 
 <div class="equation">
-$$ I = \frac{1}{2}MR^2 + (m_1 + m_2 + m_3)R^2 $$
+$$ I = \frac{1}{2}MR^{2} + (m_1 + m_2 + m_3)R^2 $$
 </div>
 
 <div class="equation">
@@ -941,7 +941,7 @@ $$ I = 128 \kg \cdot \mm + 212.5 \kg \cdot \mm = 340.5 \kg \cdot \mm $$
 Initial angular velocity:
 
 <div class="equation">
-$$ \omega_0 = 20.0 \text{ rpm} $$
+$$ \omega_{0} = 20.0 \text{ rpm} $$
 </div>
 
 Final moment of inertia (one child at center contributes negligibly):
@@ -957,11 +957,11 @@ $$ I' = 128 \kg \cdot \mm + 140.8 \kg \cdot \mm = 268.8 \kg \cdot \mm $$
 Using conservation of angular momentum:
 
 <div class="equation">
-$$ I\omega_0 = I'\omega' $$
+$$ I\omega_{0} = I'\omega' $$
 </div>
 
 <div class="equation">
-$$ \omega' = \frac{I\omega_0}{I'} = \frac{(340.5 \kg \cdot \mm)(20.0 \text{ rpm})}{268.8 \kg \cdot \mm} = 25.3 \text{ rpm} $$
+$$ \omega' = \frac{I\omega_{0}}{I'} = \frac{(340.5 \kg \cdot \mm)(20.0 \text{ rpm})}{268.8 \kg \cdot \mm} = 25.3 \text{ rpm} $$
 </div>
 
 **Discussion**
@@ -1030,13 +1030,13 @@ $$ I' = \frac{I\omega}{\omega'} = \frac{(0.400 \kg \cdot \mm)(37.7 \text{ rad/s}
 **(c)** The change in angular velocity:
 
 <div class="equation">
-$$ \omega_f = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
+$$ \omega_{f} = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
 </div>
 
 Change in angular momentum:
 
 <div class="equation">
-$$ \Delta L = I(\omega_f - \omega_0) = (0.400 \kg \cdot \mm)(18.8 - 37.7) \text{ rad/s} = -7.56 \kg \cdot \mms $$
+$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(18.8 - 37.7) \text{ rad/s} = -7.56 \kg \cdot \mms $$
 </div>
 
 Average torque:

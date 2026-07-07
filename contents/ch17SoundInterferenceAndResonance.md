@@ -689,7 +689,7 @@ Alternatively, calculating directly:
 
 The fundamental frequency of 256 Hz is middle C on the musical scale, which makes sense for an instrument like a flute or organ pipe of this length. Notice that for a tube open at both ends, the second harmonic is exactly twice the fundamental frequency. This is characteristic of open tubes—they produce all integer multiples of the fundamental (1f, 2f, 3f, 4f, ...), giving them a richer harmonic structure than tubes closed at one end.
 
-We can verify our answer by checking the wavelength. For the fundamental, $$\lambda_1 = v_w/f_1 = 344\text{ m/s} / 256\text{ Hz} = 1.344\text{ m} = 2L$$, which confirms that the tube length equals one-half wavelength for the fundamental mode, as expected.
+We can verify our answer by checking the wavelength. For the fundamental, $$\lambda_{1} = v_w/f_1 = 344\text{ m/s} / 256\text{ Hz} = 1.344\text{ m} = 2L$$, which confirms that the tube length equals one-half wavelength for the fundamental mode, as expected.
 
 It's interesting to compare this with a tube closed at one end of the same length. Such a tube would have a fundamental frequency of $$f = v_w/(4L) = 344/(4 \times 0.672) = 128$$ Hz, exactly half the frequency of the open tube. This is why instruments can produce different notes by opening or closing tone holes.
 
@@ -720,7 +720,7 @@ Given: $$f_1 = 32.0\text{ Hz}$$ (the fundamental frequency)
 For a tube closed at one end, only odd harmonics are present, and each harmonic frequency is:
 
 <div class="equation">
- $$f_n = nf_1 \text{ where } n = 1, 3, 5, 7,...$$
+ $$f_n = nf_{1} \text{ where } n = 1, 3, 5, 7,...$$
 </div>
 
 **First overtone (third harmonic, $$n=3$$):**
@@ -773,7 +773,7 @@ Given: $$f_1 = 90.0\text{ Hz}$$ (the fundamental frequency)
 For a tube open at both ends, all harmonics are present:
 
 <div class="equation">
- $$f_n = nf_1 \text{ where } n = 1, 2, 3, 4,...$$
+ $$f_n = nf_{1} \text{ where } n = 1, 2, 3, 4,...$$
 </div>
 
 **First overtone (second harmonic, $$n=2$$):**
@@ -1410,7 +1410,7 @@ For a tube closed at one end, the fundamental frequency is:
 Solve for the speed of sound:
 
 <div class="equation">
- $$v_w = 4Lf_1 = 4(0.336\text{ m})(256\text{ Hz}) = 344\text{ m/s}$$
+ $$v_w = 4Lf_{1} = 4(0.336\text{ m})(256\text{ Hz}) = 344\text{ m/s}$$
 </div>
 
 Now use the temperature dependence of sound speed to find the temperature:

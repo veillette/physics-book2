@@ -889,7 +889,7 @@ The proton-antiproton annihilation produces photons with **1836 times** more ene
 
 We would look for **938-MeV gamma rays** as evidence of proton-antiproton annihilation. This is a very specific signature—gamma rays of this energy would be a clear indicator of matter-antimatter annihilation involving baryons. The fact that we don't observe significant amounts of 938-MeV gamma radiation from space provides strong evidence that the universe is dominated by matter, not antimatter. If there were substantial amounts of antimatter in the form of anti-galaxies or anti-stars, we would expect to see annihilation radiation at the boundaries where matter and antimatter regions meet.
 
-The comparison with electron-positron annihilation is revealing: the energy ratio of 1836 is exactly the mass ratio of the proton to the electron. This makes perfect sense from Einstein's mass-energy relation $$ E = mc^2 $$—the annihilation energy is directly proportional to the particle mass. The 0.511-MeV photons from electron-positron annihilation are relatively common in certain astrophysical environments and can be detected by gamma-ray telescopes. The 938-MeV photons from proton-antiproton annihilation would be even more energetic and equally detectable if they existed in significant quantities. The rarity of such observations confirms that the matter-antimatter asymmetry in the universe is profound: essentially all of the universe we can observe is made of ordinary matter, with antimatter being produced only briefly in high-energy collisions or certain radioactive decays before quickly annihilating with the abundant matter around it.
+The comparison with electron-positron annihilation is revealing: the energy ratio of 1836 is exactly the mass ratio of the proton to the electron. This makes perfect sense from Einstein's mass-energy relation $$ E = mc^{2} $$—the annihilation energy is directly proportional to the particle mass. The 0.511-MeV photons from electron-positron annihilation are relatively common in certain astrophysical environments and can be detected by gamma-ray telescopes. The 938-MeV photons from proton-antiproton annihilation would be even more energetic and equally detectable if they existed in significant quantities. The rarity of such observations confirms that the matter-antimatter asymmetry in the universe is profound: essentially all of the universe we can observe is made of ordinary matter, with antimatter being produced only briefly in high-energy collisions or certain radioactive decays before quickly annihilating with the abundant matter around it.
 
 :::
 
@@ -932,7 +932,7 @@ The peak intensity of the CMBR occurs at a wavelength of 1.1 mm. (a) What is the
 
 (b) We'll multiply the single-photon energy by $$ 10^9 $$ to find the total photon energy per massive particle.
 
-(c) We'll use Einstein's mass-energy relation $$ E = mc^2 $$ with half the proton mass.
+(c) We'll use Einstein's mass-energy relation $$ E = mc^{2} $$ with half the proton mass.
 
 (d) We'll compare the energy densities from parts (b) and (c) to determine which dominates.
 
@@ -961,7 +961,7 @@ $$ E_{\text{photons}} = 10^9 \times 1.13 \times 10^{-3} \text{ eV} = 1.13 \times
 
 (c) The rest mass energy of a particle with half the proton mass:
 <div class="equation">
-$$ E = mc^2 = \frac{1}{2} m_p c^2 = \frac{1}{2} \times 938.3 \text{ MeV} = 469 \text{ MeV} $$
+$$ E = mc^{2} = \frac{1}{2} m_p c^2 = \frac{1}{2} \times 938.3 \text{ MeV} = 469 \text{ MeV} $$
 </div>
 
 (d) Comparing the energies:
@@ -1032,14 +1032,14 @@ where $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$ is the gravitati
 
 For circular motion, the required centripetal force is:
 <div class="equation">
-$$ F_{\text{cent}} = \frac{mv^2}{r} $$
+$$ F_{\text{cent}} = \frac{mv^{2}}{r} $$
 </div>
 
 This equation comes from Newton's second law applied to circular motion, where the centripetal acceleration is $$ a_c = v^2/r $$.
 
 Setting the gravitational force equal to the centripetal force:
 <div class="equation">
-$$ \frac{GMm}{r^2} = \frac{mv^2}{r} $$
+$$ \frac{GMm}{r^2} = \frac{mv^{2}}{r} $$
 </div>
 
 Canceling $$ m $$ from both sides and multiplying both sides by $$ r $$:
@@ -1100,43 +1100,43 @@ Using data from the previous problem, find the increase in rotational kinetic en
 
 **Strategy**
 
-We need to calculate the rotational kinetic energy before and after the collapse using $$ KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$, where the moment of inertia for a sphere is $$ I = \frac{2}{5}MR^2 $$. From the previous problem, we know the initial and final radii and angular velocities. The increase in kinetic energy comes from gravitational potential energy released during the collapse.
+We need to calculate the rotational kinetic energy before and after the collapse using $$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} $$, where the moment of inertia for a sphere is $$ I = \frac{2}{5}MR^{2} $$. From the previous problem, we know the initial and final radii and angular velocities. The increase in kinetic energy comes from gravitational potential energy released during the collapse.
 
 **Solution**
 
 From the previous problem:
 - Initial radius: $$ R_i = 5.0 \times 10^5 \text{ km} = 5.0 \times 10^8 \text{ m} $$
 - Final radius: $$ R_f = 10.0 \text{ km} = 1.0 \times 10^4 \text{ m} $$
-- Initial angular velocity: $$ \omega_i = \frac{1 \text{ rev}}{30.0 \text{ days}} = \frac{2\pi}{30.0 \times 24 \times 3600} = 2.42 \times 10^{-6} \text{ rad/s} $$
-- Final angular velocity: $$ \omega_f = 960 \text{ rev/s} = 960 \times 2\pi = 6030 \text{ rad/s} $$
+- Initial angular velocity: $$ \omega_{i} = \frac{1 \text{ rev}}{30.0 \text{ days}} = \frac{2\pi}{30.0 \times 24 \times 3600} = 2.42 \times 10^{-6} \text{ rad/s} $$
+- Final angular velocity: $$ \omega_{f} = 960 \text{ rev/s} = 960 \times 2\pi = 6030 \text{ rad/s} $$
 - Mass: $$ M = 1.3 M_{\text{Sun}} = 1.3 \times 2.0 \times 10^{30} \text{ kg} = 2.6 \times 10^{30} \text{ kg} $$
 
 Initial moment of inertia:
 <div class="equation">
-$$ I_i = \frac{2}{5}MR_i^2 = \frac{2}{5}(2.6 \times 10^{30})(5.0 \times 10^8)^2 = 2.6 \times 10^{47} \text{ kg·m}^2 $$
+$$ I_i = \frac{2}{5}MR_{i}^2 = \frac{2}{5}(2.6 \times 10^{30})(5.0 \times 10^8)^2 = 2.6 \times 10^{47} \text{ kg·m}^2 $$
 </div>
 
 Initial rotational kinetic energy:
 <div class="equation">
-$$ KE_i = \frac{1}{2}I_i\omega_i^2 = \frac{1}{2}(2.6 \times 10^{47})(2.42 \times 10^{-6})^2 = 7.6 \times 10^{35} \text{ J} $$
+$$ KE_{i} = \frac{1}{2}I_i\omega_{i}^2 = \frac{1}{2}(2.6 \times 10^{47})(2.42 \times 10^{-6})^2 = 7.6 \times 10^{35} \text{ J} $$
 </div>
 
 Final moment of inertia:
 <div class="equation">
-$$ I_f = \frac{2}{5}MR_f^2 = \frac{2}{5}(2.6 \times 10^{30})(1.0 \times 10^4)^2 = 1.04 \times 10^{38} \text{ kg·m}^2 $$
+$$ I_f = \frac{2}{5}MR_{f}^2 = \frac{2}{5}(2.6 \times 10^{30})(1.0 \times 10^4)^2 = 1.04 \times 10^{38} \text{ kg·m}^2 $$
 </div>
 
 Final rotational kinetic energy:
 <div class="equation">
-$$ KE_f = \frac{1}{2}I_f\omega_f^2 = \frac{1}{2}(1.04 \times 10^{38})(6030)^2 = 1.9 \times 10^{45} \text{ J} $$
+$$ KE_{f} = \frac{1}{2}I_f\omega_{f}^2 = \frac{1}{2}(1.04 \times 10^{38})(6030)^2 = 1.9 \times 10^{45} \text{ J} $$
 </div>
 
 Increase in rotational kinetic energy:
 <div class="equation">
-$$ \Delta KE = KE_f - KE_i = 1.9 \times 10^{45} - 7.6 \times 10^{35} \approx 1.9 \times 10^{45} \text{ J} $$
+$$ \Delta KE = KE_{f} - KE_{i} = 1.9 \times 10^{45} - 7.6 \times 10^{35} \approx 1.9 \times 10^{45} \text{ J} $$
 </div>
 
-(Note that $$ KE_i $$ is negligible compared to $$ KE_f $$.)
+(Note that $$ KE_{i} $$ is negligible compared to $$ KE_{f} $$.)
 
 **Where does this energy come from?** This enormous increase in rotational kinetic energy comes from **gravitational potential energy** released during the collapse of the core.
 
@@ -1261,7 +1261,7 @@ Astronomers observe a star in a circular orbit at the outer edge of a spiral gal
 
 **Strategy**
 
-For a star in circular orbit, the gravitational force provides the centripetal force. Setting these equal gives us $$ GMm/r^2 = mv^2/r $$, which simplifies to $$ M = v^2r/G $$. We need to convert the distance to meters, calculate the mass in kilograms, then convert to solar masses.
+For a star in circular orbit, the gravitational force provides the centripetal force. Setting these equal gives us $$ GMm/r^2 = mv^{2}/r $$, which simplifies to $$ M = v^2r/G $$. We need to convert the distance to meters, calculate the mass in kilograms, then convert to solar masses.
 
 **Solution**
 
@@ -1276,7 +1276,7 @@ $$ r = 50{,}000 \text{ ly} \times 9.46 \times 10^{15} \text{ m/ly} = 4.73 \times
 
 From the condition that gravitational force equals centripetal force:
 <div class="equation">
-$$ \frac{GMm}{r^2} = \frac{mv^2}{r} $$
+$$ \frac{GMm}{r^2} = \frac{mv^{2}}{r} $$
 </div>
 
 Solving for the galactic mass $$ M $$:

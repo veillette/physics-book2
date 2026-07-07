@@ -378,18 +378,18 @@ The Hall voltage is proportional to the magnetic field ($$\epsilon = Blv$$). If 
 **Solution**
 
 *Known quantities:*
-- Calibration: $$\epsilon_1 = 1.00 \text{ μV}$$ at $$B_1 = 2.00 \text{ T}$$
+- Calibration: $$\epsilon_{1} = 1.00 \text{ μV}$$ at $$B_1 = 2.00 \text{ T}$$
 - New field: $$B_2 = 0.150 \text{ T}$$
 
 Since $$\epsilon \propto B$$:
 
-$$\frac{\epsilon_2}{\epsilon_1} = \frac{B_2}{B_1}$$
+$$\frac{\epsilon_{2}}{\epsilon_{1}} = \frac{B_2}{B_1}$$
 
-$$\epsilon_2 = \epsilon_1 \times \frac{B_2}{B_1}$$
+$$\epsilon_{2} = \epsilon_{1} \times \frac{B_2}{B_1}$$
 
-$$\epsilon_2 = (1.00 \text{ μV}) \times \frac{0.150 \text{ T}}{2.00 \text{ T}}$$
+$$\epsilon_{2} = (1.00 \text{ μV}) \times \frac{0.150 \text{ T}}{2.00 \text{ T}}$$
 
-$$\epsilon_2 = 1.00 \times 0.0750 \text{ μV} = 0.0750 \text{ μV} = 75.0 \text{ nV}$$
+$$\epsilon_{2} = 1.00 \times 0.0750 \text{ μV} = 0.0750 \text{ μV} = 75.0 \text{ nV}$$
 
 **Discussion**
 
@@ -413,7 +413,7 @@ Using information in [[Example 2]](../contents/ch20ResistanceAndResistivity#Exam
 
 **Strategy**
 
-The Hall voltage depends on the drift velocity of charges, which is related to current by $$I = nqAv_d$$, where $$n$$ is the charge carrier density, $$A$$ is the cross-sectional area, and $$v_d$$ is the drift velocity. The Hall voltage is then $$\epsilon = Blv_d$$, where $$l$$ is the wire diameter. Combining these: $$\epsilon = \frac{BI}{nqA}$$.
+The Hall voltage depends on the drift velocity of charges, which is related to current by $$I = nqAv_{d}$$, where $$n$$ is the charge carrier density, $$A$$ is the cross-sectional area, and $$v_d$$ is the drift velocity. The Hall voltage is then $$\epsilon = Blv_{d}$$, where $$l$$ is the wire diameter. Combining these: $$\epsilon = \frac{BI}{nqA}$$.
 
 **Solution**
 
@@ -436,7 +436,7 @@ $$v_d = \frac{20.0}{7.02 \times 10^{4}} = 2.85 \times 10^{-4} \text{ m/s}$$
 
 Now calculate the Hall voltage:
 
-$$\epsilon = Bdv_d = (2.00 \text{ T})(2.588 \times 10^{-3} \text{ m})(2.85 \times 10^{-4} \text{ m/s})$$
+$$\epsilon = Bdv_{d} = (2.00 \text{ T})(2.588 \times 10^{-3} \text{ m})(2.85 \times 10^{-4} \text{ m/s})$$
 
 $$\epsilon = 1.47 \times 10^{-6} \text{ V} \approx 1.5 \text{ μV}$$
 
@@ -468,13 +468,13 @@ We need to express the Hall voltage in terms of wire diameter and show that $$\e
 
 The Hall voltage is given by:
 
-$$\epsilon = Bdv_d$$
+$$\epsilon = Bdv_{d}$$
 
 where $$d$$ is the wire diameter (the distance across which Hall voltage develops) and $$v_d$$ is the drift velocity.
 
 The current is related to drift velocity by:
 
-$$I = nqAv_d = nq\left(\frac{\pi d^2}{4}\right)v_d$$
+$$I = nqAv_{d} = nq\left(\frac{\pi d^2}{4}\right)v_d$$
 
 Solving for drift velocity:
 

@@ -433,10 +433,10 @@ In Figure 3, the cg is to the left of both hands, so the left hand must push UP 
 Choose the left hand as the pivot point to eliminate $$ F_L $$ from the torque equation.
 
 The weight creates a counterclockwise torque about the left hand (cg is to the left):
-$$ \tau_W = W \times 2.00 \m = (49.0 \N)(2.00 \m) = 98.0 \text{ N·m} $$ (counterclockwise)
+$$ \tau_{W} = W \times 2.00 \m = (49.0 \N)(2.00 \m) = 98.0 \text{ N·m} $$ (counterclockwise)
 
 The right hand must create a clockwise torque to balance this:
-$$ \tau_R = F_R \times 0.700 \m $$ (clockwise, so $$ F_R $$ is downward)
+$$ \tau_{R} = F_R \times 0.700 \m $$ (clockwise, so $$ F_R $$ is downward)
 
 For equilibrium:
 
@@ -504,9 +504,9 @@ If the pole has its cg at the center and hands are symmetrically placed (Figure 
 
 About the right hand:
 
-- Torque from $$ W $$: $$ \tau_W = W \times d $$ (clockwise, negative)
-- Torque from $$ F_L $$: $$ \tau_L = F_L \times 2d $$ (counterclockwise, positive)
-- Torque from $$ F_R $$: $$ \tau_R = 0 $$ (at the pivot)
+- Torque from $$ W $$: $$ \tau_{W} = W \times d $$ (clockwise, negative)
+- Torque from $$ F_L $$: $$ \tau_{L} = F_L \times 2d $$ (counterclockwise, positive)
+- Torque from $$ F_R $$: $$ \tau_{R} = 0 $$ (at the pivot)
 
 For equilibrium:
 

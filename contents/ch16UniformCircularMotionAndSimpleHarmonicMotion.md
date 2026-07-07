@@ -169,7 +169,7 @@ A projection of uniform circular motion undergoes simple harmonic oscillation.
 
 **Strategy**
 
-For part (a), we use the relationship between maximum velocity, amplitude, and the spring constant for simple harmonic motion: $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), the maximum energy stored in the spring occurs at maximum displacement and equals the elastic potential energy: $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2$$.
+For part (a), we use the relationship between maximum velocity, amplitude, and the spring constant for simple harmonic motion: $${v}_{\text{max}} = X\sqrt{\frac{k}{m}}$$. For part (b), the maximum energy stored in the spring occurs at maximum displacement and equals the elastic potential energy: $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2}$$.
 
 **Solution**
 
@@ -192,7 +192,7 @@ The maximum velocity is:
 (b) The maximum energy stored in the spring is:
 
 <div class="equation">
- $$\text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
+ $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
 </div>
 
 <div class="equation">
@@ -244,7 +244,7 @@ The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X 
 Alternatively, we can use energy conservation. At maximum displacement, all energy is potential:
 
 <div class="equation">
- $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^2 = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
+ $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
 </div>
 
 **Discussion**

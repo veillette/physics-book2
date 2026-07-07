@@ -571,9 +571,9 @@ $$\sin\theta = 0.175$$
 
 The two angles with this sine value are:
 
-$$\theta_1 = \arcsin(0.175) = 10.1°$$
+$$\theta_{1} = \arcsin(0.175) = 10.1°$$
 
-$$\theta_2 = 180° - 10.1° = 169.9° \approx 170°$$
+$$\theta_{2} = 180° - 10.1° = 169.9° \approx 170°$$
 
 **Discussion**
 
