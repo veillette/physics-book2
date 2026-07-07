@@ -9,10 +9,9 @@
  */
 
 import fs from 'fs';
-import path from 'path';
-import { chromium } from '@playwright/test';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { chromium } from '@playwright/test';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -353,7 +352,7 @@ class ParallelPDFGenerator {
       await this.runParallel(combinedTasks, combinedConcurrency, 'PHASE 3: Combined Chapter PDFs');
 
       // Print summary
-      console.log('\n' + '='.repeat(60));
+      console.log(`\n${'='.repeat(60)}`);
       console.log('FINAL SUMMARY');
       console.log('='.repeat(60));
       console.log(
@@ -371,7 +370,7 @@ class ParallelPDFGenerator {
       const totalFailed =
         this.stats.sections.failed + this.stats.intros.failed + this.stats.combined.failed;
       console.log(`TOTAL:      ${total} succeeded, ${totalFailed} failed`);
-      console.log('='.repeat(60) + '\n');
+      console.log(`${'='.repeat(60)}\n`);
 
       return totalFailed === 0;
     } finally {

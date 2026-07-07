@@ -19,11 +19,8 @@
 
 import fs from 'fs';
 import path from 'path';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { getBaseDir } from './lib/files.js';
 
 // Dynamic import for sharp (optional dependency)

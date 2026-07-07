@@ -21,11 +21,8 @@ import path from 'path';
 import { glob } from 'glob';
 import * as cheerio from 'cheerio';
 import MiniSearch from 'minisearch';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli } from './lib/cli.js';
-
 import { getBaseDir, readFile, writeFile } from './lib/files.js';
 
 /**

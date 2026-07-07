@@ -20,9 +20,9 @@
  *   node scripts/find-unrendered-latex.js --by-type          # Group by issue type
  */
 
-import { chromium } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
+import { chromium } from '@playwright/test';
 import chalk from 'chalk';
 import { glob } from 'glob';
 
@@ -60,9 +60,9 @@ class LatexFinder {
   getSourceFile(htmlFile) {
     // Map HTML file to source .md file
     const baseName = htmlFile.replace('.html', '');
-    const mdPath = path.join(contentsDir, baseName + '.md');
+    const mdPath = path.join(contentsDir, `${baseName}.md`);
     if (fs.existsSync(mdPath)) {
-      return baseName + '.md';
+      return `${baseName}.md`;
     }
     return null;
   }
@@ -199,7 +199,7 @@ class LatexFinder {
 
             const context = contextElement ? contextElement.innerText : text;
             const truncatedContext =
-              context.length > 100 ? context.substring(0, 100) + '...' : context;
+              context.length > 100 ? `${context.substring(0, 100)}...` : context;
 
             // Get parent element type for categorization
             const parentTag = contextElement ? contextElement.tagName : 'UNKNOWN';
@@ -212,15 +212,15 @@ class LatexFinder {
             // Extract a better search pattern (surrounding text)
             const textContent = text.trim();
             const searchPattern =
-              textContent.length > 150 ? textContent.substring(0, 150) + '...' : textContent;
+              textContent.length > 150 ? `${textContent.substring(0, 150)}...` : textContent;
 
             results.push({
               commands: [...new Set(latexMatches)],
               context: truncatedContext,
-              searchPattern: searchPattern,
+              searchPattern,
               fullText: text,
-              parentTag: parentTag,
-              isInImage: isInImage,
+              parentTag,
+              isInImage,
             });
           }
         });
@@ -234,7 +234,7 @@ class LatexFinder {
       const sourceFile = this.getSourceFile(htmlFile);
       return unrenderedLatex.map(issue => ({
         ...issue,
-        sourceFile: sourceFile,
+        sourceFile,
         category: this.categorizeIssue(issue.context, issue.fullText, issue.commands),
       }));
     } catch (error) {
@@ -281,9 +281,9 @@ class LatexFinder {
             }
 
             this.issues.push({
-              htmlFile: htmlFile,
+              htmlFile,
               sourceFile: issues[0].sourceFile,
-              issues: issues,
+              issues,
             });
           }
 

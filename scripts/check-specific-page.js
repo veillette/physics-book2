@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
   const page = await browser.newPage();
 
   const url = 'http://localhost:4000/physics-book2/contents/ch10RotationalKineticEnergy.html';
-  console.log('Checking: ' + url + '\n');
+  console.log(`Checking: ${url}\n`);
 
   await page.goto(url, { waitUntil: 'networkidle' });
   await page.waitForTimeout(3000);
@@ -27,16 +27,16 @@ import { chromium } from 'playwright';
     });
 
     return {
-      linesWithDollarSigns: linesWithDollarSigns,
+      linesWithDollarSigns,
       renderedMath: document.querySelectorAll('mjx-container').length,
     };
   });
 
-  console.log('Rendered math elements: ' + result.renderedMath);
+  console.log(`Rendered math elements: ${result.renderedMath}`);
   console.log('Lines with unrendered $$:\n');
 
   result.linesWithDollarSigns.forEach(line => {
-    console.log('  Line ' + line.lineNum + ': ' + line.text.substring(0, 200));
+    console.log(`  Line ${line.lineNum}: ${line.text.substring(0, 200)}`);
   });
 
   await browser.close();

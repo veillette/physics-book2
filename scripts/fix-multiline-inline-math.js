@@ -42,7 +42,7 @@ function fixMultilineInlineMath(content) {
     // Check for: line ends with $$ followed by non-$$ content
     // and next line has content ending with $$
     const endsWithDoubleDollar = /\$\$\s*$/.test(line);
-    const nextStartsWithNonDollar = /^[^\$]/.test(nextLine.trim());
+    const nextStartsWithNonDollar = /^[^$]/.test(nextLine.trim());
     const nextEndsWithDoubleDollar = /\$\$/.test(nextLine);
 
     if (endsWithDoubleDollar && nextStartsWithNonDollar && nextEndsWithDoubleDollar) {
@@ -52,7 +52,7 @@ function fixMultilineInlineMath(content) {
       // If odd number of $$, the last one is an opening
       if (dollarsBeforeEnd % 2 === 1) {
         // Join the lines
-        lines[i] = line.trimEnd() + ' ' + nextLine.trim();
+        lines[i] = `${line.trimEnd()} ${nextLine.trim()}`;
         lines[i + 1] = ''; // Mark for removal
         changeCount++;
       }
@@ -96,7 +96,7 @@ function main() {
     }
   });
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log(`Files processed: ${files.length}`);
   console.log(`Files changed: ${filesChanged}`);
   console.log(`Total fixes: ${totalChanges}`);

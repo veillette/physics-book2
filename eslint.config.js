@@ -21,9 +21,16 @@ export default [
   // Base configuration for all JavaScript files
   js.configs.recommended,
 
-  // Configuration for Node.js scripts
+  // Configuration for Node.js scripts, Eleventy plugins, and tests
   {
-    files: ['scripts/**/*.js', '*.js'],
+    files: [
+      'scripts/**/*.js',
+      'lib/**/*.js',
+      'tests/**/*.js',
+      '_data/**/*.js',
+      'contents/**/*.js',
+      '*.js',
+    ],
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -45,6 +52,8 @@ export default [
         // Browser globals (for scripts that inject code into browsers via Playwright)
         document: 'readonly',
         window: 'readonly',
+        navigator: 'readonly',
+        NodeFilter: 'readonly',
         MathJax: 'readonly',
       },
     },
@@ -55,14 +64,14 @@ export default [
       // Best practices
       'no-console': 'off', // Allow console in scripts
       'no-unused-vars': [
-        'warn',
+        'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
       ],
       'no-constant-condition': ['error', { checkLoops: false }],
       'no-prototype-builtins': 'warn',
 
       // ES6+ features
-      'prefer-const': 'warn',
+      'prefer-const': 'error',
       'prefer-arrow-callback': 'warn',
       'prefer-template': 'warn',
       'no-var': 'error',
@@ -74,7 +83,7 @@ export default [
       'no-throw-literal': 'error',
       'no-implicit-coercion': 'warn',
 
-      // Import organization (if using eslint-plugin-import)
+      // Import organization
       'import/order': [
         'warn',
         {
@@ -125,14 +134,14 @@ export default [
       },
     },
     rules: {
-      'no-console': 'warn',
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
       'no-unused-vars': [
-        'warn',
+        'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
       ],
       'no-constant-condition': ['error', { checkLoops: false }],
       'no-prototype-builtins': 'warn',
-      'prefer-const': 'warn',
+      'prefer-const': 'error',
       'prefer-arrow-callback': 'warn',
       'prefer-template': 'warn',
       'no-var': 'error',
@@ -143,6 +152,14 @@ export default [
       'no-implicit-coercion': 'warn',
       // CDN import URLs (e.g. minisearch from jsDelivr) confuse import/order
       'import/order': 'off',
+    },
+  },
+
+  // Debug tooling — console output is intentional
+  {
+    files: ['assets/pwa/pwa-debug.js'],
+    rules: {
+      'no-console': 'off',
     },
   },
 

@@ -14,9 +14,8 @@
  */
 
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import chalk from 'chalk';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -138,8 +137,8 @@ class SubscriptSpaceFixer {
   /**
    * Print summary statistics
    */
-  printSummary(modifiedFiles) {
-    console.log('\n' + chalk.cyan('='.repeat(60)));
+  printSummary(_modifiedFiles) {
+    console.log(`\n${chalk.cyan('='.repeat(60))}`);
     console.log(chalk.cyan.bold('SUMMARY'));
     console.log(chalk.cyan('='.repeat(60)));
 
@@ -178,6 +177,6 @@ class SubscriptSpaceFixer {
 
 // Run the fixer
 const fixer = new SubscriptSpaceFixer();
-const modifiedCount = fixer.fixAllFiles();
+fixer.fixAllFiles();
 
 process.exit(0);

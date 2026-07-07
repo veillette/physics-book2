@@ -18,11 +18,8 @@
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { getBaseDir, readFile, writeFile } from './lib/files.js';
 
 /**

@@ -117,7 +117,7 @@ function main() {
     }
   });
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log(`Files processed: ${files.length}`);
   console.log(`Files changed: ${filesChanged}`);
   console.log(`Total fixes: ${totalChanges}`);

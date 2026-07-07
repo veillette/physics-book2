@@ -17,11 +17,8 @@
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli } from './lib/cli.js';
-
 import { getBaseDir } from './lib/files.js';
 
 const ICON_SIZES = [48, 72, 96, 128, 144, 152, 192, 384, 512];

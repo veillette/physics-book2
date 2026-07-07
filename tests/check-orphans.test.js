@@ -1,6 +1,6 @@
-import { describe, it, expect, beforeEach } from 'vitest';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { describe, it, expect, beforeEach } from 'vitest';
 import OrphanFileFinder from '../scripts/check-orphans.js';
 
 const __filename = fileURLToPath(import.meta.url);

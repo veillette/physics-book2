@@ -22,11 +22,8 @@
 import fs from 'fs';
 import path from 'path';
 import { chromium } from '@playwright/test';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli } from './lib/cli.js';
-
 import { getBaseDir, readFile } from './lib/files.js';
 
 /**

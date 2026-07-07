@@ -24,16 +24,11 @@
  */
 
 import path from 'path';
-
-import { UNITS } from './lib/constants.js';
-
-import { printHeader, printDivider, printFixes, printSuccess } from './lib/reporter.js';
-
-import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
-import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
-
 import chalk from 'chalk';
+import { UNITS } from './lib/constants.js';
+import { printHeader, printDivider, printFixes, printSuccess } from './lib/reporter.js';
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
 
 /**
  * Markdown linter class.

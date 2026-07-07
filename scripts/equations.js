@@ -24,12 +24,9 @@
  *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
 import matter from '@11ty/gray-matter';
-
-import { createIssue, checkBraceBalance, countUnescaped } from './lib/parser.js';
-
+import { createIssue, countUnescaped } from './lib/parser.js';
 import {
   printHeader,
   printDivider,
@@ -43,9 +40,7 @@ import {
   printSummary,
   printOverview,
 } from './lib/reporter.js';
-
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
-
 import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
 
 /**

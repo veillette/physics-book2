@@ -12,9 +12,8 @@
  */
 
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import chalk from 'chalk';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -43,8 +42,6 @@ class ArrayEndDelimiterFixer {
 
     const content = fs.readFileSync(filepath, 'utf8');
     const filename = path.basename(filepath);
-    let newContent = content;
-    let fileFixCount = 0;
 
     // Pattern: \end{array} $$ $$ → \end{array} $$
     // Match \end{array} followed by whitespace and double $$
@@ -64,9 +61,8 @@ class ArrayEndDelimiterFixer {
     if (matches.length > 0) {
       // Replace all occurrences - keep one $$, remove the extra one
       // Note: $$$$ in replacement string outputs $$  (each $$ becomes one $)
-      newContent = content.replace(/\\end\{array\}\s*\$\$\s*\$\$/g, '\\end{array} $$$$');
-
-      fileFixCount = matches.length;
+      const newContent = content.replace(/\\end\{array\}\s*\$\$\s*\$\$/g, '\\end{array} $$$$');
+      const fileFixCount = matches.length;
       this.stats.filesModified++;
       this.stats.totalFixes += fileFixCount;
 
@@ -129,8 +125,8 @@ class ArrayEndDelimiterFixer {
   /**
    * Print summary statistics
    */
-  printSummary(modifiedFiles) {
-    console.log('\n' + chalk.cyan('='.repeat(60)));
+  printSummary(_modifiedFiles) {
+    console.log(`\n${chalk.cyan('='.repeat(60))}`);
     console.log(chalk.cyan.bold('SUMMARY'));
     console.log(chalk.cyan('='.repeat(60)));
 
@@ -163,6 +159,6 @@ class ArrayEndDelimiterFixer {
 
 // Run the fixer
 const fixer = new ArrayEndDelimiterFixer();
-const modifiedCount = fixer.fixAllFiles();
+fixer.fixAllFiles();
 
 process.exit(0);

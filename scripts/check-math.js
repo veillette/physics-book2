@@ -16,7 +16,6 @@
 
 import path from 'path';
 import { pathToFileURL } from 'url';
-
 import {
   printHeader,
   printDivider,
@@ -24,9 +23,7 @@ import {
   printSuccess,
   printSummary,
 } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { findMarkdownFiles, readFile } from './lib/files.js';
 
 /**

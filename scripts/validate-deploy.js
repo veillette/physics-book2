@@ -23,12 +23,9 @@
  */
 
 import { chromium } from '@playwright/test';
-
-import { printHeader, printDivider, printSummary } from './lib/reporter.js';
-
-import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import chalk from 'chalk';
+import { printHeader, printDivider, printSummary } from './lib/reporter.js';
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
 
 const DEFAULT_URLS = {
   vercel: 'https://physics-book.vercel.app',

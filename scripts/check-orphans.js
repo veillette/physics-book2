@@ -18,14 +18,10 @@ import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
 import { glob } from 'glob';
-
-import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
-import { runCli } from './lib/cli.js';
-
-import { getBaseDir, readFile } from './lib/files.js';
-
 import chalk from 'chalk';
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+import { runCli } from './lib/cli.js';
+import { getBaseDir, readFile } from './lib/files.js';
 
 /**
  * Orphan file finder class.

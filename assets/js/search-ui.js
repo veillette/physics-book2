@@ -76,8 +76,6 @@ class SearchUI {
 
     // Attach event listeners
     this.attachEventListeners();
-
-    console.log('Search UI initialized');
   }
 
   /**

@@ -20,10 +20,8 @@
 
 import path from 'path';
 import matter from '@11ty/gray-matter';
-
-import { ContentParser } from './lib/parser.js';
 import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
-
+import { ContentParser } from './lib/parser.js';
 import {
   printHeader,
   printDivider,
@@ -34,9 +32,7 @@ import {
   printSuccess,
   printSummary,
 } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { findMarkdownFiles, readFile } from './lib/files.js';
 
 /**

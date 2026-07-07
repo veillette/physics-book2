@@ -28,7 +28,6 @@ class SearchManager {
    */
   async init() {
     try {
-      console.log('Loading search index...');
       const response = await fetch(`${this.baseUrl}search_index.json`);
 
       if (!response.ok) {
@@ -47,7 +46,6 @@ class SearchManager {
       this.documents = data.documents;
       this.isReady = true;
 
-      console.log(`Search index loaded: ${this.documents.length} documents indexed`);
       return true;
     } catch (error) {
       console.error('Failed to initialize search:', error);

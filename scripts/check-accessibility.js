@@ -18,19 +18,13 @@
  *   --help            Show this help message
  */
 
+import path from 'path';
 import {
   UNINFORMATIVE_ALT_TEXT,
   UNINFORMATIVE_LINK_TEXT,
   DEFAULT_GLOB_PATTERNS,
 } from './lib/constants.js';
-
-import {
-  getCodeBlockRanges,
-  isInsideCodeBlock,
-  getLineNumber,
-  parseHeading,
-} from './lib/parser.js';
-
+import { getCodeBlockRanges, isInsideCodeBlock, getLineNumber } from './lib/parser.js';
 import {
   printHeader,
   printDivider,
@@ -39,15 +33,10 @@ import {
   printErrors,
   printWarnings,
   printSuccess,
-  printSummary,
   printIssueSummary,
 } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { findFiles, readFile, getBaseDir } from './lib/files.js';
-
-import path from 'path';
 
 /**
  * Accessibility checker class.

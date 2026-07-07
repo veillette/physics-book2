@@ -18,11 +18,8 @@
 import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
-
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
 import { runCli } from './lib/cli.js';
-
 import { getBaseDir, readFile, writeFile } from './lib/files.js';
 
 /**

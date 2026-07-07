@@ -16,11 +16,10 @@
  * if different chapters fail in future runs.
  */
 
-import { chromium } from '@playwright/test';
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import fs from 'fs';
+import { chromium } from '@playwright/test';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -227,7 +226,7 @@ async function run() {
 
   await browser.close();
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log('RESULTS');
   console.log('='.repeat(60));
   const succeeded = results.filter(r => r.success).length;

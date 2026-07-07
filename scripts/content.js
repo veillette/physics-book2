@@ -24,9 +24,7 @@
  *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
-
 import {
   UNITS,
   TERMINOLOGY,
@@ -34,9 +32,7 @@ import {
   COMMON_TYPOS,
   COMMON_REPEATS,
 } from './lib/constants.js';
-
 import { ContentParser, isImageLine, hasUrl, hasLatexCommands, createIssue } from './lib/parser.js';
-
 import {
   printHeader,
   printDivider,
@@ -49,9 +45,7 @@ import {
   printSuccess,
   printSummary,
 } from './lib/reporter.js';
-
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
-
 import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
 
 /**

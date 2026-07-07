@@ -28,7 +28,6 @@
 
 import fs from 'fs';
 import path from 'path';
-
 import {
   printHeader,
   printDivider,
@@ -37,9 +36,7 @@ import {
   printSuccess,
   printSummary,
 } from './lib/reporter.js';
-
 import { runCli } from './lib/cli.js';
-
 import { getBaseDir, findFiles, readFile } from './lib/files.js';
 
 // Figure filename pattern: Figure_XX_XX_XX.{jpg|svg|png|webp}

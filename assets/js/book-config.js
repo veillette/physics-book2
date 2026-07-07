@@ -18,7 +18,7 @@ function mergeObjectsRecursive(target, source) {
   for (const key in source) {
     // Prevent prototype pollution by blocking dangerous keys
     if (key === '__proto__' || key === 'prototype' || key === 'constructor') continue;
-    if (source.hasOwnProperty(key)) {
+    if (Object.prototype.hasOwnProperty.call(source, key)) {
       if (source[key] instanceof Object) {
         if (!target[key]) {
           // If the key doesn't exist in the target, create a new object

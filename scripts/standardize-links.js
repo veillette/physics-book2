@@ -21,7 +21,6 @@
  */
 
 import path from 'path';
-
 import {
   printHeader,
   printDivider,
@@ -30,11 +29,8 @@ import {
   printSuccess,
   printSummary,
 } from './lib/reporter.js';
-
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
-
 import { findFiles, readFile, writeFile, getBaseDir } from './lib/files.js';
-
 import { getLineNumber } from './lib/parser.js';
 
 /**
@@ -99,7 +95,7 @@ class LinkStandardizer {
    * @param {string} directory - Directory to validate
    * @returns {Promise<boolean>} - Success status
    */
-  async validate(directory = 'contents') {
+  async validate(_directory = 'contents') {
     printHeader('🔍', 'Link Validation');
 
     const files = await findFiles('*.md', { cwd: this.contentDir });

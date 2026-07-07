@@ -38,7 +38,7 @@ function parser() {
   // Pull out all the interesting DOM nodes from the template
   const body = document.body;
 
-  let originalPage = Array.from(body.childNodes);
+  const originalPage = Array.from(body.childNodes);
 
   body.innerHTML = '';
   body.insertAdjacentHTML('beforeend', BOOK_TEMPLATE);
@@ -55,7 +55,7 @@ function parser() {
     menuIcon.innerHTML = getIcon('bars', '1.2em');
   }
 
-  toggleSummary.addEventListener('click', function (event) {
+  toggleSummary.addEventListener('click', event => {
     book.classList.toggle('with-summary');
     event.preventDefault();
   });
@@ -68,7 +68,7 @@ function parser() {
   // Load saved sidebar width from localStorage
   const savedWidth = localStorage.getItem('sidebarWidth');
   if (savedWidth) {
-    document.documentElement.style.setProperty('--sidebar-width', savedWidth + 'px');
+    document.documentElement.style.setProperty('--sidebar-width', `${savedWidth}px`);
   }
 
   // Sidebar resize functionality
@@ -76,7 +76,7 @@ function parser() {
   let startX = 0;
   let startWidth = 0;
 
-  resizeHandle.addEventListener('mousedown', function (e) {
+  resizeHandle.addEventListener('mousedown', e => {
     isResizing = true;
     startX = e.clientX;
     const computedStyle = getComputedStyle(document.documentElement);
@@ -86,27 +86,33 @@ function parser() {
     e.preventDefault();
   });
 
-  document.addEventListener('mousemove', function (e) {
+  document.addEventListener('mousemove', e => {
     if (!isResizing) return;
 
     const delta = e.clientX - startX;
     const newWidth = startWidth + delta;
-    const minWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-min-width'));
-    const maxWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-max-width'));
+    const minWidth = parseInt(
+      getComputedStyle(document.documentElement).getPropertyValue('--sidebar-min-width')
+    );
+    const maxWidth = parseInt(
+      getComputedStyle(document.documentElement).getPropertyValue('--sidebar-max-width')
+    );
 
     // Constrain width between min and max
     const constrainedWidth = Math.max(minWidth, Math.min(maxWidth, newWidth));
-    document.documentElement.style.setProperty('--sidebar-width', constrainedWidth + 'px');
+    document.documentElement.style.setProperty('--sidebar-width', `${constrainedWidth}px`);
   });
 
-  document.addEventListener('mouseup', function () {
+  document.addEventListener('mouseup', () => {
     if (isResizing) {
       isResizing = false;
       resizeHandle.classList.remove('resizing');
       book.classList.remove('without-animation');
 
       // Save the new width to localStorage
-      const currentWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-width'));
+      const currentWidth = parseInt(
+        getComputedStyle(document.documentElement).getPropertyValue('--sidebar-width')
+      );
       localStorage.setItem('sidebarWidth', currentWidth);
     }
   });
@@ -119,7 +125,7 @@ function parser() {
     summary.className = 'summary';
 
     const tocChildren = Array.from(tocHelper.toc.children);
-    tocChildren.forEach(function (li) {
+    tocChildren.forEach(li => {
       summary.appendChild(li);
     });
 
@@ -127,7 +133,7 @@ function parser() {
     // Add a "hidden" checkmark next to each item
     const visitedLinks = JSON.parse(window.localStorage.visited) || {};
     const linkElements = summary.querySelectorAll('a[href]');
-    linkElements.forEach(function (link) {
+    linkElements.forEach(link => {
       const href = link.getAttribute('href');
       const parentLi = link.parentNode;
       const checkmarkIcon = document.createElement('i');
@@ -142,7 +148,7 @@ function parser() {
     const currentPagePath = new URL(window.location.href).pathname;
 
     const currentPageLi = bookSummary.querySelector(
-      ".summary li:has(> a[href='" + currentPagePath + "'])"
+      `.summary li:has(> a[href='${currentPagePath}'])`
     );
     if (currentPageLi) {
       currentPageLi.parentNode.parentNode.scrollIntoView();
@@ -242,9 +248,15 @@ function parser() {
     let pdfTitle = '';
 
     // Check if it's the preface or summary/intro page - link to complete book
-    if (currentPath.includes('/preface.html') || currentPath.includes('/SUMMARY.html') || currentPath.includes('/index.html') || currentPath === BookConfig.baseHref || currentPath === BookConfig.baseHref + '/') {
+    if (
+      currentPath.includes('/preface.html') ||
+      currentPath.includes('/SUMMARY.html') ||
+      currentPath.includes('/index.html') ||
+      currentPath === BookConfig.baseHref ||
+      currentPath === `${BookConfig.baseHref}/`
+    ) {
       // Link to complete book PDF
-      pdfUrl = BookConfig.baseHref + '/assets/pdf/complete-book.pdf';
+      pdfUrl = `${BookConfig.baseHref}/assets/pdf/complete-book.pdf`;
       pdfTitle = 'Download Complete Book PDF';
     } else {
       // Try to extract chapter number from the path
@@ -254,7 +266,7 @@ function parser() {
 
         // Load summary.json to determine if this is a chapter intro or section
         try {
-          const response = await fetch(BookConfig.baseHref + '/summary.json');
+          const response = await fetch(`${BookConfig.baseHref}/summary.json`);
           const chapters = await response.json();
 
           // Find the matching chapter
@@ -268,25 +280,27 @@ function parser() {
             // Check if this is the chapter intro file
             if (chapter.chapterFile === fullPath) {
               // This is a chapter intro - link to complete chapter PDF
-              pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+              pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
               pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
             } else {
               // Check if it's a section
               const section = chapter.sections.find(s => s.sectionFile === fullPath);
               if (section) {
                 const sectionNum = String(section.sectionNumber).padStart(2, '0');
-                pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-section-${sectionNum}.pdf`;
+                pdfUrl = `${
+                  BookConfig.baseHref
+                }/assets/pdf/chapter-${chapterNum}-section-${sectionNum}.pdf`;
                 pdfTitle = `Download Section ${section.sectionNumber}: ${section.sectionTitle}`;
               } else {
                 // Fallback to complete chapter PDF
-                pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+                pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
                 pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
               }
             }
           }
-        } catch (e) {
+        } catch (_e) {
           // Fallback to complete chapter PDF if summary.json fails to load
-          pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+          pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
           pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
         }
       }
@@ -344,12 +358,12 @@ function parser() {
       figure.setAttribute('id', id);
     });
 
-    els.querySelectorAll('.example, .exercise, .note').forEach(function (el) {
-      const contents = Array.from(el.childNodes).filter(function (node) {
+    els.querySelectorAll('.example, .exercise, .note').forEach(el => {
+      const contents = Array.from(el.childNodes).filter(node => {
         return !node.classList || !node.classList.contains('title');
       });
       const section = document.createElement('section');
-      contents.forEach(function (node) {
+      contents.forEach(node => {
         section.appendChild(node);
       });
       el.append(section);
@@ -372,7 +386,7 @@ function parser() {
       el.classList.toggle('ui-has-child-title', title !== null);
     });
 
-    els.querySelectorAll('.solution').forEach(function (solution) {
+    els.querySelectorAll('.solution').forEach(solution => {
       const section = document.createElement('section');
       while (solution.firstChild) {
         section.appendChild(solution.firstChild);
@@ -394,7 +408,7 @@ function parser() {
         solutionSection.setAttribute('data-math-typeset', 'false');
       }
 
-      toggleButton.addEventListener('click', function (e) {
+      toggleButton.addEventListener('click', e => {
         const solution = e.currentTarget.closest('.solution');
         solution.classList.toggle('ui-solution-visible');
 
@@ -416,11 +430,11 @@ function parser() {
       });
     });
 
-    els.querySelectorAll('figure:has(> figcaption)').forEach(function (figure) {
+    els.querySelectorAll('figure:has(> figcaption)').forEach(figure => {
       figure.classList.add('ui-has-child-figcaption');
     });
 
-    els.querySelectorAll('figcaption').forEach(function (figcaption) {
+    els.querySelectorAll('figcaption').forEach(figcaption => {
       figcaption.parentNode.appendChild(figcaption);
     });
 
@@ -429,9 +443,7 @@ function parser() {
     visited[currentPagePath] = new Date();
     window.localStorage.visited = JSON.stringify(visited);
 
-    const listItem = bookSummary.querySelector(
-      ".summary li:has(> a[href='" + currentPagePath + "'])"
-    );
+    const listItem = bookSummary.querySelector(`.summary li:has(> a[href='${currentPagePath}'])`);
 
     if (listItem !== null) {
       listItem.classList.add('visited');
@@ -441,14 +453,14 @@ function parser() {
 
     const selector = 'h1, h2, h3, h4, h5, h6';
     const all = Array.from(els.querySelectorAll(selector));
-    all.forEach(function (el) {
+    all.forEach(el => {
       const id = el.getAttribute('id');
       if (id) {
         const icon = document.createElement('i');
         icon.innerHTML = getIcon('link', '0.875em');
         const a = document.createElement('a');
         a.className = 'header-link';
-        a.setAttribute('href', '#' + id);
+        a.setAttribute('href', `#${id}`);
         a.setAttribute('aria-label', `Link to section: ${el.textContent.trim()}`);
         a.appendChild(icon);
         el.insertBefore(a, el.firstChild);
@@ -516,7 +528,7 @@ function parser() {
       const tocUrl = new URL(BookConfig.toc.url, removeTrailingSlash(window.location.href));
       const refElements = toc.querySelectorAll('a[href]');
 
-      refElements.forEach(function (el) {
+      refElements.forEach(el => {
         mdToHtmlFix(el);
         const href = new URL(el.getAttribute('href'), tocUrl).pathname;
         el.setAttribute('href', href);
@@ -524,7 +536,7 @@ function parser() {
 
       this._tocTitles = {};
       const self = this;
-      this._tocList = Array.from(toc.querySelectorAll('a[href]')).map(function (el) {
+      this._tocList = Array.from(toc.querySelectorAll('a[href]')).map(el => {
         const href = new URL(el.getAttribute('href'), tocUrl).toString();
         self._tocTitles[href] = el.textContent;
         return href;
@@ -532,9 +544,9 @@ function parser() {
 
       if (BookConfig.serverAddsTrailingSlash) {
         const aElements = toc.querySelectorAll('a');
-        aElements.forEach(function (a) {
+        aElements.forEach(a => {
           let href = a.getAttribute('href');
-          href = '../' + href;
+          href = `../${href}`;
           a.setAttribute('href', href);
         });
       }
@@ -579,10 +591,10 @@ function parser() {
       Accept: 'application/xhtml+xml',
     },
   })
-    .then(function (response) {
+    .then(response => {
       return response.text();
     })
-    .then(function (html) {
+    .then(html => {
       let title;
       const parser = new DOMParser();
       const doc = parser.parseFromString(html, 'text/html');
@@ -634,10 +646,10 @@ function parser() {
       },
     }).then(response => response.text());
 
-    return Promise.resolve(requestPromise).then(function (html) {
+    return Promise.resolve(requestPromise).then(html => {
       //# Use `window.location.origin` to get around a <base href=""> pointing to another hostname
       if (!/https?:\/\//.test(href)) {
-        href = '' + window.location.origin + href;
+        href = `${window.location.origin}${href}`;
       }
       window.history.pushState(null, null, href);
       renderNextPrev();
@@ -657,7 +669,7 @@ function parser() {
       const htmlDivElement = document.createElement('div');
 
       htmlDivElement.innerHTML = html;
-      htmlDivElement.querySelectorAll('meta, link, script').forEach(function (el) {
+      htmlDivElement.querySelectorAll('meta, link, script').forEach(el => {
         el.remove();
       });
 
@@ -677,7 +689,7 @@ function parser() {
     });
   };
 
-  document.body.addEventListener('keydown', function (event) {
+  document.body.addEventListener('keydown', event => {
     const key = event.key; // "ArrowRight", "ArrowLeft", "ArrowUp", or "ArrowDown"
 
     let link;
@@ -719,85 +731,98 @@ function parser() {
 
   const MIN_SWIPE_DISTANCE = 50; // minimum distance for a swipe (pixels)
   const MAX_VERTICAL_DISTANCE = 100; // maximum vertical movement allowed (pixels)
-  const SWIPE_VELOCITY_THRESHOLD = 0.3; // minimum velocity (pixels/ms)
 
-  bookBody.addEventListener('touchstart', function (event) {
-    // Only track single-finger touches
-    if (event.touches.length === 1) {
-      touchStartX = event.touches[0].clientX;
-      touchStartY = event.touches[0].clientY;
-      isSwiping = false;
-    }
-  }, { passive: true });
+  bookBody.addEventListener(
+    'touchstart',
+    event => {
+      // Only track single-finger touches
+      if (event.touches.length === 1) {
+        touchStartX = event.touches[0].clientX;
+        touchStartY = event.touches[0].clientY;
+        isSwiping = false;
+      }
+    },
+    { passive: true }
+  );
 
-  bookBody.addEventListener('touchmove', function (event) {
-    if (event.touches.length === 1) {
-      touchEndX = event.touches[0].clientX;
-      touchEndY = event.touches[0].clientY;
+  bookBody.addEventListener(
+    'touchmove',
+    event => {
+      if (event.touches.length === 1) {
+        touchEndX = event.touches[0].clientX;
+        touchEndY = event.touches[0].clientY;
 
-      const deltaX = Math.abs(touchEndX - touchStartX);
-      const deltaY = Math.abs(touchEndY - touchStartY);
+        const deltaX = Math.abs(touchEndX - touchStartX);
+        const deltaY = Math.abs(touchEndY - touchStartY);
 
-      // Detect horizontal swipe (more horizontal than vertical movement)
-      if (deltaX > deltaY && deltaX > 10) {
-        isSwiping = true;
-        // Add visual feedback
+        // Detect horizontal swipe (more horizontal than vertical movement)
+        if (deltaX > deltaY && deltaX > 10) {
+          isSwiping = true;
+          // Add visual feedback
+          const swipeDistance = touchEndX - touchStartX;
+          const pageWrapper = bookBody.querySelector('.page-wrapper');
+          if (pageWrapper) {
+            const transform = Math.max(-100, Math.min(100, swipeDistance * 0.2));
+            pageWrapper.style.transition = 'none';
+            pageWrapper.style.transform = `translateX(${transform}px)`;
+            pageWrapper.style.opacity = 1 - Math.abs(transform) / 200;
+          }
+        }
+      }
+    },
+    { passive: true }
+  );
+
+  bookBody.addEventListener(
+    'touchend',
+    _event => {
+      if (isSwiping) {
         const swipeDistance = touchEndX - touchStartX;
+        const verticalDistance = Math.abs(touchEndY - touchStartY);
+
+        // Reset visual feedback
         const pageWrapper = bookBody.querySelector('.page-wrapper');
         if (pageWrapper) {
-          const transform = Math.max(-100, Math.min(100, swipeDistance * 0.2));
-          pageWrapper.style.transition = 'none';
-          pageWrapper.style.transform = `translateX(${transform}px)`;
-          pageWrapper.style.opacity = 1 - Math.abs(transform) / 200;
-        }
-      }
-    }
-  }, { passive: true });
-
-  bookBody.addEventListener('touchend', function (event) {
-    if (isSwiping) {
-      const swipeDistance = touchEndX - touchStartX;
-      const verticalDistance = Math.abs(touchEndY - touchStartY);
-      const timeElapsed = event.timeStamp - (event.timeStamp - 300); // approximate
-
-      // Reset visual feedback
-      const pageWrapper = bookBody.querySelector('.page-wrapper');
-      if (pageWrapper) {
-        pageWrapper.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
-        pageWrapper.style.transform = '';
-        pageWrapper.style.opacity = '';
-      }
-
-      // Only navigate if swipe is primarily horizontal and meets minimum distance
-      if (verticalDistance < MAX_VERTICAL_DISTANCE && Math.abs(swipeDistance) >= MIN_SWIPE_DISTANCE) {
-        let link = null;
-
-        if (swipeDistance > 0) {
-          // Swipe right (go to previous page)
-          link = document.querySelector('.book .navigation-prev');
-        } else {
-          // Swipe left (go to next page)
-          link = document.querySelector('.book .navigation-next');
+          pageWrapper.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+          pageWrapper.style.transform = '';
+          pageWrapper.style.opacity = '';
         }
 
-        if (link !== null) {
-          // Delay navigation slightly to allow visual feedback to complete
-          setTimeout(() => {
-            link.click();
-          }, 100);
+        // Only navigate if swipe is primarily horizontal and meets minimum distance
+        if (
+          verticalDistance < MAX_VERTICAL_DISTANCE &&
+          Math.abs(swipeDistance) >= MIN_SWIPE_DISTANCE
+        ) {
+          let link = null;
+
+          if (swipeDistance > 0) {
+            // Swipe right (go to previous page)
+            link = document.querySelector('.book .navigation-prev');
+          } else {
+            // Swipe left (go to next page)
+            link = document.querySelector('.book .navigation-next');
+          }
+
+          if (link !== null) {
+            // Delay navigation slightly to allow visual feedback to complete
+            setTimeout(() => {
+              link.click();
+            }, 100);
+          }
         }
+
+        isSwiping = false;
       }
 
-      isSwiping = false;
-    }
+      touchStartX = 0;
+      touchStartY = 0;
+      touchEndX = 0;
+      touchEndY = 0;
+    },
+    { passive: true }
+  );
 
-    touchStartX = 0;
-    touchStartY = 0;
-    touchEndX = 0;
-    touchEndY = 0;
-  }, { passive: true });
-
-  document.body.addEventListener('click', function (event) {
+  document.body.addEventListener('click', event => {
     let target = event.target;
     while (target && target.tagName !== 'A') {
       target = target.parentNode;

@@ -15,9 +15,8 @@
  */
 
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import chalk from 'chalk';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -182,8 +181,8 @@ class ArrayDelimiterChecker {
   /**
    * Print summary statistics
    */
-  printSummary(filesWithIssues) {
-    console.log('\n' + chalk.cyan('='.repeat(60)));
+  printSummary(_filesWithIssues) {
+    console.log(`\n${chalk.cyan('='.repeat(60))}`);
     console.log(chalk.cyan.bold('SUMMARY'));
     console.log(chalk.cyan('='.repeat(60)));
 

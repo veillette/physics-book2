@@ -18,9 +18,9 @@
  *   node scripts/crawl-all-pages.js --concurrent 10 # Set concurrency level (default: 5)
  */
 
-import { chromium } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
+import { chromium } from '@playwright/test';
 import chalk from 'chalk';
 
 const CONCURRENCY =
@@ -83,7 +83,7 @@ class PageCrawler {
       });
 
       return results;
-    } catch (error) {
+    } catch (_error) {
       return [];
     }
   }
@@ -139,7 +139,7 @@ class PageCrawler {
     });
 
     // Listen for failed requests
-    page.on('requestfailed', request => {
+    page.on('requestfailed', _request => {
       pageErrors.resourceErrors++;
     });
 
@@ -188,7 +188,7 @@ class PageCrawler {
   async checkPage(page, pageErrors, file, index) {
     const url = baseUrl + file;
     const errors = [];
-    let localErrorCounts = {
+    const localErrorCounts = {
       jsErrors: 0,
       resourceErrors: 0,
       mathErrors: 0,
@@ -270,13 +270,13 @@ class PageCrawler {
           // Limit to first 3 snippets to avoid cluttering output
           const snippetsToShow = mathCheck.mathSnippets.slice(0, 3);
 
-          snippetsToShow.forEach((snippet, idx) => {
+          snippetsToShow.forEach(snippet => {
             // Clean up the snippet for better matching
             const cleanSnippet = snippet.replace(/\s+/g, ' ').trim();
 
             // Show the snippet
             const displaySnippet =
-              cleanSnippet.length > 60 ? cleanSnippet.substring(0, 60) + '...' : cleanSnippet;
+              cleanSnippet.length > 60 ? `${cleanSnippet.substring(0, 60)}...` : cleanSnippet;
             errors.push(`  → "${displaySnippet}"`);
 
             // Search for context around $$
@@ -354,7 +354,7 @@ class PageCrawler {
   }
 
   printSummary() {
-    console.log('\n' + chalk.cyan('='.repeat(60)));
+    console.log(`\n${chalk.cyan('='.repeat(60))}`);
     console.log(chalk.cyan.bold('SUMMARY'));
     console.log(chalk.cyan('='.repeat(60)));
 

@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 const contentsDir = path.join(__dirname, '../contents');
 
 function fixSplitDelimiters(content) {
-  let lines = content.split('\n');
+  const lines = content.split('\n');
   let changeCount = 0;
   let inEquationDiv = false;
 
@@ -47,7 +47,7 @@ function fixSplitDelimiters(content) {
           // If there's content after $$, this is likely: text $$ equation
           if (afterDollar.length > 0 && !afterDollar.includes('$$')) {
             // Replace the standalone $$ with joining it to previous line
-            lines[j] = prevLine + ' $$';
+            lines[j] = `${prevLine} $$`;
             lines[i] = ''; // Remove the standalone $$
             changeCount++;
             break;
@@ -56,16 +56,6 @@ function fixSplitDelimiters(content) {
       }
     }
   }
-
-  // Remove empty lines that were standalone $$
-  const filtered = lines.filter((line, idx) => {
-    // Keep non-empty lines
-    if (line.trim() !== '') return true;
-    // Keep empty lines that are not the ones we just emptied
-    // (i.e., keep original blank lines for formatting)
-    // This is a simple heuristic - might need refinement
-    return true;
-  });
 
   return { content: lines.join('\n'), changes: changeCount };
 }
@@ -101,7 +91,7 @@ function main() {
     }
   });
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log(`Files processed: ${files.length}`);
   console.log(`Files changed: ${filesChanged}`);
   console.log(`Total fixes: ${totalChanges}`);

@@ -22,16 +22,11 @@ import path from 'path';
 import { pathToFileURL } from 'url';
 import { execFileSync } from 'child_process';
 import { glob } from 'glob';
-
-import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
-
-import { runCli } from './lib/cli.js';
-
-import { getBaseDir, readFile } from './lib/files.js';
-
-import { getLineNumber } from './lib/parser.js';
-
 import chalk from 'chalk';
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+import { runCli } from './lib/cli.js';
+import { getBaseDir, readFile } from './lib/files.js';
+import { getLineNumber } from './lib/parser.js';
 
 // Default cache settings
 const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
@@ -376,7 +371,7 @@ class LinkChecker {
       return this._gitignoreCache.get(relPath);
     }
 
-    let result = false;
+    let result;
     try {
       // `git check-ignore --quiet` exits 0 when the path is ignored, 1 otherwise.
       execFileSync('git', ['check-ignore', '--quiet', '--', relPath], {

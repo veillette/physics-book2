@@ -7,8 +7,8 @@ import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
 const md = createMarkdown();
 
 // Helpers to build expected kdmath output without tripping template-literal ${}.
-const span = x => '<span class="kdmath">$' + x + '$</span>';
-const blockDiv = x => '<div class="kdmath">$$\n' + x + '\n$$</div>\n';
+const span = x => `<span class="kdmath">$${x}$</span>`;
+const blockDiv = x => `<div class="kdmath">$$\n${x}\n$$</div>\n`;
 
 describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () => {
   it('inline $$…$$ becomes a single-$ kdmath span with trimmed content', () => {
@@ -21,8 +21,8 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
   it('emits math body RAW (unescaped & and <), exactly as Kramdown does', () => {
     expect(md.renderInline('$$a& =&b$$')).toBe(span('a& =&b'));
     // {d}_{\text{o}}<f  — built by concat so ${ never starts an interpolation
-    const inner = '{d}_{' + String.raw`\text{o}` + '}<f';
-    expect(md.renderInline('$$' + inner + ' $$')).toBe(span(inner));
+    const inner = `{d}_{${String.raw`\text{o}`}}<f`;
+    expect(md.renderInline(`$$${inner} $$`)).toBe(span(inner));
   });
 
   it('does NOT treat single $ as math (currency stays literal)', () => {
@@ -42,12 +42,12 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
 
   it('preserves \\\\ row separators and & inside a multi-line display block', () => {
     const body = String.raw`\begin{array}{ll} a & b \\ c & d \end{array}`;
-    expect(md.render('$$' + body + '$$')).toBe(blockDiv(body));
+    expect(md.render(`$$${body}$$`)).toBe(blockDiv(body));
   });
 
   it('$$…$$ embedded in a paragraph stays an inline span', () => {
     expect(md.render('where $$Q $$ is the charge')).toBe(
-      '<p>where ' + span('Q') + ' is the charge</p>\n'
+      `<p>where ${span('Q')} is the charge</p>\n`
     );
   });
 

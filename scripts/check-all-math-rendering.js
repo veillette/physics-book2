@@ -1,6 +1,5 @@
-import { chromium } from 'playwright';
 import fs from 'fs';
-import path from 'path';
+import { chromium } from 'playwright';
 
 (async () => {
   const baseUrl = 'http://localhost:4000/physics-book2/contents/';
@@ -12,7 +11,7 @@ import path from 'path';
     .filter(f => f.endsWith('.html'))
     .sort();
 
-  console.log('Checking all ' + files.length + ' pages for math rendering...\n');
+  console.log(`Checking all ${files.length} pages for math rendering...\n`);
 
   const browser = await chromium.launch();
   const page = await browser.newPage();
@@ -52,48 +51,40 @@ import path from 'path';
       if (result.unrendered > 0) {
         totalUnrendered++;
         failedPages.push({
-          file: file,
+          file,
           unrendered: result.unrendered,
           rendered: result.rendered,
         });
-        console.log('❌ ' + file + ' - ' + result.unrendered + ' unrendered $$');
+        console.log(`❌ ${file} - ${result.unrendered} unrendered $$`);
       } else if (result.rendered > 0) {
         // Only show progress for pages with math
         const progress = Math.round(((i + 1) / files.length) * 100);
         if ((i + 1) % 20 === 0 || i === files.length - 1) {
           console.log(
-            '✅ Progress: ' +
-              (i + 1) +
-              '/' +
-              files.length +
-              ' (' +
-              progress +
-              '%) - ' +
-              totalWithMath +
-              ' pages with math checked'
+            `✅ Progress: ${i + 1}/${files.length} (${progress}%) - ${
+              totalWithMath
+            } pages with math checked`
           );
         }
       }
     } catch (e) {
-      console.log('⚠️  Error loading ' + file + ': ' + e.message);
+      console.log(`⚠️  Error loading ${file}: ${e.message}`);
     }
   }
 
   await browser.close();
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${'='.repeat(60)}`);
   console.log('SUMMARY');
   console.log('='.repeat(60));
-  console.log('Total pages checked: ' + totalChecked);
-  console.log('Pages with math: ' + totalWithMath);
-  console.log('Pages with unrendered $$: ' + totalUnrendered);
+  console.log(`Total pages checked: ${totalChecked}`);
+  console.log(`Pages with math: ${totalWithMath}`);
+  console.log(`Pages with unrendered $$: ${totalUnrendered}`);
 
   if (failedPages.length > 0) {
     console.log('\n❌ FAILED PAGES:');
     failedPages.forEach(p => {
-      console.log(
-        '  - ' + p.file + ': ' + p.unrendered + ' unrendered, ' + p.rendered + ' rendered'
-      );
+      console.log(`  - ${p.file}: ${p.unrendered} unrendered, ${p.rendered} rendered`);
     });
   } else {
     console.log('\n✅ ALL PAGES RENDER MATH CORRECTLY!');

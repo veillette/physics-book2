@@ -1,6 +1,6 @@
-import { describe, it, expect, beforeEach } from 'vitest';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { describe, it, expect, beforeEach } from 'vitest';
 import LinkChecker from '../scripts/check-links.js';
 import { getLineNumber } from '../scripts/lib/parser.js';
 

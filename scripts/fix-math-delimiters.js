@@ -17,9 +17,8 @@
  */
 
 import fs from 'fs';
-import path from 'path';
+import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import chalk from 'chalk';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -60,7 +59,7 @@ class MathDelimiterFixer {
   /**
    * Fix common patterns in file content
    */
-  fixFileContent(content, filename) {
+  fixFileContent(content, _filename) {
     const lines = content.split('\n');
     const fixes = [];
     let modified = false;
@@ -211,7 +210,7 @@ class MathDelimiterFixer {
    * Print summary statistics
    */
   printSummary() {
-    console.log('\n' + chalk.cyan('='.repeat(60)));
+    console.log(`\n${chalk.cyan('='.repeat(60))}`);
     console.log(chalk.cyan.bold('SUMMARY'));
     console.log(chalk.cyan('='.repeat(60)));
 
