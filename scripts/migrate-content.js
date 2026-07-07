@@ -135,12 +135,89 @@ function matchContainerOpen(trimmed, file, lineNo) {
   return { tag, name, jsonPart };
 }
 
+// step 3b: raw HTML tables (<table>…</table>, none carry markdown="1") are verbatim in
+// Kramdown, but their cells contain $$…$$ separated by blank lines; markdown-it's html_block
+// rule ends at the first blank line, so the cell math would be re-parsed as kdmath. Drop
+// blank lines inside a raw table region so the whole table stays one contiguous html_block.
+function stripBlanksInRawTables(lines) {
+  const out = [];
+  let depth = 0;
+  for (const line of lines) {
+    if (!(depth > 0 && line.trim() === '')) out.push(line);
+    depth += (line.match(/<table\b/g) || []).length - (line.match(/<\/table>/g) || []).length;
+    if (depth < 0) depth = 0;
+  }
+  return out;
+}
+
+// step 3c: some IALs are wrapped across lines INSIDE their quoted value (footnote-refs:
+//   `…{: class="` / `  footnote-ref-link"}`). Join a line whose last `{:` has no closing
+// `}` with the following line so markdown-it-attrs sees a single, parseable IAL.
+function joinWrappedIALs(lines) {
+  const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+    const unclosed = s => {
+      const k = s.lastIndexOf('{:');
+      return k !== -1 && s.indexOf('}', k) === -1;
+    };
+    while (unclosed(line) && i + 1 < lines.length) {
+      line = line.replace(/\s+$/, '') + ' ' + lines[++i].replace(/^\s+/, '');
+    }
+    out.push(line);
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------
-// step 4: fold a leading list-item IAL to end-of-line so it binds to the <li>.
+// step 4: fold a leading list-item IAL to the end of the item's OWN content so it binds to
+// the <li> (Kramdown places the IAL first; markdown-it-attrs wants it last).
 //   "2. {: .chapter} [Intro](x.md)"  ->  "2. [Intro](x.md) {: .chapter}"
-function foldListItemIAL(line) {
-  const m = line.match(/^(\s*(?:\d+\.|[-*+]))\s+(\{:[^}]*\})\s+(\S.*)$/);
-  return m ? `${m[1]} ${m[3]} ${m[2]}` : line;
+// The item may wrap across continuation lines (footnote-refs), so the IAL moves to the last
+// continuation line — but NOT past a nested list item (its own IAL binds to the parent li).
+function foldListItemIALs(lines) {
+  const out = lines.slice();
+  const LEADING = /^(\s*(?:\d+\.|[-*+]))\s+(\{:[^}]*\})\s+(\S.*)$/;
+  const MARKER = /^\s*(?:\d+\.|[-*+])\s/;
+  for (let i = 0; i < out.length; i++) {
+    const m = out[i].match(LEADING);
+    if (!m) continue;
+    const [, marker, ial, rest] = m;
+    const markerIndent = indentOf(marker);
+    let j = i;
+    while (j + 1 < out.length) {
+      const nxt = out[j + 1];
+      if (nxt.trim() === '' || indentOf(nxt) <= markerIndent || MARKER.test(nxt)) break;
+      j++;
+    }
+    out[i] = `${marker} ${rest}`;
+    out[j] = out[j].replace(/\s+$/, '') + ' ' + ial;
+  }
+  return out;
+}
+
+// step 4b: a standalone IAL (blank line before it) binds FORWARD to the next block in
+// Kramdown (a "block IAL before an element"), whereas markdown-it-attrs binds a lone IAL
+// backward. When that next block is a heading we fold the IAL onto the heading line so it
+// binds there (e.g. `{: #Table1}` after a table -> `### Efficiency {: #Table1}` ->
+// <h3 id="Table1">). An IAL with NO blank before it stays attached to its preceding block
+// (image `{: #FigureN}`, `### Glossary`/`{: class="glossary-title"}`) — same in both engines.
+const IAL_ONLY_RE = /^\s*(\{:\s*[^}]*\})\s*$/;
+function moveForwardIALs(lines) {
+  const out = lines.slice();
+  for (let i = 0; i < out.length; i++) {
+    const m = out[i] != null && out[i].match(IAL_ONLY_RE);
+    if (!m) continue;
+    const blankBefore = i === 0 || out[i - 1] == null || out[i - 1].trim() === '';
+    if (!blankBefore) continue; // attached to the preceding block — leave it
+    let j = i + 1;
+    while (j < out.length && (out[j] == null || out[j].trim() === '')) j++;
+    if (j < out.length && /^#{1,6}\s/.test(out[j])) {
+      out[j] = out[j].replace(/\s+$/, '') + ' ' + m[1];
+      out[i] = null;
+    }
+  }
+  return out.filter(l => l !== null);
 }
 
 // ---------------------------------------------------------------------------
@@ -299,9 +376,13 @@ function convert(text, { file, isSummary }) {
     .replace(/\{%\s*endraw\s*%\}/g, '')
     .replace(/\{\{\s*site\.baseurl\s*\}\}/g, '');
 
-  // step 4 (per line), then step 5, then step 6.
-  const folded = b.split('\n').map(foldListItemIAL).join('\n');
-  const converted = convertContainers(folded, file);
+  // steps 3b (raw-table blanks), 3c (join wrapped IALs), 4 (fold list IALs), 4b (forward
+  // IALs), then 5 (containers), then 6 (blanks).
+  let lines = stripBlanksInRawTables(b.split('\n'));
+  lines = joinWrappedIALs(lines);
+  lines = foldListItemIALs(lines);
+  lines = moveForwardIALs(lines);
+  const converted = convertContainers(lines.join('\n'), file);
   const normalised = normaliseBlanks(converted);
   let outBody = normalised.join('\n');
 
