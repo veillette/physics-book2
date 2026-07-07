@@ -1514,8 +1514,13 @@ body.dark-mode .book .book-body .page-wrapper .page-inner .exercise > section {
   border-block-start-color: var(--color-dark-border);
 }
 
-:is(body.dark-mode .example .solution, body.dark-mode .exercise .solution) {
+body.dark-mode .book .book-body .page-wrapper .page-inner :is(.example, .exercise) .solution {
   border-block-start-color: var(--color-dark-border);
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
+}
+
+body.dark-mode .book .book-body .page-wrapper .page-inner :is(.example, .exercise) .solution > section {
   background-color: var(--color-dark-bg-secondary);
   color: var(--color-dark-text-primary);
 }
@@ -1529,27 +1534,27 @@ body.dark-mode .book .book-body .page-wrapper .page-inner .exercise > section {
   color: var(--color-dark-text-muted);
 }
 
-body.dark-mode table {
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal table {
   background-color: var(--color-dark-bg-secondary);
   color: var(--color-dark-text-primary);
 }
 
-body.dark-mode table tr {
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal table tr {
   border-block-start-color: var(--color-dark-border);
   background-color: var(--color-dark-bg-secondary);
 }
 
-body.dark-mode table tr:nth-child(2n) {
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
   background-color: #252525;
 }
 
-body.dark-mode table th {
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal table tr th {
   background-color: var(--color-dark-bg-tertiary);
   color: var(--color-dark-text-primary);
   border-color: var(--color-dark-border);
 }
 
-body.dark-mode table td {
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal table tr td {
   background-color: transparent;
   color: var(--color-dark-text-primary);
   border-color: var(--color-dark-border);
