@@ -62,6 +62,10 @@ class OrphanFileFinder {
     // Directory patterns to exclude (dynamically referenced files)
     this.excludedDirs = [
       'assets/pdf/', // PDFs are dynamically referenced in book-viewer.js
+      // MathJax is a third-party library (npm package, copied via `update:mathjax`).
+      // Only the tex-chtml.js entry point is referenced statically; the rest of
+      // ui/, a11y/, and sre/ are lazy-loaded by MathJax at runtime.
+      'assets/js/mathjax/',
     ];
 
     this.stats = {
