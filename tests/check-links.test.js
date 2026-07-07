@@ -144,4 +144,51 @@ External link: [Wikipedia](https://en.wikipedia.org)
       expect(checker.stats.totalLinks).toBe(2);
     });
   });
+
+  describe('isGitignored', () => {
+    it('should detect gitignored paths under /assets/pdf/', () => {
+      expect(checker.isGitignored('assets/pdf/chapter-01-complete.pdf')).toBe(true);
+    });
+
+    it('should not flag tracked files as gitignored', () => {
+      expect(checker.isGitignored('contents/preface.md')).toBe(false);
+    });
+
+    it('should cache results across calls', () => {
+      checker.isGitignored('assets/pdf/chapter-01-complete.pdf');
+      expect(checker._gitignoreCache.has('assets/pdf/chapter-01-complete.pdf')).toBe(true);
+    });
+
+    it('should respect the noGitignoreSkip option', () => {
+      const strictChecker = new LinkChecker({ noGitignoreSkip: true });
+      expect(strictChecker.respectGitignore).toBe(false);
+    });
+  });
+
+  describe('checkInternalLink — gitignored build artifacts', () => {
+    it('should warn (not break) on missing gitignored targets', async () => {
+      const link = {
+        text: 'PDF',
+        url: '/assets/pdf/chapter-99-complete.pdf',
+        type: 'markdown',
+        line: 1,
+      };
+      const before = checker.stats.brokenLinks;
+      await checker.checkInternalLink(link, 'contents/preface.md');
+      expect(checker.stats.brokenLinks).toBe(before);
+      expect(checker.stats.skippedLinks).toBeGreaterThan(0);
+    });
+
+    it('should break on missing non-gitignored targets', async () => {
+      const link = {
+        text: 'missing',
+        url: '/contents/this-file-does-not-exist.md',
+        type: 'markdown',
+        line: 1,
+      };
+      const before = checker.stats.brokenLinks;
+      await checker.checkInternalLink(link, 'contents/preface.md');
+      expect(checker.stats.brokenLinks).toBe(before + 1);
+    });
+  });
 });

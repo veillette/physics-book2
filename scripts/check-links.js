@@ -13,12 +13,14 @@
  *   --timeout <ms>     Request timeout in milliseconds (default: 10000)
  *   --no-cache         Disable persistent caching
  *   --cache-ttl <days> Cache TTL in days (default: 7)
+ *   --no-gitignore-skip  Fail on links to gitignored build artifacts (default: warn)
  *   --help             Show this help message
  */
 
 import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
+import { execFileSync } from 'child_process';
 import { glob } from 'glob';
 import fetch from 'node-fetch';
 
@@ -50,6 +52,12 @@ class LinkChecker {
     this.cacheTTL = options.cacheTTL || DEFAULT_CACHE_TTL;
     this.useCache = options.noCache !== true;
 
+    // When true, internal links to gitignored paths (build artifacts absent from
+    // a fresh checkout, e.g. generated PDFs in /assets/pdf/) are reported as
+    // warnings instead of broken links. See decision D6 in roadmap.md.
+    this.respectGitignore = options.noGitignoreSkip !== true;
+    this._gitignoreCache = new Map();
+
     this.stats = {
       totalFiles: 0,
       totalLinks: 0,
@@ -58,10 +66,12 @@ class LinkChecker {
       internalLinks: 0,
       warnings: 0,
       cachedLinks: 0,
+      skippedLinks: 0,
     };
 
     this.brokenLinks = [];
     this.warnings = [];
+    this.skippedLinks = [];
     this.checkedUrls = new Map();
 
     if (this.useCache) {
@@ -75,7 +85,15 @@ class LinkChecker {
     // Find all markdown files
     const markdownFiles = await glob('**/*.md', {
       cwd: this.baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**'],
+      ignore: [
+        'node_modules/**',
+        '_site/**',
+        '.jekyll-cache/**',
+        // Gitignored vendored/baseline dirs (see .gitignore) — keep them out of
+        // link checks so local runs don't scan thousands of gem/baseline links.
+        'vendor/**',
+        '_site_jekyll_baseline/**',
+      ],
     });
 
     this.stats.totalFiles = markdownFiles.length;
@@ -329,8 +347,53 @@ class LinkChecker {
     });
 
     if (!found) {
+      // The target is missing from the working tree. If it is gitignored, it is
+      // a build artifact (e.g. generated PDFs under /assets/pdf/) that is
+      // intentionally absent from a fresh checkout — see decision D6. Treat it
+      // as a non-fatal warning so CI link checks pass on generated assets.
+      if (this.respectGitignore && this.isGitignored(targetPath)) {
+        this.skippedLinks.push({
+          file: filePath,
+          line: link.line,
+          url: link.url,
+          reason: 'Gitignored build artifact (skipped)',
+        });
+        this.stats.skippedLinks++;
+        return;
+      }
       this.addBrokenLink(link, filePath, 'File not found');
     }
+  }
+
+  /**
+   * Check whether a path (relative to baseDir) is gitignored.
+   *
+   * Uses `git check-ignore` so all .gitignore semantics (directory patterns,
+   * negation, nested .gitignore files) are honored. Results are cached. If git
+   * is unavailable or the path is not in a git repo, returns false so that the
+   * caller falls back to the default "broken link" behavior.
+   * @param {string} relPath - Path relative to baseDir
+   * @returns {boolean}
+   */
+  isGitignored(relPath) {
+    if (this._gitignoreCache.has(relPath)) {
+      return this._gitignoreCache.get(relPath);
+    }
+
+    let result = false;
+    try {
+      // `git check-ignore --quiet` exits 0 when the path is ignored, 1 otherwise.
+      execFileSync('git', ['check-ignore', '--quiet', '--', relPath], {
+        cwd: this.baseDir,
+        stdio: 'ignore',
+      });
+      result = true;
+    } catch {
+      result = false;
+    }
+
+    this._gitignoreCache.set(relPath, result);
+    return result;
   }
 
   addBrokenLink(link, filePath, error) {
@@ -372,6 +435,18 @@ class LinkChecker {
       }
     }
 
+    if (this.stats.skippedLinks > 0) {
+      console.log(
+        chalk.gray(`\n⏭️  Skipped ${this.stats.skippedLinks} gitignored build-artifact link(s)`)
+      );
+      this.skippedLinks.slice(0, 10).forEach(skipped => {
+        console.log(chalk.gray(`   ${skipped.file}:${skipped.line} - ${skipped.url}`));
+      });
+      if (this.skippedLinks.length > 10) {
+        console.log(chalk.gray(`   ... and ${this.skippedLinks.length - 10} more`));
+      }
+    }
+
     if (this.warnings.length > 0) {
       console.log(chalk.yellow(`\n⚠️  ${this.warnings.length} warnings`));
     }
@@ -408,17 +483,25 @@ if (isMain)
         type: 'number',
         default: 7,
       },
+      noGitignoreSkip: {
+        flag: '--no-gitignore-skip',
+        description:
+          'Fail (instead of warn) on internal links to gitignored build artifacts (default: skip)',
+        default: false,
+      },
     },
     examples: [
       'node scripts/check-links.js',
       'node scripts/check-links.js --timeout 5000',
       'node scripts/check-links.js --no-cache',
+      'node scripts/check-links.js --no-gitignore-skip',
     ],
     run: async options => {
       const checker = new LinkChecker({
         timeout: options.timeout,
         noCache: options.noCache,
         cacheTTL: options.cacheTTL * 24 * 60 * 60 * 1000,
+        noGitignoreSkip: options.noGitignoreSkip,
       });
       return checker.run();
     },
