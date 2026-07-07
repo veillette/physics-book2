@@ -169,18 +169,50 @@ function joinWrappedIALs(lines) {
   return out;
 }
 
-// step 3e: some image titles contain a raw `<a href="#…">` — i.e. double quotes INSIDE a
-// double-quoted title (and the title may wrap across lines). Kramdown reads the title to
-// the last `"` before `)` and escapes the inner tag; markdown-it stops at the first inner
-// `"`, which spills a real <a> (a spurious link) or fails the image entirely (literal
-// `![…]`). Switch the title delimiter to single quotes (these titles contain no `'`) so
-// markdown-it parses the whole title and escapes the inner `"` in the attribute. Body-level
-// so it also handles titles that span lines.
-const IMG_TITLE_RE = /(!\[[^\]]*\]\([^\s)]+[ \t\n]+)"((?:[^"]|"(?![ \t]*\)))*)"([ \t]*\))/g;
+// step 3a: a hard-wrapped source line sometimes splits a link/image URL across the break
+// (`](..` / `/resources/x.jpg …`). markdown-it rejects a newline inside a URL and drops the
+// whole link/image; Kramdown joins it. Re-join when a line ends with an unterminated `](`
+// URL (no space/quote/`)` after the last `](`).
+function joinWrappedURLs(lines) {
+  const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+    // Join only when the next line CONTINUES the URL — not when a complete URL is followed
+    // by a title on its own line (`](url\n"title")`, which markdown-it handles). A next line
+    // starting with a quote is a title, so stop there.
+    while (
+      i + 1 < lines.length &&
+      /\]\([^\s)"']*$/.test(line) &&
+      lines[i + 1].trim() !== '' &&
+      !/^\s*["']/.test(lines[i + 1])
+    ) {
+      line += lines[++i].replace(/^\s+/, '');
+    }
+    out.push(line);
+  }
+  return out;
+}
+
+// step 3e: an image title sometimes contains its OWN delimiter — a double-quoted title with
+// a raw `<a href="#…">`, or a single-quoted title with an apostrophe (`'…Earth's orbit…'`).
+// Kramdown reads to the last delimiter before `)`; markdown-it stops at the first inner one,
+// which spills a real <a> (spurious link) or fails the image entirely (literal `![…]`).
+// Switch to the OTHER delimiter (when the title doesn't already contain it) so markdown-it
+// parses the whole title. Body-level so it also handles titles that wrap across lines.
 function fixNestedQuoteTitles(body) {
-  return body.replace(IMG_TITLE_RE, (m, pre, title, post) =>
-    title.includes('"') && !title.includes("'") ? `${pre}'${title}'${post}` : m
-  );
+  for (const [d, other] of [
+    ['"', "'"],
+    ["'", '"'],
+  ]) {
+    const re = new RegExp(
+      `(!\\[[^\\]]*\\]\\([^\\s)]+[ \\t\\n]+)${d}((?:[^${d}]|${d}(?![ \\t]*\\)))*)${d}([ \\t]*\\))`,
+      'g'
+    );
+    body = body.replace(re, (m, pre, title, post) =>
+      title.includes(d) && !title.includes(other) ? `${pre}${other}${title}${other}${post}` : m
+    );
+  }
+  return body;
 }
 
 // step 3d: an inline term IAL sometimes wraps to the next line AFTER its bold span:
@@ -418,7 +450,7 @@ function convert(text, { file, isSummary }) {
 
   // steps 3b (raw-table blanks), 3c (join wrapped IALs), 4 (fold list IALs), 4b (forward
   // IALs), then 5 (containers), then 6 (blanks).
-  b = fixNestedQuoteTitles(b);
+  b = fixNestedQuoteTitles(joinWrappedURLs(b.split('\n')).join('\n'));
   let lines = stripBlanksInRawTables(b.split('\n'));
   lines = joinWrappedIALs(lines);
   lines = joinEmphasisIALs(lines);
