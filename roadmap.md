@@ -971,6 +971,84 @@ kramdown-typography.js` disables `replacements`, keeps `smartquotes`, and re-add
   Real `markdown="1"` block count is **6938**; container allow-list is the 8 names in the
   census JSON.
 
+## 10b. P5–P9 execution findings (2026-07-07)
+
+P5, P6, P7 and P9 are implemented on `migrate/eleventy`; P8 is well underway. The site
+builds, boots, and is deployable from the branch in its **staging** shape (Kramdown source
+
+- `scripts/migrate-content.js` → `src/` → Eleventy). P10 (the irreversible cutover that
+  deletes the Kramdown source and merges to `main`) is intentionally **not executed** — see
+  the note at the end.
+
+**P5 — converter (`scripts/migrate-content.js`), corrections to §4/§10a:**
+
+- **Duplicate `class` attrs → LAST value wins, not merged** (§2.1's "merge" was wrong):
+  `class="note" … class="interactive"` renders `class="interactive"`. Added an
+  `interactive` container (`containers.js` + census); the census generator now uses the
+  last class attribute too.
+- **Container fences need depth-aware colon counts.** `<figure markdown="1">` nests inside
+  `note`/`example` (§4.3's "no nested markdown=1" was wrong). markdown-it-container matches
+  a close by marker length and does not track nesting, so each container gets
+  `3 + (maxDepth − depth)` colons (outer > inner).
+- **Raw wrappers:** blank line only AFTER a raw-close (never before a raw-open — that breaks
+  an indented `<div class="equation">` continuing a list item); raw-wrapper body re-indented
+  to the wrapper's column so an un-indented `$$…$$` stays inside its html_block; blank lines
+  inside raw `<table>` stripped so cell `$$…$$` stays verbatim.
+- **Mid-line block tags escaped.** A `<div class="equation">` in the middle of a paragraph
+  is span-context for Kramdown, which escapes it to text; the converter escapes mid-line
+  `<div|figure|section>` so markdown-it doesn't emit a real, unbalanced element.
+- **IAL handling:** a standalone IAL (blank line before) binds FORWARD to the next heading
+  in Kramdown (e.g. `{: #Table1}` after a table → the following `### Efficiency`); list-item
+  IAL folding is item-aware (moves to the end of the item's own content, not past a nested
+  list); wrapped/emphasis-adjacent IALs are joined (footnote-refs, `**term**`/`{: …}`).
+
+**Pipeline (`lib/eleventy/`):**
+
+- **Math block-vs-span** is decided in a post-inline core rule: a `$$…$$` that is the sole
+  content of a paragraph or list item becomes a display `<div class="kdmath">`, otherwise an
+  inline `<span class="kdmath">`. This is robust where a block-ruler heuristic is not
+  (markdown-it gives no tight per-list-item line range).
+- **`markdown-it-raw-titles`** keeps link/image `title` backslashes verbatim (`\( 2T \)`)
+  but decodes HTML entities (`&#x2019;` → `’`) so captions match after entity normalisation.
+- **Typography**: added Kramdown's `<<`→«, `>>`→» (D7).
+- **`HtmlBasePlugin` replaced** by a narrow `href|src="/…"` prefix transform: it leaves
+  `./ ../ # http(s)` verbatim (HtmlBasePlugin normalised `./x`→`x`, breaking 54 pages) and
+  reads the active `pathPrefix`, so `VERCEL=1` builds at root while Pages builds under
+  `/physics-book2/`.
+
+**P6/P7 — boot verified** on the dev server (port 4000): MathJax renders, the client figure
+builder wraps `img[title]` into `figure`+`figcaption`, the TOC loads from `/SUMMARY.html`,
+`window.Book.rootUrl` has no trailing slash, `sw.js` is emitted with the right `BASE_URL`,
+and the search index loads. (`src/sw.njk` → `/sw.js`.)
+
+**P9 — Node-only CI/deploy.** `deploy.yml`/`ci.yml`/`generate-pdfs.yml`/`link-check.yml`
+drop Ruby, use Node 24, and build with Eleventy. PDFs (D6) are published to a `pdfs` GitHub
+Release by `generate-pdfs.yml` and restored by `deploy.yml` (warn if absent). CI grep gates
+(no `markdown="1"`/line-initial `{:`/`:::`/`{% raw` in `_site`) are **green**. `vercel.json`
+uses `npm ci` + Eleventy. (Note: `npm run test:unit` still fails the 21 **pre-existing**
+QA-script tests — `check-links.getLineNumber`, `check-math` currency, `check-orphans` — which
+are P10.5 sweep items, unrelated to the migration; `markdown-pipeline.test.js` is green.)
+
+**P8 — parity status:** `compare-builds.js` self-test is 285/285; the Eleventy build is
+**183/285** shared pages PASS (all container-census and nearly all heading-id/link facets
+clean). The ~102 remaining are, in decreasing order, `text`/`math`/`images`/`links` diffs
+concentrated in malformed-source constructs and genuine Kramdown-vs-CommonMark differences:
+
+- **Cosmetic / MathJax-equivalent** (whitelist candidates): display-math internal whitespace;
+  smartquote _direction_ on `="` inside inert leaked text (`{ type="a"}`, `**{: class="term"}`)
+  which is present in the baseline too.
+- **Malformed source** (Kramdown is lenient, CommonMark is not): mid-line `<div class="equation">`
+  runs (~9 pages), nested double-quotes inside an image `title` that spill a real `<a>`
+  (spurious links), `** $$x$$ **` emphasis with an interior space.
+- **Complex hand-written HTML tables / GFM tables** (appendixA, Glossary).
+
+**P10 — NOT executed (deliberate).** The cutover deletes the canonical Kramdown source and
+retires the converter (making it un-rerunnable), then merges to `main`; the roadmap gates
+this on P8 parity sign-off and keeps `main` on Jekyll until then. At 183/285 that sign-off
+is not met, so the destructive steps and the merge are left for a human decision. Everything
+up to the cutover is committed and re-runnable; the branch deploys correctly in the staging
+shape via the P9 workflow.
+
 ## 11. References
 
 - [Eleventy docs](https://www.11ty.dev/docs/) · [v4 release notes](https://github.com/11ty/eleventy/releases)

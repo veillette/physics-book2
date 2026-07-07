@@ -137,13 +137,19 @@ function comparePage(refHtml, candHtml) {
 }
 
 // ---- page enumeration ----
+// Jekyll renders its own _includes/*.html and _layouts/*.html template files as pages into
+// the baseline; those are not content and Eleventy does not emit them, so skip them.
+const NON_CONTENT = /^(_includes|_layouts)\//;
 function htmlFiles(root) {
   const out = [];
   (function walk(dir) {
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       const full = join(dir, entry.name);
       if (entry.isDirectory()) walk(full);
-      else if (entry.name.endsWith('.html')) out.push(relative(root, full));
+      else if (entry.name.endsWith('.html')) {
+        const rel = relative(root, full);
+        if (!NON_CONTENT.test(rel)) out.push(rel);
+      }
     }
   })(root);
   return out.sort();
