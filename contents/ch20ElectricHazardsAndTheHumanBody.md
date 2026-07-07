@@ -715,9 +715,9 @@ $$\Delta T = \frac{E}{mc} = \frac{500 \text{ J}}{(8.00 \text{ kg})(3500 \text{ J
 
 The defibrillator delivers a substantial charge (50.0 mC) at a very high voltage (10.0 kV), but only for a brief 5.00 ms pulse. The path resistance of 1.00 kΩ is reasonable for current passing through the chest (between external paddle electrodes through skin, muscle, and other tissue).
 
-The temperature rise of only 0.018°C is negligible and explains why defibrillation doesn't cause burns despite the high voltage and current. This is because the energy is distributed over a large mass of tissue (8.00 kg) and the duration is extremely short. The large paddles used in defibrillation help spread the current over a wide area, reducing current density and preventing localized heating. The brief, high-current pulse is designed to simultaneously depolarize the entire heart muscle, allowing it to restart with a normal rhythm.
+The temperature rise of only 0.018 °C is negligible and explains why defibrillation doesn't cause burns despite the high voltage and current. This is because the energy is distributed over a large mass of tissue (8.00 kg) and the duration is extremely short. The large paddles used in defibrillation help spread the current over a wide area, reducing current density and preventing localized heating. The brief, high-current pulse is designed to simultaneously depolarize the entire heart muscle, allowing it to restart with a normal rhythm.
 
-(a) 50.0 mC of charge passed through the patient. (b) A voltage of 10.0 kV was applied. (c) The path's resistance was 1.00 kΩ. (d) The temperature increase in the affected tissue was 0.018°C.
+(a) 50.0 mC of charge passed through the patient. (b) A voltage of 10.0 kV was applied. (c) The path's resistance was 1.00 kΩ. (d) The temperature increase in the affected tissue was 0.018 °C.
 
 :::
 
@@ -776,11 +776,11 @@ $$\Delta T = \frac{Q}{mc} = \frac{1440 \text{ J}}{(2.00 \text{ g})(0.837 \text{ 
 
 **Discussion**
 
-A temperature rise of 860°C in just 0.0500 seconds is catastrophic. This would:
-- Instantly melt most plastics and insulating materials (which typically melt at 100-300°C)
+A temperature rise of 860 °C in just 0.0500 seconds is catastrophic. This would:
+- Instantly melt most plastics and insulating materials (which typically melt at 100-300 °C)
 - Vaporize water and organic materials
-- Ignite flammable materials (paper ignites around 230°C)
-- Potentially vaporize copper wire (copper melts at 1085°C, so 860°C brings it close to melting)
+- Ignite flammable materials (paper ignites around 230 °C)
+- Potentially vaporize copper wire (copper melts at 1085 °C, so 860 °C brings it close to melting)
 
 **This is extremely damaging** and represents a severe fire hazard. The short circuit would almost certainly start a fire before the circuit breaker could interrupt the current, even with the relatively fast 0.0500-s response time. This demonstrates why electrical codes require proper wire sizing, circuit protection, and regular inspection of electrical cords—the 0.500-Ω resistance represents a partially damaged conductor that creates a localized hot spot.
 
@@ -788,7 +788,7 @@ In practice, as the temperature rises, the situation could worsen: melting insul
 
 **Final Answer**
 
-The temperature rises by **860°C** in 0.0500 seconds. **Yes, this is extremely likely to be damaging**—it would cause fires, melt insulation, and potentially vaporize the conductor.
+The temperature rises by **860 °C** in 0.0500 seconds. **Yes, this is extremely likely to be damaging**—it would cause fires, melt insulation, and potentially vaporize the conductor.
 
 :::
 

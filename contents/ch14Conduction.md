@@ -493,8 +493,8 @@ In practice, the body uses multiple mechanisms to transfer this heat to the envi
 - **Radiation** from skin to cooler surroundings
 - **Evaporation** of perspiration when needed
 
-The 3°C temperature difference between core and skin is typical for resting conditions in a comfortable environment. During:
-- **Exercise**: Core temperature can rise to 39-40°C, increasing the temperature gradient and heat flow
+The 3 °C temperature difference between core and skin is typical for resting conditions in a comfortable environment. During:
+- **Exercise**: Core temperature can rise to 39-40 °C, increasing the temperature gradient and heat flow
 - **Cold exposure**: Skin temperature drops, increasing the gradient but requiring more metabolic heat production
 - **Fever**: Core temperature rises, requiring enhanced cooling mechanisms
 
@@ -790,7 +790,7 @@ $$Q_{day} = \frac{3430080 \text{ J}}{4186 \text{ J/kcal}} = 819 \text{ kcal} \ap
 
 **Discussion**
 
-The heat loss rate of 39.7 W is quite modest despite the large temperature difference (37°C) and substantial surface area (1.40 m²). This demonstrates the remarkable insulating ability of fur. The key is that fur traps air in tiny pockets between hair strands, and air is an excellent insulator (k = 0.023 J/s·m·ºC, one of the lowest values in Table 1).
+The heat loss rate of 39.7 W is quite modest despite the large temperature difference (37 °C) and substantial surface area (1.40 m²). This demonstrates the remarkable insulating ability of fur. The key is that fur traps air in tiny pockets between hair strands, and air is an excellent insulator (k = 0.023 J/s·m·ºC, one of the lowest values in Table 1).
 
 The 3-cm thick fur provides an R-factor of:
 <div class="equation">
@@ -800,7 +800,7 @@ $$R = \frac{d}{k} = \frac{0.03}{0.023} = 1.30 \text{ m}^2\cdot\text{ºC/W}$$
 For comparison with human clothing:
 - **3 cm of fur**: 39.7 W heat loss
 - **Heavy winter coat** (similar thickness): Comparable insulation
-- **No insulation** (bare skin): Would lose >1000 W in -5°C air (life-threatening)
+- **No insulation** (bare skin): Would lose >1000 W in -5 °C air (life-threatening)
 
 The daily food requirement of 820 kcal is substantial but manageable for a large animal. For context:
 - This is roughly 30-40% of a typical large mammal's daily energy budget

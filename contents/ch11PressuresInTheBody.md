@@ -846,7 +846,7 @@ The gravitational potential energy gain is **0.370 J**, and the pressure drop is
 
 **(a) Height of capillary rise:**
 
-For water in glass at 20°C:
+For water in glass at 20 °C:
 - Surface tension: $$ \gamma = 0.0728 \text{ N/m} $$
 - Contact angle: $$ \theta = 0° $$ (so $$ \cos\theta = 1 $$)
 - Density: $$ \rho = 1000 \text{ kg/m}^3 $$

@@ -26,13 +26,13 @@
 
 import path from 'path';
 import {
-  UNITS,
   TERMINOLOGY,
   TERMINOLOGY_PATTERNS,
   COMMON_TYPOS,
   COMMON_REPEATS,
 } from './lib/constants.js';
-import { ContentParser, isImageLine, hasUrl, hasLatexCommands, createIssue } from './lib/parser.js';
+import { ContentParser, isImageLine, hasUrl, createIssue } from './lib/parser.js';
+import { findUnitSpacingIssues, fixUnitSpacingInText } from './lib/unit-spacing.js';
 import {
   printHeader,
   printDivider,
@@ -47,13 +47,6 @@ import {
 } from './lib/reporter.js';
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
 import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
-
-/**
- * Escape a string so it can be safely used inside a RegExp pattern.
- */
-function escapeRegExp(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
 
 /**
  * Content validator and fixer class.
@@ -195,28 +188,14 @@ class ContentProcessor {
   // ===== CHECK METHODS =====
 
   checkUnitSpacing(file, line, text) {
-    if (isImageLine(text)) return;
-    if (hasLatexCommands(text)) return;
     if (hasUrl(text)) return;
-    if (text.includes('$')) return;
 
-    const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
-    const unitPattern = new RegExp(
-      `(\\d)(${unitsWithoutDegree.map(escapeRegExp).join('|')})(?!\\w)`,
-      'g'
-    );
-
-    let match;
-    while ((match = unitPattern.exec(text)) !== null) {
-      const before = text.substring(Math.max(0, match.index - 10), match.index);
-      if (before.match(/Figure\s+\d+$/i) || before.match(/\d{4}-\d{2}-$/)) continue;
-      if (before.match(/ch\d+$/i) || before.match(/section\s*\d+$/i)) continue;
-
+    for (const issue of findUnitSpacingIssues(text)) {
       this.warnings.push(
         createIssue({
           file,
           line,
-          message: `Missing space before unit: "${match[0]}" should be "${match[1]} ${match[2]}"`,
+          message: `Missing space before unit: "${issue.match}" should be "${issue.number} ${issue.unit}"`,
           text: text.trim(),
           severity: 'warning',
         })
@@ -236,6 +215,10 @@ class ContentProcessor {
       const word = match[1].toLowerCase();
       if (COMMON_REPEATS.includes(word)) continue;
 
+      // "based on on-eye" — repeated word starts a hyphenated compound
+      const after = text.substring(match.index + match[0].length);
+      if (after.startsWith('-')) continue;
+
       this.warnings.push(
         createIssue({
           file,
@@ -253,18 +236,23 @@ class ContentProcessor {
     if (hasUrl(text) || text.match(/\.md|\.js|\.py/)) return;
 
     for (const [preferred, pattern] of Object.entries(TERMINOLOGY_PATTERNS)) {
-      if (pattern.test(text)) {
-        const match = text.match(pattern);
-        this.warnings.push(
-          createIssue({
-            file,
-            line,
-            message: `Inconsistent terminology: "${match[0]}" should be "${preferred}" (American English)`,
-            text: text.trim(),
-            severity: 'warning',
-          })
-        );
-      }
+      if (!pattern.test(text)) continue;
+
+      const match = text.match(pattern);
+      if (!match) continue;
+
+      const matchIndex = text.indexOf(match[0]);
+      if (matchIndex > 0 && /[a-z]/.test(text[matchIndex - 1])) continue;
+
+      this.warnings.push(
+        createIssue({
+          file,
+          line,
+          message: `Inconsistent terminology: "${match[0]}" should be "${preferred}" (American English)`,
+          text: text.trim(),
+          severity: 'warning',
+        })
+      );
     }
   }
 
@@ -286,6 +274,8 @@ class ContentProcessor {
   }
 
   checkNotation(file, line, text) {
+    if (text.includes('|')) return;
+
     if (text.includes('**v**') && text.includes('\\vec{v}')) {
       this.warnings.push(
         createIssue({
@@ -315,36 +305,7 @@ class ContentProcessor {
   // ===== FIX METHODS =====
 
   fixUnitSpacing(text) {
-    if (isImageLine(text)) return text;
-    if (hasLatexCommands(text)) return text;
-
-    // Split by inline math to avoid modifying inside math
-    const parts = text.split(/(\$\$[^$]*\$\$|\$[^$]+\$)/);
-
-    for (let i = 0; i < parts.length; i++) {
-      if (parts[i] && (parts[i].startsWith('$$') || parts[i].startsWith('$'))) {
-        continue;
-      }
-
-      if (parts[i]) {
-        const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
-        const escapedUnits = unitsWithoutDegree.map(escapeRegExp);
-        const unitPattern = new RegExp(`(\\d)(${escapedUnits.join('|')})(?!\\w)`, 'g');
-
-        parts[i] = parts[i].replace(unitPattern, (match, digit, unit, offset) => {
-          const before = parts[i].substring(Math.max(0, offset - 10), offset);
-          if (before.match(/Figure\s+\d+$/i) || before.match(/\d{4}-\d{2}-$/)) {
-            return match;
-          }
-          if (before.match(/ch\d+$/i) || before.match(/section\s*\d+$/i)) {
-            return match;
-          }
-          return `${digit} ${unit}`;
-        });
-      }
-    }
-
-    return parts.join('');
+    return fixUnitSpacingInText(text);
   }
 
   fixTerminology(text) {

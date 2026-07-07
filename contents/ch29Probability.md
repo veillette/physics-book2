@@ -367,7 +367,7 @@ What is the Heisenberg uncertainty principle? Does it place limits on what can b
 
 (b) $$ 9.55 \times 10^{-9} \text{eV} $$
 (c) From [[Table 1]](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum#Table1), we see that typical
-molecular binding energies range from about 1eV to 10 eV, therefore the result
+molecular binding energies range from about 1 eV to 10 eV, therefore the result
 in part (b) is approximately 9 orders of magnitude smaller than typical
 molecular binding energies.
 

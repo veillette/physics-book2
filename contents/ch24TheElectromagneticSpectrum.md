@@ -2605,7 +2605,7 @@ constant frequency but varying amplitude
 
 extremely low frequency (ELF)
 : electromagnetic radiation with wavelengths usually in the range of 0 to 300
-Hz, but also about 1kHz
+Hz, but also about 1 kHz
 
 carrier wave
 : an electromagnetic wave that carries a signal by modulation of its amplitude

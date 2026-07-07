@@ -351,8 +351,8 @@ A water barometer would need to be over 10 meters tall—impractical for most ap
 
 **2. Mercury has very low vapor pressure at room temperature**
 
-- Mercury's vapor pressure at 20°C: ~0.002 mm Hg (negligible)
-- Water's vapor pressure at 20°C: ~17.5 mm Hg
+- Mercury's vapor pressure at 20 °C: ~0.002 mm Hg (negligible)
+- Water's vapor pressure at 20 °C: ~17.5 mm Hg
 
 The space above the mercury column must be a near-vacuum. Water would evaporate into this space, creating vapor pressure that would depress the column and give inaccurate readings. Mercury's extremely low evaporation rate maintains the vacuum.
 

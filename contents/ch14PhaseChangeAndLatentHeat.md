@@ -696,7 +696,7 @@ The high latent heat of fusion also explains why ice on lakes takes a long time 
 **Strategy**
 
 This problem involves both heating (temperature change) and phase change (boiling). We must:
-1. Heat both the aluminum pot and water from 30.0°C to 100°C using $$Q = mc\Delta T$$
+1. Heat both the aluminum pot and water from 30.0 °C to 100 °C using $$Q = mc\Delta T$$
 2. Boil away 0.750 kg of water using $$Q = mL_{v}$$
 3. Sum all heat transfers
 4. Use $$P = Q/t$$ to find the time required
@@ -716,12 +716,12 @@ Given:
 
 **(a)** Calculate total heat transfer:
 
-**Step 1:** Heat the aluminum pot from 30.0°C to 100°C:
+**Step 1:** Heat the aluminum pot from 30.0 °C to 100 °C:
 <div class="equation">
 $$Q_{Al} = m_{Al}c_{Al}\Delta T = (0.750)(900)(100 - 30.0) = (0.750)(900)(70.0) = 47250 \text{ J}$$
 </div>
 
-**Step 2:** Heat the water from 30.0°C to 100°C:
+**Step 2:** Heat the water from 30.0 °C to 100 °C:
 <div class="equation">
 $$Q_w = m_w c_w \Delta T = (2.50)(4186)(70.0) = 732550 \text{ J}$$
 </div>
@@ -840,7 +840,7 @@ On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in y
 
 **Strategy**
 
-The ice melts at constant temperature (0°C), so all the heat entering the cooler goes into the phase change. We use $$Q = mL_{f}$$ to find the total heat absorbed, then divide by time to find power: $$P = Q/t$$.
+The ice melts at constant temperature (0 °C), so all the heat entering the cooler goes into the phase change. We use $$Q = mL_{f}$$ to find the total heat absorbed, then divide by time to find power: $$P = Q/t$$.
 
 **Solution**
 
@@ -1612,7 +1612,7 @@ $$m_r = \frac{1479640}{336000} = 4.40 \text{ kg}$$
 
 **Discussion**
 
-The result of approximately 4.4 kg of rocks to heat 4.0 kg of water makes sense given the temperature changes involved. The rocks cool by 400°C (from 500°C to 100°C) while the water heats by only 85°C (from 15°C to 100°C). Despite this 4.7:1 ratio in temperature changes, we need roughly equal masses because:
+The result of approximately 4.4 kg of rocks to heat 4.0 kg of water makes sense given the temperature changes involved. The rocks cool by 400 °C (from 500 °C to 100 °C) while the water heats by only 85 °C (from 15 °C to 100 °C). Despite this 4.7:1 ratio in temperature changes, we need roughly equal masses because:
 
 1. Water has a much higher specific heat (4186 J/kg·ºC) than granite (840 J/kg·ºC)—about 5 times higher
 2. Some energy is "lost" to vaporizing 25 g of water, which requires significant energy (56.4 kJ)
@@ -1624,7 +1624,7 @@ This ancient cooking method was ingenious and widely used by indigenous peoples 
 
 **Answer**
 
-The mass of 500°C rock needed is approximately **4.38 kg** or **4.40 kg**.
+The mass of 500 °C rock needed is approximately **4.38 kg** or **4.40 kg**.
 
 :::
 

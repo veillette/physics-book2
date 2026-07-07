@@ -1100,7 +1100,7 @@ The intensity of 18.0 kW/m² is quite high—about 18 times the intensity of sun
 
 Microwave ovens operate at 2.45 GHz because this frequency is: (1) efficiently absorbed by water molecules (causing them to rotate and heat up), (2) assigned by regulatory authorities for industrial, scientific, and medical (ISM) use, avoiding interference with communications, and (3) penetrates a few centimeters into food, allowing internal heating rather than just surface heating.
 
-The specific heat of the spaghetti (3.76 kJ/(kg·°C)) is close to that of water (4.18 kJ/(kg·°C)), which makes sense since cooked spaghetti is mostly water. The temperature rise of 45°C (from perhaps 20°C to 65°C) is typical for reheating food to a comfortable eating temperature.
+The specific heat of the spaghetti (3.76 kJ/(kg·°C)) is close to that of water (4.18 kJ/(kg·°C)), which makes sense since cooked spaghetti is mostly water. The temperature rise of 45 °C (from perhaps 20 °C to 65 °C) is typical for reheating food to a comfortable eating temperature.
 
 The magnetic field of 12.3 μT is weak—about one-quarter the strength of Earth's magnetic field—showing again that electromagnetic waves carry most of their energy in the electric field component from a practical standpoint, though both components carry equal energy densities in the wave.
 

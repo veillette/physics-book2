@@ -129,15 +129,15 @@ Which of the following substances are fluids at room temperature: air, mercury, 
 ::: solution
 
 **Strategy:**
-To identify fluids, we apply the defining characteristic: fluids are substances that yield to shearing forces and flow. We evaluate each substance at room temperature (approximately 20°C to 25°C).
+To identify fluids, we apply the defining characteristic: fluids are substances that yield to shearing forces and flow. We evaluate each substance at room temperature (approximately 20 °C to 25 °C).
 
 **Solution:**
 At room temperature, **air, mercury, and water are fluids**, while **glass is a solid**.
 
 Analysis of each substance:
 - **Air** is a gas composed primarily of nitrogen and oxygen molecules. Gases are fluids because their molecules move freely and the substance flows readily to fill any container.
-- **Mercury** is a liquid metal at room temperature (melting point: −39°C). It flows and takes the shape of its container, clearly demonstrating fluid behavior.
-- **Water** is a liquid at room temperature (melting point: 0°C, boiling point: 100°C). It readily flows and conforms to container shapes.
+- **Mercury** is a liquid metal at room temperature (melting point: −39 °C). It flows and takes the shape of its container, clearly demonstrating fluid behavior.
+- **Water** is a liquid at room temperature (melting point: 0 °C, boiling point: 100 °C). It readily flows and conforms to container shapes.
 - **Glass** is an amorphous solid at room temperature. While glass has a disordered molecular structure (unlike crystalline solids), it does not flow under normal conditions and maintains its shape indefinitely.
 
 **Discussion:**

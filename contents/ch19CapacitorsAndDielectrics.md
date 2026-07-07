@@ -1040,11 +1040,11 @@ $$\Delta T = \frac{8.10 \text{ J}}{(0.200 \times 10^{-3} \text{ kg})(3500 \text{
 
 **Discussion**
 
-The temperature increase of approximately 10-12°C is significant but does not approach the boiling point of water (100°C), so the assumption of no phase change is reasonable. However, this temperature rise occurs in a very small mass over a very short time (microseconds), creating a localized burn. The actual damage would depend on how the current distributes through the tissue. This demonstrates why charged capacitors can be dangerous—they can deliver their stored energy almost instantaneously.
+The temperature increase of approximately 10-12 °C is significant but does not approach the boiling point of water (100 °C), so the assumption of no phase change is reasonable. However, this temperature rise occurs in a very small mass over a very short time (microseconds), creating a localized burn. The actual damage would depend on how the current distributes through the tissue. This demonstrates why charged capacitors can be dangerous—they can deliver their stored energy almost instantaneously.
 
 **Final Answer**
 
-The temperature increase of the flesh is approximately **10-12°C** (depending on the assumed specific heat). It is reasonable to assume no phase change since this temperature rise, when added to body temperature (~37°C), yields approximately 47-49°C, well below the boiling point.
+The temperature increase of the flesh is approximately **10-12 °C** (depending on the assumed specific heat). It is reasonable to assume no phase change since this temperature rise, when added to body temperature (~37 °C), yields approximately 47-49 °C, well below the boiling point.
 
 :::
 

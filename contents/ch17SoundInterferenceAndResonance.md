@@ -1012,7 +1012,7 @@ For part (a), we use the formula for a tube closed at one end: $$f_1 = \frac{v_w
 
 **Solution**
 
-**(a) Finding the length at 18.0°C:**
+**(a) Finding the length at 18.0 °C:**
 
 First, convert temperature to Kelvin:
 
@@ -1020,7 +1020,7 @@ First, convert temperature to Kelvin:
  $$T_1 = 18.0°\text{C} + 273.15 = 291.15\text{ K} \approx 291\text{ K}$$
 </div>
 
-Calculate the speed of sound at 18.0°C:
+Calculate the speed of sound at 18.0 °C:
 
 <div class="equation">
  $$v_{w,1} = (331\text{ m/s})\sqrt{\frac{T_1}{273\text{ K}}} = (331\text{ m/s})\sqrt{\frac{291\text{ K}}{273\text{ K}}}$$
@@ -1042,7 +1042,7 @@ Solving for $$L$$:
  $$L = \frac{v_{w,1}}{4f_1} = \frac{342\text{ m/s}}{4(256\text{ Hz})} = \frac{342\text{ m/s}}{1024\text{ Hz}} = 0.334\text{ m} = 33.4\text{ cm}$$
 </div>
 
-**(b) Finding the frequency at 25.0°C:**
+**(b) Finding the frequency at 25.0 °C:**
 
 Convert the new temperature to Kelvin:
 
@@ -1050,7 +1050,7 @@ Convert the new temperature to Kelvin:
  $$T_2 = 25.0°\text{C} + 273.15 = 298.15\text{ K} \approx 298\text{ K}$$
 </div>
 
-Calculate the speed of sound at 25.0°C:
+Calculate the speed of sound at 25.0 °C:
 
 <div class="equation">
  $$v_{w,2} = (331\text{ m/s})\sqrt{\frac{298\text{ K}}{273\text{ K}}} = (331\text{ m/s})\sqrt{1.0916}$$
@@ -1068,7 +1068,7 @@ The new fundamental frequency is:
 
 **Discussion**
 
-The organ pipe must be 0.334 m (33.4 cm) long. When the temperature increases from 18.0°C to 25.0°C, the fundamental frequency increases from 256 Hz to 259 Hz—a change of 3 Hz.
+The organ pipe must be 0.334 m (33.4 cm) long. When the temperature increases from 18.0 °C to 25.0 °C, the fundamental frequency increases from 256 Hz to 259 Hz—a change of 3 Hz.
 
 This temperature dependence of frequency is a significant concern for pipe organs in churches and concert halls. The frequency of 256 Hz corresponds to middle C, and a 3 Hz change represents about a 1.2% increase in frequency. This is noticeable to trained musicians, as it amounts to roughly 20 cents (where 100 cents equals one semitone), which is definitely audible.
 
@@ -1084,7 +1084,7 @@ So $$f_2 = 1.012 \times 256\text{ Hz} = 259\text{ Hz}$$ ✓
 
 This is why organs in old, unheated cathedrals can go significantly out of tune when temperatures fluctuate. Musicians warming up their wind instruments before playing are also addressing this temperature dependence—they want the instrument at a stable, known temperature for consistent tuning.
 
-The final answers are: **(a) The organ pipe must be 0.334 m long. (b) The fundamental frequency at 25.0°C is 259 Hz.**
+The final answers are: **(a) The organ pipe must be 0.334 m long. (b) The fundamental frequency at 25.0 °C is 259 Hz.**
 
 :::
 
@@ -1150,7 +1150,7 @@ The fractional change is:
 
 **Discussion**
 
-The frequencies increase by a factor of approximately 1.036, or about 3.6%, when the temperature increases from 10.0°C to 30.0°C. This is a significant change musically—it corresponds to about 60 cents (where 100 cents equals one semitone), which is quite noticeable.
+The frequencies increase by a factor of approximately 1.036, or about 3.6%, when the temperature increases from 10.0 °C to 30.0 °C. This is a significant change musically—it corresponds to about 60 cents (where 100 cents equals one semitone), which is quite noticeable.
 
 This result is independent of whether the instrument is open or closed at the ends, and independent of which harmonic is being played. All frequencies shift by the same proportion because they all depend on $$v_w/L$$, and only $$v_w$$ changes with temperature.
 
@@ -1331,7 +1331,7 @@ Convert temperature to Kelvin:
  $$T = 37.0°\text{C} + 273.15 = 310.15\text{ K} \approx 310\text{ K}$$
 </div>
 
-Calculate speed of sound in air at 37.0°C:
+Calculate speed of sound in air at 37.0 °C:
 
 <div class="equation">
  $$v_{w,\text{air}} = (331\text{ m/s})\sqrt{\frac{310\text{ K}}{273\text{ K}}} = (331\text{ m/s})(1.0656) = 353\text{ m/s}$$
@@ -1471,7 +1471,7 @@ Since $$f_3 = f_1 = 256\text{ Hz}$$ (same tuning fork):
 
 **Discussion**
 
-The air temperature is 22°C, which is a comfortable room temperature and typical for a physics laboratory. This temperature determination works because the speed of sound is strongly temperature-dependent, and we can back-calculate the temperature from measured resonance data.
+The air temperature is 22 °C, which is a comfortable room temperature and typical for a physics laboratory. This temperature determination works because the speed of sound is strongly temperature-dependent, and we can back-calculate the temperature from measured resonance data.
 
 The second resonance occurs at a length of 1.01 m, which is exactly three times the first resonance length (0.336 m × 3 = 1.008 m). This demonstrates a key feature of tubes closed at one end: the resonances occur at lengths that are odd multiples of the fundamental length (L, 3L, 5L, 7L, ...).
 
@@ -1483,7 +1483,7 @@ This experiment is commonly used in introductory physics labs because:
 
 In practice, students would need to account for an "end correction"—the antinode doesn't form exactly at the tube's open end but slightly beyond it (typically about 0.3 times the tube diameter). This makes actual measured lengths slightly shorter than the theoretical values, but for introductory purposes, this correction is often neglected.
 
-The final answers are: **(a) The air temperature is 22°C. (b) The second resonance (first overtone) occurs at a length of 1.01 m.**
+The final answers are: **(a) The air temperature is 22 °C. (b) The second resonance (first overtone) occurs at a length of 1.01 m.**
 
 :::
 

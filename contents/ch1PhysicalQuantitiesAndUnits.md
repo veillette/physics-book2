@@ -106,7 +106,7 @@ themselves.
 
 The SI unit for length is the **meter** (abbreviated m); its definition has also
 changed over time to become more accurate and precise. The meter was first
-defined in 1791 as 1/10 000 000 of the distance from the equator to the North
+defined in 1791 as 1/10 000 of the distance from the equator to the North
 Pole. This measurement was improved in 1889 by redefining the meter to be the
 distance between two engraved lines on a platinum-iridium bar now kept near
 Paris. By 1960, it had become possible to define the meter even more accurately

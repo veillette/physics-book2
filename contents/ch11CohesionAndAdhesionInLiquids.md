@@ -841,7 +841,7 @@ Use the capillary rise formula $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$. Fo
 
 **Solution:**
 
-For water in glass at 20°C:
+For water in glass at 20 °C:
 - Surface tension: $$ \gamma = 0.0728 \text{ N/m} $$
 - Contact angle: $$ \theta = 0° $$ (so $$ \cos\theta = 1 $$)
 - Density: $$ \rho = 1000 \text{ kg/m}^3 $$
@@ -952,10 +952,10 @@ $$ \gamma = \frac{F}{L} = \frac{3.16 \times 10^{-3} \text{ N}}{0.0500 \text{ m}}
 </div>
 
 Comparing to Table 1:
-- Water at 20°C: 0.0728 N/m
+- Water at 20 °C: 0.0728 N/m
 - **Glycerin: 0.0631 N/m** ✓
 - Tissue fluids: 0.050 N/m
-- Blood plasma at 37°C: 0.073 N/m
+- Blood plasma at 37 °C: 0.073 N/m
 
 The surface tension is **6.32 × 10⁻² N/m** (or 0.0632 N/m). Based on the values in Table 1, the fluid is most likely **glycerin**.
 
@@ -1255,7 +1255,7 @@ $$ \frac{h_w}{h_{Hg}} = \frac{0.0728}{-0.356} \times 13.6 = (-0.204) \times 13.6
 The ratio is **-2.78**. The negative sign indicates that water is raised while mercury is depressed (lowered) in the same glass tube.
 
 **Discussion:**
-The ratio of **-2.78** means that if water rises to height h in a capillary tube, mercury will be depressed by approximately h/2.78 (or about 0.36h below the external level).
+The ratio of **-2.78** means that if water rises to height h in a capillary tube, mercury will be depressed by approximately h/2.78 (or about 0.36 h below the external level).
 
 The **negative sign** is crucial—it reflects the fundamental difference in behavior:
 - **Water (θ = 0°)**: Adhesive forces (water-glass) dominate over cohesive forces (water-water), so water climbs the tube walls, forming a concave meniscus.

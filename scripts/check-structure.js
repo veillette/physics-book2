@@ -265,8 +265,20 @@ class StructureValidator {
       }
     }
 
-    // Check for documents with no headings
-    if (headingStack.length === 0 && !fileName.includes('README')) {
+    // Check for documents with no headings (skip chapter overviews and reference pages)
+    const { data: frontMatterData } = matter(content);
+    const isChapterOverview =
+      frontMatterData.sectionNumber === 0 || frontMatterData.layout === 'chapter';
+    const isReferencePage = fileName.startsWith('appendix') || fileName === 'Glossary.md';
+    const usesContainers = /^:::\s+\S+/m.test(content);
+
+    if (
+      headingStack.length === 0 &&
+      !fileName.includes('README') &&
+      !isChapterOverview &&
+      !isReferencePage &&
+      !usesContainers
+    ) {
       this.warnings.push({
         file: fileName,
         message: 'Document has no headings',

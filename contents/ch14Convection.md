@@ -461,7 +461,7 @@ Wind speed of 10 m/s equals:
 - A moderate to fresh breeze
 - Enough to raise dust and loose paper; small branches begin to move
 
-At this combination (-10°C and 10 m/s wind), exposed skin faces serious frostbite risk:
+At this combination (-10 °C and 10 m/s wind), exposed skin faces serious frostbite risk:
 - Frostbite can occur in 10-30 minutes on exposed skin
 - Proper protection (hat, gloves, scarf covering face) is essential
 - Outdoor activities should be limited
@@ -472,7 +472,7 @@ This is why:
 1. **Windbreaks matter**: Standing behind a wall or in a forest significantly reduces wind chill
 2. **Clothing works**: Wind-resistant outer layers trap still air and block convection
 3. **Activity helps**: Moving generates metabolic heat to offset increased losses
-4. **Wind makes cold dangerous**: -10°C with wind is far more hazardous than -29°C in calm conditions where you can dress appropriately
+4. **Wind makes cold dangerous**: -10 °C with wind is far more hazardous than -29 °C in calm conditions where you can dress appropriately
 
 **Answer**
 
@@ -850,7 +850,7 @@ The circulatory system is remarkably efficient at heat transfer:
 - Cooled blood returns to the core to absorb more heat
 - This continuous cycle transfers heat much faster than conduction through tissue alone
 
-The 2°C temperature drop (from ~37°C core to ~35°C at skin surface) seems modest, but because 2.10 kg of blood circulates every minute, the cumulative effect is significant. The body enhances this during exercise by:
+The 2 °C temperature drop (from ~37 °C core to ~35 °C at skin surface) seems modest, but because 2.10 kg of blood circulates every minute, the cumulative effect is significant. The body enhances this during exercise by:
 - **Vasodilation**: Blood vessels near the skin expand, increasing blood flow from ~0.5 L/min at rest to 2+ L/min during exercise
 - **Increased cardiac output**: Heart rate and stroke volume both increase
 - **Blood redistribution**: Blood is diverted from digestive organs to muscles and skin

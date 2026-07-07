@@ -875,7 +875,7 @@ The physical mechanism is clear: if the length increases by 1%, the period incre
 
 This sensitivity has important practical implications:
 
-**Temperature effects**: Most materials expand when heated. A steel pendulum rod with thermal expansion coefficient $$\alpha \approx 11 \times 10^{-6}/°C$$ would change length by 0.011% per degree Celsius. A 10°C temperature increase would change the length by 0.11%, causing the clock to lose about 47 seconds per day. This is why precision pendulum clocks used temperature-compensated pendulums (like the "gridiron" pendulum using alternating brass and steel rods, or mercury-filled pendulums where the mercury rises as the rod expands, keeping the effective length constant).
+**Temperature effects**: Most materials expand when heated. A steel pendulum rod with thermal expansion coefficient $$\alpha \approx 11 \times 10^{-6}/°C$$ would change length by 0.011% per degree Celsius. A 10 °C temperature increase would change the length by 0.11%, causing the clock to lose about 47 seconds per day. This is why precision pendulum clocks used temperature-compensated pendulums (like the "gridiron" pendulum using alternating brass and steel rods, or mercury-filled pendulums where the mercury rises as the rod expands, keeping the effective length constant).
 
 **Adjustment precision**: To keep accurate time, pendulum lengths must be maintained to better than 0.01% precision. This requires careful mechanical design and stable operating conditions.
 
@@ -945,7 +945,7 @@ To correct a clock that gains 5 seconds per day, the pendulum length must be inc
 
 1. **Fine adjustment mechanisms**: Precision pendulum clocks include very fine adjustment screws or nuts on the bob. A typical mechanism might have threads that allow adjustments of 0.1 mm per turn, requiring multiple complete turns to make this 0.116 mm adjustment.
 
-2. **Temperature compensation**: Temperature changes easily cause length variations exceeding 0.0116%. A 1-meter steel rod expands by about 0.011 mm per degree Celsius. A temperature swing of just 10°C would change the length by 0.11 mm, comparable to the adjustment needed here. This is why precision pendulum clocks used:
+2. **Temperature compensation**: Temperature changes easily cause length variations exceeding 0.0116%. A 1-meter steel rod expands by about 0.011 mm per degree Celsius. A temperature swing of just 10 °C would change the length by 0.11 mm, comparable to the adjustment needed here. This is why precision pendulum clocks used:
    - Invar (nickel-steel alloy) with very low thermal expansion
    - Gridiron pendulums with alternating metals that compensate for each other's expansion
    - Mercury pendulums where rising mercury compensates for rod expansion

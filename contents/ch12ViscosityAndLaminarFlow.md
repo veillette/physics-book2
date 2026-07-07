@@ -1119,7 +1119,7 @@ $$\eta = 225 \text{ mPa·s}$$
 
 **Discussion**
 
-The viscosity of this motor oil is approximately **225 mPa·s** (or 0.225 Pa·s). This is consistent with motor oil at around 30°C—comparing to Table 1, SAE 10 motor oil at 30°C has a viscosity of 200 mPa·s, so our calculated value is very reasonable. The experiment demonstrates how terminal velocity measurements can be used to determine viscosity, a technique commonly used in quality control for lubricants.
+The viscosity of this motor oil is approximately **225 mPa·s** (or 0.225 Pa·s). This is consistent with motor oil at around 30 °C—comparing to Table 1, SAE 10 motor oil at 30 °C has a viscosity of 200 mPa·s, so our calculated value is very reasonable. The experiment demonstrates how terminal velocity measurements can be used to determine viscosity, a technique commonly used in quality control for lubricants.
 
 :::
 
@@ -1215,7 +1215,7 @@ Converting to mPa·s:
 $$\eta = 138 \text{ mPa·s}$$
 
 **Identification:**
-Comparing to Table 1, olive oil at 20°C has a viscosity of 138 mPa·s, which matches our calculated value exactly. Therefore, the oil is most likely **olive oil**.
+Comparing to Table 1, olive oil at 20 °C has a viscosity of 138 mPa·s, which matches our calculated value exactly. Therefore, the oil is most likely **olive oil**.
 
 **Discussion**
 

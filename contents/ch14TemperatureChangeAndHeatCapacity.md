@@ -570,7 +570,7 @@ $$Q = 3066 \text{ J} = 3.07 \times 10^3 \text{ J} = 3.07 \text{ kJ}$$
 
 **Discussion**
 
-The heat required (3.07 kJ) is relatively small because the mass of the glass bottle is small (only 50 g). This amount of energy is comparable to what a 100-watt light bulb produces in about 30 seconds. Sterilization requires heating to at least 80-100°C to kill bacteria and viruses, and the modest energy requirement makes it practical to sterilize baby bottles frequently.
+The heat required (3.07 kJ) is relatively small because the mass of the glass bottle is small (only 50 g). This amount of energy is comparable to what a 100-watt light bulb produces in about 30 seconds. Sterilization requires heating to at least 80-100 °C to kill bacteria and viruses, and the modest energy requirement makes it practical to sterilize baby bottles frequently.
 
 Glass is chosen for baby bottles (though plastic is now more common) partly because it can withstand repeated heating without degrading. The specific heat of glass (840 J/kg·ºC) is similar to concrete but much lower than water, meaning glass heats up relatively quickly when placed in boiling water or a sterilizer.
 
@@ -650,7 +650,7 @@ $$T_f = 20.0\text{ºC} + 30.1\text{ºC} = 50.1\text{ºC}$$
 
 **Discussion**
 
-The results clearly show that substances with lower specific heats experience larger temperature changes for the same heat transfer. Water, with its very high specific heat, changes temperature the least (only 1.00°C), while mercury, with a much lower specific heat, experiences the largest temperature change (30.1°C). This is why water is an excellent thermal regulator and is used in cooling systems—it can absorb large amounts of heat with minimal temperature change. The large specific heat of water is also why coastal regions have more moderate climates than inland areas.
+The results clearly show that substances with lower specific heats experience larger temperature changes for the same heat transfer. Water, with its very high specific heat, changes temperature the least (only 1.00 °C), while mercury, with a much lower specific heat, experiences the largest temperature change (30.1 °C). This is why water is an excellent thermal regulator and is used in cooling systems—it can absorb large amounts of heat with minimal temperature change. The large specific heat of water is also why coastal regions have more moderate climates than inland areas.
 
 **Answer**
 
@@ -712,7 +712,7 @@ $$\Delta T = \frac{60.0}{350} = 0.171\text{ºC}$$
 
 **Discussion**
 
-The temperature increase of 0.171°C may seem small, but it's readily perceptible. Human skin is quite sensitive to temperature changes as small as 0.1°C, so you can definitely feel your hands getting warmer when rubbing them together.
+The temperature increase of 0.171 °C may seem small, but it's readily perceptible. Human skin is quite sensitive to temperature changes as small as 0.1 °C, so you can definitely feel your hands getting warmer when rubbing them together.
 
 This example demonstrates the mechanical equivalent of heat—mechanical work is converted directly into thermal energy. The relatively small temperature increase occurs because human tissue has a high specific heat (3500 J/kg·ºC), nearly as high as water. This high specific heat is beneficial for temperature regulation in the body.
 
@@ -725,7 +725,7 @@ This principle is used for survival: rubbing hands together or doing physical ex
 
 **Answer**
 
-The temperature increase from rubbing hands together is **0.171°C**.
+The temperature increase from rubbing hands together is **0.171 °C**.
 
 :::
 
@@ -924,7 +924,7 @@ Following vigorous exercise, the body temperature of an 80.0-kg person is  $$ 40
 
 **Strategy**
 
-We need to calculate how much heat must be removed to cool the body from 40.0°C to 37.0°C, then determine the rate at which this heat must be transferred. However, the body continues producing heat at 150 W during the cooling period, so the total rate of heat transfer out must account for both cooling AND removing the continuously produced heat.
+We need to calculate how much heat must be removed to cool the body from 40.0 °C to 37.0 °C, then determine the rate at which this heat must be transferred. However, the body continues producing heat at 150 W during the cooling period, so the total rate of heat transfer out must account for both cooling AND removing the continuously produced heat.
 
 **Solution**
 
@@ -976,7 +976,7 @@ This calculation shows why it's important to cool down gradually after exercise 
 
 **Answer**
 
-The person must transfer thermal energy at a rate of **617 W** to reduce body temperature from 40.0°C to 37.0°C in 30 minutes while metabolic processes continue.
+The person must transfer thermal energy at a rate of **617 W** to reduce body temperature from 40.0 °C to 37.0 °C in 30 minutes while metabolic processes continue.
 
 :::
 
@@ -1033,7 +1033,7 @@ $$t = \frac{714 \text{ s}}{60 \text{ s/min}} = 11.9 \text{ min}$$
 
 **Discussion**
 
-The results are alarming. At a rate of 2.80°C per second, the reactor core temperature would rise rapidly without cooling. In less than 12 minutes, the temperature could increase by 2000°C, potentially causing structural metals to melt and leading to a catastrophic failure. This demonstrates why continuous cooling is absolutely critical for nuclear reactors, even after shutdown—the decay of fission products continues to generate enormous amounts of heat.
+The results are alarming. At a rate of 2.80 °C per second, the reactor core temperature would rise rapidly without cooling. In less than 12 minutes, the temperature could increase by 2000 °C, potentially causing structural metals to melt and leading to a catastrophic failure. This demonstrates why continuous cooling is absolutely critical for nuclear reactors, even after shutdown—the decay of fission products continues to generate enormous amounts of heat.
 
 As noted in the problem, this calculation represents an initial rate. In reality, the temperature rise would initially be even faster in localized hot spots, then would slow as heat spreads to the larger containment vessel. This scenario illustrates the importance of backup cooling systems and the dangers highlighted by accidents like Fukushima (2011), where cooling system failure led to core melting.
 

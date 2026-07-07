@@ -244,7 +244,7 @@ Converting to Celsius:
 
 **Discussion**
 
-A Carnot engine with 30% efficiency operating with a 200°C cold reservoir requires a 403°C hot reservoir. This is reasonable for gasoline engines, where combustion temperatures reach 400-600°C but real engines achieve only 20-30% efficiency (less than Carnot). The relatively modest temperature difference (403°C - 200°C = 203°C) for 30% efficiency shows why improving engine efficiency is challenging—large temperature increases are needed for small efficiency gains.
+A Carnot engine with 30% efficiency operating with a 200 °C cold reservoir requires a 403 °C hot reservoir. This is reasonable for gasoline engines, where combustion temperatures reach 400-600 °C but real engines achieve only 20-30% efficiency (less than Carnot). The relatively modest temperature difference (403 °C - 200 °C = 203 °C) for 30% efficiency shows why improving engine efficiency is challenging—large temperature increases are needed for small efficiency gains.
 
 :::
 
@@ -284,7 +284,7 @@ Given: $$T_H = 973 \text{ K}$$, $$T_C = 300 \text{ K}$$
 
 **Discussion**
 
-The gas-cooled reactor operating at 700°C can theoretically achieve 69.2% efficiency, which is 1.67 times higher than standard water-cooled reactors operating at lower temperatures. This demonstrates why higher operating temperatures are desirable—they dramatically increase maximum possible efficiency. However, gas-cooled reactors face engineering challenges at these high temperatures, explaining why they aren't widely adopted despite the efficiency advantage.
+The gas-cooled reactor operating at 700 °C can theoretically achieve 69.2% efficiency, which is 1.67 times higher than standard water-cooled reactors operating at lower temperatures. This demonstrates why higher operating temperatures are desirable—they dramatically increase maximum possible efficiency. However, gas-cooled reactors face engineering challenges at these high temperatures, explaining why they aren't widely adopted despite the efficiency advantage.
 
 :::
 
@@ -314,11 +314,11 @@ Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
 **(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_{C}$$, so $$\eta_{C} = 0.600$$
 Then $$T_H = \frac{300}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
 
-**(c)** Yes, car engines cannot sustain 477°C without overheating, limiting practical efficiency to well below 42%.
+**(c)** Yes, car engines cannot sustain 477 °C without overheating, limiting practical efficiency to well below 42%.
 
 **Discussion**
 
-Part (a) shows 244°C hot reservoir for Carnot engine at 42% efficiency—achievable but high. Part (b) reveals that for a real engine at 70% of Carnot to reach 42% actual efficiency, it needs 477°C, which exceeds practical limits for car engines (materials degrade, oil breaks down). This explains why car engines achieve only 20-30% efficiency despite extensive engineering optimization.
+Part (a) shows 244 °C hot reservoir for Carnot engine at 42% efficiency—achievable but high. Part (b) reveals that for a real engine at 70% of Carnot to reach 42% actual efficiency, it needs 477 °C, which exceeds practical limits for car engines (materials degrade, oil breaks down). This explains why car engines achieve only 20-30% efficiency despite extensive engineering optimization.
 
 :::
 
@@ -350,7 +350,7 @@ $$\eta_{max} = 1 - \frac{423}{698} = 0.394 = 39.4\%$$
 
 **Discussion**
 
-Part (a): For 17% Carnot efficiency at 425°C hot temperature, the cold reservoir would be 306°C—unrealistically hot for exhaust. Real steam locomotives had much cooler exhaust (~100°C), explaining why actual efficiency was far below 17%. Part (b): With realistic 150°C exhaust, maximum efficiency could reach 39.4%, but real locomotives achieved only 5-10% due to mechanical losses, incomplete combustion, and heat losses.
+Part (a): For 17% Carnot efficiency at 425 °C hot temperature, the cold reservoir would be 306 °C—unrealistically hot for exhaust. Real steam locomotives had much cooler exhaust (~100 °C), explaining why actual efficiency was far below 17%. Part (b): With realistic 150 °C exhaust, maximum efficiency could reach 39.4%, but real locomotives achieved only 5-10% due to mechanical losses, incomplete combustion, and heat losses.
 
 :::
 
@@ -408,7 +408,7 @@ $$\frac{0.38}{0.644} \times 100\% = 59.0\%$$
 
 **Discussion**
 
-The power station achieves 59% of the theoretical maximum efficiency. This is reasonable—real power plants typically achieve 50-70% of Carnot efficiency due to turbine inefficiencies, friction, heat losses, and non-ideal thermodynamic processes. The 64.4% Carnot limit itself seems modest given the high steam temperature (550°C), but it's constrained by the relatively warm cold reservoir (environmental temperature of 20°C).
+The power station achieves 59% of the theoretical maximum efficiency. This is reasonable—real power plants typically achieve 50-70% of Carnot efficiency due to turbine inefficiencies, friction, heat losses, and non-ideal thermodynamic processes. The 64.4% Carnot limit itself seems modest given the high steam temperature (550 °C), but it's constrained by the relatively warm cold reservoir (environmental temperature of 20 °C).
 
 :::
 
@@ -509,13 +509,13 @@ Solve $$0.800 = 1 - \frac{T_C}{T_H}$$ for $$T_H$$ with $$T_C = 270°\text{C} = 5
 
 **(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
 
-**(b)** This temperature (2442°C) far exceeds the critical point of water (374°C) and melting points of most steels (~1500°C). No practical steam engine materials can withstand this.
+**(b)** This temperature (2442 °C) far exceeds the critical point of water (374 °C) and melting points of most steels (~1500 °C). No practical steam engine materials can withstand this.
 
-**(c)** The 80% Carnot efficiency is unreasonably high for a steam engine with 270°C exhaust. Real steam engines achieve 20-40% efficiency.
+**(c)** The 80% Carnot efficiency is unreasonably high for a steam engine with 270 °C exhaust. Real steam engines achieve 20-40% efficiency.
 
 **Discussion**
 
-The required 2442°C is impossibly high—water would decompose, and no containment materials exist. This demonstrates that high efficiencies with high cold reservoir temperatures demand extreme hot temperatures. The 80% efficiency assumption is the unreasonable premise.
+The required 2442 °C is impossibly high—water would decompose, and no containment materials exist. This demonstrates that high efficiencies with high cold reservoir temperatures demand extreme hot temperatures. The 80% efficiency assumption is the unreasonable premise.
 
 :::
 
@@ -565,14 +565,14 @@ Converting to Celsius:
  $$T_c = 217 - 273 = -56.3\text{°C}$$
 </div>
 
-**The cold reservoir temperature would be −56.3°C or 217 K.**
+**The cold reservoir temperature would be −56.3 °C or 217 K.**
 
 **(b)** What is unreasonable about this temperature?
 
-This temperature is far too cold for the cold reservoir of a steam engine. The cold reservoir is typically the local environment (air, cooling water, or a cooling tower), which normally operates at temperatures between 0°C and 40°C. Several problems arise:
+This temperature is far too cold for the cold reservoir of a steam engine. The cold reservoir is typically the local environment (air, cooling water, or a cooling tower), which normally operates at temperatures between 0 °C and 40 °C. Several problems arise:
 
-- **Below water's freezing point**: At −56.3°C, water-based cooling systems would freeze solid, making the engine inoperable.
-- **Colder than most natural environments**: Even Arctic winter temperatures rarely drop below −40°C. Achieving −56.3°C would require artificial refrigeration.
+- **Below water's freezing point**: At −56.3 °C, water-based cooling systems would freeze solid, making the engine inoperable.
+- **Colder than most natural environments**: Even Arctic winter temperatures rarely drop below −40 °C. Achieving −56.3 °C would require artificial refrigeration.
 - **Steam would freeze**: The exhaust steam at this temperature would solidify as ice, not condense as liquid water.
 - **Impractical and expensive**: Maintaining such a cold reservoir would require more energy than the engine produces.
 
@@ -594,9 +594,9 @@ This problem illustrates the relationship between efficiency and reservoir tempe
 2. Very low cold reservoir temperature, or
 3. Both
 
-Since the cold reservoir is typically the environment (which we cannot change easily), efficiency improvements usually focus on increasing the hot reservoir temperature. However, materials limitations prevent steam temperatures much above 500-600°C in conventional power plants.
+Since the cold reservoir is typically the environment (which we cannot change easily), efficiency improvements usually focus on increasing the hot reservoir temperature. However, materials limitations prevent steam temperatures much above 500-600 °C in conventional power plants.
 
-The calculated −56.3°C cold temperature is absurd because it violates practical and economic constraints. It would be like saying "to cool my house efficiently, I need outdoor temperature of −56°C"—which defeats the purpose entirely. The error lies in the unrealistic 70% efficiency assumption. When solving thermodynamics problems, always check if your answer makes physical sense in the context of real-world operation.
+The calculated −56.3 °C cold temperature is absurd because it violates practical and economic constraints. It would be like saying "to cool my house efficiently, I need outdoor temperature of −56 °C"—which defeats the purpose entirely. The error lies in the unrealistic 70% efficiency assumption. When solving thermodynamics problems, always check if your answer makes physical sense in the context of real-world operation.
 
 :::
 

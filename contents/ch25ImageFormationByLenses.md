@@ -942,7 +942,7 @@ $$P_{\text{max}} = \frac{1}{0.0800 \text{ m}} = 12.5 \text{ D}$$
 
 **Discussion**
 
-The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (wide-angle, shorter focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200mm zoom, which in 35mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
+The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (wide-angle, shorter focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200 mm zoom, which in 35 mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
 
 :::
 

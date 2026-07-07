@@ -220,6 +220,7 @@ class FigureValidator {
     }
 
     const figureMap = new Map(); // "chapter_section" -> Set of figure numbers
+    const referencedFigures = await this.collectReferencedFigures();
 
     for (const file of files) {
       const match = file.match(/^Figure_(\d{2})_(\d{2})_(\d{2})\.(jpg|svg|png|webp)$/);
@@ -234,22 +235,47 @@ class FigureValidator {
       }
     }
 
-    // Check for gaps in numbering
+    // Only warn about missing numbers that are referenced in markdown
     for (const [key, figNumbers] of figureMap) {
-      const maxNum = Math.max(...figNumbers);
-      const expected = new Set(Array.from({ length: maxNum }, (_, i) => i + 1));
-
-      const missing = [...expected].filter(n => !figNumbers.has(n));
+      const referenced = referencedFigures.get(key) || new Set();
+      const missing = [...referenced].filter(n => !figNumbers.has(n));
       if (missing.length > 0) {
         this.warnings.push({
           file: `Chapter/Section ${key}`,
           line: 0,
-          message: `Missing figure numbers: ${missing.join(', ')}`,
+          message: `Missing figure numbers: ${missing.sort((a, b) => a - b).join(', ')}`,
         });
       }
     }
 
     console.log(`   Checked ${figureMap.size} chapter/section combinations`);
+  }
+
+  /**
+   * Collect figure numbers referenced in markdown content.
+   */
+  async collectReferencedFigures() {
+    const referencedFigures = new Map();
+    const files = await findFiles('*.md', { cwd: this.contentsDir });
+
+    for (const file of files) {
+      const filePath = path.join(this.contentsDir, file);
+      const content = readFile(filePath);
+      let match;
+      const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})\.(jpg|svg|png|webp)/g;
+
+      while ((match = figureRegex.exec(content)) !== null) {
+        const key = `${match[1]}_${match[2]}`;
+        const figNum = parseInt(match[3]);
+
+        if (!referencedFigures.has(key)) {
+          referencedFigures.set(key, new Set());
+        }
+        referencedFigures.get(key).add(figNum);
+      }
+    }
+
+    return referencedFigures;
   }
 
   /**

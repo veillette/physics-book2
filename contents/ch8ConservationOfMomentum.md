@@ -51,7 +51,7 @@ where $$ F\_{1} $$ is the force on car 1 due to car 2, and $$ \Delta t $$ is the
 time the force acts (the duration of the collision). Intuitively, it seems
 obvious that the collision time is the same for both cars, but it is only true
 for objects traveling at ordinary speeds. This assumption must be modified for
-objects travelling near the speed of light, without affecting the result that
+objects traveling near the speed of light, without affecting the result that
 momentum is conserved.
 
 Similarly, the change in momentum of car 2 is

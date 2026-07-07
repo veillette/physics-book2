@@ -1151,13 +1151,13 @@ A realistic flywheel for this application might be 200 kg with a 0.5 m radius, w
 
 **Discussion**
 
-This problem demonstrates the challenges of energy storage in flywheels. While flywheels can store substantial energy, the limits of material strength constrain their design. Modern high-performance flywheels use composite materials and operate in vacuum chambers, but even these have practical limits well below what would cause 50,000g accelerations.
+This problem demonstrates the challenges of energy storage in flywheels. While flywheels can store substantial energy, the limits of material strength constrain their design. Modern high-performance flywheels use composite materials and operate in vacuum chambers, but even these have practical limits well below what would cause 50,000 g accelerations.
 
 **Answer**
 
 (a) The flywheel would need to spin at **1834 rad/s** (about **17,500 rpm**).
 
-(b) This is unreasonably fast—it would produce over 50,000g acceleration that would destroy the flywheel.
+(b) This is unreasonably fast—it would produce over 50,000 g acceleration that would destroy the flywheel.
 
 (c) The flywheel is too small and light to store the required energy at achievable speeds; it would need to be much larger (0.5-1.0 m radius) and heavier (200+ kg).
 

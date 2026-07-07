@@ -713,7 +713,7 @@ $$T_f = 2(333) - 293 = 373 \text{ K} = 100°\text{C}$$
 
 **Discussion**
 
-The pie heats to 100°C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
+The pie heats to 100 °C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
 
 :::
 
@@ -1030,11 +1030,11 @@ where $$T_0 = 18.0\text{°C} = 291 \text{ K}$$:
 
 Part (a): At 35% efficiency, the power station requires $$2.47 \times 10^{14}$$ J (247 TJ) of heat input daily. This comes from burning fossil fuels or nuclear fission. The 1000 MW output equals 86.4 TJ daily of useful electrical energy.
 
-Part (b): The waste heat of $$1.60 \times 10^{14}$$ J (160 TJ) per day—65% of the input energy—must be rejected to the environment. This enormous heat output necessitates cooling towers or water bodies. For perspective, this could heat 1.9 million liters of water from 0°C to 100°C.
+Part (b): The waste heat of $$1.60 \times 10^{14}$$ J (160 TJ) per day—65% of the input energy—must be rejected to the environment. This enormous heat output necessitates cooling towers or water bodies. For perspective, this could heat 1.9 million liters of water from 0 °C to 100 °C.
 
-Part (c): The entropy increase of $$2.85 \times 10^{10}$$ J/K results from irreversible heat transfer from warm cooling water (35°C) to cooler air (18-20°C). The air gains more entropy than the water loses because entropy change is inversely proportional to temperature. This positive entropy increase confirms this is an irreversible process, as required by the second law.
+Part (c): The entropy increase of $$2.85 \times 10^{10}$$ J/K results from irreversible heat transfer from warm cooling water (35 °C) to cooler air (18-20 °C). The air gains more entropy than the water loses because entropy change is inversely proportional to temperature. This positive entropy increase confirms this is an irreversible process, as required by the second law.
 
-Part (d): Of the 160 TJ of waste heat, 8.29 TJ becomes permanently unavailable for work due to the entropy increase. This represents energy degraded by the irreversible cooling process. In principle, some of this waste heat could run secondary heat engines or district heating systems, but the low temperature (35°C) makes this impractical. If the waste heat were at higher temperature, more could be recovered for useful purposes through cogeneration.
+Part (d): Of the 160 TJ of waste heat, 8.29 TJ becomes permanently unavailable for work due to the entropy increase. This represents energy degraded by the irreversible cooling process. In principle, some of this waste heat could run secondary heat engines or district heating systems, but the low temperature (35 °C) makes this impractical. If the waste heat were at higher temperature, more could be recovered for useful purposes through cogeneration.
 
 This problem illustrates why improving power plant efficiency is crucial—not only does it reduce fuel consumption, but it also reduces thermal pollution. A 40% efficient plant would need only 216 TJ input for the same 86.4 TJ output, reducing waste heat from 160 TJ to 130 TJ daily, lessening environmental impact.
 

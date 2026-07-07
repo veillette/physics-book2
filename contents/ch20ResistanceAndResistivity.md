@@ -627,7 +627,7 @@ $$L = \frac{RA}{\rho} = \frac{(0.200 \text{ Ω})(7.85 \times 10^{-9} \text{ m}^{
 
 **Discussion**
 
-A filament length of 2.81 m seems long for a small light bulb, but this wire is extremely thin (0.1 mm diameter). The filament is coiled tightly, often in a double-coil configuration (a coil of a coil), to fit within the small bulb envelope. This coiling also helps retain heat and increases efficiency. The 0.200 Ω cold resistance will increase significantly when the filament heats to its operating temperature of around 2500-3000°C.
+A filament length of 2.81 m seems long for a small light bulb, but this wire is extremely thin (0.1 mm diameter). The filament is coiled tightly, often in a double-coil configuration (a coil of a coil), to fit within the small bulb envelope. This coiling also helps retain heat and increases efficiency. The 0.200 Ω cold resistance will increase significantly when the filament heats to its operating temperature of around 2500-3000 °C.
 
 The tungsten filament should be 2.81 m long.
 
@@ -765,13 +765,13 @@ The final temperature is:
 $$T = T_{0} + \Delta T = 20.0 \text{ ºC} + 256 \text{ ºC} = 276 \text{ ºC}$$
 </div>
 
-**(b)** No, this does not happen under ordinary circumstances. Household wiring should never reach anywhere near 276°C. Typical household wiring is rated for temperatures up to about 60-90°C. At 276°C, the wire insulation would have long since melted and likely caught fire. Copper's melting point is 1085°C, so the wire itself wouldn't melt, but the surrounding materials would be destroyed. If household wiring ever approached such temperatures, it would indicate a severe fault such as a dangerous overload or short circuit.
+**(b)** No, this does not happen under ordinary circumstances. Household wiring should never reach anywhere near 276 °C. Typical household wiring is rated for temperatures up to about 60-90 °C. At 276 °C, the wire insulation would have long since melted and likely caught fire. Copper's melting point is 1085 °C, so the wire itself wouldn't melt, but the surrounding materials would be destroyed. If household wiring ever approached such temperatures, it would indicate a severe fault such as a dangerous overload or short circuit.
 
 **Discussion**
 
 This problem illustrates why overloaded circuits are fire hazards. A wire carrying too much current heats up due to $$P = I^{2}R$$ power dissipation. As it heats, its resistance increases, causing even more power dissipation and further heating—a positive feedback loop that can lead to thermal runaway. Circuit breakers and fuses are designed to interrupt the circuit before temperatures become dangerous.
 
-(a) The copper wire must be raised to 276°C to double its resistance. (b) No, this temperature is never reached in properly functioning household wiring.
+(a) The copper wire must be raised to 276 °C to double its resistance. (b) No, this temperature is never reached in properly functioning household wiring.
 
 :::
 
@@ -804,7 +804,7 @@ $$|\alpha \Delta T| = 0.01$$
 $$|\Delta T| = \frac{0.01}{\alpha} = \frac{0.01}{0.4 \times 10^{-3} \text{ /ºC}} = 25 \text{ ºC}$$
 </div>
 
-The temperature can vary by ±25°C from the reference temperature of 20.0°C:
+The temperature can vary by ±25 °C from the reference temperature of 20.0 °C:
 
 <div class="equation">
 $$T_{\text{min}} = 20.0 - 25 = -5 \text{ ºC}$$
@@ -816,9 +816,9 @@ $$T_{\text{max}} = 20.0 + 25 = 45 \text{ ºC}$$
 
 **Discussion**
 
-The allowable temperature range of -5°C to 45°C is quite practical for most indoor applications. Nichrome was chosen for this resistor because of its relatively small temperature coefficient compared to pure metals. Copper, for example, with $$\alpha = 3.9 \times 10^{-3}$$ /ºC, would only allow a ±2.6°C variation for the same 1% tolerance—impractical for most applications.
+The allowable temperature range of -5 °C to 45 °C is quite practical for most indoor applications. Nichrome was chosen for this resistor because of its relatively small temperature coefficient compared to pure metals. Copper, for example, with $$\alpha = 3.9 \times 10^{-3}$$ /ºC, would only allow a ±2.6 °C variation for the same 1% tolerance—impractical for most applications.
 
-The Nichrome resistor can be used over the temperature range of -5°C to 45°C.
+The Nichrome resistor can be used over the temperature range of -5 °C to 45 °C.
 
 :::
 
@@ -890,15 +890,15 @@ Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coeffi
 
 **Solution**
 
-Using 20°C as the reference temperature, find the resistance at each extreme:
+Using 20 °C as the reference temperature, find the resistance at each extreme:
 
-At -10°C ($$\Delta T = -30$$ °C):
+At -10 °C ($$\Delta T = -30$$ °C):
 
 <div class="equation">
 $$R_{-10} = R_{0}[1 + (-0.5 \times 10^{-3})(-30)] = R_{0}(1 + 0.015) = 1.015 R_{0}$$
 </div>
 
-At 55°C ($$\Delta T = +35$$ °C):
+At 55 °C ($$\Delta T = +35$$ °C):
 
 <div class="equation">
 $$R_{55} = R_{0}[1 + (-0.5 \times 10^{-3})(35)] = R_{0}(1 - 0.0175) = 0.9825 R_{0}$$
@@ -912,7 +912,7 @@ $$\text{Factor} = \frac{R_{-10}}{R_{55}} = \frac{1.015 R_{0}}{0.9825 R_{0}} = 1.
 
 **Discussion**
 
-The resistance changes by only 3% over this 65°C temperature range. This is because carbon has a small (and negative) temperature coefficient. The resistance is highest at the cold extreme (-10°C) and lowest at the warm extreme (55°C). Carbon's negative coefficient means it behaves opposite to metals—its resistance decreases as temperature increases. This property, combined with carbon's small coefficient, makes carbon resistors useful in applications requiring moderate temperature stability.
+The resistance changes by only 3% over this 65 °C temperature range. This is because carbon has a small (and negative) temperature coefficient. The resistance is highest at the cold extreme (-10 °C) and lowest at the warm extreme (55 °C). Carbon's negative coefficient means it behaves opposite to metals—its resistance decreases as temperature increases. This property, combined with carbon's small coefficient, makes carbon resistors useful in applications requiring moderate temperature stability.
 
 The resistance increases by a factor of 1.03 (or about 3%) from the highest to lowest temperature in this range.
 
@@ -968,9 +968,9 @@ $$R = 77.7 \text{ Ω} (1 + 0.442) = 77.7 \text{ Ω} (1.442) = 112 \text{ Ω}$$
 
 **Discussion**
 
-The very thin wire (0.100 mm diameter) combined with a 25-meter length and relatively high resistance indicates a material with moderate resistivity. Gold is used for this type of wire in specialized applications requiring corrosion resistance and reliability, such as in aerospace and medical equipment. The 44% increase in resistance when heated to 150°C is significant and must be accounted for in precision circuits that operate over wide temperature ranges.
+The very thin wire (0.100 mm diameter) combined with a 25-meter length and relatively high resistance indicates a material with moderate resistivity. Gold is used for this type of wire in specialized applications requiring corrosion resistance and reliability, such as in aerospace and medical equipment. The 44% increase in resistance when heated to 150 °C is significant and must be accounted for in precision circuits that operate over wide temperature ranges.
 
-(a) The wire is made of gold. (b) At 150°C, its resistance is 112 Ω.
+(a) The wire is made of gold. (b) At 150 °C, its resistance is 112 Ω.
 
 :::
 
@@ -988,7 +988,7 @@ Assuming a constant temperature coefficient of resistivity, what is the maximum 
 
 **Strategy**
 
-The maximum decrease occurs at the lowest achievable temperature, which is absolute zero (-273.15°C or 0 K). Use $$R = R_{0}(1 + \alpha \Delta T)$$ with constantan's temperature coefficient ($$\alpha = 0.002 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)).
+The maximum decrease occurs at the lowest achievable temperature, which is absolute zero (-273.15 °C or 0 K). Use $$R = R_{0}(1 + \alpha \Delta T)$$ with constantan's temperature coefficient ($$\alpha = 0.002 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)).
 
 **Solution**
 
@@ -1133,9 +1133,9 @@ $$T = 20.0 + (-37) = -17 \text{ ºC}$$
 
 **Discussion**
 
-At -17°C, both wires have equal resistance. This occurs below room temperature because iron has a higher temperature coefficient than copper. Since iron's resistance changes faster with temperature, the resistances converge at a lower temperature where the initially higher iron resistance has decreased more than the copper. This problem illustrates that different materials can have equal resistance at a specific temperature even if they differ at other temperatures.
+At -17 °C, both wires have equal resistance. This occurs below room temperature because iron has a higher temperature coefficient than copper. Since iron's resistance changes faster with temperature, the resistances converge at a lower temperature where the initially higher iron resistance has decreased more than the copper. This problem illustrates that different materials can have equal resistance at a specific temperature even if they differ at other temperatures.
 
-The resistances are equal at -17°C.
+The resistances are equal at -17 °C.
 
 :::
 
@@ -1189,13 +1189,13 @@ $$T = 37.0 \text{ ºC} + 3.00 \text{ ºC} = 40.0 \text{ ºC}$$
 $$\Delta T = \frac{-1}{\alpha} = \frac{-1}{-0.0600} = 16.7 \text{ ºC}$$
 </div>
 
-This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC above the reference, meaning at about 53.7°C the model would predict zero resistance, and below that temperature (going to even higher temperatures) negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0°C, which is only 3°C above 37°C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42°C), the linear approximation is acceptable.
+This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC above the reference, meaning at about 53.7 °C the model would predict zero resistance, and below that temperature (going to even higher temperatures) negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0 °C, which is only 3 °C above 37 °C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42 °C), the linear approximation is acceptable.
 
 **Discussion**
 
-A temperature of 40.0°C (104°F) indicates a significant fever and would warrant medical attention. The thermistor's decreasing resistance with increasing temperature makes sense for semiconductors, where thermal energy frees more charge carriers. The 18% decrease in resistance for a 3°C temperature rise shows the high sensitivity of thermistors, which is why they are excellent for precise temperature measurements. Medical thermometers typically operate within a narrow temperature range where the linear approximation remains valid.
+A temperature of 40.0 °C (104 °F) indicates a significant fever and would warrant medical attention. The thermistor's decreasing resistance with increasing temperature makes sense for semiconductors, where thermal energy frees more charge carriers. The 18% decrease in resistance for a 3 °C temperature rise shows the high sensitivity of thermistors, which is why they are excellent for precise temperature measurements. Medical thermometers typically operate within a narrow temperature range where the linear approximation remains valid.
 
-(a) The patient's temperature is 40.0°C (indicating a fever). (b) The linear model remains valid for this temperature since it is only 3°C above the reference temperature, well within the practical operating range.
+(a) The patient's temperature is 40.0 °C (indicating a fever). (b) The linear model remains valid for this temperature since it is only 3 °C above the reference temperature, well within the practical operating range.
 
 :::
 
@@ -1307,7 +1307,7 @@ $$2 = 1 + \alpha \Delta T$$
 $$\Delta T = \frac{1}{\alpha} = \frac{1}{0.002 \times 10^{-3} \text{ /ºC}} = \frac{1}{2 \times 10^{-6} \text{ /ºC}} = 5.0 \times 10^{5} \text{ ºC}$$
 </div>
 
-Starting from 20°C: $$T = 20 + 500\,000 = 500\,020$$ ºC
+Starting from 20 °C: $$T = 20 + 500\,000 = 500\,020$$ ºC
 
 **(b)** To halve the resistance ($$R = 0.5R_{0}$$):
 
@@ -1319,11 +1319,11 @@ $$0.5 = 1 + \alpha \Delta T$$
 $$\Delta T = \frac{-0.5}{\alpha} = \frac{-0.5}{2 \times 10^{-6} \text{ /ºC}} = -2.5 \times 10^{5} \text{ ºC}$$
 </div>
 
-Starting from 20°C: $$T = 20 - 250\,000 = -249\,980$$ ºC
+Starting from 20 °C: $$T = 20 - 250\,000 = -249\,980$$ ºC
 
 **(c)** Both results are unreasonable:
-- To double the resistance would require heating to 500,020°C, which is approximately 90 times hotter than the surface of the Sun (about 5,500°C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220°C.
-- To halve the resistance would require cooling to -249,980°C, which is about 250,000 degrees below absolute zero (-273.15°C). This is physically impossible since absolute zero is the lowest possible temperature.
+- To double the resistance would require heating to 500,020 °C, which is approximately 90 times hotter than the surface of the Sun (about 5,500 °C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220 °C.
+- To halve the resistance would require cooling to -249,980 °C, which is about 250,000 degrees below absolute zero (-273.15 °C). This is physically impossible since absolute zero is the lowest possible temperature.
 
 **(d)** The unreasonable assumption is that the temperature coefficient of resistivity $$\alpha$$ remains constant over such extreme temperature ranges. The linear model $$R = R_{0}(1 + \alpha \Delta T)$$ is only valid for relatively small temperature changes (typically less than 100\text{ °C}). For large temperature changes, the relationship between resistance and temperature becomes nonlinear, $$\alpha$$ itself changes with temperature, and at extreme temperatures, phase changes occur (melting, vaporization). Additionally, the premise of trying to significantly change constantan's resistance through temperature is fundamentally misguided—constantan is specifically designed and named for its nearly constant resistance over a wide temperature range.
 
@@ -1331,7 +1331,7 @@ Starting from 20°C: $$T = 20 - 250\,000 = -249\,980$$ ºC
 
 This problem illustrates why constantan and similar alloys (like Manganin) are valuable for precision resistors. Their extremely small temperature coefficients make their resistance nearly independent of temperature within normal operating ranges. Trying to double or halve their resistance through temperature change alone is essentially impossible under any realistic conditions.
 
-(a) 500,020°C; (b) -249,980°C; (c) These temperatures are impossibly high and below absolute zero, respectively; (d) The assumption of constant $$\alpha$$ over extreme temperature ranges is invalid, and the linear model breaks down completely outside normal temperature ranges.
+(a) 500,020 °C; (b) -249,980 °C; (c) These temperatures are impossibly high and below absolute zero, respectively; (d) The assumption of constant $$\alpha$$ over extreme temperature ranges is invalid, and the linear model breaks down completely outside normal temperature ranges.
 
 :::
 

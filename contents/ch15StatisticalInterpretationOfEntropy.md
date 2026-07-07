@@ -497,9 +497,9 @@ We use Boltzmann's entropy formula $$ S = k_B \ln W $$ to calculate entropy chan
 **Solution**
 
 From Table 2:
-- Initial state (45H, 55T): $$ W_i = 6.1 \times 10^{28} $$
-- Final state (51H, 49T): $$ W_{f1} = 9.9 \times 10^{28} $$
-- Alternative final state (75H, 25T): $$ W_{f2} = 2.4 \times 10^{23} $$
+- Initial state (45 H, 55 T): $$ W_i = 6.1 \times 10^{28} $$
+- Final state (51 H, 49 T): $$ W_{f1} = 9.9 \times 10^{28} $$
+- Alternative final state (75 H, 25 T): $$ W_{f2} = 2.4 \times 10^{23} $$
 
 **(a)** Change in entropy from 45H/55T to 51H/49T:
 

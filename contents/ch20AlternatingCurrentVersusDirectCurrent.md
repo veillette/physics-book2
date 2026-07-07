@@ -378,9 +378,9 @@ $$R_{2600} = 576 \text{ Ω}(1 - 0.45) = 576 \text{ Ω}(0.55) = 317 \text{ Ω}$$
 
 **Discussion**
 
-The hot resistance is quite high (576 Ω). At 100°C lower temperature, the resistance drops to 317 Ω—a 45% decrease. This significant temperature dependence explains why incandescent bulbs draw much more current when first switched on (when cold) than during normal operation.
+The hot resistance is quite high (576 Ω). At 100 °C lower temperature, the resistance drops to 317 Ω—a 45% decrease. This significant temperature dependence explains why incandescent bulbs draw much more current when first switched on (when cold) than during normal operation.
 
-(a) The hot resistance is 576 Ω. (b) At 2600°C, the resistance is approximately 317 Ω.
+(a) The hot resistance is 576 Ω. (b) At 2600 °C, the resistance is approximately 317 Ω.
 
 :::
 
@@ -681,7 +681,7 @@ Solve for length using $$R = \rho L/A$$:
 $$L = \frac{RA}{\rho} = \frac{(14.4 \text{ Ω})(5.00 \times 10^{-6} \text{ m}^{2})}{1.19 \times 10^{-6} \text{ Ω·m}} = 60.5 \text{ m}$$
 </div>
 
-**(c)** Find the cold resistance at 20°C. Since $$R \propto \rho$$:
+**(c)** Find the cold resistance at 20 °C. Since $$R \propto \rho$$:
 
 <div class="equation">
 $$R_{\text{cold}} = R_{\text{hot}} \times \frac{\rho_{20}}{\rho_{500}} = 14.4 \text{ Ω} \times \frac{1.00}{1.19} = 12.1 \text{ Ω}$$

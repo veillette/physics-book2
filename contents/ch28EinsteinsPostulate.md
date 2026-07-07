@@ -102,8 +102,8 @@ Newton’s addition of velocities is not correct for light.
 
 Investigations such as Young’s double slit experiment in the early-1800s had
 convincingly demonstrated that light is a wave. Many types of waves were known,
-and all travelled in some medium. Scientists therefore assumed that a medium
-carried light, even in a vacuum, and light travelled at a speed $$c $$ relative
+and all traveled in some medium. Scientists therefore assumed that a medium
+carried light, even in a vacuum, and light traveled at a speed $$c $$ relative
 to that medium. Starting in the mid-1880s, the American physicist A. A.
 Michelson, later aided by E. W. Morley, made a series of direct measurements of
 the speed of light. The results of their measurements were startling.

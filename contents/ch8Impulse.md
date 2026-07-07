@@ -1115,7 +1115,7 @@ This result is consistent with official tennis ball specifications, which requir
 
 ::: problem
 
-A punter drops a 0.075kg-ball from rest vertically 1 meter down onto his foot.
+A punter drops a 0.075 kg-ball from rest vertically 1 meter down onto his foot.
 The ball leaves the foot with a speed of 18 m/s at an angle $$ 55^\circ $$
 above the horizontal. What is the impulse delivered by the foot (magnitude and
 direction)?

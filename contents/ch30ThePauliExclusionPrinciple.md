@@ -778,7 +778,7 @@ For $$n=3 $$ , the allowed values of $$l $$ are $$0, 1, $$ and $$2 $$ (correspon
 
 (a) The complete list of quantum numbers for the $$n=3 $$ shell:
 
-**3s subshell** ( $$l=0 $$ ):
+**3 s subshell** ( $$l=0 $$ ):
 - $$\left(3, 0, 0, +1/2\right) $$
 - $$\left(3, 0, 0, -1/2\right) $$
 

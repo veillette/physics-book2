@@ -437,7 +437,7 @@ The heat loss rate of 21.7 kW is substantial—equivalent to running about 22 sp
 2. **With large surface areas**: The 275 m² roof provides significant area for radiation
 3. **With dark surfaces**: The high emissivity (0.900) means the roof is an efficient radiator
 
-Even though the temperature difference is only 15°C (relatively modest), the large area and high emissivity result in substantial heat loss. This is why:
+Even though the temperature difference is only 15 °C (relatively modest), the large area and high emissivity result in substantial heat loss. This is why:
 
 - **Cool roofs** (light-colored, reflective roofs) are increasingly used in warm climates—they have low emissivity and absorb/emit less radiation
 - **Radiant barriers** in attics can reduce radiative heat transfer
@@ -1117,7 +1117,7 @@ Real-world implications:
 3. **Climate**: Water vapor is Earth's most important greenhouse gas and heat transport mechanism
 4. **Comfort**: High humidity feels uncomfortable because sweat doesn't evaporate efficiently
 
-For a typical bedroom (4m × 4m × 2.5m = 40 m³):
+For a typical bedroom (4 m × 4 m × 2.5 m = 40 m³):
 - Water condensed: 40 × 5.5 = 220 g (nearly a cup!)
 - Heat released: 40 × 12.4 = 496 kJ
 - This explains why humid rooms feel stuffy and why dehumidifiers extract surprising amounts of water
@@ -1876,7 +1876,7 @@ For perspective:
 - This would require impossibly high temperature or impossibly high emissivity beyond physical limits
 
 More reasonable scenarios:
-- A 1.2-cm meteorite entering atmosphere heats to ~1500-2000°C
+- A 1.2-cm meteorite entering atmosphere heats to ~1500-2000 °C
 - At this temperature, it would radiate only ~10-50 W, not 20,000 W
 - Most meteorites ablate (vaporize) during entry, never reaching such extreme temperatures at ground level
 
@@ -1884,15 +1884,15 @@ More reasonable scenarios:
 
 This problem demonstrates the importance of checking whether calculated results make physical sense. The telltale signs that something is wrong:
 
-1. **Temperature exceeds known limits**: Nothing solid exists above ~4000°C (tungsten's melting point)
+1. **Temperature exceeds known limits**: Nothing solid exists above ~4000 °C (tungsten's melting point)
 2. **Exceeds stellar temperatures**: Hotter than most stars is a red flag for Earth-based objects
 3. **Power density is absurd**: 20 kW from a marble-sized object implies extraordinary energy flux
 
 In reality, small meteorites:
-- Heat to 1000-2000°C during atmospheric entry
+- Heat to 1000-2000 °C during atmospheric entry
 - Ablate (surface vaporizes), which limits temperature rise
 - Often cool significantly before impact
-- Typically radiate 10s to 100s of watts, not kilowatts
+- Typically radiate 10 s to 100 s of watts, not kilowatts
 
 The problem is intentionally designed to produce an unreasonable answer, teaching students to critically evaluate results rather than blindly accepting calculations.
 

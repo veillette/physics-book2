@@ -352,7 +352,7 @@ Substituting values:
 
 **Discussion**
 
-A COP of 4.82 means that for every joule of work input, the heat pump delivers 4.82 joules of heat to the warm environment. This is very good performance, resulting from the moderate temperature difference of only 65 K (65°C) between the indoor and outdoor environments. If the outdoor temperature drops significantly below −25°C, the COP would decrease, making the heat pump less efficient and more expensive to operate. Conversely, in milder climates with smaller temperature differences, the COP would be even higher. Real heat pumps operating between these temperatures would achieve COPs in the range of 3 to 4 due to irreversibilities and inefficiencies in the actual cycle.
+A COP of 4.82 means that for every joule of work input, the heat pump delivers 4.82 joules of heat to the warm environment. This is very good performance, resulting from the moderate temperature difference of only 65 K (65 °C) between the indoor and outdoor environments. If the outdoor temperature drops significantly below −25 °C, the COP would decrease, making the heat pump less efficient and more expensive to operate. Conversely, in milder climates with smaller temperature differences, the COP would be even higher. Real heat pumps operating between these temperatures would achieve COPs in the range of 3 to 4 due to irreversibilities and inefficiencies in the actual cycle.
 
 :::
 
@@ -439,7 +439,7 @@ Substituting values:
 
 **Discussion**
 
-A COP of only 0.311 is quite low, meaning this refrigerator requires about 3.2 joules of work for every joule of heat removed from the cold environment. This poor performance results from the enormous temperature difference of 235 K (235°C) between the liquid nitrogen temperature and ambient temperature. The extreme cold required to liquefy nitrogen (−200°C is near nitrogen's boiling point of −196°C) makes this process very energy-intensive. Real cryogenic refrigeration systems operating at these temperatures would have even lower COPs (perhaps 0.15 to 0.25) due to irreversibilities. This explains why producing and storing liquid nitrogen is expensive and why such systems consume significant electrical power. For comparison, a household refrigerator with a much smaller temperature difference (perhaps 40 K) can achieve COPs of 4 to 6, more than 10 times better than this cryogenic system.
+A COP of only 0.311 is quite low, meaning this refrigerator requires about 3.2 joules of work for every joule of heat removed from the cold environment. This poor performance results from the enormous temperature difference of 235 K (235 °C) between the liquid nitrogen temperature and ambient temperature. The extreme cold required to liquefy nitrogen (−200 °C is near nitrogen's boiling point of −196 °C) makes this process very energy-intensive. Real cryogenic refrigeration systems operating at these temperatures would have even lower COPs (perhaps 0.15 to 0.25) due to irreversibilities. This explains why producing and storing liquid nitrogen is expensive and why such systems consume significant electrical power. For comparison, a household refrigerator with a much smaller temperature difference (perhaps 40 K) can achieve COPs of 4 to 6, more than 10 times better than this cryogenic system.
 
 :::
 
@@ -649,13 +649,13 @@ Using energy conservation:
 
 __The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.__
 
-__(e)__ This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
+__(e)__ This refrigerator operates at −30.0 °C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
 - __Commercial freezers__ for long-term food storage
 - __Laboratory freezers__ for preserving biological samples
 - __Industrial cold storage__ facilities
 - __Pharmaceutical storage__ requiring very low temperatures
 
-This is not a household refrigerator (which typically operates around −18°C to −20°C in the freezer compartment) but rather a specialized deep-freeze unit.
+This is not a household refrigerator (which typically operates around −18 °C to −20 °C in the freezer compartment) but rather a specialized deep-freeze unit.
 
 **Discussion**
 
@@ -726,11 +726,11 @@ Converting to Celsius:
  $$ T_h = 300.6 - 273 = 27.6\text{°C} $$
 </div>
 
-__The hot reservoir temperature must be 27.6°C or 301 K.__
+__The hot reservoir temperature must be 27.6 °C or 301 K.__
 
 **Discussion**
 
-A COP of 7.00 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the hot reservoir must be only 37.6 K (or 37.6°C) warmer than the cold reservoir. At −10.0°C cold temperature and 27.6°C warm temperature, the temperature difference is modest, allowing for good efficiency. This result makes sense for a household freezer: the freezer compartment might be at −10°C, while the room temperature is around 28°C, achieving a COP of about 7 in ideal conditions. Real refrigerators would achieve COPs of perhaps 4 to 6 due to irreversibilities. If the room were significantly warmer than 27.6°C, the COP would drop below 7.00, requiring more energy per unit of heat removed. This demonstrates why refrigerators and freezers work more efficiently in cooler environments and why keeping them in hot rooms or garages increases electricity costs.
+A COP of 7.00 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the hot reservoir must be only 37.6 K (or 37.6 °C) warmer than the cold reservoir. At −10.0 °C cold temperature and 27.6 °C warm temperature, the temperature difference is modest, allowing for good efficiency. This result makes sense for a household freezer: the freezer compartment might be at −10 °C, while the room temperature is around 28 °C, achieving a COP of about 7 in ideal conditions. Real refrigerators would achieve COPs of perhaps 4 to 6 due to irreversibilities. If the room were significantly warmer than 27.6 °C, the COP would drop below 7.00, requiring more energy per unit of heat removed. This demonstrates why refrigerators and freezers work more efficiently in cooler environments and why keeping them in hot rooms or garages increases electricity costs.
 
 :::
 
@@ -793,11 +793,11 @@ Converting to Celsius:
  $$ T_c = 270 \text{ K} - 273 = -3.0\text{°C} $$
 </div>
 
-__The cold reservoir temperature must be −3.0°C or 270 K.__
+__The cold reservoir temperature must be −3.0 °C or 270 K.__
 
 **Discussion**
 
-A COP of 12.0 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the outdoor temperature needs to be only 25 K (or 25°C) below the indoor temperature. At −3.0°C outdoor temperature, the heat pump operates very efficiently because it doesn't have to work hard to "lift" heat from the cold reservoir to the hot one. This result illustrates why heat pumps are most effective in mild climates. If the outdoor temperature drops significantly below −3.0°C, the COP would fall below 12.0, making the heat pump less efficient. Conversely, on warmer days above −3.0°C, the COP would exceed 12.0, providing even better performance. This problem shows the strong dependence of heat pump performance on climate conditions.
+A COP of 12.0 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the outdoor temperature needs to be only 25 K (or 25 °C) below the indoor temperature. At −3.0 °C outdoor temperature, the heat pump operates very efficiently because it doesn't have to work hard to "lift" heat from the cold reservoir to the hot one. This result illustrates why heat pumps are most effective in mild climates. If the outdoor temperature drops significantly below −3.0 °C, the COP would fall below 12.0, making the heat pump less efficient. Conversely, on warmer days above −3.0 °C, the COP would exceed 12.0, providing even better performance. This problem shows the strong dependence of heat pump performance on climate conditions.
 
 :::
 

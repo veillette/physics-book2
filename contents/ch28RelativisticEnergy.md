@@ -730,7 +730,7 @@ $$N = \frac{E_{\text{available}}}{E_{\text{star}}} = \frac{5 \times 10^{67}}{3.6
 
 **Discussion**
 
-Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$ (140 billion billion) stars the size of our Sun! For perspective, the observable universe contains an estimated $$10^{24}$$ stars, which is 10,000 times more than this calculation suggests. This apparent discrepancy makes sense because:
+Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$ (140 billion) stars the size of our Sun! For perspective, the observable universe contains an estimated $$10^{24}$$ stars, which is 10,000 times more than this calculation suggests. This apparent discrepancy makes sense because:
 
 1. Not all Big Bang energy went into creating matter—much went into kinetic energy, radiation, and dark energy
 2. Most matter in the universe is not in stars (dark matter comprises ~85% of all matter)
@@ -1237,7 +1237,7 @@ This problem beautifully illustrates the connection between time dilation and en
 
 ::: problem
 
-Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s, given its rest energy is 939.6 MeV, and rest life span is 900s.
+Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s, given its rest energy is 939.6 MeV, and rest life span is 900 s.
 
 :::
 
@@ -1882,7 +1882,7 @@ Consider an astronaut traveling to another star at a relativistic velocity.
 Construct a problem in which you calculate the time for the trip as observed on
 the Earth and as observed by the astronaut. Also calculate the amount of mass
 that must be converted to energy to get the astronaut and ship to the velocity
-travelled. Among the things to be considered are the distance to the star, the
+traveled. Among the things to be considered are the distance to the star, the
 velocity, and the mass of the astronaut and ship. Unless your instructor directs
 you otherwise, do not include any energy given to other masses, such as rocket
 propellants.

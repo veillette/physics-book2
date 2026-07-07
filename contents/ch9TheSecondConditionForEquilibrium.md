@@ -460,7 +460,7 @@ This is a practical application of the torque equation. The same principle expla
 
 ::: problem
 
-(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850m from the hinges. What torque are you exerting relative to the hinges?
+(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850 m from the hinges. What torque are you exerting relative to the hinges?
 (b) Does it matter if you push at the same height as the hinges?
 
 :::

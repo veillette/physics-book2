@@ -307,7 +307,7 @@ As expected, the lighter child must sit farther from the pivot to balance the he
 
 ::: problem
 
-(a) Calculate the magnitude and direction of the force on each foot of the horse in [Figure 10](#Figure10) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500kg.
+(a) Calculate the magnitude and direction of the force on each foot of the horse in [Figure 10](#Figure10) (two are on the ground), assuming the center of mass of the horse is midway between the feet. The total mass of the horse and rider is 500 kg.
 (b) What is the minimum coefficient of friction between the hooves and ground? Note that the force exerted by the wall is horizontal.
 
 :::

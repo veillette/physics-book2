@@ -330,7 +330,7 @@ quantities often expressed in electron volts. For example, about 5 eV of energy
 is required to break up certain organic molecules. If a proton is accelerated
 from rest through a potential difference of 30 kV, it is given an energy of 30
 keV (30 000 eV) and it can break up as many as 6000 of these molecules ( $$30 000 \text{eV}÷5 \text{eV per molecule}=6000 \text{molecules} $$ ). Nuclear decay
-energies are on the order of 1 MeV (1 000 000 eV) per event and can, thus,
+energies are on the order of 1 MeV (1 000 eV) per event and can, thus,
 produce significant biological damage.
 
 ### Conservation of Energy
@@ -841,7 +841,7 @@ steam.
 
 **Strategy**
 
-This problem connects electrical energy to thermal energy and phase changes. For part (a), we use $$E = qV$$ to find the electrical energy. For part (b), we need to calculate both the energy to heat water from 15°C to 100°C and the energy to vaporize it, then find what mass can be processed with the available energy. Part (c) is conceptual.
+This problem connects electrical energy to thermal energy and phase changes. For part (a), we use $$E = qV$$ to find the electrical energy. For part (b), we need to calculate both the energy to heat water from 15 °C to 100 °C and the energy to vaporize it, then find what mass can be processed with the available energy. Part (c) is conceptual.
 
 **Solution**
 

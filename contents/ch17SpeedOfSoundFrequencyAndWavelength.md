@@ -546,7 +546,7 @@ $$\begin{array}{lll}v_w & = & (331 \text{ m/s})\sqrt{\frac{T}{273 \text{ K}}} \\
 
 This calculation confirms the stated value of 343 m/s for the speed of sound at room temperature (20°C). The speed increases by about 3.6% compared to the speed at 0°C (331 m/s), which demonstrates the square root dependence on absolute temperature. This temperature dependence arises because sound propagation in gases is related to the average molecular speed, which also depends on $$\sqrt{T}$$. The value 343 m/s is commonly used as a standard reference for sound speed in air and is important for many practical applications, from acoustics to weather prediction.
 
-The speed of sound in 20.0°C air is indeed 343 m/s, as claimed.
+The speed of sound in 20.0 °C air is indeed 343 m/s, as claimed.
 
 :::
 
@@ -587,9 +587,9 @@ $$\begin{array}{lll}v_w & = & (331 \text{ m/s})\sqrt{\frac{T}{273 \text{ K}}} \\
 
 **Discussion**
 
-The speed of sound at 56.0°C (363 m/s) is significantly faster than at room temperature (343 m/s at 20°C), representing about a 5.8% increase. This is also nearly 10% faster than at 0°C (331 m/s). The higher speed is due to the increased kinetic energy of air molecules at elevated temperatures, which allows pressure disturbances (sound waves) to propagate more quickly. This temperature effect is important for sound propagation in desert environments and can affect acoustic phenomena like echo location and sound transmission over distances. The extreme heat in the Sahara creates interesting acoustic effects and must be considered in any sound-based measurements or communications in such environments.
+The speed of sound at 56.0 °C (363 m/s) is significantly faster than at room temperature (343 m/s at 20 °C), representing about a 5.8% increase. This is also nearly 10% faster than at 0 °C (331 m/s). The higher speed is due to the increased kinetic energy of air molecules at elevated temperatures, which allows pressure disturbances (sound waves) to propagate more quickly. This temperature effect is important for sound propagation in desert environments and can affect acoustic phenomena like echo location and sound transmission over distances. The extreme heat in the Sahara creates interesting acoustic effects and must be considered in any sound-based measurements or communications in such environments.
 
-The speed of sound in 56.0°C air is 363 m/s.
+The speed of sound in 56.0 °C air is 363 m/s.
 
 :::
 
@@ -843,9 +843,9 @@ $$\text{Percent uncertainty} = \frac{t_1 - t_2}{t_1} \times 100\% = \frac{18.0 -
 
 **Discussion**
 
-This problem illustrates an important limitation of echolocation systems that depend on the speed of sound: environmental factors like temperature affect accuracy. The 5% variation due to a 30°C temperature difference is significant but manageable through adaptive techniques. Modern human-made sonar and ultrasound systems similarly must account for temperature variations, often by measuring the temperature directly and adjusting their calculations accordingly.
+This problem illustrates an important limitation of echolocation systems that depend on the speed of sound: environmental factors like temperature affect accuracy. The 5% variation due to a 30 °C temperature difference is significant but manageable through adaptive techniques. Modern human-made sonar and ultrasound systems similarly must account for temperature variations, often by measuring the temperature directly and adjusting their calculations accordingly.
 
-(a) The echo times are 18.0 ms at 5.00°C and 17.1 ms at 35.0°C. (b) This represents a 5.00% uncertainty. (c) While a 5% uncertainty could cause difficulties for prey capture based on a single measurement, bats overcome this by continuously tracking prey with rapid, repeated sound pulses as they approach.
+(a) The echo times are 18.0 ms at 5.00 °C and 17.1 ms at 35.0 °C. (b) This represents a 5.00% uncertainty. (c) While a 5% uncertainty could cause difficulties for prey capture based on a single measurement, bats overcome this by continuously tracking prey with rapid, repeated sound pulses as they approach.
 
 :::
 

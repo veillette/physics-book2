@@ -189,7 +189,7 @@ We consider how temperature affects air viscosity, and then how viscosity affect
 
 **Solution**
 
-Raindrops will fall **faster in 5°C (colder) air** than in 25°C air.
+Raindrops will fall **faster in 5 °C (colder) air** than in 25 °C air.
 
 The key factor is how temperature affects air viscosity. Unlike liquids (where viscosity decreases with temperature), **gas viscosity increases with temperature**. This occurs because warmer gas molecules move faster and transfer momentum more effectively between fluid layers.
 
@@ -199,7 +199,7 @@ Typical values:
 
 Since terminal velocity is reached when viscous drag equals the net downward force, and Stokes' law gives $$F_S = 6\pi r\eta v$$, a higher viscosity means more drag at any given speed. More drag results in a lower terminal velocity.
 
-Therefore, raindrops reach a **higher terminal velocity in colder (5°C) air** because the lower viscosity produces less drag force.
+Therefore, raindrops reach a **higher terminal velocity in colder (5 °C) air** because the lower viscosity produces less drag force.
 
 **Discussion**
 

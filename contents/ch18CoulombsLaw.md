@@ -1376,7 +1376,7 @@ These problems demonstrate the principle of superposition—the net force is the
 
 Two point charges  $${q}_{1} $$  and  $${q}_{2} $$  are  $$3.00 \text{m} $$
  apart, and their total charge is  $$20 µ\text{C} $$ .
- (a) If the force of repulsion between them is 0.075N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
+ (a) If the force of repulsion between them is 0.075 N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525 N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
 
 :::
 

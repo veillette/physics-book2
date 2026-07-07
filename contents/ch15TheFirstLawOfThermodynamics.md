@@ -984,8 +984,8 @@ Calculate the heat transfer to the environment:
 Part (a): Of the 600 kJ metabolized while climbing the Washington Monument, 108 kJ (18%) performs the mechanical work of lifting the woman's body against gravity, while 492 kJ (82%) is released as heat to the environment. This 492 kJ is a substantial amount of thermal energy that must be dissipated to prevent the body from overheating.
 
 Part (b): The large heat output (492 kJ) strongly explains why you warm up quickly when exercising. To put this in perspective:
-- 492 kJ is enough energy to raise the temperature of 10 liters of water by about 12°C
-- If this heat weren't dissipated, it would raise the body temperature of a 60-kg woman by approximately 2°C, which would be dangerous (normal body temperature is 37°C)
+- 492 kJ is enough energy to raise the temperature of 10 liters of water by about 12 °C
+- If this heat weren't dissipated, it would raise the body temperature of a 60-kg woman by approximately 2 °C, which would be dangerous (normal body temperature is 37 °C)
 - The body must actively cool itself through multiple mechanisms:
   - **Sweating**: Evaporation of sweat removes large amounts of heat (2.4 MJ per liter of sweat evaporated)
   - **Increased breathing**: Exhaled air carries away heat
