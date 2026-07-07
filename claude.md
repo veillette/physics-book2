@@ -82,7 +82,7 @@ Content is structured modularly in the `contents/` directory.
 
 - **Engine**: MathJax v4, self-hosted under `assets/js/mathjax/` and rendered client-side.
 - **Configuration**: `assets/js/math-config.js` (delimiters, macros, `processEscapes`).
-- **Delimiters**:
+- **Delimiters** (configured in `math-config.js`, emitted by the markdown pipeline):
   - Inline math: `$...$` or `\\(...\\)`
   - Display math: `$$...$$` or `\\[...\\]`
 - The build passes math through verbatim (no markdown escaping inside `$$…$$`), so backslashes and LaTeX arrays survive.

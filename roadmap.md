@@ -75,7 +75,7 @@ Markdown bodies are rendered with **no template engine** (`markdownTemplateEngin
 so Nunjucks/Liquid never touches math or brace-heavy LaTeX. Custom plugins in
 `lib/eleventy/` provide Kramdown-compatible behavior:
 
-- Math delimiter wrapping (`markdown-it-kramdown-math.js`)
+- Math delimiter conversion (`markdown-it-kramdown-math.js` → MathJax `\\(...\\)` / `\\[...\\]`)
 - Heading slug algorithm (`kramdown-slugify.js`)
 - Block containers (`problem`, `solution`, `example`, `note`, `glossary`, …)
 - Definition lists and footnotes

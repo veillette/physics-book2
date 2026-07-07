@@ -6,12 +6,12 @@ import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
 // setLibrary, so these tests exercise the real build pipeline (roadmap P4.4).
 const md = createMarkdown();
 
-// Helpers to build expected kdmath output without tripping template-literal ${}.
-const span = x => `<span class="kdmath">$${x}$</span>`;
-const blockDiv = x => `<div class="kdmath">$$\n${x}\n$$</div>\n`;
+// Helpers to build expected MathJax delimiter output without tripping template-literal ${}.
+const span = x => `\\(${x}\\)`;
+const blockDiv = x => `\\[\n${x}\n\\]\n`;
 
 describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () => {
-  it('inline $$…$$ becomes a single-$ kdmath span with trimmed content', () => {
+  it('inline $$…$$ becomes \\(...\\) delimiters with trimmed content', () => {
     expect(md.renderInline('$$Q $$')).toBe(span('Q'));
     expect(md.renderInline(String.raw`$$\Delta \text{PE}=q\Delta V $$`)).toBe(
       span(String.raw`\Delta \text{PE}=q\Delta V`)
@@ -34,7 +34,7 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
     expect(md.renderInline(String.raw`see \[SID\]`)).toBe('see [SID]');
   });
 
-  it('standalone $$…$$ becomes a block kdmath div (double $, no <p> wrapper)', () => {
+  it('standalone $$…$$ becomes \\[...\\] display delimiters (no <p> wrapper)', () => {
     expect(md.render(String.raw`$$E_{\text{cap}} = \frac{1}{2}CV^2$$`)).toBe(
       blockDiv(String.raw`E_{\text{cap}} = \frac{1}{2}CV^2`)
     );
@@ -54,8 +54,9 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
   it('leaves $$…$$ inside a raw HTML block verbatim (equation divs)', () => {
     const out = md.render(['<div class="equation">', '$$E=mc^2$$', '</div>'].join('\n'));
     expect(out).toContain('<div class="equation">');
-    expect(out).toContain('$$E=mc^2$$'); // untouched — no kdmath wrapping
-    expect(out).not.toContain('kdmath');
+    expect(out).toContain('$$E=mc^2$$'); // untouched — raw HTML block left alone
+    expect(out).not.toContain('\\(');
+    expect(out).not.toContain('\\[');
   });
 
   it('renders math inside a table cell (inline span)', () => {
