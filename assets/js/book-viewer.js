@@ -135,13 +135,16 @@ function parser() {
     const linkElements = summary.querySelectorAll('a[href]');
     linkElements.forEach(link => {
       const href = link.getAttribute('href');
-      const parentLi = link.parentNode;
+      const listItem = link.closest('li');
       const checkmarkIcon = document.createElement('i');
+      checkmarkIcon.className = 'fa-check';
       checkmarkIcon.innerHTML = getIcon('check', '1em');
-      parentLi.insertBefore(checkmarkIcon, link);
+      // Insert at the <li> level so chapter entries (wrapped in <p>) layout correctly
+      const insertBefore = listItem.querySelector('p') || link;
+      listItem.insertBefore(checkmarkIcon, insertBefore);
 
       if (visitedLinks[href]) {
-        parentLi.classList.add('visited');
+        listItem.classList.add('visited');
       }
     });
 

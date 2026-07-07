@@ -47,11 +47,12 @@
 
 /* ==================== Summary Checkmarks ==================== */
 
-:is(.summary li:not(.visited) > .fa-check) {
+:is(.summary li:not(.visited) > .fa-check, .summary li:not(.visited) .fa-check) {
   display: none !important;
 }
 
-.summary li.visited > .fa-check {
+.summary li.visited > .fa-check,
+.summary li.visited .fa-check {
   display: inline-block !important;
   inset-inline-end: auto !important;
   inset-block-start: auto !important;
@@ -538,6 +539,13 @@ section.normal > .title {
 .book .book-summary ul.summary li.chapter {
   counter-increment: chapter;
   counter-reset: section;
+  white-space: normal;
+}
+
+/* Flatten the <p> wrapper so chapter number, checkmark, and title flow inline */
+.book .book-summary ul.summary li.chapter > p {
+  display: contents;
+  margin: 0;
 }
 
 .book .book-summary ul.summary li.chapter::before {
@@ -545,22 +553,28 @@ section.normal > .title {
   color: var(--physics-color-primary);
   font-weight: bold;
   font-size: 120%;
-  padding-inline-start: 1em;
 }
 
-.book .book-summary ul.summary li.chapter > a {
+.book .book-summary ul.summary li.chapter > p > a {
+  display: inline !important;
   font-size: 120%;
+  white-space: normal;
 }
 
 .book .book-summary ul.summary li.chapter > ol > li {
   counter-increment: section;
+  white-space: normal;
 }
 
 .book .book-summary ul.summary li.chapter > ol > li::before {
   content: counter(chapter) '.' counter(section) ' ';
   color: var(--physics-color-primary);
   font-weight: bold;
-  padding-inline-start: 2em;
+}
+
+.book .book-summary ul.summary li.chapter > ol > li > a {
+  display: inline !important;
+  white-space: normal;
 }
 
 /* ==================== Page Counters ==================== */
@@ -650,6 +664,15 @@ iframe {
     min-block-size: var(--touch-target-min);
     display: flex;
     align-items: center;
+  }
+
+  /* Keep chapter/section numbers inline with their titles */
+  :is(
+    .book .book-summary ul.summary li.chapter > p > a,
+    .book .book-summary ul.summary li.chapter > ol > li > a
+  ) {
+    display: inline !important;
+    white-space: normal;
   }
 
   /* Better active state for summary links */
