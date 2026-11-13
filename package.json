@@ -111,7 +111,7 @@
     "minisearch": "^7.2.0",
     "prettier": "^3.9.6",
     "sharp": "^0.35.5",
-    "simple-git": "^4.0.1",
+    "simple-git": "^4.0.2",
     "vitest": "^4.1.12",
     "lint-staged": "^17.6.0"
   },
