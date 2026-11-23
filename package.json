@@ -88,7 +88,7 @@
     "audit": "npm run check:links && npm run check:orphans && npm run check:figures && npm run check:yaml && npm run check:accessibility && npm run check:content && npm run check:structure && npm run check:cross-refs && npm run check:equations"
   },
   "devDependencies": {
-    "@11ty/eleventy": "4.0.0-alpha.10",
+    "@11ty/eleventy": "4.0.0-alpha.12",
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.65.0",
     "@types/node": "^26.6.6",
